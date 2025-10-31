@@ -1,0 +1,11 @@
+{
+  "name": "brandstoryae/framework",
+  "description": "Lightweight PHP MVC for BrandStoryAE (Herd/Valet ready)",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {}
+}
