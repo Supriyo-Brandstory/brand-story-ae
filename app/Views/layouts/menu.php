@@ -23,21 +23,21 @@
                                 <li class="li-headeing"><a href="<?= route('home')?>">Digital Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center">
                                     <img src="/assets/images/menu/performace-marketing.png" alt="Performance Marketing" width="30" height="30">
-                                    <a href="<?= route('full-funnel-performance-marketing/')?>">Perf. Marketing</a>
+                                    <a href="<?= route('fullFunnelPerformanceMarketing')?>">Perf. Marketing</a>
                                 </li>
 
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/email-marketing.png" alt="E-mail Marketing" width="30" height="30"> <a href="/email-marketing-company-in-dubai/">E-mail Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pay-per-click.png" alt="Pay-Per-Click Services" width="30" height="30"><a href="/pay-per-click-ppc-services-in-dubai/">PPC Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/video-marketing.png" alt="Video Marketing" width="30" height="30"><a href="/video-marketing-agency-dubai/">Video Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="B2B Services" width="30" height="30"> <a href="/seo-services-company-in-dubai/">SEO Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/email-marketing.png" alt="E-mail Marketing" width="30" height="30"> <a href="<?= route('emailmarketingdubai')?>">E-mail Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pay-per-click.png" alt="Pay-Per-Click Services" width="30" height="30"><a href="<?= route('payperclickservicesdubai')?>">PPC Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/video-marketing.png" alt="Video Marketing" width="30" height="30"><a href="<?= route('videomarketingdubai')?>">Video Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="B2B Services" width="30" height="30"> <a href="<?= route('seoservicesdubai')?>">SEO Services</a></li>
                             </ul>
                             <ul class="w-100">
                                 <li class="li-headeing"><a href="<?= route('socialmediamarketingdubai')?>">Social Media</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/facebook-marketing.png" alt="Facebook Marketing" width="30" height="30"><a href="/facebook-marketing-agency-in-dubai/">Facebook Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/instagram-marketing.png" alt="Instagram Marketing" width="30" height="30"><a href="/instagram-advertising-agency-in-dubai/">Instagram Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/twitter-marketing.png" alt="Twitter Marketing" width="30" height="30"><a href="/twitter-advertising-dubai/">Twitter Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pinterest-marketing.png" alt="Pinterest Marketing" width="30" height="30"><a href="/pinterest-advertising-services-in-dubai/">Pinterest Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/tiktok-marketing.png" alt="TikTok Marketing" width="30" height="30"><a href="/tiktok-marketing-agency-in-dubai/">TikTok Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/facebook-marketing.png" alt="Facebook Marketing" width="30" height="30"><a href="<?= route('facebookmarketingdubai')?>">Facebook Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/instagram-marketing.png" alt="Instagram Marketing" width="30" height="30"><a href="<?= route('instagrammarketingdubai')?>">Instagram Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/twitter-marketing.png" alt="Twitter Marketing" width="30" height="30"><a href="<?= route('twittermarketingdubai')?>">Twitter Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pinterest-marketing.png" alt="Pinterest Marketing" width="30" height="30"><a href="<?= route('pinterestmarketingdubai')?>">Pinterest Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/tiktok-marketing.png" alt="TikTok Marketing" width="30" height="30"><a href="<?= route('tiktokmarketingdubai')?>">TikTok Marketing</a></li>
                             </ul>
                             <ul class="w-100">
                                 <li class="li-headeing"><a href="<?= route('seoservicesdubai')?>">SEO Services</a></li>   
@@ -57,7 +57,7 @@
 
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="/website-design-company-in-dubai/">Website Dev</a></li>
+                                <li class="li-headeing"><a href="<?= route('websitedesigndubai') ?>">Website Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/wordpress-development.png" alt="WordPress Development" width="30" height="30"><a href="/wordpress-development-company-in-dubai/">WordPress Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/magento-development.png" alt="Magento Development" width="30" height="30"><a href="/magento-website-development-dubai/">Magento Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/drupal-development.png" alt="Drupal Development" width="30" height="30"><a href="/drupal-website-development-company-in-dubai/">Drupal Dev</a></li>

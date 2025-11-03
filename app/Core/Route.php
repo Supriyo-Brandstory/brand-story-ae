@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Core;
 
 class Route
@@ -27,11 +28,27 @@ class Route
             }
         }
 
+        // if (!$routeAction) {
+        //     http_response_code(404);
+        //     // Optional: include a 404 view if exists
+        //     if (file_exists(__DIR__ . '/../Views/404.php')) {
+        //         include __DIR__ . '/../Views/404.php';
+        //     } else {
+        //         echo '<h1>404 - Page not found</h1>';
+        //     }
+        //     exit;
+        // }
         if (!$routeAction) {
             http_response_code(404);
-            // Optional: include a 404 view if exists
-            if (file_exists(__DIR__ . '/../Views/404.php')) {
-                include __DIR__ . '/../Views/404.php';
+
+            // Call your controller's notfound() method
+            $controllerClass = "App\\Controllers\\FrontendController";
+            $controllerFile = __DIR__ . "/../Controllers/FrontendController.php";
+
+            if (file_exists($controllerFile)) {
+                require_once $controllerFile;
+                $controller = new $controllerClass();
+                return $controller->notfound();
             } else {
                 echo '<h1>404 - Page not found</h1>';
             }
