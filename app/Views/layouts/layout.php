@@ -168,17 +168,22 @@
 ">
 
 
-    <div class="page-content">
+    <div class="page-content" id="content">
 
 
         <?php include __DIR__ . '/header.php'; ?>
 
 
-        <main>
-            <?= $content ?>
+        <div >
+            <main>
+                <?= $content ?>
 
-        </main>
+            </main>
+        </div>
         <?php include __DIR__ . '/footer.php'; ?>
+   <!-- <script src="<?= base_url('assets/js/spa.js?key=' . time()) ?>"></script> -->
+
+
     </div>
 
 </body>

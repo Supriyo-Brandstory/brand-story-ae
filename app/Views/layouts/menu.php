@@ -32,7 +32,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="B2B Services" width="30" height="30"> <a href="/seo-services-company-in-dubai/">SEO Services</a></li>
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="<?= route('social-media-marketing-agency-in-dubai/')?>">Social Media</a></li>
+                                <li class="li-headeing"><a href="<?= route('socialmediamarketingdubai')?>">Social Media</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/facebook-marketing.png" alt="Facebook Marketing" width="30" height="30"><a href="/facebook-marketing-agency-in-dubai/">Facebook Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/instagram-marketing.png" alt="Instagram Marketing" width="30" height="30"><a href="/instagram-advertising-agency-in-dubai/">Instagram Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/twitter-marketing.png" alt="Twitter Marketing" width="30" height="30"><a href="/twitter-advertising-dubai/">Twitter Marketing</a></li>
@@ -40,7 +40,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/tiktok-marketing.png" alt="TikTok Marketing" width="30" height="30"><a href="/tiktok-marketing-agency-in-dubai/">TikTok Marketing</a></li>
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="<?= route('seo-services-company-in-dubai/')?>">SEO Services</a></li>   
+                                <li class="li-headeing"><a href="<?= route('seoservicesdubai')?>">SEO Services</a></li>   
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai/">SEO Audit Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="ORM Services" width="30" height="30"> <a href="/online-reputation-management-services-in-dubai/">ORM Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/content-marketing-agency-dubai/">Content Marketing</a></li>
@@ -49,7 +49,7 @@
 
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="/branding-agency-in-dubai/">Branding Services</a></li>
+                                <li class="li-headeing"><a href="<?= route('brandagencydubai')?>">Branding Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/uiux-design.png" alt="UI/UX Design" width="30" height="30"><a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/logo-design.png" alt="Logo Design" width="30" height="30"><a href="/logo-designing-dubai/">Logo Design</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/creative-advertising.png" alt="Creative Advertising" width="30" height="30"><a href="/creative-advertising-agency-in-dubai/">Creative Advertising</a></li>
