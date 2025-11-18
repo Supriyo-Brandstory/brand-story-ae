@@ -134,4 +134,85 @@ class FrontendController extends Controller
         ];
         return $this->view('services/tiktok-marketing-agency-in-dubai', ['meta' => $meta]);
     }
+    public function seoAuditServicesInDubai(){
+        $meta = [
+            'title' => 'SEO Audit Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our SEO Audit services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'redes-page service-page'
+        ];
+        return $this->view('services/seo-audit-services-in-dubai', ['meta' => $meta]);
+    }
+    public function onlineReputationManagementServicesInDubai(){
+        $meta = [
+            'title' => 'Online Reputation Management Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Online Reputation Management services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'em-dubai-page service-page'
+        ];
+        return $this->view('services/online-reputation-management-services-in-dubai', ['meta' => $meta]);
+    }
+    public function contentMarketingAgencyDubai(){
+        $meta = [
+            'title' => 'Content Marketing Agency in Dubai - BrandStoryAE',
+            'description' => 'Discover our Content Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'em-dubai-page service-page'
+        ];
+        return $this->view('services/content-marketing-agency-in-dubai', ['meta' => $meta]);
+    }
+    public function uiuxDesignCompanyInDubai(){
+        $meta = [
+            'title' => 'Best UI/UX Design Agency in Dubai | UI UX Design Company in Dubai | Leading UI UX Companies in Dubai | Top UX Agency Dubai | UX Design Companies in Dubai | Brandstory',
+            'description' => 'BrandStory UAE is a leading UI/UX design agency in Dubai, crafting innovative, user-centric digital solutions to elevate your brand. Get in touch for top-notch UI/UX designs that drive results!',
+            'classname'=>'ui-ux-new-test'
+        ];
+        return $this->view('services/ui-ux-design-company-in-dubai', ['meta' => $meta]);
+    }
+    public function logoDesigningDubai(){
+        $meta = [
+            'title' => 'Logo Designing Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Logo Designing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/logo-designing-company-in-dubai', ['meta' => $meta]);
+    }
+    public function creativeAdvertisingAgencyDubai(){
+        $meta = [
+            'title' => 'Creative Advertising Agency in Dubai - BrandStoryAE',
+            'description' => 'Discover our Creative Advertising services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/creative-advertising-agency-in-dubai', ['meta' => $meta]);
+    }
+
+    public function wordpressDevelopmentCompanyInDubai(){
+        $meta = [
+            'title' => 'WordPress Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our WordPress Development services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/wordpress-development-company-in-dubai', ['meta' => $meta]);
+    }
+    public function megentoWebsiteDevelopmentDubai(){
+        $meta = [
+            'title' => 'Megento Website Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Megento Website Development services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/magento-website-development-dubai', ['meta' => $meta]);
+    }
+    public function durpalWebsiteDevelopmentCompanyInDubai(){
+        $meta = [
+            'title' => 'Durpal Website Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Durpal Website Development services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/drupal-website-development-company-in-dubai', ['meta' => $meta]);
+    }
+    public function ecommerceDevelopmentCompanyInDubai(){
+        $meta = [
+            'title' => 'Ecommerce Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Development services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'dm-page service-page'
+        ];
+        return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
+    }
 }
