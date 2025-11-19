@@ -1,4 +1,5 @@
 <?php
+
 use App\Core\Route;
 
 // Define routes (path, "Controller@method", name)
@@ -35,10 +36,24 @@ Route::group(['prefix' => '/industries'], function () {
     Route::get('/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
     Route::get('/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');
     Route::get('/healthcare-marketing-services', 'FrontendController@healthcareMarketingServices', 'healthcaremarketingservices');
-    Route::get('/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices'); 
-    Route::get('/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices'); 
+    Route::get('/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices');
+    Route::get('/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices');
     Route::get('/travel-agency-marketing-services', 'FrontendController@travelAgencyMarketingServices', 'travelagencymanagementservices');
 });
 
 // case studies 
 Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
+
+
+
+
+
+Route::group(['prefix' => '/admin'], function () {
+    Route::get('/login', 'AdminController@login');
+    Route::post('/login', 'AdminController@loginPost');
+
+    Route::middleware('AdminAuth', function () {
+        Route::get('/dashboard', 'AdminController@dashboard');
+        Route::get('/logout', 'AdminController@logout');
+    });
+});

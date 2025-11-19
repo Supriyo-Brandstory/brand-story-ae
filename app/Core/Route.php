@@ -1,130 +1,167 @@
 <?php
-
 namespace App\Core;
 
 class Route
 {
-    private static $routes = []; // ['GET' => ['' => 'HomeController@index', 'about' => 'AboutController@index']]
-    private static $names = [];  // ['home' => '']
+    private static $routes = [];         // ['GET' => ['/admin/dashboard' => ['action'=>..., 'middleware'=>['AdminAuth']]]
+    private static $names = [];
+    private static $currentMiddleware = [];
+
+    /* --------------------------------
+        ROUTE REGISTER METHODS
+    ---------------------------------*/
 
     public static function get($path, $action, $name = null)
     {
-        $p = trim($path, '/'); // '' for home, 'about' for about
-        self::$routes['GET'][$p] = $action;
-        if ($name) self::$names[$name] = $p;
+        self::addRoute('GET', $path, $action, $name);
     }
+
+    public static function post($path, $action, $name = null)
+    {
+        self::addRoute('POST', $path, $action, $name);
+    }
+
+    public static function middleware($middleware, $callback)
+    {
+        $middlewares = is_array($middleware) ? $middleware : [$middleware];
+
+        $previous = self::$currentMiddleware;
+        self::$currentMiddleware = array_merge(self::$currentMiddleware, $middlewares);
+
+        $callback();
+
+        self::$currentMiddleware = $previous;
+    }
+
+    private static function addRoute($method, $path, $action, $name)
+    {
+        $path = trim($path, '/');
+
+        self::$routes[$method][$path] = [
+            'action' => $action,
+            'middleware' => self::$currentMiddleware
+        ];
+
+        if ($name) {
+            self::$names[$name] = $path;
+        }
+    }
+
+
+    /* --------------------------------
+        DISPATCH ROUTE
+    ---------------------------------*/
 
     public static function dispatch()
     {
-        $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $uri = trim($uri, '/'); // '' or 'about'
+        $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
         $method = $_SERVER['REQUEST_METHOD'];
 
-        $routeAction = self::$routes[$method][$uri] ?? null;
-        if (!$routeAction) {
-            // try fallback: if uri empty and there's route registered as ''
-            if ($uri === '' && isset(self::$routes[$method][''])) {
-                $routeAction = self::$routes[$method][''];
-            }
-        }
+        $routes = self::$routes[$method] ?? [];
 
-        // if (!$routeAction) {
-        //     http_response_code(404);
-        //     // Optional: include a 404 view if exists
-        //     if (file_exists(__DIR__ . '/../Views/404.php')) {
-        //         include __DIR__ . '/../Views/404.php';
-        //     } else {
-        //         echo '<h1>404 - Page not found</h1>';
-        //     }
-        //     exit;
-        // }
-        if (!$routeAction) {
-            http_response_code(404);
+        foreach ($routes as $route => $data) {
 
-            // Call your controller's notfound() method
-            $controllerClass = "App\\Controllers\\FrontendController";
-            $controllerFile = __DIR__ . "/../Controllers/FrontendController.php";
+            $action = $data['action'];
+            $middlewareList = $data['middleware'];
 
-            if (file_exists($controllerFile)) {
+            $pattern = preg_replace('/\{([^\/]+)\}/', '([^/]+)', $route);
+            $pattern = '#^' . $pattern . '$#';
+
+            if (preg_match($pattern, $uri, $matches)) {
+
+                array_shift($matches);
+
+                /* 🔥 Run Middleware First */
+                foreach ($middlewareList as $mw) {
+                    $mwClass = "App\\Middleware\\{$mw}";
+                    $mwFile = __DIR__ . "/../Middleware/{$mw}.php";
+
+                    if (file_exists($mwFile)) {
+                        require_once $mwFile;
+                        $m = new $mwClass();
+                        $m->handle();
+                    }
+                }
+
+                /* Run Controller */
+                [$controllerName, $methodName] =
+                    is_array($action) ? $action : explode('@', $action);
+
+                $controllerClass = "App\\Controllers\\{$controllerName}";
+                $controllerFile = __DIR__ . "/../Controllers/{$controllerName}.php";
+
+                if (!file_exists($controllerFile)) {
+                    echo "Controller not found: {$controllerName}";
+                    exit;
+                }
+
                 require_once $controllerFile;
                 $controller = new $controllerClass();
-                return $controller->notfound();
-            } else {
-                echo '<h1>404 - Page not found</h1>';
+
+                if (!method_exists($controller, $methodName)) {
+                    echo "Method {$methodName} not found in {$controllerName}";
+                    exit;
+                }
+
+                return $controller->$methodName(...$matches);
             }
-            exit;
         }
 
-        // action format: Controller@method
-        if (is_array($routeAction) && count($routeAction) === 2) {
-            // allow array style too ['HomeController','index']
-            [$controllerName, $methodName] = $routeAction;
-        } else {
-            [$controllerName, $methodName] = explode('@', $routeAction);
-        }
-
-        $controllerClass = "App\\Controllers\\{$controllerName}";
-        $controllerFile = __DIR__ . "/../Controllers/{$controllerName}.php";
-        if (!file_exists($controllerFile)) {
-            http_response_code(500);
-            echo "Controller file not found: {$controllerName}";
-            exit;
-        }
-        require_once $controllerFile;
-        $controller = new $controllerClass();
-        // call method
-        if (!method_exists($controller, $methodName)) {
-            http_response_code(500);
-            echo "Method {$methodName} not found in controller {$controllerName}";
-            exit;
-        }
-        return $controller->$methodName();
+        http_response_code(404);
+        echo "<h1>404 Not Found</h1>";
+        exit;
     }
 
-    public static function getNamed($name)
+
+    /* --------------------------------
+        ROUTE GROUP
+    ---------------------------------*/
+
+    public static function group($attributes, $callback)
     {
-        return self::$names[$name] ?? '/';
-    }
+        $prefix = trim($attributes['prefix'] ?? '', '/');
 
-public static function group($attributes, $callback)
-{
-    $prefix = trim($attributes['prefix'] ?? '', '/'); // industries
+        $beforeRoutes = self::$routes;
+        $beforeNames = self::$names;
 
-    // Temporarily store routes before group
-    $before = self::$routes;
-    $beforeNames = self::$names;
+        self::$routes = [];
+        self::$names = [];
 
-    // Clear to capture ONLY group routes
-    self::$routes = [];
-    self::$names = [];
+        $callback();
 
-    // Run callback to register routes inside the group
-    $callback();
+        $groupedRoutes = [];
+        $groupedNames = [];
 
-    // Now apply prefix
-    $groupedRoutes = [];
-    $groupedNames = [];
-
-    foreach (self::$routes as $method => $routes) {
-        foreach ($routes as $path => $action) {
-
-            $cleanPath = trim($path, '/'); // remove leading slash
-            $final = $prefix . '/' . $cleanPath;
-            $final = trim($final, '/'); // final path
-
-            $groupedRoutes[$method][$final] = $action;
+        foreach (self::$routes as $method => $routes) {
+            foreach ($routes as $path => $data) {
+                $newPath = trim($prefix . '/' . trim($path, '/'), '/');
+                $groupedRoutes[$method][$newPath] = $data;
+            }
         }
+
+        foreach (self::$names as $name => $path) {
+            $groupedNames[$name] = trim($prefix . '/' . trim($path, '/'), '/');
+        }
+
+        self::$routes = array_replace_recursive($beforeRoutes, $groupedRoutes);
+        self::$names  = array_replace_recursive($beforeNames, $groupedNames);
     }
 
-    // Fix names
-    foreach (self::$names as $name => $path) {
-        $cleanPath = trim($path, '/');
-        $groupedNames[$name] = trim($prefix . '/' . $cleanPath, '/');
+
+    /* --------------------------------
+        GET NAMED URL
+    ---------------------------------*/
+
+    public static function getNamed($name, $params = [])
+    {
+        if (!isset(self::$names[$name])) return '/';
+
+        $path = self::$names[$name];
+
+        foreach ($params as $key => $value) {
+            $path = str_replace("{{$key}}", $value, $path);
+        }
+
+        return '/' . trim($path, '/');
     }
-
-    // Restore earlier routes + merge grouped
-    self::$routes = array_replace_recursive($before, $groupedRoutes);
-    self::$names = array_replace_recursive($beforeNames, $groupedNames);
-}
-
 }

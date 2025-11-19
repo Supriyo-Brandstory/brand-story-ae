@@ -1,0 +1,137 @@
+#!/usr/bin/env php
+<?php
+// commands/migrate
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use App\Core\Migration;
+
+$cmd = $argv[1] ?? 'help';
+$name = $argv[2] ?? null;
+
+$migrator = new Migration();
+
+switch ($cmd) {
+
+    // ---------------------------------------------------------
+    // MAKE GENERIC MIGRATION
+    // ---------------------------------------------------------
+    case 'make:migration':
+        if (!$name) {
+            echo "Usage: php commands/migrate make:migration <name>\n";
+            exit;
+        }
+
+        $slug = strtolower(preg_replace('/[^a-z0-9_]+/i', '_', trim($name)));
+        $fileName = date('YmdHis') . "_{$slug}.php";
+        $path = __DIR__ . '/../app/migrations/' . $fileName;
+
+        if (!is_dir(dirname($path))) {
+            mkdir(dirname($path), 0777, true);
+        }
+
+        $template = <<<'PHP'
+<?php
+// Migration file: {{FILENAME}}
+return new class {
+    public function up($db)
+    {
+        // Example:
+        // $db->exec("CREATE TABLE example (id INT AUTO_INCREMENT PRIMARY KEY)");
+    }
+
+    public function down($db)
+    {
+        // Example:
+        // $db->exec("DROP TABLE IF EXISTS example");
+    }
+};
+PHP;
+
+        $template = str_replace('{{FILENAME}}', $fileName, $template);
+        file_put_contents($path, $template);
+
+        echo "Created migration: {$fileName}\n";
+        break;
+
+
+    // ---------------------------------------------------------
+    // MAKE TABLE MIGRATION
+    // ---------------------------------------------------------
+    case 'make:table':
+        if (!$name) {
+            echo "Usage: php commands/migrate make:table <table_name>\n";
+            exit;
+        }
+
+        $table = strtolower(preg_replace('/[^a-z0-9_]+/i', '_', trim($name)));
+        $fileName = date('YmdHis') . "_create_{$table}_table.php";
+        $path = __DIR__ . '/../app/migrations/' . $fileName;
+
+        if (!is_dir(dirname($path))) {
+            mkdir(dirname($path), 0777, true);
+        }
+
+        $template = <<<'PHP'
+<?php
+// Migration file: {{FILENAME}}
+return new class {
+    public function up($db)
+    {
+        $db->exec("CREATE TABLE IF NOT EXISTS `{{TABLE}}` (
+            id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
+    }
+
+    public function down($db)
+    {
+        $db->exec("DROP TABLE IF EXISTS `{{TABLE}}`;");
+    }
+};
+PHP;
+
+        $template = str_replace('{{FILENAME}}', $fileName, $template);
+        $template = str_replace('{{TABLE}}', $table, $template);
+
+        file_put_contents($path, $template);
+
+        echo "Created migration: {$fileName}\n";
+        break;
+
+
+    // ---------------------------------------------------------
+    // RUN MIGRATIONS
+    // ---------------------------------------------------------
+    case 'run':
+        $migrator->runPending();
+        break;
+
+    // ---------------------------------------------------------
+    // ROLLBACK
+    // ---------------------------------------------------------
+    case 'rollback':
+        $migrator->rollbackLastBatch();
+        break;
+
+    // ---------------------------------------------------------
+    // STATUS
+    // ---------------------------------------------------------
+    case 'status':
+        $migrator->status();
+        break;
+
+
+    // ---------------------------------------------------------
+    // HELP
+    // ---------------------------------------------------------
+    default:
+        echo "Migration CLI Commands\n";
+        echo "---------------------------------------------\n";
+        echo " php commands/migrate make:migration name\n";
+        echo " php commands/migrate make:table table_name\n";
+        echo " php commands/migrate run\n";
+        echo " php commands/migrate rollback\n";
+        echo " php commands/migrate status\n";
+        break;
+}

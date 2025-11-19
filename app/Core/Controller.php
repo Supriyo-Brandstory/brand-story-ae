@@ -7,7 +7,7 @@ class Controller
     {
         extract($data, EXTR_SKIP);
 
-        // Correct relative path (from app/Core to /views)
+        // Use same case for Views folder
         $viewPath = __DIR__ . '/../Views/' . $view . '.php';
 
         if (!file_exists($viewPath)) {
@@ -18,6 +18,37 @@ class Controller
         include $viewPath;
         $content = ob_get_clean();
 
-        include __DIR__ . '/../views/layouts/layout.php';
+        // include layout from Views/layouts/layout.php (match case)
+        $layoutPath = __DIR__ . '/../Views/layouts/frontend/layout.php';
+        if (file_exists($layoutPath)) {
+            include $layoutPath;
+        } else {
+            // fallback: directly echo content if layout missing
+            echo $content;
+        }
+    }
+    // ---------------------------
+    // ADMIN VIEW (new)
+    // ---------------------------
+    protected function adminView($view, $data = [])
+    {
+        extract($data, EXTR_SKIP);
+
+        $viewPath = __DIR__ . '/../Views/admin/' . $view . '.php';
+
+        if (!file_exists($viewPath)) {
+            throw new \Exception("Admin view not found: {$viewPath}");
+        }
+
+        ob_start();
+        include $viewPath;
+        $content = ob_get_clean();
+
+        $layoutPath = __DIR__ . '/../Views/layouts/admin/layout.php';
+        if (file_exists($layoutPath)) {
+            include $layoutPath;
+        } else {
+            echo $content;
+        }
     }
 }
