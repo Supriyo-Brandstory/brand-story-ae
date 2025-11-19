@@ -4,6 +4,8 @@ use App\Core\Route;
 // Define routes (path, "Controller@method", name)
 Route::get('/', 'FrontendController@index', 'home');
 Route::get('/about', 'FrontendController@about', 'about');
+Route::get('/contact', 'FrontendController@contat', 'contact');
+Route::get('/blog', 'FrontendController@blogs', 'blog');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
 Route::get('/seo-services-company-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
@@ -29,12 +31,14 @@ Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@d
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
 
 // industries
-Route::get('/industries/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
-Route::get('/industries/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');
-Route::get('/industries/healthcare-marketing-services', 'FrontendController@healthcareMarketingServices', 'healthcaremarketingservices');
-Route::get('/industries/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices'); 
-Route::get('/industries/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices'); 
-Route::get('/industries/travel-agency-marketing-services', 'FrontendController@travelAgencyMarketingServices', 'travelagencymanagementservices');
+Route::group(['prefix' => '/industries'], function () {
+    Route::get('/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
+    Route::get('/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');
+    Route::get('/healthcare-marketing-services', 'FrontendController@healthcareMarketingServices', 'healthcaremarketingservices');
+    Route::get('/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices'); 
+    Route::get('/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices'); 
+    Route::get('/travel-agency-marketing-services', 'FrontendController@travelAgencyMarketingServices', 'travelagencymanagementservices');
+});
 
 // case studies 
 Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');

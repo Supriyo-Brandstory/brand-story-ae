@@ -11,7 +11,7 @@
               <div class="col-7 col-md-9 col-lg-10 col-xl-9 d-none d-md-block">
                   <?php include 'menu.php' ?>
               </div>
-              <div class="cnt-btn "><a href="<?php route('contact') ?>" class="btn kwi2">Contact Us</a>
+              <div class="cnt-btn "><a href="<?= route('contact') ?>" class="btn kwi2">Contactx Us</a>
               </div>
 
               <div class="mobile--menu"><?php include 'menu.php' ?></div>

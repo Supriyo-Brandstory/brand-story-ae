@@ -85,4 +85,46 @@ class Route
     {
         return self::$names[$name] ?? '/';
     }
+
+public static function group($attributes, $callback)
+{
+    $prefix = trim($attributes['prefix'] ?? '', '/'); // industries
+
+    // Temporarily store routes before group
+    $before = self::$routes;
+    $beforeNames = self::$names;
+
+    // Clear to capture ONLY group routes
+    self::$routes = [];
+    self::$names = [];
+
+    // Run callback to register routes inside the group
+    $callback();
+
+    // Now apply prefix
+    $groupedRoutes = [];
+    $groupedNames = [];
+
+    foreach (self::$routes as $method => $routes) {
+        foreach ($routes as $path => $action) {
+
+            $cleanPath = trim($path, '/'); // remove leading slash
+            $final = $prefix . '/' . $cleanPath;
+            $final = trim($final, '/'); // final path
+
+            $groupedRoutes[$method][$final] = $action;
+        }
+    }
+
+    // Fix names
+    foreach (self::$names as $name => $path) {
+        $cleanPath = trim($path, '/');
+        $groupedNames[$name] = trim($prefix . '/' . $cleanPath, '/');
+    }
+
+    // Restore earlier routes + merge grouped
+    self::$routes = array_replace_recursive($before, $groupedRoutes);
+    self::$names = array_replace_recursive($beforeNames, $groupedNames);
+}
+
 }

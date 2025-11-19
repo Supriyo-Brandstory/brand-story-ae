@@ -31,6 +31,22 @@ class FrontendController extends Controller
         return $this->view('about', ['meta' => $meta]);
     }
 
+    public function contat(){
+        $meta = [
+            'title' => 'Contact Us - BrandStoryAE',
+            'description' => 'Contact us for any inquiries.',
+            'classname'=>'contact-page'
+        ];
+        return $this->view('contact', ['meta' => $meta]);
+    }
+
+    public function blogs(){
+        $meta = [
+            'title' => 'Latest Blogs | Digital Marketing Insights & Trends',
+            'description' => 'Here are the latest tips and tricks of digital marketing techniques learn now'
+        ];
+        return $this->view('blogs/index', ['meta' => $meta]);
+    }
 
     // service 
     public function socialMediaMarketingDubai()
