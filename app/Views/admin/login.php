@@ -1,25 +1,26 @@
-<!-- Views/admin/login.php -->
-<?php
-// $content will be captured by Controller
-?>
-<div class="auth-wrapper">
-    <h1>Admin Login</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Login</title>
+</head>
+<body>
+    <h2>Admin Login</h2>
 
-    <?php if (!empty($_SESSION['flash_error'])): ?>
-        <div class="alert alert-danger"><?php echo htmlspecialchars($_SESSION['flash_error']); unset($_SESSION['flash_error']); ?></div>
+    <?php if (isset($_SESSION['login_error'])): ?>
+        <p style="color: red;"><?= $_SESSION['login_error'] ?></p>
+        <?php unset($_SESSION['login_error']); ?>
     <?php endif; ?>
 
-    <form method="post" action="<?php echo base_url('admin/login'); ?>">
+    <form method="post" action="<?= route('admin.processLogin') ?>">
         <div>
-            <label>Email</label>
-            <input type="email" name="email" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
         </div>
         <div>
-            <label>Password</label>
-            <input type="password" name="password" required />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
         </div>
-        <div>
-            <button type="submit">Login</button>
-        </div>
+        <button type="submit">Login</button>
     </form>
-</div>
+</body>
+</html>

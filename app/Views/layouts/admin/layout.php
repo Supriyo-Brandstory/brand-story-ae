@@ -9,6 +9,14 @@
 
 <header>
     <h1>Admin Panel</h1>
+    <nav>
+        <?php if (isset($_COOKIE['admin_token'])): ?>
+            <a href="<?= route('admin.dashboard') ?>">Dashboard</a>
+            <a href="<?= route('admin.logout') ?>">Logout</a>
+        <?php else: ?>
+            <a href="<?= route('admin.login') ?>">Login</a>
+        <?php endif; ?>
+    </nav>
 </header>
 
 <main>

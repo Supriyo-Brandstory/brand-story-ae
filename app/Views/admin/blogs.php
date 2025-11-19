@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Dashboard</title>
+    <title>Admin Blogs</title>
 </head>
 <body>
-    <h2>Admin Dashboard</h2>
-    <p>Welcome, <?= $admin_name ?? 'Admin' ?>!</p>
+    <h2>Admin Blogs</h2>
+    <p>Welcome to the blogs section!</p>
     <a href="<?= route('admin.logout') ?>">Logout</a>
 </body>
 </html>

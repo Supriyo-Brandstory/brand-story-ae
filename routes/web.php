@@ -49,11 +49,13 @@ Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
 
 
 Route::group(['prefix' => '/admin'], function () {
-    Route::get('/login', 'AdminController@login');
-    Route::post('/login', 'AdminController@loginPost');
+    Route::get('/', 'AdminController@index', 'admin.index');
+    Route::get('/login', 'AdminController@login', 'admin.login');
+    Route::post('/login', 'AdminController@processLogin', 'admin.processLogin');
 
     Route::middleware('AdminAuth', function () {
-        Route::get('/dashboard', 'AdminController@dashboard');
-        Route::get('/logout', 'AdminController@logout');
+        Route::get('/dashboard', 'AdminController@dashboard', 'admin.dashboard');
+        Route::get('/logout', 'AdminController@logout', 'admin.logout');
+        Route::get('/blogs', 'AdminController@blogs', 'admin.blogs');
     });
 });
