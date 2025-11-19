@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Core;
 
 class Controller
@@ -50,5 +51,18 @@ class Controller
         } else {
             echo $content;
         }
+    }
+    protected function singleView($view, $data = [])
+    {
+        extract($data, EXTR_SKIP);
+
+        // Path: Views/{yourfile}.php
+        $viewPath = __DIR__ . '/../Views/' . $view . '.php';
+
+        if (!file_exists($viewPath)) {
+            throw new \Exception("View not found: {$viewPath}");
+        }
+
+        include $viewPath; // no layout, directly print the file
     }
 }

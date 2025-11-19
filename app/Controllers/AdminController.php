@@ -26,7 +26,7 @@ class AdminController extends Controller
             header('Location: ' . route('admin.dashboard'));
             exit;
         }
-        return $this->adminView('/login');
+        return $this->singleView('admin/login');
     }
 
     public function processLogin()
