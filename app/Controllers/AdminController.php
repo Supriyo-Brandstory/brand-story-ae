@@ -81,16 +81,43 @@ class AdminController extends Controller
         }
 
         try {
-            $decoded = JWT::decode($jwt, new Key($this->key, 'HS256'));
-            $data = [
-                'admin_name' => $decoded->admin_name ?? 'Admin'
-            ];
-            return $this->adminView('/dashboard', $data);
-        } catch (\Exception $e) {
-            // Token is invalid, redirect to login
-            header('Location: ' . route('admin.login'));
-            exit;
-        }
+    $decoded = JWT::decode($jwt, new Key($this->key, 'HS256'));
+
+    // Safe access
+    $admin_id = isset($decoded->admin_id) ? $decoded->admin_id : null;
+
+    if (!$admin_id) {
+        // If no admin ID found in token → redirect to login
+        header('Location: ' . route('admin.login'));
+        exit;
+    }
+
+    // DB check
+    $db = Database::connect();
+    $sql = "SELECT * FROM admins WHERE id = ?";
+    $stmt = $db->prepare($sql);
+    $stmt->execute([$admin_id]);
+    $admin = $stmt->fetch();
+
+    if (!$admin) {
+        // Token valid but admin not found
+        header('Location: ' . route('admin.login'));
+        exit;
+    }
+
+    // Passing required data
+    $data = [
+        'admin_name' => $decoded->admin ?? $admin['name'] ?? 'Admin'
+    ];
+
+    return $this->adminView('/dashboard', $data);
+
+} catch (\Exception $e) {
+    // Token invalid → redirect to login
+    header('Location: ' . route('admin.login'));
+    exit;
+}
+
     }
 
     public function logout()
@@ -116,5 +143,98 @@ class AdminController extends Controller
     public function blogs()
     {
         return $this->adminView('/blogs');
+    }
+
+    public function profile()
+    {
+        // Retrieve the JWT from the cookie
+        $jwt = $_COOKIE['admin_token'] ?? '';
+
+        if (!$jwt) {
+            header('Location: ' . route('admin.login'));
+            exit;
+        }
+
+        try {
+            $decoded = JWT::decode($jwt, new Key($this->key, 'HS256'));
+            $admin_id = $decoded->admin_id ?? null;
+
+            if (!$admin_id) {
+                header('Location: ' . route('admin.login'));
+                exit;
+            }
+
+            $db = Database::connect();
+            $sql = "SELECT * FROM admins WHERE id = ?";
+            $stmt = $db->prepare($sql);
+            $stmt->execute([$admin_id]);
+            $admin = $stmt->fetch();
+
+            if (!$admin) {
+                header('Location: ' . route('admin.login'));
+                exit;
+            }
+
+            $data = [
+                'admin' => $admin
+            ];
+
+            return $this->adminView('/profile', $data);
+        } catch (\Exception $e) {
+            // Token is invalid, redirect to login
+            header('Location: ' . route('admin.login'));
+            exit;
+        }
+    }
+
+    public function updateProfile()
+    {
+        csrf_verify();
+
+        // Retrieve the JWT from the cookie
+        $jwt = $_COOKIE['admin_token'] ?? '';
+
+        if (!$jwt) {
+            header('Location: ' . route('admin.login'));
+            exit;
+        }
+
+        try {
+            $decoded = JWT::decode($jwt, new Key($this->key, 'HS256'));
+            $admin_id = $decoded->admin_id ?? null;
+
+            if (!$admin_id) {
+                header('Location: ' . route('admin.login'));
+                exit;
+            }
+
+            $name = $_POST['name'] ?? '';
+            $email = $_POST['email'] ?? '';
+            $password = $_POST['password'] ?? '';
+
+            $db = Database::connect();
+            $sql = "UPDATE admins SET name = ?, email = ?";
+            $params = [$name, $email];
+
+            if (!empty($password)) {
+                $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+                $sql .= ", password = ?";
+                $params[] = $hashedPassword;
+            }
+
+            $sql .= " WHERE id = ?";
+            $params[] = $admin_id;
+
+            $stmt = $db->prepare($sql);
+            $stmt->execute($params);
+
+            $_SESSION['profile_success'] = 'Profile updated successfully';
+            header('Location: ' . route('admin.profile'));
+            exit;
+        } catch (\Exception $e) {
+            // Token is invalid, redirect to login
+            header('Location: ' . route('admin.login'));
+            exit;
+        }
     }
 }

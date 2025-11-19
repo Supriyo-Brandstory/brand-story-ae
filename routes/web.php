@@ -56,6 +56,8 @@ Route::group(['prefix' => '/admin'], function () {
     Route::middleware('AdminAuth', function () {
         Route::get('/dashboard', 'AdminController@dashboard', 'admin.dashboard');
         Route::get('/logout', 'AdminController@logout', 'admin.logout');
+        Route::get('/profile', 'AdminController@profile', 'admin.profile');
+        Route::post('/profile', 'AdminController@updateProfile', 'admin.updateProfile');
         Route::get('/blogs', 'AdminController@blogs', 'admin.blogs');
     });
 });
