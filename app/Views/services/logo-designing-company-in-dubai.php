@@ -97,7 +97,7 @@
 <p>Present and Deliver is the final stage of logo design. It's where our team brings your concept to life with a stunning, on-brand logo. We use cutting-edge design techniques and strategies to create a powerful brand identity that will stand out in the crowd.</p>
 
 <h2> Why Choose Our Logo Designers in Dubai</h2>
-<p>Dubai is a city with endless opportunities and a skyline that never stops inspiring. So when you need an elegant and professional logo for your business, turn to our team of creative <a href="https://www.brandstory.ae/branding-agency-in-dubai/">branding experts in Dubai</a>. We know what it takes to create a strong brand identity that will be memorable and effective. With 5+ years of experience crafting stunning logos, we'll help you create the perfect branding for your business.</p>
+<p>Dubai is a city with endless opportunities and a skyline that never stops inspiring. So when you need an elegant and professional logo for your business, turn to our team of creative <a href="/branding-agency-in-dubai/">branding experts in Dubai</a>. We know what it takes to create a strong brand identity that will be memorable and effective. With 5+ years of experience crafting stunning logos, we'll help you create the perfect branding for your business.</p>
 
 <p>Designing a logo can be a daunting task, but not with our talented designers in Dubai. From start to finish, we'll work with you to create the perfect logo that represents your business and sets you apart from the rest. Plus, our prices are unbeatable.</p>
 

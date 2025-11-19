@@ -93,7 +93,7 @@
 <h5 class="mb-3">Outreach</h5>
 <p>Content will perform well when your audience gets to know about it. Our outreach team will allow your brand and content to connect with journalists, bloggers, and online influencers to get people to notice and talk about your brand.
 <h5 class="mb-3">SEO Promotion</h5>
-<p>As the most recognized content marketing and  <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO agency Dubai</a>, we craft the best strategies to enable your brand to target audiences on the popular search engines.</p>	
+<p>As the most recognized content marketing and  <a href="/seo-services-company-in-dubai/">SEO agency Dubai</a>, we craft the best strategies to enable your brand to target audiences on the popular search engines.</p>	
 
 </div>
 

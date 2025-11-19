@@ -56,7 +56,7 @@
 <h2>Services Offered by Brandstory Creative Advertising Agency in Dubai</h2>
 <ul>
 <li>
-<p><a href="/">Digital marketing</a>, <a href="https://www.brandstory.ae/branding-agency-in-dubai/"> branding services in Dubai</a> </p>
+<p><a href="/">Digital marketing</a>, <a href="/branding-agency-in-dubai/"> branding services in Dubai</a> </p>
 </li>
 <li>
 <p>Design Services such as <a href="/logo-designing-dubai/">logo design</a>, graphic designs, and more</p>

@@ -41,10 +41,10 @@
        <div class="col-lg-6" bis_skin_checked="1">
          <div class="grd-background-branding-about">
            <div class=" mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20" bis_skin_checked="1">
-             <img class="w-100 radius-20" src="https://www.brandstory.ae/assets/images/branding-agency-in-dubai-new-banner-3.webp" alt="Digital Marketing Agency in Dubai">
+             <img class="w-100 radius-20" src="/assets/images/branding-agency-in-dubai-new-banner-3.webp" alt="Digital Marketing Agency in Dubai">
            </div>
            <div class=" img-fluid radius-20 mb-lg-0 d-lg-none d-block" bis_skin_checked="1">
-             <img class="img-fluid radius-20" src="https://www.brandstory.ae/assets/images/branding-agency-in-dubai-new-banner-3.webp" alt="Digital Marketing Agency in Dubai">
+             <img class="img-fluid radius-20" src="/assets/images/branding-agency-in-dubai-new-banner-3.webp" alt="Digital Marketing Agency in Dubai">
            </div>
          </div>
        </div>
@@ -233,38 +233,38 @@
 
        <div class="col-md-4 col-12 mb-2" bis_skin_checked="1">
          <div class="each_benefit_container-new" bis_skin_checked="1">
-           <img src="https://www.brandstory.ae/assets/images/Build-trust-and-long-term-loyalty-with-customers.png" class="img-fluid" alt="Build trust and long-term loyalty with customers">
+           <img src="/assets/images/Build-trust-and-long-term-loyalty-with-customers.png" class="img-fluid" alt="Build trust and long-term loyalty with customers">
            <h3 class="fs-20">Build trust and long-term loyalty with customers</h3>
          </div>
        </div>
        <div class="col-md-4 col-12 mb-2" bis_skin_checked="1">
          <div class="each_benefit_container-new" bis_skin_checked="1">
-           <img src="https://www.brandstory.ae/assets/images/Differentiate-from-competitors-in-a-crowded-market.png" class="img-fluid" alt="Differentiate from competitors in a crowded market">
+           <img src="/assets/images/Differentiate-from-competitors-in-a-crowded-market.png" class="img-fluid" alt="Differentiate from competitors in a crowded market">
            <h3 class="fs-20">Differentiate from competitors in a crowded market</h3>
          </div>
        </div>
        <div class="col-md-4 col-12 mb-2" bis_skin_checked="1">
          <div class="each_benefit_container-new" bis_skin_checked="1">
-           <img src="https://www.brandstory.ae/assets/images/Communicate-your-value-proposition-clearly.png" class="img-fluid" alt="Communicate your value proposition clearly">
+           <img src="/assets/images/Communicate-your-value-proposition-clearly.png" class="img-fluid" alt="Communicate your value proposition clearly">
            <h3 class="fs-20">Communicate your value proposition clearly</h3>
          </div>
        </div>
        <div class="col-md-4 col-12 mb-2" bis_skin_checked="1">
          <div class="each_benefit_container-new" bis_skin_checked="1">
-           <img src="https://www.brandstory.ae/assets/images/Attract-investors-partners-and-talent.png" class="img-fluid" alt="Attract investors, partners, and talent">
+           <img src="/assets/images/Attract-investors-partners-and-talent.png" class="img-fluid" alt="Attract investors, partners, and talent">
            <h3 class="fs-20">Attract investors, partners, and talent</h3>
          </div>
        </div>
        <div class="col-md-4 col-12 mb-2" bis_skin_checked="1">
          <div class="each_benefit_container-new" bis_skin_checked="1">
-           <img src="https://www.brandstory.ae/assets/images/Increase-market-share-and-perceived-value.png" class="img-fluid" alt="Increase market share and perceived value">
+           <img src="/assets/images/Increase-market-share-and-perceived-value.png" class="img-fluid" alt="Increase market share and perceived value">
            <h3 class="fs-20">Increase market share and perceived value</h3>
          </div>
        </div>
        <div class="col-md-4 col-12 mb-2 " bis_skin_checked="1">
          <div class="each_benefit_container-new contact-us-bg-brandagancy" bis_skin_checked="1">
            <h3 class="fs-20">Your brand is not just your logo. It’s your voice, your story, your reputation—and we help shape it to perfection.</h3>
-           <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn">
+           <a href="/contact/" class="smm-uae-btn">
              ➤ Contact Us
            </a>
          </div>
@@ -602,13 +602,13 @@
      <div class="row" bis_skin_checked="1">
        <div class="col-md-6" bis_skin_checked="1">
          <ul class="list-unstyled p-0 mb-0">
-           <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="https://www.brandstory.ae/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
-           <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="https://www.brandstory.ae/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
+           <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
+           <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
          </ul>
        </div>
        <div class="col-md-6" bis_skin_checked="1">
          <div class="d-flex align-items-start" bis_skin_checked="1">
-           <img class="me-3" src="https://www.brandstory.ae/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
+           <img class="me-3" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
            <div class="dubai-address" bis_skin_checked="1">
              <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
              <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&amp;kgmid=/g/11jn2396qs&amp;q=Brandstory&amp;shndl=30&amp;shem=lcuae,lste,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>

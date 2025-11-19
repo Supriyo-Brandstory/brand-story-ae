@@ -28,3 +28,13 @@ Route::get('/magento-website-development-dubai', 'FrontendController@megentoWebs
 Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai', 'durpalwebsitedevelopmentcompanyindubai');
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
 
+// industries
+Route::get('/industries/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
+Route::get('/industries/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');
+Route::get('/industries/healthcare-marketing-services', 'FrontendController@healthcareMarketingServices', 'healthcaremarketingservices');
+Route::get('/industries/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices'); 
+Route::get('/industries/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices'); 
+Route::get('/industries/travel-agency-marketing-services', 'FrontendController@travelAgencyMarketingServices', 'travelagencymanagementservices');
+
+// case studies 
+Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');

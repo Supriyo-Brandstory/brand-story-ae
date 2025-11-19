@@ -30,6 +30,9 @@ class FrontendController extends Controller
         ];
         return $this->view('about', ['meta' => $meta]);
     }
+
+
+    // service 
     public function socialMediaMarketingDubai()
     {
         $meta = [
@@ -214,5 +217,70 @@ class FrontendController extends Controller
             'classname'=>'dm-page service-page'
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
+    }
+
+
+
+//  industries
+    public function realEstateMerketingServices(){
+        $meta = [
+            'title' => 'Real Estate Marketing Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Real Estate Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/real-estate-marketing-services', ['meta' => $meta]);
+    }
+    public function ecommerceMarketingServices(){
+        $meta = [
+            'title' => 'Ecommerce Marketing Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/e-commerce-marketing-service', ['meta' => $meta]);
+    }
+    public function healthcareMarketingServices(){
+        $meta = [
+            'title' => 'Healthcare Marketing Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Healthcare Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/healthcare-marketing-services', ['meta' => $meta]);
+    }
+    public function educationMarketingServices(){
+        $meta = [
+            'title' => 'Education Marketing Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Education Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/education-marketing-services', ['meta' => $meta]);
+    }
+    public function b2bCorporateMarketingServices(){
+        $meta = [
+            'title' => 'B2B Corporate Marketing Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our B2B Corporate Marketing services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/b2b-corporate-marketing-services', ['meta' => $meta]);
+    }
+    public function travelAgencyMarketingServices(){
+        $meta = [
+            'title' => 'Travel Agency Management Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Travel Agency Management services designed to boost your online presence and drive organic traffic.',
+            'classname'=>'industry-page'
+        ];
+        return $this->view('industries/travel-agency-marketing-services', ['meta' => $meta]);
+    }
+
+
+
+    // case studies 
+
+    public function casestudies(){
+        $meta = [
+            'title' => 'Latest Case Studies | Digital Marketing Company in Dubai',
+            'description' => 'Latest Case Studies | Digital Marketing Company in Dubai',
+            'classname'=>'main-cs-pg'
+        ];
+        return $this->view('case-study/index', ['meta' => $meta]);
     }
 }

@@ -22,7 +22,7 @@
                     <p class="fs-18">
                       At BrandStory, we are recognized as a premier social media marketing agency in Dubai, known for crafting strategies that truly resonate. Our creative masterminds design every reel, post, and content to make an impact. With BrandStory, your brand isn’t just seen, it’s remembered, revisited, and talked about.
                     </p>
-                    <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn mt-4">
+                    <a href="/contact/" class="smm-uae-btn mt-4">
                         Lets Get Social
                     </a>
 
@@ -50,25 +50,25 @@
 
 </span><span class="db"><span class="gradient-text">with Social Media Marketing</span></span></h2>
         <div class="brand_service_wrapper pt-lg-5 pt-3">
-            <a href="https://www.brandstory.ae/corporate-video-production-services-in-dubai/">
+            <a href="/corporate-video-production-services-in-dubai/">
                 <div class="each_brands vd_prod">
                     <img src="assets/images/social-media-marketing-uae/ser-icon1.svg" class="img-fluid" alt="service-icon">
                     <p class="ps-3">Video Production</p>
                 </div>
             </a>
-            <a href="https://www.brandstory.ae/">
+            <a href="/">
                 <div class="each_brands branding">
                     <img src="assets/images/social-media-marketing-uae/ser-icon2.svg" class="img-fluid" alt="service-icon">
                     <p class="ps-3">Branding</p>
                 </div>
             </a>
-            <a href="https://www.brandstory.ae/performance-marketing/">
+            <a href="/performance-marketing/">
                 <div class="each_brands perf_mktng">
                     <img src="assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon">
                     <p class="ps-3">Performance Marketing</p>
                 </div>
             </a>
-            <a href="https://www.brandstory.ae/content-marketing-agency-dubai/">
+            <a href="/content-marketing-agency-dubai/">
                 <div class="each_brands content_mktng">
                     <img src="assets/images/social-media-marketing-uae/ser-icon4.svg" class="img-fluid" alt="service-icon">
                     <p class="ps-3">Content Marketing</p>
@@ -104,7 +104,7 @@
                 <p class="mb-3 fs-18">
 BrandStory is a social media marketing powerhouse company in Dubai, we combine bold ideas with smart strategy to help brands stand out and stay unforgettable. We help businesses of all sizes leverage social media to increase engagement, grow their audience, and achieve measurable marketing results. We turn social media into a growth engine for your business, delivering measurable results that expand your audience across platforms and spark meaningful interactions.</p>
                 <p class="mb-3 fs-18">We are a skilled team of social media specialists, storytellers, and strategists under one roof. From creating content to executing campaigns, we are a full-package social media marketing agency in Dubai to elevate your social media presence. We craft campaigns that spark conversations, build loyalty, and amplify your brand presence across social media platforms. At BrandStory, <a href="/" style="text-decoration:underline; color:#fff">digital marketing</a> is not just a skill, it's a signature.</p>
-                <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn pt-3">
+                <a href="/contact/" class="smm-uae-btn pt-3">
                     Let's Get Started
                 </a>
             </div>
@@ -134,14 +134,14 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp')?>" alt="Facebook marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">Facebook Marketing</a>
+                        <a href="/" class="heding">Facebook Marketing</a>
 
                         <p>
                             Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer. And we provide the right Facebook marketing services that will help you connect with your specific audience.
                         </p>
                         <p class="mt-2">With precise targeting options, engaging ad formats, and data-driven strategies, we make sure your brand reaches the right people at the right time. Our approach focuses on creating compelling content that encourages interaction, builds trust, and drives measurable results for your business.</p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/facebook-marketing-agency-in-dubai/">Know More</a>
+                            <a href="/facebook-marketing-agency-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -153,7 +153,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/Instagram-Marketing.webp')?>" alt="Instagram marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">Instagram Marketing</a>
+                        <a href="/" class="heding">Instagram Marketing</a>
 
                         <p>
                             Reels and photos are the talk of the time, where every second thousands of businesses go viral. Instagram is a social platform with an opportunity to engage audience and convert them into your regular customers. We provide Instagram-worthy social media marketing services with a full in-house production and marketing team.
@@ -161,7 +161,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <p class="mt-2">From eye-catching visuals to trend-driven content strategies, we help your brand stay ahead in the fast-paced Instagram landscape. Our campaigns are designed to boost visibility, encourage engagement, and turn casual viewers into loyal followers and customers.
                         <p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/instagram-advertising-agency-in-dubai/">Know More</a>
+                            <a href="/instagram-advertising-agency-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -173,14 +173,14 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/WhatsApp-Marketing.webp')?>" alt="WhatsApp marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">WhatsApp Marketing </a>
+                        <a href="/" class="heding">WhatsApp Marketing </a>
 
                         <p>
                             Want to reach the direct WhatsApp inbox of your customers on the go? It opens your door to lead flow and drives direct engagement to your offered services and seasonal offers. It's a marketing + retention channel that has the potential for direct engagement.
                         </p>
                         <p class="mt-2">With personalized messaging, quick responses, and timely updates, WhatsApp marketing helps you build stronger relationships with your audience. We create tailored campaigns that not only capture attention but also keep your customers coming back for more.</p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/whatsapp-marketing-in-dubai/">Know More</a>
+                            <a href="/whatsapp-marketing-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -192,14 +192,14 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/Quora-Marketing.webp')?>" alt="Quora marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">Quora Marketing</a>
+                        <a href="/" class="heding">Quora Marketing</a>
 
                         <p>
                             Do you feed customer queries? People may want to clear their doubts before making a purchase, and Quora gives them that freedom. Brands are already doing so and winning the trust of potential customers. We are assisting businesses in this journey too.
                         </p>
                         <p class="mt-2">By answering relevant questions with valuable insights, we help position your brand as an authority in your industry. This not only builds credibility but also drives organic traffic and leads from people actively seeking your solutions. </p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/whatsapp-marketing-in-dubai/">Know More</a>
+                            <a href="/whatsapp-marketing-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -211,7 +211,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/TikTok-Marketing.webp')?>" alt="TikTok marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">TikTok Marketing</a>
+                        <a href="/" class="heding">TikTok Marketing</a>
 
                         <p>
                             TikTok is a widely used social media platform in Dubai that has integrated e-commerce TokTok Shop. It is your engagement platform cum sales platform that can surely strengthen your business volume. We provide the best TikTok marketing services in Dubai.
@@ -219,7 +219,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         </p>
                         <p class="mt-2">From creating trend-driven short videos to leveraging TikTok Shop for direct sales, we help your brand tap into a highly active audience. Our strategies focus on boosting visibility, driving engagement, and turning viewers into loyal customers.</p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/tiktok-marketing-agency-in-dubai/">Know More</a>
+                            <a href="/tiktok-marketing-agency-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -231,7 +231,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/Pinterest-Marketing.webp')?>" alt="Pinterest marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">Pinterest Marketing </a>
+                        <a href="/" class="heding">Pinterest Marketing </a>
 
                         <p>
                             Pinterest is filled with millions of users who are engaging with creatives, how-to, diy hacks, and trending products. If you are looking for B2C clients for your next marketing project, Pinterest is something special to help you get the right engagement and sales on the board.
@@ -239,7 +239,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         </p>
                         <p class="mt-2">We create visually compelling pins and boards that inspire action, drive traffic to your website, and boost conversions. By tapping into trending searches and niche audiences, we help your brand stand out in a platform where purchase intent is already high.</p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/pinterest-advertising-services-in-dubai/">Know More</a>
+                            <a href="/pinterest-advertising-services-in-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -251,14 +251,14 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                         <img src="<?= base_url('assets/images/about/X-Marketing.webp')?>" alt="X (Twitter marketing services in Dubai - BrandStory" />
                     </div>
                     <div class="dm-content">
-                        <a href="https://www.brandstory.ae/" class="heding">X (Twitter) Marketing </a>
+                        <a href="/" class="heding">X (Twitter) Marketing </a>
 
                         <p>
                             X has the highest conversion rate among all social media platforms for B2B businesses, and we take it seriously. It can bring the best outcomes from your integrated marketing campaigns, and at BrandStory, we are a pioneer agency in X (Twitter) marketing.
                         </p>
                         <p class="mt-2">We craft impactful tweets, threads, and ad campaigns that spark conversations and connect you with decision-makers. Our approach focuses on building authority, fostering engagement, and driving qualified leads for your business.</p>
                         <div class="dm-tags py-4">
-                            <a href="https://www.brandstory.ae/twitter-advertising-dubai/">Know More</a>
+                            <a href="/twitter-advertising-dubai/">Know More</a>
 
                         </div>
                     </div>
@@ -317,7 +317,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                 <p class="fs-20 text-white">Social media marketing is an investment that will reward you in a multiplier. It helps you reach the right audience at the right time and engage potential customers with your business. From small startups to large corporations, social media is the go-to option to share content that generates brand awareness and drive conversions. It acts as a premier Branding + Marketing tool that strengthens your brand’s value, reach, and engagement at the same time.</p>
 
                 <p class="fs-20 text-white pb-lg-5 py-3">When it comes to social media marketing, we know how to do it right. Whether it’s Facebook, Instagram, Twitter, or LinkedIn, we’ve got every platform covered. Need fresh TikTok vibes? We’ve got that too. We deliver results that don’t just impress, they stick.</p>
-                <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn pt-3">
+                <a href="/contact/" class="smm-uae-btn pt-3">
                     Let's Get Started
                 </a>
             </div>
@@ -463,7 +463,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
 
         <div class="row gy-3 pt-lg-5 pt-3">
             <div class="col-lg-7 col-12 text-white order-md-1 order-2">
-                <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="https://www.brandstory.ae/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="https://www.brandstory.ae/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
+                <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
  We create your brand’s story that sparks connections and drives real engagement and ROI. </p>
                 <p class="mb-3 fs-20">By working with a professional social media agency, you gain access to:</p>
                 <ul style="list-style: none;" class="fs-18">
@@ -475,7 +475,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                 </ul>
 
                 <p class="fs-18">Whether you're looking to grow followers, launching a new campaign, or building awareness, BrandStory is capable of turning your social media into a business asset with the right strategy.</p>
-                <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn pt-3 mt-5">
+                <a href="/contact/" class="smm-uae-btn pt-3 mt-5">
                     Contact Us Now
                 </a>
 
@@ -529,7 +529,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
             </div>
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="each_why_choose_container spcl_y_choose">
-                    <a href="https://www.brandstory.ae/contact/" class="smm-uae-btn">
+                    <a href="/contact/" class="smm-uae-btn">
                         Lets Get Social
                     </a>
                 </div>
@@ -605,7 +605,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
             </div>
         </div>
         <div class="text-center">
-            <a href="https://www.brandstory.ae/case-study/" class="smm-uae-btn">
+            <a href="/case-study/" class="smm-uae-btn">
                 Browse Our Case Studies
             </a>
         </div>
@@ -743,7 +743,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>Social media marketing is on the cusp of becoming one of the fastest-growing</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/the-best-social-media-channels-for-your-brands-marketing/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/the-best-social-media-channels-for-your-brands-marketing/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -759,7 +759,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>With the advent of digital-first transactions, one could say that conventional marketing no longer prevails.</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/how-influencer-marketing-can-elevate-your-digital-branding/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/how-influencer-marketing-can-elevate-your-digital-branding/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -767,7 +767,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                     <div class="swiper-slide">
                         <div class="each_blog_wrapper">
                             <div class="img_cont">
-                                <img loading="lazy" src="https://www.brandstory.ae/assets/images/blog/dm-trends-2025/banner.jpg" alt="blog_image">
+                                <img loading="lazy" src="/assets/images/blog/dm-trends-2025/banner.jpg" alt="blog_image">
                             </div>
                             <div class="content_container_main pt-3">
                                 <div class="text_content">
@@ -775,7 +775,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>Digital marketing is undergoing a massive makeover in 2025, driven by fast-paced technological changes and consumer...</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -792,7 +792,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>It is the case indeed that branding is not just limited to a logo or a catchy slogan</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/7-key-branding-strategies-to-establish-a-strong-brand-identity/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/7-key-branding-strategies-to-establish-a-strong-brand-identity/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -800,7 +800,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                     <div class="swiper-slide">
                         <div class="each_blog_wrapper">
                             <div class="img_cont">
-                                <img loading="lazy" src="https://www.brandstory.ae/assets/images/blog/track-competitors/banner.jpg" alt="blog_image">
+                                <img loading="lazy" src="/assets/images/blog/track-competitors/banner.jpg" alt="blog_image">
                             </div>
                             <div class="content_container_main pt-3">
                                 <div class="text_content">
@@ -808,7 +808,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>In this age of dynamic digital marketing, being ahead of the game requires more than just creativity and hard work.</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -816,7 +816,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                     <div class="swiper-slide">
                         <div class="each_blog_wrapper">
                             <div class="img_cont">
-                                <img src="https://www.brandstory.ae/assets/images/blog/dt-marketing/banner.jpg" alt="blog_image">
+                                <img src="/assets/images/blog/dt-marketing/banner.jpg" alt="blog_image">
                             </div>
                             <div class="content_container_main pt-3">
                                 <div class="text_content">
@@ -824,7 +824,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                                     <p>Digital marketing includes all the online strategies and tools businesses use to reach and engage customers online.</p>
                                 </div>
                                 <div class="cta_blog pt-3">
-                                    <a href="https://www.brandstory.ae/blogs/digital-vs-traditional-marketing-what-your-brand-really-needs-today/" class="blog_knowMore">Know more</a>
+                                    <a href="/blogs/digital-vs-traditional-marketing-what-your-brand-really-needs-today/" class="blog_knowMore">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -949,7 +949,7 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
 
                 </h2>
                 <p class="new-cta-footer-text">
-                    Social media is no longer just a channel for posting updates, it’s a powerful stage for your brand to thrive and shine. At BrandStory, we help businesses transform their social presence into a powerful platform that connects, engages, and inspires. We focus on creating powerful content and campaigns that not only capture attention but also build meaningful relationships with your audience, positioning your brand as a trusted voice in a crowded digital space. Every creative post, storytelling, <a href="https://www.brandstory.ae/video-marketing-agency-dubai/" style="color:white; text-decoration:underline">video production</a>, and campaign is carefully crafted to reflect your brand identity while driving measurable results.
+                    Social media is no longer just a channel for posting updates, it’s a powerful stage for your brand to thrive and shine. At BrandStory, we help businesses transform their social presence into a powerful platform that connects, engages, and inspires. We focus on creating powerful content and campaigns that not only capture attention but also build meaningful relationships with your audience, positioning your brand as a trusted voice in a crowded digital space. Every creative post, storytelling, <a href="/video-marketing-agency-dubai/" style="color:white; text-decoration:underline">video production</a>, and campaign is carefully crafted to reflect your brand identity while driving measurable results.
 
                 </p>
 
@@ -961,13 +961,13 @@ BrandStory is a social media marketing powerhouse company in Dubai, we combine b
                     <p class="new-cta-footer-text">
                         We believe that impactful social media goes beyond aesthetics; it’s about understanding the audience, adapting to trends, and delivering content that resonates at the right moment. Our team combines data-driven insights with creative storytelling, ensuring that every strategy is informed, targeted, and optimized for maximum social engagement. By analyzing behaviors, preferences, and platform-specific patterns, we help Dubai-based brands create campaigns that not only reach audiences but also inspire interaction, loyalty, and advocacy over time.
                     </p>
-                    <p class="new-cta-footer-text">From building and nurturing online communities to executing highly-targeted social media campaigns, <a href="https://www.brandstory.ae/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">BrandStory</a> provides end-to-end social media marketing solutions in Dubai tailored to business goals and expectations. Our services include content creation, performance tracking, creative strategy, and audience engagement, all designed to strengthen your online presence. By blending innovation with analytics, we ensure that your social media efforts are strategic, scalable, and capable of driving sustainable growth, helping your brand stay ahead of the curve in a fast-evolving competitive ecosystem.</p>
+                    <p class="new-cta-footer-text">From building and nurturing online communities to executing highly-targeted social media campaigns, <a href="/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">BrandStory</a> provides end-to-end social media marketing solutions in Dubai tailored to business goals and expectations. Our services include content creation, performance tracking, creative strategy, and audience engagement, all designed to strengthen your online presence. By blending innovation with analytics, we ensure that your social media efforts are strategic, scalable, and capable of driving sustainable growth, helping your brand stay ahead of the curve in a fast-evolving competitive ecosystem.</p>
 
                 </div>
 
                 <!-- Buttons -->
                 <div class="d-flex pb-2 flex-md-row flex-column-reverse gap-4 align-items-center w-100 justify-content-center">
-                    <a href="https://www.brandstory.ae/contact/" class="Performance-Driven-btn mt-2 mt-md-0">
+                    <a href="/contact/" class="Performance-Driven-btn mt-2 mt-md-0">
                         <span>➤ Get in Touch</span>
                     </a>
                     <a href="javascript:void(0)" class="Performance-Driven-btn" id="readMoreBtn">

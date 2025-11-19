@@ -6,7 +6,7 @@
                 <div class="service-banner-txt">
                     <h1>Reimagine Your Brand Online with BrandStory — Leading UI UX Design Agency in Dubai</h1>
 
-                    <div class="sb-btn"><a href="https://www.brandstory.ae/contact/" class="kmbtn btn btn-blue">Know
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Know
                             more</a></div>
                 </div>
             </div><!--col end-->
@@ -34,7 +34,7 @@
                         digital shuffle. They struggle to turn casual visitors into loyal customers and suffer from
                         clunky interfaces and uninspired designs. The solution? BrandStory! A leading UI UX design
                         company in Dubai.</p>
-                    <p>At BrandStory, we are a leading <a href="https://www.brandstory.ae/branding-agency-in-dubai/">branding agency in Dubai</a> specializing in combining creativity and functionality with outstanding UI/UX designs.
+                    <p>At BrandStory, we are a leading <a href="/branding-agency-in-dubai/">branding agency in Dubai</a> specializing in combining creativity and functionality with outstanding UI/UX designs.
                         Our team of visionary designers crafts engaging digital experiences that resonate deeply with
                         users. By combining aesthetic appeal with seamless usability, we empower brands to tell their
                         unique stories in a way that captivates audiences and drives results.</p>

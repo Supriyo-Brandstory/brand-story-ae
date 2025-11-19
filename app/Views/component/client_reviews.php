@@ -23,7 +23,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="https://www.brandstory.ae/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
                             <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                             <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                             <p class="mb-0 text-start text-white">FourNxt</p>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="https://www.brandstory.ae/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                            <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
                             <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
                             <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                             <p class="mb-0 text-start text-white">Sherpa Communications</p>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="https://www.brandstory.ae/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
                             <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                             <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                             <p class="mb-0 text-start text-white">Take Leap</p>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="swiper-slide d-flex">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="https://www.brandstory.ae/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
                             <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                             <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                             <p class="mb-0 text-start text-white">Uno Capital</p>

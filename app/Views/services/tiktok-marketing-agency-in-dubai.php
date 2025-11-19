@@ -37,7 +37,7 @@
     <li><b>Top View</b></li>
         <p>With Tik Tok Top View Ads, you can see your favorite brand's latest ad in a whole new way. Watch the ad as if you're right there in the scene with the models. Plus, you can get an up-close look at all of the product features and specs.</p>
     <li><b>Branded Hashtag Challenge</b></li>
-        <p>The Tik Tok Branded Hashtag Challenge is the ultimate way to get your brand noticed on <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/">social media</a>. With a series of challenges, you can engage with your followers and create some memorable content.</p>
+        <p>The Tik Tok Branded Hashtag Challenge is the ultimate way to get your brand noticed on <a href="/social-media-marketing-agency-in-dubai/">social media</a>. With a series of challenges, you can engage with your followers and create some memorable content.</p>
     <li><b>Branded Effects.</b></li>
         <p>Tik Tok Branded Effects is the best way to add style and uniqueness to your videos. With Tik Tok Branded Effects, you can add cool effects that will make your videos stand out from the rest. This app has a variety of effects that you can use in your videos to give them an edge. From flames to hearts, there's something for everyone. You can even create your own effects!</p>
     </ol>

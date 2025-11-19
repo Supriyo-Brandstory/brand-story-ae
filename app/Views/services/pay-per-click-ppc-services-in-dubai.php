@@ -73,7 +73,7 @@
                         <span class="db">Agency in Dubai</span>
                     </h2>
                     <p class="mb-3 text-white fs-16">Take your business to new heights with BrandStory, the leading PPC agency in Dubai. We specialize in creating high-performing pay-per-click ad campaigns that drive qualified traffic, generate leads, and deliver measurable return on investment. Every campaign we design is tailored to your business objectives, ensuring your brand reaches the right audience at the right time and generates valuable leads.</p>
-                    <p class="mb-3 text-white fs-16">Our team leverages advanced audience targeting, strategic keyword research, and audience segmentation to ensure your investment generates the greatest impact, making every dirham count. Whether it’s search, display, shopping, <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:underline">social media</a>, or remarketing campaigns, BrandStory ensures your ads are seen by users who are ready to engage and convert.</p>
+                    <p class="mb-3 text-white fs-16">Our team leverages advanced audience targeting, strategic keyword research, and audience segmentation to ensure your investment generates the greatest impact, making every dirham count. Whether it’s search, display, shopping, <a href="/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:underline">social media</a>, or remarketing campaigns, BrandStory ensures your ads are seen by users who are ready to engage and convert.</p>
                     <p class="mb-3 text-white fs-16">As a premier <a href="https://www.google.com/partners/agency?id=1975289574" style="color:white; text-decoration:underline">Google Partner Agency</a>, we combine data-driven strategies with continuous optimization, reducing wasted spend while increasing conversions. Our approach focuses on delivering tangible business results- higher website traffic, more qualified leads, and stronger online visibility. </p>
                 </div>
             </div>
@@ -487,7 +487,7 @@
     <div class="sction-header">
         <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
         <p class="section-description text-md-start m-0 mb-5">
-            We are a leading <a href="https://www.brandstory.ae/" style="color:white; text-decoration:underline">digital marketing agency in Dubai</a>, crafting tailored strategies powered by the latest tools and cutting-edge technologies. We translate your business goals into measurable growth.
+            We are a leading <a href="/" style="color:white; text-decoration:underline">digital marketing agency in Dubai</a>, crafting tailored strategies powered by the latest tools and cutting-edge technologies. We translate your business goals into measurable growth.
         </p>
     </div>
 
@@ -640,7 +640,7 @@
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-9.png" class="img-fluid" alt="ppc management services dubai">
                 <h4>PPC ads can build SEO</h4>
-                <p>Our ppc management services Dubai can help build <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
+                <p>Our ppc management services Dubai can help build <a href="/seo-services-company-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
             </div>
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-10.png" class="img-fluid" alt="ppc marketing dubai">
@@ -678,7 +678,7 @@
         <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
             <h2 class="text-black mb-4 text-md-start text-center ">Case Studies That Showcase <br>Digital Marketing Success
             </h2>
-            <a href="https://www.brandstory.ae/case-study/" class="Performance-Driven-btn text-black">➤All Case Studies</a>
+            <a href="/case-study/" class="Performance-Driven-btn text-black">➤All Case Studies</a>
         </div>
 
         <div class="position-relative delivertechmain">
@@ -691,7 +691,7 @@
                             <h3 class="text-black">Sand Dollar - Ecommerce</h3>
                             <p class="fs-20 text-black">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -702,7 +702,7 @@
                             <h3 class="text-black">TravelX</h3>
                             <p class="fs-20 text-black">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -713,7 +713,7 @@
                             <h3 class="text-black">Crystal Plaza</h3>
                             <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -724,7 +724,7 @@
                             <h3 class="text-black">NIMS School</h3>
                             <p class="fs-20 text-black">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -735,7 +735,7 @@
                             <h3 class="text-black">Wipro Infrastructure Engineering</h3>
                             <p class="fs-20 text-black">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -746,7 +746,7 @@
                             <h3 class="text-black">NanoPrecise Sci Corp</h3>
                             <p class="fs-20 text-black">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -757,7 +757,7 @@
                             <h3 class="text-black">Sherpa Communications</h3>
                             <p class="fs-20 text-black">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -774,7 +774,7 @@
 <section>
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4">Awards & Recognitions</h2>
-        <p class="fs-20">At BrandStory UAE, we are recognized as a top-tier Pay-Per-Click (PPC), <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">social media management</a>, and <a href="https://www.brandstory.ae/seo-services-company-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">SEO agency in Dubai</a> by 500+ active clients across the UAE.
+        <p class="fs-20">At BrandStory UAE, we are recognized as a top-tier Pay-Per-Click (PPC), <a href="/social-media-marketing-agency-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">social media management</a>, and <a href="/seo-services-company-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">SEO agency in Dubai</a> by 500+ active clients across the UAE.
             With a data-driven approach, strategic ad placement, and conversion-focused campaigns, we position ourselves as leading digital marketing specialists. These grants stand as a testament to our ability to produce high ROI and provide remarkable returns for our clients across different businesses.</p>
         <p class="mb-4 fs-20">As a Google Partner agency, we create custom-made campaigns that adjust to each client's objectives, guaranteeing the most extreme visibility and performance over platforms like Google Ads, Bing, and social media channels. From keyword research to real-time analytics, each perspective of our PPC methodology is planned for victory. These acknowledgments motivate us to keep improving and surpassing our desires within the energetic world of paid advertising.</p>
         <div class="row">
@@ -928,41 +928,41 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="https://www.brandstory.ae/assets/images/blog/track-competitors/banner.jpg">
-                            <h3><a href="https://www.brandstory.ae/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" style="color: #000; text-decoration: none;">Digital Marketing Competitor Analysis: How to Track Competitors</a></h3>
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/track-competitors/banner.jpg">
+                            <h3><a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" style="color: #000; text-decoration: none;">Digital Marketing Competitor Analysis: How to Track Competitors</a></h3>
                             <p class="fs-20">Ethically carrying out competitor analysis in digital marketing for winning strategies through respectful and legally grounded means.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="https://www.brandstory.ae/assets/images/blog/high-impact-keywords/banner.jpg">
-                            <h3><a href="https://www.brandstory.ae/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/" style="color: #000; text-decoration: none;">How to Identify High-Impact Keywords in Competitive Niches</a></h3>
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/high-impact-keywords/banner.jpg">
+                            <h3><a href="/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/" style="color: #000; text-decoration: none;">How to Identify High-Impact Keywords in Competitive Niches</a></h3>
                             <p class="fs-20">Conducting keyword research in competitive niches is like playing a chess match against a grandmaster. Know More!</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="https://www.brandstory.ae/assets/images/blog/lower-cpc-banner.webp">
-                            <h3><a href="https://www.brandstory.ae/blogs/how-to-lower-cpc-without-losing-ad-visibility/" style="color: #000; text-decoration: none;">How to Lower CPC Without Losing Ad Visibility</a></h3>
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/lower-cpc-banner.webp">
+                            <h3><a href="/blogs/how-to-lower-cpc-without-losing-ad-visibility/" style="color: #000; text-decoration: none;">How to Lower CPC Without Losing Ad Visibility</a></h3>
                             <p class="fs-20">Google Ads is an auction system, so the cost per click depends on your bid, what competitors bid, your ad quality, and relevance level.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/how-to-lower-cpc-without-losing-ad-visibility/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/how-to-lower-cpc-without-losing-ad-visibility/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="https://www.brandstory.ae/assets/images/blog/ppc-strategies-banner.webp">
-                            <h3><a href="https://www.brandstory.ae/blogs/ppc-strategies-that-maximize-roi-for-any-budget/" style="color: #000; text-decoration: none;">PPC Strategies That Maximize ROI for Any Budget</a></h3>
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ppc-strategies-banner.webp">
+                            <h3><a href="/blogs/ppc-strategies-that-maximize-roi-for-any-budget/" style="color: #000; text-decoration: none;">PPC Strategies That Maximize ROI for Any Budget</a></h3>
                             <p class="fs-20">PPC marketing today remains among the most popular methods to attract targeted traffic and conversions in this competitive digital advertising arena.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/ppc-strategies-that-maximize-roi-for-any-budget/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/ppc-strategies-that-maximize-roi-for-any-budget/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -1221,7 +1221,7 @@
 
                 </h2>
                 <p class="new-cta-footer-text">
-                    In a digital world overflowing with content, PPC advertising is your shortcut to visibility, but only when executed with precision. At <a href="https://www.brandstory.ae/" style="color:white; text-decoration:underline">BrandStory</a>, we don’t just set up pay-per-click ads, we engineer campaigns that speak directly to the people who matter most for your business. Each campaign begins with understanding your audience, their intent, and their journey, allowing us to craft strategies that cut through the noise and deliver exceptional outcomes.
+                    In a digital world overflowing with content, PPC advertising is your shortcut to visibility, but only when executed with precision. At <a href="/" style="color:white; text-decoration:underline">BrandStory</a>, we don’t just set up pay-per-click ads, we engineer campaigns that speak directly to the people who matter most for your business. Each campaign begins with understanding your audience, their intent, and their journey, allowing us to craft strategies that cut through the noise and deliver exceptional outcomes.
 
                 </p>
                 <p class="new-cta-footer-text">Our approach focuses on hyper-targeted ad placement, intelligent bid strategies, and continuous ad optimization. By leveraging real-time data, we refine campaigns to ensure every click has a purpose, reducing wasted spend and maximizing returns on investment. From search and display ads to retargeting and dynamic campaigns, we build a network of touchpoints that guide potential customers seamlessly from awareness to conversion.</p>
@@ -1236,7 +1236,7 @@
                         But PPC isn’t just numbers, it’s storytelling in action. Every ad is crafted with compelling copy, engaging visuals, and clear calls to action that resonate with your audience while staying true to your brand voice. BrandStory combines creativity with analytics, ensuring that your campaigns are not only effective but also leave a lasting impression on every potential customer.
                     </p>
                     <p class="new-cta-footer-text">
-                        We also focus on<a href="https://www.brandstory.ae/full-funnel-performance-marketing/" style="color:white; text-decoration:underline"> full-funnel performance</a> optimization, tracking user behavior beyond the click. By analyzing conversion paths, engagement metrics, and ROI, we adapt campaigns to maximize efficiency and profitability. Our goal is to turn ad spend into growth, ensuring that your PPC investment translates into tangible business outcomes and long-term success.
+                        We also focus on<a href="/full-funnel-performance-marketing/" style="color:white; text-decoration:underline"> full-funnel performance</a> optimization, tracking user behavior beyond the click. By analyzing conversion paths, engagement metrics, and ROI, we adapt campaigns to maximize efficiency and profitability. Our goal is to turn ad spend into growth, ensuring that your PPC investment translates into tangible business outcomes and long-term success.
 
                     </p>
 
@@ -1244,7 +1244,7 @@
 
                 <!-- Buttons -->
                 <div class="d-flex pb-2 flex-md-row flex-column-reverse gap-4 align-items-center w-100 justify-content-center">
-                    <a href="https://www.brandstory.ae/contact/" class="Performance-Driven-btn mt-2 mt-md-0">
+                    <a href="/contact/" class="Performance-Driven-btn mt-2 mt-md-0">
                         <span>➤ Get in Touch</span>
                     </a>
                     <a href="javascript:void(0)" class="Performance-Driven-btn" id="readMoreBtn">

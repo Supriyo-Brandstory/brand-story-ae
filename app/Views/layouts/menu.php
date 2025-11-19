@@ -12,7 +12,7 @@
             <!-- Digital Marketing -->
             <li class="parent-link">
                 <div class="d-flex align-itmes-center">
-                    <a href="javascript:;" class="mlink only-dropdown">Services</a>
+                    <a href="javascript:void(0);" class="mlink only-dropdown">Services</a>
                     <span class="d-block d-md-none drop-iconss">+</span>
                 </div>
 
@@ -88,17 +88,17 @@
 
             <li class="parent-link">
                 <div class="d-flex align-itmes-center">
-                    <a href="https://www.brandstory.ae/case-study/" class="mlink">Case Studies</a>
+                    <a href="/case-study/" class="mlink">Case Studies</a>
                 </div>
             </li>
             <li class="parent-link">
                 <div class="d-flex align-itmes-center">
-                    <a href="https://www.brandstory.ae/blog/" class="mlink">Blogs </a>
+                    <a href="/blog/" class="mlink">Blogs </a>
                 </div>
             </li>
             <li class="parent-link">
                 <div class="d-flex align-itmes-center">
-                    <a href="https://www.brandstory.ae/careers/" class="mlink">Careers </a>
+                    <a href="/careers/" class="mlink">Careers </a>
                 </div>
 
         </ul>

@@ -113,14 +113,14 @@
                     <div class="service-card border-0 h-100">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="https://www.brandstory.ae/magento-website-development-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/magento.svg" alt="magento" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/magento-website-development-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/magento.svg" alt="magento" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="https://www.brandstory.ae/magento-website-development-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Magento" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/magento-website-development-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Magento" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="https://www.brandstory.ae/magento-website-development-dubai/" style="text-decoration: none; color: #FFF;"> Magento</a></h5>
+                        <h5><a href="/magento-website-development-dubai/" style="text-decoration: none; color: #FFF;"> Magento</a></h5>
                         <p class="small">Magento provides robust scalability and customization options, ideal for e-commerce businesses looking for high-end solutions. Multiple payment options and advanced product management make it the preferred choice for businesses. We create scalable and intuitive e-commerce portals in Magento with the latest features.   </p>
                     </div>
                 </div>
@@ -147,14 +147,14 @@
                     <div class="service-card">
                         <div class="row mb-3 mt-90">
                             <div class="col-6 text-start">
-                                <a href="https://www.brandstory.ae/wordpress-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/wordpress.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/wordpress-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/wordpress.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="https://www.brandstory.ae/wordpress-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="WordPress" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/wordpress-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="WordPress" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5> <a href="https://www.brandstory.ae/wordpress-development-company-in-dubai/" style="text-decoration: none; color: #fff;">WordPress</a></h5>
+                        <h5> <a href="/wordpress-development-company-in-dubai/" style="text-decoration: none; color: #fff;">WordPress</a></h5>
                         <p class="small">WordPress is the most popular CMS platform, enriched with a vast plugin ecosystem. Ideal for e-commerce, business websites, and blogging websites, it comes with SEO-friendly features. If you are looking for WordPress websites, BrandStory can be your tech partner. </p>
                     </div>
                 </div>
