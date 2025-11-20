@@ -1,0 +1,74 @@
+Console Commands Reference Guide
+
+This document outlines the usage for the available PHP console commands. To run any command, navigate to your project's root directory in the terminal and prefix the command with `php command`.
+
+---
+
+1.  **make:controller**
+    *   **Purpose:** Generate a new controller class.
+    *   **Usage:** `php command make:controller <ControllerName>`
+    *   **Example:** `php command make:controller UserController`
+    *   **Resource Controller:** To generate a controller with standard CRUD methods, add `--resource`.
+    *   **Example:** `php command make:controller ProductController --resource`
+    *   **Creates:** `app/Controllers/ControllerName.php`
+
+2.  **make:middleware**
+    *   **Purpose:** Generate a new middleware class.
+    *   **Usage:** `php command make:middleware <MiddlewareName>`
+    *   **Example:** `php command make:middleware AuthCheck`
+    *   **Creates:** `app/Middleware/MiddlewareName.php`
+
+3.  **make:migration**
+    *   **Purpose:** Generate a generic database migration file.
+    *   **Usage:** `php command make:migration <MigrationName>`
+    *   **Example:** `php command make:migration AddEmailToUsers`
+    *   **Creates:** `app/migrations/YYYYMMDDHHIISS_migration_name.php`
+
+4.  **make:table**
+    *   **Purpose:** Generate a migration file for creating a new database table.
+    *   **Usage:** `php command make:table <TableName>`
+    *   **Example:** `php command make:table users`
+    *   **Creates:** `app/migrations/YYYYMMDDHHIISS_create_table_name_table.php`
+
+5.  **make:model**
+    *   **Purpose:** Generate a new model class.
+    *   **Usage:** `php command make:model <ModelName>`
+    *   **Example:** `php command make:model Post`
+    *   **Creates:** `app/Models/ModelName.php`
+
+6.  **make:request**
+    *   **Purpose:** Generate a new request (form validation) class.
+    *   **Usage:** `php command make:request <RequestName>`
+    *   **Example:** `php command make:request StoreUserRequest`
+    *   **Creates:** `app/Requests/RequestName.php`
+
+7.  **make:seeder**
+    *   **Purpose:** Generate a new database seeder class.
+    *   **Usage:** `php command make:seeder <SeederName>`
+    *   **Example:** `php command make:seeder ProductsTableSeeder`
+    *   **Creates:** `app/seeders/SeederName.php`
+
+8.  **migrate:run**
+    *   **Purpose:** Run all pending database migrations.
+    *   **Usage:** `php command migrate:run`
+
+9.  **migrate:rollback**
+    *   **Purpose:** Rollback the last batch of database migrations.
+    *   **Usage:** `php command migrate:rollback`
+
+10. **migrate:status**
+    *   **Purpose:** Show the status of all database migrations (ran or pending).
+    *   **Usage:** `php command migrate:status`
+
+11. **admin:seed**
+    *   **Purpose:** Seed the default admin user into the database.
+    *   **Usage:** `php command admin:seed`
+
+12. **make:docs**
+    *   **Purpose:** Generate documentation for specified code files.
+    *   **Usage:** `php command make:docs [--format=<text|markdown>] [--dir=<path>]`
+    *   **Options:**
+        *   `--format`: Specify the output format (`text` or `markdown`). Defaults to `text`.
+        *   `--dir`: Specify the directory to document. Defaults to `app/Console`.
+    *   **Example:** `php command make:docs --format=markdown --dir=app/Controllers`
+    *   **Creates:** `docs/documentation.txt` (or `docs/documentation.md`)

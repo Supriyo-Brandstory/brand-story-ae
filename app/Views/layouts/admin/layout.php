@@ -66,6 +66,16 @@
                 </a>
             </li>
             <li>
+                <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link">
+                    <i class="bi bi-tags"></i> Blog Categories
+                </a>
+            </li>
+            <li>
+                <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link">
+                    <i class="bi bi-journal-text"></i> Blog Posts
+                </a>
+            </li>
+            <li>
                 <a href="#" class="nav-link">
                     <i class="bi bi-people"></i> Users
                 </a>
@@ -128,6 +138,16 @@
                 <li class="nav-item">
                     <a href="<?= route('admin.dashboard') ?>" class="nav-link text-white active">
                         <i class="bi bi-house-door"></i> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link text-white">
+                        <i class="bi bi-tags"></i> Blog Categories
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link text-white">
+                        <i class="bi bi-journal-text"></i> Blog Posts
                     </a>
                 </li>
                 <!-- Repeat other menu items... -->

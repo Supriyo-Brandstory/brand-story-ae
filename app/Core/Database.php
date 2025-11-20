@@ -7,7 +7,7 @@ use PDOException;
 
 class Database
 {
-    private static ?PDO $pdo = null;
+    protected static ?PDO $pdo = null;
 
     public static function connect(): PDO
     {

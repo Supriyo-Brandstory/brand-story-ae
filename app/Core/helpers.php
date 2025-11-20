@@ -15,7 +15,7 @@ if (!function_exists('csrf_token')) {
         if (empty($_SESSION['csrf_token'])) {
             $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
         }
-        return $_SESSION['csrf_token'];
+        return '<input type="hidden" name="_token" value="'. $_SESSION['csrf_token'] .'">';
     }
 }
 
@@ -37,5 +37,20 @@ if (!function_exists('route')) {
         $uri = Route::getNamed($name);
         $uri = ltrim($uri, '/');
         return $base . ($uri !== '' ? '/' . $uri : '/');
+    }
+}
+
+if (!function_exists('generateUniqueSlug')) {
+    function generateUniqueSlug(string $text, object $modelInstance): string
+    {
+        $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $text), '-'));
+        $originalSlug = $slug;
+        $counter = 1;
+
+        while ($modelInstance->query("SELECT COUNT(*) FROM {$modelInstance->getTableName()} WHERE slug = ?", [$slug])[0]['COUNT(*)'] > 0) {
+            $slug = $originalSlug . '-' . $counter++;
+        }
+
+        return $slug;
     }
 }

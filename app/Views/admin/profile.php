@@ -27,7 +27,8 @@
                 <div class="card-body p-4">
 
                     <form action="<?php echo route('admin.updateProfile'); ?>" method="post">
-                        <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+                                        <?= csrf_token() ?>
+
 
                         <!-- Name Field -->
                         <div class="mb-4">

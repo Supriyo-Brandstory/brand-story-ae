@@ -58,6 +58,20 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/logout', 'AdminController@logout', 'admin.logout');
         Route::get('/profile', 'AdminController@profile', 'admin.profile');
         Route::post('/profile', 'AdminController@updateProfile', 'admin.updateProfile');
-        Route::get('/blogs', 'AdminController@blogs', 'admin.blogs');
+        // Blog Categories Management
+        Route::get('/blog-categories', 'AdminBlogCategoryController@index', 'admin.blogCategories.index');
+        Route::get('/blog-categories/create', 'AdminBlogCategoryController@create', 'admin.blogCategories.create');
+        Route::post('/blog-categories', 'AdminBlogCategoryController@store', 'admin.blogCategories.store');
+        Route::get('/blog-categories/{id}/edit', 'AdminBlogCategoryController@edit', 'admin.blogCategories.edit');
+        Route::post('/blog-categories/{id}', 'AdminBlogCategoryController@update', 'admin.blogCategories.update');
+        Route::post('/blog-categories/{id}/delete', 'AdminBlogCategoryController@destroy', 'admin.blogCategories.destroy');
+
+        // Blog Posts Management
+        Route::get('/blogs', 'AdminBlogController@index', 'admin.blogs_admin.index');
+        Route::get('/blogs/create', 'AdminBlogController@create', 'admin.blogs_admin.create');
+        Route::post('/blogs', 'AdminBlogController@store', 'admin.blogs_admin.store');
+        Route::get('/blogs/{id}/edit', 'AdminBlogController@edit', 'admin.blogs_admin.edit');
+        Route::post('/blogs/{id}', 'AdminBlogController@update', 'admin.blogs_admin.update');
+        Route::post('/blogs/{id}/delete', 'AdminBlogController@destroy', 'admin.blogs_admin.destroy');
     });
 });

@@ -1,6 +1,6 @@
 <?php
 // app/Core/Migrator.php
-namespace App\Core;
+namespace App\Console\Core;
 
 use App\Core\Database;
 use PDO;
@@ -13,8 +13,8 @@ class Migration
     public function __construct()
     {
         $this->db = Database::connect();
-        $this->migrationsPath = __DIR__ . '/../commands/migrations';
-        $this->migrationsPath = __DIR__ . '/../migrations';
+        // Removed the incorrect path, keeping only the correct one
+        $this->migrationsPath = __DIR__ . '/../../migrations';
         if (!is_dir($this->migrationsPath)) {
             mkdir($this->migrationsPath, 0777, true);
         }

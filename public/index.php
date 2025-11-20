@@ -20,6 +20,11 @@ if (file_exists($composerAutoload)) {
     });
 }
 
+// Start session for all requests
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 // load helpers (route() and base_url())
 require_once __DIR__ . '/../app/Core/helpers.php';
 
