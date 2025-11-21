@@ -1,14 +1,7 @@
 <?php
 
-// Port configuration for local development
-$port = 8000;
-$baseUrl = 'http://localhost';
-
-// Construct full URL with port
-$fullUrl = $baseUrl . ':' . $port;
-
 return [
     'app_name' => 'BrandStoryAE',
-    'base_url' => $fullUrl,
-    'port' => $port,
+    'base_url' => 'http://brandstoryae.test',
+    // If you are using Herd/Valet, change to: 'http://brandstoryae.test'
 ];

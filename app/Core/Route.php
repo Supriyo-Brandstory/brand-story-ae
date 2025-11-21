@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Core;
 
 class Route
@@ -55,7 +56,15 @@ class Route
 
     public static function dispatch()
     {
-        $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+        $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+        // Handle subdirectory installation
+        $scriptDir = dirname($_SERVER['SCRIPT_NAME']);
+        if ($scriptDir !== '/' && strpos($uri, $scriptDir) === 0) {
+            $uri = substr($uri, strlen($scriptDir));
+        }
+
+        $uri = trim($uri, '/');
         $method = $_SERVER['REQUEST_METHOD'];
 
         $routes = self::$routes[$method] ?? [];
@@ -72,7 +81,7 @@ class Route
                 // Store the name of the matched route
                 // Use array_search to find the route name from its path
                 self::$currentMatchedRouteName = array_search(trim($route, '/'), self::$names);
-                
+
                 array_shift($matches);
 
                 /* 🔥 Run Middleware First */
@@ -98,7 +107,7 @@ class Route
 
                 // Convert namespace backslashes to directory slashes for the file path
                 $controllerFilePath = __DIR__ . "/../Controllers/" . str_replace('\\', '/', $controllerName) . ".php";
-                
+
                 if (!file_exists($controllerFilePath)) {
                     echo "Controller not found: {$fullControllerClass}"; // Show full class name for clarity
                     exit;
@@ -117,18 +126,18 @@ class Route
         }
 
         http_response_code(404);
-         // Call your controller's notfound() method
-            $controllerClass = "App\\Controllers\\FrontendController";
-            $controllerFile = __DIR__ . "/../Controllers/FrontendController.php";
+        // Call your controller's notfound() method
+        $controllerClass = "App\\Controllers\\FrontendController";
+        $controllerFile = __DIR__ . "/../Controllers/FrontendController.php";
 
-            if (file_exists($controllerFile)) {
-                require_once $controllerFile;
-                $controller = new $controllerClass();
-                return $controller->notfound();
-            } else {
-                echo '<h1>404 - Page not found</h1>';
-            }
-            exit;
+        if (file_exists($controllerFile)) {
+            require_once $controllerFile;
+            $controller = new $controllerClass();
+            return $controller->notfound();
+        } else {
+            echo '<h1>404 - Page not found</h1>';
+        }
+        exit;
     }
 
 

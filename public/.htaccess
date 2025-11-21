@@ -1,6 +1,6 @@
 RewriteEngine On
 # Ensure the rewrite base is root for Herd/Valet
-RewriteBase /
+# RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [L,QSA]
