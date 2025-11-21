@@ -47,6 +47,7 @@ $commands = [
     'migrate:make' => 'MakeMigration', // Alias for make:migration, handled by MigrateCommand
     'migrate:table' => 'MakeMigration', // Alias for make:table, handled by MigrateCommand
     'admin:seed' => 'SeedAdminCommand',
+    'serve' => 'ServeCommand',
     // Add other commands here
 ];
 

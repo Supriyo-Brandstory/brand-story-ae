@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# BrandStoryAE Development Server Runner
+# Usage: ./run [port]
+# Example: ./run 8080
+
+PORT=${1:-8000}
+
+echo "🚀 Starting BrandStoryAE on port $PORT..."
+php command serve $PORT
