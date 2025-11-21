@@ -1,0 +1,83 @@
+# Composer dependencies
+/vendor/
+composer.phar
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.buildpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+/logs/
+/storage/logs/
+
+# Cache and temporary files
+/cache/
+/tmp/
+*.cache
+.phpunit.result.cache
+
+# Build files
+/build/
+/dist/
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Database
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS generated files
+*.pid
+*.seed
+*.pid.lock
+
+# Test coverage
+/coverage/
+.phpunit.cache
+
+# Laravel specific (if applicable)
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/public/storage
+/public/hot
+
+# Herd specific
+.herd/
