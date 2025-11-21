@@ -1,4 +1,3 @@
-
 <!-- Include Header-->
 <section class="service-banner em-banner sp-50">
     <div class="container"><!--Container Start-->
@@ -12,7 +11,8 @@
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-form">
-                    <?php include __DIR__ . '/../component/forms/service-form.php'; ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+
                 </div>
             </div><!--col end-->
         </div><!--Row End-->
@@ -35,8 +35,10 @@
                 <div class="best-txt"><!--txt start-->
                     <h2>Best Email Marketing Agency in Dubai</h2>
                     <p>Email marketing is the best digital marketing platform where you invest in building stronger relationships with your potential customers. It is the most powerful and cost-effective tool for streamlining your business growth. This will not only help you to generate leads but will also help you in strengthening your relationship with the old customers.</p>
-                   <br> <p>If you are planning to take Email marketing as a priority for your business in the upcoming years, then you are standing on the right platform. BrandStory is the best email marketing agency in Dubai, providing round-the-clock email marketing services. We provide cost-effective email marketing services across Dubai and the UAE, backed by top-level experts. </p>
-                   <br> <p>At BrandStory, our email marketing strategy focuses on crafting personalized, high-converting campaigns that engage your audience and drive measurable results. From campaign creation, click-worthy template design, to automation and analytics, we ensure maximum ROI for your business.</p>
+                    <br>
+                    <p>If you are planning to take Email marketing as a priority for your business in the upcoming years, then you are standing on the right platform. BrandStory is the best email marketing agency in Dubai, providing round-the-clock email marketing services. We provide cost-effective email marketing services across Dubai and the UAE, backed by top-level experts. </p>
+                    <br>
+                    <p>At BrandStory, our email marketing strategy focuses on crafting personalized, high-converting campaigns that engage your audience and drive measurable results. From campaign creation, click-worthy template design, to automation and analytics, we ensure maximum ROI for your business.</p>
                 </div><!--txt end-->
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
@@ -413,7 +415,7 @@
         <div class="row col-reverse">
             <div class="col-md-6">
                 <div class="em-points">
-                    
+
                     <p>Email Marketing is the backbone of digital marketing.</p>
                     <p>With all the social media platforms rapidly evolving in order to become more personalized and cater to specific demographics in a particular way.</p>
                     <p>email marketing already has an edge. It’s personalized and customer-focused approach is what puts it way ahead of other digital marketing tools.</p>
@@ -602,12 +604,12 @@
             <div class="accordion-item"><!--Accordion item start-->
                 <h2 class="accordion-header" id="fh1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-                      What Is Email Marketing?
+                        What Is Email Marketing?
                     </button>
                 </h2>
                 <div id="fc1" class="accordion-collapse collapse show" data-bs-parent="#accordionDM">
                     <div class="accordion-body">
-                      Email Marketing is a powerful digital marketing strategy. It involves delivering promotional content to the target consumers via their email accounts. It is a personalized marketing mechanism for target customer groups. It is one of the most viable and widespread marketing tools employed by organizations across the globe. Both small and large-scale business ventures utilize this tool to reach out to their customer base and provide an appropriate call-to-action methodology. The content also has appropriate images, surveys, sweepstakes, contests, and giveaways in order to make the promotional content appealing and contextual.
+                        Email Marketing is a powerful digital marketing strategy. It involves delivering promotional content to the target consumers via their email accounts. It is a personalized marketing mechanism for target customer groups. It is one of the most viable and widespread marketing tools employed by organizations across the globe. Both small and large-scale business ventures utilize this tool to reach out to their customer base and provide an appropriate call-to-action methodology. The content also has appropriate images, surveys, sweepstakes, contests, and giveaways in order to make the promotional content appealing and contextual.
 
                     </div>
                 </div>
@@ -615,15 +617,15 @@
             <div class="accordion-item"><!--Accordion item start-->
                 <h2 class="accordion-header" id="fh2">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="false">
-                      What Is The Importance Of Email Marketing?
+                        What Is The Importance Of Email Marketing?
                     </button>
                 </h2>
                 <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
                     <div class="accordion-body">
-                       <p>Email Marketing is one of the most personalized, relevant, and context-oriented digital marketing strategies. It is budget-friendly, extremely convenient, and delivers a high return on investment. </p> <br>
-                       <p>The performance metrics enable you to build effective business strategies, make market and customer-centric decisions, and redesign your existing campaigns.</p><br>
-                       <p>Emails enable customers to respond immediately and interact with the business representatives. About 90% of the companies have reported high satisfaction with the performance of email marketing.</p><br>
-                       <p><strong>The steep rise in performance has made it one of the most sought-after mechanisms.</strong></p>
+                        <p>Email Marketing is one of the most personalized, relevant, and context-oriented digital marketing strategies. It is budget-friendly, extremely convenient, and delivers a high return on investment. </p> <br>
+                        <p>The performance metrics enable you to build effective business strategies, make market and customer-centric decisions, and redesign your existing campaigns.</p><br>
+                        <p>Emails enable customers to respond immediately and interact with the business representatives. About 90% of the companies have reported high satisfaction with the performance of email marketing.</p><br>
+                        <p><strong>The steep rise in performance has made it one of the most sought-after mechanisms.</strong></p>
                     </div>
                 </div>
             </div><!--Accordion item end-->
@@ -714,98 +716,98 @@
                     </div>
                 </div>
             </div>
-            
-              <!-- FAQ 1 -->
-    <div class="accordion-item">
-        <h4 class="accordion-header" id="flush-email1">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail1" aria-expanded="false" aria-controls="flush-collapseEmail1">
-                What is the Average Cost of Email Marketing?
-            </button>
-        </h4>
-        <div id="flush-collapseEmail1" class="accordion-collapse collapse" aria-labelledby="flush-email1" data-bs-parent="#accordionFlushExample2">
-            <div class="accordion-body">
-                <p class="fs-16 mb-0">The cost of email marketing services varies depending on factors like campaign size, email list volume, design complexity, and automation requirements. On average, businesses in the UAE invest between AED 1,500 and AED 5,000 per month for professional email marketing solutions. This typically includes strategy development, content creation, campaign management, analytics, and optimization to ensure maximum engagement and ROI.</p>
+
+            <!-- FAQ 1 -->
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-email1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail1" aria-expanded="false" aria-controls="flush-collapseEmail1">
+                        What is the Average Cost of Email Marketing?
+                    </button>
+                </h4>
+                <div id="flush-collapseEmail1" class="accordion-collapse collapse" aria-labelledby="flush-email1" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">The cost of email marketing services varies depending on factors like campaign size, email list volume, design complexity, and automation requirements. On average, businesses in the UAE invest between AED 1,500 and AED 5,000 per month for professional email marketing solutions. This typically includes strategy development, content creation, campaign management, analytics, and optimization to ensure maximum engagement and ROI.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- FAQ 2 -->
-    <div class="accordion-item">
-        <h4 class="accordion-header" id="flush-email2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail2" aria-expanded="false" aria-controls="flush-collapseEmail2">
-                Why Choose BrandStory as an Email Marketing Agency in Dubai?
-            </button>
-        </h4>
-        <div id="flush-collapseEmail2" class="accordion-collapse collapse" aria-labelledby="flush-email2" data-bs-parent="#accordionFlushExample2">
-            <div class="accordion-body">
-                <p class="fs-16 mb-0">BrandStory is a trusted and reputable email marketing agency in Dubai known for creating data-driven, personalized campaigns that deliver measurable results. With a team of experienced strategists and creatives, we design engaging email campaigns that nurture leads, boost conversions, and strengthen customer relationships. Our expertise in segmentation, automation, and performance tracking ensures that every campaign drives maximum ROI while aligning with your business goals.</p>
+            <!-- FAQ 2 -->
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-email2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail2" aria-expanded="false" aria-controls="flush-collapseEmail2">
+                        Why Choose BrandStory as an Email Marketing Agency in Dubai?
+                    </button>
+                </h4>
+                <div id="flush-collapseEmail2" class="accordion-collapse collapse" aria-labelledby="flush-email2" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">BrandStory is a trusted and reputable email marketing agency in Dubai known for creating data-driven, personalized campaigns that deliver measurable results. With a team of experienced strategists and creatives, we design engaging email campaigns that nurture leads, boost conversions, and strengthen customer relationships. Our expertise in segmentation, automation, and performance tracking ensures that every campaign drives maximum ROI while aligning with your business goals.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- FAQ 3 -->
-    <div class="accordion-item">
-        <h4 class="accordion-header" id="flush-email3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail3" aria-expanded="false" aria-controls="flush-collapseEmail3">
-                How is BrandStory Different from Others in Terms of Email Marketing?
-            </button>
-        </h4>
-        <div id="flush-collapseEmail3" class="accordion-collapse collapse" aria-labelledby="flush-email3" data-bs-parent="#accordionFlushExample2">
-            <div class="accordion-body">
-                <p class="fs-16 mb-0">BrandStory stands out as a leading email marketing agency by delivering data-driven, highly personalized campaigns. Unlike generic solutions, our team crafts strategies tailored to your audience, leveraging automation, advanced segmentation, and compelling content to drive engagement and conversions. With a strong emphasis on ROI, transparency, and continuous optimization, BrandStory ensures every campaign aligns perfectly with your brand’s goals, setting us apart from traditional agencies.</p>
+            <!-- FAQ 3 -->
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-email3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail3" aria-expanded="false" aria-controls="flush-collapseEmail3">
+                        How is BrandStory Different from Others in Terms of Email Marketing?
+                    </button>
+                </h4>
+                <div id="flush-collapseEmail3" class="accordion-collapse collapse" aria-labelledby="flush-email3" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">BrandStory stands out as a leading email marketing agency by delivering data-driven, highly personalized campaigns. Unlike generic solutions, our team crafts strategies tailored to your audience, leveraging automation, advanced segmentation, and compelling content to drive engagement and conversions. With a strong emphasis on ROI, transparency, and continuous optimization, BrandStory ensures every campaign aligns perfectly with your brand’s goals, setting us apart from traditional agencies.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- FAQ 4 -->
-    <div class="accordion-item">
-        <h4 class="accordion-header" id="flush-email4">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail4" aria-expanded="false" aria-controls="flush-collapseEmail4">
-                What Are the Critical Elements of an Email Marketing Campaign?
-            </button>
-        </h4>
-        <div id="flush-collapseEmail4" class="accordion-collapse collapse" aria-labelledby="flush-email4" data-bs-parent="#accordionFlushExample2">
-            <div class="accordion-body">
-                <p class="fs-16 mb-0">Successful email marketing campaigns rely on several key elements that drive engagement and conversions:</p>
+            <!-- FAQ 4 -->
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-email4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail4" aria-expanded="false" aria-controls="flush-collapseEmail4">
+                        What Are the Critical Elements of an Email Marketing Campaign?
+                    </button>
+                </h4>
+                <div id="flush-collapseEmail4" class="accordion-collapse collapse" aria-labelledby="flush-email4" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">Successful email marketing campaigns rely on several key elements that drive engagement and conversions:</p>
 
-                <ul class="fs-16 mb-0">
-                    <li><strong>Targeted Email List</strong> – A well-segmented audience ensures your emails reach the right people.</li>
-                    <li><strong>Compelling Subject Lines</strong> – Attention-grabbing headlines that boost open rates.</li>
-                    <li><strong>Personalized Content</strong> – Tailored messaging that resonates with each subscriber.</li>
-                    <li><strong>Responsive Design</strong> – Mobile-friendly templates for seamless user experience.</li>
-                    <li><strong>Clear Call-to-Action (CTA)</strong> – Direct prompts to guide recipients toward desired actions.</li>
-                    <li><strong>Automation & Timing</strong> – Scheduled, behavior-based emails for consistent engagement.</li>
-                    <li><strong>Analytics & Tracking</strong> – Detailed metrics to measure success and optimize future campaigns.</li>
-                </ul>
+                        <ul class="fs-16 mb-0">
+                            <li><strong>Targeted Email List</strong> – A well-segmented audience ensures your emails reach the right people.</li>
+                            <li><strong>Compelling Subject Lines</strong> – Attention-grabbing headlines that boost open rates.</li>
+                            <li><strong>Personalized Content</strong> – Tailored messaging that resonates with each subscriber.</li>
+                            <li><strong>Responsive Design</strong> – Mobile-friendly templates for seamless user experience.</li>
+                            <li><strong>Clear Call-to-Action (CTA)</strong> – Direct prompts to guide recipients toward desired actions.</li>
+                            <li><strong>Automation & Timing</strong> – Scheduled, behavior-based emails for consistent engagement.</li>
+                            <li><strong>Analytics & Tracking</strong> – Detailed metrics to measure success and optimize future campaigns.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- FAQ 5 -->
-    <div class="accordion-item">
-        <h4 class="accordion-header" id="flush-email5">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail5" aria-expanded="false" aria-controls="flush-collapseEmail5">
-                What Are the Advantages of Email Marketing Over Other Marketing Tools?
-            </button>
-        </h4>
-        <div id="flush-collapseEmail5" class="accordion-collapse collapse" aria-labelledby="flush-email5" data-bs-parent="#accordionFlushExample2">
-            <div class="accordion-body">
-                <p class="fs-16 mb-0">Email marketing offers several unique advantages that make it one of the most effective digital marketing channel:</p>
+            <!-- FAQ 5 -->
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-email5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEmail5" aria-expanded="false" aria-controls="flush-collapseEmail5">
+                        What Are the Advantages of Email Marketing Over Other Marketing Tools?
+                    </button>
+                </h4>
+                <div id="flush-collapseEmail5" class="accordion-collapse collapse" aria-labelledby="flush-email5" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">Email marketing offers several unique advantages that make it one of the most effective digital marketing channel:</p>
 
-                <ul class="fs-16 mb-0">
-                    <li><strong>Cost-Effective</strong> – Delivers high ROI at a fraction of the cost of other channels.</li>
-                    <li><strong>Highly Personalized</strong> – Enables tailored messaging based on user behavior and preferences.</li>
-                    <li><strong>Direct Communication</strong> – Reaches customers directly in their inbox, cutting through platform noise.</li>
-                    <li><strong>Measurable Results</strong> – Provides detailed analytics on open rates, clicks, and conversions.</li>
-                    <li><strong>Automation & Scalability</strong> – Easily automates campaigns and scales to thousands of recipients.</li>
-                    <li><strong>Customer Engagement</strong> – Encourages immediate interaction, building stronger relationships.</li>
-                    <li><strong>Cross-Channel Support</strong> – Works effectively alongside social media, SEO, and paid ads.</li>
-                </ul>
+                        <ul class="fs-16 mb-0">
+                            <li><strong>Cost-Effective</strong> – Delivers high ROI at a fraction of the cost of other channels.</li>
+                            <li><strong>Highly Personalized</strong> – Enables tailored messaging based on user behavior and preferences.</li>
+                            <li><strong>Direct Communication</strong> – Reaches customers directly in their inbox, cutting through platform noise.</li>
+                            <li><strong>Measurable Results</strong> – Provides detailed analytics on open rates, clicks, and conversions.</li>
+                            <li><strong>Automation & Scalability</strong> – Easily automates campaigns and scales to thousands of recipients.</li>
+                            <li><strong>Customer Engagement</strong> – Encourages immediate interaction, building stronger relationships.</li>
+                            <li><strong>Cross-Channel Support</strong> – Works effectively alongside social media, SEO, and paid ads.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-            
-            
+
+
             <!--Accordion item end-->
         </div><!--Accordion End-->
     </div><!--Container End-->

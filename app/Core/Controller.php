@@ -2,6 +2,8 @@
 
 namespace App\Core;
 
+use App\Core\Route; // Use the Route class
+
 class Controller
 {
     protected function view($view, $data = [])
@@ -33,6 +35,8 @@ class Controller
     // ---------------------------
     protected function adminView($view, $data = [])
     {
+        // Add current route name to data
+        $data['currentRouteName'] = Route::$currentMatchedRouteName;
         extract($data, EXTR_SKIP);
 
         $viewPath = __DIR__ . '/../Views/admin/' . $view . '.php';

@@ -3,9 +3,10 @@ namespace App\Core;
 
 class Route
 {
-    private static $routes = [];         // ['GET' => ['/admin/dashboard' => ['action'=>..., 'middleware'=>['AdminAuth']]]
+    private static $routes = [];
     private static $names = [];
     private static $currentMiddleware = [];
+    public static $currentMatchedRouteName = null;
 
     /* --------------------------------
         ROUTE REGISTER METHODS
@@ -68,7 +69,10 @@ class Route
             $pattern = '#^' . $pattern . '$#';
 
             if (preg_match($pattern, $uri, $matches)) {
-
+                // Store the name of the matched route
+                // Use array_search to find the route name from its path
+                self::$currentMatchedRouteName = array_search(trim($route, '/'), self::$names);
+                
                 array_shift($matches);
 
                 /* 🔥 Run Middleware First */
@@ -87,16 +91,21 @@ class Route
                 [$controllerName, $methodName] =
                     is_array($action) ? $action : explode('@', $action);
 
-                $controllerClass = "App\\Controllers\\{$controllerName}";
-                $controllerFile = __DIR__ . "/../Controllers/{$controllerName}.php";
+                // Full qualified class name for the controller
+                // If $controllerName is 'Admin\AdminController', it becomes 'App\Controllers\Admin\AdminController'
+                // If $controllerName is 'FrontendController', it becomes 'App\Controllers\FrontendController'
+                $fullControllerClass = "App\\Controllers\\{$controllerName}";
 
-                if (!file_exists($controllerFile)) {
-                    echo "Controller not found: {$controllerName}";
+                // Convert namespace backslashes to directory slashes for the file path
+                $controllerFilePath = __DIR__ . "/../Controllers/" . str_replace('\\', '/', $controllerName) . ".php";
+                
+                if (!file_exists($controllerFilePath)) {
+                    echo "Controller not found: {$fullControllerClass}"; // Show full class name for clarity
                     exit;
                 }
 
-                require_once $controllerFile;
-                $controller = new $controllerClass();
+                require_once $controllerFilePath;
+                $controller = new $fullControllerClass();
 
                 if (!method_exists($controller, $methodName)) {
                     echo "Method {$methodName} not found in {$controllerName}";
@@ -108,8 +117,18 @@ class Route
         }
 
         http_response_code(404);
-        echo "<h1>404 Not Found</h1>";
-        exit;
+         // Call your controller's notfound() method
+            $controllerClass = "App\\Controllers\\FrontendController";
+            $controllerFile = __DIR__ . "/../Controllers/FrontendController.php";
+
+            if (file_exists($controllerFile)) {
+                require_once $controllerFile;
+                $controller = new $controllerClass();
+                return $controller->notfound();
+            } else {
+                echo '<h1>404 - Page not found</h1>';
+            }
+            exit;
     }
 
 

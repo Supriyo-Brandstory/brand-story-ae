@@ -1,5 +1,3 @@
-
-
 <section class="footer-top sp-50"><!--Footer top start-->
   <div class="container"><!--Container Start-->
     <div class="row gx-lg-4">
@@ -8,13 +6,13 @@
           BRANDSTORY
         </div>
         <p class="ftr-desc">
-BrandStory is a premier digital transformation agency in Dubai. We excel in digital marketing, web design, and branding expertise to help UAE-based businesses connect, expand, and succeed.
+          BrandStory is a premier digital transformation agency in Dubai. We excel in digital marketing, web design, and branding expertise to help UAE-based businesses connect, expand, and succeed.
 
         </p>
         <div class="ftr-btn"><a href="/contact/" class="btn">Contact Sales</a></div>
-        <p><b>BrandStory UAE</b><br> 
-            Proudly celebrating 14 passionate years as a trusted digital marketing partner to 350+ clients.
-</p>
+        <p><b>BrandStory UAE</b><br>
+          Proudly celebrating 14 passionate years as a trusted digital marketing partner to 350+ clients.
+        </p>
       </div>
       <div class="col-md-4 col-lg-3">
         <h5 class="ftr-sub-title">Useful Links</h5>
@@ -24,7 +22,7 @@ BrandStory is a premier digital transformation agency in Dubai. We excel in digi
             </li>
             <li><a href="/about/">About Us</a>
             </li>
-            <li ><a href="/services/">Our Services </a></li>
+            <li><a href="/services/">Our Services </a></li>
 
             <li><a href="/contact/">Contact Us </a>
             </li>
@@ -130,7 +128,39 @@ BrandStory is a premier digital transformation agency in Dubai. We excel in digi
 
 
 <!-- Hidden Google Translate container -->
+<style>
+  label {
+    color: #000;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
 
+  .form-control,
+  .form-select {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  @media screen and (min-width:168px) and (max-width:580px) {
+    .play-btn {
+      width: 50px;
+      height: 50px;
+    }
+  }
+</style>
 <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/menu.js?key=' . time()) ?>"></script>
@@ -144,10 +174,6 @@ BrandStory is a premier digital transformation agency in Dubai. We excel in digi
 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.js"
   integrity="sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
-  integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 <script type="text/javascript">
   jQuery(document).ready(function($) {
     $("input").keypress(function() {
@@ -180,32 +206,3 @@ BrandStory is a premier digital transformation agency in Dubai. We excel in digi
     isVisible = !isVisible;
   });
 </script>
-<style>
-  label {
-    color: #000;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-  }
-
-  .form-control,
-  .form-select {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  }
-</style>
-
-
-

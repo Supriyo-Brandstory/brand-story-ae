@@ -10,6 +10,8 @@ This document outlines the usage for the available PHP console commands. To run 
     *   **Example:** `php command make:controller UserController`
     *   **Resource Controller:** To generate a controller with standard CRUD methods, add `--resource`.
     *   **Example:** `php command make:controller ProductController --resource`
+    *   **Admin Controller:** To generate an admin controller that extends `AdminBaseController`, add `--admin`.
+    *   **Example:** `php command make:controller NewAdminPanelController --admin`
     *   **Creates:** `app/Controllers/ControllerName.php`
 
 2.  **make:middleware**

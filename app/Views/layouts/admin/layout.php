@@ -50,6 +50,7 @@
 
 <?php if (isset($_COOKIE['admin_token'])): ?>
 
+  
     <!-- Offcanvas Sidebar for Mobile + Desktop Sidebar -->
     <div class="sidebar position-fixed top-0 start-0 d-flex flex-column flex-shrink-0 p-3 text-white" style="width: 280px; z-index: 1000;">
         <div class="d-flex align-items-center mb-3 mb-md-4 px-3">
@@ -61,53 +62,29 @@
         <hr class="text-white-50">
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
-                <a href="<?= route('admin.dashboard') ?>" class="nav-link active">
+                <a href="<?= route('admin.dashboard') ?>" class="nav-link <?= ($currentRouteName === 'admin.dashboard') ? 'active' : '' ?>">
                     <i class="bi bi-house-door"></i> Dashboard
                 </a>
             </li>
             <li>
-                <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link">
+                <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.blogCategories') !== false) ? 'active' : '' ?>">
                     <i class="bi bi-tags"></i> Blog Categories
                 </a>
             </li>
             <li>
-                <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link">
+                <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.blogs_admin') !== false) ? 'active' : '' ?>">
                     <i class="bi bi-journal-text"></i> Blog Posts
                 </a>
             </li>
-            <li>
-                <a href="#" class="nav-link">
-                    <i class="bi bi-people"></i> Users
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">
-                    <i class="bi bi-cart-check"></i> Orders
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">
-                    <i class="bi bi-box-seam"></i> Products
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">
-                    <i class="bi bi-graph-up"></i> Analytics
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link">
-                    <i class="bi bi-gear"></i> Settings
-                </a>
-            </li>
+              <!-- <?php var_dump($currentRouteName); ?> -->
         </ul>
         <hr class="text-white-50">
         <div class="dropdown">
             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
                 <i class="bi bi-person-circle fs-4 me-2"></i>
                 <div>
-                    <strong>Admin User</strong><br>
-                    <small>admin@example.com</small>
+                    <strong><?= $admin_name ?? 'Admin' ?></strong><br>
+                    <small><?= $admin_email ?? 'admin@example.com' ?></small>
                 </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
@@ -136,21 +113,20 @@
             <!-- Same nav as sidebar above -->
             <ul class="nav nav-pills flex-column mb-auto px-3">
                 <li class="nav-item">
-                    <a href="<?= route('admin.dashboard') ?>" class="nav-link text-white active">
+                    <a href="<?= route('admin.dashboard') ?>" class="nav-link text-white <?= ($currentRouteName === 'admin.dashboard') ? 'active' : '' ?>">
                         <i class="bi bi-house-door"></i> Dashboard
                     </a>
                 </li>
                 <li>
-                    <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link text-white">
+                    <a href="<?= route('admin.blogCategories.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.blogCategories') !== false) ? 'active' : '' ?>">
                         <i class="bi bi-tags"></i> Blog Categories
                     </a>
                 </li>
                 <li>
-                    <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link text-white">
+                    <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.blogs_admin') !== false) ? 'active' : '' ?>">
                         <i class="bi bi-journal-text"></i> Blog Posts
                     </a>
                 </li>
-                <!-- Repeat other menu items... -->
             </ul>
         </div>
     </div>
@@ -164,6 +140,30 @@
     </div>
 <?php endif; ?>
 
+<!-- jQuery (required for Summernote) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Summernote Lite -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.rich-text-editor').summernote({
+            placeholder: 'Write your content here...',
+            tabsize: 2,
+            height: 400,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['table', ['table']],
+                ['insert', ['link', 'picture', 'video']],
+                ['view', ['fullscreen', 'codeview', 'help']]
+            ]
+        });
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

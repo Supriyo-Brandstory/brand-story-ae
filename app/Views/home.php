@@ -17,7 +17,7 @@
             <div class="swiper-slide">
                 <div class="bannersld-main three">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/home/home-mobile-2.webp')?>">
+                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/home/home-mobile-2.webp') ?>">
                         <h1 class="mb-4 text-white">Empowering Brands with Best
                             <span class="db tab-db">Digital Marketing Services</span>
                         </h1>
@@ -43,11 +43,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp')?>" alt="Digital Marketing Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="Digital Marketing Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/mobile-digital.webp')?>" alt="Digital Marketing Agency in Dubai">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/mobile-digital.webp') ?>" alt="Digital Marketing Agency in Dubai">
                 </div>
 
             </div>
@@ -75,7 +75,7 @@
 
 <section class="vidsec">
     <div class="perks-vide-bg position-relative sp-50 bg-burjkhalifa">
-       
+
         <div class="perks-content position-relative">
             <div class="container perkshd position-relative">
                 <h2 class="text-center mb-lg-5 mb-4 text-white mt-lg-4">Experience Our Next-Level Digital Marketing <br>Services in Dubai, UAE</h2>
@@ -84,61 +84,61 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
                             <h3 class="mb-3">Search Engine <span class="db">Optimization (SEO)</span></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization plays a significant role in improving website visibility and driving organic traffic. Our SEO experts in Dubai follow proven strategies to maximize results and secure top page ranking in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-services-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/seo-services-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg') ?>">
                             <h3 class="mb-3">Social Media Marketing <span class="db">(SMM)</span></h3>
                             <p class="mb-3 fs-20">Harness the power of social media engagement with social media marketing. We craft visual narratives that speak volumes and bring the audience on board. Partner with us for Facebook, Instagram, TikTok, LinkedIn, and Twitter ads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/social-media-marketing-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/social-media-marketing-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg') ?>">
                             <h3 class="mb-3">Pay Per Click (PPC)</h3>
                             <p class="mb-3 fs-20">We offer data-driven PPC campaign management services. We are an award-winning Google Partner and Meta Partner agency with expertise in pay-per-click campaigns, so you get maximum exposure at minimal cost.</p>
                             <div class="casestydies-readmore">
-                                <a href="/pay-per-click-ppc-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/pay-per-click-ppc-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg') ?>">
                             <h3 class="mb-3">Email Marketing</h3>
                             <p class="mb-3 fs-20">We provide email marketing services in Dubai to engage customers, nurture leads, and drive conversions for clients. We craft email templates and campaigns to create direct communication with customers and keep them engaged.</p>
                             <div class="casestydies-readmore">
-                                <a href="/email-marketing-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/email-marketing-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg') ?>">
                             <h3 class="mb-3">Online Reputation <span class="db">Management (ORM)</span></h3>
                             <p class="mb-3 fs-20">With online reputation management, your business can keep track of your professional or personal standings with others on the internet. BrandStory is one of the premier online reputation management agencies in Dubai.</p>
                             <div class="casestydies-readmore">
-                                <a href="/online-reputation-management-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/online-reputation-management-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance6.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance6.svg') ?>">
                             <h3 class="mb-3">Content Marketing</h3>
                             <p class="mb-3 fs-20">Content marketing is a crucial aspect of digital marketing to inform and engage the potential audience. We create highly compelling text, multimedia, and audio content to bring your brand’s essence and vision to life.</p>
                             <div class="casestydies-readmore">
-                                <a href="/content-marketing-agency-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/content-marketing-agency-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -146,32 +146,32 @@
 
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?=base_url('/assets/images/home/perfrom-icon.png')?>" style="width: 96px; height: 96px;">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/perfrom-icon.png') ?>" style="width: 96px; height: 96px;">
                             <h3 class="mb-3">Performance Marketing<span class="db"></span></h3>
                             <p class="mb-3 fs-20">Performance marketing is a tangible marketing strategy based on growth results. We are the real growth-driver digital marketing agency offering full-funnel performance marketing services.</p>
                             <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/full-funnel-performance-marketing/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/branding-icon.png')?>" style="width: 96px; height: 96px;">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/branding-icon.png') ?>" style="width: 96px; height: 96px;">
                             <h3 class="mb-3">Branding Services<span class="db"></span></h3>
                             <p class="mb-3 fs-20">Branding helps businesses define their identity through strategy, design, and storytelling. As a leading creative branding agency in Dubai, we create strong brands that foster trust, recognition, and long-term loyalty.</p>
                             <div class="casestydies-readmore">
-                                <a href="/branding-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/branding-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg')?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg') ?>">
                             <h3 class="mb-3">Website Design & <span class="db">Development</span></h3>
                             <p class="mb-3 fs-20">A website built for user experience is essential for bringing leads into the sales funnel. We create custom websites with the latest technology stack that are easy to navigate, mobile responsive, and visually attractive.</p>
                             <div class="casestydies-readmore">
-                                <a href="/website-design-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>"></a>
+                                <a href="/website-design-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -188,22 +188,22 @@
             <div class="col-lg-4">
                 <div class="strategy-heading-main">
                     <h3 class="text-white strategy-title active strategy1"><span>Competitor Research<span></h3>
-                  
+
                     <h3 class="text-white strategy-title strategy2"><span>Planning & Strategy<span></h3>
-                    
+
                     <h3 class="text-white strategy-title strategy3"><span>Trial & Testing<span></h3>
-                    
+
                     <h3 class="text-white strategy-title strategy4"><span>Campaign Implementation<span></h3>
-                  
+
                     <h3 class="text-white strategy-title strategy5"><span>Reporting & Optimization<span></h3>
-                    
+
                 </div>
             </div>
             <div class="col-lg-8">
                 <div class="strategy-process-main strategy1">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('/assets/images/home/strategy1.webp')?>" alt="Competitor Research & Data Analysis">
+                            <img class="w-100" src="<?= base_url('/assets/images/home/strategy1.webp') ?>" alt="Competitor Research & Data Analysis">
                         </div>
                         <div class="col-md-8 align-self-center strat-cnt">
                             <h3 class="mb-4">Competitor Research & Data Analysis</h3>
@@ -219,7 +219,7 @@
                 <div class="strategy-process-main strategy2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy2.jpg')?>" alt="Planning & Strategy Development">
+                            <img class="w-100" src="<?= base_url('assets/images/home/strategy2.jpg') ?>" alt="Planning & Strategy Development">
                         </div>
                         <div class="col-md-8 align-self-center strat-cnt">
                             <h3 class="mb-4">Planning & Strategy Development</h3>
@@ -235,7 +235,7 @@
                 <div class="strategy-process-main strategy3">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy3.webp')?>" alt="Trial & Testing">
+                            <img class="w-100" src="<?= base_url('assets/images/home/strategy3.webp') ?>" alt="Trial & Testing">
                         </div>
                         <div class="col-md-8 align-self-center strat-cnt">
                             <h3 class="mb-4">Trial & Testing</h3>
@@ -251,7 +251,7 @@
                 <div class="strategy-process-main strategy4">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy4.jpg')?>" alt="Campaign Implementation & Launch">
+                            <img class="w-100" src="<?= base_url('assets/images/home/strategy4.jpg') ?>" alt="Campaign Implementation & Launch">
                         </div>
                         <div class="col-md-8 align-self-center strat-cnt">
                             <h3 class="mb-4">Campaign Implementation & Launch</h3>
@@ -267,7 +267,7 @@
                 <div class="strategy-process-main strategy5">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy5.webp')?>" alt="Reporting & Ongoing Optimization">
+                            <img class="w-100" src="<?= base_url('assets/images/home/strategy5.webp') ?>" alt="Reporting & Ongoing Optimization">
                         </div>
                         <div class="col-md-8 align-self-center strat-cnt">
                             <h3 class="mb-4">Reporting & Ongoing Optimization</h3>
@@ -290,12 +290,12 @@
         <div class="row Performance-Driven-row px-md-4 px-2">
             <div class="col-md-6 Performance-Driven-left">
                 <div class="Performance-Driven-image-wrapper">
-                    <img src="<?= base_url('assets/images/home/google-analytics-result.webp')?>" alt="Analytics 1" class="Performance-Driven-elem elem1">
-                    <img src="<?= base_url('assets/images/home/search-console-result.webp')?>" alt="Analytics 2" class="Performance-Driven-elem elem2">
-                    <img src="<?= base_url('assets/images/home/google-analytics-result-2.webp')?>" alt="Analytics 3" class="Performance-Driven-elem elem3">
-                    <img src="<?= base_url('assets/images/home/professional-digital-marketer.webp')?>" alt="Business Woman" class="Performance-Driven-main-img">
+                    <img src="<?= base_url('assets/images/home/google-analytics-result.webp') ?>" alt="Analytics 1" class="Performance-Driven-elem elem1">
+                    <img src="<?= base_url('assets/images/home/search-console-result.webp') ?>" alt="Analytics 2" class="Performance-Driven-elem elem2">
+                    <img src="<?= base_url('assets/images/home/google-analytics-result-2.webp') ?>" alt="Analytics 3" class="Performance-Driven-elem elem3">
+                    <img src="<?= base_url('assets/images/home/professional-digital-marketer.webp') ?>" alt="Business Woman" class="Performance-Driven-main-img">
                 </div>
-               
+
             </div>
             <div class="col-md-6 Performance-Driven-right">
                 <p class="fs-20">Investment in digital marketing is not a cost– it’s a multiplier.</p>
@@ -329,38 +329,38 @@
     <div class="container">
         <div class="scroll-wrapper">
             <div class="scroll-row left-to-right">
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/protfolio-17.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp')?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/protfolio-17.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
 
                 <!-- duplicate for infinite loop -->
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-12.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp')?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp')?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
 
             </div>
         </div>
@@ -385,48 +385,48 @@
         <div class="tools-list-wrapper">
             <div class="tools-list">
                 <div class="tool-card" data-tool="gds">
-                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg')?>" alt="GDS" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
                     <span>Google Data Studio</span>
                 </div>
                 <div class="tool-card" data-tool="ga">
-                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg')?>" alt="GA" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
                     <span>Google Analytics</span>
                 </div>
                 <div class="tool-card" data-tool="hubspot">
-                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg')?>" alt="hubspot" />
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
                     <span>HubSpot</span>
                 </div>
                 <div class="tool-card" data-tool="semrush">
-                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg')?>" alt="Semrush" />
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
                     <span>SemRush</span>
                 </div>
                 <div class="tool-card" data-tool="surfer">
-                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg')?>" alt="surfer" />
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
                     <span>Surfer SEO</span>
                 </div>
                 <div class="tool-card" data-tool="mailchimp">
-                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg')?>" alt="mailchimp " />
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
                     <span>Mailchimp</span>
                 </div>
                 <div class="tool-card" data-tool="adroll">
-                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg')?>" alt="adroll" />
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
                     <span>AdRoll</span>
                 </div>
                 <div class="tool-card" data-tool="google-ads">
-                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg')?>" alt="google-ads" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
                     <span>Google Ads</span>
                 </div>
 
                 <div class="tool-card" data-tool="meta-ads-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg')?>" alt="Meta Ads Manager" />
+                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
                     <span>Meta Ads Manager</span>
                 </div>
                 <div class="tool-card" data-tool="google-tag-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg')?>" alt="google-tag-manager" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
                     <span>Google Tag Manager</span>
                 </div>
                 <div class="tool-card" data-tool="hootsuite">
-                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg')?>" alt="hootsuite" />
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
                     <span>Hootsuite</span>
                 </div>
 
@@ -449,8 +449,8 @@
         </h2>
         <div class="row">
             <div class="col-lg-5">
-                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp')?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/whychoose-mbl.webp')?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/whychoose-mbl.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
             </div>
             <div class="col-lg-7">
                 <div class="whychoose-faq">
@@ -542,27 +542,27 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-1.webp')?>" alt="our digital marketing team">
+                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-1.webp') ?>" alt="our digital marketing team">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-2.webp')?>" alt="our digital marketing team">
+                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-2.webp') ?>" alt="our digital marketing team">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-3.webp')?>" alt="our digital marketing team">
+                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-3.webp') ?>" alt="our digital marketing team">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-4.webp')?>" alt="our digital marketing team">
+                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-4.webp') ?>" alt="our digital marketing team">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-5.webp')?>" alt="our digital marketing team">
+                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-5.webp') ?>" alt="our digital marketing team">
                         </div>
                     </div>
 
@@ -615,8 +615,8 @@
         <!-- Google Ads -->
         <a href="/pay-per-click-ppc-services-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/google-ads.png')?>" alt="Google Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/google-ads-hover.png')?>" alt="Google Ads Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/google-ads.png') ?>" alt="Google Ads" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/google-ads-hover.png') ?>" alt="Google Ads Hover" class="hover-img" />
             </div>
             <h3>Google Ads</h3>
         </a>
@@ -624,8 +624,8 @@
         <!-- Facebook Ads -->
         <a href="/facebook-marketing-agency-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/facebook.png')?>" alt="Facebook Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/facebook-hover.png')?>" alt="Facebook Ads Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/facebook.png') ?>" alt="Facebook Ads" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/facebook-hover.png') ?>" alt="Facebook Ads Hover" class="hover-img" />
             </div>
             <h3>Facebook Ads</h3>
         </a>
@@ -633,8 +633,8 @@
         <!-- TikTok Ads -->
         <a href="/tiktok-marketing-agency-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/tiktok.png')?>" alt="TikTok Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/tiktok-hover.png')?>" alt="TikTok Ads Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/tiktok.png') ?>" alt="TikTok Ads" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/tiktok-hover.png') ?>" alt="TikTok Ads Hover" class="hover-img" />
             </div>
             <h3>TikTok Ads</h3>
         </a>
@@ -642,8 +642,8 @@
         <!-- Instagram Ads -->
         <a href="/instagram-advertising-agency-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/instagram.png')?>" alt="Instagram Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/instagram-hover.png')?>" alt="Instagram Ads Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/instagram.png') ?>" alt="Instagram Ads" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/instagram-hover.png') ?>" alt="Instagram Ads Hover" class="hover-img" />
             </div>
             <h3>Instagram Ads</h3>
         </a>
@@ -651,8 +651,8 @@
         <!-- Website Development -->
         <a href="/website-design-company-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/webdev.png')?>" alt="Website Development" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/webdev-hover.png')?>" alt="Website Development Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/webdev.png') ?>" alt="Website Development" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/webdev-hover.png') ?>" alt="Website Development Hover" class="hover-img" />
             </div>
             <h3>Website Development</h3>
         </a>
@@ -660,8 +660,8 @@
         <!-- SEO -->
         <a href="/seo-services-company-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/seo.png')?>" alt="SEO" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/seo-hover.png')?>" alt="SEO Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/seo.png') ?>" alt="SEO" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/seo-hover.png') ?>" alt="SEO Hover" class="hover-img" />
             </div>
             <h3>Local SEO</h3>
         </a>
@@ -669,8 +669,8 @@
         <!-- Content Creation -->
         <a href="/content-marketing-agency-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/content.png')?>" alt="Content Creation" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/content-hover.png')?>" alt="Content Creation Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/content.png') ?>" alt="Content Creation" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/content-hover.png') ?>" alt="Content Creation Hover" class="hover-img" />
             </div>
             <h3>Content Creation</h3>
         </a>
@@ -678,8 +678,8 @@
         <!-- Email Marketing -->
         <a href="/email-marketing-company-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/email.png')?>" alt="Email Marketing" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/email-hover.png')?>" alt="Email Marketing Hover" class="hover-img" />
+                <img src="<?= base_url('assets/images/social-logo/email.png') ?>" alt="Email Marketing" class="normal-img" />
+                <img src="<?= base_url('assets/images/social-logo/email-hover.png') ?>" alt="Email Marketing Hover" class="hover-img" />
             </div>
             <h3>Email Marketing</h3>
         </a>
@@ -698,7 +698,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img1.png')?>" alt="Digital Marketing for Education Instutions in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img1.png') ?>" alt="Digital Marketing for Education Instutions in Dubai">
                         <h3 class="text-white text-center">Education</h3>
                     </div>
                     <div class="industries-cnts">
@@ -722,7 +722,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img2.png')?>" alt="Digital Marketing for E-commerce Businesses in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img2.png') ?>" alt="Digital Marketing for E-commerce Businesses in Dubai">
                         <h3 class="text-white text-center">E-commerce</h3>
                     </div>
                     <div class="industries-cnts">
@@ -745,7 +745,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img3.png')?>" alt="Digital Marketing for Healthcare Sectors in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img3.png') ?>" alt="Digital Marketing for Healthcare Sectors in Dubai">
                         <h3 class="text-white text-center">Healthcare</h3>
                     </div>
                     <div class="industries-cnts">
@@ -767,7 +767,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img4.png')?>" alt="Digital Marketing Services for Real Estate Companies in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img4.png') ?>" alt="Digital Marketing Services for Real Estate Companies in Dubai">
                         <h3 class="text-white text-center">Real Estate</h3>
                     </div>
                     <div class="industries-cnts">
@@ -789,7 +789,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img5.png')?>" alt="Digital Marketing Services for Travel Agencies in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img5.png') ?>" alt="Digital Marketing Services for Travel Agencies in Dubai">
                         <h3 class="text-white text-center">Travel</h3>
                     </div>
                     <div class="industries-cnts">
@@ -811,7 +811,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img6.png')?>" alt="Digital Marketing Services for Technology Companies in Dubai">
+                        <img class="w-100" src="<?= base_url('assets/images/home/industries-img6.png') ?>" alt="Digital Marketing Services for Technology Companies in Dubai">
                         <h3 class="text-white text-center">Technology</h3>
                     </div>
                     <div class="industries-cnts">
@@ -848,78 +848,78 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
                             <strong>Digital Marketing</strong>
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
                             <strong>Branding & Digital Marketing</strong>
                             <h3>TravelX</h3>
                             <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
                             <strong>Digital Marketing</strong>
                             <h3>Crystal Plaza</h3>
                             <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
                             <strong>Digital Marketing</strong>
                             <h3>NIMS School</h3>
                             <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
                             <strong>Website & Digital Marketing</strong>
                             <h3>Wipro Infrastructure Engineering</h3>
                             <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
                             <strong>Website & Digital Marketing</strong>
                             <h3>NanoPrecise Sci Corp</h3>
                             <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
                             <strong>Branding & Digital Marketing</strong>
                             <h3>Sherpa Communications</h3>
                             <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -932,12 +932,12 @@
         </div>
     </div>
 </section>
-<?php 
+<?php
 $reviewSection = [
-  'title' =>  "The Impact We've Delivered <br>for Our Clients",
-  'bgClass' => 'dm-bg', // optional custom class
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
 ];
-include __DIR__ . '/component/client_reviews.php'; 
+include __DIR__ . '/component/client_reviews.php';
 ?>
 
 <section class="dm-grow-section dm-bg sp-50">
@@ -949,7 +949,7 @@ include __DIR__ . '/component/client_reviews.php';
         <div class="row">
             <div class="col-lg-6">
                 <div class="growimg position-relative mb-lg-0 mb-3">
-                    <img class="w-100" src="<?= base_url('assets/images/home/grow-img.webp')?>" alt="Contact for Digital Marketing Services in Dubai">
+                    <img class="w-100" src="<?= base_url('assets/images/home/grow-img.webp') ?>" alt="Contact for Digital Marketing Services in Dubai">
                     <div class="growimg-cnt">
                         <p class="mb-5 text-white fs-20">Uplift your digital presence, increase sales, and maximize ROAS with Google-certified digital marketing experts. Get a Free Consultation and a Comprehensive Audit to uncover your growth opportunities.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
@@ -958,7 +958,10 @@ include __DIR__ . '/component/client_reviews.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <!-- <?php include 'forms/digital-marketing-agency-in-dubai-uae-form.php' ?> -->
+                <div class="grow-form-main">
+                    <?php $textrow = 6 ?>
+                    <?php include __DIR__ . '/component/forms/contact-form.php'; ?>
+                </div>
             </div>
         </div>
     </div>
@@ -969,13 +972,13 @@ include __DIR__ . '/component/client_reviews.php';
         <div class="row">
             <div class="col-md-6">
                 <ul class="list-unstyled p-0 mb-0">
-                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="<?= base_url('assets/images/home/dubai-phone.svg')?>">+971 52 283 1655</a></li>
-                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="<?= base_url('assets/images/home/dubai-mail.svg')?>">info@brandstory.ae</a></li>
+                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="<?= base_url('assets/images/home/dubai-phone.svg') ?>">+971 52 283 1655</a></li>
+                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="<?= base_url('assets/images/home/dubai-mail.svg') ?>">info@brandstory.ae</a></li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <div class="d-flex align-items-start">
-                    <img class="me-3" src="<?= base_url('assets/images/home/dubai-location.svg')?>">
+                    <img class="me-3" src="<?= base_url('assets/images/home/dubai-location.svg') ?>">
                     <div class="dubai-address">
                         <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
                         <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
@@ -991,12 +994,12 @@ include __DIR__ . '/component/client_reviews.php';
         <div class="row justify-content-center align-self-center">
             <div class="col-md-2 col-6">
                 <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank">
-                    <img class="w-100" src="<?= base_url('assets/images/home/partner1.svg')?>" alt="Google Partner Agency- Brandstory Solutions Pvt Ltd">
+                    <img class="w-100" src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner Agency- Brandstory Solutions Pvt Ltd">
                 </a>
             </div>
             <div class="col-md-2 d-md-block d-none"></div>
             <div class="col-md-2 col-6">
-                <img class="w-100" src="<?= base_url('assets/images/home/partner2.svg')?>" alt="Facebook Business Partner- Brandstory Solutions Pvt Ltd">
+                <img class="w-100" src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Facebook Business Partner- Brandstory Solutions Pvt Ltd">
             </div>
         </div>
     </div>
@@ -1012,93 +1015,93 @@ include __DIR__ . '/component/client_reviews.php';
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog1.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog1.webp') ?>">
                             <h3><a href="/blogs/how-influencer-marketing-can-elevate-your-digital-branding/" style="color: #000; text-decoration: none;">How Influencer Marketing Can Elevate Your Digital Branding</a></h3>
                             <p class="fs-20">With the advent of digital-first transactions, one could say that conventional marketing no longer prevails.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/how-influencer-marketing-can-elevate-your-digital-branding/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/how-influencer-marketing-can-elevate-your-digital-branding/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog2.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog2.webp') ?>">
                             <h3><a href="/blogs/7-key-branding-strategies-to-establish-a-strong-brand-identity/" style="color: #000; text-decoration: none;">7 Key Branding Strategies to Establish a Strong Brand Identity</a></h3>
                             <p class="fs-20">It is the case indeed that branding is not just limited to a logo or a catchy slogan; it is the emotional and psychological relationship that a business builds with its audience.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/7-key-branding-strategies-to-establish-a-strong-brand-identity/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/7-key-branding-strategies-to-establish-a-strong-brand-identity/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog3.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog3.webp') ?>">
                             <h3><a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
                             <p class="fs-20">Known as the "Festival of Sacrifice," Eid al-Adha is one of the most celebrated Islamic festivals, with millions of Muslims worldwide observing it.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog4.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog4.webp') ?>">
                             <h3><a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/" style="color: #000; text-decoration: none;">Drive Smarter Growth with Digital Marketing Trends in 2025</a></h3>
                             <p class="fs-20">Digital marketing is undergoing a massive makeover in 2025, driven by fast-paced technological changes and consumer tendencies.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog6.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog6.webp') ?>">
                             <h3><a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/" style="color: #000; text-decoration: none;">The Role of UX in Building High-Converting Websites for Dubai Businesses</a></h3>
                             <p class="fs-20">Dubai is a city that presents great innovations, luxuries, and world-class experiences — and the digital space in Dubai is no exception.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog7.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog7.webp') ?>">
                             <h3><a href="/blogs/useful-tips-to-elevate-your-brands-online-visibility-with-seo/" style="color: #000; text-decoration: none;">Useful Tips to Elevate Your Brand’s Online Visibility with SEO</a></h3>
                             <p class="fs-20">In today’s digital era, if your brand isn't seen online, it may as well be invisible.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/useful-tips-to-elevate-your-brands-online-visibility-with-seo/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/useful-tips-to-elevate-your-brands-online-visibility-with-seo/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog9.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog9.webp') ?>">
                             <h3><a href="/blogs/custom-web-design-and-development-for-building-unique-online-experiences/" style="color: #000; text-decoration: none;">Custom Web Design and Development for Building Unique Online Experiences</a></h3>
                             <p class="fs-20">In today’s fast-paced digital era, businesses have grown tired of cookie-cutter websites just serving as an online presence.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/custom-web-design-and-development-for-building-unique-online-experiences/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/custom-web-design-and-development-for-building-unique-online-experiences/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/home/banner.webp')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/home/banner.webp') ?>">
                             <h3><a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" style="color: #000; text-decoration: none;">Digital Marketing Competitor Analysis: How to Track Competitors</a></h3>
                             <p class="fs-20">Ethically carrying out competitor analysis in digital marketing for winning strategies through respectful and legally grounded means.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog-10.jpg')?>">
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog-10.jpg') ?>">
                             <h3><a href="/blogs/digital-vs-traditional-marketing-what-your-brand-really-needs-today/" style="color: #000; text-decoration: none;">Digital vs Traditional Marketing: What You Really Needs</a></h3>
                             <p class="fs-20">Digital marketing includes all the online strategies and tools businesses use to reach and engage customers online.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/digital-vs-traditional-marketing-what-your-brand-really-needs-today/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg')?>?v=1"></a>
+                                <a href="/blogs/digital-vs-traditional-marketing-what-your-brand-really-needs-today/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>

@@ -2,59 +2,64 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $meta['title'] ?? 'BrandStoryAE' ?></title>
     <meta name="description" content="<?= $meta['description'] ?? '' ?>">
+    <link rel="canonical" href="<?php echo $canonical; ?>">
+
+    <link rel="preconnect" href="https://rec.smartlook.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://www.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="//www.google.com">
+    <link rel="preconnect" href="//www.brandstory.ae">
+    <link rel="preconnect" href="//schema.org">
+    <link rel="preconnect" href="//brandstory.ae">
+    <link rel="preconnect" href="//g.co">
+    <link rel="preconnect" href="//www.facebook.com">
+    <link rel="preconnect" href="//twitter.com">
+    <link rel="preconnect" href="//www.instagram.com">
+    <link rel="preconnect" href="//ae.linkedin.com">
+    <link rel="preconnect" href="//www.youtube.com">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta name="yandex-verification" content="cbb48369db52693e">
+    <meta property="business:contact_data:street_address"
+        content="G5, Al Meheri Plaza, opp DBC building, Al Khabaisi Area, Deira Dubai - 81577, United Arab Emirates">
+    <meta property="business:contact_data:locality" content=" Al Khabaisi Area">
+    <meta property="business:contact_data:region" content="Dubai">
+    <meta property="business:contact_data:country_name" content="United Arab Emirates">
+    <meta name="category" content="digital marketing" />
+    <meta name="classification" content="Digital Marketing" />
+    <meta name="author" content="Brandstory">
+    <meta name="geo.region" content="AE-DU">
+    <meta name="geo.placename" content="Dubai">
+    <meta name="geo.position" content="25.262923; 55.3329919">
+    <meta name="copyright" content="Brandstory Digital Marketing Agency">
+    <meta name="Distribution" content="global">
+    <meta name="audience" content="all">
+    <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
+    <!--CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
-    <script defer src="<?= base_url('assets/js/site.js') ?>"></script>
-    <!doctype html>
-    <html lang="en">
-
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title><?= $meta['title'] ?? 'BrandStoryAE' ?></title>
-        <meta name="description" content="<?= $meta['description'] ?? '' ?>">
-        <link rel="canonical" href="<?php echo $canonical; ?>">
-
-        <link rel="preconnect" href="https://rec.smartlook.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://www.gstatic.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-        <link rel="preconnect" href="//www.google.com">
-        <link rel="preconnect" href="//www.brandstory.ae">
-        <link rel="preconnect" href="//schema.org">
-        <link rel="preconnect" href="//brandstory.ae">
-        <link rel="preconnect" href="//g.co">
-        <link rel="preconnect" href="//www.facebook.com">
-        <link rel="preconnect" href="//twitter.com">
-        <link rel="preconnect" href="//www.instagram.com">
-        <link rel="preconnect" href="//ae.linkedin.com">
-        <link rel="preconnect" href="//www.youtube.com">
-        <meta name="robots" content="INDEX, FOLLOW">
-        <meta name="yandex-verification" content="cbb48369db52693e">
-        <meta property="business:contact_data:street_address"
-            content="G5, Al Meheri Plaza, opp DBC building, Al Khabaisi Area, Deira Dubai - 81577, United Arab Emirates">
-        <meta property="business:contact_data:locality" content=" Al Khabaisi Area">
-        <meta property="business:contact_data:region" content="Dubai">
-        <meta property="business:contact_data:country_name" content="United Arab Emirates">
-        <meta name="category" content="digital marketing" />
-        <meta name="classification" content="Digital Marketing" />
-        <meta name="author" content="Brandstory">
-        <meta name="geo.region" content="AE-DU">
-        <meta name="geo.placename" content="Dubai">
-        <meta name="geo.position" content="25.262923; 55.3329919">
-        <meta name="copyright" content="Brandstory Digital Marketing Agency">
-        <meta name="Distribution" content="global">
-        <meta name="audience" content="all">
-        <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
-    </head>
-
+    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/menu.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/skin.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/dev.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/global.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/style.css?v=1.7') ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
+        integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://www.google.com/recaptcha/api.js?render=6Ld7FY4fAAAAAJIzIpBe4GUTv7OaTldVzpFc9qJY"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165140111-1"></script>
+
     <script>
         function recap() {
             grecaptcha.ready(function() {
@@ -71,35 +76,7 @@
             recap();
         }, 2 * 60 * 1000);
     </script>
-
-
-
-    <!--CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
-
-    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/menu.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/skin.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/dev.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/global.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/style.css?v=1.7') ?>" rel="stylesheet">
-
-    <style>
-        @media screen and (min-width:168px) and (max-width:580px) {
-            .play-btn {
-                width: 50px;
-                height: 50px;
-            }
-        }
-    </style>
-
-
-
     <!-- Global site tag (gtag.js) - Google Ads: 932195052 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -111,9 +88,7 @@
         gtag('config', 'AW-932195052');
     </script>
     <!-- Gtags end -->
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165140111-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -140,7 +115,6 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PRDD8D7');
     </script>
-
     <!-- Google Analytics -->
     <script>
         (function(w, d, s, g, js, fjs) {
@@ -159,13 +133,9 @@
         gtag('config', 'G-4PYR3E31JS');
     </script>
 
-
-
-
 </head>
 
-<body class="<?= isset($meta['classname']) ? $meta['classname'] : 'dm-agency-dubai' ?>
-">
+<body class="<?= isset($meta['classname']) ? $meta['classname'] : 'dm-agency-dubai' ?> ">
 
 
     <div class="page-content" id="content">
@@ -174,14 +144,14 @@
         <?php include __DIR__ . '/header.php'; ?>
 
 
-        <div >
+        <div>
             <main>
                 <?= $content ?>
 
             </main>
         </div>
         <?php include __DIR__ . '/footer.php'; ?>
-   <!-- <script src="<?= base_url('assets/js/spa.js?key=' . time()) ?>"></script> -->
+
 
 
     </div>

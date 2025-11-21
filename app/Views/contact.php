@@ -53,6 +53,7 @@
 			<div class="col-lg-6"> <!--col start-->
 				<div class="contactpage--form">
 					<!-- <?php include 'forms/contact-page-form.php' ?> -->
+					<?php include __DIR__ . '/component/forms/contact-form.php' ?>
 				</div>
 			</div><!--col end-->
 		</div><!--Row End-->

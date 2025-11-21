@@ -65,7 +65,7 @@
 </section>
 <section class="vidsec">
     <div class="perks-vide-bg sp-50  position-relative ppc-bg">
-     
+
         <div class="perks-content position-relative">
             <div class="ppc-spotlight">
                 <div class="container text-md-start text-center">
@@ -849,7 +849,10 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <!-- <?php include 'forms/digital-marketing-agency-in-dubai-uae-form.php' ?> -->
+                <div class="grow-form-main">
+                    <?php $textrow = 6 ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
             </div>
         </div>
     </div>
@@ -1318,6 +1321,3 @@
     // Set default active
     document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
 </script>
-
-
-

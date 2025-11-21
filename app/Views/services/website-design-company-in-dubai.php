@@ -94,7 +94,7 @@
                         <p class="small">Custom websites are popular choice among small and large-scale enterprises, and service providers in Dubai. We design custom websites from a single landing page to complex websites based on business-specific requirements. We build tech-enabled custom websites with modern tech stack that load fast and have no errors. </p>
                     </div>
                 </div>
-                 <div class="development dm-bg text-white border-0">
+                <div class="development dm-bg text-white border-0">
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
@@ -143,7 +143,7 @@
                         <p class="small">Are you searching for PHP Laravel website development services in Dubai? Our team of experts creates custom web solutions in PHP and the latest framework, Laravel. PHP Laravel is one of the most popular web development frameworks that comes with more security features, faster development cycle, and latest features. </p>
                     </div>
                 </div>
-                 <div class="development dm-bg text-white border-0">
+                <div class="development dm-bg text-white border-0">
                     <div class="service-card">
                         <div class="row mb-3 mt-90">
                             <div class="col-6 text-start">
@@ -158,7 +158,7 @@
                         <p class="small">WordPress is the most popular CMS platform, enriched with a vast plugin ecosystem. Ideal for e-commerce, business websites, and blogging websites, it comes with SEO-friendly features. If you are looking for WordPress websites, BrandStory can be your tech partner. </p>
                     </div>
                 </div>
-                 <div class="development  dm-bg text-white border-0">
+                <div class="development  dm-bg text-white border-0">
                     <div class="service-card border-0 ">
                         <div class="row mb-3 mt-50">
                             <div class="col-6 text-start">
@@ -207,7 +207,7 @@
                         <p class="small">Shopify is an e-commerce platform and a preferred choice for its scalability, ease of use, and robust features. As a Shopify development company, we create visually stunning and high-converting online stores for businesses. It enables better product management, secure payments, multi-channel selling, and built-in SEO features.</p>
                     </div>
                 </div>
-                  <div class="development dm-bg text-white border-0 height-529 ">
+                <div class="development dm-bg text-white border-0 height-529 ">
                     <div class="service-card border-0 h-100 ">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
@@ -225,18 +225,18 @@
 
             </div>
 
-           
-
-          
-
-            
 
 
-          
 
-         
 
-          
+
+
+
+
+
+
+
+
 
         </div>
     </div>
@@ -748,7 +748,10 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <!-- <?php include 'forms/digital-marketing-agency-in-dubai-uae-form.php' ?> -->
+                <div class="grow-form-main">
+                    <?php $textrow = 6 ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
             </div>
         </div>
     </div>

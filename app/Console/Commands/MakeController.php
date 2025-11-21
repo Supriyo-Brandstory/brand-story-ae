@@ -11,8 +11,25 @@ class MakeController
         }
 
         $resource = in_array('--resource', $argv);
+        $isAdminController = in_array('--admin', $argv); // Check for --admin flag
+        
+        $baseControllerClass = 'App\\Core\\Controller';
+        $baseControllerUse = 'use App\\Core\\Controller;';
+
+        if ($isAdminController) {
+            $baseControllerClass = 'App\\Controllers\\AdminBaseController';
+            $baseControllerUse = 'use App\\Controllers\\AdminBaseController;';
+        }
+
         $controller = ucfirst($name);
+        $namespace = 'App\\Controllers';
         $dir = __DIR__ . '/../../Controllers';
+
+        if ($isAdminController) {
+            $namespace = 'App\\Controllers\\Admin';
+            $dir = __DIR__ . '/../../Controllers/Admin';
+        }
+
         if (!is_dir($dir)) mkdir($dir, 0777, true);
 
         $file = $dir . '/' . $controller . '.php';
@@ -25,11 +42,11 @@ class MakeController
         if ($resource) {
             $template = <<<PHP
 <?php
-namespace App\Controllers;
+namespace {$namespace};
 
-use App\Core\Controller;
+{$baseControllerUse}
 
-class {$controller} extends Controller
+class {$controller} extends {$baseControllerClass}
 {
     public function index() {
         //
@@ -63,11 +80,11 @@ PHP;
         } else {
             $template = <<<PHP
 <?php
-namespace App\Controllers;
+namespace {$namespace};
 
-use App\Core\Controller;
+{$baseControllerUse}
 
-class {$controller} extends Controller
+class {$controller} extends {$baseControllerClass}
 {
     public function index()
     {
@@ -78,6 +95,6 @@ PHP;
         }
 
         file_put_contents($file, $template);
-        echo "Controller created: app/Controllers/{$controller}.php\n";
+        echo "Controller created: {$dir}/{$controller}.php\n"; // Update success message path
     }
 }

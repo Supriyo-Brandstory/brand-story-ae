@@ -31,10 +31,10 @@ if (!function_exists('csrf_verify')) {
 }
 
 if (!function_exists('route')) {
-    function route($name) {
+    function route($name, $params = []) {
         $cfg = include __DIR__ . '/../../config/config.php';
         $base = rtrim($cfg['base_url'], '/');
-        $uri = Route::getNamed($name);
+        $uri = Route::getNamed($name, $params);
         $uri = ltrim($uri, '/');
         return $base . ($uri !== '' ? '/' . $uri : '/');
     }
@@ -52,5 +52,27 @@ if (!function_exists('generateUniqueSlug')) {
         }
 
         return $slug;
+    }
+}
+
+if (!function_exists('handleImageUpload')) {
+    function handleImageUpload($file, $folder = 'blog') {
+        $uploadPath = 'assets/images/' . $folder . '/';
+        $targetDir = __DIR__ . '/../../public/' . $uploadPath;
+        if (!is_dir($targetDir)) {
+            mkdir($targetDir, 0755, true);
+        }
+        
+        $fileName = time() . '_' . basename($file['name']);
+        $targetFilePath = $targetDir . $fileName;
+        $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
+        
+        $allowTypes = array('jpg', 'png', 'jpeg', 'gif', 'webp');
+        if (in_array(strtolower($fileType), $allowTypes)) {
+            if (move_uploaded_file($file['tmp_name'], $targetFilePath)) {
+                return $uploadPath . $fileName;
+            }
+        }
+        return null;
     }
 }

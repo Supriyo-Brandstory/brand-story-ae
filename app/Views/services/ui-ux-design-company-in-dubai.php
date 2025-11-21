@@ -1,4 +1,3 @@
-
 <section class="service-banner ui-ux-nw-banner sp-50">
     <div class="container"><!--Container Start-->
         <div class="row align-items-center"><!--Row Start-->
@@ -12,7 +11,8 @@
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-form">
-                    <?php include __DIR__ . '/../component/forms/service-form.php' ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+
                 </div>
             </div><!--col end-->
         </div><!--Row End-->

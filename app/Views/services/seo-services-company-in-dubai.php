@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </div>
 </section>
@@ -31,11 +31,11 @@
         </h2>
         <div class="row">
             <div class="col-lg-6">
-               
+
                 <div class=" mb-lg-0 mb-3 w-100 radius-20">
                     <img class="w-100 radius-20" src="/assets/images/new-seo/seo-about-banner.webp" alt="Digital Marketing Agency in Dubai">
                 </div>
-               
+
             </div>
             <div class="col-lg-6 align-self-center">
 
@@ -43,7 +43,7 @@
                 <p class="text-white mb-3 fs-20">We redefine SEO services in Dubai by turning online searches into real business opportunities. We go beyond ranking a website, we craft strategies that enhance visibility, build authority, and drive the best organic growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>, our top-level professionals work with pinpoint precision and excellence.</p>
                 <p class="text-white mb-4 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make your brand shine above the competition. We don’t just optimize websites, we dominate search rankings and put Dubai businesses at the top where they belong.</p>
 
-<a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ About Us</a>
+                <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ About Us</a>
 
             </div>
         </div>
@@ -52,7 +52,7 @@
 <section class="new-client-section">
     <div class="container-fluid">
         <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-              <?php include __DIR__ . '/../component/client_section.php' ?>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
 
     </div>
 </section>
@@ -953,12 +953,12 @@
     </div>
 </section>
 
-<?php 
+<?php
 $reviewSection = [
-  'title' =>  "The Impact We've Delivered <br>for Our Clients",
-  'bgClass' => 'dm-bg', // optional custom class
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
 ];
-include __DIR__ . '/../component/client_reviews.php'; 
+include __DIR__ . '/../component/client_reviews.php';
 ?>
 
 <section class="dm-grow-section dm-bg sp-50">
@@ -979,7 +979,10 @@ include __DIR__ . '/../component/client_reviews.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <!-- <?php include 'forms/digital-marketing-agency-in-dubai-uae-form.php' ?> -->
+                <div class="grow-form-main">
+                    <?php $textrow = 6 ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
             </div>
         </div>
     </div>
