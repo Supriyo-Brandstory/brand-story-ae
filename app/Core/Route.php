@@ -58,9 +58,28 @@ class Route
     {
         $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-        // Handle subdirectory installation
+        // Load config to get base_url
+        $configPath = __DIR__ . '/../../config/config.php';
+        if (file_exists($configPath)) {
+            $config = require $configPath;
+            if (isset($config['base_url'])) {
+                $basePath = parse_url($config['base_url'], PHP_URL_PATH);
+
+                // If base_url has a path (subdirectory), strip it from URI
+                if ($basePath && $basePath !== '/') {
+                    $basePath = rtrim($basePath, '/');
+                    if (stripos($uri, $basePath) === 0) {
+                        $uri = substr($uri, strlen($basePath));
+                    }
+                }
+            }
+        }
+
+        // Fallback to script directory detection if config approach didn't change anything
+        // or if config wasn't found (though it should be)
         $scriptDir = dirname($_SERVER['SCRIPT_NAME']);
-        if ($scriptDir !== '/' && strpos($uri, $scriptDir) === 0) {
+        $scriptDir = str_replace('\\', '/', $scriptDir);
+        if ($scriptDir !== '/' && stripos($uri, $scriptDir) === 0) {
             $uri = substr($uri, strlen($scriptDir));
         }
 
