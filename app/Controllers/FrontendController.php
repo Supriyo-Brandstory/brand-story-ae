@@ -380,6 +380,376 @@ class FrontendController extends Controller
         return $this->view('case-study/index', ['meta' => $meta]);
     }
 
+    // others pages
+    public function b2bCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'B2B Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our B2B Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/b2b-company-in-dubai', ['meta' => $meta]);
+    }
+    public function contentWritingCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'Content Writing Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Content Writing services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/content-writing-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function corporateEventManagementCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'Corporate Event Management Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Corporate Event Management services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-event-management-company-in-dubai', ['meta' => $meta]);
+    }
+    public function corporateEventPlannersInDubai()
+    {
+        $meta = [
+            'title' => 'Corporate Event Planners in Dubai - BrandStoryAE',
+            'description' => 'Discover our Corporate Event Planners services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-event-planners-in-dubai', ['meta' => $meta]);
+    }
+    public function corporatePhotographersInAlAin()
+    {
+        $meta = [
+            'title' => 'Corporate Photographers in Al Ain - BrandStoryAE',
+            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photographers-in-al-ain', ['meta' => $meta]);
+    }
+    public function corporatePhotographersInFujairah()
+    {
+        $meta = [
+            'title' => 'Corporate Photographers in Fujairah - BrandStoryAE',
+            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photographers-in-fujairah', ['meta' => $meta]);
+    }
+
+    public function corporatePhotographersInRasAlKhaimah()
+    {
+        $meta = [
+            'title' => 'Corporate Photographers in Ras Al Khaimah - BrandStoryAE',
+            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photographers-in-ras-al-khaimah', ['meta' => $meta]);
+    }
+    public function corporatePhotographersInUmmAlQuwain()
+    {
+        $meta = [
+            'title' => 'Corporate Photographers in Umm Al Quwain - BrandStoryAE',
+            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photographers-in-umm-al-quwain', ['meta' => $meta]);
+    }
+    public function corporatePhotographyInAbuDhabi()
+    {
+        $meta = [
+            'title' => 'Corporate Photography in Abu Dhabi - BrandStoryAE',
+            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photography-in-abu-dhabi', ['meta' => $meta]);
+    }
+
+    public function corporatePhotographyInDubai()
+    {
+        $meta = [
+            'title' => 'Corporate Photography in Dubai - BrandStoryAE',
+            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photography-in-dubai', ['meta' => $meta]);
+    }
+    public function corporatePhotographyInSaudiArabia()
+    {
+        $meta = [
+            'title' => 'Corporate Photography in Saudi Arabia - BrandStoryAE',
+            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photography-in-saudi-arabia', ['meta' => $meta]);
+    }
+    public function corporatePhotographyInSharjah()
+    {
+        $meta = [
+            'title' => 'Corporate Photography in Sharjah - BrandStoryAE',
+            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-photography-in-sharjah', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionAgencyInSaudiArabia()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Agency in Saudi Arabia - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-agency-in-saudi-arabia', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionCompanyInAbuDhabi()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Company in Abu Dhabi - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-company-in-abu-dhabi', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionCompanyInAlAin()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Company in Al Ain - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-company-in-al-ain', ['meta' => $meta]);
+    }
+
+    public function corporateVideoProductionCompanyInFujairah()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Company in Fujairah - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-company-in-fujairah', ['meta' => $meta]);
+    }
+
+    public function corporateVideoProductionCompanyInSharjah()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Company in Sharjah - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-company-in-sharjah', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionCompanyInUmmAlQuwain()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Company in Umm Al Quwain - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-company-in-umm-al-quwain', ['meta' => $meta]);
+    }
+
+    public function corporateVideoProductionInAjman()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production in Ajman - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-in-ajman', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionInRasAlKhaimah()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production in Ras Al Khaimah - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-in-ras-al-khaimah', ['meta' => $meta]);
+    }
+    public function corporateVideoProductionServicesInDubai()
+    {
+        $meta = [
+            'title' => 'Corporate Video Production Services in Dubai - BrandStoryAE',
+            'description' => 'Discover our Corporate Video Production Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/corporate-video-production-services-in-dubai', ['meta' => $meta]);
+    }
+    public function creativeAdvertisingAgencyInAbuDhabi()
+    {
+        $meta = [
+            'title' => 'Creative Advertising Agency in Abu Dhabi - BrandStoryAE',
+            'description' => 'Discover our Creative Advertising Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/creative-advertising-agency-in-abu-dhabi', ['meta' => $meta]);
+    }
+
+    public function cryptocurrencyMarketingAgencyDubai()
+    {
+        $meta = [
+            'title' => 'Cryptocurrency Marketing Agency Dubai - BrandStoryAE',
+            'description' => 'Discover our Cryptocurrency Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/cryptocurrency-marketing-agency-dubai', ['meta' => $meta]);
+    }
+
+
+    //development pages
+    public function androidAppDevelopmentCompanyDubai()
+    {
+        $meta = [
+            'title' => 'Android App Development Company Dubai - BrandStoryAE',
+            'description' => 'Discover our Android App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/android-app-development-company-dubai', ['meta' => $meta]);
+    }
+    public function crossPlatformAppDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'Cross Platform App Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Cross Platform App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/cross-platform-app-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function flutterAppDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'Flutter App Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Flutter App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/flutter-app-development-company-in-dubai', ['meta' => $meta]);
+    }
+    public function hybridAppDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'Hybrid App Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our Hybrid App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/hybrid-app-development-company-in-dubai', ['meta' => $meta]);
+    }
+    public function iosAppDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'iOS App Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our iOS App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/ios-app-development-company-in-dubai', ['meta' => $meta]);
+    }
+    public function reactNativeAppDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'title' => 'React Native App Development Company in Dubai - BrandStoryAE',
+            'description' => 'Discover our React Native App Development Company services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'em-dubai-page service-page'
+        ];
+        return $this->view('development/react-native-app-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    // bahrain pages
+    public function b2bMarketingServices()
+    {
+        $meta = [
+            'title' => 'B2B Marketing Services - BrandStoryAE',
+            'description' => 'Discover our B2B Marketing Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/b2b-marketing-services', ['meta' => $meta]);
+    }
+    public function contentWritingServices()
+    {
+        $meta = [
+            'title' => 'Content Writing Services - BrandStoryAE',
+            'description' => 'Discover our Content Writing Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/content-writing-services', ['meta' => $meta]);
+    }
+    public function digitalMarketingServices()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Services - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/digital-marketing-services', ['meta' => $meta]);
+    }
+    public function emailMarketingServices()
+    {
+        $meta = [
+            'title' => 'Email Marketing Services - BrandStoryAE',
+            'description' => 'Discover our Email Marketing Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/email-marketing-services', ['meta' => $meta]);
+    }
+    public function ppcServices()
+    {
+        $meta = [
+            'title' => 'PPC Services - BrandStoryAE',
+            'description' => 'Discover our PPC Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/ppc-services', ['meta' => $meta]);
+    }
+    public function prServices()
+    {
+        $meta = [
+            'title' => 'PR Services - BrandStoryAE',
+            'description' => 'Discover our PR Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/pr-services', ['meta' => $meta]);
+    }
+    public function seoServices()
+    {
+        $meta = [
+            'title' => 'SEO Services - BrandStoryAE',
+            'description' => 'Discover our SEO Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/seo-services', ['meta' => $meta]);
+    }
+    public function socialMediaMarketingServices()
+    {
+        $meta = [
+            'title' => 'Social Media Marketing Services - BrandStoryAE',
+            'description' => 'Discover our Social Media Marketing Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/social-media-marketing-services', ['meta' => $meta]);
+    }
+    public function uiUxDesignServices()
+    {
+        $meta = [
+            'title' => 'UI UX Design Services - BrandStoryAE',
+            'description' => 'Discover our UI UX Design Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/ui-ux-design-services', ['meta' => $meta]);
+    }
+    public function websiteDesignAndDevelopmentServices()
+    {
+        $meta = [
+            'title' => 'Website Design and Development Services - BrandStoryAE',
+            'description' => 'Discover our Website Design and Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'bahrain-page'
+        ];
+        return $this->view('bahrain/website-design-and-development-services', ['meta' => $meta]);
+    }
+
+
+
+    // from submit post
+
     public function sendContactInformation()
     {
         header('Content-Type: application/json');

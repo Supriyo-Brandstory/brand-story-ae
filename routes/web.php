@@ -48,6 +48,57 @@ Route::group(['prefix' => '/industries'], function () {
 Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
 
 
+// others pages
+Route::get('/b2b-company-in-dubai', 'FrontendController@b2bCompanyInDubai', 'b2bcompanyindubai');
+Route::get('/content-writing-company-in-dubai', 'FrontendController@contentWritingCompanyInDubai', 'contentwritingcompanyindubai');
+Route::get('/corporate-event-management-company-in-dubai', 'FrontendController@corporateEventManagementCompanyInDubai', 'corporateeventmanagementcompanyindubai');
+Route::get('/corporate-event-planners-in-dubai', 'FrontendController@corporateEventPlannersInDubai', 'corporateeventplannersindubai');
+Route::get('/corporate-photographers-in-al-ain', 'FrontendController@corporatePhotographersInAlAin', 'corporatephotographersinalain');
+Route::get('/corporate-photographers-in-fujairah', 'FrontendController@corporatePhotographersInFujairah', 'corporatephotographersinfujairah');
+Route::get('/corporate-photographers-in-ras-al-khaimah', 'FrontendController@corporatePhotographersInRasAlKhaimah', 'corporatephotographersinarasalkhaimah');
+Route::get('/corporate-photographers-in-umm-al-quwain', 'FrontendController@corporatePhotographersInUmmAlQuwain', 'corporatephotographersinummalquwain');
+Route::get('/corporate-photography-in-dubai', 'FrontendController@corporatePhotographyInDubai', 'corporatephotographyindubai');
+Route::get('/corporate-photography-in-abu-dhabi', 'FrontendController@corporatePhotographyInAbuDhabi', 'corporatephotographyinabudhabi');
+Route::get('/corporate-photography-in-saudi-arabia', 'FrontendController@corporatePhotographyInSaudiArabia', 'corporatephotographyinsaudiarabia');
+Route::get('/corporate-photography-in-sharjah', 'FrontendController@corporatePhotographyInSharjah', 'corporatephotographyinsharjah');
+Route::get('/corporate-video-production-agency-in-saudi-arabia', 'FrontendController@corporateVideoProductionAgencyInSaudiArabia', 'corporatevideoproductionagencyinsaudiarabia');
+Route::get('/corporate-video-production-company-in-abu-dhabi', 'FrontendController@corporateVideoProductionCompanyInAbuDhabi', 'corporatevideoproductioncompanyinabudhabi');
+Route::get('/corporate-video-production-company-in-al-ain', 'FrontendController@corporateVideoProductionCompanyInAlAin', 'corporatevideoproductioncompanyinalain');
+Route::get('/corporate-video-production-company-in-fujairah', 'FrontendController@corporateVideoProductionCompanyInFujairah', 'corporatevideoproductioncompanyinfujairah');
+Route::get('/corporate-video-production-company-in-sharjah', 'FrontendController@corporateVideoProductionCompanyInSharjah', 'corporatevideoproductioncompanyinsharjah');
+Route::get('/corporate-video-production-company-in-umm-al-quwain', 'FrontendController@corporateVideoProductionCompanyInUmmAlQuwain', 'corporatevideoproductioncompanyinummalquwain');
+Route::get('/corporate-video-production-in-ajman', 'FrontendController@corporateVideoProductionInAjman', 'corporatevideoproductioninajman');
+Route::get('/corporate-video-production-in-ras-al-khaimah', 'FrontendController@corporateVideoProductionInRasAlKhaimah', 'corporatevideoproductioninarasalkhaimah');
+Route::get('/corporate-video-production-services-in-dubai', 'FrontendController@corporateVideoProductionServicesInDubai', 'corporatevideoproductionservicesindubai');
+Route::get('/creative-advertising-agency-in-abu-dhabi', 'FrontendController@creativeAdvertisingAgencyInAbuDhabi', 'creativeadvertisingagencyinabudhabi');
+Route::get('/crypto/cryptocurrency-marketing-agency-dubai', 'FrontendController@cryptocurrencyMarketingAgencyDubai', 'cryptocurrencymarketingagencydubai');
+
+
+
+//development pages
+Route::group(['prefix' => '/development'], function () {
+    Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');
+    Route::get('/cross-platform-app-development-company-in-dubai', 'FrontendController@crossPlatformAppDevelopmentCompanyInDubai', 'crossplatformappdevelopmentcompanyindubai');
+    Route::get('/flutter-app-development-company-in-dubai', 'FrontendController@flutterAppDevelopmentCompanyInDubai', 'flutterappdevelopmentcompanyindubai');
+    Route::get('/hybrid-app-development-company-in-dubai', 'FrontendController@hybridAppDevelopmentCompanyInDubai', 'hybridappdevelopmentcompanyindubai');
+    Route::get('/ios-app-development-company-in-dubai', 'FrontendController@iosAppDevelopmentCompanyInDubai', 'iosappdevelopmentcompanyindubai');
+    Route::get('/react-native-app-development-company-in-dubai', 'FrontendController@reactNativeAppDevelopmentCompanyInDubai', 'reactnativeappdevelopmentcompanyindubai');
+});
+
+// bahrain pages
+Route::group(['prefix' => '/bahrain'], function () {
+    Route::get('/b2b-marketing-services', 'FrontendController@b2bMarketingServices', 'b2bmarketingagencyindubai');
+    Route::get('/content-writing-services', 'FrontendController@contentWritingServices', 'contentwritingservices');
+    Route::get('/digital-marketing-services', 'FrontendController@digitalMarketingServices', 'digitalmarketingservices');
+    Route::get('/email-marketing-services', 'FrontendController@emailMarketingServices', 'emailmarketingservices');
+    Route::get('/ppc-services', 'FrontendController@ppcServices', 'ppcservices');
+    Route::get('/pr-services', 'FrontendController@prServices', 'prservices');
+    Route::get('/seo-services', 'FrontendController@seoServices', 'seoservices');
+    Route::get('/social-media-marketing-services', 'FrontendController@socialMediaMarketingServices', 'socialmedia  marketingagencyinbahrain');
+    Route::get('/ui-ux-design-services', 'FrontendController@uiUxDesignServices', 'uiuxdesignservices');
+    Route::get('/website-design-and-development-services', 'FrontendController@websiteDesignAndDevelopmentServices', 'websitedesignanddevelopmentservices');
+});
+
 
 
 
