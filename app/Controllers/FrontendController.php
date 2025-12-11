@@ -595,6 +595,89 @@ class FrontendController extends Controller
         ];
         return $this->view('others-pages/cryptocurrency-marketing-agency-dubai', ['meta' => $meta]);
     }
+    public function digitalmarketingagencyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Abu Dhabi - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-abu-dhabi', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyinajman()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Ajman - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-ajman', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyinalain()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Al Ain - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-al-ain', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyindubaiuae()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Dubai - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-dubai-uae', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyinfujairah()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Fujairah - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-fujairah', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyinarasalkhaimah()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Ras Al Khaimah - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-ras-al-khaimah', ['meta' => $meta]);
+    }
+
+    public function digitalmarketingagencyinsharjah()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Sharjah - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-sharjah', ['meta' => $meta]);
+    }
+    public function digitalmarketingagencyinummalquwain()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Agency in Umm Al Quwain - BrandStoryAE',
+            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/digital-marketing-agency-in-umm-al-quwain', ['meta' => $meta]);
+    }
+
+    public function ecommercwebdevelopmentservices()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ecommerce-web-development-services', ['meta' => $meta]);
+    }
 
 
     //development pages

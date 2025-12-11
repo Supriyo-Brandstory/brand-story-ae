@@ -72,6 +72,17 @@ Route::get('/corporate-video-production-in-ras-al-khaimah', 'FrontendController@
 Route::get('/corporate-video-production-services-in-dubai', 'FrontendController@corporateVideoProductionServicesInDubai', 'corporatevideoproductionservicesindubai');
 Route::get('/creative-advertising-agency-in-abu-dhabi', 'FrontendController@creativeAdvertisingAgencyInAbuDhabi', 'creativeadvertisingagencyinabudhabi');
 Route::get('/crypto/cryptocurrency-marketing-agency-dubai', 'FrontendController@cryptocurrencyMarketingAgencyDubai', 'cryptocurrencymarketingagencydubai');
+Route::get('/digital-marketing-agency-in-abu-dhabi', 'FrontendController@digitalmarketingagencyinabudhabi', 'digitalmarketingagencyinabudhabi');
+Route::get('/digital-marketing-agency-in-ajman', 'FrontendController@digitalmarketingagencyinajman', 'digitalmarketingagencyinajman');
+Route::get('/digital-marketing-agency-in-al-ain', 'FrontendController@digitalmarketingagencyinalain', 'digitalmarketingagencyinalain');
+Route::get('/digital-marketing-agency-in-dubai', 'FrontendController@digitalmarketingagencyindubai', 'digitalmarketingagencyindubai');
+Route::get('/digital-marketing-agency-in-dubai-uae', 'FrontendController@digitalmarketingagencyindubaiuae', 'digitalmarketingagencyindubaiuae');
+Route::get('/digital-marketing-agency-in-fujairah', 'FrontendController@digitalmarketingagencyinfujairah', 'digitalmarketingagencyinfujairah');
+Route::get('/digital-marketing-agency-in-ras-al-khaimah', 'FrontendController@digitalmarketingagencyinarasalkhaimah', 'digitalmarketingagencyinarasalkhaimah');
+Route::get('/digital-marketing-agency-in-sharjah', 'FrontendController@digitalmarketingagencyinsharjah', 'digitalmarketingagencyinsharjah');
+Route::get('/digital-marketing-agency-in-umm-al-quwain', 'FrontendController@digitalmarketingagencyinummalquwain', 'digitalmarketingagencyinummalquwain');
+Route::get('/ecommerce-web-development-services', 'FrontendController@ecommercwebdevelopmentservices', 'ecommercewebdevelopmentservices');
+
 
 
 
