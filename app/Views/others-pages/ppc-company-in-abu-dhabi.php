@@ -1,20 +1,20 @@
 <section class="service-banner ppc-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Maximize Your ROI with Our PPC Service Company in Abu Dhabi</h1>
-<p>In today’s dynamic marketing world, Pay-per-click ads have become a powerful tool for businesses on the verge of expanding.  With the help of PPC ads, they can reach their customer base and new audiences. While email campaigns and social media plans effectively care for the existing customer base, they may not catalyze reaching the new customer base. That's where Brandstory PPC Company in Abu Dhabi comes into play. With a strong hold on PPC techniques, the team helps connect with your potential customers. We offer a complete package of PPC services designed to boost your brand’s visibility, deliver ROI, and drive qualified traffic to your website. Brandstory PPC services are curated to align perfectly with your brand’s needs and goals. Let BrandStory PPC Company be your trusted ad partner for achieving exceptional success in the marketing realm.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Maximize Your ROI with Our PPC Service Company in Abu Dhabi</h1>
+                    <p>In today’s dynamic marketing world, Pay-per-click ads have become a powerful tool for businesses on the verge of expanding.  With the help of PPC ads, they can reach their customer base and new audiences. While email campaigns and social media plans effectively care for the existing customer base, they may not catalyze reaching the new customer base. That's where Brandstory PPC Company in Abu Dhabi comes into play. With a strong hold on PPC techniques, the team helps connect with your potential customers. We offer a complete package of PPC services designed to boost your brand’s visibility, deliver ROI, and drive qualified traffic to your website. Brandstory PPC services are curated to align perfectly with your brand’s needs and goals. Let BrandStory PPC Company be your trusted ad partner for achieving exceptional success in the marketing realm.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- What is Pay Per Click? start -->
@@ -190,68 +190,68 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon1.svg">
-                <h3 class="mb-3 text-violet fs-20">Initial Consultation and Goal Setting</h3>
-                <p class="mb-0">This phase is called the preliminary stage for curating PPC ads. Our team and the client sit together and discuss the specific PPC goals. The collaborative effort here identifies your PPC ad objectives. This will help in curating specific campaign strategies. The objectives may include brand awareness, maximizing website traffic, increasing lead generation, etc. For each ad objective, our team curates different ad campaigns.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon1.svg">
+                    <h3 class="mb-3 text-violet fs-20">Initial Consultation and Goal Setting</h3>
+                    <p class="mb-0">This phase is called the preliminary stage for curating PPC ads. Our team and the client sit together and discuss the specific PPC goals. The collaborative effort here identifies your PPC ad objectives. This will help in curating specific campaign strategies. The objectives may include brand awareness, maximizing website traffic, increasing lead generation, etc. For each ad objective, our team curates different ad campaigns.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon2.svg">
-                <h3 class="mb-3 text-red fs-20">Competitor Analysis</h3>
-                <p class="mb-0">It is essential for any marketing campaign you set out for. Competitor analysis is also called Benchmarking. Our team closely monitors the competitors to make your ads more precise and in alignment with your target audience. This analysis gives us an extra edge in our PPC ad planning. We create ads that are unique and have an appealing sense to your audience.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon2.svg">
+                    <h3 class="mb-3 text-red fs-20">Competitor Analysis</h3>
+                    <p class="mb-0">It is essential for any marketing campaign you set out for. Competitor analysis is also called Benchmarking. Our team closely monitors the competitors to make your ads more precise and in alignment with your target audience. This analysis gives us an extra edge in our PPC ad planning. We create ads that are unique and have an appealing sense to your audience.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon3.svg">
-                <h3 class="mb-3 text-blue fs-20">Keyword Research</h3>
-                <p class="mb-0">This may be the long phase in the Google ad campaign process as it requires continuous activity. Our team creates a core keyword list while developing ad campaigns. We refine and expand the keyword list to obtain long-tail, highly relevant, and low-cost keywords. Moreover, the BrandStory team reviews high-cost keywords to get the most relevant ones. We keep on checking for better keywords for your ad campaigns.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon3.svg">
+                    <h3 class="mb-3 text-blue fs-20">Keyword Research</h3>
+                    <p class="mb-0">This may be the long phase in the Google ad campaign process as it requires continuous activity. Our team creates a core keyword list while developing ad campaigns. We refine and expand the keyword list to obtain long-tail, highly relevant, and low-cost keywords. Moreover, the BrandStory team reviews high-cost keywords to get the most relevant ones. We keep on checking for better keywords for your ad campaigns.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon4.svg">
-                <h3 class="mb-3 text-yellow fs-20">Campaign Setup</h3>
-                <p class="mb-0">A good structure lays the base for a successful digital marketing plan. This enables the clients to reach the right audience with impactful messages. With this,we make sure that you get desired outcomes from the ad campaigns. During the campaign formation, we work with clients to establish budgets and bidding strategies and scheduling options that align with their goals. We also define the geographic locations where ads are displayed. Furthermore, the team at Brandstory also helps in setting up tracking and analytics tools for monitoring the campaign performance accurately.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon4.svg">
+                    <h3 class="mb-3 text-yellow fs-20">Campaign Setup</h3>
+                    <p class="mb-0">A good structure lays the base for a successful digital marketing plan. This enables the clients to reach the right audience with impactful messages. With this,we make sure that you get desired outcomes from the ad campaigns. During the campaign formation, we work with clients to establish budgets and bidding strategies and scheduling options that align with their goals. We also define the geographic locations where ads are displayed. Furthermore, the team at Brandstory also helps in setting up tracking and analytics tools for monitoring the campaign performance accurately.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon5.svg">
-                <h3 class="mb-3 text-orange fs-20">Ad Creation</h3>
-                <p class="mb-0">This phase witnesses the ad creation for your product/service. At this stage, our team creates a compelling ad creative with catchy text to attract customers. With ad texts, you can communicate with your consumers and promote your product/service on different platforms.</p>
-                <p class="mb-0">Then, the Brandstory team will check the quality score of the ad text and also add a call to action button to it. We also include the ad extension in this phase to make it more attractive and unique.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon5.svg">
+                    <h3 class="mb-3 text-orange fs-20">Ad Creation</h3>
+                    <p class="mb-0">This phase witnesses the ad creation for your product/service. At this stage, our team creates a compelling ad creative with catchy text to attract customers. With ad texts, you can communicate with your consumers and promote your product/service on different platforms.</p>
+                    <p class="mb-0">Then, the Brandstory team will check the quality score of the ad text and also add a call to action button to it. We also include the ad extension in this phase to make it more attractive and unique.</p>
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon6.svg">
-                <h3 class="mb-3 text-green fs-20">Landing Page Optimization</h3>
-                <p class="mb-0">It is an important component of PPC campaigns. Landing page optimization includes refinement of the webpage on which ads will be displayed. Our team at Brandstory PPC agency in Abu Dhabi ensures that the webpage aligns with the ad’s message and also provides great user experience. The optimization process helps in maximizing the chances of generating leads through purchases and other desired actions. It is seen that a well-optimized landing page ensures that users actually find what they are looking for.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon6.svg">
+                    <h3 class="mb-3 text-green fs-20">Landing Page Optimization</h3>
+                    <p class="mb-0">It is an important component of PPC campaigns. Landing page optimization includes refinement of the webpage on which ads will be displayed. Our team at Brandstory PPC agency in Abu Dhabi ensures that the webpage aligns with the ad’s message and also provides great user experience. The optimization process helps in maximizing the chances of generating leads through purchases and other desired actions. It is seen that a well-optimized landing page ensures that users actually find what they are looking for.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon7.svg">
-                <h3 class="mb-3 text-dviolet fs-20">Ad Extensions</h3>
-                <p class="mb-0">Incorporation ad extensions to the PPC management Abu Dhabi creatives helps in maximizing the CTR, it makes the ads more relevant for the users. Moreover, the ad extensions also improve its quality score. We bid for the ad extension included advertisement to ensure that only the relevant ads get displayed. The extensions can be address, store ratings, address, etc.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon7.svg">
+                    <h3 class="mb-3 text-dviolet fs-20">Ad Extensions</h3>
+                    <p class="mb-0">Incorporation ad extensions to the PPC management Abu Dhabi creatives helps in maximizing the CTR, it makes the ads more relevant for the users. Moreover, the ad extensions also improve its quality score. We bid for the ad extension included advertisement to ensure that only the relevant ads get displayed. The extensions can be address, store ratings, address, etc.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon8.svg">
-                <h3 class="mb-3 text-dred fs-20">Conversion Tracking</h3>
-                <p class="mb-0">It is basically the systematic monitoring and measurement of user actions that perfectly align with specific campaign objectives. Conversion tracking may include: purchase details, filling of contact form, or signing up of a newsletter. Our PPC service company in Abu Dhabi ensures that all your advertising efforts are not going in vain. They are not only driving meaningful interactions, but also help in reaching the business goals. The main aim of conversion tracking is to provide valuable insights to the marketers.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon8.svg">
+                    <h3 class="mb-3 text-dred fs-20">Conversion Tracking</h3>
+                    <p class="mb-0">It is basically the systematic monitoring and measurement of user actions that perfectly align with specific campaign objectives. Conversion tracking may include: purchase details, filling of contact form, or signing up of a newsletter. Our PPC service company in Abu Dhabi ensures that all your advertising efforts are not going in vain. They are not only driving meaningful interactions, but also help in reaching the business goals. The main aim of conversion tracking is to provide valuable insights to the marketers.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-lg-5 mb-0">
-                <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon9.svg">
-                <h3 class="mb-3 text-dblue fs-20">A/B Testing</h3>
-                <p class="mb-0">Through A/B testing, our PPC team at Brandstory helps in gaining insights about what really resonates with the users/target audience. It helps in identification of various ad variations that can drive more traffic and click-through rates (CTR). A/B testing also gathers insight about lower bounce rates to determine how the ad campaign is working out.</p>
-                <p class="mb-0">By analyzing the above gathered data, we refine our PPC ad campaigns and also help in redistributing the budgets more efficiently. This, in turn, improves the ROI.</p>
+                <div class="mb-lg-5 mb-0">
+                    <img class="img-fluid mb-3" src="/assets/images/ppc/ppc-icon9.svg">
+                    <h3 class="mb-3 text-dblue fs-20">A/B Testing</h3>
+                    <p class="mb-0">Through A/B testing, our PPC team at Brandstory helps in gaining insights about what really resonates with the users/target audience. It helps in identification of various ad variations that can drive more traffic and click-through rates (CTR). A/B testing also gathers insight about lower bounce rates to determine how the ad campaign is working out.</p>
+                    <p class="mb-0">By analyzing the above gathered data, we refine our PPC ad campaigns and also help in redistributing the budgets more efficiently. This, in turn, improves the ROI.</p>
                 </div>
             </div>
         </div>
@@ -346,128 +346,128 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“My team have been extremely happy with the effectiveness of the work Brandstory and the team have done for us. Our lead generation rate has increased massively after the PPC campaigns. Brandstory PPC services in Abu Dhabi are a great strategic partner for our ads. We would highly recommend their services.”</p>
-                <p class="mb-0"><b>Barbara ,Executive</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“My team have been extremely happy with the effectiveness of the work Brandstory and the team have done for us. Our lead generation rate has increased massively after the PPC campaigns. Brandstory PPC services in Abu Dhabi are a great strategic partner for our ads. We would highly recommend their services.”</p>
+                    <p class="mb-0"><b>Barbara ,Executive</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“The Brandstory PPC services team has done an incredible job for our company.  The professionals helped us increase our organic traffic. We have got really good results from the PPC services. We will continue to work with Branstory for our ad projects.”</p>
-                <p class="mb-0"><b>Maria - Marketing Professional</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“The Brandstory PPC services team has done an incredible job for our company.  The professionals helped us increase our organic traffic. We have got really good results from the PPC services. We will continue to work with Branstory for our ad projects.”</p>
+                    <p class="mb-0"><b>Maria - Marketing Professional</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“The Brandstory team was so instrumental in helping our business to execute the inbound marketing. With the PPC services, we got tons of leads which were so tangible. The team not only understood our needs and requirements but also provided us with the most relevant PPC campaigns.”</p>
-                <p class="mb-0"><b>Matthew - Chief Executive</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“The Brandstory team was so instrumental in helping our business to execute the inbound marketing. With the PPC services, we got tons of leads which were so tangible. The team not only understood our needs and requirements but also provided us with the most relevant PPC campaigns.”</p>
+                    <p class="mb-0"><b>Matthew - Chief Executive</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-    What is PPC advertising?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    It is a digital marketing model in which advertisers pay a fee for each advertisement  click. PPC ad campaigns appear on search engines, like Google and Bing other social media platforms. In this, advertisers select the specific keywords and phrases about the products/services. PPC services are highly measurable and flexible and can be an effective part of digital marketing strategy.
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-    What is the difference between PPC and SEO? 
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    The main difference between SEO and PPC is that search engine optimization focuses on getting organic search, whereas PPC services concentrate on getting more traffic  through display ads, social ads, etc.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-    Are there different types of PPC marketing?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    The following are the different types of PPC marketing:
-    <ul>
-        <li>Display ads</li>
-        <li>Video ads</li>
-        <li>Text ads</li>
-    </ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-    How do I measure the success of  PPC campaigns?
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    Key metrics to measure the success of PPC campaigns are as follows: 
-    <ul>
-        <li>Impressions.</li>
-        <li>Click-Through Rate (CTR)</li>
-        <li>Cost-Per-Click (CPC)</li>
-        <li>Conversion Rate (CR)</li>
-        <li>Return on Investment (ROI)</li>
-        <li>Quality Score (QS)</li>
-    </ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-    What is remarketing in PPC?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    Remarketing in PPC services is an online advertising form that allows your business to show the relevant products to the right target audience. It is a way to reconnect with your potential customers who didn’t convert in the first place.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
-    How do I choose the right keywords for my PPC campaign?
-</button>
-</h2>
-<div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-    You can use the following ways to choose the right keywords for your campaigns:
-    <ul>
-        <li>Be specific about what you want.</li>
-        <li>Be descriptive about the ad texts</li>
-        <li>Use multiple keywords</li>
-        <li>Think like your customers</li>
-        <li>Highlight on well-known brands for more traction</li>
-    </ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        What is PPC advertising?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        It is a digital marketing model in which advertisers pay a fee for each advertisement click. PPC ad campaigns appear on search engines, like Google and Bing other social media platforms. In this, advertisers select the specific keywords and phrases about the products/services. PPC services are highly measurable and flexible and can be an effective part of digital marketing strategy.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        What is the difference between PPC and SEO?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The main difference between SEO and PPC is that search engine optimization focuses on getting organic search, whereas PPC services concentrate on getting more traffic through display ads, social ads, etc.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        Are there different types of PPC marketing?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The following are the different types of PPC marketing:
+                        <ul>
+                            <li>Display ads</li>
+                            <li>Video ads</li>
+                            <li>Text ads</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        How do I measure the success of PPC campaigns?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Key metrics to measure the success of PPC campaigns are as follows:
+                        <ul>
+                            <li>Impressions.</li>
+                            <li>Click-Through Rate (CTR)</li>
+                            <li>Cost-Per-Click (CPC)</li>
+                            <li>Conversion Rate (CR)</li>
+                            <li>Return on Investment (ROI)</li>
+                            <li>Quality Score (QS)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        What is remarketing in PPC?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Remarketing in PPC services is an online advertising form that allows your business to show the relevant products to the right target audience. It is a way to reconnect with your potential customers who didn’t convert in the first place.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
+                        How do I choose the right keywords for my PPC campaign?
+                    </button>
+                </h2>
+                <div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        You can use the following ways to choose the right keywords for your campaigns:
+                        <ul>
+                            <li>Be specific about what you want.</li>
+                            <li>Be descriptive about the ad texts</li>
+                            <li>Use multiple keywords</li>
+                            <li>Think like your customers</li>
+                            <li>Highlight on well-known brands for more traction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

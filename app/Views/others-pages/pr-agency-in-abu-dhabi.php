@@ -1,21 +1,21 @@
 <section class="service-banner prnew-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Best PR Agency in Abu Dhabi</h1>
-<p class="mb-0">Owing to the recent digital media burst in the world, every organization wants to hold its audience's attention for longer. In this pursuit, a PR agency in Abu Dhabi will help you gain a good position. Brandstory -PR agency comes to your rescue with its extensive experience and passion for storytelling to boost your reputation in the market. We start with planning out the strategy for the project, which aligns with your target audience preferences.</p>
-<p class="mb-0">As the best PR agency in the city, we understand all the nuances of the public relations aspects that can elevate your brand presence.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Best PR Agency in Abu Dhabi</h1>
+                    <p class="mb-0">Owing to the recent digital media burst in the world, every organization wants to hold its audience's attention for longer. In this pursuit, a PR agency in Abu Dhabi will help you gain a good position. Brandstory -PR agency comes to your rescue with its extensive experience and passion for storytelling to boost your reputation in the market. We start with planning out the strategy for the project, which aligns with your target audience preferences.</p>
+                    <p class="mb-0">As the best PR agency in the city, we understand all the nuances of the public relations aspects that can elevate your brand presence.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- What is a PR Agency? start -->
@@ -128,7 +128,7 @@
             </div>
         </div>
         <!-- Row END -->
-        
+
     </div>
 </section>
 <!-- How Do we work? end -->
@@ -149,7 +149,7 @@
                     </div>
                     <p class="mb-0 text-white">When you partner with a Brandstory PR agency in Abu Dhabi, the experts deeply understand the local market. We take pride in providing our insights and knowledge, enabling us to create PR strategies that resonate with our clients.</p>
                     <p class="mb-0 text-white">It helps us make a good impression on the clients.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-5 pb-4">
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">We go for a strategic approach when it comes to building a PR plan for any client. Our team identifies the right media outlets, crisis management approaches, and influencer engagement. All this ensures that every aspect of your PR campaign impacts your brand. These parameters drive our PR strategy.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="pb-lg-5 pb-4">
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">With the help of a combination of relevant media outreach and responsive management, we are equipped to handle all aspects of your business interactions with the media. Our team takes care of everything, from press releases to media training and crisis communications. We make your brand stay ahead of the competition, by strategically positioning your brand for best media exposure.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-0 pb-4">
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">In the world of unprecedented times anything can go wrong with your public relations. This can put your brand in a bad light. To mitigate such incidents, our team of PR services in Abu Dhabi handles them with a strategic and level-headed approach. Our crisis management experts are skilled in curating clear and precise messages to effectively tackle the situation.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-0 pb-md-0 pb-4">
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">From conceptualization to perfect execution, our team handles all your event management work. We start by understanding all your event objectives, vision, and audience. Then, the team designs and plans every aspect of the event to make sure that it goes smoothly. We also provide post-event analysis to let you know how your event performed.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 ">
                 <div class="pb-0">
@@ -214,7 +214,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">Brandstory team collaborates with a good network of influencers across various arenas, including lifestyle and fashion. It helps us to tailor a customized approach for your brand/business. Our influencer marketing strategy begins by recognizing the most suitable influencers, based on followers' demographics, interests, and engagement rates.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder d-flex">
                 <div class="pb-lg-0 pb-4 mt-lg-5">
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">We use proactive strategies to monitor, protect, and strengthen your online presence. A reputation management team begins by conducting a thorough analysis of your recent reputation in the digital space. We further identify all the potential issues and assess them for better visibility. This helps us craft a customized approach for maintaining your brand's online presence.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-8 col-md-6 d-flex">
                 <div class="mbl-app-company d-flex w-100 mt-lg-5">
@@ -291,15 +291,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex box-inside">
-                <div class="mbl-app-company d-flex w-100">
-                    <div class="mbl-app-cnt align-self-center w-100">
-                        <p class="text-white mb-3">Most Popular</p>
-                        <h3 class="mb-4">PR Management Company</h3>
-                        <div class="company-btn">
-                            <a href="">Explore <img src="https://www.brandstory.ae/assets/images/mobile-app-dev/btn-arrow.svg"></a>
+                    <div class="mbl-app-company d-flex w-100">
+                        <div class="mbl-app-cnt align-self-center w-100">
+                            <p class="text-white mb-3">Most Popular</p>
+                            <h3 class="mb-4">PR Management Company</h3>
+                            <div class="company-btn">
+                                <a href="">Explore <img src="https://www.brandstory.ae/assets/images/mobile-app-dev/btn-arrow.svg"></a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -315,99 +315,99 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">For our small-size business, we needed someone who can uplift our brand image in our digital space.And Brandstory was the perfect choice for it. The team understood our objectives and helped us craft a compelling PR strategy which helped our brand get visible in the digital media.</p>
-                <p class="mb-0"><b>Sam</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">For our small-size business, we needed someone who can uplift our brand image in our digital space.And Brandstory was the perfect choice for it. The team understood our objectives and helped us craft a compelling PR strategy which helped our brand get visible in the digital media.</p>
+                    <p class="mb-0"><b>Sam</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">Last year, we got into a bad crisis situation, which impacted our brand very severely. But we didn't know where to go at that time. But for this year, we decided on hiring Brandstory PR services. They did a good job in mitigating our crisis around your brand. We are still in contact with them, and they are doing a great job.</p>
-                <p class="mb-0"><b>Terence</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">Last year, we got into a bad crisis situation, which impacted our brand very severely. But we didn't know where to go at that time. But for this year, we decided on hiring Brandstory PR services. They did a good job in mitigating our crisis around your brand. We are still in contact with them, and they are doing a great job.</p>
+                    <p class="mb-0"><b>Terence</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">We are working with Brandstory PR service in the city. They took our brand's objectives seriously and helped us get along with the current digital dynamics. They did a fabulous job and we are very thankful for it.</p>
-                <p class="mb-0"><b>Kampina</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">We are working with Brandstory PR service in the city. They took our brand's objectives seriously and helped us get along with the current digital dynamics. They did a fabulous job and we are very thankful for it.</p>
+                    <p class="mb-0"><b>Kampina</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ's</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-What is Public Relations (PR)?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Public relations, or PR, are the plans and methods used to manage how news about a person or business gets to the public, especially the media. It is used to keep the brand's good name, and make bad things seem better.
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ's</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        What is Public Relations (PR)?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Public relations, or PR, are the plans and methods used to manage how news about a person or business gets to the public, especially the media. It is used to keep the brand's good name, and make bad things seem better.
 
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-Can you provide examples of successful PR campaigns?
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Yes, we can provide successful examples of PR campaigns, because of our industry-specific experts' knowledge and strategic approach. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-Do you have experience with both traditional and digital PR strategies?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Brandstory PR services hold extensive experience in both traditional as well as digital PR services. With our in-depth knowledge about the PR services, we execute all PR  approaches. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-How do you choose the right PR agency for your organization?
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-A PR firm needs to have a unique personality, a great team, and a lot of love and drive for their clients and the business they work in. Don't forget that size counts too. Select a company that fits your needs in terms of size. Pick a company that will value you as a client and want you to do well.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-What is the pricing structure for your PR services?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The pricing structure depends on the complexities of the PR services you want us to do. For a full coverage package, you can be charged more than a simple package.
-</div>
-</div>
-</div><!--Accordion item end-->
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        Can you provide examples of successful PR campaigns?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Yes, we can provide successful examples of PR campaigns, because of our industry-specific experts' knowledge and strategic approach.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        Do you have experience with both traditional and digital PR strategies?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Brandstory PR services hold extensive experience in both traditional as well as digital PR services. With our in-depth knowledge about the PR services, we execute all PR approaches.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        How do you choose the right PR agency for your organization?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        A PR firm needs to have a unique personality, a great team, and a lot of love and drive for their clients and the business they work in. Don't forget that size counts too. Select a company that fits your needs in terms of size. Pick a company that will value you as a client and want you to do well.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        What is the pricing structure for your PR services?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The pricing structure depends on the complexities of the PR services you want us to do. For a full coverage package, you can be charged more than a simple package.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

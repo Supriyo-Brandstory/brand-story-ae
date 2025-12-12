@@ -105,6 +105,19 @@ Route::get('/pr-agency-in-abu-dhabi', 'FrontendController@pragencyinabudhabi', '
 Route::get('/privacy-policy', 'FrontendController@privacypolicy', 'privacypolicy');
 Route::get('/quora-marketing', 'FrontendController@quoramarketing', 'quoramarketing');
 Route::get('/retail-marketing-agency-dubai', 'FrontendController@retailmarketingagencydubai', 'retailmarketingagencydubai');
+Route::get('/seo-agencies-in-dubai', 'FrontendController@seoagenciesindubai', 'seoagenciesindubai');
+Route::get('/seo-agency-aden-yemen', 'FrontendController@seoagencyadenyemen', 'seoagencyadenyemen');
+Route::get('/seo-agency-al-khobar-saudi-arabia', 'FrontendController@seoagencyalkhobarsaudiarabia', 'seoagencyalkhobarsaudiarabia');
+Route::get('/seo-agency-in-abu-dhabi', 'FrontendController@seoagencyinabudhabi', 'seoagencyinabudhabi');
+Route::get('/seo-agency-in-ajman', 'FrontendController@seoagencyinajman', 'seoagencyinajman');
+Route::get('/seo-agency-in-baghdad', 'FrontendController@seoagencyinbaghdad', 'seoagencyinbaghdad');
+Route::get('/seo-agency-in-cairo', 'FrontendController@seoagencyincairo', 'seoagencyincairo');
+Route::get('/seo-agency-in-fujairah', 'FrontendController@seoagencyinfujairah', 'seoagencyinfujairah');
+Route::get('/seo-agency-in-ras-al-khaimah', 'FrontendController@seoagencyinaraskhaimah', 'seoagencyinaraskhaimah');
+Route::get('/seo-agency-in-salalah', 'FrontendController@seoagencyinsalalah', 'seoagencyinsalalah');
+Route::get('/seo-agency-in-sharjah', 'FrontendController@seoagencyinsharjah', 'seoagencyinsharjah');
+Route::get('/seo-agency-in-umm-al-quwain', 'FrontendController@seoagencyinummalquwain', 'seoagencyinummalquwain');
+Route::get('/seo-agency-kuwait-city', 'FrontendController@seoagencykuwaitcity', 'seoagencykuwaitcity');
 //development pages
 Route::group(['prefix' => '/development'], function () {
     Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');

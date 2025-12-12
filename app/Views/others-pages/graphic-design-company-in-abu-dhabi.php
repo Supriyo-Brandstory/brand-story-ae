@@ -1,21 +1,21 @@
 <section class="service-banner grapnew-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Graphic Design Company in Abu Dhabi</h1>
-<p class="mb-0">Graphic design decreases the gap between imagination and reality through fine designs. This is called the visual language. With these graphic designs, you can effortlessly convey your brand messages to your audience and engage them for a long period of time. With the expertise of the Brandstory Graphic Designers Abu Dhabi team, we can create the best innovative designs that can transform your ideas into captivating visuals. Our team fully understands the importance of well-crafted designs in defining the brand's identity. We make your brand's design stand out from the crowd through our exceptional expertise in the design industry.</p>
-<p class="mb-0">Let's design your brand that catches your viewers' attention!</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Graphic Design Company in Abu Dhabi</h1>
+                    <p class="mb-0">Graphic design decreases the gap between imagination and reality through fine designs. This is called the visual language. With these graphic designs, you can effortlessly convey your brand messages to your audience and engage them for a long period of time. With the expertise of the Brandstory Graphic Designers Abu Dhabi team, we can create the best innovative designs that can transform your ideas into captivating visuals. Our team fully understands the importance of well-crafted designs in defining the brand's identity. We make your brand's design stand out from the crowd through our exceptional expertise in the design industry.</p>
+                    <p class="mb-0">Let's design your brand that catches your viewers' attention!</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- What is Graphic Designing? start -->
@@ -204,44 +204,44 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/Creativity.svg">
-                <h3 class="mb-3 text-violet fs-20">Creativity</h3>
-                <p class="mb-0">In the graphic design process, creativity is not limited to aesthetics alone; it encompasses problem-solving as well. Designers uncover innovative solutions to communicate messages and craft captivating visuals effectively. The process involves exploring new techniques and maintaining awareness of design trends.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/Creativity.svg">
+                    <h3 class="mb-3 text-violet fs-20">Creativity</h3>
+                    <p class="mb-0">In the graphic design process, creativity is not limited to aesthetics alone; it encompasses problem-solving as well. Designers uncover innovative solutions to communicate messages and craft captivating visuals effectively. The process involves exploring new techniques and maintaining awareness of design trends.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/Customization.svg">
-                <h3 class="mb-3 text-red fs-20">Customization</h3>
-                <p class="mb-0">This ensures that clients' visions are not compromised and that the end product accurately reflects their brand's essence. Customization is pivotal in creating designs that are visually stunning and carry significant meaning. This tailored approach guarantees that the design effectively serves its intended purpose, whether it involves strengthening brand recognition, delivering a powerful message, or sparking engagement.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/Customization.svg">
+                    <h3 class="mb-3 text-red fs-20">Customization</h3>
+                    <p class="mb-0">This ensures that clients' visions are not compromised and that the end product accurately reflects their brand's essence. Customization is pivotal in creating designs that are visually stunning and carry significant meaning. This tailored approach guarantees that the design effectively serves its intended purpose, whether it involves strengthening brand recognition, delivering a powerful message, or sparking engagement.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/Professionalism.svg">
-                <h3 class="mb-3 text-blue fs-20">Professionalism</h3>
-                <p class="mb-0">A professional graphic design seeks to create captivating visual communication that effectively engages, enlightens, and motivates the target audience. To accomplish this, professional graphic designers in Abu Dhabi leverage their creative and technical expertise along with a thorough comprehension of design principles, including composition, color theory, typography, and layout.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/Professionalism.svg">
+                    <h3 class="mb-3 text-blue fs-20">Professionalism</h3>
+                    <p class="mb-0">A professional graphic design seeks to create captivating visual communication that effectively engages, enlightens, and motivates the target audience. To accomplish this, professional graphic designers in Abu Dhabi leverage their creative and technical expertise along with a thorough comprehension of design principles, including composition, color theory, typography, and layout.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/Versatility.svg">
-                <h3 class="mb-3 text-yellow fs-20">Versatility</h3>
-                <p class="mb-0">The graphic designs created for any specific marketing collateral can be used for other purposes. For example, a logo designed for any company can be used as an element for many social media campaigns. The designs can include brand design, publication, web design, and more.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/Versatility.svg">
+                    <h3 class="mb-3 text-yellow fs-20">Versatility</h3>
+                    <p class="mb-0">The graphic designs created for any specific marketing collateral can be used for other purposes. For example, a logo designed for any company can be used as an element for many social media campaigns. The designs can include brand design, publication, web design, and more.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/Technical-Proficiency.svg">
-                <h3 class="mb-3 text-orange fs-20">Technical Proficiency</h3>
-                <p class="mb-0">Graphic designers in Abu Dhabi, with their extensive technical skill set, possess the ability to transform creative concepts into visually mesmerizing designs. They showcase mastery over various software applications and tools crucial for design, such as the Adobe Creative Suite (including Photoshop, Illustrator, and InDesign), 3D modeling software, and web design platforms.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/Technical-Proficiency.svg">
+                    <h3 class="mb-3 text-orange fs-20">Technical Proficiency</h3>
+                    <p class="mb-0">Graphic designers in Abu Dhabi, with their extensive technical skill set, possess the ability to transform creative concepts into visually mesmerizing designs. They showcase mastery over various software applications and tools crucial for design, such as the Adobe Creative Suite (including Photoshop, Illustrator, and InDesign), 3D modeling software, and web design platforms.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/seo-lp/collaboration.svg">
-                <h3 class="mb-3 text-green fs-20">Collaboration</h3>
-                <p class="mb-0">Effective collaboration entails open communication, the exchange of feedback, and teamwork. This ensures the design syncs with the client's objectives, brand identity, and messaging. Within a design team, collaboration nurtures a dynamic exchange of ideas, which fosters the development of innovative solutions.</p>
+                <div class="mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/seo-lp/collaboration.svg">
+                    <h3 class="mb-3 text-green fs-20">Collaboration</h3>
+                    <p class="mb-0">Effective collaboration entails open communication, the exchange of feedback, and teamwork. This ensures the design syncs with the client's objectives, brand identity, and messaging. Within a design team, collaboration nurtures a dynamic exchange of ideas, which fosters the development of innovative solutions.</p>
                 </div>
             </div>
         </div>
@@ -330,119 +330,119 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">BrandStory's exceptional collaboration throughout the logo design process exceeded our expectations. With each request for variations, the team demonstrated outstanding patience and unwavering commitment until we discovered the perfect graphic design that seamlessly aligns with our brand. Diligently professional, effortlessly cooperative, and consistently responsive, Brandstory graphics design proved to be an invaluable partner. We wholeheartedly recommend its unparalleled design services to all in need. </p>
-                <p class="mb-0"><b>Derek- a Startup Owner</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">BrandStory's exceptional collaboration throughout the logo design process exceeded our expectations. With each request for variations, the team demonstrated outstanding patience and unwavering commitment until we discovered the perfect graphic design that seamlessly aligns with our brand. Diligently professional, effortlessly cooperative, and consistently responsive, Brandstory graphics design proved to be an invaluable partner. We wholeheartedly recommend its unparalleled design services to all in need. </p>
+                    <p class="mb-0"><b>Derek- a Startup Owner</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">I had a remarkable experience collaborating with the BrandStory team during the entire process of designing my business logo. I was truly impressed by the various concepts they generated, the number of revisions the team undertook, and his unwavering patience throughout the entire journey. For those seeking a graphic designer for your design project, who exemplifies patience and thrives in a collaborative environment, Brandstory is the ideal choice.</p>
-                <p class="mb-0"><b>Mark- Real Estate Company</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">I had a remarkable experience collaborating with the BrandStory team during the entire process of designing my business logo. I was truly impressed by the various concepts they generated, the number of revisions the team undertook, and his unwavering patience throughout the entire journey. For those seeking a graphic designer for your design project, who exemplifies patience and thrives in a collaborative environment, Brandstory is the ideal choice.</p>
+                    <p class="mb-0"><b>Mark- Real Estate Company</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">Brandstory graphics team adeptly designed our logo, website, and business cards, showcasing his exceptional skill set. The website they expertly crafted led to a commendable ranking in the search engines, thereby generating promising job leads and a significant influx of valuable customers. Without a doubt, Brandstory's services have proven to be a worthwhile and lucrative investment.</p>
-                <p class="mb-0"><b>Terry</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">Brandstory graphics team adeptly designed our logo, website, and business cards, showcasing his exceptional skill set. The website they expertly crafted led to a commendable ranking in the search engines, thereby generating promising job leads and a significant influx of valuable customers. Without a doubt, Brandstory's services have proven to be a worthwhile and lucrative investment.</p>
+                    <p class="mb-0"><b>Terry</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ's</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-What sets your graphic design company apart from others?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Brandstory graphic design company differentiates itself from others through a series of distinct features. Our team adopts a client-centric approach, prioritizing your unique needs, objectives, and vision to develop designs that truly resonate with your identity and convey your message effectively. <br>
-Throughout the design process, we emphasize your satisfaction, working collaboratively, and valuing your input. The team has highly skilled and experienced designers who possess extensive knowledge of the latest design trends, tools, and technologies. 
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ's</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        What sets your graphic design company apart from others?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Brandstory graphic design company differentiates itself from others through a series of distinct features. Our team adopts a client-centric approach, prioritizing your unique needs, objectives, and vision to develop designs that truly resonate with your identity and convey your message effectively. <br>
+                        Throughout the design process, we emphasize your satisfaction, working collaboratively, and valuing your input. The team has highly skilled and experienced designers who possess extensive knowledge of the latest design trends, tools, and technologies.
 
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-What software tools are commonly used in graphic design? 
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The following are the tools used by our team for the graphic design process: 
-<ul>
-    <li>Adobe Photoshop</li>
-    <li>Adobe InDesign</li>
-    <li>Canva</li>
-    <li>Figma</li>
-    <li>Coreldraw</li>
-</ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        What software tools are commonly used in graphic design?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The following are the tools used by our team for the graphic design process:
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe InDesign</li>
+                            <li>Canva</li>
+                            <li>Figma</li>
+                            <li>Coreldraw</li>
+                        </ul>
 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-How much does it cost to hire a graphic designer?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The cost of hiring a graphic designer varies from company to company.  Moreover, it also depends on the complexity of the project you are entrusted with.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-How long does it usually take to complete a graphic design project? 
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-For a simple project,  it could take up to 4-5 days to complete. But for a web development project, the time could be 5- 8 days.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-Can graphic designers help with branding and logo design?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Yes, at Brandstory, the designers help in the branding and logo design process. We curate logos that are aligned with the core values. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
-How quickly can you deliver graphic design projects?
-</button>
-</h2>
-<div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-It depends upon the project one has to take. Smaller projects can take less time as compared to bigger ones.
-</div>
-</div>
-</div><!--Accordion item end-->
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        How much does it cost to hire a graphic designer?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The cost of hiring a graphic designer varies from company to company. Moreover, it also depends on the complexity of the project you are entrusted with.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        How long does it usually take to complete a graphic design project?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        For a simple project, it could take up to 4-5 days to complete. But for a web development project, the time could be 5- 8 days.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        Can graphic designers help with branding and logo design?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Yes, at Brandstory, the designers help in the branding and logo design process. We curate logos that are aligned with the core values.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
+                        How quickly can you deliver graphic design projects?
+                    </button>
+                </h2>
+                <div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        It depends upon the project one has to take. Smaller projects can take less time as compared to bigger ones.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

@@ -687,7 +687,7 @@ class FrontendController extends Controller
         ];
         return $this->view('others-pages/email-marketing-company-in-abu-dhabi', ['meta' => $meta]);
     }
-public function emailmarketingcompanyinajman()
+    public function emailmarketingcompanyinajman()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -695,7 +695,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-ajman', ['meta' => $meta]);
-    }public function emailmarketingcompanyinalquwain()
+    }
+    public function emailmarketingcompanyinalquwain()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -703,7 +704,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-al-quwain', ['meta' => $meta]);
-         }public function emailmarketingcompanyinfujairah()
+    }
+    public function emailmarketingcompanyinfujairah()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -711,7 +713,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-fujairah', ['meta' => $meta]);
-         }public function emailmarketingcompanyinrasalkhaimah()
+    }
+    public function emailmarketingcompanyinrasalkhaimah()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -719,7 +722,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-ras-al-khaimah', ['meta' => $meta]);
-        }public function emailmarketingcompanyinsharjah()
+    }
+    public function emailmarketingcompanyinsharjah()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -727,7 +731,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-sharjah', ['meta' => $meta]);
-        }public function emailmarketingcompanyinummalquwain()
+    }
+    public function emailmarketingcompanyinummalquwain()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -735,7 +740,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-umm-al-quwain', ['meta' => $meta]);
-        }public function eventphotographyindubai()
+    }
+    public function eventphotographyindubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -743,7 +749,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/event-photography-in-dubai', ['meta' => $meta]);
-        }public function eventvideoproductioncompanyindubai()
+    }
+    public function eventvideoproductioncompanyindubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -751,7 +758,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/event-video-production-company-in-dubai', ['meta' => $meta]);
-        }public function googlepenaltyrecoveryservicesindubai()
+    }
+    public function googlepenaltyrecoveryservicesindubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -759,7 +767,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/google-penalty-recovery-services-in-dubai', ['meta' => $meta]);
-        }public function graphicdesigncompanyinabudhabi()
+    }
+    public function graphicdesigncompanyinabudhabi()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -767,7 +776,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/graphic-design-company-in-abu-dhabi', ['meta' => $meta]);
-        }public function instagramadvertisingagencyindubai()
+    }
+    public function instagramadvertisingagencyindubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -775,7 +785,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/instagram-advertising-agency-in-dubai', ['meta' => $meta]);
-        }public function mobileappdevelopmentcompanyinabudhabi()
+    }
+    public function mobileappdevelopmentcompanyinabudhabi()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -783,7 +794,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-development-company-in-abu-dhabi', ['meta' => $meta]);
-        }public function mobileappdevelopmentindubai()
+    }
+    public function mobileappdevelopmentindubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -791,7 +803,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-development-in-dubai', ['meta' => $meta]);
-        }public function mobileappmarketingdubai()
+    }
+    public function mobileappmarketingdubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -799,8 +812,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-marketing-dubai', ['meta' => $meta]);
-        
-        }public function performancemarketing()
+    }
+    public function performancemarketing()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -808,7 +821,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
-        }public function ppccompanyinabudhabi()
+    }
+    public function ppccompanyinabudhabi()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -816,7 +830,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ppc-company-in-abu-dhabi', ['meta' => $meta]);
-        }public function pragencydubai()
+    }
+    public function pragencydubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -824,7 +839,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/pr-agency-dubai', ['meta' => $meta]);
-        }public function pragencyinabudhabi()
+    }
+    public function pragencyinabudhabi()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -832,7 +848,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/pr-agency-in-abu-dhabi', ['meta' => $meta]);
-        }public function privacypolicy()
+    }
+    public function privacypolicy()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -840,7 +857,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/privacy-policy', ['meta' => $meta]);
-        }public function quoramarketing()
+    }
+    public function quoramarketing()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -848,7 +866,8 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/quora-marketing', ['meta' => $meta]);
-        }public function retailmarketingagencydubai()
+    }
+    public function retailmarketingagencydubai()
     {
         $meta = [
             'title' => 'Ecommerce Web Development Services - BrandStoryAE',
@@ -856,8 +875,138 @@ public function emailmarketingcompanyinajman()
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/retail-marketing-agency-dubai', ['meta' => $meta]);
+    }
+
+    public function seoagenciesindubai()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agencies-in-dubai', ['meta' => $meta]);
+    }
+
+    public function seoagencyadenyemen()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-aden-yemen', ['meta' => $meta]);
+    }
+
+    public function seoagencyalkhobarsaudiarabia()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-al-khobar-saudi-arabia', ['meta' => $meta]);
+    }
+
+    public function seoagencyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-abu-dhabi', ['meta' => $meta]);
+    }
+    public function seoagencyinajman()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-ajman', ['meta' => $meta]);
+    }
+
+    public function seoagencyinbaghdad()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-baghdad', ['meta' => $meta]);
+    }
+
+    public function seoagencyincairo()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-cairo', ['meta' => $meta]);
+    }
+
+    public function seoagencyinfujairah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-fujairah', ['meta' => $meta]);
+    }
+
+    public function seoagencyinaraskhaimah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-ras-al-khaimah', ['meta' => $meta]);
+    }
+    public function seoagencyinsalalah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-salalah', ['meta' => $meta]);
+    }
+    public function seoagencyinsharjah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-sharjah', ['meta' => $meta]);
+    }
+
+    public function seoagencyinummalquwain()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-in-umm-al-quwain', ['meta' => $meta]);
+    }
+
+    public function seoagencykuwaitcity()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-agency-kuwait-city', ['meta' => $meta]);
+    }
+
+
     //development pages
-    }public function androidAppDevelopmentCompanyDubai()
+    public function androidAppDevelopmentCompanyDubai()
     {
         $meta = [
             'title' => 'Android App Development Company Dubai - BrandStoryAE',
