@@ -82,10 +82,29 @@ Route::get('/digital-marketing-agency-in-ras-al-khaimah', 'FrontendController@di
 Route::get('/digital-marketing-agency-in-sharjah', 'FrontendController@digitalmarketingagencyinsharjah', 'digitalmarketingagencyinsharjah');
 Route::get('/digital-marketing-agency-in-umm-al-quwain', 'FrontendController@digitalmarketingagencyinummalquwain', 'digitalmarketingagencyinummalquwain');
 Route::get('/ecommerce-web-development-services', 'FrontendController@ecommercwebdevelopmentservices', 'ecommercewebdevelopmentservices');
-
-
-
-
+Route::get('/email-marketing-company-in-abu-dhabi', 'FrontendController@emailmarketingcompanyinabudhabi', 'emailmarketingcompanyinabudhabi');
+Route::get('/email-marketing-company-in-ajman', 'FrontendController@emailmarketingcompanyinajman', 'emailmarketingcompanyinajman');
+Route::get('/email-marketing-company-in-al-quwain', 'FrontendController@emailmarketingcompanyinalquwain', 'emailmarketingcompanyinalquwain');
+Route::get('/email-marketing-company-in-fujairah', 'FrontendController@emailmarketingcompanyinfujairah', 'emailmarketingcompanyinfujairah');
+Route::get('/email-marketing-company-in-ras-al-khaimah', 'FrontendController@emailmarketingcompanyinrasalkhaimah', 'emailmarketingcompanyinrasalkhaimah');
+Route::get('/email-marketing-company-in-sharjah', 'FrontendController@emailmarketingcompanyinsharjah', 'emailmarketingcompanyinsharjah');
+Route::get('/email-marketing-company-in-umm-al-quwain', 'FrontendController@emailmarketingcompanyinummalquwain', 'emailmarketingcompanyinummalquwain');
+Route::get('/event-photography-in-dubai', 'FrontendController@eventphotographyindubai', 'eventphotographyindubai');
+Route::get('/event-video-production-company-in-dubai', 'FrontendController@eventvideoproductioncompanyindubai', 'eventvideoproductioncompanyindubai');
+Route::get('/google-penalty-recovery-services-in-dubai', 'FrontendController@googlepenaltyrecoveryservicesindubai', 'googlepenaltyrecoveryservicesindubai');
+Route::get('/graphic-design-company-in-abu-dhabi', 'FrontendController@graphicdesigncompanyinabudhabi', 'graphicdesigncompanyinabudhabi');
+Route::get('/instagram-advertising-agency-in-dubai', 'FrontendController@instagramadvertisingagencyindubai', 'instagramadvertisingagencyindubai');
+Route::get('/mobile-app-development-company-in-abu-dhabi', 'FrontendController@mobileappdevelopmentcompanyinabudhabi', 'mobileappdevelopmentcompanyinabudhabi');
+Route::get('/mobile-app-development-in-dubai', 'FrontendController@mobileappdevelopmentindubai', 'mobileappdevelopmentindubai');
+Route::get('/mobile-app-marketing-dubai', 'FrontendController@mobileappmarketingdubai', 'mobileappmarketingdubai');
+Route::get('/new-about-us', 'FrontendController@newaboutus', 'newaboutus');
+Route::get('/performance-marketing', 'FrontendController@performancemarketing', 'performancemarketing');
+Route::get('/ppc-company-in-abu-dhabi', 'FrontendController@ppccompanyinabudhabi', 'ppccompanyinabudhabi');
+Route::get('/pr-agency-dubai', 'FrontendController@pragencydubai', 'pragencydubai');
+Route::get('/pr-agency-in-abu-dhabi', 'FrontendController@pragencyinabudhabi', 'pragencyinabudhabi');
+Route::get('/privacy-policy', 'FrontendController@privacypolicy', 'privacypolicy');
+Route::get('/quora-marketing', 'FrontendController@quoramarketing', 'quoramarketing');
+Route::get('/retail-marketing-agency-dubai', 'FrontendController@retailmarketingagencydubai', 'retailmarketingagencydubai');
 //development pages
 Route::group(['prefix' => '/development'], function () {
     Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');
