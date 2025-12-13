@@ -118,6 +118,18 @@ Route::get('/seo-agency-in-salalah', 'FrontendController@seoagencyinsalalah', 's
 Route::get('/seo-agency-in-sharjah', 'FrontendController@seoagencyinsharjah', 'seoagencyinsharjah');
 Route::get('/seo-agency-in-umm-al-quwain', 'FrontendController@seoagencyinummalquwain', 'seoagencyinummalquwain');
 Route::get('/seo-agency-kuwait-city', 'FrontendController@seoagencykuwaitcity', 'seoagencykuwaitcity');
+Route::get('/seo-company-in-aden-yemen', 'FrontendController@seocompanyinadenyemen', 'seocompanyinadenyemen');
+Route::get('/seo-company-in-aleppo-syria', 'FrontendController@seocompanyinalepposyria', 'seocompanyinalepposyria');
+Route::get('/seo-company-in-dhahran-ksa', 'FrontendController@seocompanyindhahranksa', 'seocompanyindhahranksa');
+Route::get('/seo-company-in-khor-fakken', 'FrontendController@seocompanyinkhorfakken', 'seocompanyinkhorfakken');
+Route::get('/seo-company-jordan', 'FrontendController@seocompanyjordan', 'seocompanyjordan');
+Route::get('/seo-in-abu-dhabi', 'FrontendController@seoinabudhabi', 'seoinabudhabi');
+Route::get('/seo-in-al-khobar-saudi-arabia', 'FrontendController@seoinalkhobarsaudiarabia', 'seoinalkhobarsaudiarabia');
+Route::get('/seo-in-bahrain', 'FrontendController@seoinbahrain', 'seoinbahrain');
+Route::get('/seo-in-dammam', 'FrontendController@seoindammam', 'seoindammam');
+Route::get('/seo-in-dhahran-ksa', 'FrontendController@seoindhahranksa', 'seoindhahranksa');
+Route::get('/seo-in-hawally-kuwait', 'FrontendController@seoinhawallykuwait', 'seoinhawallykuwait');
+Route::get('/seo-in-jeddah', 'FrontendController@seoinjeddah', 'seoinjeddah');
 //development pages
 Route::group(['prefix' => '/development'], function () {
     Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');
