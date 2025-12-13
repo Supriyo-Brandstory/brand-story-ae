@@ -1120,7 +1120,321 @@ class FrontendController extends Controller
         ];
         return $this->view('others-pages/seo-in-jeddah', ['meta' => $meta]);
     }
-
+    public function seoinjordan()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-jordan', ['meta' => $meta]);
+         }
+         public function seoinkuwait()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-kuwait', ['meta' => $meta]);
+         }
+         public function seoinmeccasaudiarabia()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-mecca-saudi-arabia', ['meta' => $meta]);
+         }
+         public function seoinmedinasaudiarabia()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-medina-saudi-arabia', ['meta' => $meta]);
+         }
+         public function seoinmuscat()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-muscat', ['meta' => $meta]);
+         }
+         public function seoinqatar()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-qatar', ['meta' => $meta]);
+         }
+         public function seoinriyadh()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-riyadh', ['meta' => $meta]);
+         }
+         public function seoinsaudiarabia()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-in-saudi-arabia', ['meta' => $meta]);
+         }
+         public function seopageone()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-page-one', ['meta' => $meta]);
+         }
+         public function seoservicescompanyindubaidevoldd()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-company-in-dubai-dev-oldd', ['meta' => $meta]);
+         }
+         public function seoservicesindhahran()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-in-dhahran', ['meta' => $meta]);
+         }
+         public function seoservicescompanyindubaiNov()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-company-in-dubaiNov25', ['meta' => $meta]);
+         }
+public function seoservicescompanyindubaitest()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-company-in-dubai-test-2', ['meta' => $meta]);
+         }
+         public function seoservicesindubai()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-in-dubai', ['meta' => $meta]);
+         }
+         public function seoservicesinmeccasaudiarabia()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-in-mecca-saudi-arabia', ['meta' => $meta]);
+         }
+         public function seoservicesmanama()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-manama', ['meta' => $meta]);
+         }
+         public function seoservicessalalah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/seo-services-salalah', ['meta' => $meta]);
+         }
+        public function smsmarketingdubai()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/sms-marketing-dubai', ['meta' => $meta]);
+         }
+         public function socialmediamarketingcompanyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/social-media-marketing-company-in-abu-dhabi', ['meta' => $meta]);
+         }
+         public function startwithfullfunnelperformancemarketing()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/start-with-full-funnel-performance-marketing', ['meta' => $meta]);
+         }
+         public function technologycontentwritingcompanyindubai()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/technology-content-writing-company-in-dubai', ['meta' => $meta]);
+         }
+         public function termsandconditions()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/terms-and-conditions', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-abu-dhabi', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinajman()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-ajman', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinalain()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-al-ain', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyindubaiold()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-dubai-old', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinfujairah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-fujairah', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinrasalkhaimah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-ras-al-khaimah', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinsharjah()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-sharjah', ['meta' => $meta]);
+         }
+         public function uiuxdesigncompanyinummalquwain()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ui-ux-design-company-in-umm-al-quwain', ['meta' => $meta]);
+         }
+         public function websitedesigncompanyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/website-design-company-in-abu-dhabi', ['meta' => $meta]);
+         }
+         public function websitedesigncompanyindubaiNov()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/website-design-company-in-dubai-Nov25', ['meta' => $meta]);
+         }
+         public function websitedevelopmentcompanyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/website-development-company-in-abu-dhabi', ['meta' => $meta]);
+         }
+         public function websitemaintenancecompanyinabudhabi()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/website-maintenance-company-in-abu-dhabi', ['meta' => $meta]);
+         }
+         public function whatsappmarketingindubai()
+    {
+        $meta = [
+            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
+            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/whatsapp-marketing-in-dubai', ['meta' => $meta]);
+         }
     //development pages
     public function androidAppDevelopmentCompanyDubai()
     {
