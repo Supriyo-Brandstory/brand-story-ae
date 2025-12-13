@@ -136,7 +136,7 @@
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-form">
-                    <?php include 'forms/service-form.php' ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
                 </div>
             </div><!--col end-->
         </div><!--Row End-->

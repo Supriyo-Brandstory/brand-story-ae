@@ -21,7 +21,7 @@
         <div class="max-1000 text-center">
             <h2 class="mb-3">Our SEO Process at Brandstory </h2>
         </div>
-        <?php include 'includes/seo-pages-seo-process.php' ?>
+        <?php include __DIR__ .  '/../component/services/seo-pages-seo-process.php' ?>
     </div><!--Container End-->
 </section>
 

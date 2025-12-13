@@ -1,22 +1,22 @@
 <section class="service-banner websitenew-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Best Website Maintenance Company in Abu Dhabi</h1>
-<p class="mb-0">When you choose to operate a business website in this digital, ever-evolving market. You have to maintain your website to make it more visible. Website maintenance services are an ongoing process that can ensure your digital store remains in the digital space. These services help your business webpage to remain up-to-date and functional. To help with these maintenance services, the Brandstory website maintenance company in Abu Dhabi comes to your rescue.</p>
-<p class="mb-0">We provide our complete services to our clients through innovative technology. The team begins by understanding the objectiveness and tailoring your services per your needs.</p>
-<p class="mb-0">Whether it's about trending updates, security problems, or troubleshooting issues, we do it all for you.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Best Website Maintenance Company in Abu Dhabi</h1>
+                    <p class="mb-0">When you choose to operate a business website in this digital, ever-evolving market. You have to maintain your website to make it more visible. Website maintenance services are an ongoing process that can ensure your digital store remains in the digital space. These services help your business webpage to remain up-to-date and functional. To help with these maintenance services, the Brandstory website maintenance company in Abu Dhabi comes to your rescue.</p>
+                    <p class="mb-0">We provide our complete services to our clients through innovative technology. The team begins by understanding the objectiveness and tailoring your services per your needs.</p>
+                    <p class="mb-0">Whether it's about trending updates, security problems, or troubleshooting issues, we do it all for you.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- Website maintenance services start -->
@@ -269,100 +269,100 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">Since using the performance optimization techniques recommended by the Brandstory team, our website has become incredibly fast and responsive. The use of image compression and code minification has significantly reduced loading times, resulting in a smoother user experience. Highly recommended!</p>
-                <p class="mb-0"><b>Tex</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">Since using the performance optimization techniques recommended by the Brandstory team, our website has become incredibly fast and responsive. The use of image compression and code minification has significantly reduced loading times, resulting in a smoother user experience. Highly recommended!</p>
+                    <p class="mb-0"><b>Tex</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">We were facing frequent issues of data loss and website downtime due to various reasons. Thanks to the backup and restore service provided by the Brandstory website maintenance team, we no longer worry about losing critical data or experiencing lengthy periods of website unavailability. Their regular backups and secure storage have saved us countless times, ensuring minimal disruption and data loss.</p>
-                <p class="mb-0"><b>Rema</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">We were facing frequent issues of data loss and website downtime due to various reasons. Thanks to the backup and restore service provided by the Brandstory website maintenance team, we no longer worry about losing critical data or experiencing lengthy periods of website unavailability. Their regular backups and secure storage have saved us countless times, ensuring minimal disruption and data loss.</p>
+                    <p class="mb-0"><b>Rema</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide testimonial-sld">
-            <div class="serv-testi-main">
-                <p class="mb-2">Boosting our website's rankings and visibility was a top priority, and the SEO maintenance services offered by the Brandstory team have been invaluable. Their thorough keyword analysis and content updates have helped improve our search engine rankings significantly.</p>
-                <p class="mb-0"><b>Tina</b></p>
+            <div class="swiper-slide testimonial-sld">
+                <div class="serv-testi-main">
+                    <p class="mb-2">Boosting our website's rankings and visibility was a top priority, and the SEO maintenance services offered by the Brandstory team have been invaluable. Their thorough keyword analysis and content updates have helped improve our search engine rankings significantly.</p>
+                    <p class="mb-0"><b>Tina</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ�s</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-Why is maintenance important for my website?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Regularly updating and maintaining your website is essential for optimal performance. Just like cars, websites need proper maintenance to function at their best. By effectively maintaining your site, you can enhance its security, attract new visitors, boost returning traffic, and more.
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ�s</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        Why is maintenance important for my website?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Regularly updating and maintaining your website is essential for optimal performance. Just like cars, websites need proper maintenance to function at their best. By effectively maintaining your site, you can enhance its security, attract new visitors, boost returning traffic, and more.
 
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-What is the difference between website maintenance and website redesign?
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Website maintenance services involve various ongoing tasks, such as updating content, upgrading software, monitoring security, and optimizing performance. On the other hand, website redesign goes beyond maintenance and aims to completely transform the appearance, structure, and functionality of your website. This process typically involves creating a fresh design, reorganizing content, and even updating the underlying technology.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        What is the difference between website maintenance and website redesign?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Website maintenance services involve various ongoing tasks, such as updating content, upgrading software, monitoring security, and optimizing performance. On the other hand, website redesign goes beyond maintenance and aims to completely transform the appearance, structure, and functionality of your website. This process typically involves creating a fresh design, reorganizing content, and even updating the underlying technology.
 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-How much does website maintenance typically cost?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The cost depends on the website maintenance services you opt for. For example, if you go for only one maintenance service, you may be charged less compared to comprehensive website maintenance services.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-What security measures are involved in website maintenance?
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Website maintenance is crucial for keeping your site safe and secure. It involves a range of security measures designed to protect your website from potential threats. These measures include regularly updating your software to patch vulnerabilities, monitoring for malware or suspicious activity, implementing SSL certificates to encrypt your data, and setting up firewalls to provide an extra layer of protection. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-Do I need maintenance for my e-commerce website?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Maintaining an e-commerce website is not only important but essential. Your website serves as your digital storefront in the highly competitive world of online retail. Consequently, proper upkeep becomes crucial for several reasons. Regular maintenance ensures your website runs smoothly, without any bugs or glitches that may discourage potential customers.
-</div>
-</div>
-</div><!--Accordion item end-->
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        How much does website maintenance typically cost?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The cost depends on the website maintenance services you opt for. For example, if you go for only one maintenance service, you may be charged less compared to comprehensive website maintenance services.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        What security measures are involved in website maintenance?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Website maintenance is crucial for keeping your site safe and secure. It involves a range of security measures designed to protect your website from potential threats. These measures include regularly updating your software to patch vulnerabilities, monitoring for malware or suspicious activity, implementing SSL certificates to encrypt your data, and setting up firewalls to provide an extra layer of protection.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        Do I need maintenance for my e-commerce website?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Maintaining an e-commerce website is not only important but essential. Your website serves as your digital storefront in the highly competitive world of online retail. Consequently, proper upkeep becomes crucial for several reasons. Regular maintenance ensures your website runs smoothly, without any bugs or glitches that may discourage potential customers.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

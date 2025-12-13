@@ -653,7 +653,7 @@
 <section class="sp-50">
   <div class="container"><!--Container Start-->
     <h2 class="text-center">Our Happy Clients</h2>
-    <?php include 'includes/clients.php' ?>
+    <?php include __DIR__ . '/../component/services/clients.php' ?>
   </div><!--Container End-->
 </section>
 
@@ -1520,7 +1520,7 @@
 <section class="latest--blogs sp-50">
   <div class="container"><!--Container Start-->
     <h2>Latest Blogs</h2>
-    <?php include 'includes/latest-blogs.php' ?>
+    <?php include __DIR__ . '/../component/latest-blogs.php' ?>
   </div><!--Container End-->
 </section>
 
@@ -1986,13 +1986,13 @@
 <!-- Include Footer-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function() {
     // Initialize the first form
     var input1 = document.querySelector("#phoneNumber1");
     var iti1 = window.intlTelInput(input1, {
       separateDialCode: true,
       initialCountry: "ae",
-      geoIpLookup: function (success, failure) {
+      geoIpLookup: function(success, failure) {
         fetch("https://ipinfo.io/json")
           .then(response => response.json())
           .then(data => {
@@ -2004,7 +2004,7 @@
     });
 
     // Handle form submission for the first form
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
       event.preventDefault(); // Prevent the default form submission
 
       // Get the full phone number and country dial code for the first form
@@ -2023,7 +2023,7 @@
     var iti2 = window.intlTelInput(input2, {
       separateDialCode: true,
       initialCountry: "auto",
-      geoIpLookup: function (success, failure) {
+      geoIpLookup: function(success, failure) {
         fetch("https://ipinfo.io/json")
           .then(response => response.json())
           .then(data => {
@@ -2035,7 +2035,7 @@
     });
 
     // Handle form submission for the second form
-    document.getElementById("mobileForm2").addEventListener("submit", function (event) {
+    document.getElementById("mobileForm2").addEventListener("submit", function(event) {
       event.preventDefault(); // Prevent the default form submission
 
       // Get the full phone number and country dial code for the second form

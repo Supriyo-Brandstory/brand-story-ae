@@ -139,10 +139,7 @@ Route::get('/seo-in-qatar', 'FrontendController@seoinqatar', 'seoinqatar');
 Route::get('/seo-in-riyadh', 'FrontendController@seoinriyadh', 'seoinriyadh');
 Route::get('/seo-in-saudi-arabia', 'FrontendController@seoinsaudiarabia', 'seoinsaudiarabia');
 Route::get('/seo-page-one', 'FrontendController@seopageone', 'seopageone');
-Route::get('/seo-services-company-in-dubai-dev-oldd', 'FrontendController@seoservicescompanyindubaidevoldd', 'seoservicescompanyindubaidevoldd');
 Route::get('/seo-services-in-dhahran', 'FrontendController@seoservicesindhahran', 'seoservicesindhahran');
-Route::get('/seo-services-company-in-dubaiNov25', 'FrontendController@seoservicescompanyindubaiNov', 'seoservicescompanyindubaiNov');
-Route::get('/seo-services-company-in-dubai-test-2', 'FrontendController@seoservicescompanyindubaitest', 'seoservicescompanyindubaitest');
 Route::get('/seo-services-in-dubai', 'FrontendController@seoservicesindubai', 'seoservicesindubai');
 Route::get('/seo-services-in-mecca-saudi-arabia', 'FrontendController@seoservicesinmeccasaudiarabia', 'seoservicesinmeccasaudiarabia');
 Route::get('/seo-services-manama', 'FrontendController@seoservicesmanama', 'seoservicesmanama');
@@ -155,16 +152,16 @@ Route::get('/terms-and-conditions', 'FrontendController@termsandconditions', 'te
 Route::get('/ui-ux-design-company-in-abu-dhabi', 'FrontendController@uiuxdesigncompanyinabudhabi', 'uiuxdesigncompanyinabudhabi');
 Route::get('/ui-ux-design-company-in-ajman', 'FrontendController@uiuxdesigncompanyinajman', 'uiuxdesigncompanyinajman');
 Route::get('/ui-ux-design-company-in-al-ain', 'FrontendController@uiuxdesigncompanyinalain', 'uiuxdesigncompanyinalain');
-Route::get('/ui-ux-design-company-in-dubai-old', 'FrontendController@uiuxdesigncompanyindubaiold', 'uiuxdesigncompanyindubaiold');
 Route::get('/ui-ux-design-company-in-fujairah', 'FrontendController@uiuxdesigncompanyinfujairah', 'uiuxdesigncompanyinfujairah');
 Route::get('/ui-ux-design-company-in-ras-al-khaimah', 'FrontendController@uiuxdesigncompanyinrasalkhaimah', 'uiuxdesigncompanyinrasalkhaimah');
 Route::get('/ui-ux-design-company-in-sharjah', 'FrontendController@uiuxdesigncompanyinsharjah', 'uiuxdesigncompanyinsharjah');
 Route::get('/ui-ux-design-company-in-umm-al-quwain', 'FrontendController@uiuxdesigncompanyinummalquwain', 'uiuxdesigncompanyinummalquwain');
 Route::get('/website-design-company-in-abu-dhabi', 'FrontendController@websitedesigncompanyinabudhabi', 'websitedesigncompanyinabudhabi');
-Route::get('/website-design-company-in-dubai-Nov25', 'FrontendController@websitedesigncompanyindubaiNov', 'websitedesigncompanyindubaiNov');
 Route::get('/website-development-company-in-abu-dhabi', 'FrontendController@websitedevelopmentcompanyinabudhabi', 'websitedevelopmentcompanyinabudhabi');
 Route::get('/website-maintenance-company-in-abu-dhabi', 'FrontendController@websitemaintenancecompanyinabudhabi', 'websitemaintenancecompanyinabudhabi');
 Route::get('/whatsapp-marketing-in-dubai', 'FrontendController@whatsappmarketingindubai', 'whatsappmarketingindubai');
+Route::get('/search-engine-optimization', 'FrontendController@searchEngineOptimization', 'searchengineoptimization');
+Route::get('/ecommerce-website-development-company-in-abu-dhabi', 'FrontendController@ecommercewebsitedevelopmentcompanyinabudhabi', 'ecommercewebsitedevelopmentcompanyinabudhabi');
 //development pages
 Route::group(['prefix' => '/development'], function () {
     Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');
@@ -217,5 +214,13 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/blogs/{id}/edit', 'Admin\AdminBlogController@edit', 'admin.blogs_admin.edit');
         Route::post('/blogs/{id}', 'Admin\AdminBlogController@update', 'admin.blogs_admin.update');
         Route::post('/blogs/{id}/delete', 'Admin\AdminBlogController@destroy', 'admin.blogs_admin.destroy');
+
+        // SEO Management
+        Route::get('/seo', 'Admin\AdminSeoController@index', 'admin.seo.index');
+        Route::get('/seo/create', 'Admin\AdminSeoController@create', 'admin.seo.create');
+        Route::post('/seo', 'Admin\AdminSeoController@store', 'admin.seo.store');
+        Route::get('/seo/{id}/edit', 'Admin\AdminSeoController@edit', 'admin.seo.edit');
+        Route::post('/seo/{id}', 'Admin\AdminSeoController@update', 'admin.seo.update');
+        Route::post('/seo/{id}/delete', 'Admin\AdminSeoController@destroy', 'admin.seo.destroy');
     });
 });

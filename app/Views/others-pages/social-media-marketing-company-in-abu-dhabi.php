@@ -1,34 +1,34 @@
 <section class="service-banner smm-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Social Media Marketing Company in Abu Dhabi</h1>
-<p class="mb-0">In the Abu Dhabi city, a digital revolution is going on with the help of top special media agencies. These social entities are playing the role of an innovative force in carving out the success of various online marketing campaigns. BrandStory, a social media marketing company in Abu Dhabi, with its extensive understanding of the changing landscape of digital media, can transform your simple online campaigns into innovative ones.</p>
-<p>From curating attractive content to going around social media advertising and making good data-driven decisions and analytics, we do it all for our clients. We ensure that your businesses can thrive in the ever-evolving digital realm.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Social Media Marketing Company in Abu Dhabi</h1>
+                    <p class="mb-0">In the Abu Dhabi city, a digital revolution is going on with the help of top special media agencies. These social entities are playing the role of an innovative force in carving out the success of various online marketing campaigns. BrandStory, a social media marketing company in Abu Dhabi, with its extensive understanding of the changing landscape of digital media, can transform your simple online campaigns into innovative ones.</p>
+                    <p>From curating attractive content to going around social media advertising and making good data-driven decisions and analytics, we do it all for our clients. We ensure that your businesses can thrive in the ever-evolving digital realm.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- What is Social Media Marketing? start -->
 <section class="sp-50 smm-bg">
     <div class="container max-760">
         <div class="text-center">
-        <div class="mb-3">
-            <img class="img-fluid" src="/assets/images/smm/smm.png">
-        </div>
-        <h2>What is Social Media Marketing?</h2>
-        <p class="mb-0">It is known as an effective digital marketing strategy that takes the help of social media platforms, like Instagram, Facebook, etc., to promote your businesses, products, and services. With the help of social media marketing strategies, you can easily target your audience.</p>
-        <p class="mb-0">The main objective of social media marketing (SMM) is to enhance brand visibility and awareness to foster good relationships with customers.</p>
-        <p class="mb-0">The BrandStory social media agency Abu Dhabi team specializes in offering an exceptional range of services. You just have to tell the primary goals of your businesses, and our team will make it happen.</p>
+            <div class="mb-3">
+                <img class="img-fluid" src="/assets/images/smm/smm.png">
+            </div>
+            <h2>What is Social Media Marketing?</h2>
+            <p class="mb-0">It is known as an effective digital marketing strategy that takes the help of social media platforms, like Instagram, Facebook, etc., to promote your businesses, products, and services. With the help of social media marketing strategies, you can easily target your audience.</p>
+            <p class="mb-0">The main objective of social media marketing (SMM) is to enhance brand visibility and awareness to foster good relationships with customers.</p>
+            <p class="mb-0">The BrandStory social media agency Abu Dhabi team specializes in offering an exceptional range of services. You just have to tell the primary goals of your businesses, and our team will make it happen.</p>
         </div>
     </div>
 </section>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-6 align-self-center p-lg-0">
                 <p class="mb-0">It is an essential part of media marketing, where BrandStory marketing professionals create complete plans. The strategy leverages social media platforms' power to achieve greater goals.</p>
-                <p class="mb-0">The best social media company in Abu Dhabi, like BrandStory, carves out campaigns carefully, including target audiences and suitable social media channels for reaching the right target audience. A well-curated social media strategy can do wonders in the digital arena. It includes engagement guidelines, crisis response, and community management. It further enhances the visibility of the brand and drives engagement.  Further, it also increases the conversion rate.</p>
+                <p class="mb-0">The best social media company in Abu Dhabi, like BrandStory, carves out campaigns carefully, including target audiences and suitable social media channels for reaching the right target audience. A well-curated social media strategy can do wonders in the digital arena. It includes engagement guidelines, crisis response, and community management. It further enhances the visibility of the brand and drives engagement. Further, it also increases the conversion rate.</p>
             </div>
         </div>
         <!-- Row END -->
@@ -85,7 +85,7 @@
                 <h3 class="mb-lg-0 mb-3 ps-lg-5">Content Creation and Management</h3>
             </div>
             <div class="col-md-6 align-self-center p-lg-0">
-                <p class="mb-0">The brandStory team creates appealing content per the client's needs and requirements. Our team makes up the right marketing content, like blog posts, infographics, articles, videos, and social media posts, to give out to the audience. The team curates the premium quality content and distributes it throughout the social media platforms. Further,  the Brandstory team also manages the whole content strategy to make it more streamlined across the platforms.</p>
+                <p class="mb-0">The brandStory team creates appealing content per the client's needs and requirements. Our team makes up the right marketing content, like blog posts, infographics, articles, videos, and social media posts, to give out to the audience. The team curates the premium quality content and distributes it throughout the social media platforms. Further, the Brandstory team also manages the whole content strategy to make it more streamlined across the platforms.</p>
             </div>
         </div>
         <!-- Row END -->
@@ -100,7 +100,7 @@
                 <h3 class="mb-lg-0 mb-3 ps-lg-5">Social Media Advertising</h3>
             </div>
             <div class="col-md-6 align-self-center p-lg-0">
-                <p class="mb-0">Social media advertising is a dynamic digital marketing tool that enables brands and businesses to promote their services, products, and content.  This can be paid campaigns that are repurposed across social media platforms. Social media advertising allows clients to access rich user data and prompt targeting options. Our team at Brandstory creates compelling and attractive content to generate more leads. The forms of advertising include display ads, sponsored posts, video ads, and more. This increases brand visibility and awareness and boosts conversions. </p> 
+                <p class="mb-0">Social media advertising is a dynamic digital marketing tool that enables brands and businesses to promote their services, products, and content. This can be paid campaigns that are repurposed across social media platforms. Social media advertising allows clients to access rich user data and prompt targeting options. Our team at Brandstory creates compelling and attractive content to generate more leads. The forms of advertising include display ads, sponsored posts, video ads, and more. This increases brand visibility and awareness and boosts conversions. </p>
             </div>
         </div>
         <!-- Row END -->
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">Our social media agency is well-known for its expertise and result-driven approach to dynamic marketing.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-5 pb-4">
@@ -183,7 +183,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">Our expert team consists of social media experts, content creators, and data analysts who work tirelessly to create the best specific brand strategies.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="pb-lg-5 pb-4">
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">We have a remarkable record of assisting businesses across different industries.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-0 pb-4">
@@ -209,7 +209,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">We curate unique and custom-built strategies to align with your brand’s persona and target audience.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 white-rborder">
                 <div class="pb-lg-0 pb-md-0 pb-4">
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">Our team offers comprehensive services, including content creation, management, social media campaigns, paid advertising, etc., ensuring that your brand is made completely visible on online platforms.</p>
-                </div>    
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 ">
                 <div class="pb-0">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <p class="mb-0 text-white">Our marketing team devises well-rooted strategies in data and analytics. We consistently monitor and optimize campaigns to deliver the best results</p>
-                </div>    
+                </div>
             </div>
         </div>
     </div>
@@ -264,7 +264,7 @@
         </div>
         <div class="row mb-lg-0 mb-4 smm-line2-row">
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon2.svg">
                 </div>
             </div>
@@ -284,7 +284,7 @@
                 <p class="mb-0">At Abu Dhabi, social media agencies, like Brandstory, take time to select the relevant social media platform for brand representation. The main goal of platform selection is to ensure that our clients invest resources where their audience is most active. This approach increases the impact of marketing efforts, drives good outcomes, and maximizes consumer engagement. Whether it is lead generation, sales conversion, or brand awareness, the social media platform selection step helps in all. We make sure that your company’s representation is done most effectively.</p>
             </div>
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon3.svg">
                 </div>
             </div>
@@ -296,7 +296,7 @@
         </div>
         <div class="row mb-lg-0 mb-4 smm-line4-row">
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon4.svg">
                 </div>
             </div>
@@ -317,7 +317,7 @@
                 <p class="mb-0">Content strategy curation involves deciding what type of content to produce, the target audience, and distribution channels, which will set up the overall messaging and tone for your business/brand.</p>
             </div>
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon5.svg">
                 </div>
             </div>
@@ -329,7 +329,7 @@
         </div>
         <div class="row mb-lg-0 mb-4 smm-line6-row">
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon6.svg">
                 </div>
             </div>
@@ -350,12 +350,12 @@
                 <p class="mb-0">This approach empowers our team to refine our current and digital content strategies, leading to improved user experiences and increased effectiveness in achieving marketing objectives.</p>
             </div>
             <div class="col-md-2 align-self-center">
-            <div class="mb-lg-0 mb-2">
+                <div class="mb-lg-0 mb-2">
                     <img class="img-fluid" src="/assets/images/smm/process-icon7.svg">
                 </div>
             </div>
         </div>
-        
+
     </div>
 </section>
 <!-- Our Process end -->
@@ -407,109 +407,109 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“Last year, we needed a team for effective content curation for our growing brand.  Someone from the company suggested BrandStory Solutions. We contacted them, and they readily accepted our project. They first understood our needs and requirements for content development and then did their research. Afterward, the proposal deck was shown to us, and we loved it. When the campaign went to the online platforms, it fetched us good ROI and helped our brand awareness. We loved working with them.”</p>
-                <p class="mb-0"><b>Rakesh and Team</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“Last year, we needed a team for effective content curation for our growing brand. Someone from the company suggested BrandStory Solutions. We contacted them, and they readily accepted our project. They first understood our needs and requirements for content development and then did their research. Afterward, the proposal deck was shown to us, and we loved it. When the campaign went to the online platforms, it fetched us good ROI and helped our brand awareness. We loved working with them.”</p>
+                    <p class="mb-0"><b>Rakesh and Team</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“Working with BrandStory was smooth and good. They understand our unique demands and deliver the best and most effective brand solutions. The team ensured that every marketing campaign component was aligned with our brand personas. This contributes to the overall boosting of our services on various online platforms. Collaborating with BrandStory is one of the best things that has happened to us in our marketing journey.”</p>
-                <p class="mb-0"><b>Tisca & Associates</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“Working with BrandStory was smooth and good. They understand our unique demands and deliver the best and most effective brand solutions. The team ensured that every marketing campaign component was aligned with our brand personas. This contributes to the overall boosting of our services on various online platforms. Collaborating with BrandStory is one of the best things that has happened to us in our marketing journey.”</p>
+                    <p class="mb-0"><b>Tisca & Associates</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“We hired Brandstory for our startup business, which we started last year, and they did a fabulous job of creating some of the best marketing strategies for us. As my company was new, I needed awareness of all online platforms. Brandstory developed effective strategies for social media, which fetched us with good conversions for our services. I would recommend BrandStory Solutions for various aspects of marketing measures.”</p>
-                <p class="mb-0"><b>Rameshi Builders</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“We hired Brandstory for our startup business, which we started last year, and they did a fabulous job of creating some of the best marketing strategies for us. As my company was new, I needed awareness of all online platforms. Brandstory developed effective strategies for social media, which fetched us with good conversions for our services. I would recommend BrandStory Solutions for various aspects of marketing measures.”</p>
+                    <p class="mb-0"><b>Rameshi Builders</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-What sets your social media marketing agency apart from others in Abu Dhabi?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-At Brandstory, one of the best social management companies in Abu Dhabi, we are equipped with expert members adept in their fields. With a track record of delivering extensive results to our clients, we are fostering good relationships. We help our clients get through everything from creativity to strategizing ad campaigns. Moreover, we also help with other aspects of the marketing domain, like content management and distribution, boosting social media posts, etc.
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-What types of content do you create for social media marketing?
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-We curate every type of content for social media marketing. This includes quizzes, polls, video posts, infographics, contests, etc. Brandstory team helps you get the best results with their creative approach and technical expertise. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-What social media platforms do you specialize in for marketing campaigns?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-We specialize in various media platforms, like Facebook, Instagram, YouTube, etc.  Our marketing team develops the aligned posts for these platforms. We help your business become more visible in the online community.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-How can I improve my brand's visibility and engagement on digital platforms?
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Improving your brand’s visibility and engagement requires strategic planning. Here are some ways in which BrandStory can help you:
-<ul>
-<li>Designing all types of company design elements</li>
-<li>Strategizing the effective and impactful content</li>
-<li>Development of high-end social media posts</li>
-<li>SEO - optimization on both on and off-page</li>
-<li>Effective  influencer marketing</li>
-</ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-What strategies do you use to connect with the target audience?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The brandstory team follows the following steps to connect with the target audience:
-<ul>
-    <li>Creation of useful and relevant content</li>
-    <li>Leveraging of influencer marketing techniques</li>
-    <li>Usage of targeting advertising</li>
-</ul>
-</div>
-</div>
-</div><!--Accordion item end-->
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        What sets your social media marketing agency apart from others in Abu Dhabi?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        At Brandstory, one of the best social management companies in Abu Dhabi, we are equipped with expert members adept in their fields. With a track record of delivering extensive results to our clients, we are fostering good relationships. We help our clients get through everything from creativity to strategizing ad campaigns. Moreover, we also help with other aspects of the marketing domain, like content management and distribution, boosting social media posts, etc.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        What types of content do you create for social media marketing?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        We curate every type of content for social media marketing. This includes quizzes, polls, video posts, infographics, contests, etc. Brandstory team helps you get the best results with their creative approach and technical expertise.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        What social media platforms do you specialize in for marketing campaigns?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        We specialize in various media platforms, like Facebook, Instagram, YouTube, etc. Our marketing team develops the aligned posts for these platforms. We help your business become more visible in the online community.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        How can I improve my brand's visibility and engagement on digital platforms?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Improving your brand’s visibility and engagement requires strategic planning. Here are some ways in which BrandStory can help you:
+                        <ul>
+                            <li>Designing all types of company design elements</li>
+                            <li>Strategizing the effective and impactful content</li>
+                            <li>Development of high-end social media posts</li>
+                            <li>SEO - optimization on both on and off-page</li>
+                            <li>Effective influencer marketing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        What strategies do you use to connect with the target audience?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The brandstory team follows the following steps to connect with the target audience:
+                        <ul>
+                            <li>Creation of useful and relevant content</li>
+                            <li>Leveraging of influencer marketing techniques</li>
+                            <li>Usage of targeting advertising</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

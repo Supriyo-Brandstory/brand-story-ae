@@ -1,20 +1,20 @@
 <section class="website-dev-banner smm-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Custom Website Development Company in Abu Dhabi</h1>
-<p>Welcome to Brandstory website development company in Abu Dhabi, where our team converts your business vision into a real-time optimized website. Our team of expert web developers first understands the client’s needs and then develops it for more growth. At Brandstory, we believe in the capacity of tailor-made web solutions. The team specializes in building personalized websites for different types of business needs. Our dedicated team collaborates with you to create, build, and launch a website that captures your vision.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Custom Website Development Company in Abu Dhabi</h1>
+                    <p>Welcome to Brandstory website development company in Abu Dhabi, where our team converts your business vision into a real-time optimized website. Our team of expert web developers first understands the client’s needs and then develops it for more growth. At Brandstory, we believe in the capacity of tailor-made web solutions. The team specializes in building personalized websites for different types of business needs. Our dedicated team collaborates with you to create, build, and launch a website that captures your vision.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- Why Do We Need Website Development? start -->
@@ -83,7 +83,7 @@
                 <h3 class="mb-lg-0 mb-3 ps-lg-5">E-commerce Solutions</h3>
             </div>
             <div class="col-md-6 align-self-center p-lg-0">
-                <p class="mb-0">Brandstory website development company Abu Dhabi team is specifically designed to equip businesses with the tools they need to flourish in the online marketplace. We specialize in creating customized e-commerce platforms that provide effortless and enjoyable shopping experiences, guaranteeing secure payment processing and ensuring efficient inventory management.</p> 
+                <p class="mb-0">Brandstory website development company Abu Dhabi team is specifically designed to equip businesses with the tools they need to flourish in the online marketplace. We specialize in creating customized e-commerce platforms that provide effortless and enjoyable shopping experiences, guaranteeing secure payment processing and ensuring efficient inventory management.</p>
             </div>
         </div>
         <!-- Row END -->
@@ -171,37 +171,37 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon1.svg">
-                <h3 class="mb-3 text-violet fs-20">Dedicated Team</h3>
-                <p class="mb-0">We produce intuitive and user-friendly interfaces for app development that guarantee effortless navigation. Our developers incorporate clear navigation menus, responsive design, and interactive elements.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon1.svg">
+                    <h3 class="mb-3 text-violet fs-20">Dedicated Team</h3>
+                    <p class="mb-0">We produce intuitive and user-friendly interfaces for app development that guarantee effortless navigation. Our developers incorporate clear navigation menus, responsive design, and interactive elements.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon2.svg">
-                <h3 class="mb-3 text-red fs-20">Proven Results</h3>
-                <p class="mb-0">The applications developed by our team are engineered to operate seamlessly across various platforms. It exemplifies their broad appeal to the specific set of audience. We integrate cross-platform compatibility to create code that can efficiently adapt to different operating systems.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon2.svg">
+                    <h3 class="mb-3 text-red fs-20">Proven Results</h3>
+                    <p class="mb-0">The applications developed by our team are engineered to operate seamlessly across various platforms. It exemplifies their broad appeal to the specific set of audience. We integrate cross-platform compatibility to create code that can efficiently adapt to different operating systems.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon3.svg">
-                <h3 class="mb-3 text-blue fs-20">Quality Assurance</h3>
-                <p class="mb-0">Mobile apps come up with sensitive user data, making strong security features an absolute requirement. It includes implementing encryption, secure authentication, and effective protection against prevalent security threats.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon3.svg">
+                    <h3 class="mb-3 text-blue fs-20">Quality Assurance</h3>
+                    <p class="mb-0">Mobile apps come up with sensitive user data, making strong security features an absolute requirement. It includes implementing encryption, secure authentication, and effective protection against prevalent security threats.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-lg-0 mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon4.svg">
-                <h3 class="mb-3 text-yellow fs-20">Client Satisfaction</h3>
-                <p class="mb-0">Users should have seamless access to specific features and data within the app, even in offline scenarios. This functionality holds significant importance for apps that heavily rely on content or functionality that users may require in areas with limited connectivity.</p>
+                <div class="mb-lg-0 mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon4.svg">
+                    <h3 class="mb-3 text-yellow fs-20">Client Satisfaction</h3>
+                    <p class="mb-0">Users should have seamless access to specific features and data within the app, even in offline scenarios. This functionality holds significant importance for apps that heavily rely on content or functionality that users may require in areas with limited connectivity.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-lg-0 mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon5.svg">
-                <h3 class="mb-3 text-orange fs-20">Timely Delivery</h3>
-                <p class="mb-0">It is crucial to prioritize scalability in developed apps to support growth and effectively accommodate a growing user base. We design applications while keeping scalability in mind.</p>
+                <div class="mb-lg-0 mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/website-development/why-choose-icon5.svg">
+                    <h3 class="mb-3 text-orange fs-20">Timely Delivery</h3>
+                    <p class="mb-0">It is crucial to prioritize scalability in developed apps to support growth and effectively accommodate a growing user base. We design applications while keeping scalability in mind.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 d-lg-flex">
@@ -302,113 +302,113 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“I am extremely pleased with the website developed by Brandstory website development company. Their team understood our requirements perfectly and presented them on the website flawlessly. The result was a highly functional and visually appealing webpage that has greatly boosted our business's ROI.”</p>
-                <p class="mb-0"><b>Caron</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“I am extremely pleased with the website developed by Brandstory website development company. Their team understood our requirements perfectly and presented them on the website flawlessly. The result was a highly functional and visually appealing webpage that has greatly boosted our business's ROI.”</p>
+                    <p class="mb-0"><b>Caron</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“I couldn't be happier with the website development services provided by Brandstory company. They thoroughly understood our requirements and showcased them on the website in a way that exceeded our expectations. The team's commitment to quality assurance ensured that every aspect of the website worked seamlessly.”</p>
-                <p class="mb-0"><b>Hatton</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“I couldn't be happier with the website development services provided by Brandstory company. They thoroughly understood our requirements and showcased them on the website in a way that exceeded our expectations. The team's commitment to quality assurance ensured that every aspect of the website worked seamlessly.”</p>
+                    <p class="mb-0"><b>Hatton</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“What sets BrandStory company apart from others is their engaging approach to website development. They truly listen to your requirements and present them on their website in a way that is easy to understand. I highly recommend their website services to anyone looking for an outstanding website development company.”</p>
-                <p class="mb-0"><b>Terence</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“What sets BrandStory company apart from others is their engaging approach to website development. They truly listen to your requirements and present them on their website in a way that is easy to understand. I highly recommend their website services to anyone looking for an outstanding website development company.”</p>
+                    <p class="mb-0"><b>Terence</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-Why should I hire a website development company?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-A professionally designed website is your virtual storefront, inviting customers to explore what your business has to offer. With an engaging design, you can create a lasting impression, captivate visitors, and keep them coming back for more. A web development company can help you build an impressive website for your business.
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-Why does a business need a website?
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-A website helps people learn about your business and shows potential customers what it looks like. Giving people a sense of who you are and what you stand for helps build your image. Customers can trust the information on your website, which helps your business stand out from others in the same field. 
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-What are the technologies used in web development?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Following are the technologies used in web development:
-<ul>
-<li>NET</li>
-<li>Java</li>
-<li>PHP</li>
-<li>Ruby</li>
-<li>JavaScript Node</li>
-</ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-What steps are involved in the website development process?
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The steps involved in website development are as follows:
-<ul>
-<li>Planning</li>
-<li>Designing</li>
-<li>Development</li>
-<li>Testing</li>
-<li>Optimization</li>
-<li>Post-launch</li>
-</ul>
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-What is the difference between front-end and back-end development?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Front-end development captures the essence of a website, bringing together the captivating visuals and interactive elements that users actively engage with. Conversely, back-end development forms the solid foundation, encompassing the intricate structure, robust systems, valuable data, and intelligent logic that power the entire site. When harmoniously combined, front-end and back-end development seamlessly craft visually stunning and engaging websites that captivate and delight users.
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        Why should I hire a website development company?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        A professionally designed website is your virtual storefront, inviting customers to explore what your business has to offer. With an engaging design, you can create a lasting impression, captivate visitors, and keep them coming back for more. A web development company can help you build an impressive website for your business.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        Why does a business need a website?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        A website helps people learn about your business and shows potential customers what it looks like. Giving people a sense of who you are and what you stand for helps build your image. Customers can trust the information on your website, which helps your business stand out from others in the same field.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        What are the technologies used in web development?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Following are the technologies used in web development:
+                        <ul>
+                            <li>NET</li>
+                            <li>Java</li>
+                            <li>PHP</li>
+                            <li>Ruby</li>
+                            <li>JavaScript Node</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        What steps are involved in the website development process?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The steps involved in website development are as follows:
+                        <ul>
+                            <li>Planning</li>
+                            <li>Designing</li>
+                            <li>Development</li>
+                            <li>Testing</li>
+                            <li>Optimization</li>
+                            <li>Post-launch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        What is the difference between front-end and back-end development?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Front-end development captures the essence of a website, bringing together the captivating visuals and interactive elements that users actively engage with. Conversely, back-end development forms the solid foundation, encompassing the intricate structure, robust systems, valuable data, and intelligent logic that power the entire site. When harmoniously combined, front-end and back-end development seamlessly craft visually stunning and engaging websites that captivate and delight users.
 
-</div>
-</div>
-</div><!--Accordion item end-->
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>

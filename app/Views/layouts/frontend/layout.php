@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+// Fetch Dynamic SEO Data
+$seoData = getSeoForPage();
+if ($seoData) {
+    if (!empty($seoData['meta_title'])) {
+        $meta['title'] = $seoData['meta_title'];
+    }
+    if (!empty($seoData['meta_description'])) {
+        $meta['description'] = $seoData['meta_description'];
+    }
+}
+?>
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?= $meta['title'] ?? 'BrandStoryAE' ?></title>
-    <meta name="description" content="<?= $meta['description'] ?? '' ?>">
-    <link rel="canonical" href="<?php echo $canonical; ?>">
+    <title><?= htmlspecialchars($meta['title'] ?? 'BrandStoryAE') ?></title>
+    <meta name="description" content="<?= htmlspecialchars($meta['description'] ?? '') ?>">
+    <link rel="canonical" href="<?php echo $canonical ?? ''; ?>">
+
+    <?php if (!empty($seoData['other_script_or_tag'])): ?>
+        <!-- Dynamic SEO Scripts/Tags -->
+        <?= $seoData['other_script_or_tag'] ?>
+        <!-- End Dynamic SEO Scripts/Tags -->
+    <?php endif; ?>
 
     <link rel="preconnect" href="https://rec.smartlook.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">

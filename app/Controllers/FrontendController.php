@@ -10,35 +10,30 @@ class FrontendController extends Controller
     public function notfound()
     {
         http_response_code(404);
-        $meta = [
-            'title' => '404 - Page Not Found',
-            'description' => 'The page you are looking for does not exist.'
-        ];
+        $meta = [];
         return $this->view('404', ['meta' => $meta]);
+    }
+    public function thankyou()
+    {
+        $meta = [];
+        return $this->view('thankyou', ['meta' => $meta]);
     }
     public function index()
     {
         $meta = [
-            'title' => 'BrandStoryAE — Home',
-            'description' => 'BrandStoryAE — Creative digital agency.',
             "classname" => 'dm-agency-dubai'
         ];
         return $this->view('home', ['meta' => $meta]);
     }
     public function about()
     {
-        $meta = [
-            'title' => 'About BrandStoryAE',
-            'description' => 'About our creative agency and services.'
-        ];
+        $meta = [];
         return $this->view('about', ['meta' => $meta]);
     }
 
     public function contat()
     {
         $meta = [
-            'title' => 'Contact Us - BrandStoryAE',
-            'description' => 'Contact us for any inquiries.',
             'classname' => 'contact-page'
         ];
         return $this->view('contact', ['meta' => $meta]);
@@ -63,10 +58,7 @@ class FrontendController extends Controller
         $blogs = $blogModel->query($sql, $params);
         $categories = $categoryModel->findAll();
 
-        $meta = [
-            'title' => 'Latest Blogs | Digital Marketing Insights & Trends',
-            'description' => 'Here are the latest tips and tricks of digital marketing techniques learn now'
-        ];
+        $meta = [];
         return $this->view('blogs/index', ['meta' => $meta, 'blogs' => $blogs, 'categories' => $categories]);
     }
     public function blogDetail($slug)
@@ -82,8 +74,6 @@ class FrontendController extends Controller
         $blog = $result[0];
 
         $meta = [
-            'title' => $blog['title'],
-            'description' => substr(strip_tags($blog['description']), 0, 160),
             'classname' => 'new-blogs-single-page'
 
         ];
@@ -93,50 +83,33 @@ class FrontendController extends Controller
 
     public function services()
     {
-        $meta = [
-            'title' => 'Our Services - BrandStoryAE',
-            'description' => 'Discover the services offered by BrandStoryAE.'
-        ];
+        $meta = [];
         return $this->view('services', ['meta' => $meta]);
     }
     // service 
     public function socialMediaMarketingDubai()
     {
-        $meta = [
-            'title' => 'Our Services - BrandStoryAE',
-            'description' => 'Discover the services offered by BrandStoryAE.'
-        ];
+        $meta = [];
         return $this->view('services/social-media-marketing-agency-in-dubai', ['meta' => $meta]);
     }
     public function seoServicesDubai()
     {
-        $meta = [
-            'title' => 'SEO Services Company in Dubai - BrandStoryAE',
-            'description' => 'Explore our SEO services designed to boost your online presence and drive organic traffic.'
-        ];
+        $meta = [];
         return $this->view('services/seo-services-company-in-dubai', ['meta' => $meta]);
     }
     public function brandAgencyDubai()
     {
-        $meta = [
-            'title' => 'Branding Agency in Dubai - BrandStoryAE',
-            'description' => 'Learn about our branding services that help businesses establish a strong and memorable identity.'
-        ];
+        $meta = [];
         return $this->view('services/branding-agency-in-dubai', ['meta' => $meta]);
     }
     public function websiteDesignDubai()
     {
-        $meta = [
-            'title' => 'Website Design Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our website design services that create visually appealing and user-friendly websites.'
-        ];
+        $meta = [];
         return $this->view('services/website-design-company-in-dubai', ['meta' => $meta]);
     }
     public function fullFunnelPerformanceMarketing()
     {
         $meta = [
-            'title' => 'Full Funnel Performance Marketing - BrandStoryAE',
-            'description' => 'Explore our full funnel performance marketing services designed to drive conversions and maximize ROI.',
             'classname' => 'full-funnel-page service-page'
         ];
         return $this->view('services/full-funnel-performance-marketing', ['meta' => $meta]);
@@ -144,8 +117,6 @@ class FrontendController extends Controller
     public function emailMarketingDubai()
     {
         $meta = [
-            'title' => 'Email Marketing Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our email marketing services that help businesses engage with their audience and drive conversions.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('services/email-marketing-company-in-dubai', ['meta' => $meta]);
@@ -154,8 +125,6 @@ class FrontendController extends Controller
     public function payPerClickServicesDubai()
     {
         $meta = [
-            'title' => 'PPC Services in Dubai - BrandStoryAE',
-            'description' => 'Explore our PPC services designed to boost your online visibility and drive targeted traffic to your website.',
             'classname' => 'dm-page service-page ppc'
         ];
         return $this->view('services/pay-per-click-ppc-services-in-dubai', ['meta' => $meta]);
@@ -164,8 +133,6 @@ class FrontendController extends Controller
     public function videoMarketingDubai()
     {
         $meta = [
-            'title' => 'Video Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Explore our video marketing services designed to engage your audience and drive conversions.',
             'classname' => 'dm-page'
         ];
         return $this->view('services/video-marketing-agency-dubai', ['meta' => $meta]);
@@ -173,8 +140,6 @@ class FrontendController extends Controller
     public function facebookMarketingDubai()
     {
         $meta = [
-            'title' => 'Facebook Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Facebook marketing services that help businesses reach and engage their target audience effectively.',
             'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('services/facebook-marketing-agency-in-dubai', ['meta' => $meta]);
@@ -182,8 +147,6 @@ class FrontendController extends Controller
     public function instagramMarketingDubai()
     {
         $meta = [
-            'title' => 'Instagram Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Instagram marketing services that help businesses reach and engage their target audience effectively.',
             'classname' => 'em-dubai-page service-pages'
 
         ];
@@ -192,8 +155,6 @@ class FrontendController extends Controller
     public function twitterMarketingDubai()
     {
         $meta = [
-            'title' => 'Twitter Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Twitter marketing services that help businesses reach and engage their target audience effectively.',
             'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('services/twitter-advertising-dubai', ['meta' => $meta]);
@@ -201,8 +162,6 @@ class FrontendController extends Controller
     public function pinterestMarketingDubai()
     {
         $meta = [
-            'title' => 'Pinterest Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Pinterest marketing services that help businesses reach and engage their target audience effectively.',
             'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('services/pinterest-advertising-services-in-dubai', ['meta' => $meta]);
@@ -210,8 +169,6 @@ class FrontendController extends Controller
     public function tiktokMarketingDubai()
     {
         $meta = [
-            'title' => 'TikTok Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our TikTok marketing services that help businesses reach and engage their target audience effectively.',
             'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('services/tiktok-marketing-agency-in-dubai', ['meta' => $meta]);
@@ -219,8 +176,6 @@ class FrontendController extends Controller
     public function seoAuditServicesInDubai()
     {
         $meta = [
-            'title' => 'SEO Audit Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our SEO Audit services designed to boost your online presence and drive organic traffic.',
             'classname' => 'redes-page service-page'
         ];
         return $this->view('services/seo-audit-services-in-dubai', ['meta' => $meta]);
@@ -228,8 +183,6 @@ class FrontendController extends Controller
     public function onlineReputationManagementServicesInDubai()
     {
         $meta = [
-            'title' => 'Online Reputation Management Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Online Reputation Management services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('services/online-reputation-management-services-in-dubai', ['meta' => $meta]);
@@ -237,8 +190,6 @@ class FrontendController extends Controller
     public function contentMarketingAgencyDubai()
     {
         $meta = [
-            'title' => 'Content Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Content Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('services/content-marketing-agency-in-dubai', ['meta' => $meta]);
@@ -246,8 +197,6 @@ class FrontendController extends Controller
     public function uiuxDesignCompanyInDubai()
     {
         $meta = [
-            'title' => 'Best UI/UX Design Agency in Dubai | UI UX Design Company in Dubai | Leading UI UX Companies in Dubai | Top UX Agency Dubai | UX Design Companies in Dubai | Brandstory',
-            'description' => 'BrandStory UAE is a leading UI/UX design agency in Dubai, crafting innovative, user-centric digital solutions to elevate your brand. Get in touch for top-notch UI/UX designs that drive results!',
             'classname' => 'ui-ux-new-test'
         ];
         return $this->view('services/ui-ux-design-company-in-dubai', ['meta' => $meta]);
@@ -255,8 +204,6 @@ class FrontendController extends Controller
     public function logoDesigningDubai()
     {
         $meta = [
-            'title' => 'Logo Designing Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Logo Designing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/logo-designing-company-in-dubai', ['meta' => $meta]);
@@ -264,8 +211,6 @@ class FrontendController extends Controller
     public function creativeAdvertisingAgencyDubai()
     {
         $meta = [
-            'title' => 'Creative Advertising Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Creative Advertising services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/creative-advertising-agency-in-dubai', ['meta' => $meta]);
@@ -274,8 +219,6 @@ class FrontendController extends Controller
     public function wordpressDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'WordPress Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our WordPress Development services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/wordpress-development-company-in-dubai', ['meta' => $meta]);
@@ -283,8 +226,6 @@ class FrontendController extends Controller
     public function megentoWebsiteDevelopmentDubai()
     {
         $meta = [
-            'title' => 'Megento Website Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Megento Website Development services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/magento-website-development-dubai', ['meta' => $meta]);
@@ -292,8 +233,6 @@ class FrontendController extends Controller
     public function durpalWebsiteDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'Durpal Website Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Durpal Website Development services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/drupal-website-development-company-in-dubai', ['meta' => $meta]);
@@ -301,8 +240,6 @@ class FrontendController extends Controller
     public function ecommerceDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'Ecommerce Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Development services designed to boost your online presence and drive organic traffic.',
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
@@ -314,8 +251,6 @@ class FrontendController extends Controller
     public function realEstateMerketingServices()
     {
         $meta = [
-            'title' => 'Real Estate Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Real Estate Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/real-estate-marketing-services', ['meta' => $meta]);
@@ -323,8 +258,6 @@ class FrontendController extends Controller
     public function ecommerceMarketingServices()
     {
         $meta = [
-            'title' => 'Ecommerce Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/e-commerce-marketing-service', ['meta' => $meta]);
@@ -332,8 +265,6 @@ class FrontendController extends Controller
     public function healthcareMarketingServices()
     {
         $meta = [
-            'title' => 'Healthcare Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Healthcare Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/healthcare-marketing-services', ['meta' => $meta]);
@@ -341,8 +272,6 @@ class FrontendController extends Controller
     public function educationMarketingServices()
     {
         $meta = [
-            'title' => 'Education Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Education Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/education-marketing-services', ['meta' => $meta]);
@@ -350,8 +279,6 @@ class FrontendController extends Controller
     public function b2bCorporateMarketingServices()
     {
         $meta = [
-            'title' => 'B2B Corporate Marketing Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our B2B Corporate Marketing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/b2b-corporate-marketing-services', ['meta' => $meta]);
@@ -359,8 +286,6 @@ class FrontendController extends Controller
     public function travelAgencyMarketingServices()
     {
         $meta = [
-            'title' => 'Travel Agency Management Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Travel Agency Management services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('industries/travel-agency-marketing-services', ['meta' => $meta]);
@@ -373,19 +298,23 @@ class FrontendController extends Controller
     public function casestudies()
     {
         $meta = [
-            'title' => 'Latest Case Studies | Digital Marketing Company in Dubai',
-            'description' => 'Latest Case Studies | Digital Marketing Company in Dubai',
             'classname' => 'main-cs-pg'
         ];
         return $this->view('case-study/index', ['meta' => $meta]);
     }
 
     // others pages
+
+    public function searchEngineOptimization()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/search-engine-optimization', ['meta' => $meta]);
+    }
     public function b2bCompanyInDubai()
     {
         $meta = [
-            'title' => 'B2B Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our B2B Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/b2b-company-in-dubai', ['meta' => $meta]);
@@ -393,8 +322,6 @@ class FrontendController extends Controller
     public function contentWritingCompanyInDubai()
     {
         $meta = [
-            'title' => 'Content Writing Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Content Writing services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/content-writing-company-in-dubai', ['meta' => $meta]);
@@ -403,8 +330,6 @@ class FrontendController extends Controller
     public function corporateEventManagementCompanyInDubai()
     {
         $meta = [
-            'title' => 'Corporate Event Management Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Corporate Event Management services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-event-management-company-in-dubai', ['meta' => $meta]);
@@ -412,8 +337,6 @@ class FrontendController extends Controller
     public function corporateEventPlannersInDubai()
     {
         $meta = [
-            'title' => 'Corporate Event Planners in Dubai - BrandStoryAE',
-            'description' => 'Discover our Corporate Event Planners services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-event-planners-in-dubai', ['meta' => $meta]);
@@ -421,8 +344,6 @@ class FrontendController extends Controller
     public function corporatePhotographersInAlAin()
     {
         $meta = [
-            'title' => 'Corporate Photographers in Al Ain - BrandStoryAE',
-            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photographers-in-al-ain', ['meta' => $meta]);
@@ -430,8 +351,6 @@ class FrontendController extends Controller
     public function corporatePhotographersInFujairah()
     {
         $meta = [
-            'title' => 'Corporate Photographers in Fujairah - BrandStoryAE',
-            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photographers-in-fujairah', ['meta' => $meta]);
@@ -440,8 +359,6 @@ class FrontendController extends Controller
     public function corporatePhotographersInRasAlKhaimah()
     {
         $meta = [
-            'title' => 'Corporate Photographers in Ras Al Khaimah - BrandStoryAE',
-            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photographers-in-ras-al-khaimah', ['meta' => $meta]);
@@ -449,8 +366,6 @@ class FrontendController extends Controller
     public function corporatePhotographersInUmmAlQuwain()
     {
         $meta = [
-            'title' => 'Corporate Photographers in Umm Al Quwain - BrandStoryAE',
-            'description' => 'Discover our Corporate Photographers services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photographers-in-umm-al-quwain', ['meta' => $meta]);
@@ -458,8 +373,6 @@ class FrontendController extends Controller
     public function corporatePhotographyInAbuDhabi()
     {
         $meta = [
-            'title' => 'Corporate Photography in Abu Dhabi - BrandStoryAE',
-            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photography-in-abu-dhabi', ['meta' => $meta]);
@@ -468,8 +381,6 @@ class FrontendController extends Controller
     public function corporatePhotographyInDubai()
     {
         $meta = [
-            'title' => 'Corporate Photography in Dubai - BrandStoryAE',
-            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photography-in-dubai', ['meta' => $meta]);
@@ -477,8 +388,6 @@ class FrontendController extends Controller
     public function corporatePhotographyInSaudiArabia()
     {
         $meta = [
-            'title' => 'Corporate Photography in Saudi Arabia - BrandStoryAE',
-            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photography-in-saudi-arabia', ['meta' => $meta]);
@@ -486,8 +395,6 @@ class FrontendController extends Controller
     public function corporatePhotographyInSharjah()
     {
         $meta = [
-            'title' => 'Corporate Photography in Sharjah - BrandStoryAE',
-            'description' => 'Discover our Corporate Photography services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-photography-in-sharjah', ['meta' => $meta]);
@@ -495,8 +402,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionAgencyInSaudiArabia()
     {
         $meta = [
-            'title' => 'Corporate Video Production Agency in Saudi Arabia - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-agency-in-saudi-arabia', ['meta' => $meta]);
@@ -504,8 +409,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionCompanyInAbuDhabi()
     {
         $meta = [
-            'title' => 'Corporate Video Production Company in Abu Dhabi - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-company-in-abu-dhabi', ['meta' => $meta]);
@@ -513,8 +416,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionCompanyInAlAin()
     {
         $meta = [
-            'title' => 'Corporate Video Production Company in Al Ain - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-company-in-al-ain', ['meta' => $meta]);
@@ -523,8 +424,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionCompanyInFujairah()
     {
         $meta = [
-            'title' => 'Corporate Video Production Company in Fujairah - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-company-in-fujairah', ['meta' => $meta]);
@@ -533,8 +432,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionCompanyInSharjah()
     {
         $meta = [
-            'title' => 'Corporate Video Production Company in Sharjah - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-company-in-sharjah', ['meta' => $meta]);
@@ -542,8 +439,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionCompanyInUmmAlQuwain()
     {
         $meta = [
-            'title' => 'Corporate Video Production Company in Umm Al Quwain - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-company-in-umm-al-quwain', ['meta' => $meta]);
@@ -552,8 +447,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionInAjman()
     {
         $meta = [
-            'title' => 'Corporate Video Production in Ajman - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-in-ajman', ['meta' => $meta]);
@@ -561,8 +454,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionInRasAlKhaimah()
     {
         $meta = [
-            'title' => 'Corporate Video Production in Ras Al Khaimah - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-in-ras-al-khaimah', ['meta' => $meta]);
@@ -570,8 +461,6 @@ class FrontendController extends Controller
     public function corporateVideoProductionServicesInDubai()
     {
         $meta = [
-            'title' => 'Corporate Video Production Services in Dubai - BrandStoryAE',
-            'description' => 'Discover our Corporate Video Production Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/corporate-video-production-services-in-dubai', ['meta' => $meta]);
@@ -579,8 +468,6 @@ class FrontendController extends Controller
     public function creativeAdvertisingAgencyInAbuDhabi()
     {
         $meta = [
-            'title' => 'Creative Advertising Agency in Abu Dhabi - BrandStoryAE',
-            'description' => 'Discover our Creative Advertising Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/creative-advertising-agency-in-abu-dhabi', ['meta' => $meta]);
@@ -589,8 +476,6 @@ class FrontendController extends Controller
     public function cryptocurrencyMarketingAgencyDubai()
     {
         $meta = [
-            'title' => 'Cryptocurrency Marketing Agency Dubai - BrandStoryAE',
-            'description' => 'Discover our Cryptocurrency Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/cryptocurrency-marketing-agency-dubai', ['meta' => $meta]);
@@ -598,8 +483,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinabudhabi()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Abu Dhabi - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-abu-dhabi', ['meta' => $meta]);
@@ -607,8 +490,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinajman()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Ajman - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-ajman', ['meta' => $meta]);
@@ -616,8 +497,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinalain()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Al Ain - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-al-ain', ['meta' => $meta]);
@@ -625,8 +504,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyindubaiuae()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Dubai - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-dubai-uae', ['meta' => $meta]);
@@ -634,8 +511,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinfujairah()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Fujairah - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-fujairah', ['meta' => $meta]);
@@ -643,8 +518,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinarasalkhaimah()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Ras Al Khaimah - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-ras-al-khaimah', ['meta' => $meta]);
@@ -653,8 +526,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinsharjah()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Sharjah - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-sharjah', ['meta' => $meta]);
@@ -662,8 +533,6 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinummalquwain()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in Umm Al Quwain - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Agency services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-umm-al-quwain', ['meta' => $meta]);
@@ -672,8 +541,6 @@ class FrontendController extends Controller
     public function ecommercwebdevelopmentservices()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ecommerce-web-development-services', ['meta' => $meta]);
@@ -681,8 +548,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-abu-dhabi', ['meta' => $meta]);
@@ -690,8 +555,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinajman()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-ajman', ['meta' => $meta]);
@@ -699,8 +562,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinalquwain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-al-quwain', ['meta' => $meta]);
@@ -708,8 +569,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinfujairah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-fujairah', ['meta' => $meta]);
@@ -717,8 +576,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinrasalkhaimah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-ras-al-khaimah', ['meta' => $meta]);
@@ -726,8 +583,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinsharjah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-sharjah', ['meta' => $meta]);
@@ -735,8 +590,6 @@ class FrontendController extends Controller
     public function emailmarketingcompanyinummalquwain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/email-marketing-company-in-umm-al-quwain', ['meta' => $meta]);
@@ -744,8 +597,6 @@ class FrontendController extends Controller
     public function eventphotographyindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/event-photography-in-dubai', ['meta' => $meta]);
@@ -753,8 +604,6 @@ class FrontendController extends Controller
     public function eventvideoproductioncompanyindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/event-video-production-company-in-dubai', ['meta' => $meta]);
@@ -762,8 +611,6 @@ class FrontendController extends Controller
     public function googlepenaltyrecoveryservicesindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/google-penalty-recovery-services-in-dubai', ['meta' => $meta]);
@@ -771,8 +618,6 @@ class FrontendController extends Controller
     public function graphicdesigncompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/graphic-design-company-in-abu-dhabi', ['meta' => $meta]);
@@ -780,8 +625,6 @@ class FrontendController extends Controller
     public function instagramadvertisingagencyindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/instagram-advertising-agency-in-dubai', ['meta' => $meta]);
@@ -789,8 +632,6 @@ class FrontendController extends Controller
     public function mobileappdevelopmentcompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-development-company-in-abu-dhabi', ['meta' => $meta]);
@@ -798,8 +639,6 @@ class FrontendController extends Controller
     public function mobileappdevelopmentindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-development-in-dubai', ['meta' => $meta]);
@@ -807,8 +646,6 @@ class FrontendController extends Controller
     public function mobileappmarketingdubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/mobile-app-marketing-dubai', ['meta' => $meta]);
@@ -816,8 +653,6 @@ class FrontendController extends Controller
     public function performancemarketing()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
@@ -825,8 +660,6 @@ class FrontendController extends Controller
     public function ppccompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ppc-company-in-abu-dhabi', ['meta' => $meta]);
@@ -834,8 +667,6 @@ class FrontendController extends Controller
     public function pragencydubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/pr-agency-dubai', ['meta' => $meta]);
@@ -843,8 +674,6 @@ class FrontendController extends Controller
     public function pragencyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/pr-agency-in-abu-dhabi', ['meta' => $meta]);
@@ -852,8 +681,6 @@ class FrontendController extends Controller
     public function privacypolicy()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/privacy-policy', ['meta' => $meta]);
@@ -861,8 +688,6 @@ class FrontendController extends Controller
     public function quoramarketing()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/quora-marketing', ['meta' => $meta]);
@@ -870,8 +695,6 @@ class FrontendController extends Controller
     public function retailmarketingagencydubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/retail-marketing-agency-dubai', ['meta' => $meta]);
@@ -880,8 +703,6 @@ class FrontendController extends Controller
     public function seoagenciesindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agencies-in-dubai', ['meta' => $meta]);
@@ -890,8 +711,6 @@ class FrontendController extends Controller
     public function seoagencyadenyemen()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-aden-yemen', ['meta' => $meta]);
@@ -900,8 +719,6 @@ class FrontendController extends Controller
     public function seoagencyalkhobarsaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-al-khobar-saudi-arabia', ['meta' => $meta]);
@@ -910,8 +727,6 @@ class FrontendController extends Controller
     public function seoagencyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-abu-dhabi', ['meta' => $meta]);
@@ -919,8 +734,6 @@ class FrontendController extends Controller
     public function seoagencyinajman()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-ajman', ['meta' => $meta]);
@@ -929,8 +742,6 @@ class FrontendController extends Controller
     public function seoagencyinbaghdad()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-baghdad', ['meta' => $meta]);
@@ -939,8 +750,6 @@ class FrontendController extends Controller
     public function seoagencyincairo()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-cairo', ['meta' => $meta]);
@@ -949,8 +758,6 @@ class FrontendController extends Controller
     public function seoagencyinfujairah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-fujairah', ['meta' => $meta]);
@@ -959,8 +766,6 @@ class FrontendController extends Controller
     public function seoagencyinaraskhaimah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-ras-al-khaimah', ['meta' => $meta]);
@@ -968,8 +773,6 @@ class FrontendController extends Controller
     public function seoagencyinsalalah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-salalah', ['meta' => $meta]);
@@ -977,8 +780,6 @@ class FrontendController extends Controller
     public function seoagencyinsharjah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-sharjah', ['meta' => $meta]);
@@ -987,8 +788,6 @@ class FrontendController extends Controller
     public function seoagencyinummalquwain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-in-umm-al-quwain', ['meta' => $meta]);
@@ -997,8 +796,6 @@ class FrontendController extends Controller
     public function seoagencykuwaitcity()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-agency-kuwait-city', ['meta' => $meta]);
@@ -1007,8 +804,6 @@ class FrontendController extends Controller
     public function seocompanyinadenyemen()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-company-in-aden-yemen', ['meta' => $meta]);
@@ -1017,8 +812,6 @@ class FrontendController extends Controller
     public function seocompanyinalepposyria()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-company-in-aleppo-syria', ['meta' => $meta]);
@@ -1027,8 +820,6 @@ class FrontendController extends Controller
     public function seocompanyindhahranksa()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-company-in-dhahran-ksa', ['meta' => $meta]);
@@ -1036,8 +827,6 @@ class FrontendController extends Controller
     public function seocompanyinkhorfakken()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-company-in-khor-fakken', ['meta' => $meta]);
@@ -1046,8 +835,6 @@ class FrontendController extends Controller
     public function seocompanyjordan()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-company-jordan', ['meta' => $meta]);
@@ -1055,8 +842,6 @@ class FrontendController extends Controller
     public function seoinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-abu-dhabi', ['meta' => $meta]);
@@ -1064,8 +849,6 @@ class FrontendController extends Controller
     public function seoinalkhobarsaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-al-khobar-saudi-arabia', ['meta' => $meta]);
@@ -1074,8 +857,6 @@ class FrontendController extends Controller
     public function seoinbahrain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-bahrain', ['meta' => $meta]);
@@ -1084,8 +865,6 @@ class FrontendController extends Controller
     public function seoindammam()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-dammam', ['meta' => $meta]);
@@ -1094,8 +873,6 @@ class FrontendController extends Controller
     public function seoindhahranksa()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-dhahran-ksa', ['meta' => $meta]);
@@ -1105,8 +882,6 @@ class FrontendController extends Controller
     public function seoinhawallykuwait()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-hawally-kuwait', ['meta' => $meta]);
@@ -1114,8 +889,6 @@ class FrontendController extends Controller
     public function seoinjeddah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-jeddah', ['meta' => $meta]);
@@ -1123,324 +896,230 @@ class FrontendController extends Controller
     public function seoinjordan()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-jordan', ['meta' => $meta]);
-         }
-         public function seoinkuwait()
+    }
+    public function seoinkuwait()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-kuwait', ['meta' => $meta]);
-         }
-         public function seoinmeccasaudiarabia()
+    }
+    public function seoinmeccasaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-mecca-saudi-arabia', ['meta' => $meta]);
-         }
-         public function seoinmedinasaudiarabia()
+    }
+    public function seoinmedinasaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-medina-saudi-arabia', ['meta' => $meta]);
-         }
-         public function seoinmuscat()
+    }
+    public function seoinmuscat()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-muscat', ['meta' => $meta]);
-         }
-         public function seoinqatar()
+    }
+    public function seoinqatar()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-qatar', ['meta' => $meta]);
-         }
-         public function seoinriyadh()
+    }
+    public function seoinriyadh()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-riyadh', ['meta' => $meta]);
-         }
-         public function seoinsaudiarabia()
+    }
+    public function seoinsaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-in-saudi-arabia', ['meta' => $meta]);
-         }
-         public function seopageone()
+    }
+    public function seopageone()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-page-one', ['meta' => $meta]);
-         }
-         public function seoservicescompanyindubaidevoldd()
+    }
+
+    public function seoservicesindhahran()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/seo-services-company-in-dubai-dev-oldd', ['meta' => $meta]);
-         }
-         public function seoservicesindhahran()
-    {
-        $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-services-in-dhahran', ['meta' => $meta]);
-         }
-         public function seoservicescompanyindubaiNov()
+    }
+
+
+    public function seoservicesindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/seo-services-company-in-dubaiNov25', ['meta' => $meta]);
-         }
-public function seoservicescompanyindubaitest()
-    {
-        $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/seo-services-company-in-dubai-test-2', ['meta' => $meta]);
-         }
-         public function seoservicesindubai()
-    {
-        $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-services-in-dubai', ['meta' => $meta]);
-         }
-         public function seoservicesinmeccasaudiarabia()
+    }
+    public function seoservicesinmeccasaudiarabia()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-services-in-mecca-saudi-arabia', ['meta' => $meta]);
-         }
-         public function seoservicesmanama()
+    }
+    public function seoservicesmanama()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-services-manama', ['meta' => $meta]);
-         }
-         public function seoservicessalalah()
+    }
+    public function seoservicessalalah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/seo-services-salalah', ['meta' => $meta]);
-         }
-        public function smsmarketingdubai()
+    }
+    public function smsmarketingdubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/sms-marketing-dubai', ['meta' => $meta]);
-         }
-         public function socialmediamarketingcompanyinabudhabi()
+    }
+    public function socialmediamarketingcompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/social-media-marketing-company-in-abu-dhabi', ['meta' => $meta]);
-         }
-         public function startwithfullfunnelperformancemarketing()
+    }
+    public function startwithfullfunnelperformancemarketing()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/start-with-full-funnel-performance-marketing', ['meta' => $meta]);
-         }
-         public function technologycontentwritingcompanyindubai()
+    }
+    public function technologycontentwritingcompanyindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/technology-content-writing-company-in-dubai', ['meta' => $meta]);
-         }
-         public function termsandconditions()
+    }
+    public function termsandconditions()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/terms-and-conditions', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinabudhabi()
+    }
+    public function uiuxdesigncompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-abu-dhabi', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinajman()
+    }
+    public function uiuxdesigncompanyinajman()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-ajman', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinalain()
+    }
+    public function uiuxdesigncompanyinalain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-al-ain', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyindubaiold()
+    }
+
+    public function uiuxdesigncompanyinfujairah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/ui-ux-design-company-in-dubai-old', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinfujairah()
-    {
-        $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-fujairah', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinrasalkhaimah()
+    }
+    public function uiuxdesigncompanyinrasalkhaimah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-ras-al-khaimah', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinsharjah()
+    }
+    public function uiuxdesigncompanyinsharjah()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-sharjah', ['meta' => $meta]);
-         }
-         public function uiuxdesigncompanyinummalquwain()
+    }
+    public function uiuxdesigncompanyinummalquwain()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/ui-ux-design-company-in-umm-al-quwain', ['meta' => $meta]);
-         }
-         public function websitedesigncompanyinabudhabi()
+    }
+    public function websitedesigncompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/website-design-company-in-abu-dhabi', ['meta' => $meta]);
-         }
-         public function websitedesigncompanyindubaiNov()
+    }
+
+    public function websitedevelopmentcompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/website-design-company-in-dubai-Nov25', ['meta' => $meta]);
-         }
-         public function websitedevelopmentcompanyinabudhabi()
-    {
-        $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/website-development-company-in-abu-dhabi', ['meta' => $meta]);
-         }
-         public function websitemaintenancecompanyinabudhabi()
+    }
+    public function websitemaintenancecompanyinabudhabi()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/website-maintenance-company-in-abu-dhabi', ['meta' => $meta]);
-         }
-         public function whatsappmarketingindubai()
+    }
+    public function whatsappmarketingindubai()
     {
         $meta = [
-            'title' => 'Ecommerce Web Development Services - BrandStoryAE',
-            'description' => 'Discover our Ecommerce Web Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'industry-page'
         ];
         return $this->view('others-pages/whatsapp-marketing-in-dubai', ['meta' => $meta]);
-         }
+    }
+    public function ecommercewebsitedevelopmentcompanyinabudhabi()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('others-pages/ecommerce-website-development-company-in-abu-dhabi', ['meta' => $meta]);
+    }
+
     //development pages
     public function androidAppDevelopmentCompanyDubai()
     {
         $meta = [
-            'title' => 'Android App Development Company Dubai - BrandStoryAE',
-            'description' => 'Discover our Android App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/android-app-development-company-dubai', ['meta' => $meta]);
@@ -1448,8 +1127,6 @@ public function seoservicescompanyindubaitest()
     public function crossPlatformAppDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'Cross Platform App Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Cross Platform App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/cross-platform-app-development-company-in-dubai', ['meta' => $meta]);
@@ -1458,8 +1135,6 @@ public function seoservicescompanyindubaitest()
     public function flutterAppDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'Flutter App Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Flutter App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/flutter-app-development-company-in-dubai', ['meta' => $meta]);
@@ -1467,8 +1142,6 @@ public function seoservicescompanyindubaitest()
     public function hybridAppDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'Hybrid App Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our Hybrid App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/hybrid-app-development-company-in-dubai', ['meta' => $meta]);
@@ -1476,8 +1149,6 @@ public function seoservicescompanyindubaitest()
     public function iosAppDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'iOS App Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our iOS App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/ios-app-development-company-in-dubai', ['meta' => $meta]);
@@ -1485,8 +1156,6 @@ public function seoservicescompanyindubaitest()
     public function reactNativeAppDevelopmentCompanyInDubai()
     {
         $meta = [
-            'title' => 'React Native App Development Company in Dubai - BrandStoryAE',
-            'description' => 'Discover our React Native App Development Company services designed to boost your online presence and drive organic traffic.',
             'classname' => 'em-dubai-page service-page'
         ];
         return $this->view('development/react-native-app-development-company-in-dubai', ['meta' => $meta]);
@@ -1496,8 +1165,6 @@ public function seoservicescompanyindubaitest()
     public function b2bMarketingServices()
     {
         $meta = [
-            'title' => 'B2B Marketing Services - BrandStoryAE',
-            'description' => 'Discover our B2B Marketing Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/b2b-marketing-services', ['meta' => $meta]);
@@ -1505,8 +1172,6 @@ public function seoservicescompanyindubaitest()
     public function contentWritingServices()
     {
         $meta = [
-            'title' => 'Content Writing Services - BrandStoryAE',
-            'description' => 'Discover our Content Writing Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/content-writing-services', ['meta' => $meta]);
@@ -1514,8 +1179,6 @@ public function seoservicescompanyindubaitest()
     public function digitalMarketingServices()
     {
         $meta = [
-            'title' => 'Digital Marketing Services - BrandStoryAE',
-            'description' => 'Discover our Digital Marketing Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/digital-marketing-services', ['meta' => $meta]);
@@ -1523,8 +1186,6 @@ public function seoservicescompanyindubaitest()
     public function emailMarketingServices()
     {
         $meta = [
-            'title' => 'Email Marketing Services - BrandStoryAE',
-            'description' => 'Discover our Email Marketing Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/email-marketing-services', ['meta' => $meta]);
@@ -1532,8 +1193,6 @@ public function seoservicescompanyindubaitest()
     public function ppcServices()
     {
         $meta = [
-            'title' => 'PPC Services - BrandStoryAE',
-            'description' => 'Discover our PPC Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/ppc-services', ['meta' => $meta]);
@@ -1541,8 +1200,6 @@ public function seoservicescompanyindubaitest()
     public function prServices()
     {
         $meta = [
-            'title' => 'PR Services - BrandStoryAE',
-            'description' => 'Discover our PR Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/pr-services', ['meta' => $meta]);
@@ -1550,8 +1207,6 @@ public function seoservicescompanyindubaitest()
     public function seoServices()
     {
         $meta = [
-            'title' => 'SEO Services - BrandStoryAE',
-            'description' => 'Discover our SEO Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/seo-services', ['meta' => $meta]);
@@ -1559,8 +1214,6 @@ public function seoservicescompanyindubaitest()
     public function socialMediaMarketingServices()
     {
         $meta = [
-            'title' => 'Social Media Marketing Services - BrandStoryAE',
-            'description' => 'Discover our Social Media Marketing Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/social-media-marketing-services', ['meta' => $meta]);
@@ -1568,8 +1221,6 @@ public function seoservicescompanyindubaitest()
     public function uiUxDesignServices()
     {
         $meta = [
-            'title' => 'UI UX Design Services - BrandStoryAE',
-            'description' => 'Discover our UI UX Design Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/ui-ux-design-services', ['meta' => $meta]);
@@ -1577,8 +1228,6 @@ public function seoservicescompanyindubaitest()
     public function websiteDesignAndDevelopmentServices()
     {
         $meta = [
-            'title' => 'Website Design and Development Services - BrandStoryAE',
-            'description' => 'Discover our Website Design and Development Services services designed to boost your online presence and drive organic traffic.',
             'classname' => 'bahrain-page'
         ];
         return $this->view('bahrain/website-design-and-development-services', ['meta' => $meta]);

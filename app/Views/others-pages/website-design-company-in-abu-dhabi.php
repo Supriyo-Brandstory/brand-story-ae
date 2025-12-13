@@ -1,21 +1,21 @@
 <section class="website-design-banner sp-50">
-<div class="container"><!--Container Start-->
-<div class="row align-items-center"><!--Row Start-->
-<div class="col-md-6"> <!--col start--> 
-<div class="service-banner-txt">
-<h1>Custom Website Design Company in Abu Dhabi</h1>
-<p class="mb-0">To remain in the competitive world of digital media, your business needs a robust website design with full optimization. You can do so with a custom website design company in Abu Dhabi’s help. A website design company helps elevate your online presence in the competitive marketplace. At Brandstory website design company Abu Dhabi team, you get high-end optimized web pages designed as per your business requirements.</p>
-<p>Our specialized team of designers and web developers integrates their creativity and technical expertise to deliver the best web solutions to you. Whether you want help with your newly found startup or your established business, we do it all for you with full customization.</p>
-<div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
-</div>		
-</div><!--col end-->
-<div class="col-md-6"> <!--col start-->  
-<div class="service-banner-form">
-<?php include 'forms/service-form.php' ?>
-</div>
-</div><!--col end--> 
-</div><!--Row End--> 
-</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Custom Website Design Company in Abu Dhabi</h1>
+                    <p class="mb-0">To remain in the competitive world of digital media, your business needs a robust website design with full optimization. You can do so with a custom website design company in Abu Dhabi’s help. A website design company helps elevate your online presence in the competitive marketplace. At Brandstory website design company Abu Dhabi team, you get high-end optimized web pages designed as per your business requirements.</p>
+                    <p>Our specialized team of designers and web developers integrates their creativity and technical expertise to deliver the best web solutions to you. Whether you want help with your newly found startup or your established business, we do it all for you with full customization.</p>
+                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect Us</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <!-- Why is Website Design Important for Every Business? start -->
@@ -42,7 +42,7 @@
 <!-- Our Custom  Web Design Services in Abu Dhabi start -->
 <section class="spb-50 ppc-serv mbl-pb-10">
     <div class="container">
-        <h2 class="text-center mb-4">Our Custom  Web Design Services in Abu Dhabi</h2>
+        <h2 class="text-center mb-4">Our Custom Web Design Services in Abu Dhabi</h2>
         <!-- Row Start -->
         <div class="row max-1100">
             <div class="col-md-1 align-self-center p-lg-0">
@@ -85,7 +85,7 @@
                 <h3 class="mb-lg-0 mb-3 ps-lg-5">Responsive Websites</h3>
             </div>
             <div class="col-md-6 align-self-center p-lg-0">
-                <p class="mb-0">Our engaging, responsive services from a web design agency in Abu Dhabi are committed to guaranteeing that your online presence not only looks good but also operates flawlessly across all devices. We have a team of experts who specialize in designing responsive layouts. These designs automatically adjust to fit different screen sizes, ensuring that your webpage is accessible on smartphones, tablets, and desktops.</p> 
+                <p class="mb-0">Our engaging, responsive services from a web design agency in Abu Dhabi are committed to guaranteeing that your online presence not only looks good but also operates flawlessly across all devices. We have a team of experts who specialize in designing responsive layouts. These designs automatically adjust to fit different screen sizes, ensuring that your webpage is accessible on smartphones, tablets, and desktops.</p>
             </div>
         </div>
         <!-- Row END -->
@@ -161,37 +161,37 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon1.svg">
-                <h3 class="mb-3 text-violet fs-20">Proven Expertise</h3>
-                <p class="mb-0">Our team has been creating responsive websites for several years in Abu Dhabi city. We are experts in every aspect of web designing, which can be helpful for your business.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon1.svg">
+                    <h3 class="mb-3 text-violet fs-20">Proven Expertise</h3>
+                    <p class="mb-0">Our team has been creating responsive websites for several years in Abu Dhabi city. We are experts in every aspect of web designing, which can be helpful for your business.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon2.svg">
-                <h3 class="mb-3 text-red fs-20">Customized Solutions</h3>
-                <p class="mb-0">We tailor unique solutions for every web design Abu Dhabi project. We customize every web solution that can be optimized for the business.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon2.svg">
+                    <h3 class="mb-3 text-red fs-20">Customized Solutions</h3>
+                    <p class="mb-0">We tailor unique solutions for every web design Abu Dhabi project. We customize every web solution that can be optimized for the business.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon3.svg">
-                <h3 class="mb-3 text-blue fs-20">Mobile-Friendly Designs</h3>
-                <p class="mb-0">We ensure that our websites are fully accessible on all types of gadgets/devices, including mobile phones. The designs are optimized for any devices that can be accessed through the devices.</p>
+                    <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon3.svg">
+                    <h3 class="mb-3 text-blue fs-20">Mobile-Friendly Designs</h3>
+                    <p class="mb-0">We ensure that our websites are fully accessible on all types of gadgets/devices, including mobile phones. The designs are optimized for any devices that can be accessed through the devices.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-lg-0 mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon4.svg">
-                <h3 class="mb-3 text-yellow fs-20">SEO Integration</h3>
-                <p class="mb-0">Every website we design has all kinds of SEO-optimized words that can make them more visible in search engine searches. Our team integrates these highly searched keywords into websites for more search visibility.</p>
+                <div class="mb-lg-0 mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon4.svg">
+                    <h3 class="mb-3 text-yellow fs-20">SEO Integration</h3>
+                    <p class="mb-0">Every website we design has all kinds of SEO-optimized words that can make them more visible in search engine searches. Our team integrates these highly searched keywords into websites for more search visibility.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-            <div class="mb-lg-0 mb-5">
-                <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon5.svg">
-                <h3 class="mb-3 text-orange fs-20">Post-Launch Support</h3>
-                <p class="mb-0">At Brandstory, we create the best responsive designs and provide support for the website after launch. We keep a watch on the optimizing factors of websites to make sure the web pages are optimal in function.</p>
+                <div class="mb-lg-0 mb-5">
+                    <img class="img-fluid mb-3" src="/assets/images/website-design/why-choose-icon5.svg">
+                    <h3 class="mb-3 text-orange fs-20">Post-Launch Support</h3>
+                    <p class="mb-0">At Brandstory, we create the best responsive designs and provide support for the website after launch. We keep a watch on the optimizing factors of websites to make sure the web pages are optimal in function.</p>
                 </div>
             </div>
         </div>
@@ -262,16 +262,16 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                <div class="mbl-app-company">
-                    <div class="mbl-app-cnt align-self-center">
-                        <p class="text-white mb-3">Most Popular</p>
-                        <h4 class="mb-4">Web Design Company</h4>
-                        <div class="company-btn">
-                            <a href="">Explore <img src="/assets/images/mobile-app-dev/btn-arrow.svg"></a>
+                    <div class="mbl-app-company">
+                        <div class="mbl-app-cnt align-self-center">
+                            <p class="text-white mb-3">Most Popular</p>
+                            <h4 class="mb-4">Web Design Company</h4>
+                            <div class="company-btn">
+                                <a href="">Explore <img src="/assets/images/mobile-app-dev/btn-arrow.svg"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
@@ -303,97 +303,97 @@
     </div>
     <div class="swiper serv-testimonial">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“I was amazed at how well the Brandstory team understood my requirements and translated them into a visually stunning website design. The wireframing and designing phase was smooth and efficient, and I felt like my ideas were truly brought to life. The end result exceeded my expectations and I couldn't be happier!”</p>
-                <p class="mb-0"><b>Taran</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“I was amazed at how well the Brandstory team understood my requirements and translated them into a visually stunning website design. The wireframing and designing phase was smooth and efficient, and I felt like my ideas were truly brought to life. The end result exceeded my expectations and I couldn't be happier!”</p>
+                    <p class="mb-0"><b>Taran</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“Launching my website with the help of BrandStory was an easy task. Their team handled all the technical aspects and ensured my website was live and accessible to my target audience. I didn't have to worry about anything! They made the entire process hassle-free and efficient.”</p>
-                <p class="mb-0"><b>Karen</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“Launching my website with the help of BrandStory was an easy task. Their team handled all the technical aspects and ensured my website was live and accessible to my target audience. I didn't have to worry about anything! They made the entire process hassle-free and efficient.”</p>
+                    <p class="mb-0"><b>Karen</b></p>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="serv-testi-main">
-                <p class="mb-2">“We approached Brandstory custom website design agency in Abu Dhabi for our website design and wireframing needs and they delivered beyond our expectations. They took the time to understand our requirements and created an innovative design that perfectly represented our brand.”</p>
-                <p class="mb-0"><b>Sam</b></p>
+            <div class="swiper-slide">
+                <div class="serv-testi-main">
+                    <p class="mb-2">“We approached Brandstory custom website design agency in Abu Dhabi for our website design and wireframing needs and they delivered beyond our expectations. They took the time to understand our requirements and created an innovative design that perfectly represented our brand.”</p>
+                    <p class="mb-0"><b>Sam</b></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 </section>
 <!-- Testimonials end -->
 
 <section class="site-faq sp-50">
-<div class="container"><!--Container Start-->
-<h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
-<div class="accordion" id="accordionDM">
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-How to Choose the Right Web Design Company in Abu Dhabi?
-</button>
-</h2>
-<div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-When it comes to choosing the right web design company in Abu Dhabi, your decision is crucial. To ensure you make an informed choice, start by evaluating their portfolio. Look for experience in designing websites similar to your vision. It's important to discuss your specific needs and goals with the company. Make sure they understand your vision & can deliver a tailored solution just for you.
-</div>
-</div>
-</div><!--Accordion item end-->
-<!--Accordion Start-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh1">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
-How much does a website design cost in Abu Dhabi?
-</button>
-</h2>
-<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-The cost depends on the complexity of the website design project. For a comprehensive website design project, it can cost you more than a simple UI/UX designing project.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-What is the difference between web design and web development?
-</button>
-</h2>
-<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Web design involves tasks such as layout design, color schemes, typography, and overall aesthetic appeal. On the other hand, web development is responsible for the technical implementation and functionality of a website. Developers work with various programming languages and tools to build the core structure, features, and interactivity of the site, ensuring an engaging user experience.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-How long does it take to design a website? 
-</button>
-</h2>
-<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-A simple website design can take upto 3-4 days to complete. For a custom website design process, it can take up to 1 - 2 weeks.
-</div>
-</div>
-</div><!--Accordion item end-->
-<div class="accordion-item"><!--Accordion item start-->
-<h2 class="accordion-header" id="fh2">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-What are the key elements of a well-designed website?
-</button>
-</h2>
-<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-<div class="accordion-body">
-Web design incorporates the client's requirements, valuable content, eye-catching visual elements, and a user-friendly layout to create websites. Key components of web design include technical elements, layout, content, and navigation.
-</div>
-</div>
-</div><!--Accordion item end-->
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center mb-lg-5 mb-4">FAQ’s</h2>
+        <div class="accordion" id="accordionDM">
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
+                        How to Choose the Right Web Design Company in Abu Dhabi?
+                    </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        When it comes to choosing the right web design company in Abu Dhabi, your decision is crucial. To ensure you make an informed choice, start by evaluating their portfolio. Look for experience in designing websites similar to your vision. It's important to discuss your specific needs and goals with the company. Make sure they understand your vision & can deliver a tailored solution just for you.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <!--Accordion Start-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="true">
+                        How much does a website design cost in Abu Dhabi?
+                    </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        The cost depends on the complexity of the website design project. For a comprehensive website design project, it can cost you more than a simple UI/UX designing project.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
+                        What is the difference between web design and web development?
+                    </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Web design involves tasks such as layout design, color schemes, typography, and overall aesthetic appeal. On the other hand, web development is responsible for the technical implementation and functionality of a website. Developers work with various programming languages and tools to build the core structure, features, and interactivity of the site, ensuring an engaging user experience.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
+                        How long does it take to design a website?
+                    </button>
+                </h2>
+                <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        A simple website design can take upto 3-4 days to complete. For a custom website design process, it can take up to 1 - 2 weeks.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
+            <div class="accordion-item"><!--Accordion item start-->
+                <h2 class="accordion-header" id="fh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
+                        What are the key elements of a well-designed website?
+                    </button>
+                </h2>
+                <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+                    <div class="accordion-body">
+                        Web design incorporates the client's requirements, valuable content, eye-catching visual elements, and a user-friendly layout to create websites. Key components of web design include technical elements, layout, content, and navigation.
+                    </div>
+                </div>
+            </div><!--Accordion item end-->
 
-	
-</div><!--Accordion End-->
-</div><!--Container End--> 
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>
