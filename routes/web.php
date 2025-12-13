@@ -45,7 +45,10 @@ Route::group(['prefix' => '/industries'], function () {
 });
 
 // case studies 
-Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
+// Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
+Route::group(['prefix' => '/case-study'], function () {
+    Route::get('/', 'FrontendController@casestudies', 'casestudies');
+});
 
 
 // others pages
@@ -162,6 +165,22 @@ Route::get('/website-maintenance-company-in-abu-dhabi', 'FrontendController@webs
 Route::get('/whatsapp-marketing-in-dubai', 'FrontendController@whatsappmarketingindubai', 'whatsappmarketingindubai');
 Route::get('/search-engine-optimization', 'FrontendController@searchEngineOptimization', 'searchengineoptimization');
 Route::get('/ecommerce-website-development-company-in-abu-dhabi', 'FrontendController@ecommercewebsitedevelopmentcompanyinabudhabi', 'ecommercewebsitedevelopmentcompanyinabudhabi');
+Route::get('/logo-design-company-in-abu-dhabi', 'FrontendController@logodesigncompanyinabudhabi', 'logodesigncompanyinabudhabi');
+
+//kuwait pages
+Route::group(['prefix' => '/kuwait'], function () {
+    Route::get('/b2b-marketing-services', 'FrontendController@b2bmarketingserviceskuwait', 'b2bmarketingagencyindubai');
+    Route::get('/content-writing-services', 'FrontendController@contentwritingserviceskuwait', 'contentwritingservices');
+    Route::get('/digital-marketing-services', 'FrontendController@digitalmarketingserviceskuwait', 'digitalmarketingservices');
+    Route::get('/email-marketing-services', 'FrontendController@emailmarketingserviceskuwait', 'emailmarketingservices');
+    Route::get('/ppc-services', 'FrontendController@ppcserviceskuwait', 'ppcservices');
+    Route::get('/pr-services', 'FrontendController@prserviceskuwait', 'prservices');
+    Route::get('/seo-services', 'FrontendController@seoserviceskuwait', 'seoservices');
+    Route::get('/social-media-marketing-services', 'FrontendController@socialmediamarketingserviceskuwait', 'socialmediamarketingservices');
+    Route::get('/ui-ux-design-services', 'FrontendController@uixuxdesignserviceskuwait', 'uixuxdesignservices');
+    Route::get('/website-design-and-development-services', 'FrontendController@websitedesignanddevelopmentserviceskuwait', 'websitedesignanddevelopmentservices');
+});
+
 //development pages
 Route::group(['prefix' => '/development'], function () {
     Route::get('/android-app-development-company-dubai', 'FrontendController@androidAppDevelopmentCompanyDubai', 'androidappdevelopmentcompanydubai');

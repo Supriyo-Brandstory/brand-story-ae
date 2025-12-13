@@ -1116,6 +1116,87 @@ class FrontendController extends Controller
         return $this->view('others-pages/ecommerce-website-development-company-in-abu-dhabi', ['meta' => $meta]);
     }
 
+    public function logodesigncompanyinabudhabi()
+    {
+        $meta = [
+            'classname' => 'logo-design service-page'
+        ];
+        return $this->view('others-pages/logo-design-company-in-abu-dhabi', ['meta' => $meta]);
+    }
+
+    //kuwait pages
+
+    public function b2bmarketingserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/b2b-marketing-services', ['meta' => $meta]);
+    }
+    public function contentwritingserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/content-writing-services', ['meta' => $meta]);
+    }
+    public function digitalmarketingserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/digital-marketing-services', ['meta' => $meta]);
+    }
+    public function emailmarketingserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/email-marketing-services', ['meta' => $meta]);
+    }
+    public function ppcserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/ppc-services', ['meta' => $meta]);
+    }
+    public function prserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/pr-services', ['meta' => $meta]);
+    }
+    public function seoserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/seo-services', ['meta' => $meta]);
+    }
+    public function socialmediamarketingserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/social-media-marketing-services', ['meta' => $meta]);
+    }
+    public function uixuxdesignserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/ui-ux-design-services', ['meta' => $meta]);
+    }
+    public function websitedesignanddevelopmentserviceskuwait()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('kuwait/website-design-and-development-services', ['meta' => $meta]);
+    }
+
     //development pages
     public function androidAppDevelopmentCompanyDubai()
     {
