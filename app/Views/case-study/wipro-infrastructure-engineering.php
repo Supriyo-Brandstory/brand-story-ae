@@ -1,13 +1,14 @@
 <section class="cs-banner">
     <div class="container">
-                <h1 class="text-white mb-4 text-md-start text-center">Wipro Infrastructure <span class="db">Engineering</span></h1>
-                <p class="text-white fs-16 mb-5 text-md-start text-center">Wipro Infrastructure Engineering is a diverse infrastructure engineering business with a strong 
-                    <span class="db">presence in 4 continents.</span></p>
-                <ul class="d-flex p-0 list-unstyled mb-0">
-                    <li class="fs-18 me-2 text-white">B2B Business</li>
-                    <li class="fs-18 me-2 text-white">Infrastructure Engineering</li>
-                    <li class="fs-18 text-white">Asia, Europe</li>
-                </ul>
+        <h1 class="text-white mb-4 text-md-start text-center">Wipro Infrastructure <span class="db">Engineering</span></h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">Wipro Infrastructure Engineering is a diverse infrastructure engineering business with a strong
+            <span class="db">presence in 4 continents.</span>
+        </p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">B2B Business</li>
+            <li class="fs-18 me-2 text-white">Infrastructure Engineering</li>
+            <li class="fs-18 text-white">Asia, Europe</li>
+        </ul>
     </div>
 </section>
 
@@ -24,7 +25,7 @@
         <h2 class="text-white mb-3">The <span class="text-purple">Challenge</span></h2>
         <p class="mb-0 text-white fs-16">Though Wipro Infrastructure Engineering had a strong industrial presence, its brand identity lacked consistency, modern appeal, and emotional connection, especially in the digital space. The brand needed a refreshed identity that reflected innovation, global leadership, and engineering precision while resonating with contemporary audiences.</p>
     </div>
-</section>  
+</section>
 
 <section class="sp-50">
     <div class="container">
@@ -52,7 +53,7 @@
                 <h2 class="text-md-start text-center mb-md-0 mb-3">Begin your website journey <span class="db">with <span class="text-red1">BrandStory</span></span></h2>
             </div>
             <div class="col-md-6">
-                <?php include '../forms/case-study-form.php' ?>
+                <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
             </div>
         </div>
     </div>

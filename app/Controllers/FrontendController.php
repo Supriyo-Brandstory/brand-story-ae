@@ -302,7 +302,7 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/index', ['meta' => $meta]);
     }
-        // case studies 
+    // case studies 
 
     public function coverbwesite()
     {
@@ -311,14 +311,14 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/cover-b-wesite', ['meta' => $meta]);
     }
-     public function ecommerce()
+    public function ecommerce()
     {
         $meta = [
             'classname' => 'main-cs-pg'
         ];
         return $this->view('case-study/e-commerce', ['meta' => $meta]);
     }
-public function educationinstitution()
+    public function educationinstitution()
     {
         $meta = [
             'classname' => 'main-cs-pg'
@@ -1570,7 +1570,7 @@ public function educationinstitution()
             if ($curlError) {
                 echo json_encode(["status" => "error", "message" => $curlError]);
             } else {
-                echo json_encode(["status" => "success", "message" => "Form submitted successfully!", "monday_response" => json_decode($response)]);
+                echo json_encode(["status" => "success", "message" => "Form submitted successfully!", "monday_response" => json_decode($response), "redirect_url" => route('thankyou')]);
             }
         } catch (\PHPMailer\PHPMailer\Exception $e) {
             echo json_encode(["status" => "error", "message" => "Email error: " . $mail->ErrorInfo]);

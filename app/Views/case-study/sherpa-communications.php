@@ -1,12 +1,12 @@
 <section class="cs-banner">
     <div class="container">
-                <h1 class="text-white mb-4 text-md-start text-center">Sherpa Communications</h1>
-                <p class="text-white fs-16 mb-5 text-md-start text-center">Sherpa Communications is a public relations agency in Dubai and the UAE.</p>
-                <ul class="d-flex p-0 list-unstyled mb-0">
-                    <li class="fs-18 me-2 text-white">B2B Business</li>
-                    <li class="fs-18 me-2 text-white">Public Relations</li>
-                    <li class="fs-18 text-white">UAE, MENA Region</li>
-                </ul>
+        <h1 class="text-white mb-4 text-md-start text-center">Sherpa Communications</h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">Sherpa Communications is a public relations agency in Dubai and the UAE.</p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">B2B Business</li>
+            <li class="fs-18 me-2 text-white">Public Relations</li>
+            <li class="fs-18 text-white">UAE, MENA Region</li>
+        </ul>
     </div>
 </section>
 
@@ -21,11 +21,12 @@
 <section class="challenge-sec">
     <div class="container text-md-start text-center">
         <h2 class="text-white mb-3">The <span class="text-purple">Challenge</span></h2>
-        <p class="mb-0 text-white fs-16">While Sherpa Communications was already a trusted name in the PR space, their brand identity and digital presence lacked 
+        <p class="mb-0 text-white fs-16">While Sherpa Communications was already a trusted name in the PR space, their brand identity and digital presence lacked
             <span class="db">consistency and modern appeal. With a growing roster of clients and expanding service offerings, the agency needed a refreshed </span>
-            visual identity and a more targeted digital marketing strategy to stay competitive and attract enterprise-level clients.</p>
+            visual identity and a more targeted digital marketing strategy to stay competitive and attract enterprise-level clients.
+        </p>
     </div>
-</section>  
+</section>
 
 <section class="sp-50">
     <div class="container">
@@ -48,13 +49,13 @@
         </ul>
         <p class="fs-16 mb-md-5 mb-3">Strategy-driven content and digital positioning to boost authority</p>
         <div class="row mb-4">
-                    <div class="col-md-6 col-12 mb-md-0 mb-3">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/sand-doller-analytics.jpg">
-                    </div>
-                    <div class="col-md-6 col-12 ">
-                        <img class="w-100 img-fluid cse-img border" src="/assets/images/new-case-study/sherpa-communications-searchconsole.PNG">
-                    </div>
-                </div>
+            <div class="col-md-6 col-12 mb-md-0 mb-3">
+                <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/sand-doller-analytics.jpg">
+            </div>
+            <div class="col-md-6 col-12 ">
+                <img class="w-100 img-fluid cse-img border" src="/assets/images/new-case-study/sherpa-communications-searchconsole.PNG">
+            </div>
+        </div>
     </div>
 </section>
 
@@ -65,7 +66,7 @@
                 <h2 class="text-md-start text-center mb-md-0 mb-3">Begin your website journey <span class="db">with <span class="text-red1">BrandStory</span></span></h2>
             </div>
             <div class="col-md-6">
-                <?php include '../forms/case-study-form.php' ?>
+                <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
             </div>
         </div>
     </div>

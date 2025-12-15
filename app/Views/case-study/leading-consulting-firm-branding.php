@@ -1,12 +1,12 @@
 <section class="cs-banner">
     <div class="container">
-                <h1 class="text-white mb-4 text-md-start text-center">Leading Consulting Firm</h1>
-                <p class="text-white fs-16 mb-5 text-md-start text-center">Leading Consulting Firm is an auditing & accounting firm in Dubai, UAE</p>
-                <ul class="d-flex p-0 list-unstyled mb-0">
-                    <li class="fs-18 me-2 text-white">B2B Business</li>
-                    <li class="fs-18 me-2 text-white">Audit Firm</li>
-                    <li class="fs-18 text-white">Dubai, UAE</li>
-                </ul>
+        <h1 class="text-white mb-4 text-md-start text-center">Leading Consulting Firm</h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">Leading Consulting Firm is an auditing & accounting firm in Dubai, UAE</p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">B2B Business</li>
+            <li class="fs-18 me-2 text-white">Audit Firm</li>
+            <li class="fs-18 text-white">Dubai, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -39,7 +39,7 @@
     <div class="container">
         <h2 class="mb-3 text-md-start text-center">Our <span class="text-purple">Creative Approach</span></h2>
         <p class="fs-16 mb-md-5 mb-3 text-md-start text-center">We built a sleek, professional brand system rooted in clarity and credibility. On social, we created content pillars to simplify complex financial topics. From smart infographics to service highlights, every post built authority and trust.</p>
-       
+
         <div class="row g-4 align-items-stretch">
             <div class="col-md-7">
                 <img class="w-100 desk-h-100" src="/assets/images/banner-2.webp">
@@ -65,7 +65,7 @@
                 <h2 class="text-md-start text-center mb-md-0 mb-3">Begin your website journey <span class="db">with <span class="text-red1">BrandStory</span></span></h2>
             </div>
             <div class="col-md-6">
-                <?php include '../forms/case-study-form.php' ?>
+                <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
             </div>
         </div>
     </div>
