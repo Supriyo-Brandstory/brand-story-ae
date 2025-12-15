@@ -1,4 +1,4 @@
-<section class="cs-banner"> 
+<section class="cs-banner">
     <div class="container">
         <h1 class="text-white mb-4 text-md-start text-center">Cover B</h1>
         <p class="text-white fs-20 mb-5 text-md-start text-center">Insurance Services</p>
@@ -54,12 +54,13 @@
 <section class="challenge-sec">
     <div class="container text-md-start text-center">
         <h2 class="text-white mb-3">The <span class="text-purple">Challenge</span></h2>
-        <p class="mb-0 text-white fs-20">To develop a responsive, user-friendly website that effectively showcases the company’s 
+        <p class="mb-0 text-white fs-20">To develop a responsive, user-friendly website that effectively showcases the company’s
             <span class="db">insurance solutions across multiple industries. The goal was to create an intuitive digital </span>
-            platform that makes it easy for potential clients to explore various insurance products, 
-            <span class="db">understand industry-specific coverage, and generate leads.</span></p>
+            platform that makes it easy for potential clients to explore various insurance products,
+            <span class="db">understand industry-specific coverage, and generate leads.</span>
+        </p>
     </div>
-</section>  
+</section>
 
 <section class="sp-50">
     <div class="container">
@@ -83,10 +84,11 @@
             <div class="col-md-8">
                 <img class="d-md-none d-block mb-3 w-100" src="/assets/images/cs-cover/industry-img.png">
                 <h2 class="text-white mb-3">Industry-Specific <span class="text-purple">Landing Pages</span></h2>
-                <p class="text-white fs-20 mb-0">We developed detailed, industry-specific landing pages to showcase tailored 
+                <p class="text-white fs-20 mb-0">We developed detailed, industry-specific landing pages to showcase tailored
                     <span class="db">insurance solutions for sectors like personal care, retail, consultancy, and more. </span>
-                    Each page was designed to highlight the unique risks faced by businesses in these 
-                    <span class="db">industries and the relevant coverage options.</span></p>
+                    Each page was designed to highlight the unique risks faced by businesses in these
+                    <span class="db">industries and the relevant coverage options.</span>
+                </p>
             </div>
         </div>
     </div>
@@ -95,13 +97,14 @@
 <section class="challenge-sec cd">
     <div class="container text-md-start text-center">
         <h2 class="text-white mb-3">SEO Optimization & <span class="text-purple">Lead Generation</span></h2>
-        <p class="mb-0 text-white fs-20 text-md-start text-center">To drive organic traffic, we optimized the website for SEO, 
+        <p class="mb-0 text-white fs-20 text-md-start text-center">To drive organic traffic, we optimized the website for SEO,
             <span class="db">incorporating industry-specific keywords into the content. We also </span>
-            integrated lead generation forms to facilitate customer inquiries, 
+            integrated lead generation forms to facilitate customer inquiries,
             <span class="db">making it easy for potential clients to request quotes or more </span>
-            information about insurance solutions.</p>
+            information about insurance solutions.
+        </p>
     </div>
-</section>  
+</section>
 
 <section class="sp-50">
     <div class="container">
@@ -117,7 +120,7 @@
                 <h2 class="text-md-start text-center mb-md-0 mb-3">Begin your website journey <span class="db">with <span class="text-red1">BrandStory</span></span></h2>
             </div>
             <div class="col-md-6">
-                <?php include '../forms/case-study-form.php' ?>
+                <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
             </div>
         </div>
     </div>

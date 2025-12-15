@@ -302,7 +302,7 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/index', ['meta' => $meta]);
     }
-        // case studies 
+    // case studies 
 
     public function coverbwesite()
     {
@@ -311,14 +311,14 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/cover-b-wesite', ['meta' => $meta]);
     }
-     public function ecommerce()
+    public function ecommerce()
     {
         $meta = [
             'classname' => 'main-cs-pg'
         ];
         return $this->view('case-study/e-commerce', ['meta' => $meta]);
     }
-public function educationinstitution()
+    public function educationinstitution()
     {
         $meta = [
             'classname' => 'main-cs-pg'
@@ -374,7 +374,7 @@ public function educationinstitution()
         ];
         return $this->view('case-study/travel-agency', ['meta' => $meta]);
     }
-    public function ()
+    public function wiproinfrastructureengineering()
     {
         $meta = [
             'classname' => 'main-cs-pg'

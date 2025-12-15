@@ -1,12 +1,12 @@
 <section class="cs-banner">
     <div class="container">
-                <h1 class="text-white mb-4 text-md-start text-center">NanoPrecise Sci Corp</h1>
-                <p class="text-white fs-16 mb-5 text-md-start text-center">NanoPrecise Sci Corp is a global IoT-powered predictive maintenance service provider.</p>
-                <ul class="d-flex p-0 list-unstyled mb-0">
-                    <li class="fs-18 me-2 text-white">B2B Business</li>
-                    <li class="fs-18 me-2 text-white">Ai & IoT</li>
-                    <li class="fs-18 text-white">India, USA, UAE</li>
-                </ul>
+        <h1 class="text-white mb-4 text-md-start text-center">NanoPrecise Sci Corp</h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">NanoPrecise Sci Corp is a global IoT-powered predictive maintenance service provider.</p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">B2B Business</li>
+            <li class="fs-18 me-2 text-white">Ai & IoT</li>
+            <li class="fs-18 text-white">India, USA, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -21,11 +21,12 @@
 <section class="challenge-sec">
     <div class="container text-md-start text-center">
         <h2 class="text-white mb-3">The <span class="text-purple">Challenge</span></h2>
-        <p class="mb-0 text-white fs-16">Despite their advanced technology and growing global reach, NanoPrecise lacked a cohesive brand identity and digital presence 
+        <p class="mb-0 text-white fs-16">Despite their advanced technology and growing global reach, NanoPrecise lacked a cohesive brand identity and digital presence
             <span class="db">that reflected their innovation. Their branding needed modernization, and their digital channels required a performance-driven </span>
-            approach to connect with enterprise clients across various regions.</p>
+            approach to connect with enterprise clients across various regions.
+        </p>
     </div>
-</section>  
+</section>
 
 <section class="sp-50">
     <div class="container">
@@ -38,7 +39,7 @@
             <li class="fs-16">Enhancing logo usage, typography, and color systems</li>
             <li class="fs-16">Designing impactful collaterals and digital assets</li>
         </ul>
-         <div class="row g-4 align-items-stretch mb-4">
+        <div class="row g-4 align-items-stretch mb-4">
             <div class="col-md-7">
                 <img class="w-100 desk-h-50 pb-4" src="/assets/images/nanoprecise/creative1.jpg">
                 <img class="w-100 desk-h-50" src="/assets/images/nanoprecise/creative2.jpg">
@@ -56,14 +57,14 @@
             <li class="fs-16">Running region-specific digital campaigns to generate qualified leads</li>
             <li class="fs-16">Developing marketing funnels tailored to enterprise clients</li>
         </ul>
-         <div class="row mb-4">
-                    <div class="col-md-6 col-12 mb-md-0 mb-3">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/nanoprecise-scicrop-analytics.jpg">
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <img class="w-100 img-fluid cse-img border" src="/assets/images/new-case-study/nanoprecise-scicrop-search-console.PNG">
-                    </div>
-                </div>
+        <div class="row mb-4">
+            <div class="col-md-6 col-12 mb-md-0 mb-3">
+                <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/nanoprecise-scicrop-analytics.jpg">
+            </div>
+            <div class="col-md-6 col-12">
+                <img class="w-100 img-fluid cse-img border" src="/assets/images/new-case-study/nanoprecise-scicrop-search-console.PNG">
+            </div>
+        </div>
     </div>
 </section>
 
@@ -74,7 +75,7 @@
                 <h2 class="text-md-start text-center mb-md-0 mb-3">Begin your website journey <span class="db">with <span class="text-red1">BrandStory</span></span></h2>
             </div>
             <div class="col-md-6">
-                <?php include '../forms/case-study-form.php' ?>
+                <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
             </div>
         </div>
     </div>

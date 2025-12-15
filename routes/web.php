@@ -47,19 +47,20 @@ Route::group(['prefix' => '/industries'], function () {
 // case studies 
 // Route::get('/case-study', 'FrontendController@casestudies', 'casestudies');
 Route::group(['prefix' => '/case-study'], function () {
+    Route::get('/', 'FrontendController@casestudies', 'casestudies');
     Route::get('/cover-b-wesite', 'FrontendController@coverbwesite', 'coverbwesite');
- Route::get('/e-commerce', 'FrontendController@ecommerce', 'ecommerce');   
- Route::get('/education-institution', 'FrontendController@educationinstitution', 'educationinstitution');
- Route::get('/equence', 'FrontendController@equence', 'equence'); 
- Route::get('/hotel', 'FrontendController@hotel', 'hotel'); 
- Route::get('/leading-consulting-firm-branding', 'FrontendController@leadingconsultingfirmbranding', 'leadingconsultingfirmbranding'); 
-  Route::get('/leading-consulting-firm-website', 'FrontendController@leadingconsultingfirmwebsite', 'leadingconsultingfirmwebsite');
-  Route::get('/nanoprecise-sci-corp', 'FrontendController@nanoprecisescicorp', 'nanoprecisescicorp');
-  Route::get('/sherpa-communications', 'FrontendController@sherpacommunications', 'sherpacommunications');
-  Route::get('/travel-agency', 'FrontendController@travelagency', 'travelagency');
-  Route::get('/wipro-infrastructure-engineering', 'FrontendController@wiproinfrastructureengineering', 'wiproinfrastructureengineering');
+    Route::get('/e-commerce', 'FrontendController@ecommerce', 'ecommerce');
+    Route::get('/education-institution', 'FrontendController@educationinstitution', 'educationinstitution');
+    Route::get('/equence', 'FrontendController@equence', 'equence');
+    Route::get('/hotel', 'FrontendController@hotel', 'hotel');
+    Route::get('/leading-consulting-firm-branding', 'FrontendController@leadingconsultingfirmbranding', 'leadingconsultingfirmbranding');
+    Route::get('/leading-consulting-firm-website', 'FrontendController@leadingconsultingfirmwebsite', 'leadingconsultingfirmwebsite');
+    Route::get('/nanoprecise-sci-corp', 'FrontendController@nanoprecisescicorp', 'nanoprecisescicorp');
+    Route::get('/sherpa-communications', 'FrontendController@sherpacommunications', 'sherpacommunications');
+    Route::get('/travel-agency', 'FrontendController@travelagency', 'travelagency');
+    Route::get('/wipro-infrastructure-engineering', 'FrontendController@wiproinfrastructureengineering', 'wiproinfrastructureengineering');
 });
-   
+
 
 
 
