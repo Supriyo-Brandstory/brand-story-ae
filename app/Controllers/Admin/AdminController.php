@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers\Admin;
 
 use App\Models\Admin;
@@ -31,6 +32,7 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
     // -----------------------------------------------------
     public function processLogin()
     {
+        csrf_verify();
         $email = trim($_POST['email'] ?? '');
         $password = trim($_POST['password'] ?? '');
 
@@ -127,8 +129,8 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
 
         $admin = $this->authAdmin; // Use the already fetched admin data
 
-        $name = trim($_POST['name'] ?? '');
-        $email = trim($_POST['email'] ?? '');
+        $name = htmlspecialchars(trim($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
         $password = trim($_POST['password'] ?? '');
 
         $update = [
@@ -148,7 +150,4 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
         header("Location: " . route('admin.profile'));
         exit;
     }
-
-
-
 }

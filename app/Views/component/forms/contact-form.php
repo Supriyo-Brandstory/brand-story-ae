@@ -1,6 +1,6 @@
 <div class="site-form form-light">
     <form id="contact" action="<?= route('contact.submit') ?>" method="post">
-        <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token'] ?? ''; ?>">
+        <?= csrf_token() ?>
         <div class="row">
             <div class="col-12">
                 <label>Name*</label>

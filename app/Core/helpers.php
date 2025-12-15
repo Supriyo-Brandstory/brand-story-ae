@@ -119,3 +119,14 @@ if (!function_exists('getSeoForPage')) {
         }
     }
 }
+if (!function_exists('e')) {
+    function e($value)
+    {
+        return htmlspecialchars($value ?? '', ENT_QUOTES, 'UTF-8');
+    }
+}
+
+// Ensure session exists for CSRF
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
