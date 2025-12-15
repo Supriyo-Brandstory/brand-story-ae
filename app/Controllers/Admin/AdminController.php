@@ -234,55 +234,113 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
         // Increase time limit for large imports
         set_time_limit(300);
 
+        // We assume this is called via AJAX now, so no redirects.
+        // We will return JSON responses.
+
         csrf_verify();
         $this->requireAdminAuth();
+
+        $this->logProgress("Starting import process...", 10);
 
         if (isset($_FILES['backup_file']) && $_FILES['backup_file']['error'] == 0) {
             $uploadedFile = $_FILES['backup_file']['tmp_name'];
             $zip = new \ZipArchive;
 
+            $this->logProgress("Opening ZIP file...", 20);
+
             if ($zip->open($uploadedFile) === TRUE) {
 
                 $extractPath = sys_get_temp_dir() . '/restore_' . uniqid();
                 if (!mkdir($extractPath)) {
-                    $_SESSION['profile_success'] = "Failed to create temp directory.";
-                    header("Location: " . route('admin.dashboard'));
+                    $this->logProgress("Error: Failed to create temp directory.", 100, 'error');
+                    echo json_encode(['status' => 'error', 'message' => 'Failed to create temp directory.']);
                     exit;
                 }
 
+                $this->logProgress("Extracting files...", 30);
                 $zip->extractTo($extractPath);
                 $zip->close();
 
                 // 1. Restore Uploads
+                $this->logProgress("Restoring uploaded files...", 50);
                 $sourceUploads = $extractPath . '/uploads';
                 $destUploads = __DIR__ . '/../../../public/uploads';
 
+                $filesRestored = 0;
                 if (is_dir($sourceUploads)) {
-                    $this->recurseCopy($sourceUploads, $destUploads);
+                    $filesRestored = $this->recurseCopy($sourceUploads, $destUploads);
                 }
 
                 // 2. Restore Database
                 $sqlFile = $extractPath . '/database.sql';
+                $tablesRestored = 0;
                 if (file_exists($sqlFile)) {
-                    $this->restoreDatabase($sqlFile);
+                    $this->logProgress("Restoring database...", 70);
+                    $tablesRestored = $this->restoreDatabase($sqlFile);
                 }
 
                 // Cleanup
+                $this->logProgress("Cleaning up temporary files...", 90);
                 $this->delTree($extractPath);
 
-                $_SESSION['profile_success'] = "Backup restored successfully!";
-                header("Location: " . route('admin.dashboard'));
+                $successMessage = "Import completed! Restored {$filesRestored} files and processed {$tablesRestored} database queries.";
+                $this->logProgress($successMessage, 100, 'success');
+
+                echo json_encode([
+                    'status' => 'success',
+                    'message' => 'Backup restored successfully!',
+                    'details' => [
+                        'files' => $filesRestored,
+                        'queries' => $tablesRestored
+                    ]
+                ]);
                 exit;
             } else {
-                $_SESSION['profile_success'] = "Failed to open ZIP file.";
-                header("Location: " . route('admin.dashboard'));
+                $this->logProgress("Error: Failed to open ZIP file.", 100, 'error');
+                echo json_encode(['status' => 'error', 'message' => 'Failed to open ZIP file.']);
                 exit;
             }
         }
 
-        $_SESSION['profile_success'] = "No file uploaded or error occurred.";
-        header("Location: " . route('admin.dashboard'));
+        $this->logProgress("Error: No file uploaded.", 100, 'error');
+        echo json_encode(['status' => 'error', 'message' => 'No file uploaded or error occurred.']);
         exit;
+    }
+
+    // -----------------------------------------------------
+    //  BACKUP: PROGRESS API
+    // -----------------------------------------------------
+    public function backupProgress()
+    {
+        $logFile = sys_get_temp_dir() . '/backup_progress_admin.json';
+        if (file_exists($logFile)) {
+            $content = file_get_contents($logFile);
+            echo $content;
+        } else {
+            echo json_encode(['message' => 'Waiting to start...', 'percent' => 0]);
+        }
+        exit;
+    }
+
+    public function cleanupProgress()
+    {
+        $logFile = sys_get_temp_dir() . '/backup_progress_admin.json';
+        if (file_exists($logFile)) {
+            unlink($logFile);
+        }
+        exit;
+    }
+
+    private function logProgress($message, $percent, $status = 'processing')
+    {
+        $logFile = sys_get_temp_dir() . '/backup_progress_admin.json';
+        $data = [
+            'message' => $message,
+            'percent' => $percent,
+            'status' => $status,
+            'timestamp' => time()
+        ];
+        file_put_contents($logFile, json_encode($data));
     }
 
     // Custom PHP DB Dump
@@ -334,17 +392,11 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
     {
         $db = \App\Core\Database::connect();
 
-        // Read entire file (careful with memory, but for now ok for small sites)
-        // Better: read line by line or statement by statement.
-        // Assuming the detailed line-by-line simple dump format created above.
-
         $sql = file_get_contents($filePath);
-        if (!$sql) return;
-
-        // Split by semicolon, but this is fragile if content contains semicolons.
-        // The above dump creates one INSERT per line, ending with ;\n
+        if (!$sql) return 0;
 
         $queries = explode(";\n", $sql);
+        $count = 0;
 
         // Disable FK checks
         $db->exec("SET FOREIGN_KEY_CHECKS=0");
@@ -354,31 +406,35 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
             if (!empty($query)) {
                 try {
                     $db->exec($query);
+                    $count++;
                 } catch (\Exception $e) {
-                    // Continue on error? or log it?
                     error_log("Restore Error: " . $e->getMessage());
                 }
             }
         }
 
         $db->exec("SET FOREIGN_KEY_CHECKS=1");
+        return $count;
     }
 
-    // Helper to copy files recursively
+    // Helper to copy files recursively - returns count
     private function recurseCopy($src, $dst)
     {
         $dir = opendir($src);
         @mkdir($dst);
+        $count = 0;
         while (false !== ($file = readdir($dir))) {
             if (($file != '.') && ($file != '..')) {
                 if (is_dir($src . '/' . $file)) {
-                    $this->recurseCopy($src . '/' . $file, $dst . '/' . $file);
+                    $count += $this->recurseCopy($src . '/' . $file, $dst . '/' . $file);
                 } else {
                     copy($src . '/' . $file, $dst . '/' . $file);
+                    $count++;
                 }
             }
         }
         closedir($dir);
+        return $count;
     }
 
     // Helper to delete dir recursively

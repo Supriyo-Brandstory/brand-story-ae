@@ -81,3 +81,6 @@ yarn-error.log
 
 # Herd specific
 .herd/
+
+# Uploads
+/public/uploads/

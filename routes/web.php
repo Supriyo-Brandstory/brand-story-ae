@@ -259,5 +259,7 @@ Route::group(['prefix' => '/admin'], function () {
         // Backup
         Route::get('/backup/export', 'Admin\AdminController@exportBackup', 'admin.backup.export');
         Route::post('/backup/import', 'Admin\AdminController@importBackup', 'admin.backup.import');
+        Route::get('/backup/progress', 'Admin\AdminController@backupProgress', 'admin.backup.progress');
+        Route::post('/backup/cleanup', 'Admin\AdminController@cleanupProgress', 'admin.backup.cleanup'); // To clear log after done
     });
 });
