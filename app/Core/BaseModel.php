@@ -46,6 +46,16 @@ class BaseModel
     }
 
     /**
+     * Count all records.
+     */
+    public function countAll(): int
+    {
+        $stmt = $this->db->query("SELECT COUNT(*) as total FROM {$this->table}");
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result['total'] ?? 0;
+    }
+
+    /**
      * Insert or update record.
      */
     public function save(array $data): bool

@@ -76,7 +76,17 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
     {
         $this->requireAdminAuth(); // Ensure admin is authenticated
 
-        return $this->adminView('/dashboard'); // admin data is auto-injected
+        $blogCategoryModel = new \App\Models\BlogCategory();
+        $blogModel = new \App\Models\Blog();
+        $seoModel = new \App\Models\Seo();
+
+        $stats = [
+            'blog_categories_count' => $blogCategoryModel->countAll(),
+            'blogs_count' => $blogModel->countAll(),
+            'seo_count' => $seoModel->countAll(),
+        ];
+
+        return $this->adminView('/dashboard', $stats); // admin data is auto-injected
     }
 
 
