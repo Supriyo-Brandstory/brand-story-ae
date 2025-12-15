@@ -374,7 +374,7 @@ public function educationinstitution()
         ];
         return $this->view('case-study/travel-agency', ['meta' => $meta]);
     }
-    public function ()
+    public function wiproinfrastructureengineering()
     {
         $meta = [
             'classname' => 'main-cs-pg'
