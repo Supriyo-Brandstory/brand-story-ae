@@ -71,7 +71,7 @@ if (!function_exists('generateUniqueSlug')) {
 if (!function_exists('handleImageUpload')) {
     function handleImageUpload($file, $folder = 'blog')
     {
-        $uploadPath = 'assets/images/' . $folder . '/';
+        $uploadPath = 'uploads/images/' . $folder . '/';
         $targetDir = __DIR__ . '/../../public/' . $uploadPath;
         if (!is_dir($targetDir)) {
             mkdir($targetDir, 0755, true);

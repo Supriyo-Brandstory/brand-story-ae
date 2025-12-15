@@ -255,5 +255,9 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/seo/{id}/edit', 'Admin\AdminSeoController@edit', 'admin.seo.edit');
         Route::post('/seo/{id}', 'Admin\AdminSeoController@update', 'admin.seo.update');
         Route::post('/seo/{id}/delete', 'Admin\AdminSeoController@destroy', 'admin.seo.destroy');
+
+        // Backup
+        Route::get('/backup/export', 'Admin\AdminController@exportBackup', 'admin.backup.export');
+        Route::post('/backup/import', 'Admin\AdminController@importBackup', 'admin.backup.import');
     });
 });

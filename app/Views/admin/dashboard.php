@@ -2,9 +2,17 @@
        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
            <h1 class="h2">Dashboard</h1>
            <div class="btn-toolbar mb-2 mb-md-0">
-               <button type="button" class="btn btn-sm btn-outline-secondary">
+               <a href="<?= route('admin.backup.export') ?>" class="btn btn-sm btn-outline-secondary me-2">
                    <i class="bi bi-download"></i> Export
-               </button>
+               </a>
+
+               <form action="<?= route('admin.backup.import') ?>" method="post" enctype="multipart/form-data" id="importForm">
+                   <?= csrf_token() ?>
+                   <input type="file" name="backup_file" id="backupFile" style="display: none;" accept=".zip" onchange="showLoading(); document.getElementById('importForm').submit()">
+                   <button type="button" class="btn btn-sm btn-outline-primary" onclick="document.getElementById('backupFile').click()">
+                       <i class="bi bi-upload"></i> Import
+                   </button>
+               </form>
            </div>
        </div>
 
@@ -64,3 +72,20 @@
            <p>Welcome, <?= e($data['admin_name'] ?? 'Admin') ?>!</p>
        </div>
    </main>
+
+   <!-- Loading Overlay -->
+   <div id="loadingOverlay" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center" style="z-index: 1050;">
+       <div class="text-center">
+           <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+               <span class="visually-hidden">Loading...</span>
+           </div>
+           <h4 class="mt-3 text-dark">Processing Backup Import...</h4>
+           <p class="text-muted">Please wait, this may take a few moments. Do not close this page.</p>
+       </div>
+   </div>
+
+   <script>
+       function showLoading() {
+           document.getElementById('loadingOverlay').classList.remove('d-none');
+       }
+   </script>
