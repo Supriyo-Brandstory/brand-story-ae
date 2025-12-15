@@ -1410,18 +1410,41 @@ class FrontendController extends Controller
             return;
         }
 
-        // Gather form data
-        $name = trim($_POST['name'] ?? '');
-        $email = trim($_POST['email'] ?? '');
-        $country = trim($_POST['country'] ?? '');
-        $country_code = trim($_POST['country_code'] ?? '');
-        $phone = trim($_POST['phone'] ?? '');
-        $company = trim($_POST['company'] ?? '');
-        $designation = trim($_POST['designation'] ?? '');
-        $services = isset($_POST['services']) && is_array($_POST['services']) ? implode(", ", $_POST['services']) : '';
-        $budget = trim($_POST['budget'] ?? '');
-        $message = trim($_POST['message'] ?? '');
-        $httpReferer = $_SERVER['HTTP_REFERER'] ?? '';
+        // Rate Limiting (1 submission per 60 seconds)
+        if (!empty($_SESSION['last_submission_time']) && (time() - $_SESSION['last_submission_time'] < 60)) {
+            echo json_encode(["status" => "error", "message" => "Please wait a minute before submitting again."]);
+            return;
+        }
+        $_SESSION['last_submission_time'] = time();
+
+        // Honeypot check
+        if (!empty($_POST['honeypot'])) {
+            echo json_encode(["status" => "error", "message" => "Spam detected."]);
+            return;
+        }
+
+        // Validate CSRF Token
+        if (empty($_POST['_token']) || empty($_SESSION['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $_POST['_token'])) {
+            echo json_encode(["status" => "error", "message" => "Invalid CSRF token. Please refresh the page and try again."]);
+            return;
+        }
+
+        // Gather form data and Sanitize
+        $name = htmlspecialchars(trim($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+        $country = htmlspecialchars(trim($_POST['country'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $country_code = htmlspecialchars(trim($_POST['country_code'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $phone = htmlspecialchars(trim($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $company = htmlspecialchars(trim($_POST['company'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $designation = htmlspecialchars(trim($_POST['designation'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+        $servicesRaw = isset($_POST['services']) && is_array($_POST['services']) ? implode(", ", $_POST['services']) : '';
+        $services = htmlspecialchars($servicesRaw, ENT_QUOTES, 'UTF-8');
+
+        $budget = htmlspecialchars(trim($_POST['budget'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $message = htmlspecialchars(trim($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+        $httpReferer = htmlspecialchars($_SERVER['HTTP_REFERER'] ?? '', ENT_QUOTES, 'UTF-8');
         $actualLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 
         // Compose email

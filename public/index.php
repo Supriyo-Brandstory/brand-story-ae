@@ -20,6 +20,14 @@ if (file_exists($composerAutoload)) {
     });
 }
 
+// Secure Cookies
+ini_set('session.cookie_httponly', 1);
+ini_set('session.use_only_cookies', 1);
+ini_set('session.cookie_samesite', 'Strict');
+if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
+    ini_set('session.cookie_secure', 1);
+}
+
 // Start session for all requests
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
@@ -52,6 +60,16 @@ if (file_exists(__DIR__ . '/../.env')) {
 
 // load helpers (route() and base_url())
 require_once __DIR__ . '/../app/Core/helpers.php';
+
+// Security Headers
+header("X-Frame-Options: SAMEORIGIN");
+header("X-XSS-Protection: 1; mode=block");
+header("X-Content-Type-Options: nosniff");
+header("Referrer-Policy: strict-origin-when-cross-origin");
+header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
+header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
+header_remove("X-Powered-By");
+
 
 // load routes and run the app
 require_once __DIR__ . '/../routes/web.php';
