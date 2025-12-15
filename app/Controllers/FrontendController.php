@@ -302,7 +302,85 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/index', ['meta' => $meta]);
     }
+        // case studies 
 
+    public function coverbwesite()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/cover-b-wesite', ['meta' => $meta]);
+    }
+     public function ecommerce()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/e-commerce', ['meta' => $meta]);
+    }
+public function educationinstitution()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/education-institution', ['meta' => $meta]);
+    }
+    public function equence()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/equence', ['meta' => $meta]);
+    }
+    public function hotel()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/hotel', ['meta' => $meta]);
+    }
+    public function leadingconsultingfirmbranding()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/leading-consulting-firm-branding', ['meta' => $meta]);
+    }
+    public function leadingconsultingfirmwebsite()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/leading-consulting-firm-website', ['meta' => $meta]);
+    }
+    public function nanoprecisescicorp()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/nanoprecise-sci-corp', ['meta' => $meta]);
+    }
+    public function sherpacommunications()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/sherpa-communications', ['meta' => $meta]);
+    }
+    public function travelagency()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/travel-agency', ['meta' => $meta]);
+    }
+    public function ()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/wipro-infrastructure-engineering', ['meta' => $meta]);
+    }
     // others pages
 
     public function searchEngineOptimization()
