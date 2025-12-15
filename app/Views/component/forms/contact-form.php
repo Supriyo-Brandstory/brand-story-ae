@@ -132,6 +132,9 @@
                     messageEl.textContent = data.message || 'Thank you! Your message has been sent successfully.';
                     messageEl.classList.add('success', 'text-success');
                     this.reset(); // Clear form
+                    if (data.redirect_url) {
+                        window.location.href = data.redirect_url;
+                    }
                 } else {
                     messageEl.textContent = data.message || 'An error occurred. Please try again.';
                     messageEl.classList.add('error', 'text-danger');

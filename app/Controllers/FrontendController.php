@@ -1570,7 +1570,7 @@ class FrontendController extends Controller
             if ($curlError) {
                 echo json_encode(["status" => "error", "message" => $curlError]);
             } else {
-                echo json_encode(["status" => "success", "message" => "Form submitted successfully!", "monday_response" => json_decode($response)]);
+                echo json_encode(["status" => "success", "message" => "Form submitted successfully!", "monday_response" => json_decode($response), "redirect_url" => route('thankyou')]);
             }
         } catch (\PHPMailer\PHPMailer\Exception $e) {
             echo json_encode(["status" => "error", "message" => "Email error: " . $mail->ErrorInfo]);

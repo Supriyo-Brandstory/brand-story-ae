@@ -3,6 +3,7 @@
 use App\Core\Route;
 
 // Define routes (path, "Controller@method", name)
+Route::get('/thankyou', 'FrontendController@thankYou', 'thankyou');
 Route::get('/', 'FrontendController@index', 'home');
 Route::get('/about', 'FrontendController@about', 'about');
 Route::get('/contact', 'FrontendController@contat', 'contact');
