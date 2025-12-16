@@ -46,6 +46,32 @@ class BaseModel
     }
 
     /**
+     * Get paginated records.
+     */
+    public function paginate(int $perPage = 10, int $page = 1): array
+    {
+        $offset = ($page - 1) * $perPage;
+        $stmt = $this->db->prepare("SELECT * FROM {$this->table} ORDER BY created_at DESC LIMIT ? OFFSET ?");
+
+        // PDO bindParam needs variables, not values directly in some versions/drivers, strict mode
+        $stmt->bindValue(1, $perPage, PDO::PARAM_INT);
+        $stmt->bindValue(2, $offset, PDO::PARAM_INT);
+
+        $stmt->execute();
+
+        $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $total = $this->countAll();
+
+        return [
+            'data' => $data,
+            'total' => $total,
+            'per_page' => $perPage,
+            'current_page' => $page,
+            'last_page' => ceil($total / $perPage)
+        ];
+    }
+
+    /**
      * Count all records.
      */
     public function countAll(): int

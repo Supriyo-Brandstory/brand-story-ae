@@ -18,10 +18,16 @@ class AdminSeoController extends AdminBaseController
     public function index()
     {
         $this->requireAdminAuth();
-        $seoList = $this->seoModel->findAll();
+
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perPage = 10;
+
+        $result = $this->seoModel->paginate($perPage, $page);
+
         // Pass to view
         return $this->adminView('seo/index', [
-            'seoList' => $seoList
+            'seoList' => $result['data'],
+            'pagination' => $result
         ]);
     }
 

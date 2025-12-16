@@ -69,6 +69,35 @@
                     </tbody>
                 </table>
             </div>
+
+            <?php if (isset($pagination) && $pagination['last_page'] > 1): ?>
+                <div class="d-flex justify-content-center border-top p-3">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination mb-0">
+                            <!-- Previous Link -->
+                            <li class="page-item <?= ($pagination['current_page'] <= 1) ? 'disabled' : '' ?>">
+                                <a class="page-link" href="?page=<?= $pagination['current_page'] - 1 ?>" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+
+                            <!-- Page Numbers -->
+                            <?php for ($i = 1; $i <= $pagination['last_page']; $i++): ?>
+                                <li class="page-item <?= ($i == $pagination['current_page']) ? 'active' : '' ?>">
+                                    <a class="page-link" href="?page=<?= $i ?>"><?= $i ?></a>
+                                </li>
+                            <?php endfor; ?>
+
+                            <!-- Next Link -->
+                            <li class="page-item <?= ($pagination['current_page'] >= $pagination['last_page']) ? 'disabled' : '' ?>">
+                                <a class="page-link" href="?page=<?= $pagination['current_page'] + 1 ?>" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </main>
