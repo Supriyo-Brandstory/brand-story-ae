@@ -13,6 +13,8 @@ Route::get('/blogs/{slug}', 'FrontendController@blogDetail', 'blogs.show');
 Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
 Route::get('/seo-services-company-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
+Route::get('/sitemap.xml', 'SitemapController@index', 'sitemap');
+Route::get('/robots.txt', 'RobotsController@index', 'robots');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
 Route::get('/website-design-company-in-dubai', 'FrontendController@websiteDesignDubai', 'websitedesigndubai');
 Route::get('/full-funnel-performance-marketing', 'FrontendController@fullFunnelPerformanceMarketing', 'fullFunnelPerformanceMarketing');
@@ -260,6 +262,14 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/backup/export', 'Admin\AdminController@exportBackup', 'admin.backup.export');
         Route::post('/backup/import', 'Admin\AdminController@importBackup', 'admin.backup.import');
         Route::get('/backup/progress', 'Admin\AdminController@backupProgress', 'admin.backup.progress');
-        Route::post('/backup/cleanup', 'Admin\AdminController@cleanupProgress', 'admin.backup.cleanup'); // To clear log after done
+        Route::post('/backup/cleanup', 'Admin\AdminController@cleanupProgress', 'admin.backup.cleanup');
+
+        // Sitemap Management
+        Route::get('/sitemap', 'Admin\AdminSitemapController@index', 'admin.sitemap.index');
+        Route::post('/sitemap', 'Admin\AdminSitemapController@update', 'admin.sitemap.update');
+
+        // Robots.txt Management
+        Route::get('/robots', 'Admin\AdminRobotsController@index', 'admin.robots.index');
+        Route::post('/robots', 'Admin\AdminRobotsController@update', 'admin.robots.update');
     });
 });

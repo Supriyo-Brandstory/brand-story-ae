@@ -47,16 +47,20 @@
                                     <td><code><?= htmlspecialchars($seo['page_url']) ?></code></td>
                                     <td><?= htmlspecialchars($seo['meta_title'] ?? '') ?></td>
                                     <td class="text-center">
-                                        <a href="<?= route('admin.seo.edit', ['id' => $seo['id']]) ?>" class="btn btn-sm btn-outline-warning">
-                                            <i class="bi bi-pencil"></i>
-                                        </a>
-                                        <form action="<?= route('admin.seo.destroy', ['id' => $seo['id']]) ?>" method="POST" style="display:inline-block;" onsubmit="return confirm('Are you sure you want to delete this SEO entry?');">
-                                            <?= csrf_token() ?>
-                                            <button type="submit" class="btn btn-sm btn-outline-danger ms-1">
-                                                <i class="bi bi-trash"></i>
-                                            </button>
-                                        </form>
-                                    </td>
+                                        <div class=" d-flex gap-2">
+                                            <a href="<?= base_url($seo['page_url']) ?>" class="btn btn-sm btn-outline-info">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <a href="<?= route('admin.seo.edit', ['id' => $seo['id']]) ?>" class="btn btn-sm btn-outline-warning">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <form action="<?= route('admin.seo.destroy', ['id' => $seo['id']]) ?>" method="POST" style="display:inline-block;" onsubmit="return confirm('Are you sure you want to delete this SEO entry?');">
+                                                <?= csrf_token() ?>
+                                                <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                    <i class="bi bi-trash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
                                 </tr>
                             <?php endforeach; ?>
                         <?php else: ?>

@@ -90,6 +90,16 @@
                         <i class="bi bi-search"></i> SEO
                     </a>
                 </li>
+                <li>
+                    <a href="<?= route('admin.sitemap.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.sitemap') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-diagram-3"></i> Sitemap
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= route('admin.robots.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.robots') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-robot"></i> Robots.txt
+                    </a>
+                </li>
                 <!-- <?php var_dump($currentRouteName); ?> -->
             </ul>
             <hr class="text-white-50">
@@ -141,6 +151,21 @@
                     <li>
                         <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.blogs_admin') !== false) ? 'active' : '' ?>">
                             <i class="bi bi-journal-text"></i> Blog Posts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.seo.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.seo') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-search"></i> SEO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.sitemap.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.sitemap') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-diagram-3"></i> Sitemap
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.robots.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.robots') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-robot"></i> Robots.txt
                         </a>
                     </li>
                 </ul>
