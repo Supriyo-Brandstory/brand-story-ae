@@ -182,31 +182,121 @@
 </section>
 
 <section class="strategy-process-sec sp-50 ">
-    <div class="container">
+    <div class="container" bis_skin_checked="1">
         <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Digital Marketing Strategy and Process</h2>
-        <div class="row gx-md-5">
-            <div class="col-lg-4">
-                <div class="strategy-heading-main">
-                    <h3 class="text-white strategy-title active strategy1"><span>Competitor Research<span></h3>
-
-                    <h3 class="text-white strategy-title strategy2"><span>Planning & Strategy<span></h3>
-
-                    <h3 class="text-white strategy-title strategy3"><span>Trial & Testing<span></h3>
-
-                    <h3 class="text-white strategy-title strategy4"><span>Campaign Implementation<span></h3>
-
-                    <h3 class="text-white strategy-title strategy5"><span>Reporting & Optimization<span></h3>
-
+        <div class="row gx-md-5" bis_skin_checked="1">
+            <div class="col-lg-4" bis_skin_checked="1">
+                <div class="strategy-heading-main" bis_skin_checked="1">
+                    <h3 class="text-white strategy-title strategy1 active"><span>Competitor Research<span></span></span></h3>
+                    <div class="d-lg-none d-block" bis_skin_checked="1">
+                        <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
+                            <div class="row" bis_skin_checked="1">
+                                <div class="col-md-4" bis_skin_checked="1">
+                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy1.webp" alt="Competitor Research &amp; Data Analysis">
+                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl1.webp" alt="Competitor Research &amp; Data Analysis">
+                                </div>
+                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                                    <h3 class="mb-4">Competitor Research </h3>
+                                    <p class="fs-20 mb-3">We start with a comprehensive study of your industry, audience, and competitors to find out key opportunities.</p>
+                                    <ul class="mb-0">
+                                        <li class="fs-20 mb-2">Analyze competitor performance and strategies</li>
+                                        <li class="fs-20 mb-2">Audience behaviour and market trends</li>
+                                        <li class="fs-20 mb-2">Identify gaps and growth opportunities</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white strategy-title strategy2"><span>Planning &amp; Strategy<span></span></span></h3>
+                    <div class="d-lg-none d-block" bis_skin_checked="1">
+                        <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
+                            <div class="row" bis_skin_checked="1">
+                                <div class="col-md-4" bis_skin_checked="1">
+                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/dm-agency-dubai/strategy2.jpg?v=1" alt="Planning &amp; Strategy Development">
+                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl2.webp" alt="Planning &amp; Strategy Development">
+                                </div>
+                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                                    <h3 class="mb-4">Planning &amp; Strategy</h3>
+                                    <p class="fs-20 mb-3">We create a full roadmap and digital marketing strategy, considering your market position and business goals.</p>
+                                    <ul class="mb-0">
+                                        <li class="fs-20 mb-2">Identify goals and KPIs</li>
+                                        <li class="fs-20 mb-2">Choose the best marketing channels</li>
+                                        <li class="fs-20 mb-2">Match strategy to brand positioning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white strategy-title strategy3"><span>Trial &amp; Testing<span></span></span></h3>
+                    <div class="d-lg-none d-block" bis_skin_checked="1">
+                        <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
+                            <div class="row" bis_skin_checked="1">
+                                <div class="col-md-4" bis_skin_checked="1">
+                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy3.webp" alt="Trial &amp; Testing">
+                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl3.webp" alt="Trial &amp; Testing">
+                                </div>
+                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                                    <h3 class="mb-4">Trial &amp; Testing</h3>
+                                    <p class="fs-20 mb-3">We test content, creatives, and campaigns to identify the most effective approach before launching any campaign.</p>
+                                    <ul class="mb-0">
+                                        <li class="fs-20 mb-2">Test ad creatives, CTA, and headlines</li>
+                                        <li class="fs-20 mb-2">Evaluate early performance metrics</li>
+                                        <li class="fs-20 mb-2">Optimize for better results</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white strategy-title strategy4"><span>Campaign Implementation<span></span></span></h3>
+                    <div class="d-lg-none d-block" bis_skin_checked="1">
+                        <div class="strategy-process-main strategy4" style="display: none;" bis_skin_checked="1">
+                            <div class="row" bis_skin_checked="1">
+                                <div class="col-md-4" bis_skin_checked="1">
+                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/dm-agency-dubai/strategy4.jpg?v=1" alt="Campaign Implementation &amp; Launch">
+                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl4.webp" alt="Campaign Implementation &amp; Launch">
+                                </div>
+                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                                    <h3 class="mb-4">Campaign Implementation &amp; Launch</h3>
+                                    <p class="fs-20 mb-3">We execute campaigns with precision across selected channels (SEO, PPC, Social Media, Email marketing, etc.) based on market research.</p>
+                                    <ul class="mb-0">
+                                        <li class="fs-20 mb-2">Launch selected campaigns</li>
+                                        <li class="fs-20 mb-2">Monitor outcomes in real-time</li>
+                                        <li class="fs-20 mb-2">Ensure consistency in branding</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white strategy-title strategy5"><span>Reporting &amp; Optimization<span></span></span></h3>
+                    <div class="d-lg-none d-block" bis_skin_checked="1">
+                        <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
+                            <div class="row" bis_skin_checked="1">
+                                <div class="col-md-4" bis_skin_checked="1">
+                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy5.webp" alt="Reporting &amp; Ongoing Optimization">
+                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl5.webp" alt="Reporting &amp; Ongoing Optimization">
+                                </div>
+                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                                    <h3 class="mb-4">Reporting &amp; Ongoing Optimization</h3>
+                                    <p class="fs-20 mb-3">We track and analyze performance, report to the clients, take feedback, and continuously optimize for better performance.</p>
+                                    <ul class="mb-0">
+                                        <li class="fs-20 mb-2">Analyze KPIs and return on investment (ROI)</li>
+                                        <li class="fs-20 mb-2">Align campaigns with evolving market trends</li>
+                                        <li class="fs-20 mb-2">Optimize campaigns based on performance data</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-8">
-                <div class="strategy-process-main strategy1">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('/assets/images/home/strategy1.webp') ?>" alt="Competitor Research & Data Analysis">
+            <div class="col-lg-8 d-lg-block d-none" bis_skin_checked="1">
+                <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-md-4" bis_skin_checked="1">
+                            <img class="w-100" src="/assets/images/new-home/strategy1.webp" alt="Competitor Research &amp; Data Analysis">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt">
-                            <h3 class="mb-4">Competitor Research & Data Analysis</h3>
+                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                            <h3 class="mb-4">Competitor Research &amp; Data Analysis</h3>
                             <p class="fs-20 mb-3">We start with a comprehensive study of your industry, audience, and competitors to find out key opportunities.</p>
                             <ul class="mb-0">
                                 <li class="fs-20 mb-2">Analyze competitor performance and strategies</li>
@@ -216,13 +306,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy2">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy2.jpg') ?>" alt="Planning & Strategy Development">
+                <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-md-4" bis_skin_checked="1">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/strategy2.jpg?v=1" alt="Planning &amp; Strategy Development">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt">
-                            <h3 class="mb-4">Planning & Strategy Development</h3>
+                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                            <h3 class="mb-4">Planning &amp; Strategy Development</h3>
                             <p class="fs-20 mb-3">We create a full roadmap and digital marketing strategy, considering your market position and business goals.</p>
                             <ul class="mb-0">
                                 <li class="fs-20 mb-2">Identify goals and KPIs</li>
@@ -232,13 +322,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy3">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy3.webp') ?>" alt="Trial & Testing">
+                <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-md-4" bis_skin_checked="1">
+                            <img class="w-100" src="/assets/images/new-home/strategy3.webp" alt="Trial &amp; Testing">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt">
-                            <h3 class="mb-4">Trial & Testing</h3>
+                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                            <h3 class="mb-4">Trial &amp; Testing</h3>
                             <p class="fs-20 mb-3">We test content, creatives, and campaigns to identify the most effective approach before launching any campaign.</p>
                             <ul class="mb-0">
                                 <li class="fs-20 mb-2">Test ad creatives, CTA, and headlines</li>
@@ -248,13 +338,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy4.jpg') ?>" alt="Campaign Implementation & Launch">
+                <div class="strategy-process-main strategy4" style="display: none;" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-md-4" bis_skin_checked="1">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/strategy4.jpg?v=1" alt="Campaign Implementation &amp; Launch">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt">
-                            <h3 class="mb-4">Campaign Implementation & Launch</h3>
+                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                            <h3 class="mb-4">Campaign Implementation &amp; Launch</h3>
                             <p class="fs-20 mb-3">We execute campaigns with precision across selected channels (SEO, PPC, Social Media, Email marketing, etc.) based on market research.</p>
                             <ul class="mb-0">
                                 <li class="fs-20 mb-2">Launch selected campaigns</li>
@@ -264,13 +354,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="w-100" src="<?= base_url('assets/images/home/strategy5.webp') ?>" alt="Reporting & Ongoing Optimization">
+                <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-md-4" bis_skin_checked="1">
+                            <img class="w-100" src="/assets/images/new-home/strategy5.webp" alt="Reporting &amp; Ongoing Optimization">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt">
-                            <h3 class="mb-4">Reporting & Ongoing Optimization</h3>
+                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
+                            <h3 class="mb-4">Reporting &amp; Ongoing Optimization</h3>
                             <p class="fs-20 mb-3">We track and analyze performance, report to the clients, take feedback, and continuously optimize for better performance.</p>
                             <ul class="mb-0">
                                 <li class="fs-20 mb-2">Analyze KPIs and return on investment (ROI)</li>
@@ -328,7 +418,7 @@
                 <p class="text-white fs-20 mb-3">As a premier digital marketing agency in Dubai, BrandStory harnesses the evolving power of social media to boost business growth. With 12+ years of hands-on expertise, we've evolved with leading platforms, staying ahead of trends to deliver optimized, measurable results for diverse clients. We are the top social media marketing agency in Dubai, combining data-driven strategies with creative excellence to create high-impact campaigns.</p>
                 <p class="text-white fs-20 mb-5">With over 11 million social media users in the UAE, a vibrant presence is non-negotiable. Social media is the fastest way to reach and engage your audience with your business. We are a dynamic team of experts crafting scroll-stopping content, boosts engagement, and builds authentic customer connections. Partner with BrandStory, Dubai's trusted social media marketing company, to reinvent your digital identity, drive traffic, and achieve standout success.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-none d-lg-block">
                 <img style="height: 375px; width: 100%; object-fit: cover; border-radius: 20px;" src="<?= base_url('assets/images/socialmedia-protfolio/insta-image.png') ?>" alt="Social Media Creative Design for Our Client" class="img-fluid">
             </div>
         </div>
@@ -534,46 +624,7 @@
         </div>
     </div>
 </section>
-<section class="sp-50 dm-casestudies-sec dm-bg">
-    <div class="container">
-        <h2 class="text-white mb-md-4 text-md-start text-center">Meet Our Expart Team
-        </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper newteam-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-1.webp') ?>" alt="our digital marketing team">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-2.webp') ?>" alt="our digital marketing team">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-3.webp') ?>" alt="our digital marketing team">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-4.webp') ?>" alt="our digital marketing team">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="<?= base_url('assets/images/team/our-team-5.webp') ?>" alt="our digital marketing team">
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-            <div class="swiper-button-next dmcasestudy-next"></div>
-            <div class="swiper-button-prev dmcasestudy-prev"></div>
-        </div>
-    </div>
-</section>
 <?php include __DIR__ . '/component/expert_team.php' ?>
 
 
