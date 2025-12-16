@@ -788,7 +788,7 @@
 
 <section class="sp-50 bg-yellow">
     <div class="container">
-        <?php include '../includes/stats.php' ?>
+        <?php include __DIR__ . '/../component/services/stats.php' ?>
     </div>
 </section>
 
