@@ -32,8 +32,37 @@
         <div class="row">
             <div class="col-lg-6">
 
-                <div class=" mb-lg-0 mb-3 w-100 radius-20">
-                    <img class="w-100 radius-20" src="/assets/images/new-seo/seo-about-banner.webp" alt="Digital Marketing Agency in Dubai">
+                <div class=" mb-lg-0 mb-3  radius-20">
+                    <div class="left-side orbit-section">
+                        <div class="center">SEO</div>
+                        <div class="orbit">
+                            <!-- Placeholder SEO tool icons (simple shapes representing tools) -->
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <rect x="4" y="4" width="16" height="16" rx="4" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <path d="M12 2L2 22h20z" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <path d="M12 2v20M2 12h20" stroke="#855BFF" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <path d="M4 4h16v16H4z" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <polygon points="12,2 22,8 22,16 12,22 2,16 2,8" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10" stroke="#855BFF" fill="none" stroke-width="3" />
+                                </svg></div>
+                            <div class="orbit-item"><svg viewBox="0 0 24 24">
+                                    <path d="M2 12h20M12 2v20" stroke="#855BFF" stroke-width="3" />
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -476,11 +505,50 @@
                 <p class="mb-3">BrandStory is Dubai's leading SEO agency, trusted by local brands to drive organic growth and online visibility.We combine data-driven strategies with creative execution to deliver measurable results and long-term success.</p>
             </div>
             <div class="col-lg-4">
-                <img src="/assets/images/new-seo/seo-expect-from.webp" alt="The ROI You Can Expect from SEO" class="img-fluid">
+                <div class="new-our-acivment-right-img">
+
+                    <!-- Top Right: Save Big -->
+                    <div class="section">
+                        <div class="icon-box">
+                            <!-- Upward trending graph -->
+                            <svg viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                            </svg>
+                        </div>
+                        <h5>Grow Big with<br>Smarter SEO</h5>
+                    </div>
+
+                    <!-- Middle Right: 15x Better -->
+                    <div class="section">
+                        <div class="icon-box purple-bg">
+                            <!-- Magnifying glass with bar chart -->
+                            <svg viewBox="0 0 512 512">
+                                <path d="M416 208C416 253.9 401.1 296.3 375.1 330.7L502.6 457.4C515.1 469.9 515.1 490.1 502.6 502.6C490.1 515.1 469.9 515.1 457.4 502.6L330.7 375.1C296.3 401.1 253.9 416 208 416C93.12 416 0 322.9 0 208C0 93.12 93.12 0 208 0C322.9 0 416 93.12 416 208zM104 280C104 293.3 114.7 304 128 304C141.3 304 152 293.3 152 280V216C152 202.7 141.3 192 128 192C114.7 192 104 202.7 104 216V280zM184 280C184 293.3 194.7 304 208 304C221.3 304 232 293.3 232 280V120C232 106.7 221.3 96 208 96C194.7 96 184 106.7 184 120V280zM264 280C264 293.3 274.7 304 288 304C301.3 304 312 293.3 312 280V184C312 170.7 301.3 160 288 160C274.7 160 264 170.7 264 184V280z" />
+                            </svg>
+                        </div>
+                        <h5>Improved 4x<br>Revenue</h5>
+                    </div>
+
+                    <!-- Bottom Right: Page One -->
+                    <div class="section">
+                        <div class="icon-box">
+                            <!-- Browser window with upward rank arrow -->
+                            <svg viewBox="0 0 24 24">
+                                <rect x="3" y="4" width="18" height="16" rx="2" stroke="#855BFF" fill="none" stroke-width="2" />
+                                <circle cx="6" cy="8" r="1" fill="#855BFF" />
+                                <circle cx="9" cy="8" r="1" fill="#855BFF" />
+                                <circle cx="12" cy="8" r="1" fill="#855BFF" />
+                                <path d="M6 12h12M6 16h8" stroke="#855BFF" stroke-width="2" />
+                                <polyline points="14,14 16,12 18,16" stroke="#855BFF" stroke-width="3" fill="none" />
+                            </svg>
+                        </div>
+                        <h5>Get Found on<br>Page One</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="gredientdiv-seo"></div>
+    <!-- <div class="gredientdiv-seo"></div> -->
 </div>
 
 <div class="sp-50 container SEO-Why-We-are">
@@ -952,6 +1020,8 @@
         </div>
     </div>
 </section>
+
+
 
 <?php
 $reviewSection = [
@@ -1611,46 +1681,205 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
 </section>
 
-<section class="container">
-    <div class="new-cta-footer">
-        <div class="new-cta-footer-container">
-            <h2 class="new-cta-footer-title">
-                Grow Traffic. Build Engagement. Amplify Results with SEO
+<style>
+    .new-our-acivment-right-img {
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
-            </h2>
-            <p class="new-cta-footer-text">
-                Digital marketing today is no longer just a support tool – it is the backbone of business growth. At BrandStory, we understand that search visibility is the entry point of every successful digital journey. That’s why our SEO services in Dubai are built to be bold, unique, innovative, and performance-driven. As Dubai’s trusted marketing partner for 100+ local and global brands, we go beyond rankings to deliver measurable business value.
 
-            </p>
+        .icon-box {
+            width: 120px;
+            height: 120px;
+            border: 5px solid #855BFF;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            animation: pulse 4s infinite ease-in-out;
+            background-color: rgba(133, 91, 255, 0.1);
+        }
 
-            <!-- Hidden Content -->
-            <div class="content-read-more">
-                <h3 class="mt-3">SEO Strategy Built Around Your Customers</h3>
-                <p class="new-cta-footer-text">
-                    Your audience is constantly evolving- shifting between platforms, devices, and search behaviors. Our SEO approach ensures that your brand remains visible, relevant, and influential at every stage of their journey.<br><br>
-                    We don’t just optimize for search engines. We optimize for people first, algorithms second. By blending creativity with data-driven insights, we design strategies that generate high-quality traffic, engage users, and convert them into loyal customers.<br><br>
-                    At BrandStory, SEO success means more than rankings- it’s about conversions, credibility, and long-term digital growth.
-                </p>
-                <h3 class="mt-4">Full-Spectrum Digital Growth with SEO at the Core</h3>
-                <p class="new-cta-footer-text">
-                    While SEO is the foundation, we integrate it seamlessly with PPC, social media, branding, content creation, performance marketing, and web design. This full-spectrum approach ensures that every campaign is aligned, amplified, and built to help your brand stand out and endure.
+        .icon-box.purple-bg {
+            background-color: #855BFF;
+        }
 
-                </p>
-            </div>
+        svg {
+            width: 70px;
+            height: 70px;
+            fill: #855BFF;
+        }
 
-            <!-- Buttons -->
-            <div class="d-flex pb-2 flex-md-row flex-column-reverse gap-4 align-items-center w-100 justify-content-center">
-                <a href="/contact/" class="Performance-Driven-btn mt-2 mt-md-0">
-                    <span>➤ Get in Touch</span>
-                </a>
-                <a href="javascript:void(0)" class="Performance-Driven-btn" id="readMoreBtn">
-                    <span>➤ Read More</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+        .icon-box.purple-bg svg {
+            fill: #000000;
+        }
 
+        h5 {
+            color: #855BFF;
+            margin: 0 0 20px 0;
+            line-height: 1.3;
+            animation: fadeIn 2s ease-in;
+            font-weight: bold;
+        }
+    }
+</style>
+
+
+<style>
+    /* Orbit Section */
+    .orbit-section {
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        height: 700px;
+        margin: 40px auto;
+        --orbit-radius: -250px;
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(133, 91, 255, 0.2);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        color: #855BFF;
+        font-weight: bold;
+        border: 5px solid #855BFF;
+        z-index: 2;
+    }
+
+    .orbit {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        animation: rotate 50s linear infinite;
+    }
+
+    .orbit-item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+        background: #222;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 25px rgba(133, 91, 255, 0.5);
+    }
+
+    .orbit-item svg {
+        width: 50px;
+        height: 50px;
+        fill: #855BFF;
+    }
+
+    /* Fixed orbit positions using variable */
+    .orbit-item:nth-child(1) {
+        transform: translate(-50%, -50%) rotate(0deg) translateY(var(--orbit-radius)) rotate(-0deg);
+    }
+
+    .orbit-item:nth-child(2) {
+        transform: translate(-50%, -50%) rotate(45deg) translateY(var(--orbit-radius)) rotate(-45deg);
+    }
+
+    .orbit-item:nth-child(3) {
+        transform: translate(-50%, -50%) rotate(90deg) translateY(var(--orbit-radius)) rotate(-90deg);
+    }
+
+    .orbit-item:nth-child(4) {
+        transform: translate(-50%, -50%) rotate(135deg) translateY(var(--orbit-radius)) rotate(-135deg);
+    }
+
+    .orbit-item:nth-child(5) {
+        transform: translate(-50%, -50%) rotate(180deg) translateY(var(--orbit-radius)) rotate(-180deg);
+    }
+
+    .orbit-item:nth-child(6) {
+        transform: translate(-50%, -50%) rotate(225deg) translateY(var(--orbit-radius)) rotate(-225deg);
+    }
+
+    .orbit-item:nth-child(7) {
+        transform: translate(-50%, -50%) rotate(270deg) translateY(var(--orbit-radius)) rotate(-270deg);
+    }
+
+    .orbit-item:nth-child(8) {
+        transform: translate(-50%, -50%) rotate(315deg) translateY(var(--orbit-radius)) rotate(-315deg);
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+        .orbit-section {
+            height: 500px;
+            max-width: 500px;
+            --orbit-radius: -200px;
+        }
+
+        .center {
+            width: 150px;
+            height: 150px;
+            font-size: 3rem;
+        }
+
+        .orbit-item {
+            width: 60px;
+            height: 60px;
+        }
+
+        .orbit-item svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .orbit-section {
+            height: 350px;
+            max-width: 350px;
+            --orbit-radius: -130px;
+        }
+
+        .center {
+            width: 100px;
+            height: 100px;
+            font-size: 2rem;
+        }
+
+        .orbit-item {
+            width: 50px;
+            height: 50px;
+        }
+
+        .orbit-item svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+</style>
 <script>
     const descriptions = {
         gsc: {

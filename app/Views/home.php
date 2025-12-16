@@ -322,45 +322,46 @@
 <section class="neww-protfollio dm-bg mt-lg-4">
     <div class="container">
 
-        <h2 class="text-start mb-5 text-white">Digital Advertising that Engages <br>
-            & Inspires Dubai- BrandStory Leads the Way</h2>
+        <h2 class="text-start mb-3 text-white">Social Media Marketing Agency with Proven Expertise </h2>
+        <div class="row mb-md-3 mt-md-4">
+            <div class="col-lg-8">
+                <p class="text-white fs-20 mb-3">As a premier digital marketing agency in Dubai, BrandStory harnesses the evolving power of social media to boost business growth. With 12+ years of hands-on expertise, we've evolved with leading platforms, staying ahead of trends to deliver optimized, measurable results for diverse clients. We are the top social media marketing agency in Dubai, combining data-driven strategies with creative excellence to create high-impact campaigns.</p>
+                <p class="text-white fs-20 mb-5">With over 11 million social media users in the UAE, a vibrant presence is non-negotiable. Social media is the fastest way to reach and engage your audience with your business. We are a dynamic team of experts crafting scroll-stopping content, boosts engagement, and builds authentic customer connections. Partner with BrandStory, Dubai's trusted social media marketing company, to reinvent your digital identity, drive traffic, and achieve standout success.</p>
+            </div>
+            <div class="col-lg-4">
+                <img style="height: 375px; width: 100%; object-fit: cover; border-radius: 20px;" src="<?= base_url('assets/images/socialmedia-protfolio/insta-image.png') ?>" alt="Social Media Creative Design for Our Client" class="img-fluid">
+            </div>
+        </div>
     </div>
 
     <div class="container">
         <div class="scroll-wrapper">
             <div class="scroll-row left-to-right">
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/protfolio-17.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-9.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-10.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
                 <!-- duplicate for infinite loop -->
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-13.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/prtfolio-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-14.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-15.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/protfolio/portfolio-16.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-9.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-10.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
+                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
 
             </div>
         </div>
