@@ -412,7 +412,7 @@
 <section class="neww-protfollio dm-bg mt-lg-4">
     <div class="container">
 
-        <h2 class="text-start mb-3 text-white">Social Media Marketing Agency with Proven Expertise </h2>
+        <h2 class="text-start mb-3 text-white">Social Media Marketing, Done Right </h2>
         <div class="row mb-md-3 mt-md-4">
             <div class="col-lg-8">
                 <p class="text-white fs-20 mb-3">As a premier digital marketing agency in Dubai, BrandStory harnesses the evolving power of social media to boost business growth. With 12+ years of hands-on expertise, we've evolved with leading platforms, staying ahead of trends to deliver optimized, measurable results for diverse clients. We are the top social media marketing agency in Dubai, combining data-driven strategies with creative excellence to create high-impact campaigns.</p>
