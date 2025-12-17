@@ -73,8 +73,19 @@ if (!function_exists('handleImageUpload')) {
     {
         $uploadPath = 'uploads/images/' . $folder . '/';
         $targetDir = __DIR__ . '/../../public/' . $uploadPath;
+
+        // Ensure directory exists
         if (!is_dir($targetDir)) {
-            mkdir($targetDir, 0755, true);
+            if (!mkdir($targetDir, 0755, true)) {
+                error_log("Failed to create directory: " . $targetDir);
+                return null;
+            }
+        }
+
+        // Validate file
+        if ($file['error'] !== UPLOAD_ERR_OK) {
+            error_log("Upload error code: " . $file['error']);
+            return null;
         }
 
         $fileName = time() . '_' . basename($file['name']);
@@ -85,7 +96,11 @@ if (!function_exists('handleImageUpload')) {
         if (in_array(strtolower($fileType), $allowTypes)) {
             if (move_uploaded_file($file['tmp_name'], $targetFilePath)) {
                 return $uploadPath . $fileName;
+            } else {
+                error_log("Failed to move uploaded file to: " . $targetFilePath);
             }
+        } else {
+            error_log("Invalid file type attempted: " . $fileType);
         }
         return null;
     }
