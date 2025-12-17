@@ -492,7 +492,7 @@
 <div class="sp-50 seo-expect-from">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-12">
                 <h2 class="mb-3">We Achieved 4x ROI with SEO campaigns</h2>
                 <p class="mb-3">Investing in SEO is more than just improving rankings, it is about driving measurable <a href="/seo-services-company-in-dubai/#SEO-campaign-highlights" style="color:#fff;text-decoration:underline;font-weight:700">business growth</a>. With strategic SEO, your business doesn’t just compete in Dubai, it dominates search results, attracts the right audience, and achieves real, trackable results that fuel growth.</p>
                 <ul>
@@ -504,7 +504,7 @@
                 </ul>
                 <p class="mb-3">BrandStory is Dubai's leading SEO agency, trusted by local brands to drive organic growth and online visibility.We combine data-driven strategies with creative execution to deliver measurable results and long-term success.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-12">
                 <div class="new-our-acivment-right-img">
 
                     <!-- Top Right: Save Big -->
@@ -1760,10 +1760,17 @@ include __DIR__ . '/../component/client_reviews.php';
         .new-our-acivment-right-img {
             display: flex;
             gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
 
             .icon-box {
-                width: 165px;
-                height: 165px;
+                width: 140px;
+                height: 140px;
+            }
+
+            svg {
+                width: 80px;
+                height: 80px;
             }
         }
     }
