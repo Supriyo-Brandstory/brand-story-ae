@@ -74,7 +74,7 @@ class FrontendController extends Controller
         $blog = $result[0];
 
         // Fetch related blogs (exclude current, limit 4)
-        $related_blogs = $blogModel->query("SELECT * FROM blogs WHERE slug != ? ORDER BY id DESC LIMIT 4", [$slug]);
+        $related_blogs = $blogModel->query("SELECT * FROM blogs WHERE slug != ? ORDER BY created_at DESC LIMIT 6", [$slug]);
 
         $meta = [
             'classname' => 'new-blogs-single-page'
