@@ -54,14 +54,23 @@ if (!function_exists('route')) {
 }
 
 if (!function_exists('generateUniqueSlug')) {
-    function generateUniqueSlug(string $text, object $modelInstance): string
+    function generateUniqueSlug(string $text, object $modelInstance, $excludeId = null): string
     {
         $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $text), '-'));
         $originalSlug = $slug;
         $counter = 1;
 
-        while ($modelInstance->query("SELECT COUNT(*) FROM {$modelInstance->getTableName()} WHERE slug = ?", [$slug])[0]['COUNT(*)'] > 0) {
+        $sql = "SELECT COUNT(*) FROM {$modelInstance->getTableName()} WHERE slug = ?";
+        $params = [$slug];
+
+        if ($excludeId) {
+            $sql .= " AND id != ?";
+            $params[] = $excludeId;
+        }
+
+        while ($modelInstance->query($sql, $params)[0]['COUNT(*)'] > 0) {
             $slug = $originalSlug . '-' . $counter++;
+            $params[0] = $slug; // Update param for next check, keep excludeId
         }
 
         return $slug;

@@ -1,5 +1,5 @@
 <main class="container-fluid py-4">
-  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 mb-0">
             <i class="bi bi-journal-plus text-primary me-2"></i> Create New Blog Post
         </h1>
@@ -23,6 +23,11 @@
                         <div class="mb-4">
                             <label for="title" class="form-label fw-semibold">Title</label>
                             <input type="text" class="form-control form-control-lg" id="title" name="title" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="created_at" class="form-label fw-semibold">Publish Date</label>
+                            <input type="datetime-local" class="form-control form-control-lg" id="created_at" name="created_at" value="<?= date('Y-m-d\TH:i') ?>">
                         </div>
 
                         <div class="mb-4">

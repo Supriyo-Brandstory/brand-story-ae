@@ -35,15 +35,23 @@
                                 required>
                         </div>
 
+                        <div class="mb-4">
+                            <label for="created_at" class="form-label fw-semibold">Publish Date</label>
+                            <input type="datetime-local"
+                                class="form-control form-control-lg"
+                                id="created_at"
+                                name="created_at"
+                                value="<?= isset($blog['created_at']) ? date('Y-m-d\TH:i', strtotime($blog['created_at'])) : date('Y-m-d\TH:i') ?>">
+                        </div>
+
                         <!-- Slug (Disabled) -->
                         <div class="mb-4">
                             <label for="slug" class="form-label fw-semibold">Slug</label>
                             <input type="text"
-                                class="form-control form-control-lg bg-light"
+                                class="form-control form-control-lg"
                                 id="slug"
                                 name="slug"
-                                value="<?= htmlspecialchars($blog['slug'] ?? '') ?>"
-                                disabled>
+                                value="<?= htmlspecialchars($blog['slug'] ?? '') ?>">
                             <div class="form-text text-muted">
                                 Slug is automatically generated from the title.
                             </div>

@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers\Admin;
 
 use App\Models\Blog;
@@ -19,7 +20,8 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
 
 
 
-    public function index() {
+    public function index()
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         // Fetch all blogs, possibly with their category names
         // For simplicity, let's fetch all blogs and then categories separately for display
@@ -40,7 +42,8 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         ]);
     }
 
-    public function create() {
+    public function create()
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         $blogCategories = $this->blogCategoryModel->findAll();
         return $this->adminView('blogs/create', [
@@ -48,7 +51,8 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         ]);
     }
 
-    public function store() {
+    public function store()
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         csrf_verify();
 
@@ -68,14 +72,17 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         // Handle Image Upload
         $imagePath = null;
         if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
-             $imagePath = handleImageUpload($_FILES['image'], 'blog');
+            $imagePath = handleImageUpload($_FILES['image'], 'blog');
         }
+
+        $created_at = !empty($_POST['created_at']) ? date('Y-m-d H:i:s', strtotime($_POST['created_at'])) : date('Y-m-d H:i:s');
 
         $data = [
             'title' => $title,
             'slug' => $slug,
             'description' => $description,
             'blog_category_id' => $blog_category_id,
+            'created_at' => $created_at,
             'image' => $imagePath
         ];
 
@@ -86,13 +93,15 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         exit;
     }
 
-    public function show($id) {
+    public function show($id)
+    {
         // Not typically used for admin resource management, redirect to edit or handle specifically if needed
         header('Location: ' . route('admin.blogs_admin.edit', ['id' => $id]));
         exit;
     }
 
-    public function edit($id) {
+    public function edit($id)
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         $blog = $this->blogModel->find($id);
         $blogCategories = $this->blogCategoryModel->findAll();
@@ -109,7 +118,8 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         ]);
     }
 
-    public function update($id) {
+    public function update($id)
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         csrf_verify();
 
@@ -131,27 +141,32 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
             exit;
         }
 
-        // Slug generation on update: only if title changes
-        $slug = $blog['slug']; // Keep existing slug by default
-        if ($title !== $blog['title']) {
-            $slug = generateUniqueSlug($title, $this->blogModel);
+        // Slug handling
+        $slugInput = trim($_POST['slug'] ?? '');
+        if (!empty($slugInput)) {
+            $slug = generateUniqueSlug($slugInput, $this->blogModel, $id);
+        } else {
+            // If slug is empty (cleared by user), regenerate from title
+            $slug = generateUniqueSlug($title, $this->blogModel, $id);
         }
 
         // Handle Image Upload
         $imagePath = $blog['image'] ?? null;
         if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
-             $newImage = handleImageUpload($_FILES['image'], 'blog');
-             if ($newImage) {
-                 // Delete old image if exists
-                 if (!empty($blog['image'])) {
-                     $oldImagePath = __DIR__ . '/../../../public/' . $blog['image'];
-                     if (file_exists($oldImagePath)) {
-                         unlink($oldImagePath);
-                     }
-                 }
-                 $imagePath = $newImage;
-             }
+            $newImage = handleImageUpload($_FILES['image'], 'blog');
+            if ($newImage) {
+                // Delete old image if exists
+                if (!empty($blog['image'])) {
+                    $oldImagePath = __DIR__ . '/../../../public/' . $blog['image'];
+                    if (file_exists($oldImagePath)) {
+                        unlink($oldImagePath);
+                    }
+                }
+                $imagePath = $newImage;
+            }
         }
+
+        $created_at = !empty($_POST['created_at']) ? date('Y-m-d H:i:s', strtotime($_POST['created_at'])) : $blog['created_at'];
 
         $data = [
             'id' => $id,
@@ -159,6 +174,7 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
             'slug' => $slug,
             'description' => $description,
             'blog_category_id' => $blog_category_id,
+            'created_at' => $created_at,
             'image' => $imagePath
         ];
 
@@ -169,7 +185,8 @@ class AdminBlogController extends AdminBaseController // Extend AdminBaseControl
         exit;
     }
 
-    public function destroy($id) {
+    public function destroy($id)
+    {
         $this->requireAdminAuth(); // Ensure admin is authenticated
         csrf_verify();
         // Remove debug lines
