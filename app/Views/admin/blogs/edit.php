@@ -2,7 +2,7 @@
     <!-- Page Title -->
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 mb-0">
-            <i class="bi bi-pencil-square text-warning me-2"></i> 
+            <i class="bi bi-pencil-square text-warning me-2"></i>
             Edit Blog Post: <strong><?= htmlspecialchars($blog['title'] ?? 'N/A') ?></strong>
         </h1>
         <a href="<?= route('admin.blogs.index') ?>" class="btn btn-secondary">
@@ -27,23 +27,23 @@
                         <!-- Blog Title -->
                         <div class="mb-4">
                             <label for="title" class="form-label fw-semibold">Title</label>
-                            <input type="text" 
-                                   class="form-control form-control-lg" 
-                                   id="title" 
-                                   name="title" 
-                                   value="<?= htmlspecialchars($blog['title'] ?? '') ?>" 
-                                   required>
+                            <input type="text"
+                                class="form-control form-control-lg"
+                                id="title"
+                                name="title"
+                                value="<?= htmlspecialchars($blog['title'] ?? '') ?>"
+                                required>
                         </div>
 
                         <!-- Slug (Disabled) -->
                         <div class="mb-4">
                             <label for="slug" class="form-label fw-semibold">Slug</label>
-                            <input type="text" 
-                                   class="form-control form-control-lg bg-light" 
-                                   id="slug" 
-                                   name="slug" 
-                                   value="<?= htmlspecialchars($blog['slug'] ?? '') ?>" 
-                                   disabled>
+                            <input type="text"
+                                class="form-control form-control-lg bg-light"
+                                id="slug"
+                                name="slug"
+                                value="<?= htmlspecialchars($blog['slug'] ?? '') ?>"
+                                disabled>
                             <div class="form-text text-muted">
                                 Slug is automatically generated from the title.
                             </div>
@@ -79,10 +79,10 @@
                         <!-- Description -->
                         <div class="mb-4">
                             <label for="description" class="form-label fw-semibold">Description</label>
-                            <textarea class="form-control rich-text-editor" 
-                                      id="description" 
-                                      name="description" 
-                                      rows="4"><?= htmlspecialchars($blog['description'] ?? '') ?></textarea>
+                            <textarea class="form-control rich-text-editor"
+                                id="description"
+                                name="description"
+                                rows="4"><?= htmlspecialchars($blog['description'] ?? '') ?></textarea>
                         </div>
 
                     </div>
