@@ -38,28 +38,28 @@
                         <div class="orbit">
                             <!-- Placeholder SEO tool icons (simple shapes representing tools) -->
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <circle cx="12" cy="12" r="10" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <circle cx="12" cy="12" r="10" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <rect x="4" y="4" width="16" height="16" rx="4" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <rect x="4" y="4" width="16" height="16" rx="4" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <path d="M12 2L2 22h20z" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <path d="M12 2L2 22h20z" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <path d="M12 2v20M2 12h20" stroke="#855BFF" stroke-width="3" />
+                                    <path d="M12 2v20M2 12h20" stroke="#845EF7" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <path d="M4 4h16v16H4z" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <path d="M4 4h16v16H4z" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <polygon points="12,2 22,8 22,16 12,22 2,16 2,8" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <polygon points="12,2 22,8 22,16 12,22 2,16 2,8" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10" stroke="#855BFF" fill="none" stroke-width="3" />
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10" stroke="#845EF7" fill="none" stroke-width="3" />
                                 </svg></div>
                             <div class="orbit-item"><svg viewBox="0 0 24 24">
-                                    <path d="M2 12h20M12 2v20" stroke="#855BFF" stroke-width="3" />
+                                    <path d="M2 12h20M12 2v20" stroke="#845EF7" stroke-width="3" />
                                 </svg></div>
                         </div>
                     </div>
@@ -115,8 +115,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">200%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">200%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -158,8 +158,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">150%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">150%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -201,8 +201,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">300%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">300%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -244,8 +244,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">200%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">200%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -287,8 +287,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">220%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">220%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -330,8 +330,8 @@
 
                                 <div class="row justify-content-between w-100">
                                     <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #855BFF;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#855BFF;font-weight:bold;">350%</p>
+                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
+                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">350%</p>
                                             <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
                                         </div>
                                     </div>
@@ -1722,7 +1722,7 @@ include __DIR__ . '/../component/client_reviews.php';
         .icon-box {
             width: 210px;
             height: 210px;
-            border: 5px solid #855BFF;
+            border: 5px solid #845EF7;
             border-radius: 25px;
             display: flex;
             align-items: center;
@@ -1733,13 +1733,13 @@ include __DIR__ . '/../component/client_reviews.php';
         }
 
         .icon-box.purple-bg {
-            background-color: #855BFF;
+            background-color: #845EF7;
         }
 
         svg {
             width: 100px;
             height: 100px;
-            fill: #855BFF;
+            fill: #845EF7;
         }
 
         .icon-box.purple-bg svg {
@@ -1747,7 +1747,7 @@ include __DIR__ . '/../component/client_reviews.php';
         }
 
         h5 {
-            color: #855BFF;
+            color: #845EF7;
             margin: 0 0 20px 0;
             line-height: 1.3;
             animation: fadeIn 2s ease-in;
@@ -1801,9 +1801,9 @@ include __DIR__ . '/../component/client_reviews.php';
         align-items: center;
         justify-content: center;
         font-size: 4rem;
-        color: #855BFF;
+        color: #845EF7;
         font-weight: bold;
-        border: 5px solid #855BFF;
+        border: 5px solid #845EF7;
         z-index: 2;
     }
 
@@ -1833,7 +1833,7 @@ include __DIR__ . '/../component/client_reviews.php';
     .orbit-item svg {
         width: 50px;
         height: 50px;
-        fill: #855BFF;
+        fill: #845EF7;
     }
 
     /* Fixed orbit positions using variable */
@@ -1909,6 +1909,7 @@ include __DIR__ . '/../component/client_reviews.php';
             height: 350px;
             max-width: 350px;
             --orbit-radius: -130px;
+            overflow: hidden;
         }
 
         .center {
