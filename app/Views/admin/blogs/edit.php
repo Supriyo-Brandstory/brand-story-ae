@@ -92,7 +92,7 @@
                             Cancel
                         </a>
                         <button type="submit" class="btn btn-warning px-4">
-                            <i class="bi bi-check2 me-1"></i> Update
+                            <i class="bi bi-check2 me-1"></i> Update Now
                         </button>
                     </div>
                 </form>
