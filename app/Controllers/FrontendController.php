@@ -53,7 +53,7 @@ class FrontendController extends Controller
             $params[] = $categorySlug;
         }
 
-        $sql .= " ORDER BY b.id DESC";
+        $sql .= " ORDER BY b.created_at DESC";
 
         $blogs = $blogModel->query($sql, $params);
         $categories = $categoryModel->findAll();
@@ -73,12 +73,15 @@ class FrontendController extends Controller
 
         $blog = $result[0];
 
+        // Fetch related blogs (exclude current, limit 4)
+        $related_blogs = $blogModel->query("SELECT * FROM blogs WHERE slug != ? ORDER BY id DESC LIMIT 4", [$slug]);
+
         $meta = [
             'classname' => 'new-blogs-single-page'
 
         ];
 
-        return $this->view('blogs/blog-details', ['meta' => $meta, 'blog' => $blog]);
+        return $this->view('blogs/blog-details', ['meta' => $meta, 'blog' => $blog, 'related_blogs' => $related_blogs]);
     }
 
     public function services()

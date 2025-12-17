@@ -42,6 +42,42 @@
     </div>
 </section>
 
+<!-- Related Blogs Section -->
+<section class="latest--blogs blog-listings sp-50 dm-bg">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center text-md-start text-white mb-5">Related Blogs</h2>
+        <div class="row gy-4 gy-md-5 gx-lg-5 align-items-stretch"><!--Row Start-->
+            <?php if (!empty($related_blogs)): ?>
+                <?php foreach ($related_blogs as $related_blog): ?>
+                    <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
+                        <div class="blog-box">
+                            <div class="blog-box-img">
+                                <?php if (!empty($related_blog['image'])): ?>
+                                    <img src="<?= base_url($related_blog['image']) ?>" class="img-fluid" alt="<?= htmlspecialchars($related_blog['title']) ?>">
+                                <?php else: ?>
+                                    <img src="<?= base_url('assets/images/blog/default.jpg') ?>" class="img-fluid" alt="Default Blog Image">
+                                <?php endif; ?>
+                            </div>
+                            <div class="blog-box-txt">
+                                <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
+                                <h6>
+                                    <a href="<?= route('blogs.show', ['slug' => $related_blog['slug']]) ?>" style="text-decoration:none;color:#000">
+                                        <?= htmlspecialchars($related_blog['title']) ?>
+                                    </a>
+                                </h6>
+                                <p><?= htmlspecialchars(substr(strip_tags($related_blog['description']), 0, 150)) ?>...</p>
+                                <div class="blog-box-link">
+                                    <a href="<?= route('blogs.show', ['slug' => $related_blog['slug']]) ?>">Read more</a>
+                                </div>
+                            </div>
+                        </div><!--box end-->
+                    </div>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
+
 <!-- Script for sticky nav -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {

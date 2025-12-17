@@ -529,21 +529,6 @@
                         <h5>Improved 4x<br>Revenue</h5>
                     </div>
 
-                    <!-- Bottom Right: Page One -->
-                    <div class="section">
-                        <div class="icon-box">
-                            <!-- Browser window with upward rank arrow -->
-                            <svg viewBox="0 0 24 24">
-                                <rect x="3" y="4" width="18" height="16" rx="2" stroke="#855BFF" fill="none" stroke-width="2" />
-                                <circle cx="6" cy="8" r="1" fill="#855BFF" />
-                                <circle cx="9" cy="8" r="1" fill="#855BFF" />
-                                <circle cx="12" cy="8" r="1" fill="#855BFF" />
-                                <path d="M6 12h12M6 16h8" stroke="#855BFF" stroke-width="2" />
-                                <polyline points="14,14 16,12 18,16" stroke="#855BFF" stroke-width="3" fill="none" />
-                            </svg>
-                        </div>
-                        <h5>Get Found on<br>Page One</h5>
-                    </div>
                 </div>
             </div>
         </div>
@@ -551,42 +536,85 @@
     <!-- <div class="gredientdiv-seo"></div> -->
 </div>
 
-<div class="sp-50 container SEO-Why-We-are">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Why BrandStory Leads the Way <br>Among Top SEO Agencies in Dubai</h2>
-    <div class="row">
-        <div class="col-lg-5 col-12">
-            <div class="box justify-content-center d-flex flex-column" style="background-image: url('/assets/images/new-seo/seo-why-bg-1.webp')">
-                <h3>Dubai’s Market Expertise</h3>
-                <p>We understand the pulse of Dubai’s market from new startups to global luxury brands. Our SEO strategies are crafted to connect your business with local audience and create global impact. With a deep understanding of local audience, competition, and cultural trends, we design campaigns that truly resonate in Dubai.</p>
+<section class="dm-whychoose-sec sp-50  dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-lg-2 mb-4 text-md-start text-center">Why Choose BrandStory for SEO in Dubai</h2>
+        <p class="text-white fs-20 mb-lg-4">With an abundance of self-acclaimed SEO agencies in Dubai who don't deliver to your expectations. We are a realistic solution-based SEO agency trusted by 100+ businesses. Here’s what makes us the best:</p>
+        <div class="row">
+            <div class="col-lg-5">
+                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/whychoose-mbl.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
             </div>
-        </div>
-        <div class="col-lg-7 col-12">
-            <div class="box justify-content-end d-flex flex-column black-opacity" style="background-image: url('/assets/images/new-seo/seo-why-bg-2.webp')">
-                <h3>Performance-Driven SEO</h3>
-                <p>We focus on going beyond the vanity metrics when it comes to performance-driven SEO. At <a href="/" style="text-decoration:underline; color:#fff">BrandStory</a>, we craft digital journeys that turn visibility into real engagement and brings measurable revenue growth. As the most reputable SEO agency we aim to drive long-term gains for your business. </p>
-            </div>
-        </div>
-        <div class="col-lg-7 col-12">
-            <div class="box justify-content-end d-flex flex-column black-opacity" style="background-image: url('/assets/images/new-seo/seo-why-bg-3.webp')">
-                <h3>Proven Multi-Industry Portfolio</h3>
-                <p>Our portfolio spans real estate, hospitality, healthcare, and eCommerce for businesses of all size. Whatever your niche, we’ve delivered results in Dubai’s most competitive industries. This multi-industry expertise allows us to replicate SEO success while customizing solutions for every brand we work with.</p>
-            </div>
-        </div>
-        <div class="col-lg-5 col-12">
-            <div class="box justify-content-center d-flex flex-column" style="background-image: url('/assets/images/new-seo/seo-why-bg-1.webp')">
-                <h3>Transparent Reporting </h3>
-                <p>We believe that clarity builds trust, so our reporting is simple and detailed with actionable insights. From traffic trends and keyword ranking to lead generation and ROI, every key metric is tracked and shared with clients. With 100% transparency in reporting, you stay in control of your digital growth at every stage. </p>
-            </div>
-        </div>
-        <div class="col-lg-12 col-12">
-            <div class="box justify-content-end d-flex flex-column black-opacity" style="background-image: url('/assets/images/new-seo/seo-why-bg-4.webp')">
-                <h3>Sustainable Approach for Growth</h3>
-                <p>We don’t believe in shortcuts or quick-fix tactics; we focus on long-term growth. Our strategies are built around your brand with ethical practcies, Google’s guidelines, and the latest digital trends. By focusing on brand authority, customer trust, and a future-proof approach, we create a foundation for lasting success.</p>
+            <div class="col-lg-7">
+                <div class="whychoose-faq">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Dubai’s Market Expertise
+                                </button>
+                            </h4>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">We understand the pulse of Dubai’s market from new startups to global luxury brands. Our SEO strategies are crafted to connect your business with local audiences and create global impact. With a deep understanding of local audience, competition, and cultural trends, we create campaigns that truly resonate.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Performance-Driven SEO
+                                </button>
+                            </h4>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">We focus on going beyond the vanity metrics when it comes to performance-driven SEO. At BrandStory, we craft digital journeys that turn visibility into real engagement and bring measurable revenue growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Proven Multi-Industry Portfolio
+                                </button>
+                            </h4>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">Our portfolio spans real estate, hospitality, healthcare, and eCommerce for businesses of all sizes. Whatever your niche, we’ve delivered results in Dubai’s most competitive industries. This multi-industry expertise allows us to replicate SEO success.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Transparent Reporting
+                                </button>
+                            </h4>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">We believe that clarity builds trust, so our reporting is simple and detailed with actionable insights. From traffic trends and keyword ranking to lead generation and ROI, every key metric is tracked and shared with clients. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    Sustainable Approach for Growth
+                                </button>
+                            </h4>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">We don’t believe in shortcuts or quick-fix tactics; we focus on long-term growth. Our strategies are built around your brand with ethical practices, Google’s guidelines, and the latest digital trends. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-</div>
+</section>
 <section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
         <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">12+ Years of Experience in<br>
@@ -1692,8 +1720,8 @@ include __DIR__ . '/../component/client_reviews.php';
 
 
         .icon-box {
-            width: 120px;
-            height: 120px;
+            width: 210px;
+            height: 210px;
             border: 5px solid #855BFF;
             border-radius: 25px;
             display: flex;
@@ -1709,8 +1737,8 @@ include __DIR__ . '/../component/client_reviews.php';
         }
 
         svg {
-            width: 70px;
-            height: 70px;
+            width: 100px;
+            height: 100px;
             fill: #855BFF;
         }
 
@@ -1724,6 +1752,19 @@ include __DIR__ . '/../component/client_reviews.php';
             line-height: 1.3;
             animation: fadeIn 2s ease-in;
             font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .new-our-acivment-right-img {
+            display: flex;
+            gap: 10px;
+
+            .icon-box {
+                width: 165px;
+                height: 165px;
+            }
         }
     }
 </style>
@@ -1735,8 +1776,8 @@ include __DIR__ . '/../component/client_reviews.php';
         position: relative;
         width: 100%;
         max-width: 700px;
-        height: 700px;
-        margin: 40px auto;
+        height: 670px;
+        margin: 0px auto;
         --orbit-radius: -250px;
     }
 
