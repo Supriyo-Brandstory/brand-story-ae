@@ -45,12 +45,12 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
             $payload = [
                 'admin_id' => $admin['id'],
                 'admin_name' => $admin['name'],
-                'exp' => time() + 3600
+                'exp' => time() + 86400
             ];
 
             $jwt = JWT::encode($payload, $this->jwtKey, 'HS256');
 
-            setcookie('admin_token', $jwt, time() + 3600, '/', '', false, true);
+            setcookie('admin_token', $jwt, time() + 86400, '/', '', false, true);
 
             if (isset($_SESSION['redirect_url'])) {
                 $redirect = $_SESSION['redirect_url'];
