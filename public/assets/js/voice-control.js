@@ -13,9 +13,22 @@ document.addEventListener('DOMContentLoaded', () => {
     recognition.lang = 'en-US';
     recognition.interimResults = false;
 
+    // specific check for Chrome on HTTP
+    const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    const isSecure = window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+    if (isChrome && !isSecure) {
+        console.warn('Chrome requires HTTPS for voice recognition.');
+    }
+
     let isListening = false;
 
     btn.addEventListener('click', () => {
+        if (isChrome && !isSecure) {
+            alert('Google Chrome requires a secure (HTTPS) connection to access the microphone. Please reload the page using "https://" or use a different browser.');
+            return;
+        }
+
         if (isListening) {
             recognition.stop();
         } else {
