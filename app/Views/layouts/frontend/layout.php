@@ -20,6 +20,7 @@ if ($seoData) {
     <title><?= htmlspecialchars($meta['title'] ?? 'BrandStoryAE') ?></title>
     <meta name="description" content="<?= htmlspecialchars($meta['description'] ?? '') ?>">
     <link rel="canonical" href="<?php echo $canonical ?? ''; ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.png') ?>">
 
     <?php if (!empty($seoData['other_script_or_tag'])): ?>
         <!-- Dynamic SEO Scripts/Tags -->
@@ -27,7 +28,7 @@ if ($seoData) {
         <!-- End Dynamic SEO Scripts/Tags -->
     <?php endif; ?>
 
-    <link rel="preconnect" href="https://rec.smartlook.com">
+    <link rel=" preconnect" href="https://rec.smartlook.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://www.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
