@@ -419,7 +419,9 @@
                 <p class="text-white fs-20 mb-5">With over 11 million social media users in the UAE, a vibrant presence is non-negotiable. Social media is the fastest way to reach and engage your audience with your business. We are a dynamic team of experts crafting scroll-stopping content, boosts engagement, and builds authentic customer connections. Partner with BrandStory, Dubai's trusted social media marketing company, to reinvent your digital identity, drive traffic, and achieve standout success.</p>
             </div>
             <div class="col-lg-4 d-none d-lg-block">
-                <img style="height: 375px; width: 100%; object-fit: cover; border-radius: 20px;" src="<?= base_url('assets/images/socialmedia-protfolio/insta-image.png') ?>" alt="Social Media Creative Design for Our Client" class="img-fluid">
+                <img src="<?= base_url('assets/images/socialmedia-protfolio/insta-image.png') ?>"
+                    alt="Social Media Creative Design for Our Client"
+                    class="img-fluid spin-on-hover">
             </div>
         </div>
     </div>

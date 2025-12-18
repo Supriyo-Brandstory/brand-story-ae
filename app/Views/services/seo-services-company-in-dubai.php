@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-12">
 
-                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-seo/seo-banner-mobile-1.webp">
+                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-seo/seo-banner-mobile-2x.webp">
                                 <h1 class="mb-4 text-white">Top SEO Agency in Dubai for Best
 
                                     <span class="db">SEO Services- BrandStory UAE</span>

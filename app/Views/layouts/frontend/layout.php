@@ -60,7 +60,6 @@ if ($seoData) {
     <meta name="audience" content="all">
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
     <!--CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?key=' . time()) ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
@@ -69,7 +68,7 @@ if ($seoData) {
     <link href="<?= base_url('assets/css/global.css?key=' . time()) ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/style.css?v=1.7') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/style.css?v=1.8') ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
         integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />

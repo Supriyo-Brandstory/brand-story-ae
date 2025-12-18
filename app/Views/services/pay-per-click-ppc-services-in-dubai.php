@@ -14,53 +14,10 @@
         </div>
     </div>
 </section>
-<section class="sp-50 bg-white">
-    <div class="container">
-        <h2 class="text-center mb-5">Our Valueable Clients</h2>
-    </div>
-    <div class="swiper brandlogo2 mt-3" data-aos="fade-up">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo1.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo2.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo3.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo4.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo5.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo6.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo7.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo8.svg?v=1" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
     </div>
 </section>
 <section class="vidsec">
@@ -342,7 +299,7 @@
         </div>
     </div>
 </section>
-<section class="bg-white spt-50"></section>
+<!-- <section class="bg-white spt-50"></section> -->
 
 
 <section class="dm-blog-section spb-50 adwords-campaign-bg">
