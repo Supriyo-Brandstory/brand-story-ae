@@ -236,111 +236,59 @@ if ($seoData) {
     </style>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const voiceBtn = document.getElementById('voice-command-btn');
+        const voiceBtn = document.getElementById('voice-command-btn');
 
-            // 1. Check for Browser Support
-            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-            if (!SpeechRecognition) {
-                console.warn('Voice Command: Speech Recognition API not supported in this browser.');
-                voiceBtn.style.display = 'none';
-                return;
-            }
+        if (!SpeechRecognition) {
+            alert("Voice command is not supported in this browser.");
+        }
 
-            // 2. Check for Secure Context (HTTPS or localhost)
-            // Chrome/Edge block microphone content on insecure origins.
-            if (!window.isSecureContext) {
-                console.warn('Voice Command: Feature disabled. Requires a secure context (HTTPS) or localhost.');
-                voiceBtn.addEventListener('click', function() {
-                    alert("Voice commands require a secure connection (HTTPS). Please access this site via https:// or localhost.");
-                });
-                // Optional: Visually indicate it's disabled if you want, or just let the alert handle it.
-                return;
-            }
+        const recognition = new SpeechRecognition();
+        recognition.lang = 'en-US';
+        recognition.continuous = false;
+        recognition.interimResults = false;
 
-            const recognition = new SpeechRecognition();
-            recognition.continuous = false; // Stop after one command for simplicity
-            recognition.lang = 'en-US';
-            recognition.interimResults = false;
-            recognition.maxAlternatives = 1;
-
-            let isListening = false;
-
-            voiceBtn.addEventListener('click', function() {
-                if (isListening) {
-                    recognition.stop();
-                } else {
-                    try {
-                        recognition.start();
-                    } catch (e) {
-                        console.error("Failed to start recognition:", e);
-                        // If already started, stop it first (edge case)
-                        recognition.stop();
-                    }
-                }
-            });
-
-            recognition.onstart = function() {
-                isListening = true;
-                voiceBtn.classList.add('listening');
-                console.log('Voice Command: Listening...');
-            };
-
-            recognition.onend = function() {
-                isListening = false;
-                voiceBtn.classList.remove('listening');
-                console.log('Voice Command: Stopped listening.');
-            };
-
-            recognition.onresult = function(event) {
-                // Confidence check could be added here
-                const speechResult = event.results[0][0].transcript;
-                console.log('Voice Command Recognized:', speechResult);
-                handleVoiceCommand(speechResult);
-            };
-
-            recognition.onerror = function(event) {
-                isListening = false;
-                voiceBtn.classList.remove('listening');
-                console.error('Voice Command Error:', event.error);
-
-                if (event.error === 'not-allowed') {
-                    alert('Microphone access blocked. \n\n1. Click the lock icon in your URL bar.\n2. Allow Microphone access.\n3. Reload the page.');
-                } else if (event.error === 'no-speech') {
-                    // User didn't say anything, just ignore
-                } else if (event.error === 'network') {
-                    alert('Voice recognition requires an internet connection.');
-                } else {
-                    // Other errors: audio-capture, service-not-allowed, etc.
-                    // alert('Voice command error: ' + event.error);
-                }
-            };
-
-            function handleVoiceCommand(command) {
-                command = command.toLowerCase().trim();
-
-                // --- Navigation Logic ---
-                if (command.includes('home') || command === 'go home') {
-                    window.location.href = '/';
-                } else if (command.includes('about')) {
-                    window.location.href = '/about/';
-                } else if (command.includes('services')) {
-                    // matches "services", "our services", "navigate to services"
-                    window.location.href = '/services/';
-                } else if (command.includes('contact')) {
-                    window.location.href = '/contact/';
-                } else if (command.includes('call')) {
-                    window.location.href = 'tel:+971522831655';
-                } else if (command.includes('blog')) { // Added blog
-                    window.location.href = '/blog/';
-                } else {
-                    // Optional: Visual feedback for unknown command
-                    // alert('Unknown command: ' + command);
-                }
-            }
+        voiceBtn.addEventListener('click', () => {
+            recognition.start();
+            voiceBtn.classList.add('active');
         });
+
+        recognition.onresult = function(event) {
+            const command = event.results[0][0].transcript.toLowerCase();
+            console.log("Voice Command:", command);
+            handleVoiceCommand(command);
+        };
+
+        recognition.onend = function() {
+            voiceBtn.classList.remove('active');
+        };
+
+        function handleVoiceCommand(command) {
+
+            // PAGE NAVIGATION
+            if (command.includes("about")) {
+                window.location.href = "/about";
+            } else if (command.includes("service")) {
+                window.location.href = "/services";
+            } else if (command.includes("contact")) {
+                window.location.href = "/contact";
+            }
+
+            // CALL NOW
+            else if (command.includes("call")) {
+                window.location.href = "tel:+971XXXXXXXX";
+            }
+
+            // HOME
+            else if (command.includes("home")) {
+                window.location.href = "/";
+            } else {
+                alert("Sorry, command not recognized.");
+            }
+        }
     </script>
+
 </body>
 
 </html>
