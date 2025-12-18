@@ -179,7 +179,6 @@ if ($seoData) {
         <i class="ion-mic-a"></i>
     </div>
 
-
     <style>
         .voice-command-btn {
             position: fixed;
@@ -235,66 +234,6 @@ if ($seoData) {
             }
         }
     </style>
-    <script>
-        const voiceBtn = document.getElementById('voice-command-btn');
-
-        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-
-        if (!SpeechRecognition) {
-            alert("Voice command is not supported in this browser. Use Chrome.");
-        }
-
-        const recognition = new SpeechRecognition();
-        recognition.lang = 'en-US';
-        recognition.continuous = false;
-        recognition.interimResults = false;
-
-        // CLICK EVENT
-        voiceBtn.addEventListener('click', () => {
-            try {
-                recognition.start();
-            } catch (e) {
-                console.log("Recognition already started");
-            }
-        });
-
-        // MIC STARTED
-        recognition.onstart = () => {
-            voiceBtn.classList.add('listening');
-            console.log("Voice recognition started");
-        };
-
-        // RESULT
-        recognition.onresult = (event) => {
-            const command = event.results[0][0].transcript.toLowerCase();
-            console.log("Voice Command:", command);
-            handleVoiceCommand(command);
-        };
-
-        // MIC STOPPED
-        recognition.onend = () => {
-            voiceBtn.classList.remove('listening');
-            console.log("Voice recognition stopped");
-        };
-
-        // COMMAND HANDLER
-        function handleVoiceCommand(command) {
-
-            if (command.includes("about")) {
-                window.location.href = "/about";
-            } else if (command.includes("service")) {
-                window.location.href = "/services";
-            } else if (command.includes("contact")) {
-                window.location.href = "/contact";
-            } else if (command.includes("call")) {
-                window.location.href = "tel:+971XXXXXXXX";
-            } else if (command.includes("home")) {
-                window.location.href = "/";
-            } else {
-                alert("Sorry, command not recognized: " + command);
-            }
-        }
-    </script>
 
 
 </body>
