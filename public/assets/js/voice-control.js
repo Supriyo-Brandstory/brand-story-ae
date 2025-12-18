@@ -46,6 +46,15 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Speech recognition error detected: ' + event.error);
         isListening = false;
         btn.classList.remove('listening');
+
+        if (event.error === 'not-allowed') {
+            alert('Microphone access was denied. Please allow microphone access in your browser settings to use voice commands. If you are on a non-secure connection (HTTP), try using HTTPS or localhost.');
+        } else if (event.error === 'no-speech') {
+            // Ignore no-speech errors as they just mean silence
+            return;
+        } else {
+            alert('Error: ' + event.error);
+        }
     };
 
     recognition.onresult = (event) => {
