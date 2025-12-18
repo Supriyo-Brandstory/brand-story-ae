@@ -1754,6 +1754,21 @@ include __DIR__ . '/../component/client_reviews.php';
             font-weight: bold;
             font-size: 20px;
         }
+
+
+
+    }
+
+    @keyframes pulse {
+
+        0%,
+        100% {
+            box-shadow: 0 0 20px #855BFF;
+        }
+
+        50% {
+            box-shadow: 0 0 60px #855BFF;
+        }
     }
 
     @media (max-width: 768px) {
