@@ -31,6 +31,17 @@ class FrontendController extends Controller
         return $this->view('about', ['meta' => $meta]);
     }
 
+    public function clearCache()
+    {
+        // Execute the command via CLI
+        $output = shell_exec('php ' . __DIR__ . '/../../command cache:clean');
+
+        // Return JSON response for the frontend
+        header('Content-Type: application/json');
+        echo json_encode(['status' => 'success', 'message' => trim($output)]);
+        exit;
+    }
+
     public function contat()
     {
         $meta = [

@@ -36,6 +36,7 @@ Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpr
 Route::get('/magento-website-development-dubai', 'FrontendController@megentoWebsiteDevelopmentDubai', 'megentowebsitedevelopmentdubai');
 Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai', 'durpalwebsitedevelopmentcompanyindubai');
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
+Route::get('/clear-cache', 'FrontendController@clearCache', 'clear.cache');
 
 // industries
 Route::group(['prefix' => '/industries'], function () {

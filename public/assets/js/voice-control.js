@@ -101,6 +101,17 @@ document.addEventListener('DOMContentLoaded', () => {
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
         } else if (command.includes('scroll to top')) {
             window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else if (command.includes('clear cache') || command.includes('clean cache')) {
+            fetch(baseUrl + '/clear-cache')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.message);
+                    location.reload(true);
+                })
+                .catch(err => {
+                    console.error('Error clearing cache:', err);
+                    location.reload(true);
+                });
         }
 
         else {
