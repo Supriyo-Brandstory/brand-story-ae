@@ -237,6 +237,7 @@ if ($seoData) {
     </style>
 
 
+    <script src="<?= base_url('assets/js/voice-control.js?v=' . time()) ?>"></script>
 </body>
 
 </html>
