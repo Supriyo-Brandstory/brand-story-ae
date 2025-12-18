@@ -173,6 +173,139 @@ if ($seoData) {
 
     </div>
 
+    <!-- Voice Command Floating Button -->
+    <div id="voice-command-btn" class="voice-command-btn">
+        <div class="voice-waves"></div>
+        <i class="ion-mic-a"></i>
+    </div>
+
+    <style>
+        .voice-command-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 9999;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .voice-command-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .voice-command-btn i {
+            color: white;
+            font-size: 24px;
+        }
+
+        .voice-command-btn.listening .voice-waves {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: translate(-50%, -50%) scale(0.5);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translate(-50%, -50%) scale(2.5);
+                opacity: 0;
+            }
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const voiceBtn = document.getElementById('voice-command-btn');
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+            if (SpeechRecognition) {
+                const recognition = new SpeechRecognition();
+                recognition.continuous = false;
+                recognition.lang = 'en-US';
+                recognition.interimResults = false;
+
+                voiceBtn.addEventListener('click', function() {
+                    if (voiceBtn.classList.contains('listening')) {
+                        recognition.stop();
+                    } else {
+                        recognition.start();
+                    }
+                });
+
+                recognition.onstart = function() {
+                    voiceBtn.classList.add('listening');
+                    console.log('Voice recognition started. Speak now.');
+                };
+
+                recognition.onend = function() {
+                    voiceBtn.classList.remove('listening');
+                    console.log('Voice recognition ended.');
+                };
+
+                recognition.onresult = function(event) {
+                    const transcript = event.results[0][0].transcript.toLowerCase().trim();
+                    console.log('You said: ', transcript);
+                    handleVoiceCommand(transcript);
+                };
+
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error', event.error);
+                    voiceBtn.classList.remove('listening');
+                    if (event.error === 'not-allowed') {
+                        alert('Microphone access is not allowed. Please enable microphone permissions in your browser settings for this site. Note: Voice features may require HTTPS.');
+                    } else if (event.error === 'no-speech') {
+                        // Ignore no-speech errors, just stop listening visual
+                    } else {
+                        alert('Error occurred in recognition: ' + event.error);
+                    }
+                };
+
+                function handleVoiceCommand(command) {
+                    // Normalize command
+                    command = command.toLowerCase();
+
+                    if (command.includes('home') || command === 'go home') {
+                        window.location.href = '/';
+                    } else if (command.includes('about') || command.includes('about us')) {
+                        window.location.href = '/about/';
+                    } else if (command.includes('services') || command.includes('our services')) {
+                        window.location.href = '/services/';
+                    } else if (command.includes('contact') || command.includes('contact us')) {
+                        window.location.href = '/contact/';
+                    } else if (command.includes('call now') || command.includes('call')) {
+                        window.open('tel:+971522831655', '_self');
+                    } else {
+                        alert('Command not recognized: "' + command + '"');
+                    }
+                }
+            } else {
+                console.log('Speech Recognition Not Supported');
+                voiceBtn.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 
 </html>
