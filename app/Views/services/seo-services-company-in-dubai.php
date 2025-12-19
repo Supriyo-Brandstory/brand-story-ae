@@ -1707,299 +1707,63 @@ include __DIR__ . '/../component/client_reviews.php';
             </div>
         </div>
     </div>
-</section>
 
-<style>
-    .new-our-acivment-right-img {
-        .section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-
-        .icon-box {
-            width: 210px;
-            height: 210px;
-            border: 5px solid #845EF7;
-            border-radius: 25px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            animation: pulse 4s infinite ease-in-out;
-            background-color: rgba(133, 91, 255, 0.1);
-        }
-
-        .icon-box.purple-bg {
-            background-color: #845EF7;
-        }
-
-        svg {
-            width: 100px;
-            height: 100px;
-            fill: #845EF7;
-        }
-
-        .icon-box.purple-bg svg {
-            fill: #000000;
-        }
-
-        h5 {
-            color: #845EF7;
-            margin: 0 0 20px 0;
-            line-height: 1.3;
-            animation: fadeIn 2s ease-in;
-            font-weight: bold;
-            font-size: 20px;
-        }
-
-
-
-    }
-
-    @keyframes pulse {
-
-        0%,
-        100% {
-            box-shadow: 0 0 20px #855BFF;
-        }
-
-        50% {
-            box-shadow: 0 0 60px #855BFF;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .new-our-acivment-right-img {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            justify-content: center;
-
-            .icon-box {
-                width: 140px;
-                height: 140px;
+    <script>
+        const descriptions = {
+            gsc: {
+                title: "Google Search Console",
+                text: "We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results."
+            },
+            gds: {
+                title: "Google Data Studio",
+                text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
+            },
+            ga: {
+                title: "Google Analytics",
+                text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
+            },
+            semrush: {
+                title: "SemRush",
+                text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
+            },
+            surfer: {
+                title: "Surfer SEO",
+                text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
+            },
+            "screaming-frog": {
+                title: "Screaming Frog",
+                text: "We use Screaming Frog to perform website audits by crawling your site to identify SEO issues like broken links, duplicate content, and missing metadata."
+            },
+            contentpace: {
+                title: "Contentpace",
+                text: "We use Contentpace for content planning and optimization by providing keyword insights, content gaps, and competitor analysis to create high-performing content strategies for SEO in Dubai. "
+            },
+            ahrefs: {
+                title: "Ahrefs",
+                text: "Ahrefs empowers us with powerful SEO tools for keyword research, backlink analysis, competitor tracking, and site audits."
+            },
+            "google-tag-manager": {
+                title: "Google Tag Manager",
+                text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
+            },
+            Moz: {
+                title: "Moz",
+                text: "We use Moz for domain authority analysis, quality backlinks analysis, and tracking your website’s SEO health to help improve your site’s credibility on search engines. "
             }
+        };
 
-            svg {
-                width: 80px;
-                height: 80px;
-            }
-        }
-    }
-</style>
+        const cards = document.querySelectorAll('.tool-card');
+        const descBox = document.getElementById('tool-description');
 
-
-<style>
-    /* Orbit Section */
-    .orbit-section {
-        position: relative;
-        width: 100%;
-        max-width: 700px;
-        height: 670px;
-        margin: 0px auto;
-        --orbit-radius: -250px;
-    }
-
-    .center {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: rgba(133, 91, 255, 0.2);
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 4rem;
-        color: #845EF7;
-        font-weight: bold;
-        border: 5px solid #845EF7;
-        z-index: 2;
-    }
-
-    .orbit {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        animation: rotate 50s linear infinite;
-    }
-
-    .orbit-item {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 80px;
-        height: 80px;
-        background: #222;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 25px rgba(133, 91, 255, 0.5);
-    }
-
-    .orbit-item svg {
-        width: 50px;
-        height: 50px;
-        fill: #845EF7;
-    }
-
-    /* Fixed orbit positions using variable */
-    .orbit-item:nth-child(1) {
-        transform: translate(-50%, -50%) rotate(0deg) translateY(var(--orbit-radius)) rotate(-0deg);
-    }
-
-    .orbit-item:nth-child(2) {
-        transform: translate(-50%, -50%) rotate(45deg) translateY(var(--orbit-radius)) rotate(-45deg);
-    }
-
-    .orbit-item:nth-child(3) {
-        transform: translate(-50%, -50%) rotate(90deg) translateY(var(--orbit-radius)) rotate(-90deg);
-    }
-
-    .orbit-item:nth-child(4) {
-        transform: translate(-50%, -50%) rotate(135deg) translateY(var(--orbit-radius)) rotate(-135deg);
-    }
-
-    .orbit-item:nth-child(5) {
-        transform: translate(-50%, -50%) rotate(180deg) translateY(var(--orbit-radius)) rotate(-180deg);
-    }
-
-    .orbit-item:nth-child(6) {
-        transform: translate(-50%, -50%) rotate(225deg) translateY(var(--orbit-radius)) rotate(-225deg);
-    }
-
-    .orbit-item:nth-child(7) {
-        transform: translate(-50%, -50%) rotate(270deg) translateY(var(--orbit-radius)) rotate(-270deg);
-    }
-
-    .orbit-item:nth-child(8) {
-        transform: translate(-50%, -50%) rotate(315deg) translateY(var(--orbit-radius)) rotate(-315deg);
-    }
-
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    /* Responsive */
-    @media (max-width: 1024px) {
-        .orbit-section {
-            height: 500px;
-            max-width: 500px;
-            --orbit-radius: -200px;
-        }
-
-        .center {
-            width: 150px;
-            height: 150px;
-            font-size: 3rem;
-        }
-
-        .orbit-item {
-            width: 60px;
-            height: 60px;
-        }
-
-        .orbit-item svg {
-            width: 40px;
-            height: 40px;
-        }
-    }
-
-    @media (max-width: 640px) {
-        .orbit-section {
-            height: 350px;
-            max-width: 350px;
-            --orbit-radius: -130px;
-            overflow: hidden;
-        }
-
-        .center {
-            width: 100px;
-            height: 100px;
-            font-size: 2rem;
-        }
-
-        .orbit-item {
-            width: 50px;
-            height: 50px;
-        }
-
-        .orbit-item svg {
-            width: 30px;
-            height: 30px;
-        }
-    }
-</style>
-<script>
-    const descriptions = {
-        gsc: {
-            title: "Google Search Console",
-            text: "We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results."
-        },
-        gds: {
-            title: "Google Data Studio",
-            text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
-        },
-        ga: {
-            title: "Google Analytics",
-            text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
-        },
-        semrush: {
-            title: "SemRush",
-            text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
-        },
-        surfer: {
-            title: "Surfer SEO",
-            text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
-        },
-        "screaming-frog": {
-            title: "Screaming Frog",
-            text: "We use Screaming Frog to perform website audits by crawling your site to identify SEO issues like broken links, duplicate content, and missing metadata."
-        },
-        contentpace: {
-            title: "Contentpace",
-            text: "We use Contentpace for content planning and optimization by providing keyword insights, content gaps, and competitor analysis to create high-performing content strategies for SEO in Dubai. "
-        },
-        ahrefs: {
-            title: "Ahrefs",
-            text: "Ahrefs empowers us with powerful SEO tools for keyword research, backlink analysis, competitor tracking, and site audits."
-        },
-        "google-tag-manager": {
-            title: "Google Tag Manager",
-            text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
-        },
-        Moz: {
-            title: "Moz",
-            text: "We use Moz for domain authority analysis, quality backlinks analysis, and tracking your website’s SEO health to help improve your site’s credibility on search engines. "
-        }
-    };
-
-    const cards = document.querySelectorAll('.tool-card');
-    const descBox = document.getElementById('tool-description');
-
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            cards.forEach(c => c.classList.remove('active'));
-            card.classList.add('active');
-            const key = card.getAttribute('data-tool');
-            descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                cards.forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+                const key = card.getAttribute('data-tool');
+                descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
+            });
         });
-    });
 
-    // Set default active
-    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
-</script>
+        // Set default active
+        document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    </script>
