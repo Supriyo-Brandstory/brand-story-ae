@@ -1483,15 +1483,15 @@ class FrontendController extends Controller
         try {
             // SMTP Configuration
             $mail->isSMTP();
-            $mail->Host       = 'smtp.gmail.com';
+            $mail->Host       = getenv('smtp_host');
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'leads@brandstory.in';
-            $mail->Password   = 'orobhktghruvofbg'; // TODO: Move to environment variable
-            $mail->SMTPSecure = \PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = 465;
+            $mail->Username   = getenv('smtp_username');
+            $mail->Password   = getenv('smtp_password');
+            $mail->SMTPSecure = getenv('smtp_secure');
+            $mail->Port       = getenv('smtp_port');
 
             // Email settings
-            $mail->setFrom('info@brandstory.ae', 'BrandStory AE');
+            $mail->setFrom(getenv('smtp_from_email'), getenv('smtp_from_name'));
             $mail->addAddress('tapas@brandstory.in');
             $mail->addCC('supriyo@brandstory.in');
 
