@@ -223,6 +223,32 @@ Route::group(['prefix' => '/bahrain'], function () {
     Route::get('/website-design-and-development-services', 'FrontendController@websiteDesignAndDevelopmentServices', 'websitedesignanddevelopmentservices');
 });
 
+Route::group(['prefix' => '/careers'], function () {
+    Route::get('/', 'FrontendController@careers', 'careers');
+    Route::get('/business-growth-manager', 'FrontendController@businessGrowthManager', 'businessgrowthmanager');
+    Route::get('/corporate-headshot-photographer', 'FrontendController@corporateHeadshotPhotographer', 'corporateheadshotphotographer');
+    Route::get('/copywriter', 'FrontendController@copywriter', 'copywriter');
+    Route::get('/content-writer-intern', 'FrontendController@contentWriterIntern', 'contentwriterintern');
+    Route::get('/creative-lead', 'FrontendController@creativeLead', 'creativelead');
+    Route::get('/digital-marketer', 'FrontendController@digitalMarketer', 'digitalmarketer');
+    Route::get('/digital-marketing-manager', 'FrontendController@digitalMarketingManager', 'digitalmarketingmanager');
+    Route::get('/event-marketing-manager', 'FrontendController@eventMarketingManager', 'eventmarketingmanager');
+    Route::get('/full-stack-developer', 'FrontendController@fullStackDeveloper', 'fullstackdeveloper');
+    Route::get('/graphic-designer', 'FrontendController@graphicDesigner', 'graphicdesigner');
+    Route::get('/group-account-manager', 'FrontendController@groupAccountManager', 'groupaccountmanager');
+    Route::get('/lead-copywriter', 'FrontendController@leadCopywriter', 'leadcopywriter');
+    Route::get('/photographers-and-editor', 'FrontendController@photographersAndEditor', 'photographersandeditor');
+    Route::get('/php-developer', 'FrontendController@phpDeveloper', 'phpdeveloper');
+    Route::get('/public-relation-executive', 'FrontendController@publicRelationExecutive', 'publicrelationexecutive');
+    Route::get('/seo-executive', 'FrontendController@seoExecutive', 'seoexecutive');
+    Route::get('/seo-manager', 'FrontendController@seoManager', 'seomanager');
+    Route::get('/smm-process', 'FrontendController@smmProcess', 'smmprocess');
+    Route::get('/ui-designer', 'FrontendController@uiDesigner', 'uidesigner');
+    Route::get('/ux-designer', 'FrontendController@uxDesigner', 'uxdesigner');
+    Route::get('/videographer-and-editor', 'FrontendController@videographerAndEditor', 'videographerandeditor');
+    Route::post('/submit', 'FrontendController@sendCareerInformation', 'careers.submit');
+});
+
 
 
 
