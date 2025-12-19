@@ -2,6 +2,9 @@ RewriteEngine On
 # Ensure the rewrite base is root for Herd/Valet
 # RewriteBase /
 
+# Block /old-site and any paths starting with it
+RewriteRule ^old-site - [R=404,L]
+
 # Force www prefix
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
