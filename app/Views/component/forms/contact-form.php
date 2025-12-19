@@ -48,10 +48,10 @@
                 <select name="budget" id="budget" class="form-select">
                     <option selected disabled>Select Budget</option>
                     <option value="Above AED 44,400">Above AED 44,400</option>
-                    <option value="AED 22,200 - AED 35,500">AED 22,200 - AED 35,500</option>
-                    <option value="AED 3,300 - AED 8,900">AED 3,300 - AED 8,900</option>
-                    <option value="AED 35,500 - AED 44,400">AED 35,500 - AED 44,400</option>
-                    <option value="AED 8,900 - AED 22,200">AED 8,900 - AED 22,200</option>
+                    <option value="AED 22,200-AED 35,500">AED 22,200-AED 35,500</option>
+                    <option value="AED 3,300-AED 8,900">AED 3,300-AED 8,900</option>
+                    <option value="AED 35,500-AED 44,400">AED 35,500-AED 44,400</option>
+                    <option value="AED 8,900-AED 22,200">AED 8,900-AED 22,200</option>
                 </select>
 
             </div>
