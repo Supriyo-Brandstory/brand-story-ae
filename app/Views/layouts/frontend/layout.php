@@ -175,7 +175,7 @@ if ($seoData) {
     </div>
 
     <!-- Voice Command Floating Button -->
-    <div id="voice-command-btn" class="voice-command-btn">
+    <!-- <div id="voice-command-btn" class="voice-command-btn">
         <div class="voice-waves"></div>
         <i class="ion-mic-a"></i>
     </div>
@@ -237,7 +237,7 @@ if ($seoData) {
     </style>
 
 
-    <script src="<?= base_url('assets/js/voice-control.js?v=' . time()) ?>"></script>
+    <script src="<?= base_url('assets/js/voice-control.js?v=' . time()) ?>"></script> -->
 </body>
 
 </html>
