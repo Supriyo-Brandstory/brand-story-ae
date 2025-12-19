@@ -1492,8 +1492,8 @@ class FrontendController extends Controller
 
             // Email settings
             $mail->setFrom(getenv('smtp_from_email'), getenv('smtp_from_name'));
-            $mail->addAddress('leads@brandstory.in');
-            $mail->addCC('bala@brandstory.in');
+            $mail->addAddress('tapas@brandstory.in');
+            $mail->addCC('supriyo@brandstory.in');
 
             $mail->isHTML(true);
             $mail->Subject = $subject;
