@@ -27,7 +27,7 @@
              </div><!--col end-->
              <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
                  <div class="d-flex justify-content-center align-items-center">
-                     <!-- <img src="assets/images/social-media-2.png" class="img-fluid " style="border-radius:15px" alt="Soial media marketing services Dubai"> -->
+                     <!-- <img src="/assets/images/social-media-2.png" class="img-fluid " style="border-radius:15px" alt="Soial media marketing services Dubai"> -->
                      <div class="banner-image-item">
                          <div class="banner-image-slider">
                              <img rel="preload" fetchpriority="high" src="<?= base_url('assets/images/social-media/social-media-1.gif') ?>" class="img-fluid" alt="Social Media Creative Design for Our Client">
@@ -49,25 +49,25 @@
          <div class="brand_service_wrapper pt-lg-5 pt-3">
              <a href="/corporate-video-production-services-in-dubai/">
                  <div class="each_brands vd_prod">
-                     <img src="assets/images/social-media-marketing-uae/ser-icon1.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon1.svg" class="img-fluid" alt="service-icon">
                      <p class="ps-3">Video Production</p>
                  </div>
              </a>
              <a href="/">
                  <div class="each_brands branding">
-                     <img src="assets/images/social-media-marketing-uae/ser-icon2.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon2.svg" class="img-fluid" alt="service-icon">
                      <p class="ps-3">Branding</p>
                  </div>
              </a>
              <a href="/performance-marketing/">
                  <div class="each_brands perf_mktng">
-                     <img src="assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon">
                      <p class="ps-3">Performance Marketing</p>
                  </div>
              </a>
              <a href="/content-marketing-agency-dubai/">
                  <div class="each_brands content_mktng">
-                     <img src="assets/images/social-media-marketing-uae/ser-icon4.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon4.svg" class="img-fluid" alt="service-icon">
                      <p class="ps-3">Content Marketing</p>
                  </div>
              </a>
@@ -87,7 +87,7 @@
                  </div>
 
                  <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                     <img class="img-fluid radius-20" src="assets/images/social-media-marketing-uae/unleashed_sec_img.png" alt="Soial media marketing services Dubai">
+                     <img class="img-fluid radius-20" src="/assets/images/social-media-marketing-uae/unleashed_sec_img.png" alt="Soial media marketing services Dubai">
 
                      <!-- Play button -->
                      <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal">
@@ -319,7 +319,7 @@
                  </a>
              </div>
              <div class="col-lg-6 col-12 d-none d-md-block" style="border-radius: 20px; min-height:400px;">
-                 <!-- <video src="assets/images/social-media-marketing-uae/social-media-explained.mp4" autoplay muted loop class="w-100"></video> -->
+                 <!-- <video src="/assets/images/social-media-marketing-uae/social-media-explained.mp4" autoplay muted loop class="w-100"></video> -->
 
 
 
@@ -478,7 +478,7 @@
 
              </div>
              <div class="col-lg-5 col-12 order-md-2 order-1">
-                 <img src="assets/images/Benefits-of-Hiring-a-Social-Media.webp" class="img-fluid" alt="Social media marketing services in Dubai ">
+                 <img src="/assets/images/Benefits-of-Hiring-a-Social-Media.webp" class="img-fluid" alt="Social media marketing services in Dubai ">
              </div>
 
          </div>
@@ -491,35 +491,35 @@
          <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Tailored Social Media Strategies">
+                     <img src="/assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Tailored Social Media Strategies">
                      <h4 class="fs-24 fw-700">Tailored Social Media Strategies</h4>
                      <p class="fs-20">We don't create any one-size-fits-all campaign. Our team plans customized social media strategies to target the right audience. </p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Expert Team">
+                     <img src="/assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Expert Team">
                      <h4 class="fs-24 fw-700">Expert Team</h4>
                      <p class="fs-20">We are a team of strategists, designers, ad specialists, and managers who bring years of experience to the table, ensuring your brand shines bright. </p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="assets/images/new-social/y_choose_icon3.webp" class="img-fluid pb-2" alt="Multi-Platform Mastery">
+                     <img src="/assets/images/new-social/y_choose_icon3.webp" class="img-fluid pb-2" alt="Multi-Platform Mastery">
                      <h4 class="fs-24 fw-700">Multi-Platform Mastery</h4>
                      <p class="fs-20">Whether it’s Instagram, Facebook, LinkedIn, TikTok, or Twitter, we are familiar with each platform to maximize your reach and engagement.</p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="assets/images/new-social/y_choose_icon4.webp" class="img-fluid pb-2" alt="Creative Content">
+                     <img src="/assets/images/new-social/y_choose_icon4.webp" class="img-fluid pb-2" alt="Creative Content">
                      <h4 class="fs-24 fw-700">Creative Content</h4>
                      <p class="fs-20">We craft visual narratives that dont fill feeds, it describes your story in a better way to inspire and motivate action.</p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="assets/images/new-social/y_choose_icon5.webp" class="img-fluid pb-2" alt="Data-backed Strategy">
+                     <img src="/assets/images/new-social/y_choose_icon5.webp" class="img-fluid pb-2" alt="Data-backed Strategy">
                      <h4 class="fs-24 fw-700">Data-backed Strategy</h4>
                      <p class="fs-20">We track, analyze, and optimize each campaign backed by data-driven insights. Our experts ensure that your investment drives real business results and growth.</p>
                  </div>
@@ -622,7 +622,7 @@
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
                                  <div class="slide-container">
-                                     <img src="assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
+                                     <img src="/assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
                                      <p>The BrandStory team is incredibly talented and devoted. They created a customized social media strategy that aligned perfectly with our company's objectives. Their imaginative campaigns on Instagram and LinkedIn helped us reach a more extensive audience, and we saw a noticeable increase in qualified leads.</p>
                                  </div>
                                  <div class="testimoni-name">
@@ -631,7 +631,7 @@
                              </div>
                              <div class="swiper-slide">
                                  <div class="slide-container">
-                                     <img src="assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
+                                     <img src="/assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
                                      <p>BrandStory surpassed our desires in every way. Their team created engaging content that captured the essence of our wellness brand. They supervise our Facebook and Instagram accounts with complete care, ensuring punctual responses and non-stop communication with our community. Much appreciated for their efforts, our brand awareness has developed drastically, and we've seen a visible increase in client requests.</p>
                                  </div>
                                  <div class="testimoni-name">
@@ -640,7 +640,7 @@
                              </div>
                              <div class="swiper-slide">
                                  <div class="slide-container">
-                                     <img src="assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
+                                     <img src="/assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
                                      <p>As a real estate developer, keeping up a solid social media presence is crucial for showcasing our projects. BrandStory ventured in with a clear strategy and implemented it perfectly. Their capacity to combine stunning visuals with compelling storytelling brought our properties to life online. Engagement expanded, and we took note of more qualified leads reaching out to us directly through social platforms.</p>
                                  </div>
                                  <div class="testimoni-name">
@@ -649,7 +649,7 @@
                              </div>
                              <div class="swiper-slide">
                                  <div class="slide-container">
-                                     <img src="assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
+                                     <img src="/assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
                                      <p>Our luxury lifestyle brand required a social media agency that might reflect the elegance and sophistication of our items. BrandStory delivered exactly that and more. Their creative team produced high-quality, visually striking content that resonated with our discerning audience. They managed everything seamlessly, from content schedules to influencer collaborations.</p>
                                  </div>
                                  <div class="testimoni-name">
@@ -658,7 +658,7 @@
                              </div>
                              <div class="swiper-slide">
                                  <div class="slide-container">
-                                     <img src="assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
+                                     <img src="/assets/images/social-media-marketing-uae/testimonial-comma.svg" class="img-fluid" alt="img">
                                      <p>From the first meeting, BrandStory awed us with their professionalism and deep understanding of the finance industry. They tailored a social media strategy that balanced compliance with creativity, guaranteeing we maintained trust while reaching new audiences. Their content was both enlightening and engaging, helping us connect with clients on platforms like LinkedIn and Twitter. </p>
                                  </div>
                                  <div class="testimoni-name">
@@ -683,7 +683,7 @@
          <div class="row g-lg-4 g-3 pt-lg-4 pt-3">
              <div class="col-lg-6 col-12">
                  <div class="img_main_wrapper position-relative">
-                     <img src="assets/images/new-social/talk_to_our_exp.webp" class="img-fluid" alt="Best social media marketing services in Dubai">
+                     <img src="/assets/images/new-social/talk_to_our_exp.webp" class="img-fluid" alt="Best social media marketing services in Dubai">
                      <div class="content_in_img">
                          <p class="text-center text-white">Uplift your social media presence, increase sales, and maximize RIO with a Meta-certified social media agency. Get a Free Consultation and a Comprehensive Audit to uncover your growth opportunities.</p>
                          <a href="#" class="talk_to_our_exp mt-4">Talk to Our Experts</a>
@@ -707,17 +707,17 @@
          <div class="address_n_contact_wrapper">
              <div class="tel_web">
                  <div class="tel_bs d-flex align-items-center pb-3">
-                     <img src="assets/images/social-media-marketing-uae/tel_bs.svg" class="img-fluid" alt="">
+                     <img src="/assets/images/social-media-marketing-uae/tel_bs.svg" class="img-fluid" alt="">
                      <a href="tel:+971 52 283 1655" class="fs-20 text-white text-start ps-3 text-decoration-none">+971 52 283 1655</a>
                  </div>
                  <div class="web_bs d-flex align-items-center">
-                     <img src="assets/images/social-media-marketing-uae/web_bs.svg" class="img-fluid" alt="">
+                     <img src="/assets/images/social-media-marketing-uae/web_bs.svg" class="img-fluid" alt="">
                      <a href="mailto:info@brandstory.ae " class="fs-20 text-white text-start ps-3 text-decoration-none">info@brandstory.ae </a>
                  </div>
              </div>
              <div class="address_container">
                  <div class="d-flex align-items-center pb-3">
-                     <img src="assets/images/social-media-marketing-uae/loc_bs.svg" class="img-fluid" alt="">
+                     <img src="/assets/images/social-media-marketing-uae/loc_bs.svg" class="img-fluid" alt="">
                      <h4 class="fs-24 text-white mb-0 ps-3">Visit Our Dubai Office</h4>
                  </div>
                  <a href="https://www.google.com/search?kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&kgs=0f7c634ee2c79aaf" class="fs-20 text-white text-start text-decoration-none">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>
@@ -735,7 +735,7 @@
                      <div class="swiper-slide">
                          <div class="each_blog_wrapper">
                              <div class="img_cont">
-                                 <img loading="lazy" src="assets/images/new-social/each_blog1.webp" alt="blog_image">
+                                 <img loading="lazy" src="/assets/images/new-social/each_blog1.webp" alt="blog_image">
                              </div>
                              <div class="content_container_main pt-3">
                                  <div class="text_content">
@@ -751,7 +751,7 @@
                      <div class="swiper-slide">
                          <div class="each_blog_wrapper">
                              <div class="img_cont">
-                                 <img loading="lazy" src="assets/images/new-social/each_blog2.webp" alt="blog_image">
+                                 <img loading="lazy" src="/assets/images/new-social/each_blog2.webp" alt="blog_image">
                              </div>
                              <div class="content_container_main pt-3">
                                  <div class="text_content">
@@ -784,7 +784,7 @@
                      <div class="swiper-slide">
                          <div class="each_blog_wrapper">
                              <div class="img_cont">
-                                 <img src="assets/images/social-media-marketing-uae/each_blog5.png" alt="blog_image">
+                                 <img src="/assets/images/social-media-marketing-uae/each_blog5.png" alt="blog_image">
                              </div>
                              <div class="content_container_main pt-3">
                                  <div class="text_content">
