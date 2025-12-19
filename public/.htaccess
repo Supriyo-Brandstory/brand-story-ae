@@ -3,7 +3,6 @@ RewriteEngine On
 # RewriteBase /
 
 # Block /old-site and any paths starting with it
-RewriteRule ^old-site - [F,L]
 
 # Force www prefix
 RewriteCond %{HTTP_HOST} !^www\. [NC]
