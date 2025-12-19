@@ -47,11 +47,11 @@
                 <label>Budget*</label>
                 <select name="budget" id="budget" class="form-select">
                     <option selected disabled>Select Budget</option>
-                    <option value="75,000 - 2 Lakhs">75,000 - 2 Lakhs</option>
-                    <option value="2 Lakhs - 5 Lakhs">2 Lakhs - 5 Lakhs</option>
-                    <option value="5 Lakhs - 8 Lakhs">5 Lakhs - 8 Lakhs</option>
-                    <option value="8 Lakhs - 10 Lakhs">8 Lakhs - 10 Lakhs</option>
-                    <option value="Above 10 Lakhs">Above 10 Lakhs</option>
+                    <option value="Above AED 44,400">Above AED 44,400</option>
+                    <option value="AED 22,200 - AED 35,500">AED 22,200 - AED 35,500</option>
+                    <option value="AED 3,300 - AED 8,900">AED 3,300 - AED 8,900</option>
+                    <option value="AED 35,500 - AED 44,400">AED 35,500 - AED 44,400</option>
+                    <option value="AED 8,900 - AED 22,200">AED 8,900 - AED 22,200</option>
                 </select>
 
             </div>
