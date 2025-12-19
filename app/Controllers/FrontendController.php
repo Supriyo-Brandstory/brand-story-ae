@@ -1492,8 +1492,8 @@ class FrontendController extends Controller
 
             // Email settings
             $mail->setFrom(getenv('smtp_from_email'), getenv('smtp_from_name'));
-            $mail->addAddress('leads@brandstory.in');
-            $mail->addCC('bala@brandstory.in');
+            $mail->addAddress('supriyo@brandstory.in');
+            $mail->addCC('tapas@brandstory.in');
 
             $mail->isHTML(true);
             $mail->Subject = $subject;
@@ -1547,10 +1547,10 @@ class FrontendController extends Controller
             // Budget Dropdown
             $validBudgets = [
                 'Above AED 44,400',
-                'AED 22,200-AED 35,500',
-                'AED 3,300-AED 8,900',
-                'AED 35,500-AED 44,400',
-                'AED 8,900-AED 22,200'
+                'AED 22,200 – AED 35,500',
+                'AED 3,300 – AED 8,900',
+                'AED 35,500 – AED 44,400',
+                'AED 8,900 – AED 22,200'
             ];
             $budgetDropdown = in_array($budget, $validBudgets) ? ["labels" => [$budget]] : null;
 
@@ -1600,14 +1600,23 @@ class FrontendController extends Controller
             curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
 
             $response = curl_exec($ch);
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             $curlError = curl_error($ch);
             curl_close($ch);
+
+            // Log Monday.com Response for Debugging
+            error_log("Monday.com API HTTP Status: " . $httpCode);
+            error_log("Monday.com API Response: " . $response);
 
             // Output JSON response
             if ($curlError) {
                 echo json_encode(["status" => "error", "message" => $curlError]);
             } else {
-                echo json_encode(["status" => "success", "message" => "Form submitted successfully!", "monday_response" => json_decode($response), "redirect_url" => route('thankyou')]);
+                echo json_encode([
+                    "status" => "success",
+                    "message" => "Form submitted successfully!",
+                    "redirect_url" => route('thankyou')
+                ]);
             }
         } catch (\PHPMailer\PHPMailer\Exception $e) {
             echo json_encode(["status" => "error", "message" => "Email error: " . $mail->ErrorInfo]);
