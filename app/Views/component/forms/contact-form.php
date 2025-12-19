@@ -37,10 +37,11 @@
                     <option selected="true" disabled="disabled">Select Service</option>
                     <option value="Social Media">Social Media</option>
                     <option value="Digital Marketing">Digital Marketing</option>
-                    <option value="Website Development">Websites & Apps</option>
+                    <option value="Website Development">Websites Development</option>
                     <option value="SEO">SEO</option>
-                    <option value="Customer Experience">Customer Experience</option>
-                    <option value="Full-Funnel Performance Marketing">Full-Funnel Performance Marketing</option>
+                    <option value="Content Marketing">Content Marketing</option>
+                    <option value="Performance Marketing">Performance Marketing</option>
+                    <option value="Others">Others</option>
                 </select>
             </div>
             <div class="col-12 col-md-6">
