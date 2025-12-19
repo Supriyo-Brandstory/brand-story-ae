@@ -8,7 +8,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 
-# Add trailing slash if missing (except for files)
+# Add trailing slash if missing (except for files and POST requests)
+RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^(.*)$ /$1/ [L,R=301]
