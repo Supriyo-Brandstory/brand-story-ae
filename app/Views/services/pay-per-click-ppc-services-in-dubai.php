@@ -6,7 +6,7 @@
                 <h1 class="mb-3 text-white">Top-Rated PPC Agency in Dubai | Driving Results with Smart Campaigns
                 </h1>
                 <p class="text-white fs-20 mb-4">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising agency. </p>
-                <p class="text-white fs-20 mb-4"><b>Google Ads | Meta Ads | TikTok Ads</b></p>
+                
                 <div class="ppc-dubai-btn d-flex justify-content-md-start justify-content-center">
                     <a class="fs-20 text-white" href="/contact/">Let's Discuss Your Project</a>
                 </div>
@@ -289,7 +289,7 @@
     </div>
 </section>
 
-<section id="knowMore" class="web-design-process sp-50">
+<!--<section id="knowMore" class="web-design-process sp-50">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -298,8 +298,93 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- <section class="bg-white spt-50"></section> -->
+
+<section class="spb-50">
+    <div class="container">
+        <img class="w-100" src="/assets/images/ppc/benefits.jpg">
+        <div class="max-1000 benefit-min sp-50 bg-white pe-lg-5 ps-lg-5 pe-3 ps-3">
+            <h2 class="text-center mb-lg-5 mb-4">How Our PPC Process Works</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block mb-lg-5 mb-4">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/ppc-icon1.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-violet">Goal Planning & Strategy</h3>
+                            <p class="mb-0">We begin by understanding your business objectives through detailed discussions. This stage defines clear PPC goals
+                                 such as brand visibility, traffic growth, or lead generation, enabling us to design focused campaign strategies aligned with
+                                  measurable outcomes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block mb-lg-5 mb-4">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/ppc-icon2.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-red">Competitor & Market Analysis</h3>
+                            <p class="mb-0">Our team conducts in-depth competitor benchmarking to understand market positioning and audience behavior. This analysis
+                                 helps us craft distinctive, audience-aligned ads, identify gaps, and gain a strategic edge while planning precise and high-performing
+                                  PPC campaigns.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block mb-lg-5 mb-4">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/ppc-icon3.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-blue">Keyword Research & Optimization</h3>
+                            <p class="mb-0">We develop a strong keyword foundation and continuously refine it by adding relevant long-tail and cost-efficient keywords. 
+                                High-cost or low-performing terms are reviewed to ensure optimal budget utilization and sustained relevance across campaigns.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block mb-lg-5 mb-4">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/ppc-icon6.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-green">Campaign Setup & Tracking</h3>
+                            <p class="mb-0">We build well-structured campaigns with defined budgets, bidding strategies, schedules, and geo-targeting. Advanced 
+                                tracking and analytics tools are implemented to accurately monitor performance and ensure campaigns deliver consistent and goal-oriented results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block mb-lg-0 mb-4">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/ppc-icon4.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-yellow">Ad Creation & Landing Pages</h3>
+                            <p class="mb-0">Our experts craft compelling ad copies with strong CTAs and relevant extensions to enhance visibility and CTR. We also optimize 
+                                landing pages to ensure message consistency, better user experience, and higher chances of conversions and lead generation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-lg-flex d-block">
+                        <div class="benefit-image-main align-self-center">
+                            <img class="img-fluid" src="/assets/images/ppc/benefits-icon6.svg">
+                        </div>
+                        <div class="benefit-content-main">
+                            <h3 class="fs-20 mb-2 text-orange">Ads Monitoring & Testing</h3>
+                            <p class="mb-0">We track user actions such as purchases, form fills, and sign-ups to measure effectiveness. Through continuous A/B 
+                                testing and performance analysis, we refine ads, reallocate budgets efficiently, and improve ROI across all PPC initiatives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section class="dm-blog-section spb-50 adwords-campaign-bg">
@@ -440,6 +525,38 @@
         </div>
     </div>
 </section>
+
+<section class="create-positive sp-50">
+    <div class="container">
+        <div class="row gy-4 gy-md-5 gx-md-5">
+            <div class="col-md-6 text-md-start text-center">
+                <h2>We are The <span class="db">Best PPC Agency</span> in Dubai, UAE</h2>
+                <p>Choosing the right PPC company in Dubai UAE is crucial to ensure that your paid ads reach the right audience and get the desired results.</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="create-positive-box text-md-start text-center">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="google adwords marketing dubai">
+                    <h4 class="mt-3">Experience</h4>
+                    <p>Our PPC agency in Dubai MENA has several years of experience in the online marketing space. We have records of successful google ad campaign launches that had increased sales for companies.</p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="create-positive-box text-md-start text-center">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="google adwords marketing company in dubai">
+                    <h4 class="mt-3">Integrated approach </h4>
+                    <p>We get the big picture. Our ppc advertising company in Dubai will understand that successful campaigns are backed by unparalleled user experience. Our PPC consultants in Dubai design digital strategy that works towards achieving this end.</p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="create-positive-box text-md-start text-center">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="google adwords marketing agency dubai">
+                    <h4 class="mt-3">Robust and adaptable</h4>
+                    <p>Keeping in mind the ever-changing customer expectations, our campaigns from PPC agencies in Dubai united arab emirated are designed to be robust enough to understand and gauge the complex customer journey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <div class="tools-section">
     <div class="sction-header">
         <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
@@ -513,37 +630,7 @@
     </div>
 
 </div>
-<section class="create-positive sp-50">
-    <div class="container">
-        <div class="row gy-4 gy-md-5 gx-md-5">
-            <div class="col-md-6 text-md-start text-center">
-                <h2>We are The <span class="db">Best PPC Agency</span> in Dubai, UAE</h2>
-                <p>Choosing the right PPC company in Dubai UAE is crucial to ensure that your paid ads reach the right audience and get the desired results.</p>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="google adwords marketing dubai">
-                    <h4 class="mt-3">Experience</h4>
-                    <p>Our PPC agency in Dubai MENA has several years of experience in the online marketing space. We have records of successful google ad campaign launches that had increased sales for companies.</p>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="google adwords marketing company in dubai">
-                    <h4 class="mt-3">Integrated approach </h4>
-                    <p>We get the big picture. Our ppc advertising company in Dubai will understand that successful campaigns are backed by unparalleled user experience. Our PPC consultants in Dubai design digital strategy that works towards achieving this end.</p>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="google adwords marketing agency dubai">
-                    <h4 class="mt-3">Robust and adaptable</h4>
-                    <p>Keeping in mind the ever-changing customer expectations, our campaigns from PPC agencies in Dubai united arab emirated are designed to be robust enough to understand and gauge the complex customer journey.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="google-adwords sp-50">
     <div class="container">
         <div class="row">
@@ -728,7 +815,7 @@
     </div>
 </section>
 <section class="bg-white spt-50"></section>
-<section>
+<!--<section>
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4">Awards & Recognitions</h2>
         <p class="fs-20">At BrandStory UAE, we are recognized as a top-tier Pay-Per-Click (PPC), <a href="/social-media-marketing-agency-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">social media management</a>, and <a href="/seo-services-company-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">SEO agency in Dubai</a> by 500+ active clients across the UAE.
@@ -772,7 +859,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <section class="sp-50 bg-white">
     <div class="container">
         <div class="row gx-md-5 justify-content-center">
