@@ -99,9 +99,11 @@
 <div class="uniq-contact-lead-popup-overlay" style="display: none;">
   <div class="uniq-contact-lead-popup">
     <button class="uniq-contact-lead-close">&times;</button>
-    <h3 class="text-center">Get in Touch </h3>
+    <h3 class="text-center mb-0">Get in Touch </h3>
     <!-- Add your contact form or content here -->
-    <?php include 'forms/popup-form.php' ?>
+    <?php
+    $textrow = 2;
+    include __DIR__ . '/../../component/forms/contact-form.php' ?>
   </div>
 </div>
 <div class="unique-sticky-container" role="navigation" aria-label="Quick actions">
@@ -195,14 +197,16 @@
   const content = document.querySelector(".content-read-more");
   let isVisible = false;
 
-  readMoreBtn.addEventListener("click", function() {
-    if (!isVisible) {
-      content.classList.add("active");
-      readMoreBtn.querySelector("span").innerText = "Read Less ➤";
-    } else {
-      content.classList.remove("active");
-      readMoreBtn.querySelector("span").innerText = "➤ Read More";
-    }
-    isVisible = !isVisible;
-  });
+  if (readMoreBtn) {
+    readMoreBtn.addEventListener("click", function() {
+      if (!isVisible) {
+        content.classList.add("active");
+        readMoreBtn.querySelector("span").innerText = "Read Less ➤";
+      } else {
+        content.classList.remove("active");
+        readMoreBtn.querySelector("span").innerText = "➤ Read More";
+      }
+      isVisible = !isVisible;
+    });
+  }
 </script>

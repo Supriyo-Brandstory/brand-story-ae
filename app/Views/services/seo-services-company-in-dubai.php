@@ -1,189 +1,3 @@
-<style>
-    /* Scroll Banner Styles */
-    .scroll-banner-section {
-        height: 350vh;
-        position: relative;
-        background-color: #000;
-    }
-
-    .sticky-wrapper {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        height: 100vh;
-        width: 100%;
-        overflow: hidden;
-        background: linear-gradient(135deg,
-                #000000 0%,
-                #855bffb0 50%,
-                #000000 100%);
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-    }
-
-    .scroll-slide {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        pointer-events: none;
-        z-index: 1;
-        padding-top: 60px;
-    }
-
-    .scroll-slide.active {
-        opacity: 1;
-        pointer-events: auto;
-        z-index: 2;
-        transform: scale(1) translateY(0);
-    }
-
-    .scroll-slide.prev-slide {
-        opacity: 0;
-        transform: translateY(-50px) scale(0.95);
-    }
-
-    .scroll-slide.next-slide {
-        opacity: 0;
-        transform: translateY(50px) scale(0.95);
-    }
-
-    /* Slide 1 */
-    .slide-1-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        width: 100%;
-        padding: 0 20px;
-        gap: 60px;
-    }
-
-    .slide-1-text h1 {
-        font-size: 3.5rem;
-        font-weight: 700;
-        line-height: 1.2;
-        text-align: left;
-        margin: 0;
-    }
-
-    .slide-1-list {
-        border-left: 1px solid rgba(255, 255, 255, 0.3);
-        padding-left: 40px;
-        text-align: left;
-    }
-
-    .slide-1-list ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .slide-1-list li {
-        font-size: 1.6rem;
-        font-weight: 500;
-        margin-bottom: 12px;
-        color: #e0e0e0;
-        letter-spacing: 0.5px;
-    }
-
-    /* Slide 2 */
-    .slide-2-content {
-        text-align: center;
-        max-width: 800px;
-        padding: 0 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .small-caps-header {
-        font-size: 26px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 5px;
-        color: #ddd;
-    }
-
-    .brandstory-logo-text {
-        filter: brightness(0) invert(1);
-        width: 450px;
-    }
-
-    /* Slide 3 */
-    .slide-3-content {
-        text-align: center;
-        max-width: 1200px;
-        padding: 0 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .slide-3-desc {
-        font-size: 1.5rem;
-        line-height: 1.6;
-        margin-bottom: 40px;
-        color: #fff;
-        max-width: 1200px;
-        font-weight: 500;
-    }
-
-    .gradient-cta-btn {
-        background: linear-gradient(90deg, #c084fc, #6366f1);
-        padding: 16px 40px;
-        border-radius: 50px;
-        color: #fff;
-        font-weight: 600;
-        text-decoration: none;
-        font-size: 22px;
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-    .gradient-cta-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 25px rgba(129, 140, 248, 0.4);
-        color: #fff;
-    }
-
-    /* MOBILE – animation preserved */
-    @media (max-width: 991px) {
-        .scroll-banner-section {
-            height: 350vh;
-        }
-
-        .sticky-wrapper {
-            position: sticky;
-            height: 100vh;
-            padding: 0;
-        }
-
-        .slide-1-content {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .slide-1-text h1 {
-            font-size: 40px;
-        }
-
-        .brandstory-logo-text {
-            filter: brightness(0) invert(1);
-            width: 300px;
-        }
-    }
-</style>
-
-
 <section class="scroll-banner-section">
     <div class="sticky-wrapper">
         <!-- Slide 1 -->
@@ -223,56 +37,7 @@
     </div>
 </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const section = document.querySelector('.scroll-banner-section');
-        const slide1 = document.getElementById('banner-slide-1');
-        const slide2 = document.getElementById('banner-slide-2');
-        const slide3 = document.getElementById('banner-slide-3');
 
-        if (!section) return;
-
-        window.addEventListener('scroll', () => {
-            const rect = section.getBoundingClientRect();
-            const viewportHeight = window.innerHeight;
-            const scrollHeight = section.offsetHeight - viewportHeight;
-
-            let progress = -rect.top / scrollHeight;
-            progress = Math.max(0, Math.min(1, progress));
-
-            if (progress < 0.33) {
-                slide1.classList.add('active');
-                slide1.classList.remove('prev-slide', 'next-slide');
-
-                slide2.classList.remove('active', 'prev-slide');
-                slide2.classList.add('next-slide');
-
-                slide3.classList.remove('active', 'prev-slide');
-                slide3.classList.add('next-slide');
-
-            } else if (progress < 0.66) {
-                slide1.classList.remove('active', 'next-slide');
-                slide1.classList.add('prev-slide');
-
-                slide2.classList.add('active');
-                slide2.classList.remove('prev-slide', 'next-slide');
-
-                slide3.classList.remove('active', 'prev-slide');
-                slide3.classList.add('next-slide');
-
-            } else {
-                slide1.classList.remove('active', 'next-slide');
-                slide1.classList.add('prev-slide');
-
-                slide2.classList.remove('active', 'next-slide');
-                slide2.classList.add('prev-slide');
-
-                slide3.classList.add('active');
-                slide3.classList.remove('prev-slide', 'next-slide');
-            }
-        });
-    });
-</script>
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
@@ -2016,4 +1781,56 @@ include __DIR__ . '/../component/client_reviews.php';
 
         // Set default active
         document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const section = document.querySelector('.scroll-banner-section');
+            const slide1 = document.getElementById('banner-slide-1');
+            const slide2 = document.getElementById('banner-slide-2');
+            const slide3 = document.getElementById('banner-slide-3');
+
+            if (!section) return;
+
+            window.addEventListener('scroll', () => {
+                const rect = section.getBoundingClientRect();
+                const viewportHeight = window.innerHeight;
+                const scrollHeight = section.offsetHeight - viewportHeight;
+
+                let progress = -rect.top / scrollHeight;
+                progress = Math.max(0, Math.min(1, progress));
+
+                if (progress < 0.33) {
+                    slide1.classList.add('active');
+                    slide1.classList.remove('prev-slide', 'next-slide');
+
+                    slide2.classList.remove('active', 'prev-slide');
+                    slide2.classList.add('next-slide');
+
+                    slide3.classList.remove('active', 'prev-slide');
+                    slide3.classList.add('next-slide');
+
+                } else if (progress < 0.66) {
+                    slide1.classList.remove('active', 'next-slide');
+                    slide1.classList.add('prev-slide');
+
+                    slide2.classList.add('active');
+                    slide2.classList.remove('prev-slide', 'next-slide');
+
+                    slide3.classList.remove('active', 'prev-slide');
+                    slide3.classList.add('next-slide');
+
+                } else {
+                    slide1.classList.remove('active', 'next-slide');
+                    slide1.classList.add('prev-slide');
+
+                    slide2.classList.remove('active', 'next-slide');
+                    slide2.classList.add('prev-slide');
+
+                    slide3.classList.add('active');
+                    slide3.classList.remove('prev-slide', 'next-slide');
+                }
+            });
+        });
     </script>
