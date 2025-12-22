@@ -249,6 +249,11 @@ Route::group(['prefix' => '/careers'], function () {
     Route::post('/submit', 'FrontendController@sendCareerInformation', 'careers.submit');
 });
 
+Route::get('/aeo-agency-dubai', 'FrontendController@aeoAgencyDubai', 'aeoagencydubai');
+Route::get('/geo-agency-dubai', 'FrontendController@geoAgencyDubai', 'geoagencydubai');
+Route::get('/seo-link-building-agency-dubai', 'FrontendController@seoLinkBuildingAgencyDubai', 'seolinkbuildingagencydubai');
+Route::get('/local-seo-agency-dubai', 'FrontendController@localSEOAgencyDubai', 'localseoadgencydubai');
+
 
 
 

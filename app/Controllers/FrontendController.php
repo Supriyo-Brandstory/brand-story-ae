@@ -1569,6 +1569,36 @@ class FrontendController extends Controller
         return $this->view('careers/videographer-and-editor', ['meta' => $meta]);
     }
 
+    public function aeoAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page'
+        ];
+        return $this->view('others-pages/aeo-agency-dubai', ['meta' => $meta]);
+    }
+    public function geoAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page'
+        ];
+        return $this->view('others-pages/geo-agency-dubai', ['meta' => $meta]);
+    }
+    public function seoLinkBuildingAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page'
+        ];
+        return $this->view('others-pages/seo-link-building-agency-dubai', ['meta' => $meta]);
+    }
+    public function localSEOAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page'
+        ];
+        return $this->view('others-pages/local-seo-agency-dubai', ['meta' => $meta]);
+    }
+
+
 
 
     // from submit post
