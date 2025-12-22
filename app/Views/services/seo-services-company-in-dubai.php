@@ -2,7 +2,6 @@
     /* Scroll Banner Styles */
     .scroll-banner-section {
         height: 350vh;
-        /* Increased height to accommodate 3 slides */
         position: relative;
         background-color: #000;
     }
@@ -14,7 +13,11 @@
         height: 100vh;
         width: 100%;
         overflow: hidden;
-        background: linear-gradient(135deg, #000000 0%, #855BFF 100%);
+        background: linear-gradient(135deg,
+                #000000 0%,
+                #855bffb0 50%,
+                #000000 100%);
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -35,7 +38,6 @@
         pointer-events: none;
         z-index: 1;
         padding-top: 60px;
-        /* Offset for any fixed header */
     }
 
     .scroll-slide.active {
@@ -55,7 +57,7 @@
         transform: translateY(50px) scale(0.95);
     }
 
-    /* Slide 1 Configuration */
+    /* Slide 1 */
     .slide-1-content {
         display: flex;
         justify-content: center;
@@ -94,7 +96,7 @@
         letter-spacing: 0.5px;
     }
 
-    /* Slide 2 Configuration */
+    /* Slide 2 */
     .slide-2-content {
         text-align: center;
         max-width: 800px;
@@ -117,7 +119,7 @@
         width: 450px;
     }
 
-    /* Slide 3 Configuration */
+    /* Slide 3 */
     .slide-3-content {
         text-align: center;
         max-width: 1200px;
@@ -153,58 +155,34 @@
         color: #fff;
     }
 
-    /* Mobile Responsive */
+    /* MOBILE – animation preserved */
     @media (max-width: 991px) {
         .scroll-banner-section {
-            height: auto;
+            height: 350vh;
         }
 
         .sticky-wrapper {
-            position: relative;
-            height: auto;
-            flex-direction: column;
-            padding: 80px 0;
-        }
-
-        .scroll-slide {
-            position: relative;
-            height: auto;
-            opacity: 1 !important;
-            transform: none !important;
-            display: block;
-            margin-bottom: 80px;
+            position: sticky;
+            height: 100vh;
+            padding: 0;
         }
 
         .slide-1-content {
             flex-direction: column;
-            gap: 30px;
-            text-align: center;
+            align-items: center;
         }
 
         .slide-1-text h1 {
-            text-align: center;
-            font-size: 2.2rem;
-        }
-
-        .slide-1-list {
-            border-left: none;
-            padding-left: 0;
-            text-align: center;
-        }
-
-        .slide-1-list li {
-            font-size: 1.2rem;
+            font-size: 40px;
         }
 
         .brandstory-logo-text {
-            width: 200px;
-        }
-
-        .scroll-slide:last-child {
-            margin-bottom: 0;
+            filter: brightness(0) invert(1);
+            width: 300px;
         }
     }
 </style>
+
 
 <section class="scroll-banner-section">
     <div class="sticky-wrapper">
@@ -212,7 +190,7 @@
         <div class="scroll-slide slide-1 active" id="banner-slide-1">
             <div class="slide-1-content">
                 <div class="slide-1-text">
-                    <h1>Search Engine<br>Optimization is</h1>
+                    <h1>SEO Strategy<br>Drives</h1>
                 </div>
                 <div class="slide-1-list">
                     <ul>
@@ -252,63 +230,54 @@
         const slide2 = document.getElementById('banner-slide-2');
         const slide3 = document.getElementById('banner-slide-3');
 
-        if (window.innerWidth > 991) {
-            window.addEventListener('scroll', () => {
-                if (!section) return;
+        if (!section) return;
 
-                const rect = section.getBoundingClientRect();
-                const viewportHeight = window.innerHeight;
-                const scrollHeight = section.offsetHeight - viewportHeight;
+        window.addEventListener('scroll', () => {
+            const rect = section.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            const scrollHeight = section.offsetHeight - viewportHeight;
 
-                // Calculate progress (0 to 1)
-                let progress = -rect.top / scrollHeight;
+            let progress = -rect.top / scrollHeight;
+            progress = Math.max(0, Math.min(1, progress));
 
-                if (progress <= 0) progress = 0;
-                if (progress >= 1) progress = 1;
+            if (progress < 0.33) {
+                slide1.classList.add('active');
+                slide1.classList.remove('prev-slide', 'next-slide');
 
-                // 3 segments: 0-0.33, 0.33-0.66, 0.66-1
-                if (progress < 0.33) {
-                    // Show Slide 1
-                    slide1.classList.add('active');
-                    slide1.classList.remove('prev-slide', 'next-slide');
+                slide2.classList.remove('active', 'prev-slide');
+                slide2.classList.add('next-slide');
 
-                    slide2.classList.remove('active', 'prev-slide');
-                    slide2.classList.add('next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+            } else if (progress < 0.66) {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
 
-                } else if (progress >= 0.33 && progress < 0.66) {
-                    // Show Slide 2
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide');
+                slide2.classList.add('active');
+                slide2.classList.remove('prev-slide', 'next-slide');
 
-                    slide2.classList.add('active');
-                    slide2.classList.remove('prev-slide', 'next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+            } else {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
 
-                } else {
-                    // Show Slide 3
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide'); // Slide 1 stays away
+                slide2.classList.remove('active', 'next-slide');
+                slide2.classList.add('prev-slide');
 
-                    slide2.classList.remove('active', 'next-slide');
-                    slide2.classList.add('prev-slide'); // Slide 2 goes up
-
-                    slide3.classList.add('active');
-                    slide3.classList.remove('prev-slide', 'next-slide');
-                }
-            });
-        }
+                slide3.classList.add('active');
+                slide3.classList.remove('prev-slide', 'next-slide');
+            }
+        });
     });
 </script>
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
         <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">ROI-Focused SEO Company in Dubai for
-            <span class="db">1st Page Ranking on Google</span>
+            <span class="db">Page-One Ranking on Google</span>
         </h2>
         <div class="row">
             <div class="col-lg-6">
@@ -349,7 +318,7 @@
             </div>
             <div class="col-lg-6 align-self-center">
 
-                <p class="text-white mb-3 fs-20">Unlock your true digital potential with the best SEO Agency in Dubai. BrandStory UAE is recognized by the top businesses for driving exceptional organic growth and visibility. Our experts analyze all untapped opportunities and rank websites higher in Google search results, unlock website traffic, and improve lead flow. We offer result-driven SEO services backed by tried and tested <b>white hat strategies.</b></p>
+                <p class="text-white mb-3 fs-20">Unlock your true digital potential with the best SEO Agency in Dubai. BrandStory UAE is recognized by the top businesses for driving exceptional organic growth and visibility. Our experts analyze all untapped opportunities and rank websites higher in Google search results, unlock website traffic, and improve lead flow.</p>
                 <p class="text-white mb-3 fs-20">We redefine SEO services in Dubai by turning online searches into real business opportunities. We go beyond ranking a website, we craft strategies that enhance visibility, build authority, and drive the best organic growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>, our top-level professionals work with pinpoint precision and excellence.</p>
                 <p class="text-white mb-4 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make your brand shine above the competition. We don’t just optimize websites, we help businesses achieve higher visibility with top search engine rankings.</p>
 
