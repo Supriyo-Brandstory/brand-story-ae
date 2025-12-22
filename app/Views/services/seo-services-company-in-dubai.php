@@ -1,28 +1,325 @@
-<section class="dm-agency-banner-section dm-bg">
-    <div class="swiper dmagency-banner-sld">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="bannersld-main two" style="background-image: url('/assets/images/new-seo/seo-banner-2.jpg')">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-12">
+<style>
+    /* Scroll Banner Styles */
+    .scroll-banner-section {
+        height: 350vh;
+        /* Increased height to accommodate 3 slides */
+        position: relative;
+        background-color: #000;
+    }
 
-                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-seo/seo-banner-mobile-2x.webp">
-                                <h1 class="mb-4 text-white">Top SEO Agency in Dubai for Best
+    .sticky-wrapper {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        background: linear-gradient(135deg, #000000 0%, #855BFF 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
 
-                                    <span class="db">SEO Services- BrandStory UAE</span>
-                                </h1>
-                                <p class="text-white mb-md-5 mb-4 fs-20">At BrandStory UAE, we position ourselves as a full-service marketing agency serving businesses across Dubai. As a leading SEO agency in Dubai, we recognize the distinct marketing requirements of small and large-scale companies. We master local SEO, E-commerce SEO, and enterprise SEO to help you with the best SEO services in Dubai & the UAE. </p>
-                                <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get a Free Quote</a>
-                            </div>
-                        </div>
-                    </div>
+    .scroll-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        pointer-events: none;
+        z-index: 1;
+        padding-top: 60px;
+        /* Offset for any fixed header */
+    }
+
+    .scroll-slide.active {
+        opacity: 1;
+        pointer-events: auto;
+        z-index: 2;
+        transform: scale(1) translateY(0);
+    }
+
+    .scroll-slide.prev-slide {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.95);
+    }
+
+    .scroll-slide.next-slide {
+        opacity: 0;
+        transform: translateY(50px) scale(0.95);
+    }
+
+    /* Slide 1 Configuration */
+    .slide-1-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 20px;
+        gap: 60px;
+    }
+
+    .slide-1-text h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: left;
+        margin: 0;
+    }
+
+    .slide-1-list {
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        padding-left: 40px;
+        text-align: left;
+    }
+
+    .slide-1-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-1-list li {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 12px;
+        color: #e0e0e0;
+        letter-spacing: 0.5px;
+    }
+
+    /* Slide 2 Configuration */
+    .slide-2-content {
+        text-align: center;
+        max-width: 800px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .small-caps-header {
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+        color: #ddd;
+    }
+
+    .brandstory-logo-text {
+        filter: brightness(0) invert(1);
+        width: 450px;
+    }
+
+    /* Slide 3 Configuration */
+    .slide-3-content {
+        text-align: center;
+        max-width: 1200px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slide-3-desc {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin-bottom: 40px;
+        color: #fff;
+        max-width: 1200px;
+        font-weight: 500;
+    }
+
+    .gradient-cta-btn {
+        background: linear-gradient(90deg, #c084fc, #6366f1);
+        padding: 16px 40px;
+        border-radius: 50px;
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 22px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gradient-cta-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(129, 140, 248, 0.4);
+        color: #fff;
+    }
+
+    /* Mobile Responsive Tweaks */
+    @media (max-width: 991px) {
+        .scroll-banner-section {
+            /* Keep scroll height on mobile */
+            height: 350vh;
+        }
+
+        .sticky-wrapper {
+            /* Keep sticky on mobile */
+            position: -webkit-sticky;
+            position: sticky;
+            height: 100vh;
+            flex-direction: row;
+            /* Keep row direction */
+            padding: 0;
+        }
+
+        .scroll-slide {
+            /* Keep absolute positioning */
+            position: absolute;
+            height: 100%;
+            display: flex;
+            /* Ensure flex for centering */
+            opacity: 0;
+            transform: translateY(50px) scale(0.95);
+            /* Default state */
+            margin-bottom: 0;
+        }
+
+        /* Ensure active state overrides default */
+        .scroll-slide.active {
+            opacity: 1 !important;
+            transform: scale(1) translateY(0) !important;
+        }
+
+        .slide-1-content {
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .slide-1-text h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .slide-1-list {
+            border-left: none;
+            padding-left: 0;
+            text-align: center;
+        }
+
+        .slide-1-list li {
+            font-size: 1.1rem;
+        }
+
+        .brandstory-logo-text {
+            width: 80%;
+            /* responsive width */
+            max-width: 300px;
+        }
+
+        .slide-3-desc {
+            font-size: 1.2rem;
+            padding: 0 15px;
+        }
+    }
+</style>
+
+<section class="scroll-banner-section">
+    <div class="sticky-wrapper">
+        <!-- Slide 1 -->
+        <div class="scroll-slide slide-1 active" id="banner-slide-1">
+            <div class="slide-1-content">
+                <div class="slide-1-text">
+                    <h1>Search Engine<br>Optimization is</h1>
+                </div>
+                <div class="slide-1-list">
+                    <ul>
+                        <li>Higher Visibility</li>
+                        <li>Qualified Traffic</li>
+                        <li>Strong Rankings</li>
+                        <li>Brand Authority</li>
+                        <li>Measurable Growth</li>
+                        <li>Long-Term Results</li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
+        <!-- Slide 2 -->
+        <div class="scroll-slide slide-2 next-slide" id="banner-slide-2">
+            <div class="slide-2-content">
+                <span class="small-caps-header">With BrandStory</span>
+                <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="scroll-slide slide-3 next-slide" id="banner-slide-3">
+            <div class="slide-3-content">
+                <p class="slide-3-desc">We position ourselves as a full-service SEO marketing agency serving businesses across Dubai, specialising in local, e-commerce, and enterprise-grade SEO services.</p>
+                <a href="javascript:void(0);" class="gradient-cta-btn uniq-contact-lead-btn">Book Your Demo Call</a>
+            </div>
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const section = document.querySelector('.scroll-banner-section');
+        const slide1 = document.getElementById('banner-slide-1');
+        const slide2 = document.getElementById('banner-slide-2');
+        const slide3 = document.getElementById('banner-slide-3');
+
+        // Removed width check to enable on all devices
+        window.addEventListener('scroll', () => {
+            if (!section) return;
+
+            const rect = section.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            const scrollHeight = section.offsetHeight - viewportHeight;
+
+            // Calculate progress (0 to 1)
+            let progress = -rect.top / scrollHeight;
+
+            if (progress <= 0) progress = 0;
+            if (progress >= 1) progress = 1;
+
+            // 3 segments: 0-0.33, 0.33-0.66, 0.66-1
+            if (progress < 0.33) {
+                // Show Slide 1
+                slide1.classList.add('active');
+                slide1.classList.remove('prev-slide', 'next-slide');
+
+                slide2.classList.remove('active', 'prev-slide');
+                slide2.classList.add('next-slide');
+
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
+
+            } else if (progress >= 0.33 && progress < 0.66) {
+                // Show Slide 2
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
+
+                slide2.classList.add('active');
+                slide2.classList.remove('prev-slide', 'next-slide');
+
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
+
+            } else {
+                // Show Slide 3
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide'); // Slide 1 stays away
+
+                slide2.classList.remove('active', 'next-slide');
+                slide2.classList.add('prev-slide'); // Slide 2 goes up
+
+                slide3.classList.add('active');
+                slide3.classList.remove('prev-slide', 'next-slide');
+            }
+        });
+    }
+    });
+</script>
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
