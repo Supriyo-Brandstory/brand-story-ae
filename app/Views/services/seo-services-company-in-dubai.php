@@ -153,50 +153,37 @@
         color: #fff;
     }
 
-    /* Mobile Responsive Tweaks */
+    /* Mobile Responsive */
     @media (max-width: 991px) {
         .scroll-banner-section {
-            /* Keep scroll height on mobile */
-            height: 350vh;
+            height: auto;
         }
 
         .sticky-wrapper {
-            /* Keep sticky on mobile */
-            position: -webkit-sticky;
-            position: sticky;
-            height: 100vh;
-            flex-direction: row;
-            /* Keep row direction */
-            padding: 0;
+            position: relative;
+            height: auto;
+            flex-direction: column;
+            padding: 80px 0;
         }
 
         .scroll-slide {
-            /* Keep absolute positioning */
-            position: absolute;
-            height: 100%;
-            display: flex;
-            /* Ensure flex for centering */
-            opacity: 0;
-            transform: translateY(50px) scale(0.95);
-            /* Default state */
-            margin-bottom: 0;
-        }
-
-        /* Ensure active state overrides default */
-        .scroll-slide.active {
+            position: relative;
+            height: auto;
             opacity: 1 !important;
-            transform: scale(1) translateY(0) !important;
+            transform: none !important;
+            display: block;
+            margin-bottom: 80px;
         }
 
         .slide-1-content {
             flex-direction: column;
-            gap: 20px;
+            gap: 30px;
             text-align: center;
         }
 
         .slide-1-text h1 {
             text-align: center;
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
 
         .slide-1-list {
@@ -206,18 +193,15 @@
         }
 
         .slide-1-list li {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
         }
 
         .brandstory-logo-text {
-            width: 80%;
-            /* responsive width */
-            max-width: 300px;
+            width: 200px;
         }
 
-        .slide-3-desc {
-            font-size: 1.2rem;
-            padding: 0 15px;
+        .scroll-slide:last-child {
+            margin-bottom: 0;
         }
     }
 </style>
@@ -268,56 +252,56 @@
         const slide2 = document.getElementById('banner-slide-2');
         const slide3 = document.getElementById('banner-slide-3');
 
-        // Removed width check to enable on all devices
-        window.addEventListener('scroll', () => {
-            if (!section) return;
+        if (window.innerWidth > 991) {
+            window.addEventListener('scroll', () => {
+                if (!section) return;
 
-            const rect = section.getBoundingClientRect();
-            const viewportHeight = window.innerHeight;
-            const scrollHeight = section.offsetHeight - viewportHeight;
+                const rect = section.getBoundingClientRect();
+                const viewportHeight = window.innerHeight;
+                const scrollHeight = section.offsetHeight - viewportHeight;
 
-            // Calculate progress (0 to 1)
-            let progress = -rect.top / scrollHeight;
+                // Calculate progress (0 to 1)
+                let progress = -rect.top / scrollHeight;
 
-            if (progress <= 0) progress = 0;
-            if (progress >= 1) progress = 1;
+                if (progress <= 0) progress = 0;
+                if (progress >= 1) progress = 1;
 
-            // 3 segments: 0-0.33, 0.33-0.66, 0.66-1
-            if (progress < 0.33) {
-                // Show Slide 1
-                slide1.classList.add('active');
-                slide1.classList.remove('prev-slide', 'next-slide');
+                // 3 segments: 0-0.33, 0.33-0.66, 0.66-1
+                if (progress < 0.33) {
+                    // Show Slide 1
+                    slide1.classList.add('active');
+                    slide1.classList.remove('prev-slide', 'next-slide');
 
-                slide2.classList.remove('active', 'prev-slide');
-                slide2.classList.add('next-slide');
+                    slide2.classList.remove('active', 'prev-slide');
+                    slide2.classList.add('next-slide');
 
-                slide3.classList.remove('active', 'prev-slide');
-                slide3.classList.add('next-slide');
+                    slide3.classList.remove('active', 'prev-slide');
+                    slide3.classList.add('next-slide');
 
-            } else if (progress >= 0.33 && progress < 0.66) {
-                // Show Slide 2
-                slide1.classList.remove('active', 'next-slide');
-                slide1.classList.add('prev-slide');
+                } else if (progress >= 0.33 && progress < 0.66) {
+                    // Show Slide 2
+                    slide1.classList.remove('active', 'next-slide');
+                    slide1.classList.add('prev-slide');
 
-                slide2.classList.add('active');
-                slide2.classList.remove('prev-slide', 'next-slide');
+                    slide2.classList.add('active');
+                    slide2.classList.remove('prev-slide', 'next-slide');
 
-                slide3.classList.remove('active', 'prev-slide');
-                slide3.classList.add('next-slide');
+                    slide3.classList.remove('active', 'prev-slide');
+                    slide3.classList.add('next-slide');
 
-            } else {
-                // Show Slide 3
-                slide1.classList.remove('active', 'next-slide');
-                slide1.classList.add('prev-slide'); // Slide 1 stays away
+                } else {
+                    // Show Slide 3
+                    slide1.classList.remove('active', 'next-slide');
+                    slide1.classList.add('prev-slide'); // Slide 1 stays away
 
-                slide2.classList.remove('active', 'next-slide');
-                slide2.classList.add('prev-slide'); // Slide 2 goes up
+                    slide2.classList.remove('active', 'next-slide');
+                    slide2.classList.add('prev-slide'); // Slide 2 goes up
 
-                slide3.classList.add('active');
-                slide3.classList.remove('prev-slide', 'next-slide');
-            }
-        });
-    }
+                    slide3.classList.add('active');
+                    slide3.classList.remove('prev-slide', 'next-slide');
+                }
+            });
+        }
     });
 </script>
 
