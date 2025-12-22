@@ -1,79 +1,123 @@
+
+
 <section class="dm-agency-banner-section dm-bg">
     <div class="swiper dmagency-banner-sld">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="bannersld-main one">
+                <div class="bannersld-main two" style="background-image: url('/assets/images/new-website-design-company-in-dubai/website-development-dubai.webp')">
                     <div class="container">
-                        <img class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg" alt="Website Development Company in Dubai">
-                        <h1 class="mb-4 text-white">Best Web Development
-                            <span class="db">Company in Dubai, UAE</span>
-                        </h1>
-                        <p class="text-white mb-md-5 mb-4 fs-20">Your website is the first impression of your brand. BrandStory makes sure it’s
-                            <span class="db">powerful, professional, and built to deliver real business value. Our expert team of </span>
-                            website developers and digital marketing professionals join forces to build an
-                            <span class="db">effective foundation of business growth.</span>
-                        </p>
-                        <div class="violet-btn d-flex mb-md-0 mb-5">
-                            <a href="/contact/">Let’s Get Started</a>
+                        <div class="row">
+                            <div class="col-lg-8 col-12">
+
+                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg">
+                                <h1 class="mb-4 text-white">Best Web Development
+                                    <span class="db">Company in Dubai, UAE</span>
+                                </h1>
+                                <p class="text-white mb-md-5 mb-4 fs-20">Your website is the first impression of your brand. BrandStory makes sure it’s
+                            <span class="db">powerful, professional, and built to deliver real business value. Our expert </span>
+                             team of website developers and digital marketing professionals join forces 
+                            <span class="db">to build aneffective foundation of business growth. </p>
+                                <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get a Free Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+
+    </div>
+</section>
+
+<section class="dm-bg sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-white">Tech-Smart Web Design and Development Company</h2>
+                <p class="fs-20 text-white mb-3">BrandStory is a tech-smart website design and development company in Dubai that creates websites with a strong UX focus. Having 10+ years of experience in website development and digital marketing, we transform the user journey into a seamless, engaging, and conversion-driven experience.</p>
+                <p class="fs-20 text-white">We build scalable websites that connect with Dubai’s diverse and fast-paced audience. Our deep understanding of the local market trends, cultural nuances, and business expectations helps us craft <a class="text-decoration-underline text-white" href="/blogs/how-to-keep-your-website-running-smoothly-useful-tips">websites that runs smoothly</a> and connect with your customers.</p>
+
+            </div>
+            <div class="col-md-6 align-self-center">
+                <img class="w-100 mb-md-0 mb-3  mt-3 mt-md-0" src="/assets/images/new-website-design-company-in-dubai/website-dubai.webp" alt="Scalable Website Solutions">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="vidsec dm-bg">
+    <div class="perks-vide-bg sp-50 position-relative">
+
+        <div class="perks-content position-relative">
+            <div class="container perkshd position-relative">
+                <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">More Than Websites<br> We Create Digital Impact
+                </h2>
+            </div>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="irresistible-main text-md-start text-center">
+                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible1.png" alt="Website with Stunning Visuals">
+                            <h3 class="mb-3">Stunning Visuals</h3>
+                            <p class="mb-0">From drafting layouts to building websites, our expert designers work tirelessly to make it look visually appealing.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="irresistible-main text-md-start text-center">
+                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible2.png" alt="Website Content That Connects Audiance">
+                            <h3 class="mb-3">Content that Connects</h3>
+                            <p class="mb-0">We create content for the end-users so that they get the right information every time and convert them into potential customers.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="irresistible-main text-md-start text-center">
+                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible3.png" alt="Easy Navigation Features">
+                            <h3 class="mb-3">Simple & Powerful Navigation</h3>
+                            <p class="mb-0">User-friendly layout and simple navigation make it easier for users to switch between pages by clicking buttons.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="irresistible-main text-md-start text-center">
+                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible4.png" alt="Supirior User Experience">
+                            <h3 class="mb-3">UX That Delights</h3>
+                            <p class="mb-0">We design the user experience (UX) based on the business requirements and make a lead-generating platform rather than a simple website.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="irresistible-main text-md-start text-center">
+                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible5.png" alt="Device-specific Optimization">
+                            <h3 class="mb-3">Optimized for Any Device</h3>
+                            <p class="mb-0">We keep track of loading speed and device compatibility. We design websites that look appealing on almost every device.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="irresistible-main2">
+                            <div class="irresistible-btn">
+                                <a class="fs-20" href="/contact">Start Your Project</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="swiper-pagination dmagency-pagi"></div> -->
-    </div>
 </section>
 
-<section class="dm-bg sp-50 growth-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-white">Tech-Smart Web Design and Development Company</h2>
-                <p class="fs-20 text-white mb-3">BrandStory is a tech-smart website design and development company in Dubai that creates websites with a strong UX focus. Having 10+ years of experience in website development and app development, we transform the user journey into a seamless, engaging, and conversion-driven experience.</p>
-                <p class="fs-20 text-white">We build scalable websites that connect with Dubai’s diverse and fast-paced audience. Our deep understanding of the local market trends, cultural nuances, and business expectations helps us craft websites that speak directly to your customers.</p>
-
-            </div>
-            <div class="col-md-6 align-self-center">
-                <img class="w-100 mb-md-0 mb-3  mt-3 mt-md-0" src="/assets/images/icons/growth.svg" alt="Scalable Website Solutions">
-
-            </div>
-        </div>
-    </div>
-</section>
-<section class="dm-counter-sec sp-50 dm-bg d-none d-md-block">
-    <div class="container">
-        <div class="row gx-md-0 justify-content-center">
-            <div class="col-lg-4 col-6">
-                <div class="dm-conter-main text-center">
-                    <span class="dm-count-num">300+</span>
-                    <h3 class="text-white">Projects Delivered</h3>
-                    <p class="fs-24 text-white text-center">Successfully delivered more than 300 websites</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="dm-conter-main text-center ps-lg-5">
-                    <span class="dm-count-num">10+</span>
-                    <h3 class="text-white">Years of Expertise</h3>
-                    <p class="fs-24 text-white text-center">Providing web design and development services for a decade</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="dm-conter-main text-center  ps-lg-5">
-                    <span class="dm-count-num">400+</span>
-                    <h3 class="text-white">Happy Clients</h3>
-                    <p class="fs-24 text-white text-center">Served 400+ happy clients in various industry niches</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Section: Our Web Development Services -->
 <section class="dm-bg text-white py-5 web-development-services">
     <div class="container">
         <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Development Services</h2>
-        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a web design and development agency in Dubai, helping brands establish a strong digital presence. We are the most trusted choice for building user-friendly websites that captivate visitors, fuel brand visibility, and convert leads.</p>
+        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and development agency, helping brands build a strong and impactful 
+            digital presence. Our expert web designers craft visually engaging, <a class="text-decoration-underline text-white" href="/blogs/how-custom-web-design-sets-your-website-apart">user-focused website designs</a> that enhance brand visibility, engage visitors, and support meaningful business
+             growth.</p>
 
         <div class="row g-0">
 
@@ -226,95 +270,11 @@
             </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </div>
 </section>
 
 
-
-
-
-
-
-
-
-
-<section class="vidsec dm-bg">
-    <div class="perks-vide-bg sp-50 position-relative">
-        <!-- Background Video -->
-        <!-- <div class="bg-video-wrapper">
-    <video autoplay muted loop playsinline class="bg-video">
-      <source src="/assets/images/new-website-design-company-in-dubai/video/irresistible.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
-        <!-- Content -->
-        <div class="perks-content position-relative">
-            <div class="container perkshd position-relative">
-                <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center"> Our Website Design Services are Unmatched
-                </h2>
-            </div>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="irresistible-main text-md-start text-center">
-                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible1.png" alt="Website with Stunning Visuals">
-                            <h3 class="mb-3">Stunning Visuals</h3>
-                            <p class="mb-0">From drafting layouts to building websites, our expert designers work tirelessly to make it look visually appealing.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="irresistible-main text-md-start text-center">
-                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible2.png" alt="Website Content That Connects Audiance">
-                            <h3 class="mb-3">Content that Connects</h3>
-                            <p class="mb-0">We create <a href="/content-writing-company-in-dubai/">content for the end-users</a> so that they get the right information every time and convert them into potential customers.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="irresistible-main text-md-start text-center">
-                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible3.png" alt="Easy Navigation Features">
-                            <h3 class="mb-3">Simple & Powerful Navigation</h3>
-                            <p class="mb-0">User-friendly layout and simple navigation make it easier for users to switch between pages by clicking buttons.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="irresistible-main text-md-start text-center">
-                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible4.png" alt="Supirior User Experience">
-                            <h3 class="mb-3">UX That Delights</h3>
-                            <p class="mb-0">We design the user experience (UX) based on the business requirements and make a lead-generating platform rather than a simple website.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="irresistible-main text-md-start text-center">
-                            <img class="mb-4" src="/assets/images/new-website-design-company-in-dubai/irresistible5.png" alt="Device-specific Optimization">
-                            <h3 class="mb-3">Optimized for Any Device</h3>
-                            <p class="mb-0">We keep track of loading speed and device compatibility. We design websites that look appealing on almost every device.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="irresistible-main2">
-                            <div class="irresistible-btn">
-                                <a class="fs-20" href="/ui-ux-design-company-in-dubai/">UI/UX Design</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <div class="tech-stack-section">
     <div class="container">
         <div class="tech-subtitle">
@@ -413,37 +373,8 @@
     <!-- You can duplicate the structure for other tabs like backend, mobile, etc -->
 </div>
 
-<section class="wd-portfolio-sec sp-50 dm-bg">
-    <div class="container">
-        <h2 class="mb-4 text-white text-md-start text-center">Website Development Protfolio</h2>
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="dm-portfolio-main position-relative">
-                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio1.png" alt="Cover B Case Study- Website Design & Development">
-                    <div class="dm-porfolio-cnt">
-                        <h3 class="text-white mb-2">Cover B</h3>
-                        <div class="casestydies-readmore" bis_skin_checked="1">
-                            <a href="/case-study/cover-b-wesite/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="dm-portfolio-main position-relative">
-                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio3.png" alt="Consulting Firm Website ">
-                    <div class="dm-porfolio-cnt">
-                        <h3 class="text-white mb-2">Consulting Firm Website </h3>
-                        <div class="casestydies-readmore" bis_skin_checked="1">
-                            <a href="/case-study/leading-consulting-firm-website/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="dm-bg sp-50">
+<!--<section class="dm-bg sp-50">
     <div class="container">
         <h2 class="text-white mb-4 text-md-start text-center">Web Design & Development Process Flow</h2>
         <img class="w-100 d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wd-process.png" alt="Website Design and Development Process - Brandstory">
@@ -454,7 +385,7 @@
             <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl4.png" alt="Website Development Process - Phase 4">
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="wdp-flow sp-50 dm-bg position-relative" style="overflow: hidden;">
     <div class="mouse-circle"></div>
@@ -540,83 +471,6 @@
     </div>
 </section>
 
-<section class="sp-50 dm-blog-section dm-bg">
-    <div class="container">
-        <h2 class="text-white mb-md-4 text-md-start text-center">We Have Proven Expertise in All Industries
-        </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries1.png" alt="Industries We Serve - E-commerce Web Development">
-                            <h3>E-commerce</h3>
-                            <p class="fs-20">Online shopping platforms and delivery apps need to align with technology transition and evolving trends. We provide next-gen <a href="/ecommerce-development-company-dubai/">e-commerce website development</a> solutions with modern features. We make your digital storefront generate brand awareness and deliver user-first experiences.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries2.png" alt="Industries We Serve - Enterprise Website Development">
-                            <h3>Enterprise Websites</h3>
-                            <p class="fs-20">We are exceptional in enterprise website development, focusing on scalability, security, and tech integration. BrandStory empowers large-scale organizations with custom websites aligned with their complex business needs. Our enterprise solutions support complex workflows, multi-user systems, and deliver higher performance.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries3.png" alt="Industries We Serve - Healthcare Website Development">
-                            <h3>Healthcare</h3>
-                            <p class="fs-20">We design and develop secure, regulation-compliant websites for the healthcare sector in Dubai, UAE. Whether it’s a hospital website or an online medicine store, we ensure that patients can access the most useful resources easily and securely.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries4.png" alt="Industries We Serve - Real Estate Website Development">
-                            <h3>Real Estate</h3>
-                            <p class="fs-20">We design feature-rich property listing/real estate platforms with advanced search and filtering options. Our websites ensure easy access to properties, user experience, filtering, and lead generation.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries5.png" alt="Industries We Serve - Finance and Banking Website Development">
-                            <h3>Finance & Banking</h3>
-                            <p class="fs-20">We design and develop user-friendly and secure portals for banking, fintech, and financial sectors. Our solutions ensure data protection, end-to-end transactions, and all necessary regulatory compliance.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries6.png" alt="Industries We Serve - Education and Learning Websites">
-                            <h3>Education & E-Learning</h3>
-                            <p class="fs-20">We craft interactive online learning websites, LMS, school, and university websites. This incorporates seamless course management, multimedia content, and better navigation features as necessary.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries7.png" alt="Industries We Serve - Hospitality & Travel Website Development">
-                            <h3>Hospitality & Travel</h3>
-                            <p class="fs-20">We develop top-notch websites for hotels and travel agencies in Dubai with booking integrations and an easy checkout process. We incorporate the latest features like real-time room availability, dynamic pricing, and secure payment options.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries8.png" alt="Industries We Serve - Corporate Website Development">
-                            <h3>Corporate Websites</h3>
-                            <p class="fs-20">We craft scalable, professional websites that reflect your corporate identity and build trust with clients, investors, and stakeholders. We focus on embedding multimedia content, user engagement, and seamless functionality to deliver an impactful user experience.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-website-design-company-in-dubai/industries9.png" alt="Industries We Serve - Portfolio Website Development">
-                            <h3>Portfolio Websites</h3>
-                            <p class="fs-20">Do you need a digital platform to showcase your previous works? We build portfolio websites the way you want. Our top-of-the-line designers and developers can create your interactive digital portfolio that highlights your expertise and reflects your style.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
-        </div>
-    </div>
-</section>
 
 <section class="dm-bg sp-50">
     <div class="container">
@@ -667,17 +521,205 @@
                     <p class="fs-20 text-white">We streamline agile workflow and best practices for faster and more efficient project delivery</p>
                 </div>
             </div>
-            <div class="col-md-4 d-flex">
-                <div class="wd-partner-main text-center">
-                    <img src="/assets/images/new-website-design-company-in-dubai/partner7.png" alt="Ongoing Support and Maintenance Services">
-                    <h3 class="text-white mb-2">Ongoing Support</h3>
-                    <p class="fs-20 text-white">We keep our clients informed throughout the process with daily and weekly updates. We also provide dedicated post-launch support 24*7.</p>
+
+        </div>
+    </div>
+</section>
+
+<section class="dm-counter-sec sp-50 dm-bg d-none d-md-block">
+    <div class="container">
+        <div class="row gx-md-0 justify-content-center">
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center">
+                    <span class="dm-count-num">500+</span>
+                    <h3 class="text-white">Projects Delivered</h3>
                 </div>
             </div>
-            <div class="col-md-8 d-flex justify-content-center align-items-center">
-                <div class="wd-partner-main text-center align-items-center justify-content-center w-100 h-100 d-flex">
-                    <div class="irresistible-btn" bis_skin_checked="1">
-                        <a class="fs-20" href="/contact/">Let’s Get Started</a>
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center ps-lg-5">
+                    <span class="dm-count-num">10+</span>
+                    <h3 class="text-white">Years of Expertise</h3>
+                </div>
+            </div>
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center  ps-lg-5">
+                    <span class="dm-count-num">1,000+</span>
+                    <h3 class="text-white">Happy Clients</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="wd-portfolio-sec sp-50 dm-bg">
+    <div class="container">
+        <h2 class="mb-4 text-white text-md-start text-center">Website Development Protfolio</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="dm-portfolio-main position-relative">
+                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio1.png" alt="Cover B Case Study- Website Design & Development">
+                    <div class="dm-porfolio-cnt">
+                        <h3 class="text-white mb-2">Cover B</h3>
+                        <div class="casestydies-readmore" bis_skin_checked="1">
+                            <a href="/case-study/cover-b-wesite/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="dm-portfolio-main position-relative">
+                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio3.png" alt="Consulting Firm Website ">
+                    <div class="dm-porfolio-cnt">
+                        <h3 class="text-white mb-2">Consulting Firm Website </h3>
+                        <div class="casestydies-readmore" bis_skin_checked="1">
+                            <a href="/case-study/leading-consulting-firm-website/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dm-industries-sec sp-50 dm-bg">
+    <div class="container">
+        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">12+ Years of Experience in<br>
+            Serving Various Industries
+        </h2>
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
+                        <h3 class="text-white text-center">Education</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">
+                            As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
+                        <h3 class="text-white text-center">E-commerce</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
+                        <h3 class="text-white text-center">Healthcare</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
+                        <h3 class="text-white text-center">Real Estate</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
+                        <h3 class="text-white text-center">Travel</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center mb-3">`
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
+                        <h3 class="text-white text-center">Technology</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -687,40 +729,37 @@
 
 <section class="sp-50 dm-review-sec dm-bg">
     <div class="container">
-        <h2 class="text-white mb-md-4 text-md-start text-center">Client Reviews</h2>
+        <h2 class="text-white mb-md-4 text-md-start text-center">Our Client Reviews</h2>
         <div class="position-relative delivertechmain">
             <div class="swiper dmreview-sld">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="dm-review-main">
                             <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">We have been working with Brandstory for the last 2 years. Their website development and digital marketing services helped us completely revamp our online presence. Our new site looks modern and loads fast. We are happy with the services, and most importantly, they know what's happening in the technology industry and stay updated.</p>
-                            <h3 class="text-white mb-1 text-center">Khalid Al Mansoori</h3>
-                            <p class="mb-0 text-center text-white">Marketing Executive - Spectrum Accounts</p>
+                            <p class="text-white text-center mb-3">We have been working with Brandstory for the last 2 years. Their website development and digital marketing services helped us completely revamp our online presence. Our new site looks modern and loads fast.</p>
+                            <p class="mb-0 text-center text-white">Khalid Mansoori - Spectrum Accounts</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
                             <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">We are a startup insurance firm in the UAE. Brandstory has a promising role in transforming our digital platform at CoverB. They helped us with building a seamless user experience and modern website interface. They improved our brand visibility and customer engagement across the UAE with digital marketing. We are truly glad to work with their team.</p>
-                            <h3 class="text-white mb-1 text-center">Daniel White</h3>
-                            <p class="mb-0 text-center text-white">Managing Director - CoverB</p>
+                            <p class="text-white text-center mb-3">We are a startup insurance firm in the UAE. Brandstory has a promising role in transforming our digital platform at CoverB. They helped us with building a seamless user experience and modern website interface.</p>
+                            <p class="mb-0 text-center text-white">Daniel White - CoverB</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
                             <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">Brandstory created a user-friendly website that aligns with our identity as a global IoT-powered predictive maintenance company. On top of that, their digital marketing strategies significantly boosted our online visibility and lead generation across key regions, specializing in the UAE. They have a great professional team of experts.</p>
-                            <h3 class="text-white mb-1 text-center">Mark Reynolds</h3>
-                            <p class="mb-0 text-center text-white">Technology Lead - NanoPrecise Sci Corp</p>
+                            <p class="text-white text-center mb-3">Brandstory created a user-friendly website that aligns with our identity as a global IoT-powered predictive maintenance company. On top of that, their digital marketing strategies significantly boosted our online visibility.</p>
+                            <p class="mb-0 text-center text-white">Mark Reynolds- NanoPrecise Sci Corp</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="dm-review-main">
                             <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">Brandstory has been an outstanding partner for the last 2 years. They helped us design a great website that effectively showcases our brand’s innovative solutions. Their digital marketing expertise has greatly enhanced our visibility and engagement in the market. Their team was proactive, professional, and always ready to adapt to our evolving needs. We highly recommend their services.</p>
-                            <h3 class="text-white mb-1 text-center">Faisal Al Rashid</h3>
-                            <p class="mb-0 text-center text-white">Marketing Executive - FourNxt</p>
+                            <p class="text-white text-center mb-3">Brandstory has been an outstanding partner for the last 2 years. They helped us design a great website that effectively showcases our brand’s innovative solutions. Their team was proactive, professional, and always ready.</p>
+                            <h3 class="text-white mb-1 text-center"></h3>
+                            <p class="mb-0 text-center text-white">Faisal Al Rashid- FourNxt</p>
                         </div>
                     </div>
                 </div>
@@ -781,55 +820,6 @@
     </div>
 </section>
 
-<section class="sp-50 dm-bg">
-    <div class="container">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-    </div>
-    <div class="swiper brandlogo2 mt-3" data-aos="fade-up">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo1.svg?v=1" class="img-fluid" alt="Mysyara - Our Digital Marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo2.svg?v=1" class="img-fluid" alt="TAKELEAP- Our Digital Marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo3.svg?v=1" class="img-fluid" alt="Sherpa Communications- Our Digital Marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo4.svg?v=1" class="img-fluid" alt="FourNxt- Our Digital Marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo5.svg?v=1" class="img-fluid" alt="Spectrum Audit- Our Digital marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo6.svg?v=1" class="img-fluid" alt="Uno Capital- Our Digital marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo7.svg?v=1" class="img-fluid" alt="The Electronics Group- Our Digital marketing Client">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="brandsmain">
-                    <img src="/assets/images/dm-agency-dubai/client-logo8.svg?v=1" class="img-fluid" alt="International Centre for Culinary Arts Dubai- Our Digital marketing Client">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="sp-50 dm-blog-section dm-bg">
