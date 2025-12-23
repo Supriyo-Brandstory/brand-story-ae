@@ -170,7 +170,7 @@
         <h2 class="text-center mb-4 text-white">Inside Our SEO Audit Toolkit</h2>
         <p class="text-white text-center">Our complete SEO audit services in Dubai are designed for the most profound
             website evaluation and performance improvement possible. Therefore, a close look is given to crucial areas:
-            On-page SEO Audit, <a href="/blogs/off-page-seo/">Off-page</a> SEO Audit, Technical
+            On-page SEO Audit, Off-page, SEO Audit, Technical
             SEO Audit, Keyword Research and Analysis, Content
             Assessment, Competitor Analysis, and SEO Analysis and Reporting. This will help you design a holistic
             approach towards enhancing your online presence and ensuring sustainable growth.</p>
