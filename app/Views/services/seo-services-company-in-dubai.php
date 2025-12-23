@@ -83,7 +83,7 @@
             </div>
             <div class="col-lg-6 align-self-center">
 
-                <p class="text-white mb-3 fs-20">Unlock your brand’s full digital potential with a results-driven SEO agency in 
+                <p class="text-white mb-3 fs-20">Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in 
                     Dubai. Our SEO experts uncover hidden ranking opportunities, optimize every critical touchpoint,
                       and elevate your website’s presence across Google and other search results. This is why high-growth 
                       brands trust BrandStory to build scalable organic growth and compounding search visibility.</p>
