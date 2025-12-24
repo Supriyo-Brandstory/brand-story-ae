@@ -44,16 +44,13 @@
             <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
-
-            <a href="/local-seo-dubai" class="seo-marquee-item">Local SEO Optimization</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
             <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
@@ -63,19 +60,17 @@
             <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/local-seo-dubai" class="seo-marquee-item">Local SEO Optimization</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
-
             <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
         </div>
     </div>
