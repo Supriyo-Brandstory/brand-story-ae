@@ -47,13 +47,8 @@
             <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-<<<<<<< HEAD
       <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
-=======
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
->>>>>>> ac698076aca64cbc07fcedf0202ec54d49ee6a9c
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
@@ -71,13 +66,8 @@
             <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-<<<<<<< HEAD
       <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
-=======
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
->>>>>>> ac698076aca64cbc07fcedf0202ec54d49ee6a9c
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
