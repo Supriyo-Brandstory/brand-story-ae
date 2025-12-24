@@ -38,53 +38,53 @@
 </section>
 
 <section class="seo-marquee">
-  <div class="seo-marquee-wrapper">
-    <div class="seo-marquee-track">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
 
-      <a href="#technical-seo" class="seo-marquee-item">Technical SEO Services</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#local-seo" class="seo-marquee-item">Local SEO Optimization</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/local-seo-dubai" class="seo-marquee-item">Local SEO Optimization</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#keyword-research" class="seo-marquee-item">Keyword Research</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <!-- same 6 items repeated for loop -->
-      <a href="#technical-seo" class="seo-marquee-item">Technical SEO Services</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <!-- same 6 items repeated for loop -->
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#local-seo" class="seo-marquee-item">Local SEO Optimization</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/local-seo-dubai" class="seo-marquee-item">Local SEO Optimization</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#keyword-research" class="seo-marquee-item">Keyword Research</a>
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
 
+        </div>
     </div>
-  </div>
 </section>
 
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Unlock Your Business Potential  
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Unlock Your Business Potential
             <span class="db">With an Expert SEO Agency in Dubai</span>
         </h2>
         <div class="row">
@@ -188,15 +188,15 @@
             </div>
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
-                <li class="text-white mb-3 fs-20">A powerful digital presence is vital for modern business success. Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in
-                    Dubai. Our SEO experts uncover hidden ranking opportunities, optimize every critical touchpoint,
-                    and elevate your website’s presence across Google and other search results.</li>
- 
-                <li class="text-white mb-3 fs-20">We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
-                    and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>,
-                    our top-level professionals work with pinpoint precision.</li>
-                <li class="text-white mb-3 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
-                    your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
+                    <li class="text-white mb-3 fs-20">A powerful digital presence is vital for modern business success. Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in
+                        Dubai. Our SEO experts uncover hidden ranking opportunities, optimize every critical touchpoint,
+                        and elevate your website’s presence across Google and other search results.</li>
+
+                    <li class="text-white mb-3 fs-20">We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
+                        and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>,
+                        our top-level professionals work with pinpoint precision.</li>
+                    <li class="text-white mb-3 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
+                        your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
                 </ul>
                 <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
 
@@ -228,8 +228,8 @@
             <div class="col-md-6 Performance-Driven-right">
                 <p class="fs-20">Your SEO Investment is Not a Cost, It’s a Growth Multiplier.</p>
                 <p class="fs-20">
-                    Effective SEO doesn’t just improve your website, it fuels sustainable business growth. By leveraging expert SEO services in Dubai, 
-                    your business can achieve measurable results that go beyond temporary traffic spikes. 
+                    Effective SEO doesn’t just improve your website, it fuels sustainable business growth. By leveraging expert SEO services in Dubai,
+                    your business can achieve measurable results that go beyond temporary traffic spikes.
                 </p>
                 <p class="fs-20"><b>With the right SEO strategy, your brand can:</b></p>
                 <ul class="fs-20">
@@ -239,7 +239,7 @@
                     <li>Cost-Effective: Achieve lasting results with lower costs.</li>
                 </ul>
                 <p class="fs-20">
-                    At <b>BrandStory</b>, we focus on delivering SEO strategies that align with your business KPIs. We don’t chase vanity 
+                    At <b>BrandStory</b>, we focus on delivering SEO strategies that align with your business KPIs. We don’t chase vanity
                     metrics, we create measurable growth, attract the right audience, and convert them into customers.
                 </p>
                 <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us</a>
@@ -371,7 +371,7 @@
 
 
 <div class="sp-50 container SEO-that-Ranks" id="SEO-campaign-highlights">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Where Strategy Meets Success <br>Unfolding Our SEO  Wins</h2>
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Where Strategy Meets Success <br>Unfolding Our SEO Wins</h2>
 
 
     <!-- Swiper -->
