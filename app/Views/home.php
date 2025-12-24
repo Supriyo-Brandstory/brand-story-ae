@@ -635,13 +635,13 @@
         <div class="row gx-md-0">
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center">
-                    <span class="dm-count-num">350+</span>
+                    <span class="dm-count-num">1000+</span>
                     <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">180+</span>
+                    <span class="dm-count-num">900+</span>
                     <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
                 </div>
             </div>

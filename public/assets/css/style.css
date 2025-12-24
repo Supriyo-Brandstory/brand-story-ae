@@ -6962,3 +6962,59 @@ sup {
         }
     }
 }
+
+
+.seo-marquee {
+  background: #845EF7; /* soft purple background */
+  overflow: hidden;
+  padding: 22px 0;
+}
+
+.seo-marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.seo-marquee-track {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+/* Text */
+.seo-marquee-item {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0A0B0F;
+  text-decoration: none;
+  padding: 0 20px;
+  white-space: nowrap;
+}
+
+/* Bigger asterisk */
+.seo-marquee-sep {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0A0B0F;
+  padding: 0 9px;
+  line-height: 1;
+  position: relative;
+  top: -3px; /* adjust: -2px to -5px if needed */
+}
+
+
+/* Hover */
+.seo-marquee-item:hover {
+  color: #ffffffff;
+}
+
+/* TRUE seamless loop */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

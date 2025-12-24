@@ -4,15 +4,15 @@
         <div class="scroll-slide slide-1 active" id="banner-slide-1">
             <div class="slide-1-content">
                 <div class="slide-1-text">
-                    <h1>SEO Strategy<br>Drives</h1>
+                    <h1>SEO Agency in<br>Dubai Driving</h1>
                 </div>
                 <div class="slide-1-list">
                     <ul>
-                        <li>Search Visibility</li>
-                        <li>Qualified Traffic</li>
                         <li>1st Page Ranking</li>
+                        <li>Qualified Traffic</li>
                         <li>Brand Authority</li>
                         <li>Conversion Impact</li>
+                        <li>Competitive Edge</li>
                         <li>Long-Term Growth</li>
                     </ul>
                 </div>
@@ -22,7 +22,7 @@
         <!-- Slide 2 -->
         <div class="scroll-slide slide-2 next-slide" id="banner-slide-2">
             <div class="slide-2-content">
-                <span class="small-caps-header">With BrandStory</span>
+                <span class="small-caps-header">At BrandStory</span>
                 <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
             </div>
         </div>
@@ -30,19 +30,62 @@
         <!-- Slide 3 -->
         <div class="scroll-slide slide-3 next-slide" id="banner-slide-3">
             <div class="slide-3-content">
-                <p class="slide-3-desc">We position ourselves as a full-service SEO marketing agency serving businesses across Dubai, specialising in local, e-commerce, and enterprise-grade SEO services.</p>
+                <p class="slide-3-desc">We are a full-service SEO marketing agency in Dubai serving businesses across all industries, specialising in local, e-commerce, and enterprise-grade SEO services.</p>
                 <a href="javascript:void(0);" class="gradient-cta-btn uniq-contact-lead-btn">Book Your Demo Call</a>
             </div>
         </div>
     </div>
 </section>
 
+<section class="seo-marquee">
+  <div class="seo-marquee-wrapper">
+    <div class="seo-marquee-track">
+
+      <a href="#technical-seo" class="seo-marquee-item">Technical SEO Services</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#local-seo" class="seo-marquee-item">Local SEO Optimization</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#keyword-research" class="seo-marquee-item">Keyword Research</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <!-- same 6 items repeated for loop -->
+      <a href="#technical-seo" class="seo-marquee-item">Technical SEO Services</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#local-seo" class="seo-marquee-item">Local SEO Optimization</a>
+      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+
+      <a href="#keyword-research" class="seo-marquee-item">Keyword Research</a>
+
+    </div>
+  </div>
+</section>
 
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">ROI-Focused SEO Company in Dubai for
-            <span class="db">Page-One Google Ranking</span>
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Unlock Your Business Potential  
+            <span class="db">With an Expert SEO Agency in Dubai</span>
         </h2>
         <div class="row">
             <div class="col-lg-6">
@@ -144,18 +187,17 @@
 
             </div>
             <div class="col-lg-6 align-self-center">
-
-                <p class="text-white mb-3 fs-20">Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in
+                <ul class="mb-0">
+                <li class="text-white mb-3 fs-20">A powerful digital presence is vital for modern business success. Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in
                     Dubai. Our SEO experts uncover hidden ranking opportunities, optimize every critical touchpoint,
-                    and elevate your website’s presence across Google and other search results. This is why high-growth
-                    brands trust BrandStory to build scalable organic growth and compounding search visibility.</p>
-                <p class="text-white mb-3 fs-20">We redefine SEO services in Dubai by turning online searches into real business
-                    opportunities. We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
+                    and elevate your website’s presence across Google and other search results.</li>
+ 
+                <li class="text-white mb-3 fs-20">We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
                     and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>,
-                    our top-level professionals work with pinpoint precision.</p>
-                <p class="text-white mb-4 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
-                    your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</p>
-
+                    our top-level professionals work with pinpoint precision.</li>
+                <li class="text-white mb-3 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
+                    your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
+                </ul>
                 <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
 
             </div>
@@ -169,8 +211,167 @@
 
     </div>
 </section>
+
+<section class="Performance-Driven-wrapper dm-bg pt-1 mt-5">
+    <div class="container">
+        <h2 class="mb-4">SEO is The Key to <br>Sustainable Business Growth</h2>
+        <div class="row Performance-Driven-row px-md-4 px-2">
+            <div class="col-md-6 Performance-Driven-left">
+                <div class="Performance-Driven-image-wrapper">
+                    <img src="<?= base_url('assets/images/home/google-analytics-result.webp') ?>" alt="Analytics 1" class="Performance-Driven-elem elem1">
+                    <img src="<?= base_url('assets/images/home/search-console-result.webp') ?>" alt="Analytics 2" class="Performance-Driven-elem elem2">
+                    <img src="<?= base_url('assets/images/home/google-analytics-result-2.webp') ?>" alt="Analytics 3" class="Performance-Driven-elem elem3">
+                    <img src="<?= base_url('assets/images/home/professional-digital-marketer.webp') ?>" alt="Business Woman" class="Performance-Driven-main-img">
+                </div>
+
+            </div>
+            <div class="col-md-6 Performance-Driven-right">
+                <p class="fs-20">Your SEO Investment is Not a Cost, It’s a Growth Multiplier.</p>
+                <p class="fs-20">
+                    Effective SEO doesn’t just improve your website, it fuels sustainable business growth. By leveraging expert SEO services in Dubai, 
+                    your business can achieve measurable results that go beyond temporary traffic spikes. 
+                </p>
+                <p class="fs-20"><b>With the right SEO strategy, your brand can:</b></p>
+                <ul class="fs-20">
+                    <li>Increase Organic Traffic: Attract quality visitors.</li>
+                    <li>Improve Search Rankings: Be easily found on Google.</li>
+                    <li>Higher Conversion: Turn visitors into leads and sales.</li>
+                    <li>Cost-Effective: Achieve lasting results with lower costs.</li>
+                </ul>
+                <p class="fs-20">
+                    At <b>BrandStory</b>, we focus on delivering SEO strategies that align with your business KPIs. We don’t chase vanity 
+                    metrics, we create measurable growth, attract the right audience, and convert them into customers.
+                </p>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container sp-50">
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">SEO Services in Dubai <br>
+        Delivering Real Growth Results</h2>
+    <div class="seo-toprated-services">
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Website-Audit.png" alt="Website Audit">
+            </div>
+            <h3>Website Audit</h3>
+            <p>We conduct thorough SEO audits to uncover technical issues impacting your site’s performance, from speed to mobile usability. Our Dubai SEO experts fix technical SEO problems to ensure your site is crawlable and optimized, enabling improved visibility potential.</p>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Keyword-Research.png" alt="Keyword Research">
+            </div>
+            <h3>Keyword Research & Strategy</h3>
+            <p>We identify high-value keywords that align with your target audience's search intent and search behavior, ensuring your business shows up in relevant searches. Using advanced tools, we identify high-potential keywords that your customers are actually searching for.</p>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="On-Page Optimization">
+            </div>
+            <h3>On-Page Optimization</h3>
+            <p>We fine-tune every element of websites, from meta tags and internal links to images and videos, to strengthen on-page elements and maximize visibility. With a strategic SEO approach, we ensure faster indexing, higher search rankings, and a seamless user experience that keeps visitors engaged and coming back.</p>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Content-Optimization.png" alt="Content Optimization">
+            </div>
+            <h3>Content Optimization</h3>
+            <p>We create well-researched, highly engaging content designed to rank on Google’s first page, drive traffic, and retain visitors. Our expert content strategies ensure originality, relevance, and value, helping businesses in Dubai boost visibility and build authority with top-quality content.</p>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Link-Building.png" alt="Link Building">
+            </div>
+            <h3>Link Building</h3>
+            <p>We build high-quality backlinks from authoritative sources recognized by Google’s algorithm. Every link we secure strengthens your SEO foundation, drives qualified traffic, and positions your Dubai business for long-term online dominance. We make businesses seen, trusted, and remembered.</p>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Website Audit">
+            </div>
+            <h3>Monitoring & Reporting</h3>
+            <p>We provide transparent, detailed weekly and monthly reports to help you track every aspect of your website’s performance. From monitoring traffic and keyword rankings to analyzing key SEO metrics to help you know how your SEO investment is performing and where opportunities for improvement lie.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="tools-section">
+    <div class="sction-header">
+        <h2 class="section-title">Tools and Tech That Drive Our SEO Success</h2>
+        <p class="section-description width-800">
+            As a renowned Dubai SEO Agency, we use cutting-edge SEO tools for website audit, keyword
+            research, and competitor mapping. We plan SEO strategies based on long-term growth and
+            sustainable organic reach.
+        </p>
+    </div>
+
+
+    <div class="tools-container">
+        <div class="tools-list-wrapper">
+            <div class="tools-list">
+                <div class="tool-card" data-tool="gsc">
+                    <img src="/assets/images/icons/google-console.svg" alt="GSC" />
+                    <span>Google Search Console</span>
+                </div>
+                <div class="tool-card" data-tool="gds">
+                    <img src="/assets/images/icons/google-data.svg" alt="GDS" />
+                    <span>Google Data Studio</span>
+                </div>
+                <div class="tool-card" data-tool="ga">
+                    <img src="/assets/images/icons/google-analytics.svg" alt="GA" />
+                    <span>Google Analytics</span>
+                </div>
+                <div class="tool-card" data-tool="semrush">
+                    <img src="/assets/images/icons/semrush.svg" alt="Semrush" />
+                    <span>SemRush</span>
+                </div>
+                <div class="tool-card" data-tool="surfer">
+                    <img src="/assets/images/icons/surfer.svg" alt="surfer" />
+                    <span>Surfer SEO</span>
+                </div>
+                <div class="tool-card" data-tool="screaming-frog">
+                    <img src="/assets/images/icons/screaming-frog.svg" alt="screaming-frog" />
+                    <span>Screaming Frog</span>
+                </div>
+                <div class="tool-card" data-tool="contentpace">
+                    <img src="/assets/images/icons/contentpace.svg" alt="contentpace" />
+                    <span>Contentpace </span>
+                </div>
+
+                <div class="tool-card" data-tool="ahrefs">
+                    <img src="/assets/images/icons/ahrefs.svg" alt="ahrefs" />
+                    <span>Ahrefs</span>
+                </div>
+                <div class="tool-card" data-tool="google-tag-manager">
+                    <img src="/assets/images/icons/google-tag-manager.svg" alt="google-tag-manager" />
+                    <span>Google Tag Manager</span>
+                </div>
+                <div class="tool-card" data-tool="Moz">
+                    <img src="/assets/images/icons/Moz.svg" alt="Moz" />
+                    <span>Moz</span>
+                </div>
+
+                <!-- Add more tool-cards below as needed -->
+            </div>
+        </div>
+
+        <div class="tool-description" id="tool-description">
+            <h3>Google Search Console</h3>
+            <p>
+                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
 <div class="sp-50 container SEO-that-Ranks" id="SEO-campaign-highlights">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">SEO Ranking & Traffic That We Have Achieved </h2>
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Where Strategy Meets Success <br>Unfolding Our SEO  Wins</h2>
 
 
     <!-- Swiper -->
@@ -441,143 +642,16 @@
         </div>
 
 
-
-
-
     </div>
 
 </div>
 
-<div class="container sp-50">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Explore The Best SEO Services in Dubai<br>
-        Offered by BrandStory</h2>
-    <div class="seo-toprated-services">
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Website-Audit.png" alt="Website Audit">
-            </div>
-            <h3>Website Audit</h3>
-            <p>We conduct thorough SEO audits to uncover technical issues impacting your site’s performance, from speed to mobile usability. Our Dubai SEO experts fix technical SEO problems to ensure your site is crawlable and optimized, enabling improved visibility potential.</p>
-        </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Keyword-Research.png" alt="Keyword Research">
-            </div>
-            <h3>Keyword Research & Strategy</h3>
-            <p>We identify high-value keywords that align with your target audience's search intent and search behavior, ensuring your business shows up in relevant searches. Using advanced tools, we identify high-potential keywords that your customers are actually searching for.</p>
-        </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="On-Page Optimization">
-            </div>
-            <h3>On-Page Optimization</h3>
-            <p>We fine-tune every element of websites, from meta tags and internal links to images and videos, to strengthen on-page elements and maximize visibility. With a strategic SEO approach, we ensure faster indexing, higher search rankings, and a seamless user experience that keeps visitors engaged and coming back.</p>
-        </div>
 
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Content-Optimization.png" alt="Content Optimization">
-            </div>
-            <h3>Content Optimization</h3>
-            <p>We create well-researched, highly engaging content designed to rank on Google’s first page, drive traffic, and retain visitors. Our expert content strategies ensure originality, relevance, and value, helping businesses in Dubai boost visibility and build authority with top-quality content.</p>
-        </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Link-Building.png" alt="Link Building">
-            </div>
-            <h3>Link Building</h3>
-            <p>We build high-quality backlinks from authoritative sources recognized by Google’s algorithm. Every link we secure strengthens your SEO foundation, drives qualified traffic, and positions your Dubai business for long-term online dominance. We make businesses seen, trusted, and remembered.</p>
-        </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Website Audit">
-            </div>
-            <h3>Monitoring & Reporting</h3>
-            <p>We provide transparent, detailed weekly and monthly reports to help you track every aspect of your website’s performance. From monitoring traffic and keyword rankings to analyzing key SEO metrics to help you know how your SEO investment is performing and where opportunities for improvement lie.</p>
-        </div>
-
-    </div>
-</div>
-
-
-
-<div class="tools-section">
-    <div class="sction-header">
-        <h2 class="section-title">Tools and Tech That Drive Our SEO Success</h2>
-        <p class="section-description width-800">
-            As a renowned Dubai SEO Agency, we use cutting-edge SEO tools for website audit, keyword
-            research, competitor mapping, and more. We plan SEO strategies based on long-term growth and
-            sustainable organic reach.
-        </p>
-    </div>
-
-
-
-
-
-    <div class="tools-container">
-        <div class="tools-list-wrapper">
-            <div class="tools-list">
-                <div class="tool-card" data-tool="gsc">
-                    <img src="/assets/images/icons/google-console.svg" alt="GSC" />
-                    <span>Google Search Console</span>
-                </div>
-                <div class="tool-card" data-tool="gds">
-                    <img src="/assets/images/icons/google-data.svg" alt="GDS" />
-                    <span>Google Data Studio</span>
-                </div>
-                <div class="tool-card" data-tool="ga">
-                    <img src="/assets/images/icons/google-analytics.svg" alt="GA" />
-                    <span>Google Analytics</span>
-                </div>
-                <div class="tool-card" data-tool="semrush">
-                    <img src="/assets/images/icons/semrush.svg" alt="Semrush" />
-                    <span>SemRush</span>
-                </div>
-                <div class="tool-card" data-tool="surfer">
-                    <img src="/assets/images/icons/surfer.svg" alt="surfer" />
-                    <span>Surfer SEO</span>
-                </div>
-                <div class="tool-card" data-tool="screaming-frog">
-                    <img src="/assets/images/icons/screaming-frog.svg" alt="screaming-frog" />
-                    <span>Screaming Frog</span>
-                </div>
-                <div class="tool-card" data-tool="contentpace">
-                    <img src="/assets/images/icons/contentpace.svg" alt="contentpace" />
-                    <span>Contentpace </span>
-                </div>
-
-                <div class="tool-card" data-tool="ahrefs">
-                    <img src="/assets/images/icons/ahrefs.svg" alt="ahrefs" />
-                    <span>Ahrefs</span>
-                </div>
-                <div class="tool-card" data-tool="google-tag-manager">
-                    <img src="/assets/images/icons/google-tag-manager.svg" alt="google-tag-manager" />
-                    <span>Google Tag Manager</span>
-                </div>
-                <div class="tool-card" data-tool="Moz">
-                    <img src="/assets/images/icons/Moz.svg" alt="Moz" />
-                    <span>Moz</span>
-                </div>
-
-                <!-- Add more tool-cards below as needed -->
-            </div>
-        </div>
-
-        <div class="tool-description" id="tool-description">
-            <h3>Google Search Console</h3>
-            <p>
-                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
-            </p>
-        </div>
-    </div>
-
-</div>
 <div class="sp-50 seo-expect-from">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-12">
-                <h2 class="mb-3">We Achieved 4x ROI with SEO Campaigns</h2>
+                <h2 class="mb-3">We Achieve 4x ROI with SEO Campaigns</h2>
                 <p class="mb-3">Investing in SEO is more than just improving rankings, it is about driving measurable <a href="/seo-services-company-in-dubai/#SEO-campaign-highlights" style="color:#fff;text-decoration:underline;font-weight:700">business growth</a>. With strategic SEO, your business doesn’t just compete in Dubai, it dominates search results, attracts the right audience, and achieves real, trackable results that fuel growth.</p>
                 <ul>
                     <li> Higher organic traffic by targeting visitors searching for your products or services.</li>
@@ -599,7 +673,7 @@
                                 <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
                             </svg>
                         </div>
-                        <h5>Grow Big with<br>Smarter SEO</h5>
+                        <h5>Grow Big with<br>Smart SEO</h5>
                     </div>
 
                     <!-- Middle Right: 15x Better -->
@@ -622,8 +696,7 @@
 
 <section class="dm-whychoose-sec sp-50  dm-bg">
     <div class="container">
-        <h2 class="text-white mb-lg-2 mb-4 text-md-start text-center">Why Choose BrandStory for SEO in Dubai</h2>
-        <p class="text-white fs-20 mb-lg-4">With an abundance of self-acclaimed SEO agencies in Dubai who don't deliver to your expectations. We are a realistic solution-based SEO agency trusted by 100+ businesses. Here’s what makes us the best:</p>
+        <h2 class="text-white mb-lg-2 mb-4 text-md-start text-center">What Sets Us Apart as <br>The Top SEO Agency in Dubai</h2><br>
         <div class="row">
             <div class="col-lg-5">
                 <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
@@ -699,145 +772,34 @@
         </div>
     </div>
 </section>
-<section class="dm-industries-sec sp-50 dm-bg">
+
+<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+<section class="dm-counter-sec sp-50 dm-bg">
     <div class="container">
-        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">12+ Years of Experience in<br>
-            Serving Various Industries
-        </h2>
-        <div class="row g-3">
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
-                        <h3 class="text-white text-center">Education</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">
-                            As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.
-                        </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
+        <div class="row gx-md-0">
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center">
+                    <span class="dm-count-num">500+</span>
+                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
-                        <h3 class="text-white text-center">E-commerce</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.
-                        </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">350+</span>
+                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
-                        <h3 class="text-white text-center">Healthcare</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
+                    <span class="dm-count-num">12+</span>
+                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
-                        <h3 class="text-white text-center">Real Estate</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
-                        <h3 class="text-white text-center">Travel</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center mb-3">`
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
-                        <h3 class="text-white text-center">Technology</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                        </p>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">100+</span>
+                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
                 </div>
             </div>
         </div>
@@ -845,7 +807,7 @@
 </section>
 
 <div class="sp-50 container pricing-plan-for-seo">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Value-Packed Pricing Plan for SEO</h2>
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Value-Packed SEO Pricing Plans</h2>
     <div class="row">
         <div class="col-lg-4 col-12 ">
             <div class="box">
@@ -1035,10 +997,159 @@
         </div>
     </div>
 </div>
+
+
+
+<section class="dm-industries-sec sp-50 dm-bg">
+    <div class="container">
+        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">12+ Years of Experience in<br>
+            Serving Various Industries
+        </h2>
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
+                        <h3 class="text-white text-center">Education</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">
+                            As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
+                        <h3 class="text-white text-center">E-commerce</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
+                        <h3 class="text-white text-center">Healthcare</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
+                        <h3 class="text-white text-center">Real Estate</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
+                        <h3 class="text-white text-center">Travel</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center mb-3">`
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
+                        <h3 class="text-white text-center">Technology</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="sp-50 dm-blog-section dm-bg">
     <div class="container">
         <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-white mb-4 text-md-start text-center ">Case Studies That Showcase <br>Digital Marketing Success
+            <h2 class="text-white mb-4 text-md-start text-center ">Our SEO Success Stories <br>Latest Case Studies
             </h2>
             <a href="/case-study/" class="Performance-Driven-btn">➤All Case Studies</a>
         </div>
@@ -1049,7 +1160,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
-                            <strong>Digital Marketing</strong>
+                            <strong>Digital Marketing, SEO</strong>
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
@@ -1060,7 +1171,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-2.webp">
-                            <strong>Branding & Digital Marketing</strong>
+                            <strong>SEO & Digital Marketing</strong>
                             <h3>TravelX</h3>
                             <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
                             <div class="casestydies-readmore">
@@ -1071,7 +1182,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
-                            <strong>Digital Marketing</strong>
+                            <strong>SEO and Digital Marketing</strong>
                             <h3>Crystal Plaza</h3>
                             <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai", “business stay Dubai".</p>
                             <div class="casestydies-readmore">
@@ -1082,7 +1193,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-4.webp">
-                            <strong>Digital Marketing</strong>
+                            <strong>SEO and Digital Marketing</strong>
                             <h3>NIMS School</h3>
                             <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
                             <div class="casestydies-readmore">
@@ -1093,7 +1204,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-5.webp">
-                            <strong>Website & Digital Marketing</strong>
+                            <strong>Website & SEO</strong>
                             <h3>Wipro Infrastructure Engineering</h3>
                             <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
                             <div class="casestydies-readmore">
@@ -1104,7 +1215,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-6.webp">
-                            <strong>Website & Digital Marketing</strong>
+                            <strong>Website & SEO</strong>
                             <h3>NanoPrecise Sci Corp</h3>
                             <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
                             <div class="casestydies-readmore">
@@ -1115,7 +1226,7 @@
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>Branding & Digital Marketing</strong>
+                            <strong>SEO & Digital Marketing</strong>
                             <h3>Sherpa Communications</h3>
                             <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
                             <div class="casestydies-readmore">
@@ -1154,7 +1265,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <div class="growimg position-relative mb-lg-0 mb-3">
                     <img class="w-100" src="/assets/images/new-home/grow-img.webp" alt="Contact for Digital Marketing Services in Dubai">
                     <div class="growimg-cnt">
-                        <p class="mb-5 text-white fs-20">Uplift your digital presence, increase sales, and maximize ROAS with Google-certified digital marketing experts. Get a Free Consultation and a Comprehensive Audit to uncover your growth opportunities.</p>
+                        <p class="mb-5 text-white fs-20">Boost your online visibility, improve search rankings, and drive higher conversions with our SEO experts in Dubai. Get a Free SEO Consultation and Comprehensive Website Audit to discover your growth opportunities.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
 
                     </div>

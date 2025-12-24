@@ -111,6 +111,11 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/seo-services-company-in-dubai', ['meta' => $meta]);
     }
+    public function onpageServicesDubai()
+    {
+        $meta = [];
+        return $this->view('services/on-page-seo-dubai', ['meta' => $meta]);
+    }
     public function brandAgencyDubai()
     {
         $meta = [];
