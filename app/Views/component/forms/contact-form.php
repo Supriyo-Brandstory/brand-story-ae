@@ -89,7 +89,9 @@
         background-color: rgb(242 242 242) !important;
     }
 
-    .iti__flag-container {}
+    #phone {
+        padding-left: 55px !important;
+    }
 </style>
 <script>
     // Real-time input restrictions

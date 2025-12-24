@@ -47,8 +47,8 @@
             <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
@@ -66,8 +66,8 @@
             <a href="/seo-audit-dubai" class="seo-marquee-item">Website SEO Audit</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-      <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
@@ -2014,3 +2014,16 @@ include __DIR__ . '/../component/client_reviews.php';
             });
         });
     </script>
+
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
+        ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
+        ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
+        ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
+        ['label' => 'Local SEO', 'url' => '/local-seo-dubai'],
+        ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+    ];
+    ?>

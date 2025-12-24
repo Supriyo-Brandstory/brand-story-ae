@@ -106,23 +106,51 @@
     include __DIR__ . '/../../component/forms/contact-form.php' ?>
   </div>
 </div>
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
+$stickyServices = $stickyServices ?? [
+  ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
+  ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
+  ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
+  ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
+  ['label' => 'Local SEO', 'url' => '/local-seo-dubai'],
+  ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+];
+?>
 <div class="unique-sticky-container" role="navigation" aria-label="Quick actions">
-  <!-- Call -->
+  <!-- Services List (Desktop Only) -->
+  <div class="unique-sticky-services-wrapper desktop-only">
+    <a
+      class="unique-sticky-btn unique-sticky-services"
+      href="javascript:void(0);">
+      <img src="/assets/images/repairing-service.png" alt="" class="unique-sticky-icon" />
+      <span class="unique-sticky-label">SEO Services</span>
+    </a>
+    <div class="unique-sticky-dropdown">
+      <ul>
+        <?php foreach ($stickyServices as $service): ?>
+          <li><a href="<?= $service['url'] ?>"><?= $service['label'] ?></a></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Call (Mobile Only) -->
   <a
-    class="unique-sticky-btn unique-sticky-call"
+    class="unique-sticky-btn unique-sticky-call mobile-only"
     href="tel:+971522831655"
     aria-label="Call us">
     <img src="/assets/images/call-sticky.png" alt="" class="unique-sticky-icon" />
+    <span class="unique-sticky-label">Call Us</span>
   </a>
 
-  <!-- Message (WhatsApp example). 
-       Prefer SMS? Use href="sms:+911234567890"
-       Prefer Email? Use href="mailto:hello@example.com" -->
+  <span class="unique-sticky-separator">|</span>
 
   <a
     class="unique-sticky-btn unique-sticky-msg uniq-contact-lead-btn"
     href="javascript:void(0);">
     <img src="/assets/images/mail-sticky.png" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
+    <span class="unique-sticky-label">Enquire</span>
   </a>
 
 </div>
