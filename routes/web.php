@@ -16,9 +16,7 @@ Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@social
 Route::get('/seo-services-company-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
 Route::get('/on-page-seo-dubai', 'FrontendController@onpageServicesDubai', 'onpageservicesdubai');
 Route::get('/technical-seo-dubai', 'FrontendController@technicalSeoDubai', 'technicalseodubai');
-Route::get('/seo-audit-dubai', 'FrontendController@seoAuditDubai', 'seoauditdubai');
 Route::get('/off-page-seo-dubai', 'FrontendController@offPageSeoDubai', 'offpageseodubai');
-Route::get('/local-seo-dubai', 'FrontendController@localSeoDubai', 'localseodubai');
 Route::get('/keyword-research-dubai', 'FrontendController@keywordResearchDubai', 'keywordresearchdubai');
 Route::get('/sitemap.xml', 'SitemapController@index', 'sitemap');
 Route::get('/robots.txt', 'RobotsController@index', 'robots');

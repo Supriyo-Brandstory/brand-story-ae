@@ -123,22 +123,10 @@ class FrontendController extends Controller
         return $this->view('services/technical-seo-dubai', ['meta' => $meta]);
     }
 
-    public function seoAuditDubai()
-    {
-        $meta = [];
-        return $this->view('services/seo-audit-dubai', ['meta' => $meta]);
-    }
-
     public function offPageSeoDubai()
     {
         $meta = [];
         return $this->view('services/off-page-seo-dubai', ['meta' => $meta]);
-    }
-
-    public function localSeoDubai()
-    {
-        $meta = [];
-        return $this->view('services/local-seo-dubai', ['meta' => $meta]);
     }
 
     public function keywordResearchDubai()

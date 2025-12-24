@@ -41,41 +41,41 @@
   <div class="seo-marquee-wrapper">
     <div class="seo-marquee-track">
 
-      <a href="#title-tag-opt" class="seo-marquee-item">Title Tag Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Title Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#page-speed-opt" class="seo-marquee-item">Page Speed Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Page Speed Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#header-tag-opt" class="seo-marquee-item">Header Tag Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Header Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#image-opt" class="seo-marquee-item">Image Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Image Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#internal-links" class="seo-marquee-item">Internal Linking</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Internal Linking</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#schema-implementation" class="seo-marquee-item">Schema Implementation</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Schema Implementation</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
       <!-- same 6 items repeated for loop -->
-      <a href="#title-tag-opt" class="seo-marquee-item">Title Tag Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Title Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#page-speed-opt" class="seo-marquee-item">Page Speed Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Page Speed Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#header-tag-opt" class="seo-marquee-item">Header Tag Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Header Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#image-opt" class="seo-marquee-item">Image Optimization</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Image Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#internal-links" class="seo-marquee-item">Internal Linking</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Internal Linking</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#schema-implementation" class="seo-marquee-item">Schema Implementation</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">Schema Implementation</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
     </div>
@@ -90,11 +90,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="Digital Marketing Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/on-page-1.webp') ?>" alt="On-page SEO Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/mobile-digital.webp') ?>" alt="Digital Marketing Agency in Dubai">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/on-page-mob.webp') ?>" alt="On-page SEO Agency in Dubai">
                 </div>
 
             </div>
@@ -106,7 +106,7 @@
                     <li class="text-white mb-3 fs-20">By leveraging techniques like title tag optimization, content structuring, image optimization, schema markup, and internal linking, BrandStory
                          ensures your website performs at its best. Each improvement is aimed at enhancing both search engine understanding and user experience. We focus on making your website 
                          more discoverable, relevant, and engaging for your audience.</li>
-                    <li class="text-white mb-4 fs-20">Partner with us to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers, 
+                    <li class="text-white mb-4 fs-20">Partner with us, we are the leading <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO agency in Dubai</a> to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers, 
                         giving your brand a competitive edge in Dubai’s digital landscape.</li>
                 </ul>
                 <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
@@ -145,7 +145,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Real-Estate-Marketing-Agency-banner-img2.webp" alt="HubSpot Diamond Agency" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/new-seo/technical-seo-2.webp" alt="On-page SEO Agency in Dubai" class="img-fluid" style="border-radius: 20px;">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top ">
@@ -194,13 +194,27 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-7">
                     <h2 class="text-white mb-4 text-md-start text-center ">BrandStory Helps Your Business Grow with On-Page SEO</h2>
-                    <p class="fs-20 text-white"><b>Stronger Page-Level Visibility: </b>
+                    <ul class="mb-0">
+                    <li class="text-white mb-3 fs-20">Stronger Page-Level Visibility: 
                     BrandStory refines every on-page element so your website communicates clearly with search engines. This results in improved keyword alignment and 
                     greater visibility for high-intent searches that matter to your business.
-                    </p>
+                    </li>
+                    <li class="text-white mb-3 fs-20">More Qualified Website Visitors:
+                    By aligning content structure, intent, and usability, our on-page SEO approach attracts visitors who are actively searching for 
+                    your services, leading to higher engagement and better lead quality.
+                    </li>
+                    <li class="text-white mb-3 fs-20">Greater Brand Confidence Online: 
+                    Consistent on-page optimization improves how your website appears and performs in search results. A well-structured, authoritative website
+                     builds confidence among users and positions your brand as a credible choice in your industry.
+                    </li>
+                    <li class="text-white mb-3 fs-20">Improved Conversion Readiness: 
+                    On-page SEO enhances page layout, content clarity, and internal pathways, making it easier for visitors to take action. This creates smoother
+                     user journeys that turn traffic into enquiries, leads, and sales.
+                    </li>
+                    </ul>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Real-Estate-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/new-seo/technical-seo-3.webp" alt="On-page SEO Agency in Dubai" style="border-radius: 20px;" class="img-fluid">
                 </div>
             </div>
 
@@ -483,87 +497,257 @@ include __DIR__ . '/../component/client_reviews.php';
 </section>
 
  <section class="dm-faq-section bg-black sp-50">
-        <div class="container">
-            <h2 class="text-center text-white mb-lg-5 mb-4">Your Industry Questions Answered</h2>
-            <div class="dm-faq-main">
-                <div class="tab-content" id="pills-tabContent">
-                    <!-- Existing Industry Tab -->
-                    <div class="tab-pane fade show active" id="pills-dm" role="tabpanel" aria-labelledby="pills-dm-tab">
-                        <div class="accordion accordion-flush" id="accordionFlushExample1">
-                            <!-- Existing accordion items here... -->
-                        </div>
-                    </div>
+  <div class="container">
+    <h2 class="text-center text-white mb-lg-5 mb-4">Your On-Page Questions Answered</h2>
 
-                    <!-- New Education Marketing Tab -->
-                    <div class="tab-pane fade show active" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
-                        <div class="accordion accordion-flush" id="accordionFlushExampleEducation">
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingEdu1">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEdu1" aria-expanded="false" aria-controls="flush-collapseEdu1">
-                                        What is Real Estate Marketing?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseEdu1" class="accordion-collapse collapse" aria-labelledby="flush-headingEdu1" data-bs-parent="#accordionFlushExampleEducation">
-                                    <div class="accordion-body">
-                                        <p class="fs-20 text-white mb-2">Real estate marketing involves promoting properties, real estate agencies, and developers to attract potential buyers or tenants. It includes strategies like online listings, social media campaigns, SEO, paid ads, email marketing, and virtual tours to generate leads and close sales.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingEdu2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEdu2" aria-expanded="false" aria-controls="flush-collapseEdu2">
-                                        Why is Marketing Important for Real Estate Businesses?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseEdu2" class="accordion-collapse collapse" aria-labelledby="flush-headingEdu2" data-bs-parent="#accordionFlushExampleEducation">
-                                    <div class="accordion-body">
-                                        <p class="fs-20 text-white mb-2">With a highly competitive market, real estate marketing helps agents and developers stand out, reach the right audience, and build trust. It ensures maximum visibility for properties and increases the chances of faster sales or rentals.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingEdu3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEdu3" aria-expanded="false" aria-controls="flush-collapseEdu3">
-                                        What Digital Marketing Strategies Work Best for Real Estate?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseEdu3" class="accordion-collapse collapse" aria-labelledby="flush-headingEdu3" data-bs-parent="#accordionFlushExampleEducation">
-                                    <div class="accordion-body">
-                                        <p class="fs-20 text-white mb-2">Effective strategies include search engine optimization (SEO) for property listings, social media advertising, Google Ads, content marketing, video tours, email campaigns, and online reputation management. These approaches help attract qualified leads and engage potential buyers.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingEdu4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEdu4" aria-expanded="false" aria-controls="flush-collapseEdu4">
-                                        How Can Real Estate Marketing Help Sell or Rent Properties Faster?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseEdu4" class="accordion-collapse collapse" aria-labelledby="flush-headingEdu4" data-bs-parent="#accordionFlushExampleEducation">
-                                    <div class="accordion-body">
-                                        <p class="fs-20 text-white mb-2">Marketing highlights the unique features of properties, targets specific buyer demographics, and creates awareness through multiple online channels. Professional photos, virtual tours, and well-crafted campaigns can significantly reduce the time properties stay on the market.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h4 class="accordion-header" id="flush-headingEdu5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEdu5" aria-expanded="false" aria-controls="flush-collapseEdu5">
-                                        How Do Real Estate Marketing Services Measure Success?
-                                    </button>
-                                </h4>
-                                <div id="flush-collapseEdu5" class="accordion-collapse collapse" aria-labelledby="flush-headingEdu5" data-bs-parent="#accordionFlushExampleEducation">
-                                    <div class="accordion-body">
-                                        <p class="fs-20 text-white mb-2">Success is measured through metrics like website traffic, lead generation, inquiries, conversion rates, property views, and social media engagement. Analytics help optimize campaigns to achieve better results and maximize return on investment (ROI).</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="dm-faq-main">
+      <div class="tab-content" id="pills-tabContent">
+
+        <!-- Education Marketing Tab (ACTIVE) -->
+        <div class="tab-pane fade show active" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+          <div class="accordion accordion-flush" id="accordionFlushExampleEducation">
+
+            <!-- FAQ 1 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu1">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu1"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu1">
+                  What does On-Page SEO actually focus on?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu1" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu1"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    On-page SEO focuses on optimizing the elements within your website, such as content 
+                    quality, page structure, headings, meta tags, images, internal links, and technical signals. These improvements
+                     help search engines better understand your pages and improve how users interact with your website.
+                  </p>
                 </div>
+              </div>
             </div>
 
+            <!-- FAQ 2 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu2">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu2"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu2">
+                  Why is On-Page SEO essential for website performance?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu2" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu2"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    On-page SEO ensures your website is search-friendly and user-focused. Without proper on-page 
+                    optimization, even strong content or backlinks may fail to perform. It lays the foundation for higher rankings,
+                     better engagement, and improved conversion potential.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu3">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu3"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu3">
+                  How does BrandStory approach On-Page SEO differently?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu3" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu3"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    BrandStory follows a performance-first approach. Instead of applying generic fixes, we analyze how each page contributes
+                     to visibility, engagement, and conversions. Our strategies are tailored to your business goals, industry competition, 
+                     and search intent.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu4">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu4"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu4">
+                  What elements are optimized as part of On-Page SEO?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu4" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu4"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    Our on-page SEO services include title tags, meta descriptions, headings, content structure, keyword placement, image 
+                    optimization, internal linking, schema markup, page speed improvements, and mobile usability enhancements.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu5">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu5"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu5">
+                  How do I know if my website needs On-Page SEO?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu5" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu5"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    If your website has traffic but low rankings, high bounce rates, poor engagement, or low conversions, it’s a strong
+                     indicator that on-page SEO improvements are needed. An audit can clearly identify these gaps.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 6 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu6">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu6"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu6">
+                  What benefits can businesses gain from On-Page SEO in Dubai?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu6" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu6"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    On-page SEO helps Dubai-based businesses improve local and global visibility, attract relevant audiences, 
+                    strengthen brand credibility, and compete effectively in high-intent search results.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 7 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu7">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu7"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu7">
+                  When can I expect results from On-Page SEO?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu7" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu7"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    On-page SEO improvements can start showing impact within a few weeks, especially in crawlability, 
+                    rankings, and engagement. However, consistent optimization delivers stronger results over time.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 8 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu8">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu8"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu8">
+                  Can On-Page SEO support business growth across the UAE?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu8" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu8"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    Yes, On-page SEO improves how your website performs across all regions by aligning content and structure 
+                    with user intent, making it effective for businesses targeting audiences throughout the UAE.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 9 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu9">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu9"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu9">
+                  Why choose BrandStory for On-Page SEO services?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu9" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu9"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    BrandStory combines strategic insight, technical expertise, and business-focused execution. We prioritize
+                     measurable outcomes over vanity metrics, ensuring your website performs as a growth asset.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 10 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingEdu10">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEdu10"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEdu10">
+                  How can I start with BrandStory’s On-Page SEO services?
+                </button>
+              </h4>
+              <div id="flush-collapseEdu10" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEdu10"
+                data-bs-parent="#accordionFlushExampleEducation">
+                <div class="accordion-body">
+                  <p class="fs-20 text-white mb-2">
+                    You can begin with a detailed on-page SEO audit from BrandStory. Our team evaluates your website, identifies 
+                    improvement areas, and creates a tailored optimization plan aligned with your growth objectives.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </section>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <script>
