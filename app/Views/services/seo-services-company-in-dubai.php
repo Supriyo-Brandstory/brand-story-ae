@@ -47,7 +47,7 @@
       <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
       <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>
@@ -66,7 +66,7 @@
       <a href="#seo-audit" class="seo-marquee-item">Website SEO Audit</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="#on-page-seo" class="seo-marquee-item">On-Page SEO Service</a>
+      <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
       <a href="#off-page-seo" class="seo-marquee-item">Off-Page SEO Service</a>

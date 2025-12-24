@@ -169,16 +169,16 @@
                         We offer a complete range of on-page SEO optimization services, including:
                     </h5>
                        <ul class="list-unstyled text-white fs-20">
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> SEO Services </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> SEO Services </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> SEO Services </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> SEO Services </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> SEO Services </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Performance Marketing </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Branding </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Content Marketing </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Video Marketing </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Website Development </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Title Tag Optimization</span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Meta Description Update </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Header Tag (H1-H6) Optimization </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Image Optimization </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> URL Structure Optimization </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Internal Linking </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Schema Implementation </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Page Speed Optimization </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Mobile-Friendliness </span></li>
+                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Canonical Tags </span></li>
                         </ul>
                 </div>
             </div>
@@ -193,9 +193,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Real Estate Marketing Services for Brokers, Consultants, and Developers</h2>
-                    <p class="fs-20 text-white">We help real estate developers and brokers to get in touch with the right people with buying intent. Our proactive approach ensures that your business taps every upcoming opportunity and grows rapidly. We don’t play with traditional or aggressive marketing tactics, we do it in our way with an integrated <a href="/full-funnel-performance-marketing/" style="color:white;text-decoration:underline;font-weight:900">full-funnel strategy</a> that works best. <br><br>
-                        As an industry-leading marketing firm, we practice marketing automation, where we integrate leads into your CRM and sales funnel, so you don’t miss any opportunity while closing a deal. While working with us, you can expect detailed and transparent reporting, ROI-driven strategies, and better outcomes from your marketing efforts and spending. Get in touch with our experts for a consultation.
+                    <h2 class="text-white mb-4 text-md-start text-center ">BrandStory Helps Your Business Grow with On-Page SEO</h2>
+                    <p class="fs-20 text-white"><b>Stronger Page-Level Visibility: </b>
+                    BrandStory refines every on-page element so your website communicates clearly with search engines. This results in improved keyword alignment and 
+                    greater visibility for high-intent searches that matter to your business.
                     </p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
