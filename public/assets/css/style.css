@@ -6049,6 +6049,10 @@ sup {
         color: #fff;
         border-radius: 20px;
         height: 410px;
+        display: block;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        cursor: pointer;
     }
 
     .img-box {
