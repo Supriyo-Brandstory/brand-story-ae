@@ -116,6 +116,36 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/on-page-seo-dubai', ['meta' => $meta]);
     }
+
+    public function technicalSeoDubai()
+    {
+        $meta = [];
+        return $this->view('services/technical-seo-dubai', ['meta' => $meta]);
+    }
+
+    public function seoAuditDubai()
+    {
+        $meta = [];
+        return $this->view('services/seo-audit-dubai', ['meta' => $meta]);
+    }
+
+    public function offPageSeoDubai()
+    {
+        $meta = [];
+        return $this->view('services/off-page-seo-dubai', ['meta' => $meta]);
+    }
+
+    public function localSeoDubai()
+    {
+        $meta = [];
+        return $this->view('services/local-seo-dubai', ['meta' => $meta]);
+    }
+
+    public function keywordResearchDubai()
+    {
+        $meta = [];
+        return $this->view('services/keyword-research-dubai', ['meta' => $meta]);
+    }
     public function brandAgencyDubai()
     {
         $meta = [];
