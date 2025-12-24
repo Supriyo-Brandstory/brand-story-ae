@@ -109,12 +109,12 @@
 <?php
 // Default Services List - can be overwritten by passing $stickyServices to the view
 $stickyServices = $stickyServices ?? [
-  ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
-  ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
-  ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
-  ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
-  ['label' => 'Local SEO', 'url' => '/local-seo-dubai'],
-  ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+  ['label' => 'SEO Services', 'url' => '/seo-services-company-in-dubai'],
+  ['label' => 'Digital Marketing', 'url' => '/'],
+    ['label' => 'PPC Services', 'url' => '/pay-per-click-ppc-services-in-dubai'],
+  ['label' => 'Social Media', 'url' => '/social-media-marketing-agency-in-dubai'],
+  ['label' => 'Branding Services', 'url' => '/branding-agency-in-dubai'],
+  ['label' => 'Website Development', 'url' => '/website-design-company-in-dubai'],
 ];
 ?>
 <div class="unique-sticky-container" role="navigation" aria-label="Quick actions">

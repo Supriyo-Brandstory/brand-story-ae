@@ -41,9 +41,12 @@
                             </ul>
                             <ul class="w-100">
                                 <li class="li-headeing"><a href="<?= route('seoservicesdubai')?>">SEO Services</a></li>   
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai/">SEO Audit Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="ORM Services" width="30" height="30"> <a href="/online-reputation-management-services-in-dubai/">ORM Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/content-marketing-agency-dubai/">Content Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai">SEO Audit Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Technical SEO" width="30" height="30"> <a href="/technical-seo-dubai">Technical SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai">On-Page SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Off-Page SEO" width="30" height="30"> <a href="/off-page-seo-dubai">Off-Page SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Keyword Research" width="30" height="30"> <a href="/keyword-research-dubai">Keyword Research</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/content-marketing-agency-dubai">Content Marketing</a></li>
 
 
 

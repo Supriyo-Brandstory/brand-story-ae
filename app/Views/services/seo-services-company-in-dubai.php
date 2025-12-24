@@ -188,7 +188,7 @@
                         and elevate your website’s presence across Google and other search results.</li>
 
                     <li class="text-white mb-3 fs-20">We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
-                        and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>,
+                        and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/technical-seo-dubai" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/on-page-seo-dubai" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/off-page-seo-dubai" style="color:white;text-decoration:underline">backlink building</a>,
                         our top-level professionals work with pinpoint precision.</li>
                     <li class="text-white mb-3 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
                         your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
@@ -645,7 +645,7 @@
 <div class="sp-50 seo-expect-from">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-12">
+            <div class="col-lg-8 col-12 mb-5 mb-md-0">
                 <h2 class="mb-3">We Achieve 4x ROI with SEO Campaigns</h2>
                 <p class="mb-3">Investing in SEO is more than just improving rankings, it is about driving measurable <a href="/seo-services-company-in-dubai/#SEO-campaign-highlights" style="color:#fff;text-decoration:underline;font-weight:700">business growth</a>. With strategic SEO, your business doesn’t just compete in Dubai, it dominates search results, attracts the right audience, and achieves real, trackable results that fuel growth.</p>
                 <ul>
