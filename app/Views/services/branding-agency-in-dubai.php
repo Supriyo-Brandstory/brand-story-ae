@@ -36,36 +36,36 @@
 </section>
 
 <section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
+  <div class="seo-marquee-wrapper">
+    <div class="seo-marquee-track">
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Branding Strategy</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Branding Strategy</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Visual Identity</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Visual Identity</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Verbal Brand Identity</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Verbal Brand Identity</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Messaging</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Messaging</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <!-- same 6 items repeated for loop -->
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Guidelines</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <!-- same 6 items repeated for loop -->
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Guidelines</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Activation</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Brand Activation</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Digital Branding</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Digital Branding</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Rebranding Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+      <a href="/branding-agency-in-dubai" class="seo-marquee-item">Rebranding Services</a>
+      <span class="seo-marquee-sep text-white">يلا</span>
 
-        </div>
     </div>
+  </div>
 </section>
 
 <section class="performance-driven sp-50 dm-bg">
@@ -86,18 +86,18 @@
         <p class="text-white mb-4 fs-20">At <a href="/" style="color:white"><u>BrandStory</u></a>, we’re not just a branding agency in Dubai, we’re brand architects, storytellers, and growth enablers. Whether you’re a startup, SME, or enterprise looking to redefine your brand identity or launch something from scratch, we help you build a powerful brand that resonates, inspires, and delivers real results.</p>
         <p class="text-white mb-4 fs-20">As a leading branding agency in Dubai, UAE, we design and execute comprehensive branding strategies that drive long-term growth. By leveraging all digital channels, we ensure your brand stands out, becomes memorable to your target audience, and inspires consumer trust and loyalty. Our focus is on creating a lasting impact, making us one of the top branding companies in Dubai.</p>
 
-      <a href="/about/" class="Performance-Driven-btn">➤ Know About Us</a>
+        <a href="/about/" class="Performance-Driven-btn">➤ Know About Us</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
+  <div class="container-fluid">
+    <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+    <?php include __DIR__ . '/../component/client_section.php' ?>
 
-    </div>
+  </div>
 </section>
 <section class="sp-50 dm-bg">
   <div class="container">
@@ -265,32 +265,32 @@
 
 
 <section class="Performance-Driven-wrapper dm-bg pt-1 mt-5">
-    <div class="container">
-        <h2 class="mb-4">Why Branding is Important <br>for Businesses</h2>
-        <div class="row Performance-Driven-row px-md-4 px-2">
-            <div class="col-md-6 Performance-Driven-left">
-                <div class="Performance-Driven-image-wrapper">
-                    <img src="<?= base_url('assets/images/home/branding-3.webp') ?>" alt="Branding and Business Identity" class="Performance-Driven-main-img">
-                </div>
-            </div>
-            <div class="col-md-6 Performance-Driven-right">
-                <p class="fs-20">In today’s fast-paced, highly competitive business landscape, particularly in a dynamic hub like Dubai 
-                  branding is no longer a choice, it is a critical business asset. With countless brands competing for attention across digital touchpoints, a strong and well-defined brand becomes the foundation of recognition and long-term success.</p>
-                <p class="fs-20"><strong>With the right branding, your business can:</strong></p>
-                <ul class="fs-20">
-                    <li>Build trust and loyalty: Cultivate long-term relationships with your customers.</li>
-                    <li>Stand out from competitors: Differentiate your business in a crowded marketplace.</li>
-                    <li>Communicate your value: Ensure your audience understands what sets you apart.</li>
-                    <li>Attract opportunities: Draw investors, partners, and top talent.</li>
-                </ul>
-                <p class="fs-20">
-                    Your brand is more than just a logo, it’s your story, your voice, and your reputation. We are the right branding 
-                    agency in Dubai, helping shape it to leave a lasting impact.
-                </p>
-                <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us</a>
-            </div>
+  <div class="container">
+    <h2 class="mb-4">Why Branding is Important <br>for Businesses</h2>
+    <div class="row Performance-Driven-row px-md-4 px-2">
+      <div class="col-md-6 Performance-Driven-left p-0">
+        <div class="Performance-Driven-image-wrapper">
+          <img src="<?= base_url('assets/images/home/branding-4.webp') ?>" alt="Branding and Business Identity" class="Performance-Driven-main-img p-0">
         </div>
+      </div>
+      <div class="col-md-6 Performance-Driven-right">
+        <p class="fs-20">In today’s fast-paced, highly competitive business landscape, particularly in a dynamic hub like Dubai
+          branding is no longer a choice, it is a critical business asset. With countless brands competing for attention across digital touchpoints, a strong and well-defined brand becomes the foundation of recognition and long-term success.</p>
+        <p class="fs-20"><strong>With the right branding, your business can:</strong></p>
+        <ul class="fs-20">
+          <li>Build trust and loyalty: Cultivate long-term relationships with your customers.</li>
+          <li>Stand out from competitors: Differentiate your business in a crowded marketplace.</li>
+          <li>Communicate your value: Ensure your audience understands what sets you apart.</li>
+          <li>Attract opportunities: Draw investors, partners, and top talent.</li>
+        </ul>
+        <p class="fs-20">
+          Your brand is more than just a logo, it’s your story, your voice, and your reputation. We are the right branding
+          agency in Dubai, helping shape it to leave a lasting impact.
+        </p>
+        <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us</a>
+      </div>
     </div>
+  </div>
 </section>
 
 
@@ -381,8 +381,8 @@
       </div>
       <div class="col-md-7 col-12">
         <p class="fs-20 text-white">BrandStory helps businesses in Dubai define who they are, what they stand for, and how they are perceived in the market.
-           Our branding work is rooted in research, positioning, and clarity, not buzzwords. We build brands that are easy to recognize, hard to replace, and 
-           designed to support real business decisions, customer trust, and long-term market relevance.</p>
+          Our branding work is rooted in research, positioning, and clarity, not buzzwords. We build brands that are easy to recognize, hard to replace, and
+          designed to support real business decisions, customer trust, and long-term market relevance.</p>
         <div class="branding-partner-container">
           <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
             <img src="/assets/images/10+Years-of-Experience.png" class="img-fluid" alt="10+ Years of Experience">
@@ -416,34 +416,34 @@
 <?php include __DIR__ . '/../component/expert_team.php' ?>
 
 <section class="dm-counter-sec sp-50 dm-bg">
-    <div class="container">
-        <div class="row gx-md-0">
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center">
-                    <span class="dm-count-num">500+</span>
-                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">350+</span>
-                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
-                    <span class="dm-count-num">12+</span>
-                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">100+</span>
-                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row gx-md-0">
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="dm-conter-main text-lg-start text-center">
+          <span class="dm-count-num">500+</span>
+          <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
         </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+          <span class="dm-count-num">350+</span>
+          <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
+          <span class="dm-count-num">12+</span>
+          <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+          <span class="dm-count-num">100+</span>
+          <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
@@ -485,106 +485,106 @@
 </section>
 
 <section class="sp-50 dm-blog-section dm-bg">
-    <div class="container">
-        <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-white mb-4 text-md-start text-center ">Where Strategy Meets Success <br>Unfolding Our Digital Wins
-            </h2>
-            <a href="/case-study/" class="Performance-Driven-btn">➤All Case Studies</a>
-        </div>
-
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
-                            <strong>Digital Marketing</strong>
-                            <h3>Sand Dollar - Ecommerce</h3>
-                            <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3>TravelX</h3>
-                            <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
-                            <strong>Digital Marketing</strong>
-                            <h3>Crystal Plaza</h3>
-                            <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
-                            <strong>Digital Marketing</strong>
-                            <h3>NIMS School</h3>
-                            <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3>Wipro Infrastructure Engineering</h3>
-                            <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3>NanoPrecise Sci Corp</h3>
-                            <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3>Sherpa Communications</h3>
-                            <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
-        </div>
+  <div class="container">
+    <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
+      <h2 class="text-white mb-4 text-md-start text-center ">Where Strategy Meets Success <br>Unfolding Our Digital Wins
+      </h2>
+      <a href="/case-study/" class="Performance-Driven-btn">➤All Case Studies</a>
     </div>
+
+    <div class="position-relative delivertechmain">
+      <div class="swiper dmblog-sld">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
+              <strong>Digital Marketing</strong>
+              <h3>Sand Dollar - Ecommerce</h3>
+              <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
+              <strong>Branding & Digital Marketing</strong>
+              <h3>TravelX</h3>
+              <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
+              <strong>Digital Marketing</strong>
+              <h3>Crystal Plaza</h3>
+              <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
+              <strong>Digital Marketing</strong>
+              <h3>NIMS School</h3>
+              <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
+              <strong>Website & Digital Marketing</strong>
+              <h3>Wipro Infrastructure Engineering</h3>
+              <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
+              <strong>Website & Digital Marketing</strong>
+              <h3>NanoPrecise Sci Corp</h3>
+              <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="neww-case-stuides-main">
+              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
+              <strong>Branding & Digital Marketing</strong>
+              <h3>Sherpa Communications</h3>
+              <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
+              <div class="casestydies-readmore">
+                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="swiper-button-next dmblog-next"></div>
+      <div class="swiper-button-prev dmblog-prev"></div>
+    </div>
+  </div>
 </section>
 
 <section class="dm-grow-section dm-bg sp-50">
   <div class="container">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Grow Your Business with  <br>
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Grow Your Business with <br>
       Expert-led Branding Services
 
     </h2>
