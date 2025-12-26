@@ -24,11 +24,11 @@
             <div class="slide-2-content">
                 <span class="small-caps-header">At BrandStory</span>
                 <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
-                <p class="my-4 small-caps-header">Certified by : </p>
+                <p class="my-4 small-caps-header">We are Certified as</p>
                 <div class="d-flex gap-5">
-                    <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified">
-                    <img src="<?= base_url('assets/images/work-icon-2.svg') ?>" alt="meta certified">
-                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified">
+                    <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"> <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified" style="width: 130px;"></a>
+                    <img src="<?= base_url('assets/images/work-icon-2.svg') ?>" alt="meta certified" style="width: 130px;" class="d-none d-md-block">
+                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified" style="width: 130px;">
                 </div>
             </div>
         </div>
@@ -48,35 +48,35 @@
         <div class="seo-marquee-track">
 
             <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <!-- same 6 items repeated for loop -->
             <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
     </div>
