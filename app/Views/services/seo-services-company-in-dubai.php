@@ -4,7 +4,7 @@
         <div class="scroll-slide slide-1 active" id="banner-slide-1">
             <div class="slide-1-content">
                 <div class="slide-1-text">
-                    <h1>SEO Agency in<br>Dubai Driving</h1>
+                    <h1>Dubai's #1 SEO Company<br>Helping Drive</h1>
                 </div>
                 <div class="slide-1-list">
                     <ul>
@@ -22,13 +22,13 @@
         <!-- Slide 2 -->
         <div class="scroll-slide slide-2 next-slide" id="banner-slide-2">
             <div class="slide-2-content">
-                <span class="small-caps-header">At BrandStory</span>
+                <span class="small-caps-header">We Are The</span>
                 <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
-                <p class="my-4 small-caps-header">We are Certified as</p>
+                <p class="my-4 small-caps-header">Best SEO Agency</p>
                 <div class="d-flex gap-5">
-                    <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"> <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified" style="width: 130px;"></a>
-                    <img src="<?= base_url('assets/images/work-icon-2.svg') ?>" alt="meta certified" style="width: 130px;" class="d-none d-md-block">
-                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified" style="width: 130px;">
+                    <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"> <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified Agency" style="width: 130px;"></a>
+
+                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified" style="width: 120px;">
                 </div>
             </div>
         </div>
