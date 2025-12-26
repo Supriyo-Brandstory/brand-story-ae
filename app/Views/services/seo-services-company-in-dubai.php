@@ -24,6 +24,12 @@
             <div class="slide-2-content">
                 <span class="small-caps-header">At BrandStory</span>
                 <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
+                <p class="my-4 small-caps-header">Certified by : </p>
+                <div class="d-flex gap-5">
+                    <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified">
+                    <img src="<?= base_url('assets/images/work-icon-2.svg') ?>" alt="meta certified">
+                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified">
+                </div>
             </div>
         </div>
 
@@ -1976,7 +1982,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 let progress = -rect.top / scrollHeight;
                 progress = Math.max(0, Math.min(1, progress));
 
-                if (progress < 0.33) {
+                if (progress <= 0) {
                     slide1.classList.add('active');
                     slide1.classList.remove('prev-slide', 'next-slide');
 
@@ -1986,7 +1992,7 @@ include __DIR__ . '/../component/client_reviews.php';
                     slide3.classList.remove('active', 'prev-slide');
                     slide3.classList.add('next-slide');
 
-                } else if (progress < 0.66) {
+                } else if (progress < 0.5) {
                     slide1.classList.remove('active', 'next-slide');
                     slide1.classList.add('prev-slide');
 
