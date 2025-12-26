@@ -510,3 +510,14 @@
         </div><!--Accordion End-->
     </div><!--Container End-->
 </section>
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
+        ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
+        ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
+        ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
+        ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+    ];
+    ?>

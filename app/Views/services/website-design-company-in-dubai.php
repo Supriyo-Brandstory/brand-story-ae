@@ -27,13 +27,40 @@
         </div>
     </div>
 </section>
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
 
+ <section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <!-- same 6 items repeated for loop -->
+            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
     </div>
 </section>
+
 
 <section class="dm-bg sp-50">
     <div class="container">
@@ -49,6 +76,14 @@
 
             </div>
         </div>
+    </div>
+</section>
+
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+
     </div>
 </section>
 
@@ -1302,3 +1337,14 @@
         });
     });
 </script>
+
+
+     <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'WordPress Development', 'url' => '/wordpress-development-company-in-dubai'],
+        ['label' => 'Magento Development', 'url' => '/magento-website-development-dubai'],
+        ['label' => 'Drupal Development', 'url' => '/drupal-website-development-company-in-dubai'],
+        ['label' => 'E-commerce Dev.', 'url' => '/ecommerce-development-company-dubai'],
+    ];
+    ?>

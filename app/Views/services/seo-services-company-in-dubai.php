@@ -36,7 +36,7 @@
         <!-- Slide 3 -->
         <div class="scroll-slide slide-3 next-slide" id="banner-slide-3">
             <div class="slide-3-content">
-                <p class="slide-3-desc">We are a full-service SEO marketing agency in Dubai serving businesses across all industries, specialising in local, e-commerce, and enterprise-grade SEO services.</p>
+                <p class="slide-3-desc">BrandStory is a leading full-service SEO agency in Dubai serving businesses across all industries, specialising in local, e-commerce, and enterprise-grade SEO services in Dubai.</p>
                 <a href="javascript:void(0);" class="gradient-cta-btn uniq-contact-lead-btn">Book Your Demo Call</a>
             </div>
         </div>
@@ -2024,7 +2024,6 @@ include __DIR__ . '/../component/client_reviews.php';
         ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
         ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
         ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
-        ['label' => 'Local SEO', 'url' => '/local-seo-dubai'],
         ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
     ];
     ?>

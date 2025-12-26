@@ -35,6 +35,45 @@
     </div>
 </section>
 
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">SEO Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">PPC Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Email Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-agency-in-dubai" class="seo-marquee-item">Social Media Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/branding-agency-in-dubai" class="seo-marquee-item">Branding Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <!-- same 6 items repeated for loop -->
+            <a href="/full-funnel-performance-marketing" class="seo-marquee-item">Performance Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/creative-advertising-agency-in-dubai/" class="seo-marquee-item">Creative Advertising</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ui-ux-design-company-in-dubai/" class="seo-marquee-item">UI/UX Design</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/website-design-company-in-dubai" class="seo-marquee-item">Website Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
         <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Best Digital Marketing Company in Dubai
@@ -412,7 +451,7 @@
 <section class="neww-protfollio dm-bg mt-lg-4">
     <div class="container">
 
-        <h2 class="text-start mb-3 text-white">Social Media Marketing, Done Right </h2>
+        <h2 class="text-start mb-3 text-white">Our Social Media Marketing Expertise</h2>
         <div class="row mb-md-3 mt-md-4">
             <div class="col-lg-8">
                 <p class="text-white fs-20 mb-3">As a premier digital marketing agency in Dubai, BrandStory harnesses the evolving power of social media to boost business growth. With 12+ years of hands-on expertise, we've evolved with leading platforms, staying ahead of trends to deliver optimized, measurable results for diverse clients. We are the top social media marketing agency in Dubai, combining data-driven strategies with creative excellence to create high-impact campaigns.</p>

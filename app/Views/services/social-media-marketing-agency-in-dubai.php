@@ -40,6 +40,45 @@
      </div><!--Container End-->
  </section>
 
+ <section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/instagram-advertising-agency-in-dubai" class="seo-marquee-item">Instagram Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/twitter-advertising-dubai" class="seo-marquee-item">Twitter Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pinterest-advertising-services-in-dubai" class="seo-marquee-item">Pinterest Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/tiktok-marketing-agency-in-dubai" class="seo-marquee-item">TikTok Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <!-- same 6 items repeated for loop -->
+            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/instagram-advertising-agency-in-dubai" class="seo-marquee-item">Instagram Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/twitter-advertising-dubai" class="seo-marquee-item">Twitter Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pinterest-advertising-services-in-dubai" class="seo-marquee-item">Pinterest Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/tiktok-marketing-agency-in-dubai" class="seo-marquee-item">TikTok Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 
  <section class="sp-80 bg-black">
      <div class="container">
@@ -1081,3 +1120,14 @@
          iframe.src = iframe.src;
      });
  </script>
+
+     <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'Facebook Marketing', 'url' => '/facebook-marketing-agency-in-dubai'],
+        ['label' => 'Instagram Marketing', 'url' => '/instagram-advertising-agency-in-dubai'],
+        ['label' => 'Twitter Marketing', 'url' => '/twitter-advertising-dubai'],
+        ['label' => 'Pinterest Marketing', 'url' => '/pinterest-advertising-services-in-dubai'],
+        ['label' => 'TikTok Marketing', 'url' => '/tiktok-marketing-agency-in-dubai'],
+    ];
+    ?>
