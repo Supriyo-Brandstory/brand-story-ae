@@ -17,6 +17,44 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Content Creation</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Community Management</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Paid Social Advertising</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Influencer Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Analytics</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Campaign Management</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Reputation Management</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Brand Monitoring</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Engagement Optimization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 
 <!-- What is Social Media Marketing? start -->
 <section class="sp-50 smm-bg">
@@ -513,3 +551,15 @@
         </div><!--Accordion End-->
     </div><!--Container End-->
 </section>
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
+        ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
+        ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
+        ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
+        ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
+        ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
+    ];
+    ?>

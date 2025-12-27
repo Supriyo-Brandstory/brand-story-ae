@@ -127,7 +127,7 @@
                             <h3 class="mb-3">Search Engine <span class="db">Optimization (SEO)</span></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization plays a significant role in improving website visibility and driving organic traffic. Our SEO experts in Dubai follow proven strategies to maximize results and secure top page ranking in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-services-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/seo-services-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                             <h3 class="mb-3">Social Media Marketing <span class="db">(SMM)</span></h3>
                             <p class="mb-3 fs-20">Harness the power of social media engagement with social media marketing. We craft visual narratives that speak volumes and bring the audience on board. Partner with us for Facebook, Instagram, TikTok, LinkedIn, and Twitter ads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/social-media-marketing-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/social-media-marketing-agency-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                             <h3 class="mb-3">Pay Per Click (PPC)</h3>
                             <p class="mb-3 fs-20">We offer data-driven PPC campaign management services. We are an award-winning Google Partner and Meta Partner agency with expertise in pay-per-click campaigns, so you get maximum exposure at minimal cost.</p>
                             <div class="casestydies-readmore">
-                                <a href="/pay-per-click-ppc-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/pay-per-click-ppc-services-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                             <h3 class="mb-3">Email Marketing</h3>
                             <p class="mb-3 fs-20">We provide email marketing services in Dubai to engage customers, nurture leads, and drive conversions for clients. We craft email templates and campaigns to create direct communication with customers and keep them engaged.</p>
                             <div class="casestydies-readmore">
-                                <a href="/email-marketing-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/email-marketing-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             <h3 class="mb-3">Online Reputation <span class="db">Management (ORM)</span></h3>
                             <p class="mb-3 fs-20">With online reputation management, your business can keep track of your professional or personal standings with others on the internet. BrandStory is one of the premier online reputation management agencies in Dubai.</p>
                             <div class="casestydies-readmore">
-                                <a href="/online-reputation-management-services-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/online-reputation-management-services-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                             <h3 class="mb-3">Content Marketing</h3>
                             <p class="mb-3 fs-20">Content marketing is a crucial aspect of digital marketing to inform and engage the potential audience. We create highly compelling text, multimedia, and audio content to bring your brand’s essence and vision to life.</p>
                             <div class="casestydies-readmore">
-                                <a href="/content-marketing-agency-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/content-marketing-agency-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                             <h3 class="mb-3">Performance Marketing<span class="db"></span></h3>
                             <p class="mb-3 fs-20">Performance marketing is a tangible marketing strategy based on growth results. We are the real growth-driver digital marketing agency offering full-funnel performance marketing services.</p>
                             <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/full-funnel-performance-marketing/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                             <h3 class="mb-3">Branding Services<span class="db"></span></h3>
                             <p class="mb-3 fs-20">Branding helps businesses define their identity through strategy, design, and storytelling. As a leading creative branding agency in Dubai, we create strong brands that foster trust, recognition, and long-term loyalty.</p>
                             <div class="casestydies-readmore">
-                                <a href="/branding-agency-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/branding-agency-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                             <h3 class="mb-3">Website Design & <span class="db">Development</span></h3>
                             <p class="mb-3 fs-20">A website built for user experience is essential for bringing leads into the sales funnel. We create custom websites with the latest technology stack that are easy to navigate, mobile responsive, and visually attractive.</p>
                             <div class="casestydies-readmore">
-                                <a href="/website-design-company-in-dubai/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/website-design-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>

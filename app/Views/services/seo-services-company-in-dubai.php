@@ -4,7 +4,7 @@
         <div class="scroll-slide slide-1 active" id="banner-slide-1">
             <div class="slide-1-content">
                 <div class="slide-1-text">
-                    <h1>Dubai's #1 SEO Company<br>Helping Drive</h1>
+                    <h1>Dubai's Top<br>SEO Agency for</h1>
                 </div>
                 <div class="slide-1-list">
                     <ul>
@@ -24,7 +24,7 @@
             <div class="slide-2-content">
                 <span class="small-caps-header">We Are The</span>
                 <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
-                <p class="my-4 small-caps-header">Best SEO Agency</p>
+                <p class="my-4 small-caps-header">أفضل شركة سيو في دبي</p>
                 <div class="d-flex gap-5">
                     <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"> <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified Agency" style="width: 130px;"></a>
 

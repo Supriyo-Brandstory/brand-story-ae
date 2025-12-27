@@ -18,6 +18,45 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
+
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Newsletter Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Promotional Emails</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Drip Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Transactional Emails</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Lead Nurturing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Automated Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Segmentation & Personalization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">A/B Testing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Campaign Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 <section id="knowMore" class="web-design-process sp-50">
     <div class="container">
         <div class="row">

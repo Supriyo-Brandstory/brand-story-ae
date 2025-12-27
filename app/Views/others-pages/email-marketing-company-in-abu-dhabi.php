@@ -14,6 +14,44 @@
 		</div><!--Row End-->
 	</div><!--Container End-->
 </section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Newsletter Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Promotional Emails</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Drip Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Transactional Emails</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Lead Nurturing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Automated Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Segmentation & Personalization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">A/B Testing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Analytics & Reporting</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Campaign Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 
 <section class="service-process web-design-workflow sp-50">
 	<div class="container"><!--Container Start-->
@@ -248,3 +286,16 @@
 	</div>
 </section>
 <?php include __DIR__ . '/../component/services/email-links.php' ?>
+
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
+        ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
+        ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
+        ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
+        ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
+        ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
+    ];
+    ?>

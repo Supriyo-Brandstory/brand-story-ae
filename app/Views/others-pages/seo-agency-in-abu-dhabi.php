@@ -19,6 +19,44 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">On-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Off-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Technical SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Content Optimization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Link Building</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Local SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Mobile SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">Analytics & Reporting</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 
 <section class="service-process seo-process sp-50">
     <div class="container"><!--Container Start-->
@@ -265,3 +303,15 @@
     </div><!--Container End-->
 </section>
 <?php include __DIR__ . '/../component/services/seo-pages-other-seo-links.php' ?>
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
+        ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
+        ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
+        ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
+        ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
+        ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
+    ];
+    ?>

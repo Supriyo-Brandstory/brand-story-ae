@@ -14,12 +14,45 @@
         </div>
     </div>
 </section>
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Google Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Bing Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Display Advertising</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Shopping Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Video Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Remarketing Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">App Install Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Performance Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Conversion Tracking</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">PPC Audit & Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
     </div>
 </section>
+
+
 <section class="vidsec">
     <div class="perks-vide-bg sp-50  position-relative ppc-bg">
 
@@ -37,8 +70,14 @@
         </div>
     </div>
 </section>
-<section class="bg-white spt-50"></section>
-<section class="our-ppc-dubai-service-sec spb-50">
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
+
+<section class="our-ppc-dubai-service-sec spb-50 spt-50">
     <div class="container">
         <h2 class="mb-4 text-md-start text-center">Our PPC Services in Dubai, UAE</h2>
         <div class="our-ppc-service-tab-main">
@@ -814,7 +853,7 @@
         </div>
     </div>
 </section>
-<section class="bg-white spt-50"></section>
+
 <!--<section>
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4">Awards & Recognitions</h2>

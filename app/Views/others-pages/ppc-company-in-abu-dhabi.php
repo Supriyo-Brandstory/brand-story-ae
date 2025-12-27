@@ -1,21 +1,64 @@
 <section class="service-banner ppc-banner sp-50">
     <div class="container"><!--Container Start-->
         <div class="row align-items-center"><!--Row Start-->
+
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-txt">
                     <h1>Maximize Your ROI with Our PPC Service Company in Abu Dhabi</h1>
-                    <p>In today’s dynamic marketing world, Pay-per-click ads have become a powerful tool for businesses on the verge of expanding.  With the help of PPC ads, they can reach their customer base and new audiences. While email campaigns and social media plans effectively care for the existing customer base, they may not catalyze reaching the new customer base. That's where Brandstory PPC Company in Abu Dhabi comes into play. With a strong hold on PPC techniques, the team helps connect with your potential customers. We offer a complete package of PPC services designed to boost your brand’s visibility, deliver ROI, and drive qualified traffic to your website. Brandstory PPC services are curated to align perfectly with your brand’s needs and goals. Let BrandStory PPC Company be your trusted ad partner for achieving exceptional success in the marketing realm.</p>
-                    <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
-                </div>
+                    <p>In today’s dynamic marketing world, Pay-per-click ads have become a powerful tool for businesses on the verge of expanding. With the help of PPC ads, they can reach their customer base and new audiences. While email campaigns and social media plans effectively care for the existing customer base, they may not catalyze reaching the new customer base. That's where Brandstory PPC Company in Abu Dhabi comes into play. With a strong hold on PPC techniques, the team helps connect with your potential customers. We offer a complete package of PPC services designed to boost your brand’s visibility, deliver ROI, and drive qualified traffic to your website. Brandstory PPC services are curated to align perfectly with your brand’s needs and goals. Let BrandStory PPC Company be your trusted ad partner for achieving exceptional success in the marketing realm.</p>
+                    <div class="sb-btn">
+                        <a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a>
+                    </div>
+                </div> 
             </div><!--col end-->
+
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-form">
                     <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
                 </div>
             </div><!--col end-->
+
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Google Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Bing Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Display Advertising</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Shopping Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Video Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Remarketing Campaigns</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">App Install Ads</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Performance Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Conversion Tracking</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">PPC Audit & Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
 
 <!-- What is Pay Per Click? start -->
 <section class="sp-50">
@@ -471,3 +514,14 @@
         </div><!--Accordion End-->
     </div><!--Container End-->
 </section>
+
+    <?php
+    // Default Services List - can be overwritten by passing $stickyServices to the view
+    $stickyServices = $stickyServices ?? [
+        ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
+        ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
+        ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
+        ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
+        ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
+    ];
+    ?>
