@@ -48,19 +48,38 @@ class BaseModel
     /**
      * Get paginated records.
      */
-    public function paginate(int $perPage = 10, int $page = 1): array
+    public function paginate(int $perPage = 10, int $page = 1, array $where = []): array
     {
         $offset = ($page - 1) * $perPage;
-        $stmt = $this->db->prepare("SELECT * FROM {$this->table} ORDER BY created_at DESC LIMIT ? OFFSET ?");
 
-        // PDO bindParam needs variables, not values directly in some versions/drivers, strict mode
-        $stmt->bindValue(1, $perPage, PDO::PARAM_INT);
-        $stmt->bindValue(2, $offset, PDO::PARAM_INT);
+        $whereSql = "";
+        $params = [];
+        if (!empty($where)) {
+            $conditions = [];
+            foreach ($where as $col => $val) {
+                if (is_string($val) && str_contains($val, '%')) {
+                    $conditions[] = "$col LIKE ?";
+                } else {
+                    $conditions[] = "$col = ?";
+                }
+                $params[] = $val;
+            }
+            $whereSql = "WHERE " . implode(" AND ", $conditions);
+        }
+
+        $stmt = $this->db->prepare("SELECT * FROM {$this->table} $whereSql ORDER BY created_at DESC LIMIT ? OFFSET ?");
+
+        $i = 1;
+        foreach ($params as $param) {
+            $stmt->bindValue($i++, $param);
+        }
+        $stmt->bindValue($i++, $perPage, PDO::PARAM_INT);
+        $stmt->bindValue($i++, $offset, PDO::PARAM_INT);
 
         $stmt->execute();
 
         $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        $total = $this->countAll();
+        $total = $this->countAll($where);
 
         return [
             'data' => $data,
@@ -74,9 +93,25 @@ class BaseModel
     /**
      * Count all records.
      */
-    public function countAll(): int
+    public function countAll(array $where = []): int
     {
-        $stmt = $this->db->query("SELECT COUNT(*) as total FROM {$this->table}");
+        $whereSql = "";
+        $params = [];
+        if (!empty($where)) {
+            $conditions = [];
+            foreach ($where as $col => $val) {
+                if (is_string($val) && str_contains($val, '%')) {
+                    $conditions[] = "$col LIKE ?";
+                } else {
+                    $conditions[] = "$col = ?";
+                }
+                $params[] = $val;
+            }
+            $whereSql = "WHERE " . implode(" AND ", $conditions);
+        }
+
+        $stmt = $this->db->prepare("SELECT COUNT(*) as total FROM {$this->table} $whereSql");
+        $stmt->execute($params);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return $result['total'] ?? 0;
     }

@@ -17,13 +17,26 @@
     <?php endif; ?>
 
     <!-- Page Title + Add Button -->
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="h3 mb-0">
-            <i class="bi bi-search text-primary me-2"></i> SEO Management
-        </h1>
-        <a href="<?= route('admin.seo.create') ?>" class="btn btn-primary">
-            <i class="bi bi-plus-lg me-1"></i> Add New Entry
-        </a>
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-4">
+            <h1 class="h3 mb-0">
+                <i class="bi bi-search text-primary me-2"></i> SEO Management
+            </h1>
+        </div>
+        <div class="col-md-5">
+            <form action="<?= route('admin.seo.index') ?>" method="GET" class="d-flex">
+                <input type="text" name="search" class="form-control me-2" placeholder="Search by Page URL..." value="<?= htmlspecialchars($search ?? '') ?>">
+                <button type="submit" class="btn btn-outline-primary">Search</button>
+                <?php if (!empty($search)): ?>
+                    <a href="<?= route('admin.seo.index') ?>" class="btn btn-outline-secondary ms-2">Clear</a>
+                <?php endif; ?>
+            </form>
+        </div>
+        <div class="col-md-3 text-end">
+            <a href="<?= route('admin.seo.create') ?>" class="btn btn-primary">
+                <i class="bi bi-plus-lg me-1"></i> Add New Entry
+            </a>
+        </div>
     </div>
 
     <!-- Main Card -->
@@ -80,7 +93,7 @@
                         <ul class="pagination mb-0">
                             <!-- Previous Link -->
                             <li class="page-item <?= ($pagination['current_page'] <= 1) ? 'disabled' : '' ?>">
-                                <a class="page-link" href="?page=<?= $pagination['current_page'] - 1 ?>" aria-label="Previous">
+                                <a class="page-link" href="?page=<?= $pagination['current_page'] - 1 ?><?= !empty($search) ? '&search=' . urlencode($search) : '' ?>" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
                             </li>
@@ -88,13 +101,13 @@
                             <!-- Page Numbers -->
                             <?php for ($i = 1; $i <= $pagination['last_page']; $i++): ?>
                                 <li class="page-item <?= ($i == $pagination['current_page']) ? 'active' : '' ?>">
-                                    <a class="page-link" href="?page=<?= $i ?>"><?= $i ?></a>
+                                    <a class="page-link" href="?page=<?= $i ?><?= !empty($search) ? '&search=' . urlencode($search) : '' ?>"><?= $i ?></a>
                                 </li>
                             <?php endfor; ?>
 
                             <!-- Next Link -->
                             <li class="page-item <?= ($pagination['current_page'] >= $pagination['last_page']) ? 'disabled' : '' ?>">
-                                <a class="page-link" href="?page=<?= $pagination['current_page'] + 1 ?>" aria-label="Next">
+                                <a class="page-link" href="?page=<?= $pagination['current_page'] + 1 ?><?= !empty($search) ? '&search=' . urlencode($search) : '' ?>" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>

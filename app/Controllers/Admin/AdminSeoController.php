@@ -20,14 +20,21 @@ class AdminSeoController extends AdminBaseController
         $this->requireAdminAuth();
 
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $search = trim($_GET['search'] ?? '');
         $perPage = 10;
 
-        $result = $this->seoModel->paginate($perPage, $page);
+        $where = [];
+        if (!empty($search)) {
+            $where['page_url'] = "%$search%";
+        }
+
+        $result = $this->seoModel->paginate($perPage, $page, $where);
 
         // Pass to view
         return $this->adminView('seo/index', [
             'seoList' => $result['data'],
-            'pagination' => $result
+            'pagination' => $result,
+            'search' => $search
         ]);
     }
 
