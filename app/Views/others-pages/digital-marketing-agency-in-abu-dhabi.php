@@ -6,13 +6,13 @@
                 <div class="seo-banner-txt">
                     <h1>Digital Marketing <span class="db"> Agency in Abu Dhabi</span></h1>
                     <p>Looking for a digital marketing agency in Abu Dhabi? You need a digital marketing agency that understands the region beyond surface-level
-                         promotion. Because local market awareness, cultural relevance, language sensitivity, and an in-depth understanding of how audiences engage 
-                         across the UAE play a crucial role in campaign success. As the leading digital marketing agency in Abu Dhabi, we make intelligent use
-                           of data and emerging technologies to move beyond generic strategies and connect with high-intent local audiences.
-                        </p>
+                        promotion. Because local market awareness, cultural relevance, language sensitivity, and an in-depth understanding of how audiences engage
+                        across the UAE play a crucial role in campaign success. As the leading digital marketing agency in Abu Dhabi, we make intelligent use
+                        of data and emerging technologies to move beyond generic strategies and connect with high-intent local audiences.
+                    </p>
                     <p>As a full-service digital marketing company in Abu Dhabi, we combine SEO, PPC advertising, social media marketing, content strategy, and conversion
-                         optimization to create a unified growth ecosystem for your brand. While channels like email marketing and social media help nurture existing customers,
-                          performance-focused digital strategies allow you to reach new, high-intent audiences actively searching for your products or services.
+                        optimization to create a unified growth ecosystem for your brand. While channels like email marketing and social media help nurture existing customers,
+                        performance-focused digital strategies allow you to reach new, high-intent audiences actively searching for your products or services.
                     </p>
                     <div class="sb-btn">
                         <a href="/contact/" class="kmbtn btn btn-blue">Connect With Us</a>
@@ -74,14 +74,14 @@
             <div class="col-md-6"> <!--col start-->
                 <h2 class="mb-4">Marketing Company in Abu Dhabi with Proven Expertise</h2>
                 <ul class="mb-0">
-                <li class="text-black mb-3 fs-16">Elevate the digital presence of your brand with BrandStory, a trusted digital marketing agency in Abu Dhabi focused on driving measurable growth 
-                    for businesses across the capital and the wider UAE. We partner with ambitious brands to build digital strategies that combine market insight, 
-                    performance marketing, and technology-led execution.</li>
-                <li class="text-black mb-3 fs-16">Our expertise spans SEO, performance advertising, social media marketing, online reputation management, content strategy, email marketing, branding,
-                     and website development. Every solution is designed with a clear objective: improving visibility, increasing qualified traffic, and converting 
-                     engagement into real business value.</li>
-                <li class="text-black mb-3 fs-16">At BrandStory, success is driven by strategy, not shortcuts. We study your industry landscape, audience behavior, and competitive environment in Abu Dhabi
-                     to craft digital campaigns that resonate locally while scaling effectively. </li>
+                    <li class="text-black mb-3 fs-16">Elevate the digital presence of your brand with BrandStory, a trusted digital marketing agency in Abu Dhabi focused on driving measurable growth
+                        for businesses across the capital and the wider UAE. We partner with ambitious brands to build digital strategies that combine market insight,
+                        performance marketing, and technology-led execution.</li>
+                    <li class="text-black mb-3 fs-16">Our expertise spans SEO, performance advertising, social media marketing, online reputation management, content strategy, email marketing, branding,
+                        and website development. Every solution is designed with a clear objective: improving visibility, increasing qualified traffic, and converting
+                        engagement into real business value.</li>
+                    <li class="text-black mb-3 fs-16">At BrandStory, success is driven by strategy, not shortcuts. We study your industry landscape, audience behavior, and competitive environment in Abu Dhabi
+                        to craft digital campaigns that resonate locally while scaling effectively. </li>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <img src="/assets/images/seo/dm/agency-abudhabi.png" class="img-fluid mb-3" alt="Best Digital Marketing Company in Abu Dhabi">
@@ -94,8 +94,8 @@
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <p>In a highly competitive digital environment, success is no longer about simply reaching the first page, it’s about sustaining visibility, credibility, and conversions over time. At BrandStory,
-                     we work as a strategic growth partner, combining data-driven insights, market intelligence, and proven digital expertise to help businesses strengthen their online presence and achieve measurable
-                      growth. Our focus is on long-term performance, ensuring every strategy contributes to brand authority, qualified traffic, and real business outcomes.</p>
+                    we work as a strategic growth partner, combining data-driven insights, market intelligence, and proven digital expertise to help businesses strengthen their online presence and achieve measurable
+                    growth. Our focus is on long-term performance, ensuring every strategy contributes to brand authority, qualified traffic, and real business outcomes.</p>
             </div><!--col end-->
         </div><!--Row End-->
     </div><!--Container End-->
@@ -114,7 +114,7 @@
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
                             <h3 class="mb-3">Search Engine <span class="db">Optimization (SEO)</span></h3>
-                            <p class="mb-3 fs-20">Search Engine Optimization (SEO) is crucial for enhancing your website’s visibility and attracting organic traffic. Our SEO experts in Abu Dhabi 
+                            <p class="mb-3 fs-20">Search Engine Optimization (SEO) is crucial for enhancing your website’s visibility and attracting organic traffic. Our SEO experts in Abu Dhabi
                                 implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
                             <div class="casestydies-readmore">
                                 <a href="/seo-agency-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
@@ -126,7 +126,7 @@
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg') ?>">
                             <h3 class="mb-3">Social Media Marketing <span class="db">(SMM)</span></h3>
                             <p class="mb-3 fs-20">Boost your brand’s presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences
-                                 across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
+                                across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
                             <div class="casestydies-readmore">
                                 <a href="/social-media-marketing-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
@@ -136,7 +136,7 @@
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg') ?>">
                             <h3 class="mb-3">Pay Per Click (PPC)</h3>
-                            <p class="mb-3 fs-20">We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner 
+                            <p class="mb-3 fs-20">We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner
                                 agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>
                             <div class="casestydies-readmore">
                                 <a href="/ppc-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
@@ -148,7 +148,7 @@
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg') ?>">
                             <h3 class="mb-3">Email Marketing</h3>
                             <p class="mb-3 fs-20">We offer email marketing services in Abu Dhabi to engage your audience, nurture prospects, and boost conversions. Our team designs tailored
-                                 email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
+                                email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
                             <div class="casestydies-readmore">
                                 <a href="/email-marketing-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
@@ -158,7 +158,7 @@
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg') ?>">
                             <h3 class="mb-3">Performance Marketing</span></h3>
-                            <p class="mb-3 fs-20">Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing 
+                            <p class="mb-3 fs-20">Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing
                                 agency in Abu Dhabi, offering comprehensive full-funnel performance marketing services.</p>
                             <div class="casestydies-readmore">
                                 <a href="/full-funnel-performance-marketing"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
@@ -169,7 +169,7 @@
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg') ?>">
                             <h3 class="mb-3">Website Design & <span class="db">Development</span></h3>
-                            <p class="mb-3 fs-20">A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites 
+                            <p class="mb-3 fs-20">A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites
                                 using the latest technologies, ensuring they are visually appealing, mobile-friendly, and easy to navigate.</p>
                             <div class="casestydies-readmore">
                                 <a href="/website-design-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
@@ -383,14 +383,14 @@
             <div class="col-md-6 text-md-start text-center">
                 <h2>We Are a Top Marketing<span class="db"> Company in Abu Dhabi</h2>
                 <p>Choosing the right digital marketing company in Abu Dhabi is essential for building a strong online presence and reaching the right audience at the right time.
-                     A well-strategized digital approach helps drive meaningful engagement, improve visibility across channels, and deliver measurable business results that 
-                     support long-term growth.</p>
+                    A well-strategized digital approach helps drive meaningful engagement, improve visibility across channels, and deliver measurable business results that
+                    support long-term growth.</p>
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
                     <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="12+ Years of Experience in Digital Marketing in Abu Dhabi">
                     <h4 class="mt-3">Experience</h4>
-                    <p>Our digital marketing agency in Abu Dhabi brings years of expertise in creating strategies that deliver measurable growth. We have successfully 
+                    <p>Our digital marketing agency in Abu Dhabi brings years of expertise in creating strategies that deliver measurable growth. We have successfully
                         helped businesses across Abu Dhabi and the UAE increase visibility, drive leads, and boost conversions through integrated digital marketing campaigns.</p>
                 </div>
             </div>
@@ -398,7 +398,7 @@
                 <div class="create-positive-box text-md-start text-center">
                     <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="We follow an integrated approach to digital marketing in Abu Dhabi">
                     <h4 class="mt-3">Integrated Approach</h4>
-                    <p>We take a holistic view of your business. Our digital marketing experts in Abu Dhabi design strategies that combine SEO, PPC, social media, content, and 
+                    <p>We take a holistic view of your business. Our digital marketing experts in Abu Dhabi design strategies that combine SEO, PPC, social media, content, and
                         email marketing to deliver cohesive campaigns that engage your target audience and maximize ROI.</p>
                 </div>
             </div>
@@ -407,7 +407,7 @@
                     <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="Robust and Adaptable Digital Marketing Solutions in Abu Dhabi">
                     <h4 class="mt-3">Robust and Adaptable</h4>
                     <p>In a rapidly changing digital landscape, our digital marketing solutions in Abu Dhabi are built to adapt to evolving customer behaviors and market trends.
-                         We continuously monitor, analyze, and optimize campaigns to ensure sustained results and long-term growth for your brand.</p>
+                        We continuously monitor, analyze, and optimize campaigns to ensure sustained results and long-term growth for your brand.</p>
                 </div>
             </div>
         </div>
@@ -568,7 +568,7 @@
                     <div id="flush-collapseOne1-1" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1-1" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">Digital marketing helps businesses in Abu Dhabi build visibility, attract relevant audiences, and convert interest into
-                                 leads through a mix of search, social, content, and performance channels.</p>
+                                leads through a mix of search, social, content, and performance channels.</p>
                         </div>
                     </div>
                 </div>
@@ -580,7 +580,7 @@
                     </h4>
                     <div id="flush-collapseTwo1-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1-2" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
-                            <p class="fs-16 mb-0">The most effective channels depend on your industry and goals, but commonly include SEO, 
+                            <p class="fs-16 mb-0">The most effective channels depend on your industry and goals, but commonly include SEO,
                                 social media marketing, paid advertising, content marketing, and email campaigns tailored to local audience behavior.</p>
                         </div>
                     </div>
@@ -594,7 +594,7 @@
                     <div id="flush-collapseThree1-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree1-3" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">Local insights help align campaigns with cultural preferences, language nuances, search behavior, and
-                                 buying intent, making digital strategies more effective in Abu Dhabi.</p>
+                                buying intent, making digital strategies more effective in Abu Dhabi.</p>
                         </div>
                     </div>
                 </div>
@@ -606,7 +606,7 @@
                     </h4>
                     <div id="flush-collapsefour1-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour1-4" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
-                            <p class="fs-16 mb-0">Timelines vary by channel. Paid campaigns can generate quicker results, while SEO and content marketing 
+                            <p class="fs-16 mb-0">Timelines vary by channel. Paid campaigns can generate quicker results, while SEO and content marketing
                                 build sustained growth over time through consistent optimization.</p>
                         </div>
                     </div>
@@ -619,7 +619,7 @@
                     </h4>
                     <div id="flush-collapsefive1-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive1-5" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
-                            <p class="fs-16 mb-0">Yes, we craft well-planned digital strategies to target local audiences in Abu Dhabi while 
+                            <p class="fs-16 mb-0">Yes, we craft well-planned digital strategies to target local audiences in Abu Dhabi while
                                 also expanding reach across the UAE and the wider MENA region.</p>
                         </div>
                     </div>
@@ -633,7 +633,7 @@
                     <div id="flush-collapsesix1-6" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-6" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">Digital marketing campaign success is tracked using metrics such as traffic quality, engagement rates, lead generation, conversion
-                                 performance, and return on investment across platforms.</p>
+                                performance, and return on investment across platforms.</p>
                         </div>
                     </div>
                 </div>
@@ -646,7 +646,7 @@
                     <div id="flush-collapsesix1-7" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-7" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">Digital marketing strategies are scalable and can be customized to suit startups, growing businesses, and large
-                                 enterprises with different objectives and budgets.</p>
+                                enterprises with different objectives and budgets.</p>
                         </div>
                     </div>
                 </div>
@@ -660,7 +660,7 @@
                     </h4>
                     <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
-                            <p class="fs-16 mb-0">We create digital marketing campaigns that are continuously analyzed and optimized using data-driven insights, 
+                            <p class="fs-16 mb-0">We create digital marketing campaigns that are continuously analyzed and optimized using data-driven insights,
                                 allowing strategies to adapt seamlessly to customer behavior, platform updates, and changing market dynamics.</p>
                         </div>
                     </div>
@@ -676,7 +676,8 @@
                     <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">Content helps educate, engage, and influence audiences while supporting SEO, social media, and conversion-focused campaigns.
-                                 High-quality, relevant content builds trust and drives meaningful interactions across digital channels.</p>
+                                High-quality, relevant content builds trust and drives meaningful interactions across digital channels.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -690,7 +691,7 @@
                     <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">An integrated approach ensures all channels work together, improving consistency, efficiency, and overall campaign performance. As a
-                                 full-service digital agency in Abu Dhabi, BrandStory delivers end-to-end solutions that align strategy, creativity, and execution across every touchpoint.</p>
+                                full-service digital agency in Abu Dhabi, BrandStory delivers end-to-end solutions that align strategy, creativity, and execution across every touchpoint.</p>
                         </div>
                     </div>
                 </div>
@@ -705,7 +706,7 @@
                     <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">A locally experienced agency understands market dynamics, competition, and audience expectations, leading to stronger campaign relevance
-                                 and better results. With deep regional expertise, BrandStory helps businesses translate local insights into impactful digital strategies.</p>
+                                and better results. With deep regional expertise, BrandStory helps businesses translate local insights into impactful digital strategies.</p>
                         </div>
                     </div>
                 </div>
@@ -748,14 +749,13 @@
                     <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample1">
                         <div class="accordion-body">
                             <p class="fs-16 mb-0">BrandStory combines local market understanding, data-driven strategies, and full-service digital expertise to deliver measurable growth. We focus on
-                                 transparency, performance, and long-term results, building tailored digital marketing solutions that align with your business goals and connect effectively with Abu 
-                                 Dhabi audiences.</p>
+                                transparency, performance, and long-term results, building tailored digital marketing solutions that align with your business goals and connect effectively with Abu
+                                Dhabi audiences.</p>
                         </div>
                     </div>
                 </div>
 
             </div>
-
         </div>
     </div>
 </section>
@@ -785,14 +785,32 @@
     });
 </script>
 
-    <?php
-    // Default Services List - can be overwritten by passing $stickyServices to the view
-    $stickyServices = $stickyServices ?? [
-        ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
-        ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
-        ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
-        ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
-        ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
-        ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
-    ];
-    ?>
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
+$stickyServices = $stickyServices ?? [
+    ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
+    ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
+    ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
+    ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
+    ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
+    ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
+];
+?>
+
+<style>
+    .bg-burjkhalifa::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/assets/images/abi-shabi-digital-marketing-agency.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+        z-index: -1;
+        background-attachment: fixed;
+    }
+</style>
