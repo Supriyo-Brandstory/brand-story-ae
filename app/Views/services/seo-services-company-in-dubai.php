@@ -43,13 +43,45 @@
     </div>
 </section>
 
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
 
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <!-- same 6 items repeated for loop -->
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
     </div>
 </section>
+
 
 
 <section class="solutions-interactive-section">
@@ -88,10 +120,10 @@
                             <span class="mhidenx">Partner with our SEO agency in Dubai, and we will design a customized SEO strategy aligned with your business goals, target audience, and competitive landscape to steadily increase your website’s organic visibility and rankings.</span>
                         </p>
                         <div class="detail-actions">
-                            <a href="#" class="btn-solution">Technical SEO</a>
-                            <a href="#" class="btn-solution">On-page Optimization</a>
-                            <a href="#" class="btn-solution">Website Design</a>
-                            <a href="#" class="btn-solution">Backlink Building</a>
+                            <a href="/technical-seo-dubai" class="btn-solution">Technical SEO</a>
+                            <a href="/on-page-seo-dubai" class="btn-solution">On-page Optimization</a>
+                            <a href="/website-design-company-in-dubai" class="btn-solution">Website Design</a>
+                            <a href="/off-page-seo-dubai" class="btn-solution">Backlink Building</a>
                         </div>
                     </div>
 
@@ -105,10 +137,10 @@
                             <span class="mhidenx">Through precise keyword mapping, search intent optimization, content refinement, and technical SEO improvements, we help your website attract qualified users who are more likely to engage, enquire, and convert, not just increase visitor numbers.</span>
                         </p>
                         <div class="detail-actions">
-                            <a href="#" class="btn-solution">Keyword Research</a>
-                            <a href="#" class="btn-solution">On-Page Optimization</a>
-                            <a href="#" class="btn-solution">Content Marketing</a>
-                            <a href="#" class="btn-solution">Local SEO</a>
+                            <a href="/keyword-research-dubai" class="btn-solution">Keyword Research</a>
+                            <a href="/on-page-seo-dubai" class="btn-solution">On-Page Optimization</a>
+                            <a href="/content-marketing-agency-dubai" class="btn-solution">Content Marketing</a>
+                            <a href="/seo-services-company-in-dubai" class="btn-solution">Local SEO</a>
                         </div>
                     </div>
 
@@ -122,10 +154,10 @@
                             <span class="mhidenx">Our SEO Dubai optimises landing pages, content structure, internal linking, and call-to-action placement to guide search visitors toward meaningful actions. By targeting high-intent keywords and improving page relevance, trust signals, and usability, we ensure that organic traffic turns into qualified business leads.</span>
                         </p>
                         <div class="detail-actions">
-                            <a href="#" class="btn-solution">Keyword Research</a>
-                            <a href="#" class="btn-solution">Conversion Optimization</a>
-                            <a href="#" class="btn-solution">Content Strategy</a>
-                            <a href="#" class="btn-solution">Local SEO</a>
+                            <a href="/keyword-research-dubai" class="btn-solution">Keyword Research</a>
+                            <a href="/seo-services-company-in-dubai" class="btn-solution">Conversion Optimization</a>
+                            <a href="/content-marketing-agency-dubai" class="btn-solution">Content Strategy</a>
+                            <a href="/seo-services-company-in-dubai" class="btn-solution">Local SEO</a>
                         </div>
                     </div>
 
@@ -139,10 +171,10 @@
                             <span class="mhidenx">Our SEO agency in Dubai audits competitor pages, identifies keyword gaps, and enhances your content relevance and semantic coverage. By optimising on-page elements, improving site structure, and building authoritative backlinks, we position your website to rank higher.</span>
                         </p>
                         <div class="detail-actions">
-                            <a href="#" class="btn-solution">Keyword Gap Analysis</a>
-                            <a href="#" class="btn-solution">Technical Optimization</a>
-                            <a href="#" class="btn-solution">Competitor Audit</a>
-                            <a href="#" class="btn-solution">Content Strategy</a>
+                            <a href="/keyword-research-dubai" class="btn-solution">Keyword Gap Analysis</a>
+                            <a href="/technical-seo-dubai" class="btn-solution">Technical Optimization</a>
+                            <a href="/seo-audit-services-in-dubai" class="btn-solution">Competitor Audit</a>
+                            <a href="/content-marketing-agency-dubai" class="btn-solution">Content Strategy</a>
                         </div>
                     </div>
                 </div>
@@ -270,44 +302,16 @@
         </div>
     </div>
 </section>
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
 
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <!-- same 6 items repeated for loop -->
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-        </div>
     </div>
 </section>
+
+
 
 
 
