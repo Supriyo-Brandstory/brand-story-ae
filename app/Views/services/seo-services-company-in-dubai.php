@@ -43,41 +43,110 @@
     </div>
 </section>
 
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+    </div>
+</section>
 
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+<section class="solutions-interactive-section">
+    <div class="solutions-sticky-container">
+        <div class="solutions-row">
+            <div class="col-lg-5 solutions-left">
+                <div class="solutions-content-box">
+                    <h2 class="solutions-title">Your Business Challenges,<br>Our SEO Solutions</h2>
+                    <div class="solutions-menu-window">
+                        <ul class="solutions-list">
+                            <li class="solution-item active" data-target="target-ranking">
+                                <span>Improve My Organic Ranking On Google?</span>
+                            </li>
+                            <li class="solution-item" data-target="target-traffic">
+                                <span>Get More Qualified Traffic From Google?</span>
+                            </li>
+                            <li class="solution-item" data-target="target-leads">
+                                <span>Convert Organic Visitors Into Enquiries Or Leads?</span>
+                            </li>
+                            <li class="solution-item" data-target="target-revamp">
+                                <span>Outrank My Competitors For High-Value Keywords?</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 solutions-right">
+                <div class="solutions-details-wrapper">
+                    <div id="target-ranking" class="solution-detail active">
+                        <div class="solution-icon">
+                            <img src="<?= base_url('assets/images/organic_ranking_icon.png') ?>" alt="Organic Ranking Growth Icon">
+                        </div>
+                        <h3 class="detail-title">Improve My Organic Ranking On Google?</h3>
+                        <p class="detail-desc">
+                            You can improve your organic ranking on Google with a strategic SEO approach that includes in-depth keyword research, on-page optimisation, technical SEO, high-quality content creation, and authoritative link building.
+                            <span class="mhidenx">Partner with our SEO agency in Dubai, and we will design a customized SEO strategy aligned with your business goals, target audience, and competitive landscape to steadily increase your website’s organic visibility and rankings.</span>
+                        </p>
+                        <div class="detail-actions">
+                            <a href="#" class="btn-solution">Technical SEO</a>
+                            <a href="#" class="btn-solution">On-page Optimization</a>
+                            <a href="#" class="btn-solution">Website Design</a>
+                            <a href="#" class="btn-solution">Backlink Building</a>
+                        </div>
+                    </div>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+                    <div id="target-traffic" class="solution-detail">
+                        <div class="solution-icon">
+                            <img src="<?= base_url('assets/images/qualified_traffic_icon.png') ?>" alt="Qualified Traffic Icon">
+                        </div>
+                        <h3 class="detail-title">Get More Qualified Traffic From Google?</h3>
+                        <p class="detail-desc">
+                            Attracting traffic is not enough, the right traffic matters. With a data-driven SEO approach, we focus on targeting high-intent keywords that your potential customers actively search for.
+                            <span class="mhidenx">Through precise keyword mapping, search intent optimization, content refinement, and technical SEO improvements, we help your website attract qualified users who are more likely to engage, enquire, and convert, not just increase visitor numbers.</span>
+                        </p>
+                        <div class="detail-actions">
+                            <a href="#" class="btn-solution">Keyword Research</a>
+                            <a href="#" class="btn-solution">On-Page Optimization</a>
+                            <a href="#" class="btn-solution">Content Marketing</a>
+                            <a href="#" class="btn-solution">Local SEO</a>
+                        </div>
+                    </div>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
+                    <div id="target-leads" class="solution-detail">
+                        <div class="solution-icon">
+                            <img src="<?= base_url('assets/images/lead_conversion_icon.png') ?>" alt="Lead Conversion Icon">
+                        </div>
+                        <h3 class="detail-title">Convert Organic Visitors Into Enquiries Or Leads?</h3>
+                        <p class="detail-desc">
+                            Converting organic visitors into enquiries or leads requires aligning SEO with user experience and conversion intent.
+                            <span class="mhidenx">Our SEO Dubai optimises landing pages, content structure, internal linking, and call-to-action placement to guide search visitors toward meaningful actions. By targeting high-intent keywords and improving page relevance, trust signals, and usability, we ensure that organic traffic turns into qualified business leads.</span>
+                        </p>
+                        <div class="detail-actions">
+                            <a href="#" class="btn-solution">Keyword Research</a>
+                            <a href="#" class="btn-solution">Conversion Optimization</a>
+                            <a href="#" class="btn-solution">Content Strategy</a>
+                            <a href="#" class="btn-solution">Local SEO</a>
+                        </div>
+                    </div>
 
-            <!-- same 6 items repeated for loop -->
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
+                    <div id="target-revamp" class="solution-detail">
+                        <div class="solution-icon">
+                            <img src="<?= base_url('assets/images/competitor_outrank_icon.png') ?>" alt="Competitor Outrank Icon">
+                        </div>
+                        <h3 class="detail-title">Outrank My Competitors For High-Value Keywords?</h3>
+                        <p class="detail-desc">
+                            Outranking competitors for high-value keywords requires a strategic SEO approach that combines content authority, technical optimization, and competitive analysis.
+                            <span class="mhidenx">Our SEO agency in Dubai audits competitor pages, identifies keyword gaps, and enhances your content relevance and semantic coverage. By optimising on-page elements, improving site structure, and building authoritative backlinks, we position your website to rank higher.</span>
+                        </p>
+                        <div class="detail-actions">
+                            <a href="#" class="btn-solution">Keyword Gap Analysis</a>
+                            <a href="#" class="btn-solution">Technical Optimization</a>
+                            <a href="#" class="btn-solution">Competitor Audit</a>
+                            <a href="#" class="btn-solution">Content Strategy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -93,9 +162,9 @@
 
                 <div class=" mb-lg-0 mb-3  radius-20">
                     <div class="left-side orbit-section">
-                        <div class="center">SEO</div>
+                        <!-- <div class="center">SEO</div>
                         <div class="orbit">
-                            <!-- Placeholder SEO tool icons (simple shapes representing tools) -->
+                          
                             <div class="orbit-item"><svg width="95" height="100" viewBox="0 0 95 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M64.651 38.7912L57.6998 45.7385V45.7404C54.442 56.6681 44.2995 64.6584 32.3268 64.6584C25.3121 64.6584 18.9596 61.9265 14.2366 57.4926L32.4295 39.2996L42.0668 48.9371C43.2104 50.0807 45.0651 50.0812 46.2092 48.9379L73.4346 21.7308L77.2034 25.4998C79.0448 27.3414 82.2022 26.0334 82.2047 23.431L82.2243 2.93299C82.225 2.15467 81.9161 1.4078 81.3655 0.857796C80.426 -0.0808757 79.3118 0.00486647 79.2899 0.000374282L58.8065 0.034554C56.2034 0.0386555 54.9006 3.19647 56.7397 5.03573L60.4555 8.75155L44.0481 25.159L34.2602 15.3709C33.1168 14.2275 31.261 14.2267 30.117 15.3709L5.89536 39.5924C4.78442 18.5064 27.6301 4.81698 45.6178 15.3031L49.8834 11.0375C29.0524 -2.46076 0.78852 11.8797 0.0143013 37.1877C-0.52398 55.5201 14.203 70.5176 32.3268 70.5176C49.9518 70.5178 64.3307 56.34 64.651 38.7912Z" fill="#855BFF" />
                                     <path d="M93.3436 86.7125L64.8377 58.2066C61.7191 63.2521 57.46 67.5205 52.4219 70.65L80.9139 99.1418C82.0576 100.286 83.9127 100.286 85.057 99.1418L93.3436 90.8554C94.4871 89.7123 94.4875 87.8562 93.3436 86.7125Z" fill="#855BFF" />
@@ -182,22 +251,18 @@
                                 </svg>
 
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?= base_url('assets/images/seo-dubai-agency.webp') ?>" alt="" class="img-fluid w-75">
+
                     </div>
                 </div>
 
             </div>
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">A powerful digital presence is vital for modern business success. Unlock your brand’s full digital potential with BrandStory, a leading results-driven SEO agency in
-                        Dubai. Our SEO experts uncover hidden ranking opportunities, optimize every critical touchpoint,
-                        and elevate your website’s presence across Google and other search results.</li>
+                    <li class="text-white mb-3 fs-20">We are a professional team of 100+ experts based in Dubai, offering SEO services in Dubai and the UAE for 12+ years, serving 400+ clients in the region. We are the most trusted Search Engine Optimization company in Dubai with 4.9/5 reviews on Google. Since 2012, we have generated millions of revenue for our clients by ranking their website for the most competitive keywords on Google. </li>
 
-                    <li class="text-white mb-3 fs-20">We go beyond ranking a website, we craft strategies that enhance visibility, build authority,
-                        and drive the best growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/technical-seo-dubai" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/on-page-seo-dubai" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/off-page-seo-dubai" style="color:white;text-decoration:underline">backlink building</a>,
-                        our top-level professionals work with pinpoint precision.</li>
-                    <li class="text-white mb-3 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make
-                        your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
+                    <li class="text-white mb-3 fs-20">Do you need proof? Check the latest success stories of our clients, our SEO company services are recognized by the top businesses around. At BrandStory, we put your business first, creating smart SEO strategies that make your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
                 </ul>
                 <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
 
@@ -205,15 +270,48 @@
         </div>
     </div>
 </section>
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
 
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <!-- same 6 items repeated for loop -->
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
     </div>
 </section>
 
-<section class="Performance-Driven-wrapper dm-bg pt-1 mt-5">
+
+
+<section class="Performance-Driven-wrapper dm-bg sp-50">
     <div class="container">
         <h2 class="mb-4">SEO is The Key to <br>Sustainable Business Growth</h2>
         <div class="row Performance-Driven-row px-md-4 px-2">
@@ -1903,127 +2001,446 @@ include __DIR__ . '/../component/client_reviews.php';
             </div>
         </div>
     </div>
+</section>
 
-    <script>
-        const descriptions = {
-            gsc: {
-                title: "Google Search Console",
-                text: "We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results."
-            },
-            gds: {
-                title: "Google Data Studio",
-                text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
-            },
-            ga: {
-                title: "Google Analytics",
-                text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
-            },
-            semrush: {
-                title: "SemRush",
-                text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
-            },
-            surfer: {
-                title: "Surfer SEO",
-                text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
-            },
-            "screaming-frog": {
-                title: "Screaming Frog",
-                text: "We use Screaming Frog to perform website audits by crawling your site to identify SEO issues like broken links, duplicate content, and missing metadata."
-            },
-            contentpace: {
-                title: "Contentpace",
-                text: "We use Contentpace for content planning and optimization by providing keyword insights, content gaps, and competitor analysis to create high-performing content strategies for SEO in Dubai. "
-            },
-            ahrefs: {
-                title: "Ahrefs",
-                text: "Ahrefs empowers us with powerful SEO tools for keyword research, backlink analysis, competitor tracking, and site audits."
-            },
-            "google-tag-manager": {
-                title: "Google Tag Manager",
-                text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
-            },
-            Moz: {
-                title: "Moz",
-                text: "We use Moz for domain authority analysis, quality backlinks analysis, and tracking your website’s SEO health to help improve your site’s credibility on search engines. "
-            }
-        };
+<script>
+    const descriptions = {
+        gsc: {
+            title: "Google Search Console",
+            text: "We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results."
+        },
+        gds: {
+            title: "Google Data Studio",
+            text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
+        },
+        ga: {
+            title: "Google Analytics",
+            text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
+        },
+        semrush: {
+            title: "SemRush",
+            text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
+        },
+        surfer: {
+            title: "Surfer SEO",
+            text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
+        },
+        "screaming-frog": {
+            title: "Screaming Frog",
+            text: "We use Screaming Frog to perform website audits by crawling your site to identify SEO issues like broken links, duplicate content, and missing metadata."
+        },
+        contentpace: {
+            title: "Contentpace",
+            text: "We use Contentpace for content planning and optimization by providing keyword insights, content gaps, and competitor analysis to create high-performing content strategies for SEO in Dubai. "
+        },
+        ahrefs: {
+            title: "Ahrefs",
+            text: "Ahrefs empowers us with powerful SEO tools for keyword research, backlink analysis, competitor tracking, and site audits."
+        },
+        "google-tag-manager": {
+            title: "Google Tag Manager",
+            text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
+        },
+        Moz: {
+            title: "Moz",
+            text: "We use Moz for domain authority analysis, quality backlinks analysis, and tracking your website’s SEO health to help improve your site’s credibility on search engines. "
+        }
+    };
 
-        const cards = document.querySelectorAll('.tool-card');
-        const descBox = document.getElementById('tool-description');
+    const cards = document.querySelectorAll('.tool-card');
+    const descBox = document.getElementById('tool-description');
 
-        cards.forEach(card => {
-            card.addEventListener('click', () => {
-                cards.forEach(c => c.classList.remove('active'));
-                card.classList.add('active');
-                const key = card.getAttribute('data-tool');
-                descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
-            });
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            const key = card.getAttribute('data-tool');
+            descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
         });
+    });
 
-        // Set default active
-        document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
-    </script>
+    // Set default active
+    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+</script>
 
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const section = document.querySelector('.scroll-banner-section');
-            const slide1 = document.getElementById('banner-slide-1');
-            const slide2 = document.getElementById('banner-slide-2');
-            const slide3 = document.getElementById('banner-slide-3');
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const section = document.querySelector('.scroll-banner-section');
+        const slide1 = document.getElementById('banner-slide-1');
+        const slide2 = document.getElementById('banner-slide-2');
+        const slide3 = document.getElementById('banner-slide-3');
 
-            if (!section) return;
+        if (!section) return;
 
-            window.addEventListener('scroll', () => {
-                const rect = section.getBoundingClientRect();
-                const viewportHeight = window.innerHeight;
-                const scrollHeight = section.offsetHeight - viewportHeight;
+        window.addEventListener('scroll', () => {
+            const rect = section.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            const scrollHeight = section.offsetHeight - viewportHeight;
 
-                let progress = -rect.top / scrollHeight;
-                progress = Math.max(0, Math.min(1, progress));
+            let progress = -rect.top / scrollHeight;
+            progress = Math.max(0, Math.min(1, progress));
 
-                if (progress <= 0) {
-                    slide1.classList.add('active');
-                    slide1.classList.remove('prev-slide', 'next-slide');
+            if (progress <= 0) {
+                slide1.classList.add('active');
+                slide1.classList.remove('prev-slide', 'next-slide');
 
-                    slide2.classList.remove('active', 'prev-slide');
-                    slide2.classList.add('next-slide');
+                slide2.classList.remove('active', 'prev-slide');
+                slide2.classList.add('next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
-                } else if (progress < 0.5) {
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide');
+            } else if (progress < 0.5) {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
 
-                    slide2.classList.add('active');
-                    slide2.classList.remove('prev-slide', 'next-slide');
+                slide2.classList.add('active');
+                slide2.classList.remove('prev-slide', 'next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
+            } else {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
+
+                slide2.classList.remove('active', 'next-slide');
+                slide2.classList.add('prev-slide');
+
+                slide3.classList.add('active');
+                slide3.classList.remove('prev-slide', 'next-slide');
+            }
+        });
+    });
+</script>
+
+
+<style>
+    .solutions-interactive-section {
+        background-color: #000;
+        color: #fff;
+        padding: 0;
+        min-height: 350vh;
+        /* Reduced scroll depth for faster transition */
+        font-family: 'Inter', sans-serif;
+        position: relative;
+
+    }
+
+    .solutions-sticky-container {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .solutions-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #0a0b0e;
+    }
+
+    .solutions-left {
+
+        display: flex;
+        align-items: center;
+        padding: 0;
+        height: 100vh;
+        flex: 0 0 45%;
+    }
+
+    .solutions-content-box {
+        padding-left: 10%;
+        padding-right: 5%;
+        width: 100%;
+        position: relative;
+        border-right: solid 1px #ffffff66;
+    }
+
+
+    .solutions-menu-window {
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .solutions-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .solution-item {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #fff;
+        opacity: 0.3;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        text-transform: capitalize;
+        position: relative;
+        line-height: 1.2;
+        transform: scale(0.9);
+        transform-origin: left center;
+    }
+
+    .solution-item.active {
+        opacity: 1;
+        font-size: 24px;
+        transform: scale(1);
+    }
+
+    .solution-item.active::before {
+        content: '• ';
+        position: absolute;
+        left: -35px;
+    }
+
+    .solution-item:hover {
+        opacity: 1;
+    }
+
+    .solutions-right {
+        flex: 0 0 55%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .solutions-details-wrapper {
+        position: relative;
+        z-index: 2;
+        padding: 10px;
+        max-width: 650px;
+        text-align: center;
+    }
+
+    .solution-icon {
+        margin-bottom: 25px;
+    }
+
+    .solution-icon img {
+        width: 100%;
+        height: 280px;
+        object-fit: contain;
+    }
+
+    .detail-title {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .detail-desc {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+        color: #efefef;
+        text-align: left;
+    }
+
+    .detail-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .btn-solution {
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 700;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        background: transparent;
+        text-transform: capitalize;
+    }
+
+    .btn-solution:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    .solution-detail {
+        display: none;
+    }
+
+    .solution-detail.active {
+        display: block;
+        animation: fadeInUpSol 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    @keyframes fadeInUpSol {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 991px) {
+        .solutions-interactive-section {
+            min-height: auto;
+        }
+
+        .solutions-sticky-container {
+            position: relative;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .solutions-left,
+        .solutions-right {
+            flex: 0 0 100%;
+            height: auto;
+            width: 100%;
+        }
+
+        .solutions-content-box {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .solutions-menu-window {
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        /* Show all details on mobile instead of switching */
+        .solution-detail {
+            display: block !important;
+            opacity: 1 !important;
+            transform: none !important;
+            margin-bottom: 60px;
+            padding: 0 20px;
+        }
+
+        .solution-item {
+            display: inline-block;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        .solution-item.active::before {
+            display: none;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .solutions-menu-window {
+            display: none;
+        }
+
+
+
+        .solution-icon img {
+            height: auto;
+            /* Smaller icons for mobile */
+        }
+
+        .detail-title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const section = document.querySelector('.solutions-interactive-section');
+        const listContainer = document.querySelector('.solutions-list');
+        const sItems = document.querySelectorAll('.solution-item');
+        const sDetails = document.querySelectorAll('.solution-detail');
+
+        if (!section || !listContainer) return;
+
+        function updateSolutionsScroll() {
+            if (window.innerWidth < 992) {
+                // On mobile, clear the transform and active states that are scroll-driven
+                listContainer.style.transform = 'none';
+                return;
+            }
+
+            const rect = section.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            const scrollHeight = section.offsetHeight - viewportHeight;
+
+            let progress = -rect.top / scrollHeight;
+            progress = Math.max(0, Math.min(1, progress));
+
+            const totalItems = sItems.length;
+            const activeIndex = Math.min(Math.floor(progress * totalItems), totalItems - 1);
+
+            sItems.forEach((item, idx) => {
+                if (idx === activeIndex) {
+                    if (!item.classList.contains('active')) {
+                        item.classList.add('active');
+                        // Update content
+                        const targetId = item.getAttribute('data-target');
+                        sDetails.forEach(detail => detail.classList.remove('active'));
+                        const targetEl = document.getElementById(targetId);
+                        if (targetEl) targetEl.classList.add('active');
+                    }
                 } else {
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide');
-
-                    slide2.classList.remove('active', 'next-slide');
-                    slide2.classList.add('prev-slide');
-
-                    slide3.classList.add('active');
-                    slide3.classList.remove('prev-slide', 'next-slide');
+                    item.classList.remove('active');
                 }
             });
+
+            // Vertical scroll effect for menu
+            // Center the active item in the window
+            const windowHeight = 350;
+            const itemHeight = 60; // Approximate height including margin
+            const offset = (windowHeight / 2) - (activeIndex * itemHeight) - (itemHeight / 2);
+            listContainer.style.transform = `translateY(${offset}px)`;
+        }
+
+        window.addEventListener('scroll', updateSolutionsScroll);
+
+        // Initial call
+        updateSolutionsScroll();
+
+        // Click to scroll to position
+        sItems.forEach((item, idx) => {
+            item.addEventListener('click', function() {
+                const totalItems = sItems.length;
+                const scrollHeight = section.offsetHeight - window.innerHeight;
+                const targetScroll = section.offsetTop + (idx / totalItems) * scrollHeight + 10;
+                window.scrollTo({
+                    top: targetScroll,
+                    behavior: 'smooth'
+                });
+            });
         });
-    </script>
+    });
+</script>
 
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
 
-    <?php
-    // Default Services List - can be overwritten by passing $stickyServices to the view
-    $stickyServices = $stickyServices ?? [
-        ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
-        ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
-        ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
-        ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
-        ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
-    ];
-    ?>
+$stickyServices = $stickyServices ?? [
+    ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
+    ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
+    ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
+    ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
+    ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+];
+?>
