@@ -10,83 +10,35 @@
          }
      }
  </style>
+ <section class="service-banner seo-service-dubai sp-50">
+     <div class="container"><!--Container Start-->
+         <div class="row align-items-center"><!--Row Start-->
+             <div class="col-md-7"> <!--col start-->
+                 <div class="seo-service-banner-txt text-md-start text-center">
+                     <h1>Result-Driven Social Media Marketing in Dubai- BrandStory</h1>
+                     <p class="fs-18">
+                         At BrandStory, we are recognized as a premier social media marketing agency in Dubai, known for crafting strategies that truly resonate. Our creative masterminds design every reel, post, and content to make an impact. With BrandStory, your brand isn’t just seen, it’s remembered, revisited, and talked about.
+                     </p>
+                     <a href="/contact/" class="smm-uae-btn mt-4">
+                         Lets Get Social
+                     </a>
 
-<section class="social-media-banner">
-    <div class="container">
-        <!-- Top Row -->
-        <div class="banner-top">
-            <div class="arrow-block left">
-                <span class="triangle-left"></span>
-                <span class="triangle-left"></span>
-                <span class="triangle-left"></span>
-                <span class="triangle-left"></span>
-            </div>
-            <h1 class="main-head title">ACCELERATE</h1>
-            <div class="arrow-block right">
-                <span class="triangle-right"></span>
-                <span class="triangle-right"></span>
-                <span class="triangle-right"></span>
-                <span class="triangle-right"></span>
-            </div>
-        </div>
+                 </div>
+             </div><!--col end-->
+             <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
+                 <div class="d-flex justify-content-center align-items-center">
+                     <!-- <img src="/assets/images/social-media-2.png" class="img-fluid " style="border-radius:15px" alt="Soial media marketing services Dubai"> -->
+                     <div class="banner-image-item">
+                         <div class="banner-image-slider">
+                             <img rel="preload" fetchpriority="high" src="<?= base_url('assets/images/social-media/social-media-1.gif') ?>" class="img-fluid" alt="Social Media Creative Design for Our Client">
+                         </div>
+                     </div>
 
-        <!-- Bottom Row (3 equal columns on desktop, stacked on mobile) -->
-        <div class="banner-content">
-            <div class="item left-item ">
-                <h1 class="title w-lg-50 d-flex gap-3 align-item-center justify-content-center text-md-end">YOUR <span class="d-block d-md-none"> RESULTS</span></h1>
-            </div>
-            <div class="item center-flex">
-                <img src="<?= base_url('assets/images/social-media/social-media-1.gif') ?>" alt="Social Media Marketing" class="banner-img">
-            </div>
-            <div class="item right-item d-none d-md-flex text-left">
-                <h1 class="title">RESULTS</h1>
-                <div class="desktop-only">
-                    <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Bangalore.</p>
-                </div>
-                <a href="#" class="cta cta-desktop">➤ &nbsp;Know About Us</a>
-            </div>
-            <!-- Mobile only content below image -->
-            <div class="mobile-only-content">
-                <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Bangalore.</p>
-                <a href="#" class="cta">➤ &nbsp;Know About Us</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="social-media-boxes">
-    <div class="container">
-
-        <div class="social-media-boxes-grid">
-
-            <div class="social-media-boxes-titlebox">
-                <h1 class="desktop-title">Your <br>Reach <br>On 🚀<br>Boost</h1>
-                <h1 class="mobile-title">Your Reach On <br>Boost 🚀</h1>
-            </div>
-
-            <div class="social-media-boxes-card" id="box-1">
-                <div class="social-media-boxes-card-title">More qualified opportunities</div>
-            </div>
-            <div class="social-media-boxes-card" id="box-2">
-                <div class="social-media-boxes-card-stats"><span>61%</span><br>BOOST REVENUE</div>
-                <div class="social-media-boxes-card-title">From active social selling</div>
-            </div>
-            <div class="social-media-boxes-card" id="box-3">
-                <div class="social-media-boxes-card-stats"><span>4X</span><br>SHARPEN INSIGHTS</div>
-                <div class="social-media-boxes-card-title">Faster content learnings</div>
-            </div>
-            <div class="social-media-boxes-card" id="box-4">
-                <div class="social-media-boxes-card-stats"><span>5.2X</span><br>MAXIMISE AD IMPACT</div>
-                <div class="social-media-boxes-card-title">Return on ad spend</div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
+                 </div>
+             </div><!--col end-->
+         </div><!--Row End-->
+     </div><!--Container End-->
+ </section>
 
  <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
@@ -130,10 +82,9 @@
 
  <section class="sp-80 bg-black">
      <div class="container">
-             <h2 class="text-white text-md-start text-center">
-                Helping Brands Build Influence <br>
-                with Social Media Marketing
-             </h2>
+         <h2 class="fs-65 text-start"><span class="outlined-text">Helping Brands Build Influence
+
+             </span><span class="db"><span class="gradient-text">with Social Media Marketing</span></span></h2>
          <div class="brand_service_wrapper pt-lg-5 pt-3">
              <a href="/corporate-video-production-services-in-dubai/">
                  <div class="each_brands vd_prod">
@@ -198,22 +149,16 @@
  </section>
 
  <section class="new-client-section bg-black">
-     <!-- <h2 class="fs-65 pb-lg-4 pb-5 text-center"><span class="outlined-text">Our Valuable</span><span class="db"><span class="gradient-text">Clients</span></span></h2> -->
-     <h2 class="text-white mb-5 text-center"> 
-        Our Valuable Clients
-     </h2>
+     <h2 class="fs-65 pb-lg-4 pb-5 text-center"><span class="outlined-text">Our Valuable</span><span class="db"><span class="gradient-text">Clients</span></span></h2>
+
      <div class="container-fluid">
          <?php include __DIR__ . '/../component/client_section.php' ?>
      </div>
  </section>
  <section class="sp-50  bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65 text-start" style="margin:40px;"><span class="outlined-text">Best Social Media Marketing </span><span class="db">
+         <h2 class="fs-65 text-start" style="margin:40px;"><span class="outlined-text">Best Social Media Marketing </span><span class="db">
                  <span class="gradient-text">Services in Dubai, UAE</span></span>
-         </h2> -->
-         <h2 class="text-white text-md-start text-center mb-4">
-            Best Social Media Marketing <br>
-            Services in Dubai, UAE
          </h2>
 
          <div class="dm-sticky-section">
@@ -225,7 +170,7 @@
                          <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Facebook marketing services in Dubai - BrandStory" />
                      </div>
                      <div class="dm-content">
-                         <a href="/" clas₹s="heding">Facebook Marketing</a>
+                         <a href="/" class="heding">Facebook Marketing</a>
 
                          <p>
                              Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer. And we provide the right Facebook marketing services that will help you connect with your specific audience.
@@ -465,11 +410,7 @@
 
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65 text-start"><span class="outlined-text">Our Social Media</span><span class="db"><span class="gradient-text">Marketing Services</span></span></h2> -->
-         <h2 class="text-white text-md-start text-center mb-4">
-            Our Social Media<br>
-            Marketing Services
-         </h2>
+         <h2 class="fs-65 text-start"><span class="outlined-text">Our Social Media</span><span class="db"><span class="gradient-text">Marketing Services</span></span></h2>
          <div class="row gy-3 pt-lg-5 pt-3">
              <div class="col-lg-9 col-12">
                  <div class="row gy-3">
@@ -554,11 +495,8 @@
 
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65 text-start"><span class="outlined-text">Benefits of Hiring a Social Media</span><span class="db"><span class="gradient-text">Marketing Agency </span></span></h2> -->
-         <h2 class="text-white text-md-start text-center">
-            Benefits of Hiring a Social Media <br>
-            Marketing Agency
-         </h2>
+         <h2 class="fs-65 text-start"><span class="outlined-text">Benefits of Hiring a Social Media</span><span class="db"><span class="gradient-text">Marketing Agency </span></span></h2>
+
          <div class="row gy-3 pt-lg-5 pt-3">
              <div class="col-lg-7 col-12 text-white order-md-1 order-2">
                  <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
@@ -587,11 +525,7 @@
  </section>
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65"><span class="outlined-text">Why Choose</span><span class="db"><span class="gradient-text">BrandStory</span></span></h2> -->
-         <h2 class="text-white text-md-start text-center">
-            Why Choose <br>
-            Brandstory
-         </h2>
+         <h2 class="fs-65"><span class="outlined-text">Why Choose</span><span class="db"><span class="gradient-text">BrandStory</span></span></h2>
          <p class="fs-20 text-white">In the competitive social media marketing landscape, standing out is essential, and that is where BrandStory comes in. As a leading social media marketing agency, we create campaigns that blend creativity with data-driven strategies. Here’s why BrandStory is the right partner for your social media success:</p>
          <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
              <div class="col-lg-4 col-md-6 col-12">
@@ -642,12 +576,10 @@
 
  <section class="Performance-Driven-wrapper" id="videoSection">
      <div class="container text-center cus_our_portfolio">
-         <h2 class="fs-65 text-start mb-5-old" style="margin-bottom: unset;">
-        <!-- <span class="outlined-text">Social Media Marketing </span><span class="db"><span class="outlined-text">in Dubai - </span> <span class="gradient-text">Our Portfolio</span></span></h2> -->
-        <h2 class="text-white text-md-start text-center">
-            Social Media Marketing <br>
-            in Dubai - Our Portfolio
-         </h2>
+         <h2 class="fs-65 text-start mb-5-old" style="
+    margin-bottom: unset;
+"><span class="outlined-text">Social Media Marketing </span><span class="db"><span class="outlined-text">in Dubai - </span> <span class="gradient-text">Our Portfolio</span></span></h2>
+
      </div>
  </section>
 
@@ -721,11 +653,7 @@
      <div class="container">
          <div class="row g-lg-5 g-3 position-relative">
              <div class="col-lg-5 col-12">
-                 <!-- <h2 class="fs-65 text-start"><span class="outlined-text">See What Our</span><span class="db"><span class="gradient-text">Clients Say</span></span></h2> -->
-                    <h2 class="text-white text-md-start text-center">
-                       See What Our <br>
-                       Clients Say
-                    </h2>
+                 <h2 class="fs-65 text-start"><span class="outlined-text">See What Our</span><span class="db"><span class="gradient-text">Clients Say</span></span></h2>
              </div>
              <div class="col-lg-7 col-12">
                  <div class="clients-swiper-container">
@@ -790,12 +718,7 @@
  </section>
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65"><span class="outlined-text">Grow Your Business <span class="db">with Expert-led</span></span><span class="db"><span class="gradient-text">Social Media Marketing</span></span></h2> -->
-         <h2 class="text-white text-md-start text-center">
-            Grow Your Business <br>
-            with Expert-led<br>
-            Social Media Marketing
-        </h2>
+         <h2 class="fs-65"><span class="outlined-text">Grow Your Business <span class="db">with Expert-led</span></span><span class="db"><span class="gradient-text">Social Media Marketing</span></span></h2>
          <div class="row g-lg-4 g-3 pt-lg-4 pt-3">
              <div class="col-lg-6 col-12">
                  <div class="img_main_wrapper position-relative">
@@ -844,11 +767,7 @@
 
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65 text-start"><span class="outlined-text">Latest Blogs on</span><span class="db"><span class="gradient-text">Social Media Marketing</span></span></h2> -->
-         <h2 class="text-white text-md-start text-center">
-           Latest Blogs on <br>
-           Social Media Marketing
-         </h2>
+         <h2 class="fs-65 text-start"><span class="outlined-text">Latest Blogs on</span><span class="db"><span class="gradient-text">Social Media Marketing</span></span></h2>
          <div class="soc_latest_blogs pt-lg-5 pt-3 position-relative">
              <div class="swiper latestBlogsSwiper">
                  <div class="swiper-wrapper">
@@ -962,10 +881,7 @@
  <!--Start : Accordian Section -->
  <section class="sp-80 bg-black">
      <div class="container">
-         <!-- <h2 class="fs-65 text-center"><span class="gradient-text">FAQ's</span></h2> -->
-         <h2 class="text-white text-center">
-            FAQ's
-         </h2>
+         <h2 class="fs-65 text-center"><span class="gradient-text">FAQ's</span></h2>
          <div class="row g-4 d-flex pt-lg-5 pt-3 justify-content-center align-items-center">
              <div class="col-md-9 col-12">
                  <div class="accordion custom-accordion" id="mainAccordion">
