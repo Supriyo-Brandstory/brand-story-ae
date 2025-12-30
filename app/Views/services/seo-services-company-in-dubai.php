@@ -57,7 +57,7 @@
         <div class="solutions-row">
             <div class="col-lg-5 solutions-left">
                 <div class="solutions-content-box">
-                    <h2 class="solutions-title">Your Business Challenges,<br>Our SEO Solutions</h2>
+                    <h2 class="solutions-title">Your Growth Challenges<br>Our SEO Solutions</h2>
                     <div class="solutions-menu-window">
                         <ul class="solutions-list">
                             <li class="solution-item active" data-target="target-ranking">
@@ -252,7 +252,7 @@
 
                             </div>
                         </div> -->
-                        <img src="<?= base_url('assets/images/seo-dubai-agency.webp') ?>" alt="" class="img-fluid w-75">
+                        <img src="<?= base_url('assets/images/seo-dubai-agency-banner.webp') ?>" alt="" class="img-fluid">
 
                     </div>
                 </div>
