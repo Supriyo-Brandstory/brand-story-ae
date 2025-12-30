@@ -3,7 +3,7 @@
         'name' => 'brandstoryae/framework',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '8445dd0572c0d74713d2d8ba0520cf27505785c7',
+        'reference' => 'fcc3d68df7fe20b888c46837d107a80db519fb9b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'brandstoryae/framework' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '8445dd0572c0d74713d2d8ba0520cf27505785c7',
+            'reference' => 'fcc3d68df7fe20b888c46837d107a80db519fb9b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
