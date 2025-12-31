@@ -37,7 +37,7 @@
         <div class="scroll-slide slide-3 next-slide" id="banner-slide-3">
             <div class="slide-3-content">
                 <p class="slide-3-desc">With BrandStory’s SEO services in Dubai, your business doesn’t just reach the top of Google, it stays there, powering growth for
-                     local companies, e-commerce brands, and enterprise-level organizations.</p>
+                    local companies, e-commerce brands, and enterprise-level organizations.</p>
                 <a href="javascript:void(0);" class="gradient-cta-btn uniq-contact-lead-btn">Book Your Demo Call</a>
             </div>
         </div>
@@ -562,14 +562,14 @@
 
                             </div>
                         </div> -->
-                        <img src="<?= base_url('assets/images/seo-dubai-agency-banner.webp') ?>" alt="" class="img-fluid " style="border-radius:20px;">
+                        <img src="<?= base_url('assets/images/seo-dubai-agency-banner-2.webp') ?>" alt="" class="img-fluid " style="border-radius:20px;">
                     </div>
                 </div>
 
             </div>
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li> 
+                    <li class="text-white mb-3 fs-20">We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
                     <li class="text-white mb-3 fs-20">We are the most trusted Search Engine Optimization company in Dubai with <b>4.8/5 reviews on Google</b>. Since 2012, we have generated millions of revenue for our clients by ranking their website for the most competitive keywords on Google. </li>
 
                     <li class="text-white mb-3 fs-20">Do you need proof? Check the <a href="/case-study/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff"><b>latest success stories</b></a> of our clients, our SEO company services are recognized by the top businesses around. At BrandStory, we put your business first, creating smart SEO strategies that make your brand shine above the competition. We don’t simply optimize websites, we create high-visibility search experiences that attract, engage, and convert the right audience.</li>
