@@ -1318,10 +1318,9 @@
 
 
 
- <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+ <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered modal-lg">
          <div class="modal-content bg-dark position-relative">
-             <!-- Close button -->
              <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
 
              <div class="ratio ratio-16x9">
@@ -1334,12 +1333,12 @@
 
 
  <script>
-     // Stop video on modal close
+  
      document.getElementById('videoModal').addEventListener('hidden.bs.modal', function() {
          let iframe = document.getElementById('youtubeVideo');
          iframe.src = iframe.src;
      });
- </script>
+ </script> -->
 
  <?php
     // Default Services List - can be overwritten by passing $stickyServices to the view
