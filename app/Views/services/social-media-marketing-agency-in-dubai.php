@@ -41,13 +41,13 @@
             <div class="item right-item d-none d-md-flex text-left">
                 <h1 class="title">RESULTS</h1>
                 <div class="desktop-only">
-                    <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Bangalore.</p>
+                    <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Dubai.</p>
                 </div>
                 <a href="#" class="cta cta-desktop">➤ &nbsp;Know About Us</a>
             </div>
             <!-- Mobile only content below image -->
             <div class="mobile-only-content">
-                <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Bangalore.</p>
+                <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Dubai.</p>
                 <a href="#" class="cta">➤ &nbsp;Know About Us</a>
             </div>
         </div>
@@ -225,7 +225,7 @@
                          <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Facebook marketing services in Dubai - BrandStory" />
                      </div>
                      <div class="dm-content">
-                         <a href="/" clas₹s="heding">Facebook Marketing</a>
+                         <a href="/" class="heding">Facebook Marketing</a>
 
                          <p>
                              Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer. And we provide the right Facebook marketing services that will help you connect with your specific audience.
@@ -463,81 +463,218 @@
  </section>
 
 
- <section class="sp-80 bg-black">
-     <div class="container">
-         <!-- <h2 class="fs-65 text-start"><span class="outlined-text">Our Social Media</span><span class="db"><span class="gradient-text">Marketing Services</span></span></h2> -->
-         <h2 class="text-white text-md-start text-center mb-4">
+<section class="sp-80 bg-black">
+    <div class="container social-media-services">
+        <h2 class="text-white text-md-center text-center mb-4">
             Our Social Media<br>
             Marketing Services
          </h2>
-         <div class="row gy-3 pt-lg-5 pt-3">
-             <div class="col-lg-9 col-12">
-                 <div class="row gy-3">
-                     <div class="col-lg-6 col-12">
-                         <div class="each-smms-container sms">
-                             <div class="smms-title">
-                                 <h3>Comprehensive Social Media Management</h3>
-                             </div>
-                             <div class="smms-cta"><a href="#" class="arrow-up-cta"
-                                     data-title="Comprehensive Social Media Management"
-                                     data-color="#855BFF">Learn more</a></div>
-                         </div>
-                     </div>
-                     <div class="col-lg-6 col-12">
-                         <div class="each-smms-container smm">
-                             <div class="smms-title">
-                                 <h3 class="text-white">Custom Campaigns & Social Projects</h3>
-                             </div>
-                             <div class="smms-cta"><a href="#" class="arrow-up-cta text-white"
-                                     data-title="Custom Campaigns & Social Projects"
-                                     data-color="#007BFF">Learn more</a></div>
-                         </div>
-                     </div>
-                     <div class="col-12">
-                         <div class="each-smms-container sma">
-                             <div class="smms-title">
-                                 <h3 class="text-white">Targeted Social Media Advertising</h3>
-                             </div>
-                             <div class="smms-cta"><a href="#" class="arrow-up-cta text-white"
-                                     data-title="Targeted Social Media Advertising"
-                                     data-color="#FD7E14">Learn more</a></div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-3 col-12">
-                 <div class="each-smms-container cc">
-                     <div class="smms-title">
-                         <h3>Strategic Social Media Content Creation</h3>
-                     </div>
-                     <div class="smms-cta"><a href="#" class="arrow-up-cta"
-                             data-title="Strategic Social Media Content Creation"
-                             data-color="#E83E8C">Learn more</a></div>
-                 </div>
-             </div>
-             <div class="col-lg-7 col-12">
-                 <div class="each-smms-container im">
-                     <div class="smms-title">
-                         <h3>Influencer Collaboration & Partnerships</h3>
-                     </div>
-                     <div class="smms-cta"><a href="#" class="arrow-up-cta"
-                             data-title="Influencer Collaboration & Partnerships"
-                             data-color="#1BC6AF">Learn more</a></div>
-                 </div>
-             </div>
-             <div class="col-lg-5 col-12">
-                 <div class="each-smms-container bcb">
-                     <div class="smms-title">
-                         <h3 class="text-white">Event-Focused Social Media Marketing</h3>
-                     </div>
-                     <div class="smms-cta"><a href="#" class="arrow-up-cta text-white"
-                             data-title="Event-Focused Social Media Marketing"
-                             data-color="#DC3545">Learn more</a></div>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
+         <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">1</span>Comprehensive Social Media Management</h3>
+                <p>
+                    We take full responsibility for managing your brand's social media presence. From brand-aligned content strategy to creative design and publishing high-performing posts, our expert team ensures that your brand is active and visible on social platforms, driving consistent audience engagement. We create a lead-generating pipeline that transforms your social visibility into conversions.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-1"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">2</span>Custom Campaigns & Social Projects</h3>
+                <p>
+                    Launching a brand-new initiative or looking for a limited-time campaign? Our social media team builds a custom strategy, manages the execution, and drives desired results across all social media channels. Our strategic masterminds make sure your campaigns can create the maximum impact, whether it is a seasonal promotion or a one-time activation.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-2"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">3</span>Strategic Social Media Content Creation</h3>
+                <p>
+                    Your social channels serve as the voice of your brand, and we create that impact. As the name suggests, BrandStory crafts your brand’s unique story aligned with your tone, goals, and audience interests. Whether a trend-driven post, interactive media, or thought leadership, we aim to create each piece of content to drive engagement and brand loyalty.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-3"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">4</span>Targeted Social Media Advertising</h3>
+                <p>
+                    Launching a new product, having big announcements, or wanting to promote your existing services? We design and manage paid social media and high-end programmatic ad campaigns that drive targeted visibility and real results. Starting from the ad setup to real-time monitoring and optimization, our expert team delivers maximum ROI across platforms.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-4"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">5   </span>Influencer Collaboration & Partnerships</h3>
+                <p>
+                    We know the value proposition of influencer marketing in social media, and we master that too. We connect you with the niche influencers, manage the strategy, content, outreach, and overall execution from start to finish. With a strong connection with micro and macro influencers in Dubai and the UAE, we build your credibility, drive organic engagement, and increase reach.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-5"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">6</span>Event-Focused Social Media Marketing</h3>
+                <p>
+                    Want to make your event unforgettable? We are here to make it happen online. Whether it's a product launch, trade show, or conference, we manage every aspect with high-end content and marketing. We create pre-event hype, live event updates, and maintain post-event engagement, ensuring it reaches the targeted audience and creates a buzz around social media.
+                </p>
+                <br>
+                <div class="stats">
+                    <div class="stat-box stat-1">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>+100%</h5>
+                            <p>Reach</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-2">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>2-4x</h5>
+                            <p>Engagement</p>
+                        </div>
+                    </div>
+                    <div class="stat-box stat-3">
+                        <img src="assets/images/social-media/info.png" alt="info" class="info-img">
+                        <div class="info-text">
+                            <h5>3-5%</h5>
+                            <p>CTR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box-right service-box-image-6"></div>
+        </div>
+    </div>
+</section>
+
 
 
 
@@ -684,7 +821,7 @@
          </div>
 
          <!-- Row 2 (right to left) -->
-         <div class="scroll-wrapper">
+         <!-- <div class="scroll-wrapper">
              <div class="scroll-row right-to-left">
                  <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-7.webp" alt="Social Media Creative Design for Our Client"></div>
                  <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-8.webp" alt="Social Media Creative Design for Our Client"></div>
@@ -696,7 +833,6 @@
 
 
 
-                 <!-- duplicate for infinite loop -->
                  <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-7.webp" alt="Social Media Creative Design for Our Client"></div>
                  <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-8.webp" alt="Social Media Creative Design for Our Client"></div>
                  <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-9.webp" alt="Social Media Creative Design for Our Client"></div>
@@ -707,7 +843,7 @@
 
 
              </div>
-         </div>
+         </div> -->
          <div class="text-center">
              <a href="/case-study/" class="smm-uae-btn">
                  Browse Our Case Studies

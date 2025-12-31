@@ -562,8 +562,7 @@
 
                             </div>
                         </div> -->
-                        <img src="<?= base_url('assets/images/seo-dubai-agency-banner.webp') ?>" alt="" class="img-fluid">
-
+                        <img src="<?= base_url('assets/images/seo-dubai-agency-banner.webp') ?>" alt="" class="img-fluid " style="border-radius:20px;">
                     </div>
                 </div>
 
