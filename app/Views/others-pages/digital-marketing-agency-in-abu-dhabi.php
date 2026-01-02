@@ -5,18 +5,12 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="seo-banner-txt">
                     <h1>Digital Marketing <span class="db"> Agency in Abu Dhabi</span></h1>
-                    <p>Looking for a digital marketing agency in Abu Dhabi? You need a digital marketing agency that understands the region beyond surface-level
-                        promotion. Because local market awareness, cultural relevance, language sensitivity, and an in-depth understanding of how audiences engage
-                        across the UAE play a crucial role in campaign success. As the leading digital marketing agency in Abu Dhabi, we make intelligent use
-                        of data and emerging technologies to move beyond generic strategies and connect with high-intent local audiences.
+                    <p class="text-white mb-3 fs-20">Looking for a digital marketing agency in Abu Dhabi? Choose one that truly understands the region far beyond 
+                        surface-level promotion. With 12+ years of proven expertise, BrandStory leads as the top full-service digital marketing company
+                         in Abu Dhabi, blending deep local market awareness, cultural relevance, language sensitivity, and precise insight into UAE audience
+                          behavior. We intelligently leverage data and emerging technologies to move past generic strategies, connecting your brand 
+                          with high-intent local audiences through a powerful, unified growth ecosystem.
                     </p>
-                    <p>As a full-service digital marketing company in Abu Dhabi, we combine SEO, PPC advertising, social media marketing, content strategy, and conversion
-                        optimization to create a unified growth ecosystem for your brand. While channels like email marketing and social media help nurture existing customers,
-                        performance-focused digital strategies allow you to reach new, high-intent audiences actively searching for your products or services.
-                    </p>
-                    <div class="sb-btn">
-                        <a href="/contact/" class="kmbtn btn btn-blue">Connect With Us</a>
-                    </div>
                 </div>
             </div><!--col end-->
 
@@ -72,16 +66,14 @@
     <div class="container"><!--Container Start-->
         <div class="row col-reverse gx-lg-5 align-items-center"><!--Row Start-->
             <div class="col-md-6"> <!--col start-->
-                <h2 class="mb-4">Marketing Company in Abu Dhabi with Proven Expertise</h2>
+                <h2 class="mb-4">We are Digital Marketing Experts in Abu Dhabi</h2>
                 <ul class="mb-0">
-                    <li class="text-black mb-3 fs-16">Elevate the digital presence of your brand with BrandStory, a trusted digital marketing agency in Abu Dhabi focused on driving measurable growth
+                    <li class="text-black mb-3 fs-20">Elevate the digital presence of your brand with BrandStory, a trusted digital marketing agency in Abu Dhabi focused on driving measurable growth
                         for businesses across the capital and the wider UAE. We partner with ambitious brands to build digital strategies that combine market insight,
                         performance marketing, and technology-led execution.</li>
-                    <li class="text-black mb-3 fs-16">Our expertise spans SEO, performance advertising, social media marketing, online reputation management, content strategy, email marketing, branding,
-                        and website development. Every solution is designed with a clear objective: improving visibility, increasing qualified traffic, and converting
-                        engagement into real business value.</li>
-                    <li class="text-black mb-3 fs-16">At BrandStory, success is driven by strategy, not shortcuts. We study your industry landscape, audience behavior, and competitive environment in Abu Dhabi
-                        to craft digital campaigns that resonate locally while scaling effectively. </li>
+                    <li class="text-black mb-3 fs-20">Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding,
+                        and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li>
+                </ul>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <img src="/assets/images/seo/dm/agency-abudhabi.png" class="img-fluid mb-3" alt="Best Digital Marketing Company in Abu Dhabi">
@@ -90,12 +82,12 @@
 
         <div class="row  spt-50 gx-lg-5 align-items-center"><!--Row Start-->
             <div class="col-md-6"> <!--col start-->
-                <h2 class="mb-4">Results That Scale</h2>
+                <h2 class="mb-4">Our Unique Appraoch</h2>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
-                <p>In a highly competitive digital environment, success is no longer about simply reaching the first page, it’s about sustaining visibility, credibility, and conversions over time. At BrandStory,
-                    we work as a strategic growth partner, combining data-driven insights, market intelligence, and proven digital expertise to help businesses strengthen their online presence and achieve measurable
-                    growth. Our focus is on long-term performance, ensuring every strategy contributes to brand authority, qualified traffic, and real business outcomes.</p>
+                <p class="mb-3 fs-20">At BrandStory, we deliver a unique digital marketing methodology in Abu Dhabi that fuses data intelligence, creative storytelling, and cultural precision to drive exceptional results. As a 
+                    truly client-centric agency in Abu Dhabi, we prioritize your vision, goals, and audience above all. Our innovative marketing strategies across the UAE combine human insight with AI-powered 
+                    execution, creating tailored, future-proof campaigns that deliver sustainable growth, stronger engagement, and measurable ROI for ambitious brands in a competitive market.</p>
             </div><!--col end-->
         </div><!--Row End-->
     </div><!--Container End-->
@@ -377,49 +369,205 @@
     </div>
 </section>
 
+<section class="sp-50 dm-blog-section">
+    <div class="container">
+        <h2 class="mb-md-4 text-md-start text-center">What Sets Us Apart as a Leading <br>Digital Marketing Agency in Abu Dhabi</h2>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmblog-sld">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service1.png">
+                            <h3>Human-Driven & AI-Enabled Strategy</h3>
+                            <p class="fs-20">We blend cutting-edge AI for data analysis, trend prediction, and optimization with human creativity, storytelling, 
+                                and Abu Dhabi cultural insight. This ethical, balanced approach delivers innovative, emotionally resonant campaigns that ensure 
+                                lasting engagement and strong ROI. </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service2.png">
+                            <h3>Transparency & Collaboration</h3>
+                            <p class="fs-20">We treat every client as a true partner, built on trust, open communication, and shared success. Full transparency 
+                                via regular reports, clear KPIs, and no hidden fees, plus deep collaboration on your vision, drives exceptional results for 350+ 
+                                UAE brands. </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service3.png">
+                            <h3>Tailored, Results-Driven Innovation</h3>
+                            <p class="fs-20">Our methodology is fully customized to the UAE's dynamic market from Abu Dhabi's affluent audience to Dubai's fast pace. 
+                                We engineer complete digital marketing growth funnels blending SEO, PPC, social, branding, and digital transformation for sustainable 
+                                visibility, conversions, and lasting brand preference. </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service4.png">
+                            <h3>Growth Engineering Expertise</h3>
+                            <p class="fs-20">With 12+ years of experience and a team of top growth engineers, we deliver future-proof, full-funnel solutions that exceed 
+                                expectations. From startups to enterprises in Abu Dhabi, our strategies across SEO, branding, and performance marketing consistently turn 
+                                vision into measurable, long-term growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next dmblog-next"></div>
+            <div class="swiper-button-prev dmblog-prev"></div>
+        </div>
+    </div>
+</section>
+
 <section class="create-positive sp-50">
     <div class="container">
         <div class="row gy-4 gy-md-5 gx-md-5">
             <div class="col-md-6 text-md-start text-center">
-                <h2>We Are a Top Marketing<span class="db"> Company in Abu Dhabi</h2>
-                <p>Choosing the right digital marketing company in Abu Dhabi is essential for building a strong online presence and reaching the right audience at the right time.
-                    A well-strategized digital approach helps drive meaningful engagement, improve visibility across channels, and deliver measurable business results that
-                    support long-term growth.</p>
+                <h2>Your Trusted <span class="db"> Digital Marketing</span> Partner in Abu Dhabi</h2>
+                <p>Selecting the right digital marketing partner in Abu Dhabi is essential to ensure your brand connects with the right audience, maximizes ROI, and achieves sustainable growth in a competitive market.</p>
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="12+ Years of Experience in Digital Marketing in Abu Dhabi">
-                    <h4 class="mt-3">Experience</h4>
-                    <p>Our digital marketing agency in Abu Dhabi brings years of expertise in creating strategies that deliver measurable growth. We have successfully
-                        helped businesses across Abu Dhabi and the UAE increase visibility, drive leads, and boost conversions through integrated digital marketing campaigns.</p>
+                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="google adwords marketing dubai">
+                    <h4 class="mt-3">We Understand The Landscape</h4>
+                    <p>With deep local digital marketing expertise in Abu Dhabi, we provide sharp Abu Dhabi market insights into cultural nuances, affluent consumer behaviors, multilingual demands, and regulatory challenges.
+                         This insider knowledge helps us navigate the emirate’s dynamic ecosystem from Hub71 startups to ADGM enterprises for authentic, impactful brand connections. </p>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="We follow an integrated approach to digital marketing in Abu Dhabi">
-                    <h4 class="mt-3">Integrated Approach</h4>
-                    <p>We take a holistic view of your business. Our digital marketing experts in Abu Dhabi design strategies that combine SEO, PPC, social media, content, and
-                        email marketing to deliver cohesive campaigns that engage your target audience and maximize ROI.</p>
+                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="google adwords marketing company in dubai">
+                    <h4 class="mt-3">Tailored Strategies for Success</h4>
+                    <p>We craft fully customized digital strategies that address Abu Dhabi’s unique digital marketing challenges, including intense competition, cultural diversity, and evolving trends. Blending global best
+                         practices with hyper-local insights, our approach delivers sustainable visibility, higher engagement, and measurable growth turning your brand into a preferred choice across the UAE. </p>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="Robust and Adaptable Digital Marketing Solutions in Abu Dhabi">
-                    <h4 class="mt-3">Robust and Adaptable</h4>
-                    <p>In a rapidly changing digital landscape, our digital marketing solutions in Abu Dhabi are built to adapt to evolving customer behaviors and market trends.
-                        We continuously monitor, analyze, and optimize campaigns to ensure sustained results and long-term growth for your brand.</p>
+                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="google adwords marketing agency dubai">
+                    <h4 class="mt-3">Overcoming Market Challenges</h4>
+                    <p>Our team excels in tackling Abu Dhabi’s specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven,
+                         culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="tools-section">
+    <div class="sction-header">
+        <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
+        <p class="section-description text-md-start m-0 mb-5">
+            We are a leading digital marketing agency, crafting tailored strategies powered by the latest tools and cutting-edge technologies. We translate your business goals into measurable growth.
+        </p>
+    </div>
+    <div class="tools-container">
+        <div class="tools-list-wrapper">
+            <div class="tools-list">
+                <div class="tool-card" data-tool="gds">
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                    <span>Google Data Studio</span>
+                </div>
+                <div class="tool-card" data-tool="ga">
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                    <span>Google Analytics</span>
+                </div>
+                <div class="tool-card" data-tool="hubspot">
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                    <span>HubSpot</span>
+                </div>
+                <div class="tool-card" data-tool="semrush">
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                    <span>SemRush</span>
+                </div>
+                <div class="tool-card" data-tool="surfer">
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                    <span>Surfer SEO</span>
+                </div>
+                <div class="tool-card" data-tool="mailchimp">
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                    <span>Mailchimp</span>
+                </div>
+                <div class="tool-card" data-tool="adroll">
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                    <span>AdRoll</span>
+                </div>
+                <div class="tool-card" data-tool="google-ads">
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                    <span>Google Ads</span>
+                </div>
+
+                <div class="tool-card" data-tool="meta-ads-manager">
+                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
+                    <span>Meta Ads Manager</span>
+                </div>
+                <div class="tool-card" data-tool="google-tag-manager">
+                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
+                    <span>Google Tag Manager</span>
+                </div>
+                <div class="tool-card" data-tool="hootsuite">
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                    <span>Hootsuite</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tool-description" id="tool-description">
+            <h3>Google Search Console</h3>
+            <p>
+                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+<section class="dm-counter-sec sp-50 dm-bg">
+    <div class="container">
+        <div class="row gx-md-0">
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center">
+                    <span class="dm-count-num">1000+</span>
+                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">900+</span>
+                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
+                    <span class="dm-count-num">12+</span>
+                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">100+</span>
+                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+
+    </div>
+</section>
+
 <section class="sp-50 dm-blog-section">
     <div class="container">
         <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-black mb-4 text-md-start text-center ">Case Studies That Showcase <br>Digital Marketing Success
+            <h2 class="text-black mb-4 text-md-start text-center ">Proven Digital Marketing Success <br>Our Abu Dhabi Case Studies
             </h2>
-            <a href="/case-study/" class="Performance-Driven-btn text-black">➤All Case Studies</a>
         </div>
 
         <div class="position-relative delivertechmain">
@@ -430,7 +578,7 @@
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
                             <strong>Digital Marketing</strong>
                             <h3 class="text-black">Sand Dollar - Ecommerce</h3>
-                            <p class="fs-20 text-black">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
+                            <p class="fs-20 text-black">A leading E-commerce business in UAE aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
@@ -452,7 +600,7 @@
                             <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
                             <strong>Digital Marketing</strong>
                             <h3 class="text-black">Crystal Plaza</h3>
-                            <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
+                            <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai, Dubai Marina, and Abu Dhabi approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>

@@ -1,48 +1,186 @@
-<section class="scroll-banner-section">
-    <div class="sticky-wrapper">
-        <!-- Slide 1 -->
-        <div class="scroll-slide slide-1 active" id="banner-slide-1">
-            <div class="slide-1-content">
-                <div class="slide-1-text">
-                    <h1>Dubai's Top<br>SEO Agency for</h1>
-                </div>
-                <div class="slide-1-list">
-                    <ul>
-                        <li>1st Page Ranking</li>
-                        <li>Qualified Traffic</li>
-                        <li>Brand Authority</li>
-                        <li>Conversion Impact</li>
-                        <li>Competitive Edge</li>
-                        <li>Long-Term Growth</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<section class="hero-banner-section">
+    <div class="banner-overlay">
+        <div class="hero-content">
 
-        <!-- Slide 2 -->
-        <div class="scroll-slide slide-2 next-slide" id="banner-slide-2">
-            <div class="slide-2-content">
-                <span class="small-caps-header">We Are The</span>
-                <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="SEO Services Company in Dubai">
-                <p class="my-4 small-caps-header">أفضل شركة سيو في دبي</p>
-                <div class="d-flex gap-5">
-                    <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"> <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="google certified Agency" style="width: 130px;"></a>
+            <h1 class="mb-3 text-white">BEST SEO AGENCY IN DUBAI</h1>
 
-                    <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="semrush certified" style="width: 120px;">
-                </div>
-            </div>
-        </div>
+            <p class="hero-desc">
+                Reach Google’s top spot in Dubai with our SEO services and stay there long-term, dominating your competition.
+            </p>
 
-        <!-- Slide 3 -->
-        <div class="scroll-slide slide-3 next-slide" id="banner-slide-3">
-            <div class="slide-3-content">
-                <p class="slide-3-desc">With BrandStory’s SEO services in Dubai, your business doesn’t just reach the top of Google, it stays there, powering growth for
-                    local companies, e-commerce brands, and enterprise-level organizations.</p>
-                <a href="javascript:void(0);" class="gradient-cta-btn uniq-contact-lead-btn">Book Your Demo Call</a>
+            <div class="quote-dropdown-wrapper">
+                <select id="service-dropdown" class="service-dropdown">
+                    <option value="" disabled selected>Select Service</option>
+                    <option>SEO Audit</option>
+                    <option>On-Page SEO</option>
+                    <option>Off-Page SEO</option>
+                    <option>Keyword Research</option>
+                    <option>Full-scale SEO</option>
+                </select>
+                <a href="/contact" class="gradient-btn">Free Quote</a>
             </div>
+
+            <div class="certifications">
+                <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank" rel="noopener noreferrer">
+                    <img src="<?= base_url('assets/images/work-icon-1.svg') ?>" alt="Google Certified Agency">
+                </a>
+                <img src="<?= base_url('assets/images/work-icon-4.svg') ?>" alt="SEMrush Certified">
+            </div>
+
+            <p class="hero-sub-desc">
+                BrandStory delivers specialized <strong>SEO services in Dubai since 2012</strong>, driving sustainable top rankings, 
+                consistent organic growth, and measurable business impact for brands across <strong>Dubai and the UAE</strong>.
+            </p>
+
         </div>
     </div>
 </section>
+
+<style>
+/* ===== HERO SECTION ===== */
+.hero-banner-section {
+    min-height: 100vh;
+    background: url('<?= base_url("assets/images/seo-dubai-banner.webp") ?>') center / cover no-repeat;
+    position: relative;
+}
+
+.banner-overlay {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+/* ===== CONTENT WRAPPER ===== */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 920px;
+}
+
+/* ===== H1 FIX ===== */
+
+/* ===== PARAGRAPHS ===== */
+.hero-desc,
+.hero-sub-desc {
+    max-width: 760px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+.hero-sub-desc {
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+/* ===== CTA DROPDOWN WRAPPER ===== */
+.quote-dropdown-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+/* ===== DROPDOWN ===== */
+.service-dropdown {
+    flex: 3;
+    padding: 14px 18px;
+    font-size: 16px;
+    border: none;
+    border-right: 1px solid #e5e7eb;
+    background: #ffffff;
+    color: #111827;
+    outline: none;
+    appearance: none;
+
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M3 5L7 9L11 5' stroke='%236366f1' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+    background-size: 14px;
+}
+
+.service-dropdown option {
+    background: #ffffff;
+    color: #111827;
+}
+
+/* ===== CTA BUTTON ===== */
+.gradient-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #c084fc, #6366f1);
+    border-radius: 0;
+    transition: background 0.3s ease;
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(90deg, #6366f1, #c084fc);
+    color: #ffffff;
+}
+
+/* ===== CERTIFICATIONS ===== */
+.certifications {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.certifications img {
+    width: 120px;
+    height: auto;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+
+    .hero-desc,
+    .hero-sub-desc {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        gap: 22px;
+        padding: 0 15px;
+    }
+
+    .quote-dropdown-wrapper {
+        flex-direction: column;
+    }
+
+    .service-dropdown,
+    .gradient-btn {
+        width: 100%;
+        border: none;
+    }
+
+    .service-dropdown {
+        border-bottom: 1px solid #e5e7eb;
+    }
+}
+
+</style>
+
 
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">

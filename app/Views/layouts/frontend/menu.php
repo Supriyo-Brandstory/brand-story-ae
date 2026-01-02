@@ -91,6 +91,21 @@
 
             <li class="parent-link">
                 <div class="d-flex align-itmes-center">
+                    <a href="javascript:;" class="mlink only-dropdown">Locations</a>
+                    <span class="d-block d-md-none drop-iconss">+</span>
+                </div>
+                <ul class="register-submenu">
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Dubai" width="30" height="30"> <a href="/">Dubai</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Abu Dhabi" width="30" height="30"> <a href="/digital-marketing-agency-in-abu-dhabi/">Abu Dhabi</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Sharjah" width="30" height="30"> <a href="/digital-marketing-agency-in-sharjah/">Sharjah</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Ajman" width="30" height="30"> <a href="/digital-marketing-agency-in-ajman/">Ajman</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Fujairah" width="30" height="30"> <a href="/digital-marketing-agency-in-fujairah/">Fujairah</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s1.svg" alt="Ras Al Khaimah" width="30" height="30"> <a href="/digital-marketing-agency-in-ras-al-khaimah/">Ras Al Khaimah</a></li>
+                </ul>
+            </li>
+
+            <li class="parent-link">
+                <div class="d-flex align-itmes-center">
                     <a href="/case-study/" class="mlink">Case Studies</a>
                 </div>
             </li>
@@ -99,11 +114,6 @@
                     <a href="/blog/" class="mlink">Blogs </a>
                 </div>
             </li>
-            <li class="parent-link">
-                <div class="d-flex align-itmes-center">
-                    <a href="/careers/" class="mlink">Careers </a>
-                </div>
-
         </ul>
 
     </div>
