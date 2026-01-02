@@ -41,14 +41,14 @@
              <div class="item right-item d-none d-md-flex text-left">
                  <h1 class="title">RESULTS</h1>
                  <div class="desktop-only">
-                     <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Dubai.</p>
+                     <p class="description">Scroll-stopping, conversion-driven content, powered by Dubai’s leading Social Media Marketing agency.</p>
                  </div>
-                 <a href="#" class="cta cta-desktop">➤ &nbsp;Know About Us</a>
+                 <a href="/contact" class="cta cta-desktop">➤ &nbsp;Start Your Project</a>
              </div>
              <!-- Mobile only content below image -->
              <div class="mobile-only-content">
-                 <p class="description">Scroll-stopping, conversion-ready content, crafted by a top Social Media Marketing Company in Dubai.</p>
-                 <a href="#" class="cta">➤ &nbsp;Know About Us</a>
+                 <p class="description">Scroll-stopping, conversion-driven content, powered by Dubai’s leading Social Media Marketing agency.</p>
+                 <a href="/contact" class="cta">➤ &nbsp;Start Your Project</a>
              </div>
          </div>
      </div>
@@ -66,19 +66,19 @@
              </div>
 
              <div class="social-media-boxes-card" id="box-1">
-                 <div class="social-media-boxes-card-title">More qualified opportunities</div>
+                 <div class="social-media-boxes-card-title">More Qualified Business Prospects</div>
              </div>
              <div class="social-media-boxes-card" id="box-2">
-                 <div class="social-media-boxes-card-stats"><span>61%</span><br>BOOST REVENUE</div>
-                 <div class="social-media-boxes-card-title">From active social selling</div>
+                 <div class="social-media-boxes-card-stats"><span>61%</span><br>REVENUE BOOST</div>
+                 <div class="social-media-boxes-card-title">From Focused Social Selling</div>
              </div>
              <div class="social-media-boxes-card" id="box-3">
-                 <div class="social-media-boxes-card-stats"><span>4X</span><br>SHARPEN INSIGHTS</div>
-                 <div class="social-media-boxes-card-title">Faster content learnings</div>
+                 <div class="social-media-boxes-card-stats"><span>4X</span><br>SHARP INSIGHTS</div>
+                 <div class="social-media-boxes-card-title">Faster Content Qulity Insights</div>
              </div>
              <div class="social-media-boxes-card" id="box-4">
-                 <div class="social-media-boxes-card-stats"><span>5.2X</span><br>MAXIMISE AD IMPACT</div>
-                 <div class="social-media-boxes-card-title">Return on ad spend</div>
+                 <div class="social-media-boxes-card-stats"><span>5.2X</span><br>MORE AD IMPACT</div>
+                 <div class="social-media-boxes-card-title">Maximum Return On Ads Spending</div>
              </div>
 
          </div>
@@ -147,10 +147,10 @@
                      <p class="ps-3">Branding</p>
                  </div>
              </a>
-             <a href="/performance-marketing/">
+             <a href="/">
                  <div class="each_brands perf_mktng">
                      <img src="/assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon">
-                     <p class="ps-3">Performance Marketing</p>
+                     <p class="ps-3">Digital Marketing</p>
                  </div>
              </a>
              <a href="/content-marketing-agency-dubai/">
@@ -168,26 +168,21 @@
                  <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                      <img class="w-100 radius-20" src="<?= base_url('assets/images/social-media/unleashed_sec_img.png') ?>" alt="Soial media marketing services Dubai">
 
-                     <!-- Play button -->
-                     <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal">
-                         ▶
-                     </div>
+                    
                  </div>
 
                  <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                      <img class="img-fluid radius-20" src="/assets/images/social-media-marketing-uae/unleashed_sec_img.png" alt="Soial media marketing services Dubai">
 
-                     <!-- Play button -->
-                     <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal">
-                         ▶
-                     </div>
+                     
                  </div>
 
 
              </div>
              <div class="col-lg-6 col-12 text-white">
                  <p class="mb-3 fs-18">
-                     BrandStory is a social media marketing powerhouse company in Dubai, we combine bold ideas with smart strategy to help brands stand out and stay unforgettable. We help businesses of all sizes leverage social media to increase engagement, grow their audience, and achieve measurable marketing results. We turn social media into a growth engine for your business, delivering measurable results that expand your audience across platforms and spark meaningful interactions.</p>
+                     BrandStory is a social media marketing powerhouse company in Dubai, we combine bold ideas with smart strategy to help brands stand out and stay unforgettable. We help businesses of all sizes leverage social media to increase engagement, grow their audience, and achieve measurable marketing results.</p> 
+                  <p class="mb-3 fs-18">We turn social media into a growth engine for your business, delivering measurable results that expand your audience across platforms and spark meaningful interactions.</p>
                  <p class="mb-3 fs-18">We are a skilled team of social media specialists, storytellers, and strategists under one roof. From creating content to executing campaigns, we are a full-package social media marketing agency in Dubai to elevate your social media presence. We craft campaigns that spark conversations, build loyalty, and amplify your brand presence across social media platforms. At BrandStory, <a href="/" style="text-decoration:underline; color:#fff">digital marketing</a> is not just a skill, it's a signature.</p>
                  <a href="/contact/" class="smm-uae-btn pt-3">
                      Let's Get Started
@@ -466,12 +461,12 @@
  <section class="sp-80 bg-black pb-2">
      <div class="container social-media-services">
          <h2 class="text-white text-md-center text-center mb-4">
-             Our Social Media<br>
+             Our Comprehensive Social Media<br>
              Marketing Services
          </h2>
          <div class="social-media-services-box">
              <div class="service-box-left">
-                 <h3><span class="service-box-index">1</span>Comprehensive Social Media Management</h3>
+                 <h3><span class="service-box-index">1</span>Social Media Management</h3>
                  <p>
                      We take full responsibility for managing your brand's social media presence. From brand-aligned content strategy to creative design and publishing high-performing posts, our expert team ensures that your brand is active and visible on social platforms, driving consistent audience engagement. We create a lead-generating pipeline that transforms your social visibility into conversions.
                  </p>
@@ -539,7 +534,7 @@
 
          <div class="social-media-services-box">
              <div class="service-box-left">
-                 <h3><span class="service-box-index">3</span>Strategic Social Media Content Creation</h3>
+                 <h3><span class="service-box-index">3</span>Social Media Content Creation</h3>
                  <p>
                      Your social channels serve as the voice of your brand, and we create that impact. As the name suggests, BrandStory crafts your brand’s unique story aligned with your tone, goals, and audience interests. Whether a trend-driven post, interactive media, or thought leadership, we aim to create each piece of content to drive engagement and brand loyalty.
                  </p>
@@ -698,20 +693,21 @@
          </h2>
          <div class="row gy-3 pt-lg-5 pt-3">
              <div class="col-lg-7 col-12 text-white order-md-1 order-2">
-                 <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
-                     We create your brand’s story that sparks connections and drives real engagement and ROI. </p>
-                 <p class="mb-3 fs-20">By working with a professional social media agency, you gain access to:</p>
+                 <p class="mb-3 fs-18">Social media is not just about posting content- it’s about purpose, timing, relevance, and strategy. A compelling brand 
+                    story helps spark meaningful connections, drive authentic engagement, and deliver measurable ROI. By partnering with a professional social 
+                    media agency, you gain access to:</p>
                  <ul style="list-style: none;" class="fs-18">
-                     <li class="mb-3"><span style="color: #855BFF; font-size:25px">•</span> A deep industry expertise rooted in trends and real data.</li>
-                     <li class="mb-3"><span style="color: #E83E8C; font-size:25px">•</span> High-tech strategy aligned to audience behavior and media platform.</li>
-                     <li class="mb-3"><span style="color: #007BFF; font-size:25px">•</span> A cross-functional team with creative writers, designers, and content creators.</li>
-                     <li class="mb-3"><span style="color: #1BC6AF; font-size:25px">•</span> Content that connects with your audience, not just likes and shares.</li>
-                     <li class="mb-3"><span style="color: #DC3545; font-size:25px">•</span> Better performance insights and analytics beyond vanity metrics.</li>
+                     <li class="mb-3"><span style="color: #855BFF; font-size:25px">•</span> Industry expertise backed by trends and real performance data.</li>
+                     <li class="mb-3"><span style="color: #E83E8C; font-size:25px">•</span> Platform-specific promotion strategies aligned with audience behaviour.</li>
+                     <li class="mb-3"><span style="color: #007BFF; font-size:25px">•</span> A skilled creative team handling content creation and distribution.</li>
+                     <li class="mb-3"><span style="color: #1BC6AF; font-size:25px">•</span> Content that connects and drives real engagement, not just likes.</li>
+                     <li class="mb-3"><span style="color: #DC3545; font-size:25px">•</span> Clear insights and ROI-focused analytics beyond vanity metrics.</li>
                  </ul>
 
-                 <p class="fs-18">Whether you're looking to grow followers, launching a new campaign, or building awareness, BrandStory is capable of turning your social media into a business asset with the right strategy.</p>
+                 <p class="fs-18">Whether your goal is rapid follower growth, launching standout campaigns, or creating widespread brand awareness, BrandStory excels at turning everyday
+                     social media into a strategic business powerhouse, delivering engagement, connections, and measurable growth every step of the way.</p>
                  <a href="/contact/" class="smm-uae-btn pt-3 mt-5">
-                     Contact Us Now
+                     Connect With Experts
                  </a>
 
              </div>
