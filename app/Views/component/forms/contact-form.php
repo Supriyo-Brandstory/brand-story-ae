@@ -33,16 +33,42 @@
 
             <div class="col-12 col-md-6">
                 <label>How can we help you? *</label>
+                <?php
+                $servicesdata = $servicesdata ?? '';
+                ?>
+
                 <select name="services[]" id="services" title="Select Service" class="form-select">
-                    <option selected="true" disabled="disabled">Select Service</option>
-                    <option value="Social Media">Social Media</option>
-                    <option value="Digital Marketing">Digital Marketing</option>
-                    <option value="Website Development">Websites Development</option>
-                    <option value="SEO">SEO</option>
-                    <option value="Content Marketing">Content Marketing</option>
-                    <option value="Performance Marketing">Performance Marketing</option>
-                    <option value="Others">Others</option>
+                    <option selected="true" disabled <?= empty($servicesdata) ? 'selected' : '' ?>>Select Service</option>
+
+                    <option value="Social Media" <?= ($servicesdata === 'Social Media') ? 'selected' : '' ?>>
+                        Social Media
+                    </option>
+
+                    <option value="Digital Marketing" <?= ($servicesdata === 'Digital Marketing') ? 'selected' : '' ?>>
+                        Digital Marketing
+                    </option>
+
+                    <option value="Website Development" <?= ($servicesdata === 'Website Development') ? 'selected' : '' ?>>
+                        Website Development
+                    </option>
+
+                    <option value="SEO" <?= ($servicesdata === 'SEO') ? 'selected' : '' ?>>
+                        SEO
+                    </option>
+
+                    <option value="Content Marketing" <?= ($servicesdata === 'Content Marketing') ? 'selected' : '' ?>>
+                        Content Marketing
+                    </option>
+
+                    <option value="Performance Marketing" <?= ($servicesdata === 'Performance Marketing') ? 'selected' : '' ?>>
+                        Performance Marketing
+                    </option>
+
+                    <option value="Others" <?= ($servicesdata === 'Others') ? 'selected' : '' ?>>
+                        Others
+                    </option>
                 </select>
+
             </div>
             <div class="col-12 col-md-6">
                 <label>Budget*</label>

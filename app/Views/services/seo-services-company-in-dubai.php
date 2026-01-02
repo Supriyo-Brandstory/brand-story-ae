@@ -17,7 +17,10 @@
                     <option>Keyword Research</option>
                     <option>Full-scale SEO</option>
                 </select>
-                <a href="/contact" class="gradient-btn">Free Quote</a>
+                <?php
+                $servicesdata = 'SEO';
+                ?>
+                <a href="javascript:void(0);" class="gradient-btn uniq-contact-lead-btn">Free Quote</a>
             </div>
 
             <div class="certifications">
@@ -28,7 +31,7 @@
             </div>
 
             <p class="hero-sub-desc">
-                BrandStory delivers specialized <strong>SEO services in Dubai since 2012</strong>, driving sustainable top rankings, 
+                BrandStory delivers specialized <strong>SEO services in Dubai since 2012</strong>, driving sustainable top rankings,
                 consistent organic growth, and measurable business impact for brands across <strong>Dubai and the UAE</strong>.
             </p>
 
@@ -564,7 +567,7 @@
             </div>
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">Take your business to the new heights with the BEST SEO Dubai agency,  turning Google’s first page ranking into your permanent address. We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
+                    <li class="text-white mb-3 fs-20">Take your business to the new heights with the BEST SEO Dubai agency, turning Google’s first page ranking into your permanent address. We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
                     <li class="text-white mb-3 fs-20">We are the most trusted Search Engine Optimization company in Dubai with <b>4.8/5 reviews on Google</b>. Since 2012, we have generated millions of revenue for our clients by ranking their website for the most competitive keywords on Google. </li>
 
                     <li class="text-white mb-3 fs-20">Do you need proof? Check the latest <a href="/case-study/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff"><b>client success stories</b></a>. Our SEO services are trusted and proudly recognized by top-tier businesses in Dubai. At BrandStory, we put your business first, creating data-driven SEO strategies that make your brand shine above the competition. We don’t simply optimize websites, we engineer high-visibility search experiences that attract, engage, and convert the right audience.</li>
