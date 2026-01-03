@@ -239,7 +239,7 @@
 <section class="sp-50 dm-blog-section dm-bg">
     <div class="container">
         <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-white mb-4 text-md-start text-center ">Where Strategy Meets Success <br>Unfolding Our Digital Wins
+            <h2 class="text-white mb-4 text-md-start text-center ">Our SEO Success Stories <br>Latest Case Studies
             </h2>
             <a href="/case-study/" class="Performance-Driven-btn">➤All Case Studies</a>
         </div>
@@ -249,78 +249,78 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
-                            <strong>Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
+                            <strong>Digital Marketing, SEO</strong>
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
-                            <strong>Branding & Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-2.webp">
+                            <strong>SEO & Digital Marketing</strong>
                             <h3>TravelX</h3>
                             <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
-                            <strong>Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
+                            <strong>SEO and Digital Marketing</strong>
                             <h3>Crystal Plaza</h3>
-                            <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
+                            <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai", “business stay Dubai".</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
-                            <strong>Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-4.webp">
+                            <strong>SEO and Digital Marketing</strong>
                             <h3>NIMS School</h3>
                             <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
-                            <strong>Website & Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-5.webp">
+                            <strong>Website & SEO</strong>
                             <h3>Wipro Infrastructure Engineering</h3>
                             <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
-                            <strong>Website & Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-6.webp">
+                            <strong>Website & SEO</strong>
                             <h3>NanoPrecise Sci Corp</h3>
                             <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
-                            <strong>Branding & Digital Marketing</strong>
+                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
+                            <strong>SEO & Digital Marketing</strong>
                             <h3>Sherpa Communications</h3>
                             <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

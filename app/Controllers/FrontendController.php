@@ -283,9 +283,7 @@ class FrontendController extends Controller
     }
     public function conversionRateOptimizationAgencyDubai()
     {
-        $meta = [
-            'classname' => 'dm-page service-page'
-        ];
+        $meta = [];
         return $this->view('services/conversion-rate-optimization-agency-dubai', ['meta' => $meta]);
     }
 
