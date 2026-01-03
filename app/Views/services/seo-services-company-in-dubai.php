@@ -431,7 +431,7 @@
                         </p>
                         <div class="detail-actions">
                             <a href="/keyword-research-dubai" class="btn-solution">Keyword Research</a>
-                            <a href="/seo-services-company-in-dubai" class="btn-solution">Conversion Optimization</a>
+                            <a href="/conversion-rate-optimization-agency-dubai" class="btn-solution">Conversion Optimization</a>
                             <a href="/content-marketing-agency-dubai" class="btn-solution">Content Strategy</a>
                             <a href="/seo-services-company-in-dubai" class="btn-solution">Local SEO</a>
                         </div>
@@ -560,16 +560,16 @@
 
                             </div>
                         </div> -->
-                     <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
+                <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                     <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth.webp') ?>" alt="Best SEO Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                     <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
                 </div>
-                </div>
+            </div>
 
-           
+
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
                     <li class="text-white mb-3 fs-20">Take your business to the new heights with the BEST SEO Dubai agency, turning Google’s first page ranking into your permanent address. We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
