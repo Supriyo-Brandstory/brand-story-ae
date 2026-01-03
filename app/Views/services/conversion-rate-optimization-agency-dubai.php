@@ -116,8 +116,8 @@
         <p class="text-white mb-5 fs-20">Our CRO framework is built on scientific optimization and continuous improvement. We follow a transparent, iterative process that ensures every decision is backed by data, not assumptions driving consistent performance gains and measurable business impact.</p>
         <div class="row">
             <div class="col-lg-5">
-                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/cro-3.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/cro-4.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/cro-3.webp') ?>" alt="Why Choose Brandstory As your CRO Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/cro-4.webp') ?>" alt="Why Choose Brandstory As your CRO Agency in Dubai">
             </div>
             <div class="col-lg-7">
                 <div class="whychoose-faq">
