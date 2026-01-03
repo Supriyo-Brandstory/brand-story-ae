@@ -26,11 +26,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth.webp') ?>" alt="Best SEO Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/cro-2.webp') ?>" alt="Conversion Rate Optimization Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/cro-2.webp') ?>" alt="Conversion Rate Optimization Agency in Dubai">
                 </div>
             </div>
 
@@ -116,8 +116,8 @@
         <p class="text-white mb-5 fs-20">Our CRO framework is built on scientific optimization and continuous improvement. We follow a transparent, iterative process that ensures every decision is backed by data, not assumptions driving consistent performance gains and measurable business impact.</p>
         <div class="row">
             <div class="col-lg-5">
-                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/whychoose-mbl.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/cro-3.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/cro-4.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
             </div>
             <div class="col-lg-7">
                 <div class="whychoose-faq">
