@@ -281,7 +281,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
     }
-
+    public function conversionRateOptimizationAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page'
+        ];
+        return $this->view('services/conversion-rate-optimization-agency-dubai', ['meta' => $meta]);
+    }
 
 
     //  industries

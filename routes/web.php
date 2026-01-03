@@ -41,6 +41,7 @@ Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpr
 Route::get('/magento-website-development-dubai', 'FrontendController@megentoWebsiteDevelopmentDubai', 'megentowebsitedevelopmentdubai');
 Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai', 'durpalwebsitedevelopmentcompanyindubai');
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
+Route::get('/conversion-rate-optimization-agency-dubai', 'FrontendController@conversionRateOptimizationAgencyDubai', 'conversionrateoptimizationagencydubai');
 Route::get('/clear-cache', 'FrontendController@clearCache', 'clear.cache');
 
 // industries

@@ -7957,6 +7957,13 @@ sup {
         display: none;
     }
 
+    #target-leads {
+        display: none !important;
+    }
+
+    #target-revamp {
+        display: none !important;
+    }
 
 
     .solution-icon img {
