@@ -2,7 +2,7 @@
     <div class="banner-overlay">
         <div class="hero-content">
 
-            <h1 class="mb-3 text-white">BEST SEO AGENCY IN DUBAI</h1>
+            <h1 class="mb-3 text-white">SEO DUBAI AGENCY WITH<br>LOCAL & GLOBAL SUCCESS SINCE 2012</h1>
 
             <p class="hero-desc">
                 Reach Google’s top spot in Dubai with our SEO services and stay there long-term, dominating your competition.
