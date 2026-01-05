@@ -560,12 +560,14 @@
 
                             </div>
                         </div> -->
+                
+                
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth.webp') ?>" alt="Best SEO Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-agency-dubai-growth-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
                 </div>
             </div>
 

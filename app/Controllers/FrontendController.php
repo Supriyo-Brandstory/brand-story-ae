@@ -645,7 +645,7 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinsharjah()
     {
         $meta = [
-            'classname' => 'industry-page'
+            'classname' => 'dm-page service-page ppc'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-sharjah', ['meta' => $meta]);
     }
