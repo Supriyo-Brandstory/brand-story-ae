@@ -40,48 +40,6 @@
 </section>
 
 
-
-
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
-
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <!-- same 6 items repeated for loop -->
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">Website SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO Service</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-        </div>
-    </div>
-</section>
-
-
 <div class="sp-50 container SEO-that-Ranks" id="SEO-campaign-highlights">
     <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Where Strategy Meets Success <br>Unfolding Our SEO Wins</h2>
 
@@ -594,7 +552,56 @@
     </div>
 </section>
 
+<div class="container sp-50">
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">SEO Services in Dubai <br>
+        Delivering Real Growth Results</h2>
+    <div class="seo-toprated-services">
+        <a href="/seo-audit-services-in-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Website-Audit.png" alt="Website Audit">
+            </div>
+            <h3>Website Audit</h3>
+            <p>We conduct thorough SEO audits to uncover technical issues impacting your site’s performance, from speed to mobile usability. Our Dubai SEO experts fix technical SEO problems to ensure your site is crawlable and optimized, enabling improved visibility potential.</p>
+        </a>
+        <a href="/keyword-research-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Keyword-Research.png" alt="Keyword Research">
+            </div>
+            <h3>Keyword Research & Strategy</h3>
+            <p>We identify high-value keywords that align with your target audience's search intent and search behavior, ensuring your business shows up in relevant searches. Using advanced tools, we identify high-potential keywords that your customers are actually searching for.</p>
+        </a>
+        <a href="/on-page-seo-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="On-Page Optimization">
+            </div>
+            <h3>On-Page Optimization</h3>
+            <p>We fine-tune every element of websites, from meta tags and internal links to images and videos, to strengthen on-page elements and maximize visibility. With a strategic SEO approach, we ensure faster indexing, higher search rankings, and a seamless user experience that keeps visitors engaged and coming back.</p>
+        </a>
 
+        <a href="/technical-seo-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Content-Optimization.png" alt="Content Optimization">
+            </div>
+            <h3>Technical Optimization</h3>
+            <p>We strengthen your website’s technical foundation to ensure fast loading, mobile responsiveness, and seamless search engine accessibility. By fixing crawl errors, indexing issues, Core Web Vitals, and site structure, our technical SEO experts in Dubai help improve rankings, visibility, and long-term organic performance.</p>
+        </a>
+        <a href="/off-page-seo-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Link-Building.png" alt="Link Building">
+            </div>
+            <h3>Link Building</h3>
+            <p>We build high-quality backlinks from authoritative sources recognized by Google’s algorithm. Every link we secure strengthens your SEO foundation, drives qualified traffic, and positions your Dubai business for long-term online dominance. We make businesses seen, trusted, and remembered.</p>
+        </a>
+        <a href="/seo-services-company-in-dubai" class="card">
+            <div class="img-box">
+                <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Website Audit">
+            </div>
+            <h3>Monitoring & Reporting</h3>
+            <p>We provide transparent, detailed weekly and monthly reports to help you track every aspect of your website’s performance. From monitoring traffic and keyword rankings to analyzing key SEO metrics to help you know how your SEO investment is performing and where opportunities for improvement lie.</p>
+</a>
+
+    </div>
+</div>
 
 
 
@@ -634,56 +641,7 @@
     </div>
 </section>
 
-<div class="container sp-50">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">SEO Services in Dubai <br>
-        Delivering Real Growth Results</h2>
-    <div class="seo-toprated-services">
-        <a href="/seo-audit-services-in-dubai" class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Website-Audit.png" alt="Website Audit">
-            </div>
-            <h3>Website Audit</h3>
-            <p>We conduct thorough SEO audits to uncover technical issues impacting your site’s performance, from speed to mobile usability. Our Dubai SEO experts fix technical SEO problems to ensure your site is crawlable and optimized, enabling improved visibility potential.</p>
-        </a>
-        <a href="/keyword-research-dubai" class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Keyword-Research.png" alt="Keyword Research">
-            </div>
-            <h3>Keyword Research & Strategy</h3>
-            <p>We identify high-value keywords that align with your target audience's search intent and search behavior, ensuring your business shows up in relevant searches. Using advanced tools, we identify high-potential keywords that your customers are actually searching for.</p>
-        </a>
-        <a href="/on-page-seo-dubai" class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="On-Page Optimization">
-            </div>
-            <h3>On-Page Optimization</h3>
-            <p>We fine-tune every element of websites, from meta tags and internal links to images and videos, to strengthen on-page elements and maximize visibility. With a strategic SEO approach, we ensure faster indexing, higher search rankings, and a seamless user experience that keeps visitors engaged and coming back.</p>
-        </a>
 
-        <a href="/content-marketing-agency-dubai" class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Content-Optimization.png" alt="Content Optimization">
-            </div>
-            <h3>Content Optimization</h3>
-            <p>We create well-researched, highly engaging content designed to rank on Google’s first page, drive traffic, and retain visitors. Our expert content strategies ensure originality, relevance, and value, helping businesses in Dubai boost visibility and build authority with top-quality content.</p>
-        </a>
-        <a href="/off-page-seo-dubai" class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Link-Building.png" alt="Link Building">
-            </div>
-            <h3>Link Building</h3>
-            <p>We build high-quality backlinks from authoritative sources recognized by Google’s algorithm. Every link we secure strengthens your SEO foundation, drives qualified traffic, and positions your Dubai business for long-term online dominance. We make businesses seen, trusted, and remembered.</p>
-        </a>
-        <div class="card">
-            <div class="img-box">
-                <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Website Audit">
-            </div>
-            <h3>Monitoring & Reporting</h3>
-            <p>We provide transparent, detailed weekly and monthly reports to help you track every aspect of your website’s performance. From monitoring traffic and keyword rankings to analyzing key SEO metrics to help you know how your SEO investment is performing and where opportunities for improvement lie.</p>
-        </div>
-
-    </div>
-</div>
 
 <div class="tools-section">
     <div class="sction-header">

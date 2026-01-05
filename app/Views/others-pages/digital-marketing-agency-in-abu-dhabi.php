@@ -23,44 +23,6 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
-
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">PPC Advertising</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Email Marketing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Marketing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Website Development</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <!-- same 6 items repeated for loop -->
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">PPC Advertising</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Email Marketing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-agency-in-abu-dhabi" class="seo-marquee-item">SEO Services</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Marketing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Website Development</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-        </div>
-    </div>
-</section>
 
 <section class="dm-pages-agency sp-50">
     <div class="container"><!--Container Start-->
