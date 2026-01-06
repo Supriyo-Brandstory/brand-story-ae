@@ -6,7 +6,7 @@
                 <h1 class="mb-3 text-white">Top-Rated PPC Agency in Dubai | Driving Results with Smart Campaigns
                 </h1>
                 <p class="text-white fs-20 mb-4">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising agency. </p>
-                
+
                 <div class="ppc-dubai-btn d-flex justify-content-md-start justify-content-center">
                     <a class="fs-20 text-white" href="/contact/">Let's Discuss Your Project</a>
                 </div>
@@ -354,8 +354,8 @@
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-violet">Goal Planning & Strategy</h3>
                             <p class="mb-0">We begin by understanding your business objectives through detailed discussions. This stage defines clear PPC goals
-                                 such as brand visibility, traffic growth, or lead generation, enabling us to design focused campaign strategies aligned with
-                                  measurable outcomes.</p>
+                                such as brand visibility, traffic growth, or lead generation, enabling us to design focused campaign strategies aligned with
+                                measurable outcomes.</p>
                         </div>
                     </div>
                 </div>
@@ -367,8 +367,8 @@
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-red">Competitor & Market Analysis</h3>
                             <p class="mb-0">Our team conducts in-depth competitor benchmarking to understand market positioning and audience behavior. This analysis
-                                 helps us craft distinctive, audience-aligned ads, identify gaps, and gain a strategic edge while planning precise and high-performing
-                                  PPC campaigns.</p>
+                                helps us craft distinctive, audience-aligned ads, identify gaps, and gain a strategic edge while planning precise and high-performing
+                                PPC campaigns.</p>
                         </div>
                     </div>
                 </div>
@@ -379,7 +379,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-blue">Keyword Research & Optimization</h3>
-                            <p class="mb-0">We develop a strong keyword foundation and continuously refine it by adding relevant long-tail and cost-efficient keywords. 
+                            <p class="mb-0">We develop a strong keyword foundation and continuously refine it by adding relevant long-tail and cost-efficient keywords.
                                 High-cost or low-performing terms are reviewed to ensure optimal budget utilization and sustained relevance across campaigns.</p>
                         </div>
                     </div>
@@ -391,7 +391,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-green">Campaign Setup & Tracking</h3>
-                            <p class="mb-0">We build well-structured campaigns with defined budgets, bidding strategies, schedules, and geo-targeting. Advanced 
+                            <p class="mb-0">We build well-structured campaigns with defined budgets, bidding strategies, schedules, and geo-targeting. Advanced
                                 tracking and analytics tools are implemented to accurately monitor performance and ensure campaigns deliver consistent and goal-oriented results.</p>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-yellow">Ad Creation & Landing Pages</h3>
-                            <p class="mb-0">Our experts craft compelling ad copies with strong CTAs and relevant extensions to enhance visibility and CTR. We also optimize 
+                            <p class="mb-0">Our experts craft compelling ad copies with strong CTAs and relevant extensions to enhance visibility and CTR. We also optimize
                                 landing pages to ensure message consistency, better user experience, and higher chances of conversions and lead generation.</p>
                         </div>
                     </div>
@@ -415,7 +415,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-orange">Ads Monitoring & Testing</h3>
-                            <p class="mb-0">We track user actions such as purchases, form fills, and sign-ups to measure effectiveness. Through continuous A/B 
+                            <p class="mb-0">We track user actions such as purchases, form fills, and sign-ups to measure effectiveness. Through continuous A/B
                                 testing and performance analysis, we refine ads, reallocate budgets efficiently, and improve ROI across all PPC initiatives.</p>
                         </div>
                     </div>
@@ -1402,5 +1402,8 @@
     });
 
     // Set default active
-    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
 </script>

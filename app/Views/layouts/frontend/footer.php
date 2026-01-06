@@ -111,7 +111,7 @@
 $stickyServices = $stickyServices ?? [
   ['label' => 'SEO Services', 'url' => '/seo-services-company-in-dubai'],
   ['label' => 'Digital Marketing', 'url' => '/'],
-    ['label' => 'PPC Services', 'url' => '/pay-per-click-ppc-services-in-dubai'],
+  ['label' => 'PPC Services', 'url' => '/pay-per-click-ppc-services-in-dubai'],
   ['label' => 'Social Media', 'url' => '/social-media-marketing-agency-in-dubai'],
   ['label' => 'Branding Services', 'url' => '/branding-agency-in-dubai'],
   ['label' => 'Website Development', 'url' => '/website-design-company-in-dubai'],
@@ -227,14 +227,16 @@ $stickyServices = $stickyServices ?? [
 
   if (readMoreBtn) {
     readMoreBtn.addEventListener("click", function() {
-      if (!isVisible) {
-        content.classList.add("active");
-        readMoreBtn.querySelector("span").innerText = "Read Less ➤";
-      } else {
-        content.classList.remove("active");
-        readMoreBtn.querySelector("span").innerText = "➤ Read More";
+      if (content) {
+        if (!isVisible) {
+          content.classList.add("active");
+          readMoreBtn.querySelector("span").innerText = "Read Less ➤";
+        } else {
+          content.classList.remove("active");
+          readMoreBtn.querySelector("span").innerText = "➤ Read More";
+        }
+        isVisible = !isVisible;
       }
-      isVisible = !isVisible;
     });
   }
 </script>

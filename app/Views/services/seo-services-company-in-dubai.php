@@ -518,8 +518,8 @@
 
                             </div>
                         </div> -->
-                
-                
+
+
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                     <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
                 </div>
@@ -598,7 +598,7 @@
             </div>
             <h3>Monitoring & Reporting</h3>
             <p>We provide transparent, detailed weekly and monthly reports to help you track every aspect of your website’s performance. From monitoring traffic and keyword rankings to analyzing key SEO metrics to help you know how your SEO investment is performing and where opportunities for improvement lie.</p>
-</a>
+        </a>
 
     </div>
 </div>
@@ -2030,7 +2030,10 @@ include __DIR__ . '/../component/client_reviews.php';
     });
 
     // Set default active
-    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
 </script>
 
 

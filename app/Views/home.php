@@ -1567,10 +1567,15 @@ include __DIR__ . '/component/client_reviews.php';
 
 <script>
     // Stop video on modal close
-    document.getElementById('videoModal').addEventListener('hidden.bs.modal', function() {
-        let iframe = document.getElementById('youtubeVideo');
-        iframe.src = iframe.src; // reset to stop video
-    });
+    const videoModal = document.getElementById('videoModal');
+    if (videoModal) {
+        videoModal.addEventListener('hidden.bs.modal', function() {
+            let iframe = document.getElementById('youtubeVideo');
+            if (iframe) {
+                iframe.src = iframe.src; // reset to stop video
+            }
+        });
+    }
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -1698,5 +1703,8 @@ include __DIR__ . '/component/client_reviews.php';
     });
 
     // Set default active
-    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
 </script>

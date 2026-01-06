@@ -1,5 +1,3 @@
-
-
 <section class="dm-agency-banner-section dm-bg">
     <div class="swiper dmagency-banner-sld">
         <div class="swiper-wrapper">
@@ -14,9 +12,10 @@
                                     <span class="db">Company in Dubai, UAE</span>
                                 </h1>
                                 <p class="text-white mb-md-5 mb-4 fs-20">Your website is the first impression of your brand. BrandStory makes sure it’s
-                            <span class="db">powerful, professional, and built to deliver real business value. Our expert </span>
-                             team of website developers and digital marketing professionals join forces 
-                            <span class="db">to build aneffective foundation of business growth. </p>
+                                    <span class="db">powerful, professional, and built to deliver real business value. Our expert </span>
+                                    team of website developers and digital marketing professionals join forces
+                                    <span class="db">to build aneffective foundation of business growth.
+                                </p>
                                 <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get a Free Quote</a>
                             </div>
                         </div>
@@ -28,7 +27,7 @@
     </div>
 </section>
 
- <section class="seo-marquee">
+<section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
@@ -150,9 +149,9 @@
 <section class="dm-bg text-white py-5 web-development-services">
     <div class="container">
         <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Development Services</h2>
-        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and development agency, helping brands build a strong and impactful 
+        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and development agency, helping brands build a strong and impactful
             digital presence. Our expert web designers craft visually engaging, <a class="text-decoration-underline text-white" href="/blogs/how-custom-web-design-sets-your-website-apart">user-focused website designs</a> that enhance brand visibility, engage visitors, and support meaningful business
-             growth.</p>
+            growth.</p>
 
         <div class="row g-0">
 
@@ -1291,33 +1290,35 @@
     const wdpSection = document.querySelector('.wdp-flow');
     const circle = wdpSection.querySelector('.mouse-circle');
 
-    wdpSection.addEventListener('mousemove', (e) => {
-        const rect = wdpSection.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
+    if (wdpSection && circle) {
+        wdpSection.addEventListener('mousemove', (e) => {
+            const rect = wdpSection.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
 
-        // Move the main circle
-        circle.style.left = x + 'px';
-        circle.style.top = y + 'px';
-        circle.style.display = 'block';
+            // Move the main circle
+            circle.style.left = x + 'px';
+            circle.style.top = y + 'px';
+            circle.style.display = 'block';
 
-        // Create clone for trail effect
-        const clone = document.createElement('div');
-        clone.className = 'mouse-circle-clone';
-        clone.style.left = x + 'px';
-        clone.style.top = y + 'px';
+            // Create clone for trail effect
+            const clone = document.createElement('div');
+            clone.className = 'mouse-circle-clone';
+            clone.style.left = x + 'px';
+            clone.style.top = y + 'px';
 
-        wdpSection.appendChild(clone);
+            wdpSection.appendChild(clone);
 
-        // Remove the clone after animation ends
-        setTimeout(() => {
-            clone.remove();
-        }, 500); // match animation duration
-    });
+            // Remove the clone after animation ends
+            setTimeout(() => {
+                clone.remove();
+            }, 500); // match animation duration
+        });
 
-    wdpSection.addEventListener('mouseleave', () => {
-        circle.style.display = 'none';
-    });
+        wdpSection.addEventListener('mouseleave', () => {
+            circle.style.display = 'none';
+        });
+    }
 </script>
 
 <script>
@@ -1330,21 +1331,24 @@
             tabContents.forEach(tc => tc.classList.remove('active'));
 
             btn.classList.add('active');
-            const activeTab = document.getElementById(btn.dataset.tab);
-            if (activeTab) {
-                activeTab.classList.add('active');
+            const targetId = btn.dataset.tab;
+            if (targetId) {
+                const activeTab = document.getElementById(targetId);
+                if (activeTab) {
+                    activeTab.classList.add('active');
+                }
             }
         });
     });
 </script>
 
 
-     <?php
-    // Default Services List - can be overwritten by passing $stickyServices to the view
-    $stickyServices = $stickyServices ?? [
-        ['label' => 'WordPress Development', 'url' => '/wordpress-development-company-in-dubai'],
-        ['label' => 'Magento Development', 'url' => '/magento-website-development-dubai'],
-        ['label' => 'Drupal Development', 'url' => '/drupal-website-development-company-in-dubai'],
-        ['label' => 'E-commerce Dev.', 'url' => '/ecommerce-development-company-dubai'],
-    ];
-    ?>
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
+$stickyServices = $stickyServices ?? [
+    ['label' => 'WordPress Development', 'url' => '/wordpress-development-company-in-dubai'],
+    ['label' => 'Magento Development', 'url' => '/magento-website-development-dubai'],
+    ['label' => 'Drupal Development', 'url' => '/drupal-website-development-company-in-dubai'],
+    ['label' => 'E-commerce Dev.', 'url' => '/ecommerce-development-company-dubai'],
+];
+?>

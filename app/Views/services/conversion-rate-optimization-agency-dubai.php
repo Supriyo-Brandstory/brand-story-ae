@@ -541,7 +541,10 @@ include __DIR__ . '/../component/client_reviews.php';
     });
 
     // Set default active
-    document.querySelector('.tool-card[data-tool="gsc"]').classList.add('active');
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
 </script>
 <style>
     .tool-card {
