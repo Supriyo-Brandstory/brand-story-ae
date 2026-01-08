@@ -410,7 +410,150 @@
         </div>
     </div>
 </section>
-<section class="neww-protfollio dm-bg mt-lg-4">
+
+<section class="niches-section sp-50">
+    <div class="container">
+        <div class="niches-header">
+            <div class="niches-title-wrapper">
+
+                <h2>Niches We Serve</h2>
+            </div>
+            <hr class="header-line">
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- Heading -->
+                <h3 class="niches-subheading">12+ Years of Experience in<br>Serving All Industries</h3>
+                <!-- Images Area -->
+                <div class="niches-images-container d-none d-lg-flex" id="niches-images">
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img1.png') ?>" alt="Industry Image"></div>
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img2.png') ?>" alt="Industry Image"></div>
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img3.png') ?>" alt="Industry Image"></div>
+                </div>
+                <!-- Services Offered -->
+                <div class="niche-services-display d-none d-lg-block">
+                    <h4 class="services-title">Services Offered - <a style="color:#855BFF" href="">Education</a></h4>
+                    <p class="services-links">
+                        <a href="/">Digital marketing</a> |
+                        <a href="/seo-services-company-in-dubai/">SEO</a> |
+                        <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                        <a href="/website-design-company-in-dubai/">Website Development</a> |
+                        <a href="/branding-agency-in-dubai/">Branding</a> |
+                        <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                        <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- Accordion/Toggle List -->
+                <div class="niches-accordion">
+                    <?php
+                    $industries = [
+                        [
+                            'id' => '01',
+                            'name' => 'Education',
+                            'link' => '/industries/education-marketing-services',
+                            'service_text' => 'Education',
+                            'desc' => 'As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
+                        ],
+                        [
+                            'id' => '02',
+                            'name' => 'E-commerce',
+                            'link' => '/industries/e-commerce-marketing-service',
+                            'service_text' => 'E-commerce',
+                            'desc' => 'BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img2.png', 'assets/images/home/industries-img4.png', 'assets/images/home/industries-img5.png']
+                        ],
+                        [
+                            'id' => '03',
+                            'name' => 'Healthcare',
+                            'link' => '/industries/healthcare-marketing-services',
+                            'service_text' => 'Healthcare',
+                            'desc' => 'We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img3.png', 'assets/images/home/industries-img6.png', 'assets/images/home/industries-img1.png']
+                        ],
+                        [
+                            'id' => '04',
+                            'name' => 'Real Estate',
+                            'link' => '/industries/real-estate-marketing-services',
+                            'service_text' => 'Real Estate',
+                            'desc' => 'We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img4.png', 'assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png']
+                        ],
+                        [
+                            'id' => '05',
+                            'name' => 'Travel',
+                            'link' => '/industries/travel-agency-marketing-services',
+                            'service_text' => 'Travel',
+                            'desc' => 'We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img5.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
+                        ],
+                        [
+                            'id' => '06',
+                            'name' => 'Technology',
+                            'link' => '/industries/b2b-corporate-marketing-services',
+                            'service_text' => 'Technology',
+                            'desc' => 'We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence.',
+                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
+                            'images' => ['assets/images/home/industries-img6.png', 'assets/images/home/industries-img3.png', 'assets/images/home/industries-img4.png']
+                        ],
+                    ];
+                    ?>
+                    <?php foreach ($industries as $index => $ind): ?>
+                        <div class="niche-item <?= $index === 0 ? 'active' : '' ?>"
+                            data-images='<?= json_encode($ind['images']) ?>'
+                            data-service-text="<?= $ind['service_text'] ?>"
+                            data-service-link="<?= $ind['link'] ?>">
+                            <div class="niche-head">
+                                <div class="niche-num-title">
+                                    <span class="niche-num"><?= $ind['id'] ?></span>
+                                    <h3 class="niche-title"><?= $ind['name'] ?></h3>
+                                </div>
+                                <span class="niche-toggle"><?= $index === 0 ? '−' : '+' ?></span>
+                            </div>
+                            <div class="niche-body">
+                                <p class="niche-desc"><?= $ind['desc'] ?></p>
+
+                                <!-- New mobile content: Images and Services inside accordion -->
+                                <div class="niche-mobile-content d-lg-none">
+                                    <div class="niche-mobile-images d-flex gap-2 mb-3">
+                                        <?php foreach ($ind['images'] as $img): ?>
+                                            <div class="mobile-img-box">
+                                                <img src="<?= base_url($img) ?>" class="img-fluid" alt="<?= $ind['name'] ?>">
+                                            </div>
+                                        <?php endforeach; ?>
+                                    </div>
+                                    <div class="niche-mobile-services mt-3">
+                                        <h4 class="services-title fs-18 text-white mb-2">Services Offered</h4>
+                                        <p class="services-links text-white-50 fs-14">
+                                            <a href="/">Digital marketing</a> |
+                                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php
+/*
+section class="neww-protfollio dm-bg mt-lg-4">
     <div class="container">
 
         <h2 class="text-start mb-3 text-white">Our Social Media Marketing Expertise</h2>
@@ -463,6 +606,8 @@
     </div>
 
 </section>
+*/
+?>
 
 
 
@@ -741,148 +886,6 @@
     </div>
 </section>
 
-
-
-
-<section class="niches-section sp-50">
-    <div class="container">
-        <div class="niches-header">
-            <div class="niches-title-wrapper">
-
-                <h2>Niches We Serve</h2>
-            </div>
-            <hr class="header-line">
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <!-- Heading -->
-                <h3 class="niches-subheading">12+ Years of Experience in<br>Serving Various Industries</h3>
-                <!-- Images Area -->
-                <div class="niches-images-container d-none d-lg-flex" id="niches-images">
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img1.png') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img2.png') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img3.png') ?>" alt="Industry Image"></div>
-                </div>
-                <!-- Services Offered -->
-                <div class="niche-services-display d-none d-lg-block">
-                    <h4 class="services-title">Services Offered - <a style="color:#855BFF" href="">Education</a></h4>
-                    <p class="services-links">
-                        <a href="/">Digital marketing</a> |
-                        <a href="/seo-services-company-in-dubai/">SEO</a> |
-                        <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                        <a href="/website-design-company-in-dubai/">Website Development</a> |
-                        <a href="/branding-agency-in-dubai/">Branding</a> |
-                        <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                        <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <!-- Accordion/Toggle List -->
-                <div class="niches-accordion">
-                    <?php
-                    $industries = [
-                        [
-                            'id' => '01',
-                            'name' => 'Education',
-                            'link' => '/industries/education-marketing-services',
-                            'service_text' => 'Education',
-                            'desc' => 'As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
-                        ],
-                        [
-                            'id' => '02',
-                            'name' => 'E-commerce',
-                            'link' => '/industries/e-commerce-marketing-service',
-                            'service_text' => 'E-commerce',
-                            'desc' => 'BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img2.png', 'assets/images/home/industries-img4.png', 'assets/images/home/industries-img5.png']
-                        ],
-                        [
-                            'id' => '03',
-                            'name' => 'Healthcare',
-                            'link' => '/industries/healthcare-marketing-services',
-                            'service_text' => 'Healthcare',
-                            'desc' => 'We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img3.png', 'assets/images/home/industries-img6.png', 'assets/images/home/industries-img1.png']
-                        ],
-                        [
-                            'id' => '04',
-                            'name' => 'Real Estate',
-                            'link' => '/industries/real-estate-marketing-services',
-                            'service_text' => 'Real Estate',
-                            'desc' => 'We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img4.png', 'assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png']
-                        ],
-                        [
-                            'id' => '05',
-                            'name' => 'Travel',
-                            'link' => '/industries/travel-agency-marketing-services',
-                            'service_text' => 'Travel',
-                            'desc' => 'We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img5.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
-                        ],
-                        [
-                            'id' => '06',
-                            'name' => 'Technology',
-                            'link' => '/industries/b2b-corporate-marketing-services',
-                            'service_text' => 'Technology',
-                            'desc' => 'We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img6.png', 'assets/images/home/industries-img3.png', 'assets/images/home/industries-img4.png']
-                        ],
-                    ];
-                    ?>
-                    <?php foreach ($industries as $index => $ind): ?>
-                        <div class="niche-item <?= $index === 0 ? 'active' : '' ?>"
-                            data-images='<?= json_encode($ind['images']) ?>'
-                            data-service-text="<?= $ind['service_text'] ?>"
-                            data-service-link="<?= $ind['link'] ?>">
-                            <div class="niche-head">
-                                <div class="niche-num-title">
-                                    <span class="niche-num"><?= $ind['id'] ?></span>
-                                    <h3 class="niche-title"><?= $ind['name'] ?></h3>
-                                </div>
-                                <span class="niche-toggle"><?= $index === 0 ? '−' : '+' ?></span>
-                            </div>
-                            <div class="niche-body">
-                                <p class="niche-desc"><?= $ind['desc'] ?></p>
-
-                                <!-- New mobile content: Images and Services inside accordion -->
-                                <div class="niche-mobile-content d-lg-none">
-                                    <div class="niche-mobile-images d-flex gap-2 mb-3">
-                                        <?php foreach ($ind['images'] as $img): ?>
-                                            <div class="mobile-img-box">
-                                                <img src="<?= base_url($img) ?>" class="img-fluid" alt="<?= $ind['name'] ?>">
-                                            </div>
-                                        <?php endforeach; ?>
-                                    </div>
-                                    <div class="niche-mobile-services mt-3">
-                                        <h4 class="services-title fs-18 text-white mb-2">Services Offered</h4>
-                                        <p class="services-links text-white-50 fs-14">
-                                            <a href="/">Digital marketing</a> |
-                                            <a href="/seo-services-company-in-dubai/">SEO</a> |
-                                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="sp-50 dm-blog-section dm-bg">
@@ -1560,18 +1563,7 @@ include __DIR__ . '/component/client_reviews.php';
     </div>
 </section>
 
-<script>
-    // Stop video on modal close
-    const videoModal = document.getElementById('videoModal');
-    if (videoModal) {
-        videoModal.addEventListener('hidden.bs.modal', function() {
-            let iframe = document.getElementById('youtubeVideo');
-            if (iframe) {
-                iframe.src = iframe.src; // reset to stop video
-            }
-        });
-    }
-</script>
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const counters = document.querySelectorAll(".dm-count-num");

@@ -8174,7 +8174,6 @@ sup {
 }
 
 .niches-header h2 {
-    font-size: 32px;
     font-weight: 800;
     margin: 0;
     color: #fff;
@@ -8190,9 +8189,9 @@ sup {
 
 .niches-subheading {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.2;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     color: #fff;
 }
 
@@ -8334,17 +8333,9 @@ sup {
 }
 
 @media (max-width: 991px) {
-    .niches-subheading {
-        font-size: 32px;
-        text-align: center;
-    }
 
     .niches-images-container {
         margin-bottom: 40px;
-    }
-
-    .niches-header h2 {
-        font-size: 26px;
     }
 
     .niche-services-display {
