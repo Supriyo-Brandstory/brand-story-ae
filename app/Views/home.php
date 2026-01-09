@@ -895,7 +895,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                 <div class="sticky-case-study-left">
                     <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
                     <h2 class="text-white mb-4">Case Studies That Showcase Digital Marketing Success</h2>
-                    <p class="text-white-50 fs-20 mb-3">We always put our clients first to deliver our best time after time. Below is some of our proudest work.</p>
+                    <p class="text-white-50 fs-20 mb-3">Explore how our strategic approach and data-driven execution have transformed business challenges into measurable growth for global brands.</p>
                     <a href="/case-study/" class="view-all-link">View all Case Studies</a>
                 </div>
             </div>
