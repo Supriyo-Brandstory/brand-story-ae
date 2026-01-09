@@ -8174,7 +8174,7 @@ sup {
 }
 
 .niches-header h2 {
-    font-weight: 800;
+    font-weight: 600;
     margin: 0;
     color: #fff;
     text-transform: capitalize;
@@ -8364,6 +8364,14 @@ sup {
     .niches-section {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .niches-subheading {
+        font-size: 22px;
+    }
+
+    .niches-header {
+        margin-bottom: 20px;
     }
 }
 
