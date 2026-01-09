@@ -389,6 +389,7 @@
     font-size: 20px;
     line-height: 28px;
     color: #EC696A;
+    font-weight: 600;
 }
 
 .dm-review-main {
@@ -6347,6 +6348,10 @@ sup {
     h3 {
         color: #fff;
         margin-bottom: 10px;
+
+        a {
+            color: #fff;
+        }
     }
 
     p {
@@ -8330,6 +8335,7 @@ sup {
 
 .services-links a:hover {
     color: #855BFF;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) {
@@ -8407,12 +8413,15 @@ sup {
 }
 
 .sticky-case-study-left .view-all-link {
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
     display: inline-block;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    background: #855bff;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .scrollable-case-study-right {

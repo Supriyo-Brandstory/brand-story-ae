@@ -426,9 +426,9 @@
                 <h3 class="niches-subheading">12+ Years of Experience in<br>Serving All Industries</h3>
                 <!-- Images Area -->
                 <div class="niches-images-container d-none d-lg-flex" id="niches-images">
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img1.png') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img2.png') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/home/industries-img3.png') ?>" alt="Industry Image"></div>
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-1.webp') ?>" alt="Industry Image"></div>
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-2.webp') ?>" alt="Industry Image"></div>
+                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-3.webp') ?>" alt="Industry Image"></div>
                 </div>
                 <!-- Services Offered -->
                 <div class="niche-services-display d-none d-lg-block">
@@ -456,7 +456,7 @@
                             'service_text' => 'Education',
                             'desc' => 'As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
+                            'images' => ['assets/images/casestudies/education-poster-1.webp', 'assets/images/casestudies/education-poster-2.webp', 'assets/images/casestudies/education-poster-3.webp']
                         ],
                         [
                             'id' => '02',
@@ -465,7 +465,7 @@
                             'service_text' => 'E-commerce',
                             'desc' => 'BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img2.png', 'assets/images/home/industries-img4.png', 'assets/images/home/industries-img5.png']
+                            'images' => ['assets/images/casestudies/e-commerce-poster-1.webp', 'assets/images/casestudies/e-commerce-poster-2.webp', 'assets/images/casestudies/e-commerce-poster-3.webp']
                         ],
                         [
                             'id' => '03',
@@ -474,7 +474,7 @@
                             'service_text' => 'Healthcare',
                             'desc' => 'We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img3.png', 'assets/images/home/industries-img6.png', 'assets/images/home/industries-img1.png']
+                            'images' => ['assets/images/casestudies/healthcare-poster-1.webp', 'assets/images/casestudies/healthcare-poster-2.webp', 'assets/images/casestudies/healthcare-poster-3.webp']
                         ],
                         [
                             'id' => '04',
@@ -483,7 +483,7 @@
                             'service_text' => 'Real Estate',
                             'desc' => 'We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img4.png', 'assets/images/home/industries-img1.png', 'assets/images/home/industries-img2.png']
+                            'images' => ['assets/images/casestudies/real-estate-poster-1.webp', 'assets/images/casestudies/real-estate-poster-2.webp', 'assets/images/casestudies/real-estate-poster-3.webp']
                         ],
                         [
                             'id' => '05',
@@ -492,7 +492,7 @@
                             'service_text' => 'Travel',
                             'desc' => 'We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img5.png', 'assets/images/home/industries-img2.png', 'assets/images/home/industries-img3.png']
+                            'images' => ['assets/images/casestudies/travel-agency-poster-1.webp', 'assets/images/casestudies/travel-agency-poster-2.webp', 'assets/images/casestudies/travel-agency-poster-3.webp']
                         ],
                         [
                             'id' => '06',
@@ -501,7 +501,7 @@
                             'service_text' => 'Technology',
                             'desc' => 'We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence.',
                             'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/home/industries-img6.png', 'assets/images/home/industries-img3.png', 'assets/images/home/industries-img4.png']
+                            'images' => ['assets/images/casestudies/technology-poster-1.webp', 'assets/images/casestudies/technology-poster-2.webp', 'assets/images/casestudies/technology-poster-3.webp']
                         ],
                     ];
                     ?>
@@ -894,7 +894,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
             <div class="col-lg-5">
                 <div class="sticky-case-study-left">
                     <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                    <h2 class="text-white mb-4">Case Studies, a selection of successful projects.</h2>
+                    <h2 class="text-white mb-4">Case Studies That Showcase Digital Marketing Success</h2>
                     <p class="text-white-50 fs-20 mb-3">We always put our clients first to deliver our best time after time. Below is some of our proudest work.</p>
                     <a href="/case-study/" class="view-all-link">View all Case Studies</a>
                 </div>
@@ -907,7 +907,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
                                 <strong>Digital Marketing</strong>
                             </div>
-                            <h3>Sand Dollar - Ecommerce</h3>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar - Ecommerce</a></h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -920,7 +920,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
                                 <strong>Branding & Digital Marketing</strong>
                             </div>
-                            <h3>TravelX</h3>
+                            <h3><a href="/case-study/travel-agency/">TravelX</a></h3>
                             <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -933,7 +933,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
                                 <strong>Digital Marketing</strong>
                             </div>
-                            <h3>Crystal Plaza</h3>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
                             <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -946,7 +946,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
                                 <strong>Digital Marketing</strong>
                             </div>
-                            <h3>NIMS School</h3>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
                             <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -959,7 +959,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
                                 <strong>Website & Digital Marketing</strong>
                             </div>
-                            <h3>Wipro Infrastructure Engineering</h3>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
                             <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -972,7 +972,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
                                 <strong>Website & Digital Marketing</strong>
                             </div>
-                            <h3>NanoPrecise Sci Corp</h3>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
                             <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
@@ -985,7 +985,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
                                 <strong>Branding & Digital Marketing</strong>
                             </div>
-                            <h3>Sherpa Communications</h3>
+                            <h3><a href="/case-study/sherpa-communications/">Sherpa Communications</a></h3>
                             <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
                             <div class="casestydies-readmore">
                                 <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
