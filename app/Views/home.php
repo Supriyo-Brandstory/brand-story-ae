@@ -1746,6 +1746,21 @@ include __DIR__ . '/component/client_reviews.php';
                 serviceTitleLink.href = serviceLink;
                 serviceTitleLink.textContent = serviceText;
             }
+            // Improved Scroll Logic: Only scroll on mobile if item is not fully visible
+            const isMobile = window.innerWidth <= 991;
+            if (isMobile) {
+                setTimeout(() => {
+                    const headerHeight = document.querySelector('header.header')?.offsetHeight || 80;
+                    const rect = this.getBoundingClientRect();
+                    const elementTop = rect.top + window.pageYOffset;
+
+                    // Only scroll if the top of the item is not nicely positioned
+                    window.scrollTo({
+                        top: elementTop - headerHeight - 20,
+                        behavior: 'smooth'
+                    });
+                }, 450); // Wait for transition to be nearly complete
+            }
         });
     });
 </script>

@@ -8293,9 +8293,16 @@ sup {
 }
 
 .niche-item.active .niche-body {
-    max-height: fit-content;
+    max-height: 600px;
+    /* Adjusted for smooth desktop transition */
     padding-top: 20px;
     opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .niche-item.active .niche-body {
+        max-height: 1000px;
+    }
 }
 
 .niche-desc {
