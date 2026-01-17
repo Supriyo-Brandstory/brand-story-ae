@@ -12,14 +12,14 @@
 }
 
 .bannersld-main.two {
-    background: url('../images/banners/slide2.jpg');
+    background: url('../images/banners/nn-banner-1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bannersld-main.three {
-    background: url('../images/banners/home-banner-2.webp');
+    background: url('../images/banners/nn-banner-2.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3727,7 +3727,7 @@ sup {
 .Performance-Driven-btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: transparent;
+    background-color: #000000;
     border: 1px solid #855BFF;
     color: #fff;
     text-decoration: none;

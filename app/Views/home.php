@@ -4,7 +4,7 @@
             <div class="swiper-slide">
                 <div class="bannersld-main two">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/home/dm-sld-mbl2.jpg') ?>">
+                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>">
                         <h1 class="mb-4 text-white">Top-rated Digital Marketing
                             <span class="db">Consulting Agency in Dubai</span>
                         </h1>
@@ -17,7 +17,7 @@
             <div class="swiper-slide">
                 <div class="bannersld-main three">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/home/home-mobile-2.webp') ?>">
+                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-2.webp') ?>">
                         <h1 class="mb-4 text-white">Empowering Brands with Best
                             <span class="db tab-db">Digital Marketing Services</span>
                         </h1>
