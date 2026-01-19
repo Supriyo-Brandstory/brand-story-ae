@@ -3,7 +3,7 @@
         <div class="content">
             <h1>Digital Marketing Agency in Abu Dhabi</h1>
             <p>Looking for a digital marketing agency in Abu Dhabi? With 12+ years of expertise, BrandStory delivers culturally intelligent, data-driven strategies that connect your brand with high-intent UAE audiences.</p>
-            <a href="/services" class="Performance-Driven-btn mb-5 ">➤ Get in Touch</a>
+            <a href="/contact" class="Performance-Driven-btn mb-5 ">➤ Get in Touch</a>
         </div>
         <div class="container-fluid">
             <h3 class="text-center mb-5 text-white">Trusted by Top Brands Across Industries</h3>
@@ -58,7 +58,7 @@
                         <div class="icon-box">
                             <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
                         </div>
-                        <h3>Search Engine Optimization (SEO)</h3>
+                        <h3>Search Engine Optimization</h3>
                         <p>Search Engine Optimization (SEO) is crucial for enhancing your website's visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
                         <a href="<?= base_url('/seo-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
                     </div>
@@ -213,48 +213,48 @@
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Expertise in Dubai’s Digital Scene
+                                        Growth Engineering Expertise
                                     </button>
                                 </h4>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-20">Our experts possess a strong understanding of Dubai’s competitive landscape, market trends, and online consumers. Result-driven digital marketing strategies for Dubai-based local businesses, online retailers, and niche sectors like hospitality, real estate, and healthcare industries.</p>
+                                        <p class="mb-0 fs-20">With 12+ years of experience and a team of top growth engineers, we deliver future-proof, full-funnel solutions that exceed expectations. From startups to enterprises in Abu Dhabi, our strategies across SEO, branding, and performance marketing consistently turn vision into measurable, long-term growth.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Expert Team with Zen Precision
+                                        Human-Driven & AI-Enabled Strategy
                                     </button>
                                 </h4>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-20">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
+                                        <p class="mb-0 fs-20">We blend cutting-edge AI for data analysis, trend prediction, and optimization with human creativity, storytelling, and Abu Dhabi cultural insight. This ethical, balanced approach delivers innovative, emotionally resonant campaigns that ensure lasting engagement and strong ROI.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        In-depth and Transparent Reporting
+                                        Transparency & Collaboration
                                     </button>
                                 </h4>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-20">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
+                                        <p class="mb-0 fs-20">We treat every client as a true partner, built on trust, open communication, and shared success. Full transparency via regular reports, clear KPIs, and no hidden fees, plus deep collaboration on your vision, drives exceptional results for 350+ UAE brands.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="headingfour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                        Performance Backed by Proven Results
+                                        Tailored, Results-Driven Innovation
                                     </button>
                                 </h4>
                                 <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 fs-20">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
+                                        <p class="mb-0 fs-20">Our methodology is fully customized to the UAE's dynamic market from Abu Dhabi's affluent audience to Dubai's fast pace. We engineer complete digital marketing growth funnels blending SEO, PPC, social, branding, and digital transformation for sustainable visibility, conversions, and lasting brand preference.</p>
                                     </div>
                                 </div>
 
