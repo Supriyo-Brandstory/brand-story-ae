@@ -1,926 +1,1319 @@
-<section class="seo-page-banner dm-banner-abudhabi sp-50">
-    <div class="container"><!--Container Start-->
-        <div class="row"><!--Row Start-->
+<section class="digital-marketing-agency-in-abu-dhabi">
+    <div class="banner">
+        <div class="content">
+            <h1>Digital Marketing Agency in Abu Dhabi</h1>
+            <p>Looking for a digital marketing agency in Abu Dhabi? With 12+ years of expertise, BrandStory delivers culturally intelligent, data-driven strategies that connect your brand with high-intent UAE audiences.</p>
+            <a href="/services" class="Performance-Driven-btn mb-5 ">➤ Get in Touch</a>
+        </div>
+        <div class="container-fluid">
+            <h3 class="text-center mb-5 text-white">Trusted by Top Brands Across Industries</h3>
+            <?php include __DIR__ . '/../component/client_section.php' ?>
+        </div>
+    </div>
+    <div class="performance-driven sp-50 dm-bg">
+        <div class="container">
+            <h2 class="text-white mb-2 text-md-start text-center d-md-none d-block mb-4">We are Digital Marketing Experts in Abu Dhabi</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
+                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/about-abu-dhabi.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
+                    </div>
 
-            <div class="col-md-6"> <!--col start-->
-                <div class="seo-banner-txt">
-                    <h1>Digital Marketing <span class="db"> Agency in Abu Dhabi</span></h1>
-                    <p class="text-white mb-3 fs-20">Looking for a digital marketing agency in Abu Dhabi? Choose one that truly understands the region far beyond 
-                        surface-level promotion. With 12+ years of proven expertise, BrandStory leads as the top full-service digital marketing company
-                         in Abu Dhabi, blending deep local market awareness, cultural relevance, language sensitivity, and precise insight into UAE audience
-                          behavior. We intelligently leverage data and emerging technologies to move past generic strategies, connecting your brand 
-                          with high-intent local audiences through a powerful, unified growth ecosystem.
-                    </p>
+                    <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
+                        <img class="img-fluid radius-20" src="<?= base_url('/assets/images/about-abu-dhabi.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
+                    </div>
+
                 </div>
-            </div><!--col end-->
+                <div class="col-lg-6 align-self-center">
+                    <h2 class="text-white mb-2 text-md-start text-center d-md-block d-none">We are Digital Marketing Experts in Abu Dhabi
+                    </h2>
+                    <ul class="mb-0">
+                        <li class="text-white mb-2 fs-20">BrandStory has been delivering digital marketing and growth engineering services to clients across Dubai and the UAE since 2014. With an expert team of digital marketers, we power up global brands through search engine optimization, Google Ads and Bing Ads, Social Media, influencer marketing, website design and development services.</li>
+                        <li class="text-white fs-20">Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding, and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li>
+                    </ul>
 
-            <div class="col-md-6"> <!--col start-->
-                <div class="seo-banner-form">
-                    <?php include __DIR__ . '/../component/forms/contact-form.php' ?>
-                </div>
-            </div><!--col end-->
-
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
-
-<section class="dm-pages-agency sp-50">
-    <div class="container"><!--Container Start-->
-        <div class="row col-reverse gx-lg-5 align-items-center"><!--Row Start-->
-            <div class="col-md-6"> <!--col start-->
-                <h2 class="mb-4">We are Digital Marketing Experts in Abu Dhabi</h2>
-                <ul class="mb-0">
-                    <li class="text-black mb-3 fs-20">Elevate the digital presence of your brand with BrandStory, a trusted digital marketing agency in Abu Dhabi focused on driving measurable growth
-                        for businesses across the capital and the wider UAE. We partner with ambitious brands to build digital strategies that combine market insight,
-                        performance marketing, and technology-led execution.</li>
-                    <li class="text-black mb-3 fs-20">Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding,
-                        and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li>
-                </ul>
-            </div><!--col end-->
-            <div class="col-md-6"> <!--col start-->
-                <img src="/assets/images/seo/dm/agency-abudhabi.png" class="img-fluid mb-3" alt="Best Digital Marketing Company in Abu Dhabi">
-            </div><!--col end-->
-        </div><!--Row End-->
-
-        <div class="row  spt-50 gx-lg-5 align-items-center"><!--Row Start-->
-            <div class="col-md-6"> <!--col start-->
-                <h2 class="mb-4">Our Unique Appraoch</h2>
-            </div><!--col end-->
-            <div class="col-md-6"> <!--col start-->
-                <p class="mb-3 fs-20">At BrandStory, we deliver a unique digital marketing methodology in Abu Dhabi that fuses data intelligence, creative storytelling, and cultural precision to drive exceptional results. As a 
-                    truly client-centric agency in Abu Dhabi, we prioritize your vision, goals, and audience above all. Our innovative marketing strategies across the UAE combine human insight with AI-powered 
-                    execution, creating tailored, future-proof campaigns that deliver sustainable growth, stronger engagement, and measurable ROI for ambitious brands in a competitive market.</p>
-            </div><!--col end-->
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
-
-<section class="vidsec">
-    <div class="perks-vide-bg position-relative sp-50 bg-burjkhalifa">
-
-        <div class="perks-content position-relative">
-            <div class="container perkshd position-relative">
-                <h2 class="text-center mb-lg-5 mb-4 text-black mt-lg-4">Results-Driven Digital Marketing Services <br>in Abu Dhabi, UAE</h2>
-            </div>
-            <div class="container perks">
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
-                            <h3 class="mb-3">Search Engine <span class="db">Optimization (SEO)</span></h3>
-                            <p class="mb-3 fs-20">Search Engine Optimization (SEO) is crucial for enhancing your website’s visibility and attracting organic traffic. Our SEO experts in Abu Dhabi
-                                implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
-                            <div class="casestydies-readmore">
-                                <a href="/seo-agency-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg') ?>">
-                            <h3 class="mb-3">Social Media Marketing <span class="db">(SMM)</span></h3>
-                            <p class="mb-3 fs-20">Boost your brand’s presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences
-                                across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/social-media-marketing-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg') ?>">
-                            <h3 class="mb-3">Pay Per Click (PPC)</h3>
-                            <p class="mb-3 fs-20">We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner
-                                agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/ppc-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg') ?>">
-                            <h3 class="mb-3">Email Marketing</h3>
-                            <p class="mb-3 fs-20">We offer email marketing services in Abu Dhabi to engage your audience, nurture prospects, and boost conversions. Our team designs tailored
-                                email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/email-marketing-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg') ?>">
-                            <h3 class="mb-3">Performance Marketing</span></h3>
-                            <p class="mb-3 fs-20">Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing
-                                agency in Abu Dhabi, offering comprehensive full-funnel performance marketing services.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg') ?>">
-                            <h3 class="mb-3">Website Design & <span class="db">Development</span></h3>
-                            <p class="mb-3 fs-20">A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites
-                                using the latest technologies, ensuring they are visually appealing, mobile-friendly, and easy to navigate.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/website-design-company-in-abu-dhabi"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="strategy-process-sec sp-50 ">
-    <div class="container" bis_skin_checked="1">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Digital Marketing Strategy and Process</h2>
-        <div class="row gx-md-5" bis_skin_checked="1">
-            <div class="col-lg-4" bis_skin_checked="1">
-                <div class="strategy-heading-main" bis_skin_checked="1">
-                    <h3 class="text-white strategy-title strategy1 active"><span>Competitor Research<span></span></span></h3>
-                    <div class="d-lg-none d-block" bis_skin_checked="1">
-                        <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
-                            <div class="row" bis_skin_checked="1">
-                                <div class="col-md-4" bis_skin_checked="1">
-                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy1.webp" alt="Competitor Research &amp; Data Analysis">
-                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl1.webp" alt="Competitor Research &amp; Data Analysis">
-                                </div>
-                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                    <h3 class="mb-4">Competitor Research </h3>
-                                    <p class="fs-20 mb-3">We start with a comprehensive study of your industry, audience, and competitors to find out key opportunities.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 mb-2">Analyze competitor performance and strategies</li>
-                                        <li class="fs-20 mb-2">Audience behaviour and market trends</li>
-                                        <li class="fs-20 mb-2">Identify gaps and growth opportunities</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="text-white strategy-title strategy2"><span>Planning &amp; Strategy<span></span></span></h3>
-                    <div class="d-lg-none d-block" bis_skin_checked="1">
-                        <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
-                            <div class="row" bis_skin_checked="1">
-                                <div class="col-md-4" bis_skin_checked="1">
-                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/dm-agency-dubai/strategy2.jpg?v=1" alt="Planning &amp; Strategy Development">
-                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl2.webp" alt="Planning &amp; Strategy Development">
-                                </div>
-                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                    <h3 class="mb-4">Planning &amp; Strategy</h3>
-                                    <p class="fs-20 mb-3">We create a full roadmap and digital marketing strategy, considering your market position and business goals.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 mb-2">Identify goals and KPIs</li>
-                                        <li class="fs-20 mb-2">Choose the best marketing channels</li>
-                                        <li class="fs-20 mb-2">Match strategy to brand positioning</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="text-white strategy-title strategy3"><span>Trial &amp; Testing<span></span></span></h3>
-                    <div class="d-lg-none d-block" bis_skin_checked="1">
-                        <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
-                            <div class="row" bis_skin_checked="1">
-                                <div class="col-md-4" bis_skin_checked="1">
-                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy3.webp" alt="Trial &amp; Testing">
-                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl3.webp" alt="Trial &amp; Testing">
-                                </div>
-                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                    <h3 class="mb-4">Trial &amp; Testing</h3>
-                                    <p class="fs-20 mb-3">We test content, creatives, and campaigns to identify the most effective approach before launching any campaign.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 mb-2">Test ad creatives, CTA, and headlines</li>
-                                        <li class="fs-20 mb-2">Evaluate early performance metrics</li>
-                                        <li class="fs-20 mb-2">Optimize for better results</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="text-white strategy-title strategy4"><span>Campaign Implementation<span></span></span></h3>
-                    <div class="d-lg-none d-block" bis_skin_checked="1">
-                        <div class="strategy-process-main strategy4" style="display: none;" bis_skin_checked="1">
-                            <div class="row" bis_skin_checked="1">
-                                <div class="col-md-4" bis_skin_checked="1">
-                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/dm-agency-dubai/strategy4.jpg?v=1" alt="Campaign Implementation &amp; Launch">
-                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl4.webp" alt="Campaign Implementation &amp; Launch">
-                                </div>
-                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                    <h3 class="mb-4">Campaign Implementation &amp; Launch</h3>
-                                    <p class="fs-20 mb-3">We execute campaigns with precision across selected channels (SEO, PPC, Social Media, Email marketing, etc.) based on market research.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 mb-2">Launch selected campaigns</li>
-                                        <li class="fs-20 mb-2">Monitor outcomes in real-time</li>
-                                        <li class="fs-20 mb-2">Ensure consistency in branding</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="text-white strategy-title strategy5"><span>Reporting &amp; Optimization<span></span></span></h3>
-                    <div class="d-lg-none d-block" bis_skin_checked="1">
-                        <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
-                            <div class="row" bis_skin_checked="1">
-                                <div class="col-md-4" bis_skin_checked="1">
-                                    <img class="w-100 d-lg-none d-md-block d-none" src="/assets/images/new-home/strategy5.webp" alt="Reporting &amp; Ongoing Optimization">
-                                    <img class="w-100 d-md-none d-block" src="/assets/images/new-home/strategy-mbl5.webp" alt="Reporting &amp; Ongoing Optimization">
-                                </div>
-                                <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                    <h3 class="mb-4">Reporting &amp; Ongoing Optimization</h3>
-                                    <p class="fs-20 mb-3">We track and analyze performance, report to the clients, take feedback, and continuously optimize for better performance.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 mb-2">Analyze KPIs and return on investment (ROI)</li>
-                                        <li class="fs-20 mb-2">Align campaigns with evolving market trends</li>
-                                        <li class="fs-20 mb-2">Optimize campaigns based on performance data</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+    <div class="unique-approach sp-50">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="approach-card" data-aos="fade-left">
+                        <h2 class="mb-4">Our Unique Approach</h2>
+                        <p class="mb-0">At BrandStory, we deliver a unique digital marketing methodology in Abu Dhabi that fuses data intelligence, creative storytelling, and cultural precision to drive exceptional results. As a truly client-centric agency in Abu Dhabi, we prioritize your vision, goals, and audience above all. Our innovative marketing strategies across the UAE combine human insight with AI-powered execution, creating tailored, future-proof campaigns that deliver sustainable growth, stronger engagement, and measurable ROI for ambitious brands in a competitive market.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 d-lg-block d-none" bis_skin_checked="1">
-                <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
-                    <div class="row" bis_skin_checked="1">
-                        <div class="col-md-4" bis_skin_checked="1">
-                            <img class="w-100" src="/assets/images/new-home/strategy1.webp" alt="Competitor Research &amp; Data Analysis">
+        </div>
+    </div>
+    <div class="marketing-services sp-50 dm-bg">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">Results-Driven Digital Marketing Services<br>in Abu Dhabi, UAE</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                            <h3 class="mb-4">Competitor Research &amp; Data Analysis</h3>
-                            <p class="fs-20 mb-3">We start with a comprehensive study of your industry, audience, and competitors to find out key opportunities.</p>
-                            <ul class="mb-0">
-                                <li class="fs-20 mb-2">Analyze competitor performance and strategies</li>
-                                <li class="fs-20 mb-2">Audience behaviour and market trends</li>
-                                <li class="fs-20 mb-2">Identify gaps and growth opportunities</li>
-                            </ul>
-                        </div>
+                        <h3>Search Engine Optimization (SEO)</h3>
+                        <p>Search Engine Optimization (SEO) is crucial for enhancing your website's visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
+                        <a href="<?= base_url('/seo-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
-                    <div class="row" bis_skin_checked="1">
-                        <div class="col-md-4" bis_skin_checked="1">
-                            <img class="w-100" src="/assets/images/dm-agency-dubai/strategy2.jpg?v=1" alt="Planning &amp; Strategy Development">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                            <h3 class="mb-4">Planning &amp; Strategy Development</h3>
-                            <p class="fs-20 mb-3">We create a full roadmap and digital marketing strategy, considering your market position and business goals.</p>
-                            <ul class="mb-0">
-                                <li class="fs-20 mb-2">Identify goals and KPIs</li>
-                                <li class="fs-20 mb-2">Choose the best marketing channels</li>
-                                <li class="fs-20 mb-2">Match strategy to brand positioning</li>
-                            </ul>
-                        </div>
+                        <h3>Social Media Marketing (SMM)</h3>
+                        <p>Boost your brand's presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
+                        <a href="<?= base_url('/social-media-marketing-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
-                    <div class="row" bis_skin_checked="1">
-                        <div class="col-md-4" bis_skin_checked="1">
-                            <img class="w-100" src="/assets/images/new-home/strategy3.webp" alt="Trial &amp; Testing">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                            <h3 class="mb-4">Trial &amp; Testing</h3>
-                            <p class="fs-20 mb-3">We test content, creatives, and campaigns to identify the most effective approach before launching any campaign.</p>
-                            <ul class="mb-0">
-                                <li class="fs-20 mb-2">Test ad creatives, CTA, and headlines</li>
-                                <li class="fs-20 mb-2">Evaluate early performance metrics</li>
-                                <li class="fs-20 mb-2">Optimize for better results</li>
-                            </ul>
-                        </div>
+                        <h3>Pay Per Click (PPC)</h3>
+                        <p>We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>
+                        <a href="<?= base_url('/google-ads-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy4" style="display: none;" bis_skin_checked="1">
-                    <div class="row" bis_skin_checked="1">
-                        <div class="col-md-4" bis_skin_checked="1">
-                            <img class="w-100" src="/assets/images/dm-agency-dubai/strategy4.jpg?v=1" alt="Campaign Implementation &amp; Launch">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                            <h3 class="mb-4">Campaign Implementation &amp; Launch</h3>
-                            <p class="fs-20 mb-3">We execute campaigns with precision across selected channels (SEO, PPC, Social Media, Email marketing, etc.) based on market research.</p>
-                            <ul class="mb-0">
-                                <li class="fs-20 mb-2">Launch selected campaigns</li>
-                                <li class="fs-20 mb-2">Monitor outcomes in real-time</li>
-                                <li class="fs-20 mb-2">Ensure consistency in branding</li>
-                            </ul>
-                        </div>
+                        <h3>Email Marketing</h3>
+                        <p>We offer email marketing services in Abu Dhabi to engage your audience, nurture prospects, and boost conversions. Our team designs tailored email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
+                        <a href="<?= base_url('/email-marketing-service-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
                     </div>
                 </div>
-                <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
-                    <div class="row" bis_skin_checked="1">
-                        <div class="col-md-4" bis_skin_checked="1">
-                            <img class="w-100" src="/assets/images/new-home/strategy5.webp" alt="Reporting &amp; Ongoing Optimization">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
                         </div>
-                        <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                            <h3 class="mb-4">Reporting &amp; Ongoing Optimization</h3>
-                            <p class="fs-20 mb-3">We track and analyze performance, report to the clients, take feedback, and continuously optimize for better performance.</p>
-                            <ul class="mb-0">
-                                <li class="fs-20 mb-2">Analyze KPIs and return on investment (ROI)</li>
-                                <li class="fs-20 mb-2">Align campaigns with evolving market trends</li>
-                                <li class="fs-20 mb-2">Optimize campaigns based on performance data</li>
-                            </ul>
+                        <h3>Performance Marketing</h3>
+                        <p>Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing agency in Abu Dhabi, offering comprehensive full-funnel performance marketing services.</p>
+                        <a href="<?= base_url('/performance-marketing-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                        </div>
+                        <h3>Website Design & Development</h3>
+                        <p>A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites using the latest technologies, ensuring they are visually appealing, mobile-friendly, and easy to navigate.</p>
+                        <a href="<?= base_url('/website-design-and-development-company-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="strategy-process sp-50 dm-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h2 class="text-white strategy-main-title" data-aos="fade-right">Our Digital Marketing Strategy and Process</h2>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up">
+                                <h3>Competitor Research & Data Analysis</h3>
+                                <p>We start with a comprehensive study of your industry, audience, and competitors to find out key opportunities.</p>
+                                <ul>
+                                    <li>Analyze competitor performance and strategies</li>
+                                    <li>Audience behaviour and market trends</li>
+                                    <li>Identify gaps and growth opportunities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Planning & Strategy Development</h3>
+                                <p>We create a roadmap and digital marketing strategy considering your industry and business goals.</p>
+                                <ul>
+                                    <li>Defining campaign KPIs</li>
+                                    <li>Channel selection and mapping</li>
+                                    <li>Lead strategy and budget planning</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up" data-aos-delay="200">
+                                <h3>Trial & Testing</h3>
+                                <p>We test content, creatives, and messages across multiple platforms to understand what translates to higher results.</p>
+                                <ul>
+                                    <li>Creative ideation, design, and copy</li>
+                                    <li>Dynamic testing across platforms</li>
+                                    <li>Data-driven creative tweaks</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up" data-aos-delay="300">
+                                <h3>Campaign Implementation & Launch</h3>
+                                <p>We execute campaigns across multiple channels including SEO, SEM, PPC, Social Media, Email Marketing etc focusing on market research.</p>
+                                <ul>
+                                    <li>Launch detailed campaigns</li>
+                                    <li>Real-time tracking of results</li>
+                                    <li>Performance monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up" data-aos-delay="400">
+                                <h3>Organic & Ongoing Optimization</h3>
+                                <p>We continuously optimize your organic reach and campaign content to ensure long-term sustainability and growth.</p>
+                                <ul>
+                                    <li>Content strategy and execution</li>
+                                    <li>SEO & organic growth monitoring</li>
+                                    <li>Continuous content refinement</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="strategy-card" data-aos="fade-up" data-aos-delay="500">
+                                <h3>Reporting & Performance Analytics</h3>
+                                <p>We provide full transparency with detailed performance reports, analyzing ROI and adjusting strategies for future growth.</p>
+                                <ul>
+                                    <li>Analyzing KPIs and ROI</li>
+                                    <li>Aligning campaigns with market trends</li>
+                                    <li>Optimizing campaigns based on data</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <div class="dm-whychoose-sec sp-50  dm-bg">
+        <div class="container">
+            <h2 class="text-white mb-lg-5 mb-4 text-center">What Sets Us Apart as a Leading Digital Marketing
 
-<section class="sp-50 dm-blog-section">
-    <div class="container">
-        <h2 class="mb-md-4 text-md-start text-center">What Sets Us Apart as a Leading <br>Digital Marketing Agency in Abu Dhabi</h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service1.png">
-                            <h3>Human-Driven & AI-Enabled Strategy</h3>
-                            <p class="fs-20">We blend cutting-edge AI for data analysis, trend prediction, and optimization with human creativity, storytelling, 
-                                and Abu Dhabi cultural insight. This ethical, balanced approach delivers innovative, emotionally resonant campaigns that ensure 
-                                lasting engagement and strong ROI. </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service2.png">
-                            <h3>Transparency & Collaboration</h3>
-                            <p class="fs-20">We treat every client as a true partner, built on trust, open communication, and shared success. Full transparency 
-                                via regular reports, clear KPIs, and no hidden fees, plus deep collaboration on your vision, drives exceptional results for 350+ 
-                                UAE brands. </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service3.png">
-                            <h3>Tailored, Results-Driven Innovation</h3>
-                            <p class="fs-20">Our methodology is fully customized to the UAE's dynamic market from Abu Dhabi's affluent audience to Dubai's fast pace. 
-                                We engineer complete digital marketing growth funnels blending SEO, PPC, social, branding, and digital transformation for sustainable 
-                                visibility, conversions, and lasting brand preference. </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service4.png">
-                            <h3>Growth Engineering Expertise</h3>
-                            <p class="fs-20">With 12+ years of experience and a team of top growth engineers, we deliver future-proof, full-funnel solutions that exceed 
-                                expectations. From startups to enterprises in Abu Dhabi, our strategies across SEO, branding, and performance marketing consistently turn 
-                                vision into measurable, long-term growth.</p>
-                        </div>
-                    </div>
+                <span class="db">Agency in Abu Dhabi</span>
+            </h2>
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                    <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
-            </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
-        </div>
-    </div>
-</section>
+                <div class="col-lg-7">
+                    <div class="whychoose-faq">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Expertise in Dubai’s Digital Scene
+                                    </button>
+                                </h4>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="mb-0 fs-20">Our experts possess a strong understanding of Dubai’s competitive landscape, market trends, and online consumers. Result-driven digital marketing strategies for Dubai-based local businesses, online retailers, and niche sectors like hospitality, real estate, and healthcare industries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Expert Team with Zen Precision
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="mb-0 fs-20">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        In-depth and Transparent Reporting
+                                    </button>
+                                </h4>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="mb-0 fs-20">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                        Performance Backed by Proven Results
+                                    </button>
+                                </h4>
+                                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="mb-0 fs-20">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
+                                    </div>
+                                </div>
 
-<section class="create-positive sp-50">
-    <div class="container">
-        <div class="row gy-4 gy-md-5 gx-md-5">
-            <div class="col-md-6 text-md-start text-center">
-                <h2>Your Trusted <span class="db"> Digital Marketing</span> Partner in Abu Dhabi</h2>
-                <p>Selecting the right digital marketing partner in Abu Dhabi is essential to ensure your brand connects with the right audience, maximizes ROI, and achieves sustainable growth in a competitive market.</p>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="google adwords marketing dubai">
-                    <h4 class="mt-3">We Understand The Landscape</h4>
-                    <p>With deep local digital marketing expertise in Abu Dhabi, we provide sharp Abu Dhabi market insights into cultural nuances, affluent consumer behaviors, multilingual demands, and regulatory challenges.
-                         This insider knowledge helps us navigate the emirate’s dynamic ecosystem from Hub71 startups to ADGM enterprises for authentic, impactful brand connections. </p>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="google adwords marketing company in dubai">
-                    <h4 class="mt-3">Tailored Strategies for Success</h4>
-                    <p>We craft fully customized digital strategies that address Abu Dhabi’s unique digital marketing challenges, including intense competition, cultural diversity, and evolving trends. Blending global best
-                         practices with hyper-local insights, our approach delivers sustainable visibility, higher engagement, and measurable growth turning your brand into a preferred choice across the UAE. </p>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-stretch">
-                <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="google adwords marketing agency dubai">
-                    <h4 class="mt-3">Overcoming Market Challenges</h4>
-                    <p>Our team excels in tackling Abu Dhabi’s specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven,
-                         culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="tools-section">
-    <div class="sction-header">
-        <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
-        <p class="section-description text-md-start m-0 mb-5">
-            We are a leading digital marketing agency, crafting tailored strategies powered by the latest tools and cutting-edge technologies. We translate your business goals into measurable growth.
-        </p>
-    </div>
-    <div class="tools-container">
-        <div class="tools-list-wrapper">
-            <div class="tools-list">
-                <div class="tool-card" data-tool="gds">
-                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
-                    <span>Google Data Studio</span>
+    <div class="trusted-partner sp-50 dm-bg">
+        <div class="container">
+            <h2 class="text-center text-white mb-3">Your Trusted Digital Marketing Partner in Abu Dhabi</h2>
+            <p class="text-center text-white mb-5 mx-auto" style="max-width: 800px;">Selecting the right digital marketing partner in Abu Dhabi is essential to ensure your brand connects with the right audience, maximizes ROI, and achieves sustainable growth in a competitive market.</p>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/understand.png') ?>" alt="We Understand The Landscape">
+                        </div>
+                        <h3>We Understand The Landscape</h3>
+                        <p>With deep local digital marketing expertise in Abu Dhabi, we provide sharp Abu Dhabi market insights into cultural nuances, affluent consumer behaviors, multilingual demands, and regulatory challenges. This insider knowledge helps us navigate the emirate's dynamic ecosystem from Hub71 startups to ADGM enterprises for authentic, impactful brand connections.</p>
+                    </div>
                 </div>
-                <div class="tool-card" data-tool="ga">
-                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
-                    <span>Google Analytics</span>
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/tailored.png') ?>" alt="Tailored Strategies for Success">
+                        </div>
+                        <h3>Tailored Strategies for Success</h3>
+                        <p>We craft fully customized digital strategies that address Abu Dhabi's unique digital marketing challenges, including intense competition, cultural diversity, and evolving trends. Blending global best practices with hyper-local insights, our approach delivers sustainable visibility, higher engagement, and measurable growth turning your brand into a preferred choice across the UAE.</p>
+                    </div>
                 </div>
-                <div class="tool-card" data-tool="hubspot">
-                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
-                    <span>HubSpot</span>
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/overcoming.png') ?>" alt="Overcoming Market Challenges">
+                        </div>
+                        <h3>Overcoming Market Challenges</h3>
+                        <p>Our team excels in tackling Abu Dhabi's specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven, culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.</p>
+                    </div>
                 </div>
-                <div class="tool-card" data-tool="semrush">
-                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
-                    <span>SemRush</span>
-                </div>
-                <div class="tool-card" data-tool="surfer">
-                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
-                    <span>Surfer SEO</span>
-                </div>
-                <div class="tool-card" data-tool="mailchimp">
-                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
-                    <span>Mailchimp</span>
-                </div>
-                <div class="tool-card" data-tool="adroll">
-                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
-                    <span>AdRoll</span>
-                </div>
-                <div class="tool-card" data-tool="google-ads">
-                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
-                    <span>Google Ads</span>
-                </div>
-
-                <div class="tool-card" data-tool="meta-ads-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
-                    <span>Meta Ads Manager</span>
-                </div>
-                <div class="tool-card" data-tool="google-tag-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
-                    <span>Google Tag Manager</span>
-                </div>
-                <div class="tool-card" data-tool="hootsuite">
-                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
-                    <span>Hootsuite</span>
-                </div>
-
             </div>
         </div>
-
-        <div class="tool-description" id="tool-description">
-            <h3>Google Search Console</h3>
-            <p>
-                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
+    </div>
+    <div class="tools-section">
+        <div class="sction-header">
+            <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
+            <p class="section-description text-md-start m-0 mb-5">
+                We are a leading digital marketing agency, crafting tailored strategies powered by the latest tools and cutting-edge technologies. We translate your business goals into measurable growth.
             </p>
         </div>
+        <div class="tools-container">
+            <div class="tools-list-wrapper">
+                <div class="tools-list">
+                    <div class="tool-card" data-tool="gds">
+                        <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                        <span>Google Data Studio</span>
+                    </div>
+                    <div class="tool-card" data-tool="ga">
+                        <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                        <span>Google Analytics</span>
+                    </div>
+                    <div class="tool-card" data-tool="hubspot">
+                        <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                        <span>HubSpot</span>
+                    </div>
+                    <div class="tool-card" data-tool="semrush">
+                        <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                        <span>SemRush</span>
+                    </div>
+                    <div class="tool-card" data-tool="surfer">
+                        <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                        <span>Surfer SEO</span>
+                    </div>
+                    <div class="tool-card" data-tool="mailchimp">
+                        <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                        <span>Mailchimp</span>
+                    </div>
+                    <div class="tool-card" data-tool="adroll">
+                        <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                        <span>AdRoll</span>
+                    </div>
+                    <div class="tool-card" data-tool="google-ads">
+                        <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                        <span>Google Ads</span>
+                    </div>
+
+                    <div class="tool-card" data-tool="meta-ads-manager">
+                        <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
+                        <span>Meta Ads Manager</span>
+                    </div>
+                    <div class="tool-card" data-tool="google-tag-manager">
+                        <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
+                        <span>Google Tag Manager</span>
+                    </div>
+                    <div class="tool-card" data-tool="hootsuite">
+                        <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                        <span>Hootsuite</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tool-description" id="tool-description">
+                <h3>Google Search Console</h3>
+                <p>
+                    We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
+                </p>
+            </div>
+        </div>
+
     </div>
+    <?php include __DIR__ . '/../component/expert_team.php' ?>
 
-</section>
-
-<?php include __DIR__ . '/../component/expert_team.php' ?>
-
-<section class="dm-counter-sec sp-50 dm-bg">
-    <div class="container">
-        <div class="row gx-md-0">
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center">
-                    <span class="dm-count-num">1000+</span>
-                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
-                </div>
+    <div class="our-statistics sp-50 dm-bg">
+        <div class="container">
+            <div class="stats-bg-box" style="background: url('<?= base_url('assets/images/abudhabi-statics.webp') ?>') no-repeat center center/cover;">
+                <h2 class="text-center text-white">Our Statistics</h2>
             </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">900+</span>
-                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+            <div class="row g-4 stats-cards-row">
+                <div class="col-lg-3 col-6">
+                    <div class="stat-card" data-aos="zoom-in">
+                        <div class="stat-content">
+                            <span class="stat-num">350+</span>
+                            <p class="stat-label">Campaigns Executed</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
-                    <span class="dm-count-num">12+</span>
-                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+                <div class="col-lg-3 col-6">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-content">
+                            <span class="stat-num">180+</span>
+                            <p class="stat-label">Satisfied Clients</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">100+</span>
-                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
+                <div class="col-lg-3 col-6">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-content">
+                            <span class="stat-num">10+</span>
+                            <p class="stat-label">Years of Expertise</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-content">
+                            <span class="stat-num">600+</span>
+                            <p class="stat-label">Cups of Coffee</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
-
+    <div class="sp-50 dm-case-studies-section dm-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="sticky-case-study-left">
+                        <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                        <h2 class="text-white mb-4">Case Studies That Showcase Digital Marketing Success</h2>
+                        <p class="text-white-50 fs-20 mb-3">Explore how our strategic approach and data-driven execution have transformed business challenges into measurable growth for global brands.</p>
+                        <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="scrollable-case-study-right">
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
+                                    <strong>Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/e-commerce/">Sand Dollar - Ecommerce</a></h3>
+                                <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
+                                    <strong>Branding & Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/travel-agency/">TravelX</a></h3>
+                                <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
+                                    <strong>Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                                <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
+                                    <strong>Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                                <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
+                                    <strong>Website & Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                                <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
+                                    <strong>Website & Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                                <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-scroll-item">
+                            <div class="neww-case-stuides-main">
+                                <div class="case-study-img-wrapper">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
+                                    <strong>Branding & Digital Marketing</strong>
+                                </div>
+                                <h3><a href="/case-study/sherpa-communications/">Sherpa Communications</a></h3>
+                                <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</section>
 
-<section class="sp-50 dm-blog-section">
-    <div class="container">
-        <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-black mb-4 text-md-start text-center ">Proven Digital Marketing Success <br>Our Abu Dhabi Case Studies
+    <div class="dm-grow-section dm-bg sp-50">
+        <div class="container">
+            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with BrandStory,<br>
+                Dubai’s Top Digital Marketing Agency
+
             </h2>
-        </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="growimg position-relative mb-lg-0 mb-3">
+                        <img class="w-100" src="<?= base_url('assets/images/contact-abudhabi.webp') ?>" alt="Contact for Digital Marketing Services in Dubai">
+                        <div class="growimg-cnt">
+                            <p class="mb-5 text-white fs-20">Uplift your digital presence, increase sales, and maximize ROAS with Google-certified digital marketing experts. Get a Free Consultation and a Comprehensive Audit to uncover your growth opportunities.</p>
+                            <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
 
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Sand Dollar - Ecommerce</h3>
-                            <p class="fs-20 text-black">A leading E-commerce business in UAE aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-2.webp">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3 class="text-black">TravelX</h3>
-                            <p class="fs-20 text-black">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Crystal Plaza</h3>
-                            <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai, Dubai Marina, and Abu Dhabi approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-4.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">NIMS School</h3>
-                            <p class="fs-20 text-black">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-5.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">Wipro Infrastructure Engineering</h3>
-                            <p class="fs-20 text-black">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-6.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">NanoPrecise Sci Corp</h3>
-                            <p class="fs-20 text-black">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3 class="text-black">Sherpa Communications</h3>
-                            <p class="fs-20 text-black">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
-        </div>
-    </div>
-</section>
-
-<section class="sp-50 bg-white">
-    <div class="container">
-        <div class="row gx-md-5 justify-content-center">
-            <div class="col-md-3 col-6">
-                <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank">
-                    <img class="w-100" src="/assets/images/service/ppc/ppc-dubai-partner1.png">
-                </a>
-            </div>
-            <div class="col-md-3 col-6">
-                <img class="w-100" src="/assets/images/service/ppc/ppc-dubai-partner3.png">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="dm-grow-section sp-50">
-    <div class="container">
-        <h2 class="mb-lg-5 mb-4 text-md-start text-center">Maximize Your ROI with Expert
-            <span class="db">Digital Marketing Services in Abu Dhabi</span>
-        </h2>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="growimg position-relative mb-lg-0 mb-md-3 mb-5">
-                    <img class="w-100 radius-20" src="/assets/images/service/ppc/roi-expert.png" alt="Contact for Digital Marketing Services in Dubai">
-                    <div class="growimg-cnt">
-                        <p class="mb-md-5 mb-3 fs-20 text-white">Get in touch with our marketing experts to drive traffic, generate leads, and increase sales for your business. We are a Google partner agency to help your business grow with digital advertising and <a href="/">digital marketing.</a></p>
-                        <div class="grow-btn d-flex">
-                            <a href="/contact/">Talk to Our Experts</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="grow-form-main">
-                    <?php $textrow = 6 ?>
-                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                <div class="col-lg-6">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <div class="dm-faq-section spb-50">
+        <div class="container">
+            <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answred</h2>
+            <div class="dm-faq-main max-1000">
+                <div class="accordion accordion-flush" id="accordionFlushExample1">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingOne1-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1-1" aria-expanded="false" aria-controls="flush-collapseOne1-1">
+                                How Does Digital Marketing Support Business Growth in Abu Dhabi?
+                            </button>
+                        </h4>
+                        <div id="flush-collapseOne1-1" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1-1" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Digital marketing helps businesses in Abu Dhabi build visibility, attract relevant audiences, and convert interest into
+                                    leads through a mix of search, social, content, and performance channels.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingTwo1-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1-2" aria-expanded="false" aria-controls="flush-collapseTwo1-2">
+                                Which Digital Marketing Channels Work Best for Abu Dhabi Businesses?
+                            </button>
+                        </h4>
+                        <div id="flush-collapseTwo1-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1-2" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">The most effective channels depend on your industry and goals, but commonly include SEO,
+                                    social media marketing, paid advertising, content marketing, and email campaigns tailored to local audience behavior.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingThree1-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1-3" aria-expanded="false" aria-controls="flush-collapseThree1-3">
+                                How Is Local Market Understanding Important in Digital Marketing?
+                            </button>
+                        </h4>
+                        <div id="flush-collapseThree1-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree1-3" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Local insights help align campaigns with cultural preferences, language nuances, search behavior, and
+                                    buying intent, making digital strategies more effective in Abu Dhabi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingfour1-4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour1-4" aria-expanded="false" aria-controls="flush-collapsefour1-4">
+                                How Long Does It Take to See Results from Digital Marketing?
+                            </button>
+                        </h4>
+                        <div id="flush-collapsefour1-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour1-4" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Timelines vary by channel. Paid campaigns can generate quicker results, while SEO and content marketing
+                                    build sustained growth over time through consistent optimization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingfive1-5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive1-5" aria-expanded="false" aria-controls="flush-collapsefive1-5">
+                                Can Digital Marketing Help Reach Both Local and Regional Audiences?
+                            </button>
+                        </h4>
+                        <div id="flush-collapsefive1-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive1-5" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Yes, we craft well-planned digital strategies to target local audiences in Abu Dhabi while
+                                    also expanding reach across the UAE and the wider MENA region.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingsix1-6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix1-6" aria-expanded="false" aria-controls="flush-collapsesix1-6">
+                                How Do You Measure the Success of Digital Marketing Campaigns?
+                            </button>
+                        </h4>
+                        <div id="flush-collapsesix1-6" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-6" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Digital marketing campaign success is tracked using metrics such as traffic quality, engagement rates, lead generation, conversion
+                                    performance, and return on investment across platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-headingsix1-7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix1-7" aria-expanded="false" aria-controls="flush-collapsesix1-7">
+                                Is Digital Marketing Suitable for Startups and Enterprises?
+                            </button>
+                        </h4>
+                        <div id="flush-collapsesix1-7" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-7" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Digital marketing strategies are scalable and can be customized to suit startups, growing businesses, and large
+                                    enterprises with different objectives and budgets.</p>
+                            </div>
+                        </div>
+                    </div>
 
-<section class="dm-faq-section spb-50">
-    <div class="container">
-        <h2 class="text-center mb-lg-5 mb-4">Your Questions Answred</h2>
-        <div class="dm-faq-main max-1000">
-            <div class="accordion accordion-flush" id="accordionFlushExample1">
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingOne1-1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1-1" aria-expanded="false" aria-controls="flush-collapseOne1-1">
-                            How Does Digital Marketing Support Business Growth in Abu Dhabi?
-                        </button>
-                    </h4>
-                    <div id="flush-collapseOne1-1" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1-1" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Digital marketing helps businesses in Abu Dhabi build visibility, attract relevant audiences, and convert interest into
-                                leads through a mix of search, social, content, and performance channels.</p>
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                                How Do Digital Marketing Strategies Adapt to Changing Trends?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">We create digital marketing campaigns that are continuously analyzed and optimized using data-driven insights,
+                                    allowing strategies to adapt seamlessly to customer behavior, platform updates, and changing market dynamics.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingTwo1-2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1-2" aria-expanded="false" aria-controls="flush-collapseTwo1-2">
-                            Which Digital Marketing Channels Work Best for Abu Dhabi Businesses?
-                        </button>
-                    </h4>
-                    <div id="flush-collapseTwo1-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1-2" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">The most effective channels depend on your industry and goals, but commonly include SEO,
-                                social media marketing, paid advertising, content marketing, and email campaigns tailored to local audience behavior.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingThree1-3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1-3" aria-expanded="false" aria-controls="flush-collapseThree1-3">
-                            How Is Local Market Understanding Important in Digital Marketing?
-                        </button>
-                    </h4>
-                    <div id="flush-collapseThree1-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree1-3" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Local insights help align campaigns with cultural preferences, language nuances, search behavior, and
-                                buying intent, making digital strategies more effective in Abu Dhabi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingfour1-4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour1-4" aria-expanded="false" aria-controls="flush-collapsefour1-4">
-                            How Long Does It Take to See Results from Digital Marketing?
-                        </button>
-                    </h4>
-                    <div id="flush-collapsefour1-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour1-4" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Timelines vary by channel. Paid campaigns can generate quicker results, while SEO and content marketing
-                                build sustained growth over time through consistent optimization.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingfive1-5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive1-5" aria-expanded="false" aria-controls="flush-collapsefive1-5">
-                            Can Digital Marketing Help Reach Both Local and Regional Audiences?
-                        </button>
-                    </h4>
-                    <div id="flush-collapsefive1-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive1-5" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Yes, we craft well-planned digital strategies to target local audiences in Abu Dhabi while
-                                also expanding reach across the UAE and the wider MENA region.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingsix1-6">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix1-6" aria-expanded="false" aria-controls="flush-collapsesix1-6">
-                            How Do You Measure the Success of Digital Marketing Campaigns?
-                        </button>
-                    </h4>
-                    <div id="flush-collapsesix1-6" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-6" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Digital marketing campaign success is tracked using metrics such as traffic quality, engagement rates, lead generation, conversion
-                                performance, and return on investment across platforms.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-headingsix1-7">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix1-7" aria-expanded="false" aria-controls="flush-collapsesix1-7">
-                            Is Digital Marketing Suitable for Startups and Enterprises?
-                        </button>
-                    </h4>
-                    <div id="flush-collapsesix1-7" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-7" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Digital marketing strategies are scalable and can be customized to suit startups, growing businesses, and large
-                                enterprises with different objectives and budgets.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- FAQ 1 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
-                            How Do Digital Marketing Strategies Adapt to Changing Trends?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">We create digital marketing campaigns that are continuously analyzed and optimized using data-driven insights,
-                                allowing strategies to adapt seamlessly to customer behavior, platform updates, and changing market dynamics.</p>
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                                What Role Does Content Play in Digital Marketing?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Content helps educate, engage, and influence audiences while supporting SEO, social media, and conversion-focused campaigns.
+                                    High-quality, relevant content builds trust and drives meaningful interactions across digital channels.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 2 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
-                            What Role Does Content Play in Digital Marketing?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Content helps educate, engage, and influence audiences while supporting SEO, social media, and conversion-focused campaigns.
-                                High-quality, relevant content builds trust and drives meaningful interactions across digital channels.</p>
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                Why Is a Full-Service Digital Marketing Approach Important?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">An integrated approach ensures all channels work together, improving consistency, efficiency, and overall campaign performance. As a
+                                    full-service digital agency in Abu Dhabi, BrandStory delivers end-to-end solutions that align strategy, creativity, and execution across every touchpoint.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 3 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
-                            Why Is a Full-Service Digital Marketing Approach Important?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">An integrated approach ensures all channels work together, improving consistency, efficiency, and overall campaign performance. As a
-                                full-service digital agency in Abu Dhabi, BrandStory delivers end-to-end solutions that align strategy, creativity, and execution across every touchpoint.</p>
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                Why Choose a Digital Marketing Agency with Local Expertise in Abu Dhabi?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">A locally experienced agency understands market dynamics, competition, and audience expectations, leading to stronger campaign relevance
+                                    and better results. With deep regional expertise, BrandStory helps businesses translate local insights into impactful digital strategies.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 4 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
-                            Why Choose a Digital Marketing Agency with Local Expertise in Abu Dhabi?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">A locally experienced agency understands market dynamics, competition, and audience expectations, leading to stronger campaign relevance
-                                and better results. With deep regional expertise, BrandStory helps businesses translate local insights into impactful digital strategies.</p>
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                How Does BrandStory Approach Digital Marketing in Abu Dhabi?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">BrandStory builds data-driven, goal-focused digital strategies designed to deliver measurable growth, long-term visibility, and meaningful audience engagement.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 5 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
-                            How Does BrandStory Approach Digital Marketing in Abu Dhabi?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">BrandStory builds data-driven, goal-focused digital strategies designed to deliver measurable growth, long-term visibility, and meaningful audience engagement.</p>
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                Can Digital Marketing Improve Brand Authority Over Time?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">Yes, consistent digital efforts strengthen brand visibility, credibility, and trust, helping businesses establish long-term authority in their industry.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 6 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading6">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
-                            Can Digital Marketing Improve Brand Authority Over Time?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">Yes, consistent digital efforts strengthen brand visibility, credibility, and trust, helping businesses establish long-term authority in their industry.</p>
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                Why Choose BrandStory as Your Digital Marketing Agency in Abu Dhabi?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample1">
+                            <div class="accordion-body">
+                                <p class="fs-20 text-white mb-0">BrandStory combines local market understanding, data-driven strategies, and full-service digital expertise to deliver measurable growth. We focus on
+                                    transparency, performance, and long-term results, building tailored digital marketing solutions that align with your business goals and connect effectively with Abu
+                                    Dhabi audiences.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- FAQ 7 -->
-                <div class="accordion-item">
-                    <h4 class="accordion-header" id="flush-heading7">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
-                            Why Choose BrandStory as Your Digital Marketing Agency in Abu Dhabi?
-                        </button>
-                    </h4>
-                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">
-                            <p class="fs-16 mb-0">BrandStory combines local market understanding, data-driven strategies, and full-service digital expertise to deliver measurable growth. We focus on
-                                transparency, performance, and long-term results, building tailored digital marketing solutions that align with your business goals and connect effectively with Abu
-                                Dhabi audiences.</p>
-                        </div>
-                    </div>
                 </div>
-
             </div>
         </div>
     </div>
+    <?php include __DIR__ . '/../component/services/digital-links.php' ?>
 </section>
-
-<?php include __DIR__ . '/../component/services/digital-links.php' ?>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $(".strategy-title").on("click", function() {
-            // Remove 'active' from all and add it to the clicked one
-            $(".strategy-title").removeClass("active");
-            $(this).addClass("active");
-
-            // Get the unique class name (e.g., 'strategy1', 'strategy2'...)
-            var classList = $(this).attr("class").split(/\s+/);
-            var targetClass = classList.find(c => c.startsWith("strategy") && c !== "strategy-title");
-
-            // Hide all and show the matched one
-            $(".strategy-process-main").hide();
-            $(".strategy-process-main." + targetClass).show();
-        });
-
-        // Initial state: show only the first
-        $(".strategy-process-main").hide();
-        $(".strategy-process-main.strategy1").show();
-    });
-</script>
-
-<?php
-// Default Services List - can be overwritten by passing $stickyServices to the view
-$stickyServices = $stickyServices ?? [
-    ['label' => 'PPC Services', 'url' => '/ppc-company-in-abu-dhabi'],
-    ['label' => 'Email Marketing', 'url' => '/email-marketing-company-in-abu-dhabi'],
-    ['label' => 'SEO Services', 'url' => '/seo-agency-in-abu-dhabi'],
-    ['label' => 'Social Media Marketing', 'url' => '/social-media-marketing-company-in-abu-dhabi'],
-    ['label' => 'Digital Marketing', 'url' => '/digital-marketing-agency-in-abu-dhabi'],
-    ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
-];
-?>
 
 <style>
-    .bg-burjkhalifa::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url('/assets/images/abi-shabi-digital-marketing-agency.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0.6;
-        z-index: -1;
-        background-attachment: fixed;
+    .digital-marketing-agency-in-abu-dhabi {
+        .banner {
+            background: url('/assets/images/banner-abudhabi.webp') no-repeat top center/cover;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 0px;
+
+            .content {
+                padding: 100px 160px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+        }
+
+        .unique-approach {
+            background: url('/assets/images/approch-abudhabi.webp') no-repeat center center/cover;
+            background-attachment: fixed;
+            min-height: 550px;
+            display: flex;
+            align-items: center;
+
+            .approach-card {
+                background: #fff;
+                padding: 40px;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                border: 1px solid #1A1B21;
+
+                h2 {
+                    color: #855BFF;
+                    font-weight: 700;
+                    font-size: 36px;
+                }
+
+                p {
+                    color: #000;
+                    line-height: 1.7;
+                }
+            }
+        }
+
+        .marketing-services {
+            padding: 80px 0;
+
+
+            .service-card {
+                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
+                border: 1px solid #845ef770;
+                padding: 40px 20px;
+                border-radius: 20px;
+                height: 100%;
+                transition: all 0.4s ease;
+                display: flex;
+                flex-direction: column;
+
+                .icon-box {
+                    width: 80px;
+                    height: 80px;
+                    background: #fff;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    transition: all 0.4s ease;
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                        transition: all 0.4s ease;
+                    }
+                }
+
+                h3 {
+                    color: #fff;
+                    font-size: 21px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    transition: all 0.4s ease;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 1.6;
+                    margin-bottom: 25px;
+                    flex-grow: 1;
+                }
+
+                .know-more {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    transition: all 0.4s ease;
+
+                    .arrow {
+                        font-size: 22px;
+                        transition: all 0.4s ease;
+                    }
+                }
+
+                &:hover {
+                    border-color: #855BFF;
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.2);
+                    background: #fff;
+
+                    .icon-box {
+                        background: #855BFF;
+
+                        img {
+                            filter: brightness(0) invert(1);
+                        }
+
+                    }
+
+                    p {
+                        color: #0A0B0F;
+                    }
+
+                    h3 {
+                        color: #855BFF;
+                    }
+
+                    .know-more {
+                        color: #855BFF;
+
+                        .arrow {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+
+        .trusted-partner {
+
+
+            .partner-card {
+                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
+                padding: 30px 20px;
+                border-radius: 20px;
+                height: 100%;
+                transition: all 0.4s ease;
+                border: 1px solid #1A1B21;
+
+                .partner-img {
+                    text-align: center;
+                    margin-bottom: 30px;
+
+                    img {
+                        max-width: 100%;
+                        height: 156px;
+                        object-fit: contain;
+                        filter: grayscale(1);
+                        transition: all 0.5s ease;
+                    }
+                }
+
+                h3 {
+                    color: #fff;
+                    margin-bottom: 20px;
+                    font-size: 22px;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    margin-bottom: 0;
+                    font-weight: 400;
+                    margin-top: 0;
+                }
+
+                &:hover {
+                    border-color: #845ef770;
+                    transform: translateY(-5px);
+                    background: #fff;
+
+                    h3 {
+                        color: #855BFF;
+                    }
+
+                    p {
+                        color: #000;
+                    }
+
+                    .partner-img img {
+                        filter: grayscale(0);
+                    }
+                }
+            }
+        }
+
+        .strategy-process {
+            .strategy-main-title {
+
+                position: sticky;
+                top: 100px;
+            }
+
+            .strategy-card {
+                background: url('/assets/images/abidhai-process-bg.webp') no-repeat center center/cover;
+                padding: 40px;
+                border-radius: 20px;
+                border: 1px solid #1A1B21;
+                height: 100%;
+                transition: all 0.4s ease;
+
+                h3 {
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #fff;
+                    line-height: 1.6;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    padding-left: 20px;
+                    margin-bottom: 0;
+
+
+                    li {
+                        color: #fff;
+                        font-size: 18px;
+                        margin-bottom: 15px;
+                        margin-left: 20px;
+
+                        &::marker {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-color: #855BFF;
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.1);
+                }
+            }
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        @media (max-width: 991px) {
+
+            .strategy-process .strategy-main-title {
+                position: static;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+
+        .our-statistics {
+            .stats-bg-box {
+                padding: 100px 0 150px;
+                border-radius: 30px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+                h2 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+
+            .stats-cards-row {
+                margin-top: -100px;
+                padding: 0 20px;
+            }
+
+            .stat-card {
+                background: #fff;
+                border-radius: 20px;
+                padding: 40px 20px;
+                text-align: center;
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform 0.3s ease;
+                transform: translateY(-5px);
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                .stat-num {
+                    display: block;
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #855BFF;
+                    margin-bottom: 10px;
+                    line-height: 1;
+                }
+
+                .stat-label {
+                    color: #111;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dm-case-studies-section {
+                position: relative;
+                padding: 50px 0;
+            }
+
+            .banner .content {
+                padding: 50px 20px 0px;
+            }
+
+            .unique-approach {
+                min-height: auto;
+                padding: 50px 0;
+                background-attachment: scroll;
+
+                .approach-card {
+                    padding: 30px;
+
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .marketing-services {
+                padding: 50px 0;
+
+                .service-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .trusted-partner {
+                padding: 50px 0;
+
+                h2 {
+                    font-size: 28px;
+                }
+
+                .partner-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .strategy-process {
+                padding: 50px 0;
+
+                .strategy-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .our-statistics {
+                padding: 40px 0;
+
+                .stats-bg-box {
+                    padding: 60px 0 100px;
+
+                    h2 {
+                        font-size: 28px;
+                    }
+                }
+
+                .stats-cards-row {
+                    margin-top: -60px;
+                    padding: 0 10px;
+                }
+
+                .stat-card {
+                    padding: 25px 10px;
+
+                    .stat-num {
+                        font-size: 32px;
+                    }
+
+                    .stat-label {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+
+        .other--seo-links {
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                        margin-left: 10px;
+                    }
+
+                    &::before {
+                        content: url("/assets/images/icons/location.svg");
+                    }
+                }
+
+
+            }
+        }
+
+
+
     }
 </style>
+<script>
+    const descriptions = {
+
+        gds: {
+            title: "Google Data Studio",
+            text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
+        },
+        ga: {
+            title: "Google Analytics",
+            text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
+        },
+        hubspot: {
+            title: "HubSpot",
+            text: "From email automation to lead scoring, we use HubSpot Marketing to power smarter marketing strategies. This helps us personalize customer journeys and boost conversions."
+        },
+        semrush: {
+            title: "SemRush",
+            text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
+        },
+        surfer: {
+            title: "Surfer SEO",
+            text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
+        },
+        mailchimp: {
+            title: "Mailchimp",
+            text: "We harness Mailchimp to design and automate engaging email campaigns. From audience segmentation to analytics, we are well-versed in all the best practices for email marketing."
+        },
+        adroll: {
+            title: "AdRoll",
+            text: "We use AdRoll to run powerful retargeting and display ad campaigns. From cart abandoners to casual browsers, we bring them back to convert."
+        },
+        'google-ads': {
+            title: "Google Ads",
+            text: "We use Google Ads for high-ROI search, display, and video campaigns that target the right audience with precision. "
+        },
+        'meta-ads-manager': {
+            title: "Meta Ads Manager",
+            text: "Meta Ads Manager helps us run data-driven campaigns across Facebook and Instagram to maximize reach, engagement, and conversions."
+        },
+        "google-tag-manager": {
+            title: "Google Tag Manager",
+            text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
+        },
+        hootsuite: {
+            title: "Hootsuite",
+            text: "Hootsuite helps us effectively schedule, manage, and monitor multi-platform social media campaigns with ease and streamlines the workflow."
+        }
+    };
+
+    const cards = document.querySelectorAll('.tool-card');
+    const descBox = document.getElementById('tool-description');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            const key = card.getAttribute('data-tool');
+            descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
+        });
+    });
+
+    // Set default active
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
+
+    // Niches Accordion JS
+    const nicheItems = document.querySelectorAll('.niche-item');
+    const nicheImagesBox = document.getElementById('niches-images');
+    const serviceTitleLink = document.querySelector('.services-title a');
+
+    nicheItems.forEach(item => {
+        item.addEventListener('click', function() {
+            if (this.classList.contains('active')) return;
+
+            // Update active state
+            nicheItems.forEach(i => {
+                i.classList.remove('active');
+                i.querySelector('.niche-toggle').textContent = '+';
+            });
+            this.classList.add('active');
+            this.querySelector('.niche-toggle').textContent = '−';
+
+            // Change images with fade effect
+            const images = JSON.parse(this.getAttribute('data-images'));
+            const imgElems = nicheImagesBox.querySelectorAll('.niche-image-box img');
+
+            imgElems.forEach((img, index) => {
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    img.src = '<?= base_url() ?>/' + images[index];
+                    img.style.opacity = '1';
+                    img.style.transform = 'scale(1)';
+                }, 300);
+            });
+
+            // Update Dynamic Link in Heading
+            const serviceLink = this.getAttribute('data-service-link');
+            const serviceText = this.getAttribute('data-service-text');
+            if (serviceTitleLink) {
+                serviceTitleLink.href = serviceLink;
+                serviceTitleLink.textContent = serviceText;
+            }
+            // Improved Scroll Logic: Only scroll on mobile if item is not fully visible
+            const isMobile = window.innerWidth <= 991;
+            if (isMobile) {
+                setTimeout(() => {
+                    const headerHeight = document.querySelector('header.header')?.offsetHeight || 80;
+                    const rect = this.getBoundingClientRect();
+                    const elementTop = rect.top + window.pageYOffset;
+
+                    // Only scroll if the top of the item is not nicely positioned
+                    window.scrollTo({
+                        top: elementTop - headerHeight - 20,
+                        behavior: 'smooth'
+                    });
+                }, 450); // Wait for transition to be nearly complete
+            }
+        });
+    });
+</script>

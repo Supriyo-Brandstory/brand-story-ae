@@ -602,7 +602,7 @@ class FrontendController extends Controller
     public function digitalmarketingagencyinabudhabi()
     {
         $meta = [
-            'classname' => 'dm-page service-page ppc'
+            // 'classname' => 'dm-page service-page ppc'
         ];
         return $this->view('others-pages/digital-marketing-agency-in-abu-dhabi', ['meta' => $meta]);
     }
