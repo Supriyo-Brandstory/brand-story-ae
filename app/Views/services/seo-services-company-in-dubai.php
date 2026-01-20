@@ -2,10 +2,10 @@
     <div class="banner-overlay">
         <div class="hero-content">
 
-            <h1 class="mb-3 text-white">SEO AGENCY IN DUBAI <br>FOR GROWTH, VISIBILITY & SALES</h1>
+            <h1 class="mb-3 text-white">SEO Agency Dubai With <br>Proven Local SEO Expertise</h1>
 
             <p class="hero-desc">
-                Reach Google’s top spot in Dubai with our SEO services and stay there long-term, dominating your competition.
+                Reach the top of Google in Dubai and dominate with our SEO strategies built for lasting impact.
             </p>
 
             <div class="quote-dropdown-wrapper">
@@ -35,6 +35,73 @@
                 consistent organic growth, and measurable business impact for brands across <strong>Dubai and the UAE</strong>.
             </p>
 
+        </div>
+    </div>
+</section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/content-marketing-agency-dubai" class="seo-marquee-item">Content Marketing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Local SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Mobile SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
+
+<section class="performance-driven sp-50 dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Rank Higher. Attract Leads.
+            <span class="db">Grow Faster with SEO in Dubai</span>
+        </h2>
+        <div class="row">
+            <div class="col-lg-6">
+
+
+                <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
+                </div>
+
+                <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 align-self-center">
+                <ul class="mb-0">
+                    <li class="text-white mb-3 fs-20">Take your business to the new heights with the BEST SEO Dubai agency, turning Google’s first page ranking into your permanent address. We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
+                    <li class="text-white mb-3 fs-20">We are among the most trusted SEO companies in Dubai delivering lasting digital dominance for businesses. Since 2012, we have generated millions of revenue for our clients by ranking their website for the most competitive keywords on Google. </li>
+
+                    <li class="text-white mb-3 fs-20">Our SEO services are trusted by top-tier businesses in Dubai. At BrandStory, we put your business first, creating data-driven SEO strategies that make your brand shine above the competition. We don’t simply optimize websites, we engineer high-visibility search experiences that attract, engage, and convert the right audience. Let's turn your online presence into your strongest competitive advantage.</li>
+                </ul>
+                <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
+
+            </div>
         </div>
     </div>
 </section>
@@ -421,38 +488,7 @@
 ?>
 
 
-<section class="performance-driven sp-50 dm-bg">
-    <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Rank Higher. Attract Leads.
-            <span class="db">Grow Faster with SEO in Dubai</span>
-        </h2>
-        <div class="row">
-            <div class="col-lg-6">
 
-
-                <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
-                </div>
-
-                <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
-                </div>
-            </div>
-
-
-            <div class="col-lg-6 align-self-center">
-                <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">Take your business to the new heights with the BEST SEO Dubai agency, turning Google’s first page ranking into your permanent address. We are a professional team of <b>100+ experts</b> based in Dubai, offering SEO services in Dubai and the UAE for <b>12+ years</b>, <b>serving 400+ clients</b> in the region.</li>
-                    <li class="text-white mb-3 fs-20">We are among the most trusted SEO companies in Dubai delivering lasting digital dominance for businesses. Since 2012, we have generated millions of revenue for our clients by ranking their website for the most competitive keywords on Google. </li>
-
-                    <li class="text-white mb-3 fs-20">Do you need proof? Check the latest <a href="/case-study/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff"><b>client success stories</b></a>. Our SEO services are trusted and proudly recognized by top-tier businesses in Dubai. At BrandStory, we put your business first, creating data-driven SEO strategies that make your brand shine above the competition. We don’t simply optimize websites, we engineer high-visibility search experiences that attract, engage, and convert the right audience.</li>
-                </ul>
-                <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="new-client-section">
     <div class="container-fluid">

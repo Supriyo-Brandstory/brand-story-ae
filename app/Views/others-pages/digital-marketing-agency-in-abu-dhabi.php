@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/about-abu-dhabi.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
+                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/about-abu-dhabi-1.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
                     </div>
 
                     <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
@@ -30,9 +30,9 @@
                     <ul class="mb-0">
                         <li class="text-white mb-2 fs-20">BrandStory has been delivering digital marketing and growth engineering services to clients across Dubai and the UAE since 2014. With an expert team of digital marketers, we power up global brands through search engine optimization, Google Ads and Bing Ads, Social Media, influencer marketing, website design and development services.</li>
                         <li class="text-white fs-20">Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding, and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li>
-                    </ul>
+                    </ul><br>
 
-
+                    <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
                 </div>
             </div>
         </div>
