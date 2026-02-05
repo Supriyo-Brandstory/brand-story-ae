@@ -1723,6 +1723,20 @@ class FrontendController extends Controller
 
             $mail->send();
 
+            // Save to Database
+            $enquiryModel = new \App\Models\Enquiry();
+            $enquiryModel->save([
+                'type' => 'contact',
+                'name' => $name,
+                'email' => $email,
+                'phone' => "+" . $country_code . " " . $phone,
+                'company' => $company,
+                'designation' => $designation,
+                'services' => $services,
+                'budget' => $budget,
+                'message' => $message
+            ]);
+
             // Push to Monday.com CRM
             $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
             $boardId = '2040169984';
@@ -1949,6 +1963,272 @@ class FrontendController extends Controller
             echo json_encode(["status" => "success", "message" => "Your application has been sent successfully!"]);
         } catch (\Exception $e) {
             echo json_encode(["status" => "error", "message" => "Failed to send application. Please try again later."]);
+        }
+    }
+
+    public function seoCalculator()
+    {
+        $meta = [
+            'classname' => 'seo-calculator-page',
+            'title' => 'SEO ROI Calculator | BrandStory AE',
+            'description' => 'Calculate your potential SEO ROI and traffic growth with BrandStory AE\'s SEO Calculator.'
+        ];
+        return $this->view('seo-calculator', ['meta' => $meta]);
+    }
+
+    public function submitSeoCalculator()
+    {
+        header('Content-Type: application/json');
+
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            echo json_encode(["status" => "error", "message" => "Invalid request method."]);
+            return;
+        }
+
+        // Validate Required Fields
+        if (empty($_POST['phone']) || empty($_POST['email'])) {
+            echo json_encode(["status" => "error", "message" => "Email and phone are required."]);
+            return;
+        }
+
+        // Honeypot check
+        if (!empty($_POST['honeypot'])) {
+            echo json_encode(["status" => "error", "message" => "Spam detected."]);
+            return;
+        }
+
+        // Validate CSRF Token
+        if (empty($_POST['_token']) || empty($_SESSION['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $_POST['_token'])) {
+            echo json_encode(["status" => "error", "message" => "Invalid CSRF token."]);
+            return;
+        }
+
+        // Gather Contact data
+        $name = htmlspecialchars(trim($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+        $phone = htmlspecialchars(trim($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $website = htmlspecialchars(trim($_POST['website'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+        // New Calculator Data
+        $targetAudience = htmlspecialchars(trim($_POST['target_audience'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $pages = htmlspecialchars(trim($_POST['pages_to_optimize'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $age = htmlspecialchars(trim($_POST['website_age'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $locations = htmlspecialchars(trim($_POST['locations'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $agg = htmlspecialchars(trim($_POST['aggressiveness'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $comp = htmlspecialchars(trim($_POST['competition_level'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $rank = htmlspecialchars(trim($_POST['keyword_rank'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $estRange = htmlspecialchars(trim($_POST['est_price_range'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+        $httpReferer = htmlspecialchars($_SERVER['HTTP_REFERER'] ?? '', ENT_QUOTES, 'UTF-8');
+
+        // Compose email
+        $subject = "brandstory.ae | SEO Cost Calculator Lead | $name";
+        $emailBody = "Hello,<br><br>
+        You have a new lead from the SEO Cost Calculator.<br><br>
+        <b>Contact Details:</b><br>
+        Name: $name<br>
+        Email: $email<br>
+        Phone: $phone<br>
+        Website: $website<br><br>
+        <b>Calculator Results:</b><br>
+        Estimated Monthly Investment: <b>$estRange</b><br><br>
+        <b>Form Inputs:</b><br>
+        Target Audience: $targetAudience<br>
+        Pages focus: $pages<br>
+        Website Age: $age<br>
+        Physical Locations: $locations<br>
+        Aggressiveness: $agg<br>
+        Industry Competition: $comp<br>
+        Current Keyword Ranking: $rank<br><br>
+        IP Address: {$_SERVER['REMOTE_ADDR']}<br>
+        Sent From: $httpReferer";
+
+        // Send Email using PHPMailer
+        $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
+        try {
+            $mail->isSMTP();
+            $mail->Host       = getenv('smtp_host');
+            $mail->SMTPAuth   = true;
+            $mail->Username   = getenv('smtp_username');
+            $mail->Password   = getenv('smtp_password');
+            $mail->SMTPSecure = getenv('smtp_secure');
+            $mail->Port       = getenv('smtp_port');
+
+            $mail->setFrom(getenv('smtp_from_email'), getenv('smtp_from_name'));
+            $mail->addAddress('leads@brandstory.in');
+            $mail->addCC('bala@brandstory.in');
+
+            $mail->isHTML(true);
+            $mail->Subject = $subject;
+            $mail->Body    = $emailBody;
+            $mail->AltBody = strip_tags($emailBody);
+            $mail->send();
+
+            // Save to Database
+            $enquiryModel = new \App\Models\Enquiry();
+            $enquiryModel->save([
+                'type' => 'seo_calculator',
+                'name' => $name,
+                'email' => $email,
+                'phone' => $phone,
+                'company' => $website,
+                'calculator_data' => json_encode([
+                    'target_audience' => $targetAudience,
+                    'pages_to_optimize' => $pages,
+                    'website_age' => $age,
+                    'locations' => $locations,
+                    'aggressiveness' => $agg,
+                    'competition_level' => $comp,
+                    'keyword_rank' => $rank,
+                    'est_price_range' => $estRange
+                ])
+            ]);
+
+            // Monday.com Integration
+            $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+            $boardId = '2040169984';
+            $groupId = 'group_mkx15g65';
+            $itemName = "SEO Cost Calc | " . $name . " | " . $website;
+
+            $columnValues = [
+                "lead_email" => ["email" => $email, "text" => $email],
+                "lead_phone" => ["phone" => $phone],
+                "long_text_mkspy9pz" => "SEO Cost Calc: Range=$estRange, Audience=$targetAudience, Pages=$pages, Age=$age, Loc=$locations, Agg=$agg, Comp=$comp, Rank=$rank",
+                "long_text_mkssakn4" => "SEO Cost Calculator",
+                "long_text_mkt2d6j" => $website
+            ];
+
+            $columnValuesJson = json_encode($columnValues);
+            $query = 'mutation {
+                create_item (
+                    board_id: "' . $boardId . '",
+                    group_id: "' . $groupId . '",
+                    item_name: "' . addslashes($itemName) . '",
+                    column_values: "' . addslashes($columnValuesJson) . '"
+                ) { id }
+            }';
+
+            $ch = curl_init('https://api.monday.com/v2');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json', 'Authorization: ' . $apiToken]);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(["query" => $query]));
+            curl_exec($ch);
+            curl_close($ch);
+
+            echo json_encode(["status" => "success", "message" => "Thank you! Your quote request has been sent.", "redirect_url" => route('thankyou')]);
+        } catch (\Exception $e) {
+            echo json_encode(["status" => "error", "message" => "Error: " . $e->getMessage()]);
+        }
+    }
+
+    public function digitalCostCalculator()
+    {
+        $meta = [
+            'classname' => 'digital-calculator-page',
+            'title' => 'Digital Agency Cost Calculator | BrandStory AE',
+            'description' => 'Calculate the hourly rate for digital agency services based on location, size, and expertise.'
+        ];
+        return $this->view('digital-cost-calculator', ['meta' => $meta]);
+    }
+
+    public function submitDigitalCostCalculator()
+    {
+        header('Content-Type: application/json');
+
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            echo json_encode(["status" => "error", "message" => "Invalid request method."]);
+            return;
+        }
+
+        if (empty($_POST['phone']) || empty($_POST['email'])) {
+            echo json_encode(["status" => "error", "message" => "Email and phone are required."]);
+            return;
+        }
+
+        if (!empty($_POST['honeypot'])) {
+            echo json_encode(["status" => "error", "message" => "Spam detected."]);
+            return;
+        }
+
+        if (empty($_POST['_token']) || empty($_SESSION['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $_POST['_token'])) {
+            echo json_encode(["status" => "error", "message" => "Invalid CSRF token."]);
+            return;
+        }
+
+        $name = htmlspecialchars(trim($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $email = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+        $phone = htmlspecialchars(trim($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+        $location = htmlspecialchars(trim($_POST['agency_location'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $size = htmlspecialchars(trim($_POST['agency_size'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $exp = htmlspecialchars(trim($_POST['experience_level'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $complexity = htmlspecialchars(trim($_POST['industry_complexity'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $urgency = htmlspecialchars(trim($_POST['timeline_urgency'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $estRate = htmlspecialchars(trim($_POST['est_hourly_rate'] ?? ''), ENT_QUOTES, 'UTF-8');
+        $services = htmlspecialchars(trim($_POST['services_text'] ?? 'None'), ENT_QUOTES, 'UTF-8');
+
+        $httpReferer = htmlspecialchars($_SERVER['HTTP_REFERER'] ?? '', ENT_QUOTES, 'UTF-8');
+
+        $subject = "brandstory.ae | Digital Cost Calculator Lead | $name";
+        $emailBody = "Hello,<br><br>
+        You have a new lead from the Digital Cost Calculator.<br><br>
+        <b>Contact Details:</b><br>
+        Name: $name<br>
+        Email: $email<br>
+        Phone: $phone<br><br>
+        <b>Calculator Results:</b><br>
+        Estimated Hourly Rate: <b>$estRate</b><br><br>
+        <b>Form Inputs:</b><br>
+        Agency Location: $location<br>
+        Agency Size: $size<br>
+        Experience Level: $exp<br>
+        Industry Complexity: $complexity<br>
+        Specialized Services: $services<br>
+        Timeline Urgency: $urgency<br><br>
+        IP Address: {$_SERVER['REMOTE_ADDR']}<br>
+        Sent From: $httpReferer";
+
+        $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
+        try {
+            $mail->isSMTP();
+            $mail->Host       = getenv('smtp_host');
+            $mail->SMTPAuth   = true;
+            $mail->Username   = getenv('smtp_username');
+            $mail->Password   = getenv('smtp_password');
+            $mail->SMTPSecure = getenv('smtp_secure');
+            $mail->Port       = getenv('smtp_port');
+
+            $mail->setFrom(getenv('smtp_from_email'), getenv('smtp_from_name'));
+            $mail->addAddress('leads@brandstory.in');
+            $mail->addCC('bala@brandstory.in');
+
+            $mail->isHTML(true);
+            $mail->Subject = $subject;
+            $mail->Body    = $emailBody;
+            $mail->AltBody = strip_tags($emailBody);
+            $mail->send();
+
+            $enquiryModel = new \App\Models\Enquiry();
+            $enquiryModel->save([
+                'type' => 'digital_calculator',
+                'name' => $name,
+                'email' => $email,
+                'phone' => $phone,
+                'calculator_data' => json_encode([
+                    'agency_location' => $location,
+                    'agency_size' => $size,
+                    'experience_level' => $exp,
+                    'industry_complexity' => $complexity,
+                    'services' => $services,
+                    'timeline_urgency' => $urgency,
+                    'est_hourly_rate' => $estRate
+                ])
+            ]);
+
+            echo json_encode(["status" => "success", "message" => "Thank you! Your quote request has been sent.", "redirect_url" => route('thankyou')]);
+        } catch (\Exception $e) {
+            echo json_encode(["status" => "error", "message" => "Error: " . $e->getMessage()]);
         }
     }
 }

@@ -100,6 +100,11 @@
                         <i class="bi bi-robot"></i> Robots.txt
                     </a>
                 </li>
+                <li>
+                    <a href="<?= route('admin.enquiries.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.enquiries') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-envelope-paper"></i> Enquiries
+                    </a>
+                </li>
                 <!-- <?php var_dump($currentRouteName); ?> -->
             </ul>
             <hr class="text-white-50">
@@ -166,6 +171,11 @@
                     <li>
                         <a href="<?= route('admin.robots.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.robots') !== false) ? 'active' : '' ?>">
                             <i class="bi bi-robot"></i> Robots.txt
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.enquiries.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.enquiries') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-envelope-paper"></i> Enquiries
                         </a>
                     </li>
                 </ul>

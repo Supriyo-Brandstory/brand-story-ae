@@ -43,6 +43,10 @@ Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@d
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
 Route::get('/conversion-rate-optimization-agency-dubai', 'FrontendController@conversionRateOptimizationAgencyDubai', 'conversionrateoptimizationagencydubai');
 Route::get('/clear-cache', 'FrontendController@clearCache', 'clear.cache');
+Route::get('/seo-calculator', 'FrontendController@seoCalculator', 'seo.calculator');
+Route::post('/seo-calculator/submit', 'FrontendController@submitSeoCalculator', 'seo.calculator.submit');
+Route::get('/digital-cost-calculator', 'FrontendController@digitalCostCalculator', 'digital.cost.calculator');
+Route::post('/digital-cost-calculator/submit', 'FrontendController@submitDigitalCostCalculator', 'digital.cost.calculator.submit');
 
 // industries
 Route::group(['prefix' => '/industries'], function () {
@@ -309,5 +313,10 @@ Route::group(['prefix' => '/admin'], function () {
         // Robots.txt Management
         Route::get('/robots', 'Admin\AdminRobotsController@index', 'admin.robots.index');
         Route::post('/robots', 'Admin\AdminRobotsController@update', 'admin.robots.update');
+
+        // Enquiries Management
+        Route::get('/enquiries', 'Admin\AdminEnquiryController@index', 'admin.enquiries.index');
+        Route::get('/enquiries/{id}', 'Admin\AdminEnquiryController@show', 'admin.enquiries.show');
+        Route::post('/enquiries/{id}/delete', 'Admin\AdminEnquiryController@destroy', 'admin.enquiries.destroy');
     });
 });
