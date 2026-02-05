@@ -6,8 +6,8 @@
                 <h1 class="text-white mb-4 display-3 fw-900 lh-1">Digital Agency <br><span class="text-gradient-premium">Cost Calculator</span></h1>
                 <p class="text-white-50 fs-20 mb-5 max-w-600 ">Know your project's worth. Get an instant, data-backed estimate of agency hourly rates tailored to your specific needs.</p>
                 <div class="d-flex gap-3">
-                    <a href="#calculator" class="btn btn-blue-gradient btn-lg shadow-blue"><i class="ion-ios-calculator"></i> Start Calculation</a>
-                    <a href="<?= route('contact') ?>" class="btn btn-outline-light border-2 btn-lg px-4 radius-50 fw-700">Consult Expert</a>
+                    <a href="#calculator" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Start Calculation</a>
+                    <a href="<?= route('contact') ?>" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Consult Expert</a>
                 </div>
             </div>
             <div class="col-lg-5 text-center d-none d-lg-block">
