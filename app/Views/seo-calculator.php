@@ -5,11 +5,11 @@
             <div class="col-lg-7">
 
                 <h1 class="text-white mb-4 display-3 fw-900 lh-1">Maximize Your <br><span class="text-gradient-premium">SEO Value</span></h1>
-                <p class="text-white-50 fs-20 mb-5 max-w-600 ">Stop guessing. Get a data-backed monthly investment forecast tailored to the Dubai market's complexity.</p>
-                <div class="d-flex gap-3">
+                <p class="text-white-50 fs-20 mb-4 mb-md-5 max-w-600">Stop guessing. Get a data-backed monthly investment forecast tailored to the Dubai market's complexity.</p>
+                <div class="d-flex flex-column flex-sm-row gap-3 mb-4 mb-md-5">
 
-                    <a href="#calculator" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Start Calculation</a>
-                    <a href="<?= route('contact') ?>" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Consult Expert</a>
+                    <a href="#calculator" class="Performance-Driven-btn" bis_skin_checked="1">➤ Start Calculation</a>
+                    <a href="<?= route('contact') ?>" class="Performance-Driven-btn" bis_skin_checked="1">➤ Consult Expert</a>
                 </div>
             </div>
             <div class="col-lg-5 text-center d-none d-lg-block">
@@ -30,7 +30,7 @@
             </div>
 
             <div class="row g-4">
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-2 order-lg-1">
                     <div class="calculator-card glass-card p-4 p-md-5 radius-24 shadow-hover">
                         <form id="seoCalcForm">
                             <div class="row g-4">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-5 order-1 order-lg-2">
                     <div>
                         <div class="results-card glass-card p-4 p-md-5 radius-24 shadow-lg text-center overflow-hidden position-relative border-blue">
                             <div class="card-glow"></div>
@@ -138,7 +138,7 @@
                             </div>
 
                             <div class="price-container mb-2 text-gradient-dark">
-                                <h2 class="" id="res_price_range">AED 1,500 - 2,500</h2>
+                                <h3 class="" id="res_price_range">AED 1,500 - 2,500</h3>
                             </div>
 
                             <div class="d-flex align-items-center justify-content-center gap-2 mb-4">
@@ -174,7 +174,7 @@
             </div>
 
             <div class="process-flow-wrapper mt-5">
-                <div class="row g-0 justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="process-step-card p-5 text-center">
                             <div class="step-number">01</div>
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 g-md-4">
                 <?php
                 $services = [
                     ['icon' => 'ion-ios-search-strong', 'title' => 'Keyword Intelligence', 'desc' => 'In-depth semantic research to capture high-intent users at every stage of the funnel.'],
@@ -253,7 +253,7 @@
     <!-- Section 3: Pricing Factors - Side by Side Glass -->
     <section class="pricing-factors sp-120 bg-light">
         <div class="container">
-            <div class="row g-5 align-items-center">
+            <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="image-reveal-wrapper">
                         <div class="reveal-overlay"></div>
@@ -542,10 +542,11 @@
         position: relative;
         border-right: 1px solid #f1f5f9;
         transition: 0.3s;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
     }
 
     .col-lg-4:last-child .process-step-card {
-        border-right: none;
+        /* border-right: none; */
     }
 
     .step-number {
@@ -820,18 +821,23 @@
 
 
 <style>
-    :root {
-        --primary-blue: #1e3a8a;
-        --accent-blue: #3b82f6;
-        --light-blue: #eff6ff;
-        --soft-bg: #f8fafc;
-        --dark-navy: #0f172a;
+    /* Container Adjustments */
+    @media (max-width: 767px) {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        section {
+            overflow-x: hidden;
+        }
     }
 
-    body {
-        font-family: 'Poppins', sans-serif;
-        color: #334155;
-        font-size: 16px;
+    @media (max-width: 575px) {
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 
     /* Padding Utilities */
@@ -1185,12 +1191,14 @@
         font-size: 20px !important;
     }
 
+    /* Tablet Responsive Styles */
     @media (max-width: 991px) {
         .stat-box {
             border-left: none;
             border-bottom: 1px solid #e2e8f0;
             padding-bottom: 20px;
             padding-left: 0;
+            margin-bottom: 20px;
         }
 
         .display-3 {
@@ -1199,6 +1207,513 @@
 
         .display-4 {
             font-size: 28px !important;
+        }
+
+        .display-5 {
+            font-size: 26px !important;
+        }
+
+        .sp-120 {
+            padding: 60px 0;
+        }
+
+        .sp-150 {
+            padding: 80px 0;
+        }
+
+        .sp-80 {
+            padding: 50px 0;
+        }
+
+        .process-step-card {
+            border-right: none;
+            border-bottom: 1px solid #f1f5f9;
+            margin-bottom: 20px;
+            padding: 30px !important;
+        }
+
+        .col-lg-4:last-child .process-step-card {
+            border-bottom: none;
+        }
+
+        .floating-stat-card {
+            position: static;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .service-card-premium {
+            padding: 30px;
+        }
+
+        .cta-master-box {
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        .factor-row {
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Mobile Responsive Styles */
+    @media (max-width: 767px) {
+
+        /* Typography */
+        .display-3 {
+            font-size: 28px !important;
+            line-height: 1.2 !important;
+        }
+
+        .display-4 {
+            font-size: 24px !important;
+            line-height: 1.3 !important;
+        }
+
+        .display-5 {
+            font-size: 22px !important;
+            line-height: 1.3 !important;
+        }
+
+        h2.h1,
+        .h1-style {
+            font-size: 26px !important;
+        }
+
+        .fs-20 {
+            font-size: 16px !important;
+        }
+
+        .fs-18 {
+            font-size: 15px !important;
+        }
+
+        /* Spacing */
+        .sp-120 {
+            padding: 40px 0;
+        }
+
+        .sp-150 {
+            padding: 50px 0;
+        }
+
+        .sp-80 {
+            padding: 40px 0;
+        }
+
+        .sp-50 {
+            padding: 30px 0;
+        }
+
+        .spt-50 {
+            padding-top: 30px;
+        }
+
+        /* Banner Section */
+        .seo-calculator-banner {
+            padding-top: 30px !important;
+            padding-bottom: 30px;
+        }
+
+        .seo-calculator-banner h1 {
+            font-size: 32px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .seo-calculator-banner h1 br {
+            display: none;
+        }
+
+        .seo-calculator-banner .text-gradient-premium {
+            display: inline;
+        }
+
+        .seo-calculator-banner p {
+            font-size: 16px !important;
+            margin-bottom: 30px !important;
+        }
+
+        .seo-calculator-banner .d-flex {
+            flex-direction: column;
+            gap: 15px !important;
+        }
+
+        .Performance-Driven-btn {
+            width: 100%;
+            text-align: center;
+            padding: 14px 20px !important;
+            font-size: 15px !important;
+        }
+
+        /* Calculator Card */
+        .calculator-card {
+            padding: 20px !important;
+            margin-bottom: 30px;
+        }
+
+        .results-card {
+            padding: 25px !important;
+        }
+
+        /* Form Elements */
+        .form-select-premium {
+            padding: 12px 16px;
+            font-size: 14px;
+        }
+
+        .form-label-premium {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .slider-box {
+            padding: 20px !important;
+        }
+
+        .premium-range {
+            height: 6px;
+        }
+
+        .premium-range::-webkit-slider-thumb {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Slider Labels */
+        .age-label-text,
+        .comp-label-text,
+        .rank-label-text {
+            font-size: 11px !important;
+        }
+
+        .slider-box .small {
+            font-size: 11px !important;
+        }
+
+        /* Badges */
+        .badge {
+            font-size: 12px !important;
+            padding: 8px 16px !important;
+        }
+
+        /* Price Display */
+        .price-container h2 {
+            font-size: 24px !important;
+        }
+
+        .illustration-wrapper img {
+            max-height: 150px !important;
+        }
+
+        /* Buttons */
+        .btn-blue-gradient {
+            padding: 12px 24px;
+            font-size: 14px;
+        }
+
+        .btn-lg {
+            padding: 14px 28px !important;
+        }
+
+        /* Process Steps */
+        .process-step-card {
+            padding: 25px !important;
+            margin-bottom: 20px;
+        }
+
+        .step-number {
+            font-size: 40px;
+            top: 15px;
+            right: 15px;
+        }
+
+        .step-icon-wrap {
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .process-step-card h4 {
+            font-size: 18px !important;
+        }
+
+        .process-step-card p {
+            font-size: 14px !important;
+        }
+
+        /* Service Cards */
+        .service-card-premium {
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .sc-icon-box {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .service-card-premium h4 {
+            font-size: 18px !important;
+            margin-bottom: 15px !important;
+        }
+
+        .service-card-premium p {
+            font-size: 13px !important;
+        }
+
+        /* Factor Section */
+        .factor-row {
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .fr-icon {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+        }
+
+        .factor-row h5 {
+            font-size: 16px !important;
+        }
+
+        .factor-row p {
+            font-size: 13px !important;
+        }
+
+        /* Stats Section */
+        .stat-box {
+            text-align: center;
+            border-left: none;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .stat-box:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .stat-box h2 {
+            font-size: 32px !important;
+        }
+
+        .stat-box span {
+            font-size: 12px !important;
+        }
+
+        /* CTA Box */
+        .cta-master-box {
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        .cta-master-box h4 {
+            font-size: 20px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .cta-master-box p {
+            font-size: 13px !important;
+        }
+
+        /* FAQ Section */
+        .accordion-button {
+            padding: 18px 0 !important;
+            font-size: 15px !important;
+        }
+
+        .accordion-body {
+            padding: 0 0 20px 0 !important;
+        }
+
+        .accordion-body p {
+            font-size: 14px !important;
+        }
+
+        /* Modal */
+        .modal-dialog {
+            margin: 10px;
+        }
+
+        .modal-body {
+            padding: 20px !important;
+        }
+
+        .modal-header {
+            padding: 20px !important;
+        }
+
+        .modal-title {
+            font-size: 20px !important;
+        }
+
+        .form-floating {
+            margin-bottom: 15px !important;
+        }
+
+        .form-floating input {
+            font-size: 14px;
+        }
+
+        .form-floating label {
+            font-size: 13px;
+        }
+
+        /* Section Titles */
+        .section-title h2 {
+            font-size: 26px !important;
+            margin-bottom: 15px !important;
+        }
+
+        .section-title span {
+            font-size: 12px !important;
+        }
+
+        .section-title p {
+            font-size: 15px !important;
+        }
+
+        /* Image Adjustments */
+        .image-reveal-wrapper {
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        .radius-24 {
+            border-radius: 16px;
+        }
+
+        .radius-32 {
+            border-radius: 20px;
+        }
+
+        /* Counter Grid */
+        .counter-grid {
+            margin-top: 20px;
+        }
+
+        /* Text Alignment */
+        .text-center.text-lg-start {
+            text-align: center !important;
+        }
+
+        /* Divider */
+        .divider-center {
+            width: 50px;
+            height: 3px;
+        }
+
+        /* Max Width Utilities */
+        .max-w-600 {
+            max-width: 100% !important;
+        }
+
+        .max-1000 {
+            max-width: 100% !important;
+        }
+    }
+
+    /* Small Mobile Devices */
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 24px !important;
+        }
+
+        .display-4 {
+            font-size: 20px !important;
+        }
+
+        .display-5 {
+            font-size: 18px !important;
+        }
+
+        .seo-calculator-banner h1 {
+            font-size: 26px !important;
+        }
+
+        .calculator-card,
+        .results-card {
+            padding: 15px !important;
+        }
+
+        .slider-box {
+            padding: 15px !important;
+        }
+
+        .service-card-premium {
+            padding: 20px;
+        }
+
+        .process-step-card {
+            padding: 20px !important;
+        }
+
+        .step-number {
+            font-size: 32px;
+        }
+
+        .btn-blue-gradient {
+            padding: 10px 20px;
+            font-size: 13px;
+        }
+
+        .price-container h2 {
+            font-size: 20px !important;
+        }
+
+        .modal-body,
+        .modal-header {
+            padding: 15px !important;
+        }
+
+        .cta-master-box {
+            padding: 20px;
+        }
+
+        .Performance-Driven-btn {
+            padding: 12px 16px !important;
+            font-size: 14px !important;
+        }
+    }
+
+    /* Landscape Mobile Optimization */
+    @media (max-width: 767px) and (orientation: landscape) {
+        .seo-calculator-banner {
+            padding-top: 20px !important;
+            padding-bottom: 20px;
+        }
+
+        .sp-120,
+        .sp-150 {
+            padding: 30px 0;
+        }
+    }
+
+    /* Touch-friendly improvements */
+    @media (hover: none) and (pointer: coarse) {
+
+        .form-select-premium,
+        .premium-input,
+        .btn-blue-gradient {
+            min-height: 44px;
+        }
+
+        .premium-range {
+            height: 10px;
+        }
+
+        .premium-range::-webkit-slider-thumb {
+            width: 28px;
+            height: 28px;
+        }
+
+        .accordion-button {
+            min-height: 60px;
         }
     }
 </style>

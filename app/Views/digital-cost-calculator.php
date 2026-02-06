@@ -4,10 +4,10 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <h1 class="text-white mb-4 display-3 fw-900 lh-1">Digital Agency <br><span class="text-gradient-premium">Cost Calculator</span></h1>
-                <p class="text-white-50 fs-20 mb-5 max-w-600 ">Know your project's worth. Get an instant, data-backed estimate of agency hourly rates tailored to your specific needs.</p>
-                <div class="d-flex gap-3">
-                    <a href="#calculator" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Start Calculation</a>
-                    <a href="<?= route('contact') ?>" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Consult Expert</a>
+                <p class="text-white-50 fs-20 mb-4 mb-md-5 max-w-600">Know your project's worth. Get an instant, data-backed estimate of agency hourly rates tailored to your specific needs.</p>
+                <div class="d-flex flex-column flex-sm-row gap-3 mb-4 mb-md-5">
+                    <a href="#calculator" class="Performance-Driven-btn" bis_skin_checked="1">➤ Start Calculation</a>
+                    <a href="<?= route('contact') ?>" class="Performance-Driven-btn" bis_skin_checked="1">➤ Consult Expert</a>
                 </div>
             </div>
             <div class="col-lg-5 text-center d-none d-lg-block">
@@ -27,33 +27,13 @@
         </div>
 
         <div class="row g-4">
-            <div class="col-lg-8">
+            <div class="col-lg-8 order-2 order-lg-1">
                 <div class="calculator-card glass-card p-4 p-md-5 radius-24 shadow-hover">
                     <form id="digitalCalcForm">
                         <!-- Agency Location -->
                         <div class="mb-5">
                             <label class="form-label-premium mb-3">Agency Location</label>
-                            <div class="row g-3">
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer active" data-type="location" data-value="North America" data-rate="150">
-                                        <div class="fw-bold">North America</div>
-                                        <div class="small text-muted">US & Canada</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer" data-type="location" data-value="Western Europe" data-rate="130">
-                                        <div class="fw-bold">Western Europe</div>
-                                        <div class="small text-muted">UK & EU</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer" data-type="location" data-value="Other Regions" data-rate="70">
-                                        <div class="fw-bold">Other Regions</div>
-                                        <div class="small text-muted">Eastern Europe, Asia, etc.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <input type="hidden" name="agency_location" id="agency_location" value="North America">
+                            <input type="text" class="form-control form-input-premium" name="agency_location" id="agency_location" placeholder="Enter your agency location (e.g., Dubai, New York, London)" value="">
                         </div>
 
                         <!-- Agency Size -->
@@ -151,54 +131,30 @@
                             </div>
                         </div>
 
-                        <!-- Timeline Urgency -->
-                        <div class="mb-4">
-                            <label class="form-label-premium mb-3">Timeline Urgency</label>
-                            <div class="row g-3">
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer active" data-type="urgency" data-value="Standard" data-rate="0">
-                                        <div class="fw-bold">Standard</div>
-                                        <div class="small text-muted">Normal campaign launch</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer" data-type="urgency" data-value="Accelerated" data-rate="30">
-                                        <div class="fw-bold">Accelerated</div>
-                                        <div class="small text-muted">Faster timeline</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="option-card p-3 text-center pointer" data-type="urgency" data-value="Urgent" data-rate="60">
-                                        <div class="fw-bold">Urgent</div>
-                                        <div class="small text-muted">ASAP launch</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <input type="hidden" name="timeline_urgency" id="timeline_urgency" value="Standard">
-                        </div>
-
                         <div class="text-center mt-5">
                             <button type="button" class="btn btn-blue-gradient btn-lg px-5 shadow-blue" id="calculateBtn">
-                                Calculate Hourly Rate
+                                Calculate Project Cost
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 order-1 order-lg-2">
                 <div class="sticky-top" style="top: 100px; z-index: 10;">
                     <div class="results-card glass-card p-4 p-md-5 radius-24 shadow-lg text-center overflow-hidden position-relative border-blue">
                         <div class="card-glow"></div>
-                        <h2 class="text-dark mb-4 fs-28 fw-800">Your Hourly Rate</h2>
+                        <span class="badge bg-blue text-white px-4 py-2 mb-4 fs-12 fw-700 ls-1">ESTIMATED PROJECT COST</span>
+                        <h3 class="fw-800 mb-2 text-dark">Your Investment</h3>
 
                         <div class="illustration-wrapper mb-4">
                             <div class="blob-bg"></div>
-                            <img src="<?= base_url('assets/images/seeo.png') ?>" alt="Hourly Rate Result" class="img-fluid pulse-img" style="max-height: 180px;">
+                            <img src="<?= base_url('assets/images/seeo.png') ?>" alt="Project Cost Result" class="img-fluid pulse-img" style="max-height: 180px;">
                         </div>
 
                         <div class="price-container mb-2 text-gradient-dark">
-                            <h2 class="" id="res_hourly_rate">$150 - $200 / hr</h2>
+                            <h3 class="" id="priceDisplay">AED 15,000 - AED 25,000</h3>
+                            <p class="text-muted fs-14 mt-2">Total Project Budget</p>
                         </div>
 
                         <div class="d-flex align-items-center justify-content-center gap-2 mb-4">
@@ -233,7 +189,7 @@
         </div>
 
         <div class="process-flow-wrapper mt-5">
-            <div class="row g-0 justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="process-step-card p-5 text-center">
                         <div class="step-number">01</div>
@@ -263,6 +219,141 @@
                         <h4 class="fw-bold h4 mb-3">Complexity & Urgency</h4>
                         <p class="text-muted fs-15 lh-lg">Final adjustments are made based on project difficulty and required turnaround speed.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2: Core Digital Services - Premium Grid -->
+<section class="core-services sp-120 bg-white text-dark overflow-hidden position-relative">
+    <div class="mesh-glow"></div>
+    <div class="container position-relative">
+        <div class="row align-items-end mb-5 pb-3">
+            <div class="col-lg-7">
+                <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Comprehensive Package</span>
+                <h2 class="display-4 fw-800">What Drives Your <span class="text-blue">Growth?</span></h2>
+            </div>
+            <div class="col-lg-5">
+                <p class="text-muted fs-18 mb-0">Beyond basic execution, we deliver data-driven strategies that maximize your ROI and accelerate business growth.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 g-md-4">
+            <?php
+            $services = [
+                ['icon' => 'ion-social-buffer', 'title' => 'Social Media Marketing', 'desc' => 'Strategic campaigns that build engaged communities and drive measurable conversions across all platforms.'],
+                ['icon' => 'ion-ios-search-strong', 'title' => 'Search Engine Optimization', 'desc' => 'Technical and content optimization that delivers sustainable organic traffic and qualified leads.'],
+                ['icon' => 'ion-ios-analytics', 'title' => 'Pay-Per-Click Advertising', 'desc' => 'High-performance campaigns with precise targeting, optimized bidding, and maximum ROAS.'],
+                ['icon' => 'ion-email', 'title' => 'Email Marketing', 'desc' => 'Automated nurture sequences and personalized campaigns that convert subscribers into customers.'],
+                ['icon' => 'ion-ios-paper-outline', 'title' => 'Content Marketing', 'desc' => 'Authority-building content that educates, engages, and establishes your brand as an industry leader.'],
+                ['icon' => 'ion-ios-speedometer-outline', 'title' => 'Performance Analytics', 'desc' => 'Real-time dashboards and insights that connect marketing efforts directly to revenue growth.'],
+            ];
+            foreach ($services as $s): ?>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card-premium h-100">
+                        <div class="sc-icon-box">
+                            <i class="<?= $s['icon'] ?>"></i>
+                        </div>
+                        <h4 class="fw-bold h5 mb-3"><?= $s['title'] ?></h4>
+                        <p class="text-white-50 fs-14 mb-0"><?= $s['desc'] ?></p>
+                        <div class="sc-hover-accent"></div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3: Pricing Factors - Side by Side Glass -->
+<section class="pricing-factors sp-120 bg-light">
+    <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="image-reveal-wrapper">
+                    <div class="reveal-overlay"></div>
+                    <img src="<?= base_url('assets/images/Branding-Strategy.webp') ?>" alt="Digital Strategy" class="img-fluid radius-24 shadow-2xl">
+                    <div class="floating-stat-card shadow-lg">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="stat-circle"><i class="ion-arrow-graph-up-right"></i></div>
+                            <div>
+                                <div class="fw-800 h4 mb-0">+450%</div>
+                                <div class="text-muted fs-12 uppercase fw-700">Avg ROI Increase</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ps-lg-4">
+                    <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
+                    <h2 class="display-5 fw-800 mb-4">Investment <span class="text-blue">Variability</span></h2>
+                    <p class="text-muted fs-18 mb-5">Understand the key factors that influence agency rates for smarter budgeting and better partnerships.</p>
+
+                    <div class="factor-accordion">
+                        <div class="factor-row">
+                            <div class="fr-icon shadow-sm"><i class="ion-ios-location-outline"></i></div>
+                            <div class="fr-content">
+                                <h5 class="fw-800 mb-1">Geographic Market</h5>
+                                <p class="text-muted fs-14 mb-0">Agency location significantly impacts rates due to varying operational costs and market standards.</p>
+                            </div>
+                        </div>
+                        <div class="factor-row">
+                            <div class="fr-icon shadow-sm"><i class="ion-ios-people-outline"></i></div>
+                            <div class="fr-content">
+                                <h5 class="fw-800 mb-1">Team Expertise</h5>
+                                <p class="text-muted fs-14 mb-0">Experienced agencies with proven track records command premium rates for their specialized knowledge.</p>
+                            </div>
+                        </div>
+                        <div class="factor-row">
+                            <div class="fr-icon shadow-sm"><i class="ion-ios-speedometer-outline"></i></div>
+                            <div class="fr-content">
+                                <h5 class="fw-800 mb-1">Project Complexity</h5>
+                                <p class="text-muted fs-14 mb-0">Industry-specific challenges and technical requirements influence the resources and expertise needed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 4: Why BrandStory -->
+<section class="why-brandstory sp-150 bg-white text-dark overflow-hidden position-relative border-top border-bottom">
+    <div class="container position-relative">
+        <div class="row align-items-center text-center text-lg-start">
+            <div class="col-lg-8">
+                <h2 class="display-3 fw-900 mb-4 lh-1 text-dark">Dubai's Elite <br><span class="text-blue">Digital Partner</span></h2>
+                <p class="fs-20 text-muted mb-5 pe-lg-5">We transform digital marketing complexity into measurable business growth through data-driven strategies and proven execution.</p>
+
+                <div class="row g-4 counter-grid justify-content-center justify-content-lg-start">
+                    <div class="col-6 col-md-4">
+                        <div class="stat-box">
+                            <h2 class="display-5 fw-800 mb-0 text-blue">500+</h2>
+                            <span class="text-muted fs-13 uppercase fw-700 ls-1">Brands Scaled</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="stat-box">
+                            <h2 class="display-5 fw-800 mb-0 text-blue">10y+</h2>
+                            <span class="text-muted fs-13 uppercase fw-700 ls-1">Digital Excellence</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="stat-box">
+                            <h2 class="display-5 fw-800 mb-0 text-blue">98%</h2>
+                            <span class="text-muted fs-13 uppercase fw-700 ls-1">Client Success</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <div class="cta-master-box shadow-lg glass-card p-5">
+                    <h4 class="fw-800 mb-4 text-dark">Start Your <br>Growth Story</h4>
+                    <p class="text-muted fs-14 mb-4">Our digital experts are ready to analyze your current performance and unlock new opportunities.</p>
+                    <a href="<?= route('contact') ?>" class="btn btn-blue-gradient w-100"><i class="ion-android-arrow-dropright-circle"></i> Free Consultation</a>
+                    <div class="mt-3 fs-12 text-muted"><i class="ion-clock fs-14 me-1"></i> Response within 4 business hours</div>
                 </div>
             </div>
         </div>
@@ -336,8 +427,7 @@
                     <input type="hidden" name="agency_size" id="f_size">
                     <input type="hidden" name="experience_level" id="f_exp">
                     <input type="hidden" name="industry_complexity" id="f_complexity">
-                    <input type="hidden" name="timeline_urgency" id="f_urgency">
-                    <input type="hidden" name="est_hourly_rate" id="f_rate">
+                    <input type="hidden" name="est_project_cost" id="f_rate">
                     <input type="hidden" name="services_text" id="f_services">
 
                     <div class="row g-3">
@@ -372,17 +462,23 @@
 </div>
 
 <style>
-    :root {
-        --primary-blue: #1e3a8a;
-        --accent-blue: #3b82f6;
-        --light-blue: #eff6ff;
-        --soft-bg: #f8fafc;
-        --dark-navy: #0f172a;
+    /* Container Adjustments */
+    @media (max-width: 767px) {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        section {
+            overflow-x: hidden;
+        }
     }
 
-    body {
-        font-family: 'Poppins', sans-serif;
-        color: #334155;
+    @media (max-width: 575px) {
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 
     .sp-50 {
@@ -513,10 +609,35 @@
         border-radius: 14px !important;
     }
 
+    .form-input-premium {
+        width: 100%;
+        padding: 15px 20px;
+        border-radius: 14px;
+        border: 1px solid #e2e8f0;
+        background: #fff;
+        color: #1e293b;
+        font-weight: 500;
+        font-size: 15px;
+        transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .form-input-premium:focus {
+        border-color: var(--accent-blue);
+        box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+        outline: none;
+        background-color: #f8fafc;
+    }
+
+    .form-input-premium::placeholder {
+        color: #94a3b8;
+        font-weight: 400;
+    }
+
     .process-step-card {
         transition: 0.4s;
         border-radius: 32px;
         position: relative;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
     }
 
     .process-step-card:hover,
@@ -571,6 +692,709 @@
             transform: translateY(0px);
         }
     }
+
+    /* New Sections Styles */
+    .mesh-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150%;
+        height: 150%;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle at center, rgba(30, 58, 138, 0.3), transparent 60%);
+        pointer-events: none;
+    }
+
+    .service-card-premium {
+        background: #fff;
+        border: 1px solid #f1f5f9;
+        padding: 40px;
+        border-radius: 30px;
+        transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .service-card-premium:hover {
+        background: #fff;
+        border-color: var(--accent-blue);
+        box-shadow: 0 20px 40px rgba(59, 130, 246, 0.08);
+        transform: translateY(-5px);
+    }
+
+    .service-card-premium .text-white-50 {
+        color: #64748b !important;
+    }
+
+    .sc-icon-box {
+        width: 60px;
+        height: 60px;
+        background: var(--light-blue);
+        color: var(--accent-blue);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .sc-hover-accent {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px;
+        background: var(--accent-blue);
+        transition: 0.4s;
+    }
+
+    .service-card-premium:hover .sc-hover-accent {
+        width: 100%;
+    }
+
+    /* Pricing Factors */
+    .image-reveal-wrapper {
+        position: relative;
+        padding: 20px;
+    }
+
+    .floating-stat-card {
+        position: absolute;
+        bottom: 50px;
+        right: -20px;
+        background: white;
+        padding: 25px;
+        border-radius: 20px;
+        min-width: 220px;
+        z-index: 2;
+    }
+
+    .stat-circle {
+        width: 45px;
+        height: 45px;
+        background: #dcfce7;
+        color: #16a34a;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .factor-row {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+        align-items: flex-start;
+    }
+
+    .fr-icon {
+        width: 45px;
+        height: 45px;
+        background: white;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        color: var(--accent-blue);
+        font-size: 20px;
+    }
+
+    /* Why BrandStory */
+    .stat-box {
+        border-left: 1px solid #e2e8f0;
+        padding-left: 20px;
+    }
+
+    .cta-master-box {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        padding: 40px;
+        border-radius: 32px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .shadow-2xl {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+    }
+
+    .display-5 {
+        font-size: 36px !important;
+        font-weight: 700 !important;
+    }
+
+    .fs-13 {
+        font-size: 13px !important;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .ls-1 {
+        letter-spacing: 1px;
+    }
+
+    .ls-2 {
+        letter-spacing: 2px;
+    }
+
+    .fw-700 {
+        font-weight: 700;
+    }
+
+    .sp-150 {
+        padding: 150px 0;
+    }
+
+    .divider-center {
+        width: 60px;
+        height: 4px;
+        background: var(--accent-blue);
+        margin: 0 auto;
+        border-radius: 2px;
+    }
+
+    /* Tablet Responsive Styles */
+    @media (max-width: 991px) {
+        .sp-120 {
+            padding: 60px 0;
+        }
+
+        .sp-150 {
+            padding: 80px 0;
+        }
+
+        .sp-80 {
+            padding: 50px 0;
+        }
+
+        .display-3 {
+            font-size: 32px !important;
+        }
+
+        .display-4 {
+            font-size: 28px !important;
+        }
+
+        .display-5 {
+            font-size: 26px !important;
+        }
+
+        .process-step-card {
+            margin-bottom: 20px;
+            padding: 30px !important;
+        }
+
+        .sticky-top {
+            position: static !important;
+            margin-top: 30px;
+        }
+
+        .service-card-premium {
+            padding: 30px;
+        }
+
+        .floating-stat-card {
+            position: static;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .cta-master-box {
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        .factor-row {
+            margin-bottom: 20px;
+        }
+
+        .stat-box {
+            border-left: none;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Mobile Responsive Styles */
+    @media (max-width: 767px) {
+
+        /* Typography */
+        .display-3 {
+            font-size: 28px !important;
+            line-height: 1.2 !important;
+        }
+
+        .display-4 {
+            font-size: 24px !important;
+            line-height: 1.3 !important;
+        }
+
+        h2.h1 {
+            font-size: 26px !important;
+        }
+
+        .fs-20 {
+            font-size: 16px !important;
+        }
+
+        .fs-18 {
+            font-size: 15px !important;
+        }
+
+        /* Spacing */
+        .sp-120 {
+            padding: 40px 0;
+        }
+
+        .sp-80 {
+            padding: 40px 0;
+        }
+
+        .sp-50 {
+            padding: 30px 0;
+        }
+
+        .spt-50 {
+            padding-top: 30px;
+        }
+
+        /* Banner Section */
+        .seo-calculator-banner {
+            padding-top: 30px !important;
+            padding-bottom: 30px;
+        }
+
+        .seo-calculator-banner h1 {
+            font-size: 32px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .seo-calculator-banner h1 br {
+            display: none;
+        }
+
+        .seo-calculator-banner .text-gradient-premium {
+            display: inline;
+        }
+
+        .seo-calculator-banner p {
+            font-size: 16px !important;
+            margin-bottom: 30px !important;
+        }
+
+        .Performance-Driven-btn {
+            width: 100%;
+            text-align: center;
+            padding: 14px 20px !important;
+            font-size: 15px !important;
+        }
+
+        /* Calculator Card */
+        .calculator-card {
+            padding: 20px !important;
+            margin-bottom: 30px;
+        }
+
+        .results-card {
+            padding: 25px !important;
+        }
+
+        /* Option Cards */
+        .option-card {
+            padding: 15px !important;
+            margin-bottom: 10px;
+        }
+
+        .option-card .fw-bold {
+            font-size: 14px !important;
+        }
+
+        .option-card .small {
+            font-size: 11px !important;
+        }
+
+        /* Form Elements */
+        .form-label-premium {
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+
+        .form-input-premium {
+            padding: 12px 16px;
+            font-size: 14px;
+        }
+
+        .slider-box {
+            padding: 20px !important;
+        }
+
+        .premium-range {
+            height: 6px;
+        }
+
+        .premium-range::-webkit-slider-thumb {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Slider Labels */
+        .exp-label-text,
+        .comp-label-text {
+            font-size: 11px !important;
+        }
+
+        .slider-box .small {
+            font-size: 11px !important;
+        }
+
+        /* Checkboxes */
+        .custom-check {
+            padding: 12px 15px;
+        }
+
+        .custom-check label {
+            font-size: 13px !important;
+        }
+
+        /* Badges */
+        .badge {
+            font-size: 12px !important;
+            padding: 8px 16px !important;
+        }
+
+        /* Price Display */
+        .price-container h2 {
+            font-size: 24px !important;
+        }
+
+        .illustration-wrapper img {
+            max-height: 120px !important;
+        }
+
+        /* Buttons */
+        .btn-blue-gradient {
+            padding: 12px 24px;
+            font-size: 14px;
+        }
+
+        .btn-lg {
+            padding: 14px 28px !important;
+        }
+
+        #calculateBtn {
+            width: 100%;
+            padding: 14px 20px !important;
+        }
+
+        /* Process Steps */
+        .process-step-card {
+            padding: 25px !important;
+            margin-bottom: 20px;
+        }
+
+        .step-number {
+            font-size: 40px;
+            top: 15px;
+            right: 15px;
+        }
+
+        .step-icon-wrap {
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .process-step-card h4 {
+            font-size: 18px !important;
+        }
+
+        .process-step-card p {
+            font-size: 14px !important;
+        }
+
+        /* Service Cards */
+        .service-card-premium {
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .sc-icon-box {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .service-card-premium h4 {
+            font-size: 18px !important;
+            margin-bottom: 15px !important;
+        }
+
+        .service-card-premium p {
+            font-size: 13px !important;
+        }
+
+        /* Factor Section */
+        .factor-row {
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .fr-icon {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+        }
+
+        .factor-row h5 {
+            font-size: 16px !important;
+        }
+
+        .factor-row p {
+            font-size: 13px !important;
+        }
+
+        /* Stats Section */
+        .stat-box {
+            text-align: center;
+            border-left: none;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .stat-box:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .stat-box h2 {
+            font-size: 32px !important;
+        }
+
+        .stat-box span {
+            font-size: 12px !important;
+        }
+
+        /* CTA Box */
+        .cta-master-box {
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        .cta-master-box h4 {
+            font-size: 20px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .cta-master-box p {
+            font-size: 13px !important;
+        }
+
+        /* Image Adjustments */
+        .image-reveal-wrapper {
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* FAQ Section */
+        .accordion-button {
+            padding: 18px 0 !important;
+            font-size: 15px !important;
+        }
+
+        .accordion-body {
+            padding: 0 0 20px 0 !important;
+        }
+
+        .accordion-body p {
+            font-size: 14px !important;
+        }
+
+        /* Modal */
+        .modal-dialog {
+            margin: 10px;
+        }
+
+        .modal-body {
+            padding: 20px !important;
+        }
+
+        .modal-header {
+            padding: 20px !important;
+        }
+
+        .modal-title {
+            font-size: 20px !important;
+        }
+
+        .form-floating {
+            margin-bottom: 15px !important;
+        }
+
+        .form-floating input {
+            font-size: 14px;
+        }
+
+        .form-floating label {
+            font-size: 13px;
+        }
+
+        /* Section Titles */
+        .section-title h2 {
+            font-size: 26px !important;
+            margin-bottom: 15px !important;
+        }
+
+        .section-title span {
+            font-size: 12px !important;
+        }
+
+        .section-title p {
+            font-size: 15px !important;
+        }
+
+        .radius-24 {
+            border-radius: 16px;
+        }
+
+        .radius-16 {
+            border-radius: 12px;
+        }
+
+        /* Divider */
+        .divider-center {
+            width: 50px;
+            height: 3px;
+        }
+
+        /* Max Width Utilities */
+        .max-w-600 {
+            max-width: 100% !important;
+        }
+
+        .max-1000 {
+            max-width: 100% !important;
+        }
+    }
+
+    /* Small Mobile Devices */
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 24px !important;
+        }
+
+        .display-4 {
+            font-size: 20px !important;
+        }
+
+        .seo-calculator-banner h1 {
+            font-size: 26px !important;
+        }
+
+        .calculator-card,
+        .results-card {
+            padding: 15px !important;
+        }
+
+        .slider-box {
+            padding: 15px !important;
+        }
+
+        .process-step-card {
+            padding: 20px !important;
+        }
+
+        .step-number {
+            font-size: 32px;
+        }
+
+        .btn-blue-gradient {
+            padding: 10px 20px;
+            font-size: 13px;
+        }
+
+        .price-container h2 {
+            font-size: 20px !important;
+        }
+
+        .modal-body,
+        .modal-header {
+            padding: 15px !important;
+        }
+
+        .Performance-Driven-btn {
+            padding: 12px 16px !important;
+            font-size: 14px !important;
+        }
+
+        .option-card {
+            padding: 12px !important;
+        }
+
+        .custom-check {
+            padding: 10px 12px;
+        }
+
+        .service-card-premium {
+            padding: 20px;
+        }
+
+        .cta-master-box {
+            padding: 20px;
+        }
+    }
+
+    /* Landscape Mobile Optimization */
+    @media (max-width: 767px) and (orientation: landscape) {
+        .seo-calculator-banner {
+            padding-top: 20px !important;
+            padding-bottom: 20px;
+        }
+
+        .sp-120 {
+            padding: 30px 0;
+        }
+    }
+
+    /* Touch-friendly improvements */
+    @media (hover: none) and (pointer: coarse) {
+
+        .option-card,
+        .btn-blue-gradient,
+        .premium-input,
+        .form-input-premium {
+            min-height: 44px;
+        }
+
+        .premium-range {
+            height: 10px;
+        }
+
+        .premium-range::-webkit-slider-thumb {
+            width: 28px;
+            height: 28px;
+        }
+
+        .accordion-button {
+            min-height: 60px;
+        }
+
+        .custom-check {
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+        }
+    }
 </style>
 
 <script>
@@ -597,48 +1421,61 @@
         });
 
         function calculate() {
-            let baseRate = 0;
+            let baseCost = 3000; // Reduced base project cost in AED
 
-            // Location Rate
-            const locCard = document.querySelector('.option-card[data-type="location"].active');
-            baseRate += parseInt(locCard ? locCard.dataset.rate : 0);
-
-            // Size Rate
+            // Agency Size
             const sizeCard = document.querySelector('.option-card[data-type="size"].active');
-            baseRate += parseInt(sizeCard ? sizeCard.dataset.rate : 0);
+            const sizeVal = sizeCard ? sizeCard.dataset.value : 'Small';
+            if (sizeVal === 'Medium') baseCost += 2500;
+            if (sizeVal === 'Large') baseCost += 6000;
 
-            // Experience
+            // Services Count
+            const checkedServices = document.querySelectorAll('input[name="services[]"]:checked');
+            baseCost += (checkedServices.length * 1500);
+
+            // Experience Multiplier
             const expVal = parseInt(document.getElementById('experience_level').value);
-            baseRate += (expVal * 40);
             const exps = ['Entry-level', 'Established', 'Expert'];
             document.getElementById('exp_display').textContent = exps[expVal];
 
-            // Complexity
+            let expMult = 1;
+            if (expVal === 1) expMult = 1.3; // Reduced multiplier
+            if (expVal === 2) expMult = 1.8; // Reduced multiplier
+
+            // Complexity Multiplier
             const compVal = parseInt(document.getElementById('industry_complexity').value);
-            baseRate += (compVal * 30);
             const comps = ['Simple', 'Moderate', 'Complex'];
             document.getElementById('complexity_display').textContent = comps[compVal];
 
-            // Urgency
-            const urgCard = document.querySelector('.option-card[data-type="urgency"].active');
-            baseRate += parseInt(urgCard ? urgCard.dataset.rate : 0);
+            let compMult = 1;
+            if (compVal === 1) compMult = 1.2; // Reduced multiplier
+            if (compVal === 2) compMult = 1.6; // Reduced multiplier
 
-            const min = Math.max(50, baseRate);
-            const max = Math.round(min * 1.35);
+            // Final Calculation
+            let total = baseCost * expMult * compMult;
 
-            const rangeText = `$${min} - $${max} / hr`;
-            priceDisplay.textContent = rangeText;
+            const min = Math.round(total);
+            const max = Math.round(total * 1.35);
+
+            // Number formatter
+            const fmt = new Intl.NumberFormat('en-AE', {
+                style: 'currency',
+                currency: 'AED',
+                maximumFractionDigits: 0
+            });
+
+            const rangeText = `${fmt.format(min)} - ${fmt.format(max)}`;
+            document.getElementById('priceDisplay').textContent = rangeText;
 
             // Sync hidden fields for Lead Form
             document.getElementById('f_location').value = document.getElementById('agency_location').value;
-            document.getElementById('f_size').value = document.getElementById('agency_size').value;
+            document.getElementById('f_size').value = sizeVal;
             document.getElementById('f_exp').value = exps[expVal];
             document.getElementById('f_complexity').value = comps[compVal];
-            document.getElementById('f_urgency').value = document.getElementById('timeline_urgency').value;
             document.getElementById('f_rate').value = rangeText;
 
-            const checkedServices = Array.from(document.querySelectorAll('input[name="services[]"]:checked')).map(cb => cb.value);
-            document.getElementById('f_services').value = checkedServices.join(', ');
+            const serviceNames = Array.from(checkedServices).map(cb => cb.value);
+            document.getElementById('f_services').value = serviceNames.join(', ');
         }
 
         // Sliders & Checkboxes listeners
@@ -650,13 +1487,18 @@
             cb.addEventListener('change', calculate);
         });
 
+        // Location input listener
+        document.getElementById('agency_location').addEventListener('input', calculate);
+
         document.getElementById('calculateBtn').addEventListener('click', calculate);
 
         document.getElementById('resetCalc').addEventListener('click', () => {
             document.getElementById('digitalCalcForm').reset();
             // Reset active states
             optionCards.forEach(c => c.classList.remove('active'));
-            document.querySelectorAll('.option-card[data-value="North America"], .option-card[data-value="Small"], .option-card[data-value="Standard"]').forEach(c => c.classList.add('active'));
+            document.querySelectorAll('.option-card[data-value="Small"]').forEach(c => c.classList.add('active'));
+            // Clear location input
+            document.getElementById('agency_location').value = '';
             calculate();
         });
 
