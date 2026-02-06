@@ -4,8 +4,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
 
-                <h1 class="text-white mb-4 display-3 fw-900 lh-1">Maximize Your <br><span class="text-gradient-premium">SEO Value</span></h1>
-                <p class="text-white-50 fs-20 mb-4 mb-md-5 max-w-600">Stop guessing. Get a data-backed monthly investment forecast tailored to the Dubai market's complexity.</p>
+                <h1 class="text-white mb-4 display-3 fw-900 lh-1">SEO Cost <br><span class="text-gradient-premium">Calculator</span></h1>
+                <p class="text-white-50 fs-20 mb-4 mb-md-5 max-w-600">Use our SEO Cost Calculator to break down SEO services and understand what drives pricing. Get an instant, transparent estimates.</p>
                 <div class="d-flex flex-column flex-sm-row gap-3 mb-4 mb-md-5">
 
                     <a href="#calculator" class="Performance-Driven-btn" bis_skin_checked="1">➤ Start Calculation</a>
@@ -25,8 +25,7 @@
     <section id="calculator" class="seo-calculator-main sp-80 bg-white position-relative">
         <div class="container">
             <div class="section-title text-center mb-5">
-                <span class="text-blue fw-bold text-uppercase ls-2">Business Metrics</span>
-                <h2 class="h1 fw-bold mt-2">Personalize Your SEO Forecast</h2>
+                <h2 class="h1 fw-bold mt-2">Customize Your SEO Cost<br> Estimate Now</h2>
             </div>
 
             <div class="row g-4">
@@ -45,7 +44,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label-premium">Physical Business Locations</label>
+                                    <label class="form-label-premium">Business Locations</label>
                                     <div class="select-wrapper">
                                         <select class="form-select-premium" id="physical_location">
                                             <option value="no" selected>Digital Only (No Shop)</option>
@@ -56,7 +55,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label-premium">Page Optimization Volume</label>
+                                    <label class="form-label-premium">Page Optimization</label>
                                     <div class="select-wrapper">
                                         <select class="form-select-premium" id="pages_count">
                                             <option value="1-10" selected>Starter (1-10 Pages)</option>
@@ -130,7 +129,7 @@
                     <div>
                         <div class="results-card glass-card p-4 p-md-5 radius-24 shadow-lg text-center overflow-hidden position-relative border-blue">
                             <div class="card-glow"></div>
-                            <h2 class="text-dark mb-4 fs-28 fw-800">Your Investment Estimate</h2>
+                            <h2 class="text-dark mb-4 fs-28 fw-800">SEO Investment Estimates</h2>
 
                             <div class="illustration-wrapper mb-4">
                                 <div class="blob-bg"></div>
@@ -167,10 +166,9 @@
         <div class="circle-gradient opacity-20"></div>
         <div class="container position-relative">
             <div class="section-title text-center mb-5 pb-4">
-                <span class="badge bg-blue-soft text-blue px-3 py-2 radius-50 fw-700 text-uppercase ls-1 mb-3">Transparent Process</span>
                 <h2 class="display-4 fw-900 text-dark mb-4">Data-Driven <span class="text-blue">Estimation</span></h2>
                 <div class="divider-center"></div>
-                <p class="text-muted mt-4 max-w-600 mx-auto fs-18 ">Our proprietary algorithm analyzes over 50+ variables to give you the most accurate SEO investment forecast in the market.</p>
+                <p class="text-muted mt-4 max-w-600 mx-auto fs-18 ">Our proprietary algorithm analyzes over 50+ variables to give you the most accurate <br>SEO investment forecast in the market.</p>
             </div>
 
             <div class="process-flow-wrapper mt-5">
@@ -273,28 +271,28 @@
                     <div class="ps-lg-4">
                         <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
                         <h2 class="display-5 fw-800 mb-4">Investment <span class="text-blue">Variability</span></h2>
-                        <p class="text-muted fs-18 mb-5">Understand the levers that influence your SEO budget for a more strategic digital investment.</p>
+                        <p class="text-muted fs-18 mb-5">Understand the key factors that influence your SEO budget so you can plan a realistic and effective investment.</p>
 
                         <div class="factor-accordion">
                             <div class="factor-row">
                                 <div class="fr-icon shadow-sm"><i class="ion-ios-bolt"></i></div>
                                 <div class="fr-content">
                                     <h5 class="fw-800 mb-1">Industry Velocity</h5>
-                                    <p class="text-muted fs-14 mb-0">High-churn markets like Finance require daily optimization to maintain rankings.</p>
+                                    <p class="text-muted fs-14 mb-0">Highly competitive industries require frequent content updates, ongoing optimization, and constant monitoring to maintain and improve search rankings.</p>
                                 </div>
                             </div>
                             <div class="factor-row">
                                 <div class="fr-icon shadow-sm"><i class="ion-ios-world-outline"></i></div>
                                 <div class="fr-content">
                                     <h5 class="fw-800 mb-1">Market Geo-Scope</h5>
-                                    <p class="text-muted fs-14 mb-0">Multi-lingual or multi-country SEO mandates exponentially more technical resources.</p>
+                                    <p class="text-muted fs-14 mb-0">Targeting multiple regions, countries, or languages increases SEO complexity, requiring additional technical setup, localized content, and ongoing management.</p>
                                 </div>
                             </div>
                             <div class="factor-row">
                                 <div class="fr-icon shadow-sm"><i class="ion-ios-flask-outline"></i></div>
                                 <div class="fr-content">
                                     <h5 class="fw-800 mb-1">Asset Health</h5>
-                                    <p class="text-muted fs-14 mb-0">Your existing backlink profile and technical debt dictate the initial "recovery" effort.</p>
+                                    <p class="text-muted fs-14 mb-0">The current state of your website- including technical issues, content gaps, and backlink quality affects the initial effort needed before growth can begin.</p>
                                 </div>
                             </div>
                         </div>
@@ -321,7 +319,7 @@
                         </div>
                         <div class="col-6 col-md-4">
                             <div class="stat-box">
-                                <h2 class="display-5 fw-800 mb-0 text-blue">10y+</h2>
+                                <h2 class="display-5 fw-800 mb-0 text-blue">12Y+</h2>
                                 <span class="text-muted fs-13 uppercase fw-700 ls-1">Search Legacy</span>
                             </div>
                         </div>
