@@ -22,7 +22,7 @@
 <section id="calculator" class="seo-calculator-main sp-80 bg-white position-relative">
     <div class="container">
         <div class="section-title text-center mb-5">
-            <span class="text-blue fw-bold text-uppercase ls-2">Calculate Your</span>
+            <span class="text-violate fw-bold text-uppercase ls-2">Calculate Your</span>
             <h2 class="h1 fw-bold mt-2">Digital Marketing Campaign Cost</h2>
         </div>
 
@@ -67,12 +67,12 @@
                             <div class="slider-box p-4 radius-16 bg-white shadow-sm border">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <label class="form-label-premium mb-0">Marketing Requirement Level</label>
-                                    <span class="badge bg-blue-soft text-blue px-3 py-2 radius-10" id="exp_display">Strategy Depth</span>
+                                    <span class="badge bg-blue-soft text-violate px-3 py-2 radius-10" id="exp_display">Strategy Depth</span>
                                 </div>
                                 <input type="range" class="form-range premium-range" id="experience_level" min="0" max="2" step="1" value="1">
                                 <div class="d-flex justify-content-between mt-2 small text-muted px-1">
                                     <span class="exp-label-text pointer" data-idx="0">Basic Visibility</span>
-                                    <span class="exp-label-text pointer fw-bold text-blue" data-idx="1">Growth Focused</span>
+                                    <span class="exp-label-text pointer fw-bold text-violate" data-idx="1">Growth Focused</span>
                                     <span class="exp-label-text pointer" data-idx="2">Advanced</span>
                                 </div>
                             </div>
@@ -182,7 +182,7 @@
     <div class="circle-gradient opacity-20"></div>
     <div class="container position-relative">
         <div class="section-title text-center mb-5 pb-4">
-            <h2 class="display-4 fw-900 text-dark mb-4">How We <span class="text-blue">Calculate</span></h2>
+            <h2 class="display-4 fw-900 text-dark mb-4">How We <span class="text-violate">Calculate</span></h2>
             <div class="divider-center"></div>
             <p class="text-muted mt-4 max-w-600 mx-auto fs-18 ">We use our in-house pricing model, built on real market data and hands-on agency experience, to deliver <br>practical and realistic digital marketing cost estimates.</p>
         </div>
@@ -196,14 +196,14 @@
                             <i class="ion-ios-location-outline pulse-icon"></i>
                         </div>
                         <h4 class="fw-bold h4 mb-3">Market Context</h4>
-                        <p class="text-muted fs-15 lh-lg">We made digital marketing cost calculator based on your target market, location, and regional economic conditions to set a realistic pricing range.</p>
+                        <p class="text-muted fs-15 lh-lg">We made digital marketing cost calculator based on your target market, location, and complexity to set a realistic pricing range.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="process-step-card p-5 text-center active-step">
                         <div class="step-number">02</div>
                         <div class="step-icon-wrap mb-4 mx-auto shadow-blue">
-                            <i class="ion-ios-people-outline"></i>
+                            <i class="ion-ios-people-outline" style="color: #000;"></i>
                         </div>
                         <h4 class="fw-bold h4 mb-3">Capability Check</h4>
                         <p class="text-muted fs-15 lh-lg">We align digital marketing pricing with the level of expertise, resources, and strategic effort required to deliver desired marketing outcomes.</p>
@@ -230,8 +230,8 @@
     <div class="container position-relative">
         <div class="row align-items-end mb-5 pb-3">
             <div class="col-lg-7">
-                <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Comprehensive Package</span>
-                <h2 class="display-4 fw-800">What Drives Your <span class="text-blue">Growth?</span></h2>
+                <span class="text-violate fw-700 text-uppercase ls-2 d-block mb-3">Comprehensive Package</span>
+                <h2 class="display-4 fw-800">What Drives Your <span class="text-violate">Growth?</span></h2>
             </div>
             <div class="col-lg-5">
                 <p class="text-muted fs-18 mb-0">Our calculator evaluates the digital marketing services you select to estimate realistic costs based on effort, resources, and strategic involvement.</p>
@@ -285,8 +285,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="ps-lg-4">
-                    <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
-                    <h2 class="display-5 fw-800 mb-4">Investment <span class="text-blue">Variability</span></h2>
+                    <span class="text-violate fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
+                    <h2 class="display-5 fw-800 mb-4">Investment <span class="text-violate">Variability</span></h2>
                     <p class="text-muted fs-18 mb-5">Understand the key factors our calculator considers to estimate digital marketing costs more accurately and realistically.</p>
 
                     <div class="factor-accordion">
@@ -323,25 +323,25 @@
     <div class="container position-relative">
         <div class="row align-items-center text-center text-lg-start">
             <div class="col-lg-8">
-                <h2 class="display-3 fw-900 mb-4 lh-1 text-dark">Custom Digital<br><span class="text-blue"> Marketing Quotation</span></h2>
+                <h2 class="display-3 fw-900 mb-4 lh-1 text-dark">Custom Digital<br><span class="text-violate"> Marketing Quotation</span></h2>
                 <p class="fs-20 text-muted mb-5 pe-lg-5">For businesses that need precision beyond estimates, our custom quotation process delivers tailored digital marketing strategies aligned with your goals, market, and growth stage.</p>
 
                 <div class="row g-4 counter-grid justify-content-center justify-content-lg-start">
                     <div class="col-6 col-md-4">
                         <div class="stat-box">
-                            <h2 class="display-5 fw-800 mb-0 text-blue">500+</h2>
+                            <h2 class="display-5 fw-800 mb-0 text-violate">500+</h2>
                             <span class="text-muted fs-13 uppercase fw-700 ls-1">Brands Scaled</span>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="stat-box">
-                            <h2 class="display-5 fw-800 mb-0 text-blue">12Y+</h2>
+                            <h2 class="display-5 fw-800 mb-0 text-violate">12Y+</h2>
                             <span class="text-muted fs-13 uppercase fw-700 ls-1">Digital Excellence</span>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="stat-box">
-                            <h2 class="display-5 fw-800 mb-0 text-blue">98%</h2>
+                            <h2 class="display-5 fw-800 mb-0 text-violate">98%</h2>
                             <span class="text-muted fs-13 uppercase fw-700 ls-1">Client Success</span>
                         </div>
                     </div>
@@ -363,113 +363,113 @@
 <section class="dm-page service-page ppc">
     <div class=" sp-50">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">Calculator <span class="text-blue">FAQs</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">Calculator <span class="text-violate">FAQs</span></h2>
             <div class="dm-faq-main max-1000">
                 <div class="accordion accordion-flush" id="accordionFlushExampleDigital">
                     <div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading1">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1">
-            How does the target market change the estimated cost?
-        </button>
-    </h4>
-    <div id="flush-collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                Targeting a local audience usually requires less scale and budget, while national or international markets demand broader reach, stronger competition handling, and higher ongoing effort.
-            </p>
-        </div>
-    </div>
-</div>
+                        <h4 class="accordion-header" id="flush-heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1">
+                                How does the target market change the estimated cost?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    Targeting a local audience usually requires less scale and budget, while national or international markets demand broader reach, stronger competition handling, and higher ongoing effort.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading2">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2">
-            What does “Marketing Requirement Level” actually mean?
-        </button>
-    </h4>
-    <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                This reflects how aggressively you want to grow. Basic visibility focuses on presence, growth-focused aims for leads and conversions, and advanced strategies target scale, performance, and long-term dominance.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2">
+                                What does “Marketing Requirement Level” actually mean?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    This reflects how aggressively you want to grow. Basic visibility focuses on presence, growth-focused aims for leads and conversions, and advanced strategies target scale, performance, and long-term dominance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading3">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3">
-            How should I choose the right competition level?
-        </button>
-    </h4>
-    <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                If your industry has many active advertisers, strong SEO players, or high keyword bidding, it’s likely medium to high competition. Lower competition usually means fewer established digital players.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3">
+                                How should I choose the right competition level?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    If your industry has many active advertisers, strong SEO players, or high keyword bidding, it’s likely medium to high competition. Lower competition usually means fewer established digital players.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading4">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4">
-            Do I need to select all marketing channels?
-        </button>
-    </h4>
-    <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                No. Select only the channels you genuinely plan to invest in. Choosing more channels increases effort, coordination, and cost—but can also accelerate results if aligned properly.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4">
+                                Do I need to select all marketing channels?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    No. Select only the channels you genuinely plan to invest in. Choosing more channels increases effort, coordination, and cost—but can also accelerate results if aligned properly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading5">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5">
-            Can I rely on this estimate for budgeting?
-        </button>
-    </h4>
-    <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                Yes, this calculator provides a realistic budgeting range based on your inputs. Final pricing may change after reviewing your goals, timelines, and execution depth in detail.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5">
+                                Can I rely on this estimate for budgeting?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    Yes, this calculator provides a realistic budgeting range based on your inputs. Final pricing may change after reviewing your goals, timelines, and execution depth in detail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading6">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6">
-            Why does the cost increase with advanced strategies or multiple channels?
-        </button>
-    </h4>
-    <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                Advanced strategies require deeper research, continuous optimization, skilled resources, and more time investment across platforms, which directly impacts overall cost.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6">
+                                Why does the cost increase with advanced strategies or multiple channels?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    Advanced strategies require deeper research, continuous optimization, skilled resources, and more time investment across platforms, which directly impacts overall cost.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="accordion-item">
-    <h4 class="accordion-header" id="flush-heading7">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7">
-            Is this a final quote or just an estimate?
-        </button>
-    </h4>
-    <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
-        <div class="accordion-body">
-            <p class="fs-16 mb-0">
-                This is an estimate meant for planning and comparison. A custom quotation is recommended for precise pricing and a tailored digital marketing roadmap.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="flush-heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7">
+                                Is this a final quote or just an estimate?
+                            </button>
+                        </h4>
+                        <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleDigital">
+                            <div class="accordion-body">
+                                <p class="fs-16 mb-0">
+                                    This is an estimate meant for planning and comparison. A custom quotation is recommended for precise pricing and a tailored digital marketing roadmap.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -530,6 +530,10 @@
 </div>
 
 <style>
+    .text-violate {
+        color: #855BFF;
+    }
+
     /* Container Adjustments */
     @media (max-width: 767px) {
         .container {
@@ -574,14 +578,14 @@
     }
 
     .text-gradient-premium {
-        background: linear-gradient(135deg, #fff, #93c5fd);
+        background: linear-gradient(135deg, #fff, #855BFF);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
     .bg-blue-gradient {
-        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+        background: linear-gradient(135deg, #845bff37, #855BFF);
     }
 
     .btn-blue-gradient {
@@ -600,9 +604,10 @@
     }
 
     .btn-blue-gradient:hover {
-        background: #111;
+        background: #855BFF;
         transform: translateY(-3px);
         box-shadow: 0 15px 35px rgba(59, 130, 246, 0.3);
+        color: white
     }
 
     .glass-card {
@@ -909,7 +914,7 @@
     }
 
     .ls-2 {
-        letter-spacing: 2px;
+        font-size: 30px;
     }
 
     .fw-700 {

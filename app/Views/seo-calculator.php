@@ -80,12 +80,12 @@
                                     <div class="slider-box p-4 radius-16 bg-white shadow-sm border">
                                         <div class="d-flex justify-content-between align-items-center mb-3">
                                             <label class="form-label-premium mb-0">Website Maturity</label>
-                                            <span class="badge bg-blue-soft text-blue px-3 py-2 radius-10" id="age_display">1-5 Years</span>
+                                            <span class="badge bg-blue-soft text-violate px-3 py-2 radius-10" id="age_display">1-5 Years</span>
                                         </div>
                                         <input type="range" class="form-range premium-range" id="website_age" min="0" max="2" step="1" value="1">
                                         <div class="d-flex justify-content-between mt-2 small text-muted px-1">
                                             <span class="age-label-text pointer" data-idx="0">New Launch</span>
-                                            <span class="age-label-text pointer fw-bold text-blue" data-idx="1">Growing</span>
+                                            <span class="age-label-text pointer fw-bold text-violate" data-idx="1">Growing</span>
                                             <span class="age-label-text pointer" data-idx="2">Established</span>
                                         </div>
                                     </div>
@@ -166,7 +166,7 @@
         <div class="circle-gradient opacity-20"></div>
         <div class="container position-relative">
             <div class="section-title text-center mb-5 pb-4">
-                <h2 class="display-4 fw-900 text-dark mb-4">Data-Driven <span class="text-blue">Estimation</span></h2>
+                <h2 class="display-4 fw-900 text-dark mb-4">Data-Driven <span class="text-violate">Estimation</span></h2>
                 <div class="divider-center"></div>
                 <p class="text-muted mt-4 max-w-600 mx-auto fs-18 ">Our proprietary algorithm analyzes over 50+ variables to give you the most accurate <br>SEO investment forecast in the market.</p>
             </div>
@@ -214,8 +214,8 @@
         <div class="container position-relative">
             <div class="row align-items-end mb-5 pb-3">
                 <div class="col-lg-7">
-                    <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Comprehensive Package</span>
-                    <h2 class="display-4 fw-800">What Drives Your <span class="text-blue">Growth?</span></h2>
+                    <span class="text-violate fw-700 text-uppercase ls-2 d-block mb-3">Comprehensive Package</span>
+                    <h2 class="display-4 fw-800">What Drives Your <span class="text-violate">Growth?</span></h2>
                 </div>
                 <div class="col-lg-5">
                     <p class="text-muted fs-18 mb-0">Beyond technical fixes, we focus on revenue-driven strategies that keep you ahead of the competition.</p>
@@ -269,8 +269,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ps-lg-4">
-                        <span class="text-blue fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
-                        <h2 class="display-5 fw-800 mb-4">Investment <span class="text-blue">Variability</span></h2>
+                        <span class="text-violate fw-700 text-uppercase ls-2 d-block mb-3">Pricing Insight</span>
+                        <h2 class="display-5 fw-800 mb-4">Investment <span class="text-violate">Variability</span></h2>
                         <p class="text-muted fs-18 mb-5">Understand the key factors that influence your SEO budget so you can plan a realistic and effective investment.</p>
 
                         <div class="factor-accordion">
@@ -307,25 +307,25 @@
         <div class="container position-relative">
             <div class="row align-items-center text-center text-lg-start">
                 <div class="col-lg-8">
-                    <h2 class="display-3 fw-900 mb-4 lh-1 text-dark">Dubai's Elite <br><span class="text-blue">Search Partner</span></h2>
+                    <h2 class="display-3 fw-900 mb-4 lh-1 text-dark">Dubai's Elite <br><span class="text-violate">Search Partner</span></h2>
                     <p class="fs-20 text-muted mb-5 pe-lg-5">We bridge the gap between complex search algorithms and your business revenue goals through battle-tested strategies.</p>
 
                     <div class="row g-4 counter-grid justify-content-center justify-content-lg-start">
                         <div class="col-6 col-md-4">
                             <div class="stat-box">
-                                <h2 class="display-5 fw-800 mb-0 text-blue">500+</h2>
+                                <h2 class="display-5 fw-800 mb-0 text-violate">500+</h2>
                                 <span class="text-muted fs-13 uppercase fw-700 ls-1">Brands Scaled</span>
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
                             <div class="stat-box">
-                                <h2 class="display-5 fw-800 mb-0 text-blue">12Y+</h2>
+                                <h2 class="display-5 fw-800 mb-0 text-violate">12Y+</h2>
                                 <span class="text-muted fs-13 uppercase fw-700 ls-1">Search Legacy</span>
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
                             <div class="stat-box">
-                                <h2 class="display-5 fw-800 mb-0 text-blue">98%</h2>
+                                <h2 class="display-5 fw-800 mb-0 text-violate">98%</h2>
                                 <span class="text-muted fs-13 uppercase fw-700 ls-1">Client Success</span>
                             </div>
                         </div>
@@ -347,7 +347,7 @@
 <section class="dm-page service-page ppc">
     <div class=" sp-50">
         <div class="container">
-            <h2 class="text-center mb-lg-5 mb-4">Your SEO Questions <span class="text-blue">Answered</span></h2>
+            <h2 class="text-center mb-lg-5 mb-4">Your SEO Questions <span class="text-violate">Answered</span></h2>
             <div class="dm-faq-main max-1000">
                 <div class="accordion accordion-flush" id="accordionFlushExampleSEO">
 
@@ -532,7 +532,7 @@
     }
 
     .text-soft-blue {
-        color: #93c5fd;
+        color: #855BFF;
     }
 
     /* Section 1: Process */
@@ -819,6 +819,10 @@
 
 
 <style>
+    .text-violate {
+        color: #855BFF;
+    }
+
     /* Container Adjustments */
     @media (max-width: 767px) {
         .container {
@@ -887,7 +891,7 @@
     }
 
     .text-gradient-premium {
-        background: linear-gradient(135deg, #fff, #93c5fd);
+        background: linear-gradient(135deg, #fff, #855BFF);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -916,11 +920,10 @@
     }
 
     .btn-blue-gradient:hover {
-        background: #111;
+        background: #855BFF;
         color: white;
         transform: translateY(-3px);
         box-shadow: 0 15px 35px rgba(59, 130, 246, 0.3);
-        border-color: #60a5fa;
     }
 
     .btn-blue-gradient i {
@@ -1731,8 +1734,8 @@
 
             const ageLabels = document.querySelectorAll('.age-label-text');
             ageLabels.forEach(l => {
-                l.classList.remove('fw-bold', 'text-blue');
-                if (l.dataset.idx == ageVal) l.classList.add('fw-bold', 'text-blue');
+                l.classList.remove('fw-bold', 'text-violate');
+                if (l.dataset.idx == ageVal) l.classList.add('fw-bold', 'text-violate');
             });
 
             const compVal = document.getElementById('competition_level').value;
