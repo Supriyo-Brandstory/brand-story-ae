@@ -30,7 +30,6 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pay-per-click.png" alt="Pay-Per-Click Services" width="30" height="30"><a href="<?= route('payperclickservicesdubai') ?>">PPC Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/video-marketing.png" alt="Video Marketing" width="30" height="30"><a href="<?= route('videomarketingdubai') ?>">Video Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="B2B Services" width="30" height="30"> <a href="<?= route('seoservicesdubai') ?>">SEO Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="Digital Cost Calculator" width="30" height="30"><a href="<?= route('digital.cost.calculator') ?>">Cost Calculator</a></li>
 
                             </ul>
                             <ul class="w-100">
@@ -43,7 +42,6 @@
                             </ul>
                             <ul class="w-100">
                                 <li class="li-headeing"><a href="<?= route('seoservicesdubai') ?>">SEO Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Calculator" width="30" height="30"><a href="<?= route('seo.calculator') ?>">SEO Calculator</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai">SEO Audit Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Technical SEO" width="30" height="30"> <a href="/technical-seo-dubai">Technical SEO</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai">On-Page SEO</a></li>

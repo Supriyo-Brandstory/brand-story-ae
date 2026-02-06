@@ -29,6 +29,8 @@
             <li><a href="/case-study/">Case Studies </a></li>
             <li><a href="/blog/">Latest Blogs</a></li>
             <li><a href="/careers/">Careers</a></li>
+            <li><a href="/digital-cost-calculator/">Digital Cost Calculator</a></li>
+            <li><a href="/seo-calculator/">SEO Calculator</a></li>
           </ul>
         </div>
       </div>
