@@ -116,49 +116,7 @@
 
     <div class="swiper cusswiper_sld">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/seo-chart-01.webp" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
 
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/case-study/sherpa-communications/" class="text-white">Sherpa Communications</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>40+</b> first-page ranking keywords | <b>3,000+</b> monthly organic visitors | <b>200+</b> monthly enquiries</p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">200%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">300%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="swiper-slide">
                 <div class="box-protfolio">
                     <div class="row justify-content-between">
@@ -1238,17 +1196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>SEO & Digital Marketing</strong>
-                            <h3>Sherpa Communications</h3>
-                            <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
 

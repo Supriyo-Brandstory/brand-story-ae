@@ -313,17 +313,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>SEO & Digital Marketing</strong>
-                            <h3>Sherpa Communications</h3>
-                            <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
 

@@ -401,13 +401,7 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/nanoprecise-sci-corp', ['meta' => $meta]);
     }
-    public function sherpacommunications()
-    {
-        $meta = [
-            'classname' => 'main-cs-pg'
-        ];
-        return $this->view('case-study/sherpa-communications', ['meta' => $meta]);
-    }
+
     public function travelagency()
     {
         $meta = [

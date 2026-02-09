@@ -70,7 +70,7 @@ Route::group(['prefix' => '/case-study'], function () {
     Route::get('/leading-consulting-firm-branding', 'FrontendController@leadingconsultingfirmbranding', 'leadingconsultingfirmbranding');
     Route::get('/leading-consulting-firm-website', 'FrontendController@leadingconsultingfirmwebsite', 'leadingconsultingfirmwebsite');
     Route::get('/nanoprecise-sci-corp', 'FrontendController@nanoprecisescicorp', 'nanoprecisescicorp');
-    Route::get('/sherpa-communications', 'FrontendController@sherpacommunications', 'sherpacommunications');
+
     Route::get('/travel-agency', 'FrontendController@travelagency', 'travelagency');
     Route::get('/wipro-infrastructure-engineering', 'FrontendController@wiproinfrastructureengineering', 'wiproinfrastructureengineering');
 });

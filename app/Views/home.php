@@ -979,19 +979,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                             </div>
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
-                                <strong>Branding & Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/sherpa-communications/">Sherpa Communications</a></h3>
-                            <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

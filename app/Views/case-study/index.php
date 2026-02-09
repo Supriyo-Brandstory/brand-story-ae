@@ -18,22 +18,22 @@
                 <button class="nav-link active" id="pills-cat1-tab" data-bs-toggle="pill" data-bs-target="#pills-cat1" type="button" role="tab" aria-controls="pills-cat1" aria-selected="true">All</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-cat2-tab" data-bs-toggle="pill" data-bs-target="#pills-cat2" type="button" role="tab" aria-controls="pills-cat2" aria-selected="false">Branding<span>6</span></button>
+                <button class="nav-link" id="pills-cat2-tab" data-bs-toggle="pill" data-bs-target="#pills-cat2" type="button" role="tab" aria-controls="pills-cat2" aria-selected="false">Branding<span>5</span></button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-cat3-tab" data-bs-toggle="pill" data-bs-target="#pills-cat3" type="button" role="tab" aria-controls="pills-cat3" aria-selected="false">Website Design And Development<span>2</span></button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-cat4-tab" data-bs-toggle="pill" data-bs-target="#pills-cat4" type="button" role="tab" aria-controls="pills-cat4" aria-selected="false">SEO<span>8</span></button>
+                <button class="nav-link" id="pills-cat4-tab" data-bs-toggle="pill" data-bs-target="#pills-cat4" type="button" role="tab" aria-controls="pills-cat4" aria-selected="false">SEO<span>7</span></button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-cat5-tab" data-bs-toggle="pill" data-bs-target="#pills-cat5" type="button" role="tab" aria-controls="pills-cat5" aria-selected="false">Digital Marketing<span>6</span></button>
+                <button class="nav-link" id="pills-cat5-tab" data-bs-toggle="pill" data-bs-target="#pills-cat5" type="button" role="tab" aria-controls="pills-cat5" aria-selected="false">Digital Marketing<span>5</span></button>
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <!-- All Start -->
             <div class="tab-pane fade show active" id="pills-cat1" role="tabpanel" aria-labelledby="pills-cat1-tab">
-               <div class="row g-4">
+                <div class="row g-4">
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs1.png">
@@ -100,17 +100,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/case-study/cs7.png">
-                            <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Sherpa Communications</h3>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/sherpa-communications/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs8.png">
@@ -161,8 +151,8 @@
 
             <!-- Branding Start -->
             <div class="tab-pane fade" id="pills-cat2" role="tabpanel" aria-labelledby="pills-cat2-tab">
-            <div class="row g-4">
-                   <div class="col-md-6">
+                <div class="row g-4">
+                    <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs3.png">
                             <div class="cs-cnt-main">
@@ -206,17 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/case-study/cs7.png">
-                            <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Sherpa Communications</h3>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/sherpa-communications/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs11.png">
@@ -234,7 +214,7 @@
 
             <!-- Website Design And Development Start -->
             <div class="tab-pane fade" id="pills-cat3" role="tabpanel" aria-labelledby="pills-cat3-tab">
-            <div class="row g-4">
+                <div class="row g-4">
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs1.png">
@@ -263,8 +243,8 @@
 
             <!-- SEO Start -->
             <div class="tab-pane fade" id="pills-cat4" role="tabpanel" aria-labelledby="pills-cat4-tab">
-            <div class="row g-4">
-                <div class="col-md-6">
+                <div class="row g-4">
+                    <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs4.png">
                             <div class="cs-cnt-main">
@@ -297,17 +277,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/case-study/cs7.png">
-                            <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Sherpa Communications</h3>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/sherpa-communications/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs8.png">
@@ -358,7 +328,7 @@
 
             <!-- Digital Marketing Start -->
             <div class="tab-pane fade" id="pills-cat5" role="tabpanel" aria-labelledby="pills-cat5-tab">
-            <div class="row g-4">
+                <div class="row g-4">
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs4.png">
@@ -370,17 +340,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/case-study/cs7.png">
-                            <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Sherpa Communications</h3>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/sherpa-communications/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-6">
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs8.png">

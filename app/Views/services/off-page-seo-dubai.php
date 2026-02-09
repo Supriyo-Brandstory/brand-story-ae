@@ -99,14 +99,14 @@
             </div>
             <div class="col-lg-6 align-self-center">
                 <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">Off-page SEO plays a critical role in how search engines evaluate the credibility and influence of your brand. At BrandStory, we focus on 
-                        strengthening your website’s authority beyond its pages by building trust signals that search engines value. Our off-page SEO strategies are designed to improve how 
+                    <li class="text-white mb-3 fs-20">Off-page SEO plays a critical role in how search engines evaluate the credibility and influence of your brand. At BrandStory, we focus on
+                        strengthening your website’s authority beyond its pages by building trust signals that search engines value. Our off-page SEO strategies are designed to improve how
                         your brand is perceived across the digital ecosystem.</li>
                     <li class="text-white mb-3 fs-20">Through high-quality link acquisition, brand mentions, digital PR, and authority-building outreach, we help your business earn recognition
-                         from relevant and reputable sources. Each off-page action is carefully planned to support long-term rankings, referral traffic, and brand credibility rather than 
-                         short-term gains.</li>
+                        from relevant and reputable sources. Each off-page action is carefully planned to support long-term rankings, referral traffic, and brand credibility rather than
+                        short-term gains.</li>
                     <li class="text-white mb-4 fs-20">BrandStory’s off-page <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> ensures your business stands out in competitive search landscapes. By expanding your digital footprint
-                         and reinforcing trust signals, we help your website achieve stronger rankings, wider reach, and sustained growth across Dubai and beyond.</li>
+                        and reinforcing trust signals, we help your website achieve stronger rankings, wider reach, and sustained growth across Dubai and beyond.</li>
                 </ul>
                 <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
 
@@ -127,99 +127,99 @@
 </section>
 
 <section class="bg-black sp-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Off-Page SEO: Building Authority Beyond Your Website</h2>
-                    <p class="fs-20 text-white">
-                        Off-page SEO is about how your brand is represented across the digital landscape, and backlinks play a key role in shaping
-                         that perception. At BrandStory, we focus on earning meaningful connections from relevant and authoritative sources that 
-                         strengthen your website’s credibility and influence.
-                    </p>
-                    <p class="fs-20 text-white">
-                        Our off-page SEO services in Dubai are designed to expand your brand’s reach beyond your website. By building high-quality 
-                        links, securing brand mentions, and increasing referral visibility, we help search engines recognize your business as a trusted 
-                        and reliable entity. These efforts not only support higher rankings but also bring in audiences that are genuinely interested 
-                        in what you offer.
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7">
+                <h2 class="text-white mb-4 text-md-start text-center ">Off-Page SEO: Building Authority Beyond Your Website</h2>
+                <p class="fs-20 text-white">
+                    Off-page SEO is about how your brand is represented across the digital landscape, and backlinks play a key role in shaping
+                    that perception. At BrandStory, we focus on earning meaningful connections from relevant and authoritative sources that
+                    strengthen your website’s credibility and influence.
+                </p>
+                <p class="fs-20 text-white">
+                    Our off-page SEO services in Dubai are designed to expand your brand’s reach beyond your website. By building high-quality
+                    links, securing brand mentions, and increasing referral visibility, we help search engines recognize your business as a trusted
+                    and reliable entity. These efforts not only support higher rankings but also bring in audiences that are genuinely interested
+                    in what you offer.
                     <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
 
-                </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/new-seo/off-page-2.png" alt="Off-page SEO Agency in Dubai" class="img-fluid" style="border-radius: 20px;">
-                </div>
             </div>
-            <div class="row mt-4 mt-lg-5 border-top ">
-                <!-- Left Column -->
-                <div class="col-md-7 mt-5">
-                    <p class="fs-20 text-white mb-3">At BrandStory, our off-page SEO services in Dubai focus on strengthening your website’s authority 
-                        beyond its pages. We work on building external trust signals that influence how search engines evaluate your brand, ensuring your
-                         website gains recognition, credibility, and relevance across the web. Every off-page initiative is aligned with your business 
-                         goals to support sustainable rankings and long-term organic growth.</p>
-
-                    <p class="fs-20 text-white">
-                        Rather than relying on shortcuts, our off-page SEO strategies are built on quality and consistency. We help your brand earn recognition
-                         from authoritative sources, expand its digital footprint, and create a strong presence across relevant platforms. This approach 
-                         improves search visibility while reinforcing your brand’s reputation in competitive markets.
-                    </p>
-                </div>
-
-                <!-- Right Column -->
-                <div class="col-md-5 mt-5">
-                    <h5 class="fw-bold mb-3 text-white">
-                        We deliver a comprehensive range of off-page SEO services, including:
-                    </h5>
-                       <ul class="list-unstyled text-white fs-20">
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> High-Quality Backlinks </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Authority-Based Outreach </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Brand Mentions & Citations </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Digital PR & Content Promotion </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Competitor Link Analysis </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Referral Traffic Optimization </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Local & Industry-Specific Citations </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Anchor Text Optimization </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Long-Term Link Monitoring </span></li>
-                            <li class="mb-2">• <span style="color:white; font-weight:600;"> Toxic Link Cleanup </span></li>
-                        </ul>
-                </div>
+            <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+                <img src="/assets/images/new-seo/off-page-2.png" alt="Off-page SEO Agency in Dubai" class="img-fluid" style="border-radius: 20px;">
             </div>
         </div>
-    </section>
+        <div class="row mt-4 mt-lg-5 border-top ">
+            <!-- Left Column -->
+            <div class="col-md-7 mt-5">
+                <p class="fs-20 text-white mb-3">At BrandStory, our off-page SEO services in Dubai focus on strengthening your website’s authority
+                    beyond its pages. We work on building external trust signals that influence how search engines evaluate your brand, ensuring your
+                    website gains recognition, credibility, and relevance across the web. Every off-page initiative is aligned with your business
+                    goals to support sustainable rankings and long-term organic growth.</p>
+
+                <p class="fs-20 text-white">
+                    Rather than relying on shortcuts, our off-page SEO strategies are built on quality and consistency. We help your brand earn recognition
+                    from authoritative sources, expand its digital footprint, and create a strong presence across relevant platforms. This approach
+                    improves search visibility while reinforcing your brand’s reputation in competitive markets.
+                </p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-5 mt-5">
+                <h5 class="fw-bold mb-3 text-white">
+                    We deliver a comprehensive range of off-page SEO services, including:
+                </h5>
+                <ul class="list-unstyled text-white fs-20">
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> High-Quality Backlinks </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Authority-Based Outreach </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Brand Mentions & Citations </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Digital PR & Content Promotion </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Competitor Link Analysis </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Referral Traffic Optimization </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Local & Industry-Specific Citations </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Anchor Text Optimization </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Long-Term Link Monitoring </span></li>
+                    <li class="mb-2">• <span style="color:white; font-weight:600;"> Toxic Link Cleanup </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
 
 
-    <section class="bg-black sp-50">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">BrandStory Helps Your Business Grow with Off-Page SEO</h2>
-                    <ul class="mb-0">
-                    <li class="text-white mb-3 fs-20">Stronger Domain Authority: 
-                    BrandStory builds a robust off-page SEO strategy that strengthens your website’s reputation across the web. By earning high-quality backlinks and mentions from 
-                    authoritative sources, your site gains credibility in the eyes of search engines.
+<section class="bg-black sp-50">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-7">
+                <h2 class="text-white mb-4 text-md-start text-center ">BrandStory Helps Your Business Grow with Off-Page SEO</h2>
+                <ul class="mb-0">
+                    <li class="text-white mb-3 fs-20">Stronger Domain Authority:
+                        BrandStory builds a robust off-page SEO strategy that strengthens your website’s reputation across the web. By earning high-quality backlinks and mentions from
+                        authoritative sources, your site gains credibility in the eyes of search engines.
                     </li>
                     <li class="text-white mb-3 fs-20">Enhanced Online Visibility:
-                    Through strategic link-building, content promotion, and brand mentions, our off-page SEO efforts ensure your business is visible where it matters most. This 
-                    drives more referral traffic and increases your reach beyond your own website.
+                        Through strategic link-building, content promotion, and brand mentions, our off-page SEO efforts ensure your business is visible where it matters most. This
+                        drives more referral traffic and increases your reach beyond your own website.
                     </li>
-                    <li class="text-white mb-3 fs-20">Improved Brand Recognition: 
-                    Off-page optimization is about more than links, it’s about establishing your brand as a trusted authority. By leveraging social signals, influencer partnerships,
-                     and guest posting, BrandStory positions your brand as a credible and recognized player in your industry.
+                    <li class="text-white mb-3 fs-20">Improved Brand Recognition:
+                        Off-page optimization is about more than links, it’s about establishing your brand as a trusted authority. By leveraging social signals, influencer partnerships,
+                        and guest posting, BrandStory positions your brand as a credible and recognized player in your industry.
                     </li>
-                    <li class="text-white mb-3 fs-20">Referral Traffic and Engagement: 
-                    Effective off-page SEO drives relevant audiences to your website from multiple channels. These high-quality visitors are more likely to engage with your content, 
-                    explore your services, and convert into leads or customers.
+                    <li class="text-white mb-3 fs-20">Referral Traffic and Engagement:
+                        Effective off-page SEO drives relevant audiences to your website from multiple channels. These high-quality visitors are more likely to engage with your content,
+                        explore your services, and convert into leads or customers.
                     </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/new-seo/off-page-3.webp" alt="Off-page SEO Agency in Dubai" style="border-radius: 20px;" class="img-fluid">
-                </div>
+                </ul>
             </div>
-
+            <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+                <img src="/assets/images/new-seo/off-page-3.webp" alt="Off-page SEO Agency in Dubai" style="border-radius: 20px;" class="img-fluid">
+            </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
 
 
@@ -334,17 +334,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>SEO & Digital Marketing</strong>
-                            <h3>Sherpa Communications</h3>
-                            <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
 
@@ -496,333 +486,333 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
 </section>
 
- <section class="dm-faq-section bg-black sp-50">
-  <div class="container">
-    <h2 class="text-center text-white mb-lg-5 mb-4">Your Off-Page Questions Answered</h2>
+<section class="dm-faq-section bg-black sp-50">
+    <div class="container">
+        <h2 class="text-center text-white mb-lg-5 mb-4">Your Off-Page Questions Answered</h2>
 
-    <div class="dm-faq-main">
-      <div class="tab-content" id="pills-tabContent">
+        <div class="dm-faq-main">
+            <div class="tab-content" id="pills-tabContent">
 
-        <!-- Education Marketing Tab (ACTIVE) -->
-        <div class="tab-pane fade show active" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
-          <div class="accordion accordion-flush" id="accordionFlushExampleEducation">
+                <!-- Education Marketing Tab (ACTIVE) -->
+                <div class="tab-pane fade show active" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                    <div class="accordion accordion-flush" id="accordionFlushExampleEducation">
 
-            <!-- FAQ 1 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu1">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu1"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu1">
-                  What does off-page SEO include?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu1" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu1"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Off-page SEO focuses on activities performed outside your website to improve its authority, visibility, and credibility online. 
-                    This includes link building, social media engagement, brand mentions, influencer outreach, guest posting, and online directory 
-                    submissions. All these strategies signal to search engines that your website is trusted and relevant.
-                  </p>
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu1">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu1"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu1">
+                                    What does off-page SEO include?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu1"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Off-page SEO focuses on activities performed outside your website to improve its authority, visibility, and credibility online.
+                                        This includes link building, social media engagement, brand mentions, influencer outreach, guest posting, and online directory
+                                        submissions. All these strategies signal to search engines that your website is trusted and relevant.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu2">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu2"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu2">
+                                    Why do businesses need off-page SEO services?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu2" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu2"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Off-page SEO is crucial because it helps search engines understand your website’s authority and trustworthiness. Even with perfect
+                                        on-page SEO, a website without credible backlinks, brand mentions, and social validation may struggle to rank competitively.
+                                        Off-page strategies drive higher visibility, more referral traffic, and stronger online reputation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu3">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu3"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu3">
+                                    What is included in professional off-page SEO services?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu3" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu3"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Our comprehensive off-page SEO services include:
+                                    </p>
+                                    <ul class="fs-16 text-white mb-3">
+                                        <li>High-quality backlink acquisition from authoritative sites</li>
+                                        <li>Guest posting on relevant blogs and platforms</li>
+                                        <li>Social media engagement and content promotion</li>
+                                        <li>Brand mentions across reputable directories and websites</li>
+                                        <li>Influencer outreach and collaborations</li>
+                                        <li>Reputation management and review optimization</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu4">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu4"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu4">
+                                    How does off-page SEO differ from on-page SEO?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu4" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu4"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        While on-page SEO focuses on optimizing elements within your website, such as content, meta tags, headings, and site structure,
+                                        off-page SEO builds your website’s authority externally. On-page makes your website search-engine friendly, whereas off-page signals
+                                        to search engines that your website is trustworthy and valuable through external references.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu5">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu5"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu5">
+                                    How can off-page SEO services improve my website’s ranking in Dubai?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu5" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu5"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Off-page SEO increases your website’s credibility, domain authority, and online visibility. For Dubai businesses, strategies
+                                        like local link building, social engagement, and influencer collaborations ensure your website ranks higher in search results,
+                                        attracts more local customers, and competes effectively in a saturated market.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu6">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu6"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu6">
+                                    What is link building in off-page SEO?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu6" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu6"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Link building is the practice of acquiring backlinks from other reputable websites to your own. Each backlink acts as a “vote of confidence”
+                                        for search engines, signaling that your content is trustworthy and valuable. Effective link building improves domain authority, boosts search
+                                        rankings, and drives relevant referral traffic.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 7 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu7">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu7"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu7">
+                                    Can local Dubai businesses benefit from off-page SEO?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu7" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu7"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Absolutely. Local businesses in Dubai can leverage off-page SEO to improve local search rankings, attract customers in
+                                        specific neighborhoods, and establish a strong brand presence online. Strategies like local citations, backlinks from
+                                        Dubai-based websites, and Google Business Profile engagement are particularly effective
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 8 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu8">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu8"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu8">
+                                    How long does it take to see results from off-page SEO?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu8" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu8"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        Off-page SEO is a long-term strategy. Typically, noticeable improvements in rankings and traffic can take 3 to
+                                        6 months, depending on your website’s current authority, competition, and the consistency of off-page activities.
+                                        Results compound over time, making ongoing efforts crucial for sustained growth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 9 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu9">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu9"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu9">
+                                    Is off-page SEO expensive in Dubai?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu9" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu9"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        The cost of off-page SEO in Dubai varies based on your business goals, competition, and the scope of services. While
+                                        it can require investment, the returns in terms of higher search rankings, targeted traffic, and brand credibility
+                                        make it a cost-effective strategy for long-term growth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 10 -->
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="flush-headingEdu10">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEdu10"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseEdu10">
+                                    How can BrandStory support my off-page SEO in Dubai?
+                                </button>
+                            </h4>
+                            <div id="flush-collapseEdu10" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEdu10"
+                                data-bs-parent="#accordionFlushExampleEducation">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-2">
+                                        BrandStory offers tailored off-page SEO services for Dubai businesses. Our team specializes in high-quality link building, local SEO
+                                        strategies, brand reputation management, and content promotion. By combining these tactics, we help businesses improve search rankings,
+                                        attract qualified traffic, and build a strong online presence in Dubai’s competitive market.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-              </div>
+
             </div>
-
-            <!-- FAQ 2 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu2">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu2"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu2">
-                  Why do businesses need off-page SEO services?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu2" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu2"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Off-page SEO is crucial because it helps search engines understand your website’s authority and trustworthiness. Even with perfect
-                     on-page SEO, a website without credible backlinks, brand mentions, and social validation may struggle to rank competitively.
-                     Off-page strategies drive higher visibility, more referral traffic, and stronger online reputation.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 3 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu3">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu3"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu3">
-                  What is included in professional off-page SEO services?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu3" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu3"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Our comprehensive off-page SEO services include:
-                    </p>
-                    <ul class="fs-16 text-white mb-3">
-                    <li>High-quality backlink acquisition from authoritative sites</li>
-                    <li>Guest posting on relevant blogs and platforms</li>
-                    <li>Social media engagement and content promotion</li>
-                    <li>Brand mentions across reputable directories and websites</li>
-                    <li>Influencer outreach and collaborations</li>
-                    <li>Reputation management and review optimization</li>
-                    </ul>
-
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 4 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu4">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu4"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu4">
-                  How does off-page SEO differ from on-page SEO?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu4" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu4"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    While on-page SEO focuses on optimizing elements within your website, such as content, meta tags, headings, and site structure, 
-                    off-page SEO builds your website’s authority externally. On-page makes your website search-engine friendly, whereas off-page signals 
-                    to search engines that your website is trustworthy and valuable through external references.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 5 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu5">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu5"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu5">
-                  How can off-page SEO services improve my website’s ranking in Dubai?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu5" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu5"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Off-page SEO increases your website’s credibility, domain authority, and online visibility. For Dubai businesses, strategies 
-                    like local link building, social engagement, and influencer collaborations ensure your website ranks higher in search results, 
-                    attracts more local customers, and competes effectively in a saturated market.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 6 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu6">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu6"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu6">
-                  What is link building in off-page SEO?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu6" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu6"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Link building is the practice of acquiring backlinks from other reputable websites to your own. Each backlink acts as a “vote of confidence” 
-                    for search engines, signaling that your content is trustworthy and valuable. Effective link building improves domain authority, boosts search 
-                    rankings, and drives relevant referral traffic.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 7 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu7">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu7"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu7">
-                  Can local Dubai businesses benefit from off-page SEO?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu7" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu7"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Absolutely. Local businesses in Dubai can leverage off-page SEO to improve local search rankings, attract customers in 
-                    specific neighborhoods, and establish a strong brand presence online. Strategies like local citations, backlinks from 
-                    Dubai-based websites, and Google Business Profile engagement are particularly effective
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 8 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu8">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu8"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu8">
-                  How long does it take to see results from off-page SEO?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu8" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu8"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    Off-page SEO is a long-term strategy. Typically, noticeable improvements in rankings and traffic can take 3 to
-                     6 months, depending on your website’s current authority, competition, and the consistency of off-page activities. 
-                     Results compound over time, making ongoing efforts crucial for sustained growth.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 9 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu9">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu9"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu9">
-                  Is off-page SEO expensive in Dubai?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu9" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu9"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    The cost of off-page SEO in Dubai varies based on your business goals, competition, and the scope of services. While
-                     it can require investment, the returns in terms of higher search rankings, targeted traffic, and brand credibility
-                      make it a cost-effective strategy for long-term growth.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- FAQ 10 -->
-            <div class="accordion-item">
-              <h4 class="accordion-header" id="flush-headingEdu10">
-                <button class="accordion-button collapsed" type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseEdu10"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseEdu10">
-                  How can BrandStory support my off-page SEO in Dubai?
-                </button>
-              </h4>
-              <div id="flush-collapseEdu10" class="accordion-collapse collapse"
-                aria-labelledby="flush-headingEdu10"
-                data-bs-parent="#accordionFlushExampleEducation">
-                <div class="accordion-body">
-                  <p class="fs-20 text-white mb-2">
-                    BrandStory offers tailored off-page SEO services for Dubai businesses. Our team specializes in high-quality link building, local SEO 
-                    strategies, brand reputation management, and content promotion. By combining these tactics, we help businesses improve search rankings,
-                     attract qualified traffic, and build a strong online presence in Dubai’s competitive market.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
         </div>
-
-      </div>
     </div>
-  </div>
 </section>
 
 
 
 <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const section = document.querySelector('.scroll-banner-section');
-            const slide1 = document.getElementById('banner-slide-1');
-            const slide2 = document.getElementById('banner-slide-2');
-            const slide3 = document.getElementById('banner-slide-3');
+    document.addEventListener('DOMContentLoaded', function() {
+        const section = document.querySelector('.scroll-banner-section');
+        const slide1 = document.getElementById('banner-slide-1');
+        const slide2 = document.getElementById('banner-slide-2');
+        const slide3 = document.getElementById('banner-slide-3');
 
-            if (!section) return;
+        if (!section) return;
 
-            window.addEventListener('scroll', () => {
-                const rect = section.getBoundingClientRect();
-                const viewportHeight = window.innerHeight;
-                const scrollHeight = section.offsetHeight - viewportHeight;
+        window.addEventListener('scroll', () => {
+            const rect = section.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            const scrollHeight = section.offsetHeight - viewportHeight;
 
-                let progress = -rect.top / scrollHeight;
-                progress = Math.max(0, Math.min(1, progress));
+            let progress = -rect.top / scrollHeight;
+            progress = Math.max(0, Math.min(1, progress));
 
-                if (progress < 0.33) {
-                    slide1.classList.add('active');
-                    slide1.classList.remove('prev-slide', 'next-slide');
+            if (progress < 0.33) {
+                slide1.classList.add('active');
+                slide1.classList.remove('prev-slide', 'next-slide');
 
-                    slide2.classList.remove('active', 'prev-slide');
-                    slide2.classList.add('next-slide');
+                slide2.classList.remove('active', 'prev-slide');
+                slide2.classList.add('next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
-                } else if (progress < 0.66) {
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide');
+            } else if (progress < 0.66) {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
 
-                    slide2.classList.add('active');
-                    slide2.classList.remove('prev-slide', 'next-slide');
+                slide2.classList.add('active');
+                slide2.classList.remove('prev-slide', 'next-slide');
 
-                    slide3.classList.remove('active', 'prev-slide');
-                    slide3.classList.add('next-slide');
+                slide3.classList.remove('active', 'prev-slide');
+                slide3.classList.add('next-slide');
 
-                } else {
-                    slide1.classList.remove('active', 'next-slide');
-                    slide1.classList.add('prev-slide');
+            } else {
+                slide1.classList.remove('active', 'next-slide');
+                slide1.classList.add('prev-slide');
 
-                    slide2.classList.remove('active', 'next-slide');
-                    slide2.classList.add('prev-slide');
+                slide2.classList.remove('active', 'next-slide');
+                slide2.classList.add('prev-slide');
 
-                    slide3.classList.add('active');
-                    slide3.classList.remove('prev-slide', 'next-slide');
-                }
-            });
+                slide3.classList.add('active');
+                slide3.classList.remove('prev-slide', 'next-slide');
+            }
         });
-    </script>
+    });
+</script>
 
 
-    <?php
-    // Default Services List - can be overwritten by passing $stickyServices to the view
-    $stickyServices = $stickyServices ?? [
-        ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
-        ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
-        ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
-        ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
-        ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
-    ];
-    ?>
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
+$stickyServices = $stickyServices ?? [
+    ['label' => 'Technical SEO', 'url' => '/technical-seo-dubai'],
+    ['label' => 'SEO Audit', 'url' => '/seo-audit-dubai'],
+    ['label' => 'On-Page SEO', 'url' => '/on-page-seo-dubai'],
+    ['label' => 'Off-Page SEO', 'url' => '/off-page-seo-dubai'],
+    ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
+];
+?>
