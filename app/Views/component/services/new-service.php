@@ -47,7 +47,7 @@
 					</div>
 					<h4>SEO Services</h4>
 					<p>Our digital marketing agencies in Dubai will understand the importance of SEO and how it can directly influence the online visibility of your website. Our optimal SEO techniques bring in organic traffic to your website and increase leads significantly. We guarantee that your pages will fare on top amongst the search engine result pages.</p>
-					<div class="ss-box-link"><a href="/seo-services-company-in-dubai/">Read more</a></div>
+					<div class="ss-box-link"><a href="/seo-services-in-dubai/">Read more</a></div>
 				</div><!--box end-->
 			  </div><!--slide end-->
 			  

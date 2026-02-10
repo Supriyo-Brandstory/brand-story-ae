@@ -4,7 +4,7 @@
 		<div class="row spt-50"><!--Row Start-->
 			<div class="col-md-4"> <!--col start-->
 				<ul>
-					<li><a href="/seo-services-company-in-dubai/">SEO Services in Dubai</a></li>
+					<li><a href="/seo-services-in-dubai/">SEO Services in Dubai</a></li>
 					<li><a href="/seo-agency-in-abu-dhabi/">SEO Services in Abu Dhabi</a></li>
 					<li><a href="/seo-agency-in-fujairah/">SEO Services in Fujairah</a></li>
 					<li><a href="/seo-agency-in-sharjah/">SEO Services in Sharjah</a></li>

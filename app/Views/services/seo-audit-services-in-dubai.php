@@ -119,7 +119,7 @@
                 <div class="service-banner-txt">
                     <h1>In-Depth SEO Audit Services in Dubai- BrandStory</h1>
                     <p class="text-white">The digital landscape in Dubai is highly competitive and dominated by industry leaders. Against this backdrop, SEO audit services are akin to a complete diagnosis of a website's health and performance, signaling critical issues that tend to impact visibility and ranking. With the problems pinned down, businesses can make strategic improvements to power performance in the SERPs, propel organic traffic, and drive conversions.</p>
-                    <p class="text-white">BrandStory is a leading <a href="/seo-services-company-in-dubai/">SEO agency in Dubai</a> that provides the best-in-class SEO audit services. Our professional team conducts an extended audit with the help of state-of-the-art tools and methods to spot the gaps that need optimization to get your website fully optimized as per search engine standards.
+                    <p class="text-white">BrandStory is a leading <a href="/seo-services-in-dubai/">SEO agency in Dubai</a> that provides the best-in-class SEO audit services. Our professional team conducts an extended audit with the help of state-of-the-art tools and methods to spot the gaps that need optimization to get your website fully optimized as per search engine standards.
 
                     </p>
                     <div class="hban-btn"><a href="/contact/" class="btn fw-semibold">Know

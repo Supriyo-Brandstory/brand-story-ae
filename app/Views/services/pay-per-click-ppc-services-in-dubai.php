@@ -723,7 +723,7 @@
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-9.png" class="img-fluid" alt="ppc management services dubai">
                 <h4>PPC ads can build SEO</h4>
-                <p>Our ppc management services Dubai can help build <a href="/seo-services-company-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
+                <p>Our ppc management services Dubai can help build <a href="/seo-services-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
             </div>
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-10.png" class="img-fluid" alt="ppc marketing dubai">
@@ -847,7 +847,7 @@
 <!--<section>
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4">Awards & Recognitions</h2>
-        <p class="fs-20">At BrandStory UAE, we are recognized as a top-tier Pay-Per-Click (PPC), <a href="/social-media-marketing-agency-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">social media management</a>, and <a href="/seo-services-company-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">SEO agency in Dubai</a> by 500+ active clients across the UAE.
+        <p class="fs-20">At BrandStory UAE, we are recognized as a top-tier Pay-Per-Click (PPC), <a href="/social-media-marketing-agency-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">social media management</a>, and <a href="/seo-services-in-dubai/" style="color:black; text-decoration:none; border-bottom:1px solid #b180ff">SEO agency in Dubai</a> by 500+ active clients across the UAE.
             With a data-driven approach, strategic ad placement, and conversion-focused campaigns, we position ourselves as leading digital marketing specialists. These grants stand as a testament to our ability to produce high ROI and provide remarkable returns for our clients across different businesses.</p>
         <p class="mb-4 fs-20">As a Google Partner agency, we create custom-made campaigns that adjust to each client's objectives, guaranteeing the most extreme visibility and performance over platforms like Google Ads, Bing, and social media channels. From keyword research to real-time analytics, each perspective of our PPC methodology is planned for victory. These acknowledgments motivate us to keep improving and surpassing our desires within the energetic world of paid advertising.</p>
         <div class="row">

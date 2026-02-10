@@ -266,7 +266,7 @@
                     </div>
                     <div class="flex-grow-1 ms-3">
                         <h6>SEO Services</h6>
-                        <div class="smms-link"><a href="/seo-services-company-in-dubai/">Know More</a>
+                        <div class="smms-link"><a href="/seo-services-in-dubai/">Know More</a>
                         </div>
                     </div>
                 </div>

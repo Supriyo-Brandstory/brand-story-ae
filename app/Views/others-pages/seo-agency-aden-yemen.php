@@ -85,7 +85,7 @@
             <div class="col-md-4">
                 <div class="seo-process-box seo-box-top-border-color-7">
                     <h4>Technical SEO</h4>
-                    <p>Your website will perform properly only when it is fine-tuned. Standing up to our reputation of being the <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">best SEO agency in dubai</a>, we do an extensive audit to identify areas that need to be streamlined. We will ensure that your page loads quickly, is mobile responsive, and is easily navigable.</p>
+                    <p>Your website will perform properly only when it is fine-tuned. Standing up to our reputation of being the <a href="https://www.brandstory.ae/seo-services-in-dubai/">best SEO agency in dubai</a>, we do an extensive audit to identify areas that need to be streamlined. We will ensure that your page loads quickly, is mobile responsive, and is easily navigable.</p>
                 </div>
             </div>
             <div class="col-md-4">

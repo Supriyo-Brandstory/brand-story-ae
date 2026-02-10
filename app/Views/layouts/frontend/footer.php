@@ -38,7 +38,7 @@
         <h5 class="ftr-sub-title">Our Services</h5>
         <ul class="ftr-links">
           <li><a href="/">Digital Marketing</a></li>
-          <li><a href="/seo-services-company-in-dubai/">Search Engine Optimization</a></li>
+          <li><a href="/seo-services-in-dubai/">Search Engine Optimization</a></li>
           <li><a href="/social-media-marketing-agency-in-dubai/">Social Media Marketing</a></li>
           <li><a href="/pay-per-click-ppc-services-in-dubai/">Pay-Per-Click Ads</a></li>
           <li><a href="/email-marketing-company-in-dubai/">Email Marketing</a>
@@ -111,7 +111,7 @@
 <?php
 // Default Services List - can be overwritten by passing $stickyServices to the view
 $stickyServices = $stickyServices ?? [
-  ['label' => 'SEO Services', 'url' => '/seo-services-company-in-dubai'],
+  ['label' => 'SEO Services', 'url' => '/seo-services-in-dubai'],
   ['label' => 'Digital Marketing', 'url' => '/'],
   ['label' => 'PPC Services', 'url' => '/pay-per-click-ppc-services-in-dubai'],
   ['label' => 'Social Media', 'url' => '/social-media-marketing-agency-in-dubai'],

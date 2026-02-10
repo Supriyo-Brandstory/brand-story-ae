@@ -104,7 +104,7 @@
 					<ul class="seo-pages-list">
 						<li>Our first step towards making your website SEO optimised is performing an initial site audit. This involves scanning websites, identifying SEO issues, checking for broken links, finding duplicate links, checking page and domain authority, and assessing page errors and malware.</li>
 						<li>Our SEO services company in Saudi Arabia KSA can understand that identification of keywords is the fundamental step of improving organic search rankings. Our digital marketing experts will perform keyword selection depends on factors such as potential customers, competitors, and search volume.</li>
-						<li>Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO firms in dubai</a> can help optimize your websites through niche long-tail keywords. We analyse all parts of your website such as site architecture, competitor analysis, malware analysis, website scores, navigation, HTML tags, and identification of more negative SEO features. </li>
+						<li>Our <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO firms in dubai</a> can help optimize your websites through niche long-tail keywords. We analyse all parts of your website such as site architecture, competitor analysis, malware analysis, website scores, navigation, HTML tags, and identification of more negative SEO features. </li>
 					</ul>
 				</div>
 			</div><!--col end-->
@@ -132,7 +132,7 @@
 				</div>
 			</div><!--col end-->
 		</div><!--Row End-->
-		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">seo consultant in dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
+		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-in-dubai/">seo consultant in dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
 	</div><!--Container End-->
 </section>
 

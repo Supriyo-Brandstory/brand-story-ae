@@ -105,7 +105,7 @@
                     <li class="text-white mb-3 fs-20">Through high-quality link acquisition, brand mentions, digital PR, and authority-building outreach, we help your business earn recognition
                         from relevant and reputable sources. Each off-page action is carefully planned to support long-term rankings, referral traffic, and brand credibility rather than
                         short-term gains.</li>
-                    <li class="text-white mb-4 fs-20">BrandStory’s off-page <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> ensures your business stands out in competitive search landscapes. By expanding your digital footprint
+                    <li class="text-white mb-4 fs-20">BrandStory’s off-page <a href="/seo-services-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> ensures your business stands out in competitive search landscapes. By expanding your digital footprint
                         and reinforcing trust signals, we help your website achieve stronger rankings, wider reach, and sustained growth across Dubai and beyond.</li>
                 </ul>
                 <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
@@ -141,7 +141,7 @@
                     links, securing brand mentions, and increasing referral visibility, we help search engines recognize your business as a trusted
                     and reliable entity. These efforts not only support higher rankings but also bring in audiences that are genuinely interested
                     in what you offer.
-                    <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
+                    <a href="/seo-services-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">

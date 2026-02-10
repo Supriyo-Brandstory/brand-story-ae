@@ -252,7 +252,7 @@
         </p>
         <div class="dm-tags">
           <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/">Social Media</a>
-          <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">Search Engine Optimization (SEO)</a>
+          <a href="https://www.brandstory.ae/seo-services-in-dubai/">Search Engine Optimization (SEO)</a>
           <a href="https://www.brandstory.ae/email-marketing-company-in-dubai/">Email Marketing</a>
           <a href="https://www.brandstory.ae/pay-per-click-ppc-services-in-dubai/">Pay-Per-Click</a>
           <a href="https://www.brandstory.ae/content-marketing-agency-in-dubai/">Content Marketing</a>

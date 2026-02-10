@@ -19,7 +19,7 @@
 					<li><a href="/digital-marketing-agency-in-fujairah/">Digital Marketing Agency in Fujairah</a></li>
 					<li><a href="/digital-marketing-agency-in-ras-al-khaimah/">Digital Marketing Agency in Ras Al Khaimah</a></li>
 					<li><a href="/bahrain/digital-marketing-services/">Digital Marketing Agency in Bahrain</a></li>
-					<li><a href="/seo-services-company-in-dubai/">SEO Dubai</a></li>
+					<li><a href="/seo-services-in-dubai/">SEO Dubai</a></li>
 
 
 				</ul>

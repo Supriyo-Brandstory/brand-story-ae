@@ -132,7 +132,7 @@
 				</div>
 			</div><!--col end-->
 		</div><!--Row End-->
-		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">seo agency dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
+		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-in-dubai/">seo agency dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
 	</div><!--Container End-->
 </section>
 

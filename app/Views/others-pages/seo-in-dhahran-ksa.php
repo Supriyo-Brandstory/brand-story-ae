@@ -166,7 +166,7 @@
                         <div class="wcb-img"><img src="/assets/images/seo/seo/seo-agency/why-hire-dhahran-icon-1.png" class="img-fluid" alt="Looking to improve website visibility in search engines then hire our seo agency in dhahran saudi arabia"></div>
                         <h6>SEO Consulting</h6>
                     </div>
-                    <p>As the #1 <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO company in dubai</a>, we deliver custom, cost-effective, and white hat SEO strategies that generate organic and long-term results.</p>
+                    <p>As the #1 <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO company in dubai</a>, we deliver custom, cost-effective, and white hat SEO strategies that generate organic and long-term results.</p>
                 </div>
             </div><!--col end-->
             <div class="col-md-4 wcb-border"> <!--col start-->

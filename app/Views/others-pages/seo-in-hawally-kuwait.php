@@ -95,7 +95,7 @@
             <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
                 <div class="s_pro_Box" style="border-top-color: #0085FF">
                     <h4>Google Penalty Recovery</h4>
-                    <p>As the <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">best SEO agency in dubai</a>, we understand the consequences of Google's penalties. Our SEO strategies align with the Panda and Penguin Google algorithm updates.</p>
+                    <p>As the <a href="https://www.brandstory.ae/seo-services-in-dubai/">best SEO agency in dubai</a>, we understand the consequences of Google's penalties. Our SEO strategies align with the Panda and Penguin Google algorithm updates.</p>
                 </div>
             </div><!--col end-->
             <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->

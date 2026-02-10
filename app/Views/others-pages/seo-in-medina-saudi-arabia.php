@@ -85,7 +85,7 @@
       <div class="col-md-4">
         <div class="seo-process-box seo-box-top-border-color-7">
           <h4>Technical SEO</h4>
-          <p>As the best <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO service company in dubai</a>, we ensure that our technical SEO services will boost your visibility and leads. We will optimize your HTML leads and use relevant content. We will also ensure that search engines can crawl your pages and index their content to improve conversions.</p>
+          <p>As the best <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO service company in dubai</a>, we ensure that our technical SEO services will boost your visibility and leads. We will optimize your HTML leads and use relevant content. We will also ensure that search engines can crawl your pages and index their content to improve conversions.</p>
         </div>
       </div>
       <div class="col-md-4">

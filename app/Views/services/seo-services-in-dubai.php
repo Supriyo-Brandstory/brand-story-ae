@@ -57,16 +57,16 @@
             <a href="/content-marketing-agency-dubai" class="seo-marquee-item">Content Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Local SEO</a>
+            <a href="/seo-services-in-dubai" class="seo-marquee-item">Local SEO</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Mobile SEO</a>
+            <a href="/seo-services-in-dubai" class="seo-marquee-item">Mobile SEO</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
             <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">SEO Audit</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/seo-services-company-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
+            <a href="/seo-services-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
@@ -400,7 +400,7 @@
                             <a href="/keyword-research-dubai" class="btn-solution">Keyword Research</a>
                             <a href="/on-page-seo-dubai" class="btn-solution">On-Page Optimization</a>
                             <a href="/content-marketing-agency-dubai" class="btn-solution">Content Marketing</a>
-                            <a href="/seo-services-company-in-dubai" class="btn-solution">Local SEO</a>
+                            <a href="/seo-services-in-dubai" class="btn-solution">Local SEO</a>
                         </div>
                     </div>
 
@@ -417,7 +417,7 @@
                             <a href="/keyword-research-dubai" class="btn-solution">Keyword Research</a>
                             <a href="/conversion-rate-optimization-agency-dubai" class="btn-solution">Conversion Optimization</a>
                             <a href="/content-marketing-agency-dubai" class="btn-solution">Content Strategy</a>
-                            <a href="/seo-services-company-in-dubai" class="btn-solution">Local SEO</a>
+                            <a href="/seo-services-in-dubai" class="btn-solution">Local SEO</a>
                         </div>
                     </div>
 
@@ -496,7 +496,7 @@
             <h3>Link Building</h3>
             <p>We build high-quality backlinks from authoritative sources recognized by Google’s algorithm. Every link we secure strengthens your SEO foundation, drives qualified traffic, and positions your Dubai business for long-term online dominance. We make businesses seen, trusted, and remembered.</p>
         </a>
-        <a href="/seo-services-company-in-dubai" class="card">
+        <a href="/seo-services-in-dubai" class="card">
             <div class="img-box">
                 <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Website Audit">
             </div>
@@ -625,7 +625,7 @@
         <div class="row">
             <div class="col-lg-8 col-12 mb-5 mb-md-0">
                 <h2 class="mb-3">Driving AED 100M in Client <br>Revenue with SEO</h2>
-                <p class="mb-3">Investing in SEO is more than just improving rankings, it is about driving measurable <a href="/seo-services-company-in-dubai/#SEO-campaign-highlights" style="color:#fff;text-decoration:underline;font-weight:700">business growth</a>. With strategic SEO, your business doesn’t just compete in Dubai, it dominates search results, attracts the right audience, and achieves real, trackable results that fuel growth.</p>
+                <p class="mb-3">Investing in SEO is more than just improving rankings, it is about driving measurable <a href="/seo-services-in-dubai/#SEO-campaign-highlights" style="color:#fff;text-decoration:underline;font-weight:700">business growth</a>. With strategic SEO, your business doesn’t just compete in Dubai, it dominates search results, attracts the right audience, and achieves real, trackable results that fuel growth.</p>
                 <ul>
                     <li>Higher organic traffic by targeting visitors searching for your products or services.</li>
                     <li>Rank on Google & Bing making your brand the 1st choice for potential clients.</li>

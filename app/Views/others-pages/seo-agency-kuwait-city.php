@@ -217,7 +217,7 @@
                         <div class="wcb-img"><img src="/assets/images/seo/seo/seo-wcb3.svg" class="img-fluid" alt="seo agencies in Kuwait City"></div>
                         <h6>CRM Integration</h6>
                     </div>
-                    <p>As the <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">top SEO company in dubai</a>, we provide seamless integration between our client's CRM software and their third-party applications.</p>
+                    <p>As the <a href="https://www.brandstory.ae/seo-services-in-dubai/">top SEO company in dubai</a>, we provide seamless integration between our client's CRM software and their third-party applications.</p>
                 </div>
             </div><!--col end-->
             <div class="col-md-4"> <!--col start-->

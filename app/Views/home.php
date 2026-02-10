@@ -86,10 +86,10 @@
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
-                            <h3 class="mb-3"><a href="/seo-services-company-in-dubai/" style="text-decoration: none; color: inherit;">Search Engine <span class="db">Optimization (SEO)</span></a></h3>
+                            <h3 class="mb-3"><a href="/seo-services-in-dubai/" style="text-decoration: none; color: inherit;">Search Engine <span class="db">Optimization (SEO)</span></a></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization plays a significant role in improving website visibility and driving organic traffic. Our SEO experts in Dubai follow proven strategies to maximize results and secure top page ranking in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-services-company-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/seo-services-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -392,7 +392,7 @@
                 <p class="fs-20">Investment in digital marketing is not a cost– it’s a multiplier.</p>
                 <p class="fs-20">
                     Smart digital marketing doesn’t just drive traffic, it helps your business climb the growth ladder.
-                    Whether you're exploring <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC advertising</a>, <a href="/email-marketing-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">Email marketing</a>, <a href="/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">social media marketing</a>, or <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a>, every digital marketing initiative can deliver exceptional results when executed strategically.
+                    Whether you're exploring <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC advertising</a>, <a href="/email-marketing-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">Email marketing</a>, <a href="/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">social media marketing</a>, or <a href="/seo-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a>, every digital marketing initiative can deliver exceptional results when executed strategically.
                 </p>
                 <p class="fs-20"><strong>With the right campaigns, your brand can:</strong></p>
                 <ul class="fs-20">
@@ -435,7 +435,7 @@
                     <h4 class="services-title">Services Offered - <a style="color:#855BFF" href="">Education</a></h4>
                     <p class="services-links">
                         <a href="/">Digital marketing</a> |
-                        <a href="/seo-services-company-in-dubai/">SEO</a> |
+                        <a href="/seo-services-in-dubai/">SEO</a> |
                         <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                         <a href="/website-design-company-in-dubai/">Website Development</a> |
                         <a href="/branding-agency-in-dubai/">Branding</a> |
@@ -533,7 +533,7 @@
                                         <h4 class="services-title fs-18 text-white mb-2">Services Offered</h4>
                                         <p class="services-links text-white-50 fs-14">
                                             <a href="/">Digital marketing</a> |
-                                            <a href="/seo-services-company-in-dubai/">SEO</a> |
+                                            <a href="/seo-services-in-dubai/">SEO</a> |
                                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                                             <a href="/website-design-company-in-dubai/">Website Development</a> |
                                             <a href="/branding-agency-in-dubai/">Branding</a> |
@@ -858,7 +858,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
         </a>
 
         <!-- SEO -->
-        <a href="/seo-services-company-in-dubai/" class="new_social_section-item">
+        <a href="/seo-services-in-dubai/" class="new_social_section-item">
             <div class="new_social_section-icon">
                 <img src="<?= base_url('assets/images/social-logo/seo.png') ?>" alt="SEO" class="normal-img" />
                 <img src="<?= base_url('assets/images/social-logo/seo-hover.png') ?>" alt="SEO Hover" class="hover-img" />

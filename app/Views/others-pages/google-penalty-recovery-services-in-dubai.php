@@ -116,7 +116,7 @@
 						<li>Our On-Page optimization techniques include title and Meta tag optimization, canonical tag optimization, Robots file creation and Sitemap file creation & submission, ensuring content quality through by removing duplicate content, keywords mapping, header tag optimization, alt tag optimization, image optimization, internal linking. </li>
 						<li>We realize the importance of third-party references to your website.</li>
 						<li>Our SEO consultants in Dubai will perform off-page optimization strategies focus on implementing tools to measure quality and quantity of inbound links. </li>
-						<li>Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO agency in Dubai</a> teams will work on effective business listings, social bookmarking, article submission, web 2.0 submission, classified submission, backlink profile building, directory listings, forum posting, Q&A submission and more.</li>
+						<li>Our <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO agency in Dubai</a> teams will work on effective business listings, social bookmarking, article submission, web 2.0 submission, classified submission, backlink profile building, directory listings, forum posting, Q&A submission and more.</li>
 					</ul>
 				</div>
 			</div><!--col end-->

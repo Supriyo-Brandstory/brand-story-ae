@@ -85,7 +85,7 @@
             <div class="col-md-4">
                 <div class="seo-process-box seo-box-top-border-color-7">
                     <h4>Technical SEO</h4>
-                    <p>If you are unsure of where your website stacks up, our technical <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">seo expert dubai</a> have got you covered. We will conduct in-depth research into the search engine friendliness of your website. We will analyze the indexing and accessibility of your website, keywords, HTML tags, site architecture, and semantic markup.</p>
+                    <p>If you are unsure of where your website stacks up, our technical <a href="https://www.brandstory.ae/seo-services-in-dubai/">seo expert dubai</a> have got you covered. We will conduct in-depth research into the search engine friendliness of your website. We will analyze the indexing and accessibility of your website, keywords, HTML tags, site architecture, and semantic markup.</p>
                 </div>
             </div>
             <div class="col-md-4">

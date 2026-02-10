@@ -93,7 +93,7 @@
 					<ul class="seo-pages-list">
 						<li>As a top digital marketing agency, we offers the best seo services in Riyadh Saudi Arabia UAE for all class business like small scale business, large scale businesses and medium scale business organizations. Our SEO service providers in Riyadh Saudi Arabia weed out the duplicate content and re-index your site on Google. </li>
 						<li>Our Panda and Penguin recovery solutions include preventing search engines from decreasing traffic to your site and increasing conversion rate. Our Penalty removal tools help to improve your website rankings considerably. Our experts at SEO Riyadh Saudi Arabia perform backlink analysis, prevent over-optimization, and fix overstuffing of keywords to get back your website to the first form.</li>
-						<li>Before we list out effective SEO strategies for your business, our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">seo services in dubai</a> comprehensively understand your business. Being one of the best SEO companies in Riyadh Saudi Arabia UAE, we dive deep into your products, business size, customer demographics, market space and current online presence.</li>
+						<li>Before we list out effective SEO strategies for your business, our <a href="https://www.brandstory.ae/seo-services-in-dubai/">seo services in dubai</a> comprehensively understand your business. Being one of the best SEO companies in Riyadh Saudi Arabia UAE, we dive deep into your products, business size, customer demographics, market space and current online presence.</li>
 					</ul>
 				</div>
 			</div><!--col end-->
@@ -132,7 +132,7 @@
 				</div>
 			</div><!--col end-->
 		</div><!--Row End-->
-		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">best seo company dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
+		<p class="sp-serv-btmtxt">Our <a href="https://www.brandstory.ae/seo-services-in-dubai/">best seo company dubai</a> provide reports such as monthly site audit report, Google analytics website traffic reports and keywords ranking reports which helps to evaluate our SEO efforts. Our SEO experts will then review the corrective steps, track their progress, and monitor results based on that we will create the next action plans.</p>
 	</div><!--Container End-->
 </section>
 

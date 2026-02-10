@@ -164,7 +164,7 @@
 						<div class="wcb-img"><img src="/assets/images/seo/seo/seo-wcb1.svg" class="img-fluid" alt="SEO in salalah"></div>
 						<h6>SEO Consulting</h6>
 					</div>
-					<p>Paying for sponsored posts won't be fruitful in the long run. As the best <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">search engine optimisation dubai</a>, we offer SEO services that proves your brand's authority in the digital world.</p>
+					<p>Paying for sponsored posts won't be fruitful in the long run. As the best <a href="https://www.brandstory.ae/seo-services-in-dubai/">search engine optimisation dubai</a>, we offer SEO services that proves your brand's authority in the digital world.</p>
 				</div>
 			</div><!--col end-->
 			<div class="col-md-4 wcb-border"> <!--col start-->

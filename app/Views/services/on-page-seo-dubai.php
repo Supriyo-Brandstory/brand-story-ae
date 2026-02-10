@@ -106,7 +106,7 @@
           <li class="text-white mb-3 fs-20">By leveraging techniques like title tag optimization, content structuring, image optimization, schema markup, and internal linking, BrandStory
             ensures your website performs at its best. Each improvement is aimed at enhancing both search engine understanding and user experience. We focus on making your website
             more discoverable, relevant, and engaging for your audience.</li>
-          <li class="text-white mb-4 fs-20">Partner with us, we are the leading <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO agency in Dubai</a> to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers,
+          <li class="text-white mb-4 fs-20">Partner with us, we are the leading <a href="/seo-services-in-dubai" style="color:white;text-decoration:underline">SEO agency in Dubai</a> to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers,
             giving your brand a competitive edge in Dubai’s digital landscape.</li>
         </ul>
         <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
@@ -141,7 +141,7 @@
           At BrandStory, we optimize websites at the page level to improve clarity, accessibility, and performance. Our team refines
           page elements such as titles, headings, content flow, images, internal pathways, and structured data to ensure every page
           contributes to stronger visibility.
-          <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
+          <a href="/seo-services-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
 
       </div>
       <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
