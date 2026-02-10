@@ -13,7 +13,9 @@ Route::get('/blog', 'FrontendController@blogs', 'blogs');
 Route::get('/blogs/{slug}', 'FrontendController@blogDetail', 'blogs.show');
 Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
-Route::get('/seo-services-company-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
+Route::get('/seo-services-in-dubai', 'FrontendController@seoservicesindubai', 'seoservicesindubai');
+
+Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
 Route::get('/on-page-seo-dubai', 'FrontendController@onpageServicesDubai', 'onpageservicesdubai');
 Route::get('/technical-seo-dubai', 'FrontendController@technicalSeoDubai', 'technicalseodubai');
 Route::get('/off-page-seo-dubai', 'FrontendController@offPageSeoDubai', 'offpageseodubai');
@@ -170,7 +172,6 @@ Route::get('/seo-in-riyadh', 'FrontendController@seoinriyadh', 'seoinriyadh');
 Route::get('/seo-in-saudi-arabia', 'FrontendController@seoinsaudiarabia', 'seoinsaudiarabia');
 Route::get('/seo-page-one', 'FrontendController@seopageone', 'seopageone');
 Route::get('/seo-services-in-dhahran', 'FrontendController@seoservicesindhahran', 'seoservicesindhahran');
-Route::get('/seo-services-in-dubai', 'FrontendController@seoservicesindubai', 'seoservicesindubai');
 Route::get('/seo-services-in-mecca-saudi-arabia', 'FrontendController@seoservicesinmeccasaudiarabia', 'seoservicesinmeccasaudiarabia');
 Route::get('/seo-services-manama', 'FrontendController@seoservicesmanama', 'seoservicesmanama');
 Route::get('/seo-services-salalah', 'FrontendController@seoservicessalalah', 'seoservicessalalah');
