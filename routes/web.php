@@ -13,7 +13,6 @@ Route::get('/blog', 'FrontendController@blogs', 'blogs');
 Route::get('/blogs/{slug}', 'FrontendController@blogDetail', 'blogs.show');
 Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
-Route::get('/seo-services-in-dubai', 'FrontendController@seoservicesindubai', 'seoservicesindubai');
 
 Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
 Route::get('/on-page-seo-dubai', 'FrontendController@onpageServicesDubai', 'onpageservicesdubai');
