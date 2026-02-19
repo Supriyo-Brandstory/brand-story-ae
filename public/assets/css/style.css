@@ -12,14 +12,14 @@
 }
 
 .bannersld-main.two {
-    background: url('../images/banners/nn-banner-1.webp');
+    background: url('../images/banners/nn-banner-2.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bannersld-main.three {
-    background: url('../images/banners/nn-banner-2.webp');
+    background: url('../images/banners/nn-banner-1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

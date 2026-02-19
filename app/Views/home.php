@@ -4,11 +4,11 @@
             <div class="swiper-slide">
                 <div class="bannersld-main two">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>">
-                        <h1 class="mb-4 text-white">Top-rated Digital Marketing
-                            <span class="db">Consulting Agency in Dubai</span>
+                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-2.webp') ?>">
+                        <h1 class="mb-4 text-white">Leading Digital Marketing Agency
+                            <span class="db"> in Dubai for Ambitious Brands</span>
                         </h1>
-                        <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner for startups, small businesses,<br> and large enterprises in Dubai to help them reach their marketing goals. </p>
+                        <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner in Dubai for <b>500+ businesses</b>, <br>helping SMEs and enterprises drive consistent digital growth with precision.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Talk to Experts</a>
                         <div class="google-partner-banner-badge d-flex align-items-center">
                             <div class="gp-box position-relative">
@@ -26,12 +26,12 @@
             <div class="swiper-slide">
                 <div class="bannersld-main three">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-2.webp') ?>">
-                        <h1 class="mb-4 text-white">Empowering Brands with Best
-                            <span class="db tab-db">Digital Marketing Services</span>
+                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>">
+                        <h1 class="mb-4 text-white">Empowering Ventures to Dominate
+                            <span class="db tab-db"> with Digital Marketing Services</span>
                         </h1>
-                        <p class="text-white mb-md-5 mb-4 fs-20">BrandStory is providing digital marketing services in Dubai since 2012.<br>
-                            <span class="tab-db">We have a team of 100+ dedicated masterminds driving digital success.</span>
+                        <p class="text-white mb-md-5 mb-4 fs-20">Established in 2012, BrandStory delivers industry-leading digital marketing<br>
+                            <span class="tab-db">services in Dubai, UAE, backed by <b>100+ experts</b> driving real digital growth.</span>
                         </p>
 
                         <a href="/services" class="Performance-Driven-btn mb-5 ">➤ Explore Our Services</a>
@@ -44,6 +44,7 @@
                                 <p class="mb-0">Certified Google Partner <br> Agency Based in Dubai.</p>
                             </div>
                         </div>
+                        <a href="/case-study" class="Performance-Driven-btn mb-5 ">➤ Explore Portfolio</a>
 
                     </div>
                 </div>
@@ -57,7 +58,7 @@
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
         <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Best Digital Marketing Company in Dubai
-            <span class="db">for Performance-Driven Results</span>
+            <span class="db">Where Performance Meets Results</span>
         </h2>
         <div class="row">
             <div class="col-lg-6">
@@ -87,7 +88,7 @@
 
 <section class="new-client-section">
     <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <h2 class="text-center mb-5 text-white">Trusted by Visionary Brands <br>Across The UAE</h2>
         <?php include __DIR__ . '/component/client_section.php' ?>
     </div>
 </section>
@@ -429,145 +430,254 @@
     </div>
 </section>
 
-<section class="niches-section sp-50">
+<section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
-        <div class="niches-header">
-            <div class="niches-title-wrapper">
-
-                <h2>Niches We Serve</h2>
-            </div>
-            <hr class="header-line">
-        </div>
         <div class="row">
-            <div class="col-lg-6">
-                <!-- Heading -->
-                <h3 class="niches-subheading">12+ Years of Experience in<br>Serving All Industries</h3>
-                <!-- Images Area -->
-                <div class="niches-images-container d-none d-lg-flex" id="niches-images">
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-1.webp') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-2.webp') ?>" alt="Industry Image"></div>
-                    <div class="niche-image-box"><img src="<?= base_url('assets/images/casestudies/education-poster-3.webp') ?>" alt="Industry Image"></div>
-                </div>
-                <!-- Services Offered -->
-                <div class="niche-services-display d-none d-lg-block">
-                    <h4 class="services-title">Services Offered - <a style="color:#855BFF" href="">Education</a></h4>
-                    <p class="services-links">
-                        <a href="/">Digital marketing</a> |
-                        <a href="/seo-services-in-dubai/">SEO</a> |
-                        <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                        <a href="/website-design-company-in-dubai/">Website Development</a> |
-                        <a href="/branding-agency-in-dubai/">Branding</a> |
-                        <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                        <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                    </p>
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <!-- Accordion/Toggle List -->
-                <div class="niches-accordion">
-                    <?php
-                    $industries = [
-                        [
-                            'id' => '01',
-                            'name' => 'Education',
-                            'link' => '/industries/education-marketing-services',
-                            'service_text' => 'Education',
-                            'desc' => 'As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/education-poster-1.webp', 'assets/images/casestudies/education-poster-2.webp', 'assets/images/casestudies/education-poster-3.webp']
-                        ],
-                        [
-                            'id' => '02',
-                            'name' => 'E-commerce',
-                            'link' => '/industries/e-commerce-marketing-service',
-                            'service_text' => 'E-commerce',
-                            'desc' => 'BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/e-commerce-poster-1.webp', 'assets/images/casestudies/e-commerce-poster-2.webp', 'assets/images/casestudies/e-commerce-poster-3.webp']
-                        ],
-                        [
-                            'id' => '03',
-                            'name' => 'Healthcare',
-                            'link' => '/industries/healthcare-marketing-services',
-                            'service_text' => 'Healthcare',
-                            'desc' => 'We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/healthcare-poster-1.webp', 'assets/images/casestudies/healthcare-poster-2.webp', 'assets/images/casestudies/healthcare-poster-3.webp']
-                        ],
-                        [
-                            'id' => '04',
-                            'name' => 'Real Estate',
-                            'link' => '/industries/real-estate-marketing-services',
-                            'service_text' => 'Real Estate',
-                            'desc' => 'We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/real-estate-poster-1.webp', 'assets/images/casestudies/real-estate-poster-2.webp', 'assets/images/casestudies/real-estate-poster-3.webp']
-                        ],
-                        [
-                            'id' => '05',
-                            'name' => 'Travel',
-                            'link' => '/industries/travel-agency-marketing-services',
-                            'service_text' => 'Travel',
-                            'desc' => 'We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/travel-agency-poster-1.webp', 'assets/images/casestudies/travel-agency-poster-2.webp', 'assets/images/casestudies/travel-agency-poster-3.webp']
-                        ],
-                        [
-                            'id' => '06',
-                            'name' => 'Technology',
-                            'link' => '/industries/b2b-corporate-marketing-services',
-                            'service_text' => 'Technology',
-                            'desc' => 'We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence.',
-                            'services' => 'Digital marketing | SEO | PPC | Website Development | Branding | UI/UX Design | Social Media',
-                            'images' => ['assets/images/casestudies/technology-poster-1.webp', 'assets/images/casestudies/technology-poster-2.webp', 'assets/images/casestudies/technology-poster-3.webp']
-                        ],
-                    ];
-                    ?>
-                    <?php foreach ($industries as $index => $ind): ?>
-                        <div class="niche-item <?= $index === 0 ? 'active' : '' ?>"
-                            data-images='<?= json_encode($ind['images']) ?>'
-                            data-service-text="<?= $ind['service_text'] ?>"
-                            data-service-link="<?= $ind['link'] ?>">
-                            <div class="niche-head">
-                                <div class="niche-num-title">
-                                    <span class="niche-num"><?= $ind['id'] ?></span>
-                                    <h3 class="niche-title"><?= $ind['name'] ?></h3>
-                                </div>
-                                <span class="niche-toggle"><?= $index === 0 ? '−' : '+' ?></span>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
                             </div>
-                            <div class="niche-body">
-                                <p class="niche-desc"><?= $ind['desc'] ?></p>
-
-                                <!-- New mobile content: Images and Services inside accordion -->
-                                <div class="niche-mobile-content d-lg-none">
-                                    <div class="niche-mobile-images d-flex gap-2 mb-3">
-                                        <?php foreach ($ind['images'] as $img): ?>
-                                            <div class="mobile-img-box">
-                                                <img src="<?= base_url($img) ?>" class="img-fluid" alt="<?= $ind['name'] ?>">
-                                            </div>
-                                        <?php endforeach; ?>
-                                    </div>
-                                    <div class="niche-mobile-services mt-3">
-                                        <h4 class="services-title fs-18 text-white mb-2">Services Offered</h4>
-                                        <p class="services-links text-white-50 fs-14">
-                                            <a href="/">Digital marketing</a> |
-                                            <a href="/seo-services-in-dubai/">SEO</a> |
-                                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                                            <a href="/branding-agency-in-dubai/">Branding</a> |
-                                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
-                                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
-                                        </p>
-                                    </div>
-                                </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
-                    <?php endforeach; ?>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<section class="dm-industries-sec sp-50 dm-bg">
+    <div class="container">
+        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">Industries We've <br>Proudly Served and Dominated.
+        </h2>
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
+                        <h3 class="text-white text-center">Education</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">
+                            We empower universities, colleges, training institutes, and schools in Dubai with data-driven digital marketing strategies that boost visibility, leads, and long-term growth.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Markting</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
+                        <h3 class="text-white text-center">E-commerce</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory delivers result-driven digital marketing for eCommerce businesses in Dubai, UAE- turning browsers into buyers and clicks into revenue.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Markting</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
+                        <h3 class="text-white text-center">Healthcare</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">From hospitals to pharmacies, we deliver compliant and powerful digital marketing solutions that help UAE healthcare brands grow their online presence</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
+                        <h3 class="text-white text-center">Real Estate</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">From listings to leads, we deliver result-driven digital marketing for real estate agents and companies in Dubai, helping you reach the right audience at the right time.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
+                        <h3 class="text-white text-center">Travel</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory empowers travel agencies in Dubai with data-driven digital marketing that drives traffic, inspires wanderlust, and turns browsers into loyal travelers.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center mb-3">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
+                        <h3 class="text-white text-center">Corporate</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">From strategy to execution, we deliver powerful digital marketing solutions for corporate businesses in Dubai — building visibility, credibility, and long-term online success.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/seo-services-in-dubai">SEO Services</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
+                            <a href="/branding-agency-in-dubai">Branding</a> |
+                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
+                            <a href="/website-design-company-in-dubai">Web Design</a> |
+                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+
 
 <?php
 /*
@@ -626,9 +736,6 @@ section class="neww-protfollio dm-bg mt-lg-4">
 </section>
 */
 ?>
-
-
-
 
 
 <section class="tools-section">
@@ -720,7 +827,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                             </h4>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p class="mb-0 fs-20">Our experts possess a strong understanding of Dubai’s competitive landscape, market trends, and online consumers. Result-driven digital marketing strategies for Dubai-based local businesses, online retailers, and niche sectors like hospitality, real estate, and healthcare industries.</p>
+                                    <p class="mb-0 fs-20">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft result-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
                                 </div>
                             </div>
                         </div>
@@ -736,18 +843,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    In-depth and Transparent Reporting
-                                </button>
-                            </h4>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="accordion-item">
                             <h4 class="accordion-header" id="headingfour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -781,6 +877,18 @@ section class="neww-protfollio dm-bg mt-lg-4">
                             <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p class="mb-0 fs-20">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    In-depth and Transparent Reporting
+                                </button>
+                            </h4>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0 fs-20">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -827,7 +935,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
 
 
 <section class="container new_social_section sp-50">
-    <h2 class="text-center text-white mb-5">Market Your Brand Without Limits</h2>
+    <h2 class="text-center text-white mb-5">Your Brand Growth. Our Mission. <br>Endless Possibilities.</h2>
 
     <div class="new_social_section-grid">
         <!-- Google Ads -->
@@ -906,103 +1014,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
 
 
 
-<section class="sp-50 dm-case-studies-section dm-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="sticky-case-study-left">
-                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                    <h2 class="text-white mb-4">Case Studies That Showcase Digital Marketing Success</h2>
-                    <p class="text-white-50 fs-20 mb-3">Explore how our strategic approach and data-driven execution have transformed business challenges into measurable growth for global brands.</p>
-                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="scrollable-case-study-right">
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/e-commerce/">Sand Dollar - Ecommerce</a></h3>
-                            <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
-                                <strong>Branding & Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/travel-agency/">TravelX</a></h3>
-                            <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-                            <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-                            <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
-                                <strong>Website & Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-                            <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
-                                <strong>Website & Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-                            <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php
 $reviewSection = [
@@ -1014,8 +1026,8 @@ include __DIR__ . '/component/client_reviews.php';
 
 <section class="dm-grow-section dm-bg sp-50">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with BrandStory,<br>
-            Dubai’s Top Digital Marketing Agency
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with<br>
+            Dubai’s Top Marketing Agency
 
         </h2>
         <div class="row">

@@ -1,7 +1,15 @@
+
+
 <section class="cs-banner">
     <div class="container">
-        <h1 class="text-white mb-4 text-md-start text-center">Digital Marketing for an Education 
-            <span class="db">Institution-NIMS Dubai</span></h1>
+        <h1 class="text-white mb-4 text-md-start text-center">Digital Marketing for <span class="db">NIMS School Dubai</span></h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed <br>trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</span>
+        </p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">School Website</li>
+            <li class="fs-18 me-2 text-white">Local Visibility</li>
+            <li class="fs-18 text-white">Dubai, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -14,7 +22,7 @@
                     <p class="fs-20 mb-0 text-white text-md-start text-center">Case Study</p>
                 </div>
                 <h2 class="text-white mb-lg-5 mb-3 text-md-start text-center">Education Institution</h2>
-                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-education-institution/education-institution.png">
+                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-education-institution/real-website-1.webp">
             </div>
             <div class="col-lg-8 col-md-7">
                 <h2 class="text-white mb-3">Client Details</h2>

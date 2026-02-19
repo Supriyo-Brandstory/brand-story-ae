@@ -1,7 +1,13 @@
 <section class="cs-banner">
     <div class="container">
-        <h1 class="text-white mb-4 text-md-start text-center">E-Commerce Marketing for 
-            <span class="db">Sand Dollar Dubai</span></h1>
+        <h1 class="text-white mb-4 text-md-start text-center">E-Commerce Marketing for <span class="db">Sand Dollar Dubai</span></h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted <br>data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</span>
+        </p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">eCommerce Website</li>
+            <li class="fs-18 me-2 text-white">Online Store</li>
+            <li class="fs-18 text-white">Dubai, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -14,7 +20,7 @@
                     <p class="fs-20 mb-0 text-white text-md-start text-center">Case Study</p>
                 </div>
                 <h2 class="text-white mb-lg-5 mb-3 text-md-start text-center">E-Commerce </h2>
-                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-ecommerce/ecommerce.png">
+                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-ecommerce/case-study-img-ecom.webp">
             </div>
             <div class="col-lg-8 col-md-7">
                 <h2 class="text-white mb-3">Client Details</h2>
@@ -42,10 +48,10 @@
                 </ul>
                 <div class="row mb-4">
                     <div class="col-md-6 col-12 mb-md-0 mb-3">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/sherpa-communications-analytics.jpg">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/real-data-1.webp">
                     </div>
                     <div class="col-md-6 col-12">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/sand-doller-search-console.PNG">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/real-data-2.webp">
                     </div>
                 </div>
                 <h2 class="text-white mb-3">Client Review</h2>
