@@ -1,6 +1,6 @@
 <section class="sp-50 dm-casestudies-sec dm-bg">
     <div class="container">
-        <h2 class="text-white mb-md-4 text-md-start text-center">Meet Our Expart Team
+        <h2 class="text-white mb-md-4 text-md-start text-center">Our Digital Marketing <br>Roots & Expertise.
         </h2>
         <div class="position-relative delivertechmain">
             <div class="swiper newteam-sld">

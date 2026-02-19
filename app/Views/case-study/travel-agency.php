@@ -1,7 +1,13 @@
 <section class="cs-banner">
     <div class="container">
-        <h1 class="text-white mb-4 text-md-start text-center">Branding & Digital Marketing for a 
-            <span class="db">Travel Agency in Dubai - TravelX </span></h1>
+        <h1 class="text-white mb-4 text-md-start text-center">Digital Marketing for <span class="db">TraveEX Currency Exchange</span></h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">TravelEX faced growing competition in UAE's financial services market- BrandStory crafted <br>data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</span>
+        </p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">Financial Website</li>
+            <li class="fs-18 me-2 text-white">Online Visibility</li>
+            <li class="fs-18 text-white">Dubai, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -13,12 +19,12 @@
                     <img class="me-2 d-md-block d-none" src="/assets/images/cs-ecommerce/line.svg">
                     <p class="fs-20 mb-0 text-white text-md-start text-center">Case Study</p>
                 </div>
-                <h2 class="text-white mb-lg-5 mb-3 text-md-start text-center">Travel Agency</h2>
-                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-travel-agency/travel-agency.png">
+                <h2 class="text-white mb-lg-5 mb-3 text-md-start text-center">TravelEX</h2>
+                <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-travel-agency/real-website-2.webp">
             </div>
             <div class="col-lg-8 col-md-7">
                 <h2 class="text-white mb-3">Client Details</h2>
-                <p class="fs-20 text-white mb-lg-5 mb-4">TravelX is based in Dubai Marina sought to create a brand presence and a steady flow of travel enquiries from various regions.</p>
+                <p class="fs-20 text-white mb-lg-5 mb-4">TravelEX, a Dubai-based currency exchange platform, aimed to strengthen its digital presence and generate a consistent flow of customer enquiries across multiple regions.</p>
                 <h2 class="text-white mb-3">The Challenge</h2>
                 <p class="fs-20 text-white mb-2">Being new in the Dubai market, it faced limited brand recognition and almost zero online visibility. The challenge was to create brand presence from the ground up and bring quality leads.</p>
                 <ul class="mb-lg-5 mb-4">

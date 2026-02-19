@@ -1,7 +1,13 @@
 <section class="cs-banner">
     <div class="container">
-        <h1 class="text-white mb-4 text-md-start text-center">Digital Marketing for
-            <span class="db">Crystal Plaza Hotel in Dubai</span></h1>
+        <h1 class="text-white mb-4 text-md-start text-center">Digital Marketing for <span class="db">Crystal Plaza Hotel Sharjah</span></h1>
+        <p class="text-white fs-16 mb-5 text-md-start text-center">TravelEX faced growing competition in UAE's financial services market- BrandStory crafted <br>data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</span>
+        </p>
+        <ul class="d-flex p-0 list-unstyled mb-0">
+            <li class="fs-18 me-2 text-white">eCommerce Website</li>
+            <li class="fs-18 me-2 text-white">Online Store</li>
+            <li class="fs-18 text-white">Sharjah, UAE</li>
+        </ul>
     </div>
 </section>
 
@@ -18,7 +24,7 @@
             </div>
             <div class="col-lg-8 col-md-7">
                 <h2 class="text-white mb-3">Client Details</h2>
-                <p class="fs-20 text-white mb-lg-5 mb-4">Crystal Plaza hotel chain with multiple properties across Downtown Dubai and Dubai Marina approached us to improve online presence, direct bookings.</p>
+                <p class="fs-20 text-white mb-lg-5 mb-4">Crystal Plaza hotel chain with multiple properties across Sharjah approached us to improve online presence, direct bookings.</p>
                 <h2 class="text-white mb-3">The Challenge</h2>
                 <p class="fs-20 text-white mb-2">This hotel chain faced severe competition in global booking platforms, along with higher commission rates. They were lacking online presence despite having a strong market reputation.</p>
                 <ul class="mb-lg-5 mb-4">
@@ -31,7 +37,8 @@
                 <ul class="mb-lg-5 mb-4">
                     <li class="text-white fs-20">Fixed technical issues on the website and implemented SEO best practices.</li>
                     <li class="text-white fs-20">Planned and launched Meta Ads and Google Ads campaigns to target business and leisure travelers.</li>
-                    <li class="text-white fs-20">Created local pages for each hotel property in Dubai Marina and Downtown to target city-specific traffic.</li>
+                    <li class="text-white fs-20">Created local pages for each type of rooms with instant pricing, clear CTA, and direct bookings.</li>
+                    <li class="text-white fs-20">Optimized Google My Business profile to improve local search visibility fpr nearby customers.</li>
                     <li class="text-white fs-20">Rolled out email marketing campaigns to inform and engage past guests to repeat their bookings.</li>
                     <li class="text-white fs-20">Created a strong social media presence with creative ads.</li>
                 </ul>
@@ -44,10 +51,10 @@
                 </ul>
                 <div class="row mb-4">
                     <div class="col-md-6 col-12 mb-md-0 mb-3">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/crystal-plaza-analytics.png">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/data-3.webp">
                     </div>
                     <div class="col-md-6 col-12">
-                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/crystal-plaza-search-console.png">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/data-4.webp">
                     </div>
                 </div>
                 <h2 class="text-white mb-3">Client Review</h2>
