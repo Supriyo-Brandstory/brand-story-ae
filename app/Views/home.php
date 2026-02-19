@@ -10,6 +10,15 @@
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner for startups, small businesses,<br> and large enterprises in Dubai to help them reach their marketing goals. </p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Talk to Experts</a>
+                        <div class="google-partner-banner-badge d-flex align-items-center">
+                            <div class="gp-box position-relative">
+                                <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+
+                            </div>
+                            <div class="gp-content ps-3">
+                                <p class="mb-0">Certified Google Partner <br> Agency Based in Dubai.</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -26,6 +35,15 @@
                         </p>
 
                         <a href="/services" class="Performance-Driven-btn mb-5 ">➤ Explore Our Services</a>
+                        <div class="google-partner-banner-badge d-flex align-items-center">
+                            <div class="gp-box position-relative">
+                                <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+
+                            </div>
+                            <div class="gp-content ps-3">
+                                <p class="mb-0">Certified Google Partner <br> Agency Based in Dubai.</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
