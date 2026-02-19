@@ -10,15 +10,19 @@
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner in Dubai for <b>500+ businesses</b>, <br>helping SMEs and enterprises drive consistent digital growth with precision.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Talk to Experts</a>
+
                         <div class="google-partner-banner-badge d-flex align-items-center">
                             <div class="gp-box position-relative">
-                                <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+                                <a href="https://www.google.com/partners/agency?id=1975289574">
+                                    <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+                                </a>
 
                             </div>
                             <div class="gp-content ps-3">
-                                <p class="mb-0">Certified Google Partner <br> Agency Based in Dubai.</p>
+                                <p class="mb-0">Google Partner <br> Agency in Dubai</p>
                             </div>
                         </div>
+
 
                     </div>
                 </div>
@@ -33,18 +37,19 @@
                         <p class="text-white mb-md-5 mb-4 fs-20">Established in 2012, BrandStory delivers industry-leading digital marketing<br>
                             <span class="tab-db">services in Dubai, UAE, backed by <b>100+ experts</b> driving real digital growth.</span>
                         </p>
+                        <a href="/case-study" class="Performance-Driven-btn mb-5 ">➤ Explore Portfolio</a>
 
-                        <a href="/services" class="Performance-Driven-btn mb-5 ">➤ Explore Our Services</a>
                         <div class="google-partner-banner-badge d-flex align-items-center">
                             <div class="gp-box position-relative">
-                                <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+                                <a href="https://www.google.com/partners/agency?id=1975289574">
+                                    <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
+                                </a>
 
                             </div>
                             <div class="gp-content ps-3">
-                                <p class="mb-0">Certified Google Partner <br> Agency Based in Dubai.</p>
+                                <p class="mb-0">Google Partner <br> Agency in Dubai</p>
                             </div>
                         </div>
-                        <a href="/case-study" class="Performance-Driven-btn mb-5 ">➤ Explore Portfolio</a>
 
                     </div>
                 </div>
@@ -64,10 +69,16 @@
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                     <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="Digital Marketing Agency in Dubai">
+                    <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
+                        <i class="ion-play"></i>
+                    </div>
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                     <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/mobile-digital.webp') ?>" alt="Digital Marketing Agency in Dubai">
+                    <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
+                        <i class="ion-play"></i>
+                    </div>
                 </div>
 
             </div>
@@ -1782,3 +1793,47 @@ include __DIR__ . '/component/client_reviews.php';
         });
     });
 </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoModal = document.getElementById('homeVideoModal');
+        const videoIframe = document.getElementById('homeVideoIframe');
+        const closeVideo = document.getElementById('closeHomeVideo');
+
+        document.querySelectorAll('.video-play-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const videoId = this.getAttribute('data-video-id');
+                if (videoIframe && videoModal) {
+                    videoIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+                    videoModal.style.display = 'flex';
+                }
+            });
+        });
+
+        if (closeVideo) {
+            closeVideo.addEventListener('click', function() {
+                videoModal.style.display = 'none';
+                videoIframe.src = '';
+            });
+        }
+
+        window.addEventListener('click', function(event) {
+            if (event.target == videoModal) {
+                videoModal.style.display = 'none';
+                videoIframe.src = '';
+            }
+        });
+    });
+</script>
+
+
+<div class="video-modal" id="homeVideoModal">
+    <div class="video-modal-content">
+        <span class="close-video-modal" id="closeHomeVideo">&times;</span>
+        <div class="video-container">
+            <iframe id="homeVideoIframe" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>

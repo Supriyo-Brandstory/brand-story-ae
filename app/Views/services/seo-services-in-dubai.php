@@ -4,7 +4,7 @@
 
             <h1 class="mb-3 text-white">Best SEO Agency in Dubai With <br>Proven Local SEO Expertise</h1>
 
-         
+
 
             <div class="quote-dropdown-wrapper">
                 <select id="service-dropdown" class="service-dropdown">
@@ -81,10 +81,16 @@
 
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                     <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
+                    <div class="video-play-btn" data-video-id="wu1KU_1osRY">
+                        <i class="ion-play"></i>
+                    </div>
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                     <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
+                    <div class="video-play-btn" data-video-id="wu1KU_1osRY">
+                        <i class="ion-play"></i>
+                    </div>
                 </div>
             </div>
 
@@ -2156,3 +2162,46 @@ $stickyServices = $stickyServices ?? [
     ['label' => 'Keyword Research', 'url' => '/keyword-research-dubai'],
 ];
 ?>
+
+<div class="video-modal" id="seoVideoModal">
+    <div class="video-modal-content">
+        <span class="close-video-modal" id="closeSeoVideo">&times;</span>
+        <div class="video-container">
+            <iframe id="seoVideoIframe" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoModal = document.getElementById('seoVideoModal');
+        const videoIframe = document.getElementById('seoVideoIframe');
+        const closeVideo = document.getElementById('closeSeoVideo');
+
+        document.querySelectorAll('.video-play-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const videoId = this.getAttribute('data-video-id');
+                if (videoIframe && videoModal) {
+                    videoIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+                    videoModal.style.display = 'flex';
+                }
+            });
+        });
+
+        if (closeVideo) {
+            closeVideo.addEventListener('click', function() {
+                videoModal.style.display = 'none';
+                videoIframe.src = '';
+            });
+        }
+
+        window.addEventListener('click', function(event) {
+            if (event.target == videoModal) {
+                videoModal.style.display = 'none';
+                videoIframe.src = '';
+            }
+        });
+    });
+</script>
