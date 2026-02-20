@@ -1418,10 +1418,10 @@ include __DIR__ . '/../component/client_reviews.php';
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
-                            <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaign/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
+                            <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
                             <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaign/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

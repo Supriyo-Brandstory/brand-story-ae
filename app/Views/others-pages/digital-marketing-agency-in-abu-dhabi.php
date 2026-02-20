@@ -411,115 +411,104 @@
             </div>
         </div>
     </div>
-    <div class="sp-50 dm-case-studies-section dm-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="sticky-case-study-left">
-                        <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                        <h2 class="text-white mb-4">Case Studies That Showcase Digital Marketing Success</h2>
-                        <p class="text-white-50 fs-20 mb-3">Explore how our strategic approach and data-driven execution have transformed business challenges into measurable growth for global brands.</p>
-                        <a href="/case-study/" class="view-all-link">View all Case Studies</a>
-                    </div>
+
+    <section class="sp-50 dm-case-studies-section dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
                 </div>
-                <div class="col-lg-7">
-                    <div class="scrollable-case-study-right">
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
-                                    <strong>Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/e-commerce/">Sand Dollar - Ecommerce</a></h3>
-                                <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
                             </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
-                                    <strong>Branding & Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/travel-agency/">TravelX</a></h3>
-                                <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
-                                    <strong>Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-                                <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
-                                    <strong>Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-                                <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
-                                    <strong>Website & Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-                                <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
-                                    <strong>Website & Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-                                <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case-study-scroll-item">
-                            <div class="neww-case-stuides-main">
-                                <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
-                                    <strong>Branding & Digital Marketing</strong>
-                                </div>
-                                <h3><a href="/case-study/sherpa-communications/">Sherpa Communications</a></h3>
-                                <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+</section>
 
     <div class="dm-grow-section dm-bg sp-50">
         <div class="container">
@@ -755,445 +744,7 @@
     <?php include __DIR__ . '/../component/services/digital-links.php' ?>
 </section>
 
-<style>
-    .digital-marketing-agency-in-abu-dhabi {
-        .banner {
-            background: url('/assets/images/banner-abudhabi.webp') no-repeat top center/cover;
-            background-size: cover;
-            color: #fff;
-            text-align: center;
-            min-height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            padding: 50px 0px;
 
-            .content {
-                padding: 100px 160px 0px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 30px;
-            }
-        }
-
-        .unique-approach {
-            background: url('/assets/images/approch-abudhabi.webp') no-repeat center center/cover;
-            background-attachment: fixed;
-            min-height: 550px;
-            display: flex;
-            align-items: center;
-
-            .approach-card {
-                background: #fff;
-                padding: 40px;
-                border-radius: 25px;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-                border: 1px solid #1A1B21;
-
-                h2 {
-                    color: #855BFF;
-                    font-weight: 700;
-                    font-size: 36px;
-                }
-
-                p {
-                    color: #000;
-                    line-height: 1.7;
-                }
-            }
-        }
-
-        .marketing-services {
-            padding: 80px 0;
-
-
-            .service-card {
-                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
-                border: 1px solid #845ef770;
-                padding: 40px 20px;
-                border-radius: 20px;
-                height: 100%;
-                transition: all 0.4s ease;
-                display: flex;
-                flex-direction: column;
-
-                .icon-box {
-                    width: 80px;
-                    height: 80px;
-                    background: #fff;
-                    border-radius: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-bottom: 30px;
-                    transition: all 0.4s ease;
-
-                    img {
-                        width: 45px;
-                        height: 45px;
-                        transition: all 0.4s ease;
-                    }
-                }
-
-                h3 {
-                    color: #fff;
-                    font-size: 21px;
-                    font-weight: 600;
-                    margin-bottom: 10px;
-                    transition: all 0.4s ease;
-                }
-
-                p {
-                    color: #fff;
-                    font-size: 16px;
-                    line-height: 1.6;
-                    margin-bottom: 25px;
-                    flex-grow: 1;
-                }
-
-                .know-more {
-                    color: #fff;
-                    font-size: 18px;
-                    font-weight: 400;
-                    text-decoration: none;
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    transition: all 0.4s ease;
-
-                    .arrow {
-                        font-size: 22px;
-                        transition: all 0.4s ease;
-                    }
-                }
-
-                &:hover {
-                    border-color: #855BFF;
-                    transform: translateY(-5px);
-                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.2);
-                    background: #fff;
-
-                    .icon-box {
-                        background: #855BFF;
-
-                        img {
-                            filter: brightness(0) invert(1);
-                        }
-
-                    }
-
-                    p {
-                        color: #0A0B0F;
-                    }
-
-                    h3 {
-                        color: #855BFF;
-                    }
-
-                    .know-more {
-                        color: #855BFF;
-
-                        .arrow {
-                            transform: translateX(5px);
-                        }
-                    }
-                }
-            }
-        }
-
-        .trusted-partner {
-
-
-            .partner-card {
-                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
-                padding: 30px 20px;
-                border-radius: 20px;
-                height: 100%;
-                transition: all 0.4s ease;
-                border: 1px solid #1A1B21;
-
-                .partner-img {
-                    text-align: center;
-                    margin-bottom: 30px;
-
-                    img {
-                        max-width: 100%;
-                        height: 156px;
-                        object-fit: contain;
-                        filter: grayscale(1);
-                        transition: all 0.5s ease;
-                    }
-                }
-
-                h3 {
-                    color: #fff;
-                    margin-bottom: 20px;
-                    font-size: 22px;
-                }
-
-                p {
-                    color: #fff;
-                    font-size: 18px;
-                    line-height: 1.6;
-                    margin-bottom: 0;
-                    font-weight: 400;
-                    margin-top: 0;
-                }
-
-                &:hover {
-                    border-color: #845ef770;
-                    transform: translateY(-5px);
-                    background: #fff;
-
-                    h3 {
-                        color: #855BFF;
-                    }
-
-                    p {
-                        color: #000;
-                    }
-
-                    .partner-img img {
-                        filter: grayscale(0);
-                    }
-                }
-            }
-        }
-
-        .strategy-process {
-            .strategy-main-title {
-
-                position: sticky;
-                top: 100px;
-            }
-
-            .strategy-card {
-                background: url('/assets/images/abidhai-process-bg.webp') no-repeat center center/cover;
-                padding: 40px;
-                border-radius: 20px;
-                border: 1px solid #1A1B21;
-                height: 100%;
-                transition: all 0.4s ease;
-
-                h3 {
-                    color: #fff;
-                    margin-bottom: 20px;
-                }
-
-                p {
-                    color: #fff;
-                    line-height: 1.6;
-                    margin-bottom: 20px;
-                }
-
-                ul {
-                    padding-left: 20px;
-                    margin-bottom: 0;
-
-
-                    li {
-                        color: #fff;
-                        font-size: 18px;
-                        margin-bottom: 15px;
-                        margin-left: 20px;
-
-                        &::marker {
-                            color: #fff;
-                        }
-                    }
-                }
-
-                &:hover {
-                    border-color: #855BFF;
-                    transform: translateY(-5px);
-                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.1);
-                }
-            }
-        }
-
-        p {
-            font-size: 20px;
-            line-height: 1.5;
-        }
-
-        h2 {
-            color: #fff;
-        }
-
-        @media (max-width: 991px) {
-
-            .strategy-process .strategy-main-title {
-                position: static;
-                margin-bottom: 40px;
-                text-align: center;
-            }
-        }
-
-        .our-statistics {
-            .stats-bg-box {
-                padding: 100px 0 150px;
-                border-radius: 30px;
-                position: relative;
-                overflow: hidden;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-
-                h2 {
-                    font-size: 40px;
-                    font-weight: 700;
-                    position: relative;
-                    z-index: 1;
-                }
-            }
-
-            .stats-cards-row {
-                margin-top: -100px;
-                padding: 0 20px;
-            }
-
-            .stat-card {
-                background: #fff;
-                border-radius: 20px;
-                padding: 40px 20px;
-                text-align: center;
-                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                transition: transform 0.3s ease;
-                transform: translateY(-5px);
-
-                &:hover {
-                    transform: translateY(-5px);
-                }
-
-                .stat-num {
-                    display: block;
-                    font-size: 50px;
-                    font-weight: 700;
-                    color: #855BFF;
-                    margin-bottom: 10px;
-                    line-height: 1;
-                }
-
-                .stat-label {
-                    color: #111;
-                    font-size: 18px;
-                    font-weight: 500;
-                    margin-bottom: 0;
-                }
-            }
-        }
-
-        @media (max-width: 768px) {
-            .dm-case-studies-section {
-                position: relative;
-                padding: 50px 0;
-            }
-
-            .banner .content {
-                padding: 50px 20px 0px;
-            }
-
-            .unique-approach {
-                min-height: auto;
-                padding: 50px 0;
-                background-attachment: scroll;
-
-                .approach-card {
-                    padding: 30px;
-
-
-                    p {
-                        font-size: 16px;
-                    }
-                }
-            }
-
-            .marketing-services {
-                padding: 50px 0;
-
-                .service-card {
-                    padding: 30px 20px;
-                }
-            }
-
-            .trusted-partner {
-                padding: 50px 0;
-
-                h2 {
-                    font-size: 28px;
-                }
-
-                .partner-card {
-                    padding: 30px 20px;
-                }
-            }
-
-            .strategy-process {
-                padding: 50px 0;
-
-                .strategy-card {
-                    padding: 30px 20px;
-                }
-            }
-
-            .our-statistics {
-                padding: 40px 0;
-
-                .stats-bg-box {
-                    padding: 60px 0 100px;
-
-                    h2 {
-                        font-size: 28px;
-                    }
-                }
-
-                .stats-cards-row {
-                    margin-top: -60px;
-                    padding: 0 10px;
-                }
-
-                .stat-card {
-                    padding: 25px 10px;
-
-                    .stat-num {
-                        font-size: 32px;
-                    }
-
-                    .stat-label {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-
-
-        .other--seo-links {
-            ul {
-                li {
-                    a {
-                        color: #fff;
-                        margin-left: 10px;
-                    }
-
-                    &::before {
-                        content: url("/assets/images/icons/location.svg");
-                    }
-                }
-
-
-            }
-        }
-
-
-
-    }
-</style>
 <script>
     const descriptions = {
 

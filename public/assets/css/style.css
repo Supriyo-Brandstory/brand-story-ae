@@ -8657,3 +8657,442 @@ sup {
         font-size: 20px;
     }
 }
+
+
+.digital-marketing-agency-in-abu-dhabi {
+        .banner {
+            background: url('/assets/images/banner-abudhabi.webp') no-repeat top center/cover;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 0px;
+
+            .content {
+                padding: 100px 160px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+        }
+
+        .unique-approach {
+            background: url('/assets/images/approch-abudhabi.webp') no-repeat center center/cover;
+            background-attachment: fixed;
+            min-height: 550px;
+            display: flex;
+            align-items: center;
+
+            .approach-card {
+                background: #fff;
+                padding: 40px;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                border: 1px solid #1A1B21;
+
+                h2 {
+                    color: #855BFF;
+                    font-weight: 700;
+                    font-size: 36px;
+                }
+
+                p {
+                    color: #000;
+                    line-height: 1.7;
+                }
+            }
+        }
+
+        .marketing-services {
+            padding: 80px 0;
+
+
+            .service-card {
+                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
+                border: 1px solid #845ef770;
+                padding: 40px 20px;
+                border-radius: 20px;
+                height: 100%;
+                transition: all 0.4s ease;
+                display: flex;
+                flex-direction: column;
+
+                .icon-box {
+                    width: 80px;
+                    height: 80px;
+                    background: #fff;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    transition: all 0.4s ease;
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                        transition: all 0.4s ease;
+                    }
+                }
+
+                h3 {
+                    color: #fff;
+                    font-size: 21px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    transition: all 0.4s ease;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 1.6;
+                    margin-bottom: 25px;
+                    flex-grow: 1;
+                }
+
+                .know-more {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    transition: all 0.4s ease;
+
+                    .arrow {
+                        font-size: 22px;
+                        transition: all 0.4s ease;
+                    }
+                }
+
+                &:hover {
+                    border-color: #855BFF;
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.2);
+                    background: #fff;
+
+                    .icon-box {
+                        background: #855BFF;
+
+                        img {
+                            filter: brightness(0) invert(1);
+                        }
+
+                    }
+
+                    p {
+                        color: #0A0B0F;
+                    }
+
+                    h3 {
+                        color: #855BFF;
+                    }
+
+                    .know-more {
+                        color: #855BFF;
+
+                        .arrow {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+
+        .trusted-partner {
+
+
+            .partner-card {
+                background: url('/assets/images/approchbg.webp') no-repeat center center/cover;
+                padding: 30px 20px;
+                border-radius: 20px;
+                height: 100%;
+                transition: all 0.4s ease;
+                border: 1px solid #1A1B21;
+
+                .partner-img {
+                    text-align: center;
+                    margin-bottom: 30px;
+
+                    img {
+                        max-width: 100%;
+                        height: 156px;
+                        object-fit: contain;
+                        filter: grayscale(1);
+                        transition: all 0.5s ease;
+                    }
+                }
+
+                h3 {
+                    color: #fff;
+                    margin-bottom: 20px;
+                    font-size: 22px;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    margin-bottom: 0;
+                    font-weight: 400;
+                    margin-top: 0;
+                }
+
+                &:hover {
+                    border-color: #845ef770;
+                    transform: translateY(-5px);
+                    background: #fff;
+
+                    h3 {
+                        color: #855BFF;
+                    }
+
+                    p {
+                        color: #000;
+                    }
+
+                    .partner-img img {
+                        filter: grayscale(0);
+                    }
+                }
+            }
+        }
+
+        .strategy-process {
+            .strategy-main-title {
+
+                position: sticky;
+                top: 100px;
+            }
+
+            .strategy-card {
+                background: url('/assets/images/abidhai-process-bg.webp') no-repeat center center/cover;
+                padding: 40px;
+                border-radius: 20px;
+                border: 1px solid #1A1B21;
+                height: 100%;
+                transition: all 0.4s ease;
+
+                h3 {
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #fff;
+                    line-height: 1.6;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    padding-left: 20px;
+                    margin-bottom: 0;
+
+
+                    li {
+                        color: #fff;
+                        font-size: 18px;
+                        margin-bottom: 15px;
+                        margin-left: 20px;
+
+                        &::marker {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-color: #855BFF;
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.1);
+                }
+            }
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        @media (max-width: 991px) {
+
+            .strategy-process .strategy-main-title {
+                position: static;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+
+        .our-statistics {
+            .stats-bg-box {
+                padding: 100px 0 150px;
+                border-radius: 30px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+                h2 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+
+            .stats-cards-row {
+                margin-top: -100px;
+                padding: 0 20px;
+            }
+
+            .stat-card {
+                background: #fff;
+                border-radius: 20px;
+                padding: 40px 20px;
+                text-align: center;
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform 0.3s ease;
+                transform: translateY(-5px);
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                .stat-num {
+                    display: block;
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #855BFF;
+                    margin-bottom: 10px;
+                    line-height: 1;
+                }
+
+                .stat-label {
+                    color: #111;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dm-case-studies-section {
+                position: relative;
+                padding: 50px 0;
+            }
+
+            .banner .content {
+                padding: 50px 20px 0px;
+            }
+
+            .unique-approach {
+                min-height: auto;
+                padding: 50px 0;
+                background-attachment: scroll;
+
+                .approach-card {
+                    padding: 30px;
+
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .marketing-services {
+                padding: 50px 0;
+
+                .service-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .trusted-partner {
+                padding: 50px 0;
+
+                h2 {
+                    font-size: 28px;
+                }
+
+                .partner-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .strategy-process {
+                padding: 50px 0;
+
+                .strategy-card {
+                    padding: 30px 20px;
+                }
+            }
+
+            .our-statistics {
+                padding: 40px 0;
+
+                .stats-bg-box {
+                    padding: 60px 0 100px;
+
+                    h2 {
+                        font-size: 28px;
+                    }
+                }
+
+                .stats-cards-row {
+                    margin-top: -60px;
+                    padding: 0 10px;
+                }
+
+                .stat-card {
+                    padding: 25px 10px;
+
+                    .stat-num {
+                        font-size: 32px;
+                    }
+
+                    .stat-label {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+
+        .other--seo-links {
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                        margin-left: 10px;
+                    }
+
+                    &::before {
+                        content: url("/assets/images/icons/location.svg");
+                    }
+                }
+
+
+            }
+        }
+
+
+
+    }
