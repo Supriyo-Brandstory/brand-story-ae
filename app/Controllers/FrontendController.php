@@ -167,6 +167,12 @@ class FrontendController extends Controller
         return $this->view('services/pay-per-click-ppc-services-in-dubai', ['meta' => $meta]);
     }
 
+    public function searchEngineMarketingAgencyDubai()
+    {
+        $meta = [];
+        return $this->view('services/search-engine-marketing-agency-in-dubai', ['meta' => $meta]);
+    }
+
     public function videoMarketingDubai()
     {
         $meta = [
