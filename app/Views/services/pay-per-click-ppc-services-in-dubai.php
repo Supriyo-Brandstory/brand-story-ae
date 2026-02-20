@@ -965,10 +965,10 @@
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog3.webp">
-                            <h3><a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
+                            <h3><a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
                             <p class="fs-20">Known as the "Festival of Sacrifice," Eid al-Adha is one of the most celebrated Islamic festivals, with millions of Muslims worldwide observing it.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -985,7 +985,7 @@
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog5.webp">
-                            <h3><a href="/blogs/5-digital-marketing-trends-and-innovations-for-2020/" style="color: #000; text-decoration: none;">5 Digital Marketing Trends And Innovations For 2020</a></h3>
+                            <h3><a href="/blogs/5-digital-marketing-trends-and-innovations-for-2020/" style="color: #000; text-decoration: none;">5 Digital Marketing Trends And Innovations For 2025</a></h3>
                             <p class="fs-20">2020 has emblazoned itself into the history books as unforgettable, but it's not over yet.</p>
                             <div class="casestydies-readmore">
                                 <a href="/blogs/5-digital-marketing-trends-and-innovations-for-2020/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
@@ -995,10 +995,10 @@
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog6.webp">
-                            <h3><a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/" style="color: #000; text-decoration: none;">The Role of UX in Building High-Converting Websites for Dubai Businesses</a></h3>
+                            <h3><a href="/blogs/the-role-of-ux-in-building-high-converting-websites/" style="color: #000; text-decoration: none;">The Role of UX in Building High-Converting Websites for Dubai Businesses</a></h3>
                             <p class="fs-20">Dubai is a city that presents great innovations, luxuries, and world-class experiences — and the digital space in Dubai is no exception.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

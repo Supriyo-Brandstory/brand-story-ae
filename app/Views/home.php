@@ -539,6 +539,7 @@
     </div>
 </section>
 
+
 <section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
         <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">Industries We've <br>Proudly Served and Dominated.
@@ -688,7 +689,43 @@
     </div>
 </section>
 
-
+<section class="digital-marketing-agency-in-abu-dhabi">
+<div class="trusted-partner sp-50 dm-bg">
+        <div class="container">
+            <h2 class="text-center text-white mb-3">We Craft High-Impact Digital Campaigns</h2>
+            <p class="text-center text-white mb-5 mx-auto" style="max-width: 800px;">Growth isn’t accidental- it’s engineered. We combine intelligence, precision, and performance to turn marketing into measurable momentum.</p>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/understand.png') ?>" alt="We Understand The Landscape">
+                        </div>
+                        <h3>Strategy Sparks Growth</h3>
+                        <p>Every successful digital marketing campaign begins with insight. We analyze your industry, competitors, and customer behavior to build intelligent marketing blueprints. Our strategy-first approach ensures every campaign has a clear direction, measurable goals, and a defined growth pathway.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/tailored.png') ?>" alt="Tailored Strategies for Success">
+                        </div>
+                        <h3>Execution Across Channels</h3>
+                        <p>Winning marketing campaigns require accuracy. From SEO, email marketing, and paid media to social and conversion optimization, we execute with data-backed targeting and continuous performance tracking. Our focus is on reaching the right audience at the right time with the right message.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="partner-img">
+                            <img src="<?= base_url('/assets/images/overcoming.png') ?>" alt="Overcoming Market Challenges">
+                        </div>
+                        <h3>Measurable Results & Impact</h3>
+                        <p>Performance is our ultimate benchmark. We optimize all digital channels and campaigns in real time to improve lead quality, reduce acquisition costs, and increase Return On Investment (ROI). The goal isn’t just traffic- it’s tangible business growth and long-term brand strength.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 /*
@@ -1131,10 +1168,10 @@ include __DIR__ . '/component/client_reviews.php';
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog3.webp') ?>">
-                            <h3><a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
+                            <h3><a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
                             <p class="fs-20">Known as the "Festival of Sacrifice," Eid al-Adha is one of the most celebrated Islamic festivals, with millions of Muslims worldwide observing it.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/effective-digital-marketing-guide-for-eid-al-adha-campaigns-2025/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -1151,32 +1188,32 @@ include __DIR__ . '/component/client_reviews.php';
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog6.webp') ?>">
-                            <h3><a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/" style="color: #000; text-decoration: none;">The Role of UX in Building High-Converting Websites for Dubai Businesses</a></h3>
-                            <p class="fs-20">Dubai is a city that presents great innovations, luxuries, and world-class experiences — and the digital space in Dubai is no exception.</p>
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog-str.webp') ?>">
+                            <h3><a href="/blogs/digital-marketing-strategy-consultant-dubai-strategy-before-scale/" style="color: #000; text-decoration: none;">Digital Marketing Strategy Consultant Dubai: Strategy Before Scale</a></h3>
+                            <p class="fs-20">Digital Marketing Strategy Consultant Dubai helps businesses align SEO, paid ads, social media, and content growth plan.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites-for-dubai-businesses/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/blogs/digital-marketing-strategy-consultant-dubai-strategy-before-scale/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
                             <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog7.webp') ?>">
-                            <h3><a href="/blogs/useful-tips-to-elevate-your-brands-online-visibility-with-seo/" style="color: #000; text-decoration: none;">Useful Tips to Elevate Your Brand’s Online Visibility with SEO</a></h3>
+                            <h3><a href="/blogs/useful-tips-to-elevate-your-brand-s-online-visibility-with-seo/" style="color: #000; text-decoration: none;">Useful Tips to Elevate Your Brand’s Online Visibility with SEO</a></h3>
                             <p class="fs-20">In today’s digital era, if your brand isn't seen online, it may as well be invisible.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/useful-tips-to-elevate-your-brands-online-visibility-with-seo/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/blogs/useful-tips-to-elevate-your-brand-s-online-visibility-with-seo/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog9.webp') ?>">
-                            <h3><a href="/blogs/custom-web-design-and-development-for-building-unique-online-experiences/" style="color: #000; text-decoration: none;">Custom Web Design and Development for Building Unique Online Experiences</a></h3>
-                            <p class="fs-20">In today’s fast-paced digital era, businesses have grown tired of cookie-cutter websites just serving as an online presence.</p>
+                            <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/blog/blog-bra.webp') ?>">
+                            <h3><a href="/blogs/how-custom-web-design-sets-your-website-apart/" style="color: #000; text-decoration: none;">How BrandStory Combines Decade-Long Experience with Modern Marketing</a></h3>
+                            <p class="fs-20">At BrandStory, we've been at the forefront of this evolution for over 12 years. 100+ member powerhouse serving businesses across the UAE</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/custom-web-design-and-development-for-building-unique-online-experiences/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/blogs/how-custom-web-design-sets-your-website-apart/">Know more <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
