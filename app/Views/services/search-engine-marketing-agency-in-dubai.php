@@ -463,8 +463,8 @@
                             <div class="icon-box">
                                 <img src="/assets/images/new-seo/Website-Audit.png" alt="SEM Strategy">
                             </div>
-                            <h3 class="fs-24 fw-600">1. End-to-End SEM Strategy</h3>
-                            <p class="fs-18 opacity-70">We manage everything from market research and competitor analysis to campaign launch and scaling, ensuring alignment with your revenue objectives.</p>
+                            <h3 class="fs-24 fw-600">1. End-to-End SEM Strategy & Execution</h3>
+                            <p class="fs-18 opacity-70">As a performance-focused search engine marketing agency in Dubai, BrandStory manages everything from market research and competitor analysis to campaign launch and scaling, ensuring every element aligns with your revenue objectives.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-md-0 mb-4">
@@ -472,8 +472,8 @@
                             <div class="icon-box">
                                 <img src="/assets/images/new-seo/Keyword-Research.png" alt="Keyword Targeting">
                             </div>
-                            <h3 class="fs-24 fw-600">2. Advanced Keyword Targeting</h3>
-                            <p class="fs-18 opacity-70">Identify high-intent, revenue-driving keywords capturing users at the right stage of the buying journey with a data-led approach.</p>
+                            <h3 class="fs-24 fw-600">2. Advanced Keyword & Intent Targeting</h3>
+                            <p class="fs-18 opacity-70">We identify high-intent, revenue-driving keywords that capture users at the right stage of the buying journey. Our data-led approach ensures you compete where it matters most while controlling cost per click.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-md-0 mb-4">
@@ -481,8 +481,8 @@
                             <div class="icon-box">
                                 <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="PPC Management">
                             </div>
-                            <h3 class="fs-24 fw-600">3. PPC Campaign Management</h3>
-                            <p class="fs-18 opacity-70">Build conversion-focused campaigns on Google Search, Display, and YouTube to generate qualified leads and maximise ROAS.</p>
+                            <h3 class="fs-24 fw-600">3. High-Performance PPC Campaign Management</h3>
+                            <p class="fs-18 opacity-70">From Google Search and Display to YouTube and remarketing, we build conversion-focused PPC campaigns designed to generate qualified leads, increase sales, and maximise return on ad spend.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -490,8 +490,8 @@
                             <div class="icon-box">
                                 <img src="/assets/images/new-seo/Monitoring-Reporting.png" alt="Data Analytics">
                             </div>
-                            <h3 class="fs-24 fw-600">4. Continuous ROI Optimisation</h3>
-                            <p class="fs-18 opacity-70">Monitor performance in real-time, conduct A/B testing, and refine bidding strategies to deliver scalable and predictable growth.</p>
+                            <h3 class="fs-24 fw-600">4. Data Analytics & Continuous Optimisation</h3>
+                            <p class="fs-18 opacity-70">Success in SEM requires constant refinement. We monitor performance in real time, conduct A/B testing, optimise bidding strategies, and refine audience targeting to deliver scalable, predictable growth.</p>
                         </div>
                     </div>
                 </div>
@@ -507,7 +507,7 @@
 
 <section class="dm-whychoose-sec sp-80 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-4">Why Choose BrandStory as Your <br><span class="theme-highlight">SEM Partner</span></h2>
+        <h2 class="text-white mb-4">Why Choose BrandStory as Your <br><span class="theme-highlight">Search Engine Marketing Agency in Dubai</span></h2>
 
         <div class="row align-items-center">
             <div class="col-lg-5">
@@ -523,20 +523,20 @@
             <div class="col-lg-7 ps-lg-5 mt-lg-0 mt-5">
                 <div class="why-choose-item">
                     <span class="choose-number">Strategy 01</span>
-                    <h3>Performance-First Architecture</h3>
-                    <p>Every campaign is built on deep market intelligence and revenue modelling, ensuring your spend is focused on high-conversion pathways.</p>
+                    <h3>Strategy-First Performance Marketing</h3>
+                    <p>At BrandStory, we don’t launch campaigns blindly. As a data-driven search engine marketing agency in Dubai, we begin with deep market analysis, competitor benchmarking, and revenue modelling to ensure every campaign is built for sustainable growth- not short-term spikes.</p>
                 </div>
 
                 <div class="why-choose-item">
-                    <span class="choose-number">Innovation 02</span>
-                    <h3>Custom Revenue Roadmaps</h3>
-                    <p>We don't use templates. We design bespoke SEM roadmaps tailored to your specific audience behavior and competitive landscape in Dubai.</p>
+                    <span class="choose-number">Roadmap 02</span>
+                    <h3>Customised SEM Built Around Your Revenue Goals</h3>
+                    <p>No two businesses scale the same way. Our SEM strategies are tailored to your industry, audience behaviour, and sales cycle. From high-intent keyword targeting to precision audience segmentation, we design campaigns that maximise conversions while optimising cost per acquisition.</p>
                 </div>
 
                 <div class="why-choose-item">
-                    <span class="choose-number">Transparency 03</span>
-                    <h3>Measurable Growth & ROI</h3>
-                    <p>Get real-time insights into metrics that matter. We focus on lead quality and ROAS, ensuring every dirham spent drives predictable business growth.</p>
+                    <span class="choose-number">Reporting 03</span>
+                    <h3>Transparent Reporting, Measurable ROI</h3>
+                    <p>We focus on metrics that matter- lead quality, cost efficiency, conversion rates, and return on ad spend. With continuous A/B testing, smart bidding strategies, and performance optimisation, we ensure your investment translates into predictable, scalable results.</p>
                 </div>
             </div>
         </div>
@@ -550,24 +550,24 @@
             <div class="col-lg-4 col-md-6">
                 <div class="why-dubai-card">
                     <div class="card-icon-box"><i class="ion-stats-bars"></i></div>
-                    <h4 class="mb-3">High-Intent Competitive Market</h4>
-                    <p class="text-white fs-18 mb-0 opacity-70">Dubai’s fast-growing landscape makes SEM essential. Capture high-intent traffic at the exact moment buying decisions are made.</p>
+                    <h4 class="mb-3">A Highly Competitive, High-Intent Market</h4>
+                    <p class="text-white fs-18 mb-0 opacity-70">Dubai’s fast-growing and competitive business landscape makes search engine marketing essential, not optional. With customers actively searching for services online, SEM allows brands to capture high-intent traffic at the exact moment buying decisions are made.</p>
                     <span class="card-bg-text">01</span>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="why-dubai-card">
                     <div class="card-icon-box"><i class="ion-iphone"></i></div>
-                    <h4 class="mb-3">Digitally Advanced Audience</h4>
-                    <p class="text-white fs-18 mb-0 opacity-70">With one of the highest smartphone penetration rates, Dubai consumers rely heavily on Google to discover businesses.</p>
+                    <h4 class="mb-3">A Digitally Advanced Audience</h4>
+                    <p class="text-white fs-18 mb-0 opacity-70">Dubai has one of the highest internet and smartphone penetration rates in the region. Consumers rely heavily on Google to discover, compare, and choose businesses- creating significant opportunities for brands that invest in strategic paid search campaigns.</p>
                     <span class="card-bg-text">02</span>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="why-dubai-card">
                     <div class="card-icon-box"><i class="ion-earth"></i></div>
-                    <h4 class="mb-3">Global Business Hub</h4>
-                    <p class="text-white fs-18 mb-0 opacity-70">Precision targeting across demographics and languages helps businesses reach both local and international customers.</p>
+                    <h4 class="mb-3">A Global Business Hub</h4>
+                    <p class="text-white fs-18 mb-0 opacity-70">As an international commercial centre, Dubai attracts diverse audiences across industries such as real estate, healthcare, hospitality, eCommerce, and finance. SEM enables precise targeting across demographics, languages, and locations, helping businesses reach both local and international customers.</p>
                     <span class="card-bg-text">03</span>
                 </div>
             </div>
@@ -575,15 +575,15 @@
                 <div class="why-dubai-card">
                     <div class="card-icon-box"><i class="ion-flash"></i></div>
                     <h4 class="mb-3">Rapidly Evolving Market Trends</h4>
-                    <p class="text-white fs-18 mb-0 opacity-70">Benefit from AI-powered bidding and automation tools that enhance campaign performance and scalability in the UAE market.</p>
+                    <p class="text-white fs-18 mb-0 opacity-70">Dubai embraces innovation and digital transformation. From AI-powered bidding strategies to advanced analytics and automation, businesses operating here benefit from cutting-edge search engine marketing tools that enhance campaign performance and scalability.</p>
                     <span class="card-bg-text">04</span>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="why-dubai-card">
                     <div class="card-icon-box"><i class="ion-checkmark-circled"></i></div>
-                    <h4 class="mb-3">Measurable Data-Driven Growth</h4>
-                    <p class="text-white fs-18 mb-0 opacity-70">In a results-oriented market, SEM provides clear metrics from CPA to ROAS, ensuring maximum accountability for every dirham spent.</p>
+                    <h4 class="mb-3">Measurable Growth in a Data-Driven Economy</h4>
+                    <p class="text-white fs-18 mb-0 opacity-70">In a results-oriented market like Dubai, businesses demand transparency and ROI. SEM provides clear performance metrics from cost per acquisition to return on ad spend- making it one of the most accountable and scalable marketing channels available.</p>
                     <span class="card-bg-text">05</span>
                 </div>
             </div>
@@ -717,8 +717,9 @@
 <section class="sem-comparison-section dm-bg">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="text-white fw-700 mb-3" style="font-size: 42px;">Organic Search vs Paid Search</h2>
-            <p class="fs-20 text-white opacity-70">Understanding the balance between long-term authority and immediate results.</p>
+            <h2 class="text-white fw-700 mb-4" style="font-size: 42px;">Search Engine Marketing Services</h2>
+            <p class="fs-20 text-white opacity-70 mb-4">Search Engine Marketing (SEM) is a digital strategy designed to increase your brand’s visibility on search engine results pages (SERPs) through both organic optimisation and paid advertising. When executed correctly, SEM positions your business in front of customers at the exact moment they are searching for your products or services.</p>
+            <p class="fs-18 text-white opacity-60 mb-5">However, appearing on the first page of Google is not just about visibility- it’s about relevance and intent. Driving traffic alone does not guarantee growth. The real impact comes from targeting the right audience with the right keywords, compelling ad messaging, and landing pages built to convert. SEM typically includes two core components:</p>
         </div>
 
         <div class="comparison-main-card">
@@ -726,43 +727,45 @@
                 <div class="col-lg-6 comp-col">
                     <div class="comp-header">
                         <div class="organic-icon"><i class="ion-settings"></i></div>
-                        <h3 class="organic-title">ORGANIC (SEO)</h3>
+                        <h3 class="organic-title">Organic Search (SEO)</h3>
                     </div>
+                    <p class="text-white opacity-70 mb-4 fs-18">Organic SEO services in Dubai focuses on improving rankings through strategic content creation, technical optimisation, and authority building. Search engines prioritise user experience, rewarding websites that provide valuable, relevant, and high-quality information.</p>
                     <ul class="comp-list">
                         <li><i class="ion-checkmark-circled organic-title"></i> Long-term sustainable growth</li>
                         <li><i class="ion-checkmark-circled organic-title"></i> Builds brand authority and trust</li>
                         <li><i class="ion-checkmark-circled organic-title"></i> No cost-per-click charges</li>
                     </ul>
                     <div class="best-for-badge organic-badge">
-                        Best for: Establishing market dominance over 6-12 months.
+                        Sustainable organic growth requires structured keyword research, consistent content strategy, and ongoing optimisation.
                     </div>
                 </div>
 
                 <div class="col-lg-6 comp-col">
                     <div class="comp-header">
                         <div class="paid-icon"><i class="ion-plane"></i></div>
-                        <h3 class="paid-title">PAID (SEM/PPC)</h3>
+                        <h3 class="paid-title">Paid Search (PPC Advertising)</h3>
                     </div>
+                    <p class="text-white opacity-70 mb-4 fs-18">Paid search campaigns such as Google Ads allow businesses to appear instantly for high-intent keywords. Through pay-per-click (PPC) advertising, brands can target specific demographics, locations, and search behaviours.</p>
                     <ul class="comp-list">
                         <li><i class="ion-checkmark-circled paid-title"></i> Immediate visibility on page 1</li>
                         <li><i class="ion-checkmark-circled paid-title"></i> Targeting specific demographics & intent</li>
                         <li><i class="ion-checkmark-circled paid-title"></i> Precise measurement of ROI</li>
                     </ul>
                     <div class="best-for-badge paid-badge">
-                        Best for: Instant lead generation and product launches.
+                        While paid campaigns can generate faster results, performance depends on strategic bidding and conversion-optimised landing pages.
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="comparison-quote-box">
-            "At BrandStory, we integrate both to ensure your business wins today AND tomorrow."
+            "At BrandStory, we are the best digital marketing agency in Dubai, combining both organic and paid search strategies to build scalable growth systems."
         </div>
     </div>
 </section>
 
 <div class="sp-80 container SEO-that-Ranks" id="SEO-campaign-highlights">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Strategy Meets Success <br>Explore Our Portfolio</h2>
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Case Studies</h2>
 
     <div class="swiper cusswiper_sld">
         <div class="swiper-wrapper">
@@ -799,6 +802,16 @@
         </div>
     </div>
 </div>
+</div>
+
+
+
+<section class="sp-80 dm-bg">
+    <div class="container">
+        <h2 class="text-white text-center mb-5">Latest Blogs</h2>
+        <?php include __DIR__ . '/../component/latest-blogs.php' ?>
+    </div>
+</section>
 
 <!-- FAQ section started -->
 <section class="sp-80 dm-bg">
@@ -810,7 +823,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button show fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What does a search engine marketing agency in Dubai actually do?
+                                1. What does a search engine marketing agency in Dubai actually do?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#semAccordion">
@@ -822,7 +835,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What is the difference between SEO and Search Engine Marketing?
+                                2. What is the difference between SEO and Search Engine Marketing?
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#semAccordion">
@@ -834,7 +847,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Why is search engine marketing important for businesses in Dubai?
+                                3. Why is search engine marketing important for businesses in Dubai?
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#semAccordion">
@@ -846,12 +859,72 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What types of businesses benefit most from SEM services?
+                                4. What types of businesses benefit most from SEM services?
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#semAccordion">
                             <div class="accordion-body">
                                 <p class="fs-18">Search engine marketing is highly effective for industries such as real estate, healthcare, eCommerce, hospitality, education, finance, and professional services. Any business targeting customers who search online for products or services can benefit from a well-structured SEM strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                5. How do you select the right keywords for an SEM campaign?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#semAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18">Keyword selection is based on search intent, competition level, cost-per-click analysis, and conversion potential. At BrandStory, we focus on revenue-driving keywords rather than high-volume terms that don’t convert. Our strategy prioritises high-intent queries that align with your business objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                6. What is PPC advertising and how does it support business growth?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#semAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18">Pay-Per-Click (PPC) advertising is a paid search model where you only pay when someone clicks your ad. It allows precise targeting by location, audience behaviour, and device. When managed strategically, PPC generates qualified leads, improves brand visibility, and delivers measurable return on ad spend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                7. How is the success of an SEM campaign measured?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#semAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18">We track performance using metrics that directly impact revenue- including cost per lead, conversion rate, return on ad spend (ROAS), click-through rate, and customer acquisition cost. Transparent reporting ensures you understand exactly how your investment contributes to business growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                8. How quickly can I expect results from search engine marketing?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#semAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18">Paid SEM campaigns can start generating traffic and leads within days of launch. However, consistent optimisation over several weeks improves performance, reduces costs, and increases overall return on investment. Sustainable results come from continuous data-driven refinement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                9. How does BrandStory customise SEM strategies for the Dubai market?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#semAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18">We tailor campaigns based on local search behaviour, competitor density, multilingual targeting needs, and industry-specific trends within Dubai. By combining market intelligence with advanced bidding strategies and conversion-focused landing pages, we build campaigns designed for scalable success.</p>
                             </div>
                         </div>
                     </div>
