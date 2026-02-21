@@ -30,9 +30,10 @@ if ($seoData) {
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://www.google.com">
     <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://www.google.com">
 
     <meta name="robots" content="INDEX, FOLLOW">
     <meta name="yandex-verification" content="cbb48369db52693e">
@@ -52,23 +53,25 @@ if ($seoData) {
     <meta name="audience" content="all">
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
-    <!-- Preload Critical Fonts -->
+    <!-- Preload Critical Font -->
     <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
 
-    <!--CSS -->
+    <!-- Critical CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/dev.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.css?v=1.9') ?>" rel="stylesheet">
+
+    <!-- Non-Critical CSS (Loaded Asynchronously) -->
+    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/dev.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
         integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
 
     <script src="https://www.google.com/recaptcha/api.js?render=6Ld7FY4fAAAAAJIzIpBe4GUTv7OaTldVzpFc9qJY"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
