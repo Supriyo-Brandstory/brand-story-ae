@@ -1,366 +1,3 @@
-<style>
-    .sem-new-banner-section {
-        background: #000;
-        padding: 100px 0 100px;
-        min-height: 85vh;
-        display: flex;
-        align-items: center;
-        overflow: hidden;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .sem-badge {
-        background: rgba(132, 94, 247, 0.1);
-        color: #845EF7;
-        padding: 6px 18px;
-        border-radius: 50px;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        border: 1px solid rgba(132, 94, 247, 0.3);
-        text-transform: uppercase;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .theme-highlight {
-        color: #845EF7;
-    }
-
-
-
-    .sem-banner-left p {
-        color: rgba(255, 255, 255, 0.7);
-        max-width: 580px;
-    }
-
-    .Performance-Driven-btn.outline-btn {
-        background: transparent;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-
-    .Performance-Driven-btn.outline-btn:hover {
-        border-color: #845EF7;
-        background: #845EF7;
-        color: #fff;
-    }
-
-    .sem-banner-right {
-        padding-left: 30px;
-    }
-
-    .laptop-mockup {
-        position: relative;
-        z-index: 1;
-        background: #111;
-        padding: 12px;
-        border-radius: 24px;
-        border: 1px solid #333;
-        box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
-    }
-
-    .laptop-mockup img {
-        border-radius: 16px;
-        width: 100%;
-        display: block;
-    }
-
-    .floating-card-roas {
-        position: absolute;
-        bottom: -35px;
-        left: -45px;
-        background: #fff;
-        padding: 22px 28px;
-        border-radius: 24px;
-        z-index: 3;
-        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-        display: flex;
-        align-items: center;
-        gap: 18px;
-        animation: sem_float_anim 4s ease-in-out infinite;
-    }
-
-    .roas-circle {
-        width: 48px;
-        height: 48px;
-        background: #E8F5E9;
-        color: #845EF7;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-    }
-
-    .roas-info p {
-        margin: 0;
-        color: #666;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 1.2;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .roas-info h4 {
-        margin: 0;
-        color: #000;
-        font-size: 26px;
-        font-weight: 800;
-        line-height: 1.1;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    @keyframes sem_float_anim {
-
-        0%,
-        100% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(-15px);
-        }
-    }
-
-    @media (max-width: 1199px) {
-        .sem-banner-left h1 {
-            font-size: 40px;
-            line-height: 50px;
-        }
-    }
-
-    @media (max-width: 991px) {
-        .sem-new-banner-section {
-            padding: 120px 0 80px;
-            text-align: center;
-        }
-
-        .sem-banner-left p {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .banner-btns {
-            justify-content: center;
-        }
-
-        .sem-banner-right {
-            padding-left: 0;
-            margin-top: 70px;
-        }
-
-        .floating-card-roas {
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -40px;
-            animation: none;
-        }
-    }
-
-    /* Keep existing styles for other sections */
-    .sem-service-section {
-        background: #000;
-        padding: 80px 0;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .sem-service-card {
-        background: #111;
-        border: 1px solid #333;
-        border-radius: 20px;
-        padding: 30px;
-        height: 100%;
-        transition: all 0.3s ease;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .sem-service-card:hover {
-        border-color: #845EF7;
-        transform: translateY(-10px);
-        box-shadow: 0 10px 30px rgba(132, 94, 247, 0.2);
-    }
-
-    .sem-service-card .icon-box {
-        width: 60px;
-        height: 60px;
-        background: rgba(132, 94, 247, 0.1);
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .sem-service-card .icon-box img {
-        width: 35px;
-        height: 35px;
-    }
-
-    .sem-service-card h3 {
-        color: #fff;
-        font-size: 24px;
-        line-height: 34px;
-        font-weight: 600;
-        margin-bottom: 15px;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .sem-service-card p {
-        color: #aaa;
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 0;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .why-dubai-card {
-        background: #111;
-        border: 1px solid #333;
-        border-radius: 24px;
-        padding: 45px 35px;
-        height: 100%;
-        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .why-dubai-card::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, transparent, rgba(132, 94, 247, 0.05));
-        z-index: -1;
-    }
-
-    .why-dubai-card:hover {
-        background: #161616;
-        border-color: #845EF7;
-        transform: translateY(-12px);
-        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
-    }
-
-    .why-dubai-card .card-icon-box {
-        width: 50px;
-        height: 50px;
-        background: rgba(132, 94, 247, 0.15);
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 25px;
-        color: #845EF7;
-        font-size: 24px;
-        transition: all 0.3s ease;
-    }
-
-    .why-dubai-card:hover .card-icon-box {
-        background: #845EF7;
-        color: #fff;
-        transform: scale(1.1) rotate(5deg);
-    }
-
-    .why-dubai-card h4 {
-        color: #fff;
-        font-size: 24px;
-        line-height: 34px;
-        font-weight: 600;
-        font-family: 'Poppins', sans-serif;
-        margin-bottom: 15px;
-    }
-
-    .why-dubai-card .card-bg-text {
-        position: absolute;
-        bottom: -15px;
-        right: 10px;
-        font-size: 100px;
-        font-weight: 900;
-        color: rgba(255, 255, 255, 0.02);
-        line-height: 1;
-        pointer-events: none;
-        transition: all 0.4s ease;
-    }
-
-    .why-dubai-card:hover .card-bg-text {
-        color: rgba(132, 94, 247, 0.08);
-        transform: translateY(-10px);
-    }
-
-    .sem-strategy-sec {
-        background: #0a0a0a;
-        border-radius: 30px;
-        padding: 60px;
-        margin-top: 50px;
-        border: 1px solid #222;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    /* Amazing Fluid Why Choose Section (No Boxes) */
-    .why-choose-item {
-        position: relative;
-        padding-left: 40px;
-        margin-bottom: 60px;
-        transition: all 0.3s ease;
-    }
-
-    .why-choose-item::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 4px;
-        height: 100%;
-        background: rgba(132, 94, 247, 0.2);
-        border-radius: 10px;
-        transition: all 0.4s ease;
-    }
-
-    .why-choose-item:hover::before {
-        background: #845EF7;
-        box-shadow: 0 0 15px rgba(132, 94, 247, 0.6);
-    }
-
-    .choose-number {
-        font-size: 16px;
-        font-weight: 800;
-        color: #845EF7;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .why-choose-item h3 {
-        color: #fff;
-        font-size: 32px;
-        font-weight: 700;
-        margin-bottom: 15px;
-        transition: all 0.3s ease;
-    }
-
-    .why-choose-item:hover h3 {
-        transform: translateX(10px);
-    }
-
-    .why-choose-item p {
-        color: rgba(255, 255, 255, 0.7);
-        font-size: 19px;
-        line-height: 1.6;
-        max-width: 90%;
-    }
-
-    @media (max-width: 767px) {
-        .why-choose-item h3 {
-            font-size: 26px;
-        }
-    }
-</style>
-
 <section class="sem-new-banner-section">
     <div class="container">
         <div class="row align-items-center">
@@ -368,6 +5,23 @@
                 <div class="sem-banner-left">
                     <span class="sem-badge mb-4 d-inline-block">PREMIER SEM AGENCY IN DUBAI</span>
                     <h1 class="text-white mb-4">Search Engine Marketing Agency in <span class="theme-highlight">Dubai, UAE</span></h1>
+
+                    <!-- Mobile Image Version (Shown after Heading on Mobile) -->
+                    <div class="sem-banner-right position-relative d-lg-none mb-5">
+                        <div class="laptop-mockup">
+                            <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="SEM Performance Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                        </div>
+                        <div class="floating-card-roas">
+                            <div class="roas-circle">
+                                <i class="ion-arrow-graph-up-right"></i>
+                            </div>
+                            <div class="roas-info">
+                                <p>Avg. ROAS Growth</p>
+                                <h4>+340%</h4>
+                            </div>
+                        </div>
+                    </div>
+
                     <p class="mb-md-5 mb-4 fs-20">Search Engine Marketing (SEM) at BrandStory is designed to drive high-intent traffic through precision-targeted PPC campaigns aligned with your business goals. Our Dubai-focused SEM strategies maximise Return on Ads Spending (ROAS) while optimising Cost Per Click (CPC), ensuring every ad spend translates into measurable, scalable growth.</p>
                     <div class="banner-btns d-flex flex-wrap gap-3">
                         <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Your Free Audit</a>
@@ -375,10 +29,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 d-none d-lg-block">
                 <div class="sem-banner-right position-relative">
                     <div class="laptop-mockup">
-                        <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="SEM Performance Dubai" class="img-fluid">
+                        <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="SEM Performance Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                     </div>
                     <div class="floating-card-roas">
                         <div class="roas-circle">
@@ -439,20 +93,20 @@
             <div class="col-lg-6 align-self-center">
                 <p class="text-white fs-20 mb-3">As a results-driven search engine marketing agency Dubai brands rely on, BrandStory builds high-performance SEM campaigns focused on revenue, not just clicks. From Google Search and Display to YouTube and remarketing, our paid media strategies are engineered to capture high-intent traffic and convert it into measurable growth.</p>
                 <p class="text-white fs-20 mb-4">Our approach combines advanced keyword intelligence, conversion-focused ad architecture, smart bidding strategies, and continuous ROI optimisation. If you're looking for a search engine marketing agency in Dubai that delivers scalable performance and transparent results, BrandStory builds campaigns designed to dominate competitive markets.</p>
-                <a href="/contact" class="Performance-Driven-btn mb-5">➤ Talk to Experts</a>
+                <a href="/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="new-client-section">
-    <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+<section class="new-client-section sp-80">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Valuable Clients</h2>
         <?php include __DIR__ . '/../component/client_section.php' ?>
     </div>
 </section>
 
-<section class="sem-service-section">
+<section class="sem-service-section sp-80">
     <div class="container">
         <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Search Engine Marketing Services</h2>
         <div class="row g-4 align-items-stretch">
@@ -507,7 +161,7 @@
 
 <section class="dm-whychoose-sec sp-80 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-4">Why Choose BrandStory as Your <br><span class="theme-highlight">Search Engine Marketing Agency in Dubai</span></h2>
+        <h2 class="text-white mb-4">Why Choose BrandStory as Your <span class="theme-highlight db">Search Engine Marketing Agency in Dubai</span></h2>
 
         <div class="row align-items-center">
             <div class="col-lg-5">
@@ -543,7 +197,7 @@
     </div>
 </section>
 
-<section class="sp-80 dm-bg overflow-hidden position-relative">
+<section class="sp-80 dm-bg overflow-hidden position-relative border-top border-secondary border-opacity-10">
     <div class="container">
         <h2 class="text-white mb-5 text-md-start text-center">Why Dubai is the Right Market for <br>Search Engine Marketing</h2>
         <div class="row g-4 justify-content-center">
@@ -592,126 +246,6 @@
 </section>
 
 <style>
-    .sem-comparison-section {
-        background: #000;
-        padding: 100px 0;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .comparison-main-card {
-        background: #111;
-        border: 1px solid #333;
-        border-radius: 30px;
-        padding: 60px 40px;
-        position: relative;
-    }
-
-    .comp-col {
-        padding: 0 30px;
-    }
-
-    .comp-col:first-child {
-        border-right: 1px solid #333;
-    }
-
-    .comp-header {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        margin-bottom: 30px;
-    }
-
-    .comp-header i {
-        font-size: 35px;
-    }
-
-    .comp-header h3 {
-        font-size: 28px;
-        font-weight: 700;
-        margin: 0;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    .organic-icon i,
-    .organic-title {
-        color: #845EF7;
-    }
-
-    .paid-icon i,
-    .paid-title {
-        color: #2196F3;
-    }
-
-    .comp-list {
-        list-style: none;
-        padding: 0;
-        margin-bottom: 40px;
-    }
-
-    .comp-list li {
-        display: flex;
-        align-items: flex-start;
-        gap: 15px;
-        margin-bottom: 18px;
-        font-size: 18px;
-        color: rgba(255, 255, 255, 0.8);
-        line-height: 1.4;
-    }
-
-    .comp-list li i {
-        font-size: 22px;
-        margin-top: 2px;
-    }
-
-    .best-for-badge {
-        padding: 18px 25px;
-        border-radius: 12px;
-        font-weight: 600;
-        font-size: 16px;
-    }
-
-    .organic-badge {
-        background: rgba(76, 175, 80, 0.1);
-        color: #845EF7;
-    }
-
-    .paid-badge {
-        background: rgba(33, 150, 243, 0.1);
-        color: #2196F3;
-    }
-
-    .comparison-quote-box {
-        border: 1px solid rgba(33, 150, 243, 0.5);
-        border-radius: 15px;
-        padding: 25px;
-        text-align: center;
-        margin-top: 60px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: 500;
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-        backdrop-filter: blur(10px);
-    }
-
-    @media (max-width: 991px) {
-        .comp-col:first-child {
-            border-right: none;
-            border-bottom: 1px solid #333;
-            padding-bottom: 40px;
-            margin-bottom: 40px;
-        }
-
-        .comp-col {
-            padding: 0;
-        }
-
-        .comparison-main-card {
-            padding: 40px 25px;
-        }
-    }
 </style>
 
 <section class="sem-comparison-section dm-bg">
