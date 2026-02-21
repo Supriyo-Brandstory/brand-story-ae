@@ -28,21 +28,12 @@ if ($seoData) {
         <!-- End Dynamic SEO Scripts/Tags -->
     <?php endif; ?>
 
-    <link rel=" preconnect" href="https://rec.smartlook.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://www.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="//www.google.com">
-    <link rel="preconnect" href="//www.brandstory.ae">
-    <link rel="preconnect" href="//schema.org">
-    <link rel="preconnect" href="//brandstory.ae">
-    <link rel="preconnect" href="//g.co">
-    <link rel="preconnect" href="//www.facebook.com">
-    <link rel="preconnect" href="//twitter.com">
-    <link rel="preconnect" href="//www.instagram.com">
-    <link rel="preconnect" href="//ae.linkedin.com">
-    <link rel="preconnect" href="//www.youtube.com">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
     <meta name="robots" content="INDEX, FOLLOW">
     <meta name="yandex-verification" content="cbb48369db52693e">
     <meta property="business:contact_data:street_address"
@@ -60,16 +51,21 @@ if ($seoData) {
     <meta name="Distribution" content="global">
     <meta name="audience" content="all">
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
+
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
+
     <!--CSS -->
-    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/menu.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/skin.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/dev.css?key=' . time()) ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/global.css?key=' . time()) ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/dev.css?v=1.1') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/style.css?v=1.8') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/style.css?v=1.9') ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
         integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />

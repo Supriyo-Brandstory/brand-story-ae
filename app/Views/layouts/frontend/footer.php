@@ -194,18 +194,18 @@ $stickyServices = $stickyServices ?? [
   }
 </style>
 <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/menu.js?key=' . time()) ?>"></script>
-<script src="<?= base_url('assets/js/swiper.js') ?>"></script>
-<script src="<?= base_url('assets/js/slick.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/ScrollTrigger.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/gsap.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/site.js?key=' . time()) ?>"></script>
-<script src="<?= base_url('assets/js/slider.js?key=' . time()) ?>"></script>
-<script src="<?= base_url('assets/js/anim.js?key=' . time()) ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/menu.js?v=2.1') ?>" defer></script>
+<script src="<?= base_url('assets/js/swiper.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/slick.min.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/ScrollTrigger.min.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/gsap.min.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/site.js?v=1.3') ?>" defer></script>
+<script src="<?= base_url('assets/js/slider.js?v=1.3') ?>" defer></script>
+<script src="<?= base_url('assets/js/anim.js?v=1.1') ?>" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.js"
   integrity="sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 <script type="text/javascript">
   jQuery(document).ready(function($) {
     $("input").keypress(function() {
