@@ -275,6 +275,7 @@
 </div>
 
 
+
 <?php
 /*
 <section class="solutions-interactive-section">
@@ -599,6 +600,180 @@
     </div>
     <!-- <div class="gredientdiv-seo"></div> -->
 </div>
+
+<!-- ============================================================
+     NEW SECTION: Crafting Excellence (Design V2 - Dark)
+     ============================================================ -->
+<section class="ce-section-dark">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="ce-header">
+            <h2 class="ce-title">Crafting Excellence: A Showcase of<br> Our Finest Work</h2>
+            <div class="ce-tabs">
+                <span class="ce-tab active">SEO Results</span>
+                <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+            </div>
+        </div>
+
+        <!-- Keyword Ranking Grid -->
+        <div class="row ce-kw-grid">
+
+            <!-- Card 1: Square One -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
+                        </div>
+                        <span class="ce-domain">squareonemea.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">low code rapid application development</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data as a service</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data enrichment in iot</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">enterprise content management</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data cleansing</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Spectrum Accounts -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
+                        </div>
+                        <span class="ce-domain">spectrumaccounts.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top accounting firms in dubai</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">accounting and auditing dubai</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top auditing firms in dubai</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing companies in dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing company in dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
+                        </div>
+                        <span class="ce-domain">takeleap.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">tangible table</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">virtual reality training</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">projection mapping company</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">real hologram</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">augmented reality navigation</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Screenshot Grid -->
+        <div class="ce-screenshot-grid">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- ============================================================ -->
 
 <section class="dm-whychoose-sec sp-50  dm-bg">
     <div class="container">
