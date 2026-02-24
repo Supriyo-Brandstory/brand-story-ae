@@ -110,238 +110,168 @@
 </section>
 
 
-<div class="sp-50 container SEO-that-Ranks" id="SEO-campaign-highlights">
+<div class="sp-50 container seo-portfolio-section" id="SEO-campaign-highlights">
     <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Strategy Meets Success <br>Explore Our Portfolio</h2>
 
+    <div class="seo-pf-grid">
 
-    <!-- Swiper -->
-
-
-    <div class="swiper cusswiper_sld">
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-2.jpg" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
-
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/contact" class="text-white">Alice Blue</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>4,000+</b> first-page ranking keywords | <b>2.18 M</b> monthly organic visitors | <b>10,000+</b> enquiries</b></p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">200%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">320%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
+        <!-- Card 1 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">Finance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-2.jpg" alt="Alice Blue SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                <p class="seo-pf-desc"><b>4,000+</b> first-page keywords · <b>2.18M</b> monthly organic visitors · <b>10,000+</b> enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">200%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">320%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
-
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/contact" class="text-white">FourNxt</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>40+</b> first-page ranking keywords | <b>3,500+</b> monthly organic visitors | <b>200+</b> monthly enquiries</p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">300%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">180%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
-
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/contact" class="text-white">Take Leap</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>40+</b> first-page ranking keywords | <b>4,200+</b> monthly organic visitors | <b>300+</b> monthly enquiries</p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">250%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">180%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
-
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/contact" class="text-white">UNO Capital</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>60+</b> first-page ranking keywords | <b>4,800+</b> monthly organic visitors | <b>300+</b> monthly enquiries</p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">320%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">240%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="box-protfolio">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-9  col-md-8 col-sm-12 col-xs-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="Search Console performance showing SEO results delivered for the recent Dubai-based Project - Sherpa Communications" class="img-fluid height-160">
-
-
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-20"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
-
-
-                            <p class="text-white text-start mb-3"><b>30+</b> first-page ranking keywords | <b>3,000+</b> monthly organic visitors | <b>300+</b> monthly enquiries</p>
-
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-
-
-                            <div class="google-card">
-                                <img src="/assets/images/new-seo/google.png" alt="Sherpa Communication Logo" class="img-fluid height-160 mb-3">
-
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style=" margin:10px;padding: 0px  0px 0px 10px;border-left:2px solid #845EF7;margin-left:10px;">
-                                            <p style="font-size: 14px; color:#845EF7;font-weight:bold;">350%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0 ">
-                                        <div style="margin:10px; padding:0px 10px; border-left:2px solid #503799;margin-left:10px; ">
-                                            <p style="font-size: 14px;color:#503799;font-weight:bold;">200%</p>
-                                            <p style="font-size: 11px;color:#777777;font-weight:bold;"> Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer cuss_card_footer" style="color:#fff;">
-                                <img src="/assets/images/Group 1171275924.png" style="width:20%;height:20%;margin-top: unset;">
-                                <p>Search Visibility – 1st Page</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
+        <!-- Card 2 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">Technology</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="FourNxt SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/contact" class="text-white">FourNxt</a></h4>
+                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">300%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">180%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">E-Commerce</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Take Leap SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Take Leap</a></h4>
+                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">250%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">180%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">Finance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="UNO Capital SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">320%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">240%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">Insurance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="CoverB SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
+                <p class="seo-pf-desc"><b>30+</b> first-page keywords · <b>3,000+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">350%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">200%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge">Real Estate</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-2.webp" alt="Elira Real Estate SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Elira Real Estate</a></h4>
+                <p class="seo-pf-desc"><b>80+</b> first-page keywords · <b>6,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">280%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">210%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
-
 </div>
 
 
@@ -674,78 +604,58 @@
     <div class="container">
         <h2 class="text-white mb-lg-2 mb-4 text-md-start text-center">What Sets Us Apart as <br>The Top SEO Agency in Dubai</h2><br>
         <div class="row">
-            <div class="col-lg-5">
-                <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/home/whychoose-mbl.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-            </div>
-            <div class="col-lg-7">
-                <div class="whychoose-faq">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Dubai’s Market Expertise
-                                </button>
-                            </h4>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">We understand the pulse of Dubai’s market from new startups to global luxury brands. Our SEO strategies are crafted to connect your business with local audiences and create global impact. With a deep understanding of local audience, competition, and cultural trends, we create campaigns that truly resonate.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Performance-Driven SEO
-                                </button>
-                            </h4>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">We focus on going beyond the vanity metrics when it comes to performance-driven SEO. At BrandStory, we craft digital journeys that turn visibility into real engagement and bring measurable revenue growth.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Proven Multi-Industry Portfolio
-                                </button>
-                            </h4>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">Our portfolio spans real estate, hospitality, healthcare, and eCommerce for businesses of all sizes. Whatever your niche, we’ve delivered results in Dubai’s most competitive industries. This multi-industry expertise allows us to replicate SEO success.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingfour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                    Transparent Reporting
-                                </button>
-                            </h4>
-                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">We believe that clarity builds trust, so our reporting is simple and detailed with actionable insights. From traffic trends and keyword ranking to lead generation and ROI, every key metric is tracked and shared with clients. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingfive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                    Sustainable Approach for Growth
-                                </button>
-                            </h4>
-                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p class="mb-0 fs-20">We don’t believe in shortcuts or quick-fix tactics; we focus on long-term growth. Our strategies are built around your brand with ethical practices, Google’s guidelines, and the latest digital trends. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="col-12">
+                <div class="seo-compare-table-wrap">
+                    <table class="seo-compare-table">
+                        <thead>
+                            <tr>
+                                <th class="seo-compare-feature-col">Core Strength Metrics</th>
+                                <th class="seo-compare-col seo-compare-highlight">
+                                    BrandStory UAE
+                                </th>
+                                <th class="seo-compare-col">Typical Agency</th>
+                                <th class="seo-compare-col">Freelancers / Low-Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            $rows = [
+                                ['In-House SEO & Technical Team (No Outsourcing)', '✅', '❌', '❌'],
+                                ['Dedicated Account Manager', '✅', '⚠️', '❌'],
+                                ['Advanced Technical SEO Audits', '✅', '⚠️', '❌'],
+                                ['Entity SEO & Topical Authority Strategy', '✅', '❌', '❌'],
+                                ['AI Search Optimization (AEO / GEO Ready)', '✅', '❌', '❌'],
+                                ['Conversion-Focused SEO Approach', '✅', '⚠️', '❌'],
+                                ['Industry-Specific SEO Strategy', '✅', '⚠️', '❌'],
+                                ['Transparent KPI Dashboard Access', '✅', '❌', '❌'],
+                                ['Competitor Gap &amp; Market Analysis', '✅', '⚠️', '❌'],
+                                ['Content Strategy Built on Search Intent', '✅', '⚠️', '❌'],
+                                ['Scalable SEO for Multi-Location Businesses', '✅', '❌', '❌'],
+                                ['Reputation &amp; SERP Management', '✅', '❌', '❌'],
+                                ['Technical + Content + Authority Integration', '✅', '⚠️', '❌'],
+                                ['Risk-Free Ethical Framework', '✅', '❌', '❌'],
+                                ['ROI &amp; Revenue Tracking Model', '✅', '❌', '❌'],
+                            ];
+                            foreach ($rows as $i => $row): ?>
+                                <tr class="<?= $i % 2 === 0 ? 'seo-compare-row-even' : '' ?>">
+                                    <td class="seo-compare-feature"><?= $row[0] ?></td>
+                                    <td class="seo-compare-val seo-compare-highlight">
+                                        <span class="seo-compare-icon seo-icon-yes"><?= $row[1] ?></span>
+                                    </td>
+                                    <td class="seo-compare-val">
+                                        <span class="seo-compare-icon <?= $row[2] === '✅' ? 'seo-icon-yes' : ($row[2] === '⚠️' ? 'seo-icon-warn' : 'seo-icon-no') ?>"><?= $row[2] ?></span>
+                                    </td>
+                                    <td class="seo-compare-val">
+                                        <span class="seo-compare-icon seo-icon-no"><?= $row[3] ?></span>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 
