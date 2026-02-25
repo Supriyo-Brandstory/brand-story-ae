@@ -1799,11 +1799,11 @@ class FrontendController extends Controller
 
             // Budget Dropdown
             $validBudgets = [
-                'Above AED 44,400',
-                'AED 22,200 – AED 35,500',
-                'AED 3,300 – AED 8,900',
-                'AED 35,500 – AED 44,400',
-                'AED 8,900 – AED 22,200'
+                'AED 3000 - 5000',
+                'AED 5000 - 10000',
+                'AED 10000 - 15000',
+                'AED 15000 - 20000',
+                'Above AED 20000'
             ];
             $budgetDropdown = in_array($budget, $validBudgets) ? ["labels" => [$budget]] : null;
 

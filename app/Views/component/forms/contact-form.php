@@ -74,11 +74,11 @@
                 <label>Budget*</label>
                 <select name="budget" id="budget" class="form-select">
                     <option selected disabled>Select Budget</option>
-                    <option value="Above AED 44,400">Above AED 44,400</option>
-                    <option value="AED 22,200 – AED 35,500">AED 22,200 – AED 35,500</option>
-                    <option value="AED 3,300 – AED 8,900">AED 3,300 – AED 8,900</option>
-                    <option value="AED 35,500 – AED 44,400">AED 35,500 – AED 44,400</option>
-                    <option value="AED 8,900 – AED 22,200">AED 8,900 – AED 22,200</option>
+                    <option value="AED 3000 - 5000">AED 3000 - 5000</option>
+                    <option value="AED 5000 - 10000">AED 5000 - 10000</option>
+                    <option value="AED 10000 - 15000">AED 10000 - 15000</option>
+                    <option value="AED 15000 - 20000">AED 15000 - 20000</option>
+                    <option value="Above AED 20000">Above AED 20000</option>
                 </select>
 
             </div>
@@ -116,7 +116,7 @@
     }
 
     #phone {
-        padding-left: 55px !important;
+        padding-left: 95px !important;
     }
 </style>
 <script>
