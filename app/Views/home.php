@@ -690,7 +690,7 @@
 </section>
 
 <section class="digital-marketing-agency-in-abu-dhabi">
-<div class="trusted-partner sp-50 dm-bg">
+    <div class="trusted-partner sp-50 dm-bg">
         <div class="container">
             <h2 class="text-center text-white mb-3">We Craft High-Impact Digital Campaigns</h2>
             <p class="text-center text-white mb-5 mx-auto" style="max-width: 800px;">Growth isn’t accidental- it’s engineered. We combine intelligence, precision, and performance to turn marketing into measurable momentum.</p>
@@ -951,7 +951,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
 
 
 <section class="dm-counter-sec sp-50 dm-bg">
-    <div class="container">
+    <div class="container  px-5">
         <div class="row gx-md-0">
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center">
@@ -962,7 +962,7 @@ section class="neww-protfollio dm-bg mt-lg-4">
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center ps-lg-5">
                     <span class="dm-count-num">900+</span>
-                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+                    <h3 class="text-white fw-300 mb-0 px-lg-0">Satisfied Clients</h3>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-6">

@@ -411,7 +411,7 @@
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: url('../images/tech-arrow-left.svg');
+    content: url('../images/tech-arrow-left.svg') !important;
 }
 
 .casestudies-main h4 {
@@ -9878,7 +9878,7 @@ sup {
     }
 
     .Performance-Driven-btn {
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
         justify-content: flex-start;
     }
