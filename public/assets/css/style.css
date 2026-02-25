@@ -10497,3 +10497,104 @@ sup {
         font-size: 24px;
     }
 }
+
+/* =============================================
+   News & Media Section
+   ============================================= */
+
+/* Full-card clickable link wrapper */
+.nm-card-link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+/* Card */
+.nm-card {
+    border: 1px solid rgba(133, 91, 255, 0.2);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nm-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(133, 91, 255, 0.15);
+}
+
+/* White logo/image box at top */
+.nm-logo-box {
+    background: #fff;
+    border-radius: 10px;
+    margin: 18px 18px 0 18px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.nm-logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Brand name text in logo box */
+.nm-logo-text {
+    color: #111;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    display: block;
+}
+
+/* Body content area */
+.nm-body {
+    padding: 20px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    gap: 12px;
+}
+
+.nm-date {
+    color: #aaa;
+    display: block;
+}
+
+.nm-headline {
+    color: #fff;
+    margin: 0;
+}
+
+/* Amber/yellow CTA button */
+.nm-btn {
+    display: inline-block;
+    background: #855BFF;
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: auto;
+}
+
+.nm-btn:hover {
+    background: #e0a020;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .nm-logo-box {
+        height: 100px;
+    }
+}
