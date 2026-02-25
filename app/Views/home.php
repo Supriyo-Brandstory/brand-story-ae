@@ -689,7 +689,7 @@
     </div>
 </section>
 
-<section class="digital-marketing-agency-in-abu-dhabi">
+<!-- <section class="digital-marketing-agency-in-abu-dhabi">
     <div class="trusted-partner sp-50 dm-bg">
         <div class="container">
             <h2 class="text-center text-white mb-3">We Craft High-Impact Digital Campaigns</h2>
@@ -725,7 +725,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php
 /*
