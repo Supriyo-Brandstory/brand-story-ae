@@ -176,12 +176,16 @@
 
         <!-- Card 1 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">Finance</span>
+            <span class="seo-pf-badge d-none d-md-block">Finance</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/portfolio-new-2.webp" alt="Alice Blue SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                </div>
+
                 <p class="seo-pf-desc"><b>4,000+</b> first-page keywords · <b>2.18M</b> monthly organic visitors · <b>10,000+</b> enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -202,12 +206,15 @@
 
         <!-- Card 2 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">Tech.</span>
+            <span class="seo-pf-badge d-none d-md-block">Tech.</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="FourNxt SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/contact" class="text-white">FourNxt</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
+                </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -228,12 +235,15 @@
 
         <!-- Card 3 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">E-Com.</span>
+            <span class="seo-pf-badge d-none d-md-block">E-Com.</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Take Leap SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Take Leap</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
+                </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -254,12 +264,15 @@
 
         <!-- Card 4 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">Finance</span>
+            <span class="seo-pf-badge d-none d-md-block">Finance</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="UNO Capital SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                </div>
                 <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -280,12 +293,15 @@
 
         <!-- Card 5 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">Insurance</span>
+            <span class="seo-pf-badge d-none d-md-block">Insurance</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="CoverB SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Insurance</span>
+                </div>
                 <p class="seo-pf-desc"><b>30+</b> first-page keywords · <b>3,000+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -306,12 +322,15 @@
 
         <!-- Card 6 -->
         <div class="seo-pf-card">
-            <span class="seo-pf-badge">Services</span>
+            <span class="seo-pf-badge d-none d-md-block">Services</span>
             <div class="seo-pf-img-wrap">
                 <img src="/assets/images/new-seo/Portfolio-new-6.webp" alt="Elira Real Estate SEO Results Dubai">
             </div>
             <div class="seo-pf-body">
-                <h4 class="seo-pf-title"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
+                </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
                 <div class="seo-pf-stats">
                     <div class="seo-pf-stat">
@@ -1105,7 +1124,7 @@
 <?php include __DIR__ . '/../component/expert_team.php' ?>
 
 <section class="dm-counter-sec sp-50 dm-bg">
-    <div class="container">
+    <div class="container px-5">
         <div class="row gx-md-0">
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center">
@@ -1116,7 +1135,7 @@
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center ps-lg-5">
                     <span class="dm-count-num">350+</span>
-                    <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+                    <h3 class="text-white fw-300 mb-0  px-lg-0">Satisfied Clients</h3>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-6">

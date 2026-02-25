@@ -10045,9 +10045,9 @@ sup {
     transition: transform 0.4s ease;
 }
 
-.seo-pf-card:hover .seo-pf-img-wrap img {
+/* .seo-pf-card:hover .seo-pf-img-wrap img {
     transform: scale(1.03);
-}
+} */
 
 /* Card body */
 .seo-pf-body {
