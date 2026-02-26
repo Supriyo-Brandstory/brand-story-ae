@@ -309,7 +309,7 @@
     </div>
 </div>
 
-<section class="sp-80 dm-bg">
+<!-- <section class="sp-80 dm-bg">
     <div class="container">
         <h2 class="text-white text-center mb-5">Client Reviews</h2>
         <div class="row justify-content-center">
@@ -321,7 +321,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="sp-80 dm-bg">
     <div class="container">
