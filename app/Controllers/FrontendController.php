@@ -111,6 +111,13 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
+    public function seoPricingDubai()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai new-3-page'
+        ];
+        return $this->view('services/seo-pricing-dubai', ['meta' => $meta]);
+    }
     public function onpageServicesDubai()
     {
         $meta = [];
