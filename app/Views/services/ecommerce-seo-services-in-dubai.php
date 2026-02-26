@@ -270,45 +270,189 @@
     </div>
 </section>
 
-<div class="sp-80 container SEO-that-Ranks" id="SEO-campaign-highlights">
-    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Case Studies</h2>
 
-    <div class="swiper cusswiper_sld">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="box-protfolio" style="border: 1px solid #333; border-radius: 20px; background: #111;">
-                    <div class="row justify-content-between p-4">
-                        <div class="col-lg-9 col-md-8 col-sm-12">
-                            <img src="/assets/images/new-seo/SEO-Portfolio-2.jpg" alt="eCommerce SEO Results" class="img-fluid radius-20">
-                            <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-24 fw-700"><a href="/contact" class="text-white">Alice Blue</a></h4>
-                            <p class="text-white text-start mb-3 fs-18"><b>4,000+</b> first-page ranking keywords | <b>2.18 M</b> monthly organic visitors | <b>10,000+</b> enquiries</p>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12">
-                            <div class="google-card" style="background: #1a1a1a; padding: 20px; border-radius: 15px; border: 1px solid #222;">
-                                <img src="/assets/images/new-seo/google.png" alt="Google" class="img-fluid mb-3">
-                                <div class="row justify-content-between w-100">
-                                    <div class="col-5 px-0 pb-2">
-                                        <div style="padding: 0 0 0 10px; border-left:2px solid #845EF7;">
-                                            <p style="font-size: 18px; color:#845EF7; font-weight:bold; margin-bottom: 0;">200%</p>
-                                            <p style="font-size: 11px; color:#777; font-weight:bold;">Traffic Spike ↑</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 p-0">
-                                        <div style="padding: 0 10px; border-left:2px solid #503799;">
-                                            <p style="font-size: 18px; color:#503799; font-weight:bold; margin-bottom: 0;">320%</p>
-                                            <p style="font-size: 11px; color:#777; font-weight:bold;">Conversions ↑</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<div class="sp-50 container seo-portfolio-section" id="SEO-campaign-highlights">
+    <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Where Strategy Meets Success <br>Explore Our Portfolio</h2>
+
+    <div class="seo-pf-grid">
+
+        <!-- Card 1 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">Finance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/portfolio-new-2.webp" alt="Alice Blue SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                </div>
+
+                <p class="seo-pf-desc"><b>4,000+</b> first-page keywords · <b>2.18M</b> monthly organic visitors · <b>10,000+</b> enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">200%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">320%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Card 2 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">Tech.</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="FourNxt SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
+                </div>
+                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">300%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">180%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">E-Com.</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Take Leap SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
+                </div>
+                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">250%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">180%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">Finance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="UNO Capital SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                </div>
+                <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">320%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">240%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">Insurance</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="CoverB SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Insurance</span>
+                </div>
+                <p class="seo-pf-desc"><b>30+</b> first-page keywords · <b>3,000+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">350%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">200%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="seo-pf-card">
+            <span class="seo-pf-badge d-none d-md-block">Services</span>
+            <div class="seo-pf-img-wrap">
+                <img src="/assets/images/new-seo/Portfolio-new-6.webp" alt="Elira Real Estate SEO Results Dubai">
+            </div>
+            <div class="seo-pf-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                    <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
+                </div>
+                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
+                <div class="seo-pf-stats">
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">280%</span>
+                        <span class="seo-pf-stat-label">Traffic Spike</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">210%</span>
+                        <span class="seo-pf-stat-label">Conversions</span>
+                    </div>
+                    <div class="seo-pf-stat">
+                        <span class="seo-pf-stat-num">1st</span>
+                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
-
 <!-- <section class="sp-80 dm-bg">
     <div class="container">
         <h2 class="text-white text-center mb-5">Client Reviews</h2>
