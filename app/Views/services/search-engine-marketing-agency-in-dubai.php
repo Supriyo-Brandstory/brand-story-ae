@@ -58,7 +58,7 @@
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Leading Search Engine Marketing Services in Dubai</h2>
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Leading Search Engine <br>Marketing Agency in Dubai</h2>
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">

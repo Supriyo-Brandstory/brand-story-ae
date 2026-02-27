@@ -4,28 +4,20 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="sem-banner-left">
-                        <span class="sem-badge mb-4 d-inline-block">PREMIER LOCAL SEO AGENCY</span>
-                        <h1 class="text-white mb-4">Local SEO Services in <span class="theme-highlight">Dubai Trusted by 100+ Businesses</span></h1>
+                        <span class="sem-badge mb-4 d-inline-block">Best Local SEO Agency</span>
+                        <h1 class="text-white mb-4">Trusted Local SEO <span class="theme-highlight">Agency in Dubai</span></h1>
 
                         <!-- Mobile Image Version (Shown after Heading on Mobile) -->
                         <div class="sem-banner-right position-relative d-lg-none mb-5">
                             <div class="laptop-mockup">
                                 <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                             </div>
-                            <div class="floating-card-roas">
-                                <div class="roas-circle">
-                                    <i class="ion-ios-location"></i>
-                                </div>
-                                <div class="roas-info">
-                                    <p>Nearby Leads Growth</p>
-                                    <h4>+280%</h4>
-                                </div>
-                            </div>
+
                         </div>
 
-                        <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">BrandStory provides strategic local SEO services in Dubai that help your business rank higher in local search results, attract nearby customers, and generate consistent, high-intent leads.</p>
+                        <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">As a trusted local SEO company in Dubai, we understand the competitive landscape of local search and build strategies that strengthen your visibility. Partner with BrandStory to transform targeted local traffic into meaningful business growth.</p>
                         <div class="banner-btns d-flex flex-wrap gap-3">
-                            <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Your Free Audit</a>
+                            <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
                             <a href="/case-study" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
                         </div>
                     </div>
@@ -35,15 +27,7 @@
                         <div class="laptop-mockup">
                             <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                         </div>
-                        <div class="floating-card-roas">
-                            <div class="roas-circle">
-                                <i class="ion-ios-location"></i>
-                            </div>
-                            <div class="roas-info">
-                                <p>Nearby Leads Growth</p>
-                                <h4>+280%</h4>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -75,27 +59,22 @@
 
     <section class="performance-driven sp-50 dm-bg">
         <div class="container">
-            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Turn Local Searches in Dubai Into Paying Customers</h2>
+            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Turn Local Searches in Dubai <br>Into Paying Customers</h2>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                         <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Local SEO Experts Dubai">
-                        <div class="video-play-btn" data-video-id="wu1KU_1osRY">
-                            <i class="ion-play"></i>
-                        </div>
+
                     </div>
                     <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                         <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="Local SEO Services Dubai">
-                        <div class="video-play-btn" data-video-id="wu1KU_1osRY">
-                            <i class="ion-play"></i>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6 align-self-center">
-                    <p class="text-white fs-20 mb-3">When people search for services near them, they’re ready to act. BrandStory helps businesses capture that demand through performance-driven local SEO Dubai strategies built around visibility, trust, and conversion.</p>
+                    <p class="text-white fs-20 mb-3">When people search for services nearby, they’re ready to act. BrandStory helps businesses capture that demand through performance-driven local SEO Dubai strategies built around visibility, trust, and conversion.</p>
                     <p class="text-white fs-20 mb-3">We focus on owning your service area- not just appearing in search results. From hyper-local keyword targeting and neighbourhood landing pages to authority building and proximity optimisation, we position your business where buying decisions happen.</p>
                     <p class="text-white fs-20 mb-3">Our team strengthens your local footprint across Google Business Profile, local directories, structured data, and geo-targeted content. But visibility alone isn’t enough- we optimise for calls, direction requests, bookings, and enquiries to ensure your rankings translate into real revenue.</p>
-                    <p class="text-white fs-20 mb-4">Dubai’s market moves fast, and local competition is intense. BrandStory builds data-backed local SEO systems designed to help your business rise above competitors and stay there.</p>
                     <a href="/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
                 </div>
             </div>
@@ -111,7 +90,7 @@
 
     <section class="sticky-feature-section sp-80 dm-bg border-top border-secondary border-opacity-10">
         <div class="container">
-            <h2 class="text-white mb-lg-5 mb-0 text-md-start text-center">Local SEO Services in Dubai- <span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
+            <h2 class="text-white mb-lg-5 mb-0 text-md-start text-center">Best Local SEO Services in Dubai <br><span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
 
             <div class="row">
                 <div class="col-lg-6 d-none d-lg-block">
@@ -173,43 +152,41 @@
     <section class="local-needs-section sp-80 dm-bg">
         <div class="container">
             <div class="local-needs-header">
-                <h2>GET NOTICED LOCALLY: WHY YOUR DUBAI BUSINESS NEEDS LOCAL SEO SERVICES</h2>
-                <p>Local SEO is essential for businesses looking to get found and drive sales in their geographic area. Here's why you need it: Over 97% of searches have local intent - people looking for products or services in their city. If you don't show up for these searches, you miss out on sales opportunities.</p>
+                <h2>Why Your Local Business Needs <br>Better SEO Visibility</h2>
             </div>
 
             <div class="local-needs-grid">
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">01</div>
-                    <h3>LOCAL SEARCH RESULTS</h3>
-                    <p>97% of searches have local intent - optimize to capture local demand. Rank higher locally drives calls, walk-ins and sales.</p>
+                    <h3>Strong Local Positioning</h3>
+                    <p>When customers search for businesses nearby, they expect immediate and relevant results. If your business is not positioned correctly in local search ecosystems, competitors capture that demand. Local optimisation ensures your business appears prominently.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">02</div>
-                    <h3>BOOST YOUR LOCAL VISIBILITY</h3>
-                    <p>25% of clicks go to first local search result. 136% rise in "near me" searches presents opportunity. 62% ignore businesses not easily found online.</p>
+                    <h3>Local Search Presence</h3>
+                    <p>Local SEO is not just rankings- it is map visibility, structured location pages, and consistent business signals across platforms. A properly optimised local presence increases enquiry opportunities and strengthens your brand’s geographic authority.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">03</div>
-                    <h3>BUILD LOCAL TRUST</h3>
-                    <p>73% find online reviews more trustworthy. Establish credibility through customer reviews. Get featured in best-of lists and directories.</p>
+                    <h3>Reputation Influences Decisions</h3>
+                    <p>Before contacting a business, customers evaluate credibility. Reviews, consistent business information, and trusted directory placements influence perception. A well-managed local reputation builds confidence and improves conversion potential.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">04</div>
-                    <h3>LET US HANDLE YOUR LOCAL SEO</h3>
-                    <p>On-page optimization for local ranking signals. Local link building for organic visibility. Management of local listings and citations. Local review generation to build trust.</p>
+                    <h3>Local SEO Execution</h3>
+                    <p>BrandStory implements structured local SEO frameworks tailored for Dubai’s competitive market. From technical on-page localisation to citation management and review strategy, we build sustainable local visibility.</p>
                 </div>
             </div>
 
             <div class="local-needs-footer">
-                <p>As a leading local SEO agency in Dubai, we have the expertise to optimize your online presence, rank you higher in local search results, and drive sales from local demand. Get in touch with BrandStory to kickstart your local search domination.</p>
+                <p>BrandStory works with Dubai-based businesses to strengthen their presence in location-driven searches and ensure they appear when nearby customers are ready to enquire. Our focus is practical execution- improving discoverability, refining local signals, and turning search demand into steady business opportunities.</p>
             </div>
         </div>
     </section>
 
     <section class="sem-service-section sp-80">
         <div class="container">
-            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Local SEO Services List- Built for Real Business Growth</h2>
-            <p class="text-white opacity-70 mb-5 fs-18">At BrandStory, we deliver structured local SEO strategies designed to increase visibility, calls, store visits, and enquiries across Dubai. Our services combine Google Business Profile optimisation with advanced local search tactics to ensure your business stands out where customers are actively searching.</p>
+            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Local SEO Services List & Pricing</h2>
 
             <div class="row g-4 align-items-stretch">
                 <div class="col-lg-4">
@@ -223,12 +200,12 @@
                             <li class="mb-2">➤ Keyword-focused content updates</li>
                             <li class="mb-2">➤ Google Posts creation and publishing</li>
                             <li class="mb-2">➤ Review monitoring and management</li>
-                            <li class="mb-2">➤ Image uploads and profile activity updates</li>
+                            <li class="mb-2">➤ Image uploads and activity updates</li>
                             <li class="mb-2">➤ Local ranking performance tracking</li>
                             <li class="mb-2">➤ Monthly reporting with insights</li>
                         </ul>
                         <div class="mt-auto">
-                            <p class="fs-14 opacity-60 mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility without managing it in-house.</p>
+                            <p class="fs-14 opacity-60 mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility.</p>
                             <a href="/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                         </div>
                     </div>
@@ -243,11 +220,11 @@
                         </div>
                         <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
                             <li class="mb-2">➤ Detailed profile & performance review</li>
-                            <li class="mb-2">➤ Category refinement & service alignment</li>
-                            <li class="mb-2">➤ Primary & secondary keyword optimisation</li>
+                            <li class="mb-2">➤ Category & service alignment</li>
+                            <li class="mb-2">➤ Keyword analysis & optimisation</li>
                             <li class="mb-2">➤ Business description enhancement</li>
                             <li class="mb-2">➤ Geo-targeted content improvements</li>
-                            <li class="mb-2">➤ Service and product section optimisation</li>
+                            <li class="mb-2">➤ Service and product optimisation</li>
                             <li class="mb-2">➤ Conversion-focused restructuring</li>
                             <li class="mb-2">➤ Image and media optimisation</li>
                             <li class="mb-2">➤ Competitor benchmarking analysis</li>
@@ -286,53 +263,342 @@
         </div>
     </section>
 
-    <div class="sp-80 container SEO-that-Ranks" id="SEO-campaign-highlights">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Case Studies</h2>
+<section class="ce-section-dark">
+    <div class="container">
 
-        <div class="swiper cusswiper_sld">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="box-protfolio" style="border: 1px solid #333; border-radius: 20px; background: #111;">
-                        <div class="row justify-content-between p-4">
-                            <div class="col-lg-9 col-md-8 col-sm-12">
-                                <img src="/assets/images/new-seo/SEO-Portfolio-2.jpg" alt="Local SEO Results" class="img-fluid radius-20">
-                                <h4 style="margin-top:20px;" class="text-white mb-1 text-start fs-24 fw-700"><a href="/contact" class="text-white">Alice Blue</a></h4>
-                                <p class="text-white text-start mb-3 fs-18"><b>4,000+</b> first-page ranking keywords | <b>2.18 M</b> monthly organic visitors | <b>10,000+</b> enquiries</p>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12">
-                                <div class="google-card" style="background: #1a1a1a; padding: 20px; border-radius: 15px; border: 1px solid #222;">
-                                    <img src="/assets/images/new-seo/google.png" alt="Google" class="img-fluid mb-3">
-                                    <div class="row justify-content-between w-100">
-                                        <div class="col-5 px-0 pb-2">
-                                            <div style="padding: 0 0 0 10px; border-left:2px solid #845EF7;">
-                                                <p style="font-size: 18px; color:#845EF7; font-weight:bold; margin-bottom: 0;">200%</p>
-                                                <p style="font-size: 11px; color:#777; font-weight:bold;">Local Traffic ↑</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-7 p-0">
-                                            <div style="padding: 0 10px; border-left:2px solid #503799;">
-                                                <p style="font-size: 18px; color:#503799; font-weight:bold; margin-bottom: 0;">320%</p>
-                                                <p style="font-size: 11px; color:#777; font-weight:bold;">Leads ↑</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Header -->
+        <div class="ce-header">
+            <h2 class="ce-title">A Showcase of<br> Our SEO Campaign Results</h2>
+            <div class="ce-tabs">
+                <span class="ce-tab active">SEO Results</span>
+                <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+            </div>
+        </div>
+
+        <!-- Keyword Ranking Grid -->
+        <div class="row ce-kw-grid">
+
+            <!-- Card 1: Square One -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
                         </div>
+                        <span class="ce-domain">squareonemea.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">low code rapid application development</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data as a service</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data enrichment in iot</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">enterprise content management</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data cleansing</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Spectrum Accounts -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
+                        </div>
+                        <span class="ce-domain">spectrumaccounts.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top accounting firms in dubai</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">accounting and auditing dubai</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top auditing firms in dubai</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing companies in dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing company in dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
+                        </div>
+                        <span class="ce-domain">takeleap.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">tangible table</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">virtual reality training</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">projection mapping company</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">real hologram</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">augmented reality navigation</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Screenshot Grid -->
+        <div class="ce-screenshot-grid">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<?php
+$reviewSection = [
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
+<section class="dm-grow-section dm-bg sp-50">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with BrandStory,<br>
+            Dubai’s Top SEO Agency
+
+        </h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="growimg position-relative mb-lg-0 mb-3">
+                    <img class="w-100" src="/assets/images/new-home/grow-img.webp" alt="Contact for Digital Marketing Services in Dubai">
+                    <div class="growimg-cnt">
+                        <p class="mb-5 text-white fs-20">Boost your online visibility, improve search rankings, and drive higher conversions with our SEO experts in Dubai. Get a Free SEO Consultation and Comprehensive Website Audit to discover your growth opportunities.</p>
+                        <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="grow-form-main">
+                    <?php $textrow = 6 ?>
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dm-dubai-office spb-50 dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled p-0 mb-0">
+                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
+                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                    <img class="me-3" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
+                    <div class="dubai-address">
+                        <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
+                        <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
+<section class="sp-50 dm-blog-section dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
+            In the Industry
+        </h2>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmblog-sld">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
+                            <h3><a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
+                            <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
+                            <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
+                            <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
+                            <h3><a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews & the Future of Google Search: Must-Know Facts</a></h3>
+                            <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
+                            <h3><a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring & Reporting with Google Analytics</a></h3>
+                            <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
+                            <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
+                            <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/new-home/blog7.webp">
+                            <h3><a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
+                            <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
 
-    <section class="sp-80 dm-bg">
-        <div class="container">
-            <h2 class="text-white text-center mb-5">Latest Blogs</h2>
-            <?php include __DIR__ . '/../component/latest-blogs.php' ?>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
+                            <h3><a href="/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
+                            <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
+                            <h3><a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
+                            <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
+                            <h3><a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
+                            <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next dmblog-next"></div>
+            <div class="swiper-button-prev dmblog-prev"></div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- FAQ section started -->
     <section class="sp-80 dm-bg">
