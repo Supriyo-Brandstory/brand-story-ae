@@ -67,7 +67,7 @@
 
                     </div>
                     <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                        <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="Local SEO Services Dubai">
+                        <img class="img-fluid radius-20" src="<?= base_url('/assets/images/local-seo-2.webp') ?>" alt="Local SEO Services Dubai">
 
                     </div>
                 </div>
