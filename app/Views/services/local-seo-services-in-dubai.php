@@ -10,7 +10,7 @@
                         <!-- Mobile Image Version (Shown after Heading on Mobile) -->
                         <div class="sem-banner-right position-relative d-lg-none mb-5">
                             <div class="laptop-mockup">
-                                <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                                <img src="<?= base_url('assets/images/local-seo-banner.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                             </div>
 
                         </div>
@@ -25,7 +25,7 @@
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="sem-banner-right position-relative">
                         <div class="laptop-mockup">
-                            <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                            <img src="<?= base_url('assets/images/local-seo-banner.webp') ?>" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                         </div>
 
                     </div>
@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Local SEO Experts Dubai">
+                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/local-seo-2.webp') ?>" alt="Local SEO Experts Dubai">
 
                     </div>
                     <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
@@ -96,16 +96,16 @@
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="sticky-image-wrapper">
                         <div class="feature-image-panel active" id="feat-img-1">
-                            <img src="<?= base_url('assets/images/new-seo/targeted_traffic_seo_1771839083752.png') ?>" alt="Highly Targeted Traffic">
+                            <img src="<?= base_url('assets/images/loc-4.webp') ?>" alt="Highly Targeted Traffic">
                         </div>
                         <div class="feature-image-panel" id="feat-img-2">
-                            <img src="<?= base_url('assets/images/new-seo/conversion_potential_dubai_1771839116575.png') ?>" alt="Stronger Conversion Potential">
+                            <img src="<?= base_url('assets/images/loc-2.webp') ?>" alt="Stronger Conversion Potential">
                         </div>
                         <div class="feature-image-panel" id="feat-img-3">
-                            <img src="<?= base_url('assets/images/new-seo/near_me_searches_seo_1771839165568.png') ?>" alt="Optimised for “Near Me” Searches">
+                            <img src="<?= base_url('assets/images/loc-1.webp') ?>" alt="Optimised for “Near Me” Searches">
                         </div>
                         <div class="feature-image-panel" id="feat-img-4">
-                            <img src="<?= base_url('assets/images/new-seo/local_directory_seo_1771839201042.png') ?>" alt="Local Directory & Map Visibility">
+                            <img src="<?= base_url('assets/images/loc-3.webp') ?>" alt="Local Directory & Map Visibility">
                         </div>
                     </div>
                 </div>
@@ -263,342 +263,342 @@
         </div>
     </section>
 
-<section class="ce-section-dark">
-    <div class="container">
+    <section class="ce-section-dark">
+        <div class="container">
 
-        <!-- Header -->
-        <div class="ce-header">
-            <h2 class="ce-title">A Showcase of<br> Our SEO Campaign Results</h2>
-            <div class="ce-tabs">
-                <span class="ce-tab active">SEO Results</span>
-                <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+            <!-- Header -->
+            <div class="ce-header">
+                <h2 class="ce-title">A Showcase of<br> Our SEO Campaign Results</h2>
+                <div class="ce-tabs">
+                    <span class="ce-tab active">SEO Results</span>
+                    <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+                </div>
             </div>
+
+            <!-- Keyword Ranking Grid -->
+            <div class="row ce-kw-grid">
+
+                <!-- Card 1: Square One -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ce-card">
+                        <div class="ce-card-head">
+                            <div class="ce-logo-placeholder">
+                                <img src="/assets/images/squareone.webp" alt="Square One Logo">
+                            </div>
+                            <span class="ce-domain">squareonemea.com</span>
+                        </div>
+                        <div class="ce-table-head">
+                            <span>Keyword</span>
+                            <span>Position</span>
+                        </div>
+                        <div class="ce-rows">
+                            <div class="ce-row">
+                                <span class="ce-kw-text">low code rapid application development</span>
+                                <span class="ce-pos-badge">1</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">data as a service</span>
+                                <span class="ce-pos-badge">1</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">data enrichment in iot</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">enterprise content management</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">data cleansing</span>
+                                <span class="ce-pos-badge">4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Spectrum Accounts -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ce-card">
+                        <div class="ce-card-head">
+                            <div class="ce-logo-placeholder">
+                                <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
+                            </div>
+                            <span class="ce-domain">spectrumaccounts.com</span>
+                        </div>
+                        <div class="ce-table-head">
+                            <span>Keyword</span>
+                            <span>Position</span>
+                        </div>
+                        <div class="ce-rows">
+                            <div class="ce-row">
+                                <span class="ce-kw-text">top accounting firms in dubai</span>
+                                <span class="ce-pos-badge">1</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">accounting and auditing dubai</span>
+                                <span class="ce-pos-badge">1</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">top auditing firms in dubai</span>
+                                <span class="ce-pos-badge">2</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">auditing companies in dubai</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">auditing company in dubai</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Take Leap -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ce-card">
+                        <div class="ce-card-head">
+                            <div class="ce-logo-placeholder">
+                                <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
+                            </div>
+                            <span class="ce-domain">takeleap.com</span>
+                        </div>
+                        <div class="ce-table-head">
+                            <span>Keyword</span>
+                            <span>Position</span>
+                        </div>
+                        <div class="ce-rows">
+                            <div class="ce-row">
+                                <span class="ce-kw-text">tangible table</span>
+                                <span class="ce-pos-badge">1</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">virtual reality training</span>
+                                <span class="ce-pos-badge">2</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">projection mapping company</span>
+                                <span class="ce-pos-badge">2</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">real hologram</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                            <div class="ce-row">
+                                <span class="ce-kw-text">augmented reality navigation</span>
+                                <span class="ce-pos-badge">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Screenshot Grid -->
+            <div class="ce-screenshot-grid">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ce-ss-box">
+                            <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-        <!-- Keyword Ranking Grid -->
-        <div class="row ce-kw-grid">
 
-            <!-- Card 1: Square One -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="ce-card">
-                    <div class="ce-card-head">
-                        <div class="ce-logo-placeholder">
-                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
-                        </div>
-                        <span class="ce-domain">squareonemea.com</span>
-                    </div>
-                    <div class="ce-table-head">
-                        <span>Keyword</span>
-                        <span>Position</span>
-                    </div>
-                    <div class="ce-rows">
-                        <div class="ce-row">
-                            <span class="ce-kw-text">low code rapid application development</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">data as a service</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">data enrichment in iot</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">enterprise content management</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">data cleansing</span>
-                            <span class="ce-pos-badge">4</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Card 2: Spectrum Accounts -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="ce-card">
-                    <div class="ce-card-head">
-                        <div class="ce-logo-placeholder">
-                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
-                        </div>
-                        <span class="ce-domain">spectrumaccounts.com</span>
-                    </div>
-                    <div class="ce-table-head">
-                        <span>Keyword</span>
-                        <span>Position</span>
-                    </div>
-                    <div class="ce-rows">
-                        <div class="ce-row">
-                            <span class="ce-kw-text">top accounting firms in dubai</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">accounting and auditing dubai</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">top auditing firms in dubai</span>
-                            <span class="ce-pos-badge">2</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">auditing companies in dubai</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">auditing company in dubai</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <?php
+    $reviewSection = [
+        'title' =>  "The Impact We've Delivered <br>for Our Clients",
+        'bgClass' => 'dm-bg', // optional custom class
+    ];
+    include __DIR__ . '/../component/client_reviews.php';
+    ?>
 
-            <!-- Card 3: Take Leap -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="ce-card">
-                    <div class="ce-card-head">
-                        <div class="ce-logo-placeholder">
-                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
-                        </div>
-                        <span class="ce-domain">takeleap.com</span>
-                    </div>
-                    <div class="ce-table-head">
-                        <span>Keyword</span>
-                        <span>Position</span>
-                    </div>
-                    <div class="ce-rows">
-                        <div class="ce-row">
-                            <span class="ce-kw-text">tangible table</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">virtual reality training</span>
-                            <span class="ce-pos-badge">2</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">projection mapping company</span>
-                            <span class="ce-pos-badge">2</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">real hologram</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">augmented reality navigation</span>
-                            <span class="ce-pos-badge">3</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="dm-grow-section dm-bg sp-50">
+        <div class="container">
+            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with BrandStory,<br>
+                Dubai’s Top SEO Agency
 
-        </div>
-
-        <!-- Screenshot Grid -->
-        <div class="ce-screenshot-grid">
+            </h2>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                <div class="col-lg-6">
+                    <div class="growimg position-relative mb-lg-0 mb-3">
+                        <img class="w-100" src="/assets/images/new-home/grow-img.webp" alt="Contact for Digital Marketing Services in Dubai">
+                        <div class="growimg-cnt">
+                            <p class="mb-5 text-white fs-20">Boost your online visibility, improve search rankings, and drive higher conversions with our SEO experts in Dubai. Get a Free SEO Consultation and Comprehensive Website Audit to discover your growth opportunities.</p>
+                            <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                <div class="col-lg-6">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
-</section>
-
-
-
-<?php
-$reviewSection = [
-    'title' =>  "The Impact We've Delivered <br>for Our Clients",
-    'bgClass' => 'dm-bg', // optional custom class
-];
-include __DIR__ . '/../component/client_reviews.php';
-?>
-
-<section class="dm-grow-section dm-bg sp-50">
-    <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Step Into Digital Success with BrandStory,<br>
-            Dubai’s Top SEO Agency
-
-        </h2>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="growimg position-relative mb-lg-0 mb-3">
-                    <img class="w-100" src="/assets/images/new-home/grow-img.webp" alt="Contact for Digital Marketing Services in Dubai">
-                    <div class="growimg-cnt">
-                        <p class="mb-5 text-white fs-20">Boost your online visibility, improve search rankings, and drive higher conversions with our SEO experts in Dubai. Get a Free SEO Consultation and Comprehensive Website Audit to discover your growth opportunities.</p>
-                        <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Talk to Our Experts</a>
-
-                    </div>
+    <section class="dm-dubai-office spb-50 dm-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled p-0 mb-0">
+                        <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
+                        <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="grow-form-main">
-                    <?php $textrow = 6 ?>
-                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="dm-dubai-office spb-50 dm-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <ul class="list-unstyled p-0 mb-0">
-                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
-                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="d-flex align-items-start">
-                    <img class="me-3" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
-                    <div class="dubai-address">
-                        <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
-                        <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-start">
+                        <img class="me-3" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
+                        <div class="dubai-address">
+                            <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
+                            <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="sp-50 dm-blog-section dm-bg">
-    <div class="container">
-        <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
-            In the Industry
-        </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
-                            <h3><a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
-                            <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+    <section class="sp-50 dm-blog-section dm-bg">
+        <div class="container">
+            <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
+                In the Industry
+            </h2>
+            <div class="position-relative delivertechmain">
+                <div class="swiper dmblog-sld">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
+                                <h3><a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
+                                <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
-                            <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
-                            <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
+                                <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
+                                <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
-                            <h3><a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews & the Future of Google Search: Must-Know Facts</a></h3>
-                            <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
+                                <h3><a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews & the Future of Google Search: Must-Know Facts</a></h3>
+                                <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
-                            <h3><a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring & Reporting with Google Analytics</a></h3>
-                            <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
+                                <h3><a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring & Reporting with Google Analytics</a></h3>
+                                <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
-                            <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
-                            <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
+                                <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
+                                <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-home/blog7.webp">
-                            <h3><a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
-                            <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/new-home/blog7.webp">
+                                <h3><a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
+                                <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
-                            <h3><a href="/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
-                            <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
+                                <h3><a href="/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
+                                <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
-                            <h3><a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
-                            <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
+                                <h3><a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
+                                <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
-                            <h3><a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
-                            <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
+                                <h3><a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
+                                <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-next dmblog-next"></div>
+                <div class="swiper-button-prev dmblog-prev"></div>
             </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- FAQ section started -->
     <section class="sp-80 dm-bg">
