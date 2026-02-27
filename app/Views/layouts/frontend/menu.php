@@ -47,7 +47,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai">On-Page SEO</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Off-Page SEO" width="30" height="30"> <a href="/off-page-seo-dubai">Off-Page SEO</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Keyword Research" width="30" height="30"> <a href="/keyword-research-dubai">Keyword Research</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/content-marketing-agency-dubai">Content Marketing</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/local-seo-services-in-dubai">Local SEO Services</a></li>
 
 
 
