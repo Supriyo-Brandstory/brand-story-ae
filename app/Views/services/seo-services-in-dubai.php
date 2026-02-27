@@ -2,7 +2,7 @@
     <div class="banner-overlay">
         <div class="hero-content">
 
-            <h1 class="mb-3 text-white">Best SEO Agency in Dubai With <br>Proven Local SEO Expertise</h1>
+            <h1 class="mb-3 text-white">Best SEO Agency in Dubai With <br>Local SEO Expertise</h1>
 
 
 
@@ -80,14 +80,14 @@
 
 
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-services-dubai-1.webp') ?>" alt="Best SEO Agency in Dubai">
                     <div class="video-play-btn" data-video-id="wu1KU_1osRY">
                         <i class="ion-play"></i>
                     </div>
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-services-dubai-2.webp') ?>" alt="SEO Marketing Agency in Dubai">
                     <div class="video-play-btn" data-video-id="wu1KU_1osRY">
                         <i class="ion-play"></i>
                     </div>
@@ -1128,7 +1128,7 @@
         <div class="row gx-md-0">
             <div class="col-lg-3 col-md-6 col-6">
                 <div class="dm-conter-main text-lg-start text-center">
-                    <span class="dm-count-num">500+</span>
+                    <span class="dm-count-num">1000+</span>
                     <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
                 </div>
             </div>

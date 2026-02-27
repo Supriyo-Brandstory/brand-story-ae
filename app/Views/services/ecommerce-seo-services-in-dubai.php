@@ -8,23 +8,15 @@
 
                     <!-- Mobile Image Version (Shown after Heading on Mobile) -->
                     <div class="sem-banner-right position-relative d-lg-none mb-5">
-                        <div class="laptop-mockup">
-                            <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="eCommerce SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                    <div class="laptop-mockup">
+                            <img src="<?= base_url('assets/images/new-seo/ecom-seo-1.webp') ?>" alt="eCommerce SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                         </div>
-                        <div class="floating-card-roas">
-                            <div class="roas-circle">
-                                <i class="ion-arrow-graph-up-right"></i>
-                            </div>
-                            <div class="roas-info">
-                                <p>Avg. ROI Growth</p>
-                                <h4>+340%</h4>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">BrandStory is a leading eCommerce SEO company in Dubai delivering performance-driven strategies designed to increase organic visibility, qualified traffic, and revenue. Our eCommerce SEO services go beyond rankings- we optimise product pages, category structures, technical architecture, and conversion pathways to ensure sustainable growth.</p>
                     <div class="banner-btns d-flex flex-wrap gap-3">
-                        <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Your Free Audit</a>
+                        <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
                         <a href="/case-study" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
                     </div>
                 </div>
@@ -32,17 +24,10 @@
             <div class="col-lg-6 d-none d-lg-block">
                 <div class="sem-banner-right position-relative">
                     <div class="laptop-mockup">
-                        <img src="<?= base_url('assets/images/new-seo/seo-banner-1.webp') ?>" alt="eCommerce SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                        <img src="<?= base_url('assets/images/new-seo/ecom-seo-1.webp') ?>" alt="eCommerce SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                     </div>
-                    <div class="floating-card-roas">
-                        <div class="roas-circle">
-                            <i class="ion-arrow-graph-up-right"></i>
-                        </div>
-                        <div class="roas-info">
-                            <p>Avg. ROI Growth</p>
-                            <h4>+340%</h4>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
@@ -78,16 +63,12 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-1.webp') ?>" alt="eCommerce SEO Company Dubai">
-                    <div class="video-play-btn" data-video-id="wu1KU_1osRY">
-                        <i class="ion-play"></i>
-                    </div>
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/ecom-desk.webp') ?>" alt="eCommerce SEO Company Dubai">
+
                 </div>
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/seo-experts-dubai-2.webp') ?>" alt="Best eCommerce SEO Company">
-                    <div class="video-play-btn" data-video-id="wu1KU_1osRY">
-                        <i class="ion-play"></i>
-                    </div>
+                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/ecom-mob.webp') ?>" alt="Best eCommerce SEO Company">
+
                 </div>
             </div>
             <div class="col-lg-6 align-self-center">
@@ -109,7 +90,7 @@
 
 <section class="sem-service-section sp-80">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Core Components of Our eCommerce SEO Services</h2>
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Core Components of <br>Our eCommerce SEO Services</h2>
         <div class="row g-4 align-items-stretch">
             <div class="col-lg-12">
                 <div class="row g-4 h-100">
@@ -152,7 +133,7 @@
                     <div class="col-md-6">
                         <div class="sem-service-card">
                             <div class="icon-box">
-                                <img src="/assets/images/new-seo/Conversion-Rate.png" alt="Conversion Optimization">
+                                <img src="/assets/images/new-seo/On-Page-Optimization.png" alt="Conversion Optimization">
                             </div>
                             <h3 class="fs-24 fw-600">Conversion Optimisation</h3>
                             <p class="fs-18 opacity-70">Beyond traffic, we focus on results. By analysing user behaviour, engagement metrics, and funnel performance, we refine your SEO strategy to improve conversion rates and increase overall return on investment.</p>
@@ -222,15 +203,15 @@
 
 <section class="dm-whychoose-sec sp-80 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-4">Why Choose BrandStory for eCommerce SEO?</h2>
+        <h2 class="text-white mb-4">Why Choose BrandStory for <span class="theme-highlight db">eCommerce SEO Services in Dubai?</span></h2>
 
         <div class="row align-items-start">
             <div class="col-lg-5 sticky-lg-top" style="top: 100px;">
                 <p class="text-white opacity-70 fs-20 mb-5">We go beyond clicks to deliver scalable growth engines for Dubai's most ambitious eCommerce brands.</p>
                 <div class="d-lg-block d-none position-relative">
-                    <img class="w-100 radius-20" src="<?= base_url('assets/images/home/whychoose.webp') ?>" alt="eCommerce SEO Performance">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/ecom-seo-3.webp') ?>" alt="eCommerce SEO Performance">
                     <div style="position:absolute; bottom:20px; left:20px; background:#845EF7; color:#fff; padding:15px 25px; border-radius:15px; font-weight:700;">
-                        Top Rated Agency 🌟
+                        Top Rated Agency
                     </div>
                 </div>
             </div>
@@ -453,24 +434,246 @@
 
     </div>
 </div>
-<!-- <section class="sp-80 dm-bg">
-    <div class="container">
-        <h2 class="text-white text-center mb-5">Client Reviews</h2>
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="review-placeholder text-center p-5 radius-20" style="background: #111; border: 1px solid #333;">
-                    <p class="text-white fs-20 opacity-70 italic">"BrandStory's eCommerce SEO expertise has transformed our online presence. Our organic revenue grew by 240% in just six months, and their technical approach to category optimization is unmatched in Dubai."</p>
-                    <h4 class="text-white mt-4 fw-700">- Leading Retail Brand in UAE</h4>
+
+
+<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+
+<section class="dm-counter-sec sp-50 dm-bg">
+    <div class="container  px-5">
+        <div class="row gx-md-0">
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center">
+                    <span class="dm-count-num">1000+</span>
+                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">900+</span>
+                    <h3 class="text-white fw-300 mb-0 px-lg-0">Satisfied Clients</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
+                    <span class="dm-count-num">12+</span>
+                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">100+</span>
+                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
-<section class="sp-80 dm-bg">
+<section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
-        <h2 class="text-white text-center mb-5">Latest Blogs</h2>
-        <?php include __DIR__ . '/../component/latest-blogs.php' ?>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sp-50 dm-blog-section dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
+            In the Industry
+        </h2>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmblog-sld">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
+                            <h3><a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
+                            <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
+                            <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
+                            <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
+                            <h3><a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews & the Future of Google Search: Must-Know Facts</a></h3>
+                            <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
+                            <h3><a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring & Reporting with Google Analytics</a></h3>
+                            <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
+                            <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
+                            <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/new-home/blog7.webp">
+                            <h3><a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
+                            <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
+                            <h3><a href="/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
+                            <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
+                            <h3><a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
+                            <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
+                            <h3><a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
+                            <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next dmblog-next"></div>
+            <div class="swiper-button-prev dmblog-prev"></div>
+        </div>
     </div>
 </section>
 
