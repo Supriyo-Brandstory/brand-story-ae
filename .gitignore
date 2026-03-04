@@ -42,6 +42,7 @@ Thumbs.db
 # Build files
 /build/
 /dist/
+/vendor
 
 # Node modules (if using any frontend build tools)
 node_modules/
