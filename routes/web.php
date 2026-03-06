@@ -310,6 +310,13 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/backup/progress', 'Admin\AdminController@backupProgress', 'admin.backup.progress');
         Route::post('/backup/cleanup', 'Admin\AdminController@cleanupProgress', 'admin.backup.cleanup');
 
+        Route::get('/backups', 'Admin\AdminBackupController@index', 'admin.backups.index');
+        Route::post('/backups/settings', 'Admin\AdminBackupController@storeSettings', 'admin.backups.settings');
+        Route::get('/backups/run', 'Admin\AdminBackupController@runBackup', 'admin.backups.run');
+        Route::get('/backups/{id}/download', 'Admin\AdminBackupController@download', 'admin.backups.download');
+        Route::get('/backups/{id}/send', 'Admin\AdminBackupController@sendEmail', 'admin.backups.send');
+        Route::post('/backups/{id}/delete', 'Admin\AdminBackupController@destroy', 'admin.backups.delete');
+
         // Sitemap Management
         Route::get('/sitemap', 'Admin\AdminSitemapController@index', 'admin.sitemap.index');
         Route::post('/sitemap', 'Admin\AdminSitemapController@update', 'admin.sitemap.update');

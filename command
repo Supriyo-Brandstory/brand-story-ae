@@ -73,6 +73,7 @@ $commands = [
     'migrate:table' => 'MakeMigration', // Alias for make:table, handled by MigrateCommand
     'admin:seed' => 'SeedAdminCommand',
     'cache:clean' => 'CacheCleanCommand',
+    'backup:run' => 'BackupCommand',
     // Add other commands here
 ];
 

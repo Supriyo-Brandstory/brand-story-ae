@@ -143,7 +143,13 @@ class BaseModel
             "INSERT INTO {$this->table} ($columns) VALUES ($placeholders)"
         );
 
-        return $stmt->execute(array_values($data));
+        $result = $stmt->execute(array_values($data));
+
+        if ($result && $this->table !== 'settings' && $this->table !== 'backups') {
+            $this->trackDatabaseChange();
+        }
+
+        return $result;
     }
 
     /**
@@ -154,7 +160,27 @@ class BaseModel
         $stmt = $this->db->prepare(
             "DELETE FROM {$this->table} WHERE {$this->primaryKey} = ?"
         );
-        return $stmt->execute([$id]);
+        $result = $stmt->execute([$id]);
+
+        if ($result && $this->table !== 'settings' && $this->table !== 'backups') {
+            $this->trackDatabaseChange();
+        }
+
+        return $result;
+    }
+
+    /**
+     * Track database change in settings table.
+     */
+    protected function trackDatabaseChange(): void
+    {
+        try {
+            $now = date('Y-m-d H:i:s');
+            $stmt = $this->db->prepare("INSERT INTO settings (`key`, `value`) VALUES ('last_db_change', ?) ON DUPLICATE KEY UPDATE `value` = ?");
+            $stmt->execute([$now, $now]);
+        } catch (Exception $e) {
+            // Silently fail if settings table doesn't exist yet or other issues
+        }
     }
 
     /**

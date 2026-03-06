@@ -105,6 +105,11 @@
                         <i class="bi bi-envelope-paper"></i> Enquiries
                     </a>
                 </li>
+                <li>
+                    <a href="<?= route('admin.backups.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.backups') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-cloud-arrow-up"></i> Backups
+                    </a>
+                </li>
                 <!-- <?php var_dump($currentRouteName); ?> -->
             </ul>
             <hr class="text-white-50">
@@ -176,6 +181,11 @@
                     <li>
                         <a href="<?= route('admin.enquiries.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.enquiries') !== false) ? 'active' : '' ?>">
                             <i class="bi bi-envelope-paper"></i> Enquiries
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.backups.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.backups') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-cloud-arrow-up"></i> Backups
                         </a>
                     </li>
                 </ul>
