@@ -61,6 +61,7 @@ Route::group(['prefix' => '/industries'], function () {
     Route::get('/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices');
     Route::get('/b2b-corporate-marketing-services', 'FrontendController@b2bCorporateMarketingServices', 'b2bcorporatemarketingservices');
     Route::get('/travel-agency-marketing-services', 'FrontendController@travelAgencyMarketingServices', 'travelagencymanagementservices');
+    Route::get('/digital-marketing-for-dentists', 'FrontendController@digitalMarketingForDentists', 'digitalmarketingfordentists');
 });
 
 // case studies 

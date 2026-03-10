@@ -362,6 +362,13 @@ class FrontendController extends Controller
         ];
         return $this->view('industries/travel-agency-marketing-services', ['meta' => $meta]);
     }
+    public function digitalMarketingForDentists()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('industries/digital-marketing-for-dentists', ['meta' => $meta]);
+    }
 
 
 
