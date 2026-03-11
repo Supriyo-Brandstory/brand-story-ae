@@ -88,6 +88,8 @@
                     <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="B2B Corporate" width="30" height="30"> <a href="/industries/b2b-corporate-marketing-services">B2B Corporate</a></li>
                     <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Travel Agency" width="30" height="30"> <a href="/industries/travel-agency-marketing-services">Travel Agency</a></li>
                     <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Dentists" width="30" height="30"> <a href="/industries/digital-marketing-for-dentists">Dentists</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Automotive" width="30" height="30"> <a href="/industries/digital-marketing-for-automotive">Automotive</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Law Firms" width="30" height="30"> <a href="/industries/digital-marketing-for-law-firms">Law Firms</a></li>
                 </ul>
             </li>
 

@@ -369,6 +369,20 @@ class FrontendController extends Controller
         ];
         return $this->view('industries/digital-marketing-for-dentists', ['meta' => $meta]);
     }
+    public function digitalMarketingForAutomotive()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('industries/digital-marketing-for-automotive', ['meta' => $meta]);
+    }
+    public function digitalMarketingForLawFirms()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('industries/digital-marketing-for-law-firms', ['meta' => $meta]);
+    }
 
 
 
