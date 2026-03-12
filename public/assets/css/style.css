@@ -411,7 +411,7 @@
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: url('../images/tech-arrow-left.svg') !important;
+    content: url('../images/tech-arrow-left.svg');
 }
 
 .casestudies-main h4 {

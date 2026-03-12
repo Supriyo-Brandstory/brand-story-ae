@@ -4,9 +4,9 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="seo-banner-txt">
                     <h1>Best SEO Agency in Dubai with Local<span class="db"> SEO Expertise</span></h1>
-                    <p>Accelerate your organic growth and dominate online visibility through data-driven SEO strategies. BrandStory is the 
+                    <p>Accelerate your organic growth and dominate online visibility through data-driven SEO strategies. BrandStory is the
                         No. 1 SEO agency in Dubai with deep market insight, technical optimization expertise, and content-led strategies that help
-                         brands enhance search performance, connect with the right audiences, and sustain long-term digital growth.</p>
+                        brands enhance search performance, connect with the right audiences, and sustain long-term digital growth.</p>
                     <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Connect with Us</a></div>
                 </div>
             </div><!--col end-->
@@ -104,188 +104,188 @@
 </section>
 
 <section class="seo-pages-agency sp-50 bg-white">
-<div class="sp-50 container seo-portfolio-section bg-white" id="SEO-campaign-highlights">
-    <h2 style="color:#212529" class=" mb-lg-5 mb-4 text-md-start text-center">A Glimpse of Our Recent<br> SEO Campaign Results</h2>
+    <div class="sp-50 container seo-portfolio-section bg-white" id="SEO-campaign-highlights">
+        <h2 style="color:#212529" class=" mb-lg-5 mb-4 text-md-start text-center">A Glimpse of Our Recent<br> SEO Campaign Results</h2>
 
-    <div class="seo-pf-grid">
+        <div class="seo-pf-grid">
 
-        <!-- Card 1 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">Finance</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/portfolio-new-2.webp" alt="Alice Blue SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+            <!-- Card 1 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">Finance</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/portfolio-new-2.webp" alt="Alice Blue SEO Results Dubai">
                 </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                    </div>
 
-                <p class="seo-pf-desc"><b>4,000+</b> first-page keywords · <b>2.18M</b> monthly organic visitors · <b>10,000+</b> enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">200%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">320%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
+                    <p class="seo-pf-desc"><b>4,000+</b> first-page keywords · <b>2.18M</b> monthly organic visitors · <b>10,000+</b> enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">200%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">320%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Card 2 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">Tech.</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="FourNxt SEO Results Dubai">
+                </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
+                    </div>
+                    <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">300%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">180%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">E-Com.</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Take Leap SEO Results Dubai">
+                </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
+                    </div>
+                    <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">250%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">180%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">Finance</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="UNO Capital SEO Results Dubai">
+                </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
+                    </div>
+                    <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">320%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">240%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">Insurance</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="CoverB SEO Results Dubai">
+                </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">Insurance</span>
+                    </div>
+                    <p class="seo-pf-desc"><b>30+</b> first-page keywords · <b>3,000+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">350%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">200%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="seo-pf-card">
+                <span class="seo-pf-badge d-none d-md-block">Services</span>
+                <div class="seo-pf-img-wrap">
+                    <img src="/assets/images/new-seo/Portfolio-new-6.webp" alt="Elira Real Estate SEO Results Dubai">
+                </div>
+                <div class="seo-pf-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                        <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
+                    </div>
+                    <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
+                    <div class="seo-pf-stats">
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">280%</span>
+                            <span class="seo-pf-stat-label">Traffic Spike</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">210%</span>
+                            <span class="seo-pf-stat-label">Conversions</span>
+                        </div>
+                        <div class="seo-pf-stat">
+                            <span class="seo-pf-stat-num">1st</span>
+                            <span class="seo-pf-stat-label">Page Ranking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-        <!-- Card 2 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">Tech.</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/SEO-Portfolio-3.jpg" alt="FourNxt SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
-                </div>
-                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">300%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">180%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">E-Com.</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/SEO-Portfolio-4.jpg" alt="Take Leap SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
-                </div>
-                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">250%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">180%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">Finance</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/SEO-Portfolio-5.JPG" alt="UNO Capital SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
-                </div>
-                <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">320%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">240%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">Insurance</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/SEO-Portfolio-6.JPG" alt="CoverB SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/case-study/cover-b-wesite/" class="text-white">CoverB</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">Insurance</span>
-                </div>
-                <p class="seo-pf-desc"><b>30+</b> first-page keywords · <b>3,000+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">350%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">200%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="seo-pf-card">
-            <span class="seo-pf-badge d-none d-md-block">Services</span>
-            <div class="seo-pf-img-wrap">
-                <img src="/assets/images/new-seo/Portfolio-new-6.webp" alt="Elira Real Estate SEO Results Dubai">
-            </div>
-            <div class="seo-pf-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
-                    <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
-                </div>
-                <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
-                <div class="seo-pf-stats">
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">280%</span>
-                        <span class="seo-pf-stat-label">Traffic Spike</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">210%</span>
-                        <span class="seo-pf-stat-label">Conversions</span>
-                    </div>
-                    <div class="seo-pf-stat">
-                        <span class="seo-pf-stat-num">1st</span>
-                        <span class="seo-pf-stat-label">Page Ranking</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
-</div>
 </section>
 
 
@@ -539,84 +539,85 @@
     </div><!--Container End-->
 </section>
 
+<section class="dm-page service-page ppc ">
+    <div class="sp-50 dm-blog-section bg-white">
+        <div class="container">
+            <h2 class=" mb-4 text-md-start text-center">Know What's Happening <br>
+                In the Industry
+            </h2>
+            <div class="position-relative delivertechmain">
+                <div class="swiper dmblog-sld">
+                    <div class="swiper-wrapper">
 
-<section class="sp-50 dm-blog-section bg-white">
-    <div class="container">
-        <h2 class=" mb-4 text-md-start text-center">Know What's Happening <br>
-            In the Industry
-        </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-1.webp">
-                            <h3><a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide" style="color: #000; text-decoration: none;">Search Engine Optimization (SEO) Services in Dubai: A Complete Guide</a></h3>
-                            <p class="fs-20">In today’s competitive digital landscape, simply having a website is no longer enough. Businesses in Dubai and across the UAE must compete for visible...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-1.webp">
+                                <h3><a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide" style="color: #000; text-decoration: none;">Search Engine Optimization (SEO) Services in Dubai: A Complete Guide</a></h3>
+                                <p class="fs-20">In today’s competitive digital landscape, simply having a website is no longer enough. Businesses in Dubai and across the UAE must compete for visible...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-2.webp">
-                            <h3><a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers" style="color: #000; text-decoration: none;">Local SEO Dubai: The Strategy Behind Winning Local Customers</a></h3>
-                            <p class="fs-20">Dubai is one of the most competitive business environments in the world. From restaurants in Jumeirah to law firms in DIFC and clinics in Dubai Marina...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-2.webp">
+                                <h3><a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers" style="color: #000; text-decoration: none;">Local SEO Dubai: The Strategy Behind Winning Local Customers</a></h3>
+                                <p class="fs-20">Dubai is one of the most competitive business environments in the world. From restaurants in Jumeirah to law firms in DIFC and clinics in Dubai Marina...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-3.webp">
-                            <h3><a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai" style="color: #000; text-decoration: none;">GEO Checklist: 8 Steps to Optimize for AI Assistants in Dubai</a></h3>
-                            <p class="fs-20">In today’s digital era, artificial intelligence (AI) assistants like Google Assistant, Siri, Alexa, and ChatGPT are rapidly transforming how people...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-3.webp">
+                                <h3><a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai" style="color: #000; text-decoration: none;">GEO Checklist: 8 Steps to Optimize for AI Assistants in Dubai</a></h3>
+                                <p class="fs-20">In today’s digital era, artificial intelligence (AI) assistants like Google Assistant, Siri, Alexa, and ChatGPT are rapidly transforming how people...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-4.webp">
-                            <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Winning in Google’s AI Overview</a></h3>
-                            <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor in how users consume content online...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-4.webp">
+                                <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Winning in Google’s AI Overview</a></h3>
+                                <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor in how users consume content online...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-5.webp">
-                            <h3><a href="/blogs/site-architecture-seo-organize-your-website-the-right-way" style="color: #000; text-decoration: none;">Site Architecture & SEO: Organize Your Website the Right Way</a></h3>
-                            <p class="fs-20">In today's digital-first era, a website is no longer just a mere virtual store website that constitutes the entire online presence of a brand...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/site-architecture-seo-organize-your-website-the-right-way">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-5.webp">
+                                <h3><a href="/blogs/site-architecture-seo-organize-your-website-the-right-way" style="color: #000; text-decoration: none;">Site Architecture & SEO: Organize Your Website the Right Way</a></h3>
+                                <p class="fs-20">In today's digital-first era, a website is no longer just a mere virtual store website that constitutes the entire online presence of a brand...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/site-architecture-seo-organize-your-website-the-right-way">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-6.webp">
-                            <h3><a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank" style="color: #000; text-decoration: none;">SEO Meta Tags: How to Craft Titles and Descriptions That Rank</a></h3>
-                            <p class="fs-20">Visibility is power amid the evolutionary setting in digital marketing today. Ranking high on the SERP drives traffic, trust, and conversions...</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                        <div class="swiper-slide">
+                            <div class="latest-blog-main">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-6.webp">
+                                <h3><a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank" style="color: #000; text-decoration: none;">SEO Meta Tags: How to Craft Titles and Descriptions That Rank</a></h3>
+                                <p class="fs-20">Visibility is power amid the evolutionary setting in digital marketing today. Ranking high on the SERP drives traffic, trust, and conversions...</p>
+                                <div class="casestydies-readmore">
+                                    <a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
 
 
+                    </div>
                 </div>
+                <div class="swiper-button-next dmblog-next"></div>
+                <div class="swiper-button-prev dmblog-prev"></div>
             </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
         </div>
     </div>
 </section>
