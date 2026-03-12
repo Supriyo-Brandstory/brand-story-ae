@@ -1,4 +1,4 @@
-<section class="other--seo-links sp-50">
+<section class="other--seo-links sp-50 bg-white">
 	<div class="container"><!--Container Start-->
 		<h2 class="text-center">Other SEO Service's Location</h2>
 		<div class="row spt-50"><!--Row Start-->

@@ -15,10 +15,10 @@
 					<button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">On-Page SEO</button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">International SEO</button>
+					<button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Local SEO</button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="spt6" data-bs-toggle="tab" data-bs-target="#spt-6" type="button" role="tab" aria-selected="false">Content Strategy & Authority Link Building</button>
+					<button class="nav-link" id="spt6" data-bs-toggle="tab" data-bs-target="#spt-6" type="button" role="tab" aria-selected="false">Authority Link Building</button>
 				</li>
 			</ul>
 		</div>
@@ -26,8 +26,10 @@
 			<div class="tab-pane fade show active" id="spt-1" role="tabpanel"><!--tab1 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>The function of an SEO audit is to identify the issues affecting the performance of your website. With our audit's help, we will help you fix your issues and select the strategy to enhance your business.</p>
+						<p>SEO audit is the foundation of every successful search strategy. At BrandStory, our comprehensive SEO audits identify gaps and missed opportunity affecting your website's performance giving you a clear, actionable roadmap to improve rankings and increase organic traffic.</p><br>
+						<a href="<?= base_url('/google-ads-agency-abu-dhabi') ?>" class="know-more"><strong>Explore SEO Audit Services</strong> <span class="arrow">→</span></a>
 					</div>
+					
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr1.jpg" class="img-fluid" alt="dubai seo company">
 					</div>
@@ -36,7 +38,8 @@
 			<div class="tab-pane fade" id="spt-2" role="tabpanel"><!--tab2 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>Competitive analysis helps us to evaluate the top-ranking website, including the use of certain keywords. It helps us to get a panoramic view of your competition and where are your opportunities lies.</p>
+						<p>Your competition is the key to beating them. BrandStory's competitive analysis gives you a complete picture of who is ranking above you, what they are doing right, and where the biggest opportunities exist for your business to outrank and outperform competitors.</p><br>
+						<a href="<?= base_url('/google-ads-agency-abu-dhabi') ?>" class="know-more"><strong>Explore Competitor Audit</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr2.jpg" class="img-fluid" alt="seo dubai">
@@ -46,7 +49,8 @@
 			<div class="tab-pane fade" id="spt-3" role="tabpanel"><!--tab3 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>For anything to work seamlessly, it must be properly tuned. With the help of a technical SEO audit, we identify the bottlenecks in your site's performance and streamline it.</p>
+						<p>Behind every high-ranking website is a technically flawless foundation. Our technical SEO specialists conduct a thorough analysis of your website- identifying every bottleneck, error, and structural issue, then implement precise, targeted fixes.</p><br>
+						<a href="<?= base_url('/technical-seo-dubai') ?>" class="know-more"><strong>Explore Technical SEO</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr3.jpg" class="img-fluid" alt="seo in dubai">
@@ -56,7 +60,8 @@
 			<div class="tab-pane fade" id="spt-4" role="tabpanel"><!--tab4 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>To engage more traffic to your site, it should have a healthy on-page SEO approach. We make sure that the right amount of appealing content is available for potential customers through our services.</p>
+						<p>On-page SEO is what makes your website visible, relevant, and valuable. BrandStory optimises your content, keywords, and page structure to ensure search engines rank you higher and visitors stay longer- turning clicks into real customers.</p><br>
+						<a href="<?= base_url('/on-page-seo-dubai') ?>" class="know-more"><strong>Explore On-Page SEO</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr4.jpg" class="img-fluid" alt="seo agency dubai">
@@ -66,7 +71,8 @@
 			<div class="tab-pane fade" id="spt-5" role="tabpanel"><!--tab5 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>The tremendous significance of being online is that it gives you a global reach, but it is not easy as you will face stiff competition. Our expert team will create a website that will be preferred by all global search engines.</p>
+						<p>Your next customer is searching for you right now. BrandStory's local SEO service puts your business at the top of local search results, Google Maps, and location-based queries connecting you directly with the high-intent local audience.</p><br>
+						<a href="<?= base_url('/local-seo-services-in-dubai') ?>" class="know-more"><strong>Explore Local SEO</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr5.jpg" class="img-fluid" alt="seo company dubai">
@@ -76,7 +82,8 @@
 			<div class="tab-pane fade" id="spt-6" role="tabpanel"><!--tab6 content start-->
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
-						<p>To create a robust business, you need to have links in the industry that help in growth. We will help you build relevant links and content to help you strategize and build a formidable reputation for your business online.</p>
+						<p>BrandStory's link building service earns your website high-quality, relevant backlinks from trusted and authoritative sources- strengthening your domain authority, and establishing your brand as a credible voice in your industry.</p><br>
+						<a href="<?= base_url('/off-page-seo-dubai') ?>" class="know-more"><strong>Explore Off-Page SEO</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
 						<img src="/assets/images/service/seo/seo-pr6.jpg" class="img-fluid" alt="seo services dubai">
