@@ -56,6 +56,14 @@
     </div>
 </section>
 
+<section class="sp-50 bg-white">
+    
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/services/clients.php' ?>
+    </div><!--Container End-->
+</section>
+
 
 <section class="service-process seo-process sp-50 bg-white">
     <div class="container"><!--Container Start-->
