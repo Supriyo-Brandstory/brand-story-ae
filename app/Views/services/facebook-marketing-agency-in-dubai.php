@@ -18,44 +18,171 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
-<section id="knowMore" class="web-design-process sp-50" style="background:transparent;">
+
+
+<section id="knowMore" class="sp-80 bg-black">
     <div class="container">
-        <div class="row">
-            <p> Facebook ads can significantly help you with improving your brand's visibility, grow your business online, and drive sales. However, Facebook ads are not a "set it and forget it" form of <a href="/social-media-marketing-agency-in-dubai/">digital advertising</a>. As the leading Facebook marketing agency in Dubai, we know the ins and outs of advertising on Facebook. We can put your business in the high-growth zone with our tested combination of <a href="/creative-advertising-agency-in-dubai/">creative ad design</a>, compelling content, and precise audience targeting.</p>
-            <h3>Types of Facebook Ads </h3>
-            <h5>Stories Ads</h5>
-            <p>Facebook allows marketers to create story ads that will enable them to reach their customers in an immersive, full-size environment. </p>
-            <h5>Photo Ads</h5>
-            <p>Whatever your business goals are, you can utilize photo ads on Facebook to increase brand awareness.</p>
-            <h5>Video Ads</h5>
-            <p>You can use video ads to showcase your brand, product, or service creatively and highlight unique features to drive conversions.</p>
-            <h5>Carousel Ads</h5>
-            <p>Carousel ads combine multiple images or videos into a single ad to help marketers improve conversions or sales. </p>
-            <h5>Slideshow Ads</h5>
-            <p>These are video-like ads that use sound, text, and motion to tell your story beautifully to your audiences. </p>
-            <h5>Collection Ads</h5>
-            <p>Collection ads involve a cover image or video which is followed by three product photos. When your users tap on a collection tap they will be directed to your landing page. </p>
-            <h3 class="mb-3">Why Choose Brandstory Facebook Marketing Company in Dubai</h3>
-            <h5>Result-driven advertising</h5>
-            <p>Successful Facebook ad campaigns require strategic planning and testing to understand the right combination of content, targeting, budget, and creative design to reach as well as engage with your ideal customers. </p>
-            <h5>Precise audience-building</h5>
-            <p>Based on the unique goals of your business, our experts will choose the best Facebook ad formats and deliver branded ads with compelling copy that drives conversions. We utilize precise audience targeting to ensure that your ad reaches audiences who are most interested in your brand or products. </p>
-            <h3 class="mb-3">Our Facebook Marketing Services in Dubai</h3>
-            <h5>Facebook Ad Audience Targeting</h5>
-            <p>Even the greatest ad content will fail if it doesn't reach the ideal audience. Being the leading Facebook advertising agency Dubai, we utilize the ad targeting features of Facebook to get more clicks from your target audience.</p>
-            <p>Facebook allows marketers to reach the users who are interested in your product or service offering. You can target your ideal audience based on information like demographics, behaviors, and interests. As a Facebook ads agency in Dubai, Brandstory knows how to create innovative and detailed Facebook ad audiences that will enable our clients to reach and interact with their target audience better. We also help you with Facebook retargeting to enable you to reach out to existing leads who have previously shown interest in your brand. Moreover, with Facebook's Audience Insights feature you can better target and engage with users who love your brand. </p>
-            <h5>Facebook Ad Design</h5>
-            <p>Facebook provides marketers with different options to allow marketers to tell their brand stories using various Facebook ad formats. From slideshow to a collection of images, photos, video, and carousel, Brandstory can help you with different ad formats to help you engage your users better </p>
-            <p>As the most experienced Facebook marketing company in Dubai, we have a track record of creating professional Facebook ad designs that effectively capture the attention of the target audiences of our clients. We create compelling ads using your existing style guidelines to make a lasting impression on your customers. We can also assist you with Facebook lead forms or custom landing pages to ensure a seamless conversion experience. </p>
-            <h5>Facebook Ad Copy Writing</h5>
-            <p>At Brandstory, we aim to create engaging ad copy that will enable your target customers to better understand your business values and offerings. We will consider your ad campaign goals and the position of your prospects in the buyer's journey. </p>
-            <p>Our Facebook ad copy is optimized for conversions. Our compelling and out-of-the-box ad copy will effectively capture your customer's audience and appropriately tell your unique brand story and values.</p>
-            <h5>Facebook Ad and Landing Page A/B Testing</h5>
-            <p>Standing up to our reputation of being the most trusted Facebook marketing agency in Dubai, we perform A/B testing to improve our Facebook ad campaigns. Our team is experienced in effectively developing A/B tests, assessing the results, and making data-driven decisions to enhance your ad performance.</p>
-            <h5>Facebook Ad Analytics and Optimization </h5>
-            <p>At Brandstory, we ensure that our client's efforts and money are not wasted on unsuccessful ad campaigns. We track the results of your Facebook ad campaigns over time and evaluate the results based on your KPIs. </p>
-            <p>This will ensure that your goals are met and your ad campaigns are providing a high ROI. It will also help us understand the type of ad campaigns and elements that your target audience is liking the most. With this information, we will create your future ad campaigns. </p>
+        <h2 class="text-white text-md-start text-center mb-4">Types of Facebook Ads</h2>
+        <p class="text-white mb-5"> Facebook ads can significantly help you with improving your brand's visibility, grow your business online, and drive sales. However, Facebook ads are not a "set it and forget it" form of <a href="/social-media-marketing-agency-in-dubai/" class="text-white text-decoration-underline">digital advertising</a>. As the leading Facebook marketing agency in Dubai, we know the ins and outs of advertising on Facebook. We can put your business in the high-growth zone with our tested combination of <a href="/creative-advertising-agency-in-dubai/" class="text-white text-decoration-underline">creative ad design</a>, compelling content, and precise audience targeting.</p>
+        
+        <div class="dm-sticky-section">
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Stories Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding ">Stories Ads</h4>
+                        <p>Facebook allows marketers to create story ads that will enable them to reach customers in an immersive full-screen environment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Photo Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding">Photo Ads</h4>
+                        <p>Whatever your business goals are, you can utilize photo ads on Facebook to increase brand awareness.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Video Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding">Video Ads</h4>
+                        <p>Use video ads to showcase your brand, product, or service creatively and highlight unique features to drive conversions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Carousel Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding">Carousel Ads</h4>
+                        <p>Carousel ads combine multiple images or videos into a single ad to help marketers improve conversions or sales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Slideshow Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding">Slideshow Ads</h4>
+                        <p>These are video-like ads that use sound, text, and motion to tell your story beautifully to your audiences.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dm-container">
+                <div class="dm-card">
+                    <div class="dm-image">
+                        <img src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Collection Ads" />
+                    </div>
+                    <div class="dm-content">
+                        <h4 class="heding">Collection Ads</h4>
+                        <p>Collection ads involve a cover image or video followed by product photos that lead users directly to your landing page.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
+
+
+<section class="sp-80 bg-black">
+    <div class="container">
+        <h2 class="text-white text-md-start text-center">
+            Why Choose Brandstory Facebook <br>
+            Marketing Company in Dubai
+        </h2>
+        <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="each_why_choose_container">
+                    <img src="/assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Result-driven advertising">
+                    <h4 class="fs-24 fw-700">Result-driven advertising</h4>
+                    <p class="fs-20">Successful Facebook ad campaigns require strategic planning and testing to find the right combination of content, targeting, budget, and creative design to reach and engage your ideal customers.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="each_why_choose_container">
+                    <img src="/assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Precise audience-building">
+                    <h4 class="fs-24 fw-700">Precise audience-building</h4>
+                    <p class="fs-20">Based on your business goals, our experts choose the best Facebook ad formats and deliver branded ads with compelling copy that drives conversions. We utilize precise audience targeting to ensure your ads reach the right people.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sp-80 bg-black pb-2">
+    <div class="container social-media-services">
+        <h2 class="text-white text-md-center text-center mb-4">
+            Our Facebook Marketing Services in Dubai
+        </h2>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">1</span>Facebook Ad Audience Targeting</h3>
+                <p>
+                    Even the best ad content fails if it doesn’t reach the right audience. We use Facebook's targeting tools to reach users based on demographics, behaviors, and interests. We also implement retargeting strategies to re-engage users who previously interacted with your brand.
+                </p>
+            </div>
+            <div class="service-box-right service-box-image-1"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">2</span>Facebook Ad Design</h3>
+                <p>
+                    We create visually engaging Facebook ads including slideshow, carousel, video, and image ads that capture attention and communicate your brand story effectively.
+                </p>
+            </div>
+            <div class="service-box-right service-box-image-2"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">3</span>Facebook Ad Copy Writing</h3>
+                <p>
+                    Our conversion-focused ad copy communicates your brand value clearly while guiding potential customers through their buying journey.
+                </p>
+            </div>
+            <div class="service-box-right service-box-image-3"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">4</span>Facebook Ad & Landing Page A/B Testing</h3>
+                <p>
+                    We perform structured A/B testing to identify the best performing ads, landing pages, and creatives to improve campaign performance.
+                </p>
+            </div>
+            <div class="service-box-right service-box-image-4"></div>
+        </div>
+
+        <div class="social-media-services-box">
+            <div class="service-box-left">
+                <h3><span class="service-box-index">5</span>Facebook Ad Analytics & Optimization</h3>
+                <p>
+                    We continuously monitor campaign performance and optimize ads based on KPIs to maximize ROI and improve future campaigns.
+                </p>
+            </div>
+            <div class="service-box-right service-box-image-5"></div>
+        </div>
+
     </div>
 </section>
 <section class="sp-50">

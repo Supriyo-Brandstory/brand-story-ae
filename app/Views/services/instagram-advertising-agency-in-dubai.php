@@ -64,48 +64,93 @@
     </div><!--Row End-->
   </div>
 </section>
-<section class="perks-of-w sp-50 benefits-of-choosing">
-  <div class="container"><!--Container Start-->
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="mb-3">Why choose us for Instagram Advertising Services in Dubai</h3>
-        <h5 class="mb-3"> Awareness</h5>
-        <p>As the most trusted Instagram advertising agency in Dubai, we will drive awareness of your product, service, app, or business. With us as your Instagram advertising partner, you will be able to boost your
-          Reach </p>
-        <div class="em-points">
-          <p>Local Awareness</p>
-          <p>Reach & frequency</p>
-          <p>Brand awareness</p>
-        </div>
-        <h5 class="mb-3">Conversion</h5>
-        <p>We employ high-quality Instagram ads that will boost product sales, traffic, visitors to your local shop, or mobile app downloads. Some of the top benefits of our personalized and targeted Instagram ads include -</p>
-        <div class="em-points">
-          <p>Dynamic ads on Instagram</p>
-          <p>Website conversions</p>
-          <p>Mobile app engagement</p>
-          <p>Mobile app installs</p>
-        </div>
-        <h5 class="mb-3">Consideration</h5>
-        <p>Our Instagram ads will ensure that more people know and shop from your brand. We strive to improve your -</p>
-        <div class="em-points">
-          <p>Video views</p>
-          <p>Reach & frequency</p>
-          <p>Website clicks</p>
-        </div>
 
-        <h3 class="mb-3">Target Your Audience </h3>
-        <p>Instagram ads appear in the feed of users. You can opt for different ad formats like image ads, carousel ads, collection ads, and video ads to target your audience effectively. Moreover, Instagram allows marketers to reach their exact audience based on a broad demographic, geographic interest, user interest, or customer behavior.</p>
-        <h5 class="mb-3">Location</h5>
-        <p>Instagram allows marketers for precise targeting with location based on your computer's login IP address or your profile data. Most cities in the Middle East countries and UAE allow brands to expand the targeting and include surrounding areas of up to 50 miles to reach any specific regional market.</p>
-        <h5 class="mb-3">Interests</h5>
-        <p>As the leading Instagram advertising company in Dubai, we will allow you to target consumers based on their interests with specific keywords. We will research topics that your prospects are passionate about such as their television preferences, musical taste, political views, and others to micro-target your customers. </p>
-        <h5 class="mb-3">Connections </h5>
-        <p>Our Instagram advertising services in Dubai also enable marketers to target users on Instagram that are already connected to your Facebook page or any other social media account. Moreover, we can specifically target users who aren't connected yet or the friends of users who are already connected to any of your social media pages. </p>
-
+<section class="sp-80 bg-black">
+  <div class="container">
+    <h2 class="text-white text-md-start text-center">
+      Why choose us for Instagram <br>
+      Advertising Services in Dubai
+    </h2>
+    <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="each_why_choose_container">
+          <img src="/assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Awareness">
+          <h4 class="fs-24 fw-700">Awareness</h4>
+          <p class="fs-20">As the most trusted Instagram advertising agency in Dubai, we will drive awareness of your product, service, app, or business. With us as your Instagram advertising partner, you will be able to boost your Reach through:</p>
+          <ul class="text-white mt-3 ps-3">
+            <li>Local Awareness</li>
+            <li>Reach & frequency</li>
+            <li>Brand awareness</li>
+          </ul>
+        </div>
       </div>
-
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="each_why_choose_container">
+          <img src="/assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Conversion">
+          <h4 class="fs-24 fw-700">Conversion</h4>
+          <p class="fs-20">We employ high-quality Instagram ads that will boost product sales, traffic, visitors to your local shop, or mobile app downloads. Benefits include:</p>
+          <ul class="text-white mt-3 ps-3">
+            <li>Dynamic ads on Instagram</li>
+            <li>Website conversions</li>
+            <li>Mobile app engagement</li>
+            <li>Mobile app installs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="each_why_choose_container">
+          <img src="/assets/images/new-social/y_choose_icon3.webp" class="img-fluid pb-2" alt="Consideration">
+          <h4 class="fs-24 fw-700">Consideration</h4>
+          <p class="fs-20">Our Instagram ads will ensure that more people know and shop from your brand. We strive to improve your:</p>
+          <ul class="text-white mt-3 ps-3">
+            <li>Video views</li>
+            <li>Reach & frequency</li>
+            <li>Website clicks</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div><!--Container End-->
+  </div>
+</section>
+
+<section class="sp-80 bg-black pb-2">
+  <div class="container social-media-services">
+    <h2 class="text-white text-md-center text-center mb-4">
+      Target Your Audience
+    </h2>
+    <p class="text-white text-center mb-5">Instagram ads appear in the feed of users. You can opt for different ad formats like image ads, carousel ads, collection ads, and video ads to target your audience effectively. Moreover, Instagram allows marketers to reach their exact audience based on a broad demographic, geographic interest, user interest, or customer behavior.</p>
+
+    <div class="social-media-services-box">
+      <div class="service-box-left">
+        <h3><span class="service-box-index">1</span>Location</h3>
+        <p>
+          Instagram allows marketers for precise targeting with location based on your computer's login IP address or your profile data. Most cities in the Middle East countries and UAE allow brands to expand the targeting and include surrounding areas of up to 50 miles to reach any specific regional market.
+        </p>
+      </div>
+      <div class="service-box-right service-box-image-1"></div>
+    </div>
+
+    <div class="social-media-services-box">
+      <div class="service-box-left">
+        <h3><span class="service-box-index">2</span>Interests</h3>
+        <p>
+          As the leading Instagram advertising company in Dubai, we will allow you to target consumers based on their interests with specific keywords. We will research topics that your prospects are passionate about such as their television preferences, musical taste, political views, and others to micro-target your customers.
+        </p>
+      </div>
+      <div class="service-box-right service-box-image-2"></div>
+    </div>
+
+    <div class="social-media-services-box">
+      <div class="service-box-left">
+        <h3><span class="service-box-index">3</span>Connections</h3>
+        <p>
+          Our Instagram advertising services in Dubai also enable marketers to target users on Instagram that are already connected to your Facebook page or any other social media account. Moreover, we can specifically target users who aren't connected yet or the friends of users who are already connected to any of your social media pages.
+        </p>
+      </div>
+      <div class="service-box-right service-box-image-3"></div>
+    </div>
+
+  </div>
 </section>
 
 <section class="sp-50">
