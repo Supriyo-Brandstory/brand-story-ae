@@ -111,6 +111,15 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
+    public function digitalMarketingStrategyDubai()
+    {
+        $meta = [
+            'title' => 'Digital Marketing Strategy Dubai | Award-Winning Digital Agency',
+            'description' => 'BrandStory offers data-driven digital marketing strategy in Dubai. Our 5-stage framework focuses on ROI, market intelligence, and multi-channel synchronization for sustainable brand growth.',
+            'classname' => 'dm-agency-dubai new-3-page'
+        ];
+        return $this->view('services/digital-marketing-strategy-dubai', ['meta' => $meta]);
+    }
     public function seoPricingDubai()
     {
         $meta = [
