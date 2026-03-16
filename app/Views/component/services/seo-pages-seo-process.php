@@ -75,7 +75,7 @@
 						<a href="<?= base_url('/local-seo-services-in-dubai') ?>" class="know-more"><strong>Explore Local SEO</strong> <span class="arrow">→</span></a>
 					</div>
 					<div class="process-tabs-img">
-						<img src="/assets/images/service/seo/seo-pr5.jpg" class="img-fluid" alt="seo company dubai">
+						<img src="/assets/images/service/seo/local-seo-str.webp" class="img-fluid" alt="seo company dubai">
 					</div>
 				</div>
 			</div><!--tab5 content end-->

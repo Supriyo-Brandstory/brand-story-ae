@@ -631,7 +631,7 @@
 
 <section class="site-faq sp-50">
     <div class="container"><!--Container Start-->
-        <h2 class="text-center">FAQ's</h2>
+        <h2 class="text-center">Frequenly Asked Questions</h2>
         <div class="accordion spt-50" id="accordionFB"><!--Accordion Start-->
 
             <div class="accordion-item">
@@ -772,5 +772,5 @@
     </div><!--Container End-->
 </section>
 
-<?php include __DIR__ . '/../component/services/email-links.php' ?>
+
 <!-- Include Footer-->
