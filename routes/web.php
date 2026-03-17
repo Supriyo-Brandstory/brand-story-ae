@@ -59,6 +59,7 @@ Route::post('/digital-cost-calculator/submit', 'FrontendController@submitDigital
 // industries
 Route::group(['prefix' => '/industries'], function () {
     Route::get('/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
+    Route::get('/real-estate-ppc-agency-in-dubai-uae', 'FrontendController@realEstatePpcServices', 'realestateppcservices');
     Route::get('/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');
     Route::get('/healthcare-marketing-services', 'FrontendController@healthcareMarketingServices', 'healthcaremarketingservices');
     Route::get('/education-marketing-services', 'FrontendController@educationMarketingServices', 'educationmarketingservices');

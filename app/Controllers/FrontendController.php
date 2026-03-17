@@ -336,6 +336,13 @@ class FrontendController extends Controller
         ];
         return $this->view('industries/real-estate-marketing-services', ['meta' => $meta]);
     }
+    public function realEstatePpcServices()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('industries/real-estate-ppc-agency-in-dubai-uae', ['meta' => $meta]);
+    }
     public function ecommerceMarketingServices()
     {
         $meta = [
