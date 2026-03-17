@@ -1681,6 +1681,15 @@ class FrontendController extends Controller
     }
 
 
+    public function customlayout_1()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages'
+        ];
+        return $this->view('customlayout/inner-1', ['meta' => $meta]);
+    }
+
+
 
 
     // from submit post
