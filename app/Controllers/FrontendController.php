@@ -1689,6 +1689,11 @@ class FrontendController extends Controller
         return $this->view('customlayout/inner-1', ['meta' => $meta]);
     }
 
+    public function customlayout_2()
+    {
+        $meta = ['classname' => 'seo-pillar-page'];
+        return $this->view('customlayout/inner-2', ['meta' => $meta]);
+    }
 
 
 
