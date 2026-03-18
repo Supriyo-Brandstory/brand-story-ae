@@ -93,7 +93,11 @@ class Route
             $action = $data['action'];
             $middlewareList = $data['middleware'];
 
-            $pattern = preg_replace('/\{([^\/]+)\}/', '([^/]+)', $route);
+            // Support {param*} for multi-segment matching (allows slashes)
+            $pattern = preg_replace('/\{([^\/]+)\*\}/', '(.+)', $route);
+            // Support regular {param} for single-segment matching (excludes slashes)
+            $pattern = preg_replace('/\{([^\/]+)\}/', '([^/]+)', $pattern);
+
             $pattern = '#^' . $pattern . '$#';
 
             if (preg_match($pattern, $uri, $matches)) {

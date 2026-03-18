@@ -357,5 +357,5 @@ Route::group(['prefix' => '/admin'], function () {
     });
 });
 
-// Dynamic Page Routing - Catch-all for slug at root
-Route::get('/{slug}', 'FrontendController@dynamicPage', 'page.dynamic');
+// Dynamic Page Routing - Catch-all for slug at root (supports sub-paths with *)
+Route::get('/{slug*}', 'FrontendController@dynamicPage', 'page.dynamic');
