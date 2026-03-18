@@ -1053,74 +1053,74 @@
 </section>
 
 
-<section class="ppc-trends-section">
+<section class="ppc-evolution-section">
     <div class="container">
         <h2 class="mb-3 text-left">PPC Trends: 2025 vs 2026</h2>
         <p class="mb-5 text-left fs-18">Spot the new PPC advertising trends and developments in 2025-2026 that will be driving the change in advertising strategies.</p>
 
-        <div class="trends-table-wrapper">
-            <table class="trends-table">
+        <div class="evolution-grid-container">
+            <table class="evolution-grid-table">
                 <thead>
                     <tr>
-                        <th>Trend</th>
-                        <th>2025 Update</th>
-                        <th>2026 Update</th>
+                        <th class="evolution-head">Trend</th>
+                        <th class="evolution-head">2025 Update</th>
+                        <th class="evolution-head">2026 Update</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="trend-col">Automation Tools</td>
-                        <td>Basic automation with limited customization.</td>
-                        <td>Advanced AI tools offering greater precision and control.</td>
+                        <td class="evolution-feature">Automation Tools</td>
+                        <td class="evolution-data">Basic automation with limited customization.</td>
+                        <td class="evolution-data">Advanced AI tools offering greater precision and control.</td>
                     </tr>
                     <tr>
-                        <td class="trend-col">Data Privacy Measures</td>
-                        <td>Standard privacy protocols in place.</td>
-                        <td>Heightened measures aligning with stricter global standards.</td>
+                        <td class="evolution-feature">Data Privacy Measures</td>
+                        <td class="evolution-data">Standard privacy protocols in place.</td>
+                        <td class="evolution-data">Heightened measures aligning with stricter global standards.</td>
                     </tr>
                     <tr>
-                        <td class="trend-col">Video Ad Formats</td>
-                        <td>Limited short-form video options.</td>
-                        <td>Expanded formats including interactive and shoppable videos.</td>
+                        <td class="evolution-feature">Video Ad Formats</td>
+                        <td class="evolution-data">Limited short-form video options.</td>
+                        <td class="evolution-data">Expanded formats including interactive and shoppable videos.</td>
                     </tr>
                     <tr>
-                        <td class="trend-col">Audience Targeting</td>
-                        <td>Basic demographic targeting.</td>
-                        <td>Enhanced AI-driven audience segmentation and behavior tracking.</td>
+                        <td class="evolution-feature">Audience Targeting</td>
+                        <td class="evolution-data">Basic demographic targeting.</td>
+                        <td class="evolution-data">Enhanced AI-driven audience segmentation and behavior tracking.</td>
                     </tr>
                     <tr>
-                        <td class="trend-col">Cross-Platform Ads</td>
-                        <td>Manual synchronization across platforms.</td>
-                        <td>Automated and dynamic cross-platform integration.</td>
+                        <td class="evolution-feature">Cross-Platform Ads</td>
+                        <td class="evolution-data">Manual synchronization across platforms.</td>
+                        <td class="evolution-data">Automated and dynamic cross-platform integration.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <p class="mb-4">Join the race to be the most successful by catching up with the major shifts in the industry.</p>
+        <p class="mb-4 mt-5">Join the race to be the most successful by catching up with the major shifts in the industry.</p>
 
-        <ul class="trends-list">
+        <ul class="evolution-benefits">
             <li>
-                <img src="/assets/images/check-circle.svg" class="trends-list-icon" alt="Check">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check">
                 <span>Integrate the cutting-edge technology of AI in order to manage the campaign autonomously and enhance the efficiency.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="trends-list-icon" alt="Check">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check">
                 <span>Manage the compliance and trust via adoption to the stricter data privacy regulations.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="trends-list-icon" alt="Check">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check">
                 <span>Target new video ad formats to attract audience attention in creatively different ways.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="trends-list-icon" alt="Check">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check">
                 <span>Revamp the audience targeting by accessing enhanced tools that suit most of the relevant demographics.</span>
             </li>
         </ul>
 
-        <div class="explore-options-btn-wrap">
-            <a href="#contact" class="explore-options-btn">
-                Explore Options <i class="fas fa-arrow-right"></i>
+        <div class="evolution-cta-wrap">
+            <a href="#contact" class="evolution-btn-premium">
+                Explore Options <i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>
     </div>
