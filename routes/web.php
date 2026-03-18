@@ -15,6 +15,7 @@ Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
 // Route::get('/digital-marketing-strategy-dubai', 'FrontendController@digitalMarketingStrategyDubai', 'digitalmarketingstrategydubai');
 Route::get('/customlayout-1', 'FrontendController@customlayout_1', 'customlayout_1');
+Route::get('/customlayout-2', 'FrontendController@customlayout_2', 'customlayout_2');
 
 
 Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
