@@ -338,5 +338,12 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/enquiries', 'Admin\AdminEnquiryController@index', 'admin.enquiries.index');
         Route::get('/enquiries/{id}', 'Admin\AdminEnquiryController@show', 'admin.enquiries.show');
         Route::post('/enquiries/{id}/delete', 'Admin\AdminEnquiryController@destroy', 'admin.enquiries.destroy');
+
+        // Media Management
+        Route::get('/media', 'Admin\AdminMediaController@index', 'admin.media.index');
+        Route::get('/media/list', 'Admin\AdminMediaController@list', 'admin.media.list');
+        Route::post('/media/upload', 'Admin\AdminMediaController@upload', 'admin.media.upload');
+        Route::post('/media/delete', 'Admin\AdminMediaController@delete', 'admin.media.delete');
+        Route::post('/media/create-folder', 'Admin\AdminMediaController@createFolder', 'admin.media.createFolder');
     });
 });

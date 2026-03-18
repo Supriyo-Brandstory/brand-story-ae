@@ -110,6 +110,11 @@
                         <i class="bi bi-cloud-arrow-up"></i> Backups
                     </a>
                 </li>
+                <li>
+                    <a href="<?= route('admin.media.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.media') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-images"></i> Media Manager
+                    </a>
+                </li>
                 <!-- <?php var_dump($currentRouteName); ?> -->
             </ul>
             <hr class="text-white-50">
@@ -186,6 +191,11 @@
                     <li>
                         <a href="<?= route('admin.backups.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.backups') !== false) ? 'active' : '' ?>">
                             <i class="bi bi-cloud-arrow-up"></i> Backups
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.media.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.media') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-images"></i> Media Manager
                         </a>
                     </li>
                 </ul>
