@@ -622,19 +622,19 @@
                     <div class="benefit-sub-card">
                         <span class="badge-promise mb-4">Our promise to you</span>
                         <div class="row text-center">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">800+</div>
                                     <div class="feature-desc">Delivered Projects</div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">10+ Years</div>
                                     <div class="feature-desc">Industry Experience</div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">95%</div>
                                     <div class="feature-desc">Team Experts</div>
@@ -654,19 +654,19 @@
                             </div>
                         </div>
                         <div class="row text-center">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">24/7 Support</div>
                                     <div class="feature-desc">Always Available</div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">Quick Setup</div>
                                     <div class="feature-desc">Fast Implementation</div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12 mb-3">
                                 <div class="feature-item">
                                     <div class="feature-title">Consultation</div>
                                     <div class="feature-desc">Clear scope</div>
@@ -1284,33 +1284,7 @@
     </div>
 </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const methodBtns = document.querySelectorAll('.method-btn');
-        const standardList = document.getElementById('standard-method-steps');
-        const advancedList = document.getElementById('advanced-method-steps');
-        const illustration = document.getElementById('launch-illustration');
 
-        methodBtns.forEach(btn => {
-            btn.addEventListener('click', function() {
-                // Update active button
-                methodBtns.forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-
-                // Switch content
-                if (this.innerText.includes('Standard')) {
-                    standardList.classList.remove('d-none');
-                    advancedList.classList.add('d-none');
-                    illustration.src = '/assets/images/analities-2.png';
-                } else {
-                    standardList.classList.add('d-none');
-                    advancedList.classList.remove('d-none');
-                    illustration.src = '/assets/images/analities-1.webp';
-                }
-            });
-        });
-    });
-</script>
 
 <section class="sp-50">
     <div class="container"><!--Container Start-->

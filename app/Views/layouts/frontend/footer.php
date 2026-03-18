@@ -242,3 +242,30 @@ $stickyServices = $stickyServices ?? [
     });
   }
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const methodBtns = document.querySelectorAll('.method-btn');
+    const standardList = document.getElementById('standard-method-steps');
+    const advancedList = document.getElementById('advanced-method-steps');
+    const illustration = document.getElementById('launch-illustration');
+
+    methodBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Update active button
+        methodBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        // Switch content
+        if (this.innerText.includes('Standard')) {
+          standardList.classList.remove('d-none');
+          advancedList.classList.add('d-none');
+          illustration.src = '/assets/images/analities-2.png';
+        } else {
+          standardList.classList.add('d-none');
+          advancedList.classList.remove('d-none');
+          illustration.src = '/assets/images/analities-1.webp';
+        }
+      });
+    });
+  });
+</script>
