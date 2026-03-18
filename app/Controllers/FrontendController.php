@@ -2314,4 +2314,47 @@ class FrontendController extends Controller
             echo json_encode(["status" => "error", "message" => "Error: " . $e->getMessage()]);
         }
     }
+
+    public function dynamicPage($slug = null)
+    {
+        if (!$slug) {
+            return $this->notfound();
+        }
+
+        $pageModel = new \App\Models\Page();
+        $result = $pageModel->query("SELECT * FROM pages WHERE slug = ? LIMIT 1", [$slug]);
+
+        if (empty($result)) {
+            return $this->notfound();
+        }
+
+        $page = $result[0];
+        $template = $page['template']; // e.g. "inner-1.php"
+
+        // Dynamically get classname from the template file
+        $classname = 'dm-agency-dubai'; // Final fallback
+        $templatePath = __DIR__ . '/../Views/customlayout/' . $template;
+        if (file_exists($templatePath)) {
+            $templateFileContent = file_get_contents($templatePath);
+            // Search for // $classname = '...'; or //$classname = '...';
+            if (preg_match('/\$classname\s*=\s*\'([^\']+)\';/', $templateFileContent, $matches)) {
+                $classname = $matches[1];
+            }
+        }
+
+        // If a custom class is defined in the database, use it to override the template class
+        if (!empty($page['custom_class'])) {
+            $classname = $page['custom_class'];
+        }
+
+        $meta = [
+            'classname' => $classname
+        ];
+
+        // Pass the raw content to the 'blank' view, which will handle PHP evaluation
+        return $this->view('customlayout/dynamic_renderer', [
+            'meta' => $meta,
+            'page' => $page
+        ]);
+    }
 }

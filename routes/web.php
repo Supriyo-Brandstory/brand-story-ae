@@ -345,5 +345,17 @@ Route::group(['prefix' => '/admin'], function () {
         Route::post('/media/upload', 'Admin\AdminMediaController@upload', 'admin.media.upload');
         Route::post('/media/delete', 'Admin\AdminMediaController@delete', 'admin.media.delete');
         Route::post('/media/create-folder', 'Admin\AdminMediaController@createFolder', 'admin.media.createFolder');
+
+        // Pages Management
+        Route::get('/pages', 'Admin\AdminPageController@index', 'admin.pages.index');
+        Route::get('/pages/create', 'Admin\AdminPageController@create', 'admin.pages.create');
+        Route::post('/pages', 'Admin\AdminPageController@store', 'admin.pages.store');
+        Route::get('/pages/{id}/edit', 'Admin\AdminPageController@edit', 'admin.pages.edit');
+        Route::post('/pages/{id}', 'Admin\AdminPageController@update', 'admin.pages.update');
+        Route::post('/pages/{id}/delete', 'Admin\AdminPageController@destroy', 'admin.pages.destroy');
+        Route::get('/pages/get-template-content', 'Admin\AdminPageController@getTemplateContent', 'admin.pages.get_template_content');
     });
 });
+
+// Dynamic Page Routing - Catch-all for slug at root
+Route::get('/{slug}', 'FrontendController@dynamicPage', 'page.dynamic');

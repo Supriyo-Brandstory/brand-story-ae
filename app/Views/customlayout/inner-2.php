@@ -1,3 +1,5 @@
+<?php // $classname = 'seo-pillar-page'; 
+?>
 <!-- ─────────────────────────────────────────────────────────────
   SECTION 1 — HERO
 ───────────────────────────────────────────────────────────────── -->
@@ -1559,6 +1561,7 @@
     </div>
 </section>
 
+
 <!-- ─────────────────────────────────────────────────────────────
   SECTION 24 — FINAL CTA
 ───────────────────────────────────────────────────────────────── -->
@@ -1568,7 +1571,8 @@
         <h2 style="text-align:center;max-width:640px;margin:0 auto 16px">Get Your Free Dubai<br />SEO Audit</h2>
         <p style="text-align:center;max-width:520px;margin:0 auto;color:var(--muted)">Delivered within 5 business days. Includes a 150-point technical report, keyword gap analysis, and a competitor benchmark — completely free, no commitment required.</p>
         <div class="cta-form">
-            <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+            [contact-form]
+
         </div>
 
     </div>

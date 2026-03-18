@@ -86,6 +86,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="<?= route('admin.pages.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.pages') !== false) ? 'active' : '' ?>">
+                        <i class="bi bi-file-earmark-text"></i> Pages
+                    </a>
+                </li>
+                <li>
                     <a href="<?= route('admin.seo.index') ?>" class="nav-link <?= (strpos($currentRouteName, 'admin.seo') !== false) ? 'active' : '' ?>">
                         <i class="bi bi-search"></i> SEO
                     </a>
@@ -139,7 +144,25 @@
 
 
         <!-- Main Content Area -->
-        <div class="content-wrapper" style="margin-left: 280px;">
+        <div class="content-wrapper" style="margin-left: 280px; padding-top: 20px;">
+            <div class="container-fluid">
+                <?php if (isset($_SESSION['success'])): ?>
+                    <div class="alert alert-success alert-dismissible fade show mx-3" role="alert">
+                        <i class="bi bi-check-circle me-2"></i><?= $_SESSION['success'] ?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <?php unset($_SESSION['success']); ?>
+                <?php endif; ?>
+
+                <?php if (isset($_SESSION['error'])): ?>
+                    <div class="alert alert-danger alert-dismissible fade show mx-3" role="alert">
+                        <i class="bi bi-exclamation-triangle me-2"></i><?= $_SESSION['error'] ?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <?php unset($_SESSION['error']); ?>
+                <?php endif; ?>
+            </div>
+
             <?= $content ?>
 
         </div>
@@ -166,6 +189,11 @@
                     <li>
                         <a href="<?= route('admin.blogs_admin.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.blogs_admin') !== false) ? 'active' : '' ?>">
                             <i class="bi bi-journal-text"></i> Blog Posts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= route('admin.pages.index') ?>" class="nav-link text-white <?= (strpos($currentRouteName, 'admin.pages') !== false) ? 'active' : '' ?>">
+                            <i class="bi bi-file-earmark-text"></i> Pages
                         </a>
                     </li>
                     <li>
@@ -205,11 +233,15 @@
     <?php else: ?>
         <div class="container d-flex vh-100 align-items-center justify-content-center">
             <div class="text-center">
-                <h1>Access Denied</h1>
-                <p>Please log in as administrator.</p>
+                <i class="bi bi-shield-lock text-danger" style="font-size: 4rem;"></i>
+                <h1 class="mt-3">Access Denied</h1>
+                <p class="text-muted">Please log in as an administrator to access this area.</p>
             </div>
         </div>
     <?php endif; ?>
+
+    <!-- Include Media Picker Component -->
+    <?php include __DIR__ . '/../../admin/components/media_picker.php'; ?>
 
     <!-- jQuery (required for Summernote) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -219,6 +251,38 @@
 
     <script>
         $(document).ready(function() {
+            // Define custom button for media picker
+            const MediaPickerButton = function(context) {
+                const ui = $.summernote.ui;
+                const button = ui.button({
+                    contents: '<i class="bi bi-images"></i>',
+                    tooltip: 'Insert Media',
+                    click: function() {
+                        openMediaPicker(function(url) {
+                            context.invoke('editor.insertImage', url);
+                        });
+                    }
+                });
+                return button.render();
+            };
+
+            // Custom button for replacing existing images
+            const ChangeImageButton = function(context) {
+                const ui = $.summernote.ui;
+                const button = ui.button({
+                    contents: '<i class="bi bi-pencil-square"></i> Change Path',
+                    tooltip: 'Change image source',
+                    click: function() {
+                        const img = $(context.invoke('editor.restoreTarget'));
+                        openMediaPicker(function(url) {
+                            img.attr('src', url);
+                            context.invoke('editor.afterCommand');
+                        });
+                    }
+                });
+                return button.render();
+            };
+
             $('.rich-text-editor').summernote({
                 placeholder: 'Write your content here...',
                 tabsize: 2,
@@ -229,9 +293,21 @@
                     ['color', ['color']],
                     ['para', ['ul', 'ol', 'paragraph']],
                     ['table', ['table']],
-                    ['insert', ['link', 'picture', 'video']],
+                    ['insert', ['link', 'media', 'picture', 'video']],
                     ['view', ['fullscreen', 'codeview', 'help']]
-                ]
+                ],
+                popover: {
+                    image: [
+                        ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+                        ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                        ['remove', ['removeMedia']],
+                        ['custom', ['changeImage']]
+                    ]
+                },
+                buttons: {
+                    media: MediaPickerButton,
+                    changeImage: ChangeImageButton
+                }
             });
         });
     </script>

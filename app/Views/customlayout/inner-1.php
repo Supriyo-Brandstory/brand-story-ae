@@ -1,3 +1,5 @@
+<?php // $classname = 'em-dubai-page service-pages'; 
+?>
 <!-- Include Header-->
 <section class="service-banner em-banner sp-50">
     <div class="container"><!--Container Start-->
@@ -11,7 +13,7 @@
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-form">
-                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    [contact-form]
                 </div>
             </div><!--col end-->
         </div><!--Row End-->
