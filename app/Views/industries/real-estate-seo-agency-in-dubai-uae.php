@@ -504,7 +504,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-center mb-5">Why Real Estate SEO is Essential for Dubai Property Businesses</h2>
-                <p class="mb-3">Dubai's real estate market is one of the most competitive in the world. Your buyers and investors are at this moment online online&amp;nbsp;&amp;nbsp;&amp;nbsp;scrolling Facebook and Instagram&amp;nbsp;&amp;nbsp;&amp;nbsp;while your competitors have already started advertising to them. The question is not whether you should run PPC. The question is whether your campaigns are strong enough to win in this hyper-competitive environment and deliver real ROI.</p>
+                <p class="mb-3">Dubai's real estate market is one of the most competitive in the world. Your buyers and investors are at this moment online online scrolling Facebook and Instagram while your competitors have already started advertising to them. The question is not whether you should run PPC. The question is whether your campaigns are strong enough to win in this hyper-competitive environment and deliver real ROI.</p>
             </div>
         </div>
         <div class="row col-reverse">
