@@ -126,250 +126,339 @@
     </section>
 
     <section class="additional-ppc-services bg-black">
-    <div class="container text-center">
-        <h2 class="mb-0 text-white">Explore Our Additional eCommerce<br>Marketing Services</h2><br>
+        <div class="container text-center">
+            <h2 class="mb-0 text-white">Explore Our Additional eCommerce<br>Marketing Services</h2><br>
 
-        <div class="row">
+            <div class="row">
 
-            <!-- Service 1 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">1</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>UI/UX Design</h6>
-                        <div class="card-arr-btn"></div>
+                <!-- Service 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">1</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>UI/UX Design</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 2 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-branding-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">2</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>eCommerce Branding</h6>
+                <!-- Service 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-branding-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">2</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>eCommerce Branding</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 3 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">3</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Video Production</h6>
+                <!-- Service 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">3</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Video Production</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 4 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">4</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Content Marketing</h6>
+                <!-- Service 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">4</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Content Marketing</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 5 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">5</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Creative Strategy</h6>
+                <!-- Service 5 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">5</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Creative Strategy</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 6 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-logo-design-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">6</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Logo Design</h6>
+                <!-- Service 6 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-logo-design-agency-in-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">6</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Logo Design</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 7 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-market-research-agency-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">7</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Market Research</h6>
+                <!-- Service 7 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-market-research-agency-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">7</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Market Research</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 8 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-product-page-optimization-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">8</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Product Page Optimization</h6>
+                <!-- Service 8 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-product-page-optimization-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">8</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Product Page Optimization</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 9 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-lead-generation-campaigns-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">9</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Lead Generation</h6>
+                <!-- Service 9 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-lead-generation-campaigns-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">9</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Lead Generation</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 10 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-whatsapp-chatbot-marketing-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">10</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>WhatsApp Marketing</h6>
+                <!-- Service 10 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-whatsapp-chatbot-marketing-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">10</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>WhatsApp Marketing</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 11 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-reputation-management-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">11</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Reputation Management</h6>
+                <!-- Service 11 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-reputation-management-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">11</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Reputation Management</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 12 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-influencer-marketing-agency-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">12</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Influencer Marketing</h6>
+                <!-- Service 12 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-influencer-marketing-agency-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">12</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Influencer Marketing</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 13 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-crm-implementation-agency-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">13</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>CRM Implementation</h6>
+                <!-- Service 13 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-crm-implementation-agency-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">13</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>CRM Implementation</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 14 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-product-launch-marketing-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">14</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Product Launch Marketing</h6>
+                <!-- Service 14 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-product-launch-marketing-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">14</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Product Launch Marketing</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 15 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-seo-audit-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">15</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>SEO Audit</h6>
+                <!-- Service 15 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-seo-audit-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">15</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>SEO Audit</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 16 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">16</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Digital Marketing Audit</h6>
+                <!-- Service 16 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">16</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Digital Marketing Audit</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Service 17 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-performance-marketing-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                <!-- Service 17 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-performance-marketing-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
 
-                        <div class="card-num-badge">17</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Performance Marketing</h6>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 18 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">18</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Conversion Rate Optimization</h6>
+                            <div class="card-num-badge">17</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Performance Marketing</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <!-- Service 18 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
+                        <div class="ppc-stack-icon-wrap">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <div class="card-num-badge">18</div>
+                        </div>
+                        <div class="ppc-card-body">
+                            <h6>Conversion Rate Optimization</h6>
+                            <div class="card-arr-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section class="bg-black sp-50">
         <div class="container">
@@ -378,7 +467,8 @@
                     <h2 class="text-white mb-4 text-md-start text-center ">Why Choose BrandStory for eCommerce Digital Marketing?</h2>
                     <p class="fs-20 text-white"><b>eCommerce-Focused Expertise:</b> Our team specializes in eCommerce growth strategies from product discovery to checkout optimization. We understand how customers browse, compare, and purchase online, allowing us to create high-performing campaigns that directly impact sales, conversions, and customer retention in Dubai’s competitive eCommerce ecosystem.<br><br>
                         <b>Performance-Driven Results:</b> We focus on metrics that matter- traffic quality, conversion rates, and revenue growth. By combining data insights with performance marketing, we help eCommerce brands scale efficiently, reduce acquisition costs, and maximize ROI across paid, organic, and marketplace channels.<br><br>
-                        <b>Full-Funnel Marketing Approach:</b>From attracting the right audience to optimizing product pages and improving repeat purchases, we cover every stage of the eCommerce funnel. Our integrated approach ensures your brand not only gains visibility but also converts visitors into loyal customers and drives long-term business growth.</p>
+                        <b>Full-Funnel Marketing Approach:</b>From attracting the right audience to optimizing product pages and improving repeat purchases, we cover every stage of the eCommerce funnel. Our integrated approach ensures your brand not only gains visibility but also converts visitors into loyal customers and drives long-term business growth.
+                    </p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
                     <img src="/assets/images/industries/E-commerce-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
@@ -486,7 +576,7 @@
         </div>
     </section>
 
-        <section class="new-client-section bg-black sp-50">
+    <section class="new-client-section bg-black sp-50">
         <div class="container-fluid">
             <h2 class="text-center mb-5 text-white">Our Beloved Clients</h2>
             <?php include __DIR__ . '/../component/client_section.php' ?>
@@ -555,7 +645,7 @@
         </div>
     </section>
 
-         <section class="sp-50 bg-black">
+    <section class="sp-50 bg-black">
         <div class="container">
             <div class="exclusive-benefits-wrapper">
                 <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
@@ -623,7 +713,7 @@
         </div>
     </section>
 
- <section class="sp-50 comparison-section-wrapper bg-black">
+    <section class="sp-50 comparison-section-wrapper bg-black">
         <div class="container">
             <h2 class="text-center mb-5 text-white">Services Our eCommerce Digital Marketing Agency Provides</h2>
             <div class="row">
@@ -788,8 +878,8 @@
             </div>
         </div>
     </section>
-   
-    
+
+
     <section class="ppc-evolution-section bg-black">
         <div class="container">
             <h2 class="mb-3 text-left text-white">eCommerce Marketing Trends: 2025 vs 2026</h2>
@@ -1063,20 +1153,20 @@
 
         </div>
     </section>
-   
 
-<style>
-    .evolution-btn-premium {
-        background: #ffffff;
-        color: #000000;
-    }
 
-    .step-content {
-        color: #ffffff;
-    }
+    <style>
+        .evolution-btn-premium {
+            background: #ffffff;
+            color: #000000;
+        }
 
-    .learn-more-black-btn {
-        background: #ffffff;
-        color: #000000;
-    }
-</style>
+        .step-content {
+            color: #ffffff;
+        }
+
+        .learn-more-black-btn {
+            background: #ffffff;
+            color: #000000;
+        }
+    </style>
