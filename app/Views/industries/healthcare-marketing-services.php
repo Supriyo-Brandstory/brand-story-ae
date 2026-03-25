@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="digital-marketing-agency-in-abu-dhabi">
+<section class="digital-marketing-agency-in-abu-dhabi">
 
     <div class="marketing-services sp-50 dm-bg">
         <div class="container">
@@ -140,188 +140,258 @@
 
         <div class="row">
 
-            <!-- Service 1 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">1</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>UI/UX Design</h6>
-                        <div class="card-arr-btn"></div>
+           <!-- Service 1 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">1</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>UI/UX Design</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 2 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">2</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Content Marketing</h6>
+        <!-- Service 2 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">2</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Content Marketing</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 3 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">3</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Lead Generation</h6>
+        <!-- Service 3 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">3</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Lead Generation</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 4 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-appointment-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">4</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Appointment Funnel Optimization</h6>
+        <!-- Service 4 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-appointment-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">4</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Appointment Funnel Optimization</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 5 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">5</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Local SEO</h6>
+        <!-- Service 5 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">5</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Local SEO</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 6 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-reputation-management-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">6</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Reputation Management</h6>
+        <!-- Service 6 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-reputation-management-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">6</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Reputation Management</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 7 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-crm-implementation-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">7</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>CRM Implementation</h6>
+        <!-- Service 7 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-crm-implementation-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">7</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>CRM Implementation</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 8 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">8</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>WhatsApp Marketing</h6>
+        <!-- Service 8 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">8</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>WhatsApp Marketing</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 9 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-marketing-automation-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">9</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Marketing Automation</h6>
+        <!-- Service 9 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-marketing-automation-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">9</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Marketing Automation</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 10 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">10</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Conversion Rate Optimization</h6>
+        <!-- Service 10 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">10</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Conversion Rate Optimization</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 11 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-seo-audit-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">11</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>SEO Audit</h6>
+        <!-- Service 11 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-seo-audit-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">11</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>SEO Audit</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 12 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">12</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Digital Marketing Audit</h6>
+        <!-- Service 12 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">12</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Digital Marketing Audit</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 13 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">13</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Creative Advertising</h6>
+        <!-- Service 13 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">13</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Creative Advertising</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 14 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
-                    <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
-                        <div class="card-num-badge">14</div>
-                    </div>
-                    <div class="ppc-card-body">
-                        <h6>Video Production</h6>
+        <!-- Service 14 -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
+                <div class="ppc-stack-icon-wrap">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <div class="card-num-badge">14</div>
+                </div>
+                <div class="ppc-card-body">
+                    <h6>Video Production</h6>
+                    <div class="card-arr-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
+        </div>
+            
 
         </div>
     </div>
@@ -348,7 +418,7 @@
         </div>
     </section>
    
-        <section class="sp-50 dm-case-studies-section dm-bg">
+    <section class="sp-50 dm-case-studies-section dm-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -515,7 +585,7 @@
         </div>
     </section>
 
-         <section class="sp-50 bg-black">
+    <section class="sp-50 bg-black">
         <div class="container">
             <div class="exclusive-benefits-wrapper">
                 <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
@@ -1051,4 +1121,4 @@
         background: #ffffff;
         color: #000000;
     }
-</style>
+    </style>
