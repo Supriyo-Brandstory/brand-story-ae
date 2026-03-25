@@ -1001,7 +1001,7 @@
                     </div>
                 </div>
 
-                <a href="#contact" class="learn-more-black-btn">Learn More<i class="fas fa-arrow-right"></i>
+                <a href="/contact" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
                 </a>
             </div>
 
