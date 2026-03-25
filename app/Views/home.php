@@ -558,13 +558,13 @@
                         </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Markting</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/education-seo-agency-in-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/education-ppc-agency-in-dubai-uae/">PPC</a> |
+                            <a href="/industries/education-content-marketing-agency-in-dubai-uae/">Content Markting</a> |
+                            <a href="/industries/education-branding-agency-in-dubai-uae/">Branding</a> |
+                            <a href="/industries/education-social-media-agency-in-dubai-uae/">Social Media</a> |
+                            <a href="/industries/education-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+                            <a href="/industries/education-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -581,13 +581,13 @@
                         </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Markting</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/e-commerce-seo-agency-in-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/e-commerce-ppc-agency-in-dubai-uae/">PPC</a> |
+                            <a href="/industries/e-commerce-email-marketing-agency-in-dubai-uae/">Email Markting</a> |
+                            <a href="/industries/e-commerce-branding-agency-in-dubai-uae/">Branding</a> |
+                            <a href="/industries/e-commerce-social-media-agency-in-dubai-uae/">Social Media</a> |
+                            <a href="/industries/e-commerce-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+                            <a href="/industries/e-commerce-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -603,13 +603,13 @@
                         <p class="fs-20 text-center mb-3">From hospitals to pharmacies, we deliver compliant and powerful digital marketing solutions that help UAE healthcare brands grow their online presence</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/healthcare-seo-agency-in-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/healthcare-ppc-agency-in-dubai-uae/">PPC</a> |
+                            <a href="/industries/healthcare-content-marketing-agency-in-dubai-uae/">Content Marketing</a> |
+                            <a href="/industries/healthcare-branding-agency-in-dubai-uae/">Branding</a> |
+                            <a href="/industries/healthcare-social-media-agency-in-dubai-uae/">Social Media</a> |
+                            <a href="/industries/healthcare-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+                            <a href="/industries/healthcare-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -625,13 +625,13 @@
                         <p class="fs-20 text-center mb-3">From listings to leads, we deliver result-driven digital marketing for real estate agents and companies in Dubai, helping you reach the right audience at the right time.</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/real-estate-seo-agency-in-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/">PPC</a> |
+                            <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/">Email Marketing</a> |
+                            <a href="/industries/real-estate-branding-agency-in-dubai-uae/">Branding</a> |
+                            <a href="/industries/real-estate-social-media-agency-in-dubai-uae/">Social Media</a> |
+                            <a href="/industries/real-estate-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+                            <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -640,20 +640,20 @@
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
                         <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
-                        <h3 class="text-white text-center">Travel</h3>
+                        <h3 class="text-white text-center">Tourism</h3>
                     </div>
                     <div class="industries-cnts">
                         <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">BrandStory empowers travel agencies in Dubai with data-driven digital marketing that drives traffic, inspires wanderlust, and turns browsers into loyal travelers.</p>
+                        <p class="fs-20 text-center mb-3">BrandStory empowers travel & tourism agencies in Dubai with data-driven digital marketing that drives traffic, inspires wanderlust, and turns browsers into loyal travelers.</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center mb-3">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/tourism-seo-agency-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/tourism-ppc-google-ads-dubai-uae/">PPC</a> |
+                            <a href="/industries/tourism-email-marketing-dubai-uae/">Email Marketing</a> |
+                            <a href="/industries/tourism-branding-agency-dubai-uae/">Branding</a> |
+                            <a href="/industries/tourism-social-media-marketing-dubai-uae/">Social Media</a> |
+                            <a href="/industries/tourism-web-design-development-dubai-uae/">Web Design</a> |
+                            <a href="/industries/tourism-performance-marketing-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -662,20 +662,20 @@
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
                         <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
-                        <h3 class="text-white text-center">Corporate</h3>
+                        <h3 class="text-white text-center">B2B Corporate</h3>
                     </div>
                     <div class="industries-cnts">
                         <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">From strategy to execution, we deliver powerful digital marketing solutions for corporate businesses in Dubai — building visibility, credibility, and long-term online success.</p>
+                        <p class="fs-20 text-center mb-3">From strategy to execution, we deliver powerful digital marketing solutions for B2B & corporate businesses in Dubai- building visibility, credibility, and long-term online success.</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
-                            <a href="/seo-services-in-dubai">SEO Services</a> |
-                            <a href="/pay-per-click-ppc-services-in-dubai">PPC</a> |
+                            <a href="/industries/b2b-seo-agency-in-dubai-uae/">SEO Services</a> |
+                            <a href="/industries/b2b-ppc-agency-in-dubai-uae/">PPC</a> |
                             <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
-                            <a href="/branding-agency-in-dubai">Branding</a> |
-                            <a href="/social-media-marketing-agency-in-dubai">Social Media</a> |
-                            <a href="/website-design-company-in-dubai">Web Design</a> |
-                            <a href="/full-funnel-performance-marketing">Perf. Marketing</a>
+                            <a href="/industries/b2b-email-marketing-agency-in-dubai-uae/">Branding</a> |
+                            <a href="/industries/b2b-social-media-agency-in-dubai-uae/">Social Media</a> |
+                            <a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+                            <a href="/industries/b2b-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                         </p>
                     </div>
                 </div>
@@ -689,101 +689,6 @@
     </div>
 </section>
 
-<!-- <section class="digital-marketing-agency-in-abu-dhabi">
-    <div class="trusted-partner sp-50 dm-bg">
-        <div class="container">
-            <h2 class="text-center text-white mb-3">We Craft High-Impact Digital Campaigns</h2>
-            <p class="text-center text-white mb-5 mx-auto" style="max-width: 800px;">Growth isn’t accidental- it’s engineered. We combine intelligence, precision, and performance to turn marketing into measurable momentum.</p>
-            <div class="row g-4">
-                <div class="col-lg-4">
-                    <div class="partner-card" data-aos="fade-up">
-                        <div class="partner-img">
-                            <img src="<?= base_url('/assets/images/understand.png') ?>" alt="We Understand The Landscape">
-                        </div>
-                        <h3>Strategy Sparks Growth</h3>
-                        <p>Every successful digital marketing campaign begins with insight. We analyze your industry, competitors, and customer behavior to build intelligent marketing blueprints. Our strategy-first approach ensures every campaign has a clear direction, measurable goals, and a defined growth pathway.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="partner-img">
-                            <img src="<?= base_url('/assets/images/tailored.png') ?>" alt="Tailored Strategies for Success">
-                        </div>
-                        <h3>Execution Across Channels</h3>
-                        <p>Winning marketing campaigns require accuracy. From SEO, email marketing, and paid media to social and conversion optimization, we execute with data-backed targeting and continuous performance tracking. Our focus is on reaching the right audience at the right time with the right message.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="partner-img">
-                            <img src="<?= base_url('/assets/images/overcoming.png') ?>" alt="Overcoming Market Challenges">
-                        </div>
-                        <h3>Measurable Results & Impact</h3>
-                        <p>Performance is our ultimate benchmark. We optimize all digital channels and campaigns in real time to improve lead quality, reduce acquisition costs, and increase Return On Investment (ROI). The goal isn’t just traffic- it’s tangible business growth and long-term brand strength.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<?php
-/*
-section class="neww-protfollio dm-bg mt-lg-4">
-    <div class="container">
-
-        <h2 class="text-start mb-3 text-white">Our Social Media Marketing Expertise</h2>
-        <div class="row mb-md-3 mt-md-4">
-            <div class="col-lg-8">
-                <p class="text-white fs-20 mb-3">As a premier digital marketing agency in Dubai, BrandStory harnesses the evolving power of social media to boost business growth. With 12+ years of hands-on expertise, we've evolved with leading platforms, staying ahead of trends to deliver optimized, measurable results for diverse clients. We are the top social media marketing agency in Dubai, combining data-driven strategies with creative excellence to create high-impact campaigns.</p>
-                <p class="text-white fs-20 mb-5">With over 11 million social media users in the UAE, a vibrant presence is non-negotiable. Social media is the fastest way to reach and engage your audience with your business. We are a dynamic team of experts crafting scroll-stopping content, boosts engagement, and builds authentic customer connections. Partner with BrandStory, Dubai's trusted social media marketing company, to reinvent your digital identity, drive traffic, and achieve standout success.</p>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block">
-                <img src="<?= base_url('assets/images/socialmedia-protfolio/insta-image.png') ?>"
-                    alt="Social Media Creative Design for Our Client"
-                    class="img-fluid spin-on-hover">
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="scroll-wrapper">
-            <div class="scroll-row left-to-right">
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-9.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-10.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <!-- duplicate for infinite loop -->
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-1.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-2.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-3.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-4.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-5.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-6.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-7.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-8.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-9.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-10.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-11.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-                <div class="neww-protfollio-box"><img loading="lazy" src="<?= base_url('assets/images/socialmedia-protfolio/social-media-12.webp') ?>" alt="Social Media Creative Design for Our Client"></div>
-
-            </div>
-        </div>
-
-
-    </div>
-
-</section>
-*/
-?>
 
 
 <section class="tools-section">
