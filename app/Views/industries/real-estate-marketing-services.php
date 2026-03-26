@@ -647,7 +647,7 @@
         </div>
     </section>
 
-         <section class="sp-50 bg-black">
+    <section class="sp-50 bg-black">
         <div class="container">
             <div class="exclusive-benefits-wrapper">
                 <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
