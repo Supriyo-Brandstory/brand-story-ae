@@ -196,9 +196,16 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
                     \RecursiveIteratorIterator::LEAVES_ONLY
                 );
 
+                $backupsDir = realpath($uploadsDir . '/backups');
                 foreach ($files as $name => $file) {
                     if (!$file->isDir()) {
                         $filePath = $file->getRealPath();
+
+                        // Exclude backups folder from the archive
+                        if ($backupsDir && strpos($filePath, $backupsDir) === 0) {
+                            continue;
+                        }
+
                         // Get relative path: uploads/images/foo.jpg
                         $relativePath = 'uploads/' . substr($filePath, strlen(realpath($uploadsDir)) + 1);
                         $zip->addFile($filePath, $relativePath);

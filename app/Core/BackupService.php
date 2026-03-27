@@ -58,6 +58,12 @@ class BackupService
                     foreach ($files as $name => $file) {
                         if (!$file->isDir()) {
                             $filePath = $file->getRealPath();
+
+                            // Exclude backups folder from the archive to avoid recursive backups
+                            if (strpos($filePath, realpath($this->backupDir)) === 0) {
+                                continue;
+                            }
+
                             $relativePath = 'uploads/' . substr($filePath, strlen(realpath($uploadsDir)) + 1);
                             $zip->addFile($filePath, $relativePath);
                         }
