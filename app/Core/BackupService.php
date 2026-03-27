@@ -30,9 +30,16 @@ class BackupService
      */
     public function run()
     {
+        // Increase limits for large backups
+        set_time_limit(0);
+        ignore_user_abort(true);
+        if (ini_get('memory_limit') !== '-1' && (int)ini_get('memory_limit') < 1024) {
+             ini_set('memory_limit', '1024M');
+        }
+
         $filename = 'backup_' . date('Y-m-d_H-i-s') . '.zip';
         $zipPath = $this->backupDir . '/' . $filename;
-        $sqlFile = 'database.sql';
+        $sqlFile = 'database.sql.gz';
         $sqlPath = sys_get_temp_dir() . '/' . $sqlFile;
 
         try {
@@ -40,36 +47,63 @@ class BackupService
             $this->dumpDatabase($sqlPath);
 
             // 2. Create Zip
-            $zip = new ZipArchive();
-            if ($zip->open($zipPath, ZipArchive::CREATE | ZipArchive::OVERWRITE) === TRUE) {
-                // Add SQL file
-                if (file_exists($sqlPath)) {
-                    $zip->addFile($sqlPath, $sqlFile);
+            $hasZipCmd = (bool)shell_exec('which zip');
+
+            if ($hasZipCmd) {
+                // Use Shell Zip (Significantly faster for large datasets)
+                // Add SQL file first
+                $zip = new ZipArchive();
+                if ($zip->open($zipPath, ZipArchive::CREATE | ZipArchive::OVERWRITE) === TRUE) {
+                    if (file_exists($sqlPath)) {
+                        $zip->addFile($sqlPath, $sqlFile);
+                    }
+                    $zip->close();
                 }
 
-                // Add Public Uploads
-                $uploadsDir = __DIR__ . '/../../public/uploads';
-                if (is_dir($uploadsDir)) {
-                    $files = new RecursiveIteratorIterator(
-                        new RecursiveDirectoryIterator($uploadsDir),
-                        RecursiveIteratorIterator::LEAVES_ONLY
-                    );
+                $uploadsDirAbs = realpath(__DIR__ . '/../../public/uploads');
+                $parentDir = dirname($uploadsDirAbs);
+                $folderName = basename($uploadsDirAbs);
 
-                    foreach ($files as $name => $file) {
-                        if (!$file->isDir()) {
-                            $filePath = $file->getRealPath();
+                // Append uploads folder excluding the backups directory
+                $zipPathEsc = escapeshellarg($zipPath);
+                $folderNameEsc = escapeshellarg($folderName);
+                $excludeAction = "-x \"$folderName/backups/*\" -x \"*.DS_Store\"";
+                $cmd = "cd \"$parentDir\" && zip -r -9 $zipPathEsc $folderNameEsc $excludeAction";
+                exec($cmd);
 
-                            // Exclude backups folder from the archive to avoid recursive backups
-                            if (strpos($filePath, realpath($this->backupDir)) === 0) {
-                                continue;
+            } else {
+                // Fallback to PHP ZipArchive (Slower)
+                $zip = new ZipArchive();
+                if ($zip->open($zipPath, ZipArchive::CREATE | ZipArchive::OVERWRITE) === TRUE) {
+                    // Add SQL file
+                    if (file_exists($sqlPath)) {
+                        $zip->addFile($sqlPath, $sqlFile);
+                    }
+
+                    // Add Public Uploads
+                    $uploadsDir = __DIR__ . '/../../public/uploads';
+                    if (is_dir($uploadsDir)) {
+                        $files = new RecursiveIteratorIterator(
+                            new RecursiveDirectoryIterator($uploadsDir),
+                            RecursiveIteratorIterator::LEAVES_ONLY
+                        );
+
+                        foreach ($files as $name => $file) {
+                            if (!$file->isDir()) {
+                                $filePath = $file->getRealPath();
+
+                                // Exclude backups folder from the archive to avoid recursive backups
+                                if (strpos($filePath, realpath($this->backupDir)) === 0) {
+                                    continue;
+                                }
+
+                                $relativePath = 'uploads/' . substr($filePath, strlen(realpath($uploadsDir)) + 1);
+                                $zip->addFile($filePath, $relativePath);
                             }
-
-                            $relativePath = 'uploads/' . substr($filePath, strlen(realpath($uploadsDir)) + 1);
-                            $zip->addFile($filePath, $relativePath);
                         }
                     }
+                    $zip->close();
                 }
-                $zip->close();
             }
 
             // 3. Log to database
@@ -161,39 +195,38 @@ class BackupService
      */
     protected function dumpDatabase($filePath)
     {
+        $fp = gzopen($filePath, 'w9');
+
         $tables = [];
         $result = $this->db->query('SHOW TABLES');
         while ($row = $result->fetch(PDO::FETCH_NUM)) {
             $tables[] = $row[0];
         }
 
-        $content = "SET FOREIGN_KEY_CHECKS=0;\n\n";
+        gzwrite($fp, "SET FOREIGN_KEY_CHECKS=0;\n\n");
 
         foreach ($tables as $table) {
-            $result = $this->db->query("SELECT * FROM `$table`");
+            $result = $this->db->query("SELECT * FROM `$table`", PDO::FETCH_NUM);
             $numFields = $result->columnCount();
 
-            $content .= "DROP TABLE IF EXISTS `$table`;\n";
+            gzwrite($fp, "DROP TABLE IF EXISTS `$table`;\n");
             $row2 = $this->db->query("SHOW CREATE TABLE `$table`")->fetch(PDO::FETCH_NUM);
-            $content .= $row2[1] . ";\n\n";
+            gzwrite($fp, $row2[1] . ";\n\n");
 
             while ($row = $result->fetch(PDO::FETCH_NUM)) {
-                $content .= "INSERT INTO `$table` VALUES(";
+                $values = [];
                 for ($j = 0; $j < $numFields; $j++) {
                     if (isset($row[$j])) {
-                        $content .= $this->db->quote($row[$j]);
+                        $values[] = $this->db->quote($row[$j]);
                     } else {
-                        $content .= 'NULL';
-                    }
-                    if ($j < ($numFields - 1)) {
-                        $content .= ',';
+                        $values[] = 'NULL';
                     }
                 }
-                $content .= ");\n";
+                gzwrite($fp, "INSERT INTO `$table` VALUES(" . implode(',', $values) . ");\n");
             }
-            $content .= "\n\n";
+            gzwrite($fp, "\n\n");
         }
-        $content .= "SET FOREIGN_KEY_CHECKS=1;\n";
-        file_put_contents($filePath, $content);
+        gzwrite($fp, "SET FOREIGN_KEY_CHECKS=1;\n");
+        gzclose($fp);
     }
 }
