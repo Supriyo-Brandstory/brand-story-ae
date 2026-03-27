@@ -172,7 +172,7 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
 
         $backupFile = 'backup_' . date('Y-m-d_H-i-s') . '.zip';
         $zipPath = sys_get_temp_dir() . '/' . $backupFile;
-        $sqlFile = 'database.sql';
+        $sqlFile = 'database.sql.gz';
         $sqlPath = sys_get_temp_dir() . '/' . $sqlFile;
 
         // 1. Dump Database (Pure PHP)
@@ -196,9 +196,16 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
                     \RecursiveIteratorIterator::LEAVES_ONLY
                 );
 
+                $backupsDir = realpath($uploadsDir . '/backups');
                 foreach ($files as $name => $file) {
                     if (!$file->isDir()) {
                         $filePath = $file->getRealPath();
+
+                        // Exclude backups folder from the archive
+                        if ($backupsDir && strpos($filePath, $backupsDir) === 0) {
+                            continue;
+                        }
+
                         // Get relative path: uploads/images/foo.jpg
                         $relativePath = 'uploads/' . substr($filePath, strlen(realpath($uploadsDir)) + 1);
                         $zip->addFile($filePath, $relativePath);
@@ -272,7 +279,10 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
                 }
 
                 // 2. Restore Database
-                $sqlFile = $extractPath . '/database.sql';
+                $sqlFile = $extractPath . '/database.sql.gz';
+                if (!file_exists($sqlFile)) {
+                    $sqlFile = $extractPath . '/database.sql';
+                }
                 $tablesRestored = 0;
                 if (file_exists($sqlFile)) {
                     $this->logProgress("Restoring database...", 70);
@@ -347,72 +357,72 @@ class AdminController extends AdminBaseController // Extend AdminBaseController
     private function dumpDatabase($filePath)
     {
         $db = \App\Core\Database::connect();
+        $fp = gzopen($filePath, 'w9');
+
         $tables = [];
         $result = $db->query('SHOW TABLES');
         while ($row = $result->fetch(\PDO::FETCH_NUM)) {
             $tables[] = $row[0];
         }
 
-        $content = "SET FOREIGN_KEY_CHECKS=0;\n\n";
+        gzwrite($fp, "SET FOREIGN_KEY_CHECKS=0;\n\n");
 
         foreach ($tables as $table) {
-            $result = $db->query("SELECT * FROM `$table`");
+            $result = $db->query("SELECT * FROM `$table`", \PDO::FETCH_NUM);
             $numFields = $result->columnCount();
 
-            $content .= "DROP TABLE IF EXISTS `$table`;\n";
+            gzwrite($fp, "DROP TABLE IF EXISTS `$table`;\n");
             $row2 = $db->query("SHOW CREATE TABLE `$table`")->fetch(\PDO::FETCH_NUM);
-            $content .= $row2[1] . ";\n\n";
+            gzwrite($fp, $row2[1] . ";\n\n");
 
-            for ($i = 0; $i < $numFields; $i++) {
-                while ($row = $result->fetch(\PDO::FETCH_NUM)) {
-                    $content .= "INSERT INTO `$table` VALUES(";
-                    for ($j = 0; $j < $numFields; $j++) {
-                        $row[$j] = addslashes($row[$j]);
-                        $row[$j] = str_replace("\n", "\\n", $row[$j]);
-                        if (isset($row[$j])) {
-                            $content .= '"' . $row[$j] . '"';
-                        } else {
-                            $content .= '""';
-                        }
-                        if ($j < ($numFields - 1)) {
-                            $content .= ',';
-                        }
+            while ($row = $result->fetch(\PDO::FETCH_NUM)) {
+                $values = [];
+                for ($j = 0; $j < $numFields; $j++) {
+                    if (isset($row[$j])) {
+                        $values[] = $db->quote($row[$j]);
+                    } else {
+                        $values[] = 'NULL';
                     }
-                    $content .= ");\n";
                 }
+                gzwrite($fp, "INSERT INTO `$table` VALUES(" . implode(',', $values) . ");\n");
             }
-            $content .= "\n\n";
+            gzwrite($fp, "\n\n");
         }
-        $content .= "SET FOREIGN_KEY_CHECKS=1;\n";
-        file_put_contents($filePath, $content);
+        gzwrite($fp, "SET FOREIGN_KEY_CHECKS=1;\n");
+        gzclose($fp);
     }
 
     // Custom PHP DB Restore
     private function restoreDatabase($filePath)
     {
         $db = \App\Core\Database::connect();
+        $isGzip = (substr($filePath, -3) === '.gz');
+        $fp = $isGzip ? gzopen($filePath, 'rb') : fopen($filePath, 'r');
+        
+        if (!$fp) return 0;
 
-        $sql = file_get_contents($filePath);
-        if (!$sql) return 0;
-
-        $queries = explode(";\n", $sql);
-        $count = 0;
-
-        // Disable FK checks
         $db->exec("SET FOREIGN_KEY_CHECKS=0");
 
-        foreach ($queries as $query) {
-            $query = trim($query);
-            if (!empty($query)) {
+        $query = '';
+        $count = 0;
+
+        while ($isGzip ? !gzeof($fp) : !feof($fp)) {
+            $line = $isGzip ? gzgets($fp, 4096) : fgets($fp, 4096);
+            if ($line === false) break;
+
+            $query .= $line;
+            if (substr(trim($line), -1) === ';') {
                 try {
                     $db->exec($query);
                     $count++;
                 } catch (\Exception $e) {
                     error_log("Restore Error: " . $e->getMessage());
                 }
+                $query = '';
             }
         }
 
+        $isGzip ? gzclose($fp) : fclose($fp);
         $db->exec("SET FOREIGN_KEY_CHECKS=1");
         return $count;
     }

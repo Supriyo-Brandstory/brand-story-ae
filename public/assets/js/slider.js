@@ -2,6 +2,15 @@ var swiper=new Swiper(".resproSlider",{spaceBetween:10,slidesPerView:1,freeMode:
 var swiper = new Swiper(".testiuxSwiper", {
     slidesPerView: 1,
     spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".testiux-pagination",
+        clickable: true,
+    },
     breakpoints: {
         640: {
           slidesPerView: 1,
@@ -13,7 +22,7 @@ var swiper = new Swiper(".testiuxSwiper", {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
       },
 });

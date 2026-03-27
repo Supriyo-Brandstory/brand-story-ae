@@ -1181,7 +1181,7 @@
 
 .dm-page.service-page .dm-blog-section .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: url(../images/home/cs-arrow-left.svg);
+    content: url(../images/home/cs-arrow-left.svg) !important;
 }
 
 .dm-page.service-page .dm-blog-section .swiper-button-next:after,
