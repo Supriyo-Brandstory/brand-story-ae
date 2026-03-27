@@ -23,25 +23,25 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Real Estate SEO Services</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Real Estate SEO Services</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Property Keyword Research</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Property Keyword Research</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Local SEO for Real Estate</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Local SEO for Real Estate</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Content Optimization</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Content Optimization</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Technical SEO Audits</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Technical SEO Audits</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Property Listing SEO</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Property Listing SEO</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Google Business Profile</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Google Business Profile</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Link Building</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Link Building</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Schema Markup Setup</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Schema Markup Setup</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Real Estate Blog Content</a>
+            <a href="/industries/real-estate-seo-agency-in-dubai-uae" class="seo-marquee-item">Real Estate Blog Content</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>
