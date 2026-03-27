@@ -2229,7 +2229,7 @@
         <h2 class="text-center section-desc mx-auto mb-16">Get Your Free Dubai<br />SEO Audit</h2>
         <p class="text-center section-desc-xs mx-auto text-muted">Delivered within 5 business days. Includes a 150-point technical report, keyword gap analysis, and a competitor benchmark — completely free, no commitment required.</p>
         <div class="cta-form">
-            [contact-form]
+            <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
 
         </div>
 

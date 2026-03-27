@@ -16,11 +16,18 @@ class AdminPageController extends AdminBaseController
     public function index()
     {
         $pageModel = new Page();
-        $pages = $pageModel->findAll();
+        
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        if ($page < 1) $page = 1;
+        $perPage = 10;
+        
+        $paginatedData = $pageModel->paginate($perPage, $page);
 
         $this->adminView('pages/index', [
             'title' => 'Pages Management',
-            'pages' => $pages
+            'pages' => $paginatedData['data'],
+            'currentPage' => $paginatedData['current_page'],
+            'totalPages' => $paginatedData['last_page']
         ]);
     }
 

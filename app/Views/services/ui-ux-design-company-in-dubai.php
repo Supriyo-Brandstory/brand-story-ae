@@ -478,49 +478,71 @@
 
 <section class="testimonials-new sp-50">
     <div class="container">
-        <div class="heading text-center">
-            <h2 class="text-black">Testimonials</h2>
+        <div class="heading text-center mb-5">
+            <h2 class="text-black">Kind Words From Our Clients</h2>
         </div>
-        <div class="testimonal-slider">
+        <div class="testimonal-slider-wrapper position-relative">
             <div class="swiper testiuxSwiper p-2">
                 <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="testi-ux-box p-4 text-center">
-                            <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid">
-                            <p class="mt-2">"Working with BrandStory has been a game changer for our digital presence.
-                                UX agency
-                                Dubai transformed our website into a friendly platform that our customers love. The
-                                team's attention to detail and creativity is unmatched! Since its redesign, we saw a
-                                huge hike in user engagement coupled with user satisfaction." </p>
-                            <p class="fs-14 mb-1">Sarah A</p>
-                            <p class="fs-14"> Marketing Director, Tech Innovations</p>
+                        <div class="testi-ux-card">
+                            <div class="testi-quote-mark mb-4">
+                                <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid" alt="Quote">
+                            </div>
+                            <p class="testi-text">"Working with BrandStory has been a game changer for our digital presence. UX agency Dubai transformed our website into a friendly platform that our customers love. The team's attention to detail and creativity is unmatched! Since its redesign, we saw a huge hike in user engagement coupled with user satisfaction."</p>
+                            <div class="testi-user-info-wrap mt-4 d-flex align-items-center">
+                                <div class="testi-avatar-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </div>
+                                <div class="testi-identity ms-3 text-start">
+                                    <h6 class="mb-0 fw-bold">Sarah A</h6>
+                                    <span class="fs-13 text-muted">Marketing Director, Tech Innovations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="testi-ux-card">
+                            <div class="testi-quote-mark mb-4">
+                                <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid" alt="Quote">
+                            </div>
+                            <p class="testi-text">"BrandStory really gets the importance of user experience. The UX design agency Dubai experts spent the necessary time to understand our audience and developed a seamless interface that has made navigation a relatively easy endeavour. They executed the whole process in a very collaborative fashion!"</p>
+                            <div class="testi-user-info-wrap mt-4 d-flex align-items-center">
+                                <div class="testi-avatar-svg color-blue">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </div>
+                                <div class="testi-identity ms-3 text-start">
+                                    <h6 class="mb-0 fw-bold">David L</h6>
+                                    <span class="fs-13 text-muted">CEO, Eco Products Co</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Slide 3 -->
                     <div class="swiper-slide">
-                        <div class="testi-ux-box p-4 text-center">
-                            <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid">
-                            <p class="mt-2">"BrandStory really gets the importance of user experience. The UX design
-                                agency Dubai experts spent the necessary time to understand our audience and developed a
-                                seamless interface that has made navigation a relatively easy endeavour. They executed
-                                the whole process in a very collaborative fashion, so we enjoyed the outcome immensely!"
-                            </p>
-                            <p class="fs-14 mb-1">David L</p>
-                            <p class="fs-14">CEO, Eco Products Co</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testi-ux-box p-4 text-center">
-                            <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid">
-                            <p class="mt-2">"Absolutely delighted with the UX agency Dubai team at BrandStory. They
-                                delivered not just a pretty design but also optimised the site to its best performance
-                                and usability. Their insights and recommendations are of the highest quality. I can't
-                                recommend them enough!"</p>
-                            <p class="fs-14 mb-1">Emma T</p>
-                            <p class="fs-14">Product Manager, Fashion Forward</p>
+                        <div class="testi-ux-card">
+                            <div class="testi-quote-mark mb-4">
+                                <img src="/assets/images/seo-lp/ui-test-quotes.svg" class="img-fluid" alt="Quote">
+                            </div>
+                            <p class="testi-text">"Absolutely delighted with the UX agency Dubai team at BrandStory. They delivered not just a pretty design but also optimised the site to its best performance and usability. Their insights and recommendations are of the highest quality. I can't recommend them enough for anyone looking for UI UX design!"</p>
+                            <div class="testi-user-info-wrap mt-4 d-flex align-items-center">
+                                <div class="testi-avatar-svg color-purple">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                </div>
+                                <div class="testi-identity ms-3 text-start">
+                                    <h6 class="mb-0 fw-bold">Emma T</h6>
+                                    <span class="fs-13 text-muted">Product Manager, Fashion Forward</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination testiux-pagination mt-4"></div>
             </div>
         </div>
     </div>
