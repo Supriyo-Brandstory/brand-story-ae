@@ -8,6 +8,12 @@
                 "<?php include __DIR__ . '/../component/forms/contact-form.php'; ?>",
                 $page['content']
             );
+            // Handle [induestries-service] shortcode
+            $content = str_replace(
+                '[induestries-service]',
+                "<?php include __DIR__ . '/../component/services/industries-service.php'; ?>",
+                $content
+            );
             // Evaluate PHP
             eval('?>' . $content);
         } catch (\Throwable $e) {
