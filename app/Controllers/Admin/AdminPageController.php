@@ -51,6 +51,10 @@ class AdminPageController extends AdminBaseController
             'custom_class' => $_POST['custom_class'] ?? ''
         ];
 
+        // Debug Log
+        file_put_contents('/tmp/admin_save_debug.log', "STORE Time: " . date('Y-m-d H:i:s') . "\n", FILE_APPEND);
+        file_put_contents('/tmp/admin_save_debug.log', "POST Data: " . json_encode($_POST) . "\n\n", FILE_APPEND);
+
         // Basic Validation
         if (empty($data['title']) || empty($data['slug']) || empty($data['template'])) {
             $_SESSION['error'] = "Title, Slug, and Template are required fields.";
@@ -65,8 +69,14 @@ class AdminPageController extends AdminBaseController
 
         try {
             if ($pageModel->save($data)) {
+                $insertedId = \App\Core\Database::connect()->lastInsertId();
                 $_SESSION['success'] = "Page created successfully.";
-                header('Location: ' . route('admin.pages.index'));
+                
+                if (isset($_POST['redirect_edit']) && $insertedId) {
+                    header('Location: ' . route('admin.pages.edit', ['id' => $insertedId]));
+                } else {
+                    header('Location: ' . route('admin.pages.index'));
+                }
             } else {
                 $_SESSION['error'] = "Failed to save the page.";
                 header('Location: ' . route('admin.pages.create'));
@@ -98,6 +108,7 @@ class AdminPageController extends AdminBaseController
 
     public function update($id)
     {
+        $id = (int)$id; 
         $data = [
             'id' => $id,
             'title' => $_POST['title'] ?? '',
@@ -106,6 +117,16 @@ class AdminPageController extends AdminBaseController
             'content' => $_POST['content'] ?? '',
             'custom_class' => $_POST['custom_class'] ?? ''
         ];
+
+        // Debug Log
+        file_put_contents('/tmp/admin_save_debug.log', "Update ID: $id Time: " . date('Y-m-d H:i:s') . "\n", FILE_APPEND);
+        if (empty($data['title'])) file_put_contents('/tmp/admin_save_debug.log', "ERROR: Empty title\n", FILE_APPEND);
+        file_put_contents('/tmp/admin_save_debug.log', "Content Length: " . strlen($data['content']) . "\n", FILE_APPEND);
+        file_put_contents('/tmp/admin_save_debug.log', "POST Data: " . json_encode($_POST) . "\n\n", FILE_APPEND);
+
+        $data['content'] = preg_replace_callback('/style=["\'][^"\']*url\("([^"]+)"\)[^"\']*["\']/', function($matches) {
+            return str_replace(['url("', '")'], ["url('", "')"], $matches[0]);
+        }, $data['content']);
 
         if (empty($data['title']) || empty($data['slug']) || empty($data['template'])) {
             $_SESSION['error'] = "Title, Slug, and Template cannot be empty.";
@@ -120,7 +141,12 @@ class AdminPageController extends AdminBaseController
         try {
             if ($pageModel->save($data)) {
                 $_SESSION['success'] = "Page updated successfully.";
-                header('Location: ' . route('admin.pages.index'));
+                
+                if (isset($_POST['redirect_edit'])) {
+                    header('Location: ' . route('admin.pages.edit', ['id' => $id]));
+                } else {
+                    header('Location: ' . route('admin.pages.index'));
+                }
             } else {
                 $_SESSION['error'] = "Failed to update the page.";
                 header('Location: ' . route('admin.pages.edit', ['id' => $id]));
@@ -137,6 +163,66 @@ class AdminPageController extends AdminBaseController
         $pageModel->delete($id);
         $_SESSION['success'] = "Page deleted.";
         header('Location: ' . route('admin.pages.index'));
+    }
+
+    public function preview()
+    {
+        $content = $_POST['content'] ?? '';
+        $template = $_POST['template'] ?? 'blank.php';
+        $custom_class = $_POST['custom_class'] ?? '';
+        $custom_css = $_POST['custom_css'] ?? '';
+        $title = $_POST['title'] ?? 'Preview Page';
+
+        $page = [
+            'content' => $content,
+            'template' => $template,
+            'custom_class' => $custom_class,
+            'title' => $title,
+            'slug' => 'preview'
+        ];
+
+        $classname = 'dm-agency-dubai';
+        $templatePath = __DIR__ . '/../../Views/customlayout/' . $template;
+        if (file_exists($templatePath)) {
+            $templateFileContent = file_get_contents($templatePath);
+            if (preg_match('/\$classname\s*=\s*\'([^\']+)\';/', $templateFileContent, $matches)) {
+                $classname = $matches[1];
+            }
+        }
+        if (!empty($custom_class)) {
+            $classname = $custom_class;
+        }
+
+        $meta = [
+            'classname' => $classname,
+            'title' => $title
+        ];
+
+        // We need to bypass the standard view rendering if it doesn't support direct include
+        // But the layout expect $content.
+        
+        // Capture dynamic_renderer output
+        ob_start();
+        extract(['page' => $page]);
+        include __DIR__ . '/../../Views/customlayout/dynamic_renderer.php';
+        $content = ob_get_clean();
+
+        // Render layout
+        extract(['meta' => $meta, 'content' => $content]);
+        
+        // Set preview mode true for components
+        define('IS_PREVIEW', true);
+
+        $this->singleView('admin/pages/preview', [
+            'meta' => $meta,
+            'title' => $title,
+            'content' => $content,
+            'custom_class' => $custom_class,
+            'custom_css' => $custom_css,
+            'template' => $template,
+            'is_live_editor' => isset($_POST['is_live_editor'])
+        ]);
+        exit;
     }
 
     private function generateUniqueSlug($slug, $excludeId = null)
