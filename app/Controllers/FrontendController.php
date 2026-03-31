@@ -109,7 +109,6 @@ class FrontendController extends Controller
     public function seoServicesDubai()
     {
         $meta = [
-            'classname' => 'seo-pillar-page'
         ];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
