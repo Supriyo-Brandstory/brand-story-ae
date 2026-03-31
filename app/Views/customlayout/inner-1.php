@@ -1288,20 +1288,20 @@
 
 <section class="sp-50">
     <div class="container"><!--Container Start-->
-        <?php include __DIR__ . '/../component/services/new-service.php' ?>
+        [new-service]
     </div><!--Container End-->
 </section>
 
 <section class="sp-50 bg-yellow">
     <div class="container">
-        <?php include __DIR__ . '/../component/services/stats.php' ?>
+        [stats-service]
     </div>
 </section>
 
 <section class="sp-50">
     <div class="container"><!--Container Start-->
         <h2 class="text-center">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/services/clients.php' ?>
+        [clients-service]
     </div><!--Container End-->
 </section>
 
