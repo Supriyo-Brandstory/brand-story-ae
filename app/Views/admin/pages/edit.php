@@ -15,7 +15,7 @@
                     <h5 class="mb-0">Page Details</h5>
                 </div>
 
-                <form action="<?= route('admin.pages.update', ['id' => $page['id']]) ?>" method="POST">
+                <form id="mainPageForm" action="<?= route('admin.pages.update', ['id' => $page['id']]) ?>" method="POST">
                     <?= csrf_token() ?>
 
                     <div class="card-body p-4">
@@ -54,8 +54,19 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="content" class="form-label fw-semibold">Page Content (HTML)</label>
-                            <textarea class="form-control rich-text-editor" id="content" name="content" rows="15"><?= htmlspecialchars($page['content']) ?></textarea>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <label for="content" class="form-label fw-semibold mb-0">Page Content (HTML/Code)</label>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info" onclick="toggleFullScreen()">
+                                        <i class="bi bi-fullscreen"></i> Fullscreen Editor
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-info text-white" onclick="openPreview()">
+                                        <i class="bi bi-eye"></i> Live Preview
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="ace-editor" style="height: 600px; border: 1px solid #ced4da; border-radius: 0.375rem;"></div>
+                            <textarea name="content" id="content-hidden" style="display:none;"><?= htmlspecialchars($page['content']) ?></textarea>
                         </div>
                     </div>
 
@@ -69,8 +80,156 @@
     </div>
 </main>
 
+
+
+<form id="previewForm" action="<?= route('admin.pages.preview') ?>" method="POST" target="previewWindow">
+    <?= csrf_token() ?>
+    <input type="hidden" name="title" id="preview-title">
+    <input type="hidden" name="template" id="preview-template">
+    <input type="hidden" name="custom_class" id="preview-custom_class">
+    <input type="hidden" name="content" id="preview-content">
+    <input type="hidden" name="is_live_editor" value="true">
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.2/ace.js"></script>
 <script>
+    // Handle messages from the preview window for live editing
+    window.addEventListener('message', function(event) {
+        if (!event.data) return;
+
+        const previewWin = event.source;
+        console.log('Parent received message:', event.data.type, event.data.action);
+
+        if (event.data.type === 'saveChanges') {
+            saveFromPreview();
+            return;
+        }
+
+        if (event.data.type === 'updateContent') {
+            if (event.data.action === 'changeImage') {
+                console.log('Image change requested for:', event.data.src);
+
+                // If newValue is provided, the preview tab picked it locally
+                if (event.data.newValue) {
+                    let currentContent = editor.getValue();
+                    let newContent;
+
+                    // Normalize src for better matching (handle absolute/relative and leading slashes)
+                    const src = event.data.src;
+                    const origin = window.location.origin;
+                    let normSrc = src;
+                    if (src.startsWith(origin)) {
+                        normSrc = src.substring(origin.length);
+                    }
+                    // Remove leading slash for optional matching in regex
+                    let searchSrc = normSrc.replace(/^\//, '');
+                    const escaped = searchSrc.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+                    if (event.data.typeAttr === 'bg') {
+                        // Regex to find url('...') or url("...") or url(...) with the original src
+                        // Optional domain, leading slash, and quotes. 
+                        const re = new RegExp('url\\(\\s*[\'"]?(?:https?:\\/\\/[^\\/]+)?\\/?' + escaped + '[\'"]?\\s*\\)', 'gi');
+                        newContent = currentContent.replace(re, "url('" + event.data.newValue + "')");
+                        
+                        // Fallback: if no match found with url(), try a direct replace of the src string if it looks like a path
+                        if (newContent === currentContent) {
+                            const directRe = new RegExp('([\'"])(?:https?:\\/\\/[^\\/]+)?\\/?' + escaped + '([\'"])', 'gi');
+                            newContent = currentContent.replace(directRe, "$1" + event.data.newValue + "$2");
+                        }
+                    } else {
+                        // Standard image src replacement with optional domain and leading slash
+                        const re = new RegExp('([\'"])(?:https?:\\/\\/[^\\/]+)?\\/?' + escaped + '([\'"])', 'gi');
+                        newContent = currentContent.replace(re, "$1" + event.data.newValue + "$2");
+                    }
+
+                    if (newContent !== currentContent) {
+                        editor.setValue(newContent, -1);
+                    }
+                    return;
+                }
+
+                if (typeof openMediaPicker === 'function') {
+                    openMediaPicker(function(url) {
+                        console.log('Media selected:', url);
+
+                        // Use captured previewWin reference instead of event.source
+                        if (previewWin) {
+                            previewWin.postMessage({
+                                type: 'applyImage',
+                                url: url,
+                                originalSrc: event.data.src,
+                                isBg: event.data.typeAttr === 'bg'
+                            }, '*');
+                        }
+
+                        let currentContent = editor.getValue();
+                        // Replace the exact string found in the bridge script
+                        const newContent = currentContent.replace(event.data.src, url);
+                        if (newContent !== currentContent) {
+                            editor.setValue(newContent, -1);
+                        }
+                    });
+                } else {
+                    console.error('openMediaPicker is not defined');
+                    alert('Critical Error: Media Picker is missing.');
+                }
+            }
+
+            if (event.data.action === 'changeHtml') {
+                let currentContent = editor.getValue();
+                const oldHtml = event.data.oldHtml;
+                const newHtml = event.data.newHtml;
+
+                if (oldHtml && newHtml && oldHtml !== newHtml) {
+                    // Normalize whitespace for better matching (many editors inject newlines)
+                    function normalize(s) { 
+                        return s.replace(/\s+/g, ' ').trim(); 
+                    }
+                    
+                    const normOld = normalize(oldHtml);
+                    
+                    // We'll try to find the match by normalizing the editor content too if first pass fails
+                    if (currentContent.includes(oldHtml)) {
+                        const newContent = currentContent.replace(oldHtml, newHtml);
+                        editor.setValue(newContent, -1);
+                    } else {
+                        // Fallback: search for a closely matching block if the editor has different formatting
+                        // This is a simplified fallback - a more complex one could use character-wise diffing
+                        const escaped = oldHtml.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                        const re = new RegExp(escaped.replace(/\\s\+/g, '\\s*'), 'g');
+                        const newContent = currentContent.replace(re, newHtml);
+                        if (newContent !== currentContent) {
+                            editor.setValue(newContent, -1);
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // Initialize Ace Editor
+    const editor = ace.edit("ace-editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/html");
+    editor.setOptions({
+        fontSize: "14px",
+        showPrintMargin: false,
+        enableBasicAutocompletion: true,
+        enableLiveAutocompletion: true,
+        useWorker: false
+    });
+
+    // Populate editor with content
+    const hiddenTextarea = document.getElementById('content-hidden');
+    editor.setValue(hiddenTextarea.value, -1);
+
+    // Sync editor to hidden field on change
+    editor.getSession().on('change', function() {
+        hiddenTextarea.value = editor.getValue();
+    });
+
     function generateSlug(text) {
+        if (!text) return;
         const slug = text.toLowerCase()
             .replace(/[^\w ]+/g, '')
             .replace(/ +/g, '-');
@@ -82,13 +241,12 @@
     function loadTemplate(template) {
         if (!template) return;
 
-        // Skip confirmation for blank.php
         if (template === 'blank.php' || confirm('Choosing a template will overwrite current content. Continue?')) {
             fetch('<?= route('admin.pages.get_template_content') ?>?template=' + template)
                 .then(response => response.json())
                 .then(data => {
                     if (data.status === 'success') {
-                        $('.rich-text-editor').summernote('code', data.content);
+                        editor.setValue(data.content, -1);
                         lastTemplate = template;
                     } else {
                         alert(data.message);
@@ -99,8 +257,78 @@
                     alert('Error loading template content.');
                 });
         } else {
-            // Revert selection if user canceled
             document.getElementById('template').value = lastTemplate;
+        }
+    }
+
+    function openPreview() {
+        document.getElementById('preview-title').value = document.getElementById('title').value;
+        document.getElementById('preview-template').value = document.getElementById('template').value;
+        document.getElementById('preview-custom_class').value = document.getElementById('custom_class').value;
+        document.getElementById('preview-content').value = editor.getValue();
+
+        const previewWin = window.open('', 'previewWindow');
+        const form = document.getElementById('previewForm');
+        form.target = 'previewWindow';
+        form.submit();
+    }
+
+    function saveFromPreview() {
+        try {
+            console.log('Starting save from preview...');
+            const hiddenTextarea = document.getElementById('content-hidden');
+            const editorValue = typeof editor !== 'undefined' ? editor.getValue() : '';
+
+            if (hiddenTextarea) {
+                hiddenTextarea.value = editorValue;
+            }
+
+            // Search for form by ID first, then by action pattern
+            let mainForm = document.getElementById('mainPageForm') || document.querySelector('form[action*="update"]');
+
+            if (mainForm) {
+                console.log('Main form found, adding redirect flag and submitting...');
+
+                // Remove existing if any
+                const existingRedir = mainForm.querySelector('input[name="redirect_edit"]');
+                if (existingRedir) existingRedir.remove();
+
+                let redir = document.createElement('input');
+                redir.type = 'hidden';
+                redir.name = 'redirect_edit';
+                redir.value = '1';
+                mainForm.appendChild(redir);
+
+                // Focus dashboard so the user sees something happening
+                window.focus();
+
+                mainForm.submit();
+                console.log('Form submission command sent.');
+            } else {
+                console.error('CRITICAL: mainPageForm not found for saveFromPreview');
+                alert('Internal Error: Could not find the save form on this page.');
+            }
+        } catch (err) {
+            console.error('Error in saveFromPreview:', err);
+            alert('Error during save: ' + err.message);
+        }
+    }
+
+    function setPreviewSize(width) {
+        document.getElementById('previewIframe').style.width = width;
+        const btns = document.querySelectorAll('.btn-group-sm .btn');
+        btns.forEach(btn => btn.classList.remove('active'));
+        event.currentTarget.classList.add('active');
+    }
+
+    function toggleFullScreen() {
+        const editorDiv = document.getElementById('ace-editor');
+        if (!document.fullscreenElement) {
+            editorDiv.requestFullscreen().catch(err => {
+                alert(`Error: ${err.message}`);
+            });
+        } else {
+            document.exitFullscreen();
         }
     }
 </script>
