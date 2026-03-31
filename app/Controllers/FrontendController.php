@@ -890,14 +890,6 @@ class FrontendController extends Controller
         return $this->view('others-pages/retail-marketing-agency-dubai', ['meta' => $meta]);
     }
 
-    public function seoagenciesindubai()
-    {
-        $meta = [
-            'classname' => 'industry-page'
-        ];
-        return $this->view('others-pages/seo-agencies-in-dubai', ['meta' => $meta]);
-    }
-
     public function seoagencyadenyemen()
     {
         $meta = [
@@ -1667,13 +1659,6 @@ class FrontendController extends Controller
         return $this->view('careers/videographer-and-editor', ['meta' => $meta]);
     }
 
-    public function aeoAgencyDubai()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('others-pages/aeo-agency-dubai', ['meta' => $meta]);
-    }
     public function geoAgencyDubai()
     {
         $meta = [
