@@ -4,11 +4,11 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="seo-banner-txt">
                     <h1>Best SEO Services Company in Dubai, UAE</h1>
-                    <p>Elevate your digital presence with our SEO services designed to deliver measurable results. BrandStory offers a comprehensive 
-                        suite of SEO solutions- spanning keyword research, on-page optimisation, link building, and a data-backed content strategy, all 
+                    <p>Elevate your digital presence with our SEO services designed to deliver measurable results. BrandStory offers a comprehensive
+                        suite of SEO solutions- spanning keyword research, on-page optimisation, link building, and a data-backed content strategy, all
                         engineered to strengthen your search rankings and drive sustainable growth for your brand. With a proven track record and hundreds
-                         of satisfied clients across Dubai and the UAE, BrandStory stands as a leading SEO agency trusted by businesses that 
-                         demand excellence.</p>
+                        of satisfied clients across Dubai and the UAE, BrandStory stands as a leading SEO agency trusted by businesses that
+                        demand excellence.</p>
                     <div class="sb-btn"><a href="/contact/" class="kmbtn btn btn-blue">Get Free SEO Audit</a></div>
                 </div>
             </div><!--col end-->
@@ -66,13 +66,13 @@
                 <h2 class="mb-4">Top-Rated SEO Agency in Dubai, UAE- BrandStory</h2>
                 <ul class="seo-pages-list">
                     <li>SEO has evolved far beyond what industry pioneers could have anticipated. What began as basic keyword placement
-                         has transformed into a multi-layered discipline- one that demands expertise, agility, and a deep understanding of
-                          how search engines think.</li>
+                        has transformed into a multi-layered discipline- one that demands expertise, agility, and a deep understanding of
+                        how search engines think.</li>
                     <li>Algorithm updates from major search engines have redefined the rules of digital visibility time and again. Businesses
-                         that fail to adapt are quickly left behind. We monitor these changes closely, keeping your brand competitive no matter 
-                         how the landscape shifts.</li>
+                        that fail to adapt are quickly left behind. We monitor these changes closely, keeping your brand competitive no matter
+                        how the landscape shifts.</li>
                     <li>Today's SEO extends well beyond the desktop. Your website must perform flawlessly across smartphones, tablets, and computers
-                         alike. With mobile devices now the primary starting point for most online searches, a mobile-first approach is essential. </li>
+                        alike. With mobile devices now the primary starting point for most online searches, a mobile-first approach is essential. </li>
                 </ul>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
@@ -465,7 +465,7 @@
 
 <section class="seo-pages-impact sp-50 bg-white">
     <div class="container"><!--Container Start-->
-        <h2 class="text-center bg-white">How SEO Actually Generates Leads<span class="db">  (What Most Agencies Hide)</span></h2>
+        <h2 class="text-center bg-white">How SEO Actually Generates Leads<span class="db"> (What Most Agencies Hide)</span></h2>
         <div class="row gx-lg-5 sp-50"><!--Row Start-->
             <div class="col-md-4 col-lg-6 ps-0"> <!--col start-->
                 <div class="sp-impact-image">
@@ -563,7 +563,7 @@
                 <a href="/contact/"><button class="btn em-btn mt-3">Contact Us</button></a>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/em/why-em-img.jpg" class="img-fluid mb-3" alt="email marketing in dubai">
+                <img src="/assets/images/service/em/seo-agency.webp" class="img-fluid mb-3" alt="seo agency in dubai">
             </div>
         </div>
     </div>
@@ -789,3 +789,8 @@ $stickyServices = $stickyServices ?? [
     ['label' => 'Website Design', 'url' => '/website-design-company-in-abu-dhabi'],
 ];
 ?>
+<style>
+    .know-more {
+        color: white !important;
+    }
+</style>

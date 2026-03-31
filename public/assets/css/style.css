@@ -10755,3 +10755,136 @@ sup {
         display: none;
     }
 }
+
+/* Terminology Page Styles */
+.glossary-section {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hover-blue:hover {
+    color: #2E63D8 !important;
+}
+
+.border-dashed {
+    border: 2px dashed #ccc;
+}
+
+.glossary-sidebar {
+    background: #fdfdfd;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+    height: auto;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.glossary-sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.glossary-sidebar::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 10px;
+}
+
+.toc-list a {
+    transition: all 0.3s ease !important;
+    font-size: 16px !important;
+    display: block;
+    padding: 8px 15px !important;
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.toc-list a.active {
+    color: #2E63D8 !important;
+    font-weight: 700 !important;
+    background: rgba(46, 99, 216, 0.05);
+    padding-left: 25px !important;
+}
+
+.toc-list a.active::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 18px;
+    background: #2E63D8;
+    border-radius: 2px;
+}
+
+.glossary-item {
+    padding-top: 80px;
+    margin-top: -30px;
+}
+
+.term-title {
+    color: #000;
+    position: relative;
+    display: inline-block;
+}
+
+.term-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: #2E63D8;
+}
+
+.term-desc p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.text-decoration-underline {
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+    .glossary-sidebar {
+        max-height: 300px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Terminology Header Styles */
+.terminology-header {
+    background: #fff !important;
+}
+
+.glossary-main-title {
+    color: #000 !important;
+}
+
+@media (max-width: 767px) {}
+
+.breadcrumb {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item a {
+    transition: color 0.3s ease;
+}
+
+.author-avatar {
+    border: 1px solid #eee;
+}
+
+.header-featured-image img {
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+}
