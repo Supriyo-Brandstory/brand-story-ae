@@ -11241,71 +11241,57 @@ sup {
     }
 }
 
+.blog-description {
+    overflow: hidden;
+    /* parent no scroll */
+}
+
+/* Table Base */
 .blog-description table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 15px;
     text-align: left;
-    overflow: hidden;
-    border-radius: 8px;
 }
 
-/* Table Header */
+/* Header */
 .blog-description table thead {
     background-color: #f5f7fa;
 }
 
-.blog-description table thead th {
+.blog-description table th {
     padding: 12px 15px;
-    font-weight: 600;
-    color: #333;
-    border-bottom: 2px solid #ddd;
-}
-
-/* Table Body */
-.blog-description table tbody td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #eee;
-    color: #555;
-}
-
-/* Zebra Striping */
-.blog-description table tbody tr:nth-child(even) {
-    background-color: #fafafa;
-}
-
-/* Hover Effect */
-.blog-description table tbody tr:hover {
-    background-color: #f1f5ff;
-    transition: 0.2s ease;
-}
-
-/* Responsive */
-.blog-description {
-    overflow-x: auto;
-}
-
-.blog-description table {
-    min-width: 600px;
-}
-
-/* Optional: Border style */
-.blog-description table,
-.blog-description table th,
-.blog-description table td {
     border: 1px solid #e0e0e0;
 }
 
-@media (max-width: 768px) {
-    .blog-description {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        /* smooth scroll on iOS */
-    }
+/* Body */
+.blog-description table td {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+}
 
+/* Zebra */
+.blog-description table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Hover */
+.blog-description table tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* ✅ MOBILE FIX (IMPORTANT) */
+@media (max-width: 768px) {
     .blog-description table {
-        min-width: 600px;
-        /* forces horizontal scroll */
+        display: inline-block;
+        /* ✅ better than block */
+        overflow-x: auto;
+        /* scroll works */
+        white-space: nowrap;
+        /* prevents wrapping */
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        border: none;
     }
 }

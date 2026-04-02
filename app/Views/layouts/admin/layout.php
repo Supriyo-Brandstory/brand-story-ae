@@ -17,7 +17,8 @@
         }
 
         .sidebar {
-            min-height: 100vh;
+            height: 100vh;
+            overflow-y: auto;
             background: #212529;
             transition: all 0.3s;
         }
