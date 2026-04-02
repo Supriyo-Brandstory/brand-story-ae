@@ -121,7 +121,7 @@ $stickyServices = $stickyServices ?? [
 ?>
 <div class="unique-sticky-container" role="navigation" aria-label="Quick actions">
   <!-- Services List (Desktop Only) -->
-  <div class="unique-sticky-services-wrapper desktop-only">
+  <!-- <div class="unique-sticky-services-wrapper desktop-only">
     <a
       class="unique-sticky-btn unique-sticky-services"
       href="javascript:void(0);">
@@ -135,7 +135,7 @@ $stickyServices = $stickyServices ?? [
         <?php endforeach; ?>
       </ul>
     </div>
-  </div>
+  </div> -->
 
   <!-- Call (Mobile Only) -->
   <a
@@ -149,7 +149,7 @@ $stickyServices = $stickyServices ?? [
   <span class="unique-sticky-separator">|</span>
 
   <a
-    class="unique-sticky-btn unique-sticky-msg uniq-contact-lead-btn"
+    class="unique-sticky-btn unique-sticky-msg uniq-contact-lead-btn d-md-none "
     href="javascript:void(0);">
     <img src="/assets/images/mail-sticky.png" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
     <span class="unique-sticky-label">Enquire</span>
