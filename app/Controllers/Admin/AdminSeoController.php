@@ -21,7 +21,7 @@ class AdminSeoController extends AdminBaseController
 
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $search = trim($_GET['search'] ?? '');
-        $perPage = 10;
+        $perPage = 20;
 
         $where = [];
         if (!empty($search)) {
@@ -30,10 +30,12 @@ class AdminSeoController extends AdminBaseController
 
         $result = $this->seoModel->paginate($perPage, $page, $where);
 
-        // Pass to view
         return $this->adminView('seo/index', [
             'seoList' => $result['data'],
-            'pagination' => $result,
+            'totalItems' => $result['total'],
+            'totalPages' => $result['last_page'],
+            'currentPage' => $result['current_page'],
+            'perPage' => $perPage,
             'search' => $search
         ]);
     }
