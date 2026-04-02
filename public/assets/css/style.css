@@ -11296,3 +11296,16 @@ sup {
 .blog-description table td {
     border: 1px solid #e0e0e0;
 }
+
+@media (max-width: 768px) {
+    .blog-description {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        /* smooth scroll on iOS */
+    }
+
+    .blog-description table {
+        min-width: 600px;
+        /* forces horizontal scroll */
+    }
+}
