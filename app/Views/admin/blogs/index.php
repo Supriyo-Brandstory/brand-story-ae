@@ -26,6 +26,28 @@
         </a>
     </div>
 
+    <!-- Search Form -->
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+            <form action="<?= route('admin.blogs_admin.index') ?>" method="GET" class="row g-2">
+                <div class="col-md-10">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+                        <input type="text" name="search" class="form-control border-start-0" 
+                               placeholder="Search blog title..." 
+                               value="<?= htmlspecialchars($search ?? '') ?>">
+                        <?php if (!empty($search)): ?>
+                            <a href="<?= route('admin.blogs_admin.index') ?>" class="btn btn-outline-secondary">Clear</a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <!-- Main Card -->
     <div class="card shadow-sm border-0">
         <div class="card-body p-0">
@@ -33,20 +55,22 @@
                 <table class="table table-hover mb-0">
                     <thead class="table-dark">
                         <tr>
-                            <th>ID</th>
-                            <th>Image</th>
-                            <th>Title</th>
+                            <th style="width: 60px;">S.N.</th>
+                            <th style="width: 80px;">Image</th>
+                            <th style="width: 300px;">Title</th>
                             <th>Category</th>
                             <th>Slug</th>
-                            <!-- <th>Description</th> -->
-                            <th class="text-center">Actions</th>
+                            <th class="text-center" style="width: 120px;">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php if (!empty($blogs)): ?>
-                            <?php foreach ($blogs as $blog): ?>
+                            <?php 
+                            $snOffset = ($currentPage - 1) * $perPage;
+                            foreach ($blogs as $index => $blog): 
+                            ?>
                                 <tr>
-                                    <td><?= $blog['id'] ?></td>
+                                    <td><?= $snOffset + $index + 1 ?></td>
                                     <td>
                                         <?php if (!empty($blog['image'])): ?>
                                             <img src="<?= base_url($blog['image']) ?>" alt="Blog Image" class="img-thumbnail" style="width: 50px; height: 50px; object-fit: cover;">
@@ -57,10 +81,9 @@
                                     <td><?= htmlspecialchars($blog['title']) ?></td>
                                     <td><?= htmlspecialchars($blog['category_name'] ?? 'N/A') ?></td>
                                     <td><code><?= htmlspecialchars($blog['slug']) ?></code></td>
-                                    <!-- <td><?= htmlspecialchars(substr($blog['description'] ?? '', 0, 50)) ?>...</td> -->
-                                    <td class="text-center">
+                                    <td class="text-center" style="white-space: nowrap;">
                                         <a href="<?= route('admin.blogs_admin.edit', ['id' => $blog['id']]) ?>" 
-                                           class="btn btn-sm btn-outline-warning">
+                                           class="btn btn-sm btn-outline-warning" title="Edit Post">
                                             <i class="bi bi-pencil"></i>
                                         </a>
 
@@ -69,7 +92,7 @@
                                               style="display:inline-block;"
                                               onsubmit="return confirm('Are you sure you want to delete this blog post?');">
                                             <?= csrf_token() ?>
-                                            <button type="submit" class="btn btn-sm btn-outline-danger ms-1">
+                                            <button type="submit" class="btn btn-sm btn-outline-danger ms-1" title="Delete">
                                                 <i class="bi bi-trash"></i>
                                             </button>
                                         </form>
@@ -88,5 +111,39 @@
             </div>
         </div>
     </div>
+
+    <!-- Pagination -->
+    <?php if ($totalPages > 1): ?>
+        <nav aria-label="Page navigation" class="mt-4">
+            <ul class="pagination justify-content-center">
+                <?php 
+                $queryParams = $_GET;
+                ?>
+                <!-- Previous Button -->
+                <li class="page-item <?= ($currentPage <= 1) ? 'disabled' : '' ?>">
+                    <?php $queryParams['page'] = $currentPage - 1; ?>
+                    <a class="page-link" href="<?= route('admin.blogs_admin.index', [], $queryParams) . '?' . http_build_query($queryParams) ?>">
+                        <i class="bi bi-chevron-left"></i>
+                    </a>
+                </li>
+
+                <!-- Page Numbers -->
+                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                    <?php $queryParams['page'] = $i; ?>
+                    <li class="page-item <?= ($i === $currentPage) ? 'active' : '' ?>">
+                        <a class="page-link" href="<?= route('admin.blogs_admin.index') . '?' . http_build_query($queryParams) ?>"><?= $i ?></a>
+                    </li>
+                <?php endfor; ?>
+
+                <!-- Next Button -->
+                <li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
+                    <?php $queryParams['page'] = $currentPage + 1; ?>
+                    <a class="page-link" href="<?= route('admin.blogs_admin.index') . '?' . http_build_query($queryParams) ?>">
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    <?php endif; ?>
 
 </main>

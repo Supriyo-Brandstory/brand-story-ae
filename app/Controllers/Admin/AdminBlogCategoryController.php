@@ -19,9 +19,26 @@ class AdminBlogCategoryController extends AdminBaseController // Extend AdminBas
 
     public function index() {
         $this->requireAdminAuth(); // Ensure admin is authenticated
-        $blogCategories = $this->blogCategoryModel->findAll();
+
+        $search = $_GET['search'] ?? '';
+        $perPage = 10;
+        $currentPage = (int)($_GET['page'] ?? 1);
+        if ($currentPage < 1) $currentPage = 1;
+
+        $where = [];
+        if (!empty($search)) {
+            $where['name'] = '%' . $search . '%';
+        }
+
+        $paginationData = $this->blogCategoryModel->paginate($perPage, $currentPage, $where);
+
         return $this->adminView('blog-categories/index', [
-            'blogCategories' => $blogCategories
+            'blogCategories' => $paginationData['data'],
+            'totalItems' => $paginationData['total'],
+            'totalPages' => $paginationData['last_page'],
+            'currentPage' => $paginationData['current_page'],
+            'perPage' => $perPage,
+            'search' => $search
         ]);
     }
 

@@ -10888,3 +10888,410 @@ sup {
     border-radius: 20px;
     transition: transform 0.5s ease;
 }
+
+
+
+/* neewblog templat  */
+
+.neew-blog {
+    font-family: var(--font-main);
+    background: #f9fafb !important;
+    color: #1a1a2e;
+    line-height: 1.75;
+    padding: 0px 0px 50px;
+
+    /* ─── TYPOGRAPHY SCALE ─── */
+    h1 {
+        font-size: clamp(1.8rem, 4vw, 2.6rem);
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: clamp(1.4rem, 3vw, 1.9rem);
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+
+    /* ─── LAYOUT ─── */
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+
+    /* ─── HEADER / HERO ─── */
+    .hero {
+        background: linear-gradient(135deg,
+                #0f3460 0%,
+                #16213e 60%,
+                #1a1a2e 100%);
+        color: #fff;
+        padding: 3.5rem 1.25rem 3rem;
+        text-align: center;
+    }
+
+    .hero .eyebrow {
+        display: inline-block;
+        background: #e83b26;
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 0.3rem 0.9rem;
+        border-radius: 20px;
+        margin-bottom: 1.1rem;
+    }
+
+    .hero h1 {
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    .hero .subtitle {
+        font-size: 1.05rem;
+        color: #a8b2d8;
+        max-width: 640px;
+        margin: 0 auto 1.5rem;
+    }
+
+    .hero .meta {
+        font-size: 0.82rem;
+        color: #64748b;
+    }
+
+    .hero .meta span {
+        margin: 0 0.5rem;
+    }
+
+    /* ─── ARTICLE BODY ─── */
+    .article-body {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem 2rem;
+        margin: 2rem auto;
+        max-width: 90%;
+        box-shadow: 0 2px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    /* ─── INTRO HIGHLIGHT BOX ─── */
+    .intro-box {
+        background: #f0f7ff;
+        border-left: 4px solid #2563eb;
+        border-radius: 8px;
+        padding: 1.2rem 1.4rem;
+        margin-bottom: 2rem;
+        font-size: 16px;
+        color: #1e3a5f;
+    }
+
+    /* ─── QUICK SUMMARY TABLE ─── */
+    .summary-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0 2rem;
+        font-size: 16px;
+    }
+
+    .summary-table th {
+        background: #0f3460;
+        color: #fff;
+        padding: 0.7rem 1rem;
+        text-align: left;
+    }
+
+    .summary-table td {
+        padding: 0.65rem 1rem;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .summary-table tr:nth-child(even) td {
+        background: #f8fafc;
+    }
+
+    .summary-table td:first-child {
+        font-weight: 700;
+        color: #0f3460;
+    }
+
+    .rank-badge {
+        display: inline-block;
+        background: #e83b26;
+        color: #fff;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-right: 0.4rem;
+    }
+
+    /* ─── SECTION HEADINGS ─── */
+    .section-title {
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 0.5rem;
+        margin: 2.5rem 0 1.25rem;
+        color: #0f3460;
+    }
+
+    /* ─── AGENCY CARDS ─── */
+    .agency-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 1.5rem 1.6rem;
+        margin-bottom: 1.8rem;
+        position: relative;
+        transition: box-shadow 0.2s;
+    }
+
+    .agency-card:hover {
+        box-shadow: 0 6px 24px rgba(15, 52, 96, 0.1);
+    }
+
+    .agency-card .card-rank {
+        position: absolute;
+        top: -14px;
+        left: 1.2rem;
+        background: #0f3460;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+    }
+
+    .agency-card.top-pick {
+        border-color: #e83b26;
+        border-width: 2px;
+    }
+
+    .agency-card.top-pick .card-rank {
+        background: #e83b26;
+    }
+
+    .agency-card h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .agency-card h2 a {
+        color: #0f3460;
+        text-decoration: none;
+    }
+
+    .agency-card h2 a:hover {
+        text-decoration: underline;
+    }
+
+    .agency-card .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin: 0.6rem 0 0.9rem;
+    }
+
+    .tag {
+        background: #eff6ff;
+        color: #2563eb;
+        border: 1px solid #bfdbfe;
+        border-radius: 20px;
+        font-size: 0.76rem;
+        padding: 0.2rem 0.65rem;
+        font-weight: 600;
+    }
+
+    .agency-card ul {
+        padding-left: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .agency-card ul li {
+        margin-bottom: 0.35rem;
+    }
+
+    .why-choose {
+        background: #f0fdf4;
+        border-left: 3px solid #16a34a;
+        border-radius: 6px;
+        padding: 0.7rem 1rem;
+        margin-top: 0.9rem;
+        font-size: 0.93rem;
+        color: #14532d;
+    }
+
+    /* ─── HOW TO CHOOSE SECTION ─── */
+    .criteria-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .criteria-card {
+        background: #f8fafc;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        padding: 1.1rem 1.2rem;
+    }
+
+    .criteria-card .icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .criteria-card h3 {
+        font-size: 0.95rem;
+        color: #0f3460;
+        margin-bottom: 0.3rem;
+    }
+
+    .criteria-card p {
+        font-size: 16px;
+        color: #4b5563;
+        margin: 0;
+    }
+
+    /* ─── FAQ SECTION ─── */
+    .faq-item {
+        border-bottom: 1px solid #e5e7eb;
+        padding: 1rem 0;
+    }
+
+    .faq-item:last-child {
+        border-bottom: none;
+    }
+
+    .faq-question {
+        font-weight: 700;
+        color: #0f3460;
+        margin-bottom: 0.4rem;
+        font-size: 1rem;
+    }
+
+    .faq-answer {
+        font-size: 16px;
+        color: #374151;
+    }
+
+    /* ─── CTA BOX ─── */
+    .cta-box {
+        background: linear-gradient(135deg, #0f3460, #e83b26);
+        color: #fff;
+        border-radius: 12px;
+        padding: 2rem 1.8rem;
+        text-align: center;
+        margin: 2.5rem 0;
+    }
+
+    .cta-box h2 {
+        color: #fff;
+        margin-bottom: 0.75rem;
+        font-size: 1.4rem;
+    }
+
+    .cta-box p {
+        color: #f1f5f9;
+        margin-bottom: 1.2rem;
+    }
+
+    .btn {
+        display: inline-block;
+        background: #fff;
+        color: #0f3460;
+        font-weight: 700;
+        padding: 0.75rem 1.8rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+
+    .btn:hover {
+        background: #f1f5f9;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+        background: #0f3460;
+        color: #a8b2d8;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 0.82rem;
+        margin-top: 3rem;
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 600px) {
+        .article-body {
+            padding: 1.5rem 1rem;
+        }
+
+        .summary-table {
+            font-size: 0.82rem;
+        }
+    }
+}
+
+.blog-description {
+    overflow: hidden;
+    /* parent no scroll */
+}
+
+/* Table Base */
+.blog-description table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Header */
+.blog-description table thead {
+    background-color: #f5f7fa;
+}
+
+.blog-description table th {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Body */
+.blog-description table td {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Zebra */
+.blog-description table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Hover */
+.blog-description table tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* ✅ MOBILE FIX (IMPORTANT) */
+@media (max-width: 768px) {
+    .blog-description table {
+        display: inline-block;
+        /* ✅ better than block */
+        overflow-x: auto;
+        /* scroll works */
+        white-space: nowrap;
+        /* prevents wrapping */
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        border: none;
+    }
+}
