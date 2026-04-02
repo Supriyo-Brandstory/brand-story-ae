@@ -19,6 +19,7 @@ Route::get('/customlayout-2', 'FrontendController@customlayout_2', 'customlayout
 
 
 Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
+Route::get('/seo-services-agency-dubai', 'FrontendController@seoServicesAgencyDubai', 'seoservicesagencydubai');
 Route::get('/seo-pricing-dubai', 'FrontendController@seoPricingDubai', 'seopricingdubai');
 Route::get('/on-page-seo-dubai', 'FrontendController@onpageServicesDubai', 'onpageservicesdubai');
 Route::get('/technical-seo-dubai', 'FrontendController@technicalSeoDubai', 'technicalseodubai');
@@ -59,6 +60,7 @@ Route::post('/digital-cost-calculator/submit', 'FrontendController@submitDigital
 
 // industries
 Route::group(['prefix' => '/industries'], function () {
+    Route::get('/', 'FrontendController@industries', 'industries');
     Route::get('/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
     Route::get('/real-estate-ppc-agency-in-dubai-uae', 'FrontendController@realEstatePpcServices', 'realestateppcservices');
     Route::get('/real-estate-seo-agency-in-dubai-uae', 'FrontendController@realEstateSeoServices', 'realestateseoservices');

@@ -112,6 +112,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
+    public function seoServicesAgencyDubai()
+    {
+        $meta = [
+            'classname' => 'seo-agency-dubai'
+        ];
+        return $this->view('services/seo-services-agency-dubai', ['meta' => $meta]);
+    }
     public function digitalMarketingStrategyDubai()
     {
         $meta = [
@@ -330,6 +337,13 @@ class FrontendController extends Controller
 
 
     //  industries
+    public function industries()
+    {
+        $meta = [
+            'classname' => 'industry-page'
+        ];
+        return $this->view('industries/index', ['meta' => $meta]);
+    }
     public function realEstateMerketingServices()
     {
         $meta = [
