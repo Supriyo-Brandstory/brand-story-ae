@@ -2357,4 +2357,36 @@ class FrontendController extends Controller
             'page' => $page
         ]);
     }
+
+    public function serp()
+    {
+        $meta = [
+            // 'classname' => 'industry-page'
+        ];
+        return $this->view('tools/serp', ['meta' => $meta]);
+    }
+
+    public function xmlsitemapgenerator()
+    {
+        $meta = [
+            // 'classname' => 'industry-page'
+        ];
+        return $this->view('tools/xml-sitemap-generator', ['meta' => $meta]);
+    }
+
+    public function robot()
+    {
+        $meta = [
+            // 'classname' => 'robot-page'
+        ];
+        return $this->view('tools/robot', ['meta' => $meta]);
+    }
+
+    public function tools()
+    {
+        $meta = [
+            // 'classname' => 'tools-page'
+        ];
+        return $this->view('tools/index', ['meta' => $meta]);
+    }
 }
