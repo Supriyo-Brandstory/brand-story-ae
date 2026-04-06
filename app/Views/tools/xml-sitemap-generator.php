@@ -225,15 +225,44 @@
 
     /* PROGRESS BAR */
     .custom-progress {
-        height: 10px;
+        height: 14px;
         background: rgba(255, 255, 255, 0.05);
-        border-radius: 10px;
+        border-radius: 20px;
         overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
     }
 
     .custom-progress .progress-bar {
-        background: linear-gradient(90deg, #855BFF, #00D4FF);
-        box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        background: linear-gradient(90deg, #855BFF, #00D4FF, #855BFF);
+        background-size: 200% 100%;
+        box-shadow: 0 0 15px rgba(133, 91, 255, 0.6);
+        transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        animation: progressShimmer 2s linear infinite;
+        position: relative;
+    }
+
+    .custom-progress .progress-bar::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.2),
+            transparent
+        );
+        animation: pipeFlow 1.5s infinite;
+    }
+
+    @keyframes progressShimmer {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 200% 50%; }
+    }
+
+    @keyframes pipeFlow {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
     }
 
     /* RESULT VIEW */
