@@ -108,8 +108,7 @@ class FrontendController extends Controller
     }
     public function seoServicesDubai()
     {
-        $meta = [
-        ];
+        $meta = [];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
     public function seoServicesAgencyDubai()
@@ -2369,9 +2368,7 @@ class FrontendController extends Controller
     public function xmlsitemapgenerator()
     {
         $meta = [
-            'title' => 'Free XML Sitemap Generator Tool | BrandStory Dubai',
-            'description' => 'Generate high-quality XML sitemaps for your website with our free tool. Help search engines crawl and index your site effectively for better SEO ranking.',
-            'classname' => 'tools-page sitemap-generator'
+            'classname' => 'sitemap-page em-dubai-page service-pages'
         ];
         return $this->view('tools/xml-sitemap-generator', ['meta' => $meta]);
     }
@@ -2398,7 +2395,7 @@ class FrontendController extends Controller
             $domain = $parsedStartUrl['host'];
 
             // Limit to avoid infinite loops in case of dynamic routes
-            $maxSafetyLimit = 2000; 
+            $maxSafetyLimit = 2000;
 
             $startTime = time();
             $timeoutLimit = 600; // 10 minutes in seconds
@@ -2440,8 +2437,10 @@ class FrontendController extends Controller
                 preg_match_all('/<a\s+(?:[^>]*?\s+)?href=["\']([^"\']*)["\']/i', $html, $matches);
                 foreach ($matches[1] as $link) {
                     // Comprehensive filtering
-                    if (empty($link) || $link[0] == '#' || 
-                        preg_match('/^(javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)) {
+                    if (
+                        empty($link) || $link[0] == '#' ||
+                        preg_match('/^(javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)
+                    ) {
                         continue;
                     }
 
@@ -2494,7 +2493,6 @@ class FrontendController extends Controller
                 'xml' => $xml,
                 'pages_found' => count($sitemap)
             ]);
-            
         } catch (\Exception $e) {
             echo json_encode([
                 'status' => 'error',
@@ -2508,7 +2506,7 @@ class FrontendController extends Controller
     public function robot()
     {
         $meta = [
-            // 'classname' => 'robot-page'
+            'classname' => 'sitemap-page em-dubai-page service-pages'
         ];
         return $this->view('tools/robot', ['meta' => $meta]);
     }
