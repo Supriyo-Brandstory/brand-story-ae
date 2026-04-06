@@ -366,6 +366,7 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/', 'FrontendController@tools', 'tools');
     Route::get('/serp', 'FrontendController@serp', 'serp');
     Route::get('/xml-sitemap-generator', 'FrontendController@xmlsitemapgenerator', 'xmlsitemapgenerator');
+    Route::post('/xml-sitemap-generator/generate', 'FrontendController@generateSitemapAction', 'xmlsitemapgenerator.generate');
     Route::get('/robot', 'FrontendController@robot', 'robot');
 });
 
