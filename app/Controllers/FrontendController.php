@@ -2400,7 +2400,15 @@ class FrontendController extends Controller
             // Limit to avoid infinite loops in case of dynamic routes
             $maxSafetyLimit = 2000; 
 
+            $startTime = time();
+            $timeoutLimit = 600; // 10 minutes in seconds
+
             while (!empty($queue) && count($visited) < $maxSafetyLimit) {
+                // Check for explicit timeout
+                if ((time() - $startTime) > $timeoutLimit) {
+                    throw new \Exception('Crawl timed out (10 min limit reached). Please try a smaller site or optimize your server settings.');
+                }
+
                 $currentUrl = array_shift($queue);
                 if (in_array($currentUrl, $visited)) continue;
 
