@@ -49,13 +49,13 @@
                         </button>
                     </form>
 
-                    <div id="progressSection" class="mt-5 d-none">
-                        <div class="progress-label text-white mb-2 d-flex justify-content-between">
-                            <span>Crawling Website...</span>
-                            <span id="progressPercent">0%</span>
+                    <div id="progressSection" class="mt-5 d-none text-start">
+                        <div class="progress-info d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-white fw-400">Crawling Website...</span>
+                            <span id="progressPercent" class="text-white fw-600">0%</span>
                         </div>
-                        <div class="progress custom-progress">
-                            <div id="progressBar" class="progress-bar progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                        <div class="custom-linear-progress">
+                            <div id="progressBar" class="progress-fill" style="width: 0%"></div>
                         </div>
                     </div>
 
@@ -223,46 +223,28 @@
         color: #855BFF;
     }
 
-    /* PROGRESS BAR */
-    .custom-progress {
-        height: 14px;
+    /* LINEAR PROGRESS BAR */
+    .custom-linear-progress {
+        height: 12px;
+        width: 100%;
         background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 20px;
         overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
-    }
-
-    .custom-progress .progress-bar {
-        background: linear-gradient(90deg, #855BFF, #00D4FF, #855BFF);
-        background-size: 200% 100%;
-        box-shadow: 0 0 15px rgba(133, 91, 255, 0.6);
-        transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        animation: progressShimmer 2s linear infinite;
         position: relative;
     }
 
-    .custom-progress .progress-bar::after {
-        content: '';
-        position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: linear-gradient(
-            90deg,
-            transparent,
-            rgba(255, 255, 255, 0.2),
-            transparent
-        );
-        animation: pipeFlow 1.5s infinite;
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #855BFF, #6830FF);
+        box-shadow: 0 0 15px rgba(133, 91, 255, 0.5);
+        transition: width 0.4s ease-out;
+        border-radius: 20px;
     }
 
-    @keyframes progressShimmer {
-        0% { background-position: 0% 50%; }
-        100% { background-position: 200% 50%; }
-    }
-
-    @keyframes pipeFlow {
-        0% { transform: translateX(-100%); }
-        100% { transform: translateX(100%); }
+    .progress-info {
+        font-size: 16px;
+        letter-spacing: 0.5px;
     }
 
     /* RESULT VIEW */
@@ -349,7 +331,7 @@
 
         // UI Setup
         btn.disabled = true;
-        btnText.innerText = 'Crawling Website...';
+        btnText.innerText = 'Initializing...';
         spinner.classList.remove('d-none');
         resultContainer.classList.add('d-none');
         progressSection.classList.remove('d-none');
@@ -357,12 +339,12 @@
         // Start Progress Animation
         let progress = 0;
         const progressInterval = setInterval(() => {
-            if (progress < 90) {
-                progress += Math.random() * 5;
-                if (progress > 90) progress = 90;
+            if (progress < 92) {
+                progress += Math.random() * 3;
+                if (progress > 92) progress = 92;
                 updateProgress(progress);
             }
-        }, 400);
+        }, 300);
 
         function updateProgress(val) {
             progressBar.style.width = val + '%';
