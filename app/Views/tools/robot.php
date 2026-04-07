@@ -5,10 +5,9 @@
     <div class="grid-overlay-dark"></div>
 
     <div class="container text-center position-relative z-1 animate-fadeIn">
-        <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Protocol Edition</div>
-        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">Robots.txt Architecture</h1>
-        <p class="text-white-50 fs-20 mb-5 max-w-850 mx-auto line-h-1-6">Configure search engine accessibility with precision. Generate protocol-compliant robots.txt files to optimize crawl budgets and secure sensitive system directories.</p>
-
+        <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Robots.txt</div>
+        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">Free Robots.txt Generator</h1>
+        <p class="text-white fs-20 mb-5 max-w-850 mx-auto line-h-1-6">Our Free Robots.txt Generator helps you quickly create a customized robots.txt file for your website <br>without any technical complexity. <br><br>A robots.txt file is placed in the root directory of your website and acts as a set of instructions for search engine <br>crawlers. Platforms like Google, Bing, and Yandex use automated bots to scan and index your website content. However, not every page needs to be visible in search results. Sections like admin panels, private folders, or duplicate content pages can be restricted from crawling using this file.</p>
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="premium-glass-card p-4 p-md-5 border-glass shadow-glass text-start">
@@ -100,57 +99,72 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <div class="content-card">
-                    <h2 class="mb-4 fw-800 text-dark">Why is Robots.txt Critical for technical SEO?</h2>
-                    <p class="text-muted fs-18">A robots.txt file is the first handshake between your server and external search bots. It acts as the gatekeeper, telling Google, Bing, and other crawlers precisely where they are welcome—and where they are restricted.</p>
+                    <h2 class="mb-4 fw-800 text-dark">Why Use Robots.txt Generator?</h2>
+                    <p class="text-muted fs-18">A robots.txt file is a simple yet powerful way to guide search engine crawlers like Google on how to interact with your website. It follows the Robots Exclusion Protocol, allowing you to control which pages should or shouldn’t be indexed. Since even a small error can impact your site’s visibility, using a robots.txt generator ensures accurate configuration without the risk of blocking important pages.</p>
                     <ul class="benefit-list mt-4 p-0 list-unstyled">
                         <li class="mb-3 d-flex align-items-start text-dark">
                             <i class="ion-checkmark-circled text-purple me-3 mt-1"></i>
-                            <span><strong>Crawl Budget Control:</strong> Prevent bots from wasting time on unndecessary directories.</span>
+                            <span>Helps control crawler access using directives like “User-agent,” “Allow,” and “Disallow”.</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start text-dark">
                             <i class="ion-checkmark-circled text-purple me-3 mt-1"></i>
-                            <span><strong>Privacy Layers:</strong> Hide administrative and system-level folders from public indexing.</span>
+                            <span>Prevents Search Engine Indexing of duplicate, private, or under-development pages.</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start text-dark">
                             <i class="ion-checkmark-circled text-purple me-3 mt-1"></i>
-                            <span><strong>Structural Integrity:</strong> Ensure that only high-value pages appear in search engine results.</span>
+                            <span>Saves time and avoids errors compared to manual robots.txt file creation.</span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="/assets/images/97634.webp" alt="Robots Illustration" class="img-fluid rounded-5xx" style="height: 450px !important;">
+                <img src="/assets/images/robots.webp" alt="Robots Illustration" class="img-fluid rounded-5xx" style="height: 450px !important;">
             </div>
         </div>
     </div>
 </section>
 
+<section class="perks-of-w sp-50 benefits-of-choosing">
+    <div class="container"><!--Container Start-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-3">What Is Robots.txt in SEO?</h2>
+                <p>A robots.txt file is a small yet essential component of your website that helps search engines like Google understand how to crawl your pages. It acts as a set of instructions for bots, telling them which areas of <b>your site should be indexed</b> and which should be ignored. While search engines can still crawl your website without it, having a properly configured robots.txt file improves <b>crawl efficiency</b>, helps manage your crawl budget, and ensures important pages are discovered faster.</p><br>
+                <p>Search engines operate on a limited crawl budget, meaning they allocate a specific amount of time and resources to scan your site. If your website contains unnecessary or duplicate pages, it can waste this budget and delay indexing of important content. A well-optimized robots.txt file, along with a sitemap, ensures that crawlers focus on high-value pages, improving visibility and indexing speed.</p><br>
+                <h2 class="mb-3">Easily Create A Robots.txt File</h2>
+                <p>Creating a robots.txt file manually can be time-consuming and prone to errors, especially for larger websites with complex structures. We are the <a href="http://brand-story-ae.test/seo-services-in-dubai" target="_blank"><b>best SEO agency in Dubai</b></a> and our Robots.txt Generator simplifies this process by allowing you to define crawling rules without any technical expertise. You can easily set default instructions for all search engine bots, add your sitemap to improve crawl guidance, and control access to important sections like pages, images, and mobile versions.</p>
+                <p>With just a few inputs, the tool generates a clean, accurate, and SEO-friendly robots.txt file that helps search engines like Google crawl your website more efficiently. It also ensures that sensitive or unnecessary sections are properly restricted, helping you optimize crawl budget and maintain better control over your website’s indexing.</p>
+            </div>
+        </div>
+    </div>
+</section>    
+
 <section class="how-it-works-section sp-100 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-800 text-dark">How Our Generator Works</h2>
+            <h2 class="fw-800 text-dark">How Our Robots.txt Generator Works</h2>
             <p class="text-muted max-w-700 mx-auto">Configure your crawl policies in seconds with our intelligence-first generator.</p>
         </div>
         <div class="row g-4">
             <div class="col-md-4 text-center">
                 <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
                     <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">01</div>
-                    <h4 class="fw-700 mb-3">Define Policy</h4>
-                    <p class="text-muted fs-14">Set your default crawl behavior and specified user-agents.</p>
+                    <h4 class="fw-700 mb-3">Define Rules</h4>
+                    <p class="text-muted fs-14">Start by setting your default crawl behavior and specifying user-agents. This helps search engines like Google understand how to interact with your website.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
                     <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">02</div>
-                    <h4 class="fw-700 mb-3">Map Restrictions</h4>
-                    <p class="text-muted fs-14">Input the directories or system files you wish to exclude from search bots.</p>
+                    <h4 class="fw-700 mb-3">Add Restrictions</h4>
+                    <p class="text-muted fs-14">Enter the directories, pages, or system files you want to block from crawlers. You can also allow specific URLs while restricting others for better control.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
                     <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">03</div>
-                    <h4 class="fw-700 mb-3">Deploy Result</h4>
-                    <p class="text-muted fs-14">Export your valid robots.txt and upload it to your server's root directory.</p>
+                    <h4 class="fw-700 mb-3">Generate & Deploy</h4>
+                    <p class="text-muted fs-14">EInstantly generate a clean, valid robots.txt file and upload it to your website’s root directory to start guiding search engine bots effectively.</p>
                 </div>
             </div>
         </div>
@@ -159,25 +173,25 @@
 
 <section class="sp-50 bg-light">
     <div class="container"><!--Container Start-->
-        <h2 class="text-center text-dark mb-5 fw-800">Trusted by Global Tech Ecosystems</h2>
+        <h2 class="text-center text-dark mb-5 fw-800">Trusted by Global Brands</h2>
         <?php include __DIR__ . '/../component/services/clients.php' ?>
     </div><!--Container End-->
 </section>
 
 <section class="site-faq sp-100 bg-white border-top">
     <div class="container">
-        <h2 class="text-center fw-800 mb-5 text-dark">Technical Documentation (FAQ)</h2>
+        <h2 class="text-center fw-800 mb-5 text-dark">Frequently Asked Questions</h2>
         <div class="accordion max-w-800 mx-auto" id="accordionSitemap">
 
             <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                 <h2 class="accordion-header" id="faqh1">
                     <button class="accordion-button fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc1">
-                        Does robots.txt guarantee page privacy?
+                        Is robots.txt necessary for every website?
                     </button>
                 </h2>
                 <div id="faqc1" class="accordion-collapse collapse show" data-bs-parent="#accordionSitemap">
                     <div class="accordion-body text-muted line-h-1-8">
-                        No. Robots.txt is a protocol, not a security wall. It tells search engines not to crawl a page, but it won't stop malicious scrapers. For true privacy, use password protection or `noindex` tags.
+                        A robots.txt file is not mandatory for a website. Search engines like Google can still crawl and index your site without it. However, it is recommended for better control over crawling, as it helps block unnecessary pages, manage crawl budget, and improve indexing efficiency.
                     </div>
                 </div>
             </div>
@@ -185,12 +199,25 @@
             <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                 <h2 class="accordion-header" id="faqh2">
                     <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc2">
-                        Where must this file reside on my server?
+                        Can robots.txt block my website from search results completely?
                     </button>
                 </h2>
                 <div id="faqc2" class="accordion-collapse collapse" data-bs-parent="#accordionSitemap">
                     <div class="accordion-body text-muted line-h-1-8">
-                        It must always reside in the root directory (e.g., `brandstory.ae/robots.txt`). Bots will not look for it in subdirectories or internal script folders.
+                        Yes, if configured incorrectly. A wrong “Disallow” directive can block important pages or even your entire website from being indexed, which is why careful setup is essential.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                <h2 class="accordion-header" id="faqh2">
+                    <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc2">
+                        How does your robots.txt generator help?
+                    </button>
+                </h2>
+                <div id="faqc2" class="accordion-collapse collapse" data-bs-parent="#accordionSitemap">
+                    <div class="accordion-body text-muted line-h-1-8">
+                        Our robots.txt generator simplifies the process by automatically creating a valid and optimized robots.txt file based on your website and inputs, reducing errors and ensuring proper crawl control for better SEO performance.
                     </div>
                 </div>
             </div>
