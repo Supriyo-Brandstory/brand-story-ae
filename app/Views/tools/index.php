@@ -557,7 +557,7 @@
     }
 
     .cyber-btn-outline:hover {
-        background: rgba(133, 91, 255, 0.2);
+        background: rgba(133, 91, 255);
         transform: scale(1.05);
     }
 

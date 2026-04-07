@@ -1,4 +1,8 @@
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
+
 <section class="sitemap-generator-section bg-premium-dark sp-120 position-relative overflow-hidden">
+
     <!-- Sophisticated Dark Background Elements -->
     <div class="glow-blob-1"></div>
     <div class="glow-blob-2"></div>
@@ -13,16 +17,36 @@
                 <div class="premium-glass-card p-4 p-md-5 border-glass shadow-glass text-start">
                     <form id="robotsForm">
                         <div class="row g-4">
+                            <div class="col-12">
+                                <label class="text-white-50 mb-2 fs-14 fw-600">Select Search Robots to Permit/Restricted</label>
+                                <select id="searchRobots" class="form-select select2-dark" multiple="multiple">
+                                    <option value="*" selected>All Search Robots (Standard)</option>
+                                    <optgroup label="Common Search Engines">
+                                        <option value="Googlebot">Googlebot (Google)</option>
+                                        <option value="Bingbot">Bingbot (Bing)</option>
+                                        <option value="Slurp">Slurp (Yahoo)</option>
+                                        <option value="DuckDuckBot">DuckDuckBot (DuckDuckGo)</option>
+                                        <option value="Baiduspider">Baiduspider (Baidu)</option>
+                                        <option value="YandexBot">Yandex (Yandex)</option>
+                                    </optgroup>
+                                    <optgroup label="Social Media Bots">
+                                        <option value="Facebot">Facebot (Facebook)</option>
+                                        <option value="Twitterbot">Twitterbot (X.com)</option>
+                                        <option value="Pinterest">Pinterest (Pinterest)</option>
+                                    </optgroup>
+                                </select>
+                            </div>
                             <div class="col-md-6">
+
                                 <label class="text-white-50 mb-2 fs-14 fw-600">Default Crawler Policy</label>
-                                <select id="defaultPolicy" class="form-select dark-select">
+                                <select id="defaultPolicy" class="form-select dark-select select2-single-dark">
                                     <option value="allow">Allow All (Default)</option>
                                     <option value="disallow">Disallow All (Restricted)</option>
                                 </select>
                             </div>
                             <div class="col-md-6">
                                 <label class="text-white-50 mb-2 fs-14 fw-600">Crawl Delay (Seconds)</label>
-                                <select id="crawlDelay" class="form-select dark-select">
+                                <select id="crawlDelay" class="form-select dark-select select2-single-dark">
                                     <option value="">Standard (No Delay)</option>
                                     <option value="5">5s (Conservative)</option>
                                     <option value="10">10s (High Safety)</option>
@@ -137,7 +161,7 @@
             </div>
         </div>
     </div>
-</section>    
+</section>
 
 <section class="how-it-works-section sp-100 bg-white">
     <div class="container">
@@ -446,12 +470,156 @@
             font-size: 10px;
             letter-spacing: 2px;
         }
+
+        /* SELECT2 DARK THEME OVERRIDE */
+        .select2-container--default .select2-selection--multiple,
+        .select2-container--default .select2-selection--single {
+            background-color: rgba(255, 255, 255, 0.05) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            border-radius: 12px !important;
+            min-height: 48px;
+            padding: 4px 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* SPECIFIC TARGET FOR ROBOTS FIELD (30PX) */
+        .select2-container:has(#searchRobots) .select2-selection--multiple,
+        #searchRobots+.select2-container .select2-selection--multiple {
+            min-height: 30px !important;
+            padding: 10px 8px !important;
+            border-radius: 8px !important;
+            display: flex !important;
+            align-items: flex-start !important;
+            height: auto !important;
+            overflow: hidden;
+        }
+
+        #searchRobots+.select2-container .select2-selection__rendered {
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+            width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            list-style: none !important;
+        }
+
+        #searchRobots+.select2-container .select2-selection__choice {
+            margin-top: 2px !important;
+            margin-bottom: 2px !important;
+            padding: 0 8px 0 0 !important;
+            font-size: 13px !important;
+            line-height: 22px !important;
+            display: flex !important;
+            align-items: center !important;
+            border-radius: 4px !important;
+        }
+
+        #searchRobots+.select2-container .select2-selection__choice__remove {
+            position: relative !important;
+            margin-right: 0 !important;
+            padding: 0 8px !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+            color: #855BFF !important;
+            font-size: 14px !important;
+            display: inline-flex !important;
+        }
+
+        #searchRobots+.select2-container .select2-search__field {
+            margin-top: 4px !important;
+            font-size: 13px !important;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            color: #fff !important;
+            padding-left: 10px !important;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            height: 48px !important;
+            right: 15px !important;
+        }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice {
+            background-color: rgba(133, 91, 255, 0.2) !important;
+            border: 1px solid rgba(133, 91, 255, 0.4) !important;
+            color: #fff !important;
+            border-radius: 6px !important;
+            padding: 1px 10px !important;
+            margin-top: 4px !important;
+            font-size: 13px;
+        }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+            color: #855BFF !important;
+            margin-right: 8px !important;
+            border: none !important;
+            background: none !important;
+        }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #fff !important;
+            background: none !important;
+        }
+
+        .select2-container--default .select2-search--inline .select2-search__field {
+            color: #fff !important;
+            font-family: 'Inter', sans-serif !important;
+            margin-top: 4px !important;
+        }
+
+        .select2-dropdown {
+            background-color: #0b0d11 !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            border-radius: 16px !important;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        .select2-results__option {
+            background-color: #0b0d11 !important;
+            color: rgba(255, 255, 255, 0.6) !important;
+            font-size: 14px;
+            padding: 12px 20px !important;
+        }
+
+        .select2-results__option--highlighted[aria-selected] {
+            background-color: #855BFF !important;
+            color: #fff !important;
+        }
+
+        .select2-results__group {
+            color: #855BFF !important;
+            font-weight: 800 !important;
+            font-size: 11px !important;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 15px 20px 5px !important;
+        }
     }
 </style>
 
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Select2 if available
+        if (typeof jQuery !== 'undefined' && typeof jQuery.fn.select2 !== 'undefined') {
+            $('.select2-dark').select2({
+                placeholder: "Select robots",
+                allowClear: true,
+                width: '100%'
+            });
+
+            $('.select2-single-dark').select2({
+                minimumResultsForSearch: Infinity,
+                width: '100%'
+            });
+        }
+
         const robotsForm = document.getElementById('robotsForm');
+
         const rulesContainer = document.getElementById('rulesContainer');
         const addRuleBtn = document.getElementById('addRule');
 
@@ -481,28 +649,52 @@
             const policy = document.getElementById('defaultPolicy').value;
             const delay = document.getElementById('crawlDelay').value;
             const sitemap = document.getElementById('sitemapUrl').value.trim();
+            const selectedRobots = $('#searchRobots').val() || ['*'];
             const ruleInputs = rulesContainer.querySelectorAll('input');
 
-            let output = "User-agent: *\n";
+            let output = "";
+            let rules = "";
 
+            // Prepare the rules block
             if (policy === 'disallow') {
-                output += "Disallow: /\n";
+                rules += "Disallow: /\n";
             } else {
                 ruleInputs.forEach(input => {
-                    if (input.value.trim()) {
-                        output += `Disallow: ${input.value.trim()}\n`;
+                    const path = input.value.trim();
+                    if (path) {
+                        rules += `Disallow: ${path}\n`;
                     }
                 });
-                output += "Allow: /\n";
+                rules += "Allow: /\n";
             }
 
             if (delay) {
-                output += `Crawl-delay: ${delay}\n`;
+                rules += `Crawl-delay: ${delay}\n`;
             }
+
+            // Separate '*' from specific bots
+            const hasStar = selectedRobots.includes('*');
+            const specificBots = selectedRobots.filter(bot => bot !== '*');
+
+            // 1. Generate blocks for specific bots (if any)
+            if (specificBots.length > 0) {
+                specificBots.forEach(bot => {
+                    output += `User-agent: ${bot}\n`;
+                });
+                output += rules + "\n";
+            }
+
+            // 2. Generate block for all robots (if selected or default)
+            if (hasStar || selectedRobots.length === 0) {
+                output += `User-agent: *\n`;
+                output += rules + "\n";
+            }
+
 
             if (sitemap) {
                 output += `Sitemap: ${sitemap}\n`;
             }
+
 
             document.getElementById('robotPreview').innerText = output;
             document.getElementById('resultContainer').classList.remove('d-none');
