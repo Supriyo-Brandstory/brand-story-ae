@@ -2361,7 +2361,7 @@ class FrontendController extends Controller
     public function serp()
     {
         $meta = [
-            // 'classname' => 'industry-page'
+            'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('tools/serp', ['meta' => $meta]);
     }
@@ -2369,7 +2369,7 @@ class FrontendController extends Controller
     public function xmlsitemapgenerator()
     {
         $meta = [
-            // 'classname' => 'industry-page'
+            'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('tools/xml-sitemap-generator', ['meta' => $meta]);
     }
@@ -2377,7 +2377,7 @@ class FrontendController extends Controller
     public function robot()
     {
         $meta = [
-            // 'classname' => 'robot-page'
+            'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('tools/robot', ['meta' => $meta]);
     }
@@ -2385,7 +2385,7 @@ class FrontendController extends Controller
     public function tools()
     {
         $meta = [
-            // 'classname' => 'tools-page'
+            'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('tools/index', ['meta' => $meta]);
     }
