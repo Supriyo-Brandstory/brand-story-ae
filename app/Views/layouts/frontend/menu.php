@@ -118,6 +118,14 @@
                     <a href="/blog/" class="mlink">Blogs </a>
                 </div>
             </li>
+
+            <li class="parent-link">
+            <li class="parent-link">
+                <div class="d-flex align-itmes-center">
+                    <a href="<?= route('tools') ?>" class="mlink">Tools</a>
+                </div>
+            </li>
+
         </ul>
 
     </div>

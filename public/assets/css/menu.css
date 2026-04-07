@@ -522,7 +522,7 @@
 
     .menu.m-menu {
         float: right;
-        margin-right: 23%;
+        margin-right: 20%;
     }
 
     .m-menu>ul>li>ul.m-menu-submenu {
@@ -566,8 +566,7 @@
 
 .hire-submenu ul li a:hover,
 .register-submenu ul li a:hover,
-.menu>ul>li>ul>li a:hover
-{
+.menu>ul>li>ul>li a:hover {
     color: #FF5200
 }
 
@@ -642,11 +641,12 @@
         color: #00000099;
     }
 
-   
+
 }
- li.li-headeing {
-        border: solid #e83b24;
-        border-width: 0 0 2px 0;
-        font-weight: 500;
-        line-height: 30px;
-    }
+
+li.li-headeing {
+    border: solid #e83b24;
+    border-width: 0 0 2px 0;
+    font-weight: 500;
+    line-height: 30px;
+}
