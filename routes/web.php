@@ -366,7 +366,8 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/', 'FrontendController@tools', 'tools');
     Route::get('/serp-simulator', 'FrontendController@serp', 'serp-simulator');
     Route::get('/xml-sitemap-generator', 'FrontendController@xmlsitemapgenerator', 'xmlsitemapgenerator');
-    Route::get('/robot', 'FrontendController@robot', 'robot');
+    Route::post('/xml-sitemap-generator/generate', 'FrontendController@generateSitemapAction', 'xmlsitemapgenerator.generate');
+    Route::get('/robot-txt-generator', 'FrontendController@robot', 'robot');
 });
 
 // Dynamic Page Routing - Catch-all for slug at root (supports sub-paths with *)

@@ -95,15 +95,29 @@
                         <a class="page-link" href="<?= $prevUrl ?>"><i class="bi bi-chevron-left"></i> Previous</a>
                     </li>
                     
-                    <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                        <li class="page-item <?= ($i == $currentPage) ? 'active' : '' ?>">
-                            <?php 
+                    <?php 
+                    $range = 2; // Number of pages to show before and after current page
+                    $showEllipsis = true;
+
+                    for ($i = 1; $i <= $totalPages; $i++):
+                        // Always show first page, last page, and pages within range of current page
+                        if ($i == 1 || $i == $totalPages || ($i >= $currentPage - $range && $i <= $currentPage + $range)):
+                            $showEllipsis = true;
                             $queryParams['page'] = $i;
                             $pageUrl = '?' . http_build_query($queryParams);
-                            ?>
-                            <a class="page-link" href="<?= $pageUrl ?>"><?= $i ?></a>
-                        </li>
-                    <?php endfor; ?>
+                    ?>
+                            <li class="page-item <?= ($i == $currentPage) ? 'active' : '' ?>">
+                                <a class="page-link" href="<?= $pageUrl ?>"><?= $i ?></a>
+                            </li>
+                    <?php 
+                        elseif ($showEllipsis): 
+                            $showEllipsis = false;
+                    ?>
+                            <li class="page-item disabled"><span class="page-link">...</span></li>
+                    <?php 
+                        endif;
+                    endfor; 
+                    ?>
                     
                     <li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
                         <?php 

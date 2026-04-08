@@ -108,8 +108,7 @@ class FrontendController extends Controller
     }
     public function seoServicesDubai()
     {
-        $meta = [
-        ];
+        $meta = [];
         return $this->view('services/seo-services-in-dubai', ['meta' => $meta]);
     }
     public function seoServicesAgencyDubai()
@@ -2369,15 +2368,145 @@ class FrontendController extends Controller
     public function xmlsitemapgenerator()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'sitemap-page em-dubai-page service-pages'
         ];
         return $this->view('tools/xml-sitemap-generator', ['meta' => $meta]);
     }
 
+    public function generateSitemapAction()
+    {
+        try {
+            header('Content-Type: application/json');
+            set_time_limit(600); // 10 minutes
+            ini_set('memory_limit', '512M'); // Increase memory
+
+            $url = $_POST['url'] ?? '';
+            if (empty($url) || !filter_var($url, FILTER_VALIDATE_URL)) {
+                throw new \Exception('Please enter a valid website URL.');
+            }
+
+            $changefreq = $_POST['changefreq'] ?? 'weekly';
+            $priority = $_POST['priority'] ?? '0.5';
+
+            $visited = [];
+            $queue = [$url];
+            $sitemap = [];
+            $parsedStartUrl = parse_url($url);
+            $domain = $parsedStartUrl['host'];
+
+            // Limit to avoid infinite loops in case of dynamic routes
+            $maxSafetyLimit = 2000;
+
+            $startTime = time();
+            $timeoutLimit = 600; // 10 minutes in seconds
+
+            while (!empty($queue) && count($visited) < $maxSafetyLimit) {
+                // Check for explicit timeout
+                if ((time() - $startTime) > $timeoutLimit) {
+                    throw new \Exception('Crawl timed out (10 min limit reached). Please try a smaller site or optimize your server settings.');
+                }
+
+                $currentUrl = array_shift($queue);
+                if (in_array($currentUrl, $visited)) continue;
+
+                $visited[] = $currentUrl;
+
+                // Fetch content using cURL
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $currentUrl);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                curl_setopt($ch, CURLOPT_USERAGENT, 'BrandStory-SitemapGenerator/1.0');
+                curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+                $html = curl_exec($ch);
+                $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                curl_close($ch);
+
+                if ($html === false || $httpCode !== 200 || strpos($contentType, 'text/html') === false) continue;
+
+                $sitemap[] = [
+                    'loc' => $currentUrl,
+                    'lastmod' => date('Y-m-d'),
+                    'changefreq' => $changefreq,
+                    'priority' => $priority
+                ];
+
+                // Extract links
+                preg_match_all('/<a\s+(?:[^>]*?\s+)?href=["\']([^"\']*)["\']/i', $html, $matches);
+                foreach ($matches[1] as $link) {
+                    // Comprehensive filtering
+                    if (
+                        empty($link) || $link[0] == '#' ||
+                        preg_match('/^(javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)
+                    ) {
+                        continue;
+                    }
+
+                    // Extension filtering - skip media/docs
+                    if (preg_match('/\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|rar|exe|mp4|doc|docx|xls|xlsx|ppt|pptx)$/i', $link)) {
+                        continue;
+                    }
+
+                    if (strpos($link, 'http') !== 0) {
+                        if (strpos($link, '/') === 0) {
+                            $link = $parsedStartUrl['scheme'] . '://' . $domain . $link;
+                        } else {
+                            $baseUrl = $currentUrl;
+                            if (substr($baseUrl, -1) !== '/') {
+                                $baseUrl = dirname($baseUrl) . '/';
+                            }
+                            $link = $baseUrl . $link;
+                        }
+                    }
+
+                    $link = strtok($link, '#'); // Remove anchors
+                    $link = strtok($link, '?'); // Remove query params
+
+                    $parsedLink = parse_url($link);
+                    if (isset($parsedLink['host']) && $parsedLink['host'] === $domain) {
+                        if (!filter_var($link, FILTER_VALIDATE_URL)) continue;
+
+                        if (!in_array($link, $visited) && !in_array($link, $queue)) {
+                            $queue[] = $link;
+                        }
+                    }
+                }
+            }
+
+            // Generate XML
+            $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+            $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+            foreach ($sitemap as $item) {
+                $xml .= "  <url>\n";
+                $xml .= "    <loc>" . htmlspecialchars($item['loc']) . "</loc>\n";
+                $xml .= "    <lastmod>" . $item['lastmod'] . "</lastmod>\n";
+                $xml .= "    <changefreq>" . $item['changefreq'] . "</changefreq>\n";
+                $xml .= "    <priority>" . $item['priority'] . "</priority>\n";
+                $xml .= "  </url>\n";
+            }
+            $xml .= '</urlset>';
+
+            echo json_encode([
+                'status' => 'success',
+                'xml' => $xml,
+                'pages_found' => count($sitemap)
+            ]);
+        } catch (\Exception $e) {
+            echo json_encode([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
+        }
+        exit;
+    }
+
+
     public function robot()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'sitemap-page em-dubai-page service-pages'
         ];
         return $this->view('tools/robot', ['meta' => $meta]);
     }

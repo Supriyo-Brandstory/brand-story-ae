@@ -118,12 +118,27 @@
                     </a>
                 </li>
 
-                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <?php $queryParams['page'] = $i; ?>
-                    <li class="page-item <?= ($i === $currentPage) ? 'active' : '' ?>">
-                        <a class="page-link" href="<?= route('admin.blogCategories.index') . '?' . http_build_query($queryParams) ?>"><?= $i ?></a>
-                    </li>
-                <?php endfor; ?>
+                <!-- Page Numbers -->
+                <?php 
+                $range = 2;
+                $showEllipsis = true;
+                for ($i = 1; $i <= $totalPages; $i++):
+                    if ($i == 1 || $i == $totalPages || ($i >= $currentPage - $range && $i <= $currentPage + $range)):
+                        $showEllipsis = true;
+                        $queryParams['page'] = $i;
+                ?>
+                        <li class="page-item <?= ($i === $currentPage) ? 'active' : '' ?>">
+                            <a class="page-link" href="<?= route('admin.blogCategories.index') . '?' . http_build_query($queryParams) ?>"><?= $i ?></a>
+                        </li>
+                <?php 
+                    elseif ($showEllipsis): 
+                        $showEllipsis = false;
+                ?>
+                        <li class="page-item disabled"><span class="page-link">...</span></li>
+                <?php 
+                    endif;
+                endfor; 
+                ?>
 
                 <li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
                     <?php $queryParams['page'] = $currentPage + 1; ?>
