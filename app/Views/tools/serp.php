@@ -338,7 +338,148 @@
 </section>
 
 
+<section class="site-faq sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Frequenly Asked Questions</h2>
+        <div class="accordion spt-50" id="accordionFB"><!--Accordion Start-->
 
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc1" aria-expanded="true">
+                        What does a Facebook marketing agency in Dubai actually do for your business?
+                    </button>
+                </h2>
+                <div id="fbfc1" class="accordion-collapse collapse show" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        A Facebook marketing agency in Dubai takes ownership of your entire paid and organic presence on the Meta platform. On the paid side, this means building audience strategy, producing ad creatives, writing copy, structuring campaigns in Meta Ads Manager, installing and configuring the Facebook Pixel, managing daily performance, running A/B tests, and delivering results-focused reports. On the organic side, it includes managing your Facebook business page, creating content, and growing community engagement. The end goal is always the same - turning your Facebook presence into a predictable, scalable source of leads, sales, and brand growth for your business in the UAE.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc2" aria-expanded="false">
+                        How is running Facebook Ads in Dubai different from other markets?
+                    </button>
+                </h2>
+                <div id="fbfc2" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p>Several factors make the Dubai and UAE Facebook market genuinely different from Western markets. The audience is highly multicultural - over 200 nationalities - which means a single campaign approach rarely works for everyone. Arabic-language content is essential for reaching Emirati and Arab-speaking audiences effectively. Peak usage times differ from Europe and the US. The competitive landscape across high-value sectors like real estate, finance, retail, and hospitality is intense, pushing CPMs higher and demanding more sophisticated campaign strategies to remain cost-efficient.</p>
+                        <p>Additionally, purchasing behavior and trust signals differ - UAE consumers often require more social proof and brand credibility before converting, which impacts how retargeting funnels and ad sequencing need to be built. An agency with genuine UAE experience understands all of these nuances and builds campaigns around them from the start.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc3" aria-expanded="false">
+                        What is the Facebook Pixel and what happens if it is not set up correctly?
+                    </button>
+                </h2>
+                <div id="fbfc3" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p>The Facebook Pixel is a snippet of code that sits on your website and tracks what visitors do after clicking your ad - page views, form submissions, add-to-cart actions, purchases, and more. This data does three critical things: it tells Facebook's algorithm which users are most likely to convert (improving delivery quality over time); it enables retargeting campaigns targeting people who visited your site but did not act; and it gives you accurate attribution showing which campaigns and ads are actually generating business results.</p>
+                        <p>If the Pixel is not set up correctly - or worse, not set up at all - your campaigns are running blind. Facebook's algorithm cannot optimize toward conversions because it has no conversion data to learn from. You end up paying for clicks and traffic with no way to measure what is working. BrandStory treats Pixel configuration as a non-negotiable foundation before any campaign goes live.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc4" aria-expanded="false">
+                        How much should a Dubai business spend on Facebook Ads per month?
+                    </button>
+                </h2>
+                <div id="fbfc4" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p>The right Facebook ad budget depends entirely on your industry, audience size, campaign objectives, and acceptable cost per lead or sale. As a practical guide for the UAE market: startups and small businesses typically begin with AED 3,000–5,000 per month in ad spend and can generate meaningful early results. Growing SMEs commonly invest AED 5,000–20,000 per month. High-competition sectors like real estate, automotive, finance, and enterprise B2B regularly invest AED 20,000–50,000+ monthly to maintain competitive share.</p>
+                        <p>The most important thing to understand is that budget size alone does not determine success - campaign structure, creative quality, audience targeting, and ongoing optimisation are the real performance drivers. BrandStory will provide a specific budget recommendation based on your goals and market during our initial strategy call.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc5" aria-expanded="false">
+                        What is the difference between a Facebook Lead Ad and a website conversion campaign?
+                    </button>
+                </h2>
+                <div id="fbfc5" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p>A Facebook Lead Ad captures a prospect's contact information directly within Facebook - the user never leaves the platform. This creates an extremely low-friction experience, which typically generates higher lead volume at a lower cost per lead. Lead Ads work particularly well for services with a longer sales cycle - real estate, education, financial services, B2B - where the first goal is simply to get a qualified person into your sales pipeline.</p>
+                        <p>A website conversion campaign drives users to your own landing page, where they complete a form or make a purchase. Conversion quality is typically higher because the user has taken more active steps, seen your full value proposition on your website, and made a more conscious decision to convert. BrandStory will recommend the right approach - or a combination of both - based on your specific business model, sales process, and lead quality requirements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc6" aria-expanded="false">
+                        Why do Facebook Ad campaigns stop performing after a few weeks?
+                    </button>
+                </h2>
+                <div id="fbfc6" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        Ad fatigue is the most common reason Facebook campaigns plateau or decline after an initially strong start. When the same audience sees the same creative too many times, engagement drops, click-through rates fall, and Facebook's algorithm responds by increasing your CPM - meaning you pay more for the same delivery. The solution is systematic creative rotation and audience expansion before fatigue sets in, not after performance has already dropped. BrandStory proactively monitors frequency metrics and refreshes creatives on a schedule designed to stay ahead of fatigue - keeping your campaigns performing consistently rather than cycling between strong starts and disappointing drops.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fbfh7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc7" aria-expanded="false">
+                        Can Facebook Ads work for B2B companies in the UAE?
+                    </button>
+                </h2>
+                <div id="fbfc7" class="accordion-collapse collapse" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        Yes - and it is consistently underestimated by B2B companies in Dubai who default to LinkedIn. While LinkedIn is strong for certain B2B categories, Facebook often delivers a significantly lower cost per B2B lead in the UAE market because decision-maker CPMs are lower and the platform's behavioral and interest targeting can identify business buyers with surprising accuracy. Facebook's Job Title, Employer, and Industry targeting options let you reach senior procurement managers, CFOs, HR directors, and business owners across the GCC. For B2B companies willing to invest in a well-structured Facebook lead generation strategy, the cost per qualified lead is frequently lower than any other paid channel available in the UAE market.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="fbfh8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc8" aria-expanded="false">
+                        What results should I realistically expect from Facebook Ads in Dubai?
+                    </button>
+                </h4>
+                <div id="fbfc8" class="accordion-collapse collapse" aria-labelledby="fbfh8" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">Realistic expectations depend heavily on your industry, offer, landing page quality, and budget. That said, based on BrandStory's experience managing Facebook campaigns across multiple verticals in the UAE: lead generation campaigns for service businesses typically achieve CPLs between AED 25–150 depending on category; e-commerce campaigns targeting UAE consumers typically see ROAS between 3x–8x on optimised campaigns; brand awareness campaigns reach tens of thousands of targeted UAE users per week on modest budgets. Months 1–2 are always a testing phase where data is gathered and optimised - months 3 onward is where performance stabilises and scales. We set clear KPI benchmarks before every campaign launch so you always know what success looks like and how we are tracking against it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="fbfh9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc9" aria-expanded="false">
+                        Does BrandStory manage Instagram alongside Facebook?
+                    </button>
+                </h4>
+                <div id="fbfc9" class="accordion-collapse collapse" aria-labelledby="fbfh9" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">Yes. Facebook and Instagram advertising are managed through the same Meta Ads Manager platform, which means campaigns can be extended to Instagram placements - feed, stories, reels, and Explore - using the same targeting and budget setup. We analyse performance data across both platforms to understand where your specific audience is most responsive, then allocate budget accordingly. In the UAE, Instagram tends to outperform for lifestyle, fashion, beauty, food, and real estate brands where visual impact is critical. Facebook tends to deliver stronger results for lead generation, B2B, and direct response campaigns. Most BrandStory clients run across both platforms simultaneously and benefit from the combined scale of the full Meta ecosystem.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="fbfh10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fbfc10" aria-expanded="false">
+                        What is the cost of hiring a Facebook marketing agency in Dubai?
+                    </button>
+                </h4>
+                <div id="fbfc10" class="accordion-collapse collapse" aria-labelledby="fbfh10" data-bs-parent="#accordionFB">
+                    <div class="accordion-body">
+                        <p class="fs-16 mb-0">Facebook marketing agency management fees in Dubai typically range from AED 2,500 to AED 10,000 per month, depending on the scope of work - number of active campaigns, creative production requirements, account complexity, and reporting depth. This fee is separate from your ad spend budget, which goes directly to Meta. BrandStory provides scope-based, transparent pricing with no hidden fees. After an initial strategy conversation where we understand your goals, current situation, and budget, we will provide a clear proposal showing exactly what is included, what KPIs we are committing to, and what your investment covers - so you can make an informed decision with no surprises.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--Accordion End-->
+    </div><!--Container End-->
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 <script>
