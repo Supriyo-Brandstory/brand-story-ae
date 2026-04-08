@@ -9,6 +9,7 @@
   },
   "require": {
     "firebase/php-jwt": "^7.0",
-    "phpmailer/phpmailer": "^6.9"
+    "phpmailer/phpmailer": "^6.9",
+    "norkunas/youtube-dl-php": "^2.13"
   }
 }
