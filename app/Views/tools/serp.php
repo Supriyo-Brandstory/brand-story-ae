@@ -10,7 +10,7 @@
         <div class="form-group">
             <div class="form-section">
                 <label>URL</label>
-                <input type="text" id="url" placeholder="eg. https://brandstory.in/">
+                <input type="text" id="url" placeholder="eg. https://brandstory.ae/">
                 <label>Site Name</label>
                 <input type="text" id="site-name" placeholder="Your Site Name">
                 <label>Title</label>
@@ -64,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="responsive-preview">
                             <div id="preview-ai" style="display: none; margin-bottom: 20px;">
                                 <img id="preview-ai-img" src="<?= base_url('assets/images/tools/ai-overviews.webp') ?>" style="width: 100%; max-width: 600px; border-radius: 12px;" alt="AI Overview">
@@ -79,14 +79,14 @@
                                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEX/MzP/MzP/NTX/MzP/Li7/GBj9IyP3dHX9X1/45+f62tr3oaH/+fn////9AgL88PD8lpb5RUb4trfwycoK9KXIAAAAAnRSTlPr8QGjJZUAAADZSURBVHgBdZKBDoMgDERdaQ9ELTL//19XpksXlJeEkLwccKHT9JoGmKAwxKytxAK5ADhcgekrmaKTgoBckqTZyXlBsy7X7Y91VlAvnUW7ZNlrSim+v1mgk1FFRLXZtYI6CTIkFpN0k8LM0N32s/DtWACSsh0btXvtag2NYjlzw54HNFAn15Om91vPJRlxz01HoYeeojWbzOBOIhAR69K6VDzJcMokDz0hcmye7O6s761J4eGXlSQ0kqXr6ZT5iMr0kwF1d2KCBPIksTiw/ic+1PxbLmVQm/ohH4t0FGsli4FqAAAAAElFTkSuQmCC" style="border-radius: 50px; height: 26px; width:26px;" alt="">
                                     </div>
                                     <div class="serp-source-info">
-                                        <div class="serp-site-name" >Digital Marketing Agency in Bangalore</div>
-                                        <div class="serp-url">https://brandstory.in</div>
+                                        <div class="serp-site-name">Digital Marketing Agency in Dubai</div>
+                                        <div class="serp-url">https://brandstory.ae</div>
                                     </div>
                                 </div>
-                                <div class="serp-title">Digital Marketing Company in Bangalore India | Digital ...</div>
+                                <div class="serp-title">Digital Marketing Company in Dubai | Digital ...</div>
                                 <div class="serp-description">
-                                    <span style="color: #70757a; font-size: 14px; margin-right: 4px; display: none;"></span> 
-                                    <span>We are a Design and Digital Marketing Agency in India providing design, development and digital solutions for over 400+ clients across the globe.</span>
+                                    <span style="color: #70757a; font-size: 14px; margin-right: 4px; display: none;"></span>
+                                    <span>We are a Design and Digital Marketing Agency in Dubai providing design, development and digital solutions for over 400+ clients across the globe.</span>
                                 </div>
                                 <div class="serp-rating" style="display: none;">
                                     <span class="rating-score">4.9</span>
@@ -94,12 +94,14 @@
                                     <span class="rating-count">(24)</span>
                                 </div>
                             </div>
-                            
+
                             <div class="serp-heatmap-wrap">
                                 <div class="serp-result-item">
                                     <div class="serp-source">
                                         <div class="serp-favicon">
-                                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#70757a"></path></svg>
+                                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#70757a"></path>
+                                            </svg>
                                         </div>
                                         <div class="serp-source-info">
                                             <div class="serp-site-name" id="preview-site-name">Example</div>
@@ -108,7 +110,7 @@
                                     </div>
                                     <div class="serp-title" id="preview-title">This is an Example of a Title Tag</div>
                                     <div class="serp-description" id="preview-description">
-                                        <span id="preview-date-prefix" style="color: #70757a; font-size: 14px; margin-right: 4px; display: none;"></span> 
+                                        <span id="preview-date-prefix" style="color: #70757a; font-size: 14px; margin-right: 4px; display: none;"></span>
                                         <span id="preview-desc-content">Here is an example of what a snippet looks like in Google's SERPs. The meta title and meta description are shown here.</span>
                                     </div>
                                     <div class="serp-rating" id="preview-rating" style="display: none;">
@@ -120,22 +122,22 @@
                                 <canvas id="serp-heatmap-cv"></canvas>
                             </div>
 
-                            <?php for($i=0; $i<3; $i++): ?>
-                            <div class="serp-skeleton">
-                                <div class="skeleton-header">
-                                    <div class="skeleton-circle"></div>
-                                    <div class="skeleton-lines">
-                                        <div class="skeleton-line-sm"></div>
-                                        <div class="skeleton-line-sm"></div>
+                            <?php for ($i = 0; $i < 3; $i++): ?>
+                                <div class="serp-skeleton">
+                                    <div class="skeleton-header">
+                                        <div class="skeleton-circle"></div>
+                                        <div class="skeleton-lines">
+                                            <div class="skeleton-line-sm"></div>
+                                            <div class="skeleton-line-sm"></div>
+                                        </div>
                                     </div>
+                                    <div class="skeleton-title"></div>
+                                    <div class="skeleton-desc"></div>
                                 </div>
-                                <div class="skeleton-title"></div>
-                                <div class="skeleton-desc"></div>
-                            </div>
                             <?php endfor; ?>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </div>
@@ -343,7 +345,7 @@
         <h2 class="text-center">Frequenly Asked Questions</h2>
         <div class="accordion spt-50" id="accordionFB"><!--Accordion Start-->
 
-           <div class="accordion-item">
+            <div class="accordion-item">
                 <h2 class="accordion-header" id="serpfh1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serpfc1">
                         What is a SERP simulator and why is it important for SEO?
@@ -432,9 +434,9 @@
                         Yes. Once you are satisfied with your preview, you can copy or download the generated meta tags and implement them directly into your website’s HTML or CMS platform. This makes the optimization process quick and efficient.
                     </div>
                 </div>
-            </div> 
+            </div>
 
-           
+
 
         </div><!--Accordion End-->
     </div><!--Container End-->
@@ -515,7 +517,11 @@
         // Date Toggle
         if (optDate.checked) {
             const today = new Date();
-            const formatted = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            const formatted = today.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+            });
             previewDatePrefix.textContent = formatted + " — ";
             previewDatePrefix.style.display = 'inline';
         } else {
@@ -539,7 +545,7 @@
     function setDevice(mode) {
         const desktopUrl = "<?= base_url('assets/images/tools/large-device.png') ?>";
         const mobileUrl = "<?= base_url('assets/images/tools/small-device.png') ?>";
-        
+
         const aiDesktopUrl = "<?= base_url('assets/images/tools/ai-overviews.webp') ?>";
         const aiMobileUrl = "<?= base_url('assets/images/tools/ai-mobile.png') ?>";
         const mapDesktopUrl = "<?= base_url('assets/images/tools/places.webp') ?>";
@@ -552,15 +558,15 @@
             deviceContainer.classList.add("mobile-view");
             btnMobile.className = "btn btn-primary active";
             btnDesktop.className = "btn btn-reset";
-            if(previewAiImg) previewAiImg.src = aiMobileUrl;
-            if(previewMapImg) previewMapImg.src = mapMobileUrl;
+            if (previewAiImg) previewAiImg.src = aiMobileUrl;
+            if (previewMapImg) previewMapImg.src = mapMobileUrl;
         } else {
             deviceFrame.src = desktopUrl;
             deviceContainer.classList.remove("mobile-view");
             btnDesktop.className = "btn btn-primary active";
             btnMobile.className = "btn btn-reset";
-            if(previewAiImg) previewAiImg.src = aiDesktopUrl;
-            if(previewMapImg) previewMapImg.src = mapDesktopUrl;
+            if (previewAiImg) previewAiImg.src = aiDesktopUrl;
+            if (previewMapImg) previewMapImg.src = mapDesktopUrl;
         }
     }
 
@@ -581,14 +587,23 @@
     optMap.addEventListener("change", updatePreview);
 
     // ── Heatmap ──────────────────────────────────────────────────────────────
-    const optHeatmap   = document.getElementById("opt-heatmap");
-    const heatmapCv    = document.getElementById("serp-heatmap-cv");
-    const heatmapCtx   = heatmapCv.getContext("2d");
+    const optHeatmap = document.getElementById("opt-heatmap");
+    const heatmapCv = document.getElementById("serp-heatmap-cv");
+    const heatmapCtx = heatmapCv.getContext("2d");
 
     function heatColorSerp(t) {
-        const stops = [[0,0,255],[0,200,255],[0,255,80],[255,240,0],[255,80,0],[255,0,0]];
-        const i  = t * (stops.length - 1);
-        const lo = Math.floor(i), hi = Math.min(lo + 1, stops.length - 1), f = i - lo;
+        const stops = [
+            [0, 0, 255],
+            [0, 200, 255],
+            [0, 255, 80],
+            [255, 240, 0],
+            [255, 80, 0],
+            [255, 0, 0]
+        ];
+        const i = t * (stops.length - 1);
+        const lo = Math.floor(i),
+            hi = Math.min(lo + 1, stops.length - 1),
+            f = i - lo;
         return stops[lo].map((v, k) => Math.round(v + f * (stops[hi][k] - v)));
     }
 
@@ -610,7 +625,7 @@
                         if (r.width > 0) {
                             coords.push({
                                 x: r.left - wrapRect.left + r.width / 2,
-                                y: r.top  - wrapRect.top  + r.height / 2
+                                y: r.top - wrapRect.top + r.height / 2
                             });
                         }
                     }
@@ -628,9 +643,10 @@
     function drawHeatmap() {
         const wrap = heatmapCv.parentElement;
         const rect = wrap.getBoundingClientRect();
-        heatmapCv.width  = rect.width;
+        heatmapCv.width = rect.width;
         heatmapCv.height = rect.height;
-        const W = heatmapCv.width, H = heatmapCv.height;
+        const W = heatmapCv.width,
+            H = heatmapCv.height;
 
         // Gather word centres from title + description
         const coords = [
@@ -640,18 +656,21 @@
         if (!coords.length) return;
 
         const SCALE = 2;
-        const gW = Math.ceil(W / SCALE), gH = Math.ceil(H / SCALE);
+        const gW = Math.ceil(W / SCALE),
+            gH = Math.ceil(H / SCALE);
         const grid = new Float32Array(gW * gH);
 
         for (const p of coords) {
             const intensity = 0.4 + Math.random() * 0.6;
-            const radius    = Math.round((18 + Math.random() * 14) / SCALE);
-            const gx = Math.round(p.x / SCALE), gy = Math.round(p.y / SCALE);
+            const radius = Math.round((18 + Math.random() * 14) / SCALE);
+            const gx = Math.round(p.x / SCALE),
+                gy = Math.round(p.y / SCALE);
             for (let dy = -radius; dy <= radius; dy++) {
                 for (let dx = -radius; dx <= radius; dx++) {
-                    const nx = gx + dx, ny = gy + dy;
+                    const nx = gx + dx,
+                        ny = gy + dy;
                     if (nx < 0 || ny < 0 || nx >= gW || ny >= gH) continue;
-                    const d = Math.sqrt(dx*dx + dy*dy) / radius;
+                    const d = Math.sqrt(dx * dx + dy * dy) / radius;
                     if (d > 1) continue;
                     grid[ny * gW + nx] += (1 - d * d) * intensity;
                 }
@@ -659,24 +678,29 @@
         }
 
         let max = 0;
-        for (let i = 0; i < grid.length; i++) if (grid[i] > max) max = grid[i];
+        for (let i = 0; i < grid.length; i++)
+            if (grid[i] > max) max = grid[i];
 
         const img = heatmapCtx.createImageData(W, H);
-        const px  = img.data;
+        const px = img.data;
         for (let py = 0; py < H; py++) {
             for (let pxx = 0; pxx < W; pxx++) {
-                const v = grid[Math.min(Math.floor(py/SCALE),gH-1)*gW + Math.min(Math.floor(pxx/SCALE),gW-1)] / max;
+                const v = grid[Math.min(Math.floor(py / SCALE), gH - 1) * gW + Math.min(Math.floor(pxx / SCALE), gW - 1)] / max;
                 if (v < 0.03) continue;
-                const [r,g,b] = heatColorSerp(Math.pow(v, 0.5));
+                const [r, g, b] = heatColorSerp(Math.pow(v, 0.5));
                 const idx = (py * W + pxx) * 4;
-                px[idx]=r; px[idx+1]=g; px[idx+2]=b; px[idx+3]=Math.min(255,Math.round(v*200));
+                px[idx] = r;
+                px[idx + 1] = g;
+                px[idx + 2] = b;
+                px[idx + 3] = Math.min(255, Math.round(v * 200));
             }
         }
 
         heatmapCtx.putImageData(img, 0, 0);
         // Smooth with blur
         const tmp = document.createElement("canvas");
-        tmp.width = W; tmp.height = H;
+        tmp.width = W;
+        tmp.height = H;
         tmp.getContext("2d").putImageData(img, 0, 0);
         heatmapCtx.clearRect(0, 0, W, H);
         heatmapCtx.filter = "blur(8px)";
@@ -759,7 +783,7 @@
         const title = titleInput.value || "This is an Example of a Title Tag";
         const desc = descInput.value || "Here is an example of what a snippet looks like in Google's SERPs.";
         const html = `<title>${title}</title>\n<meta name="description" content="${desc}" />`;
-        
+
         const successAction = () => {
             const originalText = this.textContent;
             this.textContent = "Copied!";
