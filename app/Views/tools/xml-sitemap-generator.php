@@ -5,9 +5,9 @@
     <div class="grid-overlay-dark"></div>
 
     <div class="container text-center position-relative z-1 animate-fadeIn">
-        <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Enterprise Edition</div>
-        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">XML Sitemap Intelligence</h1>
-        <p class="text-white-50 fs-20 mb-5 max-w-850 mx-auto line-h-1-6">Accelerate your SEO performance with our advanced crawl engine. Engineered for Dubai's most complex web architectures, giving you 100% control over your indexable footprint.</p>
+        <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Sitemap in Seconds</div>
+        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">XML Sitemap Generator</h1>
+        <p class="text-white fs-20 mb-5 max-w-850 mx-auto line-h-1-6">XML Sitemap is a file that lists a website's important pages, acting as a roadmap for search engines <br>like Google to crawl and index content efficiently. Our XML Sitemap Generator instantly creates a structured sitemap from your website URL to improve visibility and crawling performance. Put your website URL below <br>and generate XML Sitemap in seconds</p>
 
         <div class="row justify-content-center">
             <div class="col-lg-7">
@@ -101,12 +101,12 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
                 <div class="content-card">
-                    <h2 class="mb-4 fw-800 text-dark">Why is an XML Sitemap Critical for SEO?</h2>
-                    <p class="text-muted fs-18">An XML sitemap acts as a roadmap for search engines like Google and Bing. Without one, search engines might miss some of your pages, especially if they are recently added or aren't linked internally.</p>
+                    <h2 class="mb-4 fw-800 text-dark">Online XML Sitemap Generator- Fast & Reliable</h2>
+                    <p class="text-muted fs-18">Creating an XML sitemap is one of the simplest ways to help search engines understand and index your website more effectively. With the right structure in place, your pages can be discovered faster and ranked more efficiently. With our XML Sitemap Generator, you can create a free sitemap <b>for up to 2,000 pages</b>- fast and easy to use.</p>
                     <ul class="benefit-list mt-4 p-0 list-unstyled">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="ion-checkmark-circled text-purple me-3 mt-1"></i>
-                            <span><strong>Faster Indexing:</strong> Notifies search engines immediately about new content.</span>
+                            <span><strong>Easy to Use:</strong> Generate sitemap for websites with up to 2,000 pages.</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="ion-checkmark-circled text-purple me-3 mt-1"></i>
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="/assets/images/97634.webp" alt="SEO Illustration" class="img-fluid rounded-5xx">
+                <img src="/assets/images/xml-sitemap.webp" alt="XML Sitemap" class="img-fluid rounded-5xx">
             </div>
         </div>
     </div>
@@ -129,8 +129,8 @@
 <section class="how-it-works-section sp-100 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-800 text-dark">How Our Generator Works</h2>
-            <p class="text-muted max-w-700 mx-auto">We use advanced crawling technology to map your entire website structure in real-time.</p>
+            <h2 class="fw-800 text-dark">How Sitemap Generator Works</h2>
+            <p class="text-muted max-w-700 mx-auto">We use advanced crawling technology to map your entire website structure in real-time. Capable of generating Free sitemap for large-scale websites.</p>
         </div>
         <div class="row g-4">
             <div class="col-md-4 text-center">
@@ -144,14 +144,14 @@
                 <div class="step-card p-5 rounded-5 border bg-white h-100">
                     <div class="step-number mb-4">02</div>
                     <h4 class="fw-700 mb-3">Intelligent Crawl</h4>
-                    <p class="text-muted">Our bot scans every page, link, and directory within your website domain.</p>
+                    <p class="text-muted">Our bot scans every page, link, and directory within your website domain (Up tp 2000 Pages).</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="step-card p-5 rounded-5 border bg-white h-100">
                     <div class="step-number mb-4">03</div>
-                    <h4 class="fw-700 mb-3">Instant Result</h4>
-                    <p class="text-muted">Copy or download your valid XML sitemap and upload it to Google Search Console.</p>
+                    <h4 class="fw-700 mb-3">Instant Output</h4>
+                    <p class="text-muted">Easily copy or download your valid XML sitemap and upload it to Google Search Console.</p>
                 </div>
             </div>
         </div>
@@ -206,18 +206,18 @@
 
 <section class="site-faq sp-100 bg-light-soft">
     <div class="container">
-        <h2 class="text-center fw-800 mb-5 text-dark">Technical Documentation (FAQ)</h2>
+        <h2 class="text-center fw-800 mb-5 text-dark">Frequently Asked Questions</h2>
         <div class="accordion max-w-800 mx-auto" id="accordionSitemap">
 
             <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                 <h2 class="accordion-header" id="faqh1">
                     <button class="accordion-button fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc1">
-                        How does the intelligent crawl engine operate?
+                        What is an XML sitemap and why is it important?
                     </button>
                 </h2>
                 <div id="faqc1" class="accordion-collapse collapse show" data-bs-parent="#accordionSitemap">
                     <div class="accordion-body text-muted line-h-1-8">
-                        Our engine uses a recursive Breadth-First Search (BFS) algorithm to map every public-facing URI within your target domain. It extracts hyper-links, validates HTTP response codes, and prioritizes canonical URLs to ensure sitemap purity.
+                        An XML sitemap is a structured file that lists all important pages of your website, helping search engines like Google and Bing discover and index your content more efficiently.
                     </div>
                 </div>
             </div>
@@ -225,12 +225,12 @@
             <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                 <h2 class="accordion-header" id="faqh2">
                     <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc2">
-                        What are the maximum throughput limitations?
+                        How does an XML Sitemap Generator work?
                     </button>
                 </h2>
                 <div id="faqc2" class="accordion-collapse collapse" data-bs-parent="#accordionSitemap">
                     <div class="accordion-body text-muted line-h-1-8">
-                        For real-time generated maps, we current support a 2,000-page safety ceiling per single execution thread. This ensures zero latency during the XML compilation and protects destination servers from excessive crawl overhead.
+                        An XML Sitemap Generator scans your website, collects all internal URLs, and organizes them into a structured XML file that can be submitted to search engines for better crawling and indexing.
                     </div>
                 </div>
             </div>
@@ -238,12 +238,25 @@
             <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                 <h2 class="accordion-header" id="faqh3">
                     <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc3">
-                        Deployment instructions for Search Console?
+                        Do I need an XML sitemap for a small website?
                     </button>
                 </h2>
                 <div id="faqc3" class="accordion-collapse collapse" data-bs-parent="#accordionSitemap">
                     <div class="accordion-body text-muted line-h-1-8">
-                        After exporting your `sitemap.xml`, place it in your server's root directory via FTP or SSH. Once live, register the absolute path (e.g., `https://site.com/sitemap.xml`) inside Google Search Console under the 'Sitemaps' menu to trigger a manual bot review.
+                        Yes, even small websites benefit from an XML sitemap as it helps search engines quickly discover all pages, especially if your site has limited internal linking.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                <h2 class="accordion-header" id="faqh4">
+                    <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc4">
+                        How do I use the generated XML sitemap?
+                    </button>
+                </h2>
+                <div id="faqc4" class="accordion-collapse collapse" data-bs-parent="#accordionSitemap">
+                    <div class="accordion-body text-muted line-h-1-8">
+                        After generating your sitemap, download the XML file and upload it to your website root directory, then submit it through Google Search Console or Bing Webmaster Tools for faster indexing.
                     </div>
                 </div>
             </div>
