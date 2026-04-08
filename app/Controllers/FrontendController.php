@@ -2518,4 +2518,12 @@ class FrontendController extends Controller
         ];
         return $this->view('tools/index', ['meta' => $meta]);
     }
+
+    public function httpStatusChecker()
+    {
+        $meta = [
+            'classname' => 'sitemap-page em-dubai-page service-pages'
+        ];
+        return $this->view('tools/http-status-checker', ['meta' => $meta]);
+    }
 }
