@@ -2598,7 +2598,9 @@ class FrontendController extends Controller
             if (str_contains($err, 'sign in to confirm you\'re not a bot') || str_contains($err, '403: forbidden')) {
                 throw new \Exception('YouTube is blocking this server (Bot Detection). To fix this, you need to upload a "cookies.txt" file to the /writable folder on the server.');
             }
-            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.');
+            // If it's not a known bot block, show the actual system error to help debugging
+            $debugMsg = !empty($output) ? " Details: " . substr($output, 0, 200) : " (No output from yt-dlp)";
+            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
         }
 
         $title = $info['title'] ?? 'Video';
