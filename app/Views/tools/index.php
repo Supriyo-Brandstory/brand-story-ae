@@ -76,25 +76,26 @@
                     </a>
                 </div>
 
-                <!-- Coming Soon Placeholder 1 -->
-                <div class="col-lg-4 col-md-6 mb-4 opacity-50">
-                    <div class="cyber-tool-card locked-card">
+                <!-- Video Downloader (Actual) -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('video-downloader') ?>" class="cyber-tool-card video-card">
                         <div class="card-inner">
+                            <div class="card-glow"></div>
                             <div class="card-content p-4">
                                 <div class="tool-meta mb-3">
-                                    <div class="icon-hex-sm grayscale">
-                                        <i class="ion-ios-search-strong"></i>
+                                    <div class="icon-hex-sm purple">
+                                        <i class="ion-ios-videocam"></i>
                                     </div>
-                                    <span class="tech-tag text-purple">UPCOMING</span>
+                                    <span class="tech-tag">STREAM ENGINE</span>
                                 </div>
-                                <h4 class="tool-title-sm">Keyword Authority</h4>
-                                <p class="tool-desc-sm">Next-gen semantic analysis engine for deep search intent discovery.</p>
+                                <h4 class="tool-title-sm">Video Downloader</h4>
+                                <p class="tool-desc-sm">High-fidelity extraction and merging for YouTube, Instagram, and Facebook streams.</p>
                                 <div class="tool-action-sm">
-                                    <span class="action-btn-sm">ENCRYPTED <i class="ion-locked ms-1"></i></span>
+                                    <span class="action-btn-sm">START DOWNLOAD <i class="ion-android-arrow-forward"></i></span>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
