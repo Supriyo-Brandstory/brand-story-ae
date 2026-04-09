@@ -11801,6 +11801,11 @@ sup {
         box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
     }
 
+    /* Card Specific Glows */
+    .xml-card .card-glow { background: radial-gradient(circle at center, rgba(133, 91, 255, 0.15) 0%, transparent 70%); }
+    .robot-card .card-glow { background: radial-gradient(circle at center, rgba(0, 212, 255, 0.15) 0%, transparent 70%); }
+    .video-card .card-glow { background: radial-gradient(circle at center, rgba(163, 51, 255, 0.18) 0%, transparent 70%); }
+
     .icon-hex,
     .icon-hex-sm {
         background: #855BFF;
@@ -11830,6 +11835,12 @@ sup {
     .icon-hex-sm.cyan {
         background: #00D4FF;
         box-shadow: 0 0 25px rgba(0, 212, 255, 0.5);
+    }
+
+    .icon-hex.purple,
+    .icon-hex-sm.purple {
+        background: #855BFF;
+        box-shadow: 0 0 25px rgba(133, 91, 255, 0.5);
     }
 
     .icon-hex-sm.grayscale {
