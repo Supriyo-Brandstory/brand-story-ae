@@ -2575,8 +2575,21 @@ class FrontendController extends Controller
 
         $safeUrl = escapeshellarg($url);
 
+        // Detect platform from URL for targeted cookie file
+        $urlLower = strtolower($url);
         $baseDir = dirname(__DIR__, 2);
-        $cookiesPath = $baseDir . '/writable/cookies.txt';
+        $writableDir = $baseDir . '/writable';
+
+        if (str_contains($urlLower, 'instagram.com')) {
+            $cookiesPath = $writableDir . '/instagram_cookies.txt';
+            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
+        } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
+            $cookiesPath = $writableDir . '/facebook_cookies.txt';
+            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
+        } else {
+            $cookiesPath = $writableDir . '/cookies.txt';
+        }
+
         $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
 
         // Write stderr to a temp file so it doesn't pollute stdout JSON
@@ -2617,15 +2630,23 @@ class FrontendController extends Controller
 
         if (!$info) {
             $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
-            // Handle bot detection errors
+            // YouTube bot detection
             if ((str_contains($combinedErr, 'confirm you') && str_contains($combinedErr, 'not a bot'))
-                || str_contains($combinedErr, '403: forbidden')
-                || str_contains($combinedErr, '429')
+                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '403'))
+                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '429'))
             ) {
-                throw new \Exception('YouTube is blocking this server (rate-limited or bot detection). Please update the cookies.txt file in /writable/ with a fresh export from your browser.');
+                throw new \Exception('YouTube is blocking this server (bot detection/rate-limit). Please re-export cookies.txt from your browser while logged into YouTube and upload it to /writable/cookies.txt on the server.');
             }
-            // Show actual error for debugging
-            $debugMsg = !empty($errOutput) ? " Details: " . substr($errOutput, 0, 300) : (!empty($output) ? " Details: " . substr($output, 0, 300) : " (No output from yt-dlp)");
+            // Instagram login / rate-limit
+            if (str_contains($combinedErr, '[instagram]') || str_contains($combinedErr, 'instagram')) {
+                throw new \Exception('Instagram requires authentication cookies. Please export your Instagram cookies using the browser extension and upload the file to the server as /writable/instagram_cookies.txt');
+            }
+            // Facebook login / rate-limit
+            if (str_contains($combinedErr, '[facebook]') || str_contains($combinedErr, 'facebook')) {
+                throw new \Exception('Facebook requires authentication cookies. Please export your Facebook cookies using the browser extension and upload the file to the server as /writable/facebook_cookies.txt');
+            }
+            // Generic
+            $debugMsg = !empty($errOutput) ? ' Details: ' . substr($errOutput, 0, 300) : (!empty($output) ? ' Details: ' . substr($output, 0, 300) : ' (No output from yt-dlp)');
             throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
         }
 
