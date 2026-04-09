@@ -40,8 +40,8 @@ class VideoDownloaderInstall
         $this->run("sudo apt-get update");
         $this->run("sudo apt-get install -y ffmpeg python3 python3-pip");
 
-        echo "2. Installing/Updating yt-dlp...\n";
-        $this->run("sudo pip3 install yt-dlp --break-system-packages");
+        echo "2. Installing/Updating yt-dlp to latest version...\n";
+        $this->run("sudo pip3 install -U yt-dlp --break-system-packages");
     }
 
     private function installMac()

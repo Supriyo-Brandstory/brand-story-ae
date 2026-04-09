@@ -2581,6 +2581,7 @@ class FrontendController extends Controller
 
         $cmd = $ytdlp
             . ' --dump-json'
+            . ' --ignore-config'
             . ' --no-playlist'
             . ' --no-warnings'
             . ' --no-check-certificates'
