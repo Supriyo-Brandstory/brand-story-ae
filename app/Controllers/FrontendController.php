@@ -2595,7 +2595,8 @@ class FrontendController extends Controller
 
         if (!$info) {
             $err = strtolower($output);
-            if (str_contains($err, 'sign in to confirm you\'re not a bot') || str_contains($err, '403: forbidden')) {
+            // Handle bot detection errors (more robust check for "confirm you're not a bot" which can have different apostrophes)
+            if ((str_contains($err, 'confirm you') && str_contains($err, 'not a bot')) || str_contains($err, '403: forbidden')) {
                 throw new \Exception('YouTube is blocking this server (Bot Detection). To fix this, you need to upload a "cookies.txt" file to the /writable folder on the server.');
             }
             // If it's not a known bot block, show the actual system error to help debugging
