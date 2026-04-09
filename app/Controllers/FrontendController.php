@@ -2564,18 +2564,28 @@ class FrontendController extends Controller
     /* ─── yt-dlp fetcher (YouTube + global fallback) ────────────────── */
     private function _ytdlpFetch(string $url): array
     {
-        $ytdlp = '/Library/Frameworks/Python.framework/Versions/3.13/bin/yt-dlp';
-        if (!is_executable($ytdlp)) {
-            $ytdlp = trim(shell_exec('which yt-dlp 2>/dev/null')) ?: 'yt-dlp';
+        $ytdlp = $_ENV['YTDLP_PATH'] ?? getenv('YTDLP_PATH') ?: null;
+        if (!$ytdlp || !is_executable($ytdlp)) {
+            $ytdlp = trim(shell_exec('which yt-dlp 2>/dev/null'));
+            if (!$ytdlp || !is_executable($ytdlp)) {
+                $ytdlp = '/Library/Frameworks/Python.framework/Versions/3.13/bin/yt-dlp'; // Mac fallback
+            }
+            if (!is_executable($ytdlp)) $ytdlp = 'yt-dlp';
         }
 
         $safeUrl = escapeshellarg($url);
+        
+        $baseDir = dirname(dirname(dirname(__DIR__)));
+        $cookiesPath = $baseDir . '/writable/cookies.txt';
+        $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
+
         $cmd = $ytdlp
             . ' --dump-json'
             . ' --no-playlist'
             . ' --no-warnings'
             . ' --no-check-certificates'
             . ' --socket-timeout 20'
+            . $cookieCmd
             . ' --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"'
             . ' ' . $safeUrl
             . ' 2>&1';
@@ -2584,7 +2594,11 @@ class FrontendController extends Controller
         $info = json_decode($output, true);
 
         if (!$info) {
-            throw new \Exception('Video processing failed. The content might be private or blocked.');
+            $err = strtolower($output);
+            if (str_contains($err, 'sign in to confirm you\'re not a bot') || str_contains($err, '403: forbidden')) {
+                throw new \Exception('YouTube is blocking this server (Bot Detection). To fix this, you need to upload a "cookies.txt" file to the /writable folder on the server.');
+            }
+            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.');
         }
 
         $title = $info['title'] ?? 'Video';
@@ -2888,7 +2902,9 @@ class FrontendController extends Controller
     /* ── Helper: Stream Merged Video+Audio via FFmpeg Pipe ─────────── */
     private function _streamMerged($ffmpeg, $videoUrl, $audioUrl, $filename)
     {
-        $tmpDir = '/Users/supriyokumardey/Herd/brandstoryae/writable/tmp';
+        $baseTmp = dirname(__DIR__, 2) . '/writable/tmp'; // Default
+        $tmpDir = $_ENV['VIDEO_TMP_DIR'] ?? getenv('VIDEO_TMP_DIR') ?: $baseTmp;
+        
         if (!is_dir($tmpDir)) @mkdir($tmpDir, 0777, true);
         
         $tmpFile = $tmpDir . '/' . uniqid('merge_') . '.mp4';
@@ -2930,12 +2946,13 @@ class FrontendController extends Controller
 
     private function _findFFmpeg()
     {
-        $paths = ['/usr/local/bin/ffmpeg', '/usr/bin/ffmpeg', '/opt/homebrew/bin/ffmpeg'];
-        foreach ($paths as $p) {
-            if (@is_executable($p)) return $p;
-        }
+        $envFFmpeg = $_ENV['FFMPEG_PATH'] ?? getenv('FFMPEG_PATH') ?: null;
+        if ($envFFmpeg && @is_executable($envFFmpeg)) return $envFFmpeg;
+
+        // Fallback to system path auto-detection
         $which = trim(shell_exec('which ffmpeg 2>/dev/null'));
         if ($which && @is_executable($which)) return $which;
+        
         return null;
     }
     public function tools()
