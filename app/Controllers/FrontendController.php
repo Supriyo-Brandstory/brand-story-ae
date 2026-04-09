@@ -2511,6 +2511,499 @@ class FrontendController extends Controller
         return $this->view('tools/robot', ['meta' => $meta]);
     }
 
+    public function videoDownloader()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages'
+        ];
+        return $this->view('tools/video-downloader', ['meta' => $meta]);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+     * POST /tools/video-downloader/fetch
+     * Uses yt-dlp with fallbacks to custom PHP scrapers for FB/IG.
+     * ──────────────────────────────────────────────────────────────────── */
+    public function videoDownloaderFetch()
+    {
+        header('Content-Type: application/json');
+        set_time_limit(120);
+
+        $url = trim($_POST['url'] ?? '');
+        if (!$url || !filter_var($url, FILTER_VALIDATE_URL)) {
+            echo json_encode(['error' => 'Please enter a valid video URL.']);
+            exit;
+        }
+
+        $lower = strtolower($url);
+        $result = null;
+
+        try {
+            // 1. Try Platform-Specific Fallbacks First (often faster/more reliable for FB/IG)
+            if (str_contains($lower, 'facebook.com/') || str_contains($lower, 'fb.watch/')) {
+                $result = $this->_fbScrape($url);
+            } elseif (str_contains($lower, 'instagram.com/')) {
+                $result = $this->_instaScrape($url);
+            }
+
+            // 2. If not handled or failed, use yt-dlp
+            if (!$result) {
+                $result = $this->_ytdlpFetch($url);
+            }
+
+            if (!$result || empty($result['formats'])) {
+                throw new \Exception('Could not extract any downloadable formats from this URL.');
+            }
+
+            echo json_encode($result);
+        } catch (\Exception $e) {
+            echo json_encode(['error' => $e->getMessage()]);
+        }
+        exit;
+    }
+
+    /* ─── yt-dlp fetcher (YouTube + global fallback) ────────────────── */
+    private function _ytdlpFetch(string $url): array
+    {
+        $ytdlp = $_ENV['YTDLP_PATH'] ?? getenv('YTDLP_PATH') ?: null;
+        if (!$ytdlp || !is_executable($ytdlp)) {
+            $ytdlp = trim(shell_exec('which yt-dlp 2>/dev/null'));
+            if (!$ytdlp || !is_executable($ytdlp)) {
+                $ytdlp = '/Library/Frameworks/Python.framework/Versions/3.13/bin/yt-dlp'; // Mac fallback
+            }
+            if (!is_executable($ytdlp)) $ytdlp = 'yt-dlp';
+        }
+
+        $safeUrl = escapeshellarg($url);
+
+        // Detect platform from URL for targeted cookie file
+        $urlLower = strtolower($url);
+        $baseDir = dirname(__DIR__, 2);
+        $writableDir = $baseDir . '/writable';
+
+        if (str_contains($urlLower, 'instagram.com')) {
+            $cookiesPath = $writableDir . '/instagram_cookies.txt';
+            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
+        } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
+            $cookiesPath = $writableDir . '/facebook_cookies.txt';
+            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
+        } else {
+            $cookiesPath = $writableDir . '/cookies.txt';
+        }
+
+        $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
+
+        // Write stderr to a temp file so it doesn't pollute stdout JSON
+        $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
+
+        $cmd = $ytdlp
+            . ' --dump-json'
+            . ' --ignore-config'
+            . ' --no-playlist'
+            . ' --no-warnings'
+            . ' --no-check-certificates'
+            . ' --socket-timeout 30'
+            . ' --remote-components ejs:github'
+            . ' --no-cookies-from-browser'
+            . $cookieCmd
+            . ' --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"'
+            . ' ' . $safeUrl
+            . ' 2>' . escapeshellarg($stderrFile);
+
+        $output = shell_exec($cmd);
+        $errOutput = @file_get_contents($stderrFile);
+        @unlink($stderrFile);
+
+        // Extract the JSON line (yt-dlp may print info lines before the JSON)
+        $info = null;
+        if (!empty($output)) {
+            foreach (explode("\n", $output) as $line) {
+                $line = trim($line);
+                if ($line && $line[0] === '{') {
+                    $decoded = json_decode($line, true);
+                    if ($decoded && isset($decoded['id'])) {
+                        $info = $decoded;
+                        break;
+                    }
+                }
+            }
+        }
+
+        if (!$info) {
+            $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
+            // YouTube bot detection
+            if ((str_contains($combinedErr, 'confirm you') && str_contains($combinedErr, 'not a bot'))
+                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '403'))
+                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '429'))
+            ) {
+                throw new \Exception('YouTube is blocking this server (bot detection/rate-limit). Please re-export cookies.txt from your browser while logged into YouTube and upload it to /writable/cookies.txt on the server.');
+            }
+            // Instagram login / rate-limit
+            if (str_contains($combinedErr, '[instagram]') || str_contains($combinedErr, 'instagram')) {
+                throw new \Exception('Instagram requires authentication cookies. Please export your Instagram cookies using the browser extension and upload the file to the server as /writable/instagram_cookies.txt');
+            }
+            // Facebook login / rate-limit
+            if (str_contains($combinedErr, '[facebook]') || str_contains($combinedErr, 'facebook')) {
+                throw new \Exception('Facebook requires authentication cookies. Please export your Facebook cookies using the browser extension and upload the file to the server as /writable/facebook_cookies.txt');
+            }
+            // Generic
+            $debugMsg = !empty($errOutput) ? ' Details: ' . substr($errOutput, 0, 300) : (!empty($output) ? ' Details: ' . substr($output, 0, 300) : ' (No output from yt-dlp)');
+            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
+        }
+
+        $title = $info['title'] ?? 'Video';
+        $thumb = $info['thumbnail'] ?? null;
+        $extractor = strtolower($info['extractor'] ?? '');
+        $platform = 'unknown';
+        if (str_contains($extractor, 'youtube')) $platform = 'youtube';
+
+        $rawFormats = $info['formats'] ?? [];
+        $videoFormats = [];
+        $bestAudio = null;
+
+        // 1. Find the best audio stream
+        foreach ($rawFormats as $f) {
+            if (($f['vcodec'] ?? 'none') === 'none' && ($f['acodec'] ?? 'none') !== 'none') {
+                if (!$bestAudio || ($f['abr'] ?? 0) > ($bestAudio['abr'] ?? 0)) {
+                    $bestAudio = [
+                        'id' => $f['format_id'] ?? '',
+                        'url' => $f['url'] ?? '',
+                        'abr' => $f['abr'] ?? 0,
+                    ];
+                }
+            }
+        }
+
+        // 2. Sort video formats to prefer H.264 (avc1) for maximum compatibility
+        usort($rawFormats, function ($a, $b) {
+            $v_a = $a['vcodec'] ?? '';
+            $v_b = $b['vcodec'] ?? '';
+            $is_avc_a = str_contains($v_a, 'avc1') ? 1 : 0;
+            $is_avc_b = str_contains($v_b, 'avc1') ? 1 : 0;
+            if ($is_avc_a !== $is_avc_b) return $is_avc_b - $is_avc_a;
+            return ($b['tbr'] ?? 0) - ($a['tbr'] ?? 0);
+        });
+
+        $seenHeights = [];
+
+        // 3. Filter formats
+        foreach ($rawFormats as $f) {
+            $furl = $f['url'] ?? '';
+            // Allow manifests for FB/IG/etc because FFmpeg can handle them
+            if (!$furl || ($platform === 'youtube' && (str_contains($furl, 'manifest') || str_contains($furl, '.m3u8')))) continue;
+
+            $vcodec = $f['vcodec'] ?? 'none';
+            $acodec = $f['acodec'] ?? 'none';
+            $height = (int)($f['height'] ?? 0);
+            $ext = $f['ext'] ?? 'mp4';
+            $filesize = $f['filesize'] ?? $f['filesize_approx'] ?? null;
+
+            if ($vcodec === 'none') continue;
+            if ($ext === 'ts') continue;
+
+            $hasAudio = ($acodec !== 'none');
+
+            // Avoid duplicate heights (YT has many formats for same height)
+            if (isset($seenHeights[$height])) continue;
+
+            $label = $height ? $height . 'p' : 'HD';
+            $sizeTxt = $filesize ? ' · ' . round($filesize / 1048576, 1) . ' MB' : '';
+
+            if ($hasAudio) {
+                // Combined format (native)
+                $seenHeights[$height] = true;
+                $videoFormats[] = [
+                    'label'  => $label,
+                    'sub'    => strtoupper($ext) . $sizeTxt,
+                    'url'    => $furl,
+                    'ext'    => $ext,
+                    'height' => $height,
+                    'type'   => 'video'
+                ];
+            } elseif ($bestAudio) {
+                // Merged format (video + audio separate) - Now for ALL platforms
+                $seenHeights[$height] = true;
+                $videoFormats[] = [
+                    'label'  => $label,
+                    'sub'    => strtoupper($ext) . ' · High Quality' . $sizeTxt,
+                    'url'    => $furl,
+                    'audio_url' => $bestAudio['url'],
+                    'ext'    => 'mp4',
+                    'height' => $height,
+                    'type'   => 'video',
+                    'is_merged' => true
+                ];
+            }
+        }
+
+        // 3. Optional: Add standalone audio
+        if ($bestAudio) {
+            $videoFormats[] = [
+                'label'  => 'Audio (MP3)',
+                'sub'    => 'Audio only · M4A/MP3',
+                'url'    => $bestAudio['url'],
+                'ext'    => 'mp3',
+                'height' => 0,
+                'type'   => 'audio'
+            ];
+        }
+
+        usort($videoFormats, function ($a, $b) {
+            if ($a['type'] === 'audio') return 1;
+            if ($b['type'] === 'audio') return -1;
+            return $b['height'] - $a['height'];
+        });
+
+        return [
+            'platform' => $platform,
+            'title'    => $title,
+            'thumb'    => $thumb,
+            'formats'  => $videoFormats
+        ];
+    }
+
+    /* ─── Facebook Scraper ─────────────────────────────────────────── */
+    private function _fbScrape(string $url): ?array
+    {
+        $url = str_replace(['www.facebook.com', 'facebook.com'], 'm.facebook.com', $url);
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_USERAGENT => 'Mozilla/5.0 (Linux; Android 10; SM-G960L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36'
+        ]);
+        $html = curl_exec($ch);
+        curl_close($ch);
+
+        $videoUrl = null;
+        if (preg_match('/"browser_native_sd_url":"([^"]+)"/', $html, $m)) {
+            $videoUrl = stripslashes($m[1]);
+        } elseif (preg_match('/"browser_native_hd_url":"([^"]+)"/', $html, $m)) {
+            $videoUrl = stripslashes($m[1]);
+        } elseif (preg_match('/meta property="og:video" content="([^"]+)"/', $html, $m)) {
+            $videoUrl = html_entity_decode($m[1]);
+        }
+
+        if (!$videoUrl) return null;
+
+        return [
+            'platform' => 'facebook',
+            'title'    => 'Facebook Video',
+            'thumb'    => null,
+            'formats'  => [
+                [
+                    'label' => 'HD Quality',
+                    'sub'   => 'MP4 · Combined',
+                    'url'   => $videoUrl,
+                    'ext'   => 'mp4',
+                    'height' => 720,
+                    'type'  => 'video'
+                ]
+            ]
+        ];
+    }
+
+    /* ─── Instagram Scraper ────────────────────────────────────────── */
+    private function _instaScrape(string $url): ?array
+    {
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_USERAGENT => 'facebookexternalhit/1.1'
+        ]);
+        $html = curl_exec($ch);
+        curl_close($ch);
+
+        $videoUrl = null;
+        if (preg_match('/property="og:video" content="([^"]+)"/', $html, $m)) {
+            $videoUrl = html_entity_decode($m[1]);
+        }
+
+        if (!$videoUrl) return null;
+
+        return [
+            'platform' => 'instagram',
+            'title'    => 'Instagram Video',
+            'thumb'    => null,
+            'formats'  => [
+                [
+                    'label' => 'HD Quality',
+                    'sub'   => 'MP4 · Combined',
+                    'url'   => $videoUrl,
+                    'ext'   => 'mp4',
+                    'height' => 720,
+                    'type'  => 'video'
+                ]
+            ]
+        ];
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────
+     * GET /tools/video-downloader/proxy?url=...&filename=...
+     * Streams the remote video file directly to the browser.
+     * ──────────────────────────────────────────────────────────────────── */
+    public function videoDownloaderProxy()
+    {
+        $url      = trim($_GET['url'] ?? '');
+        $audioUrl = trim($_GET['audio_url'] ?? '');
+        $filename = basename($_GET['filename'] ?? 'video.mp4');
+        $filename = preg_replace('/[^a-z0-9._\-]/i', '_', $filename);
+        if (!$filename) $filename = 'video.mp4';
+
+        if (!$url || !filter_var($url, FILTER_VALIDATE_URL)) {
+            http_response_code(400);
+            echo 'Invalid URL.';
+            exit;
+        }
+
+        // Block private/localhost IPs (SSRF protection)
+        $host = parse_url($url, PHP_URL_HOST) ?? '';
+        $ip   = @gethostbyname($host);
+        if ($ip && preg_match('/^(127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/', $ip)) {
+            http_response_code(403);
+            echo 'Forbidden.';
+            exit;
+        }
+
+        set_time_limit(0);
+        ignore_user_abort(false);
+
+        // CASE 1: MERGING REQUIRED (Video + Audio)
+        if ($audioUrl && filter_var($audioUrl, FILTER_VALIDATE_URL)) {
+            $ffmpeg = $this->_findFFmpeg();
+            if ($ffmpeg) {
+                $this->_streamMerged($ffmpeg, $url, $audioUrl, $filename);
+                exit;
+            }
+        }
+
+        // CASE 1.5: M3U8/Manifest (Single Stream but needs FFmpeg processing)
+        if (str_contains($url, '.m3u8') || str_contains($url, 'manifest')) {
+            $ffmpeg = $this->_findFFmpeg();
+            if ($ffmpeg) {
+                $this->_streamMerged($ffmpeg, $url, '', $filename); // Pass empty audio
+                exit;
+            }
+        }
+
+        // CASE 2: SINGLE STREAM (Normal Proxy)
+        $rangeHeader = $_SERVER['HTTP_RANGE'] ?? null;
+
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => false,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_MAXREDIRS      => 5,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_USERAGENT      => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            CURLOPT_TIMEOUT        => 0,
+            CURLOPT_CONNECTTIMEOUT => 20,
+            CURLOPT_BUFFERSIZE     => 131072,
+            CURLOPT_HEADERFUNCTION => function ($ch, $header) {
+                $lower = strtolower(trim($header));
+                if (str_starts_with($lower, 'content-type:')) {
+                    header($header, true);
+                }
+                if (str_starts_with($lower, 'content-length:')) {
+                    header($header, true);
+                }
+                if (str_starts_with($lower, 'content-range:')) {
+                    header($header, true);
+                }
+                if (str_starts_with($lower, 'accept-ranges:')) {
+                    header($header, true);
+                }
+                return strlen($header);
+            },
+            CURLOPT_WRITEFUNCTION  => function ($ch, $data) {
+                echo $data;
+                if (ob_get_level()) ob_flush();
+                flush();
+                return strlen($data);
+            },
+        ]);
+
+        if ($rangeHeader) {
+            curl_setopt($ch, CURLOPT_RANGE, str_replace('bytes=', '', $rangeHeader));
+            http_response_code(206);
+        }
+
+        while (ob_get_level()) ob_end_clean();
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+        header('Cache-Control: no-store, no-cache');
+        header('X-Accel-Buffering: no');
+
+        curl_exec($ch);
+        $err = curl_error($ch);
+        curl_close($ch);
+
+        if ($err) {
+            http_response_code(502);
+            echo 'Download proxy error: ' . htmlspecialchars($err);
+        }
+        exit;
+    }
+
+    /* ── Helper: Stream Merged Video+Audio via FFmpeg Pipe ─────────── */
+    private function _streamMerged($ffmpeg, $videoUrl, $audioUrl, $filename)
+    {
+        $baseTmp = dirname(__DIR__, 2) . '/writable/tmp'; // Default
+        $tmpDir = $_ENV['VIDEO_TMP_DIR'] ?? getenv('VIDEO_TMP_DIR') ?: $baseTmp;
+
+        if (!is_dir($tmpDir)) @mkdir($tmpDir, 0777, true);
+
+        $tmpFile = $tmpDir . '/' . uniqid('merge_') . '.mp4';
+
+        // Merge to a real file first. This ensures a standard (non-fragmented) MP4.
+        // -movflags +faststart makes it playable before full download is complete.
+        $cmd = escapeshellcmd($ffmpeg)
+            . " -reconnect 1 -reconnect_at_eof 1 -reconnect_streamed 1 -reconnect_delay_max 5"
+            . " -i " . escapeshellarg($videoUrl);
+
+        if ($audioUrl) {
+            $cmd .= " -i " . escapeshellarg($audioUrl);
+        }
+
+        $cmd .= " -c:v copy -c:a aac -b:a 128k -strict experimental"
+            . " -movflags +faststart "
+            . escapeshellarg($tmpFile) . " 2>&1";
+
+        shell_exec($cmd);
+
+        if (!file_exists($tmpFile) || filesize($tmpFile) < 1000) {
+            http_response_code(502);
+            echo "Error: Failed to merge video streams. Please try a different resolution.";
+            @unlink($tmpFile);
+            exit;
+        }
+
+        while (ob_get_level()) ob_end_clean();
+        header('Content-Type: video/mp4');
+        header('Content-Length: ' . filesize($tmpFile));
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+        header('Cache-Control: no-store, no-cache');
+        header('X-Accel-Buffering: no');
+
+        readfile($tmpFile);
+        @unlink($tmpFile);
+        exit;
+    }
+
+    private function _findFFmpeg()
+    {
+        $envFFmpeg = $_ENV['FFMPEG_PATH'] ?? getenv('FFMPEG_PATH') ?: null;
+        if ($envFFmpeg && @is_executable($envFFmpeg)) return $envFFmpeg;
+
+        // Fallback to system path auto-detection
+        $which = trim(shell_exec('which ffmpeg 2>/dev/null'));
+        if ($which && @is_executable($which)) return $which;
+
+        return null;
+    }
     public function tools()
     {
         $meta = [
