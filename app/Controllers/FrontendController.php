@@ -3015,8 +3015,24 @@ class FrontendController extends Controller
     public function httpStatusChecker()
     {
         $meta = [
-            'classname' => 'sitemap-page em-dubai-page service-pages'
+            'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('tools/http-status-checker', ['meta' => $meta]);
+    }
+
+    public function websiteGrader()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages'
+        ];
+        return $this->view('tools/website-grader', ['meta' => $meta]);
+    }
+
+    public function websiteGraderReport()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages'
+        ];
+        return $this->view('tools/website-grader-report', ['meta' => $meta]);
     }
 }
