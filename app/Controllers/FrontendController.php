@@ -2575,7 +2575,7 @@ class FrontendController extends Controller
 
         $safeUrl = escapeshellarg($url);
         
-        $baseDir = dirname(dirname(dirname(__DIR__)));
+        $baseDir = dirname(__DIR__, 2);
         $cookiesPath = $baseDir . '/writable/cookies.txt';
         $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
 
