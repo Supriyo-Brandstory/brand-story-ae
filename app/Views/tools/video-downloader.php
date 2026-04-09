@@ -109,6 +109,7 @@
         font-size: 1rem;
         outline: none;
         transition: .2s;
+        margin: 0;
     }
 
     .vd-url-input:focus {
@@ -255,65 +256,110 @@
         color: var(--vd-muted);
     }
 
-    /* Download button */
+    /* Animated Download Button */
     .vd-dl-btn {
-        display: inline-flex;
+        position: relative;
+        display: flex;
         align-items: center;
         justify-content: center;
-        gap: 6px;
-        margin-top: 8px;
-        background: var(--vd-red);
+        gap: 7px;
+        margin-top: 10px;
+        background: linear-gradient(135deg, #e83a26 0%, #c0271a 100%);
         color: #fff;
         border: none;
-        border-radius: 8px;
-        padding: 8px 14px;
-        font-size: .8rem;
+        border-radius: 10px;
+        padding: 10px 16px;
+        font-size: .82rem;
         font-weight: 700;
         cursor: pointer;
-        transition: .15s;
         text-decoration: none;
         width: 100%;
         box-sizing: border-box;
+        overflow: hidden;
+        transition: transform .15s, box-shadow .15s, background .2s;
+        box-shadow: 0 3px 12px rgba(232, 58, 38, .35);
+        letter-spacing: .3px;
+    }
+
+    /* Shine sweep on hover */
+    .vd-dl-btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -75%;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent 30%, rgba(255, 255, 255, .22) 50%, transparent 70%);
+        transition: left .4s;
+        pointer-events: none;
+    }
+
+    .vd-dl-btn:hover::before {
+        left: 130%;
     }
 
     .vd-dl-btn:hover {
-        background: #c8321f;
+        background: linear-gradient(135deg, #f04433 0%, #d42d1e 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(232, 58, 38, .45);
         color: #fff;
         text-decoration: none;
     }
 
-    .vd-dl-btn:disabled {
-        opacity: .6;
-        cursor: not-allowed;
+    .vd-dl-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 8px rgba(232, 58, 38, .3);
     }
 
-    .vd-dl-btn-outline {
-        background: transparent;
-        border: 1px solid rgba(255, 255, 255, .2);
-        color: #ccc;
-    }
-
-    .vd-dl-btn-outline:hover {
-        background: rgba(255, 255, 255, .1);
-        color: #fff;
-    }
-
-    /* Progress bar */
-    .vd-progress-wrap {
-        margin-top: 6px;
-        background: rgba(255, 255, 255, .08);
-        border-radius: 4px;
-        height: 4px;
-        overflow: hidden;
-        display: none;
-    }
-
-    .vd-progress-bar {
-        height: 100%;
-        background: var(--vd-red);
-        border-radius: 4px;
+    /* Inner progress fill */
+    .vd-dl-btn .vd-btn-fill {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
         width: 0%;
-        transition: width .3s;
+        background: rgba(255, 255, 255, .16);
+        transition: width .25s ease;
+        pointer-events: none;
+        border-radius: 10px;
+    }
+
+    .vd-dl-btn .vd-btn-icon {
+        font-size: 1rem;
+        flex-shrink: 0;
+    }
+
+    .vd-dl-btn .vd-btn-text {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Downloading state */
+    .vd-dl-btn.downloading {
+        background: linear-gradient(135deg, #1e2028 0%, #2a2d38 100%);
+        border: 1px solid rgba(232, 58, 38, .4);
+        box-shadow: none;
+        cursor: default;
+        transform: none;
+    }
+
+    .vd-dl-btn.downloading:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .vd-dl-btn.downloading .vd-btn-icon {
+        animation: vd-spin .7s linear infinite;
+    }
+
+    /* Done state */
+    .vd-dl-btn.done {
+        background: linear-gradient(135deg, #1a7a44 0%, #146034 100%);
+        box-shadow: 0 4px 14px rgba(26, 122, 68, .4);
+    }
+
+    .vd-dl-btn.done:hover {
+        transform: translateY(-1px);
     }
 
     /* Video preview */
@@ -383,7 +429,7 @@
 
     .vd-steps {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(4, 1fr);
         gap: 28px;
     }
 
@@ -551,6 +597,12 @@
         .vd-thumb {
             width: 100%;
             height: 180px;
+        }
+    }
+
+    @media(max-width:768px) {
+        .vd-steps {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 </style>
@@ -819,19 +871,87 @@
             resultEl.innerHTML = '<div class="vd-notice error">❌ ' + esc(msg) + '</div>';
         }
 
-        /* ── Build download button → uses our proxy ─── */
+        /* ── Build download button with animated progress ────────────── */
         function dlBtn(streamUrl, label, filename, audioUrl) {
             var proxyHref = PROXY_API +
                 '?url=' + encodeURIComponent(streamUrl) +
                 '&filename=' + encodeURIComponent(filename);
-            if (audioUrl) {
-                proxyHref += '&audio_url=' + encodeURIComponent(audioUrl);
-            }
-            return '<a href="' + proxyHref + '" class="vd-dl-btn" download="' + esc(filename) + '">⬇ ' + esc(label) + '</a>';
+            if (audioUrl) proxyHref += '&audio_url=' + encodeURIComponent(audioUrl);
+
+            var isMerged = !!audioUrl;
+            var html = '<button class="vd-dl-btn" data-label="Download ' + esc(label) + '" onclick="vdStartDownload(this,' +
+                '\'' + encodeURIComponent(proxyHref) + '\',' +
+                '\'' + encodeURIComponent(filename) + '\',' +
+                (isMerged ? 'true' : 'false') + ')">' +
+                '<span class="vd-btn-fill"></span>' +
+                '<span class="vd-btn-icon">⬇</span>' +
+                '<span class="vd-btn-text">Download ' + esc(label) + '</span>' +
+                '</button>';
+            return html;
+        }
+
+        /* ── Animated download handler ─────────────────────── */
+        window.vdStartDownload = function(btn, encodedUrl, encodedFilename, isMerged) {
+            if (btn.classList.contains('downloading') || btn.classList.contains('done')) return;
+            var url = decodeURIComponent(encodedUrl);
+            var filename = decodeURIComponent(encodedFilename);
+            var fill = btn.querySelector('.vd-btn-fill');
+            var icon = btn.querySelector('.vd-btn-icon');
+            var text = btn.querySelector('.vd-btn-text');
+
+            // Trigger the actual download IMMEDIATELY (browsers block delayed clicks)
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            btn.classList.add('downloading');
+            icon.textContent = '⏳';
+            text.textContent = 'Preparing… 0%';
+
+            var pct = 0;
+            var interval = setInterval(function() {
+                if (pct < 85) {
+                    pct += Math.random() * (isMerged ? 1.5 : 3);
+                    if (pct > 85) pct = 85;
+                    fill.style.width = pct.toFixed(1) + '%';
+                    text.textContent = 'Downloading… ' + Math.round(pct) + '%';
+                }
+            }, isMerged ? 200 : 100);
+
+            // Snappier feedback: Transition to completion state
+            var completionDelay = isMerged ? 3000 : 1500; 
+            setTimeout(function() {
+                clearInterval(interval);
+                fill.style.width = '100%';
+                icon.textContent = '✅';
+                text.textContent = 'Download Completed!';
+                btn.classList.remove('downloading');
+                btn.classList.add('done');
+
+                setTimeout(function() {
+                    fill.style.width = '0%';
+                    icon.textContent = '⬇';
+                    text.textContent = btn.getAttribute('data-label') || 'Download';
+                    btn.classList.remove('done');
+                }, 3000);
+            }, completionDelay);
+        };
+
+        /* ── Auto-activate platform pill tab ────────────────────── */
+        function activatePlatformPill(platform) {
+            document.querySelectorAll('.vd-platform-pill').forEach(function(p) {
+                p.classList.remove('active');
+                if (p.dataset.platform === platform) p.classList.add('active');
+            });
         }
 
         /* ── Render quality cards ───────────────────── */
         function renderCards(formats, thumb, title, platform) {
+            activatePlatformPill(platform);
             var thumbHtml = thumb ?
                 '<img src="' + esc(thumb) + '" class="vd-thumb" alt="Thumbnail" onerror="this.style.display=\'none\'">' :
                 '<div class="vd-thumb" style="display:flex;align-items:center;justify-content:center;font-size:2rem;">🎬</div>';
@@ -841,7 +961,7 @@
                 return '<div class="vd-quality-card">' +
                     '<div class="vd-quality-label">' + esc(f.label) + '</div>' +
                     '<div class="vd-quality-sub">' + esc(f.sub) + '</div>' +
-                    dlBtn(f.url, 'Download ' + f.label, fn, f.audio_url || null) +
+                    dlBtn(f.url, f.label, fn, f.audio_url || null) +
                     '</div>';
             }).join('');
 
@@ -859,8 +979,9 @@
                 '<div class="vd-notice success" style="margin-top:14px;">✅ Ready to download — click any button above. Files save directly to your device.</div>';
         }
 
-        /* ── Direct .mp4/.webm links — no server needed */
+        /* ── Direct .mp4/.webm links ───────────────────────────── */
         function handleDirect(url) {
+            activatePlatformPill('direct');
             var ext = (url.match(/\.(mp4|webm|ogg|mov|mkv)(\?.*)?$/i) || ['', 'mp4'])[1].toLowerCase();
             var fn = 'video.' + ext;
             var formats = [{
