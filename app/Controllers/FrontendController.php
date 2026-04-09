@@ -2574,10 +2574,13 @@ class FrontendController extends Controller
         }
 
         $safeUrl = escapeshellarg($url);
-        
+
         $baseDir = dirname(__DIR__, 2);
         $cookiesPath = $baseDir . '/writable/cookies.txt';
         $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
+
+        // Write stderr to a temp file so it doesn't pollute stdout JSON
+        $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
 
         $cmd = $ytdlp
             . ' --dump-json'
@@ -2585,23 +2588,44 @@ class FrontendController extends Controller
             . ' --no-playlist'
             . ' --no-warnings'
             . ' --no-check-certificates'
-            . ' --socket-timeout 20'
+            . ' --socket-timeout 30'
+            . ' --remote-components ejs:github'
+            . ' --no-cookies-from-browser'
             . $cookieCmd
             . ' --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"'
             . ' ' . $safeUrl
-            . ' 2>&1';
+            . ' 2>' . escapeshellarg($stderrFile);
 
         $output = shell_exec($cmd);
-        $info = json_decode($output, true);
+        $errOutput = @file_get_contents($stderrFile);
+        @unlink($stderrFile);
+
+        // Extract the JSON line (yt-dlp may print info lines before the JSON)
+        $info = null;
+        if (!empty($output)) {
+            foreach (explode("\n", $output) as $line) {
+                $line = trim($line);
+                if ($line && $line[0] === '{') {
+                    $decoded = json_decode($line, true);
+                    if ($decoded && isset($decoded['id'])) {
+                        $info = $decoded;
+                        break;
+                    }
+                }
+            }
+        }
 
         if (!$info) {
-            $err = strtolower($output);
-            // Handle bot detection errors (more robust check for "confirm you're not a bot" which can have different apostrophes)
-            if ((str_contains($err, 'confirm you') && str_contains($err, 'not a bot')) || str_contains($err, '403: forbidden')) {
-                throw new \Exception('YouTube is blocking this server (Bot Detection). To fix this, you need to upload a "cookies.txt" file to the /writable folder on the server.');
+            $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
+            // Handle bot detection errors
+            if ((str_contains($combinedErr, 'confirm you') && str_contains($combinedErr, 'not a bot'))
+                || str_contains($combinedErr, '403: forbidden')
+                || str_contains($combinedErr, '429')
+            ) {
+                throw new \Exception('YouTube is blocking this server (rate-limited or bot detection). Please update the cookies.txt file in /writable/ with a fresh export from your browser.');
             }
-            // If it's not a known bot block, show the actual system error to help debugging
-            $debugMsg = !empty($output) ? " Details: " . substr($output, 0, 200) : " (No output from yt-dlp)";
+            // Show actual error for debugging
+            $debugMsg = !empty($errOutput) ? " Details: " . substr($errOutput, 0, 300) : (!empty($output) ? " Details: " . substr($output, 0, 300) : " (No output from yt-dlp)");
             throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
         }
 
@@ -2652,14 +2676,14 @@ class FrontendController extends Controller
             $ext = $f['ext'] ?? 'mp4';
             $filesize = $f['filesize'] ?? $f['filesize_approx'] ?? null;
 
-            if ($vcodec === 'none') continue; 
-            if ($ext === 'ts') continue; 
+            if ($vcodec === 'none') continue;
+            if ($ext === 'ts') continue;
 
             $hasAudio = ($acodec !== 'none');
-            
+
             // Avoid duplicate heights (YT has many formats for same height)
             if (isset($seenHeights[$height])) continue;
-            
+
             $label = $height ? $height . 'p' : 'HD';
             $sizeTxt = $filesize ? ' · ' . round($filesize / 1048576, 1) . ' MB' : '';
 
@@ -2908,17 +2932,17 @@ class FrontendController extends Controller
     {
         $baseTmp = dirname(__DIR__, 2) . '/writable/tmp'; // Default
         $tmpDir = $_ENV['VIDEO_TMP_DIR'] ?? getenv('VIDEO_TMP_DIR') ?: $baseTmp;
-        
+
         if (!is_dir($tmpDir)) @mkdir($tmpDir, 0777, true);
-        
+
         $tmpFile = $tmpDir . '/' . uniqid('merge_') . '.mp4';
-        
+
         // Merge to a real file first. This ensures a standard (non-fragmented) MP4.
         // -movflags +faststart makes it playable before full download is complete.
-        $cmd = escapeshellcmd($ffmpeg) 
+        $cmd = escapeshellcmd($ffmpeg)
             . " -reconnect 1 -reconnect_at_eof 1 -reconnect_streamed 1 -reconnect_delay_max 5"
             . " -i " . escapeshellarg($videoUrl);
-        
+
         if ($audioUrl) {
             $cmd .= " -i " . escapeshellarg($audioUrl);
         }
@@ -2956,7 +2980,7 @@ class FrontendController extends Controller
         // Fallback to system path auto-detection
         $which = trim(shell_exec('which ffmpeg 2>/dev/null'));
         if ($which && @is_executable($which)) return $which;
-        
+
         return null;
     }
     public function tools()
