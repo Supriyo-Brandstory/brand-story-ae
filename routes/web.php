@@ -368,9 +368,8 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/xml-sitemap-generator', 'FrontendController@xmlsitemapgenerator', 'xmlsitemapgenerator');
     Route::post('/xml-sitemap-generator/generate', 'FrontendController@generateSitemapAction', 'xmlsitemapgenerator.generate');
     Route::get('/robot-txt-generator', 'FrontendController@robot', 'robot');
-    Route::get('/video-downloader', 'FrontendController@videoDownloader', 'video-downloader');
-    Route::post('/video-downloader/fetch', 'FrontendController@videoDownloaderFetch', 'video-downloader.fetch');
-    Route::get('/video-downloader/proxy', 'FrontendController@videoDownloaderProxy', 'video-downloader.proxy');
+    Route::get('/website-grader', 'FrontendController@websiteGrader', 'website-grader');
+    Route::get('/website-grader-report', 'FrontendController@websiteGraderReport', 'website-grader-report');
 });
 
 // Dynamic Page Routing - Catch-all for slug at root (supports sub-paths with *)
