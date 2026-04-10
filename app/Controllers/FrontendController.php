@@ -3029,9 +3029,135 @@ class FrontendController extends Controller
     public function httpStatusChecker()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'em-dubai-page tool-pages',
+            'title' => 'HTTP Status Checker & Bulk Redirect Tracer | BrandStory',
+            'description' => 'Check HTTP status codes, response headers, and redirect chains in bulk. Support for XML Sitemap URL extraction.'
         ];
         return $this->view('tools/http-status-checker', ['meta' => $meta]);
+    }
+
+    public function httpStatusCheckBulk()
+    {
+        $urls = $_POST['urls'] ?? null;
+        if (!is_array($urls)) {
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Invalid input']);
+            exit;
+        }
+
+        $results = [];
+        foreach (array_slice($urls, 0, 50) as $url) { 
+            $url = trim($url);
+            if (empty($url)) continue;
+            
+            if (!str_starts_with($url, 'http')) {
+                $url = 'https://' . $url;
+            }
+
+            $results[] = $this->_checkSingleUrl($url);
+        }
+
+        header('Content-Type: application/json');
+        echo json_encode(['results' => $results]);
+        exit;
+    }
+
+    private function _checkSingleUrl($url)
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_MAXREDIRS, 10);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+        
+        $startTime = microtime(true);
+        $response = curl_exec($ch);
+        $endTime = microtime(true);
+        $duration = round($endTime - $startTime, 3);
+
+        if (curl_errno($ch)) {
+            $error = curl_error($ch);
+            curl_close($ch);
+            return [
+                'url' => $url,
+                'status' => 0,
+                'error' => $error,
+                'chain' => [],
+                'headers' => []
+            ];
+        }
+
+        $info = curl_getinfo($ch);
+        $headerSize = $info['header_size'];
+        $headerText = substr($response, 0, $headerSize);
+        curl_close($ch);
+
+        // Parse headers
+        $headers = [];
+        foreach (explode("\n", $headerText) as $line) {
+            $parts = explode(':', $line, 2);
+            if (count($parts) === 2) {
+                $headers[trim($parts[0])] = trim($parts[1]);
+            }
+        }
+
+        $chain = [['code' => $info['http_code'], 'url' => $info['url']]];
+
+        return [
+            'url' => $url,
+            'final_url' => $info['url'],
+            'status' => $info['http_code'],
+            'redirects' => $info['redirect_count'],
+            'duration' => $duration,
+            'headers' => $headers,
+            'chain' => $chain,
+            'content_type' => $info['content_type']
+        ];
+    }
+
+    public function fetchSitemapUrls()
+    {
+        $sitemapUrl = $_POST['sitemap_url'] ?? null;
+        if (empty($sitemapUrl)) {
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Sitemap URL is required']);
+            exit;
+        }
+
+        if (!str_starts_with($sitemapUrl, 'http')) {
+            $sitemapUrl = 'https://' . $sitemapUrl;
+        }
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $sitemapUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Compatible; BrandStoryBot/1.0)');
+        
+        $xmlContent = curl_exec($ch);
+        if (curl_errno($ch)) {
+            $error = curl_error($ch);
+            curl_close($ch);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Failed to fetch sitemap: ' . $error]);
+            exit;
+        }
+        curl_close($ch);
+
+        preg_match_all('/<loc>(.*?)<\/loc>/s', $xmlContent, $matches);
+        $urls = array_unique($matches[1] ?? []);
+        
+        header('Content-Type: application/json');
+        echo json_encode([
+            'success' => true,
+            'urls' => array_values(array_slice($urls, 0, 100)),
+            'count' => count($urls)
+        ]);
+        exit;
     }
 
     public function websiteGrader()

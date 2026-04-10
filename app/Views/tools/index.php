@@ -76,22 +76,22 @@
                     </a>
                 </div>
 
-                <!-- Video Downloader (Actual) -->
+                <!-- HTTP Status Checker -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <a href="<?= route('video-downloader') ?>" class="cyber-tool-card video-card">
+                    <a href="<?= route('http-status-checker') ?>" class="cyber-tool-card status-card">
                         <div class="card-inner">
                             <div class="card-glow"></div>
                             <div class="card-content p-4">
                                 <div class="tool-meta mb-3">
-                                    <div class="icon-hex-sm purple">
-                                        <i class="ion-ios-videocam"></i>
+                                    <div class="icon-hex-sm cyan">
+                                        <i class="ion-ios-pulse"></i>
                                     </div>
-                                    <span class="tech-tag">STREAM ENGINE</span>
+                                    <span class="tech-tag">RESPONSE ENGINE</span>
                                 </div>
-                                <h4 class="tool-title-sm">Video Downloader</h4>
-                                <p class="tool-desc-sm">High-fidelity extraction and merging for YouTube, Instagram, and Facebook streams.</p>
+                                <h4 class="tool-title-sm">HTTP Status Checker</h4>
+                                <p class="tool-desc-sm">Bulk status code verification and redirect tracer with XML sitemap support.</p>
                                 <div class="tool-action-sm">
-                                    <span class="action-btn-sm">START DOWNLOAD <i class="ion-android-arrow-forward"></i></span>
+                                    <span class="action-btn-sm">ANALYZE URLS <i class="ion-android-arrow-forward"></i></span>
                                 </div>
                             </div>
                         </div>
