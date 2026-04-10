@@ -2608,8 +2608,20 @@ class FrontendController extends Controller
             $resilienceFlags .= ' --add-header "Origin:https://www.facebook.com"';
         }
 
-        // Proxy support - strongly recommended for Meta (FB/IG) permanent fix
-        $proxy = getenv('YTDLP_PROXY') ?: null;
+        // Proxy support - robust loading from various PHP sources
+        $proxy = getenv('YTDLP_PROXY') ?: ($_ENV['YTDLP_PROXY'] ?? ($_SERVER['YTDLP_PROXY'] ?? null));
+        
+        // Manual .env fallback if others fail (very common in local dev like Herd/Valet)
+        if (!$proxy && file_exists($baseDir . '/.env')) {
+            $envLines = explode("\n", file_get_contents($baseDir . '/.env'));
+            foreach ($envLines as $line) {
+                if (str_starts_with(trim($line), 'YTDLP_PROXY=')) {
+                    $proxy = trim(str_replace('YTDLP_PROXY=', '', $line));
+                    break;
+                }
+            }
+        }
+
         if ($proxy) {
             $resilienceFlags .= ' --proxy ' . escapeshellarg($proxy);
         }
