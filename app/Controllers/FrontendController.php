@@ -2649,24 +2649,32 @@ class FrontendController extends Controller
 
         if (!$info) {
             $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
-            // YouTube bot detection
-            if ((str_contains($combinedErr, 'confirm you') && str_contains($combinedErr, 'not a bot'))
-                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '403'))
-                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '429'))
-            ) {
-                throw new \Exception('YouTube is blocking this server (bot detection/rate-limit). Please re-export cookies.txt from your browser while logged into YouTube and upload it to /writable/cookies.txt on the server.');
+            
+            // Refined Error Handling: Only demand cookies if strictly necessary
+            $isLoginRequired = str_contains($combinedErr, 'login') || str_contains($combinedErr, 'sign in') || str_contains($combinedErr, 'private');
+            $isRateLimited = str_contains($combinedErr, '429') || str_contains($combinedErr, 'rate limit');
+            $isBlocked = str_contains($combinedErr, '403') || str_contains($combinedErr, 'bot');
+
+            if (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
+                if ($isLoginRequired || $isBlocked || $isRateLimited) {
+                    throw new \Exception('YouTube is currently blocking this request. Recommended: Update your YTDLP_PROXY in .env or provide a fresh /writable/cookies.txt');
+                }
+            } elseif (str_contains($urlLower, 'instagram.com')) {
+                if ($isLoginRequired) {
+                    throw new \Exception('This Instagram content is private or requires a login to view. Please upload /writable/instagram_cookies.txt');
+                }
+                if ($isBlocked || $isRateLimited) {
+                    throw new \Exception('Instagram is blocking the server IP. Please update your YTDLP_PROXY in .env to a Residential Proxy.');
+                }
+            } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
+                if ($isLoginRequired || $isBlocked) {
+                    throw new \Exception('Facebook blocked the request or requires login. Using a Proxy in .env is the best permanent fix.');
+                }
             }
-            // Instagram login / rate-limit
-            if (str_contains($combinedErr, '[instagram]') || str_contains($combinedErr, 'instagram')) {
-                throw new \Exception('Instagram requires authentication cookies. Please export your Instagram cookies using the browser extension and upload the file to the server as /writable/instagram_cookies.txt');
-            }
-            // Facebook login / rate-limit
-            if (str_contains($combinedErr, '[facebook]') || str_contains($combinedErr, 'facebook')) {
-                throw new \Exception('Facebook requires authentication cookies. Please export your Facebook cookies using the browser extension and upload the file to the server as /writable/facebook_cookies.txt');
-            }
-            // Generic
-            $debugMsg = !empty($errOutput) ? ' Details: ' . substr($errOutput, 0, 300) : (!empty($output) ? ' Details: ' . substr($output, 0, 300) : ' (No output from yt-dlp)');
-            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
+
+            // Fallback Generic Error
+            $debugMsg = !empty($errOutput) ? ' Error: ' . substr($errOutput, 0, 500) : ' (Access Denied or Invalid URL)';
+            throw new \Exception('Video processing failed. Platform might be blocking the server.' . $debugMsg);
         }
 
         $title = $info['title'] ?? 'Video';
