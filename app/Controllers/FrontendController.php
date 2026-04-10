@@ -2595,6 +2595,25 @@ class FrontendController extends Controller
         // Write stderr to a temp file so it doesn't pollute stdout JSON
         $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
 
+        // Resilience flags to reduce bot detection
+        $resilienceFlags = '';
+        
+        if (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
+            $resilienceFlags .= ' --extractor-args "youtube:player-client=android,web;player-skip=web_embedded_player,mweb_embedded_player"';
+        } elseif (str_contains($urlLower, 'instagram.com')) {
+            $resilienceFlags .= ' --add-header "Referer:https://www.instagram.com/"';
+            $resilienceFlags .= ' --add-header "Origin:https://www.instagram.com"';
+        } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
+            $resilienceFlags .= ' --add-header "Referer:https://www.facebook.com/"';
+            $resilienceFlags .= ' --add-header "Origin:https://www.facebook.com"';
+        }
+
+        // Proxy support - strongly recommended for Meta (FB/IG) permanent fix
+        $proxy = getenv('YTDLP_PROXY') ?: null;
+        if ($proxy) {
+            $resilienceFlags .= ' --proxy ' . escapeshellarg($proxy);
+        }
+
         $cmd = $ytdlp
             . ' --dump-json'
             . ' --ignore-config'
@@ -2602,10 +2621,10 @@ class FrontendController extends Controller
             . ' --no-warnings'
             . ' --no-check-certificates'
             . ' --socket-timeout 30'
-            . ' --remote-components ejs:github'
             . ' --no-cookies-from-browser'
             . $cookieCmd
-            . ' --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"'
+            . $resilienceFlags
+            . ' --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"'
             . ' ' . $safeUrl
             . ' 2>' . escapeshellarg($stderrFile);
 
