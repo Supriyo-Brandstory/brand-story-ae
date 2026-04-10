@@ -1,4 +1,3 @@
-
 <section class="service-banner seo-service-dubai sp-50">
     <div class="container"><!--Container Start-->
         <div class="row align-items-center"><!--Row Start-->
@@ -7,32 +6,32 @@
                     <h1 class="fw-bold">Top-Rated SEO Agency in Dubai, UAE</h1>
                     <p class="fs-24 my-3">More Traffic . Better Ranking . Stronger Growth</p>
                     <p class="fs-20">BrandStory is a top SEO company that Dubai businesses trust. We help 200+ clients in Dubai dominate search rankings with cutting-edge, ROI-focused SEO solutions. As a leading SEO company in Dubai, we know how to drives your business growth.</p><br>
-                    <p class="fs-20 d-flex align-items-center flex-wrap gap-2">
+                    <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start">
 
                         <b>20,000+</b> Keywords Ranked
-                        
+
                         <!-- Separator -->
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="3" fill="currentColor" />
                         </svg>
 
                         <b>32 K+</b> Leads Generated
-                        
+
                         <!-- Separator -->
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="3" fill="currentColor" />
                         </svg>
 
                         <b>8M+</b> Website Clicks
 
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="3" fill="currentColor" />
                         </svg>
 
                         <b>80+</b> Experts Working For You
 
-                        </p>
-                    <div class="sb-btn"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn">Get Free SEO Audit</a></div>
+                    </p>
+                    <div class="sb-btn mb-4"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn">Get Free SEO Audit</a></div>
                 </div>
             </div><!--col end-->
             <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
@@ -177,18 +176,18 @@
             <p class="fs-20 text-center">At Brandstory, we offer a full suite of Dubai SEO services designed to help businesses rank higher, attract quality traffic, and maximize ROI. Whether you're a restaurant in Dubai Marina or an e-commerce store in Downtown Dubai, our customized strategies deliver real results.</p>
         </div>
         <div class="row g-md-5 pt-4 align-items-stretch"><!--Row Start-->
-        <div class="col-md-6 d-flex align-items-stretch">
-            <div class="pow-box pbx-one">
-                <h4 class="mb-3">Keyword Research &amp; Strategy</h4>
-                <p>We identify high-value keywords that align with your target audience's search intent, ensuring your business appears in relevant searches.</p>
-                <ul>
-                    <li>Competitor analysis &amp; market research</li>
-                    <li>Long-tail keyword strategy for high conversion rates</li>
-                    <li>Keyword optimization (e.g., SEO for luxury brands in Dubai)</li>
-                </ul>
-                <a href="/keyword-research-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="pow-box pbx-one">
+                    <h4 class="mb-3">Keyword Research &amp; Strategy</h4>
+                    <p>We identify high-value keywords that align with your target audience's search intent, ensuring your business appears in relevant searches.</p>
+                    <ul>
+                        <li>Competitor analysis &amp; market research</li>
+                        <li>Long-tail keyword strategy for high conversion rates</li>
+                        <li>Keyword optimization (e.g., SEO for luxury brands in Dubai)</li>
+                    </ul>
+                    <a href="/keyword-research-dubai" class="btn em-btn mt-3">Learn More</a>
+                </div>
             </div>
-        </div>
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
                 <div class="pow-box pbx-two">
                     <h4 class="mb-3">On-Page Optimization</h4>
@@ -198,7 +197,7 @@
                         <li>SEO-friendly content enhancements</li>
                         <li>Internal linking &amp; URL structuring</li>
                     </ul>
-                    <a href="/on-page-seo-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/on-page-seo-dubai" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -210,7 +209,7 @@
                         <li>Schema markup for better search visibility</li>
                         <li>Mobile responsiveness &amp; secure HTTPS implementation</li>
                     </ul>
-                    <a href="/technical-seo-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/technical-seo-dubai" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -222,7 +221,7 @@
                         <li>Local citations &amp; NAP (Name, Address, Phone) consistency</li>
                         <li>Customer review management &amp; local backlink strategies</li>
                     </ul>
-                    <a href="/local-seo-services-in-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/local-seo-services-in-dubai" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -234,7 +233,7 @@
                         <li>SEO-optimized landing pages &amp; service pages</li>
                         <li>Content tailored for real estate SEO in Dubai, healthcare, e-commerce, and more</li>
                     </ul>
-                    <a href="/content-marketing-agency-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/content-marketing-agency-dubai" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -246,7 +245,7 @@
                         <li>Niche-specific backlinks for Dubai industries</li>
                         <li>Brand mentions &amp; PR-driven link acquisition</li>
                     </ul>
-                    <a href="/off-page-seo-dubai" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/off-page-seo-dubai" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -258,7 +257,7 @@
                         <li>Monthly SEO performance reports with actionable insights</li>
                         <li>Ongoing strategy refinement based on data-driven decisions</li>
                     </ul>
-                    <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="btn btn-outline-primary mt-3">Learn More</a>
+                    <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="btn em-btn mt-3">Learn More</a>
                 </div>
             </div><!--col end-->
             <!-- <div class="col-md-6 d-flex align-items-stretch"> col start
@@ -751,7 +750,8 @@
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-1.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start">Dubai Marina</h5>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-dubai-marina" style="color:#000;text-decoration:underline">Dubai Marina</a>
+                                </h5>
                                 <p class="text-start">SEO for hospitality, real estate, and tourism businesses</p>
                             </div>
                         </div>
@@ -762,7 +762,8 @@
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-2.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start">Downtown Dubai</h5>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-downtown-dubai" style="color:#000;text-decoration:underline">Downtown Dubai</a>
+                                </h5>
                                 <p class="text-start">E-commerce SEO for high-end brands and shopping outlets</p>
                             </div>
                         </div>
@@ -773,7 +774,8 @@
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-3.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start">Business Bay</h5>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-business-bay" style="color:#000;text-decoration:underline">Business Bay</a>
+                                </h5>
                                 <p class="text-start">B2B SEO for corporate firms and financial institutions</p>
                             </div>
                         </div>
@@ -784,7 +786,8 @@
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-4.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start">Jumeirah &amp; JBR</h5>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-company-in-jlt" style="color:#000;text-decoration:underline">Jumeirah &amp; JBR</a>
+                                </h5>
                                 <p class="text-start">Local SEO for restaurants, cafes, and lifestyle businesses</p>
                             </div>
                         </div>
@@ -795,7 +798,8 @@
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-5.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start">Dubai Silicon Oasis</h5>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-agency-in-dubai-silicon-oasis" style="color:#000;text-decoration:underline">Dubai Silicon Oasis</a>
+                                </h5>
                                 <p class="text-start">SEO for startups, tech firms, and industrial businesses</p>
                             </div>
                         </div>
@@ -896,7 +900,7 @@
 </section>
 
 
-    <section class="dm-page service-page ppc ">
+<section class="dm-page service-page ppc ">
     <div class="sp-50 dm-blog-section bg-white">
         <div class="container">
             <h2 class=" mb-4 text-md-start text-center">Explore Realted Articles<br>
@@ -904,7 +908,8 @@
             </h2>
             <div class="position-relative delivertechmain">
                 <div class="swiper dmblog-sld swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                    <div class="swiper-wrapper" id="swiper-wrapper-e00ece810255e439d" aria-live="polite" style="transform: translate3d(-1419px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="5 / 6">
+                    <div class="swiper-wrapper" id="swiper-wrapper-e00ece810255e439d" aria-live="polite" style="transform: translate3d(-1419px, 0px, 0px); transition-duration: 0ms;">
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="5 / 6">
                             <div class="latest-blog-main">
                                 <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-5.webp">
                                 <h3><a href="/blogs/site-architecture-seo-organize-your-website-the-right-way" style="color: #000; text-decoration: none;">Site Architecture &amp; SEO: Organize Your Website the Right Way</a></h3>
@@ -913,7 +918,8 @@
                                     <a href="/blogs/site-architecture-seo-organize-your-website-the-right-way">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="5" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="6 / 6">
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="5" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="6 / 6">
                             <div class="latest-blog-main">
                                 <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-6.webp">
                                 <h3><a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank" style="color: #000; text-decoration: none;">SEO Meta Tags: How to Craft Titles and Descriptions That Rank</a></h3>
@@ -988,7 +994,7 @@
 
 
 
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="1 / 6">
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="1 / 6">
                             <div class="latest-blog-main">
                                 <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-1.webp">
                                 <h3><a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide" style="color: #000; text-decoration: none;">Search Engine Optimization (SEO) Services in Dubai: A Complete Guide</a></h3>
@@ -997,7 +1003,8 @@
                                     <a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="2 / 6">
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 669.5px; margin-right: 40px;" role="group" aria-label="2 / 6">
                             <div class="latest-blog-main">
                                 <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-2.webp">
                                 <h3><a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers" style="color: #000; text-decoration: none;">Local SEO Dubai: The Strategy Behind Winning Local Customers</a></h3>
@@ -1006,8 +1013,10 @@
                                     <a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
-                        </div></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
                 <div class="swiper-button-next dmblog-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-e00ece810255e439d"></div>
                 <div class="swiper-button-prev dmblog-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-e00ece810255e439d"></div>
             </div>
