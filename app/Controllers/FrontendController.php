@@ -2575,29 +2575,19 @@ class FrontendController extends Controller
 
         $safeUrl = escapeshellarg($url);
 
-        // Detect platform from URL for targeted cookie file
+        //Detect platform for targeted logic
         $urlLower = strtolower($url);
         $baseDir = dirname(__DIR__, 2);
-        $writableDir = $baseDir . '/writable';
 
-        if (str_contains($urlLower, 'instagram.com')) {
-            $cookiesPath = $writableDir . '/instagram_cookies.txt';
-            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
-        } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
-            $cookiesPath = $writableDir . '/facebook_cookies.txt';
-            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
-        } else {
-            $cookiesPath = $writableDir . '/cookies.txt';
-        }
+        // Permanent Solution: 100% Cookie-Free Implementation
+        // We now rely entirely on clean Proxy IPs and Mobile Headers to bypass blocks.
+        $cookieCmd = ' --no-cookies --no-cookies-from-browser';
 
-        $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
-
-        // Write stderr to a temp file so it doesn't pollute stdout JSON
+        // Write stderr to a temp file
         $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
 
-        // Resilience flags to reduce bot detection
+        // Resilience flags: Mimic genuine Mobile App behavior
         $resilienceFlags = '';
-        
         if (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
             $resilienceFlags .= ' --extractor-args "youtube:player-client=android,web;player-skip=web_embedded_player,mweb_embedded_player"';
         } elseif (str_contains($urlLower, 'instagram.com')) {
@@ -2610,8 +2600,6 @@ class FrontendController extends Controller
 
         // Proxy support - robust loading from various PHP sources
         $proxy = getenv('YTDLP_PROXY') ?: ($_ENV['YTDLP_PROXY'] ?? ($_SERVER['YTDLP_PROXY'] ?? null));
-        
-        // Manual .env fallback if others fail (very common in local dev like Herd/Valet)
         if (!$proxy && file_exists($baseDir . '/.env')) {
             $envLines = explode("\n", file_get_contents($baseDir . '/.env'));
             foreach ($envLines as $line) {
@@ -2633,7 +2621,6 @@ class FrontendController extends Controller
             . ' --no-warnings'
             . ' --no-check-certificates'
             . ' --socket-timeout 30'
-            . ' --no-cookies-from-browser'
             . $cookieCmd
             . $resilienceFlags
             . ' --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"'
@@ -2644,7 +2631,7 @@ class FrontendController extends Controller
         $errOutput = @file_get_contents($stderrFile);
         @unlink($stderrFile);
 
-        // Extract the JSON line (yt-dlp may print info lines before the JSON)
+        // Extract JSON
         $info = null;
         if (!empty($output)) {
             foreach (explode("\n", $output) as $line) {
@@ -2662,31 +2649,19 @@ class FrontendController extends Controller
         if (!$info) {
             $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
             
-            // Refined Error Handling: Only demand cookies if strictly necessary
+            // Refined Error Handling: Zero Cookie Messaging
             $isLoginRequired = str_contains($combinedErr, 'login') || str_contains($combinedErr, 'sign in') || str_contains($combinedErr, 'private');
-            $isRateLimited = str_contains($combinedErr, '429') || str_contains($combinedErr, 'rate limit');
-            $isBlocked = str_contains($combinedErr, '403') || str_contains($combinedErr, 'bot');
+            $isBlocked = str_contains($combinedErr, '403') || str_contains($combinedErr, '429') || str_contains($combinedErr, 'rate limit') || str_contains($combinedErr, 'bot');
 
-            if (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
-                if ($isLoginRequired || $isBlocked || $isRateLimited) {
-                    throw new \Exception('YouTube is currently blocking this request. Recommended: Update your YTDLP_PROXY in .env or provide a fresh /writable/cookies.txt');
-                }
-            } elseif (str_contains($urlLower, 'instagram.com')) {
-                if ($isLoginRequired) {
-                    throw new \Exception('This Instagram content is private or requires a login to view. Please upload /writable/instagram_cookies.txt');
-                }
-                if ($isBlocked || $isRateLimited) {
-                    throw new \Exception('Instagram is blocking the server IP. Please update your YTDLP_PROXY in .env to a Residential Proxy.');
-                }
-            } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
-                if ($isLoginRequired || $isBlocked) {
-                    throw new \Exception('Facebook blocked the request or requires login. Using a Proxy in .env is the best permanent fix.');
-                }
+            if (str_contains($urlLower, 'instagram.com')) {
+                if ($isLoginRequired) throw new \Exception('Access Denied: This content is restricted or private. Instagram requires a clean residential proxy to bypass this.');
+                if ($isBlocked) throw new \Exception('Connection Blocked: Your server/proxy IP is flagged by Instagram. Switch to a new proxy in .env.');
+            } elseif (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
+                if ($isBlocked) throw new \Exception('Access Denied: YouTube has detected automated traffic. A fresh Proxy in .env is required.');
             }
 
-            // Fallback Generic Error
-            $debugMsg = !empty($errOutput) ? ' Error: ' . substr($errOutput, 0, 500) : ' (Access Denied or Invalid URL)';
-            throw new \Exception('Video processing failed. Platform might be blocking the server.' . $debugMsg);
+            $debugMsg = !empty($errOutput) ? ' Error: ' . substr($errOutput, 0, 400) : ' (Invalid URL or Blocked access)';
+            throw new \Exception('Video processing failed. The platform is blocking the connection.' . $debugMsg);
         }
 
         $title = $info['title'] ?? 'Video';
