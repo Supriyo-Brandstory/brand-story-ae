@@ -3035,4 +3035,14 @@ class FrontendController extends Controller
         ];
         return $this->view('tools/website-grader-report', ['meta' => $meta]);
     }
+
+    public function schemaMarkupGenerator()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages',
+            'title' => 'Schema Markup Generator (JSON-LD) | BrandStory',
+            'description' => 'Generate JSON-LD schema markup for your website with our easy-to-use tool. Improve your SEO and search visibility.'
+        ];
+        return $this->view('tools/schema-markup-generator', ['meta' => $meta]);
+    }
 }
