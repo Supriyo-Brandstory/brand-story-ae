@@ -22,6 +22,8 @@
                             <option value="event">Event</option>
                             <option value="faq">FAQ</option>
                             <option value="howto">How-to</option>
+                            <option value="organization">Organization</option>
+                            <option value="local_business">Local Business</option>
                         </select>
                     </div>
                     <div class="tool-card-body" id="dynamic-fields"></div>
@@ -56,7 +58,138 @@
     </div>
 </section>
 
+<section class="how-it-works-section sp-100 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-800 text-dark">How to Generate Valid Schema Markup</h2>
+            <p class="text-muted max-w-700 mx-auto">Create precision-engineered JSON-LD structured data in three simple steps.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 text-center">
+                <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
+                    <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">01</div>
+                    <h4 class="fw-700 mb-3">Choose Template</h4>
+                    <p class="text-muted fs-14">Select the schema type that matches your content, whether it's an Article, a Local Business, an Event, or an FAQ list.</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
+                    <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">02</div>
+                    <h4 class="fw-700 mb-3">Populate Data</h4>
+                    <p class="text-muted fs-14">Enter your specific details into our intuitive form. The tool compiles a valid JSON-LD script in real-time as you type.</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="step-card p-5 rounded-5 border bg-white h-100 shadow-sm transition-all hover-up">
+                    <div class="step-number mb-4" style="font-size: 40px; font-weight: 900; color: #f0f0f0;">03</div>
+                    <h4 class="fw-700 mb-3">Copy & Validate</h4>
+                    <p class="text-muted fs-14">Copy the generated code and use our direct link to Google's testing tool to ensure your markup is error-free before deployment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="content-section sp-100 bg-light">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="content-card">
+                    <h2 class="mb-4 fw-800 text-dark">Why Use Our Schema Markup Generator?</h2>
+                    <p class="text-muted fs-18">Schema markup is a critical component of modern SEO that helps search engines understand the context of your data. By providing structured information about your business, products, or articles, you enable Google to display rich results that stand out in competitive search landscapes. Our automated tool simplifies this complex technical process into a user-friendly generate-and-paste workflow.</p>
+                    <ul class="benefit-list mt-4 p-0 list-unstyled">
+                        <li class="mb-3 d-flex align-items-start text-dark">
+                            <i class="ion-checkmark-circled text-danger me-3 mt-1 fs-20"></i>
+                            <span><strong>Rich Snippet Eligibility:</strong> Qualify for visually enhanced search results like star ratings, event dates, and FAQs.</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start text-dark">
+                            <i class="ion-checkmark-circled text-danger me-3 mt-1 fs-20"></i>
+                            <span><strong>Improved Organic CTR:</strong> Rich results attract more eye-share and clicks, leading to higher organic traffic.</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start text-dark">
+                            <i class="ion-checkmark-circled text-danger me-3 mt-1 fs-20"></i>
+                            <span><strong>Enhanced Indexing Speed:</strong> Helping bots understand your content hierarchy leads to more efficient crawling and indexing.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="img-wrapper rounded-5xx overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop" alt="Schema Markup Analysis" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="sp-50 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-5 fw-800">Trusted by Forward-Thinking Brands</h2>
+        <?php include __DIR__ . '/../component/services/clients.php' ?>
+    </div>
+</section>
+
+<section class="site-faq sp-100 bg-white border-top">
+    <div class="container">
+        <h2 class="text-center fw-800 mb-5 text-dark">Frequently Asked Questions</h2>
+        <div class="accordion max-w-800 mx-auto" id="accordionSchema">
+
+            <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                <h2 class="accordion-header" id="faqh1">
+                    <button class="accordion-button fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc1">
+                        Where should I place the generated schema code?
+                    </button>
+                </h2>
+                <div id="faqc1" class="accordion-collapse collapse show" data-bs-parent="#accordionSchema">
+                    <div class="accordion-body text-muted line-h-1-8">
+                        The JSON-LD code can be placed within the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> tags of your HTML file. Google officially recommends the <code>&lt;head&gt;</code> section for optimal performance, though both are technically valid.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                <h2 class="accordion-header" id="faqh2">
+                    <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc2">
+                        Will Schema Markup guarantee a Rich Result?
+                    </button>
+                </h2>
+                <div id="faqc2" class="accordion-collapse collapse" data-bs-parent="#accordionSchema">
+                    <div class="accordion-body text-muted line-h-1-8">
+                        Implementation makes your page *eligible* for rich results, but it does not guarantee their appearance. Google's algorithm decides whether to display snippets based on relevance, quality, and the specific query.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                <h2 class="accordion-header" id="faqh3">
+                    <button class="accordion-button collapsed fw-700 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#faqc3">
+                        Do I need schema if I already have a sitemap?
+                    </button>
+                </h2>
+                <div id="faqc3" class="accordion-collapse collapse" data-bs-parent="#accordionSchema">
+                    <div class="accordion-body text-muted line-h-1-8">
+                        Yes. While a sitemap tells Google *where* your pages are, Schema tells Google *what* your pages are about. Together, they provide search bots with a complete architectural and context-rich understanding of your site.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="final-cta py-5" style="background: #000;">
+    <div class="container text-center py-5">
+        <h2 class="text-white fw-900 mb-4" style="font-size: 42px;">Ready to Dominate Search Rankings?</h2>
+        <p class="text-white-50 mb-5 fs-18 max-w-700 mx-auto">Technical SEO is just the beginning. Partner with BrandStory to build a comprehensive digital strategy that drives real growth for your business.</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="/contact" class="code-action-btn code-action-btn--primary px-5 py-3 fs-16" style="border-radius: 50px;">Talk to an Expert</a>
+            <a href="/tools" class="code-action-btn px-5 py-3 fs-16" style="border-radius: 50px;">Explore More Tools</a>
+        </div>
+    </div>
+</section>
 
 <style>
 /* ── Hero ── */
@@ -127,7 +260,7 @@ textarea.form-control {
     line-height: 1.5;
 }
 
-.schema-field-group { margin-bottom: 14px; }
+.schema-field-group { margin-bottom: 18px; }
 .schema-field-label {
     display: block;
     font-size: 11px;
@@ -136,6 +269,7 @@ textarea.form-control {
     letter-spacing: .06em;
     color: #888;
     margin-bottom: 5px;
+    text-align: left;
 }
 .schema-field-label .req { color: #ea3a22; margin-left: 2px; }
 .schema-field-hint {
@@ -147,11 +281,11 @@ textarea.form-control {
     margin-left: 4px;
 }
 .schema-section-title {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .08em;
-    color: #ccc;
+    /* letter-spacing: .08em; */
+    color: #ff1500ff;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 6px;
     margin: 22px 0 14px;
@@ -290,6 +424,33 @@ pre#json-ld-output {
 }
 
 
+/* ── Tool bottom sections ── */
+.sp-100 { padding: 100px 0; }
+.sp-50 { padding: 50px 0; }
+.bg-light { background: #f8f9fa !important; }
+.rounded-5xx { border-radius: 30px; }
+.hover-up { transition: all 0.3s ease; }
+.hover-up:hover { transform: translateY(-10px); }
+.text-danger { color: #ea3a22 !important; }
+.fw-800 { font-weight: 800; }
+.max-w-700 { max-width: 700px; }
+.max-w-800 { max-width: 800px; }
+.line-h-1-8 { line-height: 1.8; }
+.fs-20 { font-size: 20px; }
+.fs-14 { font-size: 14px; }
+
+.step-card { 
+    border-radius: 20px !important; 
+    transition: all 0.3s ease;
+}
+.step-number { font-family: 'Poppins', sans-serif; }
+
+.site-faq .accordion-button:not(.collapsed) {
+    background: rgba(234, 58, 34, 0.05);
+    color: #ea3a22;
+}
+.site-faq .accordion-item { border: 1px solid #eee; }
+
 </style>
 
 <script>
@@ -300,7 +461,7 @@ pre#json-ld-output {
     const copyBtn       = document.getElementById('copy-btn');
     const validateBtn   = document.getElementById('validate-btn');
 
-    let bcCount = 0, faqCount = 0, htCount = 0;
+    let bcCount = 0, faqCount = 0, htCount = 0, socCount = 0;
 
     function v(id) {
         const el = document.getElementById(id);
@@ -399,6 +560,37 @@ pre#json-ld-output {
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M6.5 1v11M1 6.5h11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
                 Add step
             </button>
+        `,
+        organization: () => `
+            ${sectionTitle('Organization details')}
+            ${fieldHTML('org_name',    'Name',     'text', 'e.g. Acme Corp', true)}
+            ${fieldHTML('org_url',     'URL',      'url',  'https://example.com', true)}
+            ${fieldHTML('org_logo',    'Logo URL', 'url',  'https://example.com/logo.png', false)}
+            ${fieldHTML('org_contact', 'Contact Phone', 'text', '+1-123-456-7890', false)}
+            ${sectionTitle('Social Profiles')}
+            <div id="org-socials"></div>
+            <button type="button" class="add-item-btn" onclick="smAddSocial()">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M6.5 1v11M1 6.5h11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                Add Social Profile
+            </button>
+        `,
+        local_business: () => `
+            ${sectionTitle('Business details')}
+            ${fieldHTML('lb_name',  'Name',      'text',     'e.g. Joe\'s Pizza', true)}
+            ${fieldHTML('lb_url',   'URL',       'url',      'https://example.com', true)}
+            ${fieldHTML('lb_image', 'Image URL', 'url',      'https://example.com/store.jpg', true)}
+            ${fieldHTML('lb_phone', 'Phone',     'text',     '+1-123-456-7890', false)}
+            ${fieldHTML('lb_price', 'Price Range', 'text',   'e.g. $$', false)}
+            ${fieldHTML('lb_desc',  'Description', 'textarea', 'Tell us about your business…', false)}
+            ${sectionTitle('Address')}
+            ${fieldHTML('lb_street',  'Street Address', 'text', '123 Main St', false)}
+            ${fieldHTML('lb_city',    'City',           'text', 'San Francisco', false)}
+            ${fieldHTML('lb_state',   'State / Region', 'text', 'CA', false)}
+            ${fieldHTML('lb_zip',     'Zip / Postal Code', 'text', '94101', false)}
+            ${fieldHTML('lb_country', 'Country',        'text', 'US', false)}
+            ${sectionTitle('Geo Coordinates')}
+            ${fieldHTML('lb_lat', 'Latitude',  'text', '37.7749', false)}
+            ${fieldHTML('lb_lng', 'Longitude', 'text', '-122.4194', false)}
         `
     };
 
@@ -472,6 +664,24 @@ pre#json-ld-output {
                 <input type="url" class="form-control" id="ht_simg_${c}" placeholder="https://example.com/step.jpg" oninput="smGenerate()">
             </div>`;
         document.getElementById('ht-steps').appendChild(div);
+        smGenerate();
+    };
+
+    window.smAddSocial = function () {
+        socCount++;
+        const c = socCount;
+        const div = document.createElement('div');
+        div.className = 'repeatable-item';
+        div.id = `soc_item_${c}`;
+        div.innerHTML = `
+            <div class="repeatable-item-header">
+                <span class="repeatable-item-label">Social Profile ${c}</span>
+                <button type="button" class="remove-item-btn" onclick="smRemove('soc_item_${c}')">&#215;</button>
+            </div>
+            <div class="schema-field-group">
+                <input type="url" class="form-control" id="org_social_${c}" placeholder="https://facebook.com/acme" oninput="smGenerate()">
+            </div>`;
+        document.getElementById('org-socials').appendChild(div);
         smGenerate();
     };
 
@@ -580,15 +790,57 @@ pre#json-ld-output {
             if (steps.length) schema.step = steps;
         }
 
+        else if (type === 'organization') {
+            schema['@type'] = 'Organization';
+            const n = v('org_name'); if (n) schema.name = n;
+            const u = v('org_url');  if (u) schema.url  = u;
+            const l = v('org_logo'); if (l) schema.logo = l;
+            const c = v('org_contact');
+            if (c) schema.contactPoint = { '@type': 'ContactPoint', telephone: c, contactType: 'customer service' };
+            const socials = [];
+            document.querySelectorAll('[id^="org_social_"]').forEach(el => {
+                const val = el.value.trim();
+                if (val) socials.push(val);
+            });
+            if (socials.length) schema.sameAs = socials;
+        }
+
+        else if (type === 'local_business') {
+            schema['@type'] = 'LocalBusiness';
+            const n = v('lb_name');  if (n) schema.name  = n;
+            const u = v('lb_url');   if (u) schema.url   = u;
+            const img = v('lb_image'); if (img) schema.image = img;
+            const p = v('lb_phone'); if (p) schema.telephone = p;
+            const pr = v('lb_price'); if (pr) schema.priceRange = pr;
+            const d = v('lb_desc');  if (d) schema.description = d;
+            
+            const street = v('lb_street'), city = v('lb_city'), state = v('lb_state'), zip = v('lb_zip'), country = v('lb_country');
+            if (street || city || state || zip || country) {
+                schema.address = { '@type': 'PostalAddress' };
+                if (street) schema.address.streetAddress = street;
+                if (city)   schema.address.addressLocality = city;
+                if (state)  schema.address.addressRegion = state;
+                if (zip)    schema.address.postalCode = zip;
+                if (country) schema.address.addressCountry = country;
+            }
+            const lat = v('lb_lat'), lng = v('lb_lng');
+            if (lat || lng) {
+                schema.geo = { '@type': 'GeoCoordinates' };
+                if (lat) schema.geo.latitude = lat;
+                if (lng) schema.geo.longitude = lng;
+            }
+        }
+
         jsonOutput.textContent = JSON.stringify(schema, null, 2);
     };
 
     function renderSchema(type) {
-        bcCount = 0; faqCount = 0; htCount = 0;
+        bcCount = 0; faqCount = 0; htCount = 0; socCount = 0;
         dynamicFields.innerHTML = templates[type] ? templates[type]() : '';
         if (type === 'breadcrumb') { smAddBc(); smAddBc(); smAddBc(); }
         else if (type === 'faq')   { smAddFaq(); smAddFaq(); }
         else if (type === 'howto') { smAddStep(); smAddStep(); }
+        else if (type === 'organization') { smAddSocial(); smAddSocial(); }
         else smGenerate();
     }
 
