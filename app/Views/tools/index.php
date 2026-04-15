@@ -119,12 +119,96 @@
                         </div>
                     </a>
                 </div>
+
+                <!-- Image Alt Text Finder -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('image-alt-text-finder') ?>" class="cyber-tool-card alt-card">
+                        <div class="card-inner">
+                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(234, 58, 34, 0.15), transparent 40%);"></div>
+                            <div class="card-content p-4">
+                                <div class="tool-meta mb-3">
+                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+                                        <i class="ion-images"></i>
+                                    </div>
+                                    <span class="tech-tag">UX AUDIT TOOL</span>
+                                </div>
+                                <h4 class="tool-title-sm">Image Alt Finder</h4>
+                                <p class="tool-desc-sm">Extract and audit image alt tags for improved accessibility and search engine visibility.</p>
+                                <div class="tool-action-sm">
+                                    <span class="action-btn-sm">SCAN IMAGES <i class="ion-android-arrow-forward"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- SERP Simulator -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('serp-simulator') ?>" class="cyber-tool-card serp-card">
+                        <div class="card-inner">
+                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(0, 255, 128, 0.15), transparent 40%);"></div>
+                            <div class="card-content p-4">
+                                <div class="tool-meta mb-3">
+                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);">
+                                        <i class="ion-ios-search-strong"></i>
+                                    </div>
+                                    <span class="tech-tag">OPTICS ENGINE</span>
+                                </div>
+                                <h4 class="tool-title-sm">SERP Preview Tool</h4>
+                                <p class="tool-desc-sm">Pixel-perfect Google search result simulation for metadata optimization and CTR dominance.</p>
+                                <div class="tool-action-sm">
+                                    <span class="action-btn-sm">LAUNCH PREVIEW <i class="ion-android-arrow-forward"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Website Grader -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('website-grader') ?>" class="cyber-tool-card grader-card">
+                        <div class="card-inner">
+                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(0, 200, 255, 0.15), transparent 40%);"></div>
+                            <div class="card-content p-4">
+                                <div class="tool-meta mb-3">
+                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);">
+                                        <i class="ion-speedometer"></i>
+                                    </div>
+                                    <span class="tech-tag">BENCHMARK ENGINE</span>
+                                </div>
+                                <h4 class="tool-title-sm">AI Website Grader</h4>
+                                <p class="tool-desc-sm">Deep-scan performance audit engine that identifies critical UX and SEO bottlenecks.</p>
+                                <div class="tool-action-sm">
+                                    <span class="action-btn-sm">RUN AUDIT <i class="ion-android-arrow-forward"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Schema Markup Generator -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('schema-markup-generator') ?>" class="cyber-tool-card schema-card">
+                        <div class="card-inner">
+                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(133, 91, 255, 0.15), transparent 40%);"></div>
+                            <div class="card-content p-4">
+                                <div class="tool-meta mb-3">
+                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);">
+                                        <i class="ion-code-working"></i>
+                                    </div>
+                                    <span class="tech-tag">SEMANTIC ENGINE</span>
+                                </div>
+                                <h4 class="tool-title-sm">Schema Generator</h4>
+                                <p class="tool-desc-sm">Advanced JSON-LD generator for rich snippet dominance and search machine-readability.</p>
+                                <div class="tool-action-sm">
+                                    <span class="action-btn-sm">GENERATE MARKUP <i class="ion-android-arrow-forward"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-
-    </section>
-
     <!-- UNIQUE CONTENT SECTION: TECH SPECS -->
     <section class="tech-specs sp-100 bg-white">
         <div class="container">
@@ -352,6 +436,45 @@
                             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#toolsFaq">
                                 <div class="accordion-body text-muted line-h-1-8">
                                     Absolutely. Our generator is built on the official Robots Exclusion Protocol (REP) standards and is fully compliant with Google Webmaster and Bing Webmaster guidelines.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-sm mb-3 rounded-4 overflow-hidden border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-700 py-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    How does the SERP Simulator help with CTR?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#toolsFaq">
+                                <div class="accordion-body text-muted line-h-1-8">
+                                    The SERP Simulator allows you to visualize how your title tags and meta descriptions appear on Google. By optimizing for pixel width instead of just character count, you prevent truncation and improve visual appeal, leading to higher click-through rates.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-sm mb-3 rounded-4 overflow-hidden border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-700 py-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    What metrics does the AI Website Grader analyze?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#toolsFaq">
+                                <div class="accordion-body text-muted line-h-1-8">
+                                    Our grader evaluates four critical pillars: Performance (speed and Core Web Vitals), SEO (on-page elements), Mobile responsiveness, and Security. You receive a comprehensive score and a prioritized list of technical fixes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-sm mb-3 rounded-4 overflow-hidden border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-700 py-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    Is the generated Schema Markup valid for Google?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#toolsFaq">
+                                <div class="accordion-body text-muted line-h-1-8">
+                                    Yes, all JSON-LD output is strictly formatted according to Schema.org standards. It is designed to be 100% compatible with Google's Rich Results Test and helps you qualify for enhanced search snippets.
                                 </div>
                             </div>
                         </div>

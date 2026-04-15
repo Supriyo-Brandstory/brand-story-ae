@@ -3185,4 +3185,75 @@ class FrontendController extends Controller
         ];
         return $this->view('tools/schema-markup-generator', ['meta' => $meta]);
     }
+
+    public function imageAltTextFinder()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages',
+            'title' => 'Image Alt Text Finder Tool | BrandStory',
+            'description' => 'Extract all images and their alt texts from any URL with our free Image Alt Text Finder tool.'
+        ];
+        return $this->view('tools/image-alt-finder', ['meta' => $meta]);
+    }
+
+    public function imageAltTextFinderFetch()
+    {
+        header('Content-Type: application/json');
+        try {
+            $url = $_POST['url'] ?? '';
+            if (empty($url) || !filter_var($url, FILTER_VALIDATE_URL)) {
+                throw new \Exception('Please enter a valid website URL.');
+            }
+
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_USERAGENT, 'BrandStory-Bot/1.0');
+            curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+            $html = curl_exec($ch);
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+
+            if ($html === false || $httpCode !== 200) {
+                throw new \Exception('Failed to fetch the URL. Please check the URL and try again.');
+            }
+
+            $dom = new \DOMDocument();
+            @$dom->loadHTML($html);
+            $imgTags = $dom->getElementsByTagName('img');
+            $images = [];
+
+            foreach ($imgTags as $img) {
+                $src = $img->getAttribute('src');
+                $alt = $img->getAttribute('alt');
+                
+                if (!empty($src)) {
+                    if (strpos($src, 'http') !== 0) {
+                        $parsed = parse_url($url);
+                        $base = $parsed['scheme'] . '://' . $parsed['host'];
+                        if (strpos($src, '//') === 0) {
+                            $src = $parsed['scheme'] . ':' . $src;
+                        } elseif (strpos($src, '/') === 0) {
+                            $src = $base . $src;
+                        } else {
+                            $path = dirname($parsed['path'] ?? '/');
+                            $src = $base . ($path === '/' ? '' : $path) . '/' . $src;
+                        }
+                    }
+                }
+
+                $images[] = [
+                    'src' => $src,
+                    'alt' => (isset($alt) && $alt !== "") ? $alt : null
+                ];
+            }
+
+            echo json_encode(['status' => 'success', 'images' => $images]);
+        } catch (\Exception $e) {
+            echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
+        }
+        exit;
+    }
 }
