@@ -1,4 +1,168 @@
-    <section class="sem-new-banner-section">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+    .sem-new-banner-section {
+        padding: 24px 0 100px !important;
+    }
+
+    /* Local SEO Services Feature Section Grid Layout */
+    .feature-grid-section .feature-card {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 40px 30px;
+        border-radius: 24px;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .feature-grid-section .feature-card:hover {
+        background: rgba(132, 94, 247, 0.08);
+        border-color: rgba(132, 94, 247, 0.4);
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .feature-grid-section .feature-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at top right, rgba(132, 94, 247, 0.15), transparent 70%);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    .feature-grid-section .feature-card:hover::before {
+        opacity: 1;
+    }
+
+    .feature-grid-section .feature-num {
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1;
+        color: rgba(132, 94, 247, 0.2);
+        margin-bottom: 20px;
+        display: block;
+        transition: all 0.4s ease;
+    }
+
+    .feature-grid-section .feature-card:hover .feature-num {
+        color: #845ef7;
+        transform: translateX(5px);
+    }
+
+    .feature-grid-section .feature-card h4 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .feature-grid-section .feature-card p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .feature-grid-section .feature-image-box {
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.02);
+    }
+
+    .feature-grid-section .feature-image-box img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Horizontal slider for images on mobile */
+    @media (max-width: 767px) {
+        .image-mobile-slider {
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            overflow-x: auto !important;
+            padding: 10px 0 30px !important;
+            gap: 15px !important;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            margin-right: -15px;
+            margin-left: -15px;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        .image-mobile-slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        .image-mobile-slider > [class*="col-"] {
+            flex: 0 0 85% !important;
+            max-width: 85% !important;
+            width: 85% !important;
+        }
+
+        .feature-grid-section .feature-image-box {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .feature-grid-section .feature-card {
+            padding: 30px 20px;
+        }
+        .feature-grid-section .feature-num {
+            font-size: 32px;
+        }
+        .feature-grid-section .feature-card h4 {
+            font-size: 20px;
+        }
+    }
+
+    .ce-kw-text{
+        color: #fff;
+    }
+
+    .local-needs-item h3{
+        text-transform: capitalize !important;
+    }
+    /* 3x4 Local Needs Grid */
+    .local-needs-grid-3x4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    @media (max-width: 991px) {
+        .local-needs-grid-3x4 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 767px) {
+        .local-needs-grid-3x4 {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .local-needs-num-circle i {
+        font-size: 18px;
+    }
+</style>
+<section class="sem-new-banner-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -132,61 +296,65 @@
         </div>
     </section>
 
-    <section class="sticky-feature-section sp-80 dm-bg border-top border-secondary border-opacity-10">
+    <section class="feature-grid-section sp-80 dm-bg border-top border-secondary border-opacity-10">
         <div class="container">
-            <h2 class="text-white mb-lg-5 mb-0 text-md-start text-center">Best Local SEO Services in Dubai <br><span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
+            <h2 class="text-white mb-lg-5 mt-5 mb-4 text-md-start text-center">Best Local SEO Services in Dubai <br><span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
 
-            <div class="row">
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="sticky-image-wrapper">
-                        <div class="feature-image-panel active" id="feat-img-1">
-                            <img src="/assets/images/loc-4.webp" alt="Highly Targeted Traffic">
-                        </div>
-                        <div class="feature-image-panel" id="feat-img-2">
-                            <img src="/assets/images/loc-2.webp" alt="Stronger Conversion Potential">
-                        </div>
-                        <div class="feature-image-panel" id="feat-img-3">
-                            <img src="/assets/images/loc-1.webp" alt="Optimised for “Near Me” Searches">
-                        </div>
-                        <div class="feature-image-panel" id="feat-img-4">
-                            <img src="/assets/images/loc-3.webp" alt="Local Directory & Map Visibility">
-                        </div>
+            <!-- Cards Grid (1 column on mobile, 2x2 on desktop) -->
+            <div class="row g-4 mb-5">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-card">
+                        <span class="feature-num">01</span>
+                        <h4>Highly Targeted Traffic</h4>
+                        <p>We position your business for location-based keywords so you attract customers who are ready to take action, not just browse.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="feature-list">
-                        <div class="feature-item active" data-target="feat-img-1">
-                            <div class="d-flex gap-3 align-items-center">
-                                <span class="feature-num">01</span>
-                                <h4>Highly Targeted Traffic</h4>
-                            </div>
-                            <p>We position your business for location-based keywords so you attract customers who are ready to take action, not just browse.</p>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-card">
+                        <span class="feature-num">02</span>
+                        <h4>Stronger Conversion Potential</h4>
+                        <p>Appearing in Google Maps and local search results connects you with high-intent users, increasing enquiries, calls, and store visits.</p>
+                    </div>
+                </div>
 
-                        <div class="feature-item" data-target="feat-img-2">
-                            <div class="d-flex gap-3 align-items-center">
-                                <span class="feature-num">02</span>
-                                <h4>Stronger Conversion Potential</h4>
-                            </div>
-                            <p>Appearing in Google Maps and local search results connects you with high-intent users, increasing enquiries, calls, and store visits.</p>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-card">
+                        <span class="feature-num">03</span>
+                        <h4>Optimised for “Near Me” Searches</h4>
+                        <p>We structure your website and Google Business Profile to capture “near me” and geo-specific searches that drive immediate engagement.</p>
+                    </div>
+                </div>
 
-                        <div class="feature-item" data-target="feat-img-3">
-                            <div class="d-flex gap-3 align-items-center">
-                                <span class="feature-num">03</span>
-                                <h4>Optimised for “Near Me” Searches</h4>
-                            </div>
-                            <p>We structure your website and Google Business Profile to capture “near me” and geo-specific searches that drive immediate engagement.</p>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="feature-card">
+                        <span class="feature-num">04</span>
+                        <h4>Local Directory & Map Visibility</h4>
+                        <p>From GBP optimisation to local citations, we strengthen your presence across authoritative directories that influence local rankings.</p>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="feature-item" data-target="feat-img-4">
-                            <div class="d-flex gap-3 align-items-center">
-                                <span class="feature-num">04</span>
-                                <h4>Local Directory & Map Visibility</h4>
-                            </div>
-                            <p>From GBP optimisation to local citations, we strengthen your presence across authoritative directories that influence local rankings.</p>
-                        </div>
+            <!-- Images Slider (Horizontal on mobile, 2x2 on desktop) -->
+            <div class="row g-4 d-flex align-items-center image-mobile-slider">
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="feature-image-box">
+                        <img src="/assets/images/loc-4.webp" alt="Highly Targeted Traffic" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="feature-image-box">
+                        <img src="/assets/images/loc-2.webp" alt="Stronger Conversion Potential" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="feature-image-box">
+                        <img src="/assets/images/loc-1.webp" alt="Optimised for “Near Me” Searches" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="feature-image-box">
+                        <img src="/assets/images/loc-3.webp" alt="Local Directory & Map Visibility" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -201,24 +369,99 @@
 
             <div class="local-needs-grid">
                 <div class="local-needs-item">
+                    <div class="local-needs-num-circle"><i class="fas fa-location-arrow"></i></div>
+                    <h3>Strong Local Positioning</h3>
+                    <p class="text-white">When customers search for businesses nearby, they expect immediate and relevant results. If your business is not positioned correctly in local search ecosystems, competitors capture that demand. Local optimisation ensures your business appears prominently.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Local Search Presence</h3>
+                    <p class="text-white">Local SEO is not just rankings- it is map visibility, structured location pages, and consistent business signals across platforms. A properly optimised local presence increases enquiry opportunities and strengthens your brand’s geographic authority.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle"><i class="fas fa-star-half-alt"></i></div>
+                    <h3>Reputation Influences Decisions</h3>
+                    <p class="text-white">Before contacting a business, customers evaluate credibility. Reviews, consistent business information, and trusted directory placements influence perception. A well-managed local reputation builds confidence and improves conversion potential.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle"><i class="fas fa-rocket"></i></div>
+                    <h3>Local SEO Execution</h3>
+                    <p class="text-white">BrandStory implements structured local SEO frameworks tailored for Dubai’s competitive market. From technical on-page localisation to citation management and review strategy, we build sustainable local visibility.</p>
+                </div>
+            </div>
+
+            <div class="local-needs-footer">
+                <p>BrandStory works with Dubai-based businesses to strengthen their presence in location-driven searches and ensure they appear when nearby customers are ready to enquire. Our focus is practical execution- improving discoverability, refining local signals, and turning search demand into steady business opportunities.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="local-needs-section sp-80 dm-bg">
+        <div class="container">
+            <div class="local-needs-header">
+                <h2>Why Your Local Business Needs <br>Better SEO Visibility</h2>
+            </div>
+
+            <div class="local-needs-grid-3x4">
+                <div class="local-needs-item">
                     <div class="local-needs-num-circle">01</div>
                     <h3>Strong Local Positioning</h3>
-                    <p>When customers search for businesses nearby, they expect immediate and relevant results. If your business is not positioned correctly in local search ecosystems, competitors capture that demand. Local optimisation ensures your business appears prominently.</p>
+                    <p class="text-white">When customers search for businesses nearby, they expect immediate and relevant results. If your business is not positioned correctly in local search ecosystems, competitors capture that demand. Local optimisation ensures your business appears prominently.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">02</div>
                     <h3>Local Search Presence</h3>
-                    <p>Local SEO is not just rankings- it is map visibility, structured location pages, and consistent business signals across platforms. A properly optimised local presence increases enquiry opportunities and strengthens your brand’s geographic authority.</p>
+                    <p class="text-white">Local SEO is not just rankings- it is map visibility, structured location pages, and consistent business signals across platforms. A properly optimised local presence increases enquiry opportunities and strengthens your brand’s geographic authority.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">03</div>
                     <h3>Reputation Influences Decisions</h3>
-                    <p>Before contacting a business, customers evaluate credibility. Reviews, consistent business information, and trusted directory placements influence perception. A well-managed local reputation builds confidence and improves conversion potential.</p>
+                    <p class="text-white">Before contacting a business, customers evaluate credibility. Reviews, consistent business information, and trusted directory placements influence perception. A well-managed local reputation builds confidence and improves conversion potential.</p>
                 </div>
                 <div class="local-needs-item">
                     <div class="local-needs-num-circle">04</div>
                     <h3>Local SEO Execution</h3>
-                    <p>BrandStory implements structured local SEO frameworks tailored for Dubai’s competitive market. From technical on-page localisation to citation management and review strategy, we build sustainable local visibility.</p>
+                    <p class="text-white">BrandStory implements structured local SEO frameworks tailored for Dubai’s competitive market. From technical on-page localisation to citation management and review strategy, we build sustainable local visibility.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">05</div>
+                    <h3>GBP Profile Growth</h3>
+                    <p class="text-white">Optimising your Google Business Profile for maximum engagement and calls. We ensure your listing is active, accurate, and highly visible in the local pack.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">06</div>
+                    <h3>Citation Accuracy</h3>
+                    <p class="text-white">Ensuring NAP (Name, Address, Phone) consistency across high-authority directories. Correct citations are critical for building search engine trust and ranking higher.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">07</div>
+                    <h3>Geo-Targeted Keywords</h3>
+                    <p class="text-white">Targeting neighbourhood-specific terms to capture high intent searches. We focus on the exact areas where your customers live and work.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">08</div>
+                    <h3>Map Pack Domination</h3>
+                    <p class="text-white">Strategic positioning to secure and maintain top spots in local maps. We help you stay ahead of the competition in the highly visible Google Map Pack.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">09</div>
+                    <h3>Localized Content Strategy</h3>
+                    <p class="text-white">Creating area-specific content that resonates locally. Our content builds local relevance and authority, showing search engines you are local experts.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">10</div>
+                    <h3>Review Generation</h3>
+                    <p class="text-white">Implementing systems to consistently acquire high-quality reviews. Customer feedback is a powerful signal for both users and search engines.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">11</div>
+                    <h3>Mobile Search Optimisation</h3>
+                    <p class="text-white">Ensuring your local presence is perfect for on-the-go users. We optimise for 'on-the-spot' searches that lead to immediate visits and calls.</p>
+                </div>
+                <div class="local-needs-item">
+                    <div class="local-needs-num-circle">12</div>
+                    <h3>Sustainable Local Authority</h3>
+                    <p class="text-white">Turning local visibility into actual leads and store visits. We focus on long-term growth and geographic authority that stays strong over time.</p>
                 </div>
             </div>
 
@@ -249,7 +492,7 @@
                             <li class="mb-2">➤ Monthly reporting with insights</li>
                         </ul>
                         <div class="mt-auto">
-                            <p class="fs-14 opacity-60 mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility.</p>
+                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility.</p>
                             <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                         </div>
                     </div>
@@ -274,7 +517,7 @@
                             <li class="mb-2">➤ Competitor benchmarking analysis</li>
                         </ul>
                         <div class="mt-auto">
-                            <p class="fs-14 opacity-60 mb-4"><strong>Best for:</strong> Businesses looking to unlock the full ranking and lead-generation potential of their existing listing.</p>
+                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses looking to unlock the full ranking and lead-generation potential of their existing listing.</p>
                             <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                         </div>
                     </div>
@@ -298,7 +541,7 @@
                             <li class="mb-2">➤ Basic on-profile SEO optimisation</li>
                         </ul>
                         <div class="mt-auto">
-                            <p class="fs-14 opacity-60 mb-4"><strong>Best for:</strong> Businesses that want a professional, error-free launch with maximum local visibility.</p>
+                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want a professional, error-free launch with maximum local visibility.</p>
                             <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                         </div>
                     </div>
@@ -2211,7 +2454,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#localSeoAccordion">
                                 <div class="accordion-body">
-                                    <p class="fs-18">Local SEO is the practice of optimising your online presence to attract more business from relevant local searches. For businesses in Dubai, it ensures that when someone searches for your services "near me" or in specific areas like Marina, Downtown, or JLT, your business appears at the top of Google Maps and local search results.</p>
+                                    <p class="fs-18 text-white" >Local SEO is the practice of optimising your online presence to attract more business from relevant local searches. For businesses in Dubai, it ensures that when someone searches for your services "near me" or in specific areas like Marina, Downtown, or JLT, your business appears at the top of Google Maps and local search results.</p>
                                 </div>
                             </div>
                         </div>
@@ -2223,7 +2466,7 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#localSeoAccordion">
                                 <div class="accordion-body">
-                                    <p class="fs-18">Typically, initial improvements can be seen within 4–8 weeks of optimisation. However, achieving and maintaining a top 3 position in the "Local Pack" depends on competition and consistent profile management. Most clients see significant lead growth within 3 months.</p>
+                                    <p class="fs-18 text-white">Typically, initial improvements can be seen within 4–8 weeks of optimisation. However, achieving and maintaining a top 3 position in the "Local Pack" depends on competition and consistent profile management. Most clients see significant lead growth within 3 months.</p>
                                 </div>
                             </div>
                         </div>
@@ -2235,7 +2478,7 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#localSeoAccordion">
                                 <div class="accordion-body">
-                                    <p class="fs-18">Google Business Profile (formerly Google My Business) is a free tool from Google that allows you to manage how your business appears on Google Search and Maps. It is the most critical element of Local SEO, used to display your NAP (Name, Address, Phone), reviews, and photos.</p>
+                                    <p class="fs-18 text-white">Google Business Profile (formerly Google My Business) is a free tool from Google that allows you to manage how your business appears on Google Search and Maps. It is the most critical element of Local SEO, used to display your NAP (Name, Address, Phone), reviews, and photos.</p>
                                 </div>
                             </div>
                         </div>
@@ -2247,7 +2490,7 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#localSeoAccordion">
                                 <div class="accordion-body">
-                                    <p class="fs-18">Yes! "Service Area Businesses" (like plumbers, cleaners, or consultants) can still use Local SEO. We optimise your profile to show the areas you serve without revealing a specific home address, ensuring you still appear when customers in those areas search for you.</p>
+                                    <p class="fs-18 text-white">Yes! "Service Area Businesses" (like plumbers, cleaners, or consultants) can still use Local SEO. We optimise your profile to show the areas you serve without revealing a specific home address, ensuring you still appear when customers in those areas search for you.</p>
                                 </div>
                             </div>
                         </div>
@@ -2259,7 +2502,7 @@
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#localSeoAccordion">
                                 <div class="accordion-body">
-                                    <p class="fs-18">Reviews are a major ranking factor. Google prioritises businesses with high ratings and frequent, descriptive reviews. Our management service includes review strategy to help you gain more positive feedback and respond to customers professionally.</p>
+                                    <p class="fs-18 text-white">Reviews are a major ranking factor. Google prioritises businesses with high ratings and frequent, descriptive reviews. Our management service includes review strategy to help you gain more positive feedback and respond to customers professionally.</p>
                                 </div>
                             </div>
                         </div>
@@ -2268,43 +2511,3 @@
             </div>
         </div>
     </section>
-
-    <script>
-        const featureItems = document.querySelectorAll('.feature-item');
-        const featureImages = document.querySelectorAll('.feature-image-panel');
-
-        const observerOptions = {
-            root: null,
-            rootMargin: '-20% 0px -60% 0px',
-            threshold: 0
-        };
-
-        const featureObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const targetId = entry.target.getAttribute('data-target');
-
-                    // Update Items
-                    featureItems.forEach(item => item.classList.remove('active'));
-                    entry.target.classList.add('active');
-
-                    // Update Images
-                    featureImages.forEach(img => img.classList.remove('active'));
-                    const targetImg = document.getElementById(targetId);
-                    if (targetImg) targetImg.classList.add('active');
-                }
-            });
-        }, observerOptions);
-
-        featureItems.forEach(item => {
-            featureObserver.observe(item);
-
-            // Click to scroll
-            item.addEventListener('click', () => {
-                item.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center'
-                });
-            });
-        });
-    </script>
