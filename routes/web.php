@@ -371,6 +371,14 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/website-grader', 'FrontendController@websiteGrader', 'website-grader');
     Route::get('/website-grader-report', 'FrontendController@websiteGraderReport', 'website-grader-report');
     Route::get('/schema-markup-generator', 'FrontendController@schemaMarkupGenerator', 'schema-markup-generator');
+    Route::get('/http-status-checker', 'FrontendController@httpStatusChecker', 'http-status-checker');
+    Route::post('/http-status-checker/bulk', 'FrontendController@httpStatusCheckBulk', 'http-status-checker.bulk');
+    Route::post('/http-status-checker/fetch-sitemap', 'FrontendController@fetchSitemapUrls', 'http-status-checker.fetch-sitemap');
+    
+    // Video Downloader
+    Route::get('/video-downloader', 'FrontendController@videoDownloader', 'video-downloader');
+    Route::post('/video-downloader/fetch', 'FrontendController@videoDownloaderFetch', 'video-downloader.fetch');
+    Route::get('/video-downloader/proxy', 'FrontendController@videoDownloaderProxy', 'video-downloader.proxy');
 });
 
 // Dynamic Page Routing - Catch-all for slug at root (supports sub-paths with *)

@@ -31,7 +31,7 @@
     <!-- NEW SECTION 0.5: THE TOOLS ECOSYSTEM -->
     <section id="discover-tools" class="tools-ecosystem sp-100 position-relative" style="background: #050505; border-top: 1px solid rgba(133, 91, 255, 0.1);">
         <div class="container">
-            <div class="row g-4 justify-content-center">
+            <div class="row g-4">
                 <!-- XML Sitemap (Actual) -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <a href="<?= route('xmlsitemapgenerator') ?>" class="cyber-tool-card xml-card">
@@ -76,25 +76,48 @@
                     </a>
                 </div>
 
-                <!-- Coming Soon Placeholder 1 -->
-                <div class="col-lg-4 col-md-6 mb-4 opacity-50">
-                    <div class="cyber-tool-card locked-card">
+                <!-- HTTP Status Checker -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('http-status-checker') ?>" class="cyber-tool-card status-card">
                         <div class="card-inner">
+                            <div class="card-glow"></div>
                             <div class="card-content p-4">
                                 <div class="tool-meta mb-3">
-                                    <div class="icon-hex-sm grayscale">
-                                        <i class="ion-ios-search-strong"></i>
+                                    <div class="icon-hex-sm cyan">
+                                        <i class="ion-ios-pulse"></i>
                                     </div>
-                                    <span class="tech-tag text-purple">UPCOMING</span>
+                                    <span class="tech-tag">RESPONSE ENGINE</span>
                                 </div>
-                                <h4 class="tool-title-sm">Keyword Authority</h4>
-                                <p class="tool-desc-sm">Next-gen semantic analysis engine for deep search intent discovery.</p>
+                                <h4 class="tool-title-sm">HTTP Status Checker</h4>
+                                <p class="tool-desc-sm">Bulk status code verification and redirect tracer with XML sitemap support.</p>
                                 <div class="tool-action-sm">
-                                    <span class="action-btn-sm">ENCRYPTED <i class="ion-locked ms-1"></i></span>
+                                    <span class="action-btn-sm">ANALYZE URLS <i class="ion-android-arrow-forward"></i></span>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+
+                <!-- Video Downloader -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a href="<?= route('video-downloader') ?>" class="cyber-tool-card video-card">
+                        <div class="card-inner">
+                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(232, 58, 38, 0.15), transparent 40%);"></div>
+                            <div class="card-content p-4">
+                                <div class="tool-meta mb-3">
+                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #e83a26 0%, #c0271a 100%);">
+                                        <i class="ion-social-youtube"></i>
+                                    </div>
+                                    <span class="tech-tag">MEDIA PROXY</span>
+                                </div>
+                                <h4 class="tool-title-sm">Video Downloader</h4>
+                                <p class="tool-desc-sm">High-speed media extraction for YouTube, Instagram, and Facebook with zero redirects.</p>
+                                <div class="tool-action-sm">
+                                    <span class="action-btn-sm">GET VIDEO <i class="ion-android-arrow-forward"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

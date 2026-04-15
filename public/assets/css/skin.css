@@ -4111,11 +4111,11 @@ ul.seo-pages-list li:before {
 }
 
 .whatOurClientSaySwiper .swiper-button-next::after {
-  content: url('../images/seo-lp/dubai/slider-btn-testimoni-next.png');
+  content: url('../images/seo-lp/dubai/slider-btn-testimoni-next.png') !important;
 }
 
 .whatOurClientSaySwiper .swiper-button-prev::after {
-  content: url('../images/seo-lp/dubai/slider-btn-testimoni-prev.png');
+  content: url('../images/seo-lp/dubai/slider-btn-testimoni-prev.png') !important;
 }
 
 .whatOurClientSaySwiper .swiper-button-next {

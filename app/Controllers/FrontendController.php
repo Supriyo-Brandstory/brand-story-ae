@@ -2575,25 +2575,44 @@ class FrontendController extends Controller
 
         $safeUrl = escapeshellarg($url);
 
-        // Detect platform from URL for targeted cookie file
+        //Detect platform for targeted logic
         $urlLower = strtolower($url);
         $baseDir = dirname(__DIR__, 2);
-        $writableDir = $baseDir . '/writable';
 
-        if (str_contains($urlLower, 'instagram.com')) {
-            $cookiesPath = $writableDir . '/instagram_cookies.txt';
-            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
+        // Permanent Solution: 100% Cookie-Free Implementation
+        // We now rely entirely on clean Proxy IPs and Mobile Headers to bypass blocks.
+        $cookieCmd = ' --no-cookies --no-cookies-from-browser';
+
+        // Write stderr to a temp file
+        $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
+
+        // Resilience flags: Mimic genuine Mobile App behavior
+        $resilienceFlags = '';
+        if (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
+            $resilienceFlags .= ' --extractor-args "youtube:player-client=android,web;player-skip=web_embedded_player,mweb_embedded_player"';
+        } elseif (str_contains($urlLower, 'instagram.com')) {
+            $resilienceFlags .= ' --add-header "Referer:https://www.instagram.com/"';
+            $resilienceFlags .= ' --add-header "Origin:https://www.instagram.com"';
         } elseif (str_contains($urlLower, 'facebook.com') || str_contains($urlLower, 'fb.watch')) {
-            $cookiesPath = $writableDir . '/facebook_cookies.txt';
-            if (!file_exists($cookiesPath)) $cookiesPath = $writableDir . '/cookies.txt'; // fallback
-        } else {
-            $cookiesPath = $writableDir . '/cookies.txt';
+            $resilienceFlags .= ' --add-header "Referer:https://www.facebook.com/"';
+            $resilienceFlags .= ' --add-header "Origin:https://www.facebook.com"';
         }
 
-        $cookieCmd = (file_exists($cookiesPath)) ? ' --cookies ' . escapeshellarg($cookiesPath) : '';
+        // Proxy support - robust loading from various PHP sources
+        $proxy = getenv('YTDLP_PROXY') ?: ($_ENV['YTDLP_PROXY'] ?? ($_SERVER['YTDLP_PROXY'] ?? null));
+        if (!$proxy && file_exists($baseDir . '/.env')) {
+            $envLines = explode("\n", file_get_contents($baseDir . '/.env'));
+            foreach ($envLines as $line) {
+                if (str_starts_with(trim($line), 'YTDLP_PROXY=')) {
+                    $proxy = trim(str_replace('YTDLP_PROXY=', '', $line));
+                    break;
+                }
+            }
+        }
 
-        // Write stderr to a temp file so it doesn't pollute stdout JSON
-        $stderrFile = sys_get_temp_dir() . '/ytdlp_err_' . uniqid() . '.txt';
+        if ($proxy) {
+            $resilienceFlags .= ' --proxy ' . escapeshellarg($proxy);
+        }
 
         $cmd = $ytdlp
             . ' --dump-json'
@@ -2602,10 +2621,9 @@ class FrontendController extends Controller
             . ' --no-warnings'
             . ' --no-check-certificates'
             . ' --socket-timeout 30'
-            . ' --remote-components ejs:github'
-            . ' --no-cookies-from-browser'
             . $cookieCmd
-            . ' --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"'
+            . $resilienceFlags
+            . ' --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"'
             . ' ' . $safeUrl
             . ' 2>' . escapeshellarg($stderrFile);
 
@@ -2613,7 +2631,7 @@ class FrontendController extends Controller
         $errOutput = @file_get_contents($stderrFile);
         @unlink($stderrFile);
 
-        // Extract the JSON line (yt-dlp may print info lines before the JSON)
+        // Extract JSON
         $info = null;
         if (!empty($output)) {
             foreach (explode("\n", $output) as $line) {
@@ -2630,24 +2648,20 @@ class FrontendController extends Controller
 
         if (!$info) {
             $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
-            // YouTube bot detection
-            if ((str_contains($combinedErr, 'confirm you') && str_contains($combinedErr, 'not a bot'))
-                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '403'))
-                || (str_contains($combinedErr, '[youtube]') && str_contains($combinedErr, '429'))
-            ) {
-                throw new \Exception('YouTube is blocking this server (bot detection/rate-limit). Please re-export cookies.txt from your browser while logged into YouTube and upload it to /writable/cookies.txt on the server.');
+            
+            // Refined Error Handling: Zero Cookie Messaging
+            $isLoginRequired = str_contains($combinedErr, 'login') || str_contains($combinedErr, 'sign in') || str_contains($combinedErr, 'private');
+            $isBlocked = str_contains($combinedErr, '403') || str_contains($combinedErr, '429') || str_contains($combinedErr, 'rate limit') || str_contains($combinedErr, 'bot');
+
+            if (str_contains($urlLower, 'instagram.com')) {
+                if ($isLoginRequired) throw new \Exception('Access Denied: This content is restricted or private. Instagram requires a clean residential proxy to bypass this.');
+                if ($isBlocked) throw new \Exception('Connection Blocked: Your server/proxy IP is flagged by Instagram. Switch to a new proxy in .env.');
+            } elseif (str_contains($urlLower, 'youtube.com') || str_contains($urlLower, 'youtu.be')) {
+                if ($isBlocked) throw new \Exception('Access Denied: YouTube has detected automated traffic. A fresh Proxy in .env is required.');
             }
-            // Instagram login / rate-limit
-            if (str_contains($combinedErr, '[instagram]') || str_contains($combinedErr, 'instagram')) {
-                throw new \Exception('Instagram requires authentication cookies. Please export your Instagram cookies using the browser extension and upload the file to the server as /writable/instagram_cookies.txt');
-            }
-            // Facebook login / rate-limit
-            if (str_contains($combinedErr, '[facebook]') || str_contains($combinedErr, 'facebook')) {
-                throw new \Exception('Facebook requires authentication cookies. Please export your Facebook cookies using the browser extension and upload the file to the server as /writable/facebook_cookies.txt');
-            }
-            // Generic
-            $debugMsg = !empty($errOutput) ? ' Details: ' . substr($errOutput, 0, 300) : (!empty($output) ? ' Details: ' . substr($output, 0, 300) : ' (No output from yt-dlp)');
-            throw new \Exception('Video processing failed. The content might be private, blocked, or not supported.' . $debugMsg);
+
+            $debugMsg = !empty($errOutput) ? ' Error: ' . substr($errOutput, 0, 400) : ' (Invalid URL or Blocked access)';
+            throw new \Exception('Video processing failed. The platform is blocking the connection.' . $debugMsg);
         }
 
         $title = $info['title'] ?? 'Video';
@@ -3015,9 +3029,135 @@ class FrontendController extends Controller
     public function httpStatusChecker()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'em-dubai-page tool-pages',
+            'title' => 'HTTP Status Checker & Bulk Redirect Tracer | BrandStory',
+            'description' => 'Check HTTP status codes, response headers, and redirect chains in bulk. Support for XML Sitemap URL extraction.'
         ];
         return $this->view('tools/http-status-checker', ['meta' => $meta]);
+    }
+
+    public function httpStatusCheckBulk()
+    {
+        $urls = $_POST['urls'] ?? null;
+        if (!is_array($urls)) {
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Invalid input']);
+            exit;
+        }
+
+        $results = [];
+        foreach (array_slice($urls, 0, 50) as $url) { 
+            $url = trim($url);
+            if (empty($url)) continue;
+            
+            if (!str_starts_with($url, 'http')) {
+                $url = 'https://' . $url;
+            }
+
+            $results[] = $this->_checkSingleUrl($url);
+        }
+
+        header('Content-Type: application/json');
+        echo json_encode(['results' => $results]);
+        exit;
+    }
+
+    private function _checkSingleUrl($url)
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_MAXREDIRS, 10);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+        
+        $startTime = microtime(true);
+        $response = curl_exec($ch);
+        $endTime = microtime(true);
+        $duration = round($endTime - $startTime, 3);
+
+        if (curl_errno($ch)) {
+            $error = curl_error($ch);
+            curl_close($ch);
+            return [
+                'url' => $url,
+                'status' => 0,
+                'error' => $error,
+                'chain' => [],
+                'headers' => []
+            ];
+        }
+
+        $info = curl_getinfo($ch);
+        $headerSize = $info['header_size'];
+        $headerText = substr($response, 0, $headerSize);
+        curl_close($ch);
+
+        // Parse headers
+        $headers = [];
+        foreach (explode("\n", $headerText) as $line) {
+            $parts = explode(':', $line, 2);
+            if (count($parts) === 2) {
+                $headers[trim($parts[0])] = trim($parts[1]);
+            }
+        }
+
+        $chain = [['code' => $info['http_code'], 'url' => $info['url']]];
+
+        return [
+            'url' => $url,
+            'final_url' => $info['url'],
+            'status' => $info['http_code'],
+            'redirects' => $info['redirect_count'],
+            'duration' => $duration,
+            'headers' => $headers,
+            'chain' => $chain,
+            'content_type' => $info['content_type']
+        ];
+    }
+
+    public function fetchSitemapUrls()
+    {
+        $sitemapUrl = $_POST['sitemap_url'] ?? null;
+        if (empty($sitemapUrl)) {
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Sitemap URL is required']);
+            exit;
+        }
+
+        if (!str_starts_with($sitemapUrl, 'http')) {
+            $sitemapUrl = 'https://' . $sitemapUrl;
+        }
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $sitemapUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Compatible; BrandStoryBot/1.0)');
+        
+        $xmlContent = curl_exec($ch);
+        if (curl_errno($ch)) {
+            $error = curl_error($ch);
+            curl_close($ch);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Failed to fetch sitemap: ' . $error]);
+            exit;
+        }
+        curl_close($ch);
+
+        preg_match_all('/<loc>(.*?)<\/loc>/s', $xmlContent, $matches);
+        $urls = array_unique($matches[1] ?? []);
+        
+        header('Content-Type: application/json');
+        echo json_encode([
+            'success' => true,
+            'urls' => array_values(array_slice($urls, 0, 100)),
+            'count' => count($urls)
+        ]);
+        exit;
     }
 
     public function websiteGrader()
