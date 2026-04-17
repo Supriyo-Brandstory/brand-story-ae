@@ -480,6 +480,110 @@
     </div>
 </section>
 
+<section class="sp-80 bg-white text-black">
+    <div class="container mt-3 text-center">
+        <h2 class="fw-bold mb-4">Search Is Everywhere: Is Your Brand <br>Visible Where It Matters?</h2>
+        <p class="fs-20 max-width-800 mx-auto">
+            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most.
+        </p>
+    </div>
+</section>
+<section class="pb-5 bg-white search-everywhare-service">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Row 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> <!-- Placeholder icons using available ionicons -->
+                    <h3 style="color: #000;">TikTok SEO</h3>
+                    <p style="color: #444;">Stop scrolling- start getting discovered. We optimize your content to rank across the TikTok platform.</p>
+                    <a href="/blogs/tiktok-seo-in-2026-mastering-social-search-and-discovery-for-brands/" class="platform-link">Learn TikTok SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-youtube platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">YouTube SEO</h3>
+                    <p style="color: #444;">The world’s leading video search platform. We help your latest business videos rank for high-intent keywords.</p>
+                    <a href="/blogs/youtube-seo-the-complete-playbook-to-grow-your-channel/" class="platform-link">Learn YouTube SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-bag platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Amazon SEO</h3>
+                    <p style="color: #444;">Stand out in Amazon marketplaces. Optimize your product listings to boost visibility and maximize sales.</p>
+                    <a href="/blogs/amazon-seo-strategies-to-rank-higher-and-drive-sustainable-sales/" class="platform-link">Learn Amazon SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-search platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Bing SEO</h3>
+                    <p style="color: #444;">Reach new audiences and engage them through Microsoft’s next-generation AI-powered search platforms.</p>
+                    <a href="/blogs/bing-seo-how-to-optimize-for-microsoft-s-search-engine/" class="platform-link">Learn Bing SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-pinterest platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Pinterest SEO</h3>
+                    <p style="color: #444;">From inspiration to conversion. We help your pins reach the right audience at the right moment.</p>
+                    <a href="/blogs/pinterest-seo-how-to-rank-pins-drive-traffic-and-build-organic-growth/" class="platform-link">Learn Pinterest SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-iphone platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">App Store SEO (ASO)</h3>
+                    <p style="color: #444;">Maximize your app’s discoverability in Apple & Google stores to attract more downloads & retention.</p>
+                    <a href="/blogs/app-store-seo-how-to-boost-your-app-s-visibility-and-drive-installs/" class="platform-link">Learn App Store SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+
+
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-reddit platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Reddit SEO</h3>
+                    <p style="color: #444;">Leverage community discussions to boost visibility in Reddit’s internal search and across Google’s SERP results.</p>
+                    <a href="/blogs/reddit-seo-how-to-optimize-your-brand-s-presence-for-visibility/" class="platform-link">Learn Reddit SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-instagram platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Instagram SEO</h3>
+                    <p style="color: #444;">More than just hashtags. We refine your profile and content for improved keyword-based visibility.</p>
+                    <a href="/blogs/instagram-seo-the-complete-guide-to-getting-discovered" class="platform-link">Learn Instagram SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-linkedin platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Linkedin SEO</h3>
+                    <p style="color: #444;">Build strong authority. We optimize your personal and company profiles for effective B2B discovery.</p>
+                    <a href="#" class="platform-link">Learn Linkedin SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-twitter platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Twitter (X) SEO</h3>
+                    <p style="color: #444;">Capture real-time opportunities. We help you rank for trending topics and highly targeted discussions.</p>
+                    <a href="#" class="platform-link">Learn Twitter SEO ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="seo-pages-impact sp-50 bg-white">
     <div class="container"><!--Container Start-->
         <h2 class="text-center bg-white">How SEO Actually Generates Leads<span class="db"> (What Most Agencies Hide)</span></h2>
@@ -525,7 +629,7 @@
                 <a href="/contact/"><button class="btn em-btn mt-3">Contact Us</button></a>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/em/seo-agency.webp" class="img-fluid mb-3" alt="seo agency in dubai">
+                <img src="/assets/images/service/em/seo-results-2026.webp" class="img-fluid mb-3" alt="seo agency in dubai">
             </div>
         </div>
     </div>
@@ -641,229 +745,6 @@
     </div>
 </section>
 
-
-
-<section class="sp-50 comparison-section-wrapper bg-white">
-    <div class="container">
-        <h2 class="text-center mb-5">Full-Service SEO Agency in Dubai, UAE</h2>
-        <div class="row">
-            <!-- Other Agencies -->
-            <div class="col-md-6 mb-4">
-                <div class="comparison-card other-agencies">
-                    <div class="comp-header">Other Agencies</div>
-                    <div class="comp-body">
-                        <div class="comp-item active">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>One-Size-Fits-All Approach</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Most agencies apply recycled SEO templates built for Western markets, completely ignoring Dubai's competitive landscape, diverse audience segments, and the unique search behaviors of UAE consumers.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>Slow, Reactive Execution</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Delayed implementation cycles mean your business loses ground to competitors every month. Many agencies react to algorithm changes instead of anticipating them, leaving your rankings exposed.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>Vanity Metrics Reporting</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Agencies flood dashboards with impressions and session counts that do not connect to revenue. You have no clear picture of what is actually driving leads, conversions, or business growth.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- BrandStory -->
-            <div class="col-md-6 mb-4">
-                <div class="comparison-card brandstory-card">
-                    <div class="comp-header">BrandStory</div>
-                    <div class="comp-body">
-                        <div class="comp-item active">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Dubai-Specific SEO Strategy</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We build every campaign around Dubai's market dynamics, industry verticals, and audience intent. From free zone businesses to enterprise brands, our strategies are tailored to win in the UAE's highly competitive search environment.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Full-Funnel Keyword Targeting</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We map keywords across every stage of the buyer journey, capturing high-intent searches that convert, not just traffic that bounces. Our research covers local, industry, and competitor keyword gaps unique to Dubai.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Revenue-Tied Reporting</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Every report connects organic performance directly to leads, pipeline, and conversions. You see exactly which keywords, pages, and actions are driving real business outcomes, not just clicks.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Technical SEO Excellence</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>From Core Web Vitals and crawl architecture to schema markup and site speed, we ensure your website meets Google's highest technical standards so nothing holds your rankings back.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Proactive, Agile Optimization</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We monitor algorithm updates, competitor movements, and ranking shifts in real time, adjusting your strategy before performance dips occur. Your SEO never sits still while Dubai's market moves.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sp-80 bg-white text-black">
-    <div class="container mt-3 text-center">
-        <h2 class="fw-bold mb-4">The future of search is everywhere. Where are you?</h2>
-        <p class="fs-20 max-width-800 mx-auto">
-            Traditional SEO is no longer enough. Over 70% of product searches now start on Amazon, and Gen Z uses TikTok as their primary search engine. If you aren't optimizing for where your customers are actually looking, you're invisible.
-        </p>
-    </div>
-</section>
-<section class="sp-80 bg-white search-everywhare-service">
-    <div class="container">
-        <div class="row g-4">
-            <!-- Row 1 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> <!-- Placeholder icons using available ionicons -->
-                    <h3 style="color: #000;">TikTok SEO</h3>
-                    <p style="color: #444;">Stop just scrolling and start being discovered. We optimize your video content to rank in TikTok's search results.</p>
-                    <a href="#" class="platform-link">Learn TikTok SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-youtube platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">YouTube SEO</h3>
-                    <p style="color: #444;">The world's second-largest search engine. We help your videos rank for high-intent keywords.</p>
-                    <a href="#" class="platform-link">Learn YouTube SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-bag platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Amazon SEO</h3>
-                    <p style="color: #444;">Dominate the marketplace. Optimize your product listings to increase visibility and sales.</p>
-                    <a href="#" class="platform-link">Learn Amazon SEO ></a>
-                </div>
-            </div>
-
-            <!-- Row 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-search platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Bing SEO</h3>
-                    <p style="color: #444;">Tapping into the growing market share of Microsoft's AI-powered search engine.</p>
-                    <a href="#" class="platform-link">Learn Bing SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-earth platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Yandex SEO</h3>
-                    <p style="color: #444;">Specialized optimization for the leading search engine in the CIS region.</p>
-                    <a href="#" class="platform-link">Learn Yandex SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-chatbubbles platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Baidu SEO</h3>
-                    <p style="color: #444;">Unlock visibility in the Chinese market with platform-specific strategy.</p>
-                    <a href="#" class="platform-link">Learn Baidu SEO ></a>
-                </div>
-            </div>
-
-            <!-- Row 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-pinterest platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Pinterest SEO</h3>
-                    <p style="color: #444;">Visual discovery at its peak. Rank your pins where inspiration turns into action.</p>
-                    <a href="#" class="platform-link">Learn Pinterest SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-iphone platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">App Store SEO (ASO)</h3>
-                    <p style="color: #444;">Increase your app's visibility in Apple and Google stores to drive downloads.</p>
-                    <a href="#" class="platform-link">Learn App Store SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-reddit platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Reddit SEO</h3>
-                    <p style="color: #444;">Tap into community discussions and rank in Reddit's internal search and Google's SERP.</p>
-                    <a href="#" class="platform-link">Learn Reddit SEO ></a>
-                </div>
-            </div>
-
-            <!-- Row 4 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-instagram platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Instagram SEO</h3>
-                    <p style="color: #444;">Beyond hashtags. We optimize your profile and content for keyword-based discovery.</p>
-                    <a href="#" class="platform-link">Learn Instagram SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-linkedin platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Linkedin SEO</h3>
-                    <p style="color: #444;">Establish authority. Optimize your personal and company profiles for B2B discovery.</p>
-                    <a href="#" class="platform-link">Learn Linkedin SEO ></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-twitter platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Twitter (X) SEO</h3>
-                    <p style="color: #444;">Real-time search optimization. Rank for trending topics and niche discussions.</p>
-                    <a href="#" class="platform-link">Learn Twitter SEO ></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="sp-50 bg-white">
     <div class="container map-section">
