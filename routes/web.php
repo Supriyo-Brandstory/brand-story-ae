@@ -10,6 +10,7 @@ Route::get('/about', 'FrontendController@about', 'about');
 Route::get('/contact', 'FrontendController@contat', 'contact');
 Route::post('/contact/submit', 'FrontendController@sendContactInformation', 'contact.submit');
 Route::get('/blog', 'FrontendController@blogs', 'blogs');
+Route::get('/api/blogs/search', 'FrontendController@searchBlogs', 'api.blogs.search');
 Route::get('/blogs/{slug}', 'FrontendController@blogDetail', 'blogs.show');
 Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');

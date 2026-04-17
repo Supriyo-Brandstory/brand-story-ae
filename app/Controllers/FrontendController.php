@@ -1809,6 +1809,8 @@ class FrontendController extends Controller
             $mail->addAddress('leads@brandstory.in');
             $mail->addCC('bala@brandstory.in');
             $mail->addCC('madhavan@brandstory.in');
+            // $mail->addCC('supriyo@brandstory.in');
+            // $mail->addCC('supriyo@brandstory.in');
 
             $mail->isHTML(true);
             $mail->Subject = $subject;
@@ -1833,11 +1835,11 @@ class FrontendController extends Controller
 
             // Push to Monday.com CRM
             $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
-            $boardId = '2040169984';
-            $groupId = 'group_mkx15g65';
-            $itemName = $name . " | " . $company;
+            $boardId = 5026739620;
+            $groupId = 'group_mm10rw6q';
+            $itemName = $company;
 
-            // Map Services Dropdown
+            // Map Services (Dropdown labels)
             $validServices = [
                 'SEO',
                 'Social Media',
@@ -1871,53 +1873,100 @@ class FrontendController extends Controller
                     $selectedServices[] = $srvTrim;
                 }
             }
-            $serviceDropdown = !empty($selectedServices) ? ["labels" => $selectedServices] : null;
 
-            // Budget Dropdown
-            $validBudgets = [
-                'AED 3000 - 5000',
-                'AED 5000 - 10000',
-                'AED 10000 - 15000',
-                'AED 15000 - 20000',
-                'Above AED 20000'
+            // Map Budget (Dropdown labels)
+            $budgetMapping = [
+                'AED 3000 - 5000' => 'AED 3000 – AED 5000',
+                'AED 5000 - 10000' => 'AED 5000 – AED 10000',
+                'AED 10000 - 15000' => 'AED 10000 – AED 15000',
+                'AED 15000 - 20000' => 'AED 15000 – AED 20000',
+                'Above AED 20000' => 'Above AED 20000'
             ];
-            $budgetDropdown = in_array($budget, $validBudgets) ? ["labels" => [$budget]] : null;
+            $mappedBudget = $budgetMapping[$budget] ?? $budget;
 
-            // Build Column Values
-            $columnValues = [
-                "lead_company" => $company ?: null,
-                "lead_status" => ["label" => "Unassigned"],
-                "lead_owner" => null,
-                "lead_email" => ["email" => $email, "text" => $email],
-                "lead_phone" => ["phone" => $country_code . $phone],
-                "dropdown_mksymde0" => $serviceDropdown,
-                "dropdown_mkt3d3zq" => $budgetDropdown,
-                "color_mksy4wnf" => ["label" => "No Remarks"],
-                "long_text_mkspy9pz" => $message ?: null,
-                "long_text_mkssakn4" => "Website",
-                "long_text_mksp87pv" => $actualLink,
-                "long_text_mkt2d6j" => $designation ?: null,
-                "date_mkspj6x" => null
-            ];
+            // Build column values JSON
+            $columnValues = [];
 
-            // Encode JSON safely
-            $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-            $escapedColumnValues = addslashes($columnValuesJson);
+            // Email
+            if (!empty($email)) {
+                $columnValues['email_mm10294v'] = [
+                    'email' => $email,
+                    'text' => $email
+                ];
+            }
 
-            // Build GraphQL Query
-            $query = 'mutation {
+            // Phone
+            if (!empty($phone)) {
+                $columnValues['phone_mm1063gz'] = [
+                    'phone' => "+" . $country_code . $phone
+                ];
+            }
+
+            // Service (dropdown)
+            if (!empty($selectedServices)) {
+                $columnValues['dropdown_mm10caj3'] = [
+                    'labels' => $selectedServices
+                ];
+            }
+
+            // Budget Range (dropdown)
+            if (!empty($mappedBudget)) {
+                $columnValues['dropdown_mm10411f'] = [
+                    'labels' => [$mappedBudget]
+                ];
+            }
+
+            // Message (long text)
+            if (!empty($message)) {
+                $columnValues['long_text_mm10wc1g'] = ['text' => $message];
+            }
+
+            // Website (Source Page)
+            $columnValues['long_text_mm10t0m9'] = ['text' => $actualLink];
+
+            // Title/Position
+            if (!empty($designation)) {
+                $columnValues['long_text_mm10wxkn'] = ['text' => $designation];
+            }
+
+            // Company SPOC (simple text)
+            if (!empty($company)) {
+                $columnValues['text_mm109qat'] = $name;
+            }
+
+            // Lead Page Link (Referrer)
+            if (!empty($httpReferer)) {
+                $columnValues['long_text_mm10t95k'] = ['text' => $httpReferer];
+            }
+
+            // Set default status to "Unassigned"
+            $columnValues['color_mm103cf8'] = ['label' => 'Unassigned'];
+
+            // Build the GraphQL mutation with variables
+            $mutation = 'mutation ($boardId: ID!, $groupId: String!, $itemName: String!, $columnValues: JSON!) {
                 create_item (
-                    board_id: "' . $boardId . '",
-                    group_id: "' . $groupId . '",
-                    item_name: "' . addslashes($itemName) . '",
-                    column_values: "' . $escapedColumnValues . '"
+                    board_id: $boardId,
+                    group_id: $groupId,
+                    item_name: $itemName,
+                    column_values: $columnValues
                 ) {
                     id
+                    name
                 }
             }';
 
+            $variables = [
+                'boardId'      => (string)$boardId,
+                'groupId'      => $groupId,
+                'itemName'     => $itemName,
+                'columnValues' => json_encode($columnValues)
+            ];
+
             // Send Request to Monday.com
-            $postData = json_encode(["query" => $query]);
+            $postData = json_encode([
+                "query" => $mutation,
+                "variables" => $variables
+            ]);
 
             $ch = curl_init('https://api.monday.com/v2');
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -1937,15 +1986,12 @@ class FrontendController extends Controller
             error_log("Monday.com API HTTP Status: " . $httpCode);
             error_log("Monday.com API Response: " . $response);
 
-            // Output JSON response
+            // Output JSON response from Monday.com
             if ($curlError) {
                 echo json_encode(["status" => "error", "message" => $curlError]);
             } else {
-                echo json_encode([
-                    "status" => "success",
-                    "message" => "Form submitted successfully!",
-                    "redirect_url" => route('thankyou')
-                ]);
+                // echo $response;
+                echo json_encode(["status" => "success", "message" => "Thank you! Your quote request has been sent.", "redirect_url" => route('thankyou')]);
             }
         } catch (\PHPMailer\PHPMailer\Exception $e) {
             echo json_encode(["status" => "error", "message" => "Email error: " . $mail->ErrorInfo]);
@@ -1977,12 +2023,12 @@ class FrontendController extends Controller
             return;
         }
 
-        // Rate Limiting (1 submission per 60 seconds)
-        if (!empty($_SESSION['last_career_submission_time']) && (time() - $_SESSION['last_career_submission_time'] < 60)) {
-            echo json_encode(["status" => "error", "message" => "Please wait a minute before submitting again."]);
-            return;
-        }
-        $_SESSION['last_career_submission_time'] = time();
+        // // Rate Limiting (1 submission per 60 seconds)
+        // if (!empty($_SESSION['last_career_submission_time']) && (time() - $_SESSION['last_career_submission_time'] < 60)) {
+        //     echo json_encode(["status" => "error", "message" => "Please wait a minute before submitting again."]);
+        //     return;
+        // }
+        // $_SESSION['last_career_submission_time'] = time();
 
         // Honeypot check
         if (!empty($_POST['email_sp'])) {
@@ -2180,8 +2226,8 @@ class FrontendController extends Controller
 
             // Monday.com Integration
             $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
-            $boardId = '2040169984';
-            $groupId = 'group_mkx15g65';
+            $boardId = '5026739620';
+            $groupId = 'group_mm10rw6q';
             $itemName = "SEO Cost Calc | " . $name . " | " . $website;
 
             $columnValues = [
@@ -2660,7 +2706,7 @@ class FrontendController extends Controller
 
         if (!$info) {
             $combinedErr = strtolower(($errOutput ?? '') . ($output ?? ''));
-            
+
             // Refined Error Handling: Zero Cookie Messaging
             $isLoginRequired = str_contains($combinedErr, 'login') || str_contains($combinedErr, 'sign in') || str_contains($combinedErr, 'private');
             $isBlocked = str_contains($combinedErr, '403') || str_contains($combinedErr, '429') || str_contains($combinedErr, 'rate limit') || str_contains($combinedErr, 'bot');
@@ -3058,10 +3104,10 @@ class FrontendController extends Controller
         }
 
         $results = [];
-        foreach (array_slice($urls, 0, 50) as $url) { 
+        foreach (array_slice($urls, 0, 50) as $url) {
             $url = trim($url);
             if (empty($url)) continue;
-            
+
             if (!str_starts_with($url, 'http')) {
                 $url = 'https://' . $url;
             }
@@ -3084,7 +3130,7 @@ class FrontendController extends Controller
         curl_setopt($ch, CURLOPT_MAXREDIRS, 10);
         curl_setopt($ch, CURLOPT_TIMEOUT, 15);
         curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-        
+
         $startTime = microtime(true);
         $response = curl_exec($ch);
         $endTime = microtime(true);
@@ -3149,7 +3195,7 @@ class FrontendController extends Controller
         curl_setopt($ch, CURLOPT_TIMEOUT, 15);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Compatible; BrandStoryBot/1.0)');
-        
+
         $xmlContent = curl_exec($ch);
         if (curl_errno($ch)) {
             $error = curl_error($ch);
@@ -3162,7 +3208,7 @@ class FrontendController extends Controller
 
         preg_match_all('/<loc>(.*?)<\/loc>/s', $xmlContent, $matches);
         $urls = array_unique($matches[1] ?? []);
-        
+
         header('Content-Type: application/json');
         echo json_encode([
             'success' => true,
@@ -3240,7 +3286,7 @@ class FrontendController extends Controller
             foreach ($imgTags as $img) {
                 $src = $img->getAttribute('src');
                 $alt = $img->getAttribute('alt');
-                
+
                 if (!empty($src)) {
                     if (strpos($src, 'http') !== 0) {
                         $parsed = parse_url($url);
@@ -3266,6 +3312,33 @@ class FrontendController extends Controller
         } catch (\Exception $e) {
             echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
         }
+        exit;
+    }
+    public function searchBlogs()
+    {
+        $blogModel = new \App\Models\Blog();
+        $query = $_GET['q'] ?? '';
+        $category = $_GET['category'] ?? null;
+        $limit = (int)($_GET['limit'] ?? 10);
+
+        $sql = "SELECT b.*, c.name as category_name, c.slug as category_slug FROM blogs b LEFT JOIN blog_categories c ON b.blog_category_id = c.id WHERE 1=1";
+        $params = [];
+
+        if (!empty($query)) {
+            $sql .= " AND (b.title LIKE ? OR b.description LIKE ?)";
+            $params[] = "%$query%";
+            $params[] = "%$query%";
+        } elseif (!empty($category)) {
+            $sql .= " AND c.name = ?";
+            $params[] = $category;
+        }
+
+        $sql .= " ORDER BY b.created_at DESC LIMIT $limit";
+        
+        $blogs = $blogModel->query($sql, $params);
+
+        header('Content-Type: application/json');
+        echo json_encode($blogs);
         exit;
     }
 }
