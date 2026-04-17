@@ -749,9 +749,9 @@
 
 <section class="sp-50 bg-white">
     <div class="container map-section">
-        <h2 class="text-center mb-4">Serving Businesses Across Dubai</h2>
-        <p class="text-center mb-3">As a leading SEO company in Dubai, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
         <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
+        <p class="text-center mb-3">As a leading SEO company in Dubai, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
+        
         <div class="map-img text-center">
             <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" alt="slider-map">
             <div class="location-container">
