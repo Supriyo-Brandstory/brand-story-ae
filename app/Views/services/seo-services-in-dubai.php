@@ -747,6 +747,124 @@
     </div>
 </section>
 
+<section class="sp-80 bg-white text-black">
+    <div class="container mt-3 text-center">
+        <h2 class="fw-bold mb-4">The future of search is everywhere. Where are you?</h2>
+        <p class="fs-20 max-width-800 mx-auto">
+            Traditional SEO is no longer enough. Over 70% of product searches now start on Amazon, and Gen Z uses TikTok as their primary search engine. If you aren't optimizing for where your customers are actually looking, you're invisible.
+        </p>
+    </div>
+</section>
+<section class="sp-80 bg-white search-everywhare-service">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Row 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> <!-- Placeholder icons using available ionicons -->
+                    <h3 style="color: #000;">TikTok SEO</h3>
+                    <p style="color: #444;">Stop just scrolling and start being discovered. We optimize your video content to rank in TikTok's search results.</p>
+                    <a href="#" class="platform-link">Learn TikTok SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-youtube platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">YouTube SEO</h3>
+                    <p style="color: #444;">The world's second-largest search engine. We help your videos rank for high-intent keywords.</p>
+                    <a href="#" class="platform-link">Learn YouTube SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-bag platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Amazon SEO</h3>
+                    <p style="color: #444;">Dominate the marketplace. Optimize your product listings to increase visibility and sales.</p>
+                    <a href="#" class="platform-link">Learn Amazon SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-search platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Bing SEO</h3>
+                    <p style="color: #444;">Tapping into the growing market share of Microsoft's AI-powered search engine.</p>
+                    <a href="#" class="platform-link">Learn Bing SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-earth platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Yandex SEO</h3>
+                    <p style="color: #444;">Specialized optimization for the leading search engine in the CIS region.</p>
+                    <a href="#" class="platform-link">Learn Yandex SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-chatbubbles platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Baidu SEO</h3>
+                    <p style="color: #444;">Unlock visibility in the Chinese market with platform-specific strategy.</p>
+                    <a href="#" class="platform-link">Learn Baidu SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-pinterest platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Pinterest SEO</h3>
+                    <p style="color: #444;">Visual discovery at its peak. Rank your pins where inspiration turns into action.</p>
+                    <a href="#" class="platform-link">Learn Pinterest SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-iphone platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">App Store SEO (ASO)</h3>
+                    <p style="color: #444;">Increase your app's visibility in Apple and Google stores to drive downloads.</p>
+                    <a href="#" class="platform-link">Learn App Store SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-reddit platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Reddit SEO</h3>
+                    <p style="color: #444;">Tap into community discussions and rank in Reddit's internal search and Google's SERP.</p>
+                    <a href="#" class="platform-link">Learn Reddit SEO ></a>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-instagram platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Instagram SEO</h3>
+                    <p style="color: #444;">Beyond hashtags. We optimize your profile and content for keyword-based discovery.</p>
+                    <a href="#" class="platform-link">Learn Instagram SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-linkedin platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Linkedin SEO</h3>
+                    <p style="color: #444;">Establish authority. Optimize your personal and company profiles for B2B discovery.</p>
+                    <a href="#" class="platform-link">Learn Linkedin SEO ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="platform-card">
+                    <i class="ion-social-twitter platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #000;">Twitter (X) SEO</h3>
+                    <p style="color: #444;">Real-time search optimization. Rank for trending topics and niche discussions.</p>
+                    <a href="#" class="platform-link">Learn Twitter SEO ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="sp-50 bg-white">
     <div class="container map-section">
         <h2 class="text-center mb-4">Serving Businesses Across Dubai</h2>
