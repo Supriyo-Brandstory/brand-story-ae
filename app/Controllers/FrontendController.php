@@ -3302,4 +3302,31 @@ class FrontendController extends Controller
         }
         exit;
     }
+    public function searchBlogs()
+    {
+        $blogModel = new \App\Models\Blog();
+        $query = $_GET['q'] ?? '';
+        $category = $_GET['category'] ?? null;
+        $limit = (int)($_GET['limit'] ?? 10);
+
+        $sql = "SELECT b.*, c.name as category_name, c.slug as category_slug FROM blogs b LEFT JOIN blog_categories c ON b.blog_category_id = c.id WHERE 1=1";
+        $params = [];
+
+        if (!empty($query)) {
+            $sql .= " AND (b.title LIKE ? OR b.description LIKE ?)";
+            $params[] = "%$query%";
+            $params[] = "%$query%";
+        } elseif (!empty($category)) {
+            $sql .= " AND c.name = ?";
+            $params[] = $category;
+        }
+
+        $sql .= " ORDER BY b.created_at DESC LIMIT $limit";
+        
+        $blogs = $blogModel->query($sql, $params);
+
+        header('Content-Type: application/json');
+        echo json_encode($blogs);
+        exit;
+    }
 }
