@@ -137,7 +137,7 @@
                             </div>
 
                             <div class="price-container mb-2 text-gradient-dark">
-                                <h3 class="" id="res_price_range">AED 1,500 - 2,500</h3>
+                                <h3 class="" id="res_price_range">AED 3000 - 5000</h3>
                             </div>
 
                             <div class="d-flex align-items-center justify-content-center gap-2 mb-4">
@@ -765,53 +765,23 @@
                 <h5 class="modal-title h4 fw-bold mb-0">Unlock Your Report</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body p-4 p-md-5">
-                <form id="seoLeadForm" action="<?= route('seo.calculator.submit') ?>" method="POST">
-                    <?= csrf_token() ?>
-                    <input type="hidden" name="honeypot" value="">
+            <div class="modal-body p-4 p-md-4">
+                <style>
+                    #leadModal .site-form #message,
+                    #leadModal .site-form label[for="message"],
+                    #leadModal .site-form .col-12:has(#message) {
+                        display: none !important;
+                    }
 
-                    <!-- Hidden inputs for calculator values -->
-                    <input type="hidden" name="target_audience" id="f_audience">
-                    <input type="hidden" name="pages_to_optimize" id="f_pages">
-                    <input type="hidden" name="website_age" id="f_age">
-                    <input type="hidden" name="locations" id="f_locations">
-                    <input type="hidden" name="aggressiveness" id="f_agg">
-                    <input type="hidden" name="competition_level" id="f_comp">
-                    <input type="hidden" name="keyword_rank" id="f_rank">
-                    <input type="hidden" name="est_price_range" id="f_range">
-
-                    <div class="row g-3">
-                        <div class="col-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" name="name" class="form-control premium-input" id="leadName" placeholder="John Doe" required>
-                                <label for="leadName">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating mb-3">
-                                <input type="email" name="email" class="form-control premium-input" id="leadEmail" placeholder="name@company.com" required>
-                                <label for="leadEmail">Business Email</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating mb-3">
-                                <input type="tel" name="phone" class="form-control premium-input" id="leadPhone" placeholder="+971" required>
-                                <label for="leadPhone">Phone Number</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating mb-4">
-                                <input type="url" name="website" class="form-control premium-input" id="leadWeb" placeholder="https://" required>
-                                <label for="leadWeb">Website URL</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button type="submit" id="submitBtn" class="btn btn-blue-gradient w-100 shadow-blue">
-                        <i class="ion-paper-airplane"></i> Send Proposal Request
-                    </button>
-                    <div id="formMsg" class="mt-3"></div>
-                </form>
+                    #leadModal .site-form .form-hr {
+                        display: none !important;
+                    }
+                </style>
+                <?php
+                $servicesdata = 'SEO';
+                $textrow = 5;
+                include __DIR__ . '/component/forms/contact-form.php';
+                ?>
             </div>
         </div>
     </div>
@@ -1760,35 +1730,43 @@
         }
 
         function calculate() {
-            let base = 800; // Updated base for premium services
+            let base = 2000; // Increased base for premium services
 
             const aud = document.getElementById('target_audience').value;
-            if (aud === 'national') base += 600;
-            else if (aud === 'international') base += 1400;
+            if (aud === 'national') base += 2500;
+            else if (aud === 'international') base += 6000;
 
             const phys = document.getElementById('physical_location').value;
-            if (phys === '1-3') base += 500;
-            else if (phys === '4-10') base += 1200;
-            else if (phys === '10+') base += 2500;
+            if (phys === '1-3') base += 1200;
+            else if (phys === '4-10') base += 3500;
+            else if (phys === '10+') base += 7000;
 
             const pgs = document.getElementById('pages_count').value;
-            if (pgs === '11-30') base += 400;
-            else if (pgs === '31-50') base += 900;
-            else if (pgs === '50+') base += 1800;
+            if (pgs === '11-30') base += 1500;
+            else if (pgs === '31-50') base += 4000;
+            else if (pgs === '50+') base += 9000;
 
             const agg = document.getElementById('aggressiveness').value;
-            if (agg === 'moderate') base += 600;
-            else if (agg === 'aggressive') base += 1800;
+            if (agg === 'moderate') base += 1500;
+            else if (agg === 'aggressive') base += 4500;
 
-            base += (parseInt(document.getElementById('competition_level').value) * 500);
-            base += (2 - parseInt(document.getElementById('website_age').value)) * 400;
-            base += (parseInt(document.getElementById('keyword_rank').value)) * 300;
+            base += (parseInt(document.getElementById('competition_level').value) * 3500);
+            base += (2 - parseInt(document.getElementById('website_age').value)) * 3000;
+            base += (parseInt(document.getElementById('keyword_rank').value)) * 2500;
 
             const min = Math.round((base * 0.95) / 100) * 100;
             const max = Math.round((base * 1.4) / 100) * 100;
 
-            const rangeText = `AED ${min.toLocaleString()} - ${max.toLocaleString()}`;
-            priceDisplay.textContent = rangeText;
+            // Calculate fixed budget bracket
+            let budgetValue = '';
+            if (min >= 20000) budgetValue = 'Above AED 20000';
+            else if (min >= 15000) budgetValue = 'AED 15000 - 20000';
+            else if (min >= 10000) budgetValue = 'AED 10000 - 15000';
+            else if (min >= 5000) budgetValue = 'AED 5000 - 10000';
+            else budgetValue = 'AED 3000 - 5000';
+
+            // Update UI with the matched bracket instead of dynamic range
+            priceDisplay.textContent = budgetValue;
 
             updateSliderLabels();
 
@@ -1798,14 +1776,43 @@
             const pgSel = document.getElementById('pages_count');
             const aggSel = document.getElementById('aggressiveness');
 
-            document.getElementById('f_audience').value = audSel.options[audSel.selectedIndex].text;
-            document.getElementById('f_pages').value = pgSel.options[pgSel.selectedIndex].text;
-            document.getElementById('f_locations').value = locSel.options[locSel.selectedIndex].text;
-            document.getElementById('f_agg').value = aggSel.options[aggSel.selectedIndex].text;
-            document.getElementById('f_age').value = document.getElementById('age_display').textContent;
-            document.getElementById('f_comp').value = document.getElementById('comp_display').textContent;
-            document.getElementById('f_rank').value = document.getElementById('rank_display').textContent;
-            document.getElementById('f_range').value = rangeText;
+            const f_audience = audSel.options[audSel.selectedIndex].text;
+            const f_pages = pgSel.options[pgSel.selectedIndex].text;
+            const f_locations = locSel.options[locSel.selectedIndex].text;
+            const f_agg = aggSel.options[aggSel.selectedIndex].text;
+            const f_age = document.getElementById('age_display').textContent;
+            const f_comp = document.getElementById('comp_display').textContent;
+            const f_rank = document.getElementById('rank_display').textContent;
+            const f_range = budgetValue;
+
+            // Package calculator data into the hidden message field of the included contact form
+            const modalEl = document.getElementById('leadModal');
+            const messageField = modalEl ? modalEl.querySelector('#message') : null;
+            if (messageField) {
+                messageField.value = `SEO Calculator Results:\n` +
+                    `- Budget Range: ${f_range}\n` +
+                    `- Target Audience: ${f_audience}\n` +
+                    `- Pages: ${f_pages}\n` +
+                    `- Locations: ${f_locations}\n` +
+                    `- Aggressiveness: ${f_agg}\n` +
+                    `- Website Age: ${f_age}\n` +
+                    `- Competition: ${f_comp}\n` +
+                    `- Keyword Rank: ${f_rank}`;
+            }
+
+            const budgetField = modalEl ? modalEl.querySelector('select[name="budget"]') : null;
+            if (budgetField) {
+                budgetField.value = budgetValue;
+                // Lock the budget dropdown so it stays "at" the calculated result
+                budgetField.style.pointerEvents = 'none';
+                budgetField.style.background = '#f8fafc';
+            }
+
+            // Also ensure SEO is selected in the services dropdown if it exists
+            const servicesField = document.querySelector('#leadModal #services');
+            if (servicesField) {
+                servicesField.value = 'SEO';
+            }
         }
 
         [...selects, ...sliders].forEach(id => {
@@ -1819,40 +1826,12 @@
 
         calculate();
 
-        // Lead Form Submission
-        const leadForm = document.getElementById('seoLeadForm');
-        const submitBtn = document.getElementById('submitBtn');
-        const formMsg = document.getElementById('formMsg');
+        // Re-run calculation when modal is shown to ensure fields are populated
+        const leadModal = document.getElementById('leadModal');
+        if (leadModal) {
+            leadModal.addEventListener('shown.bs.modal', calculate);
+        }
 
-        leadForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Processing...';
-
-            const formData = new FormData(this);
-            fetch(this.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
-                })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.status === 'success') {
-                        formMsg.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
-                        setTimeout(() => window.location.href = data.redirect_url, 2000);
-                    } else {
-                        formMsg.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'Send Proposal Request';
-                    }
-                })
-                .catch(err => {
-                    formMsg.innerHTML = `<div class="alert alert-danger">An unexpected error occurred.</div>`;
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Send Proposal Request';
-                });
-        });
+        // No extra lead form handler needed as contact-form.php handles its own submission.
     });
 </script>

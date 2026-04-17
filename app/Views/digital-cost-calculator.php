@@ -153,7 +153,7 @@
                         </div>
 
                         <div class="price-container mb-2 text-gradient-dark">
-                            <h3 class="" id="priceDisplay">AED 15,000 - AED 25,000</h3>
+                            <h3 class="" id="priceDisplay">AED 3000 - 5000</h3>
                             <p class="text-muted fs-14 mt-2">Total Project Budget</p>
                         </div>
 
@@ -485,45 +485,23 @@
                 <h5 class="modal-title h4 fw-bold mb-0">Get Your Custom Quote</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body p-4 p-md-5">
-                <form id="digitalLeadForm" action="<?= route('digital.cost.calculator.submit') ?>" method="POST">
-                    <?= csrf_token() ?>
-                    <input type="hidden" name="honeypot" value="">
+            <div class="modal-body p-4 p-md-4">
+                <style>
+                    #leadModal .site-form #message,
+                    #leadModal .site-form label[for="message"],
+                    #leadModal .site-form .col-12:has(#message) {
+                        display: none !important;
+                    }
 
-                    <!-- Hidden inputs for calculator values -->
-                    <input type="hidden" name="agency_location" id="f_location">
-                    <input type="hidden" name="agency_size" id="f_size">
-                    <input type="hidden" name="experience_level" id="f_exp">
-                    <input type="hidden" name="industry_complexity" id="f_complexity">
-                    <input type="hidden" name="est_project_cost" id="f_rate">
-                    <input type="hidden" name="services_text" id="f_services">
-
-                    <div class="row g-3">
-                        <div class="col-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" name="name" class="form-control premium-input" id="leadName" placeholder="John Doe" required>
-                                <label for="leadName">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating mb-3">
-                                <input type="email" name="email" class="form-control premium-input" id="leadEmail" placeholder="name@company.com" required>
-                                <label for="leadEmail">Business Email</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating mb-4">
-                                <input type="tel" name="phone" class="form-control premium-input" id="leadPhone" placeholder="+971" required>
-                                <label for="leadPhone">Phone Number</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button type="submit" id="submitBtn" class="btn btn-blue-gradient w-100 shadow-blue">
-                        <i class="ion-paper-airplane"></i> Send Quote Request
-                    </button>
-                    <div id="formMsg" class="mt-3"></div>
-                </form>
+                    #leadModal .site-form .form-hr {
+                        display: none !important;
+                    }
+                </style>
+                <?php
+                $servicesdata = 'Digital Marketing';
+                $textrow = 5;
+                include __DIR__ . '/component/forms/contact-form.php';
+                ?>
             </div>
         </div>
     </div>
@@ -1486,8 +1464,10 @@
                 document.querySelectorAll(`.option-card[data-type="${type}"]`).forEach(c => c.classList.remove('active'));
                 this.classList.add('active');
 
-                // Update hidden input
-                document.getElementById(`agency_${type}` || `timeline_${type}` || type).value = value;
+                // Update hidden input safely
+                const targetId = `agency_${type}` || `timeline_${type}` || type;
+                const targetEl = document.getElementById(targetId);
+                if (targetEl) targetEl.value = value;
 
                 calculate();
             });
@@ -1512,8 +1492,8 @@
             document.getElementById('exp_display').textContent = exps[expVal];
 
             let expMult = 1;
-            if (expVal === 1) expMult = 1.3; // Reduced multiplier
-            if (expVal === 2) expMult = 1.8; // Reduced multiplier
+            if (expVal === 1) expMult = 1.6; // Increased multiplier
+            if (expVal === 2) expMult = 2.4; // Increased multiplier
 
             // Complexity Multiplier
             const compVal = parseInt(document.getElementById('industry_complexity').value);
@@ -1521,8 +1501,8 @@
             document.getElementById('complexity_display').textContent = comps[compVal];
 
             let compMult = 1;
-            if (compVal === 1) compMult = 1.2; // Reduced multiplier
-            if (compVal === 2) compMult = 1.6; // Reduced multiplier
+            if (compVal === 1) compMult = 1.5; // Increased multiplier
+            if (compVal === 2) compMult = 2.2; // Increased multiplier
 
             // Final Calculation
             let total = baseCost * expMult * compMult;
@@ -1530,38 +1510,72 @@
             const min = Math.round(total);
             const max = Math.round(total * 1.35);
 
-            // Number formatter
-            const fmt = new Intl.NumberFormat('en-AE', {
-                style: 'currency',
-                currency: 'AED',
-                maximumFractionDigits: 0
-            });
+            // Calculate fixed budget bracket
+            let budgetValue = 'AED 3000 - 5000'; 
+            if (min >= 20000) budgetValue = 'Above AED 20000';
+            else if (min >= 15000) budgetValue = 'AED 15000 - 20000';
+            else if (min >= 10000) budgetValue = 'AED 10000 - 15000';
+            else if (min >= 5000) budgetValue = 'AED 5000 - 10000';
 
-            const rangeText = `${fmt.format(min)} - ${fmt.format(max)}`;
-            document.getElementById('priceDisplay').textContent = rangeText;
+            // Update UI
+            const priceDisplayEl = document.getElementById('priceDisplay');
+            if (priceDisplayEl) priceDisplayEl.textContent = budgetValue;
 
-            // Sync hidden fields for Lead Form
-            document.getElementById('f_location').value = document.getElementById('agency_location').value;
-            document.getElementById('f_size').value = sizeVal;
-            document.getElementById('f_exp').value = exps[expVal];
-            document.getElementById('f_complexity').value = comps[compVal];
-            document.getElementById('f_rate').value = rangeText;
+            // Sync with Modal Form
+            const modalEl = document.getElementById('leadModal');
+            if (modalEl) {
+                // Populate Message
+                const messageField = modalEl.querySelector('#message') || document.getElementById('message');
+                if (messageField) {
+                    messageField.value = `Digital Cost Calculator Results:\n` +
+                        `- Estimated Budget: ${budgetValue}\n` +
+                        `- Agency Location: ${document.getElementById('agency_name').value}\n` +
+                        `- Agency Size: ${sizeVal}\n` +
+                        `- Experience Level: ${exps[expVal]}\n` +
+                        `- Industry Complexity: ${comps[compVal]}\n` +
+                        `- Selected Services: ${Array.from(checkedServices).map(cb => cb.value).join(', ')}`;
+                }
 
-            const serviceNames = Array.from(checkedServices).map(cb => cb.value);
-            document.getElementById('f_services').value = serviceNames.join(', ');
+                // Set Service Dropdown
+                const servicesField = modalEl.querySelector('#services') || document.getElementById('services');
+                if (servicesField) servicesField.value = 'Digital Marketing';
+
+                // Set Budget Dropdown (Multi-method attempt)
+                const budgetField = modalEl.querySelector('#budget') || document.getElementById('budget');
+                if (budgetField) {
+                    // Try direct value match
+                    budgetField.value = budgetValue;
+                    
+                    // Fallback: search options if value didn't stick
+                    if (budgetField.value !== budgetValue) {
+                        for (let i = 0; i < budgetField.options.length; i++) {
+                            if (budgetField.options[i].text.trim() === budgetValue.trim()) {
+                                budgetField.selectedIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                    
+                    // Lock the budget dropdown
+                    budgetField.style.pointerEvents = 'none';
+                    budgetField.style.background = '#f8fafc';
+                }
+            }
         }
 
         // Sliders & Checkboxes listeners
         ['experience_level', 'industry_complexity'].forEach(id => {
-            document.getElementById(id).addEventListener('input', calculate);
+            const el = document.getElementById(id);
+            if (el) el.addEventListener('input', calculate);
         });
 
         document.querySelectorAll('input[name="services[]"]').forEach(cb => {
             cb.addEventListener('change', calculate);
         });
 
-        // Location input listener
-        document.getElementById('agency_location').addEventListener('input', calculate);
+        // Name input listener
+        const nameInput = document.getElementById('agency_name');
+        if (nameInput) nameInput.addEventListener('input', calculate);
 
         document.getElementById('calculateBtn').addEventListener('click', calculate);
 
@@ -1570,47 +1584,17 @@
             // Reset active states
             optionCards.forEach(c => c.classList.remove('active'));
             document.querySelectorAll('.option-card[data-value="Small"]').forEach(c => c.classList.add('active'));
-            // Clear location input
-            document.getElementById('agency_location').value = '';
             calculate();
         });
 
         calculate();
 
-        // Lead Form Submission
-        const leadForm = document.getElementById('digitalLeadForm');
-        const submitBtn = document.getElementById('submitBtn');
-        const formMsg = document.getElementById('formMsg');
+        // Re-run calculation when modal is shown to ensure fields are populated
+        const leadModal = document.getElementById('leadModal');
+        if (leadModal) {
+            leadModal.addEventListener('shown.bs.modal', calculate);
+        }
 
-        leadForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Processing...';
-
-            const formData = new FormData(this);
-            fetch(this.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
-                })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.status === 'success') {
-                        formMsg.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
-                        setTimeout(() => window.location.href = data.redirect_url, 2000);
-                    } else {
-                        formMsg.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'Send Quote Request';
-                    }
-                })
-                .catch(err => {
-                    formMsg.innerHTML = `<div class="alert alert-danger">An unexpected error occurred.</div>`;
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Send Quote Request';
-                });
-        });
+        // No extra lead form handler needed as contact-form.php handles its own submission.
     });
 </script>

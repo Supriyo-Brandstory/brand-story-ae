@@ -120,63 +120,75 @@
     }
 </style>
 <script>
-    // Real-time input restrictions
-    document.getElementById('name').addEventListener('input', function() {
-        this.value = this.value.replace(/[^A-Za-z\s]/g, '');
-    });
-    document.getElementById('company').addEventListener('input', function() {
-        this.value = this.value.replace(/[^A-Za-z0-9\s&.,'-]/g, '');
-    });
-    document.getElementById('designation').addEventListener('input', function() {
-        this.value = this.value.replace(/[^A-Za-z\s&.,'-]/g, '');
-    });
-    document.getElementById('phone').addEventListener('input', function() {
-        this.value = this.value.replace(/[^0-9]/g, '');
-    });
+    // Real-time input restrictions and AJAX handler for multiple forms
+    (function() {
+        document.querySelectorAll('form').forEach(form => {
+            if (form.id !== 'contact' || form.dataset.initialized) return;
+            form.dataset.initialized = 'true';
 
-    // Form submission handler
-    document.getElementById('contact').addEventListener('submit', function(e) {
-        e.preventDefault();
+            // Input restrictions
+            const inputRegex = {
+                'name': /[^A-Za-z\s]/g,
+                'company': /[^A-Za-z0-9\s&.,'-]/g,
+                'designation': /[^A-Za-z\s&.,'-]/g,
+                'phone': /[^0-9]/g
+            };
 
-        const submitBtn = document.getElementById('api_btn');
-        const messageEl = document.querySelector('.form-messege');
-
-        // Disable button during submission
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Submitting...';
-        messageEl.textContent = '';
-        messageEl.className = 'form-messege';
-
-        // Get form data
-        const formData = new FormData(this);
-
-        // Submit via fetch
-        fetch(this.action, {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    messageEl.textContent = data.message || 'Thank you! Your message has been sent successfully.';
-                    messageEl.classList.add('success', 'text-success');
-                    this.reset(); // Clear form
-                    if (data.redirect_url) {
-                        window.location.href = data.redirect_url;
-                    }
-                } else {
-                    messageEl.textContent = data.message || 'An error occurred. Please try again.';
-                    messageEl.classList.add('error', 'text-danger');
+            Object.keys(inputRegex).forEach(name => {
+                const el = form.querySelector(`[name="${name}"]`);
+                if (el) {
+                    el.addEventListener('input', function() {
+                        this.value = this.value.replace(inputRegex[name], '');
+                    });
                 }
-            })
-            .catch(error => {
-                messageEl.textContent = 'Network error. Please try again.';
-                messageEl.classList.add('error', 'text-danger');
-                console.error('Error:', error);
-            })
-            .finally(() => {
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit';
             });
-    });
+
+            // AJAX Submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const messageEl = document.querySelector('.form-messege'); // Keep global if it's outside form
+
+                if (!submitBtn) return;
+                submitBtn.disabled = true;
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Submitting...';
+
+                const formData = new FormData(this);
+                fetch(this.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest'
+                        }
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.status === 'success') {
+                            if (messageEl) {
+                                messageEl.textContent = data.message;
+                                messageEl.className = 'form-messege success text-success alert alert-success mt-3';
+                            }
+                            form.reset();
+                            if (data.redirect_url) setTimeout(() => window.location.href = data.redirect_url, 1500);
+                        } else {
+                            if (messageEl) {
+                                messageEl.textContent = data.message || 'An error occurred.';
+                                messageEl.className = 'form-messege error text-danger alert alert-danger mt-3';
+                            }
+                        }
+                    })
+                    .catch(err => {
+                        if (messageEl) {
+                            messageEl.textContent = 'Network error. Please try again.';
+                            messageEl.className = 'form-messege error text-danger alert alert-danger mt-3';
+                        }
+                    })
+                    .finally(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = originalText;
+                    });
+            });
+        });
+    })();
 </script>
