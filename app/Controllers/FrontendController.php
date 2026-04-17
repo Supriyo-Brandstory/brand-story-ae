@@ -1698,7 +1698,7 @@ class FrontendController extends Controller
         $meta = [
             'title' => 'Search Everywhere Optimization Services | Be Found on TikTok, Amazon, YouTube & More',
             'description' => "Our Search Everywhere Optimization services ensure your brand is discovered across all major search platforms, from TikTok and YouTube to Amazon and GPT.",
-            'classname' => 'dm-agency-dubai'
+            'classname' => 'dm-agency-dubai search-everywhare-service'
         ];
         return $this->view('services/search-everywhere-service', ['meta' => $meta]);
     }

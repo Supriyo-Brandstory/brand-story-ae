@@ -3750,7 +3750,9 @@ ul.seo-pages-list li:before {
 
 .comp-seo-services .pow-box {
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .comp-seo-services .pow-box ul {
@@ -3759,8 +3761,18 @@ ul.seo-pages-list li:before {
 }
 
 .comp-seo-services .pow-box li::before {
-  content: url('../images/seo-lp/dubai/seo-li-comp.png');
-  padding-right: 8px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  margin-right: 8px;
+  margin-top: 4px;
+  background: url('../images/seo-lp/dubai/seo-li-comp.png') no-repeat center;
+  filter: invert(30%) sepia(100%) saturate(500%) hue-rotate(180deg);
+}
+
+.comp-seo-services .pow-box ul {
+  margin: 10px 0;
 }
 
 .comp-seo-services .pow-box li {
@@ -3790,161 +3802,6 @@ ul.seo-pages-list li:before {
   transition: background-color 0.2s ease-in-out;
 }
 
-.comp-seo-services .pow-box.pbx-one {
-  background-color: rgba(49, 168, 254, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-one::before {
-  background-color: rgba(49, 168, 254, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-one:hover::before {
-  background-color: rgba(49, 168, 254, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-one:hover {
-  background-color: rgba(49, 168, 254, 0.7);
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-two {
-  background-color: rgba(234, 125, 48, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-two::before {
-  background-color: rgba(234, 125, 48, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-two:hover::before {
-  background-color: rgba(234, 125, 48, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-two:hover {
-  background-color: rgba(234, 125, 48, 0.7);
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-three {
-  background-color: rgba(236, 105, 106, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-three::before {
-  background-color: rgba(236, 105, 106, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-three:hover::before {
-  background-color: rgba(236, 105, 106, 0.05);
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-three:hover {
-  background-color: rgba(236, 105, 106, 0.7);
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-four {
-  background-color: rgba(48, 35, 87, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-four::before {
-  background-color: rgba(48, 35, 87, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-four:hover::before {
-  background-color: rgba(48, 35, 87, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-four:hover {
-  background-color: rgba(48, 35, 87, 0.7);
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-five {
-  background-color: rgba(132, 94, 247, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-five::before {
-  background-color: rgba(132, 94, 247, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-five:hover::before {
-  background-color: rgba(132, 94, 247, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-five:hover {
-  background-color: rgba(132, 94, 247, 0.7);
-  ;
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-six {
-  background-color: rgba(236, 105, 106, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-six::before {
-  background-color: rgba(236, 105, 106, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-six:hover::before {
-  background-color: rgba(236, 105, 106, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-six:hover {
-  background-color: rgba(236, 105, 106, 0.7);
-  ;
-  transition: 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-seven {
-  background-color: rgba(234, 125, 48, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-seven::before {
-  background-color: rgba(234, 125, 48, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-seven:hover::before {
-  background-color: rgba(234, 125, 48, 0.05);
-  ;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.comp-seo-services .pow-box.pbx-seven:hover {
-  background-color: rgba(234, 125, 48, 0.7);
-  transition: 0.2s ease-in-out;
-}
-
 .comp-seo-services .parent-pow {
   overflow: hidden;
   padding: 24px 30px;
@@ -3952,6 +3809,42 @@ ul.seo-pages-list li:before {
   width: 100%;
   display: flex;
   border-radius: 10px;
+}
+
+.pow-box-bg{
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  font-size: 350px;
+  color: rgba(0, 0, 0, 0.03); /* very light = background feel */
+  text-align: right;
+  text-wrap: nowrap;
+  /* border: 1px solid red; */
+  z-index: 0; /* send it behind */
+  pointer-events: none; /* prevent blocking clicks */
+}
+
+@media (max-width: 786px) {
+  .pow-box-bg{
+    bottom: -25%;
+  }
+}
+
+.pow-box-btn{
+  background: #855EF7;
+  color:#fff;
+  padding: 10px 24px;
+  border-radius: 20px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+} 
+
+.pow-box-btn:hover{
+  color:#fff;
+  transform: translateY(-5px);
 }
 
 .our-comp-service-process.seo-process {

@@ -1,83 +1,69 @@
-<section class="service-banner seo-service-dubai sp-50">
-    <div class="container"><!--Container Start-->
-        <div class="row align-items-center"><!--Row Start-->
-            <div class="col-md-7"> <!--col start-->
-                <div class="seo-service-banner-txt">
-                    <h1 class="fw-bold">Top-Rated SEO Agency in Dubai, UAE</h1>
-                    <p class="fs-24 my-3">More Traffic . Better Ranking . Stronger Growth</p>
-                    <p class="fs-20">BrandStory is a top SEO company that Dubai businesses trust. We help 200+ clients in Dubai dominate search rankings with cutting-edge, ROI-focused SEO solutions. As a leading SEO company in Dubai, we know how to drives your business growth.</p><br>
-                    <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start">
+<section class="search-everywhare-service" >
 
-                        <b>20,000+</b> Keywords Ranked
-
-                        <!-- Separator -->
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor" />
-                        </svg>
-
-                        <b>32 K+</b> Leads Generated
-
-                        <!-- Separator -->
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor" />
-                        </svg>
-
-                        <b>8M+</b> Website Clicks
-
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                            <circle cx="12" cy="12" r="3" fill="currentColor" />
-                        </svg>
-
-                        <b>80+</b> Experts Working For You
-
-                    </p>
-                    <div class="sb-btn mb-4"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn">Get Free SEO Audit</a></div>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="/assets/images/seo-lp/dubai/our-capabilities.png" class="img-fluid" alt="BrandStory SEO Capabilities in Dubai">
-                </div>
-            </div><!--col end-->
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
-
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
-
-            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-content-writing-agency-in-dubai-uae" class="seo-marquee-item">Content Optimization</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Link Building</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/local-seo-services-in-dubai" class="seo-marquee-item">Local SEO</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/ai-seo-agency-in-dubai-uae" class="seo-marquee-item">AI SEO</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">SEO Audit</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="seo-marquee-item">Analytics & Reporting</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
+    <div class="animated-hero-search-everywhere-banner">
+        <div class="animated-hero-glow-blob-1"></div>
+        <div class="animated-hero-glow-blob-2"></div>
+        <div class="animated-hero-grid-overlay-dark"></div>
+        
+        <!-- Accent Wavy Line -->
+        <div class="animated-hero-accent-line-wave">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path class="animated-hero-base-line" d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,480,224,576,218.7C672,213,768,139,864,138.7C960,139,1056,213,1152,229.3C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" />
+                <path class="animated-hero-traveling-dash" d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,480,224,576,218.7C672,213,768,139,864,138.7C960,139,1056,213,1152,229.3C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" />
+            </svg>
         </div>
+        
+        
+        <div class="container"><!--Container Start-->
+            <div class="row align-items-center"><!--Row Start-->
+                <div class="col-md-7"> <!--col start-->
+                    <div class="seo-service-banner-txt text-md-start">
+                        <h1 class="fw-bold">Top-Rated SEO Agency in Dubai, UAE</h1>
+                        <p class="fs-24 my-3">More Traffic . Better Ranking . Stronger Growth</p>
+                        <p class="fs-20">BrandStory is a top SEO company that Dubai businesses trust. We help 200+ clients in Dubai dominate search rankings with cutting-edge, ROI-focused SEO solutions. As a leading SEO company in Dubai, we know how to drives your business growth.</p><br>
+                        <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start">
+                            
+                            <b>20,000+</b> Keywords Ranked
+                            
+                            <!-- Separator -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="3" fill="currentColor" />
+                            </svg>
+                            
+                            <b>32 K+</b> Leads Generated
+                            
+                            <!-- Separator -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="3" fill="currentColor" />
+                            </svg>
+                            
+                            <b>8M+</b> Website Clicks
+                            
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="3" fill="currentColor" />
+                            </svg>
+                            
+                            <b>80+</b> Experts Working For You
+                            
+                        </p>
+                        <div class="sb-btn mb-4"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn">Get Free SEO Audit</a></div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="/assets/images/seo-lp/dubai/our-capabilities.png" class="img-fluid" alt="BrandStory SEO Capabilities in Dubai">
+                    </div>
+                </div><!--col end-->
+            </div><!--Row End-->
+        </div><!--Container End-->
+        
+        <!-- Wavy Bottom Divider -->
+        <div class="animated-hero-hero-wave-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,480,224,576,218.7C672,213,768,139,864,138.7C960,139,1056,213,1152,229.3C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        
     </div>
 </section>
 
@@ -169,6 +155,7 @@
     </div>
 </section>
 
+
 <section class="sp-50 comp-seo-services bg-white">
     <div class="container">
         <div class="compt-mkt-content">
@@ -177,7 +164,8 @@
         </div>
         <div class="row g-md-5 pt-4 align-items-stretch"><!--Row Start-->
             <div class="col-md-6 d-flex align-items-stretch">
-                <div class="pow-box pbx-one">
+                <div class="pow-box">
+                    <div class="pow-box-bg">1</div>   
                     <h4 class="mb-3">Keyword Research &amp; Strategy</h4>
                     <p>We identify high-value keywords that align with your target audience's search intent, ensuring your business appears in relevant searches.</p>
                     <ul>
@@ -185,11 +173,12 @@
                         <li>Long-tail keyword strategy for high conversion rates</li>
                         <li>Keyword optimization (e.g., SEO for luxury brands in Dubai)</li>
                     </ul>
-                    <a href="/keyword-research-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/keyword-research-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-two">
+                <div class="pow-box">
+                    <div class="pow-box-bg">2</div>
                     <h4 class="mb-3">On-Page Optimization</h4>
                     <p>Our team fine-tunes your website’s content, structure, and metadata to improve rankings and user experience.</p>
                     <ul>
@@ -197,11 +186,12 @@
                         <li>SEO-friendly content enhancements</li>
                         <li>Internal linking &amp; URL structuring</li>
                     </ul>
-                    <a href="/on-page-seo-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/on-page-seo-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-three">
+                <div class="pow-box">
+                    <div class="pow-box-bg">3</div>
                     <h4 class="mb-3">Technical SEO</h4>
                     <p>We ensure your website is fast, mobile-friendly, and technically sound for search engine crawlers.</p>
                     <ul>
@@ -209,11 +199,12 @@
                         <li>Schema markup for better search visibility</li>
                         <li>Mobile responsiveness &amp; secure HTTPS implementation</li>
                     </ul>
-                    <a href="/technical-seo-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/technical-seo-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-four">
+                <div class="pow-box">   
+                    <div class="pow-box-bg">4</div>
                     <h4 class="mb-3">Local SEO (Google My Business &amp; Citations)</h4>
                     <p>Dominate local search results and attract nearby customers with expert local SEO in Dubai.</p>
                     <ul>
@@ -221,11 +212,12 @@
                         <li>Local citations &amp; NAP (Name, Address, Phone) consistency</li>
                         <li>Customer review management &amp; local backlink strategies</li>
                     </ul>
-                    <a href="/local-seo-services-in-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/local-seo-services-in-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-five">
+                <div class="pow-box">
+                    <div class="pow-box-bg">5</div>
                     <h4 class="mb-3">Content &amp; SEO Copywriting</h4>
                     <p>Engaging, value-driven content that boosts rankings and keeps your audience engaged.</p>
                     <ul>
@@ -233,11 +225,12 @@
                         <li>SEO-optimized landing pages &amp; service pages</li>
                         <li>Content tailored for real estate SEO in Dubai, healthcare, e-commerce, and more</li>
                     </ul>
-                    <a href="/content-marketing-agency-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/content-marketing-agency-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-six">
+                <div class="pow-box">
+                    <div class="pow-box-bg">6</div>
                     <h4 class="mb-3">Ethical Link Building</h4>
                     <p>We build high-quality, white-hat backlinks to enhance your website’s authority.</p>
                     <ul>
@@ -245,11 +238,12 @@
                         <li>Niche-specific backlinks for Dubai industries</li>
                         <li>Brand mentions &amp; PR-driven link acquisition</li>
                     </ul>
-                    <a href="/off-page-seo-dubai" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/off-page-seo-dubai" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box pbx-seven">
+                <div class="pow-box">
+                    <div class="pow-box-bg">7</div>
                     <h4 class="mb-3">Performance Tracking &amp; Reporting</h4>
                     <p>We provide transparent SEO reports with clear insights into rankings, traffic, and ROI.</p>
                     <ul>
@@ -257,7 +251,7 @@
                         <li>Monthly SEO performance reports with actionable insights</li>
                         <li>Ongoing strategy refinement based on data-driven decisions</li>
                     </ul>
-                    <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="btn em-btn mt-3">Learn More</a>
+                    <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <!-- <div class="col-md-6 d-flex align-items-stretch"> col start
@@ -448,6 +442,43 @@
     </div>
 </section>
 
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/on-page-seo-dubai" class="seo-marquee-item">On-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Off-Page SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/technical-seo-dubai" class="seo-marquee-item">Technical SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Research</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-content-writing-agency-in-dubai-uae" class="seo-marquee-item">Content Optimization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/off-page-seo-dubai" class="seo-marquee-item">Link Building</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/local-seo-services-in-dubai" class="seo-marquee-item">Local SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/ai-seo-agency-in-dubai-uae" class="seo-marquee-item">AI SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-audit-services-in-dubai" class="seo-marquee-item">SEO Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+            <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="seo-marquee-item">Analytics & Reporting</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+
+        </div>
+    </div>
+</section>
 
 <section class="seo-pages-impact sp-50 bg-white">
     <div class="container"><!--Container Start-->
