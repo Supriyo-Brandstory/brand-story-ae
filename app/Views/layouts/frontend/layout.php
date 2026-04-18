@@ -237,6 +237,8 @@ if ($seoData) {
 
 
     <script src="<?= base_url('assets/js/voice-control.js?v=' . time()) ?>"></script> -->
+    <!-- Reusable Popup Form -->
+    <?php include __DIR__ . '/../../component/popup-contact-form.php'; ?>
 </body>
 
 </html>

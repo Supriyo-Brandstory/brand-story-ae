@@ -211,15 +211,26 @@ $stickyServices = $stickyServices ?? [
     $("input").keypress(function() {
       $(this).removeClass('error');
     });
-    $("#phone").intlTelInput({
-      allowDropdown: true,
-      separateDialCode: true,
-      localizedCountries: null,
-      preferredCountries: ["ae", "in", "us", "gb", "sg"],
+
+    $(".phone-input").each(function() {
+      var $this = $(this);
+      $this.intlTelInput({
+        allowDropdown: true,
+        separateDialCode: true,
+        localizedCountries: null,
+        preferredCountries: ["ae", "in", "us", "gb", "sg"],
+      });
+
+      var updateCountryData = function() {
+        var countryData = $this.intlTelInput("getSelectedCountryData");
+        var $form = $this.closest('form');
+        $form.find("input[name='country']").val(countryData.iso2);
+        $form.find("input[name='country_code']").val(countryData.dialCode);
+      };
+
+      $this.on("countrychange", updateCountryData);
+      updateCountryData(); // Initial load
     });
-    var countryData = $("#phone").intlTelInput("getSelectedCountryData");
-    $("#country").val(countryData.iso2);
-    $("#country_code").val(countryData.dialCode);
   });
 </script>
 <script>

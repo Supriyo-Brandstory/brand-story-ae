@@ -16,7 +16,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <label>Phone number*</label>
-                <input type="tel" name="phone" id="phone" class="form-control" maxlength="12" minlength="8"
+                <input type="tel" name="phone" id="phone" class="form-control phone-input" maxlength="12" minlength="8"
                     pattern="^((\\+91-?)|0)?[0-9]{10,11}$" required>
             </div>
             <div class="col-12 col-md-6">
