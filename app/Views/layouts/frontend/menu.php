@@ -29,7 +29,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/email-marketing.png" alt="E-mail Marketing" width="30" height="30"> <a href="<?= route('emailmarketingdubai') ?>">E-mail Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/pay-per-click.png" alt="Pay-Per-Click Services" width="30" height="30"><a href="<?= route('payperclickservicesdubai') ?>">PPC Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/video-marketing.png" alt="Video Marketing" width="30" height="30"><a href="<?= route('videomarketingdubai') ?>">Video Marketing</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="B2B Services" width="30" height="30"> <a href="<?= route('seoservicesdubai') ?>">SEO Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/b2b-services.png" alt="Search Everywhere Optimisation Services in Dubai" width="30" height="30"> <a href="<?= route('searcheverywhereservice') ?>">Search Everywhere</a></li>
 
                             </ul>
                             <ul class="w-100">

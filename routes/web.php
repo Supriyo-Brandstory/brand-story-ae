@@ -280,6 +280,7 @@ Route::get('/seo-link-building-agency-dubai', 'FrontendController@seoLinkBuildin
 Route::get('/local-seo-agency-dubai', 'FrontendController@localSEOAgencyDubai', 'localseoadgencydubai');
 Route::get('/testimonials', 'FrontendController@testimonials', 'testimonials');
 // Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
+Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
 
 
 
@@ -378,7 +379,7 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/http-status-checker', 'FrontendController@httpStatusChecker', 'http-status-checker');
     Route::post('/http-status-checker/bulk', 'FrontendController@httpStatusCheckBulk', 'http-status-checker.bulk');
     Route::post('/http-status-checker/fetch-sitemap', 'FrontendController@fetchSitemapUrls', 'http-status-checker.fetch-sitemap');
-    
+
     // Video Downloader
     Route::get('/video-downloader', 'FrontendController@videoDownloader', 'video-downloader');
     Route::post('/video-downloader/fetch', 'FrontendController@videoDownloaderFetch', 'video-downloader.fetch');
