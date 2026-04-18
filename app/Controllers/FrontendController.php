@@ -1703,6 +1703,16 @@ class FrontendController extends Controller
         return $this->view('services/search-everywhere-service', ['meta' => $meta]);
     }
 
+    public function testimonials()
+    {
+        $meta = [
+            'title' => 'Client Testimonials | BrandStory UAE Success Stories',
+            'description' => "See what our clients say about our digital marketing, SEO, and web development services in Dubai. Real success stories from leading brands.",
+            'classname' => 'testimonials-page'
+        ];
+        return $this->view('testimonials/index', ['meta' => $meta]);
+    }
+
 
 
 
