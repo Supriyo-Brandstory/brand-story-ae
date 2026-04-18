@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center px-3">
-                <h2>Industries We Work With</h2>
-                <p>
-                    At Brandstory, we extend our Digital Marketing expertise across a diverse range of industries, tailoring strategies to meet the unique demands and opportunities each sector presents.
+                <h2 class="fw-700 text-center">Industries We've Proudly Served <br>and Dominated</h2>
+                <p class="fs-20 text-center">
+                    At Brandstory, we extend our Digital Marketing expertise across a diverse range of industries in UAE, tailoring strategies to meet the unique demands and opportunities each sector presents.
                 </p>
             </div>
         </div>
@@ -52,7 +52,7 @@
                             </svg>
                         </div>
                         <div class="industry-name">
-                            <?= htmlspecialchars($name) ?> Digital Marketing
+                            <?= htmlspecialchars($name) ?> Marketing
                         </div>
                     </a>
                 </div>

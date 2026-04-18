@@ -21,7 +21,7 @@
                         <h1 class="fw-bold">Top-Rated SEO Agency in Dubai, UAE</h1>
                         <p class="fs-24 my-3">More Traffic . Better Ranking . Stronger Growth</p>
                         <p class="fs-20">BrandStory is a top SEO company that Dubai businesses trust. We help 200+ clients in Dubai dominate search rankings with cutting-edge, ROI-focused SEO solutions. As a leading SEO company in Dubai, we know how to drives your business growth.</p><br>
-                        <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start">
+                        <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start d-none d-md-flex">
                             
                             <b>20,000+</b> Keywords Ranked
                             
@@ -51,7 +51,7 @@
                 </div><!--col end-->
                 <div class="col-md-5 d-flex justify-content-center align-items-center"> <!--col start-->
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="/assets/images/seo-lp/dubai/our-capabilities.png" class="img-fluid" alt="BrandStory SEO Capabilities in Dubai">
+                        <img src="/assets/images/seo-lp/dubai/our-capabilities.png" class="img-fluid" fetchpriority="high" alt="BrandStory SEO Capabilities in Dubai">
                     </div>
                 </div><!--col end-->
             </div><!--Row End-->
@@ -70,8 +70,8 @@
 <section class="sp-50 bg-white">
     <div class="container">
         <div class="compt-mkt-content">
-            <h2 class="fw-700 text-center">Dominate Dubai’s Competitive Market with Expert SEO Solutions</h2>
-            <p class="fs-20">In Dubai’s fast-paced digital landscape, standing out among competitors is a challenge. Businesses struggle with high competition, shifting search algorithms, and the need for a strong online presence to attract local and international customers.</p>
+            <h2 class="fw-700 text-center">Dominate Dubai’s Competitive Market <br>with Expert SEO Services</h2>
+            <p class="fs-20">In Dubai’s fast-paced digital landscape, standing out among competitors is a challenge. Businesses struggle with high competition, shifting <a href="https://www.searchenginejournal.com/google-algorithm-history/" style="color: black; text-decoration: underline;" rel="nofollow"><b>Google algorithms</b></a>, and the need for a strong online presence to attract local and international customers.</p>
             <p class="fs-20">As a leading SEO company in Dubai, we specialize in tailored Dubai SEO services that drive measurable growth. With years of experience optimizing businesses in diverse industries, we understand the unique challenges of the Dubai market. Our data-driven strategies ensure your brand ranks higher, attracts the right audience, and achieves long-term success.</p>
         </div>
         <div class="mt-4">
@@ -113,41 +113,41 @@
                     </div>
                 </div>
             </div>
-            <h4 class="fw-700 text-center my-4">The Impact We Deliver</h4>
+            <h4 class="fw-700 text-center mt-5 my-4">From Audit to Authority: Our SEO Process</h4>
             <div class="row justify-content-center g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
-                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/inc-website-traffic.png" class="img-fluid" alt="increased-visibility">
-                        <h3 class="mt-2">Increased Website Traffic</h3>
-                        <p>We build SEO strategies that consistently grow your website traffic and generate business opportunities.</p>
+                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/inc-website-traffic.png" class="img-fluid" alt="Audit Your Business & Website">
+                        <h4 class="fw-700 my-4">SEO Audit</h3>
+                        <p>We audit your brand's visibility across search engines- pinpointing gaps, missed opportunities, and competitive weaknesses to build a clear growth roadmap.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
-                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/imp-conversion-rate.png" class="img-fluid" alt="increased-visibility">
-                        <h3 class="mt-2">Improved Conversions</h3>
-                        <p>We improve conversion rates by attracting targeted & intent-driven organic traffic to your website month-on-month.</p>
+                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/imp-conversion-rate.png" class="img-fluid" alt="Build Strategy Roadmap">
+                        <h4 class="fw-700 my-4">Strategy Roadmap</h3>
+                        <p>We conduct platform-specific keyword research across Google, Bing, AI overviews, and LLMs- mapping high-intent search terms and user behaviour to a visibility strategy.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
-                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/higher-roi.png" class="img-fluid" alt="increased-visibility">
-                        <h3 class="mt-2">Rankings & Visibility</h3>
-                        <p>We deliver 1st page organic rankings and enhanced online visibility to drive sustainable long-term business growth.</p>
+                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/higher-roi.png" class="img-fluid" alt="Content Optimisation">
+                        <h4 class="fw-700 my-4">Content Optimisation</h3>
+                        <p>We craft SEO-driven content- optimised website copy, service pages, location landing pages, and articles, built around search intent, keyword relevance, and conversion.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
-                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/brand-activity.png" class="img-fluid" alt="increased-visibility">
-                        <h3 class="mt-2">Brand Authority</h3>
-                        <p>With content-driven SEO and authoritative link building, we strengthen your brand authority and make you a industry leader.</p>
+                        <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/brand-activity.png" class="img-fluid" alt="Build Engagement">
+                        <h4 class="fw-700 my-4">Build Engagement</h3>
+                        <p>We build your brand's authority through targeted link acquisition, social proof, and audience interaction- strengthening trust signals that expand organic reach and ranking.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
                         <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/long-term-results.png" class="img-fluid" alt="increased-visibility">
-                        <h3 class="mt-2">Long-Term Results</h3>
-                        <p>We focus on ROI-driven SEO performance and optimization to drive steady, scalable growth for your business at an efficient cost.</p>
+                        <h4 class="fw-700 my-4">Growth Results</h3>
+                        <p>We continuously monitor rankings, engagement, and conversions across search engines & LLMs to refine strategies, respond to algorithm shifts, and ensure your visibility compounds over time.</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
     <div class="container">
         <div class="compt-mkt-content">
             <h2 class="fw-700 text-center">Our Comprehensive SEO Services in Dubai</h2>
-            <p class="fs-20 text-center">At Brandstory, we offer a full suite of Dubai SEO services designed to help businesses rank higher, attract quality traffic, and maximize ROI. Whether you're a restaurant in Dubai Marina or an e-commerce store in Downtown Dubai, our customized strategies deliver real results.</p>
+            <p class="fs-20 text-center">At Brandstory, we offer a full suite of Dubai SEO services designed to help businesses rank higher, attract quality traffic, and maximize ROI. Whether you're a restaurant in Dubai Marina or an e-commerce store in Downtown Dubai, our customized strategies <a href="/case-study/" style="color: black; text-decoration: underline;"><b>deliver real results</b></a>.</p>
         </div>
         <div class="row g-md-5 pt-4 align-items-stretch"><!--Row Start-->
             <div class="col-md-6 d-flex align-items-stretch">
@@ -263,8 +263,8 @@
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="parent-pow">
                     <div class="pow-box black">
-                        <p class="mb-0">Ready to Elevate Your Online Presence?</p>
-                        <div class="sb-btn"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn btn-light">Get a Free SEO Audit</a></div>
+                        <p class="mb-0">Unlock Your Website’s SEO Potential</p>
+                        <div class="sb-btn"><a href="/seo-audit-services-in-dubai/" class="seo-audit-btn btn btn-light">SEO Audit Services</a></div>
                     </div>
                 </div>
             </div>
@@ -484,7 +484,7 @@
     <div class="container mt-3 text-center">
         <h2 class="fw-bold mb-4">Search Is Everywhere: Is Your Brand <br>Visible Where It Matters?</h2>
         <p class="fs-20 max-width-800 mx-auto">
-            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most.
+            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most. Know more about <a href="/search-everywhere-service/" style="color: black; text-decoration: underline;"><b>Search Everywhere Optimisation</b></a>.
         </p>
     </div>
 </section>
@@ -572,14 +572,7 @@
                     <a href="#" class="platform-link">Learn Linkedin SEO ></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="platform-card">
-                    <i class="ion-social-twitter platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #000;">Twitter (X) SEO</h3>
-                    <p style="color: #444;">Capture real-time opportunities. We help you rank for trending topics and highly targeted discussions.</p>
-                    <a href="#" class="platform-link">Learn Twitter SEO ></a>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
@@ -597,7 +590,7 @@
             </div><!--col end-->
             <div class="col-md-8 col-lg-6"> <!--col start-->
                 <div class="sp-impact-txt bg-white">
-                    <p>SEO is the right mix of proven techniques that help websites rank higher across search engines. Over time, these methods have evolved, enabling businesses in the UAE to boost visibility, attract the right audience, and generate real ROI.</p>
+                    <p>SEO is the right mix of proven techniques that help websites rank higher across search engines. Over time, these methods have evolved, enabling businesses in the UAE to boost visibility, attract the right audience, and <a href="/blogs/seo-vs-ppc-in-dubai-which-channel-delivers-better-roi-for-businesses" style="color: black; text-decoration: underline;"><b>generate sustainable ROI</b></a>.</p>
                     <ul class="seo-pages-list bg-white">
                         <li><b>But How Does SEO Deliver ROI?</b></li>
                     </ul>
@@ -614,7 +607,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-center mb-5">Your Trusted SEO Agency in Dubai, UAE</h2>
-                <p class="mb-3">BrandStory is a specialist SEO agency in Dubai dedicated to helping businesses across the UAE and beyond secure top positions on Google, Bing, and every major search engine that matters to your audience. </p>
+                <p class="mb-3">BrandStory is a growth-focused <a href="/seo-services-in-dubai" style="color: black; text-decoration: underline;"><b>SEO agency in Dubai</b></a> dedicated to helping businesses across the UAE and beyond secure top positions on Google, Bing, and every major search engine that matters to your audience.</p>
 
             </div>
         </div>
@@ -623,25 +616,133 @@
                 <div class="em-points">
 
                     <p>BrandStory brings deep knowledge of the Dubai and UAE market, giving your business a distinct advantage. Whether your goal is to dominate locally or expand globally, we have the expertise to get you there.</p><br>
-                    <p>We follow only the highest industry standards, strictly adhering to search engine guidelines. No shortcuts, no black-hat tactics- just a consistent, data-driven approach built to deliver long-term growth.</p><br>
-                    <p>Get in touch today for a free consultation and discover what a truly strategic SEO partnership can do for your business.</p>
+                    <p>We build SEO strategies on proven best practices and search engine guidelines. By avoiding shortcuts and focusing on data-driven execution, we ensure sustainable growth over time.</p><br>
+                    <p>Every campaign is backed by research, analytics, and continuous optimization- ensuring your SEO strategy evolves with search trends and delivers consistent performance.</p>
                 </div>
                 <a href="/contact/"><button class="btn em-btn mt-3">Contact Us</button></a>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/em/seo-results-2026.webp" class="img-fluid mb-3" alt="seo agency in dubai">
+                <img src="/assets/images/service/em/seo-rank-1.webp" class="img-fluid mb-3" alt="Rank on 1st page with BrandStory SEO services in Dubai">
             </div>
         </div>
     </div>
 </section>
 
-<section class="sp-50 bg-white">
+<?php include __DIR__ . '/../component/services/industries-service.php' ?>
 
-    <div class="container"><!--Container Start-->
-        <h2 class="text-center">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/services/clients.php' ?>
-    </div><!--Container End-->
+<div class="tools-section">
+    <div class="sction-header">
+        <h2 class="section-title">Tools and Tech That Drive Our SEO Success</h2>
+        <p class="section-description width-800">
+            As a renowned Dubai SEO Agency, we use cutting-edge SEO tools for website audit, keyword
+            research, and competitor mapping. We plan SEO strategies based on long-term growth and
+            sustainable organic reach.
+        </p>
+    </div>
+
+
+    <div class="tools-container">
+        <div class="tools-list-wrapper">
+            <div class="tools-list">
+                <div class="tool-card" data-tool="gsc">
+                    <img src="/assets/images/icons/google-console.svg" alt="GSC"/>
+                    <span>Google Search Console</span>
+                </div>
+                <div class="tool-card" data-tool="gds">
+                    <img src="/assets/images/icons/google-data.svg" alt="GDS"/>
+                    <span>Google Data Studio</span>
+                </div>
+                <div class="tool-card" data-tool="ga">
+                    <img src="/assets/images/icons/google-analytics.svg" alt="GA"/>
+                    <span>Google Analytics</span>
+                </div>
+                <div class="tool-card" data-tool="semrush">
+                    <img src="/assets/images/icons/semrush.svg" alt="Semrush"/>
+                    <span>SemRush</span>
+                </div>
+                <div class="tool-card" data-tool="surfer">
+                    <img src="/assets/images/icons/surfer.svg" alt="surfer"/>
+                    <span>Surfer SEO</span>
+                </div>
+                <div class="tool-card" data-tool="screaming-frog">
+                    <img src="/assets/images/icons/screaming-frog.svg" alt="screaming-frog"/>
+                    <span>Screaming Frog</span>
+                </div>
+                <div class="tool-card" data-tool="contentpace">
+                    <img src="/assets/images/icons/contentpace.svg" alt="contentpace"/>
+                    <span>Contentpace </span>
+                </div>
+
+                <div class="tool-card" data-tool="ahrefs">
+                    <img src="/assets/images/icons/ahrefs.svg" alt="ahrefs"/>
+                    <span>Ahrefs</span>
+                </div>
+                <div class="tool-card" data-tool="google-tag-manager">
+                    <img src="/assets/images/icons/google-tag-manager.svg" alt="google-tag-manager"/>
+                    <span>Google Tag Manager</span>
+                </div>
+                <div class="tool-card" data-tool="Moz">
+                    <img src="/assets/images/icons/Moz.svg" alt="Moz"/>
+                    <span>Moz</span>
+                </div>
+
+                <!-- Add more tool-cards below as needed -->
+            </div>
+        </div>
+
+        <div class="tool-description" id="tool-description">
+            <h3>Google Search Console</h3>
+            <p>
+                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify technical issues, and optimize your site for better visibility in search results.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+
+<section class="dm-counter-sec sp-50 dm-bg">
+    <div class="container  px-5">
+        <div class="row gx-md-0">
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center">
+                    <span class="dm-count-num">1000+</span>
+                    <h3 class="text-white fw-300 mb-0">Pojects Executed</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">900+</span>
+                    <h3 class="text-white fw-300 mb-0 px-lg-0">Satisfied Clients</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
+                    <span class="dm-count-num">12+</span>
+                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
+                    <span class="dm-count-num">100+</span>
+                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Trusted by Visionary Brands <br>Across The UAE</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
+
+
+
 
 <section class="what-client-say sp-50">
     <div class="container">
@@ -749,7 +850,7 @@
 <section class="sp-50 bg-white">
     <div class="container map-section">
         <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
-        <p class="text-center mb-3">As a leading SEO company in Dubai, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
+        <p class="text-center mb-3">As a leading <a href="/seo-services-in-dubai" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
         
         <div class="map-img text-center">
             <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" alt="slider-map">
@@ -1218,3 +1319,127 @@ include __DIR__ . '/../component/dynamic_blogs.php';
         color: white !important;
     }
 </style>
+
+<script>
+    const descriptions = {
+
+        gds: {
+            title: "Google Data Studio",
+            text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
+        },
+        ga: {
+            title: "Google Analytics",
+            text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
+        },
+        hubspot: {
+            title: "HubSpot",
+            text: "From email automation to lead scoring, we use HubSpot Marketing to power smarter marketing strategies. This helps us personalize customer journeys and boost conversions."
+        },
+        semrush: {
+            title: "SemRush",
+            text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
+        },
+        surfer: {
+            title: "Surfer SEO",
+            text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
+        },
+        mailchimp: {
+            title: "Mailchimp",
+            text: "We harness Mailchimp to design and automate engaging email campaigns. From audience segmentation to analytics, we are well-versed in all the best practices for email marketing."
+        },
+        adroll: {
+            title: "AdRoll",
+            text: "We use AdRoll to run powerful retargeting and display ad campaigns. From cart abandoners to casual browsers, we bring them back to convert."
+        },
+        'google-ads': {
+            title: "Google Ads",
+            text: "We use Google Ads for high-ROI search, display, and video campaigns that target the right audience with precision. "
+        },
+        'meta-ads-manager': {
+            title: "Meta Ads Manager",
+            text: "Meta Ads Manager helps us run data-driven campaigns across Facebook and Instagram to maximize reach, engagement, and conversions."
+        },
+        "google-tag-manager": {
+            title: "Google Tag Manager",
+            text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
+        },
+        hootsuite: {
+            title: "Hootsuite",
+            text: "Hootsuite helps us effectively schedule, manage, and monitor multi-platform social media campaigns with ease and streamlines the workflow."
+        }
+    };
+
+    const cards = document.querySelectorAll('.tool-card');
+    const descBox = document.getElementById('tool-description');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            const key = card.getAttribute('data-tool');
+            descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
+        });
+    });
+
+    // Set default active
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
+
+    // Niches Accordion JS
+    const nicheItems = document.querySelectorAll('.niche-item');
+    const nicheImagesBox = document.getElementById('niches-images');
+    const serviceTitleLink = document.querySelector('.services-title a');
+
+    nicheItems.forEach(item => {
+        item.addEventListener('click', function() {
+            if (this.classList.contains('active')) return;
+
+            // Update active state
+            nicheItems.forEach(i => {
+                i.classList.remove('active');
+                i.querySelector('.niche-toggle').textContent = '+';
+            });
+            this.classList.add('active');
+            this.querySelector('.niche-toggle').textContent = '−';
+
+            // Change images with fade effect
+            const images = JSON.parse(this.getAttribute('data-images'));
+            const imgElems = nicheImagesBox.querySelectorAll('.niche-image-box img');
+
+            imgElems.forEach((img, index) => {
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    img.src = '<?= base_url() ?>/' + images[index];
+                    img.style.opacity = '1';
+                    img.style.transform = 'scale(1)';
+                }, 300);
+            });
+
+            // Update Dynamic Link in Heading
+            const serviceLink = this.getAttribute('data-service-link');
+            const serviceText = this.getAttribute('data-service-text');
+            if (serviceTitleLink) {
+                serviceTitleLink.href = serviceLink;
+                serviceTitleLink.textContent = serviceText;
+            }
+            // Improved Scroll Logic: Only scroll on mobile if item is not fully visible
+            const isMobile = window.innerWidth <= 991;
+            if (isMobile) {
+                setTimeout(() => {
+                    const headerHeight = document.querySelector('header.header')?.offsetHeight || 80;
+                    const rect = this.getBoundingClientRect();
+                    const elementTop = rect.top + window.pageYOffset;
+
+                    // Only scroll if the top of the item is not nicely positioned
+                    window.scrollTo({
+                        top: elementTop - headerHeight - 20,
+                        behavior: 'smooth'
+                    });
+                }, 450); // Wait for transition to be nearly complete
+            }
+        });
+    });
+</script>

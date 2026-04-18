@@ -278,7 +278,7 @@ Route::get('/aeo-agency-dubai', 'FrontendController@aeoAgencyDubai', 'aeoagencyd
 Route::get('/geo-agency-dubai', 'FrontendController@geoAgencyDubai', 'geoagencydubai');
 Route::get('/seo-link-building-agency-dubai', 'FrontendController@seoLinkBuildingAgencyDubai', 'seolinkbuildingagencydubai');
 Route::get('/local-seo-agency-dubai', 'FrontendController@localSEOAgencyDubai', 'localseoadgencydubai');
-// Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
+Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
 
 
 
