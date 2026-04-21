@@ -1,15 +1,14 @@
-
 <section class="service-banner ff-banner">
 	<div class="container"><!--Container Start-->
-	  <div class="row align-items-center"><!--Row Start-->
-		<div class="col-md-7"> <!--col start--> 
-			<div class="service-banner-txt">
-				<h1>Seize your Digital Growth with Full-Funnel Marketing Approach</h1>
-				<p>A full-funnel marketing strategy is  important as it allows you to tailor your marketing efforts to fit your specific needs and goals, charting a plan through the marketing funnel. So what exactly is full-funnel marketing, and how can you use it to boost your business?</p>
-				<div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Read on to find out!</a></div>
-			</div>		
-		</div><!--col end-->
-	  </div><!--Row End--> 
+		<div class="row align-items-center"><!--Row Start-->
+			<div class="col-md-7"> <!--col start-->
+				<div class="service-banner-txt">
+					<h1>Seize your Digital Growth with Full-Funnel Marketing Approach</h1>
+					<p>A full-funnel marketing strategy is important as it allows you to tailor your marketing efforts to fit your specific needs and goals, charting a plan through the marketing funnel. So what exactly is full-funnel marketing, and how can you use it to boost your business?</p>
+					<div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Read on to find out!</a></div>
+				</div>
+			</div><!--col end-->
+		</div><!--Row End-->
 	</div><!--Container End-->
 </section>
 
@@ -50,7 +49,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="dif-content text-center">
-					<h4>A traditional marketing strategy has  <span class="db"><b>3 distinct stages</b></span></h4>
+					<h4>A traditional marketing strategy has <span class="db"><b>3 distinct stages</b></span></h4>
 					<img src="/assets/images/service/ff/difference-img-2.png" class="img-fluid dif-right-img" alt="Performance Marketing Company in Dubai">
 					<h4>Traditional marketing journey</h4>
 					<p>But what many businesses don't realize is that there's <span class="db">a lot more to a full-funnel marketing strategy than </span>just those three steps.</p>
@@ -160,12 +159,112 @@
 		</div>
 	</div>
 </section>
+<section class="web-why-choose sp-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center mb-3 mb-md-5">
+					<h2>Stages of a Full-Funnel Marketing </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row gy-4 gy-md-5 gx-md-4">
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">01</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-1.png" class="img-fluid" alt="Performance Marketing Agency in Dubai">
+						<h4>Awareness</h4>
+					</div>
+					<p class="mt-3">At the top of the funnel, the brand awareness stage is where a consumer is first introduced to a product or brand and becomes aware of a problem it might be able to solve.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">02</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-2.png" class="img-fluid" alt="Performance Marketing Services in Dubai">
+						<h4>Interest</h4>
+					</div>
+					<p class="mt-3">Your website must offer value and insight into what you provide at this stage. Go above and beyond with free content to show that you are an expert in the industry. You can write blog posts, record videos, or create infographics.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">03</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-3.png" class="img-fluid" alt="Performance Marketing in Dubai">
+						<h4>Consideration</h4>
+					</div>
+					<p class="mt-3">After a buyer has conducted their research and decided that your product or service is a good fit for their needs, they will enter the consideration stage. During this stage, they will share their research with other decision-makers within their company. </p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">04</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-4.png" class="img-fluid" alt="Performance Marketing Dubai">
+						<h4>Intent </h4>
+					</div>
+					<p class="mt-3">The intent stage refers to the buyer's chance to get familiar with your product or service. If you offer a product demo, it opens the door to establishing a rapport with the buyer.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">05</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-5.png" class="img-fluid" alt="digital marketing company in dubai">
+						<h4>Evaluation </h4>
+					</div>
+					<p class="mt-3">The evaluation stage is where buyers are in charge of deciding whether or not they want to go through with purchasing your product. Marketing and sales executives must be on hand throughout the process to answer any questions that may arise so there is no communication gap.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">06</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-6.png" class="img-fluid" alt="digital marketing agency in dubai">
+						<h4>Buy </h4>
+					</div>
+					<p class="mt-3">In the traditional marketing funnel, the conversion stage is when a potential customer becomes a paying customer. However, the conversion stage is not the final step in full-funnel marketing. Instead, it is just one part of an ongoing relationship between the customer and the company. </p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">07</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-7.png" class="img-fluid" alt="digital agency dubai">
+						<h4>Relationship</h4>
+					</div>
+					<p class="mt-3">This is the stage where you continue to nurture and sustain your relationship with a buyer for them not only to enjoy their purchase but also to increase the likelihood of cross-selling other products or services. During this phase, you must educate buyers about what's available while building rapport so they'll come back again!</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<h3 class="mb-4">08</h3>
+					<div class="ff-img-sec">
+						<img src="/assets/images/service/ff/ff-stages-icon-8.png" class="img-fluid" alt="digital marketing dubai">
+						<h4>Advocacy </h4>
+					</div>
+					<p class="mt-3">You've now reached the end of your sales funnel! You have delivered on all you promised, and it's time for some advocacy. This means you continue to engage with current buyers by asking for feedback and testimonials and offering rewards for loyal customers.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="web-why-choose-box">
+					<div class="ff-img-sec">
+						<a href="/start-with-full-funnel-performance-marketing/"><img src="/assets/images/service/ff/ff-stages-icon-9.png" class="img-fluid" alt="digital marketing services in dubai"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="perks sp-50">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center mb-5">Importance of Full Funnel Marketing  </h2>
+				<h2 class="text-center mb-5">Importance of Full Funnel Marketing </h2>
 			</div>
 		</div>
 		<div class="row gy-4 gy-md-5 gx-md-5">
@@ -216,5 +315,3 @@
 		</div>
 	</div>
 </section>
-
-
