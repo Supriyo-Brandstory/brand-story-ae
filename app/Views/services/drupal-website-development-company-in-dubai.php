@@ -1,305 +1,410 @@
+<!-- Include Header-->
 <section class="service-banner website-design-banner sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row align-items-center"><!--Row Start-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-txt">
-					<h2>Drupal Website Development Company in Dubai</h2>
-					<p>Looking for a Drupal website development company in Dubai? Look no further than brandstory. We are a top-rated Drupal company that has years of experience creating beautiful websites. From start to finish, Our drupal website development company in dubai process is straightforward and easy to follow. We take pride in our work, and our team of experts is dedicated to providing you with the best possible outcome. Contact us today to learn more about how we can help you create a website that will reflect your unique brand and expertise.</p>
-					<div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Grow your business online today with us!</a></div>
-				</div>
-			</div><!--col end-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-form">
-					<?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
-
-				</div>
-			</div><!--col end-->
-		</div><!--Row End-->
-	</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Drupal Website Development Company in Dubai</h1>
+                    <p>BrandStory is a top-tier Drupal development agency in Dubai, delivering enterprise-grade CMS solutions for complex digital ecosystems. We specialize in building secure, modular, and highly scalable Drupal platforms for government, corporate, and high-growth businesses in the UAE.</p>
+                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Build your Drupal platform today!</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
-<section id="knowMore" class="web-design-process sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2 class="text-white pb-5">Our Drupal Website Development Process</h2>
-				<img src="/assets/images/service/website-design/web-design-process.png" class="img-fluid" alt="web design dubai">
-			</div>
-		</div>
-	</div>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Enterprise CMS</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Custom Module Dev</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Headless Drupal</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">D7/D8 to D10 Migration</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Acquia Support</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Security Patching</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Performance Tuning</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Commerce</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+        </div>
+    </div>
 </section>
 
-<section class="web-design-abt sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row align-items-center"><!--Row Start-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="best-txt"><!--txt start-->
-					<h1>Drupal Website Development Company in Dubai</h1>
-
-
-					<p>Dubai is a city of skyscrapers, luxury hotels and leisure facilities. It is also a city that embraces technology and its many applications. Drupal developers in Dubai are sought after for their skills in creating websites using the Drupal content management system (CMS). Drupal is a popular choice among website developers because it is modular and flexible, making it easy to customize and update.</p>
-
-					<p>Looking for a Drupal website development company in Dubai? Look no further than brandstory. We are a top-rated Drupal company that has years of experience creating beautiful websites. From start to finish, Our drupal website development company in dubai process is straightforward and easy to follow. We take pride in our work, and our team of experts is dedicated to providing you with the best possible outcome. Contact us today to learn more about how we can help you create a website that will reflect your unique brand and expertise.</p>
-				</div><!--txt end-->
-			</div><!--col end-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="best-img">
-					<img src="/assets/images/service/website-design/web-design-abt.jpg" class="img-fluid" alt="web design company in dubai">
-				</div>
-			</div><!--col end-->
-		</div><!--Row End-->
-	</div><!--Container End-->
+<section id="knowMore" class="web-design-abt sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-txt"><!--txt start-->
+                    <h2>Expert Drupal Web Development in Dubai</h2>
+                    <p>Dubai is a global tech hub that demands high-performance digital infrastructure. At BrandStory, we harness the power of Drupal—the most robust, modular, and flexible CMS—to create websites that handle heavy traffic and complex content architectures with ease.</p>
+                    <br>
+                    <p>Our Drupal developers in Dubai are sought after for their deep technical skills in creating custom modules, specialized themes, and seamless integrations. We take pride in building platforms that are not only visually impressive but also technically superior in terms of scalability and security.</p>
+                    <br>
+                    <p>Whether you are a startup looking for a solid foundation or a large-scale enterprise migrating to the latest Drupal version, we provide straightforward, expert-led solutions tailored to the unique business landscape of Dubai.</p>
+                </div><!--txt end-->
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-img">
+                    <img src="/assets/images/service/website-design/web-design-abt.jpg" class="img-fluid" alt="drupal development dubai">
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
-<section class="spb-50">
-	<div class="container">
-		<div class="row">
-			<div class="content">
-				<h2> Why Choose Our Drupal Web Developers in Dubai</h2>
-				<p>Drupal is an open source content management system (CMS) that can help you design and manage a website. Drupal's flexibility, modularity, and extensibility make it an ideal platform for creating custom websites. Plus, its global community of developers makes it easy to get help when you need it.</p>
+<section class="additional-content em-company sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5">
+                <h2>Our Drupal Delivery Ecosystem</h2>
+                <p>Drupal's modularity makes it the ideal choice for businesses that require high customization and deep integration. At BrandStory, we don't just build websites; we engineer digital experiences that grow with your brand.</p>
+            </div>
+        </div>
 
-				<p>Drupal website design expert in Dubai can help you create a beautiful, functional website that's sure to impress your customers. With years of experience under his belt, our expert can create a website that meets all of your specific needs and requirements - from layout to functionality. Not only will you be happy with the final product, but you'll also save money on your overall project cost!</p>
-
-				<p>Our Drupal Web Design Expert in Dubai provides the best web design services in Dubai. We offer a wide range of design options tailored to your specific needs. Our experienced team will create a website that meets your unique objectives, looks great, and is user-friendly. With Drupal Webs Design Expert in Dubai, you can be sure that you're getting the most professional and top-quality web design services available in Dubai today.</p>
-
-				<h2> Features of Drupal Websites</h2>
-
-				<p>Drupal is a powerful platform for building websites. It comes with a wide range of features, advantages, and benefits that make it an ideal choice for website owners and developers. Some of the key features include:</p>
-
-				<ul>
-					<li><b>Customizable design:</b> Drupal makes it easy to create a website that looks and feels like your own. You can choose from a wide range of themes and customize them to your own preferences.</li>
-
-					<li><b>Flexible content management:</b> With Drupal, you can easily manage your website’s content. You can add new pages, posts, and images with ease, and you can use the powerful built-in features to organize your content in any way you want.</li>
-
-					<li><b>Wide range of integrations:</b> Drupal is compatible with a wide range of other software tools, so you can easily connect it to other websites and services.</li>
-				</ul>
-				<h2> Why Choose Brandstory Drupal Web Designers in Dubai Than Others</h2>
-				<p> Our drupal web designers in dubai has over 15 years of combined experience with Drupal, and we're passionate about helping our clients achieve their goals. We take pride in our high standards and attention to detail, which is why we believe that we're the best choice for Drupal developers in Dubai. Our team always puts the client first, ensuring that they receive the best possible service.</p>
-
-				<p>Due to the ever-changing landscape of technology, our customers need Drupal developers who can keep up with the latest trends. We know this and that's why we always insist on having the finest Drupal developers in Dubai. Not only are they experienced with the latest software, but they're also constantly up-to-date on any new developments. This allows us to provide our customers with improved and customized solutions - tailored to their exact needs.</p>
-
-
-				<h3><b>Benefits Of Drupal Websites</b></h3>
-				<div class="em-points">
-					<ol>
-						<li>Drupal is a powerful, open source content management system</li>
-						<li>Drupal is easy to use and customizable</li>
-						<li>Drupal has a huge community of developers and users</li>
-						<li>Drupal is secure and reliable</li>
-						<li>Drupal is flexible and can be used for a variety of websites</li>
-						<li>If you're looking for a content management system, Drupal is a great option!</li>
-					</ol>
-
-				</div>
-				<h3><b>Industries We Served&nbsp;</b></h3>
-				<h5><b>Healthcare</b></h5>
-				<p><span>We provide assistance and solutions for your website using our knowledge to ensure that users can use the clinic and hospital amenities in a more timely and trouble-free manner respectively.</span></p>
-				<h5><b>Media</b></h5>
-				<p><span>The collaboration at our eCommerce design firm in Bangalore is quite promising, and we are able to provide services to media enterprises located all over the globe, whether for paid advertising or for internet marketing alone.&nbsp;</span></p>
-				<h5><b>Start-up</b></h5>
-				<p><span>We assist new businesses in laying a solid basis for their operations, which allows them to expand their customer base and better market their offerings to existing and potential clients.</span></p>
-				<p><span>Banking Our secure eCommerce web development services in Bangalore assists industries and organizations to make their banking experiences easier and to have ease in controlling the many aspects of the website. Specifically, this pertains to the use of credit and debit cards.</span></p>
-				<h5><b>E-commerce</b></h5>
-				<span>E-commerce businesses may benefit from our </span><b>Drupal web development company </b><span>assistance by developing and creating a website that gives a positive impression of their brand and encourages a greater number of people to shop with them.</span>
-			</div>
-		</div>
-	</div>
+        <div class="emcd-row spt-50">
+            <div class="row align-items-stretch"><!--Row Start-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-1.png" class="img-fluid" alt="drupal consultation dubai"></div>
+                        <div class="emcd--box-txt">Drupal Consultation</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-2.png" class="img-fluid" alt="drupal module development dubai"></div>
+                        <div class="emcd--box-txt">Custom Module Dev</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-3.png" class="img-fluid" alt="drupal theme design dubai"></div>
+                        <div class="emcd--box-txt">Premium Theming</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-4.png" class="img-fluid" alt="drupal commerce dubai"></div>
+                        <div class="emcd--box-txt">Drupal Commerce</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-5.png" class="img-fluid" alt="drupal migration dubai"></div>
+                        <div class="emcd--box-txt">Version Migration</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-6.png" class="img-fluid" alt="drupal maintenance dubai"></div>
+                        <div class="emcd--box-txt">Site Maintenance</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-7.png" class="img-fluid" alt="drupal seo dubai"></div>
+                        <div class="emcd--box-txt">Search Optimization</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-8.png" class="img-fluid" alt="drupal integration dubai"></div>
+                        <div class="emcd--box-txt">Third-Party Sync</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-9.png" class="img-fluid" alt="headless drupal dubai"></div>
+                        <div class="emcd--box-txt">Headless Drupal</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-10.png" class="img-fluid" alt="drupal security dubai"></div>
+                        <div class="emcd--box-txt">Security Hardening</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-11.png" class="img-fluid" alt="drupal audit dubai"></div>
+                        <div class="emcd--box-txt">Site Performance Audit</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-12.png" class="img-fluid" alt="drupal support dubai"></div>
+                        <div class="emcd--box-txt">24/7 Tech Support</div>
+                    </div>
+                </div><!--col end-->
+            </div><!--Row End-->
+        </div>
+    </div>
 </section>
-<section class="web-why-choose sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="text-center spb-50">
-					<h2>What we Do</h2>
-				</div>
-				<h3>Drupal Website Consultation</h3>
 
-				<p>Our Drupal website consultation will help you achieve the goals you set for your website. Our team of experts are equipped with the latest tools and techniques, and will work diligently to meet your expectations. Visit us for free drupal website consultation servicein dubai.</p>
+<section class="service-process web-design-workflow sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="max-1000 text-center">
+            <h2 class="mb-3">Our Strategic Drupal Process</h2>
+        </div>
+        <div class="sprocess-tabs-sec">
+            <div class="sprocess-tabs">
+                <div class="sptab-links">
+                    <ul class="nav nav-tabs" id="drupalTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="dst1" data-bs-toggle="tab" data-bs-target="#dst-1" type="button" role="tab" aria-selected="true">Intelligence</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst2" data-bs-toggle="tab" data-bs-target="#dst-2" type="button" role="tab" aria-selected="false">Blueprinting</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst3" data-bs-toggle="tab" data-bs-target="#dst-3" type="button" role="tab" aria-selected="false">UI Design</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst4" data-bs-toggle="tab" data-bs-target="#dst-4" type="button" role="tab" aria-selected="false">Technical Dev</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst5" data-bs-toggle="tab" data-bs-target="#dst-5" type="button" role="tab" aria-selected="false">Optimization</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst6" data-bs-toggle="tab" data-bs-target="#dst-6" type="button" role="tab" aria-selected="false">QA & Security</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="dst7" data-bs-toggle="tab" data-bs-target="#dst-7" type="button" role="tab" aria-selected="false">Launch</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="drupalTabContent">
 
+                    <div class="tab-pane fade show active" id="dst-1" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Objective Analysis</h5>
+                                <p>We start by understanding the complex business requirements of your project. We analyze your content types, user flows, and integration needs to ensure Drupal is configured for maximum ROI.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/fb-strategy.webp" class="img-fluid" alt="drupal intelligence dubai">
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="tab-pane fade" id="dst-2" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Information Architecture</h5>
+                                <p>We map out the taxonomy and structural hierarchy of your content. Our architects ensure your Drupal site is modular and ready for enterprise-level scaling.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/audiance-build.webp" class="img-fluid" alt="drupal blueprinting dubai">
+                            </div>
+                        </div>
+                    </div>
 
-				<h3>Drupal Website Development</h3>
+                    <div class="tab-pane fade" id="dst-3" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Custom Drupal Theming</h5>
+                                <p>We design a bespoke interface that doesn't just look great but functions perfectly on mobile and desktop. We focus on clean, accessible UI that reflects your brand's expertise.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/ads-creative.webp" class="img-fluid" alt="drupal ui design dubai">
+                            </div>
+                        </div>
+                    </div>
 
-				<p>Every project is completed to your satisfaction, with no compromises on quality. If you're not completely satisfied after completing your Drupal website project, we'll refund your entire purchase price without fail.</p>
+                    <div class="tab-pane fade" id="dst-4" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Module Dev & Integration</h5>
+                                <p>Our developers write high-quality custom modules and integrate third-party services. We adhere to Drupal's coding standards to ensure stability and future-proof performance.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-4.png" class="img-fluid" alt="drupal technical dev dubai">
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="tab-pane fade" id="dst-5" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Performance Hardening</h5>
+                                <p>We optimize your Drupal site for speed using advanced caching techniques, image optimization, and technical SEO foundational setups.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/ads-optimize.webp" class="img-fluid" alt="drupal optimization dubai">
+                            </div>
+                        </div>
+                    </div>
 
-				<h3>Drupal Website Revamp</h3>
+                    <div class="tab-pane fade" id="dst-6" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Rigorous QA & Security</h5>
+                                <p>We perform extensive penetration testing and security audits to ensure your data is safe. We also run cross-browser checks to ensure a flawless user experience.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/report.webp" class="img-fluid" alt="drupal qa dubai">
+                            </div>
+                        </div>
+                    </div>
 
-				<p>Use our Drupal Website Revamp services to have your site redesigned from the ground up. This service is 24/7, so you can rest assured that your website is always looking its best.</p>
+                    <div class="tab-pane fade" id="dst-7" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Deployment & Evergreen Support</h5>
+                                <p>We manage your launch on secure enterprise hosting and provide ongoing patch management and feature updates to keep you ahead of the digital curve.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-7.png" class="img-fluid" alt="drupal launch dubai">
+                            </div>
+                        </div>
+                    </div>
 
-
-				<h3>Drupal Website Maintenance</h3>
-
-				<p>Your website will be maintained and updated every day by our experienced professionals. You don't have to worry about a thing - we'll take care of the work. We guarantee that your Drupal website will be maintained to the highest standard and you will be 100% satisfied with our results.</p>
-
-				<h3>After Development Support</h3>
-
-				<p>Our team is always there to support your product from start to finish! We provide training and resources so that your product shines on the market, with no errors or issues.</p>
-
-
-			</div>
-		</div>
-	</div>
-	</div>
+                </div>
+            </div>
+        </div>
+    </div><!--Container End-->
 </section>
-<section class="our-web-design sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row"><!--Row Start-->
-			<div class="col-md-12"> <!--col start-->
-				<h2 class="text-center">Our Drupal Development <span class="db">Services in Dubai</span></h2>
-			</div><!--col end-->
-		</div><!--Row End-->
-		<div class="service--slider site--slider spt-50"><!--Slider Start-->
-			<div class="swiper service-slider">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-1.jpg" class="img-fluid" alt="best website design company in dubai">
-							</div>
-							<h4>Domain Registration</h4>
-							<p>We also provide domain with most annual affordable prices with extensions like .com, .in, .co.in, etc. </p>
-						</div><!--box end-->
-					</div><!--slide end-->
 
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-2.jpg" class="img-fluid" alt="best web design dubai">
-							</div>
-							<h4>Website Designing</h4>
-							<p>To enhance the growth of the business, an online presence is a must, and for that, you must have an eye-catching website, which our expert team of website designers can provide. </p>
-						</div><!--box end-->
-					</div><!--slide end-->
+<section class="em-benefits sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5">
+                <h2>Why Choose BrandStory Drupal Web Designers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>As a leading Drupal company in Dubai, we bring over 15 years of technical expertise to the table, ensuring your project is handled with precision and care.</p>
+                <div class="em-points">
+                    <p>Open Source Experts: We leverage the full power of Drupal's open community.</p>
+                    <p>Corporate Standards: We build for stability, security, and enterprise reliability.</p>
+                    <p>Constant Versioning: Always up-to-date with the latest software and software developments.</p>
+                    <p>Proactive Security: Intensive vulnerability management and security hardening.</p>
+                    <p>Scalable Infrastructure: Built to handle millions of visitors without a hitch.</p>
+                    <p>Dedicated Team: Your project is our priority, from start to finish.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/assets/images/service/fb/facebook-partner.webp" class="img-fluid" alt="drupal benefits dubai">
+            </div>
+        </div>
+    </div>
+</section>
 
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-3.jpg" class="img-fluid" alt="best ecommerce development company in dubai">
-							</div>
-							<h4>Web Hosting</h4>
-							<p>Web hosting is a unique service that we provide, and over the years, our team has gain experience due to the evolving online world. The experiences help us to cater to the needs of our client.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
+<section class="perks-of-w sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Industries We Served</h2>
+        <p class="text-center">Expert Drupal solutions tailored for specialized sectors in the Middle East:</p>
+        <div class="row g-md-5 spt-50 align-items-stretch"><!--Row Start-->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Healthcare</h4>
+                    <p>Building secure portals for hospitals and clinics to manage complex patient amenities and data effortlessly.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Media & News</h4>
+                    <p>Scalable CMS architectures for global media enterprises needing robust content publishing and internet marketing platforms.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Start-ups</h4>
+                    <p>Laying a solid foundations for new businesses to expand their customer base and scale rapidly in the market.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Banking & Finance</h4>
+                    <p>Creating secure experiences for controlling credit and debit card aspects with enterprise-grade security protocols.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">E-commerce</h4>
+                    <p>Drupal Commerce solutions that encourage trust and provide a seamless shopping impression for global brands.</p>
+                </div>
+            </div>
+        </div><!--Row End-->
+    </div><!--Container End-->
+</section>
 
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-4.jpg" class="img-fluid" alt="wordpress website development in dubai">
-							</div>
-							<h4>Google SEO</h4>
-							<p>With the help of our most cost-effective SEO services, you can enhance the presence of your company in the online world.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-5.jpg" class="img-fluid" alt="wordpress web design dubai">
-							</div>
-							<h4>Website Maintenance</h4>
-							<p>We provide the service of regular updating of your website, which will give you the edge over other players and allow you to remain on the top rank online. Our services will come at an affordable cost so that your annual budget is not disturbed.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-6.jpg" class="img-fluid" alt="wordpress development company in dubai">
-							</div>
-							<h4>E-Commerce Solution</h4>
-							<p>We also create self-adaptable e-commerce platforms for our client for marketing their products and services.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-7.jpg" class="img-fluid" alt="website maintenance company dubai">
-							</div>
-							<h4>Web Portal Development</h4>
-							<p>The world of the internet has made it possible for businesses present all over the world to collaborate with each other and perform the tasks in much more effective ways.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-8.jpg" class="img-fluid" alt="website development agency in dubai">
-							</div>
-							<h4>Content Management Based Websites</h4>
-							<p>We render you the access to our web server with your unique login id, with the help of which you can self-update the content on your website with easy navigation and don't have to wait for anybody else.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-				</div><!--wrapper end-->
-			</div>
-			<div class="swiper-pagination ss-pagi"></div>
-			<div class="swiper-button-next ss-next"></div>
-			<div class="swiper-button-prev ss-prev"></div>
-		</div><!--Slider End-->
+<section class="sp-50">
+    <div class="container"><!--Container Start-->
+        <?php include __DIR__ . '/../component/services/new-service.php' ?>
+    </div><!--Container End-->
 </section>
 
 <section class="sp-50 bg-yellow">
-	<div class="container">
-		<?php include __DIR__ . '/../component/services/stats.php' ?>
-	</div>
+    <div class="container">
+        <?php include __DIR__ . '/../component/services/stats.php' ?>
+    </div>
 </section>
 
-<section class="our-web-design sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row"><!--Row Start-->
-			<div class="col-md-12"> <!--col start-->
-				<h2 class="text-center">Our Clients <span class="db">Testimonials</span></h2>
-			</div><!--col end-->
-		</div><!--Row End-->
-		<div class="service--slider site--slider spt-50"><!--Slider Start-->
-			<div class="swiper service-slider">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-1.jpg" class="img-fluid" alt="best website design company in dubai">
-							</div>
-							<h4>Prem</h4>
-							<p>I had a great experience working with Drupal website development in Dubai. The team was very responsive and always had answers to any questions I had. They were also very helpful in providing guidance on how to use the platform and make it work for my needs. Overall, I highly recommend Drupal website development in Dubai!</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-2.jpg" class="img-fluid" alt="best web design dubai">
-							</div>
-							<h4>Sujoy</h4>
-							<p>Drupal website designers in dubai are amazing. They have helped me create a website that is both functional and beautiful. Their prices are very reasonable, and they always go the extra mile to make sure that my website is perfect. I highly recommend them!</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-3.jpg" class="img-fluid" alt="best ecommerce development company in dubai">
-							</div>
-							<h4>Merin</h4>
-							<p>I found Drupal web developers in dubai to be very helpful and knowledgeable. They were able to help me with a variety of issues I was having with my website. I would definitely recommend them to anyone looking for help with their website.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-4.jpg" class="img-fluid" alt="wordpress website development in dubai">
-							</div>
-							<h4>Swetha</h4>
-							<p>Drupal web maintenance in dubai is an excellent service. The team is experienced and knowledgeable in Drupal, and they always take the time to answer any questions I have. They are also very responsive to requests for updates or changes, which is important to me as a business owner. Overall, I'm very happy with the service and would definitely recommend it to others.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-				</div><!--wrapper end-->
-			</div>
-			<div class="swiper-pagination ss-pagi"></div>
-			<div class="swiper-button-next ss-next"></div>
-			<div class="swiper-button-prev ss-prev"></div>
-		</div><!--Slider End-->
+<section class="sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/services/clients.php' ?>
+    </div><!--Container End-->
 </section>
+
+<section class="site-faq sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Frequently Asked Questions</h2>
+        <div class="accordion spt-50" id="accordionDrupal">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="dfh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc1" aria-expanded="true">
+                        Why choose Drupal for a Dubai-based enterprise?
+                    </button>
+                </h2>
+                <div id="dfc1" class="accordion-collapse collapse show" data-bs-parent="#accordionDrupal">
+                    <div class="accordion-body">
+                        Drupal offers unmatched security and scalability, making it the preferred choice for government and large corporate sectors in the UAE. Its modularity allows for complex integrations that other CMS platforms might struggle with.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="dfh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc2" aria-expanded="false">
+                        Can you help migrate our site from Drupal 7 to Drupal 10?
+                    </button>
+                </h2>
+                <div id="dfc2" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
+                    <div class="accordion-body">
+                        Yes, we specialize in seamless version migrations. We ensure your data is preserved, SEO rankings are maintained, and your new site takes full advantage of Drupal 10's modern features and performance gains.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="dfh3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc3" aria-expanded="false">
+                        Do you provide 24/7 Drupal support?
+                    </button>
+                </h2>
+                <div id="dfc3" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
+                    <div class="accordion-body">
+                        Absolutely. We provide round-the-clock maintenance, security patching, and technical support to ensure your business portal remains online and secure at all times.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Include Footer-->

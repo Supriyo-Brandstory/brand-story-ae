@@ -16,6 +16,64 @@
 		</div><!--Row End-->
 	</div><!--Container End-->
 </section>
+<section id="knowMore" class="web-design-process sp-50" style="background: transparent;">
+	<div class="container">
+		<div class="row">
+			<h2 class="mb-3">
+				Professional Logo Design Company in Dubai, UAE
+			</h2>
+
+			<p>Your logo is the silent ambassador of your brand. In the fast-paced and highly competitive market of Dubai, having a unique and professionally designed logo is not just an option—it's a necessity. It is the very first thing your potential customers see, and it sets the tone for your entire business relationship. A great logo builds trust, establishes credibility, and creates a memorable brand identity that stands the test of time.</p>
+			<p>Brandstory, as the leading logo design company in Dubai, is dedicated to crafting visual identities that truly represent the essence of your business. We don't just design symbols; we create the visual foundation for your brand's success. From startups to established corporations, our creative experts work closely with you to develop a logo that captures your vision, engages your audience, and helps your business grow in the UAE market and beyond.</p>
+
+		</div>
+
+	</div>
+</section>
+<section class="perks sp-30 spb-50">
+	<div class="container">
+		<div class="row gy-4 gy-md-5 gx-md-5">
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Market Analysis</h4>
+					<p>As the top logo design agency in Dubai, we dive deep into your industry and competitor landscape to ensure your brand stands out with a unique visual edge.</p>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Brand Foundation</h4>
+					<p>We analyze your brand values and mission to create a logo that perfectly encapsulates your business's core identity and personality.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Creative Strategy</h4>
+					<p>Our experienced design team develops robust visual strategies that cater specifically to your business goals, ensuring every element has a purpose.</p>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Quality Control</h4>
+					<p>We meticulously monitor every detail of the design process, ensuring your logo is versatile, scalable, and looks perfect across all digital and print platforms.</p>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Identity System</h4>
+					<p>Beyond just a logo, we focus on creating a cohesive brand identity system that attracts your target audience and builds lasting brand loyalty.</p>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="perks-box">
+					<h4 class="mt-3">Expert Consulting</h4>
+					<p>As the #1 branding agency, we provide constant guidance and research to adapt your visual identity to the latest global design trends and local market nuances.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 <section id="knowMore" class="web-design-process sp-50">
 	<div class="container">
@@ -48,65 +106,241 @@
 	</div><!--Container End-->
 </section>
 
-<section class="spb-50">
+<style>
+	/* Logo Design Services Redesign */
+	.logo-service-card {
+		background: #fff;
+		border: 1px solid #ede8ff;
+		border-radius: 12px;
+		padding: 30px;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+	}
+
+	.logo-service-card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 10px 25px rgba(133, 91, 255, 0.1);
+		border-color: #855BFF;
+	}
+
+	.logo-service-card h4 {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: #1a1a2e;
+		margin-bottom: 15px;
+	}
+
+	.logo-service-card p {
+		font-size: 0.95rem;
+		color: #555;
+		margin: 0;
+	}
+
+	.logo-process-box {
+		text-align: center;
+		padding: 30px 20px;
+	}
+
+	.logo-process-step {
+		width: 60px;
+		height: 60px;
+		background: linear-gradient(135deg, #855BFF, #6a3fd4);
+		color: #fff;
+		font-size: 24px;
+		font-weight: 700;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto 20px;
+	}
+
+	.logo-process-box h4 {
+		font-weight: 700;
+		margin-bottom: 15px;
+		color: #1a1a2e;
+	}
+
+	.logo-process-box p {
+		font-size: 0.95rem;
+		color: #555;
+	}
+
+	.benefits-box {
+		background: #fafafa;
+		border-radius: 16px;
+		padding: 40px;
+		border: 1px solid #ede8ff;
+	}
+
+	.benefits-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.benefits-list li {
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 15px;
+		font-size: 0.95rem;
+		color: #444;
+	}
+
+	.benefits-list li::before {
+		content: "✓";
+		position: absolute;
+		left: 0;
+		top: 2px;
+		color: #855BFF;
+		font-weight: bold;
+		font-size: 1.1rem;
+	}
+
+	/* What We Do Redesign */
+	.wwd-card {
+		background: #fdfbff;
+		border: 1px solid #ede8ff;
+		border-radius: 15px;
+		padding: 30px 20px;
+		text-align: center;
+		height: 100%;
+		transition: all 0.3s ease;
+	}
+
+	.wwd-card:hover {
+		background: #fff;
+		box-shadow: 0 10px 30px rgba(133, 91, 255, 0.12);
+		border-color: #855BFF;
+	}
+
+	.wwd-icon {
+		font-size: 40px;
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+
+	.wwd-card h4 {
+		font-weight: 700;
+		font-size: 1.15rem;
+		margin-bottom: 15px;
+		color: #1a1a2e;
+	}
+
+	.wwd-card p {
+		font-size: 0.9rem;
+		color: #666;
+		line-height: 1.6;
+	}
+</style>
+
+<section class="sp-50 bg-white">
 	<div class="container">
 		<div class="row">
-			<div class="content">
+			<div class="col-md-12 text-center mb-5">
+				<h2 class="fw-bold">Types of Logo Design Services in Dubai</h2>
+			</div>
+		</div>
+		<div class="row gy-4">
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Lettermark Logos</h4>
+					<p>Logos have always been a way to make your brand identifiable and memorable. But with so many logos being generic and uninspired, what's a business to do? Lettermark Logos is the answer. We specialize in designing custom logos that are uniquely yours, with personality and style that will set you apart from the rest. Plus, our logo designs are totally customizable – so you can change them up as needed without having to start from scratch.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Graphic Logos</h4>
+					<p>Graphic Logos is the perfect way to brand your business. With our logo design services, you'll get a high-quality logo that will help your business stand out from the crowd. Plus, our team of experts will help you choose the right logo for your business and provide helpful tips and advice throughout the process.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Wordmark Logos</h4>
+					<p>Wordmark Logos is the perfect way to show your brand’s identity online. Our customizable logo templates make it easy to create a consistent and recognizable look for your website, social media profiles, and more. Plus, our templates are completely editable so you can make adjustments as needed.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Mascot Logos</h4>
+					<p>Mascot Logos is the perfect way to get your team's logo marketing campaign off to a strong start. Our custom mascot logos provide an eye-catching and creative way to show support for your sports teams, schools, businesses, and more. With Mascot Logos you'll have a powerful tool for <a href="/creative-advertising-agency-in-dubai/" style="color:#855BFF;text-decoration:none;">advertising</a> and promoting your brand, while also creating a memorable connection with customers and followers.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Abstract Logos</h4>
+					<p>Abstract logos are a unique way to show off your branding. They give you the ability to create an abstract design that is still recognizable as your company. They are also a great way to stand out from the competition.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Combination Logos</h4>
+					<p>Combination Logos is a simple, yet powerful way to increase brand awareness and build customer loyalty. With a combination of your company's logos, it becomes much more difficult for customers to differentiate between your products or services. Not only will this help you stand out from the competition, but it will also create an emotional connection with your customers.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="logo-service-card h-100">
+					<h4>Custom Logos</h4>
+					<p>Logos are essential to the branding of any business. With Custom Logos, you can create a logo that perfectly reflects your company or individual personality. We offer a wide variety of fonts and colors, so you can create a logo that is perfect for your brand. Plus, our custom logos are available immediately, so you can start using them right away!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-				<h2>Types of Logo Design Services in Dubai</h2>
+<section class="sp-50" style="background: #fafafa;">
+	<div class="container">
+		<div class="row pb-4">
+			<div class="col-md-10 mx-auto text-center">
+				<h2 class="fw-bold mb-4">Our Logo Design Process</h2>
+				<p class="fs-6 text-muted">Logo design is the process of designing a symbol, logo, or other visual representation that identifies a company or product. A logo can be created for any type of business, from small businesses to multinational companies. The most common types of logos are company names and product logos. A company name may have one or more logos associated with it, each representing a different aspect of the business. A product logo is typically the most recognizable and visible part of a company's branding and can be used to market the company's products to customers. Logo design can encompass a wide range of disciplines, such as graphic design, advertising, and industrial design.</p>
+			</div>
+		</div>
+		<div class="row pt-4">
+			<div class="col-lg-3 col-md-6">
+				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
+					<div class="logo-process-step">1</div>
+					<h4>Discover and Research</h4>
+					<p>Logo design is all about creating an unforgettable visual identifier that helps your business stand out. The first step in the logo design process is to discover and research your target market. By understanding who you're serving and what they need, you can create a logo that perfectly represents your brand.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
+					<div class="logo-process-step">2</div>
+					<h4>Brainstorm</h4>
+					<p>Logo design is all about making a statement. With our unique Brainstorm process, you'll get to brainstorm with experts on how your logo can make a powerful statement and drive results. Our team will help youfind the right design for your business, and explore the potential impact on customers, employees, partners, and other stakeholders. So start thinking BIGger today - let Brainstorm help you get there!</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
+					<div class="logo-process-step">3</div>
+					<h4>Sketch and Design</h4>
+					<p>Third step of logo design process is to sketch and design the logo. Sketching is a great way to get your creative juices flowing and come up with ideas for the design. Once you have some initial sketches, it's time to start designing. Start by creating a rough outline of the logo, and then fill in details. Be sure to pay attention to proportions, color schemes, and how the overall design will look when rendered on different types of materials.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
+					<div class="logo-process-step">4</div>
+					<h4>Present and Deliver</h4>
+					<p>Present and Deliver is the final stage of logo design. It's where our team brings your concept to life with a stunning, on-brand logo. We use cutting-edge design techniques and strategies to create a powerful brand identity that will stand out in the crowd.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-				<h3>Lettermark Logos</h3>
-				<p>Logos have always been a way to make your brand identifiable and memorable. But with so many logos being generic and uninspired, what's a business to do? Lettermark Logos is the answer. We specialize in designing custom logos that are uniquely yours, with personality and style that will set you apart from the rest. Plus, our logo designs are totally customizable – so you can change them up as needed without having to start from scratch.</p>
-
-				<h3>Graphic Logos</h3>
-
-				<p>Graphic Logos is the perfect way to brand your business. With our logo design services, you'll get a high-quality logo that will help your business stand out from the crowd. Plus, our team of experts will help you choose the right logo for your business and provide helpful tips and advice throughout the process.</p>
-				<h3>Wordmark Logos</h3>
-				<p>Wordmark Logos is the perfect way to show your brand’s identity online. Our customizable logo templates make it easy to create a consistent and recognizable look for your website, social media profiles, and more. Plus, our templates are completely editable so you can make adjustments as needed.</p>
-
-
-				<h3>Mascot Logos</h3>
-				<p>Mascot Logos is the perfect way to get your team's logo marketing campaign off to a strong start. Our custom mascot logos provide an eye-catching and creative way to show support for your sports teams, schools, businesses, and more. With Mascot Logos you'll have a powerful tool for <a href="/creative-advertising-agency-in-dubai/">advertising</a> and promoting your brand, while also creating a memorable connection with customers and followers.</p>
-
-				<h3>Abstract Logos</h3>
-
-				<p>Abstract logos are a unique way to show off your branding. They give you the ability to create an abstract design that is still recognizable as your company. They are also a great way to stand out from the competition.</p>
-
-				<h3>Combination Logos</h3>
-				<p>Combination Logos is a simple, yet powerful way to increase brand awareness and build customer loyalty. With a combination of your company's logos, it becomes much more difficult for customers to differentiate between your products or services. Not only will this help you stand out from the competition, but it will also create an emotional connection with your customers.</p>
-
-				<h3>Custom Logos</h3>
-				<p>Logos are essential to the branding of any business. With Custom Logos, you can create a logo that perfectly reflects your company or individual personality. We offer a wide variety of fonts and colors, so you can create a logo that is perfect for your brand. Plus, our custom logos are available immediately, so you can start using them right away!</p>
-
-				<h2>Our Logo Design Process</h2>
-
-				<p>Logo design is the process of designing a symbol, logo, or other visual representation that identifies a company or product. A logo can be created for any type of business, from small businesses to multinational companies. The most common types of logos are company names and product logos. A company name may have one or more logos associated with it, each representing a different aspect of the business. A product logo is typically the most recognizable and visible part of a company's branding and can be used to market the company's products to customers. Logo design can encompass a wide range of disciplines, such as graphic design, advertising, and industrial design.</p>
-
-				<h3>Discover and Research</h3>
-
-				<p>Logo design is all about creating an unforgettable visual identifier that helps your business stand out. The first step in the logo design process is to discover and research your target market. By understanding who you're serving and what they need, you can create a logo that perfectly represents your brand.</p>
-
-				<h3>Brainstorm</h3>
-
-				<p>Logo design is all about making a statement. With our unique Brainstorm process, you'll get to brainstorm with experts on how your logo can make a powerful statement and drive results. Our team will help youfind the right design for your business, and explore the potential impact on customers, employees, partners, and other stakeholders. So start thinking BIGger today - let Brainstorm help you get there!</p>
-
-				<h3>Sketch and Design</h3>
-
-				<p>Third step of logo design process is to sketch and design the logo. Sketching is a great way to get your creative juices flowing and come up with ideas for the design. Once you have some initial sketches, it's time to start designing. Start by creating a rough outline of the logo, and then fill in details. Be sure to pay attention to proportions, color schemes, and how the overall design will look when rendered on different types of materials.</p>
-
-				<h3>Present and Deliver</h3>
-				<p>Present and Deliver is the final stage of logo design. It's where our team brings your concept to life with a stunning, on-brand logo. We use cutting-edge design techniques and strategies to create a powerful brand identity that will stand out in the crowd.</p>
-
-				<h2> Why Choose Our Logo Designers in Dubai</h2>
-				<p>Dubai is a city with endless opportunities and a skyline that never stops inspiring. So when you need an elegant and professional logo for your business, turn to our team of creative <a href="/branding-agency-in-dubai/">branding experts in Dubai</a>. We know what it takes to create a strong brand identity that will be memorable and effective. With 5+ years of experience crafting stunning logos, we'll help you create the perfect branding for your business.</p>
-
-				<p>Designing a logo can be a daunting task, but not with our talented designers in Dubai. From start to finish, we'll work with you to create the perfect logo that represents your business and sets you apart from the rest. Plus, our prices are unbeatable.</p>
-
-
-
-				<h3><b>Benefits Of Logo Design</b></h3>
-				<div class="em-points">
-					<ol>
+<section class="sp-50 bg-white">
+	<div class="container">
+		<div class="row align-items-center gy-5">
+			<div class="col-lg-6 pe-lg-5">
+				<h2 class="fw-bold mb-4">Why Choose Our Logo Designers in Dubai</h2>
+				<p class="fs-6 text-muted mb-4">Dubai is a city with endless opportunities and a skyline that never stops inspiring. So when you need an elegant and professional logo for your business, turn to our team of creative <a href="/branding-agency-in-dubai/" style="color:#855BFF;text-decoration:none;">branding experts in Dubai</a>. We know what it takes to create a strong brand identity that will be memorable and effective. With 5+ years of experience crafting stunning logos, we'll help you create the perfect branding for your business.</p>
+				<p class="fs-6 text-muted">Designing a logo can be a daunting task, but not with our talented designers in Dubai. From start to finish, we'll work with you to create the perfect logo that represents your business and sets you apart from the rest. Plus, our prices are unbeatable.</p>
+			</div>
+			<div class="col-lg-6">
+				<div class="benefits-box">
+					<h3 class="fw-bold mb-4">Benefits Of Logo Design</h3>
+					<ul class="benefits-list">
 						<li><b>Brand recognition</b> - A well designed logo can help your business stand out from the competition, fostering increased customer loyalty.</li>
 						<li><b>Improved customer conversion rates</b> - A well executed logo design can help increase traffic and sales to your website.</li>
 						<li><b>Enhanced brand image</b> - Enhancing the appearance of your company's branding can lead to an increase in brand awareness and credibility.</li>
@@ -115,41 +349,49 @@
 						<li>It help your business grow</li>
 						<li>It help your business be successful</li>
 						<li>It help your business be more visible</li>
-					</ol>
-
-
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="web-why-choose sp-50">
+<section class="sp-50" style="background: #fff;">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<div class="text-center spb-50">
-					<h2>What we Do</h2>
-				</div>
-
-				<h3>Custom Logo Solution</h3>
-
-				<p>Our custom logo solutions are guaranteed to be perfect- every time! With our design team's years of experience, we can help create a brand that will set you apart from the rest. So don't hesitate, contact us today and let us get started on creating your perfect logo!</p>
-
-
-				<h3>Cost Effective Logo Solution</h3>
-
-				<p>Get the best logo design solution possible, guaranteed. We guarantees effective and affordable logo solutions that match your unique brand aspirations. Contact us today to learn more!</p>
-
-				<h3>24/7 Support</h3>
-				<p>If you encounter any problems with your product, we will immediately provide support and help solve the issue.</p>
-
-				<h3>Customer Satisfaction</h3>
-				<p>Phenomenal customer satisfaction is our guarantee for your logo design. We understand that quality can be an important consideration and take steps to ensure that all of our designs are of the highest possible quality.</p>
-
-
+			<div class="col-md-12 text-center mb-5">
+				<h2 class="fw-bold">What we Do</h2>
 			</div>
 		</div>
-	</div>
+		<div class="row gy-4">
+			<div class="col-md-6 col-lg-3">
+				<div class="wwd-card">
+					<div class="wwd-icon">🎯</div>
+					<h4>Custom Logo Solution</h4>
+					<p>Our custom logo solutions are guaranteed to be perfect- every time! With our design team's years of experience, we can help create a brand that will set you apart from the rest.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="wwd-card">
+					<div class="wwd-icon">💰</div>
+					<h4>Cost Effective Logo Solution</h4>
+					<p>Get the best logo design solution possible, guaranteed. We guarantees effective and affordable logo solutions that match your unique brand aspirations.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="wwd-card">
+					<div class="wwd-icon">📞</div>
+					<h4>24/7 Support</h4>
+					<p>If you encounter any problems with your product, we will immediately provide support and help solve the issue at any time of the day.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="wwd-card">
+					<div class="wwd-icon">⭐</div>
+					<h4>Customer Satisfaction</h4>
+					<p>Phenomenal customer satisfaction is our guarantee for your logo design. We ensure all our designs meet the highest quality standards for your brand.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 

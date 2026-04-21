@@ -1,361 +1,446 @@
+<!-- Include Header-->
 <section class="service-banner website-design-banner sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row align-items-center"><!--Row Start-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-txt">
-					<h1>Wordpress Development Company in Dubai UAE</h1>
-					<p>Brandstory is one of the best Wordpress design company in Dubai UAE. We provide cost-effective web design and web development solution for enterprises, SMEs and Startups in GCC/UAE markets.</p>
-					<div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Grow your business online today with us!</a></div>
-				</div>
-			</div><!--col end-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-form">
-					<?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
-
-				</div>
-			</div><!--col end-->
-		</div><!--Row End-->
-	</div><!--Container End-->
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>WordPress Development Company in Dubai</h1>
+                    <p>BrandStory is one of the premier WordPress website development agencies in Dubai, UAE. We provide high-performance, secure, and scalable web solutions for enterprises, SMEs, and startups looking to dominate their niche in the GCC market.</p>
+                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Launch your WordPress site today!</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
-<section id="knowMore" class="web-design-process sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2 class="text-white pb-5">Wordpress Development Process</h2>
-				<img src="/assets/images/service/website-design/web-design-process.png" class="img-fluid" alt="web design dubai">
-			</div>
-		</div>
-	</div>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">Theme Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">Plugin Creation</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">WooCommerce Setup</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">Site Migration</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">Speed Optimization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">Security Audit</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">API Integration</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">24/7 Support</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+        </div>
+    </div>
+</section>
+
+<section id="knowMore" class="web-design-abt sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-txt"><!--txt start-->
+                    <h2>Expert WordPress Web Development in Dubai</h2>
+                    <p>A website is the digital storefront of your business. At BrandStory, we specialize in building professional, reliable, and user-centric WordPress websites that do more than just look good—they convert visitors into customers.</p>
+                    <br>
+                    <p>With years of experience in the UAE market, our team of expert developers and designers understand the technical intricacies of the WordPress ecosystem. We focus on creating <b>cleanly coded, mobile-responsive, and SEO-friendly</b> websites that provide an excellent foundation for your brand's digital growth.</p>
+                    <br>
+                    <p>Whether you need a custom-built solution from scratch or a high-performance revamp of your existing site, we deliver results that are aligned with your business strategy and budget.</p>
+                </div><!--txt end-->
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-img">
+                    <img src="/assets/images/service/website-design/our-web-img-4.jpg" class="img-fluid" alt="wordpress development dubai">
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
+</section>
+
+<section class="additional-content em-company sp-50">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center mb-5">Our Range of WordPress Services</h2>
+                <p>WordPress powers over 40% of the web for a reason—its versatility is unmatched. However, to truly harness its power in a competitive market like Dubai, you need more than just a template. You need a <strong>custom-engineered WordPress solution</strong> that is optimized for performance, security, and search engine visibility.</p>
+                <p>From complex WooCommerce stores to enterprise-level portal development, we manage every aspect of the project so you can focus on running your business.</p>
+                <p class="mb-5">Our core delivery modules for WordPress includes:</p>
+            </div>
+        </div>
+
+        <div class="emcd-row spt-50">
+            <div class="row align-items-stretch"><!--Row Start-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-1.png" class="img-fluid" alt="wordpress installation dubai"></div>
+                        <div class="emcd--box-txt">Installation & Config</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-2.png" class="img-fluid" alt="wordpress theme development dubai"></div>
+                        <div class="emcd--box-txt">Custom Theme Design</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-3.png" class="img-fluid" alt="wordpress plugin development dubai"></div>
+                        <div class="emcd--box-txt">Plugin Customization</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-4.png" class="img-fluid" alt="wordpress ecommerce dubai"></div>
+                        <div class="emcd--box-txt">WooCommerce Solutions</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-5.png" class="img-fluid" alt="wordpress migration dubai"></div>
+                        <div class="emcd--box-txt">Hassle-Free Migration</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-6.png" class="img-fluid" alt="wordpress maintenance dubai"></div>
+                        <div class="emcd--box-txt">24/7 Support & Updates</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-7.png" class="img-fluid" alt="wordpress seo dubai"></div>
+                        <div class="emcd--box-txt">SEO & Speed Audit</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-8.png" class="img-fluid" alt="wordpress gateway integration dubai"></div>
+                        <div class="emcd--box-txt">Payment Integration</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-9.png" class="img-fluid" alt="wordpress api dubai"></div>
+                        <div class="emcd--box-txt">Third-Party API Synch</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-10.png" class="img-fluid" alt="wordpress security dubai"></div>
+                        <div class="emcd--box-txt">Security Hardening</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-11.png" class="img-fluid" alt="wordpress mobility dubai"></div>
+                        <div class="emcd--box-txt">Mobile-First UI/UX</div>
+                    </div>
+                </div><!--col end-->
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                    <div class="emcd--box">
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-12.png" class="img-fluid" alt="wordpress analytics dubai"></div>
+                        <div class="emcd--box-txt">Advanced Tracking</div>
+                    </div>
+                </div><!--col end-->
+            </div><!--Row End-->
+        </div>
+    </div>
+</section>
+
+<section class="service-process web-design-workflow sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="max-1000 text-center">
+            <h2 class="mb-3">Our WordPress Development Process</h2>
+        </div>
+        <div class="sprocess-tabs-sec">
+            <div class="sprocess-tabs">
+                <div class="sptab-links">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">Discovery</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt2" data-bs-toggle="tab" data-bs-target="#spt-2" type="button" role="tab" aria-selected="false">Planning</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt3" data-bs-toggle="tab" data-bs-target="#spt-3" type="button" role="tab" aria-selected="false">Design</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">Dev</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Speed</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt6" data-bs-toggle="tab" data-bs-target="#spt-6" type="button" role="tab" aria-selected="false">Testing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt7" data-bs-toggle="tab" data-bs-target="#spt-7" type="button" role="tab" aria-selected="false">Launch</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+
+                    <div class="tab-pane fade show active" id="spt-1" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Business Intelligence</h5>
+                                <p>We start by diving into your business core—understanding your audience, goals, and competitors in Dubai. This deep dive ensures we build a WordPress site that actually supports your bottom line.</p>
+                                <h5>Requirement Analysis</h5>
+                                <p>We document every technical requirement, from CRM integrations to custom user roles, creating a roadmap that leaves no room for ambiguity.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/fb-strategy.webp" class="img-fluid" alt="wordpress discovery dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-2" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Site Architecture & UI Mapping</h5>
+                                <p>We plan the structural layout and sitemap of your website. Our architects focus on logical navigation and conversion paths to keep users engaged.</p>
+                                <h5>Content Strategy</h5>
+                                <p>We plan your content hierarchy, ensuring your brand message is delivered effectively through every page, blog, and call-to-action.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/audiance-build.webp" class="img-fluid" alt="wordpress planning dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-3" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>High-Fidelity UI/UX Design</h5>
+                                <p>Our designers create a visually stunning interface that perfectly reflects your brand identity. We focus on a mobile-first approach, ensuring the site looks beautiful on every device.</p>
+                                <h5>Interactive Prototyping</h5>
+                                <p>We provide live prototypes so you can experience the site's flow and interaction before we write a single line of production code.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/ads-creative.webp" class="img-fluid" alt="wordpress design dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-4" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Clean-Code Development</h5>
+                                <p>Our WordPress developers write lean, efficient PHP and Javascript. We utilize a modular approach, allowing your site to be easily scaled as your business grows.</p>
+                                <h5>Custom Integration</h5>
+                                <p>Whether it is WooCommerce, a custom payment gateway, or a specialized CRM, we integrate third-party tools seamlessly without bloating your site's performance.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-4.png" class="img-fluid" alt="wordpress development dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-5" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Performance Tuning</h5>
+                                <p>We perform rigorous speed optimization, including CDN integration, server-side caching, and image compression, ensuring your site loads in under 2 seconds.</p>
+                                <h5>SEO Core Setup</h5>
+                                <p>We build your WordPress site with a strong SEO foundation, ensuring technical elements like schema markups and permalinks are perfectly configured for Google.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/ads-optimize.webp" class="img-fluid" alt="wordpress optimization dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-6" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Cross-Browser Testing</h5>
+                                <p>We test your site across all major browsers (Chrome, Safari, Firefox, Edge) and mobile devices to guarantee a consistent user experience for every visitor.</p>
+                                <h5>Security & Bug Audit</h5>
+                                <p>We run intensive manual and automated testing to identify and fix bugs while hardening your WordPress security against potential vulnerabilities.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/report.webp" class="img-fluid" alt="wordpress testing dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-7" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Launch & Training</h5>
+                                <p>We manage your deployment and provide training for your team so you can self-update content easily via the WordPress dashboard.</p>
+                                <h5>Ongoing Maintenance</h5>
+                                <p>Our job doesn't end at launch. We provide continuous monitoring, updates, and maintenance to keep your site running at peak performance 24/7.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-7.png" class="img-fluid" alt="wordpress launch dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div><!--Container End-->
+</section>
+
+<section class="em-benefits sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mb-3 mb-md-5 text-center">Benefits of Choosing BrandStory for WordPress</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>When you work with us, you are not just getting a website—you are getting a high-performance business tool built by the best WordPress developers in Dubai.</p>
+                <div class="em-points">
+                    <p>Business-Oriented Approach: We align your technical setup with your actual revenue goals.</p>
+                    <p>Secure and Scalable: Built to grow with your business without security vulnerabilities.</p>
+                    <p>Fast Turnaround Times: Efficient production cycles without compromising on code quality.</p>
+                    <p>AI-Powered Optimization: Utilizing modern tech to enhance user experience and speed.</p>
+                    <p>Cost-Effective Packages: Professional solutions tailored to your specific budget requirements.</p>
+                    <p>24/7 Technical Support: We are always here to resolve any glitches and keep you online.</p>
+                    <p>End-to-End Solutions: From domain and hosting to advanced digital marketing support.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/assets/images/service/fb/facebook-partner.webp" class="img-fluid" alt="wordpress development benefits dubai">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="perks-of-w sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Industries We Empower</h2>
+        <p class="text-center">Custom-engineered WordPress solutions across every major sector in the UAE:</p>
+        <div class="row g-md-5 spt-50 align-items-stretch"><!--Row Start-->
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Healthcare</h4>
+                    <p>Patient portals, appointment scheduling, and secure forms tailored for clinics and hospitals in the UAE.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Education</h4>
+                    <p>Learning management systems and institutional portals for schools and training centers.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Food & Beverage</h4>
+                    <p>Custom menus, online ordering systems, and reservation platforms for the restaurant industry.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Fintech</h4>
+                    <p>Highly secure platforms focusing on digital banking, money transfer, and financial products.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Travel & Tourism</h4>
+                    <p>Booking engines, itinerary management, and visually rich portals for Dubai's tourism sector.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="pow-box">
+                    <h4 class="mb-3">Ecommerce</h4>
+                    <p>Built-for-speed WooCommerce stores with seamless local payment gateway integrations.</p>
+                </div>
+            </div>
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
 
 <section class="sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="content">
-				<h3>WordPress Website Development Company in Dubai</h3>
-				<p>Brandstory is the best WordPress&nbsp;website development in Dubai, giving professional and reliable service to our clients. We have been in the WordPress website development business for almost two years now, and we are confident that we will cater to your project successfully.</p>
-				<h3>Our Process</h3>
-				<p>The team at Brand story has gained a lot of experience in copywriting, website design, and&nbsp;WordPress development Dubai. Our process is simple and efficient, and we have been there, done that, and take pride in it. Our team of experienced designers,&nbsp;WordPress web developer, and support staff help you create the perfect landing page in no time.</p>
-				<h5>Understanding Your Business</h5>
-				<p>We believe in a simple approach to building websites that are easy to use and great for business owners. We understand the importance of getting your website right first because it is what will keep your visitors coming back.</p>
-				<h5>Research</h5>
-				<p>We will create websites from scratch in WordPress, but before that, we do research on many features to do designing perfectly. Our team has experts in designing websites from scratch with unique ideas.</p>
-				<h5>Plan</h5>
-				<p>First of all, we identify the client’s goals and then go for further planning for creating the website. We focus on creating unique designs from scratch and plan according to the client’s requirements with more effort.</p>
-				<h5>UI UX Design</h5>
-				<p>Brandstory is a professional&nbsp;WordPress development agency&nbsp;specializing in UI design and UX design. One of the biggest problems with websites is that they often don’t communicate their brand in a way that makes sense to their users.</p>
-				<h5>Website Content Development</h5>
-				<p>We design effective and engaging content for your brand. We’ve got you covered, whether a blog, press release, or commercial write-up!</p>
-				<h5>Website Development</h5>
-				<p>We know that you have a lot of things on your plate, so we offer mobile responsive designs that load quickly and are easy to use on any device; no need to worry about hiring multiple people. We offer <a href="/website-design-company-in-dubai/">website designing</a> with all features, including hosting, domain registration, and marketing, at one package price!</p>
-				<h5>Speed Optimization</h5>
-				<p>We help you build your online presence with world-class website designs. Putting your business ahead of everything else, we make sure your plan is not only beautiful but also optimized for speed.</p>
-				<h5>Server-Side Optimization</h5>
-				<p>Your needs come first, and we’re committed to making your life easier. We offer various services to suit your needs, from minor fixes to complete website redesigns.</p>
-				<h5>Testing</h5>
-				<p>If you want to stay ahead of the curve and be one of the first in your industry to use the latest trends in&nbsp;WordPress web design Dubai, we have got you covered. Get ahead of the competition and stand out from the crowd with Brandstory’s new designs.</p>
-				<h5>Delivery and Maintenance</h5>
-				<p>We provide WordPress design, website development, maintenance services, and a wide range of other digital services. We’re here to help you succeed online.</p>
-				<h3>Our Range of WordPress Development Services Dubai</h3>
-				<p>Our&nbsp;WordPress development company Dubai&nbsp;will help you build a website that is easy to maintain and update. We will also help you get your website up and running quickly, seamlessly, and efficiently.</p>
-				<h5>WordPress Installation &amp; Configuration</h5>
-				<p>The <a href="/">Brandstory</a> offers a wide range of WordPress design services to suit any need and budget. We even offer free installation, setup, and configuration. Our WordPress experts can help you with Website design, development, and maintenance from concept to completion.</p>
-				<h5>WordPress Website Development</h5>
-				<p>With our inbuilt page builder, editing your website has never been more accessible. You can quickly create your pages, blog posts, and even complete websites with a few clicks.</p>
-				<h5>WordPress Theme Development</h5>
-				<p>Brandstory provides a range of services with different price points to suit various needs. Our team of&nbsp;WordPress website designer&nbsp;and developers is experienced and adept at working on WordPress themes and websites, generating professional work promptly.</p>
-				<h5>WordPress Plugin Development</h5>
-				<p>We understand that there is no one-size-fits-all solution. That’s why we have put in the hard work to make Brandstory a WordPress plugin that will make your needs our top priority.</p>
-				<h5>WordPress Migration</h5>
-				<p>If you’re looking for a new WordPress host, we offer a hassle-free migration service that saves you time, money, and effort. We’ll take care of all the heavy lifting for you!</p>
-				<h5>WordPress Maintenance and Support Services</h5>
-				<p>Brandstory is a WordPress maintenance and support service that is simple and easy to use with minimal complexity, letting you focus on what’s important – your business strategy!</p>
-				<h5>WordPress SEO</h5>
-				<p>Our websites are designed for you, for your business. We know the ins and outs of WordPress SEO, and we know what you need to see to accomplish your goals.</p>
-				<h5>WordPress Digital Marketing</h5>
-				<p>When people are looking for your services or products, they will find them using search engines, social networking sites, classified sites, and other sources of information.</p>
-				<h5>WordPress Ecommerce Solutions</h5>
-				<p>Brandstory offers various services, from custom-made designs to full-scale site development. We are also experts in eCommerce and SEO, which means our sites rank high on search engines and give you more visibility.</p>
-				<h5>Payment Gateway Integration</h5>
-				<p>With Brandstory, everything about your eCommerce site will be handled for you – including payment gateways, which we integrate seamlessly into our designs so that you can start selling online right away!</p>
-				<h5>CDN Integration</h5>
-				<p>Ensures that your website is always fast, no matter where in the world your visitors are coming from. Firefox, Safari, and Chrome are all compatible with limited bandwidth and absolute attention to detail in terms of design and functionality.</p>
-				<h3>Features of WordPress Websites – List Top 15 Features of WordPress</h3>
-				<ol>
-					<li style="font-weight: 400;" aria-level="1">Quick Edit Posts</li>
-					<li style="font-weight: 400;" aria-level="1">Import Data</li>
-					<li style="font-weight: 400;" aria-level="1">The Plain Text Pasting Option</li>
-					<li style="font-weight: 400;" aria-level="1">Screen Options</li>
-					<li style="font-weight: 400;" aria-level="1">Create Your Own Permalink Structure</li>
-					<li style="font-weight: 400;" aria-level="1">Auto Embed Certain Types of Content</li>
-					<li style="font-weight: 400;" aria-level="1">Get Comment Notifications When Away From Your Computer</li>
-					<li style="font-weight: 400;" aria-level="1">Keyboard Shortcuts</li>
-					<li style="font-weight: 400;" aria-level="1">Accessibility Mode for Widgets</li>
-					<li style="font-weight: 400;" aria-level="1">Default Image Sizes</li>
-					<li style="font-weight: 400;" aria-level="1">WordPress Image Editor</li>
-					<li style="font-weight: 400;" aria-level="1">Distraction Free Writing</li>
-					<li style="font-weight: 400;" aria-level="1">Make a Post Sticky</li>
-					<li style="font-weight: 400;" aria-level="1">Schedule a Post</li>
-					<li style="font-weight: 400;" aria-level="1">Change the Author of a Post</li>
-				</ol>
-				<h3>Industries We Served</h3>
-				<p>Below are some of the Features of WordPress websites as follows.</p>
-				<h5>Healthcare</h5>
-				<p>We design healthcare websites designing at an affordable cost for our customers. The features of the website include as follows.</p>
-				<ul>
-					<li style="font-weight: 400;" aria-level="1">Appointment Scheduling</li>
-					<li style="font-weight: 400;" aria-level="1">Online Billing</li>
-					<li style="font-weight: 400;" aria-level="1">Patient Portal</li>
-					<li style="font-weight: 400;" aria-level="1">Detailed Analytics</li>
-					<li style="font-weight: 400;" aria-level="1">Automated Appointment Reminders</li>
-					<li style="font-weight: 400;" aria-level="1">Patient Forms</li>
-					<li style="font-weight: 400;" aria-level="1">Patient Testimonials</li>
-					<li style="font-weight: 400;" aria-level="1">Review System</li>
-				</ul>
-				<h5>Educational</h5>
-				<p>Brandstory has gained a reputation for providing better quality educational websites to our clients at affordable prices and is also known for its fast turnaround times.</p>
-				<h5>Food &amp; Beverages</h5>
-				<p>We are designing Food &amp; Beverage websites for our clients. We will provide customized designs at an affordable cost.</p>
-				<h5>Fintech</h5>
-				<p>The website focus on fintech and digital money transfer, online banking website designing services, and financial products. We will focus on quality service to our clients.</p>
-				<h5>Travels</h5>
-				<p>We design travel websites at an affordable cost to clients as per their requirements. Brandstory is a&nbsp;WordPress website development Dubai&nbsp;providing quality service to customers.</p>
-				<h5>Ecommerce</h5>
-				<p>A brand story is a leading e-commerce&nbsp;WordPress design company. Our team of experienced developers is capable of developing responsive e-commerce websites and digital marketing solutions.</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="web-why-choose sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="text-center">
-					<h2>Why Choose Brandstory WordPress Website Development Company in Dubai for Your Projects?</h2>
-					<p>The brand story is one of the leading website development companies in Dubai. We are experts in website development, web design, and online marketing. We have a team of experienced WordPress web designer and developers that can create your website for you at a very affordable price.</p>
-					<h4 class="mt-4 mb-4 mt-md-5"> Our Packages</h4>
-					<p>Our website design packages vary because it depends on client requirement.</p>
-				</div>
-
-			</div>
-		</div>
-	</div>
-</section>
-<section class="our-web-design sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row"><!--Row Start-->
-			<div class="col-md-12"> <!--col start-->
-				<h2 class="text-center">Our Wordpress Development <span class="db">Services in Dubai</span></h2>
-			</div><!--col end-->
-		</div><!--Row End-->
-		<div class="service--slider site--slider spt-50"><!--Slider Start-->
-			<div class="swiper service-slider">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-1.jpg" class="img-fluid" alt="best website design company in dubai">
-							</div>
-							<h4>Domain Registration</h4>
-							<p>We also provide domain with most annual affordable prices with extensions like .com, .in, .co.in, etc. </p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-2.jpg" class="img-fluid" alt="best web design dubai">
-							</div>
-							<h4>Website Designing</h4>
-							<p>To enhance the growth of the business, an online presence is a must, and for that, you must have an eye-catching website, which our expert team of website designers can provide. </p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-3.jpg" class="img-fluid" alt="best ecommerce development company in dubai">
-							</div>
-							<h4>Web Hosting</h4>
-							<p>Web hosting is a unique service that we provide, and over the years, our team has gain experience due to the evolving online world. The experiences help us to cater to the needs of our client.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-4.jpg" class="img-fluid" alt="wordpress website development in dubai">
-							</div>
-							<h4>Google SEO</h4>
-							<p>With the help of our most cost-effective SEO services, you can enhance the presence of your company in the online world.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-5.jpg" class="img-fluid" alt="wordpress web design dubai">
-							</div>
-							<h4>Website Maintenance</h4>
-							<p>We provide the service of regular updating of your website, which will give you the edge over other players and allow you to remain on the top rank online. Our services will come at an affordable cost so that your annual budget is not disturbed.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-6.jpg" class="img-fluid" alt="wordpress development company in dubai">
-							</div>
-							<h4>E-Commerce Solution</h4>
-							<p>We also create self-adaptable e-commerce platforms for our client for marketing their products and services.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-7.jpg" class="img-fluid" alt="website maintenance company dubai">
-							</div>
-							<h4>Web Portal Development</h4>
-							<p>The world of the internet has made it possible for businesses present all over the world to collaborate with each other and perform the tasks in much more effective ways.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-8.jpg" class="img-fluid" alt="website development agency in dubai">
-							</div>
-							<h4>Content Management Based Websites</h4>
-							<p>We render you the access to our web server with your unique login id, with the help of which you can self-update the content on your website with easy navigation and don't have to wait for anybody else.</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-				</div><!--wrapper end-->
-			</div>
-			<div class="swiper-pagination ss-pagi"></div>
-			<div class="swiper-button-next ss-next"></div>
-			<div class="swiper-button-prev ss-prev"></div>
-		</div><!--Slider End-->
+    <div class="container"><!--Container Start-->
+        <?php include __DIR__ . '/../component/services/new-service.php' ?>
+    </div><!--Container End-->
 </section>
 
 <section class="sp-50 bg-yellow">
-	<div class="container">
-		<?php include __DIR__ . '/../component/services/stats.php' ?>
-	</div>
+    <div class="container">
+        <?php include __DIR__ . '/../component/services/stats.php' ?>
+    </div>
+</section>
+
+<section class="sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/services/clients.php' ?>
+    </div><!--Container End-->
 </section>
 
 <section class="site-faq sp-50">
-	<div class="container"><!--Container Start-->
-		<h2 class="text-center">FAQ’s</h2>
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Frequently Asked Questions</h2>
+        <div class="accordion spt-50" id="accordionWP"><!--Accordion Start-->
 
-		<div class="accordion spt-50" id="accordionDM"><!--Accordion Start-->
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh1">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-						How to Choose WordPress Development Company in Dubai UAE?
-					</button>
-				</h2>
-				<div id="fc1" class="accordion-collapse collapse show" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						You can choose the best WordPress web development company as it is an applicable requirement or not. The main thing, check whether they are giving customer support or not.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="wpfh1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wpfc1" aria-expanded="true">
+                        How do I choose the best WordPress agency in Dubai?
+                    </button>
+                </h2>
+                <div id="wpfc1" class="accordion-collapse collapse show" data-bs-parent="#accordionWP">
+                    <div class="accordion-body">
+                        Look for an agency that understands the local UAE market and prioritizes long-term technical support. Check their portfolio for custom-coded solutions rather than just template-based sites. BrandStory offers a dedicated team focused on both design excellence and secure, scalable performance.
+                    </div>
+                </div>
+            </div>
 
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh2">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="false">
-						Why Brandstory is the best WordPress development company in Dubai?
-					</button>
-				</h2>
-				<div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						<p>The brand story is the best WordPress development company in Dubai. We provide high-quality services to our clients. We are focused on helping you build your business and grow your business through a strong connection with your customers. </p>
-					</div>
-				</div>
-			</div><!--Accordion item end-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="wpfh2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wpfc2" aria-expanded="false">
+                        Are WordPress websites SEO-friendly for the UAE market?
+                    </button>
+                </h2>
+                <div id="wpfc2" class="accordion-collapse collapse" data-bs-parent="#accordionWP">
+                    <div class="accordion-body">
+                        Yes, WordPress is inherently built for search visibility. However, we take it a step further by optimizing technical elements (Schema, Permalinks, Speed) and ensuring your site content is structured to rank for high-value keywords in the Dubai and GCC competitive landscape.
+                    </div>
+                </div>
+            </div>
 
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh3">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-						Is WordPress Websites are SEO Friendly?
-					</button>
-				</h2>
-				<div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						WordPress is one of the most popular CMS platforms used by companies. The reason for its popularity is that it has many features and a wide range of plugins. These features make it easier to create websites and blogs and make it more challenging to find the right keywords for your website.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="wpfh3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wpfc3" aria-expanded="false">
+                        Can you revamp my existing WordPress website?
+                    </button>
+                </h2>
+                <div id="wpfc3" class="accordion-collapse collapse" data-bs-parent="#accordionWP">
+                    <div class="accordion-body">
+                        Absolutely. We specialize in comprehensive website revamps—enhancing the UI/UX, improving loading speeds, and upgrading the security architecture without losing your existing SEO value or data.
+                    </div>
+                </div>
+            </div>
 
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh4">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-						How long will you take to complete my WordPress project?
-					</button>
-				</h2>
-				<div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						I am not going to give you an exact time estimation. It depends on your workload, the complexity of your project, and the type of project you are working on. The more complicated your project is, the longer it will take to finish it.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="wpfh4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wpfc4" aria-expanded="false">
+                        Is my WordPress website secure with BrandStory?
+                    </button>
+                </h2>
+                <div id="wpfc4" class="accordion-collapse collapse" data-bs-parent="#accordionWP">
+                    <div class="accordion-body">
+                        Security is our top priority. We implement advanced firewall configurations, regular security audits, and hardened login protocols to ensure your asset is protected against hackers and compromised revenue.
+                    </div>
+                </div>
+            </div>
 
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh5">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-						How much do WordPress developers charge in Dubai, UAE?
-					</button>
-				</h2>
-				<div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						Depending on the project, WordPress developers can charge $200-$300 per hour.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
-
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh6">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
-						Is my WordPress website secured?
-					</button>
-				</h2>
-				<div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						A website is an essential asset for any business, and it should be kept secure. If your website is hacked or an attacker has compromised your website, you may lose all your customers and revenue.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
-
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh7">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc7" aria-expanded="false">
-						Can you do a WordPress website revamp? – Yes
-					</button>
-				</h2>
-				<div id="fc7" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						The answer is yes because we are a team of professionals who focus on the customer's needs and help them set up a website that suits their needs, requirements, and budget.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
-
-			<div class="accordion-item"><!--Accordion item start-->
-				<h2 class="accordion-header" id="fh8">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc8" aria-expanded="false">
-						Can you do WordPress website speed optimization?
-					</button>
-				</h2>
-				<div id="fc8" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
-					<div class="accordion-body">
-						Yes, we can easily optimize website speed with free and premium plugins.
-					</div>
-				</div>
-			</div><!--Accordion item end-->
-
-
-		</div><!--Accordion End-->
-	</div><!--Container End-->
+        </div><!--Accordion End-->
+    </div><!--Container End-->
 </section>
+
+<!-- Include Footer-->
