@@ -167,6 +167,11 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/website-design-company-in-dubai', ['meta' => $meta]);
     }
+    public function websiteDevelopmentDubai()
+    {
+        $meta = [];
+        return $this->view('services/website-development-company-in-dubai', ['meta' => $meta]);
+    }
     public function fullFunnelPerformanceMarketing()
     {
         $meta = [

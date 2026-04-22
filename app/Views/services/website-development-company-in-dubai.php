@@ -1,49 +1,59 @@
+<section class="dm-agency-banner-section dm-bg">
+    <div class="swiper dmagency-banner-sld">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="bannersld-main two" style="background-image: url('/assets/images/new-website-design-company-in-dubai/website-development-dubai.webp')">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-12">
 
-    <section class="px-4 px-lg-0" style="background: url('/assets/images/industries/b2b-corporate-marketing-services-banner.webp') no-repeat center center; background-size: cover;">
-        <div class="new_about_us-banner-container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h1 class="mb-4 text-white">Best Website Design Company in Dubai, UAE</h1>
-                    <p class="fs-18 text-white">
-                        Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
-
-                    </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg">
+                                <h1 class="mb-4 text-white">Best Web Development
+                                    <span class="db">Company in Dubai, UAE</span>
+                                </h1>
+                                <p class="text-white mb-md-5 mb-4 fs-20">Your website is the first impression of your brand. BrandStory makes sure it’s
+                                    <span class="db">powerful, professional, and built to deliver real business value. Our expert </span>
+                                    team of website developers and digital marketing professionals join forces
+                                    <span class="db">to build aneffective foundation of business growth.
+                                </p>
+                                <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get a Free Quote</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Web Design</a>
+            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Web Design</a>
+            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Web Design</a>
+            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Web Design</a>
+            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
             <!-- same 6 items repeated for loop -->
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Web Design</a>
+            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Web Design</a>
+            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Web Design</a>
+            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Web Design</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/ui-ux-design-company-in-dubai" class="seo-marquee-item">UI/UX Design</a>
+            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
@@ -55,12 +65,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="text-white">Creative-First Website Design Company</h2>
-                <p class="fs-20 text-white mb-3">BrandStory is a creative-first website design company in Dubai that crafts visually stunning websites with a strong UX focus. With 10+ years of experience in web design, we transform the user journey into a seamless, engaging, and conversion-driven visual experience.</p>
-                <p class="fs-20 text-white">We design websites that resonate with Dubai's diverse and fast-paced audience. Our deep understanding of local market trends, cultural nuances, and business expectations helps us craft websites that connect with your customers.</p>
+                <h2 class="text-white">Tech-Smart Web Design and Development Company</h2>
+                <p class="fs-20 text-white mb-3">BrandStory is a tech-smart website design and development company in Dubai that creates websites with a strong UX focus. Having 10+ years of experience in website development and digital marketing, we transform the user journey into a seamless, engaging, and conversion-driven experience.</p>
+                <p class="fs-20 text-white">We build scalable websites that connect with Dubai’s diverse and fast-paced audience. Our deep understanding of the local market trends, cultural nuances, and business expectations helps us craft <a class="text-decoration-underline text-white" href="/blogs/how-to-keep-your-website-running-smoothly-useful-tips">websites that runs smoothly</a> and connect with your customers.</p>
+
             </div>
             <div class="col-md-6 align-self-center">
-                <img class="w-100 mb-md-0 mb-3 mt-3 mt-md-0" src="/assets/images/new-website-design-company-in-dubai/website-dubai.webp" alt="Creative Website Design Solutions">
+                <img class="w-100 mb-md-0 mb-3  mt-3 mt-md-0" src="/assets/images/new-website-design-company-in-dubai/website-dubai.webp" alt="Scalable Website Solutions">
+
             </div>
         </div>
     </div>
@@ -79,7 +91,7 @@
 
         <div class="perks-content position-relative">
             <div class="container perkshd position-relative">
-                <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">More Than Website Design<br> We Create Digital Excellence
+                <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">More Than Websites<br> We Create Digital Impact
                 </h2>
             </div>
             <div class="container">
@@ -136,9 +148,9 @@
 <!-- Section: Our Web Development Services -->
 <section class="dm-bg text-white py-5 web-development-services">
     <div class="container">
-        <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Design Development Platforms</h2>
-        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and <a class="text-decoration-underline text-white" href="/website-development-company-in-dubai">web development agency in Dubai</a>, helping brands build a strong and impactful
-            digital presence. Our expert web designers craft visually engaging, user-focused website designs that enhance brand visibility, engage visitors, and support meaningful business
+        <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Development Services</h2>
+        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and development agency, helping brands build a strong and impactful
+            digital presence. Our expert web designers craft visually engaging, <a class="text-decoration-underline text-white" href="/blogs/how-custom-web-design-sets-your-website-apart">user-focused website designs</a> that enhance brand visibility, engage visitors, and support meaningful business
             growth.</p>
 
         <div class="row g-0">
@@ -149,14 +161,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
                             </div>
                             <div class="col-6 text-end">
-                               <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
+                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;">
                             </div>
 
                         </div>
-                        <h5><a href="/website-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Custom Web Development</a></h5>
+                        <h5>Custom Web Development</h5>
                         <p class="small">Custom websites are popular choice among small and large-scale enterprises, and service providers in Dubai. We design custom websites from a single landing page to complex websites based on business-specific requirements. We build tech-enabled custom websites with modern tech stack that load fast and have no errors. </p>
                     </div>
                 </div>
@@ -297,10 +309,122 @@
 </section>
 
 
+<div class="tech-stack-section">
+    <div class="container">
+        <div class="tech-subtitle">
+            <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Development Tool Stack </h2>
+            <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">Not every agency gets tech right or makes it work for your business. At BrandStory, we use the latest website design and development technology stack that not only sounds smart, it also drives your growth.</p>
+        </div>
+
+        <div class="tech-tabs">
+            <button class="tab-btn active" data-tab="frontend">
+                <span class="tab-icon"><img src="/assets/images/icons/frontend.svg" alt="Frontend" /></span> Frontend
+            </button>
+            <button class="tab-btn" data-tab="backend">
+                <span class="tab-icon"><img src="/assets/images/icons/backend.svg" alt="Backend" /></span> Backend
+            </button>
+            <button class="tab-btn" data-tab="mobile">
+                <span class="tab-icon"><img src="/assets/images/icons/mobile.svg" alt="Mobile" /></span> Mobile App
+            </button>
+            <button class="tab-btn" data-tab="cloud">
+                <span class="tab-icon"><img src="/assets/images/icons/cloud.svg" alt="Cloud" /></span> Cloud
+            </button>
+            <button class="tab-btn tab-btn100" data-tab="cms">
+                <span class="tab-icon"><img src="/assets/images/icons/cms.svg" alt="cms" /></span> Content Management System
+            </button>
+        </div>
+
+        <div class="tab-content-1 active" id="frontend">
+            <div class="tech-grid">
+                <div class="tech-image">
+                    <img src="/assets/images/frontend-side.webp" alt="Coding" />
+                </div>
+                <div class="tech-items">
+                    <div class="tech-card"><img src="/assets/images/icons/nextjs.svg" alt="Next.js"><span>Next.JS</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/react.svg" alt="React"><span>React</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/vue.svg" alt="Vue"><span>Vue</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/angular.svg" alt="Angular"><span>Angular</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content-1" id="backend">
+            <div class="tech-grid">
+                <div class="tech-image">
+                    <img src="/assets/images/backend-side.webp" alt="backend" />
+                </div>
+                <div class="tech-items">
+                    <div class="tech-card"><img src="/assets/images/icons/nodejs.svg" alt="node js"><span>Node JS</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/python.svg" alt="Python"><span>Python</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/php.svg" alt="PHP"><span>PHP</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/laravel.svg" alt="Laravel"><span>Laravel</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content-1" id="mobile">
+            <div class="tech-grid">
+                <div class="tech-image">
+                    <img src="/assets/images/mobile-side.webp" alt="mobile" />
+                </div>
+                <div class="tech-items">
+                    <div class="tech-card"><img src="/assets/images/icons/swift.svg" alt="Swift"><span>Swift</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/kotlin.svg" alt="Kotlin"><span>Kotlin</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/flutter.svg" alt="flutter"><span>Flutter</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/react.svg" alt="react native"><span>React Native</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content-1" id="cloud">
+            <div class="tech-grid">
+                <div class="tech-image">
+                    <img src="/assets/images/cloud-side.webp" alt="cloud" />
+                </div>
+                <div class="tech-items">
+                    <div class="tech-card"><img src="/assets/images/icons/aws.svg" alt="aws"><span>AWS</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/azure.svg" alt="azure"><span>Azure</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/google-cloud.svg" alt="google-cloud"><span>Google Cloud</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content-1" id="cms">
+            <div class="tech-grid">
+                <div class="tech-image">
+                    <img src="/assets/images/cms-side.webp" alt="cloud" />
+                </div>
+                <div class="tech-items">
+                    <div class="tech-card"><img src="/assets/images/icons/wordpress.svg" alt="WordPress"><span>WordPress</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/webflow.svg" alt="Webflow"><span>Webflow</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/joomla.svg" alt="Joomla"><span>Joomla</span></div>
+                    <div class="tech-card"><img src="/assets/images/icons/wix.svg" alt="Wix"><span>Wix</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- You can duplicate the structure for other tabs like backend, mobile, etc -->
+</div>
+
+
+<!--<section class="dm-bg sp-50">
+    <div class="container">
+        <h2 class="text-white mb-4 text-md-start text-center">Web Design & Development Process Flow</h2>
+        <img class="w-100 d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wd-process.png" alt="Website Design and Development Process - Brandstory">
+        <div class="d-md-none d-block">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl1.png" alt="Website Development Process - Phase 1">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl2.png" alt="Website Development Process - Phase 2">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl3.png" alt="Website Development Process - Phase 3">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl4.png" alt="Website Development Process - Phase 4">
+        </div>
+    </div>
+</section>-->
+
 <section class="wdp-flow sp-50 dm-bg position-relative" style="overflow: hidden;">
     <div class="mouse-circle"></div>
     <div class="container">
-        <h2 class="text-white mb-5 text-md-start text-center">Website Design Planning to Launch</h2>
+        <h2 class="text-white mb-5 text-md-start text-center">We Master A-Z from Strategy Planning to Launch</h2>
         <div class="row col-reverse">
             <div class="col-md-6 d-flex">
                 <div class="wdp-flow-main position-relative text-md-start text-center mb-md-0 mb-4">
@@ -384,10 +508,10 @@
 
 <section class="dm-bg sp-50">
     <div class="container">
-        <h2 class="text-white mb-4 text-md-start text-center">Why Choose BrandStory As
-            <span class="db">Website Design Partner in Dubai</span>
+        <h2 class="text-white mb-4 text-md-start text-center">Why Choose BrandStory As Your Website
+            <span class="db">Development Partner in Dubai</span>
         </h2>
-        <p class="fs-20 text-white mb-5 text-md-start text-center">BrandStory is a Dubai-based agency with a strong presence across the UAE and MENA regions. As a trusted partner for 1000+ businesses, we specialise in <a class="text-decoration-underline text-white" href="/ui-ux-design-company-in-dubai/">UI/UX design</a> and website design that blends creativity with user-focused functionality. Our team crafts visually engaging, intuitive designs that enhance user experience and help brands connect, engage, and grow effectively.</p>
+        <p class="fs-20 text-white mb-5 text-md-start text-center">BrandStory is a Dubai-based agency with expanded reach in the UAE and MENA regions. As a reliable partner for 700+ businesses for website design and development, <a class="text-decoration-underline text-white" href="/">digital marketing</a>, and IT-enabled services, we empower brands to scale faster and grow smarter.</p>
         <div class="row g-4">
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center">
@@ -1218,3 +1342,13 @@
     });
 </script>
 
+
+<?php
+// Default Services List - can be overwritten by passing $stickyServices to the view
+$stickyServices = $stickyServices ?? [
+    ['label' => 'WordPress Development', 'url' => '/wordpress-development-company-in-dubai'],
+    ['label' => 'Magento Development', 'url' => '/magento-website-development-dubai'],
+    ['label' => 'Drupal Development', 'url' => '/drupal-website-development-company-in-dubai'],
+    ['label' => 'E-commerce Dev.', 'url' => '/ecommerce-development-company-dubai'],
+];
+?>

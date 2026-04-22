@@ -30,6 +30,7 @@ Route::get('/sitemap.xml', 'SitemapController@index', 'sitemap');
 Route::get('/robots.txt', 'RobotsController@index', 'robots');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
 Route::get('/website-design-company-in-dubai', 'FrontendController@websiteDesignDubai', 'websitedesigndubai');
+Route::get('/website-development-company-in-dubai', 'FrontendController@websiteDevelopmentDubai', 'websitedevelopmentdubai');
 Route::get('/full-funnel-performance-marketing', 'FrontendController@fullFunnelPerformanceMarketing', 'fullFunnelPerformanceMarketing');
 Route::get('/email-marketing-company-in-dubai', 'FrontendController@emailMarketingDubai', 'emailmarketingdubai');
 Route::get('/pay-per-click-ppc-services-in-dubai', 'FrontendController@payPerClickServicesDubai', 'payperclickservicesdubai');
@@ -279,7 +280,6 @@ Route::get('/geo-agency-dubai', 'FrontendController@geoAgencyDubai', 'geoagencyd
 Route::get('/seo-link-building-agency-dubai', 'FrontendController@seoLinkBuildingAgencyDubai', 'seolinkbuildingagencydubai');
 Route::get('/local-seo-agency-dubai', 'FrontendController@localSEOAgencyDubai', 'localseoadgencydubai');
 Route::get('/testimonials', 'FrontendController@testimonials', 'testimonials');
-// Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
 Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
 
 

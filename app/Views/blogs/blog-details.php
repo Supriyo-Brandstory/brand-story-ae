@@ -609,11 +609,11 @@
                         <!-- Static Part -->
                         <div class="sidebar-card author-card">
                             <img src="<?= base_url('assets/images/dynamic/author-jenny.png') ?>" alt="Jenny" class="author-img">
-                            <h4>Jenny</h4>
-                            <p>Jenny, our Owned Media Manager, is an SEO and content marketing powerhouse with 10+ years of experience. A multilingual consultant and mentor, she's judged Search Awards and moves seamlessly between leading teams and crafting scalable frameworks.</p>
+                            <h4>Madhavan A</h4>
+                            <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
                             <div class="social-icons">
-                                <a href="https://twitter.com/BrandStory_UAE" target="_blank"><i class="bi bi-twitter"></i></a>
-                                <a href="https://ae.linkedin.com/company/brandstory-uae/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
 
@@ -623,15 +623,15 @@
                         <div class="sidebar-sticky-part" id="sidebar-sticky-bottom">
                             <div class="sidebar-card ranking-cta-card">
                                 <img src="<?= base_url('assets/images/dynamic/WebsiteGrader.gif') ?>" alt="Ranking Gauge">
-                                <h4>Do you want higher rankings?</h4>
-                                <p class="mb-4">Free instant audit grades your website performance so you can optimise it.</p>
+                                <h4>Are You Looking for Growth?</h4>
+                                <p class="mb-4">Free instant digital marketing audit and improve performance.</p>
                                 <a href="<?= route('contact') ?>" class="ranking-cta-btn">Get Graded Today</a>
                             </div>
                             <div class="sidebar-card academy-card">
                                 <img src="<?= base_url('assets/images/seo-video-thumbnail.jpg') ?>" alt="Academy">
                                 <div class="academy-content">
-                                    <div class="academy-title">Search Everywhere Academy</div>
-                                    <a href="#" class="join-btn">Join Now</a>
+                                    <div class="academy-title">Expert SEO Services</div>
+                                    <a href="/seo-services-in-dubai/" class="join-btn">Know More</a>
                                 </div>
                             </div>
 

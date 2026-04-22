@@ -61,7 +61,8 @@
 
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="<?= route('websitedesigndubai') ?>">Website Dev</a></li>
+                                <li class="li-headeing"><a href="<?= route('websitedevelopmentdubai') ?>">Website Dev</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/wordpress-development.png" alt="WordPress Development" width="30" height="30"><a href="/website-design-company-in-dubai/">Web Design</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/wordpress-development.png" alt="WordPress Development" width="30" height="30"><a href="/wordpress-development-company-in-dubai/">WordPress Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/magento-development.png" alt="Magento Development" width="30" height="30"><a href="/magento-website-development-dubai/">Magento Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/drupal-development.png" alt="Drupal Development" width="30" height="30"><a href="/drupal-website-development-company-in-dubai/">Drupal Dev</a></li>
