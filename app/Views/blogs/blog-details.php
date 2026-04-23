@@ -550,7 +550,7 @@
                     <h4 class="text-uppercase mb-3" style="letter-spacing: 2px; font-weight: 600; opacity: 0.8;">Blog</h4>
                     <h1><?= htmlspecialchars($blog['title']) ?></h1>
                     <div class="blog-meta">
-                        by <strong>Jenny</strong> &bull; Published: <?= date('F d, Y', strtotime($blog['created_at'])) ?>
+                        by <strong>Madhavan A</strong> &bull; Published: <?= date('F d, Y', strtotime($blog['created_at'])) ?>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -608,7 +608,7 @@
                     <div class="right-sidebar" id="right-sidebar">
                         <!-- Static Part -->
                         <div class="sidebar-card author-card">
-                            <img src="<?= base_url('assets/images/dynamic/author-jenny.png') ?>" alt="Jenny" class="author-img">
+                            <img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img">
                             <h4>Madhavan A</h4>
                             <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
                             <div class="social-icons">

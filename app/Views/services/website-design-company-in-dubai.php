@@ -464,7 +464,7 @@
 
 <section class="wd-portfolio-sec sp-50 dm-bg">
     <div class="container">
-        <h2 class="mb-4 text-white text-md-start text-center">Website Development Protfolio</h2>
+        <h2 class="mb-4 text-white text-md-start text-center">Our Recent Web Design Projects</h2>
         <div class="row g-4">
             <div class="col-md-6">
                 <div class="dm-portfolio-main position-relative">
@@ -494,28 +494,28 @@
 
 <section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
-        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">12+ Years of Experience in<br>
-            Serving Various Industries
+        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">Serving Diverse<br>
+            Industries for a Decade
         </h2>
         <div class="row g-3">
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Website Design for Education Instutions in Dubai">
                         <h3 class="text-white text-center">Education</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-web-design-development-agency-in-dubai-uae/">Education <span class="hide-indu-icon">⇗</span></a></h3>
                         <p class="fs-20 text-center mb-3">
-                            As a leading digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai to build their online presence.
+                            As a leading web design and digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai build a strong and impactful online presence.
                         </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
                         </p>
@@ -525,20 +525,20 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
-                        <h3 class="text-white text-center">E-commerce</h3>
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Website Design for E-commerce Businesses in Dubai">
+                        <h3 class="text-white text-center">eCommerce</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">BrandStory, a leading digital marketing agency, is the top choice for E-commerce businesses to grow their audience, increase lead flow, and scale fast.
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-web-design-development-agency-in-dubai-uae/">eCommerce <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory, a leading web design and digital marketing agency, is the top choice for e-commerce businesses to grow their audience, increase lead flow, and scale faster.
                         </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
                         </p>
@@ -548,19 +548,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Website Design for Healthcare Sectors in Dubai">
                         <h3 class="text-white text-center">Healthcare</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We are the go-to digital marketing company for healthcare sectors (hospitals, medical stores, pharma companies) in the UAE.</p>
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-web-design-development-agency-in-dubai-uae/">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are the go-to web design and digital marketing company for hospitals, medical stores, and pharma in the UAE.</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
-                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
                         </p>
@@ -570,18 +570,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Website Design Services for Real Estate Companies in Dubai">
                         <h3 class="text-white text-center">Real Estate</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We also provide digital marketing services for real estate businesses in Dubai to improve audience engagement and increase lead flow.</p>
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-web-design-development-agency-in-dubai-uae/">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We also provide website design and digital marketing services for real estate businesses in Dubai to improve online presence.</p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
@@ -592,18 +593,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Website Design Services for Travel Agencies in Dubai">
                         <h3 class="text-white text-center">Travel</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We have helped several travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/tourism-web-design-development-dubai-uae/">Travel <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We partner with travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center mb-3">`
+                        <p class="fs-20 text-center mb-3">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
@@ -614,18 +616,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Website Design Services for Technology Companies in Dubai">
                         <h3 class="text-white text-center">Technology</h3>
                     </div>
                     <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">We are a full-service digital marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Tech Companies <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are a full-service web design and marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Development</a> |
+                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
