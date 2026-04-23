@@ -13,75 +13,7 @@
         background: #fbfbfb;
     }
 
-    /* Banner Section (Dark Mode) */
-    .alt-checker-hero-section {
-        background-color: #0b0d11;
-        background-image:
-            radial-gradient(at 100% 0%, rgba(232, 58, 38, 0.1) 0%, transparent 40%),
-            radial-gradient(at 0% 100%, rgba(0, 212, 255, 0.05) 0%, transparent 40%);
-        padding: 120px 0 100px;
-        position: relative; 
-        overflow: hidden;
-        text-align: center;
-    }
-
-    .grid-overlay-dark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image:
-            linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-        background-size: 50px 50px;
-        z-index: 0;
-    }
-
-    .glow-blob-1,
-    .glow-blob-2 {
-        position: absolute;
-        width: 600px;
-        height: 600px;
-        background: radial-gradient(circle, rgba(232, 58, 38, 0.15) 0%, transparent 70%);
-        border-radius: 50%;
-        filter: blur(100px);
-        z-index: 0;
-    }
-
-    .glow-blob-1 {
-        top: -150px;
-        right: -150px;
-    }
-
-    .glow-blob-2 {
-        bottom: -150px;
-        left: -150px;
-    }
-
-    .alt-checker-hero-section h1 {
-        font-weight: 900;
-        color: #fff;
-        font-size: 64px;
-        letter-spacing: -1.5px;
-        margin-bottom: 24px;
-        position: relative;
-        z-index: 1;
-    }
-
-    .alt-checker-hero-section h1 span {
-        color: #e83a26;
-    }
-
-    .alt-checker-hero-section p {
-        font-size: 20px;
-        color: rgba(255, 255, 255, 0.7);
-        max-width: 850px;
-        margin: 0 auto 50px;
-        line-height: 1.6;
-        position: relative;
-        z-index: 1;
-    }
+    /* Banner Section (Dark Mode) - Moved to style.css */
 
     /* Tool Card (Glassmorphism) */
     .alt-checker-tool-main-card {
@@ -306,7 +238,7 @@
 
     /* Responsive */
     @media (max-width: 768px) {
-        .alt-checker-hero-section h1 { font-size: 32px; }
+        /* .tools-hero-section h1 { font-size: 32px; } - Moved to style.css */
         .alt-checker-tool-main-card { padding: 20px; border-radius: 20px; }
         .alt-checker-table-header { display: none; }
         .alt-checker-result-row { grid-template-columns: 1fr; gap: 15px; text-align: center; justify-items: center; }
@@ -317,10 +249,10 @@
 
 <div class="alt-checker-wrapper">
     <!-- Section 1: Hero Header -->
-    <section class="alt-checker-hero-section">
-        <div class="glow-blob-1"></div>
-        <div class="glow-blob-2"></div>
-        <div class="grid-overlay-dark"></div>
+    <section class="tools-hero-section">
+        <div class="tools-glow-blob-1"></div>
+        <div class="tools-glow-blob-2"></div>
+        <div class="tools-grid-overlay"></div>
 
         <div class="container position-relative z-1">
             <div class="badge bg-danger bg-opacity-25 text-white px-4 py-2 rounded-pill mb-4 border border-danger border-opacity-25 fw-600">Accessibility Engine</div>

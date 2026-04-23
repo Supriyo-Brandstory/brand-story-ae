@@ -6,26 +6,7 @@
     }
 
     /* Hero Section - Image Background */
-    .wgr-hero-report {
-        background: linear-gradient(rgba(10, 11, 15, 0.5), rgba(10, 11, 15, 0.8)), url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        padding: 100px 0 80px;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .wgr-hero-report::before {
-        content: '';
-        position: absolute;
-        top: -10%;
-        right: -10%;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(133, 91, 255, 0.15) 0%, transparent 70%);
-        z-index: 0;
-    }
+    /* Hero Section - Assessment Report (Global Styles Applied) - Moved to style.css */
 
     .wgr-hero-content {
         position: relative;
@@ -267,7 +248,10 @@
 
 <div class="wgr-report-wrapper">
     <!-- HERO ASSESSMENT -->
-    <section class="wgr-hero-report">
+    <section class="tools-hero-section">
+        <div class="tools-glow-blob-1"></div>
+        <div class="tools-glow-blob-2"></div>
+        <div class="tools-grid-overlay"></div>
         <div class="container wgr-hero-content">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">

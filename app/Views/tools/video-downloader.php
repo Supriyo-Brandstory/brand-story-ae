@@ -9,42 +9,7 @@
         --vd-radius: 16px;
     }
 
-    /* Hero */
-    .vd-hero {
-        background: linear-gradient(135deg, #0d0f14 0%, #1a1220 55%, #110e1a 100%);
-        padding: 70px 0 56px;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .vd-hero::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(232, 58, 38, .22) 0%, transparent 70%);
-        pointer-events: none;
-    }
-
-    .vd-hero h1 {
-        font-size: clamp(2rem, 5vw, 3.2rem);
-        font-weight: 800;
-        color: #fff;
-        letter-spacing: -.5px;
-        margin-bottom: 14px;
-    }
-
-    .vd-hero h1 span {
-        color: var(--vd-red);
-    }
-
-    .vd-hero p {
-        color: #bbb;
-        font-size: 1.1rem;
-        max-width: 580px;
-        margin: 0 auto 36px;
-        line-height: 1.6;
-    }
+    /* Hero - Moved to style.css */
 
     /* Pills */
     .vd-platforms {
@@ -608,10 +573,13 @@
 </style>
 
 <!-- HERO -->
-<div class="vd-hero">
-    <div class="container" style="position:relative;z-index:1;">
-        <h1>Free <span>Video Downloader</span></h1>
-        <p>Paste any video URL — YouTube, Instagram, Facebook, or a direct link — and download it instantly. No redirects, no third-party sites.</p>
+<section class="tools-hero-section">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
+    <div class="container position-relative z-1">
+        <h1>Downloader for <br><span>Social Videos</span></h1>
+        <p>Save your favorite videos from YouTube, Instagram, Facebook, and Twitter instantly with zero registration.</p>
 
         <div class="vd-platforms">
             <span class="vd-platform-pill active" data-platform="all">🌐 All Platforms</span>
@@ -654,7 +622,7 @@
             <div id="vd-result"></div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- HOW IT WORKS -->
 <section class="vd-how">

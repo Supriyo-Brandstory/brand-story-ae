@@ -1,20 +1,22 @@
-<section class="wg-hero" style="background-image: url('https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+<section class="tools-hero-section">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
     <div class="container">
-            <div class="col-lg-8 text-white">
-                <h1>How strong is your <br><span>website SEO?</span></h1>
-                <p>Can your website load in seconds? Learn how to improve it for free. Includes 20+ custom SEO checks and an overall performance grade.</p>
-                <div class="wg-form-container">
-                    <form class="wg-form">
-                        <div class="wg-input-group">
-                            <input type="text" placeholder="Enter your website URL"></input>
-                            <button type="submit">Check My Website</button>
-                        </div>
-                    </form>
-                </div>
+        <div class="col-lg-8 text-white mx-auto">
+            <h1>How strong is your <span>website SEO?</span></h1>
+            <p>Can your website load in seconds? Learn how to improve it for free. Includes 20+ custom SEO checks and an overall performance grade.</p>
+            <div class="wg-form-container">
+                <form class="wg-form">
+                    <div class="wg-input-group">
+                        <input type="text" placeholder="Enter your website URL"></input>
+                        <button type="submit">Check My Website</button>
+                    </div>
+                </form>
             </div>
+        </div>
     </div>
 </section>
-
 <section class="new-client-section">
     <h3 class="text-center mb-5 text-dark">Trusted by Visionary Brands <br>Across The UAE</h3>  
 

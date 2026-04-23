@@ -1,17 +1,15 @@
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
 
-<section class="sitemap-generator-section bg-premium-dark sp-120 position-relative overflow-hidden">
-
-    <!-- Sophisticated Dark Background Elements -->
-    <div class="glow-blob-1"></div>
-    <div class="glow-blob-2"></div>
-    <div class="grid-overlay-dark"></div>
+<section class="tools-hero-section">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
 
     <div class="container text-center position-relative z-1 animate-fadeIn">
         <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Robots.txt</div>
-        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">Free Robots.txt Generator</h1>
-        <p class="text-white fs-20 mb-5 max-w-850 mx-auto line-h-1-6">Our Free Robots.txt Generator helps you quickly create a customized robots.txt file for your website <br>without any technical complexity. <br><br>A robots.txt file is placed in the root directory of your website and acts as a set of instructions for search engine <br>crawlers. Platforms like Google, Bing, and Yandex use automated bots to scan and index your website content. However, not every page needs to be visible in search results. Sections like admin panels, private folders, or duplicate content pages can be restricted from crawling using this file.</p>
+        <h1 class="text-white mb-4 fw-900 tracking-tight">Free Robots.txt <span>Generator</span></h1>
+        <p class="text-white fs-20 mb-5 max-w-850 mx-auto line-h-1-6">Our Free Robots.txt Generator helps you quickly create a customized robots.txt file for your website <br>without any technical complexity. <br><br>A robots.txt file is placed in the root directory of your website and acts as a set of instructions for search engine crawlers. Platforms like Google, Bing, and Yandex use automated bots to scan and index your website content. However, not every page needs to be visible in search results. Sections like admin panels, private folders, or duplicate content pages can be restricted from crawling using this file.</p>
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="premium-glass-card p-4 p-md-5 border-glass shadow-glass text-start">

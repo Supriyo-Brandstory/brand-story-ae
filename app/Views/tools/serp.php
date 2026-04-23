@@ -1,9 +1,14 @@
-<div class="serp-simulator-wrapper">
+<section class="tools-hero-section mb-4">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
+    <div class="container position-relative z-1">
+        <h1>Google SERP <span>Simulator</span></h1>
+        <p>Enter title, description, and URL to preview your snippet as it appears in Google search results.</p>
+    </div>
+</section>
 
-    <section class="serp-simulator-header">
-        <h1>Google SERP <span style="color: #e83a26">Simulator</span></h1>
-        <p>Enter title, description, and URL to preview</p>
-    </section>
+<div class="serp-simulator-wrapper">
 
     <section class="serp-simulator">
 

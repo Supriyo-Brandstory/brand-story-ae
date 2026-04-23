@@ -1,12 +1,11 @@
-<section class="sitemap-generator-section bg-premium-dark sp-120 position-relative overflow-hidden">
-    <!-- Sophisticated Dark Background Elements -->
-    <div class="glow-blob-1"></div>
-    <div class="glow-blob-2"></div>
-    <div class="grid-overlay-dark"></div>
+<section class="tools-hero-section">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
 
     <div class="container text-center position-relative z-1 animate-fadeIn">
         <div class="badge bg-purple-glow text-white px-4 py-2 rounded-pill mb-4 border border-purple-alpha fw-600">Sitemap in Seconds</div>
-        <h1 class="text-white mb-4 fw-900 fs-64 tracking-tight">XML Sitemap Generator</h1>
+        <h1 class="text-white mb-4 fw-900 tracking-tight">XML Sitemap <span>Generator</span></h1>
         <p class="text-white fs-20 mb-5 max-w-850 mx-auto line-h-1-6">XML Sitemap is a file that lists a website's important pages, acting as a roadmap for search engines <br>like Google to crawl and index content efficiently. Our XML Sitemap Generator instantly creates a structured sitemap from your website URL to improve visibility and crawling performance. Put your website URL below <br>and generate XML Sitemap in seconds</p>
 
         <div class="row justify-content-center">
@@ -72,8 +71,8 @@
                         </div>
 
                         <div class="xml-preview-wrapper-dark mb-4 position-relative border-glass">
-                            <div class="copy-hint-dark text-white-50">XML SCHEMA DATA</div>
-                            <pre id="xmlPreview" class="text-start p-4 text-green-glow"></pre>
+                            <div class="copy-hint-dark text-white">XML SCHEMA DATA</div>
+                            <pre id="xmlPreview" class="text-start p-4 text-white"></pre>
                         </div>
 
                         <div class="row g-3">

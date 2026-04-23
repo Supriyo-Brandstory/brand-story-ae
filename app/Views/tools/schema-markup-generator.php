@@ -1,7 +1,10 @@
-<section class="wg-hero" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop');">
+<section class="tools-hero-section">
+    <div class="tools-glow-blob-1"></div>
+    <div class="tools-glow-blob-2"></div>
+    <div class="tools-grid-overlay"></div>
     <div class="container">
-        <div class="col-lg-8 text-white">
-            <h1>Schema Markup <br><span>Generator Tool</span></h1>
+        <div class="col-lg-8 text-white mx-auto">
+            <h1>Schema Markup <span>Generator Tool</span></h1>
             <p>Generate JSON-LD schema markup for your website in seconds. Improve your SEO, increase click-through rates, and help search engines understand your content better.</p>
         </div>
     </div>
@@ -192,22 +195,7 @@
 </section>
 
 <style>
-/* ── Hero ── */
-.wg-hero {
-    padding: 120px 0;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.wg-hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-}
-.wg-hero .container { position: relative; z-index: 1; }
-.wg-hero h1 { font-weight: 800; }
-.wg-hero h1 span { color: #ea3a22; }
+/* ── Hero - Moved to style.css ── */
 
 /* ── Tool section ── */
 .tool-section { background: #f4f6f9; }
