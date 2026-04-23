@@ -142,11 +142,14 @@
         text-transform: uppercase;
         letter-spacing: 0.5px;
         transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
     }
 
     .summary-btn:hover {
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3);
+        color: #fff;
     }
 
     /* Article Body */
@@ -536,6 +539,16 @@
         .toc-sidebar {
             display: none;
         }
+
+        .inline-cta-banner {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .summary-box {
+            flex-direction: column;
+            gap: 20px;
+        }
     }
 </style>
 
@@ -584,9 +597,9 @@
                     <div class="summary-box">
                         <div class="summary-text">
                             <h5>Want a Quick Summary?</h5>
-                            <p>Get AI to summarize this article for you in seconds.</p>
+                            <p>Summarize this article instantly with ChatGPT.</p>
                         </div>
-                        <button class="summary-btn">Summarize with AI</button>
+                        <a href="https://chatgpt.com/?q=<?= urlencode("Please summarize this article for me: " . current_url()) ?>" target="_blank" class="summary-btn">Summarize with AI</a>
                     </div>
 
                     <div id="tabel-00" class="blog-description">
@@ -638,12 +651,10 @@
                             <div class="share-sidebar-box">
                                 <div class="share-title">Share this article</div>
                                 <div class="share-buttons">
-                                    <a href="#" class="share-btn share-tw"><i class="bi bi-twitter"></i></a>
-                                    <a href="#" class="share-btn share-fb"><i class="bi bi-facebook"></i></a>
-                                    <a href="#" class="share-btn share-li"><i class="bi bi-linkedin"></i></a>
-                                    <div class="share-count">
-                                        <strong>0</strong> SHARES
-                                    </div>
+                                    <a href="https://twitter.com/intent/tweet?url=<?= urlencode(current_url()) ?>&text=<?= urlencode($blog['title']) ?>" target="_blank" class="share-btn share-tw"><i class="bi bi-twitter"></i></a>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode(current_url()) ?>" target="_blank" class="share-btn share-fb"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= urlencode(current_url()) ?>" target="_blank" class="share-btn share-li"><i class="bi bi-linkedin"></i></a>
+
                                 </div>
                             </div>
                         </div>
