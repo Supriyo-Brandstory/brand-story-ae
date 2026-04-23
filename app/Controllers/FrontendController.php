@@ -3349,7 +3349,7 @@ class FrontendController extends Controller
         }
 
         $sql .= " ORDER BY b.created_at DESC LIMIT $limit";
-        
+
         $blogs = $blogModel->query($sql, $params);
 
         header('Content-Type: application/json');
