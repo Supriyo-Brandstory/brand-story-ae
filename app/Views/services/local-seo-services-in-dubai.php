@@ -7,7 +7,7 @@
                 <div class="col-lg-6">
                     <div class="sem-banner-left">
                         <span class="sem-badge mb-4 d-inline-block">Best Local SEO Agency</span>
-                        <h1 class="text-white mb-4">Trusted Local SEO <span class="theme-highlight">Agency in Dubai</span></h1>
+                        <h1 class="text-white mb-4">Trusted Local SEO Agency in Dubai</h1>
 
                         <!-- Mobile Image Version (Shown after Heading on Mobile) -->
                         <div class="sem-banner-right position-relative d-lg-none mb-5">
