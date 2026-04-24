@@ -481,14 +481,14 @@
     </div>
 </section>
 
-<section class="templates-section">
-    <div class="templates-header">
+<section class="web-templates-section">
+    <div class="web-templates-header">
         <h2>Our Wensite Design Samples</h2>
         <p>Industry-specific designs optimized for performance and conversions.</p>
     </div>
 
-    <div class="templates-track-wrapper">
-        <div class="templates-track">
+    <div class="web-templates-track-wrapper">
+        <div class="web-templates-track">
             <?php 
             $templates = [
                 'automotive.webp',
@@ -502,17 +502,17 @@
                 $displayName = str_replace('.webp', '', $template);
                 $displayName = ucwords(str_replace('-', ' ', $displayName));
             ?>
-            <div class="template-item">
-                <div class="template-img-wrap">
+            <div class="web-template-item">
+                <div class="web-template-img-wrap">
                     <img
                         src="/assets/images/web-templates/<?php echo $template; ?>"
                         alt="<?php echo $displayName; ?>"
                         loading="lazy"
                     >
                 </div>
-                <div class="template-meta">
-                    <span class="template-name"><?php echo $displayName; ?></span>
-                    <!-- <a href="#" class="template-link">Preview →</a> -->
+                <div class="web-template-meta">
+                    <span class="web-template-name"><?php echo $displayName; ?></span>
+                    <!-- <a href="#" class="web-template-link">Preview →</a> -->
                 </div>
             </div>
             <?php endforeach; ?>
@@ -521,122 +521,6 @@
 </section>
 
 <style>
-    .templates-section {
-    background: #0A0B0F;
-    padding: 60px 0;
-    overflow: hidden;
-}
-
-.templates-header {
-    padding: 0 60px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.templates-header h2 {
-    /* font-size: 2rem; */
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.templates-header p {
-    color: #fff;
-    font-size: 1rem;
-    margin: 0;
-}
-
-/* Track */
-.templates-track-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    cursor: grab;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 0 60px 20px;
-}
-
-.templates-track-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
-.templates-track-wrapper:active {
-    cursor: grabbing;
-}
-
-.templates-track {
-    display: flex;
-    gap: 20px;
-    width: max-content;
-}
-
-/* Card */
-.template-item {
-    flex: 0 0 auto;
-    width: 300px;
-}
-
-.template-img-wrap {
-    width: 100%;
-    height: 420px;
-    overflow: hidden;
-    border-radius: 12px;
-    /* border: 1px solid #eee; */
-    /* box-shadow: 0 0 20px rgba(0, 187, 255, 0.2); */
-}
-
-.template-img-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-    display: block;
-}
-
-.template-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 4px 0;
-}
-
-.template-name {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-/* .template-link {
-    font-size: 0.85rem;
-    color: #007bff;
-    text-decoration: none;
-} */
-
-/* .template-link:hover {
-    text-decoration: underline;
-} */
-
-/* Responsive */
-@media (max-width: 768px) {
-    .templates-header,
-    .templates-track-wrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .template-item {
-        width: 240px;
-    }
-
-    .template-img-wrap {
-        height: 320px;
-    }
-    .templates-header p {
-        text-align: left;
-    }
-}
 </style>
 
 

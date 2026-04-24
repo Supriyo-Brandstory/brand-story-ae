@@ -13592,3 +13592,124 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 @media (max-width: 768px) {
     .tools-hero-section h1 { font-size: 32px; }
 }
+
+
+/* web templates */
+
+
+.web-templates-section {
+    background: #0A0B0F;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.web-templates-header {
+    padding: 0 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.web-templates-header h2 {
+    /* font-size: 2rem; */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.web-templates-header p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Track */
+.web-templates-track-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0 60px 20px;
+}
+
+.web-templates-track-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.web-templates-track-wrapper:active {
+    cursor: grabbing;
+}
+
+.web-templates-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+/* Card */
+.web-template-item {
+    flex: 0 0 auto;
+    width: 300px;
+}
+
+.web-template-img-wrap {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 12px;
+    /* border: 1px solid #eee; */
+    /* box-shadow: 0 0 20px rgba(0, 187, 255, 0.2); */
+}
+
+.web-template-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.web-template-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 4px 0;
+}
+
+.web-template-name {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* .template-link {
+    font-size: 0.85rem;
+    color: #007bff;
+    text-decoration: none;
+} */
+
+/* .template-link:hover {
+    text-decoration: underline;
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+    .web-templates-header,
+    .web-templates-track-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .web-template-item {
+        width: 240px;
+    }
+
+    .web-template-img-wrap {
+        height: 320px;
+    }
+    .web-templates-header p {
+        text-align: left;
+    }
+}
