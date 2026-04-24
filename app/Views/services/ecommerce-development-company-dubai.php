@@ -245,6 +245,10 @@
     </div><!--Container End-->
 </section>
 
+<section class="p-0">
+    <img src="/assets/images/ecom.webp" class="w-100" alt="ecommerce development dubai">
+</section>
+
 <section class="perks sp-50">
 	<div class="container">
 		<div class="row">
@@ -477,79 +481,164 @@
     </div>
 </section>
 
-<section class="sp-50 dm-case-studies-section dm-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="sticky-case-study-left">
-                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                    <h2 class="text-white mb-4">Our Wevsite Design and Development Projects</h2>
-                    <p class="text-white-50 fs-20 mb-3">See how our website design and development solutions help businesses in Dubai turn ideas into high-performing digital experiences.</p>
-                    <a href="/case-study/" class="view-all-link">All Case Studies</a>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="scrollable-case-study-right">
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-                        </div>
-                    </div>
+<section class="templates-section">
+    <div class="templates-header">
+        <h2>Our Wensite Design Samples</h2>
+        <p>Industry-specific designs optimized for performance and conversions.</p>
+    </div>
 
+    <div class="templates-track-wrapper">
+        <div class="templates-track">
+            <?php 
+            $templates = [
+                'automotive.webp',
+                'healthcare.webp',
+                'law-firm.webp',
+                'real-estate.webp',
+                'technology.webp'
+            ];
+
+            foreach ($templates as $template):
+                $displayName = str_replace('.webp', '', $template);
+                $displayName = ucwords(str_replace('-', ' ', $displayName));
+            ?>
+            <div class="template-item">
+                <div class="template-img-wrap">
+                    <img
+                        src="/assets/images/web-templates/<?php echo $template; ?>"
+                        alt="<?php echo $displayName; ?>"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="template-meta">
+                    <span class="template-name"><?php echo $displayName; ?></span>
+                    <!-- <a href="#" class="template-link">Preview →</a> -->
                 </div>
             </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
+
+<style>
+    .templates-section {
+    background: #0A0B0F;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.templates-header {
+    padding: 0 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.templates-header h2 {
+    /* font-size: 2rem; */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.templates-header p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Track */
+.templates-track-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0 60px 20px;
+}
+
+.templates-track-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.templates-track-wrapper:active {
+    cursor: grabbing;
+}
+
+.templates-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+/* Card */
+.template-item {
+    flex: 0 0 auto;
+    width: 300px;
+}
+
+.template-img-wrap {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 12px;
+    /* border: 1px solid #eee; */
+    /* box-shadow: 0 0 20px rgba(0, 187, 255, 0.2); */
+}
+
+.template-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.template-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 4px 0;
+}
+
+.template-name {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* .template-link {
+    font-size: 0.85rem;
+    color: #007bff;
+    text-decoration: none;
+} */
+
+/* .template-link:hover {
+    text-decoration: underline;
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+    .templates-header,
+    .templates-track-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .template-item {
+        width: 240px;
+    }
+
+    .template-img-wrap {
+        height: 320px;
+    }
+    .templates-header p {
+        text-align: left;
+    }
+}
+</style>
+
 
 <section class="new-client-section">
     <div class="container-fluid">
