@@ -271,6 +271,10 @@
     </div>
 </section>
 
+<section class="p-0">
+    <img src="/assets/images/ecom.webp" class="w-100" alt="ecommerce development dubai">
+</section>
+
 <section class="perks-of-w sp-50">
     <div class="container"><!--Container Start-->
         <h2 class="text-center">Vertical Dominance</h2>

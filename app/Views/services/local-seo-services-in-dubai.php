@@ -824,138 +824,48 @@
             <div class="position-relative delivertechmain">
                 <div class="swiper dmblog-sld swiper-initialized swiper-horizontal swiper-pointer-events">
                     <div class="swiper-wrapper" id="swiper-wrapper-f704613c58012deb" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1281px, 0px, 0px);">
-                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" role="group" aria-label="8 / 9" style="width: 600.5px; margin-right: 40px;">
+                        
+                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                             <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
-                                <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo.webp">
+                                <h3><a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/" style="color: #000; text-decoration: none;">Local SEO: Why It’s Crucial for Your Business Success</a></h3>
+                                <p class="fs-20">A local search refers to searches made with local intent. For example, if you search for “caterers near me” or include...</p>
                                 <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="8" role="group" aria-label="9 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
-                                <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
-                                <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
-                                <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews &amp; the Future of Google Search: Must-Know Facts</a></h3>
-                                <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                    <a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                             <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring &amp; Reporting with Google Analytics</a></h3>
-                                <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo-packages.webp">
+                                <h3><a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/" style="color: #000; text-decoration: none;">Local SEO Packages Dubai: Everything You Need to Know</a></h3>
+                                <p class="fs-20">Local SEO packages in Dubai are designed to boost your local search rankings, attract more customers, and increase visibility.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                    <a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                             <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
-                                <h3><a href="https://www.brandstory.ae/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
-                                <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-whatsapp-seo.webp">
+                                <h3><a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/" style="color: #000; text-decoration: none;">How WhatsApp, Reviews, and Local SEO Work Together to Grow a Dental Practice</a></h3>
+                                <p class="fs-20">Most dental clinics in Dubai treat WhatsApp, Google reviews, and local SEO as three separate things managed by three different people...</p>
                                 <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/how-long-does-it-take-to-see-results-from-seo-campaigns/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                    <a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-swiper-slide-index="5" role="group" aria-label="6 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                             <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/blog7.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
-                                <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide" data-swiper-slide-index="6" role="group" aria-label="7 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/wd-business/img1.jpg">
-                                <h3><a href="https://www.brandstory.ae/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
-                                <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="7" role="group" aria-label="8 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
+                                <img class="w-100 dm-blog-img" src="/assets/images/blog/core-web-vital-seo.webp">
                                 <h3><a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
-                                <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
+                                <p class="fs-20">With the ever-growing SEO universe, Core Web-Vitals of Google have emerged almost magically as major ranking factors determining website position on the SERP.</p>
                                 <div class="casestydies-readmore">
                                     <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="8" role="group" aria-label="9 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
-                                <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
-                                <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
-                                <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
@@ -964,6 +874,105 @@
             </div>
         </div>
     </section>
+
+    <section class="sp-50">
+    <div class="container map-section text-white">
+        <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
+        <p class="text-center mb-3">As a leading <a href="/seo-services-in-dubai" class="text-purple" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
+
+        <div class="map-img text-center py-2">
+            <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" style="border-radius: 10px;" alt="slider-map">
+            <div class="location-container">
+                <div class="location-marker dubai-marina" data-slide="0">
+                    <h5>Dubai Marina</h5>
+                </div>
+                <div class="location-marker downtown-dubai" data-slide="1">
+                    <h5>Downtown Dubai</h5>
+                </div>
+                <div class="location-marker jumeirah-jbr" data-slide="3">
+                    <h5>Jumeirah &amp; JBR</h5>
+                </div>
+                <div class="location-marker business-bay" data-slide="2">
+                    <h5>Business Bay</h5>
+                </div>
+                <div class="location-marker al-quoz" data-slide="4">
+                    <h5>Dubai Silicon Oasis</h5>
+                </div>
+            </div>
+        </div>
+        <div class="slider-section mb-lg-5 mb-3">
+            <div class="swiper location-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bg-black">
+                        <div class="row">
+                            <div class="col-4 img-col">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-1.png" alt="Client-Testimonial">
+                            </div>
+                            <div class="col-8 py-4 content-slider-col">
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-dubai-marina" style="color: #fff; text-decoration:underline">Dubai Marina</a>
+                                </h5>
+                                <p class="text-start">SEO for hospitality, real estate, and tourism businesses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-black">
+                        <div class="row">
+                            <div class="col-4 img-col">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-2.png" alt="Client-Testimonial">
+                            </div>
+                            <div class="col-8 py-4 content-slider-col">
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-downtown-dubai" style="color: #fff; text-decoration:underline">Downtown Dubai</a>
+                                </h5>
+                                <p class="text-start">E-commerce SEO for high-end brands and shopping outlets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-black">
+                        <div class="row">
+                            <div class="col-4 img-col">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-3.png" alt="Client-Testimonial">
+                            </div>
+                            <div class="col-8 py-4 content-slider-col">
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-business-bay" style="color: #fff; text-decoration:underline">Business Bay</a>
+                                </h5>
+                                <p class="text-start">B2B SEO for corporate firms and financial institutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-4 img-col">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-4.png" alt="Client-Testimonial">
+                            </div>
+                            <div class="col-8 py-4 content-slider-col">
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-company-in-jlt" style="color:#000;text-decoration:underline">Jumeirah &amp; JBR</a>
+                                </h5>
+                                <p class="text-start">Local SEO for restaurants, cafes, and lifestyle businesses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-4 img-col">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-5.png" alt="Client-Testimonial">
+                            </div>
+                            <div class="col-8 py-4 content-slider-col">
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-agency-in-dubai-silicon-oasis" style="color:#000;text-decoration:underline">Dubai Silicon Oasis</a>
+                                </h5>
+                                <p class="text-start">SEO for startups, tech firms, and industrial businesses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center fs-20 font-bold">We tailor our SEO strategies to the needs of Dubai’s dynamic market, helping businesses achieve top search rankings and drive local traffic.</p>
+        <p class="text-center font-bold">Want to dominate local search results in Dubai?</p>
+        <div class="purple-seo-audit-btn mb-3 text-center">
+            <div class="sb-btn"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn btn-light">Get a Free SEO Audit</a></div>
+        </div>
+    </div>
+</section>
 
     <!-- FAQ section started -->
     <section class="sp-80 dm-bg">
