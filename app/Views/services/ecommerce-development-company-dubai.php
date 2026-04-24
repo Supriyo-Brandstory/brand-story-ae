@@ -328,10 +328,6 @@
     </div>
 </section>
 
-<section class="p-0">
-    <img src="/assets/images/ecom.webp" class="w-100" alt="ecommerce development dubai">
-</section>
-
 
 <section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
@@ -682,4 +678,3 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
 </section>
 
-<!-- Include Footer-->
