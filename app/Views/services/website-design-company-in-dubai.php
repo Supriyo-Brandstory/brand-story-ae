@@ -132,11 +132,43 @@
     </div>
 </section>
 
+<section class="web-why-choose sp-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center">
+					<h2>Website Design Technologies</h2>
+				</div>
+				<p class="fs-20 mt-4 mb-4 mt-md-5">We use modern design tools and technologies like Adobe Photoshop, Adobe Illustrator, HTML5, CSS, Bootstrap, and JavaScript to create visually appealing and user-friendly websites. Our focus is on delivering clean layouts, engaging visuals, and seamless user experiences that reflect your brand and capture your audience’s attention. </p>
+			</div>
+		</div>
+			<div class="col-md-12">
+				<h4>Our Web Design Expertise</h4>
+				<div class="site--slider mt-4"><!--slider start-->
+					<div class="swiper ods-logos">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-1.png" class="img-fluid" alt="Adobe Photoshop"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-2.png" class="img-fluid" alt="Adobe Illustrator"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-3.png" class="img-fluid" alt="Figma"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-4.png" class="img-fluid" alt="HTML"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-5.png" class="img-fluid" alt="CSS3"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-6.png" class="img-fluid" alt="Bootstrap"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-7.png" class="img-fluid" alt="JavaScript"></div>
+							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-9.png" class="img-fluid" alt="Opencart"></div>
+						</div>
+						<div class="swiper-pagination ods-pagi"></div>
+					</div>
+				</div><!--slider start-->
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <!-- Section: Our Web Development Services -->
 <section class="dm-bg text-white py-5 web-development-services">
     <div class="container">
-        <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Design Development Platforms</h2>
+        <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Web Design & Development Platforms</h2>
         <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and <a class="text-decoration-underline text-white" href="/website-development-company-in-dubai">web development agency in Dubai</a>, helping brands build a strong and impactful
             digital presence. Our expert web designers craft visually engaging, user-focused website designs that enhance brand visibility, engage visitors, and support meaningful business
             growth.</p>
@@ -297,87 +329,16 @@
 </section>
 
 
-<section class="wdp-flow sp-50 dm-bg position-relative" style="overflow: hidden;">
-    <div class="mouse-circle"></div>
+<section class="dm-bg sp-50">
     <div class="container">
-        <h2 class="text-white mb-5 text-md-start text-center">Website Design Planning to Launch</h2>
-        <div class="row col-reverse">
-            <div class="col-md-6 d-flex">
-                <div class="wdp-flow-main position-relative text-md-start text-center mb-md-0 mb-4">
-                    <h3 class="text-white mb-3">Website Registration</h3>
-                    <p class="text-white mb-0 fs-20">The first step in any web development is obtaining a domain for yourself. With Brandstory as your wingman, you have nothing to worry about with the domain registration process.</p>
-                    <img class="wdp-flow-img d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wdp-flow-arrow.svg">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img class="w-100" src="/assets/images/wdp-flow1.webp" alt="Domain Registration">
-            </div>
+        <h2 class="text-white mb-4 text-md-start text-center">Our Web Design Process</h2>
+        <img class="w-100 d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wd-process.png" alt="Website Design and Development Process - Brandstory">
+        <div class="d-md-none d-block">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl1.png" alt="Website Development Process - Phase 1">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl2.png" alt="Website Development Process - Phase 2">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl3.png" alt="Website Development Process - Phase 3">
+            <img class="w-100 mb-3" src="/assets/images/new-website-design-company-in-dubai/wd-process-mbl4.png" alt="Website Development Process - Phase 4">
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="position-relative">
-                    <img class="w-100 mb-md-0 mb-3" src="/assets/images/new-website-design-company-in-dubai/wdp-flow2.png" alt="Website Planning">
-                    <img class="wdp-flow-img d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wdp-flow-arrow2.svg">
-                </div>
-            </div>
-            <div class="col-md-6 align-self-center">
-                <div class="wdp-flow-main text-md-start text-center mb-md-0 mb-4">
-                    <h3 class="text-white mb-3">Website Planning</h3>
-                    <p class="text-white mb-0 fs-20">It involves identifying the business objective and formulating a strategy that reflects your corporate image and validates your product/service offerings to the targeted customers. We also analyze competitor websites and other important aspects to get an overview.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-md-5 col-reverse">
-            <div class="col-md-6 d-flex">
-                <div class="wdp-flow-main position-relative text-md-start text-center mb-md-0 mb-4">
-                    <h3 class="text-white mb-3">UI /UX Design</h3>
-                    <p class="text-white mb-0 fs-20">The next step is designing a user experience, ensuring your product, service, or website stands out from your competitors. This involves designing intuitive navigation, incorporating multimedia content, and applying effective color and typography for a better user experience. We share the final design with clients for final approval, feedback, and suggestions.</p>
-                    <img class="wdp-flow-img d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wdp-flow-arrow.svg">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img class="w-100 mb-md-0 mb-3" src="/assets/images/wdp-flow3.webp" alt="UI/UX Design">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="position-relative">
-                    <img class="w-100 mb-md-0 mb-3" src="/assets/images/wdp-flow4.webp" alt="Website Development">
-                    <img class="wdp-flow-img d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wdp-flow-arrow2.svg">
-                </div>
-            </div>
-            <div class="col-md-6 align-self-center">
-                <div class="wdp-flow-main text-md-start text-center mb-md-0 mb-4">
-                    <h3 class="text-white mb-3">Website Development</h3>
-                    <p class="text-white mb-0 fs-20">In this stage, frontend design and backend implementation are done to enrich websites with the latest features and functionalities. This process involves making contact forms, the purchase process, etc, functional and working. We also share the beta version of the website with clients to check overall performance, operability, and responsiveness.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-md-5 col-reverse">
-            <div class="col-md-6 d-flex">
-                <div class="wdp-flow-main position-relative text-md-start text-center mb-md-0 mb-4">
-                    <h3 class="text-white mb-3">Website Hosting</h3>
-                    <p class="text-white mb-0 fs-20">The next step is to provide hosting space so your website is accessible to users anytime, anywhere. We offer fast and secure hosting solutions through global cloud platforms like Amazon Web Services (AWS) and Google Cloud, or trusted local providers like AEserver and MilesWeb.</p>
-                    <img class="wdp-flow-img d-md-block d-none" src="/assets/images/new-website-design-company-in-dubai/wdp-flow-arrow.svg">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img class="w-100 mb-md-0 mb-3" src="/assets/images/new-website-design-company-in-dubai/wdp-flow5.png" alt="Website Hosting">
-            </div>
-        </div>
-        <div class="row pt-md-5">
-            <div class="col-md-6">
-                <img class="w-100 mb-md-0 mb-3" src="/assets/images/new-website-design-company-in-dubai/wdp-flow6.png" alt="Ongoing Support and Maintenance">
-            </div>
-            <div class="col-md-6 align-self-center">
-                <div class="wdp-flow-main text-md-start text-center">
-                    <h3 class="text-white mb-3">Post Development Support</h3>
-                    <p class="text-white mb-0 fs-20">Our support and assistance will accompany you every step of the way after the website goes live. We will ensure the smooth operation and maintenance of the website. We are happy to help our customers anytime after website delivery.</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
     </div>
 </section>
 
@@ -436,6 +397,7 @@
     </div>
 </section>
 
+
 <section class="dm-counter-sec sp-50 dm-bg d-none d-md-block">
     <div class="container">
         <div class="row gx-md-0 justify-content-center">
@@ -462,30 +424,74 @@
 </section>
 
 
-<section class="wd-portfolio-sec sp-50 dm-bg">
+<section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
-        <h2 class="mb-4 text-white text-md-start text-center">Our Recent Web Design Projects</h2>
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="dm-portfolio-main position-relative">
-                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio1.png" alt="Cover B Case Study- Website Design & Development">
-                    <div class="dm-porfolio-cnt">
-                        <h3 class="text-white mb-2">Cover B</h3>
-                        <div class="casestydies-readmore" bis_skin_checked="1">
-                            <a href="/case-study/cover-b-wesite/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Our Wevsite Design and Development Projects</h2>
+                    <p class="text-white-50 fs-20 mb-3">See how our website design and development solutions help businesses in Dubai turn ideas into high-performing digital experiences.</p>
+                    <a href="/case-study/" class="view-all-link">All Case Studies</a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="dm-portfolio-main position-relative">
-                    <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/portfolio3.png" alt="Consulting Firm Website ">
-                    <div class="dm-porfolio-cnt">
-                        <h3 class="text-white mb-2">Consulting Firm Website </h3>
-                        <div class="casestydies-readmore" bis_skin_checked="1">
-                            <a href="/case-study/leading-consulting-firm-website/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
                         </div>
                     </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -514,7 +520,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
@@ -537,7 +543,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
@@ -559,7 +565,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
@@ -581,7 +587,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
@@ -604,7 +610,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
@@ -627,7 +633,7 @@
                             <a href="/">Digital marketing</a> |
                             <a href="/seo-services-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
-                            <a href="/website-design-company-in-dubai/">Website Design</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
                             <a href="/branding-agency-in-dubai/">Branding</a> |
                             <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
@@ -640,59 +646,25 @@
     </div>
 </section>
 
-<section class="sp-50 dm-review-sec dm-bg">
-    <div class="container">
-        <h2 class="text-white mb-md-4 text-md-start text-center">Our Client Reviews</h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmreview-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="dm-review-main">
-                            <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">We have been working with Brandstory for the last 2 years. Their website development and digital marketing services helped us completely revamp our online presence. Our new site looks modern and loads fast.</p>
-                            <p class="mb-0 text-center text-white">Khalid Mansoori - Spectrum Accounts</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="dm-review-main">
-                            <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">We are a startup insurance firm in the UAE. Brandstory has a promising role in transforming our digital platform at CoverB. They helped us with building a seamless user experience and modern website interface.</p>
-                            <p class="mb-0 text-center text-white">Daniel White - CoverB</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="dm-review-main">
-                            <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">Brandstory created a user-friendly website that aligns with our identity as a global IoT-powered predictive maintenance company. On top of that, their digital marketing strategies significantly boosted our online visibility.</p>
-                            <p class="mb-0 text-center text-white">Mark Reynolds- NanoPrecise Sci Corp</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="dm-review-main">
-                            <img class="mb-4" src="/assets/images/dm-agency-dubai/review-icon.svg?v=1">
-                            <p class="text-white text-center mb-3">Brandstory has been an outstanding partner for the last 2 years. They helped us design a great website that effectively showcases our brand’s innovative solutions. Their team was proactive, professional, and always ready.</p>
-                            <h3 class="text-white mb-1 text-center"></h3>
-                            <p class="mb-0 text-center text-white">Faisal Al Rashid- FourNxt</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next dmreview-next"></div>
-            <div class="swiper-button-prev dmreview-prev"></div>
-        </div>
-    </div>
-</section>
+<?php
+$reviewSection = [
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
 <section class="dm-grow-section dm-bg sp-50">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Contact Our Web Development
-            <span class="db">Experts in Dubai
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Contact Web Design
+            <span class="db">Experts in Dubai- BrandStory
         </h2>
         <div class="row">
             <div class="col-lg-6">
                 <div class="growimg position-relative mb-lg-0 mb-3">
                     <img class="w-100" src="/assets/images/new-website-design-company-in-dubai/contact.png" alt="Talk to Our Experts">
                     <div class="growimg-cnt">
-                        <p class="mb-md-5 mb-3 text-white fs-20">Our experts are here to listen to your needs. We make responsive web design, follow SEO best practcies, and work with the latest technology stack like AR/VR, AI integration, and progressive web apps (PWAs). Brandstory is the best web design company in Dubai to help you with innovative and premium website development solutions.</p>
+                        <p class="mb-md-5 mb-3 text-white fs-20">Our experts understand your needs and create responsive web designs with SEO best practices, using advanced technologies like AI integration. BrandStory is a leading web design company in Dubai, delivering innovative and premium website solutions.</p>
                         <div class="grow-btn d-flex">
                             <a href="/contact/">Talk to Our Experts</a>
                         </div>
@@ -812,293 +784,106 @@
 <section class="dm-faq-section sp-50 dm-bg">
     <div class="container">
         <h2 class="text-center text-white mb-lg-5 mb-4">Your Questions Answered</h2>
+        
         <div class="dm-faq-main">
-            <ul class="nav nav-pills justify-content-md-center" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-dm-tab" data-bs-toggle="pill" data-bs-target="#pills-dm" type="button" role="tab" aria-controls="pills-dm" aria-selected="true">Planning & Strategy</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-sm-tab" data-bs-toggle="pill" data-bs-target="#pills-sm" type="button" role="tab" aria-controls="pills-sm" aria-selected="false">Development</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-as-tab" data-bs-toggle="pill" data-bs-target="#pills-as" type="button" role="tab" aria-controls="pills-as" aria-selected="false">Post-Launch & SEO</button>
-                </li>
-            </ul>
+            
+
             <div class="tab-content" id="pills-tabContent">
-                <!-- Digital Marketing Start -->
-                <div class="tab-pane fade show active" id="pills-dm" role="tabpanel" aria-labelledby="pills-dm-tab">
-                    <div class="accordion accordion-flush" id="accordionFlushExample1">
+                <!-- Website Design Start -->
+                <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                    <div class="accordion accordion-flush" id="accordionDesign">
+
                         <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingOne1-1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1-1" aria-expanded="false" aria-controls="flush-collapseOne1-1">
+                            <h4 class="accordion-header" id="design-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseOne" aria-expanded="false" aria-controls="design-collapseOne">
                                     Why Do I Need a Website?
                                 </button>
                             </h4>
-                            <div id="flush-collapseOne1-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1-1" data-bs-parent="#accordionFlushExample1">
+                            <div id="design-collapseOne" class="accordion-collapse collapse" aria-labelledby="design-headingOne" data-bs-parent="#accordionDesign">
                                 <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">Websites act as a digital storefront for businesses to build an online presence and connect with audiences of all size. In a competitive marketplace like Dubai, a well-designed website can act as the digital hub for information about your business, drive engagement, and boost sales online. It makes your brand accessible 24*7, where customers can engage with your products and services anytime, anywhere.</p>
+                                    <p class="fs-20 text-white mb-0">A website acts as your digital storefront, helping your business build an online presence, attract customers, and stay accessible 24/7. It enhances your visibility and strengthens your brand identity in a competitive market.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingTwo1-2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1-2" aria-expanded="false" aria-controls="flush-collapseTwo1-2">
-                                    How Does a Website Help Us Build Trustworthy Brand?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseTwo1-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1-2" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">Websites need to be intuitively designed and maintained to power up your branding efforts online. It provides necessary information, reflects professionalism, and encourages customer interactions. Overall, it builds trust and credibility when more and more people get to know about your business online. The most important attribute is creating a positive first impression among customers, so it needs to be user-friendly and professionally designed to capture interest.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingThree1-3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1-3" aria-expanded="false" aria-controls="flush-collapseThree1-3">
-                                    What Design Approach Should We Take to Represent Our Brand Best?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseThree1-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree1-3" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">The website design approach must be aligned with your business goals, targeted audience, and brand identity. Maintaining brand color and typography across all design elements is essential to branding. Easy navigation, responsive layout, and clean visuals are the key metrics to encourage user engagement. We recommend that you have a brand discovery session to describe your brand voice, value, and visual preference, and we can turn it into a custom design that will set you apart from competitors.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfour1-4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour1-4" aria-expanded="false" aria-controls="flush-collapsefour1-4">
-                                    How Can We Ensure Your Company Understands Our Specific Needs and Goals?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefour1-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour1-4" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">We start with a brand discovery phase to understand your business-specific needs, vision, and target audience. Through strategy meetings, detailed questionnaires, and competitor research, we gain a deep understanding of your goals. We work in a collaborative approach with a series of feedback loops and milestone reviews to keep you informed from project start to finish.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfive1-5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive1-5" aria-expanded="false" aria-controls="flush-collapsefive1-5">
-                                    How Do We Choose The Best Web Development Company in Dubai?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefive1-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive1-5" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">To choose a reliable web development company in Dubai, look for agencies with a proven track record, portfolio, and client reviews. Understand their technical expertise, design capabilities, and all other essential metrics before making a decision. Know about their communication process, timeline of a project, and post-launch support services in detail. A trustworthy company should be transparent and focused on delivering the best solutions based on the business goals.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingsix1-6">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix1-6" aria-expanded="false" aria-controls="flush-collapsesix1-6">
-                                    What are The Latest Web Development Trends in Dubai?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsesix1-6" class="accordion-collapse collapse" aria-labelledby="flush-headingsix1-6" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">The website design and development landscape of Dubai is focused on innovation, luxury branding, and user-centric design. Key trends are:</p>
-                                    <ul class="mb-0">
-                                        <li class="text-white fs-20">Progressive Web Apps (PWAs): Delivering fast, app-like experiences in browsers.</li>
-                                        <li class="text-white fs-20">AI Integration: From chatbots to smart content recommendations.</li>
-                                        <li class="text-white fs-20">Voice Search: Catering to the increasing use of voice-enabled devices.</li>
-                                        <li class="text-white fs-20">Mobile-First Design: Prioritizing responsive layouts and aesthetics to match Dubai’s high-end design standards.</li>
-                                        <li class="text-white fs-20">Enhanced Cybersecurity: Essential for protecting user data in finance, healthcare, and e-commerce sectors.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingseven1-7">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven1-7" aria-expanded="false" aria-controls="flush-collapseseven1-7">
-                                    What is The Average Cost of Website Development in Dubai?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseseven1-7" class="accordion-collapse collapse" aria-labelledby="flush-headingseven1-7" data-bs-parent="#accordionFlushExample1">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">Website design and development cost in Dubai varies with website type, platform, design complexity, and level of customization required. The average cost:</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20  text-white">A basic business website can cost between AED 2,000 to AED 8,000.</li>
-                                        <li class="fs-20 text-white">Custom-designed corporate or service website typically ranges from AED 6,000 to AED 30,000.</li>
-                                        <li class="fs-20 text-white">E-commerce websites or portal-based platforms with advanced functionalities can go from AED 15,000 to AED 60,000+.</li>
-                                    </ul>
-                                    <p class="mb-0 fs-20 text-white">Website design and development cost depends on several factors like content creation, features and functionality, number of pages, CMS integration, etc.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Digital Marketing end -->
 
-                <!-- SEO, Traffic, Social Media Start -->
-                <div class="tab-pane fade" id="pills-sm" role="tabpanel" aria-labelledby="pills-sm-tab">
-                    <div class="accordion accordion-flush" id="accordionFlushExample2">
                         <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingOne2-1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2-1" aria-expanded="false" aria-controls="flush-collapseOne2-1">
-                                    How Much Time Does It Take to Develop a Website?
+                            <h4 class="accordion-header" id="design-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseTwo" aria-expanded="false" aria-controls="design-collapseTwo">
+                                    How Does Website Design Help Build a Trustworthy Brand?
                                 </button>
                             </h4>
-                            <div id="flush-collapseOne2-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2-1" data-bs-parent="#accordionFlushExample2">
+                            <div id="design-collapseTwo" class="accordion-collapse collapse" aria-labelledby="design-headingTwo" data-bs-parent="#accordionDesign">
                                 <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">The actual timing of website development depends on the complexity and scope of the project. Basic business websites can take up to 2 weeks to 4 weeks, including all phases. Complex websites like e-commerce and corporate websites can take 6 to 12 weeks. Some of the factors that influence the timeline are the number of pages, functionality, and feedback loops. As a reliable website development company, we provide a detailed product schedule and keep the process transparent and smooth.</p>
+                                    <p class="fs-20 text-white mb-0">A well-designed website reflects professionalism, improves user experience, and builds trust. Clean layouts, strong visuals, and easy navigation create a positive first impression and enhance your brand credibility.</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingTwo2-2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2-2" aria-expanded="false" aria-controls="flush-collapseTwo2-2">
-                                    What Platforms or Technologies Should We Use for Web Development?
+                            <h4 class="accordion-header" id="design-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseThree" aria-expanded="false" aria-controls="design-collapseThree">
+                                    What Design Approach You Take for Brands?
                                 </button>
                             </h4>
-                            <div id="flush-collapseTwo2-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo2-2" data-bs-parent="#accordionFlushExample2">
+                            <div id="design-collapseThree" class="accordion-collapse collapse" aria-labelledby="design-headingThree" data-bs-parent="#accordionDesign">
                                 <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">Business needs, budget, and scalability goals are deciding factors behind the ideal platform choice. For simplistic websites, it is good to go for WordPress or Wix-like CMS platforms that are flexible and easy to use. For a complex website, we recommend custom website development. Here are the options:</p>
+                                    <p class="fs-20 text-white mb-0">We align your website design with your brand identity, target audience, and business goals. We ensure consistent colors, typography, and intuitive navigation to deliver a strong and engaging user experience.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="design-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseFour" aria-expanded="false" aria-controls="design-collapseFour">
+                                    How Do You Align the Design with My Requirements?
+                                </button>
+                            </h4>
+                            <div id="design-collapseFour" class="accordion-collapse collapse" aria-labelledby="design-headingFour" data-bs-parent="#accordionDesign">
+                                <div class="accordion-body">
+                                    <p class="fs-20 text-white mb-0">We begin with a detailed brand discovery session to understand your vision, audience, and preferences. This allows us to create a tailored design that perfectly matches your business objectives.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="design-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseFive" aria-expanded="false" aria-controls="design-collapseFive">
+                                    What Are the Latest Website Design Trends?
+                                </button>
+                            </h4>
+                            <div id="design-collapseFive" class="accordion-collapse collapse" aria-labelledby="design-headingFive" data-bs-parent="#accordionDesign">
+                                <div class="accordion-body">
                                     <ul class="mb-0">
-                                        <li class="fs-20 text-white">Front-end: HTML5, CSS3, JavaScript (React, Vue.js)</li>
-                                        <li class="fs-20 text-white">Back-end: Node.js, PHP (Laravel), Python (Django), Angular JS, or .NET</li>
-                                        <li class="fs-20 text-white">CMS: WordPress, Webflow, or Headless CMS like Strapi or Contentful</li>
-                                        <li class="fs-20 text-white">E-commerce: Shopify, WooCommerce, or Magento</li>
+                                        <li class="text-white fs-20">Minimal and clean UI designs</li>
+                                        <li class="text-white fs-20">Mobile-first responsive layouts</li>
+                                        <li class="text-white fs-20">AI-powered personalization</li>
+                                        <li class="text-white fs-20">Bold typography and visual storytelling</li>
                                     </ul>
-                                    <p class="fs-20 text-white mb-0">We help you choose the best stack based on performance, security, and your goals.</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingThree2-3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2-3" aria-expanded="false" aria-controls="flush-collapseThree2-3">
-                                    How to Website is Visually Appealing and User-friendly?
+                            <h4 class="accordion-header" id="design-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design-collapseSix" aria-expanded="false" aria-controls="design-collapseSix">
+                                    How Much Does Website Design Cost?
                                 </button>
                             </h4>
-                            <div id="flush-collapseThree2-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree2-3" data-bs-parent="#accordionFlushExample2">
+                            <div id="design-collapseSix" class="accordion-collapse collapse" aria-labelledby="design-headingSix" data-bs-parent="#accordionDesign">
                                 <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">We combine aesthetic design and easy navigation functionality to ensure your website is visually appealing and user friendly. We use a modern blend of colors, layouts, intuitive menus, and high-end visuals keeping mobile responsiveness in mind. We start with creating design mockups and wireframes, share with the client for feedback. Throughout the whole process we utilize UI/UX best practices to ensure the user journey is conversion focused and smooth.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfour2-4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour2-4" aria-expanded="false" aria-controls="flush-collapsefour2-4">
-                                    How to Ensure a Website is Secure and Protects User Data?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefour2-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour2-4" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-2">We follow a standard practice to protect website and user data. To build an encrypted connection we install SSL certificates, use secure coding standards, updating software, plugins, and frameworks. Additionally, we setup firewall, malware protection, and user authentication protocols that prevents any unauthorized access. If your website handles payment and sensitive data, we ensure GDPR compliance and PCI DSS standards. For extra measures we perform  security audits and backups as a part of ongoing support service.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfive2-5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive2-5" aria-expanded="false" aria-controls="flush-collapsefive2-5">
-                                    How to Integrate Website with Other Online Tools (e.g., social media, CRM)?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefive2-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive2-5" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">We can integrate your website with a wide range of tools for a streamlined workflow. This includes:</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 text-white">Social Media: Embedding feeds, share buttons, and login feature (e.g., Facebook, Instagram, LinkedIn).</li>
-                                        <li class="fs-20 text-white">CRM Systems: Connecting to platforms like HubSpot, Zoho, Salesforce, or custom CRMs.</li>
-                                        <li class="fs-20 text-white">Email Marketing Tools: Integrating with Mailchimp, Sendinblue, or Constant Contact for newsletter signups and email campaigns.</li>
-                                        <li class="fs-20 text-white">Analytics & Tracking: Setting up Google Analytics, Facebook Pixel, or Tag Manager for real-time insights.</li>
-                                    </ul>
-                                    <p class="mb-0 text-white fs-20">We provide a full-suite service of online tool integration along with website development. Contact us to get a free consultation and know more in details.</p>
+                                    <p class="fs-20 text-white mb-0">Website design cost depends on complexity, number of pages, and customization. A simple business website is more affordable, while advanced custom UI/UX designs require higher investment based on requirements.</p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <!-- SEO, Traffic, Social Media End -->
-
-                <!-- Agency Support Start -->
-                <div class="tab-pane fade" id="pills-as" role="tabpanel" aria-labelledby="pills-as-tab">
-                    <div class="accordion accordion-flush" id="accordionFlushExample3">
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingOne3-1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3-1" aria-expanded="false" aria-controls="flush-collapseOne3-1">
-                                    Do you offer Post-launch Support after Website Development?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseOne3-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne3-1" data-bs-parent="#accordionFlushExample3">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">Yes, we offer post-launch support to ensure your website run smooth and remain updated. We provide support services for fixing bugs, performance monitoring, security updates, content updates, and more. Whether it's minor adjustments or long-term support, we're here to help after your site goes live.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingTwo3-2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo3-2" aria-expanded="false" aria-controls="flush-collapseTwo3-2">
-                                    What Kind of Support and Maintenance Services Do You Offer After Launch?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseTwo3-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo3-2" data-bs-parent="#accordionFlushExample3">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">We provide a wide range of post-launch support and maintenance services. This includes:</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 text-white">Regular Updates: Core platform, plugin, and security updates.</li>
-                                        <li class="fs-20 text-white">Bug Fixes & Troubleshooting: Prompt resolution of any technical issues during post launch.</li>
-                                        <li class="fs-20 text-white">Backup Management: Scheduled backups to safeguard your website data.</li>
-                                        <li class="fs-20 text-white">Performance Monitoring: Ongoing speed checks and optimization.</li>
-                                        <li class="fs-20 text-white">Content Updates: Support for updating text, images, or adding new pages.</li>
-                                        <li class="fs-20 text-white">Security Monitoring: Protection against threats with malware scans and firewall management.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingThree3-3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree3-3" aria-expanded="false" aria-controls="flush-collapseThree3-3">
-                                    Who Will be Responsible for Updating Content and Making Changes?
-                                </button>
-                            </h4>
-                            <div id="flush-collapseThree3-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree3-3" data-bs-parent="#accordionFlushExample3">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">There are two ways to perform content management based on your specific requirements.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 text-white">Client Managed Appraoch: We build websites with CMS backend where you can update content and images seamlessly. WordPress and Wix websites also provides easy content update features but adequate training is required.</li>
-                                    </ul>
-                                    <p class="text-white fs-20">Agency-Managed: If you prefer a hands-off approach, our experts can change content, visual elements, and perform design tweaks according to your needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfour3-4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour3-4" aria-expanded="false" aria-controls="flush-collapsefour3-4">
-                                    How Can We Ensure Our Website Stays Up-to-date with The Latest Trends?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefour3-4" class="accordion-collapse collapse" aria-labelledby="flush-headingfour3-4" data-bs-parent="#accordionFlushExample3">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">We offer periodic audits and trend-based recommendations as a part of our support & maintenance plans. So, you dont need to worry about the latest industry trends and practices. We’ll update you about the latest trends and industry updates relevant to your business.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="flush-headingfive3-5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive3-5" aria-expanded="false" aria-controls="flush-collapsefive3-5">
-                                    How Can We Ensure Our Website is Optimized for SEO and User Experience?
-                                </button>
-                            </h4>
-                            <div id="flush-collapsefive3-5" class="accordion-collapse collapse" aria-labelledby="flush-headingfive3-5" data-bs-parent="#accordionFlushExample3">
-                                <div class="accordion-body">
-                                    <p class="fs-20 text-white mb-0">You can ensure by relying on our experts. We build every website with SEO and user experience in mind.</p>
-                                    <ul class="mb-0">
-                                        <li class="fs-20 text-white">SEO Best Practices: Optimized page titles, meta descriptions, image alt tags, and mobile responsiveness.</li>
-                                        <li class="fs-20 text-white">Clean Code Structure: Ensuring fast load times, secure architecture, and crawlable content.</p>
-                                        <li class="fs-20 text-white">User-Centric Design: Clear navigation, readable fonts, and intuitive layouts for a seamless browsing.</p>
-                                    </ul>
-                                    <p class="fs-20 text-white mb-0">Technical Setup: Integration with tools like Google Analytics and Search Console to monitor performance.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Agency Support End -->
+                <!-- Website Design End -->
             </div>
         </div>
     </div>
 </section>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {

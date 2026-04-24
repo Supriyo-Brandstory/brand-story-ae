@@ -1,185 +1,179 @@
 <!-- Include Header-->
 <section class="service-banner website-design-banner sp-50">
-    <div class="container"><!--Container Start-->
-        <div class="row align-items-center"><!--Row Start-->
-            <div class="col-md-6"> <!--col start-->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
                 <div class="service-banner-txt">
-                    <h1>Drupal Website Development Company in Dubai</h1>
-                    <p>BrandStory is a top-tier Drupal development agency in Dubai, delivering enterprise-grade CMS solutions for complex digital ecosystems. We specialize in building secure, modular, and highly scalable Drupal platforms for government, corporate, and high-growth businesses in the UAE.</p>
-                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Build your Drupal platform today!</a></div>
+                    <h1>Drupal Development Company in Dubai</h1>
+                    <p>BrandStory is a trusted Drupal development agency in Dubai delivering enterprise-grade web platforms for government entities, large corporations, and ambitious brands across the UAE and GCC. We build powerful, content-rich, and highly secure Drupal solutions engineered for long-term digital success.</p>
+                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Build Your Drupal Platform</a></div>
                 </div>
-            </div><!--col end-->
-            <div class="col-md-6"> <!--col start-->
+            </div>
+            <div class="col-md-6">
                 <div class="service-banner-form">
                     <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
                 </div>
-            </div><!--col end-->
-        </div><!--Row End-->
-    </div><!--Container End-->
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Enterprise CMS</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Custom Module Dev</a>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Custom Module Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
             <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Headless Drupal</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">D7/D8 to D10 Migration</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Acquia Support</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Security Patching</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Performance Tuning</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
             <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Commerce</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Migration</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Multisite Architecture</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Enterprise CMS</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Security Hardening</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Support & Updates</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>
 </section>
 
 <section id="knowMore" class="web-design-abt sp-50">
-    <div class="container"><!--Container Start-->
-        <div class="row align-items-center"><!--Row Start-->
-            <div class="col-md-6"> <!--col start-->
-                <div class="best-txt"><!--txt start-->
-                    <h2>Expert Drupal Web Development in Dubai</h2>
-                    <p>Dubai is a global tech hub that demands high-performance digital infrastructure. At BrandStory, we harness the power of Drupal—the most robust, modular, and flexible CMS—to create websites that handle heavy traffic and complex content architectures with ease.</p>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="best-txt">
+                    <h2>Drupal Web Development Services in Dubai Built for Enterprise Scale</h2>
+                    <p>Not every business needs a website some need a platform. Drupal is the CMS of choice for organisations that manage large volumes of content, require granular user permissions, and demand uncompromising security. Trusted by corporate clients, universities, and Government entities in Dubai, UAE, Drupal offers a level of architectural flexibility that few platforms can match.</p>
                     <br>
-                    <p>Our Drupal developers in Dubai are sought after for their deep technical skills in creating custom modules, specialized themes, and seamless integrations. We take pride in building platforms that are not only visually impressive but also technically superior in terms of scalability and security.</p>
+                    <p>At BrandStory, our Drupal web development agency in Dubai brings that enterprise capability to businesses of every size operating in the UAE. Our certified developers architect Drupal solutions with structured content modelling, <b>custom module development, role-based access control, and multilingual support</b> capabilities critical for brands operating across the diverse GCC market.</p>
                     <br>
-                    <p>Whether you are a startup looking for a solid foundation or a large-scale enterprise migrating to the latest Drupal version, we provide straightforward, expert-led solutions tailored to the unique business landscape of Dubai.</p>
-                </div><!--txt end-->
-            </div><!--col end-->
-            <div class="col-md-6"> <!--col start-->
-                <div class="best-img">
-                    <img src="/assets/images/service/website-design/web-design-abt.jpg" class="img-fluid" alt="drupal development dubai">
+                    <p>From building a complex multi-department government portal to a headless Drupal backend powering mobile apps and digital kiosks, we engineer every solution around your operational reality, compliance requirements, and long-term scalability goals.</p>
                 </div>
-            </div><!--col end-->
-        </div><!--Row End-->
-    </div><!--Container End-->
+            </div>
+            <div class="col-md-6">
+                <div class="best-img">
+                    <img src="/assets/images/service/website-design/web-design-wordpress.webp" class="img-fluid" alt="drupal web development company dubai">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="additional-content em-company sp-50">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center mb-5">
-                <h2>Our Drupal Delivery Ecosystem</h2>
-                <p>Drupal's modularity makes it the ideal choice for businesses that require high customization and deep integration. At BrandStory, we don't just build websites; we engineer digital experiences that grow with your brand.</p>
+            <div class="col-md-12">
+                <h2 class="text-center mb-5">Drupal Development Services We Offer in Dubai</h2>
+                <p>Drupal powers some of the world's most demanding digital platforms from government portals managing millions of citizens to global media houses publishing thousands of articles daily. As a specialist Drupal development agency in Dubai, BrandStory delivers the full spectrum of Drupal web development services tailored to UAE enterprises, SMEs, and public sector organisations. Whether you need a headless architecture or a feature-rich <a href="https://www.brandstory.ae/ecommerce-development-company-dubai/" style="color:#000; text-decoration:underline;"><b>Drupal Commerce platform</b></a>, our team has the expertise to execute it precisely.</p>
             </div>
         </div>
 
         <div class="emcd-row spt-50">
-            <div class="row align-items-stretch"><!--Row Start-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+            <div class="row align-items-stretch">
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-1.png" class="img-fluid" alt="drupal consultation dubai"></div>
-                        <div class="emcd--box-txt">Drupal Consultation</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-1.png" class="img-fluid" alt="drupal custom module development dubai"></div>
+                        <div class="emcd--box-txt">Custom Module Development</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-2.png" class="img-fluid" alt="drupal module development dubai"></div>
-                        <div class="emcd--box-txt">Custom Module Dev</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-2.png" class="img-fluid" alt="headless drupal development dubai"></div>
+                        <div class="emcd--box-txt">Headless & Decoupled Drupal</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-3.png" class="img-fluid" alt="drupal theme design dubai"></div>
-                        <div class="emcd--box-txt">Premium Theming</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-3.png" class="img-fluid" alt="drupal commerce development dubai"></div>
+                        <div class="emcd--box-txt">Drupal Commerce Development</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-4.png" class="img-fluid" alt="drupal commerce dubai"></div>
-                        <div class="emcd--box-txt">Drupal Commerce</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-4.png" class="img-fluid" alt="drupal multisite development dubai"></div>
+                        <div class="emcd--box-txt">Multisite Architecture</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-5.png" class="img-fluid" alt="drupal migration dubai"></div>
-                        <div class="emcd--box-txt">Version Migration</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-5.png" class="img-fluid" alt="drupal version migration dubai"></div>
+                        <div class="emcd--box-txt">Drupal Version Migration</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-6.png" class="img-fluid" alt="drupal maintenance dubai"></div>
-                        <div class="emcd--box-txt">Site Maintenance</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-6.png" class="img-fluid" alt="drupal performance optimization dubai"></div>
+                        <div class="emcd--box-txt">Performance & Cache Optimization</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-7.png" class="img-fluid" alt="drupal seo dubai"></div>
-                        <div class="emcd--box-txt">Search Optimization</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-7.png" class="img-fluid" alt="drupal third party integration dubai"></div>
+                        <div class="emcd--box-txt">Third-Party System Integration</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-8.png" class="img-fluid" alt="drupal integration dubai"></div>
-                        <div class="emcd--box-txt">Third-Party Sync</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-8.png" class="img-fluid" alt="drupal security hardening dubai"></div>
+                        <div class="emcd--box-txt">Enterprise Security Hardening</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-9.png" class="img-fluid" alt="headless drupal dubai"></div>
-                        <div class="emcd--box-txt">Headless Drupal</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-9.png" class="img-fluid" alt="drupal content architecture dubai"></div>
+                        <div class="emcd--box-txt">Content Architecture & Taxonomy</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-10.png" class="img-fluid" alt="drupal security dubai"></div>
-                        <div class="emcd--box-txt">Security Hardening</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-10.png" class="img-fluid" alt="drupal multilingual website dubai"></div>
+                        <div class="emcd--box-txt">Multilingual Website Development</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-11.png" class="img-fluid" alt="drupal audit dubai"></div>
-                        <div class="emcd--box-txt">Site Performance Audit</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-11.png" class="img-fluid" alt="drupal theme development dubai"></div>
+                        <div class="emcd--box-txt">Custom Theme & UI Development</div>
                     </div>
-                </div><!--col end-->
-                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
+                </div>
+                <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col">
                     <div class="emcd--box">
-                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-12.png" class="img-fluid" alt="drupal support dubai"></div>
-                        <div class="emcd--box-txt">24/7 Tech Support</div>
+                        <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-12.png" class="img-fluid" alt="drupal maintenance support dubai"></div>
+                        <div class="emcd--box-txt">Ongoing Maintenance & Support</div>
                     </div>
-                </div><!--col end-->
-            </div><!--Row End-->
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <section class="service-process web-design-workflow sp-50">
-    <div class="container"><!--Container Start-->
+    <div class="container">
         <div class="max-1000 text-center">
-            <h2 class="mb-3">Our Strategic Drupal Process</h2>
+            <h2 class="mb-3">Our Drupal Web Development Process</h2>
         </div>
         <div class="sprocess-tabs-sec">
             <div class="sprocess-tabs">
                 <div class="sptab-links">
                     <ul class="nav nav-tabs" id="drupalTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="dst1" data-bs-toggle="tab" data-bs-target="#dst-1" type="button" role="tab" aria-selected="true">Intelligence</button>
+                            <button class="nav-link active" id="dst1" data-bs-toggle="tab" data-bs-target="#dst-1" type="button" role="tab" aria-selected="true">Discovery</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst2" data-bs-toggle="tab" data-bs-target="#dst-2" type="button" role="tab" aria-selected="false">Blueprinting</button>
+                            <button class="nav-link" id="dst2" data-bs-toggle="tab" data-bs-target="#dst-2" type="button" role="tab" aria-selected="false">Architecture</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst3" data-bs-toggle="tab" data-bs-target="#dst-3" type="button" role="tab" aria-selected="false">UI Design</button>
+                            <button class="nav-link" id="dst3" data-bs-toggle="tab" data-bs-target="#dst-3" type="button" role="tab" aria-selected="false">Development</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst4" data-bs-toggle="tab" data-bs-target="#dst-4" type="button" role="tab" aria-selected="false">Technical Dev</button>
+                            <button class="nav-link" id="dst4" data-bs-toggle="tab" data-bs-target="#dst-4" type="button" role="tab" aria-selected="false">QA & Security</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst5" data-bs-toggle="tab" data-bs-target="#dst-5" type="button" role="tab" aria-selected="false">Optimization</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst6" data-bs-toggle="tab" data-bs-target="#dst-6" type="button" role="tab" aria-selected="false">QA & Security</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="dst7" data-bs-toggle="tab" data-bs-target="#dst-7" type="button" role="tab" aria-selected="false">Launch</button>
+                            <button class="nav-link" id="dst5" data-bs-toggle="tab" data-bs-target="#dst-5" type="button" role="tab" aria-selected="false">Deployment</button>
                         </li>
                     </ul>
                 </div>
@@ -188,11 +182,11 @@
                     <div class="tab-pane fade show active" id="dst-1" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Objective Analysis</h5>
-                                <p>We start by understanding the complex business requirements of your project. We analyze your content types, user flows, and integration needs to ensure Drupal is configured for maximum ROI.</p>
+                                <h5>In-Depth Discovery</h5>
+                                <p>Every complex Drupal project begins with deep discovery. We work closely with your stakeholders to map out content workflows, user roles, integration requirements, compliance needs, and traffic expectations. This phase defines the scope, identifies technical dependencies, and establishes the architectural direction ensuring nothing is built on assumptions and everything is tied directly to your organisation's operational objectives.</p>
                             </div>
                             <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/fb-strategy.webp" class="img-fluid" alt="drupal intelligence dubai">
+                                <img src="/assets/images/service/planning.webp" class="img-fluid" alt="drupal development discovery dubai">
                             </div>
                         </div>
                     </div>
@@ -200,11 +194,11 @@
                     <div class="tab-pane fade" id="dst-2" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Information Architecture</h5>
-                                <p>We map out the taxonomy and structural hierarchy of your content. Our architects ensure your Drupal site is modular and ready for enterprise-level scaling.</p>
+                                <h5>Architecture & Design</h5>
+                                <p>Before a single line of code is written, we engineer your Drupal content model. This means designing content types, taxonomies, views, and field structures that reflect how your organisation actually creates and manages information. Alongside this, our UI team designs interfaces that simplify content workflows for editors while delivering a polished, on-brand experience for end users eliminating the friction that often comes with complex CMS platforms.</p>
                             </div>
                             <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/audiance-build.webp" class="img-fluid" alt="drupal blueprinting dubai">
+                                <img src="/assets/images/service/ux-design.webp" class="img-fluid" alt="drupal content architecture dubai">
                             </div>
                         </div>
                     </div>
@@ -212,11 +206,11 @@
                     <div class="tab-pane fade" id="dst-3" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Custom Drupal Theming</h5>
-                                <p>We design a bespoke interface that doesn't just look great but functions perfectly on mobile and desktop. We focus on clean, accessible UI that reflects your brand's expertise.</p>
+                                <h5>Agile Drupal Development</h5>
+                                <p>Our Drupal developers in Dubai build with precision, following Drupal coding standards and best practices at every step. We develop custom modules where off-the-shelf solutions fall short, integrate third-party APIs including CRM, ERP, and payment systems, and configure caching layers for peak performance. Whether we are building a decoupled frontend on React or Vue, or a fully server-rendered Drupal site, our development is iterative, documented, and built to last.</p>
                             </div>
                             <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/ads-creative.webp" class="img-fluid" alt="drupal ui design dubai">
+                                <img src="/assets/images/service/development.webp" class="img-fluid" alt="drupal web development agency dubai">
                             </div>
                         </div>
                     </div>
@@ -224,11 +218,11 @@
                     <div class="tab-pane fade" id="dst-4" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Module Dev & Integration</h5>
-                                <p>Our developers write high-quality custom modules and integrate third-party services. We adhere to Drupal's coding standards to ensure stability and future-proof performance.</p>
+                                <h5>Quality Assurance</h5>
+                                <p>Drupal's reputation for security is earned and we make sure your implementation upholds it. Our QA process includes automated and manual functional testing, cross-browser and device compatibility checks, load testing for high-traffic scenarios, and a dedicated security audit covering access controls, input validation, and known vulnerability patching. We do not consider a platform ready for production until it passes every checkpoint in our security and performance review.</p>
                             </div>
                             <div class="process-tabs-img">
-                                <img src="/assets/images/service/em/our-process-img-4.png" class="img-fluid" alt="drupal technical dev dubai">
+                                <img src="/assets/images/service/testing.webp" class="img-fluid" alt="drupal security audit dubai">
                             </div>
                         </div>
                     </div>
@@ -236,35 +230,11 @@
                     <div class="tab-pane fade" id="dst-5" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Performance Hardening</h5>
-                                <p>We optimize your Drupal site for speed using advanced caching techniques, image optimization, and technical SEO foundational setups.</p>
+                                <h5>Controlled Go-Live</h5>
+                                <p>We manage your Drupal deployment through a staged rollout staging environment validation, DNS cutover coordination, CDN configuration, and real-time monitoring during go-live. After launch, our team remains engaged through a structured support retainer covering Drupal core and module updates, security patches, performance reviews, and feature enhancements. Your platform evolves with your business, not against it.</p>
                             </div>
                             <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/ads-optimize.webp" class="img-fluid" alt="drupal optimization dubai">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="dst-6" role="tabpanel">
-                        <div class="process-txt-row">
-                            <div class="process-tabs-txt">
-                                <h5>Rigorous QA & Security</h5>
-                                <p>We perform extensive penetration testing and security audits to ensure your data is safe. We also run cross-browser checks to ensure a flawless user experience.</p>
-                            </div>
-                            <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/report.webp" class="img-fluid" alt="drupal qa dubai">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="dst-7" role="tabpanel">
-                        <div class="process-txt-row">
-                            <div class="process-tabs-txt">
-                                <h5>Deployment & Evergreen Support</h5>
-                                <p>We manage your launch on secure enterprise hosting and provide ongoing patch management and feature updates to keep you ahead of the digital curve.</p>
-                            </div>
-                            <div class="process-tabs-img">
-                                <img src="/assets/images/service/em/our-process-img-7.png" class="img-fluid" alt="drupal launch dubai">
+                                <img src="/assets/images/service/deployment.webp" class="img-fluid" alt="drupal deployment dubai">
                             </div>
                         </div>
                     </div>
@@ -272,91 +242,295 @@
                 </div>
             </div>
         </div>
-    </div><!--Container End-->
+    </div>
 </section>
 
 <section class="em-benefits sp-50">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center mb-5">
-                <h2>Why Choose BrandStory Drupal Web Designers</h2>
+            <div class="col-md-12">
+                <h2 class="mb-3 mb-md-5 text-center">Why Enterprises in Dubai Choose BrandStory<br> for Drupal Development</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p>As a leading Drupal company in Dubai, we bring over 15 years of technical expertise to the table, ensuring your project is handled with precision and care.</p>
+                <p>Drupal development demands a different level of technical depth than most CMS platforms. Its power lies in configuration, not convenience and that requires an agency with genuine platform expertise. BrandStory is recognised as a specialist <a href="/website-development-company-in-dubai/" style="color:#000; text-decoration:underline;"><b>web development company in Dubai</b></a> with hands-on Drupal experience across government, enterprise, healthcare, and education sectors in the UAE.</p><br>
                 <div class="em-points">
-                    <p>Open Source Experts: We leverage the full power of Drupal's open community.</p>
-                    <p>Corporate Standards: We build for stability, security, and enterprise reliability.</p>
-                    <p>Constant Versioning: Always up-to-date with the latest software and software developments.</p>
-                    <p>Proactive Security: Intensive vulnerability management and security hardening.</p>
-                    <p>Scalable Infrastructure: Built to handle millions of visitors without a hitch.</p>
-                    <p>Dedicated Team: Your project is our priority, from start to finish.</p>
+                    <p>We have certified Drupal developers with deep expertise in custom module engineering, content modelling, and headless architecture implementations across complex enterprise environments.</p>
+                    <p>Our solutions are architected to handle tens of thousands of concurrent users, making us the right partner for high-traffic portals, government platforms, and large-scale media sites.</p>
+                    <p>We implement Drupal's built-in security framework alongside additional hardening layers meeting the compliance & governance standards.</p>
+                    <p>We integrate Drupal with the tools your organisation already depends on SAP, Salesforce, Oracle, custom ERPs, and third-party APIs eliminating data silos and manual workflows.</p>
+                    <p>Our post-launch managed services ensure your Drupal platform stays current, secure, and continuously aligned with evolving business requirements without disrupting operations.</p>
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/fb/facebook-partner.webp" class="img-fluid" alt="drupal benefits dubai">
+                <img src="/assets/images/service/fb/facebook-partner.webp" class="img-fluid" alt="drupal development agency dubai benefits">
             </div>
         </div>
     </div>
 </section>
 
-<section class="perks-of-w sp-50">
-    <div class="container"><!--Container Start-->
-        <h2 class="text-center">Industries We Served</h2>
-        <p class="text-center">Expert Drupal solutions tailored for specialized sectors in the Middle East:</p>
-        <div class="row g-md-5 spt-50 align-items-stretch"><!--Row Start-->
-            <div class="col-md-4 d-flex align-items-stretch">
-                <div class="pow-box">
-                    <h4 class="mb-3">Healthcare</h4>
-                    <p>Building secure portals for hospitals and clinics to manage complex patient amenities and data effortlessly.</p>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-items-stretch">
-                <div class="pow-box">
-                    <h4 class="mb-3">Media & News</h4>
-                    <p>Scalable CMS architectures for global media enterprises needing robust content publishing and internet marketing platforms.</p>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-items-stretch">
-                <div class="pow-box">
-                    <h4 class="mb-3">Start-ups</h4>
-                    <p>Laying a solid foundations for new businesses to expand their customer base and scale rapidly in the market.</p>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-items-stretch">
-                <div class="pow-box">
-                    <h4 class="mb-3">Banking & Finance</h4>
-                    <p>Creating secure experiences for controlling credit and debit card aspects with enterprise-grade security protocols.</p>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex align-items-stretch">
-                <div class="pow-box">
-                    <h4 class="mb-3">E-commerce</h4>
-                    <p>Drupal Commerce solutions that encourage trust and provide a seamless shopping impression for global brands.</p>
-                </div>
-            </div>
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
-
-<section class="sp-50">
-    <div class="container"><!--Container Start-->
-        <?php include __DIR__ . '/../component/services/new-service.php' ?>
-    </div><!--Container End-->
-</section>
-
-<section class="sp-50 bg-yellow">
+<section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
-        <?php include __DIR__ . '/../component/services/stats.php' ?>
+        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">Serving Diverse<br>
+            Industries for a Decade
+        </h2>
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Website Design for Education Instutions in Dubai">
+                        <h3 class="text-white text-center">Education</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-web-design-development-agency-in-dubai-uae/">Education <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">
+                            As a leading web design and digital marketing agency, we have helped many universities, colleges, training institutions, and schools in Dubai build a strong and impactful online presence.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Website Design for E-commerce Businesses in Dubai">
+                        <h3 class="text-white text-center">eCommerce</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-web-design-development-agency-in-dubai-uae/">eCommerce <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">BrandStory, a leading web design and digital marketing agency, is the top choice for e-commerce businesses to grow their audience, increase lead flow, and scale faster.
+                        </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Website Design for Healthcare Sectors in Dubai">
+                        <h3 class="text-white text-center">Healthcare</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-web-design-development-agency-in-dubai-uae/">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are the go-to web design and digital marketing company for hospitals, medical stores, and pharma in the UAE.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Website Design Services for Real Estate Companies in Dubai">
+                        <h3 class="text-white text-center">Real Estate</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-web-design-development-agency-in-dubai-uae/">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We also provide website design and digital marketing services for real estate businesses in Dubai to improve online presence.</p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Website Design Services for Travel Agencies in Dubai">
+                        <h3 class="text-white text-center">Travel</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/tourism-web-design-development-dubai-uae/">Travel <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We partner with travel agencies in Dubai to boost engagement and outperform competitors with innovative and advanced digital strategies. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center mb-3">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="industries-main position-relative">
+                    <div class="industires-image position-relative">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Website Design Services for Technology Companies in Dubai">
+                        <h3 class="text-white text-center">Technology</h3>
+                    </div>
+                    <div class="industries-cnts">
+                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Tech Companies <span class="hide-indu-icon">⇗</span></a></h3>
+                        <p class="fs-20 text-center mb-3">We are a full-service web design and marketing agency in Dubai, worked with many corporate businesses to improve their online presence. </p>
+                        <h3 class="text-center mb-3">Services Offered</h3>
+                        <p class="fs-20 text-center">
+                            <a href="/">Digital marketing</a> |
+                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
+                            <a href="/website-design-company-in-dubai/">Web Design</a> |
+                            <a href="/website-development-company-in-dubai/">Web Development</a> |
+                            <a href="/branding-agency-in-dubai/">Branding</a> |
+                            <a href="/ui-ux-design-company-in-dubai/">UI/UX Design</a> |
+                            <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="sp-50">
-    <div class="container"><!--Container Start-->
-        <h2 class="text-center">Our Valuable Clients</h2>
-        <?php include __DIR__ . '/../component/services/clients.php' ?>
-    </div><!--Container End-->
+<section class="sp-50 dm-case-studies-section dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Our Wevsite Design and Development Projects</h2>
+                    <p class="text-white-50 fs-20 mb-3">See how our website design and development solutions help businesses in Dubai turn ideas into high-performing digital experiences.</p>
+                    <a href="/case-study/" class="view-all-link">All Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Web Design</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-client-section">
+    <div class="container-fluid">
+        <h2 class="text-center mb-5 text-white">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+
+    </div>
+</section>
+
+<?php
+$reviewSection = [
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
+<section class="dm-counter-sec sp-50 dm-bg d-none d-md-block">
+    <div class="container">
+        <div class="row gx-md-0 justify-content-center">
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center">
+                    <span class="dm-count-num">500+</span>
+                    <h3 class="text-white">Projects Delivered</h3>
+                </div>
+            </div>
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center ps-lg-5">
+                    <span class="dm-count-num">10+</span>
+                    <h3 class="text-white">Years of Expertise</h3>
+                </div>
+            </div>
+            <div class="col-lg-4 col-6">
+                <div class="dm-conter-main text-center  ps-lg-5">
+                    <span class="dm-count-num">1,000+</span>
+                    <h3 class="text-white">Happy Clients</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="site-faq sp-50">
@@ -367,12 +541,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="dfh1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc1" aria-expanded="true">
-                        Why choose Drupal for a Dubai-based enterprise?
+                        Why is Drupal the right choice for enterprise businesses in Dubai?
                     </button>
                 </h2>
                 <div id="dfc1" class="accordion-collapse collapse show" data-bs-parent="#accordionDrupal">
                     <div class="accordion-body">
-                        Drupal offers unmatched security and scalability, making it the preferred choice for government and large corporate sectors in the UAE. Its modularity allows for complex integrations that other CMS platforms might struggle with.
+                        Drupal is engineered for complexity that standard CMS platforms simply cannot handle. It offers granular user permissions, advanced content workflows, native multilingual support for Arabic and English, and a security architecture trusted by governments and Fortune 500 companies worldwide. For Dubai enterprises managing high traffic, sensitive data, or multiple departments under one platform, Drupal provides the stability, flexibility, and compliance-readiness that business-critical operations demand.
                     </div>
                 </div>
             </div>
@@ -380,12 +554,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="dfh2">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc2" aria-expanded="false">
-                        Can you help migrate our site from Drupal 7 to Drupal 10?
+                        Can you migrate our site from Drupal 7 to Drupal 10?
                     </button>
                 </h2>
                 <div id="dfc2" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
                     <div class="accordion-body">
-                        Yes, we specialize in seamless version migrations. We ensure your data is preserved, SEO rankings are maintained, and your new site takes full advantage of Drupal 10's modern features and performance gains.
+                        Yes. We handle end-to-end Drupal version migrations with a structured approach that covers content mapping, database migration, module compatibility auditing, and URL redirect management to protect your existing SEO rankings. Post-migration, we conduct thorough testing across all functionality before go-live. Your data stays intact, your search visibility is preserved, and your new Drupal 10 platform is fully optimised from day one.
                     </div>
                 </div>
             </div>
@@ -393,12 +567,38 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="dfh3">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc3" aria-expanded="false">
-                        Do you provide 24/7 Drupal support?
+                        Do you provide ongoing Drupal support and maintenance?
                     </button>
                 </h2>
                 <div id="dfc3" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
                     <div class="accordion-body">
-                        Absolutely. We provide round-the-clock maintenance, security patching, and technical support to ensure your business portal remains online and secure at all times.
+                        Yes. We offer structured post-launch support retainers that cover Drupal core and module updates, security patch management, performance monitoring, and technical troubleshooting. Whether you need round-the-clock coverage for a high-traffic government portal or scheduled monthly maintenance for a corporate website, we tailor the support plan to match your operational requirements and budget.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="dfh4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc4" aria-expanded="false">
+                        Why should I choose BrandStory over other Drupal agencies in Dubai?
+                    </button>
+                </h2>
+                <div id="dfc4" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
+                    <div class="accordion-body">
+                        BrandStory combines deep Drupal technical expertise with a strong understanding of the UAE market. We do not take a one-size-fits-all approach — every solution is architected around your specific business goals, content structure, and compliance requirements. With over 1,000 clients served and a decade of web development experience across Dubai and the GCC, we bring the strategic thinking and technical precision that enterprise Drupal projects demand. You get a long-term partner, not just a development vendor.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="dfh5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dfc5" aria-expanded="false">
+                        What level of Drupal expertise does your team have?
+                    </button>
+                </h2>
+                <div id="dfc5" class="accordion-collapse collapse" data-bs-parent="#accordionDrupal">
+                    <div class="accordion-body">
+                        Our Drupal developers have hands-on experience across the full Drupal stack — custom module development, theme engineering, headless and decoupled implementations, Drupal Commerce, multisite configurations, and complex API integrations. We have delivered Drupal platforms for education institutions, healthcare organisations, real estate portals, and government-sector clients in the UAE. That cross-industry exposure means we anticipate challenges early and engineer solutions that hold up under real-world demand.
                     </div>
                 </div>
             </div>

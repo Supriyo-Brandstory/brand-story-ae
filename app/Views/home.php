@@ -202,7 +202,7 @@
                             <h3 class="mb-3"><a href="/website-design-company-in-dubai/" style="text-decoration: none; color: inherit;">Website Design & <span class="db">Development</span></a></h3>
                             <p class="mb-3 fs-20">A website built for user experience is essential for bringing leads into the sales funnel. We create custom websites with the latest technology stack that are easy to navigate, mobile responsive, and visually attractive.</p>
                             <div class="casestydies-readmore">
-                                <a href="/website-design-company-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/website-development-company-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
