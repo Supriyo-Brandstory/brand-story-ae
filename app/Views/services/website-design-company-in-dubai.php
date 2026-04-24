@@ -424,76 +424,41 @@
 </section>
 
 
-<section class="sp-50 dm-case-studies-section dm-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="sticky-case-study-left">
-                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                    <h2 class="text-white mb-4">Our Wevsite Design and Development Projects</h2>
-                    <p class="text-white-50 fs-20 mb-3">See how our website design and development solutions help businesses in Dubai turn ideas into high-performing digital experiences.</p>
-                    <a href="/case-study/" class="view-all-link">All Case Studies</a>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="scrollable-case-study-right">
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-                        </div>
-                    </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
-                                <strong>Web Design</strong>
-                            </div>
-                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-                        </div>
-                    </div>
+<section class="web-templates-section">
+    <div class="web-templates-header">
+        <h2>Our Wensite Design Samples</h2>
+        <p>Industry-specific designs optimized for performance and conversions.</p>
+    </div>
 
+    <div class="web-templates-track-wrapper">
+        <div class="web-templates-track">
+            <?php 
+            $templates = [
+                'automotive.webp',
+                'healthcare.webp',
+                'law-firm.webp',
+                'real-estate.webp',
+                'technology.webp'
+            ];
+
+            foreach ($templates as $template):
+                $displayName = str_replace('.webp', '', $template);
+                $displayName = ucwords(str_replace('-', ' ', $displayName));
+            ?>
+            <div class="web-template-item">
+                <div class="web-template-img-wrap">
+                    <img
+                        src="/assets/images/web-templates/<?php echo $template; ?>"
+                        alt="<?php echo $displayName; ?>"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="web-template-meta">
+                    <span class="web-template-name"><?php echo $displayName; ?></span>
+                    <!-- <a href="#" class="web-template-link">Preview →</a> -->
                 </div>
             </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
