@@ -113,10 +113,23 @@
             if (e.key === 'Escape') closeContactPopup();
         });
 
-        // Auto popup after 5 seconds
+        // Auto popup after 5 seconds if not on blog or case-study pages
+        <?php 
+        $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $excludedPaths = ['/blog', '/blogs', '/case-study'];
+        $shouldShowPopup = true;
+        foreach ($excludedPaths as $path) {
+            if (strpos($currentPath, $path) === 0) {
+                $shouldShowPopup = false;
+                break;
+            }
+        }
+        ?>
+        <?php if ($shouldShowPopup): ?>
         setTimeout(() => {
             console.log("Triggering auto popup...");
             openContactPopup();
         }, 5000);
+        <?php endif; ?>
     })();
 </script>
