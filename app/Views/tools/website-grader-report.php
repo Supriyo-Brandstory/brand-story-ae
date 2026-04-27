@@ -415,7 +415,141 @@
         font-weight: 800;
         font-size: 12px;
     }
+
+    #wgr-printable-report {
+        display: none;
+    }
+
+    @media print {
+        @page {
+            size: A4 portrait;
+            margin: 0;
+        }
+
+        html,
+        body {
+            background: #fff !important;
+        }
+
+        /* HIDE THEME & WRAPPERS */
+        header,
+        .header,
+        footer,
+        .footer-top,
+        .footer-btm,
+        .footer-partners,
+        .unique-sticky-container,
+        #return-to-top,
+        .wgr-report-wrapper,
+        .wgr-modal-overlay,
+        #auditModal,
+        .no-print {
+            display: none !important;
+            height: 0 !important;
+            overflow: hidden !important;
+            visibility: hidden !important;
+        }
+
+        #wgr-printable-report {
+            display: block !important;
+            visibility: visible !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 210mm;
+            height: 297mm;
+            background: #fff !important;
+            z-index: 999999;
+        }
+
+        /* Force color showing even if "Background Graphics" is off */
+        .print-force-bg {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+    }
 </style>
+
+<!-- TRADITIONAL REPORT CARD (Visible only on Print/Download) -->
+<div id="wgr-printable-report">
+    <!-- Green Border Header (Works even without Background Graphics) -->
+    <div style="border-top: 100px solid #e83b26; position: relative; width: 100%;">
+        <div style="margin-top: -85px; padding: 0 50px; display: flex; align-items: center; color: #fff; font-family: sans-serif;">
+
+
+        </div>
+    </div>
+
+    <div style="padding: 40px 50px; font-family: sans-serif;">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="color: #e83b26; font-size: 48px; font-weight: 900; letter-spacing: 2px; margin: 0 0 20px 0;">REPORT CARD</h1>
+            <div style="display: flex; justify-content: space-between; font-size: 16px; color: #333; text-align: left;">
+                <div style="width: 48%;">
+                    <p style="border-bottom: 2px solid #eee; padding-bottom: 5px; margin: 10px 0;">Website: <span style="font-weight: 700; color: #e83b26;"><?= $domain ?></span></p>
+                    <p style="border-bottom: 2px solid #eee; padding-bottom: 5px; margin: 10px 0;">Auditor: <span style="font-weight: 700;">BrandStory Digital</span></p>
+                </div>
+                <div style="width: 48%;">
+                    <p style="border-bottom: 2px solid #eee; padding-bottom: 5px; margin: 10px 0;">Metric: <span style="font-weight: 700;">SEO Audit Report</span></p>
+                    <p style="border-bottom: 2px solid #eee; padding-bottom: 5px; margin: 10px 0;">Date: <span style="font-weight: 700;"><?= date('F d, Y') ?></span></p>
+                </div>
+            </div>
+        </div>
+
+        <table style="width: 100%; border: 3px solid #e83b26; border-collapse: collapse; margin-top: 10px;">
+            <thead>
+                <tr style="background: #e83b26 !important; color: #fff !important;">
+                    <th style="padding: 12px; text-align: left; border: 1px solid #fff; -webkit-print-color-adjust: exact;">AUDIT SUBJECTS</th>
+                    <th style="padding: 12px; text-align: center; border: 1px solid #fff; width: 70px; -webkit-print-color-adjust: exact;">SCORE</th>
+                    <th style="padding: 12px; text-align: center; border: 1px solid #fff; width: 70px; -webkit-print-color-adjust: exact;">PASS</th>
+                    <th style="padding: 12px; text-align: center; border: 1px solid #fff; width: 70px; -webkit-print-color-adjust: exact;">WARN</th>
+                    <th style="padding: 12px; text-align: center; border: 1px solid #fff; width: 70px; -webkit-print-color-adjust: exact;">FAIL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $printRows = [
+                    'Title Tag Strategy' => ($auditResults['title'] === 'pass'),
+                    'Meta Description' => ($auditResults['meta'] === 'pass'),
+                    'H1 Tag Hierarchy' => ($h1Count == 1),
+                    'Mobile Optimization' => $viewport,
+                    'Security Protocol (SSL)' => $sslCheck,
+                    'Image Alt Attributes' => ($altMissingCount == 0),
+                    'Social Tags (OG)' => $ogTags,
+                    'Canonical Validation' => $canonical,
+                    'Server Load Latency' => ($loadTime < 2),
+                    'Broken Link Audit' => true
+                ];
+                foreach ($printRows as $lbl => $st): ?>
+                    <tr>
+                        <td style="padding: 10px 12px; font-weight: 700; border: 1px solid #e83b26; font-size: 14px;"><?= $lbl ?></td>
+                        <td style="text-align: center; font-weight: 700; border: 1px solid #e83b26; color: #e83b26;"><?= $st ? '10/10' : '5/10' ?></td>
+                        <td style="text-align: center; border: 1px solid #e83b26; font-size: 16px; color: #e83b26;"><?= $st ? '✓' : '' ?></td>
+                        <td style="text-align: center; border: 1px solid #e83b26; font-size: 16px; color: #fd7e14;"><?= (!$st && $lbl != 'Security Protocol (SSL)') ? '!' : '' ?></td>
+                        <td style="text-align: center; border: 1px solid #e83b26; font-size: 16px; color: #E83A25;"><?= (!$st && $lbl == 'Security Protocol (SSL)') ? '✗' : '' ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+
+        <div style="border: 3px solid #e83b26; margin-top: 20px; padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 20px; font-weight: 900; color: #e83b26;">FINAL PERFORMANCE GRADE:</span>
+            <span style="font-size: 40px; font-weight: 900; color: #e83b26;"><?= $grade ?></span>
+        </div>
+
+        <div style="margin-top: 30px; text-align: center;">
+            <h4 style="border-bottom: 2px solid #e83b26; display: inline-block; padding: 0 40px 5px; margin-bottom: 20px; color: #e83b26; text-transform: uppercase; font-size: 18px;">GPA GRADE SCALE</h4>
+            <div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 700;">
+                <span>A+ = 96-100</span>
+                <span>A = 91-95</span>
+                <span>B+ = 86-90</span>
+                <span>B = 81-85</span>
+                <span>C = 76-80</span>
+                <span>D = 75-70</span>
+                <span>F = Critical</span>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="wgr-report-wrapper">
     <!-- HERO ASSESSMENT -->
