@@ -695,26 +695,662 @@
 }
 
 .cs-banner {
-    background: #000;
-    padding: 100px 0px;
+    position: relative;
+    padding: 140px 0;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
 }
 
+/* Background image */
+.cs-banner img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transform: scale(1.05); /* subtle zoom feel */
+}
+
+/* Overlay (more premium gradient) */
+.cs-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+            circle at center,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.3) 70%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.6) 0%,
+            rgba(0, 0, 0, 0.1) 100%
+        );
+    z-index: 1;
+}
+
+/* Content */
+.cs-banner .container {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.cs-banner h1 {
+    /* font-size: 52px; */
+    line-height: 1.2;
+    font-weight: 700;
+    /* letter-spacing: -0.5px; */
+}
+
+.cs-banner h1 .db {
+    display: block;
+    color: #855BFF;
+}
+
+/* Paragraph */
+.cs-banner p {
+    /* font-size: 17px; */
+    opacity: 0.9;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+/* Chip container */
+.cs-banner ul {
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Premium chips */
 .cs-banner ul li {
-    padding: 12px 8px;
-    background: #31A7FE;
-    border-radius: 20px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 
+        inset 0 1px 1px rgba(255,255,255,0.15),
+        0 4px 20px rgba(0,0,0,0.3);
+
+    transition: all 0.3s ease;
 }
 
+/* Hover effect (subtle premium feel) */
+.cs-banner ul li:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 
+        inset 0 1px 2px rgba(255,255,255,0.2),
+        0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Accent variants (more refined, not loud) */
 .cs-banner ul li:first-child {
-    background: #EC696A;
+    border-color: rgba(236, 105, 106, 0.5);
+}
+
+.cs-banner ul li:nth-child(2) {
+    border-color: rgba(49, 167, 254, 0.5);
 }
 
 .cs-banner ul li:last-child {
-    background: #1AC6AE;
+    border-color: rgba(26, 198, 174, 0.5);
 }
 
-.text-purple {
-    color: #845EF7 !important;
+/* Responsive */
+@media (max-width: 768px) {
+    .cs-banner {
+        padding: 90px 20px;
+    }
+
+    .cs-banner h1 {
+        font-size: 34px;
+    }
+
+    .cs-banner p {
+        font-size: 15px;
+    }
+}
+
+
+
+.cs-casestudy-sec {
+    /* background: #f8fafc; */
+    padding: 100px 0;
+    color: #1e293b;
+}
+
+/* Dark Mode Compatibility */
+.cs-casestudy-sec.dm-bg {
+    background: radial-gradient(circle at top, #111 0%, #000 100%) !important;
+    color: #fff;
+}
+
+/* LEFT COLUMN (sticky feel on desktop) */
+.cs-casestudy-sec .col-lg-4 {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+/* Section label */
+.cs-casestudy-sec .fs-20 {
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.cs-casestudy-sec.dm-bg .fs-20 {
+    opacity: 0.8;
+}
+
+/* Headings */
+.cs-casestudy-sec h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.cs-casestudy-sec.dm-bg h2 {
+    color: #fff;
+    font-size: 28px; /* matching original dark size or keeping it consistent */
+}
+
+/* Main content card */
+.cs-casestudy-sec .col-lg-8 {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 24px;
+    padding: 50px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+}
+
+.cs-casestudy-sec.dm-bg .col-lg-8 {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: none;
+    backdrop-filter: blur(8px);
+}
+
+/* Paragraph */
+.cs-casestudy-sec p {
+    line-height: 1.8;
+    color: #475569;
+}
+
+.cs-casestudy-sec.dm-bg p {
+    color: inherit;
+    opacity: 0.9;
+}
+
+/* Lists */
+.cs-casestudy-sec ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.cs-casestudy-sec ul li {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.cs-casestudy-sec.dm-bg ul li {
+    color: inherit;
+    padding-left: 28px;
+    margin-bottom: 12px;
+}
+
+/* Custom bullet */
+.cs-casestudy-sec ul li::before {
+    content: "";    
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #31A7FE, #1AC6AE);
+    box-shadow: 0 4px 10px rgba(49, 167, 254, 0.3);
+}
+
+.cs-casestudy-sec.dm-bg ul li::before {
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    box-shadow: none;
+}
+
+/* Section spacing */
+.cs-casestudy-sec h2 + p,
+.cs-casestudy-sec h2 + ul {
+    margin-bottom: 32px;
+}
+
+/* Images */
+.cs-casestudy-sec img {
+    border-radius: 16px;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+}
+
+.cs-casestudy-sec img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.cs-casestudy-sec.dm-bg img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* Analytics image group */
+.cse-img {
+    border: 1px solid #e2e8f0;
+}
+
+.cs-casestudy-sec.dm-bg .cse-img {
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Client review box */
+.cs-casestudy-sec .review {
+    background: #f8fafc;
+    border-left: 4px solid #31A7FE;
+    padding: 30px;
+    border-radius: 12px;
+    font-style: italic;
+    color: #1e293b;
+}
+
+.cs-casestudy-sec.dm-bg .review {
+    background: rgba(255,255,255,0.04);
+    border-left: 3px solid #31A7FE;
+    padding: 20px;
+    border-radius: 10px;
+    color: inherit;
+}
+
+/* Author name */
+.cs-casestudy-sec h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-top: 15px;
+}
+
+.cs-casestudy-sec.dm-bg h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.85;
+}
+
+/* Decoration line in light mode */
+.cs-casestudy-sec img[src*="line.svg"] {
+    filter: brightness(0.2);
+}
+.cs-casestudy-sec.dm-bg img[src*="line.svg"] {
+    filter: none;
+}
+
+/* LEFT IMAGE polish */
+.cs-casestudy-sec .col-lg-4 img:last-child {
+    border-radius: 20px;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+}
+
+.cs-casestudy-sec.dm-bg .col-lg-4 img:last-child {
+    border-radius: 14px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .cs-casestudy-sec {
+        padding: 60px 0;
+    }
+    .cs-casestudy-sec .col-lg-4 {
+        position: static;
+        margin-bottom: 40px;
+    }
+
+    .cs-casestudy-sec .col-lg-8 {
+        padding: 30px 20px;
+    }
+
+    .cs-casestudy-sec h2 {
+        font-size: 26px;
+    }
+
+    .cs-casestudy-sec p,
+    .cs-casestudy-sec ul li {
+        font-size: 16px;
+    }
+}
+
+
+/* Container (as requested) */
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+/* Section base */
+.cs-intro-sec {
+    /* background: #f7f7f7; */
+    padding: 80px 0;
+    color: #111;
+}
+
+/* INTRO */
+.cs-intro-wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 80px;
+}
+
+.cs-intro-wrap h2 {
+    /* font-size: 36px; */
+    font-weight: 600;
+}
+
+.cs-intro-text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    color: #333;
+}
+
+.cs-intro-text a {
+    color: #2b6cff;
+    text-decoration: none;
+}
+
+/* PAIN POINTS */
+.cs-painpoints-wrap h2 {
+    text-align: center;
+    /* font-size: 36px; */
+    margin-bottom: 40px;
+}
+
+/* Grid */
+.cs-painpoints-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Cards */
+.cs-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+/* Hover (subtle premium feel) */
+.cs-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Number */
+.cs-card span {
+    display: block;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ff4d4f;
+    margin-bottom: 10px;
+}
+
+/* Title */
+.cs-card h3 {
+    /* font-size: 16px; */
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.cs-card p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .cs-intro-wrap {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .cs-painpoints-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .cs-painpoints-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cs-intro-wrap h2,
+    .cs-painpoints-wrap h2 {
+        font-size: 28px;
+    }
+}
+
+/* Section */
+.cs-metrics-sec {
+    /* background: #f7f7f7; */
+    padding: 80px 0;
+}
+
+/* Title */
+.cs-metrics-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+/* Grid */
+.cs-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Pills */
+.cs-metric-pill {
+    padding: 30px 20px;
+    border-radius: 26px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+
+    background: #fff;
+    border: 1px solid #e5e5e5;
+
+    transition: all 0.25s ease;
+}
+
+/* Dark variation */
+.cs-metric-pill.cs-dark {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+/* Hover effect */
+.cs-metric-pill:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    background: #222;
+    color: #fff;
+    border-color: #222;
+}
+
+.cs-metric-pill.cs-dark:hover {
+    background: #fff;
+    color: #222;
+    border-color: #e5e5e5;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .cs-metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .cs-metrics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cs-metrics-title {
+        font-size: 28px;
+    }
+}
+
+
+/* Section */
+.cs-related-sec {
+    padding: 80px 0;
+    background: #fff;
+}
+
+/* Header */
+.cs-related-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cs-related-head h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* Top button */
+.cs-related-btn {
+    background: #ff4d5a;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.cs-related-btn:hover {
+    background: #e63b47;
+}
+
+/* Item layout */
+.cs-related-item {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 24px;
+    align-items: start;
+    justify-content: center;
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Image */
+.cs-related-img img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Content */
+.cs-related-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.cs-related-content p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* CTA button */
+.cs-related-cta {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: 10px;
+}
+
+.cs-related-cta a {
+    background: #000;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.cs-related-cta a:hover {
+    background: #222;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .cs-related-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .cs-related-cta {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 576px) {
+    .cs-related-head {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .cs-related-head h2 {
+        font-size: 28px;
+    }
 }
 
 .challenge-sec {
@@ -6483,14 +7119,46 @@ sup {
 
 
 .services-new {
+    --service-bg: #0A0B0F;
+    --service-text: #fff;
+    --service-list-border: #eee;
+    --service-li-active-color: #fff;
+    --service-btn-outline: #cbc4c4;
+    --service-link: #fff;
+
+    &.service-light {
+        --service-bg: #fff;
+        --service-text: #000;
+        --service-list-border: #ddd;
+        --service-li-active-color: #000;
+        --service-btn-outline: #000;
+        --service-link: #855BFF;
+
+        .btn-dark {
+            background: #000;
+            color: #fff;
+            border: none;
+        }
+
+        .btn-outline-dark {
+            border: 1px solid #000;
+            color: #000;
+
+            &:hover {
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+
     .what-we-provide {
-        background: #0A0B0F;
-        color: #fff;
+        background: var(--service-bg);
+        color: var(--service-text);
 
         .service-list {
             list-style: none;
             padding: 0;
-            border-right: 2px solid #eee;
+            border-right: 2px solid var(--service-list-border);
         }
 
         .service-list li {
@@ -6502,16 +7170,13 @@ sup {
             text-align: left;
             transition: all 0.3s ease;
             flex: 0 0 auto;
-            /* Prevents items from shrinking */
             min-width: 50%;
-            /* Adjust width as needed */
-
         }
 
         .service-list li.active,
         .service-list li:hover {
             border-color: #855BFF;
-            color: #ffffffff;
+            color: var(--service-li-active-color);
         }
 
         .service-content {
@@ -6520,6 +7185,11 @@ sup {
             flex-direction: column;
             gap: 20px;
             justify-content: center;
+
+            p a {
+                color: var(--service-link);
+                text-decoration: underline;
+            }
         }
 
         .service-content.active {
@@ -6540,9 +7210,8 @@ sup {
 
         .btn.btn-outline-dark {
             border: 1px solid #855BFF;
-            color: #cbc4c4ff;
+            color: var(--service-btn-outline);
         }
-
     }
 
     .new-client-section::before {
@@ -6562,10 +7231,7 @@ sup {
                 scroll-behavior: smooth;
                 display: flex;
                 overflow-x: auto;
-                /* Enables horizontal scrolling if needed */
                 gap: 10px;
-                /* Adds spacing between items */
-
             }
 
             .service-list li {
