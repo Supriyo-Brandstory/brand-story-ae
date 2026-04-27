@@ -7,9 +7,9 @@
             <h1>How strong is your <span>website SEO?</span></h1>
             <p>Can your website load in seconds? Learn how to improve it for free. Includes 20+ custom SEO checks and an overall performance grade.</p>
             <div class="wg-form-container">
-                <form class="wg-form">
+                <form class="wg-form" action="<?= route('website-grader-report') ?>" method="GET">
                     <div class="wg-input-group">
-                        <input type="text" placeholder="Enter your website URL"></input>
+                        <input type="url" name="url" placeholder="Enter your website URL" required></input>
                         <button type="submit">Check My Website</button>
                     </div>
                 </form>
