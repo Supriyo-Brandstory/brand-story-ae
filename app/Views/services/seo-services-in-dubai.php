@@ -1644,7 +1644,6 @@ include __DIR__ . '/../component/dynamic_blogs.php';
         </div>
     </div>
 </section>
-<?php include __DIR__ . '/../component/services/seo-pages-other-seo-links.php' ?>
 
 
 <style>
