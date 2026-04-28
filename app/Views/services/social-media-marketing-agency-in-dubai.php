@@ -66,7 +66,7 @@
              </div>
 
              <div class="social-media-boxes-card" id="box-1">
-                 <div class="social-media-boxes-card-title">More Qualified Business Prospects</div>
+                 <div class="social-media-boxes-card-title">More Qualified Prospects</div>
              </div>
              <div class="social-media-boxes-card" id="box-2">
                  <div class="social-media-boxes-card-stats"><span>61%</span><br>REVENUE BOOST</div>
@@ -159,232 +159,163 @@
      <div class="container-fluid">
          <?php include __DIR__ . '/../component/client_section.php' ?>
      </div>
-     <section class="strategy-process-sec sp-50 mt-5">
-         <div class="container" bis_skin_checked="1">
-             <h2 class="text-white text-md-start text-center mb-4">
-                 Social Media Marketing
-                 Services
-             </h2>
-             <div class="row gx-md-5" bis_skin_checked="1">
-                 <div class="col-lg-4" bis_skin_checked="1">
-                     <div class="strategy-heading-main" bis_skin_checked="1">
-                         <h3 class="text-white strategy-title strategy1 active"><span>Facebook Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none h-100 " src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Facebook marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block h-100 " src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Facebook marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">Facebook Marketing</h3>
-                                         <p class="fs-20 mb-3">Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer.</p>
-                                         <p class="fs-20 mb-3">With precise targeting options, engaging ad formats, and data-driven strategies, we make sure your brand reaches the right people at the right time.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/facebook-marketing-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+</section>
 
-                         <h3 class="text-white strategy-title strategy2"><span>Instagram Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none" src="<?= base_url('assets/images/about/Instagram-Marketing.webp') ?>" alt="Instagram marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block" src="<?= base_url('assets/images/about/Instagram-Marketing.webp') ?>" alt="Instagram marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">Instagram Marketing</h3>
-                                         <p class="fs-20 mb-3">Reels and photos are the talk of the time, where every second thousands of businesses go viral. Instagram is a social platform with an opportunity to engage audience and convert them into your regular customers.</p>
-                                         <p class="fs-20 mb-3">From eye-catching visuals to trend-driven content strategies, we help your brand stay ahead in the fast-paced Instagram landscape.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/instagram-advertising-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+<section class="sp-50  bg-black">
+     <div class="container">
+         <!-- <h2 class="fs-65 text-start" style="margin:40px;"><span class="outlined-text">Best Social Media Marketing </span><span class="db">
+                 <span class="gradient-text">Services in Dubai, UAE</span></span>
+         </h2> -->
+         <h2 class="text-white text-md-start text-center mb-4">
+             Best Social Media Marketing <br>
+             Services in Dubai, UAE
+         </h2>
 
-                         <h3 class="text-white strategy-title strategy3"><span>WhatsApp Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none" src="<?= base_url('assets/images/about/WhatsApp-Marketing.webp') ?>" alt="WhatsApp marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block" src="<?= base_url('assets/images/about/WhatsApp-Marketing.webp') ?>" alt="WhatsApp marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">WhatsApp Marketing</h3>
-                                         <p class="fs-20 mb-3">Want to reach the direct WhatsApp inbox of your customers on the go? It opens your door to lead flow and drives direct engagement to your offered services and seasonal offers.</p>
-                                         <p class="fs-20 mb-3">With personalized messaging, quick responses, and timely updates, WhatsApp marketing helps you build stronger relationships with your audience.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/whatsapp-marketing-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+         <div class="dm-sticky-section">
 
 
-                         <h3 class="text-white strategy-title strategy5"><span>TikTok Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none" src="<?= base_url('assets/images/about/TikTok-Marketing.webp') ?>" alt="TikTok marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block" src="<?= base_url('assets/images/about/TikTok-Marketing.webp') ?>" alt="TikTok marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">TikTok Marketing</h3>
-                                         <p class="fs-20 mb-3">TikTok is a widely used social media platform in Dubai that has integrated e-commerce TokTok Shop. It is your engagement platform cum sales platform that can surely strengthen your business volume.</p>
-                                         <p class="fs-20 mb-3">From creating trend-driven short videos to leveraging TikTok Shop for direct sales, we help your brand tap into a highly active audience.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/tiktok-marketing-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/Facebook-Marketing.webp" alt="Facebook marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">Facebook Marketing</a>
 
-                         <h3 class="text-white strategy-title strategy6"><span>Pinterest Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy6" style="display: none;" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none" src="<?= base_url('assets/images/about/Pinterest-Marketing.webp') ?>" alt="Pinterest marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block" src="<?= base_url('assets/images/about/Pinterest-Marketing.webp') ?>" alt="Pinterest marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">Pinterest Marketing</h3>
-                                         <p class="fs-20 mb-3">Pinterest is filled with millions of users who are engaging with creatives, how-to, diy hacks, and trending products. If you are looking for B2C clients for your next marketing project, Pinterest is something special.</p>
-                                         <p class="fs-20 mb-3">We create visually compelling pins and boards that inspire action, drive traffic to your website, and boost conversions.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/pinterest-advertising-services-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+                         <p>
+                             Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer. And we provide the right Facebook marketing services that will help you connect with your specific audience.
+                         </p>
+                         <p class="mt-2">With precise targeting options, engaging ad formats, and data-driven strategies, we make sure your brand reaches the right people at the right time. Our approach focuses on creating compelling content that encourages interaction, builds trust, and drives measurable results for your business.</p>
+                         <div class="dm-tags py-4">
+                             <a href="/facebook-marketing-agency-in-dubai/">Know More</a>
 
-                         <h3 class="text-white strategy-title strategy7"><span>X (Twitter) Marketing<span></span></span></h3>
-                         <div class="d-lg-none d-block" bis_skin_checked="1">
-                             <div class="strategy-process-main strategy7" style="display: none;" bis_skin_checked="1">
-                                 <div class="row" bis_skin_checked="1">
-                                     <div class="col-md-4" bis_skin_checked="1">
-                                         <img class="w-100 d-lg-none d-md-block d-none" src="<?= base_url('assets/images/about/X-Marketing.webp') ?>" alt="X (Twitter marketing services in Dubai - BrandStory">
-                                         <img class="w-100 d-md-none d-block" src="<?= base_url('assets/images/about/X-Marketing.webp') ?>" alt="X (Twitter marketing services in Dubai - BrandStory">
-                                     </div>
-                                     <div class="col-md-8 align-self-center strat-cnt" bis_skin_checked="1">
-                                         <h3 class="mb-4">X (Twitter) Marketing</h3>
-                                         <p class="fs-20 mb-3">X has the highest conversion rate among all social media platforms for B2B businesses, and we take it seriously. It can bring the best outcomes from your integrated marketing campaigns.</p>
-                                         <p class="fs-20 mb-3">We craft impactful tweets, threads, and ad campaigns that spark conversations and connect you with decision-makers.</p>
-                                         <div class="casestydies-readmore">
-                                             <a href="/twitter-advertising-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-lg-8 d-lg-block d-none" bis_skin_checked="1">
-                     <div class="strategy-process-main strategy1" style="" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/Facebook-Marketing.webp') ?>" alt="Facebook marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">Facebook Marketing</h3>
-                                 <p class="fs-20 mb-3">Facebook is the most widely used social media channel with a lot of potential. It is a powerhouse for B2C marketing, where you can connect with real people looking for the exact same service you offer. And we provide the right Facebook marketing services that will help you connect with your specific audience.</p>
-                                 <p class="fs-20 mb-3">With precise targeting options, engaging ad formats, and data-driven strategies, we make sure your brand reaches the right people at the right time. Our approach focuses on creating compelling content that encourages interaction, builds trust, and drives measurable results for your business.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/facebook-marketing-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="strategy-process-main strategy2" style="display: none;" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/Instagram-Marketing.webp') ?>" alt="Instagram marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">Instagram Marketing</h3>
-                                 <p class="fs-20 mb-3">Reels and photos are the talk of the time, where every second thousands of businesses go viral. Instagram is a social platform with an opportunity to engage audience and convert them into your regular customers. We provide Instagram-worthy social media marketing services with a full in-house production and marketing team.</p>
-                                 <p class="fs-20 mb-3">From eye-catching visuals to trend-driven content strategies, we help your brand stay ahead in the fast-paced Instagram landscape. Our campaigns are designed to boost visibility, encourage engagement, and turn casual viewers into loyal followers and customers.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/instagram-advertising-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="strategy-process-main strategy3" style="display: none;" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/WhatsApp-Marketing.webp') ?>" alt="WhatsApp marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">WhatsApp Marketing</h3>
-                                 <p class="fs-20 mb-3">Want to reach the direct WhatsApp inbox of your customers on the go? It opens your door to lead flow and drives direct engagement to your offered services and seasonal offers. It's a marketing + retention channel that has the potential for direct engagement.</p>
-                                 <p class="fs-20 mb-3">With personalized messaging, quick responses, and timely updates, WhatsApp marketing helps you build stronger relationships with your audience. We create tailored campaigns that not only capture attention but also keep your customers coming back for more.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/whatsapp-marketing-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="strategy-process-main strategy5" style="display: none;" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/TikTok-Marketing.webp') ?>" alt="TikTok marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">TikTok Marketing</h3>
-                                 <p class="fs-20 mb-3">TikTok is a widely used social media platform in Dubai that has integrated e-commerce TokTok Shop. It is your engagement platform cum sales platform that can surely strengthen your business volume. We provide the best TikTok marketing services in Dubai.</p>
-                                 <p class="fs-20 mb-3">From creating trend-driven short videos to leveraging TikTok Shop for direct sales, we help your brand tap into a highly active audience. Our strategies focus on boosting visibility, driving engagement, and turning viewers into loyal customers.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/tiktok-marketing-agency-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="strategy-process-main strategy6" style="display: none;" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/Pinterest-Marketing.webp') ?>" alt="Pinterest marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">Pinterest Marketing</h3>
-                                 <p class="fs-20 mb-3">Pinterest is filled with millions of users who are engaging with creatives, how-to, diy hacks, and trending products. If you are looking for B2C clients for your next marketing project, Pinterest is something special to help you get the right engagement and sales on the board.</p>
-                                 <p class="fs-20 mb-3">We create visually compelling pins and boards that inspire action, drive traffic to your website, and boost conversions. By tapping into trending searches and niche audiences, we help your brand stand out in a platform where purchase intent is already high.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/pinterest-advertising-services-in-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="strategy-process-main strategy7" style="display: none;" bis_skin_checked="1">
-                         <div class="row" bis_skin_checked="1">
-                             <div class="col-md-5" bis_skin_checked="1">
-                                 <img class="w-100 h-100 object-fit-cover" src="<?= base_url('assets/images/about/X-Marketing.webp') ?>" alt="X (Twitter marketing services in Dubai - BrandStory">
-                             </div>
-                             <div class="col-md-7 align-self-center strat-cnt p-4" bis_skin_checked="1">
-                                 <h3 class="mb-4">X (Twitter) Marketing</h3>
-                                 <p class="fs-20 mb-3">X has the highest conversion rate among all social media platforms for B2B businesses, and we take it seriously. It can bring the best outcomes from your integrated marketing campaigns, and at BrandStory, we are a pioneer agency in X (Twitter) marketing.</p>
-                                 <p class="fs-20 mb-3">We craft impactful tweets, threads, and ad campaigns that spark conversations and connect you with decision-makers. Our approach focuses on building authority, fostering engagement, and driving qualified leads for your business.</p>
-                                 <div class="casestydies-readmore">
-                                     <a href="/twitter-advertising-dubai/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                                 </div>
-                             </div>
                          </div>
                      </div>
                  </div>
              </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/Instagram-Marketing.webp" alt="Instagram marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">Instagram Marketing</a>
+
+                         <p>
+                             Reels and photos are the talk of the time, where every second thousands of businesses go viral. Instagram is a social platform with an opportunity to engage audience and convert them into your regular customers. We provide Instagram-worthy social media marketing services with a full in-house production and marketing team.
+                         </p>
+                         <p class="mt-2">From eye-catching visuals to trend-driven content strategies, we help your brand stay ahead in the fast-paced Instagram landscape. Our campaigns are designed to boost visibility, encourage engagement, and turn casual viewers into loyal followers and customers.
+                         <p>
+                         <div class="dm-tags py-4">
+                             <a href="/instagram-advertising-agency-in-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/WhatsApp-Marketing.webp" alt="WhatsApp marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">WhatsApp Marketing </a>
+
+                         <p>
+                             Want to reach the direct WhatsApp inbox of your customers on the go? It opens your door to lead flow and drives direct engagement to your offered services and seasonal offers. It's a marketing + retention channel that has the potential for direct engagement.
+                         </p>
+                         <p class="mt-2">With personalized messaging, quick responses, and timely updates, WhatsApp marketing helps you build stronger relationships with your audience. We create tailored campaigns that not only capture attention but also keep your customers coming back for more.</p>
+                         <div class="dm-tags py-4">
+                             <a href="/whatsapp-marketing-in-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/Quora-Marketing.webp" alt="Quora marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">Quora Marketing</a>
+
+                         <p>
+                             Do you feed customer queries? People may want to clear their doubts before making a purchase, and Quora gives them that freedom. Brands are already doing so and winning the trust of potential customers. We are assisting businesses in this journey too.
+                         </p>
+                         <p class="mt-2">By answering relevant questions with valuable insights, we help position your brand as an authority in your industry. This not only builds credibility but also drives organic traffic and leads from people actively seeking your solutions. </p>
+                         <div class="dm-tags py-4">
+                             <a href="/whatsapp-marketing-in-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/TikTok-Marketing.webp" alt="TikTok marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">TikTok Marketing</a>
+
+                         <p>
+                             TikTok is a widely used social media platform in Dubai that has integrated e-commerce TokTok Shop. It is your engagement platform cum sales platform that can surely strengthen your business volume. We provide the best TikTok marketing services in Dubai.
+
+                         </p>
+                         <p class="mt-2">From creating trend-driven short videos to leveraging TikTok Shop for direct sales, we help your brand tap into a highly active audience. Our strategies focus on boosting visibility, driving engagement, and turning viewers into loyal customers.</p>
+                         <div class="dm-tags py-4">
+                             <a href="/tiktok-marketing-agency-in-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/Pinterest-Marketing.webp" alt="Pinterest marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">Pinterest Marketing </a>
+
+                         <p>
+                             Pinterest is filled with millions of users who are engaging with creatives, how-to, diy hacks, and trending products. If you are looking for B2C clients for your next marketing project, Pinterest is something special to help you get the right engagement and sales on the board.
+
+                         </p>
+                         <p class="mt-2">We create visually compelling pins and boards that inspire action, drive traffic to your website, and boost conversions. By tapping into trending searches and niche audiences, we help your brand stand out in a platform where purchase intent is already high.</p>
+                         <div class="dm-tags py-4">
+                             <a href="/pinterest-advertising-services-in-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="dm-container">
+                 <div class="dm-card">
+                     <div class="dm-image">
+                         <img src="https://www.brandstory.ae/assets/images/about/X-Marketing.webp" alt="X (Twitter marketing services in Dubai - BrandStory" />
+                     </div>
+                     <div class="dm-content">
+                         <a href="/" class="heding">X (Twitter) Marketing </a>
+
+                         <p>
+                             X has the highest conversion rate among all social media platforms for B2B businesses, and we take it seriously. It can bring the best outcomes from your integrated marketing campaigns, and at BrandStory, we are a pioneer agency in X (Twitter) marketing.
+                         </p>
+                         <p class="mt-2">We craft impactful tweets, threads, and ad campaigns that spark conversations and connect you with decision-makers. Our approach focuses on building authority, fostering engagement, and driving qualified leads for your business.</p>
+                         <div class="dm-tags py-4">
+                             <a href="/twitter-advertising-dubai/">Know More</a>
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
          </div>
-     </section>
+     </div>
+ </section>
+
      <script>
          document.querySelectorAll('.strategy-title').forEach(item => {
              item.addEventListener('click', function() {
@@ -396,107 +327,6 @@
              });
          });
      </script>
- </section>
- <section class="sp-80 bg-black" style="display:none;">
-     <div class="container">
-         <div class="row gy-4">
-             <div class="col-lg-6 col-12">
-                 <h2 class="fs-65 text-start"><span class="outlined-text">Social Media</span><span class="db"><span class="gradient-text">Explained</span></span></h2>
-                 <div class="col-lg-6 col-12 d-md-none d-block mt-4" style="border-radius: 20px; min-height:400px;">
-                     <div class="smms-social-section">
-                         <div class="smms-image-container">
-                             <img src="/assets/images/social-media-explained-bg.webp" alt="Social media marketing services in Dubai " class="smms-main-image">
-                         </div>
-
-                         <div class="smms-marquee-container">
-                             <div class="smms-marquee smms-line1">
-                                 <div class="smms-track">
-                                     <span>#Facebook</span><span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span>
-                                     <span>#Facebook</span><span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span>
-                                 </div>
-                             </div>
-
-                             <div class="smms-marquee smms-line2">
-                                 <div class="smms-track">
-                                     <span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span><span>#LinkedIn</span><span>#Reddit</span><span>#Pinterest</span><span>#Discord</span>
-                                     <span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span><span>#LinkedIn</span><span>#Reddit</span><span>#Pinterest</span><span>#Discord</span>
-                                 </div>
-                             </div>
-
-                             <div class="smms-marquee smms-line3">
-                                 <div class="smms-track">
-                                     <span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span>
-                                     <span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span>
-                                 </div>
-                             </div>
-
-                             <div class="smms-marquee smms-line4">
-                                 <div class="smms-track">
-                                     <span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span>
-                                     <span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-
-
-
-                 </div>
-                 <p class="fs-20 text-white">Social media marketing is an investment that will reward you in a multiplier. It helps you reach the right audience at the right time and engage potential customers with your business. From small startups to large corporations, social media is the go-to option to share content that generates brand awareness and drive conversions. It acts as a premier Branding + Marketing tool that strengthens your brand’s value, reach, and engagement at the same time.</p>
-
-                 <p class="fs-20 text-white pb-lg-5 py-3">When it comes to social media marketing, we know how to do it right. Whether it’s Facebook, Instagram, Twitter, or LinkedIn, we’ve got every platform covered. Need fresh TikTok vibes? We’ve got that too. We deliver results that don’t just impress, they stick.</p>
-                 <a href="/contact/" class="smm-uae-btn pt-3">
-                     Let's Get Started
-                 </a>
-             </div>
-             <div class="col-lg-6 col-12 d-none d-md-block" style="border-radius: 20px; min-height:400px;">
-                 <!-- <video src="/assets/images/social-media-marketing-uae/social-media-explained.mp4" autoplay muted loop class="w-100"></video> -->
-
-
-
-
-
-                 <div class="smms-social-section">
-                     <div class="smms-image-container">
-                         <img src="/assets/images/social-media-explained-bg.webp" alt="Woman with phone" class="smms-main-image">
-                     </div>
-
-                     <div class="smms-marquee-container">
-                         <div class="smms-marquee smms-line1">
-                             <div class="smms-track">
-                                 <span>#Facebook</span><span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span>
-                                 <span>#Facebook</span><span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span>
-                             </div>
-                         </div>
-
-                         <div class="smms-marquee smms-line2">
-                             <div class="smms-track">
-                                 <span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span><span>#LinkedIn</span><span>#Reddit</span><span>#Pinterest</span><span>#Discord</span>
-                                 <span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span><span>#LinkedIn</span><span>#Reddit</span><span>#Pinterest</span><span>#Discord</span>
-                             </div>
-                         </div>
-
-                         <div class="smms-marquee smms-line3">
-                             <div class="smms-track">
-                                 <span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span>
-                                 <span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span><span>#Clubhouse</span><span>#Medium</span><span>#getsocial</span>
-                             </div>
-                         </div>
-
-                         <div class="smms-marquee smms-line4">
-                             <div class="smms-track">
-                                 <span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span>
-                                 <span>#Instagram</span><span>#Twitter</span><span>#TikTok</span><span>#YouTube</span><span>#Snapchat</span><span>#Telegram</span><span>#Tumblr</span><span>#WeChat</span>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-
-
-             </div>
-         </div>
-     </div>
  </section>
 
 
