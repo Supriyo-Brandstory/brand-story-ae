@@ -78,7 +78,7 @@
              </div>
              <div class="social-media-boxes-card" id="box-4">
                  <div class="social-media-boxes-card-stats"><span>5.2X</span><br>MORE AD IMPACT</div>
-                 <div class="social-media-boxes-card-title">Maximum Return On Ads Spending</div>
+                 <div class="social-media-boxes-card-title">Return On Ads Spending</div>
              </div>
 
          </div>
