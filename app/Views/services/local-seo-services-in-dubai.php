@@ -2,181 +2,181 @@
 
 
 <section class="sem-new-banner-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="sem-banner-left">
-                        <span class="sem-badge mb-4 d-inline-block">Best Local SEO Agency</span>
-                        <h1 class="text-white mb-4">Trusted Local SEO Agency in Dubai</h1>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="sem-banner-left">
+                    <span class="sem-badge mb-4 d-inline-block">Best Local SEO Agency</span>
+                    <h1 class="text-white mb-4">Trusted Local SEO Agency in Dubai</h1>
 
-                        <!-- Mobile Image Version (Shown after Heading on Mobile) -->
-                        <div class="sem-banner-right position-relative d-lg-none mb-5">
-                            <div class="laptop-mockup">
-                                <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
-                            </div>
-
-                        </div>
-
-                        <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">As a trusted local SEO company in Dubai, we understand the competitive landscape of local search and build strategies that strengthen your visibility. Partner with BrandStory to transform targeted local traffic into meaningful business growth.</p>
-                        <div class="banner-btns d-flex flex-wrap gap-3">
-                            <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
-                            <a href="/seo-services-in-dubai/" class="Performance-Driven-btn outline-btn">➤ Our SEO Services</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="sem-banner-right position-relative">
+                    <!-- Mobile Image Version (Shown after Heading on Mobile) -->
+                    <div class="sem-banner-right position-relative d-lg-none mb-5">
                         <div class="laptop-mockup">
                             <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
                         </div>
 
                     </div>
+
+                    <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">As a trusted local SEO company in Dubai, we understand the competitive landscape of local search and build strategies that strengthen your visibility. Partner with BrandStory to transform targeted local traffic into meaningful business growth.</p>
+                    <div class="banner-btns d-flex flex-wrap gap-3">
+                        <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
+                        <a href="/seo-services-in-dubai/" class="Performance-Driven-btn outline-btn">➤ Our SEO Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="sem-banner-right position-relative">
+                    <div class="laptop-mockup">
+                        <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                    </div>
+
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="seo-marquee">
-        <div class="seo-marquee-wrapper">
-            <div class="seo-marquee-track">
-                <a href="javascript:void(0);" class="seo-marquee-item">Local SEO</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">GBP Management</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">Google Maps</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">Near Me Searches</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">NAP Consistency</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">Local Citations</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">Store Visits</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
-                <a href="javascript:void(0);" class="seo-marquee-item">ROI Optimization</a>
-                <span class="seo-marquee-sep text-white">يلا</span>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+            <a href="javascript:void(0);" class="seo-marquee-item">Local SEO</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">GBP Management</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">Google Maps</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">Near Me Searches</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">NAP Consistency</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">Local Citations</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">Store Visits</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="javascript:void(0);" class="seo-marquee-item">ROI Optimization</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+        </div>
+    </div>
+</section>
+
+<section class="performance-driven sp-50 dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Turn Local Searches in Dubai <br>Into Paying Customers</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
+                    <img class="w-100 radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Experts Dubai">
+
+                </div>
+                <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
+                    <img class="img-fluid radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Services Dubai">
+
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <p class="text-white fs-20 mb-3">When people search for services nearby, they’re ready to act. BrandStory helps businesses capture that demand through performance-driven local SEO Dubai strategies built around visibility, trust, and conversion.</p>
+                <p class="text-white fs-20 mb-3">We focus on owning your service area- not just appearing in search results. From hyper-local keyword targeting and neighbourhood landing pages to authority building and proximity optimisation, we position your business where buying decisions happen.</p>
+                <p class="text-white fs-20 mb-3">Our team strengthens your local footprint across Google Business Profile, local directories, structured data, and geo-targeted content. But visibility alone isn’t enough- we optimise for calls, direction requests, bookings, and enquiries to ensure your rankings translate into real revenue.</p>
+                <p class="text-white fs-20 mb-3">We also use a data-driven approach to refine your local presence. From review management to ongoing optimisation, we ensure your business stays visible, competitive, and ready to convert local searches into customers.</p>
+                <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="performance-driven sp-50 dm-bg">
-        <div class="container">
-            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Turn Local Searches in Dubai <br>Into Paying Customers</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                        <img class="w-100 radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Experts Dubai">
+<section class="new-client-section sp-80">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Valuable Clients</h2>
 
-                    </div>
-                    <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                        <img class="img-fluid radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Services Dubai">
 
-                    </div>
+
+
+        <!-- Row 1 -->
+        <div class="d-flex overflow-hidden mb-5">
+            <div class="new-client-slider">
+                <!-- duplicate logos for seamless scroll -->
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
+                <!-- repeat -->
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="d-flex overflow-hidden">
+            <div class="new-client-slider reverse">
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
+                <!-- repeat -->
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="feature-grid-section sp-80 dm-bg border-top border-secondary border-opacity-10">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mt-5 mb-4 text-md-start text-center">Best Local SEO Services in Dubai <br><span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
+
+        <!-- Cards Grid (1 column on mobile, 2x2 on desktop) -->
+        <div class="row g-4 mb-5">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="feature-card">
+                    <span class="feature-num">01</span>
+                    <h4>Highly Targeted Traffic</h4>
+                    <p>We position your business for location-based keywords so you attract customers who are ready to take action, not just browse.</p>
                 </div>
-                <div class="col-lg-6 align-self-center">
-                    <p class="text-white fs-20 mb-3">When people search for services nearby, they’re ready to act. BrandStory helps businesses capture that demand through performance-driven local SEO Dubai strategies built around visibility, trust, and conversion.</p>
-                    <p class="text-white fs-20 mb-3">We focus on owning your service area- not just appearing in search results. From hyper-local keyword targeting and neighbourhood landing pages to authority building and proximity optimisation, we position your business where buying decisions happen.</p>
-                    <p class="text-white fs-20 mb-3">Our team strengthens your local footprint across Google Business Profile, local directories, structured data, and geo-targeted content. But visibility alone isn’t enough- we optimise for calls, direction requests, bookings, and enquiries to ensure your rankings translate into real revenue.</p>
-                    <p class="text-white fs-20 mb-3">We also use a data-driven approach to refine your local presence. From review management to ongoing optimisation, we ensure your business stays visible, competitive, and ready to convert local searches into customers.</p>
-                    <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="feature-card">
+                    <span class="feature-num">02</span>
+                    <h4>Stronger Conversion Potential</h4>
+                    <p>Appearing in Google Maps and local search results connects you with high-intent users, increasing enquiries, calls, and store visits.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="feature-card">
+                    <span class="feature-num">03</span>
+                    <h4>Optimised for “Near Me” Searches</h4>
+                    <p>We structure your website and Google Business Profile to capture “near me” and geo-specific searches that drive immediate engagement.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="feature-card">
+                    <span class="feature-num">04</span>
+                    <h4>Local Directory & Map Visibility</h4>
+                    <p>From GBP optimisation to local citations, we strengthen your presence across authoritative directories that influence local rankings.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section class="new-client-section sp-80">
-        <div class="container">
-            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Valuable Clients</h2>
-
-
-
-
-            <!-- Row 1 -->
-            <div class="d-flex overflow-hidden mb-5">
-                <div class="new-client-slider">
-                    <!-- duplicate logos for seamless scroll -->
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
-                    <!-- repeat -->
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
-                </div>
-            </div>
-
-            <!-- Row 2 -->
-            <div class="d-flex overflow-hidden">
-                <div class="new-client-slider reverse">
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
-                    <!-- repeat -->
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
-                    <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="feature-grid-section sp-80 dm-bg border-top border-secondary border-opacity-10">
-        <div class="container">
-            <h2 class="text-white mb-lg-5 mt-5 mb-4 text-md-start text-center">Best Local SEO Services in Dubai <br><span class="theme-highlight">Drive Qualified Local Traffic</span></h2>
-
-            <!-- Cards Grid (1 column on mobile, 2x2 on desktop) -->
-            <div class="row g-4 mb-5">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="feature-card">
-                        <span class="feature-num">01</span>
-                        <h4>Highly Targeted Traffic</h4>
-                        <p>We position your business for location-based keywords so you attract customers who are ready to take action, not just browse.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="feature-card">
-                        <span class="feature-num">02</span>
-                        <h4>Stronger Conversion Potential</h4>
-                        <p>Appearing in Google Maps and local search results connects you with high-intent users, increasing enquiries, calls, and store visits.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="feature-card">
-                        <span class="feature-num">03</span>
-                        <h4>Optimised for “Near Me” Searches</h4>
-                        <p>We structure your website and Google Business Profile to capture “near me” and geo-specific searches that drive immediate engagement.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="feature-card">
-                        <span class="feature-num">04</span>
-                        <h4>Local Directory & Map Visibility</h4>
-                        <p>From GBP optimisation to local citations, we strengthen your presence across authoritative directories that influence local rankings.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Images Slider (Horizontal on mobile, 2x2 on desktop) -->
-            <div class="row g-4 d-flex align-items-center image-mobile-slider">
-                <!--<div class="col-lg-6 col-md-6 col-6">
+        <!-- Images Slider (Horizontal on mobile, 2x2 on desktop) -->
+        <div class="row g-4 d-flex align-items-center image-mobile-slider">
+            <!--<div class="col-lg-6 col-md-6 col-6">
                     <div class="feature-image-box">
                         <img src="/assets/images/loc-4.webp" alt="Highly Targeted Traffic" loading="lazy">
                     </div>
@@ -186,22 +186,22 @@
                         <img src="/assets/images/loc-2.webp" alt="Stronger Conversion Potential" loading="lazy">
                     </div>
                 </div>-->
-                <div class="col-lg-6 col-md-6 col-6">
-                    <div class="feature-image-box">
-                        <img src="/assets/images/loc-1.webp" alt="Optimised for “Near Me” Searches" loading="lazy">
-                    </div>
+            <div class="col-lg-6 col-md-6 col-6">
+                <div class="feature-image-box">
+                    <img src="/assets/images/loc-1.webp" alt="Optimised for “Near Me” Searches" loading="lazy">
                 </div>
-                <div class="col-lg-6 col-md-6 col-6">
-                    <div class="feature-image-box">
-                        <img src="/assets/images/loc-3.webp" alt="Local Directory & Map Visibility" loading="lazy">
-                    </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+                <div class="feature-image-box">
+                    <img src="/assets/images/loc-3.webp" alt="Local Directory & Map Visibility" loading="lazy">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
-    <section class="local-needs-section sp-80 dm-bg">
+<section class="local-needs-section sp-80 dm-bg">
     <div class="container">
         <div class="local-needs-header">
             <h2>Our Local SEO Services in Dubai</h2>
@@ -274,256 +274,256 @@
 </section>
 
 
-    <section class="sem-service-section sp-80">
-        <div class="container">
-            <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Local SEO Services List & Pricing</h2>
+<section class="sem-service-section sp-80">
+    <div class="container">
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Our Local SEO Services List & Pricing</h2>
 
-            <div class="row g-4 align-items-stretch">
-                <div class="col-lg-4">
-                    <div class="sem-service-card h-100 p-4" style="border: 1px solid #333; transition: transform 0.3s ease;">
-                        <div class="price-header mb-4">
-                            <h3 class="fs-24 fw-700 text-white mb-2">GBP Management</h3>
-                            <div class="price-tag fs-28 fw-800 theme-highlight">AED 850 <small class="fs-14 fw-400 opacity-60">/ Month</small></div>
-                        </div>
-                        <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
-                            <li class="mb-2">➤ Profile optimisation for local rankings</li>
-                            <li class="mb-2">➤ Keyword-focused content updates</li>
-                            <li class="mb-2">➤ Google Posts creation and publishing</li>
-                            <li class="mb-2">➤ Review monitoring and management</li>
-                            <li class="mb-2">➤ Image uploads and activity updates</li>
-                            <li class="mb-2">➤ Local ranking performance tracking</li>
-                            <li class="mb-2">➤ Monthly reporting with insights</li>
-                        </ul>
-                        <div class="mt-auto">
-                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility.</p>
-                            <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
-                        </div>
+        <div class="row g-4 align-items-stretch">
+            <div class="col-lg-4">
+                <div class="sem-service-card h-100 p-4" style="border: 1px solid #333; transition: transform 0.3s ease;">
+                    <div class="price-header mb-4">
+                        <h3 class="fs-24 fw-700 text-white mb-2">GBP Management</h3>
+                        <div class="price-tag fs-28 fw-800 theme-highlight">AED 850 <small class="fs-14 fw-400 opacity-60">/ Month</small></div>
+                    </div>
+                    <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
+                        <li class="mb-2">➤ Profile optimisation for local rankings</li>
+                        <li class="mb-2">➤ Keyword-focused content updates</li>
+                        <li class="mb-2">➤ Google Posts creation and publishing</li>
+                        <li class="mb-2">➤ Review monitoring and management</li>
+                        <li class="mb-2">➤ Image uploads and activity updates</li>
+                        <li class="mb-2">➤ Local ranking performance tracking</li>
+                        <li class="mb-2">➤ Monthly reporting with insights</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want consistent ranking growth, increased calls, and long-term local visibility.</p>
+                        <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4">
-                    <div class="sem-service-card h-100 p-4" style="border: 1px solid #845EF7; background: rgba(132, 94, 247, 0.05); transform: translateY(-10px);">
-                        <div class="popular-badge mb-3 d-inline-block px-3 py-1 rounded-pill fs-12 fw-700" style="background: #845EF7; color: #fff;">MOST POPULAR</div>
-                        <div class="price-header mb-4">
-                            <h3 class="fs-24 fw-700 text-white mb-2">GBP Optimisation</h3>
-                            <div class="price-tag fs-28 fw-800 theme-highlight">AED 900 <small class="fs-14 fw-400 opacity-60">/ Profile</small></div>
-                        </div>
-                        <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
-                            <li class="mb-2">➤ Detailed profile &amp; performance review</li>
-                            <li class="mb-2">➤ Category &amp; service alignment</li>
-                            <li class="mb-2">➤ Keyword analysis &amp; optimisation</li>
-                            <li class="mb-2">➤ Business description enhancement</li>
-                            <li class="mb-2">➤ Geo-targeted content improvements</li>
-                            <li class="mb-2">➤ Service and product optimisation</li>
-                            <li class="mb-2">➤ Conversion-focused restructuring</li>
-                            <li class="mb-2">➤ Image and media optimisation</li>
-                            <li class="mb-2">➤ Competitor benchmarking analysis</li>
-                        </ul>
-                        <div class="mt-auto">
-                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses looking to unlock the full ranking and lead-generation potential of their existing listing.</p>
-                            <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
-                        </div>
+            <div class="col-lg-4">
+                <div class="sem-service-card h-100 p-4" style="border: 1px solid #845EF7; background: rgba(132, 94, 247, 0.05); transform: translateY(-10px);">
+                    <div class="popular-badge mb-3 d-inline-block px-3 py-1 rounded-pill fs-12 fw-700" style="background: #845EF7; color: #fff;">MOST POPULAR</div>
+                    <div class="price-header mb-4">
+                        <h3 class="fs-24 fw-700 text-white mb-2">GBP Optimisation</h3>
+                        <div class="price-tag fs-28 fw-800 theme-highlight">AED 900 <small class="fs-14 fw-400 opacity-60">/ Profile</small></div>
+                    </div>
+                    <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
+                        <li class="mb-2">➤ Detailed profile &amp; performance review</li>
+                        <li class="mb-2">➤ Category &amp; service alignment</li>
+                        <li class="mb-2">➤ Keyword analysis &amp; optimisation</li>
+                        <li class="mb-2">➤ Business description enhancement</li>
+                        <li class="mb-2">➤ Geo-targeted content improvements</li>
+                        <li class="mb-2">➤ Service and product optimisation</li>
+                        <li class="mb-2">➤ Conversion-focused restructuring</li>
+                        <li class="mb-2">➤ Image and media optimisation</li>
+                        <li class="mb-2">➤ Competitor benchmarking analysis</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses looking to unlock the full ranking and lead-generation potential of their existing listing.</p>
+                        <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4">
-                    <div class="sem-service-card h-100 p-4" style="border: 1px solid #333;">
-                        <div class="price-header mb-4">
-                            <h3 class="fs-24 fw-700 text-white mb-2">GBP Setup</h3>
-                            <div class="price-tag fs-28 fw-800 theme-highlight">AED 800 <small class="fs-14 fw-400 opacity-60">/ Profile</small></div>
-                        </div>
-                        <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
-                            <li class="mb-2">➤ Profile creation &amp; verification</li>
-                            <li class="mb-2">➤ NAP consistency setup</li>
-                            <li class="mb-2">➤ Primary &amp; secondary category selection</li>
-                            <li class="mb-2">➤ Service and product listing configuration</li>
-                            <li class="mb-2">➤ Geo-optimised description writing</li>
-                            <li class="mb-2">➤ Business hours and attributes setup</li>
-                            <li class="mb-2">➤ Initial image uploads &amp; alignment</li>
-                            <li class="mb-2">➤ Google Maps integration</li>
-                            <li class="mb-2">➤ Basic on-profile SEO optimisation</li>
-                        </ul>
-                        <div class="mt-auto">
-                            <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want a professional, error-free launch with maximum local visibility.</p>
-                            <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
-                        </div>
+            <div class="col-lg-4">
+                <div class="sem-service-card h-100 p-4" style="border: 1px solid #333;">
+                    <div class="price-header mb-4">
+                        <h3 class="fs-24 fw-700 text-white mb-2">GBP Setup</h3>
+                        <div class="price-tag fs-28 fw-800 theme-highlight">AED 800 <small class="fs-14 fw-400 opacity-60">/ Profile</small></div>
+                    </div>
+                    <ul class="text-white opacity-70 list-unstyled mb-5 fs-16">
+                        <li class="mb-2">➤ Profile creation &amp; verification</li>
+                        <li class="mb-2">➤ NAP consistency setup</li>
+                        <li class="mb-2">➤ Primary &amp; secondary category selection</li>
+                        <li class="mb-2">➤ Service and product listing configuration</li>
+                        <li class="mb-2">➤ Geo-optimised description writing</li>
+                        <li class="mb-2">➤ Business hours and attributes setup</li>
+                        <li class="mb-2">➤ Initial image uploads &amp; alignment</li>
+                        <li class="mb-2">➤ Google Maps integration</li>
+                        <li class="mb-2">➤ Basic on-profile SEO optimisation</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="fs-14 text-white mb-4"><strong>Best for:</strong> Businesses that want a professional, error-free launch with maximum local visibility.</p>
+                        <a href="https://www.brandstory.ae/contact" class="Performance-Driven-btn w-100 text-center">Contact Now</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="ce-section-dark">
-        <div class="container">
+<section class="ce-section-dark">
+    <div class="container">
 
-            <!-- Header -->
-            <div class="ce-header">
-                <h2 class="ce-title">A Showcase of<br> Our SEO Campaign Results</h2>
-                <div class="ce-tabs">
-                    <span class="ce-tab active">SEO Results</span>
-                    <a href="https://www.brandstory.ae/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+        <!-- Header -->
+        <div class="ce-header">
+            <h2 class="ce-title">A Showcase of<br> Our SEO Campaign Results</h2>
+            <div class="ce-tabs">
+                <span class="ce-tab active">SEO Results</span>
+                <a href="https://www.brandstory.ae/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+            </div>
+        </div>
+
+        <!-- Keyword Ranking Grid -->
+        <div class="row ce-kw-grid">
+
+            <!-- Card 1: Square One -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
+                        </div>
+                        <span class="ce-domain">squareonemea.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">low code rapid application development</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data as a service</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data enrichment in iot</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">enterprise content management</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">data cleansing</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Keyword Ranking Grid -->
-            <div class="row ce-kw-grid">
-
-                <!-- Card 1: Square One -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="ce-card">
-                        <div class="ce-card-head">
-                            <div class="ce-logo-placeholder">
-                                <img src="/assets/images/squareone.webp" alt="Square One Logo">
-                            </div>
-                            <span class="ce-domain">squareonemea.com</span>
+            <!-- Card 2: Spectrum Accounts -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
                         </div>
-                        <div class="ce-table-head">
-                            <span>Keyword</span>
-                            <span>Position</span>
+                        <span class="ce-domain">spectrumaccounts.com</span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top accounting firms in dubai</span>
+                            <span class="ce-pos-badge">1</span>
                         </div>
-                        <div class="ce-rows">
-                            <div class="ce-row">
-                                <span class="ce-kw-text">low code rapid application development</span>
-                                <span class="ce-pos-badge">1</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">data as a service</span>
-                                <span class="ce-pos-badge">1</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">data enrichment in iot</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">enterprise content management</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">data cleansing</span>
-                                <span class="ce-pos-badge">4</span>
-                            </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">accounting and auditing dubai</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">top auditing firms in dubai</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing companies in dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">auditing company in dubai</span>
+                            <span class="ce-pos-badge">3</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Card 2: Spectrum Accounts -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="ce-card">
-                        <div class="ce-card-head">
-                            <div class="ce-logo-placeholder">
-                                <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
-                            </div>
-                            <span class="ce-domain">spectrumaccounts.com</span>
-                        </div>
-                        <div class="ce-table-head">
-                            <span>Keyword</span>
-                            <span>Position</span>
-                        </div>
-                        <div class="ce-rows">
-                            <div class="ce-row">
-                                <span class="ce-kw-text">top accounting firms in dubai</span>
-                                <span class="ce-pos-badge">1</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">accounting and auditing dubai</span>
-                                <span class="ce-pos-badge">1</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">top auditing firms in dubai</span>
-                                <span class="ce-pos-badge">2</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">auditing companies in dubai</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">auditing company in dubai</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3: Take Leap -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="ce-card">
-                        <div class="ce-card-head">
-                            <div class="ce-logo-placeholder">
-                                <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
-                            </div>
-                            <span class="ce-domain">takeleap.com</span>
-                        </div>
-                        <div class="ce-table-head">
-                            <span>Keyword</span>
-                            <span>Position</span>
-                        </div>
-                        <div class="ce-rows">
-                            <div class="ce-row">
-                                <span class="ce-kw-text">tangible table</span>
-                                <span class="ce-pos-badge">1</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">virtual reality training</span>
-                                <span class="ce-pos-badge">2</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">projection mapping company</span>
-                                <span class="ce-pos-badge">2</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">real hologram</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                            <div class="ce-row">
-                                <span class="ce-kw-text">augmented reality navigation</span>
-                                <span class="ce-pos-badge">3</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Screenshot Grid -->
-            <div class="ce-screenshot-grid">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+            <!-- Card 3: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
                         </div>
+                        <span class="ce-domain">takeleap.com</span>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Position</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">tangible table</span>
+                            <span class="ce-pos-badge">1</span>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">virtual reality training</span>
+                            <span class="ce-pos-badge">2</span>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">projection mapping company</span>
+                            <span class="ce-pos-badge">2</span>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">real hologram</span>
+                            <span class="ce-pos-badge">3</span>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ce-ss-box">
-                            <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">augmented reality navigation</span>
+                            <span class="ce-pos-badge">3</span>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-    </section>
 
-        
+        <!-- Screenshot Grid -->
+        <div class="ce-screenshot-grid">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 <section class="local-needs-section sp-80 dm-bg">
     <div class="container">
         <div class="local-needs-header">
@@ -585,125 +585,125 @@
 </section>
 
 
-    <section class="dm-dubai-office spb-50 dm-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-unstyled p-0 mb-0">
-                        <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/home/dubai-phone.svg">+971 52 283 1655</a></li>
-                        <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/home/dubai-mail.svg">info@brandstory.ae</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="d-flex align-items-start">
-                        <img class="me-3" src="/assets/images/home/dubai-location.svg">
-                        <div class="dubai-address">
-                            <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
-                            <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&amp;kgmid=/g/11jn2396qs&amp;q=Brandstory&amp;shndl=30&amp;shem=lcuae,lste,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
-                        </div>
+<section class="dm-dubai-office spb-50 dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled p-0 mb-0">
+                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/home/dubai-phone.svg">+971 52 283 1655</a></li>
+                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/home/dubai-mail.svg">info@brandstory.ae</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                    <img class="me-3" src="/assets/images/home/dubai-location.svg">
+                    <div class="dubai-address">
+                        <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
+                        <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&amp;kgmid=/g/11jn2396qs&amp;q=Brandstory&amp;shndl=30&amp;shem=lcuae,lste,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
-    <section class="sp-50 dm-review-sec dm-bg">
-        <div class="container">
+<section class="sp-50 dm-review-sec dm-bg">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-lg-6 col-sm-12 col-xs-12 col-md-6">
-                    <h2 class="text-white mb-md-4 text-md-start text-center">
-                        The Impact We've Delivered <br>for Our Clients
-                    </h2>
-                </div>
-
-
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12 col-md-6">
+                <h2 class="text-white mb-md-4 text-md-start text-center">
+                    The Impact We've Delivered <br>for Our Clients
+                </h2>
             </div>
-            <div class="position-relative delivertechmain">
-                <div class="swiper dmreview-sld swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                    <div class="swiper-wrapper" id="swiper-wrapper-8838a31990a569ae" aria-live="polite" style="transform: translate3d(-1281px, 0px, 0px); transition-duration: 0ms;">
-                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
-                                <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
-                                <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
-                                <p class="mb-0 text-start text-white">Take Leap</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide d-flex swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
-                                <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
-                                <h3 class="text-white mb-1 text-start">Muhammed S</h3>
-                                <p class="mb-0 text-start text-white">Uno Capital</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
-                                <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
-                                <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
-                                <p class="mb-0 text-start text-white">CoverB</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
-                                <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
-                                <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
-                                <p class="mb-0 text-start text-white">FourNxt</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
-                                <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
-                                <h3 class="text-white mb-1 text-start">Balint Simon</h3>
-                                <p class="mb-0 text-start text-white">Sherpa Communications</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
-                                <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
-                                <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
-                                <p class="mb-0 text-start text-white">Take Leap</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide d-flex swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
-                                <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
-                                <h3 class="text-white mb-1 text-start">Muhammed S</h3>
-                                <p class="mb-0 text-start text-white">Uno Capital</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
-                                <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
-                                <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
-                                <p class="mb-0 text-start text-white">CoverB</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
-                            <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
-                                <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
-                                <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
-                                <p class="mb-0 text-start text-white">FourNxt</p>
-                            </div>
+
+
+        </div>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmreview-sld swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                <div class="swiper-wrapper" id="swiper-wrapper-8838a31990a569ae" aria-live="polite" style="transform: translate3d(-1281px, 0px, 0px); transition-duration: 0ms;">
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                            <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
+                            <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
+                            <p class="mb-0 text-start text-white">Take Leap</p>
                         </div>
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    <div class="swiper-slide d-flex swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                            <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
+                            <h3 class="text-white mb-1 text-start">Muhammed S</h3>
+                            <p class="mb-0 text-start text-white">Uno Capital</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                            <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
+                            <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
+                            <p class="mb-0 text-start text-white">CoverB</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                            <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
+                            <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
+                            <p class="mb-0 text-start text-white">FourNxt</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                            <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
+                            <h3 class="text-white mb-1 text-start">Balint Simon</h3>
+                            <p class="mb-0 text-start text-white">Sherpa Communications</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                            <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
+                            <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
+                            <p class="mb-0 text-start text-white">Take Leap</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                            <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
+                            <h3 class="text-white mb-1 text-start">Muhammed S</h3>
+                            <p class="mb-0 text-start text-white">Uno Capital</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                            <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
+                            <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
+                            <p class="mb-0 text-start text-white">CoverB</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
+                        <div class="dm-review-main">
+                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                            <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
+                            <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
+                            <p class="mb-0 text-start text-white">FourNxt</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-button-next dmreview-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8838a31990a569ae"></div>
-                <div class="swiper-button-prev dmreview-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8838a31990a569ae"></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
             </div>
+            <div class="swiper-button-next dmreview-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8838a31990a569ae"></div>
+            <div class="swiper-button-prev dmreview-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8838a31990a569ae"></div>
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="industries-we-work-with" style="padding: 60px 0; font-family: 'Inter', sans-serif;">
     <div class="container">
@@ -816,66 +816,66 @@
     }
 </style>
 
-    <section class="sp-50 dm-blog-section dm-bg">
-        <div class="container">
-            <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
-                In the Industry
-            </h2>
-            <div class="position-relative delivertechmain">
-                <div class="swiper dmblog-sld swiper-initialized swiper-horizontal swiper-pointer-events">
-                    <div class="swiper-wrapper" id="swiper-wrapper-f704613c58012deb" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1281px, 0px, 0px);">
-                        
-                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/" style="color: #000; text-decoration: none;">Local SEO: Why It’s Crucial for Your Business Success</a></h3>
-                                <p class="fs-20">A local search refers to searches made with local intent. For example, if you search for “caterers near me” or include...</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo-packages.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/" style="color: #000; text-decoration: none;">Local SEO Packages Dubai: Everything You Need to Know</a></h3>
-                                <p class="fs-20">Local SEO packages in Dubai are designed to boost your local search rankings, attract more customers, and increase visibility.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/local-whatsapp-seo.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/" style="color: #000; text-decoration: none;">How WhatsApp, Reviews, and Local SEO Work Together to Grow a Dental Practice</a></h3>
-                                <p class="fs-20">Most dental clinics in Dubai treat WhatsApp, Google reviews, and local SEO as three separate things managed by three different people...</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
-                            <div class="latest-blog-main">
-                                <img class="w-100 dm-blog-img" src="/assets/images/blog/core-web-vital-seo.webp">
-                                <h3><a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
-                                <p class="fs-20">With the ever-growing SEO universe, Core Web-Vitals of Google have emerged almost magically as major ranking factors determining website position on the SERP.</p>
-                                <div class="casestydies-readmore">
-                                    <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
-                                </div>
-                            </div>
-                        </div>
+<section class="sp-50 dm-blog-section dm-bg">
+    <div class="container">
+        <h2 class="text-white mb-4 text-md-start text-center">Know What's Happening <br>
+            In the Industry
+        </h2>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmblog-sld swiper-initialized swiper-horizontal swiper-pointer-events">
+                <div class="swiper-wrapper" id="swiper-wrapper-f704613c58012deb" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1281px, 0px, 0px);">
 
+                    <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo.webp">
+                            <h3><a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/" style="color: #000; text-decoration: none;">Local SEO: Why It’s Crucial for Your Business Success</a></h3>
+                            <p class="fs-20">A local search refers to searches made with local intent. For example, if you search for “caterers near me” or include...</p>
+                            <div class="casestydies-readmore">
+                                <a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                </div>
-                <div class="swiper-button-next dmblog-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f704613c58012deb"></div>
-                <div class="swiper-button-prev dmblog-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f704613c58012deb"></div>
-            </div>
-        </div>
-    </section>
+                    <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo-packages.webp">
+                            <h3><a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/" style="color: #000; text-decoration: none;">Local SEO Packages Dubai: Everything You Need to Know</a></h3>
+                            <p class="fs-20">Local SEO packages in Dubai are designed to boost your local search rankings, attract more customers, and increase visibility.</p>
+                            <div class="casestydies-readmore">
+                                <a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-whatsapp-seo.webp">
+                            <h3><a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/" style="color: #000; text-decoration: none;">How WhatsApp, Reviews, and Local SEO Work Together to Grow a Dental Practice</a></h3>
+                            <p class="fs-20">Most dental clinics in Dubai treat WhatsApp, Google reviews, and local SEO as three separate things managed by three different people...</p>
+                            <div class="casestydies-readmore">
+                                <a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
+                        <div class="latest-blog-main">
+                            <img class="w-100 dm-blog-img" src="/assets/images/blog/core-web-vital-seo.webp">
+                            <h3><a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
+                            <p class="fs-20">With the ever-growing SEO universe, Core Web-Vitals of Google have emerged almost magically as major ranking factors determining website position on the SERP.</p>
+                            <div class="casestydies-readmore">
+                                <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                            </div>
+                        </div>
+                    </div>
 
-    <section class="sp-50">
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+            <div class="swiper-button-next dmblog-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f704613c58012deb"></div>
+            <div class="swiper-button-prev dmblog-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f704613c58012deb"></div>
+        </div>
+    </div>
+</section>
+
+<section class="sp-50">
     <div class="container map-section text-white">
         <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
         <p class="text-center mb-3">As a leading <a href="/seo-services-in-dubai" class="text-purple" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
@@ -939,25 +939,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-4.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-company-in-jlt" style="color:#000;text-decoration:underline">Jumeirah &amp; JBR</a>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-company-in-jlt" style="color: #fff; text-decoration:underline">Jumeirah &amp; JBR</a>
                                 </h5>
                                 <p class="text-start">Local SEO for restaurants, cafes, and lifestyle businesses</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
                                 <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-5.png" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
-                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-agency-in-dubai-silicon-oasis" style="color:#000;text-decoration:underline">Dubai Silicon Oasis</a>
+                                <h5 class="text-start"><a href="https://www.brandstory.ae/seo-agency-in-dubai-silicon-oasis" style="color:#fff;text-decoration:underline">Dubai Silicon Oasis</a>
                                 </h5>
                                 <p class="text-start">SEO for startups, tech firms, and industrial businesses</p>
                             </div>
@@ -974,81 +974,81 @@
     </div>
 </section>
 
-    <!-- FAQ section started -->
-    <section class="sp-80 dm-bg">
-        <div class="container">
-            <h2 class="text-white text-center mb-4">Frequently Asked Questions</h2>
-            <div class="row g-4 d-flex pt-lg-5 pt-3 justify-content-center align-items-center">
-                <div class="col-md-9 col-12">
-                    <div class="accordion custom-accordion" id="localSeoAccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button show fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    1. What is Local SEO and why does my Dubai business need it?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#localSeoAccordion">
-                                <div class="accordion-body">
-                                    <p class="fs-18 text-white" >Local SEO is the practice of optimising your online presence to attract more business from relevant local searches. For businesses in Dubai, it ensures that when someone searches for your services "near me" or in specific areas like Marina, Downtown, or JLT, your business appears at the top of Google Maps and local search results.</p>
-                                </div>
+<!-- FAQ section started -->
+<section class="sp-80 dm-bg">
+    <div class="container">
+        <h2 class="text-white text-center mb-4">Frequently Asked Questions</h2>
+        <div class="row g-4 d-flex pt-lg-5 pt-3 justify-content-center align-items-center">
+            <div class="col-md-9 col-12">
+                <div class="accordion custom-accordion" id="localSeoAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button show fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. What is Local SEO and why does my Dubai business need it?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#localSeoAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18 text-white">Local SEO is the practice of optimising your online presence to attract more business from relevant local searches. For businesses in Dubai, it ensures that when someone searches for your services "near me" or in specific areas like Marina, Downtown, or JLT, your business appears at the top of Google Maps and local search results.</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    2. How long does it take to rank on Google Maps?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#localSeoAccordion">
-                                <div class="accordion-body">
-                                    <p class="fs-18 text-white">Typically, initial improvements can be seen within 4–8 weeks of optimisation. However, achieving and maintaining a top 3 position in the "Local Pack" depends on competition and consistent profile management. Most clients see significant lead growth within 3 months.</p>
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. How long does it take to rank on Google Maps?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#localSeoAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18 text-white">Typically, initial improvements can be seen within 4–8 weeks of optimisation. However, achieving and maintaining a top 3 position in the "Local Pack" depends on competition and consistent profile management. Most clients see significant lead growth within 3 months.</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    3. What is a Google Business Profile (GBP)?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#localSeoAccordion">
-                                <div class="accordion-body">
-                                    <p class="fs-18 text-white">Google Business Profile (formerly Google My Business) is a free tool from Google that allows you to manage how your business appears on Google Search and Maps. It is the most critical element of Local SEO, used to display your NAP (Name, Address, Phone), reviews, and photos.</p>
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. What is a Google Business Profile (GBP)?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#localSeoAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18 text-white">Google Business Profile (formerly Google My Business) is a free tool from Google that allows you to manage how your business appears on Google Search and Maps. It is the most critical element of Local SEO, used to display your NAP (Name, Address, Phone), reviews, and photos.</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    4. Does Local SEO work for businesses without a physical office?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#localSeoAccordion">
-                                <div class="accordion-body">
-                                    <p class="fs-18 text-white">Yes! "Service Area Businesses" (like plumbers, cleaners, or consultants) can still use Local SEO. We optimise your profile to show the areas you serve without revealing a specific home address, ensuring you still appear when customers in those areas search for you.</p>
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Does Local SEO work for businesses without a physical office?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#localSeoAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18 text-white">Yes! "Service Area Businesses" (like plumbers, cleaners, or consultants) can still use Local SEO. We optimise your profile to show the areas you serve without revealing a specific home address, ensuring you still appear when customers in those areas search for you.</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    5. How do reviews impact local rankings?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#localSeoAccordion">
-                                <div class="accordion-body">
-                                    <p class="fs-18 text-white">Reviews are a major ranking factor. Google prioritises businesses with high ratings and frequent, descriptive reviews. Our management service includes review strategy to help you gain more positive feedback and respond to customers professionally.</p>
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed fs-24 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                5. How do reviews impact local rankings?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#localSeoAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-18 text-white">Reviews are a major ranking factor. Google prioritises businesses with high ratings and frequent, descriptive reviews. Our management service includes review strategy to help you gain more positive feedback and respond to customers professionally.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
-    <style>
+<style>
     .sem-new-banner-section {
         padding: 24px 0 100px !important;
     }
@@ -1153,7 +1153,7 @@
             display: none;
         }
 
-        .image-mobile-slider > [class*="col-"] {
+        .image-mobile-slider>[class*="col-"] {
             flex: 0 0 85% !important;
             max-width: 85% !important;
             width: 85% !important;
@@ -1170,21 +1170,24 @@
         .feature-grid-section .feature-card {
             padding: 30px 20px;
         }
+
         .feature-grid-section .feature-num {
             font-size: 32px;
         }
+
         .feature-grid-section .feature-card h4 {
             font-size: 20px;
         }
     }
 
-    .ce-kw-text{
+    .ce-kw-text {
         color: #fff;
     }
 
-    .local-needs-item h3{
+    .local-needs-item h3 {
         text-transform: capitalize !important;
     }
+
     /* 3x4 Local Needs Grid */
     .local-needs-grid-3x4 {
         display: grid;
@@ -1193,6 +1196,10 @@
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 20px;
         overflow: hidden;
+    }
+
+    .slider-section .location-slider .swiper-slide.active {
+        color: rgb(255 255 255);
     }
 
     @media (max-width: 991px) {
