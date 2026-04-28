@@ -1,41 +1,72 @@
-<section class="seo-page-banner dm-banner-abudhabi sp-50">
-  <div class="container"><!--Container Start-->
-    <div class="row"><!--Row Start-->
-      <div class="col-md-6"> <!--col start-->
-        <div class="seo-banner-txt">
-          <h1>Video Marketing<span class="db"> Company in Dubai</span></h1>
-        </div>
-      </div><!--col end-->
-      <div class="col-md-6"> <!--col start-->
-        <div class="seo-banner-form">
-          <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
-
-        </div>
-      </div><!--col end-->
-    </div><!--Row End-->
-  </div><!--Container End-->
+<!-- Include Header-->
+<section class="service-banner em-banner sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-txt">
+                    <h1>Video Marketing Agency in Dubai, UAE</h1>
+                    <p>Video marketing helps your brand communicate with clarity and impact. At BrandStory, we develop strategic video campaigns that capture attention, simplify your message, and create stronger audience connections across various digital platforms.</p>
+                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Start Video Marketing</a></div>
+                </div>
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="service-banner-form">
+                    <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
 </section>
+
+
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Strategy</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Concept Development</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Script Writing</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Production</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Motion Graphics</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Corporate Videos</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Product Videos</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Ad Films</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Distribution</a>
+            <span class="seo-marquee-sep text-white">يلا</span>
+        </div>
+    </div>
+</section>
+
+
+<section id="knowMore" class="web-design-abt sp-50">
+    <div class="container"><!--Container Start-->
+        <div class="row align-items-center"><!--Row Start-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-txt"><!--txt start-->
+                    <h2>Driving Growth Through Strategic Video Marketing</h2>
+                    <p>BrandStory brings over a decade of experience in digital marketing and video production in Dubai, helping businesses adapt to evolving content trends. With the evolution of social media video has become one of the most powerful ways to communicate, and we focus on creating content that not only captures attention but also delivers clear, impactful messaging.</p><br>
+                    <p>From concept development to production and distribution, our team handles every stage of video marketing with a strategic approach. Whether it’s brand videos, ad films, or product storytelling, each piece is designed to align with your business goals and connect with the right audience across platforms.</p><br>
+                    <p>For brands aiming to stand out in a crowded digital space, BrandStory offers more than just video creation- we provide a structured approach to using video as a growth tool. The focus is on driving engagement, improving visibility, and ensuring your content contributes to long-term business performance.</p><br>
+                </div><!--txt end-->
+            </div><!--col end-->
+            <div class="col-md-6"> <!--col start-->
+                <div class="best-img">
+                    <img src="/assets/images/service/video-1.webp" class="img-fluid" alt="creative advertising agency in dubai">
+                </div>
+            </div><!--col end-->
+        </div><!--Row End-->
+    </div><!--Container End-->
+</section>
+
 <section id="knowMore" class="wt-is-ff sp-50">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="pb-3 pb-md-5 text-center">What is Video Marketing?</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="wt-is-ff-points">
-          <p>In today's fast-paced digital world, traditional text-based content often isn't enough to capture and hold your audience's attention. Video marketing has emerged as the most engaging and effective medium to communicate your brand's message.</p>
-          <p>By incorporating visual storytelling, motion graphics, and high-quality production, video marketing allows businesses to connect with their audience on a deeper, more emotional level. Whether it's an explainer video, a corporate documentary, or a short social media clip, videos bring your brand to life.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="wt-is-ff-points">
-          <p>A comprehensive video marketing strategy considers all the platforms where your customers consume content—from YouTube and Instagram to your own website. It ensures a consistent, compelling narrative that drives action.</p>
-          <p>As a leading video marketing agency in Dubai, we help brands leverage the power of video to increase brand awareness, boost engagement, and ultimately drive higher conversions and revenue.</p>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <h2 class="text-center mt-5 mb-5">The Impact of Video Content vs <span class="db"> Traditional Media</span></h2>
@@ -61,6 +92,102 @@
     </div>
   </div>
 </section>
+
+<section class="service-process web-design-workflow sp-50">
+    <div class="container">
+        <div class="max-1000 text-center">
+            <h2 class="mb-3">Our Video Distribution Channels</h2>
+        </div>
+        <div class="sprocess-tabs-sec">
+            <div class="sprocess-tabs">
+                <div class="sptab-links">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">Facebook</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt2" data-bs-toggle="tab" data-bs-target="#spt-2" type="button" role="tab" aria-selected="false">Instagram</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt3" data-bs-toggle="tab" data-bs-target="#spt-3" type="button" role="tab" aria-selected="false">YouTube</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">TikTok</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">YouTube Video Ads</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="myTabContent">
+
+                    <div class="tab-pane fade show active" id="spt-1" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Facebook Video</h5>
+                                <p>Utilise Facebook to showcase your brand through engaging video content that highlights your achievements, updates, and key business moments. With targeted video campaigns, we help you reach the right audience, strengthen brand visibility, and drive meaningful engagement.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/audiance-build.webp" class="img-fluid" alt="facebook video marketing dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-2" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>Instagram Reels</h5>
+                                <p>Instagram Reels is a powerful way to capture attention through shorts that quickly communicate your brand message. With the right creative approach, we help you engage your audience, boost visibility, and connect with potential customers in a highly interactive format.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-4.png" class="img-fluid" alt="instagram video marketing dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-3" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>YouTube Video</h5>
+                                <p>Build a strong presence on YouTube to connect with your audience through meaningful and informative video content. We create engaging videos that showcase your products, services, and brand story in a way that builds interest, trust, and long-term audience connection.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/ads-optimize.webp" class="img-fluid" alt="youtube video marketing dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-4" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>TikTok Video</h5>
+                                <p>We create and distribute engaging short-form videos on TikTok designed to grab attention instantly and encourage interaction. This helps your brand reach active, trend-driven audiences and build stronger visibility through creative, fast-paced content.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/fb/report.webp" class="img-fluid" alt="tiktok video marketing dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="spt-5" role="tabpanel">
+                        <div class="process-txt-row">
+                            <div class="process-tabs-txt">
+                                <h5>YouTube Video Ads</h5>
+                                <p>YouTube is the 2nd largest search engine to build your brand identity and drive consistent growth through video. We create and run targeted video ad campaigns designed to reach specific audience segments, ensuring better visibility, stronger engagement, and improved results.</p>
+                            </div>
+                            <div class="process-tabs-img">
+                                <img src="/assets/images/service/em/our-process-img-7.png" class="img-fluid" alt="youtube video ads dubai">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="web-why-choose sp-50">
   <div class="container">
     <div class="row">
@@ -106,16 +233,6 @@
           <h3 class="mb-4">04</h3>
           <div class="ff-img-sec">
             <img src="/assets/images/service/ff/ff-stages-icon-4.png" class="img-fluid" alt="Video Marketing Dubai">
-            <h4>Pre-Production</h4>
-          </div>
-          <p class="mt-3">We handle all the logistics, from scouting locations and casting talent to organizing props and scheduling the shoot. Meticulous planning ensures a smooth production day.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">05</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-5.png" class="img-fluid" alt="video production company in dubai">
             <h4>Production</h4>
           </div>
           <p class="mt-3">Our experienced film crew brings your story to life using state-of-the-art cinematic equipment. We focus on capturing high-quality visuals and pristine audio.</p>
@@ -123,9 +240,9 @@
       </div>
       <div class="col-md-4">
         <div class="web-why-choose-box">
-          <h3 class="mb-4">06</h3>
+          <h3 class="mb-4">05</h3>
           <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-6.png" class="img-fluid" alt="video marketing agency in dubai">
+            <img src="/assets/images/service/ff/ff-stages-icon-5.png" class="img-fluid" alt="video production company in dubai">
             <h4>Post-Production</h4>
           </div>
           <p class="mt-3">Our expert editors assemble the footage, adding motion graphics, color grading, sound design, and music to create a polished, final product that captivates viewers.</p>
@@ -133,34 +250,18 @@
       </div>
       <div class="col-md-4">
         <div class="web-why-choose-box">
-          <h3 class="mb-4">07</h3>
+          <h3 class="mb-4">06</h3>
           <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-7.png" class="img-fluid" alt="video marketing agency dubai">
-            <h4>Review & Refine</h4>
+            <img src="/assets/images/service/ff/ff-stages-icon-6.png" class="img-fluid" alt="video marketing agency in dubai">
+            <h4>Distribution</h4>
           </div>
-          <p class="mt-3">We value your input. We share drafts of the video with you for review, ensuring that the final cut meets your expectations and perfectly communicates your brand message.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">08</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-8.png" class="img-fluid" alt="video marketing dubai">
-            <h4>Distribution Strategy</h4>
-          </div>
-          <p class="mt-3">A great video needs a great audience. We help you launch your video across the right platforms—be it social media, YouTube, or your website—to maximize reach and ROI.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <div class="ff-img-sec">
-            <a href="/contact-us/"><img src="/assets/images/service/ff/ff-stages-icon-9.png" class="img-fluid" alt="video marketing services in dubai"></a>
-          </div>
+          <p class="mt-3">A great video needs a great audience. We help you launch your video across the right platforms be it social media, YouTube, or your website to maximize reach and ROI.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <section class="perks sp-50">
   <div class="container">
     <div class="row">
@@ -187,7 +288,7 @@
         <div class="perks-box">
           <img src="/assets/images/service/ff/iff-icon-3.png" class="img-fluid" alt="best video marketing company in dubai">
           <h4 class="mt-3">Improve SEO</h4>
-          <p>Search engines love video. Having video content on your website increases the time visitors spend on your pages, which signals to search engines that your site has valuable content, thereby improving your rankings.</p>
+          <p>Video strengthens how brands are discovered and experienced across digital platforms. Having video content on your website increases the time visitors spend on your pages, which signals to search engines that your site has valuable content, thereby improving your rankings.</p>
         </div>
       </div>
       <div class="col-md-6 d-flex align-items-stretch">
@@ -200,72 +301,53 @@
     </div>
   </div>
 </section>
-<section class="sp-50">
-  <div class="container" bis_skin_checked="1"><!--Container Start-->
-    <div class="max-980" bis_skin_checked="1">
-      <h2>Video Marketing Services in Dubai</h2>
-      <p>Video marketing services have risen to popularity over the last few years and today, it is being used to a huge extent by various companies and organizations. By making use of the best video marketing services, you will be able to increase your brand reach to a greater extent. As you know, videos are a lot more effective in communicating information than regular textual content. So, you can make use of videos to share what you have got to share with your customers in a more effective way. You can also get in touch with a video marketing agency dubai for extraordinary video marketing services.</p>
-      <h4>What is Video Marketing?</h4>
-      <p>Video marketing is a kind of marketing method in which we make use of videos to promote our products and services. The type of videos may include promotional videos, testimonials, videos of live events, and much more. Nowadays, seminars and training programs are also being included as a part of video marketing. It can provide your brand with great visibility. It is also being used as a valuable tool to drive more traffic towards a particular brand. You can take the help of a video marketing firm in dubai for getting all the required services.</p>
-      <h4>Our Video Marketing Services in Dubai</h4>
-      <p><strong>Demo videos</strong>: Demo videos are used to demonstrate the operations of a particular product or a service. These demonstration videos are really effective in driving a lot of audience towards your brand.</p>
-      <p><strong>Brand videos:</strong> Brand videos are mainly used for promoting brand awareness. They talk about the brand and throw light on their assets and services.</p>
-      <p><strong>Explainer videos:</strong> Explainer videos are used to provide explanations on a particular topic to the audience. These videos are shot in a highly detailed way and come with a lot of information.</p>
-      <p><strong>Animated videos:</strong> Animated videos have animated content. They can be a fun and interactive way of conveying something meaningful to the users. </p>
-      <p><strong>Educational or How-To Videos:</strong> Educational videos are used to provide knowledge on a particular topic to the users. They are similar to demonstration videos and they mainly focus on how a particular product or service works.</p>
-      <p><strong>Expert Interviews:</strong> These videos are mostly interviews with experts. They bring out the views of the experts before the audience. These videos can be used as an important tool for promotion.</p>
-      <p><strong>Corporate videos:</strong> Corporate videos are mainly used to share a corporate message. They are clicked in a professional way.</p>
-      <h4>Advantages of Video Marketing</h4>
-      <div class="em-points" bis_skin_checked="1">
-        <p>By making use of our video marketing company, you will be able to get the customers to spend more time on your website.</p>
-        <p>Video marketing services can also increase the conversion rate of your website and provide you with better sales and revenue.</p>
-        <p>The videos are really engaging. They can also be used to build a sense of trust among the customers.</p>
-        <p>Videos are search-engine friendly. So, they can be used to provide your website with better search engine ranking.</p>
-        <p>You can make use of video marketing to spread brand awareness and increase the visibility of your brand.</p>
-      </div>
-      <h4>Important KPIs of Video Marketing</h4>
-      <p><strong>Number of Clicks:</strong> The number of clicks determine how many users have actually clicked on a particular video. Higher number of clicks signify a wider reach. The best video marketing companies near me will help you to get a higher number of clicks on the videos.</p>
-      <p><strong>Video Engagement:</strong> The video engagement rate determines to what extent the video has been successful in keeping the customers engaged. This is a very critical KPI in video marketing strategy because it signifies how relevant a particular video is to the target audience.</p>
-      <p><strong>Social Media Shares:</strong> <a href="/social-media-marketing-agency-in-dubai/">Social media</a> shares reflect how many users have shared your video on social media. Higher social media shares equal to better brand visibility and better reach.</p>
-      <p><strong>Video Conversion Rates:</strong> The video conversion rate shows how many potential leads and prospective clients have been generated from your video marketing campaign. Higher video conversion rate means better traffic and increased number of followers.</p>
-      <p><strong>Returning Users:</strong> The number of returning users signify how many users keep coming back to your brand for more services. This again determines the engagement rate of the videos.</p>
-      <h4>Features of Video Marketing</h4>
-      <div class="em-ponits" bis_skin_checked="1">
-        <p>A video marketing agency can be used to boost the sale on your website. </p>
-        <p>It is going to help the users remain engaged with your website.</p>
-        <p>You can get better ranking on search engine results.</p>
-        <p>You can integrate video marketing with your <a href="/email-marketing-company-in-dubai/">email marketing</a> campaigns.</p>
-        <p>You can also build customer loyalty by taking the help of a video content production agency.</p>
-      </div>
-      <h4>Our Video Marketing Process</h4>
-      <p><strong>Consultation:</strong> First, we will carry out the consultation process. Here we will continuously communicate with you regarding your exact expectations from us and on the basis of that, we will design our video marketing strategy.</p>
-      <p><strong>Video shooting:</strong> Next comes the video shooting process. Here we will be shooting your videos depending on your exact requirements. </p>
-      <p><strong>Video editing:</strong> After video shooting comes the video editing process. Here we will get your videos edited and give it an extraordinary shape.</p>
-      <p><strong>Final video:</strong> Once the final video is prepared, we will get it delivered to you so that you can use it for your campaigns.</p>
-      <h3>Why Choose Our Video Marketing Company in Dubai</h3>
-      <p>BranchStory is one of the best video marketing companies around you. It has been offering the best quality video marketing services to the customers for quite a while now. By making use of our video marketing firm, you will be able to provide your brand with excellent visibility. Your popularity is going to increase to a great extent. You will also end up gaining a lot of potential customers for your brand. This is going to be something really beneficial for you and you will also be able to fulfill your marketing goals without having to spend money. So, if you are looking for a video marketing agency near me, you may contact us.</p>
+
+<section class="em-benefits sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mb-3 mb-md-5 text-center">Why Hire BrandStory as Your Video Marketing Agency</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Choosing BrandStory as your video marketing agency in Dubai means partnering with a team that understands how to turn ideas into impactful visual stories that drive real business results. Here’s what sets us apart:</p><br>
+                <div class="em-points">
+                    <p>We combine strategy, creativity, and performance thinking to create videos that are not just visually appealing but also aligned with your business objectives and audience behavior.</p><br>
+                    <p>Our team focuses on storytelling that connects with viewers- whether it’s brand films, social media videos, or ad campaigns ensuring your message is clear, engaging, and memorable.</p><br>
+                    <p>We handle the complete video production process, from concept development to distribution, ensuring consistency, quality, and timely delivery across all stages.</p><br>
+                    <p>With continuous optimization and platform-focused strategies, we help your video content reach the right audience and deliver measurable engagement and growth.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/assets/images/service/video-2.webp" class="img-fluid" alt="video marketing benefits dubai">
+            </div>
+        </div>
     </div>
-  </div><!--Container End-->
+</section>
+<section class="sp-50">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center">Our Valuable Clients</h2>
+        <?php include __DIR__ . '/../component/services/clients.php' ?>
+    </div><!--Container End-->
 </section>
 
-<section class="sp-50 bg-yellow">
-  <div class="container">
-    <?php include __DIR__ . '/../component/services/stats.php' ?>
-  </div>
-</section>
+
 <section class="site-faq sp-50">
   <div class="container"><!--Container Start-->
-    <h2 class="text-center">FAQ’s</h2>
+    <h2 class="text-center">Frequently Asked Questions</h2>
 
     <div class="accordion spt-50" id="accordionDM"><!--Accordion Start-->
+      
       <div class="accordion-item"><!--Accordion item start-->
         <h2 class="accordion-header" id="fh1">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="true">
-            What does a video marketing agency do?
+            What is video marketing and how does it work?
           </button>
         </h2>
         <div id="fc1" class="accordion-collapse collapse show" data-bs-parent="#accordionDM">
-          <div class="accordion-body">The main job of a video marketing agency is to strengthen your marketing campaign by making use of video content.
+          <div class="accordion-body">
+            Video marketing is the use of video content to promote a brand, product, or service. It works by combining storytelling, visuals, and messaging to communicate more effectively with your audience across platforms like social media, websites, and paid ads, helping improve engagement and brand awareness.
           </div>
         </div>
       </div><!--Accordion item end-->
@@ -273,12 +355,12 @@
       <div class="accordion-item"><!--Accordion item start-->
         <h2 class="accordion-header" id="fh2">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="false">
-            Does video ads help in getting more business?
+            Why should businesses invest in video marketing?
           </button>
         </h2>
         <div id="fc2" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
           <div class="accordion-body">
-            Yes, video marketing does have a big role to play in helping you get more business. You will be able to drive traffic towards your brand and provide your company with better exposure.
+            Video helps businesses explain their offerings in a more engaging and memorable way. It improves audience attention, increases time spent on content, and helps build trust, making it easier to convert viewers into potential customers.
           </div>
         </div>
       </div><!--Accordion item end-->
@@ -286,12 +368,12 @@
       <div class="accordion-item"><!--Accordion item start-->
         <h2 class="accordion-header" id="fh3">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false">
-            How much does video production cost?
+            Which platforms are best for video marketing?
           </button>
         </h2>
         <div id="fc3" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
           <div class="accordion-body">
-            The cost of video production will depend on what kind of videos you want to use for your marketing campaign. You can provide us with your requirements and we will help you with the details of the cost.
+            The most effective platforms include Facebook, Instagram, YouTube, and TikTok. Each platform serves a different audience type, and we help businesses choose the right mix based on their goals, target audience, and campaign strategy.
           </div>
         </div>
       </div><!--Accordion item end-->
@@ -299,13 +381,12 @@
       <div class="accordion-item"><!--Accordion item start-->
         <h2 class="accordion-header" id="fh4">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc4" aria-expanded="false">
-            Why is video marketing important?
+            How long does it take to create a video marketing campaign?
           </button>
         </h2>
         <div id="fc4" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
           <div class="accordion-body">
-            Video marketing has got a role to play in triggering sales and your target audiences. It can also provide your brand with better visibility.
-
+            The timeline depends on the type of video and complexity of the project. On average, a full video campaign—including concept, production, and editing—can take anywhere from a few days to a few weeks, depending on requirements and revisions.
           </div>
         </div>
       </div><!--Accordion item end-->
@@ -313,12 +394,25 @@
       <div class="accordion-item"><!--Accordion item start-->
         <h2 class="accordion-header" id="fh5">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc5" aria-expanded="false">
-            How to choose the best video marketing company in Dubai?
+            What types of video content can be created for marketing?
           </button>
         </h2>
         <div id="fc5" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
           <div class="accordion-body">
-            <p>You can select the best video marketing company in Dubai by going through the reputation of the company, the range of services offered and the cost of the services.</p>
+            We create a wide range of video content including brand videos, product demos, promotional ads, social media reels, corporate films, and YouTube ads. Each format is designed to match specific marketing objectives and audience behavior.
+          </div>
+        </div>
+      </div><!--Accordion item end-->
+
+      <div class="accordion-item"><!--Accordion item start-->
+        <h2 class="accordion-header" id="fh6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc6" aria-expanded="false">
+            How do you measure the success of video marketing campaigns?
+          </button>
+        </h2>
+        <div id="fc6" class="accordion-collapse collapse" data-bs-parent="#accordionDM">
+          <div class="accordion-body">
+            Success is measured using key performance indicators such as views, engagement rate, watch time, click-through rates, and conversions. These insights help optimize future campaigns and ensure better performance and return on investment.
           </div>
         </div>
       </div><!--Accordion item end-->

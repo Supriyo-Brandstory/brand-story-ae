@@ -5,7 +5,7 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-txt">
                     <h1>Creative Advertising Agency in Dubai</h1>
-                    <p>BrandStory is a 360-degree creative advertising agency in Dubai, UAE. We blend imaginative storytelling with data-driven strategy to build high-impact brands that command attention, drive emotional connection, and deliver measurable business growth across the GCC.</p>
+                    <p>BrandStory is a full-service creative advertising agency in Dubai, UAE. We blend imaginative storytelling with data-driven strategy to build high-impact brands that command attention, drive emotional connection, and deliver measurable business growth across the GCC.</p>
                     <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Build a brand that stands out!</a></div>
                 </div>
             </div><!--col end-->
@@ -49,17 +49,17 @@
         <div class="row align-items-center"><!--Row Start-->
             <div class="col-md-6"> <!--col start-->
                 <div class="best-txt"><!--txt start-->
-                    <h2>Leading Creative Advertising Services in Dubai</h2>
-                    <p>In a world where consumers are bombarded with thousands of marketing messages every day, being seen isn't enough—you must be memorable. Creative advertising is the art of breaking through that clutter by crafting inspired, innovative campaigns that resonate with your audience's needs and aspirations.</p>
+                    <h2>About Creative Advertising Services in Dubai</h2>
+                    <p>We are a creative advertising team of experts delivering innovative advertising solutions by crafting inspired marketing and branding campaigns based on client requirements. If you wish to develop public interest in your products and services, hiring our creative advertising agency in Dubai can help you with that. </p>
                     <br>
-                    <p>At BrandStory, we provide comprehensive advertising solutions that go far beyond basic graphic design. We are architects of <b>brand architecture and visual identity</b>. Whether you need a scroll-stopping digital campaign, a high-production TV commercial, or a strategic brand redesign, our team combines UAE market insights with global creative standards to represent your brand image accurately and effectively.</p>
+                    <p>Moreover, our services are not only limited to creating engaging advertising content, we also help you with branding strategies. From designing brand logos to delivering visual identities, our creative advertising agency can represent your brand image accurately.</p>
                     <br>
-                    <p>From designing brand logos to delivering complete visual identity manuals, we ensure your brand speaks a consistent, powerful language across every touchpoint - physical and digital.</p>
+                    <p>When you hire us as a creative advertising partner, we deliver full-fledged services such as content development, social media optimization, branding, and graphic design solutions. With over 12 years of industry expertise, we bring proven strategies and creative excellence to help your brand stand out.</p>
                 </div><!--txt end-->
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <div class="best-img">
-                    <img src="/assets/images/service/fb/fb-marketing-1.webp" class="img-fluid" alt="creative advertising agency in dubai">
+                    <img src="/assets/images/service/creative-agency.webp" class="img-fluid" alt="creative advertising agency in dubai">
                 </div>
             </div><!--col end-->
         </div><!--Row End-->
@@ -70,9 +70,62 @@
         <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center mb-5">Strategic Creative Advertising Solutions</h2>
-                <p>Developing public interest in your products and services requires more than just a large budget; it requires <strong>deep consumer insights</strong> and disruptive creativity. Hiring a leading creative agency in Dubai like BrandStory ensures your marketing dirhams are invested in campaigns that move the needle on both brand awareness and actual sales.</p>
-                <p>Our team manages the entire creative lifecycle—from the initial strategic brief to media buying and post-production review. We bridge the gap between traditional advertising (newspapers, hoardings, transit branding) and new-age digital media (SMM, UI/UX, Video content) to provide a <b>360-degree brand experience</b>.</p>
+                <h2 class="text-center mb-5">Creative Advertising Solutions by BrandStory</h2>
+                <p>We combine strategy, creativity, and performance to boost visibility, generate leads, and deliver real business results. Explore our key services designed to build strong brands, drive visibility, and deliver measurable growth.</p><br>
+
+                <ul>
+                    <li>
+                        <a href="/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Digital Marketing Services in Dubai
+                        </a> & 
+                        <a href="/branding-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Branding Services in Dubai
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/logo-design-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Logo Design
+                        </a> & 
+                        <a href="/graphic-design-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Graphic Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/seo-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SEO</a>, 
+                        <a href="/pay-per-click-ppc-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SEM (PPC)</a>, 
+                        <a href="/social-media-marketing-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SMM</a>, 
+                        <a href="/ui-ux-design-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">UI/UX Design</a>, 
+                        <a href="/video-production-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">Video Creation</a>, 
+                        <a href="/content-marketing-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">Content Development</a>
+                    </li>
+
+                    <li>
+                        <a href="/website-development-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">Website Development</a>, 
+                        <a href="/mobile-app-development-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">App Development</a>, 
+                        <a href="/cms-development-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">CMS Development</a>, 
+                        <a href="/ecommerce-website-development-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">eCommerce Development</a>
+                    </li>
+
+                    <li>
+                        <a href="/social-media-marketing-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Campaign Management (Social Media & Web)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/branding-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            Brand Strategy & Rebranding
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/advertising-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">
+                            TV, Radio, Print & Digital Advertising
+                        </a>
+                    </li>
+                </ul>
                 <p class="mb-5">Why global and local brands choose BrandStory for creative advertising:</p>
             </div>
         </div>
@@ -157,7 +210,7 @@
 </section>
 
 <section class="service-process web-design-workflow sp-50">
-    <div class="container"><!--Container Start-->
+    <div class="container">
         <div class="max-1000 text-center">
             <h2 class="mb-3">Our Creative Production Workflow</h2>
         </div>
@@ -166,25 +219,19 @@
                 <div class="sptab-links">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">Discovery</button>
+                            <button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">The Brief</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt2" data-bs-toggle="tab" data-bs-target="#spt-2" type="button" role="tab" aria-selected="false">The Brief</button>
+                            <button class="nav-link" id="spt2" data-bs-toggle="tab" data-bs-target="#spt-2" type="button" role="tab" aria-selected="false">Feedback</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt3" data-bs-toggle="tab" data-bs-target="#spt-3" type="button" role="tab" aria-selected="false">Ideation</button>
+                            <button class="nav-link" id="spt3" data-bs-toggle="tab" data-bs-target="#spt-3" type="button" role="tab" aria-selected="false">Testing</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">Feedback</button>
+                            <button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">Production</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Testing</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt6" data-bs-toggle="tab" data-bs-target="#spt-6" type="button" role="tab" aria-selected="false">Production</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="spt7" data-bs-toggle="tab" data-bs-target="#spt-7" type="button" role="tab" aria-selected="false">Review</button>
+                            <button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Review</button>
                         </li>
                     </ul>
                 </div>
@@ -193,24 +240,8 @@
                     <div class="tab-pane fade show active" id="spt-1" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Market Deep-Dive</h5>
-                                <p>We start by understanding your brand's core idea and market positioning. We analyze your customer's behaviors and identify what they feel, think, and do. This research is the silent fuel for our creative engines, ensuring every ad concept is rooted in reality.</p>
-                                <h5>Objective Mapping</h5>
-                                <p>We define a tightly focused objective for every campaign - whether it's tapping into a new target audience or influencing consumer behavior toward a specific product launch. We map the creative to your long-term business goals.</p>
-                            </div>
-                            <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/fb-strategy.webp" class="img-fluid" alt="creative advertising discovery dubai">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="spt-2" role="tabpanel">
-                        <div class="process-txt-row">
-                            <div class="process-tabs-txt">
-                                <h5>The Creative Brief</h5>
-                                <p>We translate our findings into a documented creative brief. This strategic box defines the playground within which our creative team will work, ensuring the project remains focused on the deep consumer insights discovered in phase one.</p>
-                                <h5>Alignment Meeting</h5>
-                                <p>We align with your internal stakeholders to ensure the brief accurately represents your brand voice and expectations before any design work begins. This prevents creative drift later in the project.</p>
+                                <h5>Creative advertising brief</h5>
+                                <p>We start our creative advertising process by understanding your brand idea and brand positioning. We will develop a strategic box within which your ad must play. Our advertising brief will have one tightly defined objective market with deep consumer insights to create an ad that acts as a response to what your customers see, feel, think, or do. This will ensure that your customers respond positively to your ads.</p>
                             </div>
                             <div class="process-tabs-img">
                                 <img src="/assets/images/service/fb/audiance-build.webp" class="img-fluid" alt="creative brief dubai">
@@ -218,27 +249,11 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="spt-3" role="tabpanel">
+                    <div class="tab-pane fade" id="spt-2" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Concept Development</h5>
-                                <p>Our creative team brainstorms multiple visual and narrative routes. We explore diverse creative angles - from high-end corporate elegance to disruption-based graphic styles - to find the one that will stop the scroll or catch the eye.</p>
-                                <h5>Visual Prototyping</h5>
-                                <p>We create initial sketches, mood boards, and script outlines to give you a tangible sense of the creative direction before moving into high-fidelity production.</p>
-                            </div>
-                            <div class="process-tabs-img">
-                                <img src="/assets/images/service/fb/ads-creative.webp" class="img-fluid" alt="creative ideation dubai">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="spt-4" role="tabpanel">
-                        <div class="process-txt-row">
-                            <div class="process-tabs-txt">
-                                <h5>Feedback Loop & Refinement</h5>
-                                <p>We hold dedicated feedback sessions to review the initial concepts. We bring solutions to any issues raised and add the unique "BrandStory touch" to ensure the final ad feels both inspired and technically perfect.</p>
-                                <h5>Interactive Refinement</h5>
-                                <p>Our work is collaborative. We iterate on the winning concept until every detail—from typography to color grading—is perfectly aligned with your brand architecture.</p>
+                                <h5>Feedback memo</h5>
+                                <p>We will hold a creative meeting with our clients and team to get feedback on the ad. Here, we will bring solutions to the issues raised by our clients and add a brand new touch to the ad if our client asks for it.</p>
                             </div>
                             <div class="process-tabs-img">
                                 <img src="/assets/images/service/em/our-process-img-4.png" class="img-fluid" alt="creative feedback dubai">
@@ -246,13 +261,11 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="spt-5" role="tabpanel">
+                    <div class="tab-pane fade" id="spt-3" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Qualitative & Quantitative Testing</h5>
-                                <p>We don't leave success to chance. We use focus groups and quantitative A/B testing to ensure the ad communicates the primary benefit clearly and motivates your target customers to take action.</p>
-                                <h5>Narrative Validation</h5>
-                                <p>We verify that the story we are telling resonates with the cultural nuances of the Dubai market, protecting your brand from misinterpretation while maximizing emotional impact.</p>
+                                <h5>Advertising Testing</h5>
+                                <p>Ad testing will ensure that we are able to communicate the primary benefit, express your brand positioning, and motivate your customers to purchase. We use both qualitative focus group feedback and quantitative testing to understand how our ad will do in the market.</p>
                             </div>
                             <div class="process-tabs-img">
                                 <img src="/assets/images/service/fb/ads-optimize.webp" class="img-fluid" alt="advertising testing dubai">
@@ -260,13 +273,11 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="spt-6" role="tabpanel">
+                    <div class="tab-pane fade" id="spt-4" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>High-Fidelity Production</h5>
-                                <p>This is where concepts become reality. Whether it is a photo shoot, video production, or complex graphic rendering, we manage the entire production process to deliver an outcome that is extremely close to the approved script.</p>
-                                <h5>Asset Finalization</h5>
-                                <p>We produce the necessary variations for every channel - ensuring your TV spot, print ad, and social media reels all share the same DNA but are perfectly formatted for their respective platforms.</p>
+                                <h5>Production</h5>
+                                <p>If we feel that your audience is able to connect to our ads and your brand will witness a rise in purchases, then we will work on the production process. We will deliver an ad that is extremely close to the original script accepted by our clients and manage the tone to confirm that it fits your brand.</p>
                             </div>
                             <div class="process-tabs-img">
                                 <img src="/assets/images/service/fb/report.webp" class="img-fluid" alt="creative production dubai">
@@ -274,13 +285,11 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="spt-7" role="tabpanel">
+                    <div class="tab-pane fade" id="spt-5" role="tabpanel">
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
-                                <h5>Post-Production Review</h5>
-                                <p>Our work continues after launch. We monitor how the audience responds to the ads in the live environment and gather performance data to understand what Worked best and why.</p>
-                                <h5>Strategic Evolution</h5>
-                                <p>We use the data from today's campaign to inform tomorrow's strategy, ensuring your creative advertising becomes measurably more effective with every new project.</p>
+                                <h5>Post-production Review</h5>
+                                <p>Our work doesn't stop with production. We constantly work with our clients to ensure that our ads are doing well in the market and bring changes as and when demanded by our clients.</p>
                             </div>
                             <div class="process-tabs-img">
                                 <img src="/assets/images/service/em/our-process-img-7.png" class="img-fluid" alt="creative advertising review dubai">
@@ -291,31 +300,30 @@
                 </div>
             </div>
         </div>
-    </div><!--Container End-->
+    </div>
 </section>
+
 
 <section class="em-benefits sp-50">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="mb-3 mb-md-5 text-center">What Your Business Gains with BrandStory's Creative Advertising</h2>
+                <h2 class="mb-3 mb-md-5 text-center">Why Hire Brandstory as Your Creative <br>Advertising Agency</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p>Hiring BrandStory as your creative advertising agency in Dubai means getting a partner who aligns your business goals with your customers' interests. Here is why we are different:</p>
+                <p>Hiring BrandStory as your creative advertising agency in Dubai means getting a partner who aligns your business goals with your customers' interests. Here is why we are different:</p><br>
                 <div class="em-points">
-                    <p>Business-Goal Alignment: We ensure every creative choice is backed by your budget and marketing objectives.</p>
-                    <p>Omnichannel Expertise: From traditional print and radio to cutting-edge digital media buying.</p>
-                    <p>Consistent Brand Voice: We maintain your core brand competency while knowing exactly which local "buzzwords" to use.</p>
-                    <p>Goal-Driven Campaigns: Our focus is on enhancing your reach, engagement, and actual sales volume.</p>
-                    <p>360-Degree Module: We blend imaginative advertising with new-age digital marketing for a complete solution.</p>
-                    <p>Flexible Deadlines & Tech-Forward: We utilize the latest production technology to deliver high-quality assets on your schedule.</p>
-                    <p>Transparent KPI Measurement: Every campaign includes detailed ROI tracking using financial, project, and customer performance metrics.</p>
+                    <p>We align your business goals with your customer interests within a budget. From marketing to advertising, our agency has the expertise, experience, and technology stack to promote your brand cost-effectively.</p>
+                    <p>From lending creativity to focusing on your brand's core competency to knowing the industry buzzwords, we know how to create custom branding and marketing strategies for your business.</p>
+                    <p>Brand advertising is not your typical one-time task. It requires consistent dedication, perseverance, regular tracking, monitoring, and updating. Brandstory being your top branding agency in Dubai can help you with all that.</p>
+                    <p>Creative advertising agencies will also direct positive discussions about your brand. We create goal-driven advertising campaigns that will enhance your reach, engagement, and sales.</p>
+
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/fb/facebook-partner.webp" class="img-fluid" alt="creative advertising benefits dubai">
+                <img src="/assets/images/service/creative-2.webp" class="img-fluid" alt="creative advertising benefits dubai">
             </div>
         </div>
     </div>
@@ -409,21 +417,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center mb-5">Why Creative Advertising is the New-Age Competitive Advantage</h2>
-                <p class="mb-3">Dubai is one of the most culturally diverse and commercially saturated environments globally. Generic marketing doesn't just fail to perform; it fades into the background. A creative advertising agency like BrandStory provides the imaginative spark needed to differentiate your brand.</p>
+                <h2 class="text-center mb-5">How are We Different from Other <br>Branding Agencies in Dubai</h2>
+                <p class="mb-3">Brandstory is a renowned 360°, ROI-focussed branding agency in Dubai with an innovative module of imaginative advertising expertise and new-age digital marketing experience.</p>
             </div>
         </div>
         <div class="row col-reverse align-items-center">
             <div class="col-md-6">
                 <div class="em-points">
-                    <p>Imaginative expertise combined with digital-age data allows us to target consumers across traditional and new-age media simultaneously.</p>
-                    <p>Structured, result-driven solutions based on 150+ successful brand partnerships across the UAE and GCC.</p>
-                    <p>A relentless focus on ROI - every creative asset is designed to generate positive discussions, high engagement, and increased sales.</p>
+                    <p>As the leading creative agency, Dubai, we have worked with 150+ brands to provide them with structured, result-driven solutions.</p><br>
+                    <p>We deliver custom advertising or branding in Dubai working on flexible deadlines and have all access to the latest technology.</p><br>
+                    <p>Structured, result-driven solutions based on 150+ successful brand partnerships across the UAE and GCC.</p><br>
+                    <p>Having a strong portfolio with new-age digital media such as SEO, SEM, CRO, SMO, SMM, online PR, digital media buying, influencer marketing, etc.</p>
                 </div>
                 <a href="/contact/"><button class="btn em-btn mt-3">Start your creative journey</button></a>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/assets/images/service/fb/team-expert.webp" class="img-fluid mb-3" alt="why creative advertising dubai">
+                <img src="/assets/images/service/creative-3.webp" class="img-fluid mb-3" alt="why creative advertising dubai">
             </div>
         </div>
     </div>
@@ -432,7 +441,7 @@
 <section class="perks-of-w sp-50">
     <div class="container"><!--Container Start-->
         <h2 class="text-center">How We Measure Advertising Performance</h2>
-        <p class="text-center">Our campaigns are incomplete without rigorous KPI and ROI measurement frameworks:</p>
+        <p class="text-center">Our advertising or branding campaigns are incomplete without KPIs and ROI measurement. As the leading creative agency Dubai, Brandstory has the required expertise to measure the success of your brand's ads using the right performance metrics. Some of the KPIs and ROI metrics that we extensively use in measuring the effectiveness of our advertising or branding campaigns include:</p>
         <div class="row g-md-5 spt-50 align-items-stretch"><!--Row Start-->
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="pow-box">
@@ -457,57 +466,6 @@
             </div>
         </div><!--Row End-->
     </div><!--Container End-->
-</section>
-
-<section class="wcb-sec seo-wcb-sec sp-50">
-    <div class="container"><!--Container Start-->
-        <h2 class="text-center text-white">Choosing the Right Creative Agency in Dubai</h2>
-        <p class="text-center text-white mt-3">With so many creative agencies in the UAE, here are three ways BrandStory ensures you get the best value for your branding investment:</p>
-        <div class="row g-md-5 spt-50"><!--Row Start-->
-            <div class="col-md-4">
-                <div class="wcb-box">
-                    <div class="wcb-no">01</div>
-                    <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-1.png" class="img-fluid" alt="creative agency expertise dubai"></div>
-                        <h6>Proven Local Track Record</h6>
-                    </div>
-                    <p>We've worked with 150+ brands in the UAE. We understand the local preferences, legal requirements for ads, and cultural nuances that make or break a campaign in Dubai.</p>
-                </div>
-            </div>
-            <div class="col-md-4 wcb-border">
-                <div class="wcb-box">
-                    <div class="wcb-no">02</div>
-                    <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-2.png" class="img-fluid" alt="creative advertising tech dubai"></div>
-                        <h6>Access to Latest Technology</h6>
-                    </div>
-                    <p>From high-end rendering software to advanced ad testing platforms, we leverage modern technology to provide you with a significant competitive advantage over traditional firms.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wcb-box">
-                    <div class="wcb-no">03</div>
-                    <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-3.png" class="img-fluid" alt="full service agency dubai"></div>
-                        <h6>360-Degree Integration</h6>
-                    </div>
-                    <p>We are not just a design shop. We are a full-service marketing house, ensuring your creative is supported by SEO, SEM, and strong social media strategies for maximum reach.</p>
-                </div>
-            </div>
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
-
-<section class="sp-50">
-    <div class="container"><!--Container Start-->
-        <?php include __DIR__ . '/../component/services/new-service.php' ?>
-    </div><!--Container End-->
-</section>
-
-<section class="sp-50 bg-yellow">
-    <div class="container">
-        <?php include __DIR__ . '/../component/services/stats.php' ?>
-    </div>
 </section>
 
 <section class="sp-50">
@@ -543,7 +501,7 @@
                 </h2>
                 <div id="cafc2" class="accordion-collapse collapse" data-bs-parent="#accordionCA">
                     <div class="accordion-body">
-                        Standard marketing often focuses on direct metrics and delivery. Creative advertising focuses on the *message* and the *emotive power* of the campaign. It involves deep consumer insights, storytelling, and high-impact visual design to ensure your brand doesn't just reach an audience but actually sticks in their minds and influences their behavior.
+                        Standard marketing often focuses on direct metrics and delivery. Creative advertising focuses on the <b>brand message</b> and the <b>storytelling</b> of the campaign. It involves deep consumer insights, storytelling, and high-impact visual design to ensure your brand doesn't just reach an audience but actually sticks in their minds and influences their behavior.
                     </div>
                 </div>
             </div>
