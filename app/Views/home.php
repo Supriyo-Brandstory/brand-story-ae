@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="swiper-slide">
+            <div class="swiper-slide">
                 <div class="bannersld-main three">
                     <div class="container">
                         <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>">
@@ -53,7 +53,7 @@
 
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
         <div class="swiper-pagination dmagency-pagi"></div>
     </div>
