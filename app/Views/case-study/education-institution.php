@@ -2,7 +2,7 @@
     <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Background">
     <div class="container">
         <h1 class="text-white mb-4 text-start text-md-center">Digital Marketing for <span class="db">NIMS School Dubai</span></h1>
-        <p class="text-white fs-20 mb-5 text-start text-md-center">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed <br>trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</span>
+        <p class="text-white  text-start text-md-center">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed <br>trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</span>
         </p>
         <ul class="d-flex p-0 list-unstyled mb-0">
             <li class="fs-18 me-2 text-white">School Website</li>
@@ -14,7 +14,7 @@
 
 <section class="cs-intro-sec">
     <div class="container">
-        
+
         <!-- Introduction -->
         <div class="cs-intro-wrap">
             <h2>Introduction</h2>
@@ -99,34 +99,34 @@
                     <p class="text-bold fs-20 mb-0 text-md-start text-center">Case Study</p>
                     <!-- <p>Case Study</p> -->
                 </div>
-                <h2 class="mb-lg-5 mb-3 text-md-start text-center">Education Institution</h2>
+                <h2 class="mb-lg-5 mb-5 text-md-start text-center">Education Institution</h2>
                 <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-education-institution/real-website-1.webp">
             </div>
             <div class="col-lg-8 col-md-7">
-                <h2 class="mb-3">Client Details</h2>
-                <p class="fs-20 mb-lg-5 mb-4">NIMS school Dubai sought to increase student enrollment and expand its digital footprint.</p>
-                <h2 class="mb-3">The Challenge</h2>
-                <p class="fs-20 mb-2">This institution was heavily relying on referrals and had a limited online presence. Key challenges addressed were:</p>
-                <ul class="mb-lg-5 mb-4">
-                    <li class="fs-20">Driving awareness</li>
-                    <li class="fs-20">Generating admission enquiries</li>
-                    <li class="fs-20">Building a sustainable online presence</li>
+                <h3 class="mb-3">Client Details</h3>
+                <p class="mb-lg-3 mb-4">NIMS school Dubai sought to increase student enrollment and expand its digital footprint.</p>
+                <h3 class="mb-3">The Challenge</h3>
+                <p class="mb-2">This institution was heavily relying on referrals and had a limited online presence. Key challenges addressed were:</p>
+                <ul class="mb-lg-3 mb-4">
+                    <li>Driving awareness</li>
+                    <li>Generating admission enquiries</li>
+                    <li>Building a sustainable online presence</li>
                 </ul>
-                <h2 class="mb-3">The Solution</h2>
-                <p class="fs-20 mb-2">After a detailed analysis and audit, we found that they don't have a strong social media presence. The website is not well-designed to capture leads and has limited brand awareness.</p>
-                <ul class="mb-lg-5 mb-4">
-                    <li class="fs-20">We optimized website UX, page structure, and content to improve engagement and lead generation.</li>
-                    <li class="fs-20">Implemented SEO strategy to target admission-related keywords in Dubai and lead generation.</li>
-                    <li class="fs-20">Launched display ads and Google search ads to help inform parents searching for admissions.</li>
-                    <li class="fs-20">Launched Facebook and Instagram Ads (Meta Ads) to highlight academic programs, events, and student achievements.</li>
+                <h3 class="mb-3">The Solution</h3>
+                <p class="mb-2">After a detailed analysis and audit, we found that they don't have a strong social media presence. The website is not well-designed to capture leads and has limited brand awareness.</p>
+                <ul class="mb-lg-3 mb-4">
+                    <li>We optimized website UX, page structure, and content to improve engagement and lead generation.</li>
+                    <li>Implemented SEO strategy to target admission-related keywords in Dubai and lead generation.</li>
+                    <li>Launched display ads and Google search ads to help inform parents searching for admissions.</li>
+                    <li>Launched Facebook and Instagram Ads (Meta Ads) to highlight academic programs, events, and student achievements.</li>
                 </ul>
-                <h2 class="mb-3">Results</h2>
-                <ul class="mb-lg-5 mb-4">
-                    <li class="fs-20">Achieved a 300% increase in traffic and a 170% increase in qualified leads in just 3 months.</li>
-                    <li class="fs-20">A 150% boost in organic traffic by ranking potential keywords in the top 5 positions of Google.</li>
-                    <li class="fs-20">80% growth in social media engagement and lead flow from local parent communities.</li>
+                <h3 class="mb-3">Results</h3>
+                <ul class="mb-lg-3 mb-4">
+                    <li>Achieved a 300% increase in traffic and a 170% increase in qualified leads in just 3 months.</li>
+                    <li>A 150% boost in organic traffic by ranking potential keywords in the top 5 positions of Google.</li>
+                    <li>80% growth in social media engagement and lead flow from local parent communities.</li>
                 </ul>
-                 <div class="row mb-4">
+                <div class="row my-5">
                     <div class="col-md-6 col-12 mb-md-0 mb-3">
                         <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/nims-school-search-console.jpg">
                     </div>
@@ -134,10 +134,40 @@
                         <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/nims-school-search-sonsole.PNG">
                     </div>
                 </div>
-                 
-                <h2 class="mb-3">Client Review</h2>
-                <p class="fs-20 text-center mb-3 review"><i>“They helped us boost admission queries within a short period. BrandStory has been our digital marketing partner for the last 6 months.”</i></p>
-                <h3 class="text-center mb-0">Paul Walker</h3>
+
+                <h3 class="mb-3">Client Review</h3>
+                <div class="cs-testimonial-card mb-4">
+                    <div class="cs-testimonial-quote">&ldquo;</div>
+                    <p class="cs-testimonial-text">“They helped us boost admission queries within a short period. BrandStory has been our digital marketing partner for the last 6 months.”</p>
+                    <div class="cs-testimonial-stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                    </div>
+                    <div class="cs-testimonial-author">
+                        <div class="cs-testimonial-avatar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
+                            </svg>
+                        </div>
+                        <div class="cs-testimonial-info">
+                            <strong>Paul Walker</strong>
+                            <span>Principal, NIMS School Dubai</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -165,7 +195,7 @@
             <div class="cs-metric-pill">Improved Crawlability & Index Coverage</div>
             <div class="cs-metric-pill cs-dark">Higher CTR</div>
 
-            <div class="cs-metric-pill">Stronger Keyword Footprint</div>
+            <div class="cs-metric-pill cs-dark">Stronger Keyword Footprint</div>
 
         </div>
 
@@ -173,7 +203,7 @@
 </section>
 
 <div class="services-new service-light">
-<section class="what-we-provide sp-50">
+    <section class="what-we-provide sp-50">
         <div class="container">
             <h2 class="mb-5 text-center">Services We Provide</h2>
             <div class="row">
@@ -304,43 +334,43 @@
 
         <!-- Item -->
         <div class="cs-related-item">
-    <div class="cs-related-img">
-        <img src="https://homelandregalia.com/wp-content/uploads/2024/06/image-1.webp" alt="Luxury Residential Skyline">
-    </div>
-    <div class="cs-related-content">
-        <h3><b>Dusit Thani Residences Ajman: Strategic Omnichannel Marketing and PR Launch for Premium Real Estate</b></h3>
-        <p>AQAAR, a leading premium real estate developer in the Northern Emirates, required a high-impact market entry strategy for their flagship Dusit Thani Residences. We engineered an integrated marketing ecosystem that combined elite PR placements with hyper-targeted lead generation funnels. By leveraging high-authority real estate portals and immersive digital storytelling, the campaign successfully established the project as a premier investment destination, resulting in a 40% increase in qualified lead volume during the initial launch phase and sustained international investor interest.</p>
-        <div class="cs-related-cta">
-            <a href="#">View Detailed Case Study →</a>
+            <div class="cs-related-img">
+                <img src="/assets/images/126.webp" alt="Luxury Residential Skyline">
+            </div>
+            <div class="cs-related-content">
+                <h3><b>Dusit Thani Residences Ajman: Strategic Omnichannel Marketing and PR Launch for Premium Real Estate</b></h3>
+                <p>AQAAR, a leading premium real estate developer in the Northern Emirates, required a high-impact market entry strategy for their flagship Dusit Thani Residences. We engineered an integrated marketing ecosystem that combined elite PR placements with hyper-targeted lead generation funnels. By leveraging high-authority real estate portals and immersive digital storytelling, the campaign successfully established the project as a premier investment destination, resulting in a 40% increase in qualified lead volume during the initial launch phase and sustained international investor interest.</p>
+                <div class="cs-related-cta">
+                    <a href="#">View Detailed Case Study →</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="cs-related-item">
-    <div class="cs-related-img">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCv_ooe-KgRQbr27JFJHAEry-0A4PT9GJ3SQ&s" alt="Sustainable Ceramic Products">
-    </div>
-    <div class="cs-related-content">
-        <h3><b>ArkNatural SEO & Growth Strategy: Scaling an Eco-Friendly eCommerce Brand in a Competitive Marketplace</b></h3>
-        <p>ArkNatural is an innovative eCommerce brand specializing in traditional, sustainable clay products. Our challenge was to transition the brand from a niche local provider to a dominant digital player. We implemented an aggressive technical SEO audit, remediating site architecture issues and deploying a long-tail keyword strategy focused on eco-conscious consumer behavior. Over eight months, this data-driven approach led to a 180% growth in organic search visibility and a 2.5x increase in monthly recurring revenue, effectively future-proofing their digital sales channel against rising PPC costs.</p>
-        <div class="cs-related-cta">
-            <a href="#">View Detailed Case Study →</a>
+        <div class="cs-related-item">
+            <div class="cs-related-img">
+                <img src="/assets/images/104049.webp" alt="Sustainable Ceramic Products">
+            </div>
+            <div class="cs-related-content">
+                <h3><b>ArkNatural SEO & Growth Strategy: Scaling an Eco-Friendly eCommerce Brand in a Competitive Marketplace</b></h3>
+                <p>ArkNatural is an innovative eCommerce brand specializing in traditional, sustainable clay products. Our challenge was to transition the brand from a niche local provider to a dominant digital player. We implemented an aggressive technical SEO audit, remediating site architecture issues and deploying a long-tail keyword strategy focused on eco-conscious consumer behavior. Over eight months, this data-driven approach led to a 180% growth in organic search visibility and a 2.5x increase in monthly recurring revenue, effectively future-proofing their digital sales channel against rising PPC costs.</p>
+                <div class="cs-related-cta">
+                    <a href="#">View Detailed Case Study →</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="cs-related-item">
-    <div class="cs-related-img">
-        <img src="[https://images.unsplash.com/photo-1523694553227-ec4499a4528a?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1523694553227-ec4499a4528a?auto=format&fit=crop&q=80&w=800)" alt="High-end Floral Retail">
-    </div>
-    <div class="cs-related-content">
-        <h3><b>Exotica UAE: Accelerating 6-Month Organic Growth and Local Search Dominance for a Luxury Retailer</b></h3>
-        <p>Exotica, a premier high-end floral and gift retailer in the UAE, sought to capture the lucrative seasonal market share through organic search. We developed a rapid-response SEO framework that optimized for high-volume, high-intent seasonal keywords while simultaneously strengthening their local SEO presence across multiple UAE territories. By refining Google Business Profile performance and executing a targeted backlink acquisition strategy, we secured top-tier rankings for core "luxury gift" queries. This resulted in a record-breaking holiday season with a 75% increase in online transactions compared to the previous fiscal year.</p>
-        <div class="cs-related-cta">
-            <a href="#">View Detailed Case Study →</a>
+        <div class="cs-related-item">
+            <div class="cs-related-img">
+                <img src="/assets/images/f0930e51-b006-4323-b2f0-5f3bd6857509.webp" alt="High-end Floral Retail">
+            </div>
+            <div class="cs-related-content">
+                <h3><b>Exotica UAE: Accelerating 6-Month Organic Growth and Local Search Dominance for a Luxury Retailer</b></h3>
+                <p>Exotica, a premier high-end floral and gift retailer in the UAE, sought to capture the lucrative seasonal market share through organic search. We developed a rapid-response SEO framework that optimized for high-volume, high-intent seasonal keywords while simultaneously strengthening their local SEO presence across multiple UAE territories. By refining Google Business Profile performance and executing a targeted backlink acquisition strategy, we secured top-tier rankings for core "luxury gift" queries. This resulted in a record-breaking holiday season with a 75% increase in online transactions compared to the previous fiscal year.</p>
+                <div class="cs-related-cta">
+                    <a href="#">View Detailed Case Study →</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
     </div>
 </section>
