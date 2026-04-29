@@ -1,13 +1,12 @@
 <section class="cs-banner">
-    <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Background">
+    <img src="/assets/images/new-case-study/cse-study-background.webp" alt="Hero Background">
     <div class="container">
-        <h1 class="text-white mb-4 text-start text-md-center">Digital Marketing for <span class="db">NIMS School Dubai</span></h1>
+        <h1 class="text-white mb-4 text-start text-md-center">NIMS School Dubai Case Study</h1>
         <p class="text-white  text-start text-md-center">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed <br>trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</span>
         </p>
         <ul class="d-flex p-0 list-unstyled mb-0">
             <li class="fs-18 me-2 text-white">School Website</li>
             <li class="fs-18 me-2 text-white">Local Visibility</li>
-            <li class="fs-18 text-white">Dubai, UAE</li>
         </ul>
     </div>
 </section>
@@ -17,60 +16,39 @@
 
         <!-- Introduction -->
         <div class="cs-intro-wrap">
-            <h2>Introduction</h2>
+            <h2>Initial Challenges</h2>
             <div class="cs-intro-text">
                 <p>
-                    <a href="#">Anta Travel</a> is a travel agency that operates within a very competitive tourism market, especially in the UAE, where travel packages, destinations, and seasonal trips are highly searched.
+                    NIMS School Dubai sought to strengthen its digital presence and attract more student inquiries. Their focus was on reaching the right audience through a refined digital approach.
                 </p>
                 <p>
-                    Although the site offered a wide variety of travel packages, it did not gain popularity initially due to significant technical and structural SEO issues. We wanted to enhance indexing, increase the coverage of the keywords and ensure growth in the organic search.
-                </p>
-                <p>
-                    With effective SEO, <a href="#">Prism Digital</a> helped Anta Travel improve its search rankings, broaden keyword coverage, and drive additional high-quality traffic to its travel packages.
+                    The campaigns objective was to improve visibility and create a more impactful presence online. The real challenge was aligning its digital presence with its academic strengths accurately.
                 </p>
             </div>
         </div>
 
         <!-- Pain Points -->
         <div class="cs-painpoints-wrap">
-            <h2>Pain Points</h2>
+            <h2>The Real Pain Points</h2>
 
             <div class="cs-painpoints-grid">
 
                 <div class="cs-card">
                     <span>01</span>
-                    <h3>Indexing Issues</h3>
-                    <p>Google and other search engines could not properly see or index package pages. This caused valuable pages to remain invisible in search results, limiting traffic potential.</p>
+                    <h3>Low Search Visibility</h3>
+                    <p>Key pages were not indexed, and important keywords were missing from titles and metadata. This made it difficult for search engines to rank the website for admission-related queries. As a result, the school lost valuable organic traffic.</p>
                 </div>
 
                 <div class="cs-card">
                     <span>02</span>
-                    <h3>Pagination Problems</h3>
-                    <p>Bots were unable to access all packages and blog pages. As a result, many pages were not contributing to the overall SEO performance.</p>
+                    <h3>Weak Website Structure</h3>
+                    <p>The website had no internal linking, unoptimized structure, and lacked dedicated landing pages and related blogs for admissions. Navigation was not user-friendly, and bots struggled to crawl all important sections. </p>
                 </div>
 
                 <div class="cs-card">
                     <span>03</span>
-                    <h3>Broken Internal Linking</h3>
-                    <p>Internal links were not crawlable, reducing SEO value and site structure strength. This weakened the website’s authority flow and user navigation experience.</p>
-                </div>
-
-                <div class="cs-card">
-                    <span>04</span>
-                    <h3>Missing Destination Pages</h3>
-                    <p>The site relied only on package pages without dedicated destination pages, limiting long-term organic traffic opportunities.</p>
-                </div>
-
-                <div class="cs-card">
-                    <span>05</span>
-                    <h3>Category Pages Missing Keywords</h3>
-                    <p>Headings were not optimized and only used basic page names, preventing ranking for competitive search terms.</p>
-                </div>
-
-                <div class="cs-card">
-                    <span>06</span>
-                    <h3>Unoptimized Metadata</h3>
-                    <p>Important keywords were missing, making listings less attractive and reducing CTR and organic traffic growth.</p>
+                    <h3>Social Media Presence</h3>
+                    <p>Social media lacked consistent posting, content strategy, and audience targeting. Profiles were not optimized, and engagement-driven campaigns were missing, leading to limited brand reach, reduced interaction, and missed opportunities.</p>
                 </div>
 
             </div>
@@ -81,12 +59,10 @@
 
 <section class="challenge-sec">
     <div class="container text-md-start text-center">
-        <h2 class="text-white mb-3">The <span class="text-purple">Challenge</span></h2>
-        <p class="mb-0 text-white fs-20">To develop a responsive, user-friendly website that effectively showcases the company’s
-            <span class="db">insurance solutions across multiple industries. The goal was to create an intuitive digital </span>
-            platform that makes it easy for potential clients to explore various insurance products,
-            <span class="db">understand industry-specific coverage, and generate leads.</span>
-        </p>
+        <h2 class="text-white mb-3">Our <span class="text-purple">Solutions</span></h2>
+        <p class="mb-0 text-white fs-20"><b>Technical SEO & Indexing Optimization:</b> We implemented a clean crawl structure by fixing 404 pages and using XML sitemaps, robots.txt, and proper canonical tags. Key pages were restructured with optimized meta titles, descriptions, and schema markup to improve search engine visibility. We ensured all important pages were crawlable and submitted them for faster indexing via search console.</p><br>
+        <p class="mb-0 text-white fs-20"><b>Website Structure & On-Page SEO:</b> We redesigned the website with a clear hierarchy, creating landing pages for admissions, programs, and key offerings. Internal linking was strategically rebuilt to improve crawl flow and distribute page authority. We optimized headings (H1 - H3), added keyword-focused content, and improved page speed and mobile responsiveness.</p><br>
+        <p class="mb-0 text-white fs-20"><b>Social Media Strategy:</b> We created a structured social media plan and calender with consistent posting, audience targeting, and engagement creatives. Campaigns were aligned with admission cycles using paid ads and retargeting strategies to capture high-intent users.</p>
     </div>
 </section>
 
@@ -103,24 +79,7 @@
                 <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/cs-education-institution/real-website-1.webp">
             </div>
             <div class="col-lg-8 col-md-7">
-                <h3 class="mb-3">Client Details</h3>
-                <p class="mb-lg-3 mb-4">NIMS school Dubai sought to increase student enrollment and expand its digital footprint.</p>
-                <h3 class="mb-3">The Challenge</h3>
-                <p class="mb-2">This institution was heavily relying on referrals and had a limited online presence. Key challenges addressed were:</p>
-                <ul class="mb-lg-3 mb-4">
-                    <li>Driving awareness</li>
-                    <li>Generating admission enquiries</li>
-                    <li>Building a sustainable online presence</li>
-                </ul>
-                <h3 class="mb-3">The Solution</h3>
-                <p class="mb-2">After a detailed analysis and audit, we found that they don't have a strong social media presence. The website is not well-designed to capture leads and has limited brand awareness.</p>
-                <ul class="mb-lg-3 mb-4">
-                    <li>We optimized website UX, page structure, and content to improve engagement and lead generation.</li>
-                    <li>Implemented SEO strategy to target admission-related keywords in Dubai and lead generation.</li>
-                    <li>Launched display ads and Google search ads to help inform parents searching for admissions.</li>
-                    <li>Launched Facebook and Instagram Ads (Meta Ads) to highlight academic programs, events, and student achievements.</li>
-                </ul>
-                <h3 class="mb-3">Results</h3>
+                <h3 class="mb-3">Organic Traffic Growth</h3>
                 <ul class="mb-lg-3 mb-4">
                     <li>Achieved a 300% increase in traffic and a 170% increase in qualified leads in just 3 months.</li>
                     <li>A 150% boost in organic traffic by ranking potential keywords in the top 5 positions of Google.</li>
@@ -132,6 +91,20 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/nims-school-search-sonsole.PNG">
+                    </div>
+                </div>
+
+                <h3 class="mb-3">Organic Ranking Growth</h3>
+                <ul class="mb-lg-3 mb-4">
+                    <li>The website is now ranking for 50+ high search volume queries like "CBSE school in Dubai", "model school in Dubai".</li>
+                    <li>The website is featured in AI overviews, LLM searches, and featured snippet for important keywords.</li>
+                </ul>
+                <div class="row my-5">
+                    <div class="col-md-6 col-12 mb-md-0 mb-3">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/ranking-1.webp">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img class="w-100 img-fluid cse-img" src="/assets/images/new-case-study/rank-2.webp">
                     </div>
                 </div>
 
@@ -163,7 +136,7 @@
                             </svg>
                         </div>
                         <div class="cs-testimonial-info">
-                            <strong>Paul Walker</strong>
+                            <strong>Ms. Supriya Sehgal</strong>
                             <span>Principal, NIMS School Dubai</span>
                         </div>
                     </div>
@@ -174,13 +147,9 @@
 </section>
 
 
-<!-- <section>
-    <img class="w-100" src="/assets/images/cs-education-institution/education-institution-img.jpg">
-</section> -->
 
 
-
-<section class="cs-metrics-sec">
+<!--<section class="cs-metrics-sec">
     <div class="container">
 
         <h2 class="cs-metrics-title">Key Metrics</h2>
@@ -200,79 +169,29 @@
         </div>
 
     </div>
-</section>
+</section>-->
 
 <div class="services-new service-light">
     <section class="what-we-provide sp-50">
         <div class="container">
-            <h2 class="mb-5 text-center">Services We Provide</h2>
+            <h2 class="mb-5 text-center">Services We Provided</h2>
             <div class="row">
                 <!-- Sidebar -->
                 <div class="col-md-3 col-12">
                     <ul class="service-list">
-                        <li class="active" data-target="performance-marketing">Performance Marketing</li>
-                        <li data-target="email-marketing">Email Marketing</li>
-                        <li data-target="ppc">PPC Services</li>
-                        <li data-target="seo">SEO Services</li>
+                        <li class="active" data-target="seo">SEO Services</li>
                         <li data-target="social-media">Social Media Marketing</li>
-                        <li data-target="branding">Branding Services</li>
                         <li data-target="web-dev">Website Development</li>
                     </ul>
                 </div>
 
                 <!-- Content -->
                 <div class="col-md-9 col-12">
-                    <div class="service-content active" id="performance-marketing">
-                        <h3>Full-Funnel Performance Marketing in Dubai</h3>
-                        <p>
-                            BrandStory is a leading performance marketing agency delivering results through data-backed strategies. Performance marketing is all about paying for results, whether your goal is clicks, leads, or purchase conversions. We craft super-effective performance marketing campaigns designed to optimize ad spend and deliver maximum ROI. Our approach ensures transparency and growth-driven outcomes for your brand.
-                        </p>
-                        <div>
-                            <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/full-funnel-performance-marketing/" class="btn btn-outline-dark" target="_blank">Learn More</a>
-                        </div>
-                    </div>
 
-                    <div class="service-content" id="email-marketing">
-                        <h3>Email Marketing That Builds Relationships</h3>
+                    <div class="service-content active" id="seo">
+                        <h3>SEO Services in Dubai for Organic Growth</h3>
                         <p>
-                            Email marketing is an effective way to engage interested audiences, nurture leads, and drive real sales.
-                            <a href="/">BrandStory</a> crafts targeted email campaigns with
-                            compelling visuals and content to maximize conversions. Our data-backed smart email marketing approach ensures
-                            each email contributes to building customer relationships and maximum results.
-
-                        </p>
-                        <div>
-                            <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/email-marketing-company-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-
-                    <div class="service-content" id="ppc">
-                        <h3>PPC Services That Deliver High ROI</h3>
-                        <p>
-                            Pay-Per-Click ads help businesses gain instant visibility while controlling targeted channels and cost.
-                            BrandStory UAE designs data-driven Google Ad & Meta ad campaigns to reach the desired audience at the
-                            right time, maximizing leads, clicks, and conversions. We work on optimizing campaigns, ads,
-                            keywords, and bidding strategies to
-                            deliver <a href="/blogs/ppc-strategies-that-maximize-roi-for-any-budget/">
-                                maximum ROI</a> & the most expected outcomes.
-                        </p>
-                        <div>
-                            <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/pay-per-click-ppc-services-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-
-                    <div class="service-content" id="seo">
-                        <h3>SEO Services in Dubai That Drive Growth</h3>
-                        <p>
-                            With our expert-level SEO services, we focus on driving real, measurable results.
-                            While other agencies claim, we prove ourselves as a prominent leader in SEO services
-                            in Dubai with successful <a href="/seo-services-in-dubai/#SEO-campaign-highlights">SEO campaign highlights</a>. We possess expert-level knowledge in
-                            technical SEO, on-page optimization, <a href="/content-marketing-agency-dubai/">content marketing</a>, and link-building. From
-                            <a href="/seo-audit-services-in-dubai/">SEO audit</a>, ongoing SEO management to local SEO and
-                            <a href="/blogs/arabic-seo-in-dubai/">arabic SEO</a> strategies, we ensure delivering tangible business growth.
+                            We implemented a strong SEO foundation by resolving indexing issues, optimizing crawlability, and improving overall site architecture. Our <a href="https://www.brandstory.ae/seo-services-in-dubai" style="color: #000;"><b><u>SEO experts in Dubai</u></b></a> focused on technical SEO elements such as XML sitemaps, canonical tags, and structured data to enhance search engine understanding. With keyword-optimized content, improved metadata, and strategic internal linking, we significantly increased search visibility and organic traffic.
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
@@ -283,8 +202,7 @@
                     <div class="service-content" id="social-media">
                         <h3>Social Media Marketing That Builds Engagement</h3>
                         <p>
-                            Social media marketing is the biggest platform to engage targeted audience with creative content. At BrandStory UAE, we create tailored campaigns for <a href="/facebook-marketing-agency-in-dubai/">Facebook</a>, <a href="/instagram-advertising-agency-in-dubai/">Instagram</a>, <a href="/twitter-advertising-dubai/">Twitter</a>, and <a href="/tiktok-marketing-agency-in-dubai/">TikTok</a>, combining organic strategies with paid promotions to maximize your reach and engagement. Our creative content and data-driven approach create a magical combination where each story contributes to sustainable business growth.
-
+                            We developed a structured social media strategy focused on consistent posting, audience targeting, and engagement-driven content. Campaigns were aligned with admission cycles, using both organic and paid approaches to maximize reach. Through creative storytelling, performance tracking, and continuous optimization, we improved brand visibility and generated quality inquiries.
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
@@ -292,54 +210,41 @@
                         </div>
                     </div>
 
-                    <div class="service-content" id="branding">
-                        <h3>Branding Services That Define Your Identity</h3>
-                        <p>
-                            Branding helps businesses build a strong identity and we make it memorable. At our core, we are the Dubai’s most reputable <a href="/">digital marketing agency</a> with the real sense of branding for business. We do <a href="/logo-designing-dubai/">logo design</a>, <a href="/ui-ux-design-company-in-dubai/">UI/UX design</a>, brand guidelines, and messaging strategies that reflects your unique value and vision. We are consistent and make your business consistent across all channels, strengthen trust, and build loyalty.
-
-                        </p>
-                        <div>
-                            <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/branding-agency-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-
-
-
                     <div class="service-content" id="web-dev">
-                        <h3>Website Development That Drives Results</h3>
+                        <h3>Website Development That Enhances Performance</h3>
                         <p>
-                            A user-friendly, well-optimized, and visually stunning website can make or break your marketing efforts. We build websites that deliver real business growth results. We build custom websites, <a href="/ecommerce-development-company-dubai/">e-commerce platforms</a>, and responsive designs tailored to your business needs. We ensure seamless performance, mobile optimization, and scalable website solutions that engage visitors and generate leads.
-
+                            We restructured the website with a clean, SEO-friendly architecture to improve user experience and crawl efficiency. Dedicated landing pages were created for admissions and key programs, supported by optimized navigation and internal linking. The website was further enhanced with mobile responsiveness, faster load speeds, and conversion-focused design to drive better engagement and lead generation.
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
                             <a href="/website-design-company-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
 </div>
 
-<section class="cs-related-sec">
+<!--<section class="cs-related-sec">
     <div class="container">
 
-        <!-- Header -->
+        
         <div class="cs-related-head">
             <h2>Related Case Studies</h2>
-            <a href="#" class="cs-related-btn">View Case Studies</a>
+            <a href="/case-study/" class="cs-related-btn">View Case Studies</a>
         </div>
 
-        <!-- Item -->
+        
         <div class="cs-related-item">
             <div class="cs-related-img">
-                <img src="/assets/images/126.webp" alt="Luxury Residential Skyline">
+                <img src="/assets/images/dm-agency-dubai/cs2.png" alt="NanoPrecise Sci Corp">
             </div>
             <div class="cs-related-content">
-                <h3><b>Dusit Thani Residences Ajman: Strategic Omnichannel Marketing and PR Launch for Premium Real Estate</b></h3>
-                <p>AQAAR, a leading premium real estate developer in the Northern Emirates, required a high-impact market entry strategy for their flagship Dusit Thani Residences. We engineered an integrated marketing ecosystem that combined elite PR placements with hyper-targeted lead generation funnels. By leveraging high-authority real estate portals and immersive digital storytelling, the campaign successfully established the project as a premier investment destination, resulting in a 40% increase in qualified lead volume during the initial launch phase and sustained international investor interest.</p>
+                <h3><b>NanoPrecise Sci Corp</b></h3>
+                <p>NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, with its Global HQ in Canada and offices across the USA, UK, Europe, Middle East (UAE), and India, the company serves manufacturing, mining, oil & gas, and energy sectors. </p>
+                <p>Despite their advanced technology and growing global reach, NanoPrecise lacked a cohesive brand identity and digital presence that reflected their innovation. Their branding needed modernization, and their digital channels required a performance-driven approach to connect with enterprise clients across various regions.</p>
                 <div class="cs-related-cta">
                     <a href="#">View Detailed Case Study →</a>
                 </div>
@@ -372,6 +277,75 @@
             </div>
         </div>
 
+    </div>
+</section>-->
+
+<section class="sp-50 dm-casestudies-sec dm-bg">
+<div class="container">
+        <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Related Case Studies</h2>
+        <div class="position-relative delivertechmain">
+            <div class="swiper dmcasestudy-sld">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/cs1.png" alt="Wipro Infrastructure Engineering Caset Study- Digital Marketing">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Wipro Infrastructure <br>Engineering</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/wipro-infrastructure-engineering/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/cs2.png" alt="NanoPrecise Sci Corp Case Study- Digital Marketing">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Nanoprecise</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/nanoprecise-sci-corp/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/cs4.png" alt="Dubai-based E-commerce Business Case Study- Digital Marketing">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Sand Dollar- <br>eCommerce</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/e-commerce/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/cs6.png" alt="Reputable Hotel Chain in Dubai Case Study- Digital Marketing">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Crystal Plaza in <br>Dubai</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/hotel/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/dm-agency-dubai/cs7.png" alt="Local School in Downtown Dubai Case Study- Digital Marketing">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">NIMS School <br> Dubai</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/education-institution/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next dmcasestudy-next"></div>
+            <div class="swiper-button-prev dmcasestudy-prev"></div>
+        </div>
     </div>
 </section>
 
