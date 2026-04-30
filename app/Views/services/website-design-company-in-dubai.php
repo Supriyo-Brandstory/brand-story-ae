@@ -14,7 +14,7 @@
         </div> -->
     <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
     <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
-        <h1 class="mb-4 text-white s-center">Best Website Design Company in Dubai, UAE</h1>
+        <h1 class="mb-4 text-white s-center">Web Design Company in Dubai</h1>
         <!-- <p class="fs-18 text-white text-center">
                     Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
                 </p> -->
@@ -24,11 +24,12 @@
         <div class="swiper-wrapper">
             <?php
             $templates = [
-                'automotive.webp',
-                'healthcare.webp',
-                'law-firm.webp',
-                'real-estate.webp',
-                'technology.webp'
+                'sand-sollar.webp',
+                'travelex.webp',
+                'crystal-plaza.webp',
+                'nims.webp',
+                'wipro.webp',
+                'nanoprecise.webp'
             ];
 
             foreach ($templates as $template):
@@ -38,7 +39,7 @@
                 <div class="web-template-item swiper-slide">
                     <div class="web-template-img-wrap">
                         <img
-                            src="/assets/images/web-templates/<?php echo $template; ?>"
+                            src="/assets/images/case-study/<?php echo $template; ?>"
                             alt="<?php echo $displayName; ?>"
                             loading="lazy">
                     </div>
@@ -54,9 +55,9 @@
             <div class="swiper-button-prev template-prev"></div> -->
         </div>
         <div class='py-5' style="max-width: 1000px; margin: 0 auto">
-            <h2 class="mb-4 text-white s-center">Website Design Company in Dubai That Drives Real Growth</h2>
+            <h2 class="mb-4 text-white s-center">Website Design That Accelerates Growth</h2>
             <p class="fs-18 text-white s-center">
-                Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
+                Your website shapes the first impression of your brand. BrandStory designs intuitive, user-focused modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
             </p>
         </div>
         <div class="text-center">
@@ -705,6 +706,104 @@
                             <a href="/social-media-marketing-agency-in-dubai/">Social Media</a>
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sp-50 dm-case-studies-section dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
