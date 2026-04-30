@@ -85,8 +85,8 @@ Route::group(['prefix' => '/case-study'], function () {
     Route::get('/education-institution', 'FrontendController@educationinstitution', 'educationinstitution');
     Route::get('/equence', 'FrontendController@equence', 'equence');
     Route::get('/hotel', 'FrontendController@hotel', 'hotel');
-    Route::get('/leading-consulting-firm-branding', 'FrontendController@leadingconsultingfirmbranding', 'leadingconsultingfirmbranding');
-    Route::get('/leading-consulting-firm-website', 'FrontendController@leadingconsultingfirmwebsite', 'leadingconsultingfirmwebsite');
+    Route::get('/square-one', 'FrontendController@squareone', 'squareone');
+    Route::get('/take-leap', 'FrontendController@takeleap', 'takeleap');
     Route::get('/nanoprecise-sci-corp', 'FrontendController@nanoprecisescicorp', 'nanoprecisescicorp');
 
     Route::get('/travel-agency', 'FrontendController@travelagency', 'travelagency');

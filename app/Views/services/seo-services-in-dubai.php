@@ -18,9 +18,8 @@
             <div class="row align-items-center"><!--Row Start-->
                 <div class="col-md-7"> <!--col start-->
                     <div class="seo-service-banner-txt text-md-start">
-                        <h1 class="fw-bold">Top-Rated SEO Agency in Dubai, UAE</h1>
-                        <p class="fs-24 my-3">More Traffic . Better Ranking . Stronger Growth</p>
-                        <p class="fs-20">BrandStory is a top SEO company that Dubai businesses trust. We help 200+ clients in Dubai dominate search rankings with cutting-edge, ROI-focused SEO solutions. As a leading SEO company in Dubai, we know how to drives your business growth.</p><br>
+                        <h1 class="fw-bold">Trusted SEO Agency in Dubai, UAE</h1>
+                        <p class="fs-20">BrandStory is a leading SEO company that Dubai businesses trust. We've helped 1000+ clients in Dubai achieve stronger Google rankings, higher organic visibility, and sustainable revenue growth. We are among the top 1% marketing agencies in Dubai with proven track record of growth.</p><br>
                         <p class="fs-20 d-flex align-items-center flex-wrap gap-2 justify-content-center justify-content-md-start d-none d-md-flex">
 
                             <b>20,000+</b> Keywords Ranked
@@ -71,8 +70,8 @@
     <div class="container">
         <div class="compt-mkt-content">
             <h2 class="fw-700 text-center">Dominate Dubai’s Competitive Market <br>with Expert SEO Services</h2>
-            <p class="fs-20">In Dubai’s fast-paced digital landscape, standing out among competitors is a challenge. Businesses struggle with high competition, shifting <a href="https://www.searchenginejournal.com/google-algorithm-history/" style="color: black; text-decoration: underline;" rel="nofollow"><b>Google algorithms</b></a>, and the need for a strong online presence to attract local and international customers.</p>
-            <p class="fs-20">As a leading SEO company in Dubai, we specialize in tailored Dubai SEO services that drive measurable growth. With years of experience optimizing businesses in diverse industries, we understand the unique challenges of the Dubai market. Our data-driven strategies ensure your brand ranks higher, attracts the right audience, and achieves long-term success.</p>
+            <p class="fs-20">In Dubai’s competitive digital landscape, standing out among competitors is a challenge. A strong website alone won't grow your business- you need to rank when your customers are actively searching.</p>
+            <p class="fs-20">Organic search delivers consistent leads and sales without ongoing ad spend. It builds compounding visibility that pays long-term. As a trusted SEO agency in Dubai, we've helped brands across industries grow into high-traffic websites through strategies built on data-driven SEO intelligence.</p>
         </div>
         <div class="mt-4">
             <h4 class="fw-700 text-center my-4">Importance of SEO in Dubai</h4>
@@ -113,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="fw-700 text-center mt-5 my-4">From Audit to Authority: Our SEO Process</h4>
+            <!--<h4 class="fw-700 text-center mt-5 my-4">From Audit to Authority: Our SEO Process</h4>
             <div class="row justify-content-center g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="pow-box h-100">
@@ -150,6 +149,24 @@
                             <p>We continuously monitor rankings, engagement, and conversions across search engines & LLMs to refine strategies, respond to algorithm shifts, and ensure your visibility compounds over time.</p>
                     </div>
                 </div>
+            </div>-->
+        </div>
+    </div>
+</section>
+
+<section class="cs-spectrum-challenge-sec bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-white mb-0">Our Core <span class="text-purple">Expertise</span></h2>
+                <img class="w-100" src="/assets/images/cs-spectrum-branding/line.svg">
+                <div class="cs-spectrum-box">
+                    <p class="mb-0 text-white">As a trusted SEO agency in Dubai, our approach is built on strategy, data intelligence, and sustainable growth. With 12+ years of expertise and 1,000+ brands served, we begin every project with in-depth audit covering technical SEO, competitor benchmarking, search intent analysis, and visibility opportunities across Google Search, AI Overviews, ChatGPT, Gemini, and other evolving search ecosystems.</p><br>
+                    <p class="mb-0 text-white">Our team develops tailored SEO strategies focused on organic rankings, AEO (Answer Engine Optimization), GEO (Generative Engine Optimization), and LLM visibility to help brands remain discoverable across all platforms. Through high-intent keyword targeting, technical optimization, authoritative content, and white-hat SEO practices, we help businesses strengthen EEAT signals and improve search authority.</p>
+                </div>
+            </div>
+            <div class="col-md-6 align-self-end">
+                <img class="w-100" src="/assets/images/cs-spectrum-branding/challenge.png">
             </div>
         </div>
     </div>
@@ -277,7 +294,7 @@
 
         <!-- Header -->
         <div class="ce-header">
-            <h2 class="ce-title" style="color:#212529">Proven SEO Growth <br>Page 1 Rankings on Google.</h2>
+            <h2 class="ce-title" style="color:#212529">Our Success Stories <br>Page 1 Rankings on Google.</h2>
             <div class="ce-tabs">
                 <span class="ce-tab active">SEO Results</span>
                 <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
@@ -292,13 +309,13 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
+                            <img src="/assets/images/new-case-study/square-one.webp" alt="Square One Website">
                         </div>
-                        <span class="ce-domain">squareonemea.com</span>
+                        <span class="ce-domain"><a href="/case-study/square-one/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">SquareOne</a></span>
                     </div>
                     <div class="ce-table-head">
                         <span>Keyword</span>
-                        <span>Position</span>
+                        <span>Ranking</span>
                     </div>
                     <div class="ce-rows">
                         <div class="ce-row">
@@ -330,34 +347,34 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
+                            <img src="/assets/images/cs-travel-agency/real-website-2.webp" alt="TraveEX Website">
                         </div>
-                        <span class="ce-domain">spectrumaccounts.com</span>
+                        <span class="ce-domain"><a href="/case-study/travel-agency/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">TravelEX</a></span>
                     </div>
                     <div class="ce-table-head">
                         <span>Keyword</span>
-                        <span>Position</span>
+                        <span>Ranking</span>
                     </div>
                     <div class="ce-rows">
                         <div class="ce-row">
-                            <span class="ce-kw-text">top accounting firms in dubai</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">accounting and auditing dubai</span>
-                            <span class="ce-pos-badge">1</span>
-                        </div>
-                        <div class="ce-row">
-                            <span class="ce-kw-text">top auditing firms in dubai</span>
+                            <span class="ce-kw-text">Currency exchange Dubai</span>
                             <span class="ce-pos-badge">2</span>
                         </div>
                         <div class="ce-row">
-                            <span class="ce-kw-text">auditing companies in dubai</span>
-                            <span class="ce-pos-badge">3</span>
+                            <span class="ce-kw-text">money exchange in dubai</span>
+                            <span class="ce-pos-badge">1</span>
                         </div>
                         <div class="ce-row">
-                            <span class="ce-kw-text">auditing company in dubai</span>
-                            <span class="ce-pos-badge">3</span>
+                            <span class="ce-kw-text">Dubai currency exchange platform</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">uae exchange currency rate</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">Dubai airport exchange rate</span>
+                            <span class="ce-pos-badge">1</span>
                         </div>
                     </div>
                 </div>
@@ -368,9 +385,9 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
+                            <img src="/assets/images/new-case-study/take-leap.webp" alt="Take Leap Website">
                         </div>
-                        <span class="ce-domain">takeleap.com</span>
+                        <span class="ce-domain"><a href="/case-study/take-leap/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">Takeleap</a></span>
                     </div>
                     <div class="ce-table-head">
                         <span>Keyword</span>
@@ -401,6 +418,120 @@
                 </div>
             </div>
 
+            <!-- Card 4: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/new-case-study/sand-dollar-web.webp" alt="Sand Dollar Dubai Website">
+                        </div>
+                        <span class="ce-domain"><a href="/case-study/e-commerce/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">Sand Dollar Dubai</a></span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Ranking</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">tanning oil</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">havaianas Dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">beach bags Dubai</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">luxury swimsuits</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">boho maxi dress</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/cs-hotel/hotel.png" alt="Crystal Plaza Hotel Image">
+                        </div>
+                        <span class="ce-domain"><a href="/case-study/hotel/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">Crystal Plaza</a></span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Ranking</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">hotel in Al Majaz Sharjah</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">hotels in Al Qasimia Sharjah</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">hotel in Sharjah Rolla</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">24 hours restaurant in Sharjah Rolla</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">city plaza hotel Sharjah</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Take Leap -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="ce-card">
+                    <div class="ce-card-head">
+                        <div class="ce-logo-placeholder">
+                            <img src="/assets/images/cs-education-institution/real-website-1.webp" alt="NIMS School Website">
+                        </div>
+                        <span class="ce-domain"><a href="/case-study/education-institution/" target="_blank" style="color:#fff; font-weight:bold; text-decoration:underline;">NIMS School</a></span>
+                    </div>
+                    <div class="ce-table-head">
+                        <span>Keyword</span>
+                        <span>Ranking</span>
+                    </div>
+                    <div class="ce-rows">
+                        <div class="ce-row">
+                            <span class="ce-kw-text">Best CBSE school in Dubai</span>
+                            <span class="ce-pos-badge">3</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">CBSE school in Dubai</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">model school in Dubai</span>
+                            <span class="ce-pos-badge">2</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">Indian model school</span>
+                            <span class="ce-pos-badge">1</span>
+                        </div>
+                        <div class="ce-row">
+                            <span class="ce-kw-text">cbse schools in uae</span>
+                            <span class="ce-pos-badge">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!-- Screenshot Grid -->
@@ -408,32 +539,57 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                        <img src="/assets/images/ranking-rep-1.webp" alt="Google Ranking 1 for Top Accounting Firm in Dubai (Client Spectrum Accounts)">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                        <img src="/assets/images/Ranking-rep-2.webp" alt="Google Ranking 2 for Accounting and Auditing in Dubai (Client Spectrum Accounts)">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                        <img src="/assets/images/Ranking-rep-3.webp" alt="Google Ranking 1 for Data as a Service in Dubai (Client Square One)">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                        <img src="/assets/images/Ranking-rep-4.webp" alt="Google Ranking 4 for Data Enrichment in IoT in Dubai (Client Square One)">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                        <img src="/assets/images/rank-proof-10.webp" alt="SEO Ranking Proof 5">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                        <img src="/assets/images/rank-proof-11.webp" alt="SEO Ranking Proof 6">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-proof-12.webp" alt="SEO Ranking Proof 7">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-proof-13.webp" alt="SEO Ranking Proof 8">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-proof-14.webp" alt="SEO Ranking Proof 9">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-proof-15.webp" alt="SEO Ranking Proof 10">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ce-ss-box">
+                        <img src="/assets/images/ranking-proof-16.webp" alt="SEO Ranking Proof 10">
                     </div>
                 </div>
             </div>
@@ -480,7 +636,7 @@
     </div>
 </section>
 
-<section class="sp-80 bg-white text-black">
+<!--<section class="sp-80 bg-white text-black">
     <div class="container mt-3 text-center">
         <h2 class="fw-bold mb-4">Search Is Everywhere: Is Your Brand <br>Visible Where It Matters?</h2>
         <p class="fs-20 max-width-800 mx-auto">
@@ -491,10 +647,9 @@
 <section class="pb-5 bg-white search-everywhare-service">
     <div class="container">
         <div class="row g-4">
-            <!-- Row 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
-                    <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> <!-- Placeholder icons using available ionicons -->
+                    <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> 
                     <h3 style="color: #000;">TikTok SEO</h3>
                     <p style="color: #444;">Stop scrolling- start getting discovered. We optimize your content to rank across the TikTok platform.</p>
                     <a href="/blogs/tiktok-seo-in-2026-mastering-social-search-and-discovery-for-brands/" class="platform-link">Learn TikTok SEO ></a>
@@ -517,7 +672,7 @@
                 </div>
             </div>
 
-            <!-- Row 2 -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
                     <i class="ion-search platform-icon" style="color: #855BFF;"></i>
@@ -543,8 +698,6 @@
                 </div>
             </div>
 
-            <!-- Row 3 -->
-
 
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
@@ -555,7 +708,6 @@
                 </div>
             </div>
 
-            <!-- Row 4 -->
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
                     <i class="ion-social-instagram platform-icon" style="color: #855BFF;"></i>
@@ -575,7 +727,7 @@
 
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="seo-pages-impact sp-50 bg-white">
     <div class="container"><!--Container Start-->
@@ -741,110 +893,13 @@
     </div>
 </section>
 
-
-
-
-<section class="what-client-say sp-50">
-    <div class="container">
-        <h2 class="fw-700 text-center">What Our Clients Say</h2>
-        <p class="fs-20 text-center">Real businesses. Real results. See how our Dubai SEO strategies have helped brands grow.</p><br>
-        <div class="px-md-5 position-relative">
-            <div class="swiper whatOurClientSaySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="row swiperRow">
-                            <div class="col-lg-4 d-flex justify-content-center mb-3 mb-lg-0">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-testimoni-1.png" class="w-lg-100 " alt="Client-Testimonial">
-                            </div>
-                            <div class="col-lg-8 content-col">
-                                <div>
-                                    <h4>E-Commerce SEO in Downtown Dubai</h4>
-                                    <p><strong>Client:</strong> Leading Fashion Retailer in Dubai</p>
-                                </div>
-                                <div class="content-center mb-2">
-                                    <h4>Results:</h4>
-                                    <ul>
-                                        <li>150% increase in organic traffic within 6 months</li>
-                                        <li>85% boost in online sales through targeted SEO campaigns</li>
-                                        <li>#1 ranking for high-competition keywords like “luxury fashion in Dubai”</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-comma.png" class="w-auto mb-2 mt-3" alt="Client-Testimonial">
-                                    <p>Brandstory transformed our online visibility. Our sales skyrocketed thanks to their expert SEO strategies! </p>
-                                    <p><strong>Mighty Warner</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="row swiperRow">
-                            <div class="col-lg-4 d-flex justify-content-center mb-3 mb-lg-0">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-testimoni-2.png" class="w-lg-100 " alt="Client-Testimonial">
-                            </div>
-                            <div class="col-lg-8 content-col">
-                                <div>
-                                    <h4>Local SEO for a 5-Star Hotel in Dubai Marina</h4>
-                                    <p><strong>Client:</strong> Leading Hotel in Dubai Marina</p>
-                                </div>
-                                <div class="content-center mb-2">
-                                    <h4>Results:</h4>
-                                    <ul>
-                                        <li>300% growth in local search traffic</li>
-                                        <li>Top rankings for “best 5-star hotel in Dubai Marina”</li>
-                                        <li>Direct bookings increased by 60%</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-comma.png" class="w-auto mb-2 mt-3" alt="Client-Testimonial">
-                                    <p>We’ve seen a massive jump in direct bookings since working with Brandstory. Their local SEO expertise is unmatched!</p>
-                                    <p><strong>Rove</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="row swiperRow">
-                            <div class="col-lg-4 d-flex justify-content-center mb-3 mb-lg-0">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-testimoni-3.png" class="w-lg-100 " alt="Client-Testimonial">
-                            </div>
-                            <div class="col-lg-8 content-col">
-                                <div>
-                                    <h4>B2B SEO for a Dubai-Based Tech Firm</h4>
-                                    <p><strong>Client:</strong> SaaS Company in Dubai</p>
-                                </div>
-                                <div class="content-center mb-2">
-                                    <h4>Results:</h4>
-                                    <ul>
-                                        <li>200% increase in organic leads</li>
-                                        <li>40% reduction in cost per acquisition</li>
-                                        <li>#1 rankings for industry-specific terms like “enterprise software solutions Dubai”</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/client-comma.png" class="w-auto mb-2 mt-3" alt="Client-Testimonial">
-                                    <p>SEO was a game-changer for our lead generation. Brandstory helped us dominate the Dubai market.</p>
-                                    <p><strong>trade wheel</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center d-flex align-items-center justify-content-center">
-                <p class="mb-0">Want to see similar results for your business?</p>
-            </div>
-            <div class="col-12 purple-seo-audit-btn d-flex align-items-center justify-content-center">
-                <div class="sb-btn"><a href="https://www.brandstory.ae/contact/" class="seo-audit-btn btn btn-light">Get a Free SEO Audit</a></div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+$reviewSection = [
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
 
 
 <section class="sp-50 bg-white">

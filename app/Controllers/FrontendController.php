@@ -474,19 +474,19 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/hotel', ['meta' => $meta]);
     }
-    public function leadingconsultingfirmbranding()
+    public function squareone()
     {
         $meta = [
             'classname' => 'main-cs-pg'
         ];
-        return $this->view('case-study/leading-consulting-firm-branding', ['meta' => $meta]);
+        return $this->view('case-study/square-one', ['meta' => $meta]);
     }
-    public function leadingconsultingfirmwebsite()
+    public function takeleap()
     {
         $meta = [
             'classname' => 'main-cs-pg'
         ];
-        return $this->view('case-study/leading-consulting-firm-website', ['meta' => $meta]);
+        return $this->view('case-study/take-leap', ['meta' => $meta]);
     }
     public function nanoprecisescicorp()
     {

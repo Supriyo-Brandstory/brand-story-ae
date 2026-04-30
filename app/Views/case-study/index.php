@@ -49,9 +49,9 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs2.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Consulting Firm Website</h3>
+                                <h3 class="mb-2 text-white">SquareOne</h3>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/leading-consulting-firm-website/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                    <a href="/case-study/square-one/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs4.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Wipro Infrastructure Engineering</h3>
+                                <h3 class="mb-2 text-white">Wipro Infra. Engineering</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/wipro-infrastructure-engineering/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
@@ -82,7 +82,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs5.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">NanoPrecise Sci Corp</h3>
+                                <h3 class="mb-2 text-white">NanoPrecise</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/nanoprecise-sci-corp/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
@@ -93,9 +93,9 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs6.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Consulting Firm Branding</h3>
+                                <h3 class="mb-2 text-white">Takeleap</h3>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/leading-consulting-firm-branding/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                    <a href="/case-study/take-leap/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs8.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">E-Commerce - Sand Dollar</h3>
+                                <h3 class="mb-2 text-white">E-Commerce- Sand Dollar</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/e-commerce/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
@@ -116,7 +116,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs9.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Hotel Chain in Dubai - Crystal Plaza</h3>
+                                <h3 class="mb-2 text-white">Hotel in Sharjah- Crystal Plaza</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/hotel/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
@@ -127,7 +127,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs10.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Travel Agency Startup - TravelX</h3>
+                                <h3 class="mb-2 text-white">Currency Exchange- TravelX</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/travel-agency/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
@@ -138,7 +138,7 @@
                         <div class="cs-main position-relative">
                             <img class="w-100" src="/assets/images/case-study/cs11.png">
                             <div class="cs-cnt-main">
-                                <h3 class="mb-2 text-white">Education Institution in - NIMS School</h3>
+                                <h3 class="mb-2 text-white">Education Institute- NIMS School</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/education-institution/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>

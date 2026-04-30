@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center px-3">
-                <h2 class="fw-700 text-center">Industries We've Proudly Served <br>and Dominated</h2>
+                <h2 class="fw-700 text-center">Industries We've Proudly Served</h2>
                 <p class="fs-20 text-center">
                     At Brandstory, we extend our Digital Marketing expertise across a diverse range of industries in UAE, tailoring strategies to meet the unique demands and opportunities each sector presents.
                 </p>
@@ -24,15 +24,15 @@
             ];
 
             $all_industries = [
-                'Real Estate' => '/industries/real-estate-marketing-services',
-                'E-commerce' => '/industries/e-commerce-marketing-service',
-                'Healthcare' => '/industries/healthcare-marketing-services',
-                'Education' => '/industries/education-marketing-services',
-                'B2B Corporate' => '/industries/b2b-corporate-marketing-services',
-                'Travel Agency' => '/industries/travel-agency-marketing-services',
-                'Dentists' => '/industries/digital-marketing-for-dentists',
-                'Automotive' => '/industries/digital-marketing-for-automotive',
-                'Law Firms' => '/industries/digital-marketing-for-law-firms',
+                'Real Estate' => '/industries/real-estate-seo-agency-in-dubai-uae/',
+                'E-commerce' => 'ae/industries/e-commerce-seo-agency-in-dubai-uae/',
+                'Healthcare' => '/industries/healthcare-seo-agency-in-dubai-uae/',
+                'Education' => '/industries/education-seo-agency-in-dubai-uae/',
+                'B2B Corporate' => '/industries/b2b-seo-agency-in-dubai-uae/',
+                'Travel Agency' => '/industries/tourism-seo-agency-dubai-uae/',
+                'Dentists' => '/industries/dentist-seo-agency-in-dubai-uae/',
+                'Automotive' => '/industries/automotive-seo-services-in-dubai-uae/',
+                'Law Firms' => '/industries/law-firm-seo-services-in-dubai-uae/',
 
             ];
 
