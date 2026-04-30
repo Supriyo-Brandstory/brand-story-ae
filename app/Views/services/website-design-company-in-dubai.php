@@ -14,7 +14,7 @@
         </div> -->
     <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
     <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
-        <h1 class="mb-4 text-white s-center">Web Design Company in Dubai</h1>
+        <h1 class="mb-0 mb-md-4 text-white s-center">Web Design Company in Dubai</h1>
         <!-- <p class="fs-18 text-white text-center">
                     Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
                 </p> -->
@@ -60,7 +60,7 @@
                 Your website shapes the first impression of your brand. BrandStory designs intuitive, user-focused modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
             </p>
         </div>
-        <div class="text-center">
+        <div class="text-center d-flex justify-content-center align-items-center">
             <a href="/contact" class="Performance-Driven-btn mb-5" bis_skin_checked="1">➤ Get a Free Quote</a>
         </div>
 

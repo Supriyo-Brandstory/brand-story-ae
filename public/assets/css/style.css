@@ -14523,6 +14523,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     background: #1a1a1a;
     position: relative;
 }
+
 /* @media (max-width: 768px) {
     .web-template-img-wrap {
         aspect-ratio: 9 / 16;
@@ -14574,7 +14575,8 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 } */
 
 /* Navigation arrows */
-.template-next, .template-prev {
+.template-next,
+.template-prev {
     color: #fff !important;
     background: rgba(255, 255, 255, 0.1);
     width: 50px !important;
@@ -14584,11 +14586,13 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     transition: all 0.3s ease;
 }
 
-.template-next:after, .template-prev:after {
+.template-next:after,
+.template-prev:after {
     font-size: 20px !important;
 }
 
-.template-next:hover, .template-prev:hover {
+.template-next:hover,
+.template-prev:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
 }
@@ -14598,6 +14602,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     .web-template-item {
         width: 85% !important;
     }
+
     .web-template-name {
         font-size: 20px;
     }
@@ -14607,11 +14612,13 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     .web-template-item {
         width: 90% !important;
     }
+
     .web-template-name {
         font-size: 18px;
     }
+
     .web-templates-swiper {
-        padding: 40px 0 !important;
+        padding: 40px 10px !important;
     }
 }
 
@@ -14682,15 +14689,17 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         width: 280px;
         flex: 0 0 280px;
     }
+
     .portrait-samples-track {
         padding: 0 20px;
         gap: 15px;
     }
+
     .portrait-sample-name {
         font-size: 16px;
     }
 }
 
-.s-center{
+.s-center {
     text-align: center !important;
 }
