@@ -1,6 +1,7 @@
 
-    <section class="px-4 px-lg-0" style="background: url('/assets/images/industries/b2b-corporate-marketing-services-banner.webp') no-repeat center center; background-size: cover;">
-        <div class="new_about_us-banner-container">
+    <section>
+    <!-- style="background: url('/assets/images/industries/b2b-corporate-marketing-services-banner.webp') no-repeat center center; background-size: cover;" -->
+        <!-- <div class="new_about_us-banner-container">
             <div class="row">
                 <div class="col-lg-7">
                     <h1 class="mb-4 text-white">Best Website Design Company in Dubai, UAE</h1>
@@ -11,7 +12,60 @@
                     <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
+        </div> -->
+        <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
+            <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
+                <h1 class="mb-4 text-white s-center">Best Website Design Company in Dubai, UAE</h1>
+                <!-- <p class="fs-18 text-white text-center">
+                    Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
+                </p> -->
+            </div>
+        <!-- </div> -->
+        <div class="swiper web-templates-swiper">
+            <div class="swiper-wrapper">
+                <?php 
+                $templates = [
+                    'automotive.webp',
+                    'healthcare.webp',
+                    'law-firm.webp',
+                    'real-estate.webp',
+                    'technology.webp'
+                ];
+
+                foreach ($templates as $template):
+                    $displayName = str_replace('.webp', '', $template);
+                    $displayName = ucwords(str_replace('-', ' ', $displayName));
+                ?>
+                <div class="web-template-item swiper-slide">
+                    <div class="web-template-img-wrap">
+                        <img
+                            src="/assets/images/web-templates/<?php echo $template; ?>"
+                            alt="<?php echo $displayName; ?>"
+                            loading="lazy"
+                        >
+                    </div>
+                    <!-- <div class="web-template-meta">
+                        <span class="web-template-name"><?php echo $displayName; ?></span>
+                        <a href="#" class="web-template-link">Preview →</a>
+                    </div> -->
+                </div>
+                <?php endforeach; ?>
+            <!-- </div> -->
+            <!-- Optional Navigation -->
+            <!-- <div class="swiper-button-next template-next"></div>
+            <div class="swiper-button-prev template-prev"></div> -->
+        </div>            
+        <div class='py-5' style="max-width: 1000px; margin: 0 auto">
+                <h2 class="mb-4 text-white s-center">Website Design Company in Dubai That Drives Real Growth</h2>
+                <p class="fs-18 text-white s-center">
+                    Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
+                </p>
+            </div>
+        <div class="text-center">
+            <a href="/contact" class="Performance-Driven-btn mb-5" bis_skin_checked="1">➤ Get a Free Quote</a>
         </div>
+
+                <!-- </div> -->
     </section>
 
 <section class="seo-marquee">
@@ -424,14 +478,60 @@
 </section>
 
 
+<?php 
+/*
 <section class="web-templates-section">
     <div class="web-templates-header">
-        <h2>Our Wensite Design Samples</h2>
+        <h2>Our Website Design Samples</h2>
         <p>Industry-specific designs optimized for performance and conversions.</p>
     </div>
 
-    <div class="web-templates-track-wrapper">
-        <div class="web-templates-track">
+    <div class="web-templates-track-wrapper p-0">
+        <div class="swiper web-templates-swiper">
+            <div class="swiper-wrapper">
+                <?php 
+                $templates = [
+                    'automotive.webp',
+                    'healthcare.webp',
+                    'law-firm.webp',
+                    'real-estate.webp',
+                    'technology.webp'
+                ];
+
+                foreach ($templates as $template):
+                    $displayName = str_replace('.webp', '', $template);
+                    $displayName = ucwords(str_replace('-', ' ', $displayName));
+                ?>
+                <div class="web-template-item swiper-slide">
+                    <div class="web-template-img-wrap">
+                        <img
+                            src="/assets/images/web-templates/<?php echo $template; ?>"
+                            alt="<?php echo $displayName; ?>"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="web-template-meta">
+                        <span class="web-template-name"><?php echo $displayName; ?></span>
+                        <a href="#" class="web-template-link">Preview →</a>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+            <div class="swiper-button-next template-next"></div>
+            <div class="swiper-button-prev template-prev"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="portrait-samples-section">
+    <div class="web-templates-header">
+        <h2>Our Website Design Samples</h2>
+        <p>Industry-specific designs optimized for performance and conversions.</p>
+    </div>
+
+    <div class="portrait-samples-wrapper">
+        <div class="portrait-samples-track">
             <?php 
             $templates = [
                 'automotive.webp',
@@ -445,23 +545,25 @@
                 $displayName = str_replace('.webp', '', $template);
                 $displayName = ucwords(str_replace('-', ' ', $displayName));
             ?>
-            <div class="web-template-item">
-                <div class="web-template-img-wrap">
+            <div class="portrait-sample-item">
+                <div class="portrait-sample-img-wrap">
                     <img
                         src="/assets/images/web-templates/<?php echo $template; ?>"
                         alt="<?php echo $displayName; ?>"
                         loading="lazy"
                     >
                 </div>
-                <div class="web-template-meta">
-                    <span class="web-template-name"><?php echo $displayName; ?></span>
-                    <!-- <a href="#" class="web-template-link">Preview →</a> -->
+                <div class="portrait-sample-meta">
+                    <span class="portrait-sample-name"><?php echo $displayName; ?></span>
                 </div>
             </div>
             <?php endforeach; ?>
         </div>
     </div>
 </section>
+
+*/
+?>
 
 <section class="dm-industries-sec sp-50 dm-bg">
     <div class="container">
@@ -967,6 +1069,33 @@ include __DIR__ . '/../component/client_reviews.php';
                     activeTab.classList.add('active');
                 }
             }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var swiperTemplates = new Swiper(".web-templates-swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                rotate: 10,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".template-next",
+                prevEl: ".template-prev",
+            },
         });
     });
 </script>
