@@ -14486,13 +14486,9 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 
 /* Track */
 .web-templates-track-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    cursor: grab;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 0 60px 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0;
 }
 
 .web-templates-track-wrapper::-webkit-scrollbar {
@@ -14503,25 +14499,46 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     cursor: grabbing;
 }
 
-.web-templates-track {
-    display: flex;
-    gap: 20px;
-    width: max-content;
+.web-templates-swiper {
+    /* padding: 80px 0 !important;  */
+    width: 100%;
 }
 
 /* Card */
 .web-template-item {
-    flex: 0 0 auto;
-    width: 300px;
+    width: 50% !important;
+    max-width: 1000px;
+    transition: all 0.5s ease;
 }
+
+
 
 .web-template-img-wrap {
     width: 100%;
-    height: 420px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    border-radius: 12px;
-    /* border: 1px solid #eee; */
-    /* box-shadow: 0 0 20px rgba(0, 187, 255, 0.2); */
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+    background: #1a1a1a;
+    position: relative;
+}
+/* @media (max-width: 768px) {
+    .web-template-img-wrap {
+        aspect-ratio: 9 / 16;
+    }
+} */
+/* Mockup browser bar look */
+.web-template-img-wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2;
 }
 
 .web-template-img-wrap img {
@@ -14533,17 +14550,17 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 }
 
 .web-template-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 4px 0;
+    text-align: center;
+    padding: 25px 0;
 }
 
 .web-template-name {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
     color: #fff;
+    text-transform: uppercase;
+    display: block;
 }
 
 /* .template-link {
@@ -14556,24 +14573,124 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     text-decoration: underline;
 } */
 
+/* Navigation arrows */
+.template-next, .template-prev {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.1);
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.template-next:after, .template-prev:after {
+    font-size: 20px !important;
+}
+
+.template-next:hover, .template-prev:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
 /* Responsive */
-@media (max-width: 768px) {
-
-    .web-templates-header,
-    .web-templates-track-wrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
+@media (max-width: 1024px) {
     .web-template-item {
-        width: 240px;
+        width: 85% !important;
     }
+    .web-template-name {
+        font-size: 20px;
+    }
+}
 
-    .web-template-img-wrap {
-        height: 320px;
+@media (max-width: 768px) {
+    .web-template-item {
+        width: 90% !important;
     }
+    .web-template-name {
+        font-size: 18px;
+    }
+    .web-templates-swiper {
+        padding: 40px 0 !important;
+    }
+}
 
-    .web-templates-header p {
-        text-align: left;
+/* Portrait Samples Section - Native Horizontal Scroll */
+.portrait-samples-section {
+    background: #0A0B0F;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.portrait-samples-wrapper {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 20px 0;
+}
+
+.portrait-samples-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.portrait-samples-track {
+    display: flex;
+    gap: 25px;
+    padding: 0 40px;
+    width: max-content;
+}
+
+.portrait-sample-item {
+    width: 320px;
+    flex: 0 0 320px;
+    transition: transform 0.3s ease;
+}
+
+.portrait-sample-img-wrap {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    background: #1a1a1a;
+}
+
+.portrait-sample-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.portrait-sample-meta {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portrait-sample-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .portrait-sample-item {
+        width: 280px;
+        flex: 0 0 280px;
     }
+    .portrait-samples-track {
+        padding: 0 20px;
+        gap: 15px;
+    }
+    .portrait-sample-name {
+        font-size: 16px;
+    }
+}
+
+.s-center{
+    text-align: center !important;
 }

@@ -3811,7 +3811,7 @@ ul.seo-pages-list li:before {
   border-radius: 10px;
 }
 
-.pow-box-bg{
+.pow-box-bg {
   position: absolute;
   bottom: 0;
   right: 10%;
@@ -3819,31 +3819,34 @@ ul.seo-pages-list li:before {
   height: 100%;
   z-index: 10;
   font-size: 350px;
-  color: rgba(0, 0, 0, 0.03); /* very light = background feel */
+  color: rgba(0, 0, 0, 0.03);
+  /* very light = background feel */
   text-align: right;
   text-wrap: nowrap;
   /* border: 1px solid red; */
-  z-index: 0; /* send it behind */
-  pointer-events: none; /* prevent blocking clicks */
+  z-index: 0;
+  /* send it behind */
+  pointer-events: none;
+  /* prevent blocking clicks */
 }
 
 @media (max-width: 786px) {
-  .pow-box-bg{
+  .pow-box-bg {
     bottom: -25%;
   }
 }
 
-.pow-box-btn{
+.pow-box-btn {
   background: #855EF7;
-  color:#fff;
+  color: #fff;
   padding: 10px 24px;
   border-radius: 20px;
   margin-top: 20px;
   letter-spacing: 1px;
-} 
+}
 
-.pow-box-btn:hover{
-  color:#fff;
+.pow-box-btn:hover {
+  color: #fff;
   transform: translateY(-5px);
 }
 

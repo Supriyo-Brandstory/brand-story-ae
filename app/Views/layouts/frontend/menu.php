@@ -66,6 +66,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/wordpress-development.png" alt="WordPress Development" width="30" height="30"><a href="/wordpress-development-company-in-dubai/">WordPress Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/magento-development.png" alt="Magento Development" width="30" height="30"><a href="/magento-website-development-dubai/">Magento Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/drupal-development.png" alt="Drupal Development" width="30" height="30"><a href="/drupal-website-development-company-in-dubai/">Drupal Dev</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/wordpress-development.png" alt="Laravel Development" width="30" height="30"><a href="/laravel-development-company-in-dubai/">Laravel Dev</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/e-commerce-developement.png" alt="E-commerce Development" width="30" height="30"><a href="/ecommerce-development-company-dubai/">E-commerce Dev</a></li>
 
 
