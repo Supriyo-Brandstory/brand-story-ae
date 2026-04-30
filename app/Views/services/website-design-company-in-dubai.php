@@ -1,7 +1,6 @@
-
-    <section>
+<section>
     <!-- style="background: url('/assets/images/industries/b2b-corporate-marketing-services-banner.webp') no-repeat center center; background-size: cover;" -->
-        <!-- <div class="new_about_us-banner-container">
+    <!-- <div class="new_about_us-banner-container">
             <div class="row">
                 <div class="col-lg-7">
                     <h1 class="mb-4 text-white">Best Website Design Company in Dubai, UAE</h1>
@@ -13,60 +12,59 @@
                 </div>
             </div>
         </div> -->
-        <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
-            <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
-                <h1 class="mb-4 text-white s-center">Best Website Design Company in Dubai, UAE</h1>
-                <!-- <p class="fs-18 text-white text-center">
+    <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
+    <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
+        <h1 class="mb-4 text-white s-center">Best Website Design Company in Dubai, UAE</h1>
+        <!-- <p class="fs-18 text-white text-center">
                     Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
                 </p> -->
-            </div>
-        <!-- </div> -->
-        <div class="swiper web-templates-swiper">
-            <div class="swiper-wrapper">
-                <?php 
-                $templates = [
-                    'automotive.webp',
-                    'healthcare.webp',
-                    'law-firm.webp',
-                    'real-estate.webp',
-                    'technology.webp'
-                ];
+    </div>
+    <!-- </div> -->
+    <div class="swiper web-templates-swiper">
+        <div class="swiper-wrapper">
+            <?php
+            $templates = [
+                'automotive.webp',
+                'healthcare.webp',
+                'law-firm.webp',
+                'real-estate.webp',
+                'technology.webp'
+            ];
 
-                foreach ($templates as $template):
-                    $displayName = str_replace('.webp', '', $template);
-                    $displayName = ucwords(str_replace('-', ' ', $displayName));
-                ?>
+            foreach ($templates as $template):
+                $displayName = str_replace('.webp', '', $template);
+                $displayName = ucwords(str_replace('-', ' ', $displayName));
+            ?>
                 <div class="web-template-item swiper-slide">
                     <div class="web-template-img-wrap">
                         <img
                             src="/assets/images/web-templates/<?php echo $template; ?>"
                             alt="<?php echo $displayName; ?>"
-                            loading="lazy"
-                        >
+                            loading="lazy">
                     </div>
                     <!-- <div class="web-template-meta">
                         <span class="web-template-name"><?php echo $displayName; ?></span>
                         <a href="#" class="web-template-link">Preview →</a>
                     </div> -->
                 </div>
-                <?php endforeach; ?>
+            <?php endforeach; ?>
             <!-- </div> -->
             <!-- Optional Navigation -->
             <!-- <div class="swiper-button-next template-next"></div>
             <div class="swiper-button-prev template-prev"></div> -->
-        </div>            
+        </div>
         <div class='py-5' style="max-width: 1000px; margin: 0 auto">
-                <h2 class="mb-4 text-white s-center">Website Design Company in Dubai That Drives Real Growth</h2>
-                <p class="fs-18 text-white s-center">
-                    Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
-                </p>
-            </div>
+            <h2 class="mb-4 text-white s-center">Website Design Company in Dubai That Drives Real Growth</h2>
+            <p class="fs-18 text-white s-center">
+                Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
+            </p>
+        </div>
         <div class="text-center">
             <a href="/contact" class="Performance-Driven-btn mb-5" bis_skin_checked="1">➤ Get a Free Quote</a>
         </div>
 
-                <!-- </div> -->
-    </section>
+        <!-- </div> -->
+</section>
 
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
@@ -187,35 +185,35 @@
 </section>
 
 <section class="web-why-choose sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="text-center">
-					<h2>Website Design Technologies</h2>
-				</div>
-				<p class="fs-20 mt-4 mb-4 mt-md-5">We use modern design tools and technologies like Adobe Photoshop, Adobe Illustrator, HTML5, CSS, Bootstrap, and JavaScript to create visually appealing and user-friendly websites. Our focus is on delivering clean layouts, engaging visuals, and seamless user experiences that reflect your brand and capture your audience’s attention. </p>
-			</div>
-		</div>
-			<div class="col-md-12">
-				<h4>Our Web Design Expertise</h4>
-				<div class="site--slider mt-4"><!--slider start-->
-					<div class="swiper ods-logos">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-1.png" class="img-fluid" alt="Adobe Photoshop"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-2.png" class="img-fluid" alt="Adobe Illustrator"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-3.png" class="img-fluid" alt="Figma"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-4.png" class="img-fluid" alt="HTML"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-5.png" class="img-fluid" alt="CSS3"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-6.png" class="img-fluid" alt="Bootstrap"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-7.png" class="img-fluid" alt="JavaScript"></div>
-							<div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-9.png" class="img-fluid" alt="Opencart"></div>
-						</div>
-						<div class="swiper-pagination ods-pagi"></div>
-					</div>
-				</div><!--slider start-->
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h2>Website Design Technologies</h2>
+                </div>
+                <p class="fs-20 mt-4 mb-4 mt-md-5">We use modern design tools and technologies like Adobe Photoshop, Adobe Illustrator, HTML5, CSS, Bootstrap, and JavaScript to create visually appealing and user-friendly websites. Our focus is on delivering clean layouts, engaging visuals, and seamless user experiences that reflect your brand and capture your audience’s attention. </p>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h4>Our Web Design Expertise</h4>
+            <div class="site--slider mt-4"><!--slider start-->
+                <div class="swiper ods-logos">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-1.png" class="img-fluid" alt="Adobe Photoshop"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-2.png" class="img-fluid" alt="Adobe Illustrator"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-3.png" class="img-fluid" alt="Figma"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-4.png" class="img-fluid" alt="HTML"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-5.png" class="img-fluid" alt="CSS3"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-6.png" class="img-fluid" alt="Bootstrap"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-7.png" class="img-fluid" alt="JavaScript"></div>
+                        <div class="swiper-slide"><img src="/assets/images/service/website-design/other-logo-9.png" class="img-fluid" alt="Opencart"></div>
+                    </div>
+                    <div class="swiper-pagination ods-pagi"></div>
+                </div>
+            </div><!--slider start-->
+        </div>
+    </div>
+    </div>
 </section>
 
 
@@ -238,7 +236,7 @@
                                 <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                               <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
@@ -250,14 +248,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/nextjs.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/nextjs-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/nextjs.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Next JS Development" class="img-fluid" style="width: 35px;">
+                                <a href="/nextjs-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Next JS Development" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>Next JS Development</h5>
+                        <h5><a href="/nextjs-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Next JS Development</a></h5>
                         <p class="small">Build your lightning-fast, SEO-friendly websites/ web applications with our expert Next.js development services. We build tech-savvy enterprise-grade website platforms, ensuring a smooth user experience and seamless backend system integration. </p>
                     </div>
                 </div>
@@ -284,14 +282,14 @@
                     <div class="service-card">
                         <div class="row mb-3 mt-90">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/laravel.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/laravel-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/laravel.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="PHP Laravel Development" class="img-fluid" style="width: 35px;">
+                                <a href="/laravel-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="PHP Laravel Development" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>PHP Laravel Development</h5>
+                        <h5><a href="/laravel-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">PHP Laravel Development</a></h5>
                         <p class="small">Are you searching for PHP Laravel website development services in Dubai? Our team of experts creates custom web solutions in PHP and the latest framework, Laravel. PHP Laravel is one of the most popular web development frameworks that comes with more security features, faster development cycle, and latest features. </p>
                     </div>
                 </div>
@@ -314,14 +312,14 @@
                     <div class="service-card border-0 ">
                         <div class="row mb-3 mt-50">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/wix.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/wix-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/wix.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Wix" class="img-fluid" style="width: 35px;">
+                                <a href="/wix-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Wix" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>Wix</h5>
+                        <h5><a href="/wix-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Wix</a></h5>
                         <p class="small">Wix offers a user-friendly no-code platform for building stunning and responsive websites. It’s ideal for small businesses, portfolios, and startups looking to launch with style. Our Wix experts design and customize professional websites that align with your brand and business goals.</p>
                     </div>
                 </div>
@@ -333,14 +331,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/angular.svg" alt="Web Development" class="Angular Development" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/angular-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/angular.svg" alt="Web Development" class="Angular Development" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;">
+                                <a href="/angular-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>Angular Development</h5>
+                        <h5><a href="/angular-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Angular Development</a></h5>
                         <p class="small">Looking for dynamic and high-performance web applications? Our Angular developers engineer seamless front-end experiences that are fast, responsive, and load quickly. Whether it is a single-page website, media-rich design, or a complex dashboard, we work on clean code architecture with seamless integration. </p>
                     </div>
                 </div>
@@ -348,14 +346,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/shopify.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/shopify-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/shopify.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Shopify" class="img-fluid" style="width: 35px;">
+                                <a href="/shopify-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Shopify" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>Shopify</h5>
+                        <h5><a href="/shopify-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Shopify</a></h5>
                         <p class="small">Shopify is an e-commerce platform and a preferred choice for its scalability, ease of use, and robust features. As a Shopify development company, we create visually stunning and high-converting online stores for businesses. It enables better product management, secure payments, multi-channel selling, and built-in SEO features.</p>
                     </div>
                 </div>
@@ -363,14 +361,14 @@
                     <div class="service-card border-0 h-100 ">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <img src="/assets/images/icons/webflow.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;">
+                                <a href="/webflow-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/webflow.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <img src="/assets/images/icons/web-development-arrow.svg" alt="Webflow" class="img-fluid" style="width: 35px;">
+                                <a href="/webflow-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Webflow" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5>Webflow</h5>
+                        <h5><a href="/webflow-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Webflow</a></h5>
                         <p class="small">We specialize in creating pixel-perfect webflow sites that load fast, are SEO-friendly, and visually striking. From animations, UI, to CMS integration, we provide tailored solutions for businesses looking for website development in Dubai. </p>
                     </div>
                 </div>
@@ -478,7 +476,7 @@
 </section>
 
 
-<?php 
+<?php
 /*
 <section class="web-templates-section">
     <div class="web-templates-header">
@@ -851,9 +849,9 @@ include __DIR__ . '/../component/client_reviews.php';
 <section class="dm-faq-section sp-50 dm-bg">
     <div class="container">
         <h2 class="text-center text-white mb-lg-5 mb-4">Your Questions Answered</h2>
-        
+
         <div class="dm-faq-main">
-            
+
 
             <div class="tab-content" id="pills-tabContent">
                 <!-- Website Design Start -->
@@ -1099,4 +1097,3 @@ include __DIR__ . '/../component/client_reviews.php';
         });
     });
 </script>
-
