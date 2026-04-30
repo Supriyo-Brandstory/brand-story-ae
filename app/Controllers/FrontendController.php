@@ -333,6 +333,54 @@ class FrontendController extends Controller
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
     }
+    public function laravelDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/laravel-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function angularDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/angular-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function nextjsDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/nextjs-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function shopifyDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/shopify-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function wixDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/wix-development-company-in-dubai', ['meta' => $meta]);
+    }
+
+    public function webflowDevelopmentCompanyInDubai()
+    {
+        $meta = [
+            'classname' => 'dm-page service-page dm-agency-dubai'
+        ];
+        return $this->view('services/webflow-development-company-in-dubai', ['meta' => $meta]);
+    }
+
     public function conversionRateOptimizationAgencyDubai()
     {
         $meta = [];
@@ -3267,7 +3315,7 @@ class FrontendController extends Controller
         curl_setopt($ch, CURLOPT_TIMEOUT, 15);
         curl_setopt($ch, CURLOPT_HEADER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Allow self-signed or invalid SSL for auditing
-        
+
         $body = curl_exec($ch);
         $endTime = microtime(true);
         $loadTime = round(($endTime - $startTime), 2);
@@ -3349,7 +3397,7 @@ class FrontendController extends Controller
 
         // Scoring Logic (Refined)
         $auditResults = [];
-        
+
         // SEO PASSED/FAILED checks
         $auditResults['title'] = (strlen($title) >= 10 && strlen($title) <= 70) ? 'pass' : 'warn';
         $auditResults['meta'] = (strlen($metaDescription) >= 70 && strlen($metaDescription) <= 165) ? 'pass' : 'warn';
