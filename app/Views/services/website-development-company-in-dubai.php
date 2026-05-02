@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-12">
 
-                                <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg">
+                                <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg" alt="Website Development Company Dubai">
                                 <h1 class="mb-4 text-white">Best Web Development
                                     <span class="db">Company in Dubai, UAE</span>
                                 </h1>

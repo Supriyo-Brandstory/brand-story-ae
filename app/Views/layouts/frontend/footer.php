@@ -193,7 +193,7 @@ $stickyServices = $stickyServices ?? [
     }
   }
 </style>
-<script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/jquery.min.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/bootstrap.min.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/menu.js?v=2.1') ?>" defer></script>
 <script src="<?= base_url('assets/js/swiper.js') ?>" defer></script>
@@ -207,29 +207,31 @@ $stickyServices = $stickyServices ?? [
   integrity="sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA=="
   crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 <script type="text/javascript">
-  jQuery(document).ready(function($) {
-    $("input").keypress(function() {
-      $(this).removeClass('error');
-    });
-
-    $(".phone-input").each(function() {
-      var $this = $(this);
-      $this.intlTelInput({
-        allowDropdown: true,
-        separateDialCode: true,
-        localizedCountries: null,
-        preferredCountries: ["ae", "in", "us", "gb", "sg"],
+  window.addEventListener('load', function() {
+    jQuery(document).ready(function($) {
+      $("input").keypress(function() {
+        $(this).removeClass('error');
       });
 
-      var updateCountryData = function() {
-        var countryData = $this.intlTelInput("getSelectedCountryData");
-        var $form = $this.closest('form');
-        $form.find("input[name='country']").val(countryData.iso2);
-        $form.find("input[name='country_code']").val(countryData.dialCode);
-      };
+      $(".phone-input").each(function() {
+        var $this = $(this);
+        $this.intlTelInput({
+          allowDropdown: true,
+          separateDialCode: true,
+          localizedCountries: null,
+          preferredCountries: ["ae", "in", "us", "gb", "sg"],
+        });
 
-      $this.on("countrychange", updateCountryData);
-      updateCountryData(); // Initial load
+        var updateCountryData = function() {
+          var countryData = $this.intlTelInput("getSelectedCountryData");
+          var $form = $this.closest('form');
+          $form.find("input[name='country']").val(countryData.iso2);
+          $form.find("input[name='country_code']").val(countryData.dialCode);
+        };
+
+        $this.on("countrychange", updateCountryData);
+        updateCountryData(); // Initial load
+      });
     });
   });
 </script>

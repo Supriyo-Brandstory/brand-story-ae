@@ -4,7 +4,7 @@
             <div class="swiper-slide">
                 <div class="bannersld-main two">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-2.webp') ?>">
+                        <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-2.webp') ?>" alt="Digital Marketing Agency Dubai">
                         <h1 class="mb-4 text-white">Leading Digital Marketing Agency
                             <span class="db"> in Dubai for Ambitious Brands</span>
                         </h1>
@@ -30,7 +30,7 @@
             <div class="swiper-slide">
                 <div class="bannersld-main three">
                     <div class="container">
-                        <img rel="preload" fetchpriority="high" as="image" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>">
+                        <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="<?= base_url('assets/images/banners/mm-nn-banner-1.webp') ?>" alt="Digital Marketing Services Dubai">
                         <h1 class="mb-4 text-white">Empowering Ventures to Dominate
                             <span class="db tab-db"> with Digital Marketing Services</span>
                         </h1>
