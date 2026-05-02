@@ -36,7 +36,7 @@
                  <h1 class="title w-lg-50 d-flex gap-3 align-item-center justify-content-center text-md-end">YOUR <span class="d-block d-md-none"> RESULTS</span></h1>
              </div>
              <div class="item center-flex">
-                 <img src="<?= base_url('assets/images/social-media/social-media-1.gif') ?>" alt="Social Media Marketing" class="banner-img">
+                 <img src="/assets/images/social-media/social-media-1.gif" alt="Social Media Marketing" class="banner-img">
              </div>
              <div class="item right-item d-none d-md-flex text-left">
                  <h1 class="title">RESULTS</h1>

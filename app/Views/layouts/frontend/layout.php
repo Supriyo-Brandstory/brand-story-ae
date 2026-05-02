@@ -22,6 +22,36 @@ if ($seoData) {
     <link rel="canonical" href="<?php echo $canonical ?? ''; ?>">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.png') ?>">
 
+    <!-- Preload LCP Image - Moved to Top to eliminate Resource Load Delay -->
+    <?php
+    $current_url = $_SERVER['REQUEST_URI'];
+    $lcp_image = '';
+    $lcp_mobile = '';
+
+    if ($current_url == '/' || $current_url == '/index.php') {
+        $lcp_image = '/assets/images/banners/nn-banner-2.webp';
+        $lcp_mobile = '/assets/images/banners/mm-nn-banner-2.webp';
+    } elseif (strpos($current_url, 'seo-services-in-dubai') !== false) {
+        $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
+    } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/social-media/social-media-1.gif';
+    } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
+        $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
+    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
+        $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
+    }
+
+    if ($lcp_image): ?>
+        <link rel="preload" as="image" href="<?= $lcp_image ?>" fetchpriority="high" media="(min-width: 768px)">
+    <?php endif;
+    if ($lcp_mobile): ?>
+        <link rel="preload" as="image" href="<?= $lcp_mobile ?>" fetchpriority="high" media="(max-width: 767px)">
+    <?php endif; ?>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
+
     <?php if (!empty($seoData['other_script_or_tag'])): ?>
         <!-- Dynamic SEO Scripts/Tags -->
         <?= $seoData['other_script_or_tag'] ?>
@@ -53,39 +83,7 @@ if ($seoData) {
     <meta name="audience" content="all">
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
-    <!-- Preload Critical Font -->
-    <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
-
-    <!-- Preload LCP Image -->
-    <?php
-    $current_url = $_SERVER['REQUEST_URI'];
-    $lcp_image = '';
-    $lcp_mobile = '';
-
-    if ($current_url == '/' || $current_url == '/index.php') {
-        $lcp_image = base_url('assets/images/banners/nn-banner-2.webp');
-        $lcp_mobile = base_url('assets/images/banners/mm-nn-banner-2.webp');
-    } elseif (strpos($current_url, 'seo-services-in-dubai') !== false) {
-        $lcp_image = base_url('assets/images/seo-lp/dubai/our-capabilities.png');
-    } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
-        $lcp_image = base_url('assets/images/social-media/social-media-1.gif');
-    } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
-        $lcp_image = base_url('assets/images/branding-agency-in-dubai-new-banner-3.webp');
-        $lcp_mobile = base_url('assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp');
-    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
-        $lcp_image = base_url('assets/images/new-website-design-company-in-dubai/website-dubai.webp');
-        $lcp_mobile = base_url('assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg');
-    }
-
-    if ($lcp_image): ?>
-        <link rel="preload" as="image" href="<?= $lcp_image ?>" fetchpriority="high" media="(min-width: 768px)">
-    <?php endif;
-    if ($lcp_mobile): ?>
-        <link rel="preload" as="image" href="<?= $lcp_mobile ?>" fetchpriority="high" media="(max-width: 767px)">
-    <?php endif; ?>
-
     <!-- Critical CSS -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
