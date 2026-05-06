@@ -134,6 +134,7 @@ Route::get('/digital-marketing-agency-in-dubai-uae', 'FrontendController@digital
 Route::get('/digital-marketing-agency-in-fujairah', 'FrontendController@digitalmarketingagencyinfujairah', 'digitalmarketingagencyinfujairah');
 Route::get('/digital-marketing-agency-in-ras-al-khaimah', 'FrontendController@digitalmarketingagencyinarasalkhaimah', 'digitalmarketingagencyinarasalkhaimah');
 Route::get('/digital-marketing-agency-in-sharjah', 'FrontendController@digitalmarketingagencyinsharjah', 'digitalmarketingagencyinsharjah');
+Route::get('/social-media-marketing-agency-in-sharjah', 'FrontendController@socialMediaMarketingAgencyInSharjah', 'socialmediamarketingagencyinsharjah');
 Route::get('/digital-marketing-agency-in-umm-al-quwain', 'FrontendController@digitalmarketingagencyinummalquwain', 'digitalmarketingagencyinummalquwain');
 Route::get('/ecommerce-web-development-services', 'FrontendController@ecommercwebdevelopmentservices', 'ecommercewebdevelopmentservices');
 Route::get('/email-marketing-company-in-abu-dhabi', 'FrontendController@emailmarketingcompanyinabudhabi', 'emailmarketingcompanyinabudhabi');

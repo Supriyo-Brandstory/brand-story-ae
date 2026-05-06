@@ -785,6 +785,14 @@ class FrontendController extends Controller
         ];
         return $this->view('others-pages/digital-marketing-agency-in-sharjah', ['meta' => $meta]);
     }
+
+    public function socialMediaMarketingAgencyInSharjah()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages'
+        ];
+        return $this->view('others-pages/social-media-marketing-agency-in-sharjah', ['meta' => $meta]);
+    }
     public function digitalmarketingagencyinummalquwain()
     {
         $meta = [
