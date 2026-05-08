@@ -1,5 +1,5 @@
 <main class="container-fluid py-4">
-  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 mb-0">
             <i class="bi bi-tags-fill text-primary me-2"></i> Categories
         </h1>
@@ -19,6 +19,19 @@
                     <?= csrf_token() ?>
 
                     <div class="card-body p-4">
+
+                        <div class="mb-4">
+                            <label for="parent_id" class="form-label fw-semibold">Parent Category (Optional)</label>
+                            <select class="form-select form-select-lg" id="parent_id" name="parent_id">
+                                <option value="">None (Make this a Main Category)</option>
+                                <?php if (!empty($mainCategories)): ?>
+                                    <?php foreach ($mainCategories as $cat): ?>
+                                        <option value="<?= $cat['id'] ?>"><?= htmlspecialchars($cat['name']) ?></option>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
+                            <div class="form-text">Choose a parent if you want to create a sub-category.</div>
+                        </div>
 
                         <div class="mb-4">
                             <label for="name" class="form-label fw-semibold">Category Name</label>

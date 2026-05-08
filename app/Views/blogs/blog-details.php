@@ -683,13 +683,19 @@
                                 <div class="blog-box-txt">
                                     <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
                                     <h6>
-                                        <a href="<?= route('blogs.show', ['slug' => $related_blog['slug']]) ?>" style="text-decoration:none;color:#000">
+                                        <?php 
+                                            $relUrl = base_url('blog/');
+                                            if(!empty($related_blog['category_slug'])) $relUrl .= $related_blog['category_slug'] . '/';
+                                            if(!empty($related_blog['sub_category_slug'])) $relUrl .= $related_blog['sub_category_slug'] . '/';
+                                            $relUrl .= $related_blog['slug'];
+                                        ?>
+                                        <a href="<?= $relUrl ?>" style="text-decoration:none;color:#000">
                                             <?= htmlspecialchars($related_blog['title']) ?>
                                         </a>
                                     </h6>
                                     <p><?= htmlspecialchars(substr(strip_tags($related_blog['description']), 0, 120)) ?>...</p>
                                     <div class="blog-box-link">
-                                        <a href="<?= route('blogs.show', ['slug' => $related_blog['slug']]) ?>">Read more <i class="bi bi-arrow-right"></i></a>
+                                        <a href="<?= $relUrl ?>">Read more <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

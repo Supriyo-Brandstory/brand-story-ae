@@ -10,8 +10,8 @@ Route::get('/about', 'FrontendController@about', 'about');
 Route::get('/contact', 'FrontendController@contat', 'contact');
 Route::post('/contact/submit', 'FrontendController@sendContactInformation', 'contact.submit');
 Route::get('/blog', 'FrontendController@blogs', 'blogs');
+Route::get('/blog/{path*}', 'FrontendController@blogRouter', 'blog.router');
 Route::get('/api/blogs/search', 'FrontendController@searchBlogs', 'api.blogs.search');
-Route::get('/blogs/{slug}', 'FrontendController@blogDetail', 'blogs.show');
 Route::get('/services', 'FrontendController@services', 'services');
 Route::get('/social-media-marketing-agency-in-dubai', 'FrontendController@socialMediaMarketingDubai', 'socialmediamarketingdubai');
 // Route::get('/digital-marketing-strategy-dubai', 'FrontendController@digitalMarketingStrategyDubai', 'digitalmarketingstrategydubai');
@@ -309,6 +309,8 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/blog-categories/{id}/edit', 'Admin\AdminBlogCategoryController@edit', 'admin.blogCategories.edit');
         Route::post('/blog-categories/{id}', 'Admin\AdminBlogCategoryController@update', 'admin.blogCategories.update');
         Route::post('/blog-categories/{id}/delete', 'Admin\AdminBlogCategoryController@destroy', 'admin.blogCategories.destroy');
+        Route::post('/blog-categories/update-order', 'Admin\AdminBlogCategoryController@updateOrder', 'admin.blogCategories.updateOrder');
+        Route::get('/blog-categories/get-subcategories/{id}', 'Admin\AdminBlogCategoryController@getSubcategories', 'admin.blogCategories.getSubcategories');
 
         // Blog Posts Management
         Route::get('/blogs', 'Admin\AdminBlogController@index', 'admin.blogs_admin.index');

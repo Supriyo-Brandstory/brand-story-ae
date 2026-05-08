@@ -5,7 +5,7 @@
             <i class="bi bi-pencil-square text-warning me-2"></i>
             Edit Blog Post: <strong><?= htmlspecialchars($blog['title'] ?? 'N/A') ?></strong>
         </h1>
-        <a href="<?= route('admin.blogs.index') ?>" class="btn btn-secondary">
+        <a href="<?= route('admin.blogs_admin.index') ?>" class="btn btn-secondary">
             <i class="bi bi-arrow-left me-1"></i> Back
         </a>
     </div>
@@ -57,19 +57,34 @@
                             </div>
                         </div>
 
-                        <!-- Category Dropdown -->
-                        <div class="mb-4">
-                            <label for="blog_category_id" class="form-label fw-semibold">Category</label>
-                            <select class="form-control form-control-lg" id="blog_category_id" name="blog_category_id" required>
-                                <option value="">Select Category</option>
-                                <?php if (!empty($blogCategories)): ?>
-                                    <?php foreach ($blogCategories as $category): ?>
-                                        <option value="<?= $category['id'] ?>" <?= (isset($blog['blog_category_id']) && $blog['blog_category_id'] == $category['id']) ? 'selected' : '' ?>>
-                                            <?= htmlspecialchars($category['name']) ?>
-                                        </option>
-                                    <?php endforeach; ?>
-                                <?php endif; ?>
-                            </select>
+                        <!-- Category Dropdowns -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label for="blog_category_id" class="form-label fw-semibold">Category</label>
+                                <select class="form-select form-select-lg" id="blog_category_id" name="blog_category_id" required>
+                                    <option value="">Select Category</option>
+                                    <?php if (!empty($blogCategories)): ?>
+                                        <?php foreach ($blogCategories as $category): ?>
+                                            <option value="<?= $category['id'] ?>" <?= (isset($blog['blog_category_id']) && $blog['blog_category_id'] == $category['id']) ? 'selected' : '' ?>>
+                                                <?= htmlspecialchars($category['name']) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="blog_sub_category_id" class="form-label fw-semibold">Sub Category (Optional)</label>
+                                <select class="form-select form-select-lg" id="blog_sub_category_id" name="blog_sub_category_id">
+                                    <option value="">Select Sub Category</option>
+                                    <?php if (!empty($subCategories)): ?>
+                                        <?php foreach ($subCategories as $sub): ?>
+                                            <option value="<?= $sub['id'] ?>" <?= (isset($blog['blog_sub_category_id']) && $blog['blog_sub_category_id'] == $sub['id']) ? 'selected' : '' ?>>
+                                                <?= htmlspecialchars($sub['name']) ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </select>
+                            </div>
                         </div>
 
                         <!-- Image -->
@@ -96,7 +111,7 @@
                     </div>
 
                     <div class="card-footer bg-light d-flex justify-content-between">
-                        <a href="<?= route('admin.blogs.index') ?>" class="btn btn-secondary">
+                        <a href="<?= route('admin.blogs_admin.index') ?>" class="btn btn-secondary">
                             Cancel
                         </a>
                         <button type="submit" class="btn btn-warning px-4">
@@ -109,3 +124,29 @@
         </div>
     </div>
 </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const categorySelect = document.getElementById('blog_category_id');
+    const subCategorySelect = document.getElementById('blog_sub_category_id');
+
+    categorySelect.addEventListener('change', function() {
+        const categoryId = this.value;
+        subCategorySelect.innerHTML = '<option value="">Select Sub Category</option>';
+        
+        if (categoryId) {
+            fetch(`<?= route('admin.blogCategories.getSubcategories', ['id' => '']) ?>/${categoryId}`)
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(sub => {
+                        const option = document.createElement('option');
+                        option.value = sub.id;
+                        option.textContent = sub.name;
+                        subCategorySelect.appendChild(option);
+                    });
+                })
+                .catch(error => console.error('Error fetching subcategories:', error));
+        }
+    });
+});
+</script>

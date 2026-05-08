@@ -79,7 +79,12 @@
                                         <?php endif; ?>
                                     </td>
                                     <td><?= htmlspecialchars($blog['title']) ?></td>
-                                    <td><?= htmlspecialchars($blog['category_name'] ?? 'N/A') ?></td>
+                                    <td>
+                                        <?= htmlspecialchars($blog['category_name'] ?? 'N/A') ?>
+                                        <?php if (!empty($blog['sub_category_name']) && $blog['sub_category_name'] !== 'N/A'): ?>
+                                            <br><small class="text-muted">Sub: <?= htmlspecialchars($blog['sub_category_name']) ?></small>
+                                        <?php endif; ?>
+                                    </td>
                                     <td><code><?= htmlspecialchars($blog['slug']) ?></code></td>
                                     <td class="text-center" style="white-space: nowrap;">
                                         <a href="<?= route('admin.blogs_admin.edit', ['id' => $blog['id']]) ?>" 

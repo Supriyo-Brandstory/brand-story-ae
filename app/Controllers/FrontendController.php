@@ -50,46 +50,151 @@ class FrontendController extends Controller
         return $this->view('contact', ['meta' => $meta]);
     }
 
-    public function blogs()
+    public function blogs($categorySlug = null, $subcategorySlug = null)
     {
         $blogModel = new \App\Models\Blog();
         $categoryModel = new \App\Models\BlogCategory();
 
-        $categorySlug = $_GET['category'] ?? null;
-        $sql = "SELECT b.*, c.name as category_name, c.slug as category_slug FROM blogs b LEFT JOIN blog_categories c ON b.blog_category_id = c.id";
-        $params = [];
+        $categorySlug = $categorySlug ?: ($_GET['category'] ?? null);
+        $subcategorySlug = $subcategorySlug ?: ($_GET['subcategory'] ?? null);
 
-        if ($categorySlug) {
+        $perPage = 9;
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        if ($page < 1) $page = 1;
+        $offset = ($page - 1) * $perPage;
+
+        $sql = "SELECT b.*, c.name as category_name, c.slug as category_slug, sc.slug as sub_category_slug 
+                FROM blogs b 
+                LEFT JOIN blog_categories c ON b.blog_category_id = c.id
+                LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id";
+        
+        $countSql = "SELECT COUNT(*) as total FROM blogs b";
+        if ($subcategorySlug) {
+            $countSql .= " LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id";
+        } elseif ($categorySlug) {
+            $countSql .= " LEFT JOIN blog_categories c ON b.blog_category_id = c.id";
+        }
+
+        $params = [];
+        if ($subcategorySlug) {
+            $sql .= " WHERE sc.slug = ?";
+            $countSql .= " WHERE sc.slug = ?";
+            $params[] = $subcategorySlug;
+        } elseif ($categorySlug) {
             $sql .= " WHERE c.slug = ?";
+            $countSql .= " WHERE c.slug = ?";
             $params[] = $categorySlug;
         }
 
-        $sql .= " ORDER BY b.created_at DESC";
+        $totalRes = $blogModel->query($countSql, $params);
+        $totalBlogs = $totalRes[0]['total'] ?? 0;
+        $totalPages = ceil($totalBlogs / $perPage);
+
+        $sql .= " ORDER BY b.created_at DESC LIMIT $perPage OFFSET $offset";
 
         $blogs = $blogModel->query($sql, $params);
-        $categories = $categoryModel->findAll();
+
+        $mainCategories = $categoryModel->query("SELECT * FROM blog_categories WHERE parent_id IS NULL ORDER BY sort_order ASC");
+        
+        $subCategories = [];
+        $currentCategory = null;
+        if ($categorySlug) {
+            $res = $categoryModel->query("SELECT * FROM blog_categories WHERE slug = ? AND parent_id IS NULL LIMIT 1", [$categorySlug]);
+            if (!empty($res)) {
+                $currentCategory = $res[0];
+                $subCategories = $categoryModel->query("SELECT * FROM blog_categories WHERE parent_id = ? ORDER BY sort_order ASC", [$currentCategory['id']]);
+            }
+        }
 
         $meta = [];
-        return $this->view('blogs/index', ['meta' => $meta, 'blogs' => $blogs, 'categories' => $categories]);
+        return $this->view('blogs/index', [
+            'meta' => $meta, 
+            'blogs' => $blogs, 
+            'categories' => $mainCategories,
+            'subCategories' => $subCategories,
+            'currentCategorySlug' => $categorySlug,
+            'currentSubCategorySlug' => $subcategorySlug,
+            'currentPage' => $page,
+            'totalPages' => $totalPages
+        ]);
     }
+
+    public function blogRouter($path)
+    {
+        $segments = explode('/', trim($path, '/'));
+        $count = count($segments);
+
+        $blogModel = new \App\Models\Blog();
+        $categoryModel = new \App\Models\BlogCategory();
+
+        if ($count === 1) {
+            // Check if it's a category
+            $cat = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id IS NULL LIMIT 1", [$segments[0]]);
+            if (!empty($cat)) {
+                return $this->blogs($segments[0]);
+            }
+            // Otherwise check if it's a blog post
+            return $this->blogDetail($segments[0]);
+        }
+
+        if ($count === 2) {
+            // cat/subcat OR cat/blog
+            $cat = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id IS NULL LIMIT 1", [$segments[0]]);
+            if (!empty($cat)) {
+                // Check if segment 2 is a subcategory
+                $sub = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id = ? LIMIT 1", [$segments[1], $cat[0]['id']]);
+                if (!empty($sub)) {
+                    return $this->blogs($segments[0], $segments[1]);
+                }
+                // Check if segment 2 is a blog under this category
+                $blog = $blogModel->query("SELECT id FROM blogs WHERE slug = ? AND blog_category_id = ? LIMIT 1", [$segments[1], $cat[0]['id']]);
+                if (!empty($blog)) {
+                    return $this->blogDetail($segments[1]);
+                }
+            }
+        }
+
+        if ($count === 3) {
+            // cat/subcat/blog
+            $cat = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id IS NULL LIMIT 1", [$segments[0]]);
+            if (!empty($cat)) {
+                $sub = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id = ? LIMIT 1", [$segments[1], $cat[0]['id']]);
+                if (!empty($sub)) {
+                    $blog = $blogModel->query("SELECT id FROM blogs WHERE slug = ? AND blog_sub_category_id = ? LIMIT 1", [$segments[2], $sub[0]['id']]);
+                    if (!empty($blog)) {
+                        return $this->blogDetail($segments[2]);
+                    }
+                }
+            }
+        }
+
+        return $this->notfound();
+    }
+
     public function blogDetail($slug)
     {
         $blogModel = new \App\Models\Blog();
 
-        $result = $blogModel->query("SELECT * FROM blogs WHERE slug = ? LIMIT 1", [$slug]);
+        $result = $blogModel->query("SELECT b.*, c.slug as category_slug, sc.slug as sub_category_slug 
+                                     FROM blogs b 
+                                     LEFT JOIN blog_categories c ON b.blog_category_id = c.id
+                                     LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id
+                                     WHERE b.slug = ? LIMIT 1", [$slug]);
 
         if (empty($result)) {
             return $this->notfound();
         }
 
         $blog = $result[0];
-
-        // Fetch related blogs (exclude current, limit 4)
-        $related_blogs = $blogModel->query("SELECT * FROM blogs WHERE slug != ? ORDER BY created_at DESC LIMIT 6", [$slug]);
+        $related_blogs = $blogModel->query("SELECT b.*, c.slug as category_slug, sc.slug as sub_category_slug 
+                                            FROM blogs b 
+                                            LEFT JOIN blog_categories c ON b.blog_category_id = c.id
+                                            LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id
+                                            WHERE b.slug != ? 
+                                            ORDER BY b.created_at DESC LIMIT 6", [$slug]);
 
         $meta = [
             'classname' => 'new-blogs-single-page'
-
         ];
 
         return $this->view('blogs/blog-details', ['meta' => $meta, 'blog' => $blog, 'related_blogs' => $related_blogs]);

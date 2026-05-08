@@ -30,6 +30,13 @@ if (!function_exists('csrf_token_input')) {
     }
 }
 
+if (!function_exists('csrf_token_value')) {
+    function csrf_token_value()
+    {
+        return $_SESSION['csrf_token'] ?? '';
+    }
+}
+
 if (!function_exists('csrf_verify')) {
     function csrf_verify()
     {
@@ -154,7 +161,20 @@ if (!function_exists('current_url')) {
     function current_url()
     {
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
-        return $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        return $protocol . $_SERVER['HTTP_HOST'] . parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    }
+}
+
+if (!function_exists('pagination_url')) {
+    function pagination_url($page)
+    {
+        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+        $url = $protocol . $_SERVER['HTTP_HOST'] . parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        
+        $params = $_GET;
+        $params['page'] = $page;
+        
+        return $url . '?' . http_build_query($params);
     }
 }
 
