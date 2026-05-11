@@ -21,7 +21,7 @@
 						<a href="<?= base_url('blog') ?>" class="cat-btn <?= !$currentCategorySlug ? 'active' : '' ?>">All</a>
 						<?php if (!empty($categories)): ?>
 							<?php foreach ($categories as $category): ?>
-								<a href="<?= base_url('blog/' . $category['slug']) ?>" class="cat-btn <?= ($currentCategorySlug == $category['slug']) ? 'active' : '' ?>">
+								<a href="<?= base_url('blogs/' . $category['slug']) ?>" class="cat-btn <?= ($currentCategorySlug == $category['slug']) ? 'active' : '' ?>">
 									<?= htmlspecialchars($category['name']) ?>
 								</a>
 							<?php endforeach; ?>
@@ -32,9 +32,9 @@
 					<div class="mt-5 text-center">
 						<div class="d-flex flex-wrap justify-content-center gap-2">
 							<a href="<?= base_url('blog') ?>" class="cat-btn">Back to All</a>
-							<a href="<?= base_url('blog/' . $currentCategorySlug) ?>" class="cat-btn <?= !$currentSubCategorySlug ? 'active' : '' ?>"><?= htmlspecialchars($currentCategorySlug) ?></a>
+							<a href="<?= base_url('blogs/' . $currentCategorySlug) ?>" class="cat-btn <?= !$currentSubCategorySlug ? 'active' : '' ?>"><?= htmlspecialchars($currentCategorySlug) ?></a>
 							<?php foreach ($subCategories as $sub): ?>
-								<a href="<?= base_url('blog/' . $currentCategorySlug . '/' . $sub['slug']) ?>" class="cat-btn <?= ($currentSubCategorySlug == $sub['slug']) ? 'active' : '' ?>">
+								<a href="<?= base_url('blogs/' . $currentCategorySlug . '/' . $sub['slug']) ?>" class="cat-btn <?= ($currentSubCategorySlug == $sub['slug']) ? 'active' : '' ?>">
 									<?= htmlspecialchars($sub['name']) ?>
 								</a>
 							<?php endforeach; ?>
@@ -64,10 +64,7 @@
 								<div class="blog-date"><?= date('F d, Y', strtotime($blog['created_at'])) ?></div>
 								<h6>
 									<?php
-									$blogUrl = base_url('blog/');
-									if (!empty($blog['category_slug'])) $blogUrl .= $blog['category_slug'] . '/';
-									if (!empty($blog['sub_category_slug'])) $blogUrl .= $blog['sub_category_slug'] . '/';
-									$blogUrl .= $blog['slug'];
+									$blogUrl = base_url('blogs/' . $blog['slug']);
 									?>
 									<a href="<?= $blogUrl ?>" style="text-decoration:none;color:#000">
 										<?= htmlspecialchars($blog['title']) ?>

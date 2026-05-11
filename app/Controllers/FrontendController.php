@@ -119,6 +119,12 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function blogRedirect($path)
+    {
+        header("Location: /blogs/" . trim($path, '/'), true, 301);
+        exit;
+    }
+
     public function blogRouter($path)
     {
         $segments = explode('/', trim($path, '/'));

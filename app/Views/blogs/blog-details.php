@@ -684,10 +684,7 @@
                                     <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
                                     <h6>
                                         <?php 
-                                            $relUrl = base_url('blog/');
-                                            if(!empty($related_blog['category_slug'])) $relUrl .= $related_blog['category_slug'] . '/';
-                                            if(!empty($related_blog['sub_category_slug'])) $relUrl .= $related_blog['sub_category_slug'] . '/';
-                                            $relUrl .= $related_blog['slug'];
+                                            $relUrl = base_url('blogs/' . $related_blog['slug']);
                                         ?>
                                         <a href="<?= $relUrl ?>" style="text-decoration:none;color:#000">
                                             <?= htmlspecialchars($related_blog['title']) ?>
