@@ -61,15 +61,15 @@
       </div>
       <div class="col-6 col-md-2 col-lg-1">
         <h5 class="ftr-sub-title">Follow us</h5>
-        <div class="linkedin"><a href="https://ae.linkedin.com/company/brandstory-uae/" target="_blank"
+        <div class="linkedin"><a href="https://www.linkedin.com/company/brandstoryae/" target="_blank"
             alt="Linkedin">Linkedin</a></div>
-        <div class="youtube"><a href="https://www.youtube.com/channel/UC3j_F7hY4JT6B_drs3-68vA"
+        <div class="youtube"><a href="https://www.youtube.com/@brandstoryuae7649"
             target="_blank" alt="Youtube">Youtube</a></div>
-        <div class="fb"><a href="https://www.facebook.com/BrandStory-UAE-100351595015257/" target="_blank"
+        <div class="fb"><a href="https://www.facebook.com/brandstoryuae/" target="_blank"
             alt="Facebook">Facebook</a></div>
-        <div class="insta"><a href="https://www.instagram.com/brandstory_uae/" target="_blank"
+        <div class="insta"><a href="https://www.instagram.com/brandstorydubai/" target="_blank"
             alt="Instagram">Instagram</a></div>
-        <div class="twit"><a href="https://twitter.com/BrandStory_UAE" target="_blank" alt="Twitter">Twitter</a></div>
+        <div class="twit"><a href="https://x.com/BrandStory_UAE" target="_blank" alt="Twitter">Twitter</a></div>
       </div>
     </div>
   </div><!--Container end-->
