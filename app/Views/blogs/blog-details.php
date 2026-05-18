@@ -515,21 +515,22 @@
         }
 
         .premium-hero h1 {
-            font-size: 2rem;
+            font-size: 1.7rem;
             margin: 15px 0;
         }
 
         .hero-image-wrap {
             margin-top: 30px;
-            padding: 0 15px;
+            padding: 0 0px;
             /* Added side gap */
         }
 
         .hero-image-wrap img {
-            max-height: 400px;
             object-fit: cover;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             width: 100%;
+            height: auto;
+            border-radius: 0px;
         }
 
         .main-content-section {
@@ -683,8 +684,8 @@
                                 <div class="blog-box-txt">
                                     <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
                                     <h6>
-                                        <?php 
-                                            $relUrl = base_url('blogs/' . $related_blog['slug']);
+                                        <?php
+                                        $relUrl = base_url('blogs/' . $related_blog['slug']);
                                         ?>
                                         <a href="<?= $relUrl ?>" style="text-decoration:none;color:#000">
                                             <?= htmlspecialchars($related_blog['title']) ?>
