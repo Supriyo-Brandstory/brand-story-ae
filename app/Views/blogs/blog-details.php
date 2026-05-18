@@ -626,7 +626,7 @@
                             <h4>Madhavan A</h4>
                             <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
                             <div class="social-icons">
-                                <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
                                 <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
