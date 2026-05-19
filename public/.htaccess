@@ -13,7 +13,7 @@ RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 
 # 301 Redirects
-RewriteRule ^seo-services-company-in-dubai/?$ /seo-services-in-dubai/ [R=301,L]
+RewriteRule ^seo-services-in-dubai/?$ /seo-services-company-in-dubai/ [R=301,L]
 
 # Add trailing slash if missing (except for files and POST requests)
 RewriteCond %{REQUEST_METHOD} !POST

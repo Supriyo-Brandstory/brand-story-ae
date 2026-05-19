@@ -20,8 +20,8 @@ Route::get('/customlayout-1', 'FrontendController@customlayout_1', 'customlayout
 Route::get('/customlayout-2', 'FrontendController@customlayout_2', 'customlayout_2');
 
 
-Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
-Route::get('/seo-services-agency-dubai', 'FrontendController@seoServicesAgencyDubai', 'seoservicesagencydubai');
+// Route::get('/seo-services-in-dubai', 'FrontendController@seoServicesDubai', 'seoservicesdubai');
+Route::get('/seo-services-company-in-dubai', 'FrontendController@seoServicesCompanyDubai', 'seoservicescompanydubai');
 Route::get('/seo-pricing-dubai', 'FrontendController@seoPricingDubai', 'seopricingdubai');
 Route::get('/on-page-seo-dubai', 'FrontendController@onpageServicesDubai', 'onpageservicesdubai');
 Route::get('/technical-seo-dubai', 'FrontendController@technicalSeoDubai', 'technicalseodubai');

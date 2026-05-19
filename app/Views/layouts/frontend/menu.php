@@ -41,7 +41,7 @@
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/tiktok-marketing.png" alt="TikTok Marketing" width="30" height="30"><a href="<?= route('tiktokmarketingdubai') ?>">TikTok Marketing</a></li>
                             </ul>
                             <ul class="w-100">
-                                <li class="li-headeing"><a href="<?= route('seoservicesdubai') ?>">SEO Services</a></li>
+                                <li class="li-headeing"><a href="<?= route('seoservicescompanydubai') ?>">SEO Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai">SEO Audit Services</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Technical SEO" width="30" height="30"> <a href="/technical-seo-dubai">Technical SEO</a></li>
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai">On-Page SEO</a></li>
