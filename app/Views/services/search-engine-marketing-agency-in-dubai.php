@@ -243,7 +243,7 @@
                         <div class="organic-icon"><i class="ion-settings"></i></div>
                         <h3 class="organic-title">Organic Search (SEO)</h3>
                     </div>
-                    <p class="text-white opacity-70 mb-4 fs-18">Organic <a href="/seo-services-in-dubai" style="color: #ffffff; text-decoration: underline;">SEO services in Dubai</a> focuses on improving rankings through strategic content creation, technical optimisation, and authority building. Search engines prioritise user experience, rewarding websites that provide valuable, relevant, and high-quality information.</p>
+                    <p class="text-white opacity-70 mb-4 fs-18">Organic <a href="/seo-services-company-in-dubai" style="color: #ffffff; text-decoration: underline;">SEO services in Dubai</a> focuses on improving rankings through strategic content creation, technical optimisation, and authority building. Search engines prioritise user experience, rewarding websites that provide valuable, relevant, and high-quality information.</p>
                     <ul class="comp-list">
                         <li><i class="ion-checkmark-circled organic-title"></i> Long-term sustainable growth</li>
                         <li><i class="ion-checkmark-circled organic-title"></i> Builds brand authority and trust</li>

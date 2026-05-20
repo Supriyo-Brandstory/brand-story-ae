@@ -44,7 +44,7 @@
 			</div><!--col end-->
 			<div class="col-md-6"> <!--col start-->
 				<h2 class="mb-4">About Brandstory</h2>
-				<p>Brandstory is the leading practitioner of white hat <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO dubai</a>. We will ensure that your website is used not only to build your business presence online but also to accomplish your business goals like higher conversions and ROI. Our key objective is to help brands develop a positive image on digital platforms and meet their customers' expectations.</p>
+				<p>Brandstory is the leading practitioner of white hat <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO dubai</a>. We will ensure that your website is used not only to build your business presence online but also to accomplish your business goals like higher conversions and ROI. Our key objective is to help brands develop a positive image on digital platforms and meet their customers' expectations.</p>
 				<p>Being the top SEO company in Jordan, we deploy the latest SEO tactics and algorithms to boost your site's content. We ensure that your site's interface perfectly aligns with your target audience's expectations. Our digital marketing solutions will transform the way you reach, engage, and retain your customers. We have an unparalleled experience of over 10 years in delivering SEO and other digital marketing strategies like –</p>
 				<ul class="seo-pages-list">
 					<li>Website design</li>

@@ -138,7 +138,7 @@
           <img src="/assets/images/seo/seo/seo-agency/types-of-seo-mecca-img-3.jpg" class="img-fluid mb-3" alt="SEO Services in Mecca Saudi Arabia">
           <h3>eCommerce SEO</h3>
           <ul class="seo-pages-list">
-            <li>As the top <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO company dubai</a>, we strive to make every eCommerce business successful. To boost your organic traffic and conversion, we will find relevant keywords, develop extraordinary product descriptions, and maintain site security.</li>
+            <li>As the top <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO company dubai</a>, we strive to make every eCommerce business successful. To boost your organic traffic and conversion, we will find relevant keywords, develop extraordinary product descriptions, and maintain site security.</li>
           </ul>
         </div>
       </div><!--col end-->

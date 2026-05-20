@@ -146,7 +146,7 @@
                 <p>Property companies in Dubai benefit the most from organic search since it is the vital and cheapest lead generation method. The optimal SEO implementation properly enables you to climb above your rivals for the high-density keyword, thus, saturation your pipeline with the qualified buyer and tenant leads- <strong>dominate search rankings</strong>, drive consistent property inquiries, and establish your brand at the top of search results when it matters most. But without the right strategy, SEO becomes a slow, frustrating investment with little to show. Done wrong, it wastes time and budget with no meaningful results.</p><br>
                 <p>The real estate SEO team at BrandStory integrates in-depth knowledge of the platform with an exceptional grasp of Google's ranking algorithms and search behavior patterns in the UAE. Our promotional efforts <strong>in-house content production</strong> is designed not only for search engine placement but also for acquiring full traffic and converting it into leads. The technical design and other tasks are taken care of by our complete management which allows you to research and work on different projects and sales.
 </p><br>
-                <p class="mb-5">BrandStory has earned the trust of Dubai real estate companies as their SEO partner due to the following reasons <a href="/seo-services-in-dubai/" class="txt-blue"><b>SEO agency in Dubai</b></a> for growth:</p>
+                <p class="mb-5">BrandStory has earned the trust of Dubai real estate companies as their SEO partner due to the following reasons <a href="/seo-services-company-in-dubai/" class="txt-blue"><b>SEO agency in Dubai</b></a> for growth:</p>
             </div>
         </div>
 
@@ -437,7 +437,7 @@
                     <img src="/assets/images/service/em/em-service-icon-4.png" class="img-fluid" alt="seo company dubai">
                     <div class="em-service-box-content">
                         <h5>Top SEO Company in Dubai</h5>
-                        <a href="/seo-services-in-dubai/">Know More</a>
+                        <a href="/seo-services-company-in-dubai/">Know More</a>
                     </div>
                 </div>
             </div>

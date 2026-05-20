@@ -31,7 +31,7 @@ if ($seoData) {
     if ($current_url == '/' || $current_url == '/index.php') {
         $lcp_image = '/assets/images/banners/nn-banner-2.webp';
         $lcp_mobile = '/assets/images/banners/mm-nn-banner-2.webp';
-    } elseif (strpos($current_url, 'seo-services-in-dubai') !== false) {
+    } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
         $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
     } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
         $lcp_image = '/assets/images/social-media/social-media-1.gif';

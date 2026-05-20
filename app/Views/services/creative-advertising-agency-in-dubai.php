@@ -93,7 +93,7 @@
                     </li>
 
                     <li>
-                        <a href="/seo-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SEO</a>, 
+                        <a href="/seo-services-company-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SEO</a>, 
                         <a href="/pay-per-click-ppc-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SEM (PPC)</a>, 
                         <a href="/social-media-marketing-agency-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">SMM</a>, 
                         <a href="/ui-ux-design-services-in-dubai/" style="color:#000; font-weight:bold; text-decoration:underline;">UI/UX Design</a>, 

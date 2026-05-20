@@ -291,7 +291,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -314,7 +314,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -336,7 +336,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -358,7 +358,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -381,7 +381,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center mb-3">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -404,7 +404,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
