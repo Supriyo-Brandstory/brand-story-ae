@@ -631,8 +631,8 @@
      <div class="container">
          <!-- <h2 class="fs-65"><span class="outlined-text">Why Choose</span><span class="db"><span class="gradient-text">BrandStory</span></span></h2> -->
          <h2 class="text-white text-md-start text-center">
-             Why Choose <br>
-             Brandstory
+             Why Choose BrandStory<br>
+             for Social Media Marketing
          </h2>
          <p class="fs-20 text-white">In the competitive social media marketing landscape, standing out is essential, and that is where BrandStory comes in. As a leading social media marketing agency, we create campaigns that blend creativity with data-driven strategies. Here’s why BrandStory is the right partner for your social media success:</p>
          <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
