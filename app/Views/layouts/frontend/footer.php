@@ -1,4 +1,28 @@
 <section class="footer-top sp-50"><!--Footer top start-->
+  <section class="footer-partners"><!--Footer partners start-->
+    <div class="container"><!--Container Start-->
+      <div class="partners-grid-wrap">
+        <div class="partner-card">
+          <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank" rel="noopener">
+            <img src="/assets/images/hover-google.svg" class="img-fluid" alt="google-partners">
+          </a>
+        </div>
+        <div class="partner-card">
+          <img src="/assets/images/Ahrefs-Agency-Parnter-SEO.png" class="img-fluid" alt="Ahrefs-Agency-Parnter-SEO">
+        </div>
+        <div class="partner-card">
+          <img src="/assets/images/hover-meta.svg" class="img-fluid" alt="facebook-marketing-partners">
+        </div>
+        <div class="partner-card">
+          <img src="/assets/images/hover-shopify.svg" class="img-fluid" alt="hubspot-partners">
+        </div>
+        <div class="partner-card">
+          <img src="/assets/images/hover-tiktok.svg" class="img-fluid" alt="hubspot-partners">
+        </div>
+
+      </div>
+    </div><!--Container end-->
+  </section><!--Footer partners end-->
   <div class="container"><!--Container Start-->
     <div class="row gx-lg-4">
       <div class="col-md-12 col-lg-3">
@@ -9,10 +33,11 @@
           BrandStory is a premier digital transformation agency in Dubai. We excel in digital marketing, web design, and branding expertise to help UAE-based businesses connect, expand, and succeed.
 
         </p>
-        <div class="ftr-btn"><a href="/contact/" class="btn">Contact Sales</a></div>
+        <!-- <div class="ftr-btn"><a href="/contact/" class="btn">Contact Sales</a></div>
         <p><b>BrandStory UAE</b><br>
           Proudly celebrating 14 passionate years as a trusted digital marketing partner to 350+ clients.
-        </p>
+        </p> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2277486384696!2d55.332991899999996!3d25.262922999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d3d63755bdb%3A0xcb6dc8a6ec14f4a2!2sBrandStory%20%7C%20Marketing%20Agency%20in%20Dubai!5e0!3m2!1sen!2sin!4v1779289278967!5m2!1sen!2sin" width="100%" height="150" style="border:0; border-radius:10px; margin-top:20px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col-md-4 col-lg-3">
         <h5 class="ftr-sub-title">Useful Links</h5>
@@ -85,17 +110,7 @@
     </div>
   </div><!--Container end-->
 </section><!--Footer bottom end-->
-<section class="footer-partners"><!--Footer partners start-->
-  <div class="container"><!--Container Start-->
-    <div class="text-center d-flex align-items-center justify-content-center flex-wrap gap-4">
-      <a href="https://www.google.com/partners/agency?id=1975289574"><img src="/assets/images/footerlogo/img-1.webp" class="img-fluid" alt="google-partners" width="150"></a>
-      <img src="/assets/images/footerlogo/img-2.webp" class="img-fluid" alt="bing-partners" width="150">
-      <img src="/assets/images/footerlogo/img-3.webp" class="img-fluid" alt="facebook-marketing-partners" width="130">
-      <img src="/assets/images/footerlogo/img-4.webp" class="img-fluid" alt="hubspot-partners" width="130">
 
-    </div>
-  </div><!--Container end-->
-</section><!--Footer partners end-->
 <a href="javascript:" id="return-to-top"><span class="upIcon"></span></a>
 </div><!-- Page Content End-->
 <div class="uniq-contact-lead-popup-overlay" style="display: none;">

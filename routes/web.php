@@ -6,6 +6,7 @@ use App\Core\Route;
 Route::get('/thankyou', 'FrontendController@thankYou', 'thankyou');
 Route::get('/old-site/*', 'FrontendController@notfound', 'old-site');
 Route::get('/', 'FrontendController@index', 'home');
+Route::get('/home-2', 'FrontendController@index2', 'home2');
 Route::get('/about', 'FrontendController@about', 'about');
 Route::get('/contact', 'FrontendController@contat', 'contact');
 Route::post('/contact/submit', 'FrontendController@sendContactInformation', 'contact.submit');

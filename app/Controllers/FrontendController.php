@@ -25,6 +25,13 @@ class FrontendController extends Controller
         ];
         return $this->view('home', ['meta' => $meta]);
     }
+    public function index2()
+    {
+        $meta = [
+            "classname" => 'dm-agency-dubai'
+        ];
+        return $this->view('home-2', ['meta' => $meta]);
+    }
     public function about()
     {
         $meta = [];
@@ -67,7 +74,7 @@ class FrontendController extends Controller
                 FROM blogs b 
                 LEFT JOIN blog_categories c ON b.blog_category_id = c.id
                 LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id";
-        
+
         $countSql = "SELECT COUNT(*) as total FROM blogs b";
         if ($subcategorySlug) {
             $countSql .= " LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id";
@@ -95,7 +102,7 @@ class FrontendController extends Controller
         $blogs = $blogModel->query($sql, $params);
 
         $mainCategories = $categoryModel->query("SELECT * FROM blog_categories WHERE parent_id IS NULL ORDER BY sort_order ASC");
-        
+
         $subCategories = [];
         $currentCategory = null;
         if ($categorySlug) {
@@ -108,8 +115,8 @@ class FrontendController extends Controller
 
         $meta = [];
         return $this->view('blogs/index', [
-            'meta' => $meta, 
-            'blogs' => $blogs, 
+            'meta' => $meta,
+            'blogs' => $blogs,
             'categories' => $mainCategories,
             'subCategories' => $subCategories,
             'currentCategorySlug' => $categorySlug,
