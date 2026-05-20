@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6">
                 <img class="w-100 d-md-none d-block mb-3" src="/assets/images/service/ppc/ppc-dubai-banner-mbl.jpg">
-                <h1 class="mb-3 text-white">Top-Rated PPC Agency in Dubai | Driving Results with Smart Campaigns
+                <h1 class="mb-3 text-white">Top-Rated PPC Agency in Dubai, UAE
                 </h1>
                 <p class="text-white fs-20 mb-4">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising agency. </p>
 
@@ -723,7 +723,7 @@
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-9.png" class="img-fluid" alt="ppc management services dubai">
                 <h4>PPC ads can build SEO</h4>
-                <p>Our ppc management services Dubai can help build <a href="/seo-services-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
+                <p>Our ppc management services Dubai can help build <a href="/seo-services-company-in-dubai/">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
             </div>
             <div class="col-md-6 text-md-start text-center">
                 <img class="tm-w-100" src="/assets/images/service/ppc/adwords-img-10.png" class="img-fluid" alt="ppc marketing dubai">

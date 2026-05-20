@@ -6,7 +6,7 @@
                 <div class="service-banner-txt">
                     <h1>Email Marketing Company in Dubai</h1>
                     <p>Brandstory is one of the best email marketing agency in Dubai UAE. We provide cost-effective email marketing campaign solution for enterprises, SMEs and Startups in GCC/UAE markets with high ROI. We increase your business leads, sales and conversion in the target region with the target audience.</p>
-                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Increase your business and sales with us!</a></div>
+                    <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Drive Sales with Email Marketing!</a></div>
                 </div>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
@@ -19,45 +19,8 @@
     </div><!--Container End-->
 </section>
 
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
 
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Newsletter Campaigns</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Promotional Emails</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Drip Campaigns</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Transactional Emails</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Lead Nurturing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Automated Campaigns</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Segmentation & Personalization</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">A/B Testing</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-            <a href="/email-marketing-company-in-dubai" class="seo-marquee-item">Campaign Strategy</a>
-            <span class="seo-marquee-sep text-white">يلا</span>
-
-        </div>
-    </div>
-</section>
-
-<section id="knowMore" class="web-design-process sp-50">
+<!--<section id="knowMore" class="web-design-process sp-50">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -66,7 +29,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <section class="web-design-abt sp-50">
     <div class="container"><!--Container Start-->
         <div class="row align-items-center"><!--Row Start-->
@@ -157,7 +120,7 @@
                 <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
                     <div class="emcd--box">
                         <div class="emcd--box-icon"><img src="/assets/images/service/em/emc-icon-10.png" class="img-fluid" alt="email marketing consultants in dubai"></div>
-                        <div class="emcd--box-txt">With low investments gain top results</div>
+                        <div class="emcd--box-txt">Low investments gain top results</div>
                     </div>
                 </div><!--col end-->
                 <div class="col-md-4 col-xl-3 d-flex align-items-stretch emcd-col"> <!--col start-->
@@ -381,7 +344,7 @@
                     <img src="/assets/images/service/em/em-service-icon-4.png" class="img-fluid" alt="email marketing consultant dubai">
                     <div class="em-service-box-content">
                         <h5>Top SEO Company in Dubai</h5>
-                        <a href="/seo-services-in-dubai/">Know More</a>
+                        <a href="/seo-services-company-in-dubai/">Know More</a>
                     </div>
                 </div>
             </div>
@@ -458,6 +421,7 @@
                     <p>Email Marketing is the backbone of digital marketing.</p>
                     <p>With all the social media platforms rapidly evolving in order to become more personalized and cater to specific demographics in a particular way.</p>
                     <p>email marketing already has an edge. It’s personalized and customer-focused approach is what puts it way ahead of other digital marketing tools.</p>
+                    <p>It’s a direct way to reach out to your customers. Email marketing is also a cost-effective marketing solution that helps businesses generate quality leads, improve customer retention, and achieve higher ROI.</p>
                 </div>
                 <a href="/contact/"><button class="btn em-btn mt-3">Contact us</button></a>
             </div>
@@ -638,7 +602,7 @@
 </section>
 <section class="site-faq sp-50">
     <div class="container"><!--Container Start-->
-        <h2 class="text-center">FAQ’s</h2>
+        <h2 class="text-center">Frequently Asked Questions</h2>
         <div class="accordion spt-50" id="accordionDM"><!--Accordion Start-->
             <div class="accordion-item"><!--Accordion item start-->
                 <h2 class="accordion-header" id="fh1">

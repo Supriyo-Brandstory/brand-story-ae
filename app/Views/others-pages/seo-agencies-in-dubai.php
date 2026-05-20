@@ -94,7 +94,7 @@
                     <ul class="seo-pages-list">
                         <li>As a top digital marketing agency, we offers the best seo services in Dubai for all class business like small scale business, large scale businesses and medium scale business organizations. Our SEO service providers in Dubai weed out the duplicate content and re-index your site on Google. </li>
                         <li>Our Panda and Penguin recovery solutions include preventing search engines from decreasing traffic to your site and increasing conversion rate. Our Penalty removal tools help to improve your website rankings considerably. Our experts at SEO Dubai perform backlink analysis, prevent over-optimization, and fix overstuffing of keywords to get back your website to the first form.</li>
-                        <li>Before we list out effective SEO strategies for your business, our seo services in Dubai comprehensively understand your business. Being one of the <a href="https://www.brandstory.ae/seo-services-in-dubai/">best SEO companies in Dubai</a> UAE, we dive deep into your products, business size, customer demographics, market space and current online presence.</li>
+                        <li>Before we list out effective SEO strategies for your business, our seo services in Dubai comprehensively understand your business. Being one of the <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">best SEO companies in Dubai</a> UAE, we dive deep into your products, business size, customer demographics, market space and current online presence.</li>
                     </ul>
                 </div>
             </div><!--col end-->

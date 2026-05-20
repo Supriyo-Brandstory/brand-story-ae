@@ -844,7 +844,7 @@ include __DIR__ . '/../component/client_reviews.php';
 <section class="sp-50 bg-white">
     <div class="container map-section">
         <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
-        <p class="text-center mb-3">As a leading <a href="/seo-services-in-dubai" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
+        <p class="text-center mb-3">As a leading <a href="/seo-services-company-in-dubai" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
 
         <div class="map-img text-center">
             <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" alt="slider-map">
@@ -993,7 +993,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <div class="dubai-seo-article-intro">
                     <p class="fs-20">Dubai is one of the world's most competitive digital markets. With over <b>3.5 million active internet users</b> in the UAE and Google commanding more than 95% of all search traffic, the race for Page 1 visibility is more intense than ever. Yet most businesses in Dubai are invisibly bleeding revenue not because their product is weak, but because their website simply cannot be found by people who are actively searching for it.</p><br>
                     <p class="fs-20">If your website is not ranking on the first page of Google for your core keywords, you are effectively invisible to your target audience. Studies consistently show that the first five organic results on Google's Page 1 account for approximately 67% of all clicks. The second page? Less than 1% of searchers ever get there. In a city where consumers, investors, and corporate buyers research online before they buy, this invisibility has a direct and measurable cost.</p><br>
-                    <p class="fs-20">This is not a content problem or a website design problem in isolation. It is an SEO problem and it requires a specialist solution built specifically for how this city searches. As a specialist <a href="/seo-services-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a>, BrandStory exists to solve exactly this: turning invisible Dubai websites into consistent, compounding sources of qualified traffic, leads, and revenue.</p>
+                    <p class="fs-20">This is not a content problem or a website design problem in isolation. It is an SEO problem and it requires a specialist solution built specifically for how this city searches. As a specialist <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a>, BrandStory exists to solve exactly this: turning invisible Dubai websites into consistent, compounding sources of qualified traffic, leads, and revenue.</p>
                 </div>
             </div>
             <div class="col-lg-5 text-center">
@@ -1035,7 +1035,7 @@ include __DIR__ . '/../component/client_reviews.php';
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
                             <div>
                                 <strong>Rapidly Shifting Consumer Search Behaviour</strong>
-                                <p>Dubai consumers are mobile-first and research-intensive. Voice search, Google AI Overviews, and zero-click results are reshaping how queries are answered. As a forward-thinking <a href="/seo-services-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO Dubai</a> agency, BrandStory ensures your content is structured to appear in AI-assisted search results with mobile-first technical audits.</p>
+                                <p>Dubai consumers are mobile-first and research-intensive. Voice search, Google AI Overviews, and zero-click results are reshaping how queries are answered. As a forward-thinking <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO Dubai</a> agency, BrandStory ensures your content is structured to appear in AI-assisted search results with mobile-first technical audits.</p>
                             </div>
                         </li>
                     </ul>
@@ -1044,7 +1044,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <!-- Chapter 2 -->
                 <div class="dubai-seo-chapter">
                     <h2 class="dubai-seo-chapter-title">What Full-Service SEO in Dubai Actually Looks Like</h2>
-                    <p>Real, results-driven <a href="/seo-services-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO services in Dubai</a> work across every dimension of your digital presence simultaneously technical, on-page, off-page, local, and content not as isolated tasks but as a single unified system.</p>
+                    <p>Real, results-driven <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO services in Dubai</a> work across every dimension of your digital presence simultaneously technical, on-page, off-page, local, and content not as isolated tasks but as a single unified system.</p>
                     <ul class="dubai-seo-list">
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
@@ -1173,7 +1173,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <!-- Chapter 5 -->
                 <div class="dubai-seo-chapter">
                     <h2 class="dubai-seo-chapter-title">What BrandStory Does Differently as a Dubai SEO Agency</h2>
-                    <p>BrandStory is a results-driven <a href="/seo-services-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO agency in Dubai</a> with a 14-year track record of delivering measurable organic growth for businesses across the UAE and wider MENA region. Our approach is built around a simple principle: SEO only matters if it generates real business outcomes.</p>
+                    <p>BrandStory is a results-driven <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO agency in Dubai</a> with a 14-year track record of delivering measurable organic growth for businesses across the UAE and wider MENA region. Our approach is built around a simple principle: SEO only matters if it generates real business outcomes.</p>
                     <ul class="dubai-seo-list">
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
@@ -1209,7 +1209,7 @@ include __DIR__ . '/../component/client_reviews.php';
                     <p>Every month your website is not ranking for your target keywords, a competitor is. Every month they outrank you, they are acquiring the customers, the authority, and the backlinks that make them progressively harder to displace. SEO has a compounding dynamic that works powerfully in your favour when you invest early and equally powerfully against you when you delay.</p><br>
                     <p>The businesses that dominate Dubai's organic search results in 2027 and 2028 are investing in their SEO foundations right now, in 2026. The competitive gap between businesses that have 18–24 months of consistent SEO investment behind them and businesses that are just starting out is enormous and it widens every month.</p>
                     <div class="dubai-seo-cta-strip">
-                        <p class="mb-0">If your website is not generating the organic traffic and leads your business deserves, it is time to work with an <a href="/seo-services-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a> that connects every action to your bottom line.</p>
+                        <p class="mb-0">If your website is not generating the organic traffic and leads your business deserves, it is time to work with an <a href="/" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a> that connects every action to your bottom line.</p>
                         <a href="/contact/" class="btn dubai-seo-cta-btn mt-3">Get a Free SEO Audit</a>
                     </div>
                 </div>

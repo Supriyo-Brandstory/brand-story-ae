@@ -227,7 +227,7 @@
                         <div class="process-txt-row">
                             <div class="process-tabs-txt">
                                 <p>The first step of an effective B2B digital marketing strategy begins with knowing your audience. Established buyer personas influence every strategic decision taken by a marketer.</p>
-                                <p>This includes <a href="https://www.brandstory.ae/seo-services-in-dubai/">search engine optimization services</a>, <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/">social media marketing</a>, creative ads, and other networks for advertising and customer engagement. B2B audiences include several stakeholders ranging from other businesses, decision makers and influencers. </p>
+                                <p>This includes <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">search engine optimization services</a>, <a href="https://www.brandstory.ae/social-media-marketing-agency-in-dubai/">social media marketing</a>, creative ads, and other networks for advertising and customer engagement. B2B audiences include several stakeholders ranging from other businesses, decision makers and influencers. </p>
                                 <p>A marketing strategy that engages all buyer personas will aid in moving the prospects across the sales funnel and make them customers.</p>
                             </div>
                             <div class="process-tabs-img">

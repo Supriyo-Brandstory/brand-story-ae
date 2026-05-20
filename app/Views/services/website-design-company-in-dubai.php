@@ -1,70 +1,27 @@
-<section>
-    <!-- style="background: url('/assets/images/industries/b2b-corporate-marketing-services-banner.webp') no-repeat center center; background-size: cover;" -->
-    <!-- <div class="new_about_us-banner-container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h1 class="mb-4 text-white">Best Website Design Company in Dubai, UAE</h1>
-                    <p class="fs-18 text-white">
-                        Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
+<section class="dm-agency-banner-section dm-bg">
+    <div class="swiper dmagency-banner-sld">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="bannersld-main two" style="background-image: url('/assets/images/new-website-design-company-in-dubai/website-development-dubai.webp')">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-12">
 
-                    </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                                <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg" alt="Website Development Company Dubai">
+                                <h1 class="mb-4 text-white">Web Design & Development
+                                    <span class="db">Company in Dubai, UAE</span>
+                                </h1>
+                                <p class="text-white mb-md-5 mb-4 fs-20">Your website is the first impression of your brand. As a leading website development company in Dubai, BrandStory ensures it is powerful, professional, and business-focused. With 12+ years of expertise, our team builds strong digital foundations for your growth.
+                                </p>
+                                <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get Started Now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> -->
-    <!-- <div style="max-width: 1400px; margin: 0 auto"> -->
-    <div class='py-2 py-md-5' style="max-width: 1000px; margin: 0 auto">
-        <h1 class="mb-0 mb-md-4 text-white s-center">Web Design Company in Dubai</h1>
-        <!-- <p class="fs-18 text-white text-center">
-                    Your website’s UI/UX shapes the first impression of your brand. BrandStory designs intuitive, user-focused interfaces and modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
-                </p> -->
+
+        </div>
     </div>
-    <!-- </div> -->
-    <div class="swiper web-templates-swiper">
-        <div class="swiper-wrapper">
-            <?php
-            $templates = [
-                'sand-sollar.webp',
-                'travelex.webp',
-                'crystal-plaza.webp',
-                'nims.webp',
-                'wipro.webp',
-                'nanoprecise.webp'
-            ];
-
-            foreach ($templates as $template):
-                $displayName = str_replace('.webp', '', $template);
-                $displayName = ucwords(str_replace('-', ' ', $displayName));
-            ?>
-                <div class="web-template-item swiper-slide">
-                    <div class="web-template-img-wrap">
-                        <img
-                            src="/assets/images/case-study/<?php echo $template; ?>"
-                            alt="<?php echo $displayName; ?>"
-                            loading="lazy">
-                    </div>
-                    <!-- <div class="web-template-meta">
-                        <span class="web-template-name"><?php echo $displayName; ?></span>
-                        <a href="#" class="web-template-link">Preview →</a>
-                    </div> -->
-                </div>
-            <?php endforeach; ?>
-            <!-- </div> -->
-            <!-- Optional Navigation -->
-            <!-- <div class="swiper-button-next template-next"></div>
-            <div class="swiper-button-prev template-prev"></div> -->
-        </div>
-        <div class='py-5' style="max-width: 1000px; margin: 0 auto">
-            <h2 class="mb-4 text-white s-center">Website Design That Accelerates Growth</h2>
-            <p class="fs-18 text-white s-center">
-                Your website shapes the first impression of your brand. BrandStory designs intuitive, user-focused modern websites that enhance usability, engagement, and real business growth. We are a leading website design agency in Dubai, UAE helping brands scale fast.
-            </p>
-        </div>
-        <div class="text-center d-flex justify-content-center align-items-center">
-            <a href="/contact" class="Performance-Driven-btn mb-5" bis_skin_checked="1">➤ Get a Free Quote</a>
-        </div>
-
-        <!-- </div> -->
 </section>
 
 <section class="seo-marquee">
@@ -584,7 +541,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -607,7 +564,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -629,7 +586,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -651,7 +608,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -674,7 +631,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center mb-3">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |
@@ -697,7 +654,7 @@
                         <h3 class="text-center mb-3">Services Offered</h3>
                         <p class="fs-20 text-center">
                             <a href="/">Digital marketing</a> |
-                            <a href="/seo-services-in-dubai/">SEO</a> |
+                            <a href="/seo-services-company-in-dubai/">SEO</a> |
                             <a href="/pay-per-click-ppc-services-in-dubai/">PPC</a> |
                             <a href="/website-design-company-in-dubai/">Web Design</a> |
                             <a href="/website-development-company-in-dubai/">Web Development</a> |

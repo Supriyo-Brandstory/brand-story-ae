@@ -170,11 +170,11 @@
                     <div class="service-content active" id="seo">
                         <h3>SEO Services for Organic Growth</h3>
                         <p>
-                            We created a strong SEO foundation for Crystal Plaza by resolving indexing issues, fixing crawl errors, and improving overall website. Our <a href="https://www.brandstory.ae/seo-services-in-dubai" style="color: #000;"><b><u>SEO servies in Dubai</u></b></a> focused on optimizing key hotel pages, enhancing metadata, and implementing structured data to improve search engine visibility. 
+                            We created a strong SEO foundation for Crystal Plaza by resolving indexing issues, fixing crawl errors, and improving overall website. Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai" style="color: #000;"><b><u>SEO services in Dubai</u></b></a> focused on optimizing key hotel pages, enhancing metadata, and implementing structured data to improve search engine visibility. 
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/seo-services-in-dubai/" class="btn btn-outline-dark" target="_blank">SEO Services</a>
+                            <a href="/seo-services-company-in-dubai/" class="btn btn-outline-dark" target="_blank">SEO Services</a>
                         </div>
                     </div>
 
@@ -196,7 +196,7 @@
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/seo-services-in-dubai/" class="btn btn-outline-dark" target="_blank">SEO Services</a>
+                            <a href="/seo-services-company-in-dubai/" class="btn btn-outline-dark" target="_blank">SEO Services</a>
                         </div>
                     </div>
 

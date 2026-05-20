@@ -196,7 +196,7 @@
 						<div class="wcb-img"><img src="/assets/images/seo/seo/seo-wcb1.svg" class="img-fluid" alt="SEO agencies in Manama"></div>
 						<h6>SEO Consulting</h6>
 					</div>
-					<p>Our SEO experts have over 15 years of industry experience. As the leading <a href="https://www.brandstory.ae/seo-services-in-dubai/">seo dubai</a> company, we create goal-oriented strategies and use all the latest trends to meet search engine (Google, Bing, etc) guidelines. Moreover, we conduct audience analysis and assessments to offer Personalized brand experiences to your customers. This will drive more customers and improve brand loyalty.</p>
+					<p>Our SEO experts have over 15 years of industry experience. As the leading <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">seo dubai</a> company, we create goal-oriented strategies and use all the latest trends to meet search engine (Google, Bing, etc) guidelines. Moreover, we conduct audience analysis and assessments to offer Personalized brand experiences to your customers. This will drive more customers and improve brand loyalty.</p>
 				</div>
 			</div><!--col end-->
 			<div class="col-md-4 wcb-border"> <!--col start-->

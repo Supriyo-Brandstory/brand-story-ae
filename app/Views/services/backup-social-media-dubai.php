@@ -499,7 +499,7 @@
 
          <div class="row gy-3 pt-lg-5 pt-3">
              <div class="col-lg-7 col-12 text-white order-md-1 order-2">
-                 <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="/seo-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
+                 <p class="mb-3 fs-18">Social media is not only about posting, it's about purpose, timing, relevance, and strategy. At BrandStory UAE, we are a leading agency for social media marketing, email marketing, <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC services</a>, and <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a> with 12+ years of extensive expertise.
                      We create your brand’s story that sparks connections and drives real engagement and ROI. </p>
                  <p class="mb-3 fs-20">By working with a professional social media agency, you gain access to:</p>
                  <ul style="list-style: none;" class="fs-18">

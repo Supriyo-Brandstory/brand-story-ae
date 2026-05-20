@@ -191,11 +191,11 @@
                     <div class="service-content active" id="seo">
                         <h3>SEO Services in Dubai for Organic Growth</h3>
                         <p>
-                            We implemented a strong SEO foundation by resolving indexing issues, optimizing crawlability, and improving overall site architecture. Our <a href="https://www.brandstory.ae/seo-services-in-dubai" style="color: #000;"><b><u>SEO experts in Dubai</u></b></a> focused on technical SEO elements such as XML sitemaps, canonical tags, and structured data to enhance search engine understanding. With keyword-optimized content, improved metadata, and strategic internal linking, we significantly increased search visibility and organic traffic.
+                            We implemented a strong SEO foundation by resolving indexing issues, optimizing crawlability, and improving overall site architecture. Our <a href="https://www.brandstory.ae/seo-services-company-in-dubai" style="color: #000;"><b><u>SEO experts in Dubai</u></b></a> focused on technical SEO elements such as XML sitemaps, canonical tags, and structured data to enhance search engine understanding. With keyword-optimized content, improved metadata, and strategic internal linking, we significantly increased search visibility and organic traffic.
                         </p>
                         <div>
                             <a href="/contact/" class="btn btn-dark">Get In Touch</a>
-                            <a href="/seo-services-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
+                            <a href="/seo-services-company-in-dubai/" class="btn btn-outline-dark" target="_blank">Learn More</a>
                         </div>
                     </div>
 

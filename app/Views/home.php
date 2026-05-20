@@ -5,8 +5,8 @@
                 <div class="bannersld-main two">
                     <div class="container">
                         <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/banners/mm-nn-banner-2.webp" alt="Digital Marketing Agency Dubai">
-                        <h1 class="mb-4 text-white">Leading Digital Marketing Agency
-                            <span class="db"> in Dubai for Ambitious Brands</span>
+                        <h1 class="mb-4 text-white">Top-rated Digital Marketing 
+                            <span class="db">Consulting Agency in Dubai</span>
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner in Dubai for <b>900+ businesses</b>, <br>helping SMEs and enterprises drive consistent digital growth with precision.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Talk to Experts</a>
@@ -31,8 +31,8 @@
                 <div class="bannersld-main three">
                     <div class="container">
                         <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/banners/mm-nn-banner-1.webp" alt="Digital Marketing Services Dubai">
-                        <h1 class="mb-4 text-white">Empowering Ventures to Dominate
-                            <span class="db tab-db"> with Digital Marketing Services</span>
+                        <h1 class="mb-4 text-white">Empowering Ventures to 
+                            <span class="db tab-db">Dominate with Digital Marketing</span>
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">Established in 2012, BrandStory delivers industry-leading digital marketing<br>
                             <span class="tab-db">services in Dubai, UAE, backed by <b>100+ experts</b> driving real digital growth.</span>
@@ -62,7 +62,7 @@
 
 <section class="performance-driven sp-50 dm-bg">
     <div class="container">
-        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Best Digital Marketing Company in Dubai
+        <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Digital Marketing Company in Dubai,
             <span class="db">Where Performance Meets Results</span>
         </h2>
         <div class="row">
@@ -99,7 +99,7 @@
 
 <section class="new-client-section">
     <div class="container-fluid">
-        <h2 class="text-center mb-5 text-white">Trusted by Visionary Brands <br>Across The UAE</h2>
+        <h2 class="text-center mb-5 text-white">Trusted by Visionary Brands</h2>
         <?php include __DIR__ . '/component/client_section.php' ?>
     </div>
 </section>
@@ -116,10 +116,10 @@
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
                             <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
-                            <h3 class="mb-3"><a href="/seo-services-in-dubai/" style="text-decoration: none; color: inherit;">Search Engine <span class="db">Optimization (SEO)</span></a></h3>
+                            <h3 class="mb-3"><a href="/seo-services-company-in-dubai/" style="text-decoration: none; color: inherit;">Search Engine <span class="db">Optimization (SEO)</span></a></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization plays a significant role in improving website visibility and driving organic traffic. Our SEO experts in Dubai follow proven strategies to maximize results and secure top page ranking in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-services-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/seo-services-company-in-dubai/"><b>Know More</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -422,7 +422,7 @@
                 <p class="fs-20">Investment in digital marketing is not a cost– it’s a multiplier.</p>
                 <p class="fs-20">
                     Smart digital marketing doesn’t just drive traffic, it helps your business climb the growth ladder.
-                    Whether you're exploring <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC advertising</a>, <a href="/email-marketing-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">Email marketing</a>, <a href="/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">social media marketing</a>, or <a href="/seo-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a>, every digital marketing initiative can deliver exceptional results when executed strategically.
+                    Whether you're exploring <a href="/pay-per-click-ppc-services-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">PPC advertising</a>, <a href="/email-marketing-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">Email marketing</a>, <a href="/social-media-marketing-agency-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">social media marketing</a>, or <a href="/seo-services-company-in-dubai/" style="color:white; text-decoration:none; border-bottom:1px solid #b180ff">SEO services in Dubai</a>, every digital marketing initiative can deliver exceptional results when executed strategically.
                 </p>
                 <p class="fs-20"><strong>With the right campaigns, your brand can:</strong></p>
                 <ul class="fs-20">
@@ -887,83 +887,132 @@
 </section>
 
 
-<section class="container new_social_section sp-50">
-    <h2 class="text-center text-white mb-5">Your Brand Growth. Our Mission. <br>Endless Possibilities.</h2>
+<section class="brand-sec spt-50 spb-50 dm-bg">
+    <div class="container"><!--Container Start-->
+        <h2 class="text-center text-white">Market Your Brand Without Limits</h2>
+        <div class="brand--slider sp-50 dm-bg"><!--Slider start-->
+            <div class="slick marquee" dir="rtl">
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #6AD7C3;"> Stories & Reels</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #FF800B;">Moment Marketing</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #F181D8;">PPC Marketing</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #DE8787;">Retargeting Ads</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #54D37F;">SEO Marketing</div>
+                </div><!--slide end-->
 
-    <div class="new_social_section-grid">
-        <!-- Google Ads -->
-        <a href="/pay-per-click-ppc-services-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/google-ads.png') ?>" alt="Google Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/google-ads-hover.png') ?>" alt="Google Ads Hover" class="hover-img" />
             </div>
-            <h3>Google Ads</h3>
-        </a>
 
-        <!-- Facebook Ads -->
-        <a href="/facebook-marketing-agency-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/facebook.png') ?>" alt="Facebook Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/facebook-hover.png') ?>" alt="Facebook Ads Hover" class="hover-img" />
-            </div>
-            <h3>Facebook Ads</h3>
-        </a>
+            <div class="slick marquee spt-50 dm-bg">
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #538BF7;">Influencer Marketing</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #F2DDC5;">Website Design</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #EA5454;">Events & PR coverage</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #DBDE2C;">Webinars & Podcasts</div>
+                </div><!--slide end-->
+                <div class="slick-slide"><!--slide start-->
+                    <div class="brand-box" style="background: #23B5E3;">Whitepapers & Blogs</div>
+                </div><!--slide end-->
 
-        <!-- TikTok Ads -->
-        <a href="/tiktok-marketing-agency-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/tiktok.png') ?>" alt="TikTok Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/tiktok-hover.png') ?>" alt="TikTok Ads Hover" class="hover-img" />
             </div>
-            <h3>TikTok Ads</h3>
-        </a>
+        </div><!--Slider end-->
 
-        <!-- Instagram Ads -->
-        <a href="/instagram-advertising-agency-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/instagram.png') ?>" alt="Instagram Ads" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/instagram-hover.png') ?>" alt="Instagram Ads Hover" class="hover-img" />
-            </div>
-            <h3>Instagram Ads</h3>
-        </a>
-
-        <!-- Website Development -->
-        <a href="/website-design-company-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/webdev.png') ?>" alt="Website Development" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/webdev-hover.png') ?>" alt="Website Development Hover" class="hover-img" />
-            </div>
-            <h3>Website Development</h3>
-        </a>
-
-        <!-- SEO -->
-        <a href="/seo-services-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/seo.png') ?>" alt="SEO" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/seo-hover.png') ?>" alt="SEO Hover" class="hover-img" />
-            </div>
-            <h3>Local SEO</h3>
-        </a>
-
-        <!-- Content Creation -->
-        <a href="/content-marketing-agency-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/content.png') ?>" alt="Content Creation" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/content-hover.png') ?>" alt="Content Creation Hover" class="hover-img" />
-            </div>
-            <h3>Content Creation</h3>
-        </a>
-
-        <!-- Email Marketing -->
-        <a href="/email-marketing-company-in-dubai/" class="new_social_section-item">
-            <div class="new_social_section-icon">
-                <img src="<?= base_url('assets/images/social-logo/email.png') ?>" alt="Email Marketing" class="normal-img" />
-                <img src="<?= base_url('assets/images/social-logo/email-hover.png') ?>" alt="Email Marketing Hover" class="hover-img" />
-            </div>
-            <h3>Email Marketing</h3>
-        </a>
-    </div>
+    </div><!--Container End-->
 </section>
+
+<div class="container bs-social-section py-5">
+    <h2 class="text-start text-white py-4">We Specialize in All Digital <br>Marketing Verticals</h2>
+    <div class="row">
+        <!-- Left Side Icons -->
+        <div class="col-md-6 d-flex flex-wrap justify-content-center align-items-center gap-3 mb-3 mb-md-0">
+            <div class="bs-social-icon"><img src="/assets/images/icons/google.svg" alt="google"/> Google</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/being.svg" alt="bing"/> Bing</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/playstore.svg" alt="app-store"/> Play Store</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/facebook.svg" alt="facebook"/> Facebook</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/instagram.svg" alt="instagram"/> Instagram</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/youtube.svg" alt="youtube"/> YouTube</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/twitter.svg" alt="Twitter"/> Twitter</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/linkdin.svg" alt="linkdin"/> LinkedIn</div>
+        </div>
+
+        <!-- Right Side Image Mockup -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="bs-social-mockup">
+                <img src="/assets/images/social-side.webp" alt="Social Media Creative Designed by BrandStory" class="img-fluid rounded-4 shadow">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bs-social-section {
+        background-color: #0e0e10;
+        color: #fff;
+    }
+
+    .bs-social-icon {
+        width: 290px;
+        height: 140px;
+        background-color: #1b1b1d;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        text-align: center;
+        flex: 1 1 48%;
+    }
+
+    .bs-social-icon img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        padding: 15px;
+    }
+
+    .bs-social-icon i {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .bs-social-icon:hover {
+        background-color: #29292b;
+        transform: translateY(-2px);
+    }
+
+    .bs-social-mockup img {
+        max-width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    @media screen and (max-width: 768px) {
+        .bs-social-icon {
+            flex: 1 1 46%;
+        }
+
+    }
+</style>
+
+
+
 
 
 

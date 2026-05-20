@@ -81,7 +81,7 @@
                             </div>
                             <h3>Search Engine Optimization (SEO)</h3>
                             <p>Search Engine Optimization is the key to giving your website a good search ranking and traffic. Our SEO experts in Dubai help you get listed on Google's top pages so your site gets relevant traffic from highly targeted keywords. </p>
-                            <div class="ss-box-link"><a href="https://www.brandstory.ae/seo-services-in-dubai/">Read more</a></div>
+                            <div class="ss-box-link"><a href="https://www.brandstory.ae/seo-services-company-in-dubai/">Read more</a></div>
                         </div><!--box end-->
                     </div><!--slide end-->
                     <div class="swiper-slide"><!--slide start-->
@@ -293,7 +293,7 @@
                 <div class="pow-box">
                     <div class="mb-3"><img src="/assets/images/service/dm/pow-1.svg" loading="lazy" class="img-fluid" alt="best digital marketing company in dubai"></div>
                     <h4 class="mb-3">Customised Strategies</h4>
-                    <p>We custom design an <a href="https://www.brandstory.ae/seo-services-in-dubai/">SEO</a> and marketing plan for every client based on their industry, competition, and business goals. We make data-based decisions and use tools like Google Analytics to ensure the success of your SEO plan.</p>
+                    <p>We custom design an <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">SEO</a> and marketing plan for every client based on their industry, competition, and business goals. We make data-based decisions and use tools like Google Analytics to ensure the success of your SEO plan.</p>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->

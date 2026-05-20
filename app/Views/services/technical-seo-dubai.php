@@ -135,7 +135,7 @@
                     technical SEO with a trusted Technical SEO Services Company in Dubai like BrandStory, your website can attract, retain, and convert visitors effectively, 
                     turning your online presence into a powerful business asset.
                 </p>
-                <a href="/seo-services-in-dubai" class="Performance-Driven-btn mt-3">➤ Explore More</a>
+                <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3">➤ Explore More</a>
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -145,7 +145,7 @@
         <div class="row mt-4 mt-lg-5 border-top ">
             <!-- Left Column -->
             <div class="col-md-7 mt-5">
-                <p class="fs-20 text-white mb-3">Our Technical <a href="/seo-services-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> lay a strong foundation for your website’s performance and search engine visibility. 
+                <p class="fs-20 text-white mb-3">Our Technical <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> lay a strong foundation for your website’s performance and search engine visibility. 
                     We focus on optimizing the backend and infrastructure so your site runs smoothly, loads fast, and is fully crawlable by search engines.</p>
 
                 <p class="fs-20 text-white">

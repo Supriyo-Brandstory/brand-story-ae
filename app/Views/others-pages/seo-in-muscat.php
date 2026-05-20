@@ -130,7 +130,7 @@
 		<div class="row col-reverse gx-lg-5"><!--Row Start-->
 			<div class="col-md-6"> <!--col start-->
 				<h2 class="mb-4">Exploit web presence with our white hat SEO services</h2>
-				<p>Brandstory is the best <a href="https://www.brandstory.ae/seo-services-in-dubai/">dubai seo agency</a> offering white hat SEO services in Muscat. Our SEO experts will help your business get top rankings in SERPs</p>
+				<p>Brandstory is the best <a href="https://www.brandstory.ae/seo-services-company-in-dubai/">dubai seo agency</a> offering white hat SEO services in Muscat. Our SEO experts will help your business get top rankings in SERPs</p>
 				<p>Online visibility has become incredibly important in today's digital world. The internet has led companies to question traditional marketing strategies. Competitive bloom has forced organizations to fiercely fight over recognition.</p>
 				<p>Our SEO services will redefine your conventional marketing strategies and induce organic growth. As the top SEO company in Muscat, we understand the varying needs of businesses and deliver SEO plans. Moreover, we don't practice black hat SEO services and protect your website from Google penalties.</p>
 				<p>Brandstory helps businesses to develop long-lasting positive relationships with customers and search engines. This will act as a catalyst to improve your brand visibility and growth. Whatever your SEO needs, we have got you covered.</p>

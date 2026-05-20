@@ -543,19 +543,6 @@
  </section>
 
 
-
-
- <div id="smms-popup-overlay" class="smms-popup-overlay d-none">
-     <div class="smms-popup-box">
-         <span class="smms-popup-close">&times;</span>
-         <h4 id="smms-popup-title">Popup Title</h4>
-         <p id="smms-popup-desc">Popup description goes here...</p>
-     </div>
- </div>
-
-
-
-
  <section class="sp-80 pt-0 bg-black">
      <div class="container">
          <!-- <h2 class="fs-65 text-start"><span class="outlined-text">Benefits of Hiring a Social Media</span><span class="db"><span class="gradient-text">Marketing Agency </span></span></h2> -->
@@ -590,12 +577,62 @@
          </div>
      </div>
  </section>
+
+<section class="Performance-Driven-wrapper" id="videoSection">
+     <div class="container text-center cus_our_portfolio">
+         <h2 class="fs-65 text-start mb-5-old" style="margin-bottom: unset;">
+             <!-- <span class="outlined-text">Social Media Marketing </span><span class="db"><span class="outlined-text">in Dubai - </span> <span class="gradient-text">Our Portfolio</span></span></h2> -->
+             <h2 class="text-white text-md-start text-center">
+                 Social Media Marketing <br>
+                 in Dubai - Our Portfolio
+             </h2>
+     </div>
+ </section>
+
+ <section class="neww-protfollio" style=" padding: 0px ;">
+
+     <div class="">
+         <!-- Row 1 (left to right) -->
+         <div class="scroll-wrapper">
+             <div class="scroll-row left-to-right">
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
+
+                 <!-- duplicate for infinite loop -->
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
+
+             </div>
+         </div>
+
+         <div class="text-center">
+             <a href="/case-study/" class="smm-uae-btn">
+                 Browse Our Case Studies
+             </a>
+         </div>
+     </div>
+
+ </section>
+
+
  <section class="sp-80 bg-black">
      <div class="container">
          <!-- <h2 class="fs-65"><span class="outlined-text">Why Choose</span><span class="db"><span class="gradient-text">BrandStory</span></span></h2> -->
          <h2 class="text-white text-md-start text-center">
-             Why Choose <br>
-             Brandstory
+             Why Choose BrandStory<br>
+             for Social Media Marketing
          </h2>
          <p class="fs-20 text-white">In the competitive social media marketing landscape, standing out is essential, and that is where BrandStory comes in. As a leading social media marketing agency, we create campaigns that blend creativity with data-driven strategies. Here’s why BrandStory is the right partner for your social media success:</p>
          <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
@@ -645,81 +682,7 @@
      </div>
  </section>
 
- <section class="Performance-Driven-wrapper" id="videoSection">
-     <div class="container text-center cus_our_portfolio">
-         <h2 class="fs-65 text-start mb-5-old" style="margin-bottom: unset;">
-             <!-- <span class="outlined-text">Social Media Marketing </span><span class="db"><span class="outlined-text">in Dubai - </span> <span class="gradient-text">Our Portfolio</span></span></h2> -->
-             <h2 class="text-white text-md-start text-center">
-                 Social Media Marketing <br>
-                 in Dubai - Our Portfolio
-             </h2>
-     </div>
- </section>
-
-
-
- <section class="neww-protfollio" style=" padding: 0px ;">
-
-
-
-     <div class="">
-         <!-- Row 1 (left to right) -->
-         <div class="scroll-wrapper">
-             <div class="scroll-row left-to-right">
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
-
-                 <!-- duplicate for infinite loop -->
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
-
-             </div>
-         </div>
-
-         <!-- Row 2 (right to left) -->
-         <!-- <div class="scroll-wrapper">
-             <div class="scroll-row right-to-left">
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-7.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-8.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-9.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-11.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-13.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-16.webp" alt="Social Media Creative Design for Our Client"></div>
-
-
-
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-7.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-8.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-9.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-11.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-13.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-16.webp" alt="Social Media Creative Design for Our Client"></div>
-
-
-             </div>
-         </div> -->
-         <div class="text-center">
-             <a href="/case-study/" class="smm-uae-btn">
-                 Browse Our Case Studies
-             </a>
-         </div>
-     </div>
-
- </section>
+ 
 
  <section class="sp-80 bg-black">
      <div class="container">
@@ -797,8 +760,7 @@
          <!-- <h2 class="fs-65"><span class="outlined-text">Grow Your Business <span class="db">with Expert-led</span></span><span class="db"><span class="gradient-text">Social Media Marketing</span></span></h2> -->
          <h2 class="text-white text-md-start text-center">
              Grow Your Business <br>
-             with Expert-led<br>
-             Social Media Marketing
+             with Social Media Marketing
          </h2>
          <div class="row g-lg-4 g-3 pt-lg-4 pt-3">
              <div class="col-lg-6 col-12">
@@ -1205,29 +1167,6 @@
      }
  </style>
 
-
-
- <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
-     <div class="modal-dialog modal-dialog-centered modal-lg">
-         <div class="modal-content bg-dark position-relative">
-             <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-
-             <div class="ratio ratio-16x9">
-                 <iframe id="youtubeVideo" src="https://www.youtube.com/embed/pvX9UtkJOk0?enablejsapi=1"
-                     title="YouTube video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-             </div>
-         </div>
-     </div>
- </div>
-
-
- <script>
-  
-     document.getElementById('videoModal').addEventListener('hidden.bs.modal', function() {
-         let iframe = document.getElementById('youtubeVideo');
-         iframe.src = iframe.src;
-     });
- </script> -->
 
  <?php
     // Default Services List - can be overwritten by passing $stickyServices to the view

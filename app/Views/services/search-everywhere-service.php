@@ -37,7 +37,7 @@
     <div class="container mt-3 text-center">
         <h2 class="fw-bold mb-4">Search Is Everywhere: Is Your Brand <br>Visible Where It Matters?</h2>
         <p class="fs-20 max-width-800 mx-auto">
-            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most. Know more about our <a href="/seo-services-in-dubai" class="text-decoration-underline text-white"><b>SEO Services in Dubai</b></a>.
+            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most. Know more about our <a href="/seo-services-company-in-dubai" class="text-decoration-underline text-white"><b>SEO Services in Dubai</b></a>.
         </p>
     </div>
 </section>
