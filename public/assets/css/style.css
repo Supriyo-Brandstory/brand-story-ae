@@ -8620,23 +8620,23 @@ sup {
 }
 
 .service-box-image-2 {
-    background-image: url("/assets/images/social-media/service-box-image-2.webp");
+    background-image: url("/assets/images/social-media/meta-ads-results.webp");
 }
 
 .service-box-image-3 {
-    background-image: url("/assets/images/social-media/service-box-image-3.webp");
+    background-image: url("/assets/images/social-media/social-content.webp");
 }
 
 .service-box-image-4 {
-    background-image: url("/assets/images/social-media/service-box-image-4.webp");
+    background-image: url("/assets/images/social-media/targeted-ads.webp");
 }
 
 .service-box-image-5 {
-    background-image: url("/assets/images/social-media/service-box-image-5.webp");
+    background-image: url("/assets/images/social-media/influencer-colab.webp");
 }
 
 .service-box-image-6 {
-    background-image: url("/assets/images/social-media/service-box-image-6.webp");
+    background-image: url("/assets/images/social-media/event-promotion.webp");
 }
 
 @media (max-width: 786px) {
