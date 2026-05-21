@@ -134,10 +134,10 @@
 <!-- Vision & Team Showreel Video Section -->
 <section class="vision-showreel-section">
     <div class="container text-center showreel-header">
-        <div class="showreel-badge">
+        <!-- <div class="showreel-badge">
             A Team of Experts That Clicks With Your Vision
         </div>
-        <div class="showreel-divider"></div>
+        <div class="showreel-divider"></div> -->
         <h2 class="showreel-title">
             We Don't Just Deliver Projects We Build <span class="highlight-text">Partnerships</span>
         </h2>
@@ -158,32 +158,32 @@
     <!-- Showreel Stats Section -->
     <div class="showreel-stats-container container">
         <div class="text-center mb-5">
-            <a href="javascript:void(0)" class="showreel-quote-btn uniq-contact-lead-btn">Request A Quote</a>
+            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
         </div>
         <div class="stats-grid-wrap">
-            <div class="stat-card">
+            <!-- <div class="stat-card">
                 <div class="stat-number">12 K+</div>
                 <div class="stat-label">Global Clients</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">Campaigns Executed</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">4.9 / 5</div>
-                <div class="stat-label">Google Reviews</div>
+                <div class="stat-number">900+</div>
+                <div class="stat-label">Satisfied Clients</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">10</div>
-                <div class="stat-label">Years Experience</div>
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Years of Expertise</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number">98%</div>
-                <div class="stat-label">Client Retention Rate</div>
-            </div>
-            <div class="stat-card">
+            <!-- <div class="stat-card">
                 <div class="stat-number">3.5 M+</div>
                 <div class="stat-label">Leads Generated</div>
-            </div>
+            </div> -->
             <div class="stat-card">
-                <div class="stat-number">249+</div>
-                <div class="stat-label">Experts Onboard</div>
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Expert Professionals</div>
             </div>
         </div>
     </div>
