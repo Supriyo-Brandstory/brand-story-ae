@@ -38,6 +38,26 @@ class FrontendController extends Controller
         return $this->view('about', ['meta' => $meta]);
     }
 
+    public function authorMadhavan()
+    {
+        $blogModel = new \App\Models\Blog();
+        $latest_blogs = $blogModel->query("SELECT b.*, c.slug as category_slug, sc.slug as sub_category_slug 
+                                           FROM blogs b 
+                                           LEFT JOIN blog_categories c ON b.blog_category_id = c.id
+                                           LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id
+                                           ORDER BY b.created_at DESC LIMIT 3");
+
+        $meta = [
+            'title' => 'Madhavan A - Digital Marketing & SEO Expert | BrandStory',
+            'description' => 'Meet Madhavan A, a digital marketing expert with 8+ years of experience specializing in search engine optimization, content performance, and driving organic growth.',
+            'classname' => 'author-profile-page'
+        ];
+        return $this->view('author/madhavan-a', [
+            'meta' => $meta,
+            'latest_blogs' => $latest_blogs
+        ]);
+    }
+
     public function clearCache()
     {
         // Execute the command via CLI

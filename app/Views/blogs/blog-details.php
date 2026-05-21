@@ -564,7 +564,7 @@
                     <h4 class="text-uppercase mb-3" style="letter-spacing: 2px; font-weight: 600; opacity: 0.8;">Blog</h4>
                     <h1><?= htmlspecialchars($blog['title']) ?></h1>
                     <div class="blog-meta">
-                        by <strong>Madhavan A</strong> &bull; Published: <?= date('F d, Y', strtotime($blog['created_at'])) ?>
+                        by <strong><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:underline; font-weight:700;">Madhavan A</a></strong> &bull; Published: <?= date('F d, Y', strtotime($blog['created_at'])) ?>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -622,12 +622,15 @@
                     <div class="right-sidebar" id="right-sidebar">
                         <!-- Static Part -->
                         <div class="sidebar-card author-card">
-                            <img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img">
-                            <h4>Madhavan A</h4>
+                            <a href="<?= base_url('author/madhavan-a') ?>"><img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+                            <h4><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--premium-purple)'" onmouseout="this.style.color='inherit'">Madhavan A</a></h4>
                             <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
-                            <div class="social-icons">
-                                <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
-                                <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3">
+                                <div class="social-icons">
+                                    <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
+                                    <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                                <a href="<?= base_url('author/madhavan-a') ?>" style="color:var(--premium-purple); font-weight:700; text-decoration:none; font-size:0.85rem; text-transform:uppercase; display:flex; align-items:center; gap:5px; transition: gap 0.2s ease;" onmouseover="this.style.gap='8px'" onmouseout="this.style.gap='5px'">View Profile <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
 
