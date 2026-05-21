@@ -5,23 +5,13 @@
                 <div class="bannersld-main two">
                     <div class="container">
                         <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/banners/mm-nn-banner-2.webp" alt="Digital Marketing Agency Dubai">
-                        <h1 class="mb-4 text-white">Top-rated Digital Marketing 
+                        <h1 class="mb-4 text-white">Top-rated Digital Marketing
                             <span class="db">Consulting Agency in Dubai</span>
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">We are a trusted digital marketing partner in Dubai for <b>900+ businesses</b>, <br>helping SMEs and enterprises drive consistent digital growth with precision.</p>
                         <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Talk to Experts</a>
 
-                        <div class="google-partner-banner-badge d-flex align-items-center">
-                            <div class="gp-box position-relative">
-                                <a href="https://www.google.com/partners/agency?id=1975289574">
-                                    <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
-                                </a>
 
-                            </div>
-                            <div class="gp-content ps-3">
-                                <p class="mb-0">Google Partner <br> Agency in Dubai</p>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -31,7 +21,7 @@
                 <div class="bannersld-main three">
                     <div class="container">
                         <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/banners/mm-nn-banner-1.webp" alt="Digital Marketing Services Dubai">
-                        <h1 class="mb-4 text-white">Empowering Ventures to 
+                        <h1 class="mb-4 text-white">Empowering Ventures to
                             <span class="db tab-db">Dominate with Digital Marketing</span>
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">Established in 2012, BrandStory delivers industry-leading digital marketing<br>
@@ -39,17 +29,7 @@
                         </p>
                         <a href="/case-study" class="Performance-Driven-btn mb-5 ">➤ Explore Portfolio</a>
 
-                        <div class="google-partner-banner-badge d-flex align-items-center">
-                            <div class="gp-box position-relative">
-                                <a href="https://www.google.com/partners/agency?id=1975289574">
-                                    <img src="<?= base_url('assets/images/google-icon.svg') ?>" alt="Google Partner">
-                                </a>
 
-                            </div>
-                            <div class="gp-content ps-3">
-                                <p class="mb-0">Google Partner <br> Agency in Dubai</p>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -69,16 +49,16 @@
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
                     <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="Digital Marketing Agency in Dubai">
-                    <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
+                    <!-- <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
                         <i class="ion-play"></i>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
                     <img class="img-fluid radius-20" src="<?= base_url('/assets/images/home/mobile-digital.webp') ?>" alt="Digital Marketing Agency in Dubai">
-                    <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
+                    <!-- <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
                         <i class="ion-play"></i>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -96,6 +76,61 @@
     </div>
 </section>
 
+<section class="vision-showreel-section">
+    <div class="container text-center showreel-header">
+        <!-- <div class="showreel-badge">
+            A Team of Experts That Clicks With Your Vision
+        </div>
+        <div class="showreel-divider"></div> -->
+        <h2 class="showreel-title">
+            Your Growth Journey Deserves More Than
+            <span class="highlight-text">Just Marketing</span>
+        </h2>
+        <p class="showreel-subtitle">
+            At BrandStory, we blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital world. </p>
+    </div>
+
+    <div class="showreel-video-wrap">
+        <iframe src="https://www.youtube.com/embed/pvX9UtkJOk0?autoplay=1&mute=1&loop=1&playlist=pvX9UtkJOk0&controls=0&rel=0&showinfo=0&iv_load_policy=3"
+            title="BrandStory Portfolio Showreel"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <!-- Showreel Stats Section -->
+    <div class="showreel-stats-container container">
+        <div class="text-center mb-5">
+            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
+        </div>
+        <div class="stats-grid-wrap">
+            <!-- <div class="stat-card">
+                <div class="stat-number">12 K+</div>
+                <div class="stat-label">Global Clients</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">Campaigns Executed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">900+</div>
+                <div class="stat-label">Satisfied Clients</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Years of Expertise</div>
+            </div>
+            <!-- <div class="stat-card">
+                <div class="stat-number">3.5 M+</div>
+                <div class="stat-label">Leads Generated</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Expert Professionals</div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="new-client-section">
     <div class="container-fluid">
@@ -855,36 +890,7 @@
 <?php include __DIR__ . '/component/expert_team.php' ?>
 
 
-<section class="dm-counter-sec sp-50 dm-bg">
-    <div class="container  px-5">
-        <div class="row gx-md-0">
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center">
-                    <span class="dm-count-num">1000+</span>
-                    <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">900+</span>
-                    <h3 class="text-white fw-300 mb-0 px-lg-0">Satisfied Clients</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
-                    <span class="dm-count-num">12+</span>
-                    <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-6">
-                <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-                    <span class="dm-count-num">100+</span>
-                    <h3 class="text-white fw-300 mb-0">Expert Professionals</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 
 <section class="brand-sec spt-50 spb-50 dm-bg">
@@ -938,14 +944,14 @@
     <div class="row">
         <!-- Left Side Icons -->
         <div class="col-md-6 d-flex flex-wrap justify-content-center align-items-center gap-3 mb-3 mb-md-0">
-            <div class="bs-social-icon"><img src="/assets/images/icons/google.svg" alt="google"/> Google</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/being.svg" alt="bing"/> Bing</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/playstore.svg" alt="app-store"/> Play Store</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/facebook.svg" alt="facebook"/> Facebook</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/instagram.svg" alt="instagram"/> Instagram</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/youtube.svg" alt="youtube"/> YouTube</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/twitter.svg" alt="Twitter"/> Twitter</div>
-            <div class="bs-social-icon"><img src="/assets/images/icons/linkdin.svg" alt="linkdin"/> LinkedIn</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/google.svg" alt="google" /> Google</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/being.svg" alt="bing" /> Bing</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/playstore.svg" alt="app-store" /> Play Store</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/facebook.svg" alt="facebook" /> Facebook</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/instagram.svg" alt="instagram" /> Instagram</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/youtube.svg" alt="youtube" /> YouTube</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/twitter.svg" alt="Twitter" /> Twitter</div>
+            <div class="bs-social-icon"><img src="/assets/images/icons/linkdin.svg" alt="linkdin" /> LinkedIn</div>
         </div>
 
         <!-- Right Side Image Mockup -->
