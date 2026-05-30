@@ -91,7 +91,7 @@
     </div>
 
     <div class="showreel-video-wrap">
-        <iframe src="https://www.youtube.com/embed/pvX9UtkJOk0?autoplay=1&mute=1&loop=1&playlist=pvX9UtkJOk0&controls=0&rel=0&showinfo=0&iv_load_policy=3"
+        <iframe src="https://www.youtube.com/embed/pvX9UtkJOk0?autoplay=1&mute=1&loop=1&playlist=pvX9UtkJOk0&controls=1&rel=0&showinfo=0&iv_load_policy=3"
             title="BrandStory Portfolio Showreel"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
