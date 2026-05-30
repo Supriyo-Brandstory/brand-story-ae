@@ -8,7 +8,7 @@
 		<div class="sptab-links">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item" role="presentation">
-					<button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">Competitor Research and Data Analysis</button>
+					<button class="nav-link active" id="spt1" data-bs-toggle="tab" data-bs-target="#spt-1" type="button" role="tab" aria-selected="true">Research and Analysis</button>
 				</li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="spt2" data-bs-toggle="tab" data-bs-target="#spt-2" type="button" role="tab" aria-selected="false">Planning and Strategize</button>
@@ -17,10 +17,10 @@
 					<button class="nav-link" id="spt3" data-bs-toggle="tab" data-bs-target="#spt-3" type="button" role="tab" aria-selected="false">Trial and Testing</button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">Campaign Launch and Implementation</button>
+					<button class="nav-link" id="spt4" data-bs-toggle="tab" data-bs-target="#spt-4" type="button" role="tab" aria-selected="false">Campaign Implementation</button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Reportage and Maintenance</button>
+					<button class="nav-link" id="spt5" data-bs-toggle="tab" data-bs-target="#spt-5" type="button" role="tab" aria-selected="false">Reporting & Optimisation</button>
 				</li>
 			</ul>
 		</div>
@@ -78,7 +78,7 @@
 				<div class="process-txt-row">
 					<div class="process-tabs-txt">
 						<p>We constantly measure our campaigns to ensure they reach the right people at the right time.</p>
-						<p>Our <a href="https://www.brandstory.ae/">digital marketing agency in Dubai</a> analyzes data, identifies trends, creates reports that keep you updated on performance and how your digital marketing efforts are helping the business.</p>
+						<p>Our <a href="https://www.brandstory.ae/" style="color: white; text-decoration: underline;">digital marketing agency in Dubai</a> analyzes data, identifies trends, creates reports that keep you updated on performance and how your digital marketing efforts are helping the business.</p>
 						<p>In addition, our company offers detailed reports for our clients to track their success on every channel.</p>
 					</div>
 					<div class="process-tabs-img">
