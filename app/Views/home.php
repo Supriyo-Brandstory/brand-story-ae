@@ -1791,7 +1791,7 @@ include __DIR__ . '/component/client_reviews.php';
     });
 </script>
 
-<script>
+<!-- <script>
     document.addEventListener('DOMContentLoaded', function() {
         const videoModal = document.getElementById('homeVideoModal');
         const videoIframe = document.getElementById('homeVideoIframe');
@@ -1833,4 +1833,4 @@ include __DIR__ . '/component/client_reviews.php';
             <iframe id="homeVideoIframe" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</div>
+</div> -->
