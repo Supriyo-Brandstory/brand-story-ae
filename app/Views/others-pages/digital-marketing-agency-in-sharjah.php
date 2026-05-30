@@ -6,16 +6,14 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="seo-banner-txt">
                     <h1>Digital Marketing <span class="db"> Agency in Sharjah</span></h1>
-                    <p class="text-white mb-3 fs-20">Looking for a top-tier Digital Marketing Agency in Sharjah that can 
-                        elevate your brand’s online presence? We specialize in delivering tailored digital marketing solutions 
-                        designed to help businesses grow, engage customers, and boost revenue. From comprehensive SEO strategies 
-                        to targeted marketing, our expert team combines creativity with data-driven tactics to achieve 
-                        measurable results.
+                    <p class="text-white mb-3 fs-20">Sharjah is the hub of fast-growing businesses where leading brands focus on smart 
+                        marketing, visibility, and strong customer interactions. Businesses today need more than online presence, they
+                         need strategies that will create the real impacts.
                     </p>
                     <p class="text-white mb-3 fs-20">
-                        Whether you are a startup or an established brand, our customized strategies ensure your business connects with
-                         the right audience across the digital landscape. Partner with BrandStory, we prioritize your business growth, 
-                         transparency, and long-term success.
+                        BrandStory stands among the trusted digital marketing agencies in Sharjah, crafting digital marketing solutions
+                         that help businesses achieve steady growth in a competitive digital market. From result-driven SEO services
+                          to social media marketing, our team blends market insights and performance-focused execution. 
                     </p>
                 </div>
             </div><!--col end-->
@@ -41,9 +39,9 @@
         <div class="row col-reverse gx-lg-5 align-items-center"><!--Row Start-->
             <div class="col-md-6"> <!--col start-->
                 <h2 class="mb-4">Best Digital Marketing Agency in Sharjah</h2>
-                <p>Sharjah is the third largest emirates that make up the United Arab Emirates (UAE), where you can do the limitless things and you can write your own story.Online means of technology have changed the lives and the way to work, live, shop, and to play.</p>
-                <p>With the development of technology in the world, every person's view has diverted from traditional offline means of marketing to online marketing.</p>
-                <p>The brand story is one of the best and pre-eminent digital marketing company in Sharjah, helps you to build a web presence of your business and to build customers trust on your services.</p>
+                <p>Sharjah is the third largest emirates that make up the United Arab Emirates (UAE), where you can do the limitless things and you can write your own story.Online means of technology have changed the lives and the way to work, live, shop, and to play.</p><br>
+                <p>With the development of technology in the world, every person's view has diverted from traditional offline means of marketing to online marketing.</p><br>
+                <p>The BrandStory is one of the best and pre-eminent digital marketing company in Sharjah, helps you to build a web presence of your business and to build customers trust on your services. By combining creative storytelling, search-driven visibility, and data-backed campaigns, BrandStory helps brands stay relevant, discoverable, and ahead in the fast-moving digital landscape.</p>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
                 <img src="/assets/images/seo/dm/agency-sharjah.png" class="img-fluid mb-3" alt="Best Digital Marketing Agency in Sharjah">
@@ -55,7 +53,7 @@
                 <h2 class="mb-4">Are you searching for the best digital marketing agencies in Sharjah?</h2>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
-                <p>Then your search ends here at Brand story. We provide end-to-end digital marketing solutions, by blending our expert's experience & resources and plan our strategy, to assist our clientele to help in brand building, to run their business smoothly. This is the reason that makes the Brand story, different from other digital marketing companies in Sharjah.</p>
+                <p>Then your search ends here at BrandStory. We provide end-to-end digital marketing solutions, by blending our expert's experience & resources and plan our strategy, to assist our clientele to help in brand building, to run their business smoothly. This is the reason that makes the BrandStory, different from other digital marketing companies in Sharjah.</p>
                 <p>No one likes the second place, and no one remembers who is in second place. With this run, digital marketing came into existence to bring your business a brand and to leave an impression on the customer's mind by securing your position on the first page of Search Engine Result Page (SERP).</p>
             </div><!--col end-->
         </div><!--Row End-->
@@ -291,104 +289,105 @@
     </div>
 </section>
 
-<section class="sp-50 dm-blog-section">
+<section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
-        <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-black mb-4 text-md-start text-center ">Proven Digital Marketing Success <br>Our Abu Dhabi Case Studies
-            </h2>
-        </div>
-
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Sand Dollar - Ecommerce</h3>
-                            <p class="fs-20 text-black">A leading E-commerce business in UAE aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-2.webp">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3 class="text-black">TravelX</h3>
-                            <p class="fs-20 text-black">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Crystal Plaza</h3>
-                            <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai, Dubai Marina, and Abu Dhabi approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-4.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">NIMS School</h3>
-                            <p class="fs-20 text-black">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-5.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">Wipro Infrastructure Engineering</h3>
-                            <p class="fs-20 text-black">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-6.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">NanoPrecise Sci Corp</h3>
-                            <p class="fs-20 text-black">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
                             </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-7.webp">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3 class="text-black">Sherpa Communications</h3>
-                            <p class="fs-20 text-black">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
             </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
         </div>
     </div>
 </section>
 
-<section class="dm-faq-section spb-50">
+<section class="dm-faq-section sp-50">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4">Your Questions Answred</h2>
         <div class="dm-faq-main max-1000">
