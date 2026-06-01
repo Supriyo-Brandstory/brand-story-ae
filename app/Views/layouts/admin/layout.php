@@ -261,6 +261,17 @@
                 image_title: true,
                 automatic_uploads: true,
                 file_picker_types: 'image',
+                file_picker_callback: function (callback, value, meta) {
+                    if (meta.filetype === 'image') {
+                        if (typeof openMediaPicker === 'function') {
+                            openMediaPicker(function(url) {
+                                callback(url, { alt: 'Selected Image' });
+                            });
+                        } else {
+                            alert('Media picker is not available.');
+                        }
+                    }
+                },
                 images_upload_handler: function (blobInfo, progress) {
                     return new Promise(function (resolve, reject) {
                         var xhr = new XMLHttpRequest();
