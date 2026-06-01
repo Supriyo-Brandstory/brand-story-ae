@@ -649,105 +649,195 @@
     </div>
 </section>
 
-
 <section class="edirect-work-sec sp-50">
     <style>
         .edirect-work-sec {
             background-color: #0A0B0F;
             padding: 100px 0;
             color: #E0E0E0;
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Subtle glowing background orbs */
+        .edirect-work-sec::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(133, 91, 255, 0.08) 0%, rgba(133, 91, 255, 0) 70%);
+            pointer-events: none;
+        }
+
+        .edirect-work-sec::after {
+            content: '';
+            position: absolute;
+            bottom: 10%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(133, 91, 255, 0.05) 0%, rgba(133, 91, 255, 0) 70%);
+            pointer-events: none;
         }
 
         .edirect-work-sec .container {
-            margin: 0 auto;
+            position: relative;
+            z-index: 2;
         }
 
-        /* Staggered Column Setup */
+        /* Heading Block Styles */
         .edirect-work-sec .work-heading-block {
             margin-bottom: 60px;
-            max-width: 500px;
+            max-width: 550px;
             text-align: left;
         }
 
         .edirect-work-sec .work-tagline {
-            font-size: 24px;
-            font-weight: 300;
-            color: rgba(255, 255, 255, 0.45);
+            font-size: 14px;
+            font-weight: 600;
+            color: #855bff;
             text-transform: uppercase;
             letter-spacing: 3px;
-            line-height: 1.4;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .edirect-work-sec .work-tagline::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #855bff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #855bff;
         }
 
         .edirect-work-sec .work-title {
             color: #FFFFFF;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #D8D8DF 60%, rgba(255,255,255,0.7) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .edirect-work-sec .work-desc {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #A0A5B5;
             margin-bottom: 30px;
         }
 
-        
-
         .edirect-work-sec .work-view-more {
-            text-align: right;
-            margin-top: 15px;
-            padding-right: 10px;
+            text-align: left;
+            margin-top: 10px;
         }
 
         .edirect-work-sec .work-view-more a {
+            display: inline-flex;
+            align-items: center;
             color: #FFFFFF;
-            font-size: 20px;
+            font-size: 16px;
+            font-weight: 600;
             text-decoration: none;
-            transition: color 0.3s ease;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 12px 28px;
+            border-radius: 50px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
         .edirect-work-sec .work-view-more a span {
             color: #855bff;
-            font-weight: 700;
-            margin-left: 2px;
+            transition: transform 0.3s ease;
         }
 
         .edirect-work-sec .work-view-more a:hover {
-            color: #855bff;
+            background: #855bff;
+            border-color: #855bff;
+            box-shadow: 0 8px 24px rgba(133, 91, 255, 0.3);
+            color: #FFFFFF;
+        }
+
+        .edirect-work-sec .work-view-more a:hover span {
+            color: #FFFFFF;
+            transform: translateX(4px);
         }
 
         /* Case Study Items */
         .edirect-work-sec .work-item {
-            margin-bottom: 80px;
+            margin-bottom: 70px;
             position: relative;
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .edirect-work-sec .work-item:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(133, 91, 255, 0.3);
+            box-shadow: 0 20px 40px rgba(133, 91, 255, 0.08), 0 1px 1px rgba(255, 255, 255, 0.1) inset;
         }
 
         .edirect-work-sec .work-img-wrap {
             position: relative;
-            border-radius: 4px;
+            border-radius: 12px;
             overflow: hidden;
             background-color: #12131A;
             margin-bottom: 25px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            aspect-ratio: 16/10;
         }
 
         .edirect-work-sec .work-img-wrap img {
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: cover;
             display: block;
             transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
-        .edirect-work-sec .work-item:hover .work-img-wrap {
-            transform: translateY(-6px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        /* Gradient overlay on the image */
+        .edirect-work-sec .work-img-wrap::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(10, 11, 15, 0) 40%, rgba(10, 11, 15, 0.8) 100%);
+            opacity: 0.8;
+            transition: opacity 0.4s ease;
         }
 
         .edirect-work-sec .work-item:hover .work-img-wrap img {
-            transform: scale(1.02);
+            transform: scale(1.05);
+        }
+
+        .edirect-work-sec .work-item:hover .work-img-wrap::after {
+            opacity: 0.5;
         }
 
         /* Pulsing Hotspot overlay */
         .edirect-work-sec .work-hotspot {
             position: absolute;
             z-index: 10;
-            width: 36px;
-            height: 36px;
+            width: 40px;
+            height: 40px;
             cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .edirect-work-sec .work-hotspot:hover {
+            transform: scale(1.15);
         }
 
         .edirect-work-sec .work-hotspot.pos-1 {
@@ -767,18 +857,25 @@
             border: 2px solid #855bff;
             border-radius: 50%;
             animation: hotspotPulse 2s infinite ease-out;
+            box-shadow: 0 0 12px rgba(133, 91, 255, 0.4);
         }
 
         .edirect-work-sec .hotspot-dot {
             position: absolute;
-            width: 10px;
-            height: 10px;
-            background-color: #855bff;
+            width: 12px;
+            height: 12px;
+            background-color: #ffffff;
+            border: 2px solid #855bff;
             border-radius: 50%;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            box-shadow: 0 0 10px #855bff;
+            box-shadow: 0 0 15px #855bff;
+            transition: background-color 0.3s ease;
+        }
+
+        .edirect-work-sec .work-hotspot:hover .hotspot-dot {
+            background-color: #855bff;
         }
 
         @keyframes hotspotPulse {
@@ -797,16 +894,32 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         .edirect-work-sec .work-item-name {
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 700;
             color: #FFFFFF;
             margin: 0;
             text-decoration: none;
             transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .edirect-work-sec .work-item-name::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #855bff;
+            transition: width 0.3s ease;
+        }
+
+        .edirect-work-sec .work-item:hover .work-item-name::after {
+            width: 100%;
         }
 
         .edirect-work-sec .work-item-name:hover {
@@ -814,30 +927,67 @@
         }
 
         .edirect-work-sec .work-action-link {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 600;
             color: #855bff;
             text-decoration: none;
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 4px;
-            transition: color 0.3s ease;
+            gap: 6px;
+            transition: all 0.3s ease;
+            background: rgba(133, 91, 255, 0.08);
+            padding: 6px 14px;
+            border-radius: 30px;
+            border: 1px solid rgba(133, 91, 255, 0.15);
         }
 
         .edirect-work-sec .work-action-link span {
-            color: #855bff;
             font-weight: 700;
+            transition: transform 0.3s ease;
         }
 
         .edirect-work-sec .work-action-link:hover {
-            color: #855bff;
+            background: #855bff;
+            color: #ffffff;
+            border-color: #855bff;
         }
 
+        .edirect-work-sec .work-action-link:hover span {
+            color: #ffffff;
+            transform: translateX(3px);
+        }
+
+        /* Tag-based services styling */
         .edirect-work-sec .work-services {
-         font-size: 18px;
-    color: #fff;
-    text-transform: capitalize;
-    line-height: 1.5;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 15px;
+        }
+
+        .edirect-work-sec .service-tag {
+            font-size: 12px;
+            color: #A0A5B5;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 4px 12px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .edirect-work-sec .work-item:hover .service-tag {
+            border-color: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.06);
+            color: #ffffff;
+        }
+
+        .edirect-work-sec .service-tag:hover {
+            background: rgba(133, 91, 255, 0.15) !important;
+            border-color: rgba(133, 91, 255, 0.3) !important;
+            color: #ffffff !important;
+            transform: translateY(-1px);
         }
 
         /* Stagger offset for the right column on desktop */
@@ -849,21 +999,25 @@
 
         @media (max-width: 991px) {
             .edirect-work-sec {
-                padding: 60px 0;
+                padding: 80px 0;
             }
             .edirect-work-sec .work-heading-block {
                 max-width: 100%;
                 text-align: center;
-                margin-bottom: 40px;
+                margin-bottom: 50px;
             }
             .edirect-work-sec .work-view-more {
                 text-align: center;
             }
             .edirect-work-sec .work-item {
-                margin-bottom: 50px;
+                margin-bottom: 40px;
+                padding: 16px;
             }
             .edirect-work-sec .work-item-name {
-                font-size: 22px;
+                font-size: 20px;
+            }
+            .edirect-work-sec .work-title {
+                font-size: 32px;
             }
         }
     </style>
@@ -873,13 +1027,13 @@
             <!-- Left Column: Heading Block + Staggered Items -->
             <div class="col-lg-6">
                 <div class="work-heading-block">
-                    <div class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">Working Together<br>With Our Clients</div>
+                    <div class="work-tagline">Working Together With Our Clients</div>
                     <h2 class="work-title">To Achieve Their Business' Vision</h2>
-                    <p class="fs-20">
+                    <p class="work-desc">
                         Whether we're building custom e-commerce stores, managing compliant medical portals, driving B2B corporate lead acquisition, or scaling real estate presence, you can count on BrandStory to deliver measurable business growth. Together, we work towards achieving our clients' long-term visions.
                     </p>
                     <div class="work-view-more">
-                        <a href="/industries/">view more <span>&gt;&gt;</span></a>
+                        <a href="/industries/">View More <span>&gt;&gt;</span></a>
                     </div>
                 </div>
 
@@ -898,7 +1052,13 @@
                         <a href="/industries/e-commerce-marketing-service" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Email Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
 
@@ -912,7 +1072,13 @@
                         <a href="/industries/real-estate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Email Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
 
@@ -926,7 +1092,13 @@
                         <a href="/industries/education-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Content Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Content Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
             </div>
@@ -948,7 +1120,13 @@
                         <a href="/industries/healthcare-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Content Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Content Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
 
@@ -962,7 +1140,13 @@
                         <a href="/industries/travel-agency-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Email Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
 
@@ -976,22 +1160,19 @@
                         <a href="/industries/b2b-corporate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
-                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                        <span class="service-tag">SEO Services</span>
+                        <span class="service-tag">PPC</span>
+                        <span class="service-tag">Email Marketing</span>
+                        <span class="service-tag">Branding</span>
+                        <span class="service-tag">Social Media</span>
+                        <span class="service-tag">Web Design</span>
+                        <span class="service-tag">Performance Marketing</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
 </section>
-
-
 
 <section class="tools-section">
     <div class="sction-header">

@@ -223,8 +223,8 @@ class FrontendController extends Controller
                                             FROM blogs b 
                                             LEFT JOIN blog_categories c ON b.blog_category_id = c.id
                                             LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id
-                                            WHERE b.slug != ? 
-                                            ORDER BY b.created_at DESC LIMIT 6", [$slug]);
+                                            WHERE b.slug != ? AND b.blog_category_id = ?
+                                            ORDER BY b.created_at DESC LIMIT 6", [$slug, $blog['blog_category_id']]);
 
         $meta = [
             'classname' => 'new-blogs-single-page'
