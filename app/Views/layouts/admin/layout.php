@@ -256,8 +256,46 @@
             tinymce.init({
                 selector: '.rich-text-editor',
                 height: 500,
-                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
-                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | mediapicker',
+                plugins: 'anchor autolink charmap code codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | mediapicker | code',
+                image_title: true,
+                automatic_uploads: true,
+                file_picker_types: 'image',
+                images_upload_handler: function (blobInfo, progress) {
+                    return new Promise(function (resolve, reject) {
+                        var xhr = new XMLHttpRequest();
+                        xhr.withCredentials = false;
+                        xhr.open('POST', '<?= route('admin.media.upload') ?>');
+
+                        xhr.onload = function() {
+                            if (xhr.status < 200 || xhr.status >= 300) {
+                                reject('HTTP Error: ' + xhr.status);
+                                return;
+                            }
+
+                            var json = JSON.parse(xhr.responseText);
+
+                            if (!json || json.status !== 'success') {
+                                reject('Invalid JSON or Upload failed: ' + (json.message || 'Unknown error'));
+                                return;
+                            }
+
+                            var filename = blobInfo.filename();
+                            var base = '<?= base_url('uploads/') ?>' + filename;
+                            resolve(base);
+                        };
+
+                        xhr.onerror = function () {
+                            reject('Image upload failed due to a network error.');
+                        };
+
+                        var formData = new FormData();
+                        formData.append('file', blobInfo.blob(), blobInfo.filename());
+                        formData.append('folder', '');
+
+                        xhr.send(formData);
+                    });
+                },
                 setup: function(editor) {
                     // Custom toolbar button for media picker integration
                     editor.ui.registry.addButton('mediapicker', {
