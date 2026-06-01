@@ -248,68 +248,31 @@
 
     <!-- jQuery (required for Summernote) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Summernote Lite -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <!-- TinyMCE Rich Text Editor -->
+    <script src="https://cdn.tiny.cloud/1/0vuxp75c11tr1fiy4q6d7l5ohed5n38klwlm020o48xi0v9z/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
     <script>
-        $(document).ready(function() {
-            // Define custom button for media picker
-            const MediaPickerButton = function(context) {
-                const ui = $.summernote.ui;
-                const button = ui.button({
-                    contents: '<i class="bi bi-images"></i>',
-                    tooltip: 'Insert Media',
-                    click: function() {
-                        openMediaPicker(function(url) {
-                            context.invoke('editor.insertImage', url);
-                        });
-                    }
-                });
-                return button.render();
-            };
-
-            // Custom button for replacing existing images
-            const ChangeImageButton = function(context) {
-                const ui = $.summernote.ui;
-                const button = ui.button({
-                    contents: '<i class="bi bi-pencil-square"></i> Change Path',
-                    tooltip: 'Change image source',
-                    click: function() {
-                        const img = $(context.invoke('editor.restoreTarget'));
-                        openMediaPicker(function(url) {
-                            img.attr('src', url);
-                            context.invoke('editor.afterCommand');
-                        });
-                    }
-                });
-                return button.render();
-            };
-
-            $('.rich-text-editor').summernote({
-                placeholder: 'Write your content here...',
-                tabsize: 2,
-                height: 400,
-                toolbar: [
-                    ['style', ['style']],
-                    ['font', ['bold', 'underline', 'clear']],
-                    ['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['table', ['table']],
-                    ['insert', ['link', 'media', 'picture', 'video']],
-                    ['view', ['fullscreen', 'codeview', 'help']]
-                ],
-                popover: {
-                    image: [
-                        ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
-                        ['float', ['floatLeft', 'floatRight', 'floatNone']],
-                        ['remove', ['removeMedia']],
-                        ['custom', ['changeImage']]
-                    ]
-                },
-                buttons: {
-                    media: MediaPickerButton,
-                    changeImage: ChangeImageButton
+        document.addEventListener('DOMContentLoaded', function() {
+            tinymce.init({
+                selector: '.rich-text-editor',
+                height: 500,
+                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | mediapicker',
+                setup: function(editor) {
+                    // Custom toolbar button for media picker integration
+                    editor.ui.registry.addButton('mediapicker', {
+                        icon: 'gallery',
+                        tooltip: 'Insert Media from Server',
+                        onAction: function() {
+                            if (typeof openMediaPicker === 'function') {
+                                openMediaPicker(function(url) {
+                                    editor.insertContent('<img src="' + url + '" style="max-width: 100%; height: auto;" />');
+                                });
+                            } else {
+                                alert('Media picker is not available.');
+                            }
+                        }
+                    });
                 }
             });
         });

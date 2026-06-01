@@ -50,20 +50,6 @@
         </div>
     </div>
 
-    <!-- Sticky Contacts on the right side of hero as seen in image -->
-    <div class="sticky-contacts">
-        <a href="tel:+971522831655" class="sticky-icon" aria-label="Call Us">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-            </svg>
-        </a>
-        <a href="https://wa.me/971522831655" target="_blank" class="sticky-icon" aria-label="WhatsApp">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.863-9.748.002-2.607-1.013-5.059-2.859-6.91-1.847-1.851-4.3-2.87-6.916-2.871-5.438 0-9.863 4.37-9.866 9.75-.001 1.776.499 3.51 1.447 5.024L1.936 21.07l5.127-1.346zm5.416-2.869c-.328 0-.826-.123-1.066-.35-.24-.228-1.026-.849-1.026-1.517 0-.667.382-.998.636-1.229.254-.23.636-.282.898-.282.262 0 .524.051.688.256.164.205.656.974.754 1.154.098.179.131.359.033.513-.098.154-.426.333-.59.513-.164.179-.328.256-.164.513.164.256.733 1.097 1.576 1.802.724.607 1.332.795 1.627.923.295.128.524.077.688-.077.164-.154.688-.744.885-1.026.197-.282.426-.23.688-.128.262.102 1.672.744 1.967.872.295.128.492.205.59.359.098.154.098.872-.23 1.744-.328.872-1.64 1.256-2.262 1.256z" />
-            </svg>
-        </a>
-    </div>
-
     <!-- Premium slideshow loop switcher with smooth slide-up and fade transitions -->
     <script>
         (function() {
@@ -664,147 +650,339 @@
 </section>
 
 
-<section class="dm-industries-sec sp-50 dm-bg">
+<section class="edirect-work-sec sp-50">
+    <style>
+        .edirect-work-sec {
+            background-color: #0A0B0F;
+            padding: 100px 0;
+            color: #E0E0E0;
+        }
+
+        .edirect-work-sec .container {
+            margin: 0 auto;
+        }
+
+        /* Staggered Column Setup */
+        .edirect-work-sec .work-heading-block {
+            margin-bottom: 60px;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .edirect-work-sec .work-tagline {
+            font-size: 24px;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.45);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            line-height: 1.4;
+            margin-bottom: 25px;
+        }
+
+        .edirect-work-sec .work-title {
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+
+        
+
+        .edirect-work-sec .work-view-more {
+            text-align: right;
+            margin-top: 15px;
+            padding-right: 10px;
+        }
+
+        .edirect-work-sec .work-view-more a {
+            color: #FFFFFF;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .edirect-work-sec .work-view-more a span {
+            color: #855bff;
+            font-weight: 700;
+            margin-left: 2px;
+        }
+
+        .edirect-work-sec .work-view-more a:hover {
+            color: #855bff;
+        }
+
+        /* Case Study Items */
+        .edirect-work-sec .work-item {
+            margin-bottom: 80px;
+            position: relative;
+        }
+
+        .edirect-work-sec .work-img-wrap {
+            position: relative;
+            border-radius: 4px;
+            overflow: hidden;
+            background-color: #12131A;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .edirect-work-sec .work-img-wrap img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .edirect-work-sec .work-item:hover .work-img-wrap {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        }
+
+        .edirect-work-sec .work-item:hover .work-img-wrap img {
+            transform: scale(1.02);
+        }
+
+        /* Pulsing Hotspot overlay */
+        .edirect-work-sec .work-hotspot {
+            position: absolute;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+        }
+
+        .edirect-work-sec .work-hotspot.pos-1 {
+            top: 15%;
+            right: 20%;
+        }
+
+        .edirect-work-sec .work-hotspot.pos-2 {
+            top: 25%;
+            left: 30%;
+        }
+
+        .edirect-work-sec .hotspot-pulse {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #855bff;
+            border-radius: 50%;
+            animation: hotspotPulse 2s infinite ease-out;
+        }
+
+        .edirect-work-sec .hotspot-dot {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #855bff;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 10px #855bff;
+        }
+
+        @keyframes hotspotPulse {
+            0% {
+                transform: scale(0.5);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.8);
+                opacity: 0;
+            }
+        }
+
+        /* Under-Image Metadata */
+        .edirect-work-sec .work-meta-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .edirect-work-sec .work-item-name {
+            font-size: 26px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin: 0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .edirect-work-sec .work-item-name:hover {
+            color: #855bff;
+        }
+
+        .edirect-work-sec .work-action-link {
+            font-size: 20px;
+            font-weight: 600;
+            color: #855bff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.3s ease;
+        }
+
+        .edirect-work-sec .work-action-link span {
+            color: #855bff;
+            font-weight: 700;
+        }
+
+        .edirect-work-sec .work-action-link:hover {
+            color: #855bff;
+        }
+
+        .edirect-work-sec .work-services {
+         font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 1.5;
+        }
+
+        /* Stagger offset for the right column on desktop */
+        @media (min-width: 992px) {
+            .edirect-work-sec .col-right-stagger {
+                margin-top: 140px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .edirect-work-sec {
+                padding: 60px 0;
+            }
+            .edirect-work-sec .work-heading-block {
+                max-width: 100%;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .edirect-work-sec .work-view-more {
+                text-align: center;
+            }
+            .edirect-work-sec .work-item {
+                margin-bottom: 50px;
+            }
+            .edirect-work-sec .work-item-name {
+                font-size: 22px;
+            }
+        }
+    </style>
+
     <div class="container">
-        <h2 class="mb-lg-5 mb-4 text-white text-md-start text-center">Industries We've <br>Proudly Served and Dominated.
-        </h2>
-        <div class="row g-3">
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png?v=1" alt="Digital Marketing for Education Instutions in Dubai">
-                        <h3 class="text-white text-center">Education</h3>
+        <div class="row">
+            <!-- Left Column: Heading Block + Staggered Items -->
+            <div class="col-lg-6">
+                <div class="work-heading-block">
+                    <div class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">Working Together<br>With Our Clients</div>
+                    <h2 class="work-title">To Achieve Their Business' Vision</h2>
+                    <p class="fs-20">
+                        Whether we're building custom e-commerce stores, managing compliant medical portals, driving B2B corporate lead acquisition, or scaling real estate presence, you can count on BrandStory to deliver measurable business growth. Together, we work towards achieving our clients' long-term visions.
+                    </p>
+                    <div class="work-view-more">
+                        <a href="/industries/">view more <span>&gt;&gt;</span></a>
                     </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/education-marketing-services">Education <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">
-                            We empower universities, colleges, training institutes, and schools in Dubai with data-driven digital marketing strategies that boost visibility, leads, and long-term growth.
-                        </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/industries/education-seo-agency-in-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/education-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/industries/education-content-marketing-agency-in-dubai-uae/">Content Markting</a> |
-                            <a href="/industries/education-branding-agency-in-dubai-uae/">Branding</a> |
-                            <a href="/industries/education-social-media-agency-in-dubai-uae/">Social Media</a> |
-                            <a href="/industries/education-web-design-development-agency-in-dubai-uae/">Web Design</a> |
-                            <a href="/industries/education-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                </div>
+
+                <!-- Left Column Item 1: E-commerce -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img2.png?v=1') ?>" alt="E-commerce Digital Marketing Dubai">
+                        <!-- Hotspot pulsing circle overlay -->
+                        <div class="work-hotspot pos-1">
+                            <div class="hotspot-pulse"></div>
+                            <div class="hotspot-dot"></div>
+                        </div>
+                    </div>
+                    <div class="work-meta-row">
+                        <a href="/industries/e-commerce-marketing-service" class="work-item-name">E-commerce</a>
+                        <a href="/industries/e-commerce-marketing-service" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="work-services">
+                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                    </div>
+                </div>
+
+                <!-- Left Column Item 2: Real Estate -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img4.png?v=1') ?>" alt="Real Estate Marketing Services Dubai">
+                    </div>
+                    <div class="work-meta-row">
+                        <a href="/industries/real-estate-marketing-services" class="work-item-name">Real Estate</a>
+                        <a href="/industries/real-estate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="work-services">
+                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
+                    </div>
+                </div>
+
+                <!-- Left Column Item 3: Education -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img1.png?v=1') ?>" alt="Education Marketing Services Dubai">
+                    </div>
+                    <div class="work-meta-row">
+                        <a href="/industries/education-marketing-services" class="work-item-name">Education</a>
+                        <a href="/industries/education-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="work-services">
+                        SEO Services, PPC, Content Marketing, Branding, Social Media, Web Design, Performance Marketing
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png?v=1" alt="Digital Marketing for E-commerce Businesses in Dubai">
-                        <h3 class="text-white text-center">E-commerce</h3>
+
+            <!-- Right Column: Staggered Items -->
+            <div class="col-lg-6 col-right-stagger">
+                <!-- Right Column Item 1: Healthcare -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img3.png?v=1') ?>" alt="Healthcare Digital Marketing Dubai">
+                        <!-- Hotspot pulsing circle overlay -->
+                        <div class="work-hotspot pos-2">
+                            <div class="hotspot-pulse"></div>
+                            <div class="hotspot-dot"></div>
+                        </div>
                     </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/e-commerce-marketing-service">E-commerce <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">BrandStory delivers result-driven digital marketing for eCommerce businesses in Dubai, UAE- turning browsers into buyers and clicks into revenue.
-                        </p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/industries/e-commerce-seo-agency-in-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/e-commerce-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/industries/e-commerce-email-marketing-agency-in-dubai-uae/">Email Markting</a> |
-                            <a href="/industries/e-commerce-branding-agency-in-dubai-uae/">Branding</a> |
-                            <a href="/industries/e-commerce-social-media-agency-in-dubai-uae/">Social Media</a> |
-                            <a href="/industries/e-commerce-web-design-development-agency-in-dubai-uae/">Web Design</a> |
-                            <a href="/industries/e-commerce-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                    <div class="work-meta-row">
+                        <a href="/industries/healthcare-marketing-services" class="work-item-name">Healthcare</a>
+                        <a href="/industries/healthcare-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img3.png?v=1" alt="Digital Marketing for Healthcare Sectors in Dubai">
-                        <h3 class="text-white text-center">Healthcare</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/healthcare-marketing-services">Healthcare <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">From hospitals to pharmacies, we deliver compliant and powerful digital marketing solutions that help UAE healthcare brands grow their online presence</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/industries/healthcare-seo-agency-in-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/healthcare-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/industries/healthcare-content-marketing-agency-in-dubai-uae/">Content Marketing</a> |
-                            <a href="/industries/healthcare-branding-agency-in-dubai-uae/">Branding</a> |
-                            <a href="/industries/healthcare-social-media-agency-in-dubai-uae/">Social Media</a> |
-                            <a href="/industries/healthcare-web-design-development-agency-in-dubai-uae/">Web Design</a> |
-                            <a href="/industries/healthcare-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                    <div class="work-services">
+                        SEO Services, PPC, Content Marketing, Branding, Social Media, Web Design, Performance Marketing
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png?v=1" alt="Digital Marketing Services for Real Estate Companies in Dubai">
-                        <h3 class="text-white text-center">Real Estate</h3>
+
+                <!-- Right Column Item 2: Tourism -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img5.png?v=1') ?>" alt="Tourism & Travel Marketing Services Dubai">
                     </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/real-estate-marketing-services">Real Estate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">From listings to leads, we deliver result-driven digital marketing for real estate agents and companies in Dubai, helping you reach the right audience at the right time.</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/industries/real-estate-seo-agency-in-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/">Email Marketing</a> |
-                            <a href="/industries/real-estate-branding-agency-in-dubai-uae/">Branding</a> |
-                            <a href="/industries/real-estate-social-media-agency-in-dubai-uae/">Social Media</a> |
-                            <a href="/industries/real-estate-web-design-development-agency-in-dubai-uae/">Web Design</a> |
-                            <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                    <div class="work-meta-row">
+                        <a href="/industries/travel-agency-marketing-services" class="work-item-name">Tourism</a>
+                        <a href="/industries/travel-agency-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="work-services">
+                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img5.png?v=1" alt="Digital Marketing Services for Travel Agencies in Dubai">
-                        <h3 class="text-white text-center">Tourism</h3>
+
+                <!-- Right Column Item 3: Corporate (B2B) -->
+                <div class="work-item">
+                    <div class="work-img-wrap">
+                        <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img6.png?v=1') ?>" alt="B2B Corporate Marketing Services Dubai">
                     </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/travel-agency-marketing-services">Travel <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">BrandStory empowers travel & tourism agencies in Dubai with data-driven digital marketing that drives traffic, inspires wanderlust, and turns browsers into loyal travelers.</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center mb-3">
-                            <a href="/industries/tourism-seo-agency-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/tourism-ppc-google-ads-dubai-uae/">PPC</a> |
-                            <a href="/industries/tourism-email-marketing-dubai-uae/">Email Marketing</a> |
-                            <a href="/industries/tourism-branding-agency-dubai-uae/">Branding</a> |
-                            <a href="/industries/tourism-social-media-marketing-dubai-uae/">Social Media</a> |
-                            <a href="/industries/tourism-web-design-development-dubai-uae/">Web Design</a> |
-                            <a href="/industries/tourism-performance-marketing-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                    <div class="work-meta-row">
+                        <a href="/industries/b2b-corporate-marketing-services" class="work-item-name">Corporate</a>
+                        <a href="/industries/b2b-corporate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="industries-main position-relative">
-                    <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img6.png?v=1" alt="Digital Marketing Services for Technology Companies in Dubai">
-                        <h3 class="text-white text-center">B2B Corporate</h3>
-                    </div>
-                    <div class="industries-cnts">
-                        <h3 class="text-center mb-3 show-indus-icon"><a href="/industries/b2b-corporate-marketing-services">Corporate <span class="hide-indu-icon">⇗</span></a></h3>
-                        <p class="fs-20 text-center mb-3">From strategy to execution, we deliver powerful digital marketing solutions for B2B & corporate businesses in Dubai- building visibility, credibility, and long-term online success.</p>
-                        <h3 class="text-center mb-3">Services Offered</h3>
-                        <p class="fs-20 text-center">
-                            <a href="/industries/b2b-seo-agency-in-dubai-uae/">SEO Services</a> |
-                            <a href="/industries/b2b-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
-                            <a href="/industries/b2b-email-marketing-agency-in-dubai-uae/">Branding</a> |
-                            <a href="/industries/b2b-social-media-agency-in-dubai-uae/">Social Media</a> |
-                            <a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Web Design</a> |
-                            <a href="/industries/b2b-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
-                        </p>
+                    <div class="work-services">
+                        SEO Services, PPC, Email Marketing, Branding, Social Media, Web Design, Performance Marketing
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
     </div>
     </div>
     </div>
