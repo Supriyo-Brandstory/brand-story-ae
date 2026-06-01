@@ -208,7 +208,7 @@ class FrontendController extends Controller
     {
         $blogModel = new \App\Models\Blog();
 
-        $result = $blogModel->query("SELECT b.*, c.slug as category_slug, sc.slug as sub_category_slug 
+        $result = $blogModel->query("SELECT b.*, c.name as category_name, c.description as category_description, c.slug as category_slug, sc.slug as sub_category_slug 
                                      FROM blogs b 
                                      LEFT JOIN blog_categories c ON b.blog_category_id = c.id
                                      LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id

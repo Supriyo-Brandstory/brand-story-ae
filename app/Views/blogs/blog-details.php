@@ -668,6 +668,258 @@
         </div>
     </section>
 
+    <?php if (!empty($blog['category_description'])): ?>
+    <section class="premium-blog-cta-sec">
+        <style>
+            .premium-blog-cta-sec {
+                background: linear-gradient(135deg, #a15bff 0%, #762ad1 100%);
+                padding: 85px 0 75px;
+                color: #ffffff;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                border-top: 1px solid rgba(255, 255, 255, 0.05);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            }
+
+            /* Subtle glowing dots in background */
+            .premium-blog-cta-sec::before {
+                content: '';
+                position: absolute;
+                top: -10%;
+                left: 20%;
+                width: 300px;
+                height: 300px;
+                background: radial-gradient(circle, rgba(133, 91, 255, 0.12) 0%, rgba(133, 91, 255, 0) 70%);
+                pointer-events: none;
+            }
+
+            .premium-blog-cta-sec::after {
+                content: '';
+                position: absolute;
+                bottom: -10%;
+                right: 20%;
+                width: 350px;
+                height: 350px;
+                background: radial-gradient(circle, rgba(0, 242, 254, 0.08) 0%, rgba(0, 242, 254, 0) 70%);
+                pointer-events: none;
+            }
+
+            .premium-blog-cta-sec .container {
+                position: relative;
+                z-index: 5;
+                max-width: 960px;
+            }
+
+            .premium-blog-cta-sec .cta-badge {
+                display: inline-block;
+                font-size: 20px;
+                font-weight: 700;
+                color: #38bdf8; /* Vibrant light blue/cyan gradient color */
+                background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-transform: uppercase;
+                letter-spacing: 2.5px;
+                margin-bottom: 20px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .premium-blog-cta-sec .cta-main-title {
+                font-size: 44px;
+                font-weight: 800;
+                line-height: 1.25;
+                color: #ffffff;
+                margin-bottom: 25px;
+                letter-spacing: -0.8px;
+            }
+
+            .premium-blog-cta-sec .cta-description {
+                font-size: 17px;
+                line-height: 1.7;
+                color: rgba(255, 255, 255,1);
+                max-width: 820px;
+                margin: 0 auto 45px;
+                font-weight: 400;
+            }
+
+            /* Two buttons row styling */
+            .premium-blog-cta-sec .cta-btn-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 60px;
+            }
+
+            .premium-blog-cta-sec .btn-cta-primary {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                background: #e83b26;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+                padding: 16px 36px;
+                border-radius: 50px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-decoration: none;
+                transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+                box-shadow: 0 4px 15px rgba(232, 59, 38, 0.25);
+                border: 2px solid #e83b26;
+            }
+
+            .premium-blog-cta-sec .btn-cta-primary:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 24px rgba(232, 59, 38, 0.25);
+                background: #000;
+                color: #fff;
+            }
+
+            .premium-blog-cta-sec .btn-cta-secondary {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                background: rgba(255, 255, 255, 0.04);
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 700;
+                padding: 16px 36px;
+                border-radius: 50px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-decoration: none;
+                border: 2px solid #000;
+                transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            }
+
+            .premium-blog-cta-sec .btn-cta-secondary:hover {
+                transform: translateY(-3px);
+                background: #000;
+                color: #fff;
+                box-shadow: 0 8px 24px rgba(255, 255, 255, 0.15);
+            }
+
+            /* Logos block styling */
+            .premium-blog-cta-sec .logos-title {
+                font-size: 14px;
+                color: rgba(255, 255, 255, 1);
+                font-style: italic;
+                margin-bottom: 25px;
+                letter-spacing: 0.5px;
+            }
+
+            .premium-blog-cta-sec .logos-row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 45px;
+                /* opacity: 0.65; */
+                transition: opacity 0.3s ease;
+            }
+
+            .premium-blog-cta-sec .logos-row:hover {
+                /* opacity: 0.85; */
+            }
+
+            .premium-blog-cta-sec .logo-item {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                transition: transform 0.3s ease;
+            }
+
+            .premium-blog-cta-sec .logo-item:hover {
+                transform: scale(1.08);
+            }
+
+            .premium-blog-cta-sec .logo-item svg,
+            .premium-blog-cta-sec .logo-item img {
+                fill: #ffffff;
+                max-height: 100%;
+                width: auto;
+                object-fit: contain;
+                filter: brightness(0) invert(1);
+            }
+
+            @media (max-width: 767px) {
+                .premium-blog-cta-sec {
+                    padding: 60px 0;
+                }
+                .premium-blog-cta-sec .cta-main-title {
+                    font-size: 28px;
+                }
+                .premium-blog-cta-sec .cta-description {
+                    font-size: 15px;
+                    margin-bottom: 35px;
+                }
+                .premium-blog-cta-sec .cta-btn-wrap {
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-bottom: 45px;
+                }
+                .premium-blog-cta-sec .btn-cta-primary,
+                .premium-blog-cta-sec .btn-cta-secondary {
+                    width: 100%;
+                    justify-content: center;
+                    padding: 14px 28px;
+                }
+                .premium-blog-cta-sec .logos-row {
+                    gap: 30px;
+                }
+                .premium-blog-cta-sec .logo-item {
+                    height: 22px;
+                }
+            }
+        </style>
+
+        <div class="container">
+            <!-- <span class="cta-badge">Search Everywhere Optimization™</span> -->
+            <h2 class="cta-main-title">Ready to Transform Your <?= htmlspecialchars($blog['category_name'] ?? '') ?> Services?</h2>
+            <p class="cta-description">
+                <?= $blog['category_description'] ?>
+            </p>
+
+            <div class="cta-btn-wrap">
+                <a href="tel:+971522831655" class="btn-cta-primary">
+                    <i class="bi bi-telephone-fill"></i> Call Us Now
+                </a>
+                <a href="<?= route('contact') ?>" class="btn-cta-secondary">
+                    <i class="bi bi-chat-left-text-fill"></i> Contact Us
+                </a>
+            </div>
+
+            <div class="logos-block">
+                <p class="logos-title">Trusted by leading brands in Dubai and globally:</p>
+                <div class="logos-row">
+                    <!-- Client Logo 4 -->
+                    <div class="logo-item" title="Client Logo 4">
+                        <img src="<?= base_url('assets/images/clients/logo-4.png') ?>" alt="Client Logo">
+                    </div>
+
+                    <!-- Client Logo 5 -->
+                    <div class="logo-item" title="Client Logo 5">
+                        <img src="<?= base_url('assets/images/clients/logo-5.png') ?>" alt="Client Logo">
+                    </div>
+
+                    <!-- Client Logo 7 -->
+                    <div class="logo-item" title="Client Logo 7">
+                        <img src="<?= base_url('assets/images/clients/logo-7.png') ?>" alt="Client Logo">
+                    </div>
+
+                    <!-- Client Logo 2 -->
+                    <div class="logo-item" title="Client Logo 2">
+                        <img src="<?= base_url('assets/images/clients/logo-2.png') ?>" alt="Client Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php endif; ?>
+
     <!-- Related Blogs Section -->
     <section class="latest--blogs">
         <div class="container">
