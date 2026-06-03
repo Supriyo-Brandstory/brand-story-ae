@@ -139,6 +139,153 @@
         </div>
     </div>
 </section>
+
+<!-- Email Newsletter Designs Slider Section -->
+<section class="email-designs-sec sp-50">
+    <div class="container">
+        <div class="max-1000 text-center mb-5">
+            <h2 class="mb-3">High-Converting Email Template Designs</h2>
+            <p class="">Discover email templates built to do more than look good. Our designs combine compelling visuals, strategic layouts, and clear calls-to-action to help businesses connect with their audience.</p>
+        </div>
+        
+        <div class="position-relative px-md-5">
+            <!-- Swiper Container -->
+            <div class="swiper email-designs-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Corporate Newsletter</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-1.webp') ?>" class="email-card-img" alt="Corporate Newsletter Design">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Fashion & Apparel</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-2.webp') ?>" class="email-card-img" alt="Fashion Promotion Design">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Non-Profit Outreach</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-3.webp') ?>" class="email-card-img" alt="Charity Outreach Design">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Community Outreach</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-4.webp') ?>" class="email-card-img" alt="Harvest Kitchen Design">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Event Follow-up</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-5.webp') ?>" class="email-card-img" alt="Business Event Feedback Design">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="email-template-card">
+                            <div class="email-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="email-card-title">Event Invitation</span>
+                            </div>
+                            <div class="email-card-img-wrapper">
+                                <img src="<?= base_url('assets/images/emiltemplate/email-template-6.webp') ?>" class="email-card-img" alt="Noonlab Event Invitation Design">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Custom Styled Navigation Buttons -->
+            <div class="swiper-button-prev email-designs-prev"></div>
+            <div class="swiper-button-next email-designs-next"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Wait until Swiper is fully loaded (since it is loaded with defer attribute)
+    var swiperCheckTimer = setInterval(function() {
+        if (typeof Swiper !== 'undefined') {
+            clearInterval(swiperCheckTimer);
+            new Swiper(".email-designs-swiper", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                navigation: {
+                    nextEl: ".email-designs-next",
+                    prevEl: ".email-designs-prev",
+                },
+                breakpoints: {
+                    576: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 24,
+                    },
+                    1200: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                    }
+                }
+            });
+        }
+    }, 50);
+});
+</script>
+
 <section class="service-process web-design-workflow sp-50">
     <div class="container"><!--Container Start-->
         <div class="max-1000 text-center">

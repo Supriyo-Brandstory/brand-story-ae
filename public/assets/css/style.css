@@ -14704,3 +14704,189 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 .s-center {
     text-align: center !important;
 }
+
+
+
+
+
+
+.email-designs-sec {
+    background-color: #ffffff;
+    /* White theme background */
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+.email-designs-sec .px-md-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important
+}
+
+/* Card Styling */
+.email-template-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.email-template-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Browser Mockup Top Bar */
+.email-card-header {
+    background-color: #f1f3f5;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.email-card-header .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.email-card-header .dot.red {
+    background-color: #ff5f56;
+}
+
+.email-card-header .dot.yellow {
+    background-color: #ffbd2e;
+}
+
+.email-card-header .dot.green {
+    background-color: #27c93f;
+}
+
+.email-card-header .email-card-title {
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    font-size: 11px;
+    color: #868e96;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Image container with fixed height and hidden overflow */
+.email-card-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    /* High-fidelity height */
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Image starts at the top and will slide up on hover */
+.email-card-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 5s ease-in-out;
+    transform: translateY(0);
+    pointer-events: none;
+}
+
+/* When card is hovered, scroll the email image vertically down to show full content */
+.email-template-card:hover .email-card-img {
+    transform: translateY(calc(-100% + 480px));
+}
+
+/* Navigation Buttons styled in theme color (blue circles with white arrows) */
+.email-designs-prev,
+.email-designs-next {
+    width: 48px;
+    height: 48px;
+    background-color: #2E63D8 !important;
+    /* Brand Blue */
+    border-radius: 50% !important;
+    box-shadow: 0 4px 12px rgba(46, 99, 216, 0.25);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 10;
+}
+
+.email-designs-prev:hover,
+.email-designs-next:hover {
+    background-color: #1a4ebd !important;
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(46, 99, 216, 0.4);
+}
+
+.email-designs-sec .swiper-button-prev::after {
+    content: 'prev' !important;
+    font-family: swiper-icons !important;
+}
+
+.email-designs-sec .swiper-button-next::after {
+    content: 'next' !important;
+    font-family: swiper-icons !important;
+}
+
+.email-designs-prev::after,
+.email-designs-next::after {
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+}
+
+/* Adjust position of navigation arrows on desktop */
+.email-designs-prev {
+    left: -20px !important;
+}
+
+.email-designs-next {
+    right: -20px !important;
+}
+
+@media (max-width: 1199px) {
+    .email-designs-sec .px-md-5 {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .email-designs-prev {
+        left: -10px !important;
+    }
+
+    .email-designs-next {
+        right: -10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .email-designs-sec {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .email-card-img-wrapper {
+        height: 380px;
+        /* slightly shorter on mobile device screens */
+    }
+
+    .email-template-card:hover .email-card-img {
+        transform: translateY(calc(-100% + 380px));
+    }
+
+    .email-designs-sec .px-md-5 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+}
