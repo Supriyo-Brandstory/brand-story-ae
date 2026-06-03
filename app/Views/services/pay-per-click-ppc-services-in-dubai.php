@@ -332,8 +332,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center mb-5">Here is How We Help You Measure <span class="db">Performance
-						Marketing?</span></h2>
+				<h2 class="text-center mb-5">Here is How We Help You Measure <span class="db">PPC Ads Performance
+						</span></h2>
 			</div>
 		</div>
 		<div class="row gy-3 gy-md-0 gx-md-5">
@@ -341,24 +341,19 @@
 				<img src="/assets/images/service/pm/how-we-help-img-1.jpg" class="img-fluid"
 					alt="Performance Marketing in Dubai">
 				<h4>Cost Per Click (CPC)</h4>
-				<p>CPCs can be a great way to measure the profitability of your promotional campaigns and determine
-					where you should allocate your advertising dollars. By understanding how much each click costs, you
-					can better assess whether or not a campaign is worth investing.</p>
+				<p>CPC tells you how efficiently your budget is working. By tracking what you pay for each click, we identify high-performing keywords and ads that deliver value and eliminate the ones that drain spend without results. Lower CPCs with strong conversion rates mean your campaigns are optimized.</p>
 			</div>
 			<div class="col-md-4">
 				<img src="/assets/images/service/pm/how-we-help-img-2.jpg" class="img-fluid"
 					alt="Performance Marketing Dubai">
-				<h4>LifeTime Value(LTV)</h4>
-				<p>Performance marketers increasingly rely on lifetime value (LTV) to make data-driven decisions. In
-					other words, it estimates the revenue a single customer can bring throughout their relationship with
-					a company.</p>
+				<h4>Click-Through Rate (CTR)</h4>
+				<p>CTR measures how compelling your ads are to your target audience. A strong CTR signals that your messaging, keywords, and ad extensions are hitting the mark. We use this insight to refine ad copy, test creative angles, and ensure your ads capture attention in a crowded search landscape.</p>
 			</div>
 			<div class="col-md-4">
 				<img src="/assets/images/service/pm/how-we-help-img-3.jpg" class="img-fluid"
 					alt="Performance Marketing Agency Near Me">
-				<h4>Click-Through Rate(CTR)</h4>
-				<p>Clickthrough rates are a vital metric for any online ad campaign. They help you understand how
-					efficient your ads are in generating clicks and can guide you in setting your budget.</p>
+				<h4>Return on Ad Spend (ROAS)</h4>
+				<p>ROAS is the ultimate measure of PPC success- revenue generated for every dirham spent. It connects your campaigns directly to business growth, showing which strategies deliver profitable returns. At BrandStory, we optimize every campaign toward maximizing ROAS.</p>
 			</div>
 		</div>
 	</div>
