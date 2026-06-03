@@ -3,9 +3,9 @@
         <div class="row">
             <div class="col-md-6">
                 <img class="w-100 d-md-none d-block mb-3" src="/assets/images/service/ppc/ppc-dubai-banner-mbl.jpg">
-                <h1 class="mb-3 text-white">Top-Rated PPC Agency in Dubai, UAE
+                <h1 class="mb-3 text-white">Top-Rated PPC Agency Dubai for Optimal ROI
                 </h1>
-                <p class="text-white fs-20 mb-4">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising agency. </p>
+                <p class="text-white fs-20 mb-4">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising services. </p>
 
                 <div class="ppc-dubai-btn d-flex justify-content-md-start justify-content-center">
                     <a class="fs-20 text-white" href="/contact/">Let's Discuss Your Project</a>
@@ -18,34 +18,34 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Google Ads</a>
+            <a href="#" class="seo-marquee-item">Google Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Bing Ads</a>
+            <a href="#" class="seo-marquee-item">Bing Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Display Advertising</a>
+            <a href="#" class="seo-marquee-item">Display Advertising</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Shopping Ads</a>
+            <a href="#" class="seo-marquee-item">Shopping Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Video Ads</a>
+            <a href="#" class="seo-marquee-item">Video Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Remarketing Campaigns</a>
+            <a href="#" class="seo-marquee-item">Remarketing Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">App Install Ads</a>
+            <a href="#" class="seo-marquee-item">App Install Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Performance Marketing</a>
+            <a href="#" class="seo-marquee-item">Performance Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">Conversion Tracking</a>
+            <a href="#" class="seo-marquee-item">Conversion Tracking</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pay-per-click-ppc-services-in-dubai" class="seo-marquee-item">PPC Audit & Strategy</a>
+            <a href="#" class="seo-marquee-item">PPC Audit & Strategy</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
@@ -59,7 +59,7 @@
         <div class="perks-content position-relative">
             <div class="ppc-spotlight">
                 <div class="container text-md-start text-center">
-                    <h2 class="text-white mb-3">Be in The Spotlight with Our PPC
+                    <h2 class="text-white mb-3">Be in The Spotlight with No. 1 PPC
                         <span class="db">Agency in Dubai</span>
                     </h2>
                     <p class="mb-3 text-white fs-16">Take your business to new heights with BrandStory, the leading PPC agency in Dubai. We specialize in creating high-performing pay-per-click ad campaigns that drive qualified traffic, generate leads, and deliver measurable return on investment. Every campaign we design is tailored to your business objectives, ensuring your brand reaches the right audience at the right time and generates valuable leads.</p>
@@ -89,7 +89,7 @@
                     <button class="nav-link" id="pills-ppcs2-tab" data-bs-toggle="pill" data-bs-target="#pills-ppcs2" type="button" role="tab" aria-controls="pills-ppcs2" aria-selected="false">Video Ads</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-ppcs3-tab" data-bs-toggle="pill" data-bs-target="#pills-ppcs3" type="button" role="tab" aria-controls="pills-ppcs3" aria-selected="false">Facebook & Instagram Ads</button>
+                    <button class="nav-link" id="pills-ppcs3-tab" data-bs-toggle="pill" data-bs-target="#pills-ppcs3" type="button" role="tab" aria-controls="pills-ppcs3" aria-selected="false">Meta Ads</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-ppcs4-tab" data-bs-toggle="pill" data-bs-target="#pills-ppcs4" type="button" role="tab" aria-controls="pills-ppcs4" aria-selected="false">Twitter Advertising</button>
@@ -124,9 +124,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Search Engine Marketing</h3>
-                                    <p class="fs-16 mb-3">In this tech-driven world, if you want to earn more traffic to your website along with boosting brand awareness, then Search Engine Marketing or SEM is one of the most effective ways to increase your brand's visibility in search engine results pages (SERPs). It promotes your products and to grow your business in this increasingly competitive online marketplace. SEM is also known as Pay Per Click (PPC) Services or Paid Search Advertising (PSA).</p>
+                                    <p class="fs-16 mb-3">Search Engine Marketing (SEM) is one of the fastest, most effective ways to get your business seen on Search Engine Results Pages (SERPs). Whether you're looking to promote products or scale in a crowded digital marketplace, SEM puts your brand in front of the right audience at the right time. Also known as Pay-Per-Click (PPC) Services or Paid Search Advertising (PSA), it's a proven strategy for measurable growth.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -145,9 +145,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Video Ads</h3>
-                                    <p class="fs-16 mb-3">We all know that video is the king of marketing as it conveys a lot of information in a short time. It is an efficient channel of communication and an excellent way to inform and educate your target audience about your business brand. Videos ads play a significant role in making a more personal relationship and connecting with the viewer's emotions to your brand, product, or services. So, if you want to tell your brand's story to your audience, then video advertising is better than any other format.</p>
+                                    <p class="fs-16 mb-3">Why is video called the king of marketing? Because it communicates more in 60 seconds than most formats do in 60 minutes. It's the fastest, most engaging way to educate your audience, showcase your brand, and drive real emotional connections. Video ads don't just inform- they make your brand feel personal and relatable, turning viewers into loyal customers. When it comes to storytelling that sells, video advertising outperforms every other format.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,10 +165,10 @@
                             </div>
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
-                                    <h3 class="mb-3">Facebook & Instagram Ads</h3>
-                                    <p class="fs-16 mb-3">We are all very well aware that more than 90% of people online are active on social media. We design <a class="text-black" href="/social-media-marketing-agency-in-dubai/">social media</a> ad campaigns with specific goals and objectives to target your audience based on their location, demographic, and profile information. Therefore, we help you connect your businesses with the right people with Meta Ads (Facebook and Instagram ads), irrespective of the device they use.</p>
+                                    <h3 class="mb-3">Meta Ads</h3>
+                                    <p class="fs-16 mb-3">More than 90% of internet users are active on social media in Dubai and across UAE. We design <a class="text-black" href="/social-media-marketing-agency-in-dubai/">social media</a> ad campaigns with specific goals and objectives to target your audience based on their location, demographic, and profile information. Therefore, we help you connect your businesses with the right people with Meta Ads (Facebook and Instagram ads), irrespective of the device they use.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -186,10 +186,10 @@
                             </div>
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
-                                    <h3 class="mb-3">Twitter Advertising</h3>
-                                    <p class="fs-16 mb-3">We all know that Twitter is the level-up strategy and is the most impactful social media platform. Therefore, it is called the powerhouse of social media platforms. This paid advertising is the best place to target your audience based on their interest or location. The best part of promoting tweets is that each ad will support only a single tweet and, thus, you can customize your audience for each Ad.</p>
+                                    <h3 class="mb-3">Twitter Ads</h3>
+                                    <p class="fs-16 mb-3">Twitter (now X) remains one of the most influential social media platforms for businesses looking to engage with targeted audiences. It allows brands to connect with users based on factors such as interests, demographics, and geographic location. One of the key advantages of Twitter Ads is the ability to promote individual tweets, enabling businesses to tailor each campaign to a specific audience segment and marketing objective.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -208,9 +208,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">TikTok Ads</h3>
-                                    <p class="fs-16 mb-3">TikTok is a trendsetting social platform that can drive massive engagement for businesses. It is a great way to connect with a potential audience in a creative way with short-form videos. TikTok offers in-feed ads, top-view ads, and branded challenges to encourage user interaction on a deep level to reach and engage your potential audience.</p>
+                                    <p class="fs-16 mb-3">TikTok has redefined how brands connect with audiences through short-form video that feels creative and impossible to scroll past. With ad formats like In-Feed Ads, TopView placements, and Branded Hashtag Challenges, TikTok doesn't just reach your potential customers- it pulls them into the conversation. The platform's algorithm rewards engagement, ideal for businesses that want to build deep, authentic connections.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,9 +229,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">LinkedIn Ads</h3>
-                                    <p class="fs-16 mb-3">LinkedIn is a global B2B marketing platform for professional outreach. With targeted LinkedIn ads, your business can reach the industry leaders, professionals, and decision makers who matter to your business. LinkedIn ads offer precise targeting based on job profile, company size, location, and much more.</p>
+                                    <p class="fs-16 mb-3">LinkedIn is the world's premier B2B marketing platform, built specifically for professional outreach. With LinkedIn Ads, your business connects directly with industry leaders, senior professionals, and decision-makers who actively influence purchasing power. The platform's precise targeting filters job title, seniority, company size, industry, location, and more- ensure your message reaches the right stakeholders.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -250,9 +250,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Search Ads</h3>
-                                    <p class="fs-16 mb-3">Search Ads, also known as Paid Search Advertising, or Google Advertising, or Pay Per Click Advertising, allows you to reach a more targeted audience. It is the best way to capture your intent. From search network ads, you will get the best return on investment (ROI) by focusing on the searcher's intent about what they want to do or what they want to buy. Businesses only have to pay a small fee when someone clicks on their ads.</p>
+                                    <p class="fs-16 mb-3">Search Ads also known as Paid Search Advertising, Google Ads, or Pay-Per-Click (PPC) put your business in front of high-intent audiences actively searching for what you offer. Unlike passive advertising, Search Ads capture demand at the exact moment a potential customer is looking to buy, book, or learn more. By aligning your campaign with searcher intent, you maximize relevance and drive stronger return on investment (ROI).</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -271,9 +271,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Display Ads</h3>
-                                    <p class="fs-16 mb-3">As the name suggests, it is an appealing ad format to engage your users. Display ads are the visual banner ads (text-based, image, or video advertisements) that help you promote your business. It is the best way to grab the attention of your audience from millions of websites, social media platforms like YouTube, Facebook, etc. Gmail or using mobile devices and applications. If you want to make your business brand familiar and relevant to the people, then display advertising is the most excellent way to target more number of audience.</p>
+                                    <p class="fs-16 mb-3">Display Ads are visually engaging banner advertisements- available as text, image, or video. It put your brand in front of audiences across millions of websites, social platforms like YouTube and Facebook, Gmail, and mobile apps. Rather than waiting for users to search, Display Ads proactively build awareness by capturing attention where your audience already spends time. If your goal is to make your brand familiar, relevant, and top-of-mind, Display Advertising is one of the most effective ways to scale. </p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -292,9 +292,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Shopping Ads</h3>
-                                    <p class="fs-16 mb-3">If you are an e-commerce company and want to drive more traffic and sales, then Shopping Ads will help more customers find your products. You may know shopping ads as Product Listing Ads (PLAs), which deliver to your users a strong sense of your products even before they click on your ads. Thus, these ads are great for e-commerce optimization and will give you more qualified and better quality leads.</p>
+                                    <p class="fs-16 mb-3">Want to turn browsers into buyers? Shopping Ads (Product Listing Ads / PLAs) put your products front and center with images, prices, and ratings right where high-intent shoppers are searching. Because users see exactly what you offer before clicking, you attract more qualified traffic and waste less budget on curiosity clicks. For e-commerce brands, that translates to stronger sales, better ROI, and optimized product visibility.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -313,9 +313,9 @@
                             <div class="col-md-8 align-self-center">
                                 <div class="ourppc-cnt-box">
                                     <h3 class="mb-3">Remarketing Ads</h3>
-                                    <p class="fs-16 mb-3">Remarketing ads are the display ads and are the best way to target your audience who have already visited your website through some other acquisition channels. Or it is better to say that Remarketing Ads is an excellent way to retarget your audience or to connect with your visitors, or people who have once shown interest in your product or services, either through the website or mobile app.</p>
+                                    <p class="fs-16 mb-3">Most website visitors don't convert on their first visit. Remarketing Ads make sure they don't forget you. These targeted display ads reconnect with users who have already explored your website, used your app, or engaged with your brand elsewhere. Instead of starting from scratch, you're marketing to people who already know you. The result? Higher conversion rates, lower cost per acquisition, and a second chance to turn interest into sales.</p>
                                     <div class="ppc-dubai-btn d-flex">
-                                        <a class="fs-20 text-white" href="/contact/">Contact us</a>
+                                        <a class="fs-20 text-white" href="/contact/">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -328,17 +328,41 @@
     </div>
 </section>
 
-<!--<section id="knowMore" class="web-design-process sp-50">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="text-white pb-5">Our Comprehensive PPC Process</h2>
-                <img src="/assets/images/service/ppc/ppc-process.png" class="img-fluid" alt="ppc agency dubai">
-            </div>
-        </div>
-    </div>
-</section>-->
-<!-- <section class="bg-white spt-50"></section> -->
+<section class="how-we-help sp-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center mb-5">Here is How We Help You Measure <span class="db">Performance
+						Marketing?</span></h2>
+			</div>
+		</div>
+		<div class="row gy-3 gy-md-0 gx-md-5">
+			<div class="col-md-4">
+				<img src="/assets/images/service/pm/how-we-help-img-1.jpg" class="img-fluid"
+					alt="Performance Marketing in Dubai">
+				<h4>Cost Per Click (CPC)</h4>
+				<p>CPCs can be a great way to measure the profitability of your promotional campaigns and determine
+					where you should allocate your advertising dollars. By understanding how much each click costs, you
+					can better assess whether or not a campaign is worth investing.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="/assets/images/service/pm/how-we-help-img-2.jpg" class="img-fluid"
+					alt="Performance Marketing Dubai">
+				<h4>LifeTime Value(LTV)</h4>
+				<p>Performance marketers increasingly rely on lifetime value (LTV) to make data-driven decisions. In
+					other words, it estimates the revenue a single customer can bring throughout their relationship with
+					a company.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="/assets/images/service/pm/how-we-help-img-3.jpg" class="img-fluid"
+					alt="Performance Marketing Agency Near Me">
+				<h4>Click-Through Rate(CTR)</h4>
+				<p>Clickthrough rates are a vital metric for any online ad campaign. They help you understand how
+					efficient your ads are in generating clicks and can guide you in setting your budget.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="spb-50">
     <div class="container">
@@ -352,10 +376,8 @@
                             <img class="img-fluid" src="/assets/images/ppc/ppc-icon1.svg">
                         </div>
                         <div class="benefit-content-main">
-                            <h3 class="fs-20 mb-2 text-violet">Goal Planning & Strategy</h3>
-                            <p class="mb-0">We begin by understanding your business objectives through detailed discussions. This stage defines clear PPC goals
-                                such as brand visibility, traffic growth, or lead generation, enabling us to design focused campaign strategies aligned with
-                                measurable outcomes.</p>
+                            <h3 class="fs-20 mb-2 text-violet">Planning & Strategy</h3>
+                            <p class="mb-0">Every successful campaign starts with clarity. We dive deep into your business objectives to define focused PPC goals- brand awareness, qualified traffic, or high-intent leads- and build a strategy.</p>
                         </div>
                     </div>
                 </div>
@@ -366,9 +388,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-red">Competitor & Market Analysis</h3>
-                            <p class="mb-0">Our team conducts in-depth competitor benchmarking to understand market positioning and audience behavior. This analysis
-                                helps us craft distinctive, audience-aligned ads, identify gaps, and gain a strategic edge while planning precise and high-performing
-                                PPC campaigns.</p>
+                            <p class="mb-0">We don't guess the outcome, we analyze. Our team benchmarks your competitors, maps audience behavior, and identifies untapped opportunities. The result? Campaigns that stand out, not blend in.</p>
                         </div>
                     </div>
                 </div>
@@ -379,8 +399,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-blue">Keyword Research & Optimization</h3>
-                            <p class="mb-0">We develop a strong keyword foundation and continuously refine it by adding relevant long-tail and cost-efficient keywords.
-                                High-cost or low-performing terms are reviewed to ensure optimal budget utilization and sustained relevance across campaigns.</p>
+                            <p class="mb-0">The right keywords make or break a campaign. We build and continuously refine your keyword portfolio- adding high-intent, cost-efficient terms while cutting the waste ads spend.</p>
                         </div>
                     </div>
                 </div>
@@ -391,8 +410,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-green">Campaign Setup & Tracking</h3>
-                            <p class="mb-0">We build well-structured campaigns with defined budgets, bidding strategies, schedules, and geo-targeting. Advanced
-                                tracking and analytics tools are implemented to accurately monitor performance and ensure campaigns deliver consistent and goal-oriented results.</p>
+                            <p class="mb-0">Precision matters. We architect campaigns with optimized budgets, smart bidding, strategic scheduling, and geo-targeting. With advanced tracking, every click is measurable and every decision is driven by data.</p>
                         </div>
                     </div>
                 </div>
@@ -403,8 +421,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-yellow">Ad Creation & Landing Pages</h3>
-                            <p class="mb-0">Our experts craft compelling ad copies with strong CTAs and relevant extensions to enhance visibility and CTR. We also optimize
-                                landing pages to ensure message consistency, better user experience, and higher chances of conversions and lead generation.</p>
+                            <p class="mb-0">Clicks are only half the battle. Our team writes compelling, CTA-driven ad copy paired with high-converting landing pages. Message match and user experience are tuned to turn visitors into customers.</p>
                         </div>
                     </div>
                 </div>
@@ -415,8 +432,7 @@
                         </div>
                         <div class="benefit-content-main">
                             <h3 class="fs-20 mb-2 text-orange">Ads Monitoring & Testing</h3>
-                            <p class="mb-0">We track user actions such as purchases, form fills, and sign-ups to measure effectiveness. Through continuous A/B
-                                testing and performance analysis, we refine ads, reallocate budgets efficiently, and improve ROI across all PPC initiatives.</p>
+                            <p class="mb-0">We track what matters: purchases, leads, sign-ups. Through relentless A/B testing and performance analysis, we refine, reallocate, and scale what works- driving continuous improvement in ROI.</p>
                         </div>
                     </div>
                 </div>
@@ -756,93 +772,113 @@
         </div>
     </div>
 </section>
-<section class="sp-50 dm-blog-section">
+
+<section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
-        <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-            <h2 class="text-black mb-4 text-md-start text-center ">Case Studies That Showcase <br>Digital Marketing Success
-            </h2>
-       
-        </div>
-
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Sand Dollar - Ecommerce</h3>
-                            <p class="fs-20 text-black">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-2.webp">
-                            <strong>Branding & Digital Marketing</strong>
-                            <h3 class="text-black">TravelX</h3>
-                            <p class="fs-20 text-black">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-3.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">Crystal Plaza</h3>
-                            <p class="fs-20 text-black">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-4.webp">
-                            <strong>Digital Marketing</strong>
-                            <h3 class="text-black">NIMS School</h3>
-                            <p class="fs-20 text-black">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-5.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">Wipro Infrastructure Engineering</h3>
-                            <p class="fs-20 text-black">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-6.webp">
-                            <strong>Website & Digital Marketing</strong>
-                            <h3 class="text-black">NanoPrecise Sci Corp</h3>
-                            <p class="fs-20 text-black">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
                             </div>
                         </div>
                     </div>
-
 
                 </div>
-
             </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
         </div>
     </div>
 </section>
+<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+<?php
+$reviewSection = [
+    'title' =>  "The Impact We've Delivered <br>for Our Clients",
+    'bgClass' => 'dm-bg', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
 
 <!--<section>
     <div class="container">

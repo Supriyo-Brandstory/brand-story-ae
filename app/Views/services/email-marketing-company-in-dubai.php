@@ -5,7 +5,7 @@
             <div class="col-md-6"> <!--col start-->
                 <div class="service-banner-txt">
                     <h1>Email Marketing Company in Dubai</h1>
-                    <p>Brandstory is one of the best email marketing agency in Dubai UAE. We provide cost-effective email marketing campaign solution for enterprises, SMEs and Startups in GCC/UAE markets with high ROI. We increase your business leads, sales and conversion in the target region with the target audience.</p>
+                    <p>Turn your email list into a revenue-generating asset with BrandStory. We create strategic email marketing campaigns that help businesses in Dubai increase engagement, nurture prospects, and convert subscribers into customers. From personalized email sequences and promotional campaigns to automation and analytics, our team ensures every email marketing campaign contributes to your business growth.</p>
                     <div class="sb-btn"><a href="#knowMore" class="kmbtn btn btn-blue">Drive Sales with Email Marketing!</a></div>
                 </div>
             </div><!--col end-->
@@ -304,107 +304,7 @@
         </div>
     </div>
 </section>
-<section class="em-services sp-50">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-center mb-5">Services</h2>
-            </div>
-        </div>
-        <div class="row gy-5">
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-1.png" class="img-fluid" alt="email marketing companies dubai">
-                    <div class="em-service-box-content">
-                        <h5>Best Digital Marketing Agency in Dubai</h5>
-                        <a href="/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-2.png" class="img-fluid" alt="email marketing agencies dubai">
-                    <div class="em-service-box-content">
-                        <h5>UI UX Design Studio Dubai</h5>
-                        <a href="/ui-ux-design-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-3.png" class="img-fluid" alt="email marketing services dubai">
-                    <div class="em-service-box-content">
-                        <h5>Website Development Company in Dubai</h5>
-                        <a href="/website-design-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-4.png" class="img-fluid" alt="email marketing consultant dubai">
-                    <div class="em-service-box-content">
-                        <h5>Top SEO Company in Dubai</h5>
-                        <a href="/seo-services-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-5.png" class="img-fluid" alt="email marketing agencies dubai">
-                    <div class="em-service-box-content">
-                        <h5>Social Media Marketing Dubai</h5>
-                        <a href="/social-media-marketing-agency-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-6.png" class="img-fluid" alt="best email marketing agencies dubai">
-                    <div class="em-service-box-content">
-                        <h5>PR Agency UAE</h5>
-                        <a href="/pr-agency-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-7.png" class="img-fluid" alt="top email marketing agencies dubai">
-                    <div class="em-service-box-content">
-                        <h5>Email Marketing Services Dubai</h5>
-                        <a href="/email-marketing-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-8.png" class="img-fluid" alt="top 10 email marketing agencies dubai">
-                    <div class="em-service-box-content">
-                        <h5>PPC Marketing Dubai</h5>
-                        <a href="/pay-per-click-ppc-services-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-9.png" class="img-fluid" alt="email marketing consultants dubai">
-                    <div class="em-service-box-content">
-                        <h5>B2B Lead Generation Companies in Dubai</h5>
-                        <a href="/b2b-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="em-service-box">
-                    <img src="/assets/images/service/em/em-service-icon-10.png" class="img-fluid" alt="email marketing services dubai">
-                    <div class="em-service-box-content">
-                        <h5>Content Writers in Dubai</h5>
-                        <a href="/content-writing-company-in-dubai/">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="why-em sp-50">
     <div class="container">
         <div class="row">
@@ -469,18 +369,17 @@
 </section>
 <section class="wcb-sec seo-wcb-sec sp-50">
     <div class="container"><!--Container Start-->
-        <h2 class="text-center text-white">Choosing the right email marketing agency for your company </h2>
-        <p class="text-center text-white mt-3">Well, now that we have understood the benefits of Email Marketing, the question arises which email marketing agency to choose for your company and how to determine the best fit.</p>
-        <p class="text-center text-white mt-3">Here are some of the parameters that you should evaluate before choosing your marketing agency:</p>
+        <h2 class="text-center text-white">Why Choose BrandStory for <br>Email Marketing in Dubai</h2>
+        <p class="text-center text-white mt-3">Email marketing remains one of the most direct, high-ROI channels for businesses in Dubai. But results depend on strategy, execution, and the right partner. BrandStory combines data-driven expertise with local market knowledge to deliver campaigns that drive real business growth.</p>
         <div class="row g-md-5 spt-50"><!--Row Start-->
             <div class="col-md-4"> <!--col start-->
                 <div class="wcb-box">
                     <div class="wcb-no">01</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-1.png" class="img-fluid" alt="email marketing dubai"></div>
-                        <h6>Identification of your goals</h6>
+                        <h6>Built Around Your Goals</h6>
                     </div>
-                    <p>An organization needs to identify the goals it’s trying to achieve through email marketing and whether or not an agency fits into their vision. The strengths and assets of the agency need to be in sync with your goals.</p>
+                    <p>We begin with discovery, not templates. BrandStory takes the time to understand what success looks like for your business then engineers email campaigns that get you there. Every campaign is designed to deliver real outcomes.</p>
                 </div>
             </div><!--col end-->
             <div class="col-md-4 wcb-border"> <!--col start-->
@@ -488,9 +387,9 @@
                     <div class="wcb-no">02</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-2.png" class="img-fluid" alt="email marketing companies in dubai"></div>
-                        <h6>Customer-Centric approach</h6>
+                        <h6>Dubai Market Expertise</h6>
                     </div>
-                    <p>The agency you pick for your marketing needs should be as customer-oriented and mindful of customer needs as your organization is. The kind of service and personal connection your agency establishes will go a long way in increasing your customer base. </p>
+                    <p>As a Dubai-based agency, we understand the local landscape, audience behaviors, and cultural nuances that make campaigns succeed in this market. We send the right emails to the right people in the right context. </p>
                 </div>
             </div><!--col end-->
             <div class="col-md-4"> <!--col start-->
@@ -498,92 +397,15 @@
                     <div class="wcb-no">03</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/service/em/em-choosing-icon-3.png" class="img-fluid" alt="email marketing company in dubai"></div>
-                        <h6>Budget Cost-effectiveness</h6>
+                        <h6>Guaranteed Results</h6>
                     </div>
-                    <p>Budget Cost-effectiveness is one of the primary benefits of email marketing. Therefore, it’s important to analyze the cost involved and arrive at an optimum ROI figure and collaborate with an agency to suitably utilize the earmarked budget. </p>
+                    <p>We believe in accountability. From clear cost structures to detailed performance reports, BrandStory ensures you always know where your budget is going and what it's achieving. Our focus is simple: your growth, backed by data.</p>
                 </div>
             </div><!--col end-->
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
-<section class="perks-of-w sp-50 benefits-of-choosing">
-    <div class="container"><!--Container Start-->
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="mb-3">Benefits of choosing BrandStory for <span class="db">Email marketing for you</span></h2>
-                <p>This is where we come in; we at Brandstory provide digital, design and development marketing solutions. We are one of the most prominent <span class="txt-blue">digital marketing</span> agencies in India. Our email marketing solutions are personalized and targeted at the most relevant group of consumers for your organization.</p>
-                <p>Here are some of the reasons why you should choose BrandStory as your email marketing agency:</p>
-                <p><b>Dedicated team</b></p>
-                <p>Any content is as good as the people behind its creation. Our In-house experts and dedicated team of people ensure that all the analytical metrics are constantly evaluated and incorporated into decision making and consequently reflected in the marketing content.</p>
-            </div>
-        </div>
-        <div class="row g-md-5 spt-50 align-items-stretch"><!--Row Start-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-1.png" class="img-fluid" alt="email marketing companies in dubai"></div>
-                    <h4 class="mb-3">Business Strategy Support</h4>
-                    <p>Effective strategy is the fuel required for creating the best marketing content. Therefore, we don’t just curate content for you; we also extend extensive business strategy support. We brainstorm and liaise with your organization in order to produce the most relevant marketing content to strike a chord with your customers.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-2.png" class="img-fluid" alt="email marketing company in dubai"></div>
-                    <h4 class="mb-3">Understanding Customer Requirement</h4>
-                    <p>Personalization is the USP of email marketing. It is important to add a personal touch to content as it increases customer responsiveness. We at BrandStory go the extra mile to extensively collect and integrate customer-centric data. We research and understand customer requirements and tailor-make the email content accordingly.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-3.png" class="img-fluid" alt="b2b email marketing company in dubai"></div>
-                    <h4 class="mb-3">Proof-read content</h4>
-                    <p>One of the most common mistakes in email marketing is poorly designed content containing typos or irrelevant images. We make sure that the content is error-proof and has contextual content. Ensuring that there are no unwanted spelling, grammatical or contextual flaws.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-4.png" class="img-fluid" alt="b2b email marketing companies in dubai"></div>
-                    <h4 class="mb-3">Suitable Physical location</h4>
-                    <p>Bangalore being India’s Silicon Valley has a distinct advantage when it comes to obtaining a diverse sample space. Being a place with multiple ethnicities and consumer-facing brands, the marketing agencies in Bangalore gain extensive exposure to market behavior, consumer behavior and build a high understanding of the brand competitions and the latest market trends.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-5.png" class="img-fluid" alt="b2c email marketing companies in dubai"></div>
-                    <h4 class="mb-3">Technical Expertise</h4>
-                    <p>The best content is one that is both personal and well-designed from a technical perspective. The complete synchronization of the content with multiple devices, easy subscribe and unsubscribe buttons and smooth rendering of dynamic content is quite important in order to convey the message effectively and ensure a hassle-free consumer interaction.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-6.png" class="img-fluid" alt="email marketing agency in dubai"></div>
-                    <h4 class="mb-3">Appropriate Schedules</h4>
-                    <p>Time management is an important aspect of marketing. The most suitable schedule time and date make a huge difference in how the customer perceives and responds to the content. The right time and occasion can make all the difference and trigger swift action as well.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-7.png" class="img-fluid" alt="b2b email marketing dubai"></div>
-                    <h4 class="mb-3">Relevant Content</h4>
-                    <p>Email marketing fails to accomplish its goals when companies bombard the prospective or eve existing customers with excessive promotional emails several times a day. It gets slotted as spam and serves no purpose. We ensure that the content is relevant to the user. Sending mails to wrong target groups can have a detrimental effect on the brand’s image</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-8.png" class="img-fluid" alt="b2c email marketing dubai"></div>
-                    <h4 class="mb-3">Appropriate Call-to-action</h4>
-                    <p>Call-to-action is the desired logical progression from the customer. The content should encourage the user to willingly respond and take the next step; this is where call-to-action comes in. The links, forms or any other response-capturing elements should be embedded in the mail. Basic sanity checks and working of the embedded links are also critical to an effective response.</p>
-                </div>
-            </div><!--col end-->
-            <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
-                <div class="pow-box">
-                    <div class="mb-3"><img src="/assets/images/service/em/bc-icon-9.png" class="img-fluid" alt="b2b email marketing services dubai"></div>
-                    <h4 class="mb-3">Leveraging Social Media</h4>
-                    <p>Social media is an effective way to build your email list and engage your audience. Creation of CTA that leads to a landing page on Facebook, the creation of contests or giveaways or planting surveys on social media boosts the customer response</p>
-                </div>
-            </div><!--col end-->
-        </div><!--Row End-->
-    </div><!--Container End-->
-</section>
+
 <section class="sp-50">
     <div class="container"><!--Container Start-->
         <?php include __DIR__ . '/../component/services/new-service.php' ?>
