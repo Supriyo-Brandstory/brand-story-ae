@@ -14811,8 +14811,8 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 /* Navigation Buttons styled in theme color (blue circles with white arrows) */
 .email-designs-prev,
 .email-designs-next {
-    width: 48px;
-    height: 48px;
+    width: 48px !important;
+    height: 48px !important;
     background-color: #2E63D8 !important;
     /* Brand Blue */
     border-radius: 50% !important;
@@ -14889,4 +14889,369 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         padding-right: 0 !important;
     }
 
+}
+
+
+
+.podcast-sec {
+    background-color: #ffffff;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+}
+
+.podcast-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 24px 30px;
+    text-decoration: none !important;
+    color: #131313 !important;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%;
+}
+
+.podcast-card:hover {
+    border-color: #2E63D8;
+    box-shadow: 0 10px 30px rgba(46, 99, 216, 0.08);
+    transform: translateY(-3px);
+    color: #2E63D8 !important;
+}
+
+.podcast-img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.podcast-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.podcast-info h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: inherit;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.video-workflow-sec {
+    background-color: #060709;
+    /* Solid dark theme background */
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.workflow-title-block h2 {
+    color: #ffffff;
+}
+
+.workflow-title-block p.section-desc {
+    color: #a0a5b5;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/* Accordion Styling */
+.workflow-accordion {
+    margin-top: 20px;
+}
+
+.workflow-acc-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 24px 0;
+}
+
+.workflow-acc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.workflow-acc-header h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #8f95a5;
+    margin: 0;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.workflow-acc-header:hover h3 {
+    color: #ffffff;
+}
+
+.workflow-acc-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8f95a5;
+    font-weight: normal;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.workflow-acc-header:hover .workflow-acc-icon {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.workflow-acc-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s ease;
+    opacity: 0;
+}
+
+.workflow-acc-content {
+    padding-top: 15px;
+}
+
+.workflow-acc-content p {
+    color: #c5cad9;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.workflow-acc-content ul {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+@media (max-width: 767px) {
+    .workflow-acc-content ul {
+        grid-template-columns: 1fr;
+    }
+
+    .video-projects-sec {
+        padding: 0 !important;
+    }
+
+    section#knowMore {
+        padding-top: 0 !IMPORTANT;
+    }
+}
+
+.workflow-acc-content ul li {
+    position: relative;
+    padding-left: 28px;
+    color: #e2e6f0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.workflow-acc-content ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    background-color: #2E63D8;
+    /* Theme Blue */
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Active Accordion Item */
+.workflow-acc-item.active .workflow-acc-header h3 {
+    color: #2E63D8;
+    /* Theme Blue */
+}
+
+.workflow-acc-item.active .workflow-acc-icon {
+    border-color: #2E63D8;
+    color: #2E63D8;
+}
+
+.workflow-acc-item.active .workflow-acc-body {
+    max-height: 500px;
+    opacity: 1;
+}
+
+/* Interactive Timeline Grid (Right side) */
+.timeline-grid-container {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-color: #030406;
+    /* Pitch black */
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+    /* Grid spacing matching coordinates */
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.timeline-node {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: rgba(18, 20, 26, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px 18px;
+    border-radius: 30px;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.timeline-node .node-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-right: 12px;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.timeline-node span {
+    color: #a0a5b5;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    transition: color 0.3s ease;
+}
+
+/* Individual Vertical Connector Lines */
+.timeline-node .active-line {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background: linear-gradient(to top, #2E63D8, rgba(46, 99, 216, 0.02));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.timeline-node.active .active-line {
+    opacity: 1;
+}
+
+/* Timeline Nodes Offsets aligned with 60px horizontal grid lines */
+.timeline-node[data-step="1"] {
+    top: 60px;
+    left: 50%;
+}
+
+.timeline-node[data-step="1"] .active-line {
+    height: 60px;
+}
+
+.timeline-node[data-step="2"] {
+    top: 180px;
+    left: 72%;
+}
+
+.timeline-node[data-step="2"] .active-line {
+    height: 180px;
+}
+
+.timeline-node[data-step="3"] {
+    top: 300px;
+    left: 45%;
+}
+
+.timeline-node[data-step="3"] .active-line {
+    height: 300px;
+}
+
+.timeline-node[data-step="4"] {
+    top: 420px;
+    left: 75%;
+}
+
+.timeline-node[data-step="4"] .active-line {
+    height: 420px;
+}
+
+/* Node Custom Icon Accent Colors */
+.timeline-node[data-step="1"] .node-icon {
+    background-color: #9b51e0;
+}
+
+/* Purple */
+.timeline-node[data-step="2"] .node-icon {
+    background-color: #f2994a;
+}
+
+/* Orange */
+.timeline-node[data-step="3"] .node-icon {
+    background-color: #f2c94c;
+}
+
+/* Yellow */
+.timeline-node[data-step="4"] .node-icon {
+    background-color: #2f80ed;
+}
+
+/* Blue */
+
+/* Active Node States highlighting with Theme Color Blue */
+.timeline-node.active {
+    background: rgba(46, 99, 216, 0.12);
+    border-color: #2E63D8;
+    transform: scale(1.05);
+}
+
+.timeline-node.active span {
+    color: #ffffff;
+}
+
+/* Radial Backdrop Glow in Theme Color Blue behind active node */
+.timeline-node.active::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    height: 140%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(46, 99, 216, 0.25) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(10px);
+}
+
+@media (max-width: 991px) {
+    .timeline-grid-container {
+        display: none;
+        /* Clean layout hiding grid timeline on mobile, focusing entirely on responsive accordion */
+    }
 }

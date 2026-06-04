@@ -64,6 +64,324 @@
         </div><!--Row End-->
     </div><!--Container End-->
 </section>
+<!-- Podcasts Production Section -->
+<section class="podcast-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-5">Podcasts Production</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center gy-4">
+            <div class="col-md-6 col-lg-5">
+                <a href="https://www.instagram.com/theindiaprshow/" target="_blank" class="podcast-card">
+                    <div class="podcast-img">
+                        <img src="https://brandstory.in/digital/assets/images/video-production/podcast1.svg" class="img-fluid" alt="The indian PR Show">
+                    </div>
+                    <div class="podcast-info">
+                        <h4>The indian PR Show</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-5">
+                <a href="https://www.youtube.com/@IconicWomenPodcast" target="_blank" class="podcast-card">
+                    <div class="podcast-img">
+                        <img src="https://brandstory.in/digital/assets/images/video-production/podcast2.svg" class="img-fluid" alt="Iconic Women Podcast">
+                    </div>
+                    <div class="podcast-info">
+                        <h4>Iconic Women Podcast</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Creating Compelling Videos Section -->
+<section class="video-compelling-sec sp-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mb-3">Creating Compelling Videos That Serve Your Organization's Purpose Creatively</h2>
+                <p>Videos are not just content but an experience for the new digital world. Whether it's telling your brand story, educating your audience, or driving engagement, they have the power to attract, engage and rightly communicate like no other medium.</p>
+                <p>As a top video production company in Dubai, BrandStory offers a strategic partnership to its clients that goes beyond just creating videos. We act as an extension of your brand, suggesting what works for the objectives you have, producing videos based on the plans and ensuring your message reaches the right audience in the most impactful way.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4 gy-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="video-purpose-card">
+                    <div class="icon-box color-red">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <text x="6" y="12" font-size="6" font-family="sans-serif" font-weight="bold" fill="currentColor" stroke="none">4K</text>
+                        </svg>
+                    </div>
+                    <h4>Marketing</h4>
+                    <p>Videos are a powerful tool for marketing and advertising, as they can convey complex messages in an engaging and easily understandable way. Videos can also help to establish a company's brand identity and increase its visibility and recognition.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="video-purpose-card">
+                    <div class="icon-box color-blue">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                            <circle cx="12" cy="12" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h4>Education</h4>
+                    <p>Videos can be used for education purposes, providing users with visual and interactive resources to learn about the business, new skills and processes. Videos are the better way to communicate brand advocacy and showcase products and services.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="video-purpose-card">
+                    <div class="icon-box color-teal">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="21" x2="4" y2="14"></line>
+                            <line x1="4" y1="10" x2="4" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12" y2="3"></line>
+                            <line x1="20" y1="21" x2="20" y2="16"></line>
+                            <line x1="20" y1="12" x2="20" y2="3"></line>
+                            <line x1="1" y1="14" x2="7" y2="14"></line>
+                            <line x1="9" y1="8" x2="15" y2="8"></line>
+                            <line x1="17" y1="16" x2="23" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h4>Engagement</h4>
+                    <p>Videos can be used to create engaging content for social media and other online platforms, which can help to drive traffic and increase engagement with customers and followers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- More Than 60 Projects Section -->
+<section class="video-projects-sec sp-50">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="mb-3">More Than 60 Video Production Projects Handled</h2>
+                <p class="mb-4">BrandStory is an Avant-Garde creative agency as well as a video production company that specializes in creating high-quality videos for businesses and organizations. Based in Dubai, we offer video production services for a range of requirements, including</p>
+                
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">Corporate Video Creation</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">Videos For Brands</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">Promo Videos</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">Employee Videos</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">Product Videos</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="video-project-type-box">2D & 3D Animation Videos</div>
+                    </div>
+                </div>
+                
+                <p class="mb-4">Our creative team makes sure that the finished product ensures satisfied clients.</p>
+                
+                <div class="mb-4 mb-lg-0">
+                    <a href="/contact/" class="btn btn-blue btn-theme-color">Book a Meeting</a>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="video-grid-wrapper">
+                    <div class="video-grid-col">
+                        <!-- Portrait Image 1 -->
+                        <div class="video-grid-img portrait">
+                            <img src="<?= base_url('assets/images/service/video_presenter_portrait.png') ?>" alt="Video Presenter Portrait">
+                        </div>
+                        <!-- Landscape Image 1 -->
+                        <div class="video-grid-img landscape mt-4">
+                            <img src="<?= base_url('assets/images/video-seo/sharjah/c-video-3.jpg') ?>" alt="Video Studio Shoot">
+                        </div>
+                    </div>
+                    <div class="video-grid-col">
+                        <!-- Portrait Image 2 -->
+                        <div class="video-grid-img portrait">
+                            <img src="<?= base_url('assets/images/video-seo/sharjah/c-prod-9.jpg') ?>" alt="Corporate Presentation">
+                        </div>
+                        <!-- Landscape Image 2 -->
+                        <div class="video-grid-img landscape mt-4">
+                            <img src="<?= base_url('assets/images/video-seo/sharjah/c-video-4.jpg') ?>" alt="Video Editing Workstation">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.video-compelling-sec {
+    background-color: #ffffff;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+}
+
+.video-compelling-sec h2,
+.video-projects-sec h2 {
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #131313;
+}
+
+.video-compelling-sec p,
+.video-projects-sec p {
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    color: #555555;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/* Purpose Card */
+.video-purpose-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 30px 24px;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.video-purpose-card:hover {
+    transform: translateY(-5px);
+}
+
+.video-purpose-card .icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.video-purpose-card .icon-box.color-red {
+    background-color: #ff6b6b;
+}
+
+.video-purpose-card .icon-box.color-blue {
+    background-color: #2E63D8; /* Theme Blue */
+}
+
+.video-purpose-card .icon-box.color-teal {
+    background-color: #20c997;
+}
+
+.video-purpose-card h4 {
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #131313;
+}
+
+.video-purpose-card p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+/* Projects Section & Grid */
+.video-projects-sec {
+    background-color: #ffffff;
+}
+
+.video-project-type-box {
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 15px;
+    font-family: var(--font-main), 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.video-project-type-box:hover {
+    border-color: #2E63D8;
+    color: #2E63D8;
+}
+
+.btn-theme-color {
+    background-color: #2E63D8 !important; /* Theme Color */
+    border-color: #2E63D8 !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 12px 28px !important;
+    color: #ffffff !important;
+}
+
+.btn-theme-color:hover {
+    background-color: #1c4bb7 !important;
+}
+
+.video-grid-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.video-grid-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-grid-img {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.video-grid-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.video-grid-img:hover img {
+    transform: scale(1.05);
+}
+
+.video-grid-img.portrait {
+    height: 320px;
+}
+
+.video-grid-img.landscape {
+    height: 180px;
+}
+
+@media (max-width: 575px) {
+    .video-grid-wrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+    .video-grid-col {
+        margin-top: 0 !important;
+    }
+    .video-grid-img {
+        margin-top: 15px !important;
+    }
+}
+</style>
 
 <section id="knowMore" class="wt-is-ff sp-50">
   <div class="container">
@@ -188,79 +506,195 @@
     </div>
 </section>
 
-<section class="web-why-choose sp-50">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="text-center mb-3 mb-md-5">
-          <h2>Our Video Production Process</h2>
+<!-- Interactive Video Production Process Section -->
+<section class="video-workflow-sec sp-50">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Column: Accordion workflow description & Section Header -->
+            <div class="col-lg-6">
+                <div class="workflow-title-block mb-4">
+                    <h2>What Does BrandStory Offer for Your Video Production Requirements?</h2>
+                    <p class="section-desc mt-3">BrandStory, the leading video production company in Dubai, creates high-quality, engaging videos aligned with your brand identity and marketing goals. Incorporating the brand's voice, values, and aesthetics, we make sure that the outputs resonate well with the intended audience. We handle the entire process of video production from discovery to the final, ready-to-launch stage with our industry expertise, well-planned execution strategy, skilled team and cutting-edge tools and technologies.</p>
+                </div>
+                
+                <div class="workflow-accordion">
+                    <!-- Step 1: Discovery -->
+                    <div class="workflow-acc-item active" data-step="1">
+                        <div class="workflow-acc-header">
+                            <h3>Discovery</h3>
+                            <div class="workflow-acc-icon">−</div>
+                        </div>
+                        <div class="workflow-acc-body">
+                            <div class="workflow-acc-content">
+                                <p>In-depth research, deliberate questioning, and attentive listening to gain a profound understanding of the client's needs, goals, and market landscape.</p>
+                                <ul>
+                                    <li>Project scoping and goal definition</li>
+                                    <li>Stakeholder interviews and requirements gathering</li>
+                                    <li>User research and persona development</li>
+                                    <li>Competitive analysis and market research</li>
+                                    <li>Information architecture and user flow mapping</li>
+                                    <li>Usability testing and feedback collection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Pre-Production -->
+                    <div class="workflow-acc-item" data-step="2">
+                        <div class="workflow-acc-header">
+                            <h3>Pre-Production</h3>
+                            <div class="workflow-acc-icon">+</div>
+                        </div>
+                        <div class="workflow-acc-body">
+                            <div class="workflow-acc-content">
+                                <p>Translating strategy into actionable creative plans. This stage includes refining concepts, writing scripts, storyboarding, scouting locations, casting talent, and planning logistics.</p>
+                                <ul>
+                                    <li>Concept development and creative treatment</li>
+                                    <li>Scriptwriting and screenplay finalization</li>
+                                    <li>Storyboarding and scene mapping</li>
+                                    <li>Auditions, casting, and talent hiring</li>
+                                    <li>Location scouting and permission management</li>
+                                    <li>Crew assembly and gear selection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: Production -->
+                    <div class="workflow-acc-item" data-step="3">
+                        <div class="workflow-acc-header">
+                            <h3>Production</h3>
+                            <div class="workflow-acc-icon">+</div>
+                        </div>
+                        <div class="workflow-acc-body">
+                            <div class="workflow-acc-content">
+                                <p>Bringing ideas to life on set. Our professional crew captures high-fidelity visuals and pristine audio utilizing cinema-grade equipment and advanced lighting setups.</p>
+                                <ul>
+                                    <li>Cinematic camera setup and shooting (4K / 8K)</li>
+                                    <li>Multi-point studio and scene lighting configuration</li>
+                                    <li>Professional field audio recording and monitoring</li>
+                                    <li>Directing talent and controlling scenes</li>
+                                    <li>B-roll and secondary footage acquisition</li>
+                                    <li>Real-time video monitoring and playback checks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4: Post-Production -->
+                    <div class="workflow-acc-item" data-step="4">
+                        <div class="workflow-acc-header">
+                            <h3>Post-Production</h3>
+                            <div class="workflow-acc-icon">+</div>
+                        </div>
+                        <div class="workflow-acc-body">
+                            <div class="workflow-acc-content">
+                                <p>Assembling, polishing, and perfecting the final cut. Our editors, colorists, and sound designers weave footage, audio, and visual effects into a compelling master copy.</p>
+                                <ul>
+                                    <li>Video editing and assembly cut creation</li>
+                                    <li>Color grading and color correction for cinematic look</li>
+                                    <li>Audio mixing, sound design, and voiceover addition</li>
+                                    <li>Motion graphics, titling, and 2D/3D VFX integration</li>
+                                    <li>Music licensing and sound editing</li>
+                                    <li>Exporting, formatting, and delivery for platforms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column: Interactive Grid timeline nodes -->
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="timeline-grid-container">
+                    <!-- Node 1 -->
+                    <div class="timeline-node active" data-step="1">
+                        <div class="active-line"></div>
+                        <div class="node-icon">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        </div>
+                        <span>Discovery</span>
+                    </div>
+                    
+                    <!-- Node 2 -->
+                    <div class="timeline-node" data-step="2">
+                        <div class="active-line"></div>
+                        <div class="node-icon">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <span>Pre-Production</span>
+                    </div>
+                    
+                    <!-- Node 3 -->
+                    <div class="timeline-node" data-step="3">
+                        <div class="active-line"></div>
+                        <div class="node-icon">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"></path><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+                        </div>
+                        <span>Production</span>
+                    </div>
+                    
+                    <!-- Node 4 -->
+                    <div class="timeline-node" data-step="4">
+                        <div class="active-line"></div>
+                        <div class="node-icon">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+                        </div>
+                        <span>Post-Production</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="row gy-4 gy-md-5 gx-md-4">
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">01</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-1.png" class="img-fluid" alt="Video Marketing Agency in Dubai">
-            <h4>Discovery & Strategy</h4>
-          </div>
-          <p class="mt-3">We begin by understanding your brand, target audience, and business goals. This discovery phase helps us craft a customized video marketing strategy that aligns with your vision.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">02</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-2.png" class="img-fluid" alt="Video Marketing Services in Dubai">
-            <h4>Concept & Scripting</h4>
-          </div>
-          <p class="mt-3">Our creative team brainstorms innovative concepts and writes compelling scripts. We ensure the narrative is engaging, clear, and perfectly tailored to resonate with your audience.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">03</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-3.png" class="img-fluid" alt="Video Marketing in Dubai">
-            <h4>Storyboarding</h4>
-          </div>
-          <p class="mt-3">Before rolling the cameras, we create detailed storybooks that outline every scene. This visual representation guarantees that everyone is aligned on the final look and feel.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">04</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-4.png" class="img-fluid" alt="Video Marketing Dubai">
-            <h4>Production</h4>
-          </div>
-          <p class="mt-3">Our experienced film crew brings your story to life using state-of-the-art cinematic equipment. We focus on capturing high-quality visuals and pristine audio.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">05</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-5.png" class="img-fluid" alt="video production company in dubai">
-            <h4>Post-Production</h4>
-          </div>
-          <p class="mt-3">Our expert editors assemble the footage, adding motion graphics, color grading, sound design, and music to create a polished, final product that captivates viewers.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="web-why-choose-box">
-          <h3 class="mb-4">06</h3>
-          <div class="ff-img-sec">
-            <img src="/assets/images/service/ff/ff-stages-icon-6.png" class="img-fluid" alt="video marketing agency in dubai">
-            <h4>Distribution</h4>
-          </div>
-          <p class="mt-3">A great video needs a great audience. We help you launch your video across the right platforms be it social media, YouTube, or your website to maximize reach and ROI.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const accItems = document.querySelectorAll('.workflow-acc-item');
+    const nodes = document.querySelectorAll('.timeline-node');
+    
+    // Function to activate a specific step
+    function activateStep(stepNum) {
+        // Deactivate all accordion items and timeline nodes
+        accItems.forEach(item => {
+            item.classList.remove('active');
+            const icon = item.querySelector('.workflow-acc-icon');
+            if (icon) icon.textContent = '+';
+        });
+        nodes.forEach(node => node.classList.remove('active'));
+        
+        // Activate matching step
+        const activeItem = document.querySelector(`.workflow-acc-item[data-step="${stepNum}"]`);
+        const activeNode = document.querySelector(`.timeline-node[data-step="${stepNum}"]`);
+        
+        if (activeItem) {
+            activeItem.classList.add('active');
+            const icon = activeItem.querySelector('.workflow-acc-icon');
+            if (icon) icon.textContent = '−';
+        }
+        if (activeNode) activeNode.classList.add('active');
+    }
+    
+    // Add click listeners to accordion headers
+    accItems.forEach(item => {
+        const header = item.querySelector('.workflow-acc-header');
+        header.addEventListener('click', () => {
+            const step = item.getAttribute('data-step');
+            activateStep(step);
+        });
+    });
+    
+    // Add click listeners to timeline nodes
+    nodes.forEach(node => {
+        node.addEventListener('click', () => {
+            const step = node.getAttribute('data-step');
+            activateStep(step);
+        });
+    });
+});
+</script>
 
 <section class="perks sp-50">
   <div class="container">
