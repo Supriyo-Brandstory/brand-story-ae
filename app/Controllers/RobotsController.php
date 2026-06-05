@@ -16,7 +16,7 @@ class RobotsController
 
         if (empty($content)) {
             // Default robots.txt content if nothing is saved
-            $content = "User-agent: *\nDisallow: /admin/\nAllow: /";
+            $content = "User-agent: *\nDisallow: /admin/\nDisallow: /home-2\nAllow: /";
         }
 
         header('Content-Type: text/plain; charset=utf-8');

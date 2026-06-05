@@ -6653,7 +6653,7 @@ a.applybtn-link:hover {
 /* Responsive Overrides */
 @media (max-width: 991px) {
     .vision-showreel-section {
-        padding-top: 80px;
+        padding-top: 0px;
     }
 
 
@@ -6665,7 +6665,7 @@ a.applybtn-link:hover {
 
 @media (max-width: 767px) {
     .vision-showreel-section {
-        padding-top: 60px;
+        padding-top: 0px;
     }
 
 
@@ -6873,6 +6873,268 @@ a.applybtn-link:hover {
     }
 
     .showreel-stats-container .stat-label {
+        font-size: 12px;
+    }
+}
+
+/* ==========================================================================
+   WEB DESIGN SHOWCASE CARD (Roshni Technologies Mockup Style)
+   ========================================================================== */
+.web-design-showcase-container {
+    width: 100%;
+    max-width: 89%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background: transparent;
+}
+
+.web-design-showcase-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    min-height: 480px;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0px 60px 0px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.showcase-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/pexels-sirokad-37721645.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    will-change: transform;
+    transition: transform 0.1s ease-out;
+}
+
+/* Background overlay to improve contrast for white text */
+.web-design-showcase-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.55) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.showcase-top-row {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+.showcase-text-left {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 550px;
+    font-family: var(--font-main, 'Outfit', sans-serif);
+    padding: 20px;
+}
+
+.showcase-link-right {
+    white-space: nowrap;
+}
+
+.showcase-contact-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    font-family: var(--font-main, 'Outfit', sans-serif);
+    padding: 20px;
+}
+
+.showcase-contact-link:hover {
+    color: #fff;
+    transform: translateX(6px);
+}
+
+.showcase-marquee-wrap {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -60px;
+    /* clips the text on the bottom edge */
+    user-select: none;
+    pointer-events: none;
+    display: flex;
+}
+
+.showcase-marquee-inner {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee-scroll 25s linear infinite;
+    will-change: transform;
+}
+
+.showcase-marquee-inner span {
+    color: #ffffff;
+    font-size: clamp(3rem, 9.8vw, 16rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.75;
+    letter-spacing: -3px;
+    padding-right: 80px;
+    /* spacing between words */
+    font-family: var(--font-main, 'Outfit', sans-serif);
+    display: inline-block;
+}
+
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.showcase-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 0 10px;
+}
+
+.showcase-footer-left,
+.showcase-footer-right {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: var(--font-main, 'Outfit', sans-serif);
+}
+
+/* Responsiveness overrides for the showcase section */
+@media (max-width: 1400px) {
+    .web-design-showcase-card {
+        padding: 50px 60px;
+        min-height: 420px;
+    }
+
+    .showcase-text-left {
+        font-size: 20px;
+        max-width: 480px;
+    }
+
+    .showcase-contact-link {
+        font-size: 18px;
+    }
+
+    .showcase-marquee-wrap {
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .web-design-showcase-container {
+        max-width: 92%;
+    }
+
+    .web-design-showcase-card {
+        padding: 40px 40px;
+        min-height: 360px;
+        border-radius: 30px;
+    }
+
+    .showcase-text-left {
+        font-size: 18px;
+        max-width: 420px;
+    }
+
+    .showcase-contact-link {
+        font-size: 16px;
+    }
+
+    .showcase-marquee-wrap {
+        margin-bottom: -40px;
+    }
+
+    .showcase-footer-left,
+    .showcase-footer-right {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .web-design-showcase-container {
+        max-width: 90%;
+    }
+
+    .web-design-showcase-card {
+        padding: 40px 0px 50px 0px;
+        min-height: 500px;
+        border-radius: 40px;
+        gap: 30px;
+    }
+
+    .showcase-top-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .showcase-text-left {
+        font-size: 18px;
+        max-width: 100%;
+        line-height: 1.4;
+        padding: 0 24px;
+    }
+
+    .showcase-contact-link {
+        font-size: 16px;
+        padding: 0 24px;
+    }
+
+    .showcase-marquee-wrap {
+        margin-bottom: -32px;
+    }
+
+    .showcase-marquee-inner span {
+        font-size: clamp(2.5rem, 15vw, 6rem);
+        padding-right: 50px;
+        letter-spacing: -1.5px;
+    }
+
+    .showcase-card-footer {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+
+    .showcase-footer-left,
+    .showcase-footer-right {
         font-size: 12px;
     }
 }

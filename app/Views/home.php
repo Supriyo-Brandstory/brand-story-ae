@@ -77,32 +77,62 @@
 </section>
 
 <section class="vision-showreel-section">
-    <div class="container text-center showreel-header">
-        <!-- <div class="showreel-badge">
-            A Team of Experts That Clicks With Your Vision
+    <div class="web-design-showcase-container">
+        <div class="web-design-showcase-card">
+            <div class="showcase-bg-image"></div>
+            <div class="showcase-top-row">
+                <div class="showcase-text-left">
+                    We blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.
+                </div>
+                <div class="showcase-link-right">
+                    <a href="/contact/" class="showcase-contact-link"><svg class="flex self-center svelte-34pg1c" width="35" height="9" viewBox="0 0 35 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M23 1L33 4.5M33 4.5L23 8.5M33 4.5H0"></path></svg> Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="showcase-marquee-wrap">
+                <div class="showcase-marquee-inner">
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                    <span>BRANDSTORY</span>
+                </div>
+            </div>
         </div>
-        <div class="showreel-divider"></div> -->
-        <h2 class="showreel-title">
-            Your Growth Journey Deserves More Than
-            <span class="highlight-text">Just Marketing</span>
-        </h2>
-        <p class="showreel-subtitle">
-            At BrandStory, we blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital world. </p>
+        <div class="showcase-card-footer">
+            <div class="showcase-footer-left">MARKETING AGENCY</div>
+            <div class="showcase-footer-right">BASED IN DUBAI</div>
+        </div>
     </div>
 
-    <div class="showreel-video-wrap">
-        <iframe src="https://www.youtube.com/embed/pvX9UtkJOk0?autoplay=1&mute=1&loop=1&playlist=pvX9UtkJOk0&controls=1&rel=0&showinfo=0&iv_load_policy=3"
-            title="BrandStory Portfolio Showreel"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.web-design-showcase-card');
+            const handleScroll = () => {
+                const viewportHeight = window.innerHeight;
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const bgImage = card.querySelector('.showcase-bg-image');
+                    if (bgImage && rect.top < viewportHeight && rect.bottom > 0) {
+                        const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
+                        const scale = 1.0 + progress * 0.12;
+                        bgImage.style.transform = `scale(${scale})`;
+                    }
+                });
+            };
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+        });
+    </script>
 
     <!-- Showreel Stats Section -->
     <div class="showreel-stats-container container">
-        <div class="text-center mb-5">
+        <!-- <div class="text-center mb-5">
             <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
-        </div>
+        </div> -->
         <div class="stats-grid-wrap">
             <!-- <div class="stat-card">
                 <div class="stat-number">12 K+</div>

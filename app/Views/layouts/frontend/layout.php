@@ -65,7 +65,16 @@ if ($seoData) {
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://www.google.com">
 
-    <meta name="robots" content="INDEX, FOLLOW">
+    <?php
+    $robots_content = 'INDEX, FOLLOW';
+    if (isset($_SERVER['REQUEST_URI'])) {
+        $uri = $_SERVER['REQUEST_URI'];
+        if (strpos($uri, '/admin/pages/preview') !== false || strpos($uri, '/home-2') !== false) {
+            $robots_content = 'NOINDEX, NOFOLLOW';
+        }
+    }
+    ?>
+    <meta name="robots" content="<?= $robots_content ?>">
     <meta name="yandex-verification" content="cbb48369db52693e">
     <meta property="business:contact_data:street_address"
         content="G5, Al Meheri Plaza, opp DBC building, Al Khabaisi Area, Deira Dubai - 81577, United Arab Emirates">
@@ -93,7 +102,7 @@ if ($seoData) {
     <!-- Non-Critical CSS (Loaded Asynchronously) -->
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/dev.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/dev.css?v=1.5') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
