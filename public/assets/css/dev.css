@@ -6892,8 +6892,8 @@ a.applybtn-link:hover {
 .web-design-showcase-card {
     position: relative;
     width: 100%;
-    aspect-ratio: 16/9;
-    min-height: 480px;
+    /* aspect-ratio: 16/9; */
+    min-height: 500px;
     border-radius: 40px;
     overflow: hidden;
     display: flex;
