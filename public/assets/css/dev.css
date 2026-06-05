@@ -6893,7 +6893,7 @@ a.applybtn-link:hover {
     position: relative;
     width: 100%;
     /* aspect-ratio: 16/9; */
-    min-height: 500px;
+    min-height: 540px;
     border-radius: 40px;
     overflow: hidden;
     display: flex;
