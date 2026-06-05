@@ -295,83 +295,107 @@
 
 
 
-<!--<section class="sp-50 dm-casestudies-sec dm-bg">
+<section class="sp-50 dm-bg">
   <div class="container">
-    <h2 class="text-white mb-md-4 text-md-start text-center">Industries We Serve
-    </h2>
-    <div class="position-relative delivertechmain">
-      <div class="swiper dmcasestudy-sld">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/Real-Estate-Construction-1.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>Real Estate & Construction</h3>
-                <p>We shape bold, aspiring brands that create confidence and reputation in competitive property and infrastructure markets with strong views and verbal storytelling.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/E-commerce-Retail.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>E-commerce & Retail</h3>
-                <p>We create high-conversion branding for online and offline retail, focusing on customer journey, digital aesthetics, and product-powered stories.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/Financial-Services.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>Financial Services</h3>
-                <p>Our branding creates reliability, transparency, and trust in banks, fintech, and investment firms, navigating complex financial rules and digital changes.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/Hospitality-Tourism.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>Hospitality & Tourism</h3>
-                <p>We craft immersive brand experiences for hotels, resorts, and travel operators that attract global tourists and reflect cultural richness and luxury.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/Healthcare-Wellness.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>Healthcare & Wellness</h3>
-                <p>We position healthcare brands with sympathy, confidence, and innovation - whether it is a hospital, clinic, wellness spa, or lifestyle product.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/Education-Government-Sectors.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>Education & Government Sectors</h3>
-                <p>We position healthcare brands with sympathy, confidence, and innovation - whether it is a hospital, clinic, wellness spa, or lifestyle product.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs-main position-relative iws-background" style="background: url('/assets/images/FMCG-Luxury-Lifestyle.webp') no-repeat; background-size: cover; background-position: center;">
-
-              <div class="iwe-content">
-                <h3>FMCG & Luxury Lifestyle</h3>
-                <p>From mass-market products to elite brands, we develop sensory-driven branding that enhances shelf appeal and premium perception in a competitive consumer space.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="row mb-5">
+      <div class="col-12 text-center text-md-start">
+        <h2 class="text-white fs-38">Industries We Serve</h2>
+        <p class="text-white mb-0 fs-20">We deliver targeted branding services that resonate within specific sectors, driving recognition and value.</p>
       </div>
-      <div class="swiper-button-next dmcasestudy-next"></div>
-      <div class="swiper-button-prev dmcasestudy-prev"></div>
+    </div>
+    <div class="row g-4">
+      <!-- Real Estate -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/real-estate-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/real-estate.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Real Estate</h3>
+              <p>Elevating property developers and brokerage firms with premium visual identities that inspire trust and drive high-value sales.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Education -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/education-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/education.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Education</h3>
+              <p>Positioning schools, nurseries, and universities as centers of excellence with strategic and inspiring brand guidelines.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Healthcare -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/healthcare-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/medical.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Healthcare</h3>
+              <p>Designing empathetic, professional visual languages for clinics, hospitals, and wellness centers to build patient confidence.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- E-commerce -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/e-commerce-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/ecom.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>E-commerce</h3>
+              <p>Creating high-conversion, digital-first brand experiences that optimize client trust, packaging appeal, and digital recall.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Law Firm -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/law-firm-branding-services-in-dubai/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries/law-firm-4.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Law Firm</h3>
+              <p>Establishing prestigious and authoritative brand narratives that reflect trust, professionalism, and legal expertise.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Automotive -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/automotive-branding-services-in-dubai/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries/automotive-1.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Automotive</h3>
+              <p>Driving brand impact for showrooms and automotive brands with high-energy visuals and premium design strategies.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
-</section>-->
+</section>
 
 <section class="Branding-Partner dm-bg sp-50">
   <div class="container">
@@ -483,7 +507,7 @@
     </div>
   </div>
 </section>
-
+<!-- 
 <section class="sp-50 dm-blog-section dm-bg">
   <div class="container">
     <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
@@ -580,8 +604,104 @@
       <div class="swiper-button-prev dmblog-prev"></div>
     </div>
   </div>
-</section>
+</section> -->
+<section class="sp-50 dm-case-studies-section dm-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="sticky-case-study-left">
+                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
+                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
+                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="scrollable-case-study-right">
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <strong>Branding & Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study-scroll-item">
+                        <div class="neww-case-stuides-main">
+                            <div class="case-study-img-wrapper">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <strong>Digital Marketing</strong>
+                            </div>
+                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
+                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <div class="casestydies-readmore">
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="dm-grow-section dm-bg sp-50">
   <div class="container">
     <h2 class="text-white mb-lg-5 mb-4 text-md-start text-center">Grow Your Business with <br>
@@ -1160,6 +1280,96 @@
       grid-template-columns: 1fr;
       /* optional spacing between grid items */
     }
+  }
+
+  /* Newly Designed Industries Section */
+  .industry-card-link {
+    display: block;
+    outline: none;
+  }
+  .industry-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    border: 1px solid rgba(133, 91, 255, 0.15);
+    background-color: #121318;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .industry-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1;
+  }
+  .industry-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(10, 11, 15, 0.1) 0%, rgba(10, 11, 15, 0.75) 60%, #0A0B0F 100%);
+    transition: background 0.4s ease;
+    z-index: 2;
+  }
+  .industry-card-content {
+    position: relative;
+    z-index: 3;
+    transition: transform 0.4s ease;
+  }
+  .industry-card-content h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .industry-card-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .industry-card-btn {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    transition: all 0.3s ease;
+  }
+  .industry-card-btn svg {
+    transition: transform 0.3s ease;
+  }
+  .industry-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(133, 91, 255, 0.7);
+    box-shadow: 0 15px 30px rgba(133, 91, 255, 0.25);
+  }
+  .industry-card:hover .industry-card-bg {
+    transform: scale(1.08);
+  }
+  .industry-card:hover .industry-card-overlay {
+    background: linear-gradient(180deg, rgba(10, 11, 15, 0.1) 0%, rgba(133, 91, 255, 0.35) 50%, #0A0B0F 100%);
+  }
+  .industry-card:hover .industry-card-btn {
+    color: #855BFF;
+  }
+  .industry-card:hover .industry-card-btn svg {
+    transform: translateX(6px);
   }
 </style>
 <!-- Include Footer-->
