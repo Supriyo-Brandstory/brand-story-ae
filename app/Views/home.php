@@ -21,7 +21,7 @@
                 <div class="bannersld-main three">
                     <div class="container">
                         <img fetchpriority="high" class="w-100 d-md-none d-block mb-3" src="/assets/images/banners/mm-nn-banner-1.webp" alt="Digital Marketing Services Dubai">
-                        <h1 class="mb-4 text-white">Empowering Ventures to
+                        <h1 class="mb-4 text-white">Empowering Businesses to
                             <span class="db tab-db">Dominate with Digital Marketing</span>
                         </h1>
                         <p class="text-white mb-md-5 mb-4 fs-20">Established in 2012, BrandStory delivers industry-leading digital marketing<br>
@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="Digital Marketing Agency in Dubai">
+                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/home/digitalmarketing-desktop.webp') ?>" alt="BrandStory UAE is the best Digital Marketing Agency in Dubai">
                     <!-- <div class="video-play-btn" data-video-id="pvX9UtkJOk0">
                         <i class="ion-play"></i>
                     </div> -->
@@ -76,91 +76,7 @@
     </div>
 </section>
 
-<section class="vision-showreel-section">
-    <div class="web-design-showcase-container">
-        <div class="web-design-showcase-card">
-            <div class="showcase-bg-image"></div>
-            <div class="showcase-top-row">
-                <div class="showcase-text-left">
-                    We blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.
-                </div>
-                <div class="showcase-link-right">
-                    <a href="/contact/" class="showcase-contact-link"><svg class="flex self-center svelte-34pg1c" width="35" height="9" viewBox="0 0 35 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M23 1L33 4.5M33 4.5L23 8.5M33 4.5H0"></path></svg> Get In Touch</a>
-                </div>
-            </div>
-            
-            <div class="showcase-marquee-wrap">
-                <div class="showcase-marquee-inner">
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                    <span>BRANDSTORY</span>
-                </div>
-            </div>
-        </div>
-        <div class="showcase-card-footer">
-            <div class="showcase-footer-left">MARKETING AGENCY</div>
-            <div class="showcase-footer-right">BASED IN DUBAI</div>
-        </div>
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.web-design-showcase-card');
-            const handleScroll = () => {
-                const viewportHeight = window.innerHeight;
-                cards.forEach(card => {
-                    const rect = card.getBoundingClientRect();
-                    const bgImage = card.querySelector('.showcase-bg-image');
-                    if (bgImage && rect.top < viewportHeight && rect.bottom > 0) {
-                        const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
-                        const scale = 1.0 + progress * 0.12;
-                        bgImage.style.transform = `scale(${scale})`;
-                    }
-                });
-            };
-            window.addEventListener('scroll', handleScroll, { passive: true });
-            handleScroll();
-        });
-    </script>
-
-    <!-- Showreel Stats Section -->
-    <div class="showreel-stats-container container">
-        <!-- <div class="text-center mb-5">
-            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
-        </div> -->
-        <div class="stats-grid-wrap">
-            <!-- <div class="stat-card">
-                <div class="stat-number">12 K+</div>
-                <div class="stat-label">Global Clients</div>
-            </div> -->
-            <div class="stat-card">
-                <div class="stat-number">1000+</div>
-                <div class="stat-label">Campaigns Executed</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">900+</div>
-                <div class="stat-label">Satisfied Clients</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">12+</div>
-                <div class="stat-label">Years of Expertise</div>
-            </div>
-            <!-- <div class="stat-card">
-                <div class="stat-number">3.5 M+</div>
-                <div class="stat-label">Leads Generated</div>
-            </div> -->
-            <div class="stat-card">
-                <div class="stat-number">100+</div>
-                <div class="stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="new-client-section">
     <div class="container-fluid">
@@ -184,7 +100,7 @@
                             <h3 class="mb-3"><a href="/seo-services-company-in-dubai/" style="text-decoration: none; color: inherit;">Search Engine <span class="db">Optimization (SEO)</span></a></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization plays a significant role in improving website visibility and driving organic traffic. Our SEO experts in Dubai follow proven strategies to maximize results and secure top page ranking in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-services-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/seo-services-company-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -194,7 +110,7 @@
                             <h3 class="mb-3"><a href="/social-media-marketing-agency-in-dubai/" style="text-decoration: none; color: inherit;">Social Media Marketing <span class="db">(SMM)</span></a></h3>
                             <p class="mb-3 fs-20">Harness the power of social media engagement with social media marketing. We craft visual narratives that speak volumes and bring the audience on board. Partner with us for Facebook, Instagram, TikTok, LinkedIn, and Twitter ads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/social-media-marketing-agency-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/social-media-marketing-agency-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +120,7 @@
                             <h3 class="mb-3"><a href="/pay-per-click-ppc-services-in-dubai/" style="text-decoration: none; color: inherit;">Pay Per Click (PPC)</a></h3>
                             <p class="mb-3 fs-20">We offer data-driven PPC campaign management services. We are an award-winning Google Partner and Meta Partner agency with expertise in pay-per-click campaigns, so you get maximum exposure at minimal cost.</p>
                             <div class="casestydies-readmore">
-                                <a href="/pay-per-click-ppc-services-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/pay-per-click-ppc-services-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +130,7 @@
                             <h3 class="mb-3"><a href="/email-marketing-company-in-dubai/" style="text-decoration: none; color: inherit;">Email Marketing</a></h3>
                             <p class="mb-3 fs-20">We provide email marketing services in Dubai to engage customers, nurture leads, and drive conversions for clients. We craft email templates and campaigns to create direct communication with customers and keep them engaged.</p>
                             <div class="casestydies-readmore">
-                                <a href="/email-marketing-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/email-marketing-company-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -224,7 +140,7 @@
                             <h3 class="mb-3"><a href="/online-reputation-management-services-in-dubai/" style="text-decoration: none; color: inherit;">Online Reputation <span class="db">Management (ORM)</span></a></h3>
                             <p class="mb-3 fs-20">With online reputation management, your business can keep track of your professional or personal standings with others on the internet. BrandStory is one of the premier online reputation management agencies in Dubai.</p>
                             <div class="casestydies-readmore">
-                                <a href="/online-reputation-management-services-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/online-reputation-management-services-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -234,7 +150,7 @@
                             <h3 class="mb-3"><a href="/content-marketing-agency-dubai/" style="text-decoration: none; color: inherit;">Content Marketing</a></h3>
                             <p class="mb-3 fs-20">Content marketing is a crucial aspect of digital marketing to inform and engage the potential audience. We create highly compelling text, multimedia, and audio content to bring your brand’s essence and vision to life.</p>
                             <div class="casestydies-readmore">
-                                <a href="/content-marketing-agency-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/content-marketing-agency-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +162,7 @@
                             <h3 class="mb-3"><a href="/full-funnel-performance-marketing/" style="text-decoration: none; color: inherit;">Performance Marketing<span class="db"></span></a></h3>
                             <p class="mb-3 fs-20">Performance marketing is a tangible marketing strategy based on growth results. We are the real growth-driver digital marketing agency offering full-funnel performance marketing services.</p>
                             <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/full-funnel-performance-marketing/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -257,7 +173,7 @@
                             <h3 class="mb-3"><a href="/branding-agency-in-dubai/" style="text-decoration: none; color: inherit;">Branding Services<span class="db"></span></a></h3>
                             <p class="mb-3 fs-20">Branding helps businesses define their identity through strategy, design, and storytelling. As a leading creative branding agency in Dubai, we create strong brands that foster trust, recognition, and long-term loyalty.</p>
                             <div class="casestydies-readmore">
-                                <a href="/branding-agency-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/branding-agency-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +183,7 @@
                             <h3 class="mb-3"><a href="/website-design-company-in-dubai/" style="text-decoration: none; color: inherit;">Website Design & <span class="db">Development</span></a></h3>
                             <p class="mb-3 fs-20">A website built for user experience is essential for bringing leads into the sales funnel. We create custom websites with the latest technology stack that are easy to navigate, mobile responsive, and visually attractive.</p>
                             <div class="casestydies-readmore">
-                                <a href="/website-development-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/website-development-company-in-dubai/"><b>Explore Details</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -917,57 +833,94 @@
     </div>
 </section>
 
+<section class="vision-showreel-section">
+    <div class="web-design-showcase-container">
+        <div class="web-design-showcase-card">
+            <div class="showcase-bg-image"></div>
+            <div class="showcase-top-row">
+                <div class="showcase-text-left">
+                    At BrandStory UAE, we blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.
+                </div>
+                <div class="showcase-link-right">
+                    <a href="/contact/" class="showcase-contact-link"><svg class="flex self-center svelte-34pg1c" width="35" height="9" viewBox="0 0 35 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M23 1L33 4.5M33 4.5L23 8.5M33 4.5H0"></path></svg>Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="showcase-marquee-wrap">
+                <div class="showcase-marquee-inner">
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                </div>
+            </div>
+        </div>
+        <div class="showcase-card-footer">
+            <div class="showcase-footer-left">MARKETING AGENCY</div>
+            <div class="showcase-footer-right">BASED IN DUBAI</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.web-design-showcase-card');
+            const handleScroll = () => {
+                const viewportHeight = window.innerHeight;
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const bgImage = card.querySelector('.showcase-bg-image');
+                    if (bgImage && rect.top < viewportHeight && rect.bottom > 0) {
+                        const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
+                        const scale = 1.0 + progress * 0.12;
+                        bgImage.style.transform = `scale(${scale})`;
+                    }
+                });
+            };
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+        });
+    </script>
+
+    <!-- Showreel Stats Section -->
+    <div class="showreel-stats-container container">
+        <!-- <div class="text-center mb-5">
+            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
+        </div> -->
+        <div class="stats-grid-wrap">
+            <!-- <div class="stat-card">
+                <div class="stat-number">12 K+</div>
+                <div class="stat-label">Global Clients</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">Campaigns Executed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">900+</div>
+                <div class="stat-label">Satisfied Clients</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Years of Expertise</div>
+            </div>
+            <!-- <div class="stat-card">
+                <div class="stat-number">3.5 M+</div>
+                <div class="stat-label">Leads Generated</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Expert Professionals</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/component/expert_team.php' ?>
 
-
-
-
-
-<section class="brand-sec spt-50 spb-50 dm-bg">
-    <div class="container"><!--Container Start-->
-        <h2 class="text-center text-white">Market Your Brand Without Limits</h2>
-        <div class="brand--slider sp-50 dm-bg"><!--Slider start-->
-            <div class="slick marquee" dir="rtl">
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #6AD7C3;"> Stories & Reels</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #FF800B;">Moment Marketing</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #F181D8;">PPC Marketing</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #DE8787;">Retargeting Ads</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #54D37F;">SEO Marketing</div>
-                </div><!--slide end-->
-
-            </div>
-
-            <div class="slick marquee spt-50 dm-bg">
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #538BF7;">Influencer Marketing</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #F2DDC5;">Website Design</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #EA5454;">Events & PR coverage</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #DBDE2C;">Webinars & Podcasts</div>
-                </div><!--slide end-->
-                <div class="slick-slide"><!--slide start-->
-                    <div class="brand-box" style="background: #23B5E3;">Whitepapers & Blogs</div>
-                </div><!--slide end-->
-
-            </div>
-        </div><!--Slider end-->
-
-    </div><!--Container End-->
-</section>
 
 <div class="container bs-social-section py-5">
     <h2 class="text-start text-white py-4">We Specialize in All Digital <br>Marketing Verticals</h2>
