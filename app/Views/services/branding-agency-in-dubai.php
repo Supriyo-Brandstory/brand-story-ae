@@ -397,47 +397,134 @@
   </div>
 </section>
 
-<section class="Branding-Partner dm-bg sp-50">
+<section class="wcp-section dm-bg sp-50">
   <div class="container">
-    <div class="row">
-      <div class="col-md-5 col-12 stickybranding">
-        <h2 class="text-white mb-md-4 text-md-start text-center">Why Choose BrandStory as Your Branding Partner in Dubai?</h2>
-      </div>
-      <div class="col-md-7 col-12">
-        <p class="fs-20 text-white">BrandStory helps businesses in Dubai define who they are, what they stand for, and how they are perceived in the market.
-          Our branding work is rooted in research, positioning, and clarity, not buzzwords. We build brands that are easy to recognize, hard to replace, and
-          designed to support real business decisions, customer trust, and long-term market relevance.</p>
-        <div class="branding-partner-container">
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <img src="/assets/images/10+Years-of-Experience.png" class="img-fluid" alt="10+ Years of Experience">
-            <h3 class="fs-20">10+ Years of Experience</h3>
-          </div>
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <img src="/assets/images/Local-Insights+Global-Branding-Standards.png" class="img-fluid" alt="Local Insights + Global Branding Standards">
-            <h3 class="fs-20">Local Insights + Global Branding Standards</h3>
-          </div>
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <img src="/assets/images/Award-Winning-Creative-Team.png" class="img-fluid" alt="Award-Winning Creative Team">
-            <h3 class="fs-20">Award-Winning Creative Team</h3>
-          </div>
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <img src="/assets/images/Data-Driven-Strategy+Imaginative-Design.png" class="img-fluid" alt="Data-Driven Strategy + Imaginative Design">
-            <h3 class="fs-20">Data-Driven Strategy + Imaginative Design</h3>
-          </div>
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <img src="/assets/images/Dubai-based-with-egional-nternational-clientele.png" class="img-fluid" alt="Build trust and long-term loyalty with customers">
-            <h3 class="fs-20">Strategic Brand Building for Long-term Value</h3>
-          </div>
-          <div class="each_benefit_container-new branding-partner-container-card" bis_skin_checked="1">
-            <h3 class="fs-20">We’ve worked with leading brands in Dubai, helping them become category leaders with bold brand identities.</h3>
-          </div>
-        </div>
-      </div>
+
+    <!-- Top label -->
+    <div class="wcp-top-label">
+      <span class="wcp-top-tag">&#9670; Why BrandStory</span>
     </div>
 
+    <div class="wcp-layout">
+
+      <!-- LEFT: Sticky Panel -->
+      <div class="wcp-left">
+        <div class="wcp-left-inner">
+          <h2 class="wcp-left-title">Why Choose BrandStory as Your Branding Partner in Dubai?</h2>
+          <p class="wcp-left-sub">We build brands that are easy to recognize, hard to replace, and designed for long-term market relevance.</p>
+
+          <!-- Stats Row -->
+          <div class="wcp-stats">
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">10<span class="wcp-stat-plus">+</span></span>
+              <span class="wcp-stat-label">Years in Dubai</span>
+            </div>
+            <div class="wcp-stat-div"></div>
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">350<span class="wcp-stat-plus">+</span></span>
+              <span class="wcp-stat-label">Brands Built</span>
+            </div>
+            <div class="wcp-stat-div"></div>
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">5<span class="wcp-stat-plus">★</span></span>
+              <span class="wcp-stat-label">Client Rating</span>
+            </div>
+          </div>
+
+          <a href="/contact/" class="wcp-left-btn">➤ Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Accordion rows -->
+      <div class="wcp-right">
+
+        <!-- Item 1 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">01</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Experience</span>
+              <h3 class="wcp-item-title">10+ Years of Proven Experience</h3>
+            </div>
+            <p class="wcp-item-text">Over a decade of crafting powerful, durable brand identities for startups, SMEs, and enterprises across Dubai and the UAE — with measurable results every time.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">02</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Global + Local</span>
+              <h3 class="wcp-item-title">Local Insights + Global Branding Standards</h3>
+            </div>
+            <p class="wcp-item-text">We blend deep knowledge of the Dubai and GCC market with internationally recognized branding frameworks — building brands that resonate locally and scale globally.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">03</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Creative</span>
+              <h3 class="wcp-item-title">Award-Winning Creative Team</h3>
+            </div>
+            <p class="wcp-item-text">Our designers, brand strategists, and storytellers are recognized for delivering exceptional, category-defining brand experiences that stand apart in competitive markets.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">04</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Strategy</span>
+              <h3 class="wcp-item-title">Data-Driven Strategy + Imaginative Design</h3>
+            </div>
+            <p class="wcp-item-text">Every brand decision is anchored in real market data and consumer insights — paired with imaginative creative execution that makes your brand visually unforgettable.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">05</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Growth</span>
+              <h3 class="wcp-item-title">Strategic Brand Building for Long-term Value</h3>
+            </div>
+            <p class="wcp-item-text">We don't build brands for today. We build brand equity that compounds — creating loyalty, recognition, and sustained competitive advantage that grows your business for years ahead.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Bottom highlight bar -->
+        <div class="wcp-bottom-bar">
+          <p>&#9733; Trusted by <strong>350+ leading brands</strong> across Dubai, UAE and the wider GCC region.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
 
 <?php include __DIR__ . '/../component/expert_team.php' ?>
+
 
 <section class="dm-counter-sec sp-50 dm-bg">
   <div class="container">
