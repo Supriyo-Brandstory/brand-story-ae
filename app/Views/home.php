@@ -76,91 +76,7 @@
     </div>
 </section>
 
-<section class="vision-showreel-section">
-    <div class="web-design-showcase-container">
-        <div class="web-design-showcase-card">
-            <div class="showcase-bg-image"></div>
-            <div class="showcase-top-row">
-                <div class="showcase-text-left">
-                    At BrandStory UAE, we blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.
-                </div>
-                <div class="showcase-link-right">
-                    <a href="/contact/" class="showcase-contact-link"><svg class="flex self-center svelte-34pg1c" width="35" height="9" viewBox="0 0 35 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M23 1L33 4.5M33 4.5L23 8.5M33 4.5H0"></path></svg>Get In Touch</a>
-                </div>
-            </div>
-            
-            <div class="showcase-marquee-wrap">
-                <div class="showcase-marquee-inner">
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                    <span>BRANDSTORY UAE</span>
-                </div>
-            </div>
-        </div>
-        <div class="showcase-card-footer">
-            <div class="showcase-footer-left">MARKETING AGENCY</div>
-            <div class="showcase-footer-right">BASED IN DUBAI</div>
-        </div>
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.web-design-showcase-card');
-            const handleScroll = () => {
-                const viewportHeight = window.innerHeight;
-                cards.forEach(card => {
-                    const rect = card.getBoundingClientRect();
-                    const bgImage = card.querySelector('.showcase-bg-image');
-                    if (bgImage && rect.top < viewportHeight && rect.bottom > 0) {
-                        const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
-                        const scale = 1.0 + progress * 0.12;
-                        bgImage.style.transform = `scale(${scale})`;
-                    }
-                });
-            };
-            window.addEventListener('scroll', handleScroll, { passive: true });
-            handleScroll();
-        });
-    </script>
-
-    <!-- Showreel Stats Section -->
-    <div class="showreel-stats-container container">
-        <!-- <div class="text-center mb-5">
-            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
-        </div> -->
-        <div class="stats-grid-wrap">
-            <!-- <div class="stat-card">
-                <div class="stat-number">12 K+</div>
-                <div class="stat-label">Global Clients</div>
-            </div> -->
-            <div class="stat-card">
-                <div class="stat-number">1000+</div>
-                <div class="stat-label">Campaigns Executed</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">900+</div>
-                <div class="stat-label">Satisfied Clients</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">12+</div>
-                <div class="stat-label">Years of Expertise</div>
-            </div>
-            <!-- <div class="stat-card">
-                <div class="stat-number">3.5 M+</div>
-                <div class="stat-label">Leads Generated</div>
-            </div> -->
-            <div class="stat-card">
-                <div class="stat-number">100+</div>
-                <div class="stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="new-client-section">
     <div class="container-fluid">
@@ -912,6 +828,92 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="vision-showreel-section">
+    <div class="web-design-showcase-container">
+        <div class="web-design-showcase-card">
+            <div class="showcase-bg-image"></div>
+            <div class="showcase-top-row">
+                <div class="showcase-text-left">
+                    At BrandStory UAE, we blend creativity, strategy, and innovation to help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.
+                </div>
+                <div class="showcase-link-right">
+                    <a href="/contact/" class="showcase-contact-link"><svg class="flex self-center svelte-34pg1c" width="35" height="9" viewBox="0 0 35 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M23 1L33 4.5M33 4.5L23 8.5M33 4.5H0"></path></svg>Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="showcase-marquee-wrap">
+                <div class="showcase-marquee-inner">
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                    <span>BRANDSTORY UAE</span>
+                </div>
+            </div>
+        </div>
+        <div class="showcase-card-footer">
+            <div class="showcase-footer-left">MARKETING AGENCY</div>
+            <div class="showcase-footer-right">BASED IN DUBAI</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.web-design-showcase-card');
+            const handleScroll = () => {
+                const viewportHeight = window.innerHeight;
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const bgImage = card.querySelector('.showcase-bg-image');
+                    if (bgImage && rect.top < viewportHeight && rect.bottom > 0) {
+                        const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
+                        const scale = 1.0 + progress * 0.12;
+                        bgImage.style.transform = `scale(${scale})`;
+                    }
+                });
+            };
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+        });
+    </script>
+
+    <!-- Showreel Stats Section -->
+    <div class="showreel-stats-container container">
+        <!-- <div class="text-center mb-5">
+            <a href="javascript:void(0)" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Request A Quote</a>
+        </div> -->
+        <div class="stats-grid-wrap">
+            <!-- <div class="stat-card">
+                <div class="stat-number">12 K+</div>
+                <div class="stat-label">Global Clients</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">Campaigns Executed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">900+</div>
+                <div class="stat-label">Satisfied Clients</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Years of Expertise</div>
+            </div>
+            <!-- <div class="stat-card">
+                <div class="stat-number">3.5 M+</div>
+                <div class="stat-label">Leads Generated</div>
+            </div> -->
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Expert Professionals</div>
             </div>
         </div>
     </div>
