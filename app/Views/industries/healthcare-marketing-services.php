@@ -3,9 +3,9 @@
         <div class="new_about_us-banner-container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1 class="mb-4 text-white">Best Healthcare Marketing Agency in Dubai, UAE</h1>
+                    <h1 class="mb-4 text-white">Best Marketing Agency for Healthcare Brands</h1>
                     <p class="fs-18 text-white">
-                       We are a reputable healthcare digital marketing agency in Dubai, UAE with over 12 years of experience. We are a team of 100+ experienced digital marketing professionals with deep marketing expertise for hospitals, clinics, and other healthcare facilities.
+                       BrandStory is a performance-focused Healthcare Marketing Agency location in Dubai, UAE. We are a helping hand for hospitals, clinics, and healthcare firms in the GCC through strategy-led healthcare digital marketing services. We combine 13+ years of hands-on expertise with local market knowledge and content strategies to run top-performing marketing campaigns. 
                     </p>
                     <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
@@ -17,10 +17,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Healthcare Marketing Services to Drive Patient Engagement</h2>
-                    <p class="fs-20 text-white">The healthcare industry is highly specialized, with every provider serving a unique role in patient care and medical services. At BrandStory, we are the best healthcare marketing agency in Dubai, bringing strong expertise in healthcare digital marketing- translating complex medical offerings into clear, patient-friendly communication. We focus on building credibility, improving online visibility, and creating strategic campaigns that connect healthcare providers with patients effectively, while maintaining sensitivity, accuracy, and compliance.</p>
+                    <h2 class="text-white mb-4 text-md-start text-center ">Your Healthcare Brands Needs a Specialized Marketing Agency</h2>
+                    <p class="fs-18 text-white">Dubai's healthcare sector is booming, but standing out isn't about being the biggest- it's about being the most trusted. Patients are searching, comparing, and deciding before they contact. If your digital presence doesn't answer their questions, build their confidence, and guide them to book, you're losing your clients.</p><br>
+                    <p class="fs-18 text-white">The digital shift in the healthcare market in Dubai is rewarding businesses who comply with the best digital marketing practices. While the right healthcare digital marketing company can help you with the same- build visibility, trust, and patient engagement.</p>
                    
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -30,15 +31,15 @@
 <div class="row mt-4 mt-lg-5 border-top ">
     <!-- Left Column -->
     <div class="col-md-7 mt-5">
-        <p class="fs-20 text-white mb-3">We are a performance-driven healthcare <a href="/" style="color:white;text-decoration:underline;font-weight:900">digital marketing agency in Dubai</a>, focused on helping healthcare providers connect with the right patients while building trust and credibility. Our strategies are designed to enhance visibility, improve patient engagement, and drive consistent growth.</p>
+        <p class="fs-18 text-white mb-3">A truly patient-centric strategy builds ongoing relationships through personalized email journeys, responsive social media engagement, and content that keeps your business top-of-mind between appointments. When your digital strategy is engineered around the patient journey from first search to follow-up care, you earn their trust, loyalty, and referrals.</p>
 
-        <p class="fs-20 text-white">With extensive experience working with clinics, hospitals, and healthcare brands, we help businesses grow from increasing patient inquiries to optimizing appointment conversions, while ensuring every campaign aligns with industry standards and contributes to long-term patient relationships.</p>
+        <p class="fs-18 text-white">Healthcare marketing in Dubai is competitive and websites play an important role. It acts as the foundation of the entire digital marketing strategy. Easy navigation, seamless appointment booking, and full mobile responsiveness are the baseline expectations for end users. Every click should build confidence, from visible credentials and genuine testimonials to content that demonstrates real expertise.</p>
     </div>
 
     <!-- Right Column -->
     <div class="col-md-5 mt-5">
-        <h5 class="fw-bold mb-3 text-white">Our proven approach to healthcare digital marketing includes:</h5>
-        <ul class="list-unstyled text-white fs-20">
+        <h5 class="fw-bold mb-3 text-white">Our approach to healthcare digital marketing includes:</h5>
+        <ul class="list-unstyled text-white fs-18">
             <li class="mb-2">🎯 Identify- Target the right patient audience</li>
             <li class="mb-2">📊 Analyse- Patient behavior & search insights</li>
             <li class="mb-2">🚀 Launch- Multi-channel healthcare campaigns</li>
@@ -70,7 +71,7 @@
                         <h3>Search Engine Optimization</h3>
                         <p>When patients search for healthcare services in Dubai, visibility is critical. If your clinic or hospital isn’t appearing in search results, you’re missing valuable patient inquiries. At BrandStory, we implement healthcare-focused SEO strategies that improve rankings, build trust, and connect you with patients actively seeking your services.</p>
 
-                        <a href="<?= base_url('/industries/healthcare-seo-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-seo-agency-in-dubai-uae/') ?>" class="know-more"><b>SEO Services</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -81,7 +82,7 @@
                         </div>
                         <h3>Social Media Marketing</h3>
                         <p>Social media plays a vital role in building trust and engaging with patients. It allows healthcare providers to share valuable information, create awareness, and strengthen their brand presence. We craft healthcare-specific social media strategies that enhance engagement, educate audiences, and build lasting patient relationships.</p>
-                        <a href="<?= base_url('/industries/healthcare-social-media-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-social-media-agency-in-dubai-uae/') ?>" class="know-more"><b>Social Media</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -92,7 +93,7 @@
                         </div>
                         <h3>Pay Per Click (PPC)</h3>
                         <p>Reaching patients at the right moment is essential in healthcare marketing. Our PPC campaigns are designed to target high-intent search queries, ensuring your services appear when patients need them most. We focus on optimizing every campaign to drive qualified leads, appointment bookings, and measurable ROI.</p>
-                        <a href="<?= base_url('/industries/healthcare-ppc-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-ppc-agency-in-dubai-uae/') ?>" class="know-more"><b>PPC Services</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -103,7 +104,7 @@
                         </div>
                         <h3>Branding</h3>
                         <p>Strong branding is essential for building trust in the healthcare industry. Our healthcare branding strategies focus on creating a consistent identity, clear messaging, and a strong emotional connection with your audience. We position your brand as reliable and patient-centric through strategic communication that enhances credibility.</p>
-                        <a href="<?= base_url('/industries/healthcare-branding-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-branding-agency-in-dubai-uae/') ?>" class="know-more"><b>Branding Services</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -114,7 +115,7 @@
                         </div>
                         <h3>Performance Marketing</h3>
                         <p>We focus on measurable outcomes that matter for healthcare providers- patient inquiries, appointment bookings, and engagement. Our performance marketing strategies are driven by data, ensuring every performance marketing campaign is optimized to deliver consistent growth and maximum efficiency.</p>
-                        <a href="<?= base_url('/industries/healthcare-performance-marketing-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-performance-marketing-agency-in-dubai-uae/') ?>" class="know-more"><b>Perf. Marketing</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -125,7 +126,7 @@
                         </div>
                         <h3>Web Design &amp; Development</h3>
                         <p>We design healthcare websites that are user-friendly, informative, and built to convert visitors into patients. By combining intuitive design, seamless navigation, and trust-building elements, we create websites that enhance patient experience and support your overall digital growth.</p>
-                        <a href="<?= base_url('/industries/healthcare-web-design-development-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                        <a href="<?= base_url('/industries/healthcare-web-design-development-agency-in-dubai-uae/') ?>" class="know-more"><b>Website Design</b><span class="arrow">→</span></a>
                     </div>
                 </div>
 
@@ -397,26 +398,129 @@
     </div>
 </section>
 
-
-    <section class="bg-black sp-50">
+ <section class="sp-50 bg-black">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Why Choose BrandStory for Healthcare Marketing?</h2>
-                    <p class="fs-20 text-white">BrandStory brings over a decade of experience in delivering performance-driven digital marketing solutions, helping healthcare providers achieve consistent growth and measurable results. From hospitals and clinics to diagnostic labs, we understand the importance of building trust, credibility, and patient engagement in a highly sensitive and competitive industry. <br><br>
-                    Our expertise spans across SEO, PPC advertising, performance marketing, and social media- designed specifically for healthcare businesses. We focus on connecting you with the right patient audience while ensuring your communication remains clear, ethical, and impactful.<br><br>
-                    As a strategic healthcare marketing partner, we take a full-funnel approach. From evaluating your brand presence and auditing your website to identifying missed opportunities, we create a roadmap that enhances your visibility and strengthens your position against competitors.  
-
-                    </p>
+            <div class="exclusive-benefits-wrapper">
+                <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
+                <div class="row">
+                    <!-- Promise Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <span class="badge-promise mb-4">Our Expertise</span>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">1,000+</div>
+                                        <div class="feature-desc">Delivered Projects</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">13+ Years</div>
+                                        <div class="feature-desc">Industry Experience</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">100+</div>
+                                        <div class="feature-desc">Team Experts</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Advantage Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                                <span class="badge-promise">Advantage You Get</span>
+                                <div class="expert-badge d-flex align-items-center">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <span>Expert Consultant</span>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">24/7 Support</div>
+                                        <div class="feature-desc">Always Available</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Quick Setup</div>
+                                        <div class="feature-desc">Fast Implementation</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Consultation</div>
+                                        <div class="feature-desc">Clear scope</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    
-                <img src="/assets/images/industries/Best-Healthcare-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+            </div>
+        </div>
+    </section>  
+
+    <section class="new_about_us-who-we-are-section sp-50 bg-black">
+    <div class="container">
+        <h2 class="new_about_us-who-we-are-heading text-white mb-5">Why Choose BrandStory As <br>Your Healthcare Marketing Partner</h2>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6">
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Campaigns That Convert</h3>
+                    <p>We build full-funnel campaigns for hospitals, clinics, and specialists across the UAE. From awareness to appointment booking, we map how patients actually search, evaluate, and decide- then place your business at every critical touchpoint.</p>
+                </div>
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Trust That Resonates</h3>
+                    <p>Healthcare isn't sold. It's chosen. We position your business as the clear, credible choice through medical SEO that answers real patient questions, social proof that validates your expertise, and content that demonstrates authority without sounding promotional.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- Card 2 -->
+                <div class="new_about_us-who-we-are-card white-card icons-card h-501">
+
+                    <h3>Compliance That Protects</h3>
+                    <p>In healthcare marketing, one misstep costs more than a lead- it costs your license. Our campaigns are built from the ground up around DHA and MOH guidelines, with every claim, ad, and landing page reviewed for regulatory alignment. You grow your patient base without growing risk.</p>
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+
                 </div>
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
+
+<section class="new_about_us-why-brandstory pb-50">
+    <div class="new_about_us-container">
+        <div class="new_about_us-text">
+            <h2 style="line-height: 130%;">Working With Healthcare Brands That Prioritize Trust and Patient Care</h2>
+            <p>
+                BrandStory partners with hospitals, clinics, and healthcare professionals to improve how patients discover and evaluate medical services online. In healthcare, visibility alone is not enough- patients need confidence before they take action. We focus on building that trust through accurate search presence, reputation management, educational content, and compliant digital advertising.
+            </p>
+            <p class="mb-3">
+                Unlike generic marketing approaches, healthcare requires precision, sensitivity, and regulatory awareness. Every strategy we build is tailored to the medical specialty, patient journey, and compliance requirements- ensuring that healthcare brands grow ethically while improving patient engagement and appointment conversions.
+            </p>
+            <a href="/about" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
+        </div>
+        <div class="new_about_us-image">
+
+        </div>
+    </div>
+</section>
    
     <section class="sp-50 dm-case-studies-section dm-bg">
         <div class="container">
@@ -529,7 +633,7 @@
 
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-xs-12 col-md-6">
-                    <h2 class="text-white mb-md-4 text-md-start text-center">Trusted by eCommerce Brands Worldwide</h2>
+                    <h2 class="text-white mb-md-4 text-md-start text-center">Trusted by Leading Brands Across UAE</h2>
                 </div>
 
 
@@ -581,242 +685,6 @@
                 </div>
                 <div class="swiper-button-next dmreview-next"></div>
                 <div class="swiper-button-prev dmreview-prev"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sp-50 bg-black">
-        <div class="container">
-            <div class="exclusive-benefits-wrapper">
-                <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
-                <div class="row">
-                    <!-- Promise Card -->
-                    <div class="col-md-6 mb-4">
-                        <div class="benefit-sub-card">
-                            <span class="badge-promise mb-4">Our promise to you</span>
-                            <div class="row text-center">
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">800+</div>
-                                        <div class="feature-desc">Delivered Projects</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">10+ Years</div>
-                                        <div class="feature-desc">Industry Experience</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">98%</div>
-                                        <div class="feature-desc">Client Growth</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Advantage Card -->
-                    <div class="col-md-6 mb-4">
-                        <div class="benefit-sub-card">
-                            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
-                                <span class="badge-promise">Why Choose Us</span>
-                                <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2">
-                                    <span>Proven Strategies</span>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">24/7 Support</div>
-                                        <div class="feature-desc">Always On Call</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">Fast Launch</div>
-                                        <div class="feature-desc">Quick Deployment</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">Free Consult</div>
-                                        <div class="feature-desc">Clear Goals</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="sp-50 comparison-section-wrapper bg-black">
-        <div class="container">
-            <h2 class="text-center mb-5 text-white">Services Our Healthcare Digital Marketing Agency Provides</h2>
-            <div class="row">
-                <!-- Other Agencies -->
-                <div class="col-md-6 mb-4">
-                    <div class="comparison-card other-agencies">
-                        <div class="comp-header">Other Agencies</div>
-                        <div class="comp-body">
-                            <div class="comp-item active">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>Generic Healthcare Campaigns</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Most agencies use one-size-fits-all strategies that fail to address the unique needs of hospitals, clinics, and healthcare providers in Dubai’s competitive medical landscape.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>No Patient-Centric Strategy</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Without understanding patient behavior, trust factors, and healthcare decision journeys, campaigns fail to connect with the right audience.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>Low Appointment Conversions</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Broad targeting brings unqualified leads instead of patients ready to book appointments, increasing costs and reducing ROI.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- BrandStory -->
-                <div class="col-md-6 mb-4">
-                    <div class="comparison-card brandstory-card">
-                        <div class="comp-header">BrandStory</div>
-                        <div class="comp-body">
-                            <div class="comp-item active">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Healthcare-Focused Strategy</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>We create data-driven healthcare marketing strategies tailored for clinics, hospitals, and medical practices to attract high-intent patients.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Multi-Channel Patient Acquisition</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Reach patients through Google, social media, and local search platforms with integrated campaigns that drive awareness and appointments.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>High-Converting Patient Leads</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>We target users based on treatment intent, search behavior, and medical needs to generate qualified leads that convert into appointments.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Trust-Building Creative Content</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>We design patient-focused creatives, testimonials, videos, and educational content that build trust and encourage bookings.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>ROI-Driven Campaign Optimization</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Every campaign is optimized to reduce cost per appointment and maximize patient lifetime value through continuous performance tracking.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sp-50 packages-comparison-section bg-black">
-        <div class="container text-center">
-            <h2 class="mb-3 text-white">Healthcare Digital Marketing Packages</h2>
-            <p class="mb-5 text-white">Compare our healthcare marketing packages to find the right solution for your clinic or hospital growth goals.</p>
-
-            <div class="comparison-table-wrapper">
-                <table class="comp-table">
-                    <thead>
-                        <tr>
-                            <th class="text-start">Features</th>
-                            <th>Starter Plan</th>
-                            <th>Growth Plan</th>
-                            <th>Enterprise Plan</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="white-row">
-                            <td class="feature-name">Campaign Management</td>
-                            <td>Basic</td>
-                            <td>Advanced</td>
-                            <td>Comprehensive</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Patient Acquisition Campaigns</td>
-                            <td>Up to 2 Campaigns</td>
-                            <td>Up to 5 Campaigns</td>
-                            <td>Unlimited Campaigns</td>
-                        </tr>
-                        <tr class="white-row">
-                            <td class="feature-name">Ad Creative Design</td>
-                            <td>Basic Creatives</td>
-                            <td>Creative + Video Ads</td>
-                            <td>Full Creative Suite</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Performance Reports</td>
-                            <td>Monthly</td>
-                            <td>Bi-Weekly</td>
-                            <td>Weekly</td>
-                        </tr>
-                        <tr class="white-row">
-                            <td class="feature-name">Audience Targeting</td>
-                            <td>Basic Geo &amp; Demographics</td>
-                            <td>Advanced Patient Segmentation</td>
-                            <td>AI-Driven Targeting</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Account Support</td>
-                            <td>Standard</td>
-                            <td>Priority</td>
-                            <td>Dedicated Manager</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="select-option-btn-wrapper mt-4 b">
-                <a href="/contact" class="select-option-btn " style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
-                </a>
             </div>
         </div>
     </section>
@@ -893,140 +761,9 @@
         </div>
     </section>
 
-    <section class="launch-ppc-section bg-black">
-        <div class="container">
-            <h2 class="mb-3  text-white">How to Launch a Healthcare Marketing Campaign</h2>
-            <p class="launch-desc mt-3 text-white">A successful healthcare campaign requires trust, compliance, and a patient-first approach. Use this strategic framework to attract the right patients, increase appointments, and build long-term credibility.</p>
-            <h6 class="mt-4 text-white">Steps to Launch Your Healthcare Marketing Campaign</h6>
-
-            <div class="method-switcher-wrap">
-                <div class="method-switcher">
-                    <button class="method-btn active">Standard Method</button>
-                    <button class="method-btn">Advanced Method</button>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <!-- Standard Method Steps -->
-                    <div class="ppc-steps-list" id="standard-method-steps">
-                        <!-- Step 1 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">1</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Set clear objectives—whether increasing patient appointments, promoting specific treatments, or improving healthcare brand visibility.</div>
-                        </div>
-
-                        <!-- Step 2 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">2</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Identify patient intent, treatment-related searches, and local demand to target audiences actively seeking healthcare services.</div>
-                        </div>
-
-                        <!-- Step 3 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">3</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Create trust-driven creatives featuring doctor expertise, patient testimonials, service benefits, and educational content to build confidence.</div>
-                        </div>
-
-                        <!-- Step 4 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">4</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Implement appointment booking systems, CRM integration, and lead tracking to capture and manage patient inquiries efficiently.</div>
-                        </div>
-
-                        <!-- Step 5 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">5</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Launch campaigns across Google, social media, and healthcare directories while tracking key metrics like appointment bookings and cost per lead.</div>
-                        </div>
-
-                        <!-- Step 6 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">6</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Continuously optimize campaigns based on patient behavior, inquiry trends, and treatment demand to improve conversions and ROI.</div>
-                        </div>
-                    </div>
-
-                    <!-- Advanced Method Steps (Hidden by default) -->
-                    <div class="ppc-steps-list d-none" id="advanced-method-steps">
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">1</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Develop detailed patient personas using demographics, medical needs, and behavioral insights to target high-intent audiences.</div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">2</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Use multi-touch attribution to track the complete patient journey from initial search to final appointment booking.</div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">3</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Deploy personalized campaigns targeting specific treatments, conditions, and patient concerns for higher engagement.</div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">4</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Integrate predictive analytics to identify high-value patients and prioritize audiences likely to convert and return.</div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">5</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Implement AI-powered bidding strategies that adjust based on demand, competition, and real-time patient intent signals.</div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">6</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">Execute full-funnel remarketing campaigns targeting website visitors, inquiry drop-offs, and past patients to improve retention.</div>
-                        </div>
-                    </div>
-
-                    <a href="/contact" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="col-lg-5">
-                    <div class="launch-illustration-wrap">
-                        <img src="/assets/images/analities-2.png" alt="Healthcare Digital Marketing Dubai" id="launch-illustration">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
-            <h2 class="text-center text-white mb-lg-5 mb-4">Your Industry Questions Answered</h2>
+            <h2 class="text-center text-white mb-lg-5 mb-4">Your Questions Answered</h2>
             <div class="dm-faq-main">
     <div class="tab-content" id="pills-tabContent">
         <!-- Existing Industry Tab -->
