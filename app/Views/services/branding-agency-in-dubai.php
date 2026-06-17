@@ -6,10 +6,10 @@
           <div class="container">
             <img class="w-100 d-md-none d-block mb-3" src="/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp">
 
-            <h1 class="mb-4 text-white">Best Branding Agency in Dubai
+            <h1 class="mb-4 text-white">Best Creative Branding <br>Agency in Dubai, UAE
 
             </h1>
-            <p class="text-white mb-md-5 mb-4 fs-20">We market your brand without limits to reach and resonate with the <br>right audience. Building visibility, credibility, and long-term brand value <br>across digital channels.</p>
+            <p class="text-white mb-md-5 mb-4 fs-20">BrandStory is the branding & marketing agency that helps businesses <br>start, grow, and thrive across the GCC and around the world.</p>
             <a href="javascript:void(0);" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Get in Touch</a>
 
           </div>
@@ -23,7 +23,7 @@
             <h1 class="mb-4 text-white">We Build Iconic, Future-Ready <span class="db">Brands</span>
 
             </h1>
-            <p class="text-white mb-md-5 mb-4 fs-20">As a reputable branding agency in Dubai since 2012, we help brands grow<br> with purpose and consistency. Our strategic approach blends creativity, insight,<br> and execution to build lasting brand value.</p>
+            <p class="text-white mb-md-5 mb-4 fs-20">Every brand has a story. We make sure yours is impossible to ignore. <br>Crafting branding identities that spark recognition, trust, and connection.</p>
             <a href="/services" class="Performance-Driven-btn mb-5 uniq-contact-lead-btn">➤ Explore Our Services</a>
 
           </div>
@@ -82,9 +82,9 @@
         </div>
       </div>
       <div class="col-lg-6 align-self-center mt-3 mt-md-0" bis_skin_checked="1">
-        <h2 class="text-white mb-4 fs-38">Your Smart Branding Agency in Dubai- BrandStory UAE</h2>
-        <p class="text-white mb-4 fs-20">At <a href="/" style="color:white"><u>BrandStory</u></a>, we’re not just a branding agency in Dubai, we’re brand architects, storytellers, and growth enablers. Whether you’re a startup, SME, or enterprise looking to redefine your brand identity or launch something from scratch, we help you build a powerful brand that resonates, inspires, and delivers real results.</p>
-        <p class="text-white mb-4 fs-20">As a leading branding agency in Dubai, UAE, we design and execute comprehensive branding strategies that drive long-term growth. By leveraging all digital channels, we ensure your brand stands out, becomes memorable to your target audience, and inspires consumer trust and loyalty. Our focus is on creating a lasting impact, making us one of the top branding companies in Dubai.</p>
+        <h2 class="text-white mb-4 fs-38">We are Creative Branding Agency in Dubai, UAE</h2>
+        <p class="text-white mb-4 fs-20">We're Dubai's leading branding agency, built by industry experts who know how to make brands matter. Our edge comes from blending deep local UAE insight with MENA-wide consumer understanding and global perspective- turning that into branding, websites, and digital campaigns that actually perform.</p>
+        <p class="text-white mb-4 fs-20">We approach every project with a multidisciplinary team working on multiple angles. Logo to strategy, web to social- we implement bespoke solutions around your brand and audience. Our process is not limited to any template, no shortcuts, just work that lasts.</p>
 
         <a href="/about/" class="Performance-Driven-btn">➤ Know About Us</a>
       </div>
@@ -101,7 +101,7 @@
 </section>
 <section class="sp-50 dm-bg">
   <div class="container">
-    <h2 class="text-white mb-md-5 text-md-start text-center">Our Comprehensive <br>Branding Services in Dubai</h2>
+    <h2 class="text-white mb-md-5 text-md-start text-center">Contextual Strategies to Attract the <br>Right Audience to Your Brand</h2>
   </div>
   <div class="dm-sticky-section">
     <div class="dm-container rounded-0">
@@ -109,18 +109,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Brand <br><span class="outlined-text">Strategy</span></h2>
+              <h2 class="servicebrand-agency-heding">Brand <br><span class="outlined-text">Awareness</span></h2>
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Market Research & Competitor Analysis</h3>
-                <p class="mb-3">We extract market insights, customer expectations, and competitive environment to inform data-supported branding decisions that strengthen your position in the Dubai Marketplace.</p>
-                <h3>Brand Positioning & Purpose</h3>
-                <p class="mb-3">We prepare a unique brand purpose and position that defines your niche and connects with your audience emotionally across digital and traditional touchpoints.</p>
-                <h3>Brand Naming & Architecture</h3>
-                <p class="mb-3">Our creative nomenclature and structured brand architecture ensure stability in your offerings, resonating with your target audience's culture, language, and aspirations.</p>
-                <h3>Customer Persona Creation</h3>
-                <p>We create data-driven personas to understand customer behavior, motivations, and needs, customer personalized messaging, and obtain uninterrupted brand experiences.</p>
+                <h3>Brand Strategy</h3>
+                <p class="mb-3">A successful branding strategy is one that encompasses your brand's mission, its promises to customers, and how these are communicated. We can help you develop all of this and more. A well-branded company is easily identifiable and preferred by consumers.</p>
+                <h3>SEO Services</h3>
+                <p class="mb-3">BrandStory is a digital marketing agency that will help your business grow online. We’re the best SEO company in Dubai, and we can help you increase leads by improving your website’s visibility on Google. Our team of experts understands how to get results with SEO.</p>
+                <h3>Creative Services</h3>
+                <p class="mb-3">BrandStory is a full-service creative agency that provides creative solutions to your visual and content-related needs. We’re here to help with routine functions of marketing, including content, video production, graphic design, website and UI/UX design or consulting.</p>
               </div>
             </div>
           </div>
@@ -132,18 +130,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Visual <br><span class="outlined-text">Brand Identity</span></h2>
+              <h2 class="servicebrand-agency-heding">Audience <br><span class="outlined-text">Growth</span></h2>
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Logo Design & Iconography</h3>
-                <p class="mb-3">We design impressive, scalable logos and brand icons that are immediately recognizable and reflect your brand essence in digital, print, and packaging platforms.</p>
-                <h3>Typography & Color Palette</h3>
-                <p class="mb-3">We curate typography and color schemes that align with your brand personality, ensuring access, emotion, and cultural relevance in the Dubai market.</p>
-                <h3>Imagery & Graphic Language</h3>
-                <p class="mb-3">From photography to illustrations, we establish a steady visual language that improves brand recall and builds an unforgettable brand storytelling experience.</p>
-                <h3>Motion Graphics & Brand Assets</h3>
-                <p>We bring your identity to life through videos and brand assets that attach audiences to social media, websites, and advertising channels.</p>
+                <h3>Content Marketing</h3>
+                <p class="mb-3">Content marketing is one of the most effective ways to reach your target audience. BrandStory can help you create and distribute content such as blogs, newsletters, white papers, social media posts, emails, videos etc. Our team can help you develop a content marketing strategy that fits your business and helps you achieve your goals.</p>
+                <h3>UI/UX Design</h3>
+                <p class="mb-3">Great UI/UX design is key to keeping customers satisfied and coming back for more. We understand the importance of a great user experience and work tirelessly to create designs that are not only visually appealing but also functionally sound.</p>
+                <h3>Website Design</h3>
+                <p class="mb-3">Our team of experts will work with you every step of the way, from strategy to design and execution. We don’t just build websites- we help businesses thrive online by providing exceptional customer service, strategic insights, and results-driven campaigns that drive traffic to your site.</p>
               </div>
             </div>
           </div>
@@ -155,16 +151,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Verbal Identity &<br><span class="outlined-text">Messaging</span></h2>
+              <h2 class="servicebrand-agency-heding">Customer<br><span class="outlined-text">Acquisition</span></h2>
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Brand Voice & Tone</h3>
-                <p class="mb-3">We develop the voice of a brand that reflects your values across all touchpoints, from professional reports to fickle social media content.</p>
-                <h3>Taglines, Messaging Frameworks</h3>
-                <p class="mb-3">Our tagline and message system clearly and strongly explain the promise of your brand, leaving permanent impressions in the minds of your target audience.</p>
-                <h3>Storytelling & Brand Narrative</h3>
-                <p class="mb-3">We outline narratives that go beyond facts—telling your brand’s journey, goals, and impact in a manner that resonates emotionally with consumers.</p>
+                <h3>PPC Services</h3>
+                <p class="mb-3">With our PPC ad campaigns, we increase the digital footprint for businesses. Our PPC experts lay out a well-etched plan for implementation at the beginning of the campaign. The PPC ads will be designed to direct traffic towards specific keywords, and bring valuable leads.</p>
+                <h3>Email Marketing</h3>
+                <p class="mb-3">Email Marketing is the most powerful digital marketing tool. It's personal and customer-focused approach puts it way ahead of other digital marketing channels. We use email marketing to target specific demographics for brands and businesses.</p>
+                <h3>B2B Marketing</h3>
+                <p class="mb-3">We are B2B marketing experts and we know how to help companies find the right customers and create value for them. That’s why our team of experts are here to help your business grow by creating relevant differentiation that will generate interest in your offerings.</p>
               </div>
             </div>
           </div>
@@ -176,16 +172,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Brand<br><span class="outlined-text">Guidelines</span></h2>
+              <h2 class="servicebrand-agency-heding">Customer<br><span class="outlined-text">Retention</span></h2>
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Comprehensive Brand Book</h3>
-                <p class="mb-3">We compile your visual, verbal, and strategic brand elements into a harmonious guide that ensures stability in all teams and platforms.</p>
-                <h3>Digital Asset Management</h3>
-                <p class="mb-3">Your brand assets are stored in a systematic and accessible digital library, enabling quick sharing and frequent use in internal and external teams.</p>
-                <h3>Usage Rules for Designers, Agencies & Teams</h3>
-                <p class="mb-3">We explain each design element and ensure that your brand looks cohesive across prints, digital, and environmental applications.</p>
+                <h3>Marketing Automation</h3>
+                <p class="mb-3">BrandStory was created with the modern brands in mind. We know you are busy and that every second counts. That is why we have designed our service to make automating your marketing as easy as possible. You will be able to see real-time results and track your progress along the way.</p>
+                <h3>Customer Experience</h3>
+                <p class="mb-3">We help improve customer retention by creating meaningful customer experiences that build loyalty and long-term engagement. By combining personalization with real-time customer insights and feedback, we deliver experiences that strengthen relationships and drive sustainable growth.</p>
+                <h3>Employer Branding</h3>
+                <p class="mb-3">We are experts in employer branding and we know what it takes to make your company stand out from the rest. We have a suite of services that will help you create an amazing employment brand that your employees and future job seekers will love.</p>
               </div>
             </div>
           </div>
@@ -197,39 +193,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Brand <br><span class="outlined-text">Activation</span></h2>
+              <h2 class="servicebrand-agency-heding">Customer <br><span class="outlined-text">Loyalty</span></h2>
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Go-To-Market Strategy</h3>
-                <p class="mb-3">We devise actionable launch strategies to introduce your brand or campaign to market with precision, impact, and measurable success.</p>
-                <h3>Campaign Planning</h3>
-                <p class="mb-3">Our team creates inclusive campaign plans that align messaging, channels, and timing for maximum engagement and ROI.</p>
-                <h3>Launch Events & PR Kits</h3>
-                <p class="mb-3">We create immersive events and personalized press kits that produce buzz, drive media coverage, and keep your brand in the limelight.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="dm-container rounded-0">
-      <div class="dm-card p-30" style="background:url('/assets/images/branding-agency-in-dubai-new-service-6.webp') no-repeat; background-size: cover; background-position: center;">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-12 servicebrand-agency-heding">
-              <h2 class="servicebrand-agency-heding">Digital<br><span class="outlined-text">Branding</span></h2>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="dm-card-content">
-                <h3>UI/UX Design</h3>
-                <p class="mb-3">We design intuitive and visually consistent user interfaces that reflect your brand values and enhance digital user experiences.</p>
-                <h3>Web & Mobile Brand Integration</h3>
-                <p class="mb-3">Your brand is effortlessly integrated on all web and mobile platforms to ensure a consistent look and feel for users.</p>
-                <h3>Social Media Branding</h3>
-                <p class="mb-3">We design platform-specific assets and templates that maintain brand stability by maximizing visual appeal and influence.</p>
-                <h3>Email Templates & Digital Assets</h3>
-                <p>Custom-designed templates and branded digital assets that are professional, attractive, and aligned with your brand voice.</p>
+                <h3>Marketing Analytics</h3>
+                <p class="mb-3">Turn customer data into lasting loyalty with powerful analytics and customer-centric marketing strategies. Gain deeper insights into customer behavior, enhance service experiences, identify opportunities for improvement, and make data-driven decisions that maximize engagement, retention, and ROI.</p>
+                <h3>Customer Loyalty</h3>
+                <p class="mb-3">With BrandStory, we provide all the strategies necessary for creating a strong customer loyalty program. With data, insights and recommendations to maximize your consumer loyalty. We optimize your strategy, and ensure your consumers benefit in the moments that matter.</p>
+                <h3>Brand Lift Study</h3>
+                <p class="mb-3">From initial impression to final conversion with the metrics that matter, like brand awareness, ad recall, and consideration with our Brand Lift Study you get actionable insights so you can adjust your campaigns based on what is working well with your customers.</p>
               </div>
             </div>
           </div>
@@ -245,14 +218,12 @@
             </div>
             <div class="col-md-6 col-12">
               <div class="dm-card-content">
-                <h3>Brand Audit & Analysis</h3>
-                <p class="mb-3">We evaluate the performance, perception, and position of your current brand to highlight gaps, challenges, and development opportunities.</p>
-                <h3>Brand Refresh Strategy</h3>
-                <p class="mb-3">We revitalize your brand identity with the latest visuals, tone, and storytelling that align with emerging trends and resonate with your faithful audience.</p>
-                <h3>Market Repositioning</h3>
-                <p class="mb-3">We redefine your brand’s market perception by redesigning its value proposition, audience focus, and communication to stay ahead in a competitive environment.</p>
-                <h3>Internal & External Rollout Plans</h3>
-                <p>Our phased rollout strategies ensure smooth adoption of internal and successful public relay with strong engagement in all channels.</p>
+                <h3>Brand Repositioning</h3>
+                <p class="mb-3">As markets evolve, brands must adapt to remain relevant. We help redefine your brand positioning, messaging, and identity to better connect with modern audiences, strengthen differentiation, and ensure your brand continues to reflect your vision, values, and business objectives.</p>
+                <h3>Identity Transformation</h3>
+                <p class="mb-3">A strong visual identity shapes how customers perceive your business. We redesign logos, typography, color palettes, and brand assets to create a cohesive and memorable presence that enhances recognition, strengthens credibility, and delivers consistency across every customer touchpoint.</p>
+                <h3>Strategy & Communication</h3>
+                <p class="mb-3">Successful brands communicate with clarity and purpose. We develop strategic branding frameworks, messaging pillars, and communication guidelines that align with your business goals, helping you build trust and maintain a consistent brand voice across channels.</p>
               </div>
             </div>
           </div>
@@ -264,7 +235,7 @@
 </section>
 
 
-<section class="Performance-Driven-wrapper dm-bg pt-1 mt-5">
+<!--<section class="Performance-Driven-wrapper dm-bg pt-1 mt-5">
   <div class="container">
     <h2 class="mb-4">Why Branding is Important <br>for Businesses</h2>
     <div class="row Performance-Driven-row px-md-4 px-2">
@@ -291,7 +262,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 
 
@@ -421,7 +392,7 @@
             </div>
             <div class="wcp-stat-div"></div>
             <div class="wcp-stat">
-              <span class="wcp-stat-num">350<span class="wcp-stat-plus">+</span></span>
+              <span class="wcp-stat-num">1,000<span class="wcp-stat-plus">+</span></span>
               <span class="wcp-stat-label">Brands Built</span>
             </div>
             <div class="wcp-stat-div"></div>
@@ -515,7 +486,7 @@
 
         <!-- Bottom highlight bar -->
         <div class="wcp-bottom-bar">
-          <p>&#9733; Trusted by <strong>350+ leading brands</strong> across Dubai, UAE and the wider GCC region.</p>
+          <p>&#9733; Trusted by <strong>900+ leading brands</strong> across Dubai, UAE and the wider GCC region.</p>
         </div>
 
       </div>
@@ -531,13 +502,13 @@
     <div class="row gx-md-0">
       <div class="col-lg-3 col-md-6 col-6">
         <div class="dm-conter-main text-lg-start text-center">
-          <span class="dm-count-num">500+</span>
+          <span class="dm-count-num">900+</span>
           <h3 class="text-white fw-300 mb-0">Campaigns Executed</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-6">
         <div class="dm-conter-main text-lg-start text-center ps-lg-5">
-          <span class="dm-count-num">350+</span>
+          <span class="dm-count-num">1,000+</span>
           <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
         </div>
       </div>
@@ -557,141 +528,6 @@
   </div>
 </section>
 
-
-<section class="pricing-section">
-  <div class="pricing-container">
-    <div class="pricing-text">
-      <h2>Transparent & Flexible Pricing</h2>
-      <p>Whether you’re starting fresh or rebranding an enterprise, we offer pricing models tailored to your needs.</p>
-    </div>
-    <div class="pricing-table">
-      <table>
-        <thead>
-          <tr>
-            <th>Package</th>
-            <th>Ideal For</th>
-            <th>Starting Price (AED)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Startup</td>
-            <td>Entrepreneurs</td>
-            <td>7,500</td>
-          </tr>
-          <tr>
-            <td>Growth</td>
-            <td>SMEs</td>
-            <td>14,500</td>
-          </tr>
-          <tr>
-            <td>Enterprise</td>
-            <td>Large Businesses</td>
-            <td>Custom Quote</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-<!-- 
-<section class="sp-50 dm-blog-section dm-bg">
-  <div class="container">
-    <div class="d-lg-flex align-items-center justify-content-between d-block text-center">
-      <h2 class="text-white mb-4 text-md-start text-center ">Where Strategy Meets Success <br>Unfolding Our Digital Wins
-      </h2>
-      <a href="/case-study/" class="Performance-Driven-btn">➤All Case Studies</a>
-    </div>
-
-    <div class="position-relative delivertechmain">
-      <div class="swiper dmblog-sld">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-1.webp') ?>">
-              <strong>Digital Marketing</strong>
-              <h3>Sand Dollar - Ecommerce</h3>
-              <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-2.webp') ?>">
-              <strong>Branding & Digital Marketing</strong>
-              <h3>TravelX</h3>
-              <p class="fs-20">TravelX travel agency startup sought to create a brand presence and a steady flow of travel enquiries. We helped them build a brand identity by making a logo, brand messaging, website, and optimized social media pages. Boosted travel queries by 200% through PPC, SEO, and social media campaigns.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-3.webp') ?>">
-              <strong>Digital Marketing</strong>
-              <h3>Crystal Plaza</h3>
-              <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai”, “business stay Dubai”.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-4.webp') ?>">
-              <strong>Digital Marketing</strong>
-              <h3>NIMS School</h3>
-              <p class="fs-20">A private education institution in Dubai sought to increase student enrollment and expand its digital footprint. We helped them with a significant boost in organic traffic by ranking potential keywords in the top 5 positions of Google, 80% growth in social media engagement, and lead flow from local parent communities.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-5.webp') ?>">
-              <strong>Website & Digital Marketing</strong>
-              <h3>Wipro Infrastructure Engineering</h3>
-              <p class="fs-20">Wipro Infrastructure Engineering (WIN) is a global leader in precision-engineered hydraulic, water treatment, aerospace, additive manufacturing, and automation solutions with operations across India, Europe, and the UAE. BrandStory manages their digital marketing campaigns to enhance their online presence. </p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-6.webp') ?>">
-              <strong>Website & Digital Marketing</strong>
-              <h3>NanoPrecise Sci Corp</h3>
-              <p class="fs-20">NanoPrecise is a global leader in AI + IoT-powered predictive maintenance solutions, enabling industries to monitor machinery health in real-time. BrandStory partnered with NanoPrecise to provide comprehensive digital marketing services, driving measurable growth and enhanced ROI.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="neww-case-stuides-main">
-              <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/c-7.webp') ?>">
-              <strong>Branding & Digital Marketing</strong>
-              <h3>Sherpa Communications</h3>
-              <p class="fs-20">Sherpa Communications is a leading PR agency based in Dubai, offering public relations, corporate communications, crisis management, and media relations services. BrandStory has partnered with Sherpa Communications for strategic PPC, SEO, email marketing, enhancing brand visibility.</p>
-              <div class="casestydies-readmore">
-                <a href="/case-study/sherpa-communications/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      <div class="swiper-button-next dmblog-next"></div>
-      <div class="swiper-button-prev dmblog-prev"></div>
-    </div>
-  </div>
-</section> -->
 <section class="sp-50 dm-case-studies-section dm-bg">
     <div class="container">
         <div class="row">
