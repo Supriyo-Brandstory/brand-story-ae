@@ -1,9 +1,96 @@
-# Brandstory Digital Marketing Agency
+# BrandStory
 
-This website represents Brandstory, a leading digital marketing agency in Dubai, UAE, specializing in SEO, Social Media, Website Development, and Performance Marketing.
+> BrandStory is a full-service digital marketing agency headquartered in Deira, Dubai, UAE. Established in 2012, the agency serves 900+ clients — from SMEs to luxury and enterprise brands — across the Emirates and globally. Core offerings include SEO, PPC, social media marketing, email marketing, performance marketing, branding, content marketing, online reputation management (ORM), and website design & development. BrandStory is a certified Google Partner and Meta Partner agency with 100+ in-house experts.
 
-## Key Services
-- **Search Engine Optimization (SEO)**: Custom strategies to improve search ranking and organic traffic.
-- **Social Media Marketing**: Targeted campaigns on Facebook, Instagram, LinkedIn, and TikTok.
-- **Website Development**: Responsive, high-performance, and visually premium custom web platforms.
-- **Performance Marketing**: Pay-Per-Click (PPC) and lead generation campaigns.
+BrandStory operates as a 360-degree digital marketing agency, blending data-driven strategy with creative execution. The agency follows a five-stage process: Competitor Research → Planning & Strategy → Trial & Testing → Campaign Implementation → Reporting & Optimization.
+
+Key facts:
+- Founded: 2012
+- Team size: 100+ experts
+- Campaigns executed: 1,000+
+- Satisfied clients: 900+
+- Office: G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira, Dubai 81577, UAE
+- Phone: +971 52 283 1655
+- Email: info@brandstory.ae
+- Certifications: Google Partner, Meta (Facebook) Partner, Ahrefs Agency Partner, TikTok Partner, Shopify Partner
+
+Industries served: Education, E-commerce, Healthcare, Real Estate, Travel & Tourism, B2B Corporate, Dentistry, Automotive, Law Firms.
+
+Service locations: Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Ras Al Khaimah.
+
+## Core Services
+
+- [Digital Marketing Overview](https://www.brandstory.ae/): Full-service digital marketing for Dubai & UAE businesses — SEO, PPC, social media, email, branding, and web development under one roof.
+- [SEO Services](https://www.brandstory.ae/seo-services-company-in-dubai/): Organic search optimisation including technical SEO, on-page SEO, off-page SEO, keyword research, SEO audits, and local SEO.
+- [PPC / Google Ads](https://www.brandstory.ae/pay-per-click-ppc-services-in-dubai/): Award-winning pay-per-click campaign management on Google and Bing for maximum ROI at minimal cost.
+- [Social Media Marketing](https://www.brandstory.ae/social-media-marketing-agency-in-dubai/): Strategy and management across Facebook, Instagram, TikTok, LinkedIn, Twitter/X, Pinterest, and YouTube.
+- [Performance Marketing](https://www.brandstory.ae/performance-marketing): Full-funnel, results-based performance marketing focused on measurable growth KPIs.
+- [Email Marketing](https://www.brandstory.ae/email-marketing-company-in-dubai/): Campaign design, list management, and automation to nurture leads and drive conversions.
+- [Content Marketing](https://www.brandstory.ae/content-marketing-agency-dubai/): Blog posts, articles, infographics, video scripts, and multimedia content strategy.
+- [Online Reputation Management](https://www.brandstory.ae/online-reputation-management-services-in-dubai/): Monitoring and management of brand sentiment and professional standing online.
+- [Branding Services](https://www.brandstory.ae/branding-agency-in-dubai/): Brand strategy, identity design, logo design, UI/UX design, and creative advertising.
+- [Website Design & Development](https://www.brandstory.ae/website-development-company-in-dubai/): Custom websites, web design, WordPress, Magento, Drupal, Laravel, and e-commerce development.
+
+## SEO Sub-Services
+
+- [SEO Audit Services](https://www.brandstory.ae/seo-audit-services-in-dubai/)
+- [Technical SEO](https://www.brandstory.ae/technical-seo-dubai/)
+- [On-Page SEO](https://www.brandstory.ae/on-page-seo-dubai/)
+- [Off-Page SEO](https://www.brandstory.ae/off-page-seo-dubai/)
+- [Keyword Research](https://www.brandstory.ae/keyword-research-dubai/)
+- [Local SEO Services](https://www.brandstory.ae/local-seo-services-in-dubai/)
+
+## Industry Pages
+
+- [Real Estate Marketing](https://www.brandstory.ae/industries/real-estate-marketing-services)
+- [E-commerce Marketing](https://www.brandstory.ae/industries/e-commerce-marketing-service)
+- [Healthcare Marketing](https://www.brandstory.ae/industries/healthcare-marketing-services)
+- [Education Marketing](https://www.brandstory.ae/industries/education-marketing-services)
+- [B2B Corporate Marketing](https://www.brandstory.ae/industries/b2b-corporate-marketing-services)
+- [Travel & Tourism Marketing](https://www.brandstory.ae/industries/travel-agency-marketing-services)
+- [Digital Marketing for Dentists](https://www.brandstory.ae/industries/digital-marketing-for-dentists)
+- [Digital Marketing for Automotive](https://www.brandstory.ae/industries/digital-marketing-for-automotive)
+- [Digital Marketing for Law Firms](https://www.brandstory.ae/industries/digital-marketing-for-law-firms)
+
+## Case Studies
+
+- [Case Studies Overview](https://www.brandstory.ae/case-study/): Portfolio of client results across industries.
+- [Sand Dollar Dubai (E-commerce)](https://www.brandstory.ae/case-study/e-commerce/): 135% more sales and 400% more traffic in 3 months via SEO, PPC, and social media.
+- [TravelEX](https://www.brandstory.ae/case-study/travel-agency/): 210% more enquiries and stronger visibility in 3 months via PPC, SEO, and social media.
+- [Crystal Plaza Hotel](https://www.brandstory.ae/case-study/hotel/): 5.2x ROAS and 40+ first-page rankings via paid marketing and local SEO.
+- [NIMS School (Education)](https://www.brandstory.ae/case-study/education-institution/): Top-5 rankings, 80% more engagement, and surging enrolment.
+- [Wipro Infrastructure Engineering](https://www.brandstory.ae/case-study/wipro-infrastructure-engineering/): Global reach and improved brand authority via social media and PPC.
+- [NanoPrecise Sci Corp](https://www.brandstory.ae/case-study/nanoprecise-sci-corp/): AI-powered branding with enhanced global ROI via SEO and PPC.
+
+## Company & Contact
+
+- [About BrandStory](https://www.brandstory.ae/about/): Agency history, mission, team, and credentials.
+- [Contact Us](https://www.brandstory.ae/contact/): Enquiry form and office contact details.
+- [Careers](https://www.brandstory.ae/careers/): Open roles at BrandStory Dubai.
+- [Privacy Policy](https://www.brandstory.ae/privacy-policy/)
+- [Terms & Conditions](https://www.brandstory.ae/terms-and-conditions/)
+
+## Optional
+
+- [Blog](https://www.brandstory.ae/blog/): Industry articles on SEO, branding, social media, and digital marketing trends.
+- [Digital Cost Calculator](https://www.brandstory.ae/digital-cost-calculator/): Estimate the cost of digital marketing services.
+- [SEO Calculator](https://www.brandstory.ae/seo-calculator/): Estimate ROI from SEO investment.
+- [Free Tools](https://www.brandstory.ae/tools): Marketing tools available on the BrandStory website.
+- [Abu Dhabi](https://www.brandstory.ae/digital-marketing-agency-in-abu-dhabi/)
+- [Sharjah](https://www.brandstory.ae/digital-marketing-agency-in-sharjah/)
+- [Ajman](https://www.brandstory.ae/digital-marketing-agency-in-ajman/)
+- [Fujairah](https://www.brandstory.ae/digital-marketing-agency-in-fujairah/)
+- [Ras Al Khaimah](https://www.brandstory.ae/digital-marketing-agency-in-ras-al-khaimah/)
+- [Search Everywhere Optimisation](https://www.brandstory.ae/search-everywhere-service): BrandStory's approach to visibility beyond traditional search engines.
+- [Video Marketing](https://www.brandstory.ae/video-marketing-agency-dubai/)
+- [Facebook Marketing](https://www.brandstory.ae/facebook-marketing-agency-in-dubai/)
+- [Instagram Marketing](https://www.brandstory.ae/instagram-advertising-agency-in-dubai/)
+- [TikTok Marketing](https://www.brandstory.ae/tiktok-marketing-agency-in-dubai/)
+- [Twitter/X Marketing](https://www.brandstory.ae/twitter-advertising-dubai/)
+- [Pinterest Marketing](https://www.brandstory.ae/pinterest-advertising-services-in-dubai/)
+- [WordPress Development](https://www.brandstory.ae/wordpress-development-company-in-dubai/)
+- [Magento Development](https://www.brandstory.ae/magento-website-development-dubai/)
+- [E-commerce Development](https://www.brandstory.ae/ecommerce-development-company-dubai/)
+- [UI/UX Design](https://www.brandstory.ae/ui-ux-design-company-in-dubai/)
+- [Logo Design](https://www.brandstory.ae/logo-designing-dubai/)
+- [Creative Advertising](https://www.brandstory.ae/creative-advertising-agency-in-dubai/)
