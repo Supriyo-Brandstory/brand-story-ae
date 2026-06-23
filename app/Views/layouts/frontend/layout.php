@@ -102,7 +102,7 @@ if ($seoData) {
     <!-- Non-Critical CSS (Loaded Asynchronously) -->
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/dev.css?v=1.5') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/dev.css?v=1.6') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"

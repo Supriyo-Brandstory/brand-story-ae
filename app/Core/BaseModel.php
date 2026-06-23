@@ -205,7 +205,7 @@ class BaseModel
     /**
      * Define a belongs-to relationship.
      */
-    public function belongsTo(string $relatedModel, string $foreignKey = null, string $ownerKey = 'id'): ?array
+    public function belongsTo(string $relatedModel, ?string $foreignKey = null, string $ownerKey = 'id'): ?array
     {
         // Infer foreign key if not provided (e.g., 'category_id' from 'CategoryModel')
         if (is_null($foreignKey)) {
@@ -237,7 +237,7 @@ class BaseModel
     /**
      * Define a has-many relationship.
      */
-    public function hasMany(string $relatedModel, string $foreignKey = null, string $localKey = 'id'): array
+    public function hasMany(string $relatedModel, ?string $foreignKey = null, string $localKey = 'id'): array
     {
         if (is_null($foreignKey)) {
             // Infer foreign key from current model name (e.g., 'blog_id' for a Blog model)
