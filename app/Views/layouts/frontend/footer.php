@@ -111,7 +111,7 @@
   </div><!--Container end-->
 </section><!--Footer bottom end-->
 
-<a href="javascript:" id="return-to-top"><span class="upIcon"></span></a>
+<a href="javascript:" id="return-to-top" aria-label="Return to top"><span class="upIcon"></span></a>
 </div><!-- Page Content End-->
 <div class="uniq-contact-lead-popup-overlay" style="display: none;">
   <div class="uniq-contact-lead-popup">
