@@ -3,9 +3,9 @@
         <div class="new_about_us-banner-container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1 class="mb-4 text-white">Best Education Marketing Agency in Dubai, UAE </h1>
+                    <h1 class="mb-4 text-white">Education Marketing Agency in Dubai, UAE</h1>
                     <p class="fs-18 text-white">
-                       We help schools, universities, and education brands in Dubai fill seats, boost enrollments, and build lasting reputation- through data-driven digital campaigns. From admissions-season ads to long-term brand positioning, BrandStory has driven measurable growth for 50+ institutions across the UAE and GCC.
+                       Transform your institute’s digital visibility and impact with BrandStory, we are a full-fledged digital marketing agency for schools, universities, and other education institutions. We bring the most innovative approach to promote your business, enhance engagement and boost enrollment with targeted data-driven strategies. 
                     </p>
                     <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
@@ -17,30 +17,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Digital Marketing Services for Schools, Universities & Institutes</h2>
-                    <p class="fs-20 text-white">Filling your seats is harder than it looks. Parents research extensively, students compare options across dozens of institutions, and ad costs keep climbing- all while your competitors are spending more aggressively.</p>
-                   <p class="fs-20 text-white my-3">
-                       BrandStory works exclusively with schools, universities, and training institutes to solve exactly this. We run targeted admissions campaigns that generate qualified leads, manage your institution's reputation across Google and social platforms, and build retargeting funnels that bring back prospective students who didn't convert the first time.
-
+                    <h2 class="text-white mb-4 text-md-start text-center ">Full-Scale Digital Marketing for Schools and Universities</h2>
+                    <p class="fs-18 text-white">Dubai's education landscape is crowded, but the opportunity is massive. Parents aren't just looking for a school- they're searching for a future they can trust with their child. Students aren't browsing colleges- they're deciding who will shape their careers. We help education brands win those decisions.</p>
+                   <p class="fs-18 text-white my-3">
+                       Working since 2012, we’ve learned a simple truth: in high-stakes industries, decisions are made long before the first enquiry- based on trust, perception, and visibility. We apply that same discipline to schools and universities- crafting digital presence that answer real questions, content that proves your academic rigor, and campaigns that turn a Google search into a campus visit and enrollment. 
                     </p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Education-Marketing-Agency-banner-img2.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/industries/education-marketing.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top ">
                 <!-- Left Column -->
                 <div class="col-md-7 mt-5">
-                    <p class="fs-20 text-white mb-3">We are a performance-driven <a href="/" style="color:white;text-decoration:underline;font-weight:900">education marketing agency in Dubai</a>, focused on turning prospective students into enrolled ones and enrolled students into long-term brand advocates. Our strategies are built to deliver measurable admissions growth, combining deep sector expertise with a full suite of digital marketing solutions built specifically for educational institutions.</p>
+                    <p class="fs-18 text-white mb-3">We don’t follow the traditional playbook, we build education marketing that actually enrolls students. Our digital marketing strategy mixes PPC that targets parents actively searching, social content that engages audiences, and content marketing that answers the real questions. We also build websites that attract users and convert instantly.</p>
 
-                    <p class="fs-20 text-white">With extensive experience working with schools, universities, and training institutes across the UAE and GCC, we help institutions scale from reaching the right audience to filling seats, ensuring every campaign contributes directly to enrollment targets and institutional reputation.</p>
+                    <p class="fs-18 text-white">Every school and university is different. So we don’t copy-paste strategies, we build plans that fit your marketing goals, your competition, and budget. Whether your focus is increasing admissions, improving brand awareness, or attracting international students, we create marketing strategies aligned with your specific goals.</p>
                 </div>
 
                 <!-- Right Column -->
                 <div class="col-md-5 mt-5">
-                    <h5 class="fw-bold mb-3 text-white">Our proven approach to education marketing includes:</h5>
+                    <h5 class="fw-bold mb-3 text-white">Our approach to education marketing includes:</h5>
                     <ul class="list-unstyled text-white fs-20">
                         <li class="mb-2">🎯 Identify- Target students & parents</li>
                         <li class="mb-2">📊 Analyse- Data-driven insights into enrollment</li>
@@ -71,7 +70,7 @@
                             </div>
                             <h3>Search Engine Optimization</h3>
                             <p>When parents and students search for schools, universities, or courses in Dubai, your institution needs to be visible. If you're not ranking for the right keywords, you're losing prospective students to competitors. BrandStory implements education-focused SEO strategies that improve search rankings, build credibility, and connect you with students actively researching their options.</p>
-                            <a href="<?= base_url('/industries/education-seo-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-seo-agency-in-dubai-uae/') ?>" class="know-more"><b>SEO Services</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -82,7 +81,7 @@
                             </div>
                             <h3>Social Media Marketing</h3>
                             <p>Students and parents research institutions on social media before making enrollment decisions. A strong presence builds trust, showcases campus life, and keeps your institution top of mind throughout the admission cycle. We craft education-specific social media strategies that drive engagement, highlight your institution's strengths, and nurture prospective students from discovery to enrollment.</p>
-                            <a href="<?= base_url('/industries/education-social-media-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-social-media-agency-in-dubai-uae/') ?>" class="know-more"><b>Social Media</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -93,7 +92,7 @@
                             </div>
                             <h3>Pay Per Click (PPC)</h3>
                             <p>Admissions windows are short- reaching prospective students at the right moment is everything. Our education PPC campaigns target high-intent search queries from students and parents actively comparing institutions. Every campaign is optimized to drive qualified inquiries, open day registrations, and application submissions while keeping your cost-per-lead in check.</p>
-                            <a href="<?= base_url('/industries/education-ppc-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-ppc-agency-in-dubai-uae/') ?>" class="know-more"><b>PPC Services</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -104,7 +103,7 @@
                             </div>
                             <h3>Branding</h3>
                             <p>In a crowded education market, institutions that stand for something win. BrandStory builds education brands that communicate your values, academic strengths, and student experience with clarity and consistency. From visual identity to messaging frameworks, we position your institution as a trusted, aspirational choice for students and parents making one of the most important decisions of their lives.</p>
-                            <a href="<?= base_url('/industries/education-branding-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-branding-agency-in-dubai-uae/') ?>" class="know-more"><b>Branding Services</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -115,7 +114,7 @@
                             </div>
                             <h3>Performance Marketing</h3>
                             <p>Every marketing dirham should move your enrollment numbers. Our performance marketing strategies for educational institutions are built around outcomes that matter — student inquiries, application completions, and enrollment conversions. We track, test, and optimize continuously so your admissions campaigns deliver consistent, measurable results every intake season.</p>
-                            <a href="<?= base_url('/industries/education-performance-marketing-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-performance-marketing-agency-in-dubai-uae/') ?>" class="know-more"><b>Perf. Marketing</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -126,7 +125,7 @@
                             </div>
                             <h3>Web Design & Development</h3>
                             <p>Your website is often the first impression a prospective student or parent has of your institution — it needs to do more than look good. We design education websites that are fast, mobile-friendly, and built to convert visitors into inquiries. From intuitive course finders to seamless application forms, every element is designed to reduce friction and guide users toward enrollment.</p>
-                            <a href="<?= base_url('/industries/education-web-design-development-agency-in-dubai-uae/') ?>" class="know-more">Know more<span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/education-web-design-development-agency-in-dubai-uae/') ?>" class="know-more"><b>Website Design</b><span class="arrow">→</span></a>
                         </div>
                     </div>
 
@@ -397,26 +396,130 @@
     </div>
 </section>
 
-    
-
-    <section class="bg-black sp-50">
+ <section class="sp-50 bg-black">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Why Choose Us for Education Marketing in Dubai, UAE</h2>
-                    <p class="fs-20 text-white">Choosing a marketing agency is easy. Choosing one that understands the education sector- enrollment cycles, parent decision-making, regulatory sensitivities, and the pressure of hitting admission targets is a different challenge entirely.<br><br>
-
-                     At BrandStory, we run the full admissions funnel from first awareness to enrolled student using SEO, paid ads, WhatsApp marketing, social media, email nurturing, and conversion optimization working together, not in silos. Every channel is tracked, every lead is measured, and every campaign is optimized around one outcome: filling your institution's goals.<br><br>
-                     With 12+ years of hands-on experience running education marketing campaigns across the GCC, we've seen what works, what wastes budget, and how to move fast when the admissions window is short.
-                    </p>
+            <div class="exclusive-benefits-wrapper">
+                <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
+                <div class="row">
+                    <!-- Promise Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <span class="badge-promise mb-4">Our Expertise</span>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">1,000+</div>
+                                        <div class="feature-desc">Delivered Projects</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">13+ Years</div>
+                                        <div class="feature-desc">Industry Experience</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">100+</div>
+                                        <div class="feature-desc">Team Experts</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Advantage Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                                <span class="badge-promise">Advantage You Get</span>
+                                <div class="expert-badge d-flex align-items-center">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <span>Expert Consultant</span>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">24/7 Support</div>
+                                        <div class="feature-desc">Always Available</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Quick Setup</div>
+                                        <div class="feature-desc">Fast Implementation</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Consultation</div>
+                                        <div class="feature-desc">Clear scope</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Education-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+            </div>
+        </div>
+    </section>  
+
+<section class="new_about_us-who-we-are-section sp-50 bg-black">
+    <div class="container">
+        <h2 class="new_about_us-who-we-are-heading text-white mb-5">Why Choose BrandStory As <br>Your Healthcare Marketing Partner</h2>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6">
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Enquiries That Convert</h3>
+                    <p>We are full-funnel education marketing agency for schools, universities, and training centres across the UAE. From a parent's first Google search to a enrollment application, we map how families actually compare, and decide- then place your institution at every digital touchpoints.</p>
+                </div>
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Trust That Resonates</h3>
+                    <p>Education isn't bought, it's entrusted. We position your institution as the clear, credible choice through SEO that answers real parent questions, social proof that validates your outcomes, and content that demonstrates academic excellence without sounding like a sales pitch.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- Card 2 -->
+                <div class="new_about_us-who-we-are-card white-card icons-card h-501">
+
+                    <h3>Growth That Sustains</h3>
+                    <p>In education marketing, quick wins fade fast. We build long-term strategies that fill your seats intake after intake- through remarketing that nurtures undecided families, alumni engagement that drives referrals, and brand building that keeps you top-of-mind when the next enrollment season begins.</p>
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+
                 </div>
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
+
+    
+<section class="new_about_us-why-brandstory pb-50">
+    <div class="new_about_us-container">
+        <div class="new_about_us-text">
+            <h2 style="line-height: 130%;">Working With Education Brands That Prioritize Trust and Student Success</h2>
+            <p>
+               BrandStory partners with schools, universities, and training centres to improve how families discover and evaluate educational options online. In education, visibility alone is not enough- parents and students need confidence before they commit. We focus on building that trust through accurate search presence, reputation management, educational content, and targeted digital advertising.
+            </p>
+            <p class="mb-3">
+               Unlike generic marketing approaches, education requires precision, empathy, and long-term thinking. Every strategy we build is tailored to the institution's ethos, the student journey, and the competitive landscape- ensuring that education brands grow sustainably while improving family engagement and enrolment conversions.
+            </p>
+            <a href="/about" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
+        </div>
+        <div class="new_about_us-image">
+
+        </div>
+    </div>
+</section>
 
         <section class="sp-50 dm-case-studies-section dm-bg">
         <div class="container">
@@ -586,241 +689,6 @@
         </div>
     </section>
 
-    <section class="sp-50 bg-black">
-    <div class="container">
-        <div class="exclusive-benefits-wrapper">
-            <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
-            <div class="row">
-                <!-- Promise Card -->
-                <div class="col-md-6 mb-4">
-                    <div class="benefit-sub-card">
-                        <span class="badge-promise mb-4">Our promise to you</span>
-                        <div class="row text-center">
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">500+</div>
-                                    <div class="feature-desc">Institutions Served</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">12+ Years</div>
-                                    <div class="feature-desc">Marketing Experience</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">98%</div>
-                                    <div class="feature-desc">Client Retention Rate</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Advantage Card -->
-                <div class="col-md-6 mb-4">
-                    <div class="benefit-sub-card">
-                        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
-                            <span class="badge-promise">Why Choose Us</span>
-                            <div class="expert-badge d-flex align-items-center">
-                                <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2">
-                                <span>Enrollment-Focused Strategies</span>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">24/7 Support</div>
-                                    <div class="feature-desc">Always On Call</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">Fast Launch</div>
-                                    <div class="feature-desc">Campaigns Live in Days</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-12 mb-3">
-                                <div class="feature-item">
-                                    <div class="feature-title">Free Consult</div>
-                                    <div class="feature-desc">Admission Goals Mapped</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="sp-50 comparison-section-wrapper bg-black">
-    <div class="container">
-        <h2 class="text-center mb-5 text-white">Services Our Education Digital Marketing Agency Provides</h2>
-        <div class="row">
-            <!-- Other Agencies -->
-            <div class="col-md-6 mb-4">
-                <div class="comparison-card other-agencies">
-                    <div class="comp-header">Other Agencies</div>
-                    <div class="comp-body">
-                        <div class="comp-item active">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>Generic Education Campaigns</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Most agencies apply the same playbook to every client — with no understanding of admission cycles, student decision journeys, or the competitive education landscape in Dubai and the UAE.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>No Student-Centric Strategy</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Without understanding how students and parents research, compare, and choose institutions, campaigns generate noise but not enrollment inquiries.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                <h6>Low Admission Conversions</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Broad, untargeted campaigns attract unqualified leads — wasting budget and missing the short admissions window when prospective students are actively deciding.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- BrandStory -->
-            <div class="col-md-6 mb-4">
-                <div class="comparison-card brandstory-card">
-                    <div class="comp-header">BrandStory</div>
-                    <div class="comp-body">
-                        <div class="comp-item active">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Education-Focused Strategy</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We build data-driven education marketing strategies tailored for schools, universities, and training institutes — designed around admission cycles and UAE student behavior.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Multi-Channel Student Acquisition</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Reach students and parents through Google, Meta, WhatsApp, and local search with integrated campaigns that drive awareness, inquiries, and application submissions.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>High-Quality Admission Leads</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We target audiences based on course intent, search behavior, and geographic demand — generating qualified leads that convert into enrolled students, not just form fills.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>Trust-Building Creative Content</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>We create institution-focused content — alumni stories, campus videos, faculty highlights, and course explainers — that builds credibility and drives prospective students to act.</span>
-                            </div>
-                        </div>
-                        <div class="comp-item">
-                            <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                <h6>ROI-Driven Campaign Optimization</h6>
-                                <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                            </div>
-                            <div class="comp-item-body">
-                                <span>Every campaign is tracked and optimized to reduce cost-per-lead and maximize enrollment conversions — so your admissions budget works harder every intake season.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sp-50 packages-comparison-section bg-black">
-    <div class="container text-center">
-        <h2 class="mb-3 text-white">Education Digital Marketing Packages</h2>
-        <p class="mb-5 text-white">Compare our education marketing packages to find the right solution for your institution's enrollment and growth goals.</p>
-
-        <div class="comparison-table-wrapper">
-            <table class="comp-table">
-                <thead>
-                    <tr>
-                        <th class="text-start">Features</th>
-                        <th>Starter Plan</th>
-                        <th>Growth Plan</th>
-                        <th>Enterprise Plan</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="white-row">
-                        <td class="feature-name">Campaign Management</td>
-                        <td>Basic</td>
-                        <td>Advanced</td>
-                        <td>Comprehensive</td>
-                    </tr>
-                    <tr class="peach-row">
-                        <td class="feature-name">Admission Lead Campaigns</td>
-                        <td>Up to 2 Campaigns</td>
-                        <td>Up to 5 Campaigns</td>
-                        <td>Unlimited Campaigns</td>
-                    </tr>
-                    <tr class="white-row">
-                        <td class="feature-name">Ad Creative Design</td>
-                        <td>Basic Creatives</td>
-                        <td>Creative + Video Ads</td>
-                        <td>Full Creative Suite</td>
-                    </tr>
-                    <tr class="peach-row">
-                        <td class="feature-name">Performance Reports</td>
-                        <td>Monthly</td>
-                        <td>Bi-Weekly</td>
-                        <td>Weekly</td>
-                    </tr>
-                    <tr class="white-row">
-                        <td class="feature-name">Audience Targeting</td>
-                        <td>Basic Geo &amp; Demographics</td>
-                        <td>Advanced Student Segmentation</td>
-                        <td>AI-Driven Targeting</td>
-                    </tr>
-                    <tr class="peach-row">
-                        <td class="feature-name">Account Support</td>
-                        <td>Standard</td>
-                        <td>Priority</td>
-                        <td>Dedicated Manager</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="select-option-btn-wrapper mt-4">
-            <a href="/contact" class="select-option-btn" style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
-            </a>
-        </div>
-    </div>
-</section>
 
 <section class="ppc-evolution-section bg-black">
     <div class="container">
@@ -894,129 +762,10 @@
     </div>
 </section>
 
-<section class="launch-ppc-section bg-black">
-    <div class="container">
-        <h2 class="mb-3 text-white">How to Launch an Education Marketing Campaign</h2>
-        <p class="launch-desc mt-3 text-white">A successful education campaign requires deep audience understanding, precise targeting, and an enrollment-first approach. Use this strategic framework to attract qualified students, increase applications, and build long-term institutional credibility.</p>
-        <h6 class="mt-4 text-white">Steps to Launch Your Education Marketing Campaign</h6>
-
-        <div class="method-switcher-wrap">
-            <div class="method-switcher">
-                <button class="method-btn active">Standard Method</button>
-                <button class="method-btn">Advanced Method</button>
-            </div>
-        </div>
-
-        <div class="row align-items-center">
-            <div class="col-lg-7">
-                <!-- Standard Method Steps -->
-                <div class="ppc-steps-list" id="standard-method-steps">
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">1</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Define clear enrollment objectives — whether increasing admission inquiries, promoting specific courses, or building institutional brand awareness across Dubai and the UAE.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">2</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Identify your target student profile — age group, academic interests, location, and the decision role of parents — to build audience segments that reflect real enrollment intent.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">3</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Create trust-driven creatives featuring faculty expertise, student testimonials, campus highlights, and course outcomes to build confidence in prospective students and parents.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">4</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Set up admission lead funnels, CRM integration, and inquiry tracking to capture, manage, and follow up with prospective students efficiently throughout the admissions cycle.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">5</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Launch campaigns across Google, Meta, WhatsApp, and education directories while tracking key metrics — cost per lead, inquiry-to-application rate, and enrollment conversion.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">6</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Continuously optimize campaigns based on student behavior, inquiry trends, and intake performance data to improve conversions and lower cost per enrolled student.</div>
-                    </div>
-                </div>
-
-                <!-- Advanced Method Steps -->
-                <div class="ppc-steps-list d-none" id="advanced-method-steps">
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">1</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Build detailed student personas using demographics, academic aspirations, family income segments, and digital behavior to target high-intent prospective students.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">2</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Use multi-touch attribution to map the complete student journey — from first course search to final enrollment — identifying which channels and touchpoints drive the most conversions.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">3</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Deploy personalised campaigns targeting specific programs, age groups, and academic interests for higher engagement and lower cost-per-qualified-lead.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">4</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Integrate predictive analytics to identify high-value prospective students, prioritize follow-up, and reduce drop-offs at each stage of the admission funnel.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">5</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Implement AI-powered bidding strategies that adjust dynamically based on admission season demand, competitor activity, and real-time student intent signals.</div>
-                    </div>
-                    <div class="ppc-step-item">
-                        <div class="step-num-box">
-                            <span class="step-number">6</span>
-                            <span class="step-label">STEP</span>
-                        </div>
-                        <div class="step-content">Execute full-funnel remarketing campaigns targeting website visitors, inquiry drop-offs, and past applicants to re-engage prospects and improve overall enrollment rates.</div>
-                    </div>
-                </div>
-
-                <a href="/contact" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-
-            <div class="col-lg-5">
-                <div class="launch-illustration-wrap">
-                    <img src="/assets/images/analities-2.png" alt="Education Digital Marketing Dubai" id="launch-illustration">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
     
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
-            <h2 class="text-center text-white mb-lg-5 mb-4">Your Industry Questions Answered</h2>
+            <h2 class="text-center text-white mb-lg-5 mb-4">Frequently Asked Questions</h2>
             <div class="dm-faq-main">
     <div class="tab-content" id="pills-tabContent">
         <!-- Existing Industry Tab -->

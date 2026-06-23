@@ -3,12 +3,12 @@
         <div class="new_about_us-banner-container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1 class="mb-4 text-white">No. 1 Real Estate Marketing Agency in Dubai, UAE</h1>
+                    <h1 class="mb-4 text-white">Real Estate Digital Marketing Agency in UAE</h1>
                     <p class="fs-18 text-white">
-                        We specialize in lead-focused digital marketing for real estate agents and firms- running high-impact acquisition campaigns engineered to bring you the most qualified leads, appointments, and real results.
+                        Dominate the crowded property market with expert-led <b>Real Estate Marketing</b> that actually converts. As a <b>Real Estate Digital Marketing Agency</b>, we specialize in lead-focused growth marketing strategies for agents and firms- delivering qualified leads, booked appointments, and real results. We engineer high-impact acquisition campaigns tailored to your market, your listings, and your goals.
 
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Speak to Experts</a>
+                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Custom Quote</a>
                 </div>
             </div>
         </div>
@@ -20,12 +20,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">High-Intent Leads with Real Estate Marketing</h2>
+                    <h2 class="text-white mb-4 text-md-start text-center ">Full-Service Real Estate Digital Marketing</h2>
                     <p class="fs-20 text-white">
-                        Real estate has changed and we know what it takes to win in real estate. Today's buyers search online first- and the agencies that win are the ones that show up, stand out, and convert.
-                        At BrandStory, we work directly with real estate agents, brokers, and developers worldwide, combining a proven lead qualification system with data-driven digital marketing to identify and deliver the hottest, highest-intent leads in the market.
+                        Global real estate buyers are actively searching for properties in Dubai and engaging with agencies online. <b>Real estate digital marketing</b> is the process of promoting firms, properties, and brokers through the channels where buyers actually spend their time. The most effective strategies are Search Engine Optimisation (SEO), Social Media Marketing, Email Marketing, WhatsApp Marketing, and Pay Per Click Ads. Your website also plays a decisive role in shaping customer decisions and driving engagement.
                     </p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask Marketing Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -35,10 +34,10 @@
             <div class="row mt-4 mt-lg-5 border-top ">
                 <!-- Left Column -->
                 <div class="col-md-7 mt-5">
-                    <p class="fs-20 text-white mb-3">We are the leading <a href="/" style="color:white;text-decoration:underline;font-weight:900">digital marketing agency</a> with a goal to turn qualified leads into converted investors for your business. With deep industry expertise and a full suite of digital marketing services, we've driven measurable growth and real sales results for real estate businesses across Dubai and the UAE. </p>
+                    <p class="fs-20 text-white mb-3">The real estate industry in Dubai is expensive where high-intent buyers and sellers are always active. We are the top-level marketing agency for real estate agents helping them stand out and bring sales with purposeful strategy and lead funnel. We think differently, we act with the most unique strategies that move the needle because we are the <b>best marketing agency for realtors</b>.</p>
 
                     <p class="fs-20 text-white">
-                        We have been doing real estate digital marketing in Dubai and the UAE for a decade, and have worked with many national and international businesses. From lead generation to high conversion rates, we invest in your success like it's our own.
+                        Every realtor in Dubai is chasing the same customer, and wondering why their pipeline dried up. You don't need another generic pitch. You need a real estate digital marketing agency that makes you the only choice buyers and sellers remember. Our real estate marketing doesn't just get you noticed- it gets you chosen. While your competitors fight over scraps, you'll be the name that closes the deal.
                     </p>
 
                 </div>
@@ -46,7 +45,7 @@
                 <!-- Right Column -->
                 <div class="col-md-5 mt-5">
                     <h5 class="fw-bold mb-3 text-white">
-                        Our proven appraoch to real estate digital marketing includes:
+                        Our appraoch to real estate digital marketing includes:
                     </h5>
                     <ul class="list-unstyled text-white fs-20">
                         <li class="mb-2">🎯 Identify- Target the highest-intent buyers</li>
@@ -67,7 +66,7 @@
 
         <div class="marketing-services sp-50 dm-bg">
             <div class="container">
-                <h2 class="text-center text-white mb-5">Expert-Led Real Estate Digital Marketing <br>Services by BrandStory</h2>
+                <h2 class="text-center text-white mb-5">Real Estate Digital Marketing Services <br>by BrandStory</h2>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up">
@@ -77,7 +76,7 @@
                             <h3>Search Engine Optimization</h3>
                             <p>When a potential buyer types "apartments for sale in Dubai" into Google, the question isn't whether they'll find a property- it's whether they'll find yours. At BrandStory, our real estate SEO strategies are built to put your agency at the top of search results and keep it there.</p>
 
-                            <a href="<?= base_url('/industries/real-estate-seo-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-seo-agency-in-dubai-uae') ?>" class="know-more"><b>SEO Optimisation</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -87,7 +86,7 @@
                             </div>
                             <h3>Social Media Marketing</h3>
                             <p>In today's market, social media isn't optional- it's where your next deal is waiting. At BrandStory, we build data-driven social media strategies designed specifically for real estate agents, brokers, and developers. We understand what campaigns drive genuine enquiries and bookings.</p>
-                            <a href="<?= base_url('/industries/real-estate-social-media-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-social-media-agency-in-dubai-uae') ?>" class="know-more"><b>Social Media</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -97,7 +96,7 @@
                             </div>
                             <h3>Pay Per Click (PPC)</h3>
                             <p>In real estate, timing is everything. Pay-per-click advertising puts your brand in front of the right buyers at the exact moment they're searching for a property and BrandStory makes sure every click counts. Our real estate PPC specialists build high-performance paid advertising campaigns.</p>
-                            <a href="<?= base_url('/industries/real-estate-ppc-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-ppc-agency-in-dubai-uae') ?>" class="know-more"><b>PPC Services</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -107,7 +106,7 @@
                             </div>
                             <h3>Email Marketing</h3>
                             <p>In real estate, the fortune is in the follow-up and BrandStory's email marketing service ensures you never miss an opportunity to connect, nurture, and convert your leads into loyal clients. We design and manage robust, data-driven email marketing campaigns that go far beyond generic promotion.</p>
-                            <a href="<?= base_url('/industries/real-estate-email-marketing-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-email-marketing-agency-in-dubai-uae') ?>" class="know-more"><b>Email Marketing</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -117,7 +116,7 @@
                             </div>
                             <h3>Performance Marketing</h3>
                             <p>At BrandStory, we believe real estate marketing should be held to one standard above all else- performance. Our performance marketing service is built around the outcomes that matter most to your real estate business- cost per lead, lead quality, conversion rates, and return on ad spend.</p>
-                            <a href="<?= base_url('/industries/real-estate-performance-marketing-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-performance-marketing-agency-in-dubai-uae') ?>" class="know-more"><b>Perf. Marketing</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -127,7 +126,7 @@
                             </div>
                             <h3>Web Design & Development</h3>
                             <p>BrandStory designs real estate websites that make every interaction count. We build visually stunning, strategically structured websites that are engineered to perform- combining design, intuitive user experience, and conversion optimisation to turn your website traffic into qualified leads.</p>
-                            <a href="<?= base_url('/industries/real-estate-web-design-development-agency-in-dubai-uae') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                            <a href="<?= base_url('/industries/real-estate-web-design-development-agency-in-dubai-uae') ?>" class="know-more"><b>Website Design</b><span class="arrow">→</span></a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +136,7 @@
 
      <section class="additional-ppc-services bg-black">
         <div class="container text-center">
-            <h2 class="mb-0 text-white">Explore Our Additional Real Estate<br> Marketing Services</h2><br>
+            <h2 class="mb-0 text-white">Additional Real Estate Digital Marketing <br>Services by BrandStory</h2><br>
             <!-- <div class="title-line"></div> -->
 
             <div class="row">
@@ -461,23 +460,129 @@
         </div>
     </section>
 
-    <section class="bg-black sp-50">
+        <section class="sp-50 bg-black">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-7">
-                    <h2 class="text-white mb-4 text-md-start text-center ">Why Choose BrandStory for Real Estate Digital Marketing?</h2>
-                    <p class="fs-20 text-white"><b>Deep Industry Expertise:</b> Our real estate marketing specialists understand the property market inside out- building tailored strategies that align perfectly with your business goals, your target audience, and your growth ambitions. <br><br>
-                        <b>Proven Track Record:</b> We have helped real estate agents, brokers, and developers across the globe significantly improve their online visibility, generate higher quality leads, and achieve measurable returns on their marketing investment.<br><br>
-                        <b>Complete End-to-End Service:</b> From brand building and lead generation to campaign analytics and continuous optimisation, BrandStory delivers a fully integrated digital marketing solution that covers every aspect of your real estate marketing needs under one roof.
-                    </p>
+            <div class="exclusive-benefits-wrapper">
+                <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
+                <div class="row">
+                    <!-- Promise Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <span class="badge-promise mb-4">Our Expertise</span>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">1,000+</div>
+                                        <div class="feature-desc">Delivered Projects</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">13+ Years</div>
+                                        <div class="feature-desc">Industry Experience</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">100+</div>
+                                        <div class="feature-desc">Team Experts</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Advantage Card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="benefit-sub-card">
+                            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+                                <span class="badge-promise">Advantage You Get</span>
+                                <div class="expert-badge d-flex align-items-center">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <span>Expert Consultant</span>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">24/7 Support</div>
+                                        <div class="feature-desc">Always Available</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Quick Setup</div>
+                                        <div class="feature-desc">Fast Implementation</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-3">
+                                    <div class="feature-item">
+                                        <div class="feature-title">Consultation</div>
+                                        <div class="feature-desc">Clear scope</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Real-Estate-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+            </div>
+        </div>
+    </section>  
+
+    <section class="new_about_us-who-we-are-section sp-50 bg-black">
+    <div class="container">
+        <h2 class="new_about_us-who-we-are-heading text-white mb-5">Why Choose BrandStory As <br>Your Real Estate Marketing Partner</h2>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6">
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Campaigns That Convert</h3>
+                    <p>We run high-impact marketing campaigns across the UAE and global markets. From off-plan launches to luxury branded residences, we drive sales velocity through digital marketing and lead generation that turns interest into signed contracts.</p>
+                </div>
+                <div class="new_about_us-who-we-are-card white-card">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+
+                    <h3>Branding That Resonates</h3>
+                    <p>We empower real estate brands with data-driven digital marketing, SEO, social media management, performance advertising, and lead generation solutions. Our strategies are designed to enhance brand visibility & engage audiences.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- Card 2 -->
+                <div class="new_about_us-who-we-are-card white-card icons-card h-501">
+
+                    <h3>Precision That Performs</h3>
+                    <p>In real estate marketing, timing and strategy decide everything. Our agile, performance-driven process moves from concept to campaign with focus- applying conversion rate optimisation and real-time analytics on every launch so you capture buyer intent at its peak.</p>
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+
                 </div>
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
+
+<section class="new_about_us-why-brandstory pb-50">
+    <div class="new_about_us-container">
+        <div class="new_about_us-text">
+            <h2 style="line-height: 130%;">Working With Property Brands Who Demand Results</h2>
+            <p>
+                BrandStory helps real estate developers and property brands generate demand before, during, and after project launches. We build marketing systems that attract investors, homebuyers, and channel partners through search, social media, paid advertising, content, and conversion-focused landing pages. We work with the top-level real estate brands across the UAE, helping them strengthen their online presence, reach high-intent audiences, and generate quality property enquiries.
+            </p>
+            <p class="mb-3">
+                We are the <b>difference maker</b> in the real estate marketing industry working with tailored strategies for every business. Every business is unique, and so are our approaches. We develop customized marketing solutions that align with your specific business goals, target audience, and market opportunities to deliver meaningful results.
+            </p>
+            <a href="/about" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
+        </div>
+        <div class="new_about_us-image">
+
+        </div>
+    </div>
+</section>
 
     <section class="sp-50 dm-case-studies-section dm-bg">
         <div class="container">
@@ -645,243 +750,7 @@
                 <div class="swiper-button-prev dmreview-prev"></div>
             </div>
         </div>
-    </section>
-
-    <section class="sp-50 bg-black">
-        <div class="container">
-            <div class="exclusive-benefits-wrapper">
-                <h2 class="benefits-title text-center text-md-start">BrandStory Exclusive Benefits</h2>
-                <div class="row">
-                    <!-- Promise Card -->
-                    <div class="col-md-6 mb-4">
-                        <div class="benefit-sub-card">
-                            <span class="badge-promise mb-4">Our promise to you</span>
-                            <div class="row text-center">
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">800+</div>
-                                        <div class="feature-desc">Delivered Projects</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">10+ Years</div>
-                                        <div class="feature-desc">Industry Experience</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">95%</div>
-                                        <div class="feature-desc">Team Experts</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Advantage Card -->
-                    <div class="col-md-6 mb-4">
-                        <div class="benefit-sub-card">
-                            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
-                                <span class="badge-promise">Advantage you get</span>
-                                <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
-                                    <span>Expert Consultant</span>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">24/7 Support</div>
-                                        <div class="feature-desc">Always Available</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">Quick Setup</div>
-                                        <div class="feature-desc">Fast Implementation</div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-3">
-                                    <div class="feature-item">
-                                        <div class="feature-title">Consultation</div>
-                                        <div class="feature-desc">Clear scope</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
- <section class="sp-50 comparison-section-wrapper bg-black">
-        <div class="container">
-            <h2 class="text-center mb-5 text-white">Services Our Real Estate Digital Marketing Company Provides</h2>
-            <div class="row">
-                <!-- Other Agencies -->
-                <div class="col-md-6 mb-4">
-                    <div class="comparison-card other-agencies">
-                        <div class="comp-header">Other Agencies</div>
-                        <div class="comp-body">
-                            <div class="comp-item active">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>Generic Property Campaigns</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Most agencies run one-size-fits-all campaigns that fail to differentiate your listings in Dubai's highly competitive real estate market.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>No Local Market Knowledge</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Without deep insight into Dubai's property zones, buyer demographics, and investment trends, campaigns miss the mark on targeting the right audience.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
-                                    <h6>Poor Lead Quality</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Broad targeting strategies attract unqualified leads that waste your sales team's time and inflate your cost-per-acquisition without delivering real buyers or investors.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- BrandStory -->
-                <div class="col-md-6 mb-4">
-                    <div class="comparison-card brandstory-card">
-                        <div class="comp-header">BrandStory</div>
-                        <div class="comp-body">
-                            <div class="comp-item active">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Dubai Real Estate-Focused Strategy</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>We craft data-driven digital marketing strategies tailored specifically to Dubai's property market, helping developers and brokers attract qualified buyers and investors.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Multi-Channel Property Campaigns</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Promote your properties across Google, Meta, Instagram, YouTube, and LinkedIn to reach local residents, expats, and international investors in one cohesive campaign.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>High-Intent Lead Generation</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Our targeting systems filter and qualify leads based on purchase intent, budget range, and property preferences, delivering serious buyers directly to your sales pipeline.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>Property Listing Ad Creatives</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Visually compelling ad creatives featuring virtual tours, aerial footage, and lifestyle imagery that showcase your listings and drive higher engagement and enquiries.</span>
-                                </div>
-                            </div>
-                            <div class="comp-item">
-                                <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
-                                    <h6>ROI-Driven Budget Allocation</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
-                                </div>
-                                <div class="comp-item-body">
-                                    <span>Every dirham of your marketing budget is strategically allocated to channels and audiences that deliver the lowest cost per qualified lead and the highest conversion potential.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sp-50 packages-comparison-section bg-black">
-        <div class="container text-center">
-            <h2 class="mb-3 text-white">Real Estate Digital Marketing Packages</h2>
-            <p class="mb-5 text-white">Compare our service packages to find the perfect fit for your property business needs and marketing budget.</p>
-
-            <div class="comparison-table-wrapper">
-                <table class="comp-table">
-                    <thead>
-                        <tr>
-                            <th class="text-start">Features</th>
-                            <th>Basic Package</th>
-                            <th>Standard Package</th>
-                            <th>Premium Package</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="white-row">
-                            <td class="feature-name">Campaign Management</td>
-                            <td>Basic</td>
-                            <td>Advanced</td>
-                            <td>Comprehensive</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Property Listing Ads</td>
-                            <td>Up to 5 Listings</td>
-                            <td>Up to 20 Listings</td>
-                            <td>Unlimited Listings</td>
-                        </tr>
-                        <tr class="white-row">
-                            <td class="feature-name">Ad Creative Design</td>
-                            <td>Static Ads</td>
-                            <td>Static + Video Ads</td>
-                            <td>Full Creative Suite</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Lead Generation Reports</td>
-                            <td>Monthly</td>
-                            <td>Bi-Weekly</td>
-                            <td>Weekly</td>
-                        </tr>
-                        <tr class="white-row">
-                            <td class="feature-name">Audience Targeting</td>
-                            <td>Basic Geo & Demo</td>
-                            <td>Advanced Segmentation</td>
-                            <td>AI-Driven Targeting</td>
-                        </tr>
-                        <tr class="peach-row">
-                            <td class="feature-name">Account Support</td>
-                            <td>Standard</td>
-                            <td>Priority</td>
-                            <td>Dedicated Manager</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="select-option-btn-wrapper mt-4 b">
-                <a href="/contact" class="select-option-btn " style="background: #fff !important;color: #000 !important;">
-                    Select Option <img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
-                </a>
-            </div>
-        </div>
-    </section>
-   
+    </section> 
     
     <section class="ppc-evolution-section bg-black">
         <div class="container">
@@ -955,161 +824,7 @@
             </div>
         </div>
     </section>
-    <section class="launch-ppc-section bg-black">
-        <div class="container">
-            <h2 class="mb-3  text-white">How to Launch a Real Estate Marketing Campaign</h2>
-            <p class="launch-desc mt-3 text-white">A high-performing real estate campaign in Dubai demands more than boosted posts it requires a structured, data-led approach. Follow our proven checklist to generate quality leads and close more deals.</p>
-            <h6 class="mt-4 text-white">Steps to Launch Your Real Estate Marketing Campaign</h6>
 
-            <div class="method-switcher-wrap">
-                <div class="method-switcher">
-                    <button class="method-btn active">Standard Method</button>
-                    <button class="method-btn">Advanced Method</button>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <!-- Standard Method Steps -->
-                    <div class="ppc-steps-list" id="standard-method-steps">
-                        <!-- Step 1 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">1</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Define your campaign goals whether targeting end-users, buy-to-let investors, or off-plan property seekers in Dubai.
-                            </div>
-                        </div>
-
-                        <!-- Step 2 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">2</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Research high-intent keywords and audience segments aligned with Dubai's most active property zones and buyer profiles.
-                            </div>
-                        </div>
-
-                        <!-- Step 3 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">3</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Produce visually engaging ad creatives featuring property highlights, key amenities, location advantages, and strong calls-to-action.
-                            </div>
-                        </div>
-
-                        <!-- Step 4 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">4</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Set up lead tracking, CRM integration, and conversion monitoring to capture and qualify every enquiry in real time.
-                            </div>
-                        </div>
-
-                        <!-- Step 5 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">5</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Launch your campaign across selected platforms and monitor early performance data including click-through rates, cost per lead, and enquiry volume.
-                            </div>
-                        </div>
-
-                        <!-- Step 6 -->
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">6</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Continuously refine targeting, ad creatives, and budget allocation based on lead quality data and evolving market conditions.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Advanced Method Steps (Hidden by default) -->
-                    <div class="ppc-steps-list d-none" id="advanced-method-steps">
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">1</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Build detailed investor and buyer personas using Dubai Land Department data, transaction records, and psychographic profiling.
-                            </div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">2</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Deploy multi-touch attribution modelling to evaluate the exact contribution of each channel from first property search to final enquiry submission.
-                            </div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">3</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Activate Dynamic Creative Optimisation (DCO) to serve personalised property ads based on browsing behaviour, location, and investment history.
-                            </div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">4</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Integrate predictive lead scoring models that prioritise high-net-worth prospects and international investors with proven purchase intent signals.
-                            </div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">5</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Implement AI-driven bidding strategies that auto-adjust in real time based on property market fluctuations, competitor activity, and audience demand signals.
-                            </div>
-                        </div>
-                        <div class="ppc-step-item">
-                            <div class="step-num-box">
-                                <span class="step-number">6</span>
-                                <span class="step-label">STEP</span>
-                            </div>
-                            <div class="step-content">
-                                Execute full-funnel remarketing sequences from awareness to site visit booking with custom messaging tailored to each stage of the buyer's journey.
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="/contact" class="learn-more-black-btn">
-                        Let's Get Started <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="col-lg-5">
-                    <div class="launch-illustration-wrap">
-                        <img src="/assets/images/analities-2.png" alt="Real Estate Digital Marketing Dubai" id="launch-illustration">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
             <h2 class="text-center text-white mb-lg-5 mb-4">Frequently Asked Questions</h2>
