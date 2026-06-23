@@ -3,28 +3,28 @@
         <?= csrf_token() ?>
         <div class="row">
             <div class="col-12">
-                <label>Name*</label>
+                <label for="name">Name*</label>
                 <input type="text" name="name" id="name" class="form-control" pattern="[a-zA-Z ]*" required>
             </div>
 
             <div class="col-12 col-md-6">
-                <label>Email*</label>
+                <label for="email">Email*</label>
                 <input type="email" name="email" id="email" class="form-control"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
                     oninvalid="this.setCustomValidity('Please enter a valid work e-mail ID')"
                     onchange="this.setCustomValidity('')" required>
             </div>
             <div class="col-12 col-md-6">
-                <label>Phone number*</label>
+                <label for="phone">Phone number*</label>
                 <input type="tel" name="phone" id="phone" class="form-control phone-input" maxlength="12" minlength="8"
                     pattern="^((\\+91-?)|0)?[0-9]{10,11}$" required>
             </div>
             <div class="col-12 col-md-6">
-                <label>Company*</label>
+                <label for="company">Company*</label>
                 <input type="text" name="company" id="company" class="form-control" required>
             </div>
             <div class="col-12 col-md-6">
-                <label>Designation*</label>
+                <label for="designation">Designation*</label>
                 <input type="text" name="designation" id="designation" class="form-control" required>
             </div>
 
@@ -32,7 +32,7 @@
 
 
             <div class="col-12 col-md-6">
-                <label>How can we help you? *</label>
+                <label for="services">How can we help you? *</label>
                 <?php
                 $servicesdata = $servicesdata ?? '';
                 ?>
@@ -71,7 +71,7 @@
 
             </div>
             <div class="col-12 col-md-6">
-                <label>Budget*</label>
+                <label for="budget">Budget*</label>
                 <select name="budget" id="budget" class="form-select">
                     <option selected disabled>Select Budget</option>
                     <option value="AED 3000 - 5000">AED 3000 - 5000</option>
@@ -87,7 +87,7 @@
                 <hr class="form-hr">
             </div>
             <div class="col-12">
-                <label>Anything else? (optional)</label>
+                <label for="message">Anything else? (optional)</label>
                 <textarea type="text" name="message" id="message" class="form-control" rows="<?php echo $textrow ?? 2; ?>"></textarea>
             </div>
             <div class="contact-btn mt-2">

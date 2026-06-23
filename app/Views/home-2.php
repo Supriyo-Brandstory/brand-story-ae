@@ -138,7 +138,7 @@
             <!-- Left Side: Image -->
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
-                    <img src="<?= base_url('assets/images/digital-01.webp') ?>" alt="Digital Marketing Agency Dubai" class="img-fluid premium-perf-img">
+                    <img src="<?= base_url('assets/images/digital-01.webp') ?>" width="1332" height="1302" alt="Digital Marketing Agency Dubai" class="img-fluid premium-perf-img">
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -474,7 +474,7 @@
             
             <!-- Banner Image Wrapper -->
             <div class="premium-strategy-banner-wrap">
-                <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" alt="Digital Marketing Strategy and Process" class="premium-strategy-banner">
+                <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" width="4096" height="2730" alt="Digital Marketing Strategy and Process" class="premium-strategy-banner">
                 <div class="premium-strategy-banner-overlay"></div>
             </div>
             
@@ -607,7 +607,7 @@
         <h2 class="premium-roi-title">The True ROI of Digital Marketing</h2>
 
                 <div class="premium-roi-img-wrap">
-                    <img src="<?= base_url('assets/images/digital-022.webp') ?>" alt="The True ROI of Digital Marketing" class="img-fluid premium-roi-img">
+                    <img src="<?= base_url('assets/images/digital-022.webp') ?>" width="1332" height="1088" alt="The True ROI of Digital Marketing" class="img-fluid premium-roi-img">
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -929,7 +929,7 @@
             <!-- Left Side: Image -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="premium-why-choose-img-wrap">
-                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>" width="1104" height="1296" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
             <!-- Right Side: Accordion -->

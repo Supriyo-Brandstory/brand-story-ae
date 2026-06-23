@@ -237,6 +237,26 @@ $stickyServices = $stickyServices ?? [
           preferredCountries: ["ae", "in", "us", "gb", "sg"],
         });
 
+        // Accessibility fix for intl-tel-input
+        var $flag = $this.parent().find(".iti__selected-flag");
+        if ($flag.length) {
+          $flag.attr("aria-expanded", "false");
+          $flag.attr("aria-haspopup", "listbox");
+          $flag.attr("aria-label", "Select Country Code");
+          $flag.attr("role", "combobox");
+        }
+
+        $this.parent().on("click", ".iti__selected-flag", function() {
+          var isExpanded = $(this).attr("aria-expanded") === "true";
+          $(this).attr("aria-expanded", !isExpanded);
+        });
+
+        $(document).on("click", function(e) {
+          if (!$(e.target).closest(".iti").length) {
+            $flag.attr("aria-expanded", "false");
+          }
+        });
+
         var updateCountryData = function() {
           var countryData = $this.intlTelInput("getSelectedCountryData");
           var $form = $this.closest('form');

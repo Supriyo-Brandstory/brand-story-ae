@@ -1,0 +1,9 @@
+# Brandstory Digital Marketing Agency
+
+This website represents Brandstory, a leading digital marketing agency in Dubai, UAE, specializing in SEO, Social Media, Website Development, and Performance Marketing.
+
+## Key Services
+- **Search Engine Optimization (SEO)**: Custom strategies to improve search ranking and organic traffic.
+- **Social Media Marketing**: Targeted campaigns on Facebook, Instagram, LinkedIn, and TikTok.
+- **Website Development**: Responsive, high-performance, and visually premium custom web platforms.
+- **Performance Marketing**: Pay-Per-Click (PPC) and lead generation campaigns.
