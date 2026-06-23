@@ -52,7 +52,7 @@
                     <i class="ion-social-octocat platform-icon" style="color: #855BFF;"></i> <!-- Placeholder icons using available ionicons -->
                     <h3 style="color: #ffffff;">TikTok SEO</h3>
                     <p style="color: #ffffff;">Stop scrolling- start getting discovered. We optimize your content to rank across the TikTok platform.</p>
-                    <a href="/blogs/tiktok-seo-in-2026-mastering-social-search-and-discovery-for-brands/" class="platform-link">Learn TikTok SEO ></a>
+                    <a href="/blogs/tiktok-seo-in-2026-mastering-social-search-and-discovery-for-brands/" class="platform-link">Explore TikTok SEO ></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -60,15 +60,15 @@
                     <i class="ion-social-youtube platform-icon" style="color: #855BFF;"></i>
                     <h3 style="color: #ffffff;">YouTube SEO</h3>
                     <p style="color: #ffffff;">The world’s leading video search platform. We help your latest business videos rank for high-intent keywords.</p>
-                    <a href="/blogs/youtube-seo-the-complete-playbook-to-grow-your-channel/" class="platform-link">Learn YouTube SEO ></a>
+                    <a href="/blogs/youtube-seo-the-complete-playbook-to-grow-your-channel/" class="platform-link">Explore YouTube SEO ></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
-                    <i class="ion-bag platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #ffffff;">Amazon SEO</h3>
-                    <p style="color: #ffffff;">Stand out in Amazon marketplaces. Optimize your product listings to boost visibility and maximize sales.</p>
-                    <a href="/blogs/amazon-seo-strategies-to-rank-higher-and-drive-sustainable-sales/" class="platform-link">Learn Amazon SEO ></a>
+                    <i class="ion-search platform-icon" style="color: #855BFF;"></i>
+                    <h3 style="color: #ffffff;">Ask Engine Optimisation</h3>
+                    <p style="color: #ffffff;">Stand out in AI-powered search results. Optimize your content for Answer Engine Optimization (AEO) in Dubai to improve visibility and drive qualified leads.</p>
+                    <a href="/answer-engine-optimisation-agency-in-dubai-uae/" class="platform-link">Explore AEO Services ></a>
                 </div>
             </div>
 
@@ -92,9 +92,9 @@
             <div class="col-lg-4 col-md-6">
                 <div class="platform-card">
                     <i class="ion-iphone platform-icon" style="color: #855BFF;"></i>
-                    <h3 style="color: #ffffff;">App Store SEO (ASO)</h3>
-                    <p style="color: #ffffff;">Maximize your app’s discoverability in Apple & Google stores to attract more downloads & retention.</p>
-                    <a href="/blogs/app-store-seo-how-to-boost-your-app-s-visibility-and-drive-installs/" class="platform-link">Learn App Store SEO ></a>
+                    <h3 style="color: #ffffff;">Generative Engine (GEO)</h3>
+                    <p style="color: #ffffff;">Position your brand as a trusted AI source so generative search engines recommend your business when customers are ready to buy.</p>
+                    <a href="/generative-engine-optimisation-agency-in-dubai-uae/" class="platform-link">Explore GEO Services ></a>
                 </div>
             </div>
 
