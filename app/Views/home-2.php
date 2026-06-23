@@ -464,11 +464,14 @@
     </div>
 </section>
 
-<section class="premium-strategy-section">
-    <div class="container">
-        <h2 class="premium-strategy-title">Our Digital Marketing Strategy and Process</h2>
-        
-        <div class="premium-strategy-content-wrap">
+<div class="strategy-scroll-outer" id="strategyScrollOuter">
+    <div class="strategy-scroll-sticky">
+        <section class="premium-strategy-section">
+            <!-- Header Container for Title alignment -->
+            <div class="premium-strategy-header-container">
+                <h2 class="premium-strategy-title">Our Digital Marketing Strategy and Process</h2>
+            </div>
+            
             <!-- Banner Image Wrapper -->
             <div class="premium-strategy-banner-wrap">
                 <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" alt="Digital Marketing Strategy and Process" class="premium-strategy-banner">
@@ -586,9 +589,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
+            <!-- Progress Bar at bottom of section -->
+            <div class="strategy-progress-bar-wrap">
+                <div class="strategy-progress-bar" id="strategyProgressBar"></div>
+            </div>
+        </section>
     </div>
-</section>
+</div>
 
 <section class="premium-roi-section">
     <div class="container">
@@ -1907,5 +1914,83 @@ include __DIR__ . '/component/client_reviews.php';
             const messageInput = section.querySelector('textarea[name="message"]');
             if (messageInput) messageInput.placeholder = "Enter your message";
         }
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const outer = document.getElementById('strategyScrollOuter');
+        const sticky = document.querySelector('.strategy-scroll-sticky');
+        const cardsRow = document.querySelector('.premium-strategy-cards-row');
+        const progressBar = document.getElementById('strategyProgressBar');
+        
+        if (!outer || !cardsRow) return;
+
+        function updateScrollHeight() {
+            if (window.innerWidth > 991) {
+                // Calculate horizontal scroll distance
+                const scrollWidth = cardsRow.scrollWidth;
+                const viewportWidth = window.innerWidth;
+                const scrollDistance = Math.max(0, scrollWidth - viewportWidth);
+                
+                // Adjust factor for scroll speed (1.3x of scrollDistance creates a natural vertical scroll speed)
+                const extraScrollHeight = scrollDistance * 1.3;
+                outer.style.height = (window.innerHeight + extraScrollHeight) + 'px';
+            } else {
+                outer.style.height = 'auto';
+            }
+        }
+
+        function handleScroll() {
+            if (window.innerWidth <= 991) {
+                cardsRow.style.transform = 'none';
+                if (progressBar) progressBar.style.width = '0%';
+                return;
+            }
+
+            const rect = outer.getBoundingClientRect();
+            const totalHeight = outer.offsetHeight;
+            const viewportHeight = window.innerHeight;
+            const viewportWidth = window.innerWidth;
+            const scrollDistance = cardsRow.scrollWidth - viewportWidth;
+
+            if (rect.top <= 0 && rect.bottom >= viewportHeight) {
+                const progress = -rect.top / (totalHeight - viewportHeight);
+                const translateX = -progress * scrollDistance;
+                
+                cardsRow.style.transform = `translateX(${translateX}px)`;
+                
+                if (progressBar) {
+                    progressBar.style.width = (progress * 100) + '%';
+                }
+            } else if (rect.top > 0) {
+                cardsRow.style.transform = 'translateX(0px)';
+                if (progressBar) progressBar.style.width = '0%';
+            } else if (rect.bottom < viewportHeight) {
+                cardsRow.style.transform = `translateX(${-scrollDistance}px)`;
+                if (progressBar) progressBar.style.width = '100%';
+            }
+        }
+
+        // Initialize scroll height calculation & handler
+        updateScrollHeight();
+        handleScroll();
+
+        // Recalculate on events
+        window.addEventListener('resize', () => {
+            updateScrollHeight();
+            handleScroll();
+        });
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', () => {
+            updateScrollHeight();
+            handleScroll();
+        });
+        
+        // Safety timeout to ensure accurate measurements after layouts render
+        setTimeout(() => {
+            updateScrollHeight();
+            handleScroll();
+        }, 300);
     });
 </script>
