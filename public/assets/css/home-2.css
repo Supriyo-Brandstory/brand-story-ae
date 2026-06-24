@@ -645,7 +645,6 @@
 
 /* Premium Services Section */
 .premium-services-section {
-    background-color: #0f0f10;
     padding: 100px 0;
     color: #ffffff;
     font-family: inherit;
@@ -2995,5 +2994,278 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
     .new-cta-footer-text {
         font-size: 16px !important;
+    }
+}
+
+/* Performance Marketing Landing Page Custom Styles */
+.static-premium-banner .premium-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.75) 45%, rgba(10, 10, 10, 0.1) 100%) !important;
+    z-index: 2;
+}
+
+.premium-simple-pill-btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0b0b0c;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 34px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.premium-simple-pill-btn:hover {
+    background-color: #e6e6e6;
+    color: #0b0b0c;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(133, 91, 255, 0.45);
+}
+
+.performance-intro-section,
+.performance-results-section {
+    background-color: #0b0b0c;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.performance-results-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pm-intro-image-wrap,
+.pm-results-image-wrap {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+.pm-intro-image-wrap img,
+.pm-results-image-wrap img {
+    display: block;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.pm-intro-content h2,
+.pm-results-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.pm-results-content h2 {
+    margin-bottom: 30px;
+}
+
+.pm-intro-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.pm-intro-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+
+.pm-intro-content ul li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px;
+}
+
+.pm-intro-content ul li .pm-bullet-dot {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #855BFF;
+    border-radius: 2px;
+}
+
+.pm-results-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.pm-results-content p:first-of-type {
+    margin-bottom: 25px;
+}
+
+.pm-results-content p:last-of-type {
+    margin-bottom: 40px;
+}
+
+/* Height adjustments to align left image with right content in premium-perf-section */
+.premium-perf-section .row {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.premium-perf-section .row>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.premium-perf-section .premium-perf-img-wrap {
+    flex: 1 !important;
+    display: flex !important;
+    height: 100% !important;
+}
+
+.premium-perf-section .premium-perf-img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Premium Measure Section & Cards */
+.premium-measure-section {
+    background-color: #0b0b0c;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.premium-measure-title {
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.premium-measure-row {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    align-items: stretch;
+}
+
+.premium-measure-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 420px;
+    flex: 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: flex 0.6s cubic-bezier(0.25, 1, 0.3, 1), transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.premium-measure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(133, 91, 255, 0.3);
+}
+
+.premium-measure-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.premium-measure-card:hover .premium-measure-card-img {
+    transform: scale(1.05);
+}
+
+.premium-measure-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(11, 11, 12, 0.95) 0%, rgba(11, 11, 12, 0.7) 70%, rgba(11, 11, 12, 0) 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 60%;
+}
+
+.premium-measure-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.premium-measure-card-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease, max-height 0.4s ease, margin-top 0.4s ease;
+}
+
+/* Default active state */
+.premium-measure-card.active {
+    flex: 2.2;
+}
+
+.premium-measure-card.active .premium-measure-card-desc {
+    opacity: 1;
+    max-height: 200px;
+    margin-top: 12px;
+}
+
+/* Hover behaviors to shift active state */
+.premium-measure-row:hover .premium-measure-card {
+    flex: 1;
+}
+
+.premium-measure-row:hover .premium-measure-card .premium-measure-card-desc {
+    opacity: 0;
+    max-height: 0;
+    margin-top: 0;
+}
+
+.premium-measure-row .premium-measure-card:hover {
+    flex: 2.2;
+}
+
+.premium-measure-row .premium-measure-card:hover .premium-measure-card-desc {
+    opacity: 1;
+    max-height: 200px;
+    margin-top: 12px;
+}
+
+/* Mobile responsiveness: stack vertically and show descriptions by default */
+@media (max-width: 991px) {
+    .premium-measure-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .premium-measure-card {
+        height: 320px;
+        flex: none !important;
+        margin-bottom: 0;
+    }
+
+    .premium-measure-card .premium-measure-card-desc {
+        opacity: 1 !important;
+        max-height: 200px !important;
+        margin-top: 12px !important;
     }
 }

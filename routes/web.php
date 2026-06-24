@@ -156,6 +156,7 @@ Route::get('/mobile-app-development-in-dubai', 'FrontendController@mobileappdeve
 Route::get('/mobile-app-marketing-dubai', 'FrontendController@mobileappmarketingdubai', 'mobileappmarketingdubai');
 Route::get('/new-about-us', 'FrontendController@newaboutus', 'newaboutus');
 Route::get('/performance-marketing', 'FrontendController@performancemarketing', 'performancemarketing');
+Route::get('/performance-marketing-2', 'FrontendController@performancemarketing2', 'performancemarketing2');
 Route::get('/ppc-company-in-abu-dhabi', 'FrontendController@ppccompanyinabudhabi', 'ppccompanyinabudhabi');
 Route::get('/pr-agency-dubai', 'FrontendController@pragencydubai', 'pragencydubai');
 Route::get('/pr-agency-in-abu-dhabi', 'FrontendController@pragencyinabudhabi', 'pragencyinabudhabi');

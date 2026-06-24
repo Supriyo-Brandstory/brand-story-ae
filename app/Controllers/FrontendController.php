@@ -310,6 +310,7 @@ class FrontendController extends Controller
         ];
         return $this->view('services/full-funnel-performance-marketing', ['meta' => $meta]);
     }
+    
     public function emailMarketingDubai()
     {
         $meta = [
@@ -1043,6 +1044,15 @@ class FrontendController extends Controller
         ];
         return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
     }
+
+      public function performancemarketing2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('others-pages/performance-marketing-2', ['meta' => $meta]);
+    }
+
     public function ppccompanyinabudhabi()
     {
         $meta = [
