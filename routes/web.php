@@ -5,8 +5,8 @@ use App\Core\Route;
 // Define routes (path, "Controller@method", name)
 Route::get('/thankyou', 'FrontendController@thankYou', 'thankyou');
 Route::get('/old-site/*', 'FrontendController@notfound', 'old-site');
-Route::get('/', 'FrontendController@index', 'home');
-Route::get('/home-2', 'FrontendController@index2', 'home2');
+Route::get('/', 'FrontendController@index2', 'home');
+// Route::get('/home-2', 'FrontendController@index', 'home2');
 Route::get('/about', 'FrontendController@about', 'about');
 Route::get('/author/madhavan-a', 'FrontendController@authorMadhavan', 'author.madhavan');
 Route::get('/contact', 'FrontendController@contat', 'contact');
