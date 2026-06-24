@@ -28,20 +28,20 @@ if ($seoData) {
     $lcp_image = '';
     $lcp_mobile = '';
 
-    if ($current_url == '/' || $current_url == '/index.php') {
-        $lcp_image = '/assets/images/banners/nn-banner-2.webp';
-        $lcp_mobile = '/assets/images/banners/mm-nn-banner-2.webp';
-    } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
-        $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
-    } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
-        $lcp_image = '/assets/images/social-media/social-media-1.gif';
-    } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
-        $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
-        $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
-    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
-        $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
-        $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
-    }
+    // if ($current_url == '/' || $current_url == '/index.php') {
+    //     $lcp_image = '/assets/images/banners/nn-banner-2.webp';
+    //     $lcp_mobile = '/assets/images/banners/mm-nn-banner-2.webp';
+    // } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
+    //     $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
+    // } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
+    //     $lcp_image = '/assets/images/social-media/social-media-1.gif';
+    // } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
+    //     $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
+    //     $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
+    // } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
+    //     $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
+    //     $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
+    // }
 
     if ($lcp_image): ?>
         <link rel="preload" as="image" href="<?= $lcp_image ?>" fetchpriority="high" media="(min-width: 768px)">
