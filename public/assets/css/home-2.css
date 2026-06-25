@@ -3058,8 +3058,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 .pm-intro-content h2,
 .pm-results-content h2 {
-    font-size: 38px;
-    font-weight: 700;
+    /* font-size: 38px; */
+    /* font-weight: 700; */
     margin-bottom: 25px;
     line-height: 1.25;
     color: #ffffff;
