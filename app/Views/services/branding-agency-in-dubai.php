@@ -509,13 +509,13 @@
       <div class="col-lg-3 col-md-6 col-6">
         <div class="dm-conter-main text-lg-start text-center ps-lg-5">
           <span class="dm-count-num">1,000+</span>
-          <h3 class="text-white fw-300 mb-0 px-5 px-lg-0">Satisfied Clients</h3>
+          <h3 class="text-white fw-300 mb-0">Satisfied Clients</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-6">
         <div class="dm-conter-main text-lg-start text-center  ps-lg-5">
           <span class="dm-count-num">12+</span>
-          <h3 class="text-white fw-300 mb-0 b-0 px-2 px-lg-0">Years of Expertise</h3>
+          <h3 class="text-white fw-300 mb-0 b-0">Years of Expertise</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-6">
@@ -1146,12 +1146,13 @@
     }
 
     .servicebrand-agency-heding h2 {
-      font-size: 50px;
-      margin: 30px 0px;
+      font-size: 32px;
+      margin: 30px 10px;
+      text-align:left;
     }
 
     .dm-card-content {
-      margin-bottom: 30px;
+      margin-bottom: 0px;
     }
   }
 
@@ -1202,6 +1203,11 @@
     .branding-partner-container {
       grid-template-columns: 1fr;
       /* optional spacing between grid items */
+    }
+    .dm-sticky-section .container{
+      width: 100%;
+      padding: 0px;
+      margin:0px;
     }
   }
 

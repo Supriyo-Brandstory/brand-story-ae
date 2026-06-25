@@ -210,7 +210,7 @@ $stickyServices = $stickyServices ?? [
 </style>
 <script src="<?= base_url('assets/js/jquery.min.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/bootstrap.min.js') ?>" defer></script>
-<script src="<?= base_url('assets/js/menu.js?v=2.1') ?>" defer></script>
+<script src="<?= base_url('assets/js/menu.js?v=2.2') ?>" defer></script>
 <script src="<?= base_url('assets/js/swiper.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/slick.min.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/ScrollTrigger.min.js') ?>" defer></script>
