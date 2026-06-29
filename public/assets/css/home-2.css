@@ -390,7 +390,7 @@
 /* Responsive Styles for Performance Section */
 @media (max-width: 991px) {
     .premium-perf-section {
-        padding: 60px 0;
+        padding: 0px 0 60px;
     }
 
     .premium-perf-content {
@@ -1538,7 +1538,7 @@
     .premium-industry-card .industry-card-title {
         position: static;
         transform: none;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .premium-industry-card .industry-card-hover-details {
@@ -2916,6 +2916,9 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 /* Tablet (768px – 991px) */
 @media (max-width: 991px) {
+
+
+
     .new-cta-footer {
         padding: 40px 32px;
         border-radius: 20px;
@@ -2939,6 +2942,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         border-radius: 16px;
         margin-bottom: 40px;
     }
+
+
 
     .new-cta-footer-title {
         font-size: 24px;
@@ -3005,7 +3010,6 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.75) 45%, rgba(10, 10, 10, 0.1) 100%) !important;
     z-index: 2;
 }
 
@@ -3032,14 +3036,10 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 .performance-intro-section,
 .performance-results-section {
-    background-color: #0b0b0c;
     color: #ffffff;
     padding: 80px 0;
 }
 
-.performance-results-section {
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
 
 .pm-intro-image-wrap,
 .pm-results-image-wrap {
@@ -3267,5 +3267,691 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         opacity: 1 !important;
         max-height: 200px !important;
         margin-top: 12px !important;
+    }
+}
+
+/* Height adjustments to align right image with left content in performance-results-section */
+@media (min-width: 992px) {
+    .performance-results-section .row.align-items-center {
+        display: flex !important;
+        align-items: stretch !important;
+    }
+
+    .performance-results-section .row.align-items-center>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .performance-results-section .pm-results-image-wrap {
+        flex: 1 !important;
+        display: flex !important;
+        height: 100% !important;
+    }
+
+    .performance-results-section .pm-results-image-wrap img {
+        height: 96% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+}
+
+/* Seamless grid design with internal borders for 12 boxes */
+.performance-results-section .emcd-row {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.performance-results-section .emcd-row .row {
+    margin: 0 !important;
+}
+
+.performance-results-section .emcd-col {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.performance-results-section .emcd--box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px 30px;
+    margin: 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.performance-results-section .emcd--box:hover {
+    background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.performance-results-section .emcd--box-icon {
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.performance-results-section .emcd--box-icon img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain;
+}
+
+.performance-results-section .emcd--box-txt {
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.4 !important;
+}
+
+/* Border overrides for desktop grid (4 columns) */
+@media (min-width: 1200px) {
+    .performance-results-section .emcd-col:nth-child(4n) .emcd--box {
+        border-right: none !important;
+    }
+
+    .performance-results-section .emcd-col:nth-last-child(-n+4) .emcd--box {
+        border-bottom: none !important;
+    }
+}
+
+/* Border overrides for tablet grid (3 columns) */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .performance-results-section .emcd-col {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+    }
+
+    .performance-results-section .emcd-col:nth-child(3n) .emcd--box {
+        border-right: none !important;
+    }
+
+    .performance-results-section .emcd-col:nth-last-child(-n+3) .emcd--box {
+        border-bottom: none !important;
+    }
+}
+
+/* Border overrides for mobile grid (2 columns) */
+@media (max-width: 767px) {
+    .performance-results-section .emcd-col {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .performance-results-section .emcd-col:nth-child(2n) .emcd--box {
+        border-right: none !important;
+    }
+
+    .performance-results-section .emcd-col:nth-last-child(-n+2) .emcd--box {
+        border-bottom: none !important;
+    }
+}
+
+/* Border overrides for small mobile (1 column) */
+@media (max-width: 480px) {
+    .performance-results-section .emcd-col {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .performance-results-section .emcd-col .emcd--box {
+        border-right: none !important;
+        padding: 16px 20px !important;
+    }
+
+    .performance-results-section .emcd-col:last-child .emcd--box {
+        border-bottom: none !important;
+    }
+}
+
+/* Premium Process Section (Timeline Tabs) */
+.premium-process-section {
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.premium-process-title {
+    line-height: 1.25;
+}
+
+/* Timeline Layout */
+.process-timeline-container {
+    position: relative;
+    width: 100%;
+    margin: 60px auto 40px auto;
+    padding: 0 0px;
+}
+
+.process-timeline-line-bg {
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    right: 55px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.process-timeline-line-active {
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    height: 2px;
+    background-color: #855BFF;
+    transform: translateY(-50%);
+    z-index: 2;
+    transition: width 0.4s ease;
+    width: 0%;
+}
+
+
+
+.process-timeline-steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.process-step-node {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1b1b1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 3px solid #0b0b0c;
+}
+
+.process-step-node .step-number {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color 0.4s ease;
+}
+
+.process-step-node.active {
+    background-color: #855BFF;
+}
+
+.process-step-node.active .step-number {
+    color: #ffffff;
+}
+
+/* Content Area styling */
+.process-step-heading {
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.process-details-card {
+    background-color: #1c1c1e;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.process-card-item h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.process-card-item:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Responsive adjustment */
+@media (max-width: 991px) {
+    .process-step-heading {
+        font-size: 28px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .process-timeline-container {
+        padding: 0 15px;
+    }
+
+    .process-timeline-line-bg {
+        left: 35px;
+        right: 35px;
+    }
+
+    .process-timeline-line-active {
+        left: 35px;
+    }
+
+    .process-step-node {
+        width: 40px;
+        height: 40px;
+    }
+
+    .process-step-node .step-number {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .process-timeline-container {
+        overflow-x: auto;
+        padding: 20px 10px;
+    }
+
+    .process-timeline-steps {
+        width: 500px;
+    }
+
+    .process-timeline-line-bg {
+        width: 440px;
+        left: 30px;
+    }
+
+    .process-timeline-line-active {
+        left: 30px;
+    }
+
+    .process-details-card {
+        padding: 25px;
+    }
+}
+
+.pm-results-image-wrap {
+    background-image: url('/assets/images/email-03.webp') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
+
+/* Why Invest in Email Marketing Section */
+.why-invest-email-section {
+    padding: 80px 0;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .why-invest-email-section .row {
+        display: flex !important;
+        align-items: stretch !important;
+    }
+
+    .why-invest-email-section .row>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .why-invest-email-section .premium-perf-img-wrap {
+        flex: 1 !important;
+        display: flex !important;
+        height: 96% !important;
+    }
+
+    .why-invest-email-section .premium-perf-img {
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+}
+
+.why-invest-content {
+    padding-left: 20px;
+}
+
+.why-invest-title {
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.why-invest-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 30px;
+}
+
+.why-invest-card {
+    background-color: #1c1c1e;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.why-invest-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.why-invest-list li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.why-invest-list li:last-child {
+    margin-bottom: 0;
+}
+
+.why-invest-list li::before {
+    content: "✻";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #855BFF;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.why-invest-footer-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 35px;
+}
+
+.why-invest-action {
+    margin-top: 20px;
+}
+
+/* Timeline Process Step Desc class replacement */
+.process-card-desc {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff !important;
+}
+
+/* Premium Services Subtitle */
+.premium-services-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+/* Why Choose BrandStory Section (3-column visual layout) */
+.brandstory-choose-us-section {
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.brandstory-choose-us-section .section-title {
+    margin-bottom: 25px;
+    line-height: 1.25;
+    text-align: start;
+}
+
+.brandstory-choose-us-section .section-subtitle {
+    font-size: 18px !important;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+
+.brandstory-choose-us-section .choose-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.brandstory-choose-us-section .choose-card-img-wrap {
+    width: 100%;
+    border-radius: 16px !important;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.brandstory-choose-us-section .choose-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.brandstory-choose-us-section .choose-card:hover .choose-card-img {
+    transform: scale(1.03);
+}
+
+.brandstory-choose-us-section .choose-card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.35;
+}
+
+.brandstory-choose-us-section .choose-card-desc {
+    font-size: 16px !important;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+/* Complementing Services PNG icon size */
+.premium-industry-card .industry-png-icon {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+/* Custom Centred Contact Card for Complementing Services */
+.pm-services-contact-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: linear-gradient(135deg, #2b1f54 0%, #150f2b 100%) !important;
+    border: 1px solid rgba(133, 91, 255, 0.2) !important;
+}
+
+.pm-services-contact-card:hover {
+    background: linear-gradient(135deg, #855BFF 0%, #5633D6 100%) !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 12px 30px rgba(133, 91, 255, 0.3) !important;
+}
+
+/* Custom Stats Banner Section with Left Side Image */
+.premium-stats-banner-section {
+    background-color: #0b0b0c;
+    padding: 80px 0 0 0;
+    color: #ffffff;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.premium-stats-banner-section .row {
+    display: flex;
+    align-items: stretch;
+}
+
+.premium-stats-banner-img-wrap {
+    text-align: left;
+    margin-bottom: -5px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.premium-stats-banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.premium-stats-banner-content {
+    padding-left: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.premium-stats-banner-sub {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 15px;
+}
+
+.premium-stats-banner-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.premium-stats-banner-num {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, #ffffff 40%, #c3b4ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.premium-stats-banner-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.3;
+    max-width: 300px;
+}
+
+.premium-stats-banner-content .premium-pill-btn {
+    display: inline-flex;
+    align-self: flex-start;
+}
+
+/* Responsiveness for stats banner */
+@media (max-width: 991px) {
+    .premium-stats-banner-section {
+        padding: 60px 0;
+    }
+
+    .premium-stats-banner-img-wrap {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .premium-stats-banner-content {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .premium-stats-banner-content .premium-pill-btn {
+        align-self: center;
+    }
+
+    .premium-stats-banner-main {
+        justify-content: center;
+    }
+
+    .premium-stats-banner-num {
+        font-size: 60px;
+    }
+
+    .premium-stats-banner-text {
+        font-size: 20px;
+        max-width: 100%;
+    }
+}
+
+/* Premium Locations Links Section */
+.premium-locations-section {
+    background-color: #0A0B0F;
+    padding: 80px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.premium-locations-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.location-links-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.location-link-card {
+    display: block;
+    background-color: #1A1A1A;
+    color: #ffffff !important;
+    padding: 18px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.location-link-card:hover {
+    background-color: #855BFF;
+    border-color: #855BFF;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(133, 91, 255, 0.35);
+}
+
+@media (max-width: 991px) {
+    .premium-locations-section {
+        padding: 60px 0;
+    }
+
+    .premium-locations-section h2 {
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .premium-slide-title {
+        font-size: 34px !important;
+    }
+
+    .why-invest-email-section,
+    .premium-industries-section {
+        padding-bottom: 0px;
+    }
+
+    .brandstory-choose-us-section,
+    .premium-stats-section {
+        padding: 0px;
     }
 }

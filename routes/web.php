@@ -35,7 +35,9 @@ Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', '
 Route::get('/website-design-company-in-dubai', 'FrontendController@websiteDesignDubai', 'websitedesigndubai');
 Route::get('/website-development-company-in-dubai', 'FrontendController@websiteDevelopmentDubai', 'websitedevelopmentdubai');
 Route::get('/full-funnel-performance-marketing', 'FrontendController@fullFunnelPerformanceMarketing', 'fullFunnelPerformanceMarketing');
-Route::get('/email-marketing-company-in-dubai', 'FrontendController@emailMarketingDubai', 'emailmarketingdubai');
+Route::get('/email-marketing-company-in-dubai', 'FrontendController@emailMarketingDubai2', 'emailmarketingdubai');
+// Route::get('/email-marketing-company-in-dubai-2', 'FrontendController@emailMarketingDubai2', 'emailmarketingdubai2');
+
 Route::get('/pay-per-click-ppc-services-in-dubai', 'FrontendController@payPerClickServicesDubai', 'payperclickservicesdubai');
 Route::get('/search-engine-marketing-agency-in-dubai', 'FrontendController@searchEngineMarketingAgencyDubai', 'searchenginemarketingagencydubai');
 Route::get('/ecommerce-seo-services-in-dubai', 'FrontendController@ecommerceSeoServicesDubai', 'ecommerceseoservicesdubai');
