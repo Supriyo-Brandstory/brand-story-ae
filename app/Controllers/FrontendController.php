@@ -372,6 +372,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/facebook-marketing-agency-in-dubai', ['meta' => $meta]);
     }
+    public function facebookMarketingDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/facebook-marketing-agency-in-dubai-2', ['meta' => $meta]);
+    }
     public function instagramMarketingDubai()
     {
         $meta = [

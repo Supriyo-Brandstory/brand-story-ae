@@ -453,189 +453,130 @@
     box-shadow: 0 6px 25px rgba(255, 255, 255, 0.15);
 }
 
-/* Case Study Grid & Cards */
-.premium-cs-grid {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr;
-    grid-template-rows: 320px 320px;
-    gap: 24px;
-    padding: 10px 0 25px 0;
+/* Case Study Redesign Styles */
+.premium-cs-list {
+    margin-top: 50px;
 }
 
-.premium-cs-card {
+.premium-cs-row-card {
+    padding: 60px 0px;
     position: relative;
-    border-radius: 16px;
+    border-bottom: 1px solid #ffffff4a;
+}
+
+.premium-cs-row-card:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.premium-cs-row-img-wrap {
+    position: relative;
     overflow: hidden;
-    background-color: #161618;
+    border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.premium-cs-row-img {
+    width: 100%;
+    height: auto;
     display: block;
-    text-decoration: none;
-    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease, border-color 0.4s ease;
-    height: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.08);
-}
-
-.premium-cs-card.large-card {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-}
-
-.premium-cs-card.nims-card {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.premium-cs-card.travelex-card {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-.premium-cs-card.crystal-card {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.premium-cs-card.wipro-card {
-    grid-column: 3;
-    grid-row: 2;
-}
-
-.premium-cs-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(133, 91, 255, 0.25);
-    border-color: #855BFF;
-}
-
-.premium-cs-card-img-wrap {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.premium-cs-card-img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
-    display: block;
-    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.premium-cs-card:hover .premium-cs-card-img {
-    transform: scale(1.06);
+.premium-cs-row-card:hover .premium-cs-row-img {
+    transform: scale(1.04);
 }
 
-/* Card overlay gradient & name at top-left */
-.premium-cs-card-overlay {
+.premium-cs-row-badge {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.25) 40%, transparent 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 24px 28px;
-    z-index: 2;
+    top: 20px;
+    left: 20px;
+    background-color: #855BFF;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 50px;
+    z-index: 10;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.premium-cs-card-name {
+.premium-cs-row-content {
+    padding-left: 10px;
+}
+
+.premium-cs-row-title {
+    font-size: 32px;
+    font-weight: 800;
     color: #ffffff;
-    font-size: 22px;
-    font-weight: 600;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition: color 0.3s ease;
-    text-align: left;
+    margin-bottom: 12px;
     line-height: 1.25;
 }
 
-.premium-cs-card.large-card .premium-cs-card-name {
-    font-size: 28px;
+.premium-cs-row-stats {
+    font-size: 18px;
+    font-weight: 700;
+    color: #855BFF;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 
-.premium-cs-card:hover .premium-cs-card-name {
-    color: #ffffff;
+.premium-cs-row-desc {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 25px;
 }
 
-.premium-cs-card-arrow {
-    margin-top: 10px;
+.premium-cs-row-link {
     display: inline-flex;
     align-items: center;
-    color: rgba(255, 255, 255, 0.7);
-    transition: transform 0.3s ease, color 0.3s ease;
-    visibility: hidden;
+    color: #855BFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.premium-cs-card:hover .premium-cs-card-arrow {
-    visibility: visible;
+.premium-cs-row-link svg {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
 }
 
-.premium-cs-card:hover .premium-cs-card-arrow {
-    transform: translateX(6px);
-    color: #ffffff;
+.premium-cs-row-link:hover {
+    color: #a285ff;
 }
 
-@media (max-width: 1199px) {
-    .premium-cs-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        gap: 20px;
-    }
-
-    .premium-cs-card {
-        height: 280px;
-    }
-
-    .premium-cs-card.large-card {
-        grid-column: 1 / span 2;
-        grid-row: auto;
-        height: 380px;
-    }
-
-    .premium-cs-card.nims-card,
-    .premium-cs-card.travelex-card,
-    .premium-cs-card.crystal-card,
-    .premium-cs-card.wipro-card {
-        grid-column: auto;
-        grid-row: auto;
-    }
-}
-
-@media (max-width: 767px) {
-    .premium-cs-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 16px;
-    }
-
-    .premium-cs-card {
-        height: 250px;
-    }
-
-    .premium-cs-card.large-card {
-        grid-column: auto;
-        grid-row: auto;
-        height: 320px;
-    }
-
-    .premium-cs-card-overlay {
-        padding: 20px;
-    }
-
-    .premium-cs-card-name {
-        font-size: 18px;
-    }
-
-    .premium-cs-card.large-card .premium-cs-card-name {
-        font-size: 22px;
-    }
+.premium-cs-row-link:hover svg {
+    transform: translateX(5px);
 }
 
 @media (max-width: 991px) {
+    .premium-cs-row-card {
+        padding: 60px 0;
+    }
+
+    .premium-cs-row-title {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+
+    .premium-cs-row-stats {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .premium-cs-row-content {
+        padding-left: 0;
+    }
+
     .premium-cs-section {
-        padding: 0px 0;
+        padding: 60px 0;
     }
 }
 
@@ -3953,5 +3894,165 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     .brandstory-choose-us-section,
     .premium-stats-section {
         padding: 0px;
+    }
+}
+
+/* Four Reasons Facebook Outperforms section */
+.fb-outperform-section {
+    padding: 80px 0;
+    background-color: #0b0b0c;
+    color: #ffffff;
+}
+
+.fb-outperform-title {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.fb-outperform-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+}
+
+.fb-outperform-card {
+    background-color: #1c1c1e;
+    border-radius: 20px;
+    padding: 40px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-outperform-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(133, 91, 255, 0.3);
+    box-shadow: 0 15px 35px rgba(133, 91, 255, 0.15);
+}
+
+.fb-outperform-number {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.05) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.fb-outperform-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.35;
+}
+
+.fb-outperform-card-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+
+
+    .fb-outperform-card {
+        padding: 30px;
+    }
+
+    .fb-outperform-number {
+        font-size: 52px;
+        margin-bottom: 15px;
+    }
+}
+
+/* fb-different-section styles */
+.fb-different-section {
+    padding: 80px 0;
+    background-color: #0b0b0c;
+    color: #ffffff;
+}
+
+.fb-different-title {
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.fb-different-desc {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.fb-different-sub-headline {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.fb-different-card {
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.fb-different-card.purple-card {
+    background: linear-gradient(135deg, #301965 0%, #150b2e 100%);
+    border-color: rgba(133, 91, 255, 0.2);
+}
+
+.fb-different-card.purple-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(133, 91, 255, 0.4);
+    box-shadow: 0 15px 35px rgba(133, 91, 255, 0.2);
+}
+
+.fb-different-card.dark-card {
+    background-color: #1c1c1e;
+}
+
+.fb-different-card.dark-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+}
+
+.fb-different-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.35;
+}
+
+.fb-different-card-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+
+    .fb-different-card {
+        padding: 30px;
+    }
+
+    .fb-different-sub-headline {
+        font-size: 18px;
+        margin-top: 25px;
     }
 }
