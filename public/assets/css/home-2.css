@@ -4002,6 +4002,39 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     line-height: 1.4;
 }
 
+@media (min-width: 992px) {
+    .fb-different-content {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+    }
+}
+
+.fb-different-cards-wrap {
+    max-height: 650px;
+    overflow-y: auto;
+    padding-right: 15px;
+    scroll-behavior: smooth;
+}
+
+.fb-different-cards-wrap::-webkit-scrollbar {
+    width: 6px;
+}
+
+.fb-different-cards-wrap::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+}
+
+.fb-different-cards-wrap::-webkit-scrollbar-thumb {
+    background: rgba(133, 91, 255, 0.3);
+    border-radius: 10px;
+}
+
+.fb-different-cards-wrap::-webkit-scrollbar-thumb:hover {
+    background: rgba(133, 91, 255, 0.6);
+}
+
 .fb-different-card {
     border-radius: 20px;
     padding: 40px;
@@ -4026,8 +4059,9 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 .fb-different-card.dark-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+    background: linear-gradient(135deg, #301965 0%, #150b2e 100%);
+    border-color: rgba(133, 91, 255, 0.4);
+    box-shadow: 0 15px 35px rgba(133, 91, 255, 0.2);
 }
 
 .fb-different-card-title {

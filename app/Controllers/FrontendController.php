@@ -25,13 +25,7 @@ class FrontendController extends Controller
         ];
         return $this->view('home', ['meta' => $meta]);
     }
-    public function index2()
-    {
-        $meta = [
-            "classname" => 'dm-agency-dubai'
-        ];
-        return $this->view('home-2', ['meta' => $meta]);
-    }
+    
     public function about()
     {
         $meta = [];
@@ -314,18 +308,11 @@ class FrontendController extends Controller
     public function emailMarketingDubai()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/email-marketing-company-in-dubai', ['meta' => $meta]);
     }
-     public function emailMarketingDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/email-marketing-company-in-dubai-2', ['meta' => $meta]);
-    }
-
+     
     public function payPerClickServicesDubai()
     {
         $meta = [
@@ -368,32 +355,20 @@ class FrontendController extends Controller
     public function facebookMarketingDubai()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/facebook-marketing-agency-in-dubai', ['meta' => $meta]);
     }
-    public function facebookMarketingDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/facebook-marketing-agency-in-dubai-2', ['meta' => $meta]);
-    }
+    
     public function instagramMarketingDubai()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'dm-agency-dubai'
 
         ];
         return $this->view('services/instagram-advertising-agency-in-dubai', ['meta' => $meta]);
     }
-        public function instagramMarketingDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/instagram-advertising-agency-in-dubai-2', ['meta' => $meta]);
-    }
+      
     public function twitterMarketingDubai()
     {
         $meta = [
@@ -1061,18 +1036,12 @@ class FrontendController extends Controller
     public function performancemarketing()
     {
         $meta = [
-            'classname' => 'industry-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
     }
 
-      public function performancemarketing2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('others-pages/performance-marketing-2', ['meta' => $meta]);
-    }
+     
 
     public function ppccompanyinabudhabi()
     {
