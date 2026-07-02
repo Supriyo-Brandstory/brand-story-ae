@@ -4039,7 +4039,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .fb-different-card-desc {
-    font-size: 15px;
+    font-size: 16px !important;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.8);
     margin: 0;

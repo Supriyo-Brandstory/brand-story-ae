@@ -47,6 +47,7 @@ Route::get('/facebook-marketing-agency-in-dubai', 'FrontendController@facebookMa
 // Route::get('/facebook-marketing-agency-in-dubai-2', 'FrontendController@facebookMarketingDubai2', 'facebookmarketingdubai2');
 
 Route::get('/instagram-advertising-agency-in-dubai', 'FrontendController@instagramMarketingDubai', 'instagrammarketingdubai');
+Route::get('/instagram-advertising-agency-in-dubai-2', 'FrontendController@instagramMarketingDubai2', 'instagrammarketingdubai2');
 Route::get('/twitter-advertising-dubai', 'FrontendController@twitterMarketingDubai', 'twittermarketingdubai');
 Route::get('/pinterest-advertising-services-in-dubai', 'FrontendController@pinterestMarketingDubai', 'pinterestmarketingdubai');
 Route::get('/tiktok-marketing-agency-in-dubai', 'FrontendController@tiktokMarketingDubai', 'tiktokmarketingdubai');
