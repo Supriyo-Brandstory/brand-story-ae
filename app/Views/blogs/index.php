@@ -87,23 +87,50 @@
 
 		<!-- Pagination -->
 		<?php if (isset($totalPages) && $totalPages > 1): ?>
+			<?php
+			$left = $currentPage - 1;
+			$right = $currentPage + 1;
+			$range = [];
+			for ($i = 1; $i <= $totalPages; $i++) {
+				if ($i == 1 || $i == $totalPages || ($i >= $left && $i <= $right)) {
+					$range[] = $i;
+				}
+			}
+			$pages = [];
+			$prev = 0;
+			foreach ($range as $curr) {
+				if ($prev > 0) {
+					if ($curr - $prev === 2) {
+						$pages[] = $prev + 1;
+					} elseif ($curr - $prev > 2) {
+						$pages[] = '...';
+					}
+				}
+				$pages[] = $curr;
+				$prev = $curr;
+			}
+			?>
 			<div class="row mt-5">
 				<div class="col-12">
 					<nav aria-label="Blog pagination">
-						<ul class="pagination justify-content-center gap-3">
+						<ul class="pagination justify-content-center flex-wrap gap-2 gap-md-3">
 							<li class="page-item <?= ($currentPage <= 1) ? 'disabled' : '' ?>">
 								<a class="page-link prev-next" href="<?= ($currentPage > 1) ? pagination_url($currentPage - 1) : 'javascript:;' ?>" aria-label="Previous">
 									<i class="bi bi-arrow-left me-2"></i> Previous
 								</a>
 							</li>
 
-							<div class="d-flex gap-2">
-								<?php for ($i = 1; $i <= $totalPages; $i++): ?>
-									<li class="page-item <?= ($i == $currentPage) ? 'active' : '' ?>">
-										<a class="page-link" href="<?= pagination_url($i) ?>"><?= $i ?></a>
+							<?php foreach ($pages as $p): ?>
+								<?php if ($p === '...'): ?>
+									<li class="page-item disabled pagination-ellipsis">
+										<span class="page-link border-0">...</span>
 									</li>
-								<?php endfor; ?>
-							</div>
+								<?php else: ?>
+									<li class="page-item <?= ($p == $currentPage) ? 'active' : '' ?>">
+										<a class="page-link" href="<?= pagination_url($p) ?>"><?= $p ?></a>
+									</li>
+								<?php endif; ?>
+							<?php endforeach; ?>
 
 							<li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
 								<a class="page-link prev-next" href="<?= ($currentPage < $totalPages) ? pagination_url($currentPage + 1) : 'javascript:;' ?>" aria-label="Next">
@@ -186,5 +213,26 @@
 
 	.pagination .page-item.disabled .page-link i {
 		color: #ccc;
+	}
+
+	.pagination .page-item.pagination-ellipsis .page-link {
+		background: none !important;
+		border: none !important;
+		color: #6c757d !important;
+		cursor: default !important;
+		padding: 10px 8px;
+	}
+
+	@media (max-width: 576px) {
+		.pagination .page-link {
+			padding: 8px 12px;
+			font-size: 14px;
+		}
+		.pagination .page-link.prev-next {
+			padding: 8px 15px;
+		}
+		.pagination .page-item.pagination-ellipsis .page-link {
+			padding: 8px 4px;
+		}
 	}
 </style>

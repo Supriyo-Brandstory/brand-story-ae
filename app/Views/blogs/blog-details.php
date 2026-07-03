@@ -964,12 +964,12 @@
         const tocContainer = document.getElementById('toc-list');
         if (!contentContainer || !tocContainer) return;
 
-        // Find all h2, h3 headings (exclude h1)
-        const headers = contentContainer.querySelectorAll('h2, h3');
+        // Find only h2 headings
+        const headers = contentContainer.querySelectorAll('h2');
 
         // Ensure headings have a scroll margin
         const style = document.createElement('style');
-        style.innerHTML = '.blog-description h2, .blog-description h3 { scroll-margin-top: 100px; }';
+        style.innerHTML = '.blog-description h2 { scroll-margin-top: 100px; }';
         document.head.appendChild(style);
 
         // Add headings to TOC
