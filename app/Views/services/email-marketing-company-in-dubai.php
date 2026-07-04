@@ -6,8 +6,8 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/email-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Email Marketing</span> Company in Dubai</h1>
-                    <p class="premium-slide-subtitle">Turn your email list into a revenue-generating asset with BrandStory. We create strategic email marketing campaigns that help businesses in Dubai increase engagement, nurture prospects, and convert subscribers into customers. From personalized email sequences and promotional campaigns to automation and analytics, our team ensures every email marketing campaign contributes to your business growth.</p>
+                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Email Marketing Agency</span> in Dubai for ROI-Driven Campaigns</h1>
+                    <p class="premium-slide-subtitle">Customers today ignore anything that feels irrelevant, repetitive or disconnected from their intent. BrandStory builds email marketing campaigns that feel personal, timely and valuable. As a performance-led email marketing company in Dubai, we focus on messages that align with user behavior, customer journeys and real purchase intent. Every email is designed to feel like a meaningful touchpoint, not noise in the inbox.</p>
                     <div class="premium-slide-actions">
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                             <span>Talk to Experts</span>
@@ -37,11 +37,11 @@
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <div class="premium-perf-content">
-                    <h2 class="premium-perf-title">Best Email Marketing Agency in Dubai</h2>
+                    <h2 class="premium-perf-title">Email Marketing Company in Dubai That Turn Emails Into Revenue</h2>
                     <ul class="premium-perf-list">
-                        <li>Email marketing is the best digital marketing platform where you invest in building stronger relationships with your potential customers. It is the most powerful and cost-effective tool for streamlining your business growth. This will not only help you to generate leads but will also help you in strengthening your relationship with the old customers.</li>
-                        <li>If you are planning to take Email marketing as a priority for your business in the upcoming years, then you are standing on the right platform. BrandStory is the best email marketing agency in Dubai, providing round-the-clock email marketing services. We provide cost-effective email marketing services across Dubai and the UAE, backed by top-level experts.</li>
-                        <li>At BrandStory, our email marketing strategy focuses on crafting personalized, high-converting campaigns that engage your audience and drive measurable results. From campaign creation, click-worthy template design, to automation and analytics, we ensure maximum ROI for your business.</li>
+                        <li>Email marketing has moved beyond basic campaigns. It is about building systems that guide users from first touch to repeat purchase. The most effective email marketing strategies focus on nurturing relationships instead of simply sending promotional messages.</li>
+                        <li>BrandStory builds performance-driven email campaigns designed to improve conversions at every stage of the customer journey. As a trusted email marketing agency in Dubai, we combine audience segmentation, behavioral insights and strategic messaging to create campaigns that deliver measurable results.</li>
+                        <li>From abandoned cart recovery and promotional flows to lifecycle automation and re-engagement campaigns, BrandStory creates email marketing campaigns that continuously nurture engagement, retention and increase revenue growth.</li>
                     </ul>
                     <div class="premium-perf-action">
                         <a href="/about/" class="premium-perf-btn">Know About Us</a>
@@ -59,11 +59,11 @@
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Top-rated Email Marketing Company Dubai</h2>
+                    <h2 class="text-white pb-3">Why Dubai Businesses Choose Strategic Email Marketing</h2>
                     <ul class="premium-perf-list">
-                        <li>As one of the best and renowned email marketing agency in Dubai, United Arab Emirates, we have a customer-centric and result-oriented approach to email marketing. We design newsletters, email campaigns, and help you connect with your contacts, and build a healthy relationship with your customers.</li>
-                        <li>Brandstory is the leading email marketing company in Dubai, known for providing groundbreaking email marketing solutions and bespoke email marketing campaigns, and services.</li>
-                        <li class="pb-0 mb-0">Email marketing is one of the vital marketing tools and a versatile and lucrative advertising channel used by thousands of businesses, irrespective of their niche and size. Because of not having knowledge and experience of the advertising method, most of them don't understand the reason for being popular among companies in a variety of industries. Therefore, below given are the reasons to choose the best email marketing services in Dubai, UAE.</li>
+                        <li>Many businesses struggle with email marketing because campaigns are treated as isolated sends instead of connected systems. BrandStory builds structured email journeys that align with customer behavior, intent, and timing.</li>
+                        <li>We help Dubai brands move beyond generic newsletters and one-time promotions. Our strategies improve engagement quality, strengthen retention, and create consistent conversion opportunities. The result is email marketing that performs long after the first send.</li>
+                        <li class="pb-0 mb-0">By combining strategy, automation, and personalization, we turn email into a scalable growth channel. Businesses that partner with our email marketing agency in Dubai see higher customer lifetime value and lower acquisition costs through smarter retention.</li>
                     </ul>
                 </div>
             </div>
@@ -126,7 +126,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Employs Latest Techniques</div>
+                        <div class="emcd--box-txt">Latest Email Techniques</div>
                     </div>
                 </div>
                 <!-- Box 2 -->
@@ -142,7 +142,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Reaching the entire world</div>
+                        <div class="emcd--box-txt">Global Audience Reach</div>
                     </div>
                 </div>
                 <!-- Box 3 -->
@@ -163,7 +163,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Cost-Effective</div>
+                        <div class="emcd--box-txt">Cost-Efficient Channel</div>
                     </div>
                 </div>
                 <!-- Box 4 -->
@@ -254,7 +254,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Ease of Production</div>
+                        <div class="emcd--box-txt">Seamless Execution</div>
                     </div>
                 </div>
                 <!-- Box 5 -->
@@ -300,7 +300,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Spreading the message</div>
+                        <div class="emcd--box-txt">Distribution at Scale</div>
                     </div>
                 </div>
                 <!-- Box 6 -->
@@ -326,7 +326,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Segmentation</div>
+                        <div class="emcd--box-txt">Audience Segmentation</div>
                     </div>
                 </div>
                 <!-- Box 7 -->
@@ -362,7 +362,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Calls to Action</div>
+                        <div class="emcd--box-txt">Clear Call-to-Actions</div>
                     </div>
                 </div>
                 <!-- Box 8 -->
@@ -383,7 +383,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Easy to figure out mistakes</div>
+                        <div class="emcd--box-txt">Real Visibility Insights</div>
                     </div>
                 </div>
                 <!-- Box 9 -->
@@ -424,7 +424,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Instant results</div>
+                        <div class="emcd--box-txt">5x Campaign Impact</div>
                     </div>
                 </div>
                 <!-- Box 10 -->
@@ -455,7 +455,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Low investments gain top results</div>
+                        <div class="emcd--box-txt">High ROI Performance</div>
                     </div>
                 </div>
                 <!-- Box 11 -->
@@ -506,7 +506,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Increase Leads</div>
+                        <div class="emcd--box-txt">Lead Generation Focus</div>
                     </div>
                 </div>
                 <!-- Box 12 -->
@@ -542,7 +542,7 @@
 </defs>
 </svg>
 </div>
-                        <div class="emcd--box-txt">Deliver Targeted Messages</div>
+                        <div class="emcd--box-txt">Personalized Messaging</div>
                     </div>
                 </div>
             </div>
@@ -552,8 +552,8 @@
 <section class="email-designs-sec sp-50">
     <div class="container">
         <div class="text-start text-white mb-5">
-            <h2 class="mb-3">High-Converting Email Template Designs</h2>
-            <p class="">Discover email templates built to do more than look good. Our designs combine compelling visuals, strategic layouts, and clear calls-to-action to help businesses connect with their audience.</p>
+            <h2 class="mb-3">Email Template Built for Higher Engagement</h2>
+            <p class="">Every email has a purpose but only strong design turns attention into action. We create clean, conversion-focused email templates that improve readability, guide attention naturally and reduce friction in decision-making. Each layout balances content, visuals and CTAs to ensure clarity and impact.</p>
         </div>
         
         <div class="position-relative px-md-5">
@@ -750,50 +750,26 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Strategy",
             items: [
                 {
-                    title: "Segmented and Personalized Emails",
-                    desc: "We follow a personalized and segmentation email process so you can send emails containing dynamic content to satisfy users of different age, location, gender, industry, nationality, income, job title etc"
-                },
-                {
-                    title: "Drip Campaigns, Trigger or Interactive Campaigns",
-                    desc: "It is a direct marketing process to gain targeted persona through lead nurture programs."
-                },
-                {
-                    title: "Fixing Approaches–Selective or Multiple",
-                    desc: "Awareness, Engagement, Purchase, Retention/Growth, Promotion by Testimonials, etc"
+                    title: "Strategy & Objective Planning",
+                    desc: "Every campaign begins with clarity on what needs to be achieved. We define business-aligned goals across awareness, engagement, conversion and retention. This ensures every email has a clear purpose and contributes directly to measurable growth instead of random communication."
                 }
             ]
         },
         2: {
-            title: "Database Audit",
+            title: "Audit & Audience Segmentation",
             items: [
                 {
                     title: "Mailing List Building",
-                    desc: "We collect and build a mail list from subscribed recipients or lead generation campaigns."
-                },
-                {
-                    title: "List Reformatting & Upload",
-                    desc: "We reformat your mailing list and reload it securely into the email marketing system."
-                },
-                {
-                    title: "Account & Contact Audit",
-                    desc: "We audit and cleanse relevant account and contact details to ensure zero bounce rates."
+                    desc: "We review your existing customer database to understand quality, activity levels and engagement patterns. This helps clean, structure and segment audiences based on real behavior such as clicks, purchases and interactions. The result is sharper targeting and higher relevance in every message."
                 }
             ]
         },
         3: {
-            title: "Design Emails",
+            title: "Message & Content Structuring",
             items: [
                 {
                     title: "Responsive Template Design",
-                    desc: "As one of the pro-efficient email marketing companies in Dubai, we plan and design responsive emails that support laptops, mobiles, tablets, and desktop devices."
-                },
-                {
-                    title: "Crisp & Relevant Content",
-                    desc: "For brand awareness, we build our content easy to read, crisp, and highly relevant to the target segment."
-                },
-                {
-                    title: "Media Asset Collection",
-                    desc: "We collect and optimize important media assets such as images, videos, GIFs, and attachments where required."
+                    desc: "We craft email content based on customer intent at different stages of their journey. The focus stays on clarity, timing and value. Every message is designed to guide attention naturally, build trust and encourage action without feeling forced or overly sales-driven."
                 }
             ]
         },
@@ -801,51 +777,35 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Setup Campaigns",
             items: [
                 {
-                    title: "Timing Optimization",
-                    desc: "We choose the optimal day & time for campaigns to segment the mailing list and to improve personalization scope."
-                },
-                {
-                    title: "Campaign Calendar setup",
-                    desc: "Based on the email volume, we draft and complete the email campaign calendar monthly or quarterly."
+                    title: "Email & Template Creation",
+                    desc: "We design clean, conversion-focused email layouts that improve readability and flow. Each section is structured to highlight key messages and guide users toward action points. The design ensures impact without distraction, keeping attention exactly where it matters most."
                 }
             ]
         },
         5: {
-            title: "Monitor",
+            title: "Campaign Setup & Automation",
             items: [
                 {
-                    title: "Regular Campaign Tracking",
-                    desc: "Being a leading email marketing firm in Dubai, we believe that planning is not enough; regular monitoring is key to a successful campaign."
-                },
-                {
-                    title: "Metric Analysis",
-                    desc: "We monitor Click Through Rate (CTR), Bounce Rate, Subscribed/Unsubscribed rate, conversions, list growth, and traffic source statistics."
+                    title: "Campaign Management",
+                    desc: "We configure and launch campaigns with the right triggers, timing and audience mapping. This includes automated journeys such as onboarding, nurturing, re-engagement and recovery flows. These systems run continuously to ensure consistent communication and long term customer lifecycle value."
                 }
             ]
         },
         6: {
-            title: "Report",
+            title: "Performance Reporting",
             items: [
                 {
-                    title: "Performance Reporting",
-                    desc: "Measuring facts and figures is crucial. We prepare custom reports that show the performance and ROI of the campaign by measuring key email marketing statistics."
-                },
-                {
-                    title: "A/B Testing Insights",
-                    desc: "These customized reports help us optimize subsequent campaigns and perform ongoing A/B testing on email designs."
+                    title: "Monitoring & Performance Optimization",
+                    desc: "Once campaigns go live, we track engagement behavior in real time. Open rates, click patterns and user responses are analyzed to identify what is working and what needs improvement. We continuously refine subject lines, messaging and delivery performance for stronger outcomes."
                 }
             ]
         },
         7: {
-            title: "Analyze",
+            title: "Analysis & Reporting",
             items: [
                 {
-                    title: "Strategic Optimization",
-                    desc: "We analyze what strategy worked and what did not give the desired results, helping us plan further email strategies."
-                },
-                {
-                    title: "Customer Feedback Loop",
-                    desc: "We take follow up from existing and past customers to align the email strategies with client expectations."
+                    title: "Analysis & Growth Insights",
+                    desc: "We convert campaign data into clear performance insights that show what drives conversions and revenue. Every report helps refine strategy, improve targeting and strengthen future campaigns. This creates a cycle of constant improvement and scalable email performance."
                 }
             ]
         }
@@ -921,20 +881,18 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Benefits of Email Marketing Companies in Dubai</h2>
-                    <p >You can skyrocket your business with email marketing services in Dubai, where you can drive more revenue by sending effective email campaigns. Below are the benefits your business can enjoy through our services:</p>
+                    <h2 class="text-white pb-3">Benefits of Email Marketing for Dubai Businesses</h2>
+                    <p>Email marketing helps businesses stay connected with customers through direct and personalized communication. It improves engagement, supports customer retention and creates stronger opportunities. With the right strategy, businesses can build long term relationships while maintaining consistent brand visibility.</p>
                     <ul class="premium-perf-list">
-                        <li>It is the best marketing strategy for better local outreach.</li>
-                        <li>One of the finest strategies to enhance your business visibility and brand awareness.</li>
-                        <li>The most effective and exact way to generate leads and to increase sales.</li>
-                        <li>As this is the direct way of interacting with your potential customer, thus, it helps in building credibility.</li>
-                        <li>Expanded customer base.</li>
-                        <li>A better way to reduce marketing costs.</li>
-                        <li>By planning the right marketing strategies you can segment your target market.</li>
-                        <li>Online marketing in uae through emails targeted and personalized content.</li>
-                        <li>It will help you increase website traffic.</li>
+                        <li>Improves customer engagement and brand recall</li>
+                        <li>Supports lead generation and conversion growth</li>
+                        <li>Enables smarter audience targeting and segmentation</li>
+                        <li>Increases website visits and customer interaction</li>
+                        <li>Reduces customer acquisition and marketing costs</li>
+                        <li>Strengthens retention through automated campaigns</li>
+                        <li>Provides measurable campaign performance insights</li>
                     </ul>
-                    <p >As one of the best and affluent email marketing agencies in Dubai, we are here to help you find answers and keep you on track, thus helps you in building brand credibility.</p>
+                    <p >As one of the top-performing email marketing agencies in Dubai, we are here to help you find answers and keep you on track, thus helping you in building brand credibility.</p>
                 </div>
             </div>
             <!-- Right Side: Image -->
@@ -956,18 +914,21 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <div class="why-invest-content">
-                    <h2 class="why-invest-title text-white">Why Invest In Email Marketing?</h2>
-                    <p class="why-invest-subtitle">Email marketing in Dubai remains one of the most powerful tools to build meaningful customer relationships and drive consistent engagement. It delivers targeted messages directly to your audience, ensuring higher impact and measurable results.</p>
+                    <h2 class="why-invest-title text-white">Why Email Marketing Still Matters in 2026</h2>
+                    <p class="why-invest-subtitle">Email marketing remains one of the most reliable digital marketing channels for business growth. It allows brands to communicate with customers in a more focused and personalized way while improving engagement quality. With automation and performance tracking, businesses can build scalable communication systems that support long term growth.</p>
                     
                     <div class="why-invest-card">
                         <ul class="why-invest-list">
-                            <li>Email Marketing is the backbone of digital marketing.</li>
-                            <li>With all the social media platforms rapidly evolving in order to become more personalized and cater to specific demographics in a particular way.</li>
-                            <li>Email marketing already has an edge. It’s personalized and customer-focused approach is what puts it way ahead of other digital marketing tools.</li>
+                            <li>Creates direct and personalized customer communication</li>
+                            <li>Helps nurture leads across the customer journey</li>
+                            <li>Improves customer retention and repeat purchases</li>
+                            <li>Delivers strong ROI compared to other channels</li>
+                            <li>Supports automated and consistent engagement</li>
+                            <li>Strengthens customer trust and brand credibility</li>
                         </ul>
                     </div>
                     
-                    <p class="why-invest-footer-text">It’s a direct way to reach out to your customers. Email marketing is also a cost-effective marketing solution that helps businesses generate quality leads, improve customer retention, and achieve higher ROI.</p>
+                    <p class="why-invest-footer-text">Email marketing is the most direct way to reach your customers. It is also cost-effective, helping businesses generate quality leads, improve retention, and drive higher ROI.</p>
                     
                     <div class="why-invest-action">
                         <a href="/contact/" class="premium-pill-btn">
@@ -985,13 +946,12 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<!-- The Need for Email Marketing For Your Business section -->
+<!-- 
 <section class="premium-services-section">
     <div class="container">
         <h2 class="premium-services-title">The Need for Email Marketing For Your Business</h2>
         <p class="premium-services-subtitle">Let us take a look at why we need email marketing:</p>
         <div class="row g-4">
-            <!-- Card 1: Personalized content -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-service-card">
                     <div class="service-card-icon">
@@ -1020,7 +980,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             </div>
-            <!-- Card 2: Convenience -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-service-card">
                     <div class="service-card-icon">
@@ -1037,7 +996,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             </div>
-            <!-- Card 3: Return on Investment -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-service-card">
                     <div class="service-card-icon">
@@ -1051,7 +1009,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             </div>
-            <!-- Card 4: In-built Analytics -->
             <div class="col-lg-6 col-md-6">
                 <div class="premium-service-card">
                     <div class="service-card-icon">
@@ -1080,13 +1037,13 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Why Choose BrandStory for Email Marketing in Dubai section -->
 <section class="brandstory-choose-us-section">
     <div class="container">
         <h2 class="section-title">Why Choose BrandStory for Email Marketing in Dubai</h2>
-        <p class="section-subtitle">Email marketing remains one of the most direct, high-ROI channels for businesses in Dubai. But results depend on strategy, execution, and the right partner. BrandStory combines data-driven expertise with local market knowledge to deliver campaigns that drive real business growth.</p>
+        <p class="section-subtitle">Email marketing delivers real impact only when strategy, execution and customer understanding work together as a unified system. In a competitive market like Dubai, businesses need more than basic campaigns- they need structured email frameworks that drive engagement, conversions and long term customer value. BrandStory builds performance-led email systems designed to turn communication into consistent growth.</p>
         
         <div class="row g-4">
             <!-- Box 1: Built Around Your Goals -->
@@ -1096,7 +1053,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="<?= base_url('assets/images/email-06.webp') ?>" class="choose-card-img img-fluid" alt="Built Around Your Goals">
                     </div>
                     <h3 class="choose-card-title">Built Around Your Goals</h3>
-                    <p class="choose-card-desc">We begin with discovery, not templates. BrandStory takes the time to understand what success looks like for your business then engineers email campaigns that get you there. Every campaign is designed to deliver real outcomes.</p>
+                    <p class="choose-card-desc">We start with clarity on business outcomes instead of predefined templates or fixed workflows. Every email strategy is built after understanding your customer journey, sales cycle and growth gaps. This ensures each campaign is aligned with measurable results and not just engagement activity.</p>
                 </div>
             </div>
             <!-- Box 2: Guaranteed Results -->
@@ -1106,7 +1063,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="<?= base_url('assets/images/email-07.webp') ?>" class="choose-card-img img-fluid" alt="Guaranteed Results">
                     </div>
                     <h3 class="choose-card-title">Guaranteed Results</h3>
-                    <p class="choose-card-desc">We believe in accountability. From clear cost structures to detailed performance reports, BrandStory ensures you always know where your budget is going and what it's achieving. Our focus is simple: your growth, backed by data.</p>
+                    <p class="choose-card-desc">We focus on transparent execution and measurable outcomes across every stage of email marketing. From campaign setup to performance tracking, everything is monitored and optimized for better results. This ensures email becomes a predictable revenue channel backed by data and continuous improvement.</p>
                 </div>
             </div>
             <!-- Box 3: Dubai Market Expertise -->
@@ -1116,7 +1073,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="<?= base_url('assets/images/email-08.webp') ?>" class="choose-card-img img-fluid" alt="Dubai Market Expertise">
                     </div>
                     <h3 class="choose-card-title">Dubai Market Expertise</h3>
-                    <p class="choose-card-desc">As a Dubai-based agency, we understand the local landscape, audience behaviors, and cultural nuances that make campaigns succeed in this market. We send the right emails to the right people in the right context.</p>
+                    <p class="choose-card-desc">We design email strategies that reflect real audience behavior in the Dubai market. This includes understanding timing, engagement patterns and cultural relevance to improve response rates. The result is communication that feels local, relevant and more effective in driving action.</p>
                 </div>
             </div>
         </div>
@@ -1216,7 +1173,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <path d="M41.3455 21.2642C43.934 21.2642 46.306 20.3324 48.1529 18.7896L51.8251 22.2166C51.8195 22.599 51.9585 22.9777 52.2589 23.2585L57.6475 28.2898C57.917 28.5416 58.2584 28.6657 58.6007 28.6657C58.9748 28.6657 59.3488 28.5164 59.624 28.2198C60.151 27.6564 60.1202 26.7684 59.5568 26.2424L54.1682 21.212C53.8679 20.9312 53.478 20.8202 53.0993 20.851L49.4755 17.4697C51.0342 15.6201 51.979 13.234 51.979 10.6307C51.979 4.76829 47.2108 0 41.3483 0C35.4859 0 30.7148 4.77015 30.7148 10.6316C30.7139 16.4959 35.4831 21.2642 41.3455 21.2642ZM41.3455 2.79922C45.6652 2.79922 49.1789 6.31294 49.1789 10.6316C49.1789 14.9503 45.6633 18.465 41.3455 18.465C37.0278 18.465 33.5122 14.9503 33.5122 10.6316C33.5122 6.31294 37.0259 2.79922 41.3455 2.79922Z" fill="white"/>
 </svg>
                     </div>
-                    <a href="<?= base_url('seo-services-in-dubai/') ?>" class="industry-card-arrow" aria-label="Learn more about SEO Services">
+                    <a href="<?= base_url('seo-services-company-in-dubai/') ?>" class="industry-card-arrow" aria-label="Learn more about SEO Services">
                       
  <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
