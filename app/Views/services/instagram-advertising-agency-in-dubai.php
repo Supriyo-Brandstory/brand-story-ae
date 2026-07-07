@@ -609,7 +609,7 @@
   </div>
 </section>
 <!-- Complementing Services section -->
-<section class="premium-industries-section">
+<section class="premium-industries-section a">
   <div class="container">
     <h2 class="premium-industries-title">Our Other Services</h2>
     <div class="row g-4">
@@ -1496,6 +1496,7 @@
   </div>
 <!-- </section> <?php include __DIR__ . "/../component/services/email-links-2.php"; ?> -->
  <style>
+  .premium-industries-section.a{
   .premium-industry-card {
     height: 320px;
   }
@@ -1505,4 +1506,5 @@
   .premium-industry-card:hover .industry-card-title{
     transform:translateY(calc(380px - 98px - 30px - 100%));
   }
+}
   </style>
