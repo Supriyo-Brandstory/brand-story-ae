@@ -1495,3 +1495,14 @@
     </div>
   </div>
 <!-- </section> <?php include __DIR__ . "/../component/services/email-links-2.php"; ?> -->
+ <style>
+  .premium-industry-card {
+    height: 320px;
+  }
+  .premium-industry-card .industry-card-title{
+    top:20px
+  }
+  .premium-industry-card:hover .industry-card-title{
+    transform:translateY(calc(380px - 98px - 30px - 100%));
+  }
+  </style>
