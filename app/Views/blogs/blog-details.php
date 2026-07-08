@@ -228,29 +228,197 @@
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     }
 
-    /* Author Profile */
-    .author-card .author-img {
+    /* Author Profile (Bottom) */
+    .author-card-bottom {
+        background: #fff;
+        border: none;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    
+    .author-info-wrap {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .author-avatar-col {
+        flex-shrink: 0;
+    }
+    
+    .author-avatar-col .author-img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
         object-fit: cover;
-        margin-bottom: 20px;
+    }
+    
+    .author-desc-col {
+        flex-grow: 1;
+        text-align: left;
     }
 
-    .author-card h4 {
+    .author-desc-col h4 {
         font-weight: 800;
         margin-bottom: 10px;
     }
 
-    .author-card p {
-        font-size: 0.9rem;
+    .author-desc-col p {
+        font-size: 0.95rem;
         color: var(--premium-text-muted);
-        line-height: 1.5;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 767px) {
+        .author-info-wrap {
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+        }
+        .author-desc-col {
+            text-align: center;
+        }
+        .author-desc-col p {
+            margin-bottom: 15px;
+        }
+        .author-desc-col .d-flex {
+            justify-content: center !important;
+            flex-direction: column;
+            align-items: center !important;
+            gap: 15px !important;
+        }
+    }
+
+    /* Bottom Premium CTA */
+    .premium-bottom-cta {
+        background: linear-gradient(135deg, var(--premium-purple-dark) 0%, #2a0e5a 100%);
+        border-radius: 20px;
+        padding: 40px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 15px 35px rgba(26, 11, 56, 0.2);
+    }
+
+    .premium-bottom-cta::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -30%;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(99, 68, 212, 0.25) 0%, rgba(99, 68, 212, 0) 70%);
+        pointer-events: none;
+    }
+
+    .premium-bottom-cta::after {
+        content: '';
+        position: absolute;
+        bottom: -50%;
+        left: -30%;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(232, 59, 38, 0.15) 0%, rgba(232, 59, 38, 0) 70%);
+        pointer-events: none;
+    }
+
+    .cta-content-wrapper {
+        position: relative;
+        z-index: 2;
+        text-align: left;
+    }
+
+    .cta-badge-pill {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: #ffffff;
+        padding: 6px 16px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 50px;
         margin-bottom: 20px;
     }
 
-    .sidebar-card.author-card {
-        text-align: left;
+    .premium-bottom-cta h3 {
+        color: #fff;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    .premium-bottom-cta p {
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+
+    .cta-action-area {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .cta-primary-btn {
+        background: #e83b26;
+        color: #fff;
+        padding: 14px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 4px 15px rgba(232, 59, 38, 0.3);
+        transition: all 0.3s ease;
+        border: 2px solid #e83b26;
+    }
+
+    .cta-primary-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(232, 59, 38, 0.5);
+        background: #fff;
+        color: var(--premium-purple-dark);
+        border-color: #fff;
+    }
+
+    .cta-primary-btn i {
+        font-size: 1.25rem;
+        transition: transform 0.3s ease;
+    }
+
+    .cta-primary-btn:hover i {
+        transform: translateX(4px);
+    }
+
+    .cta-meta-text {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    @media (max-width: 767px) {
+        .premium-bottom-cta {
+            padding: 30px 20px;
+        }
+      
+        .cta-action-area {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+        }
+        .cta-primary-btn {
+            justify-content: center;
+            padding: 10px;
+        }
+        .cta-meta-text {
+            justify-content: center;
+        }
     }
 
     .social-icons {
@@ -615,27 +783,33 @@
                             <a href="<?= route('contact') ?>" class="cta-btn">Get Graded Today</a>
                         </div>
                     </div>
+
+                 
+
+                    <!-- Author Profile -->
+                    <div class="author-card-bottom mt-5">
+                        <div class="author-info-wrap">
+                            <div class="author-avatar-col">
+                                <a href="<?= base_url('author/madhavan-a') ?>"><img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+                            </div>
+                            <div class="author-desc-col">
+                                <h4><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--premium-purple)'" onmouseout="this.style.color='inherit'">Madhavan A</a></h4>
+                                <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3">
+                                    <div class="social-icons">
+                                        <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
+                                        <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                    <a href="<?= base_url('author/madhavan-a') ?>" style="color:var(--premium-purple); font-weight:700; text-decoration:none; font-size:0.85rem; text-transform:uppercase; display:flex; align-items:center; gap:5px; transition: gap 0.2s ease;" onmouseover="this.style.gap='8px'" onmouseout="this.style.gap='5px'">View Profile <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Right Sidebar -->
                 <div class="col-lg-3" id="right-sidebar-col" style="position: relative;">
                     <div class="right-sidebar" id="right-sidebar">
-                        <!-- Static Part -->
-                        <div class="sidebar-card author-card">
-                            <a href="<?= base_url('author/madhavan-a') ?>"><img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
-                            <h4><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--premium-purple)'" onmouseout="this.style.color='inherit'">Madhavan A</a></h4>
-                            <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
-                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3">
-                                <div class="social-icons">
-                                    <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
-                                    <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                                <a href="<?= base_url('author/madhavan-a') ?>" style="color:var(--premium-purple); font-weight:700; text-decoration:none; font-size:0.85rem; text-transform:uppercase; display:flex; align-items:center; gap:5px; transition: gap 0.2s ease;" onmouseover="this.style.gap='8px'" onmouseout="this.style.gap='5px'">View Profile <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-
-
-
                         <!-- Bottom Sticky Part -->
                         <div class="sidebar-sticky-part" id="sidebar-sticky-bottom">
                             <div class="sidebar-card ranking-cta-card">
