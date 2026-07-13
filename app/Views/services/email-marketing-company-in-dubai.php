@@ -6,8 +6,8 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/email-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Email Marketing Agency</span> in Dubai for ROI-Driven Campaigns</h1>
-                    <p class="premium-slide-subtitle">Customers today ignore anything that feels irrelevant, repetitive or disconnected from their intent. BrandStory builds email marketing campaigns that feel personal, timely and valuable. As a performance-led email marketing company in Dubai, we focus on messages that align with user behavior, customer journeys and real purchase intent. Every email is designed to feel like a meaningful touchpoint, not noise in the inbox.</p>
+                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Email Marketing in Dubai </span> with 1.5 Million Verified Contacts</h1>
+                    <p class="premium-slide-subtitle">At BrandStory, our email marketing services in Dubai, UAE help businesses reach the right audience with access to a 1.5 million+ verified contacts. We leverage advanced segmentation, personalized content, and data-driven strategies to improve engagement. Our team of marketers, designers, and copywriters creates impactful email campaigns that build meaningful customer relationships with ethical email marketing best-practices.</p>
                     <div class="premium-slide-actions">
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                             <span>Talk to Experts</span>
@@ -37,11 +37,11 @@
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <div class="premium-perf-content">
-                    <h2 class="premium-perf-title">Email Marketing Company in Dubai That Turn Emails Into Revenue</h2>
+                    <h2 class="premium-perf-title">Email Marketing Agency in Dubai, Turning Emails Into Revenue</h2>
                     <ul class="premium-perf-list">
-                        <li>Email marketing has moved beyond basic campaigns. It is about building systems that guide users from first touch to repeat purchase. The most effective email marketing strategies focus on nurturing relationships instead of simply sending promotional messages.</li>
-                        <li>BrandStory builds performance-driven email campaigns designed to improve conversions at every stage of the customer journey. As a trusted email marketing agency in Dubai, we combine audience segmentation, behavioral insights and strategic messaging to create campaigns that deliver measurable results.</li>
-                        <li>From abandoned cart recovery and promotional flows to lifecycle automation and re-engagement campaigns, BrandStory creates email marketing campaigns that continuously nurture engagement, retention and increase revenue growth.</li>
+                        <li>Email marketing success relies on reaching out to the right audience and crafting messages that drive immediate action. At BrandStory, we are the top-performing email marketing agency in Dubai ensuring every campaign targets the right people with the right message at the right time.</li>
+                        <li>Our email marketing services in Dubai are designed to support your complete customer journey, from lead nurturing and brand awareness to customer retention and sales. We create customized email campaigns with engaging content, designs, and conversion strategies that are fully optimized for mobile and desktop.</li>
+                        <li>By continuously monitoring open rates, click-through rates, and campaign performance, we refine your strategy to deliver improvements and ROI. As a trusted Dubai email marketing company, BrandStory works as a strategic partner for businesses looking to maximize their digital communication impact. </li>
                     </ul>
                     <div class="premium-perf-action">
                         <a href="/about/" class="premium-perf-btn">Know About Us</a>
@@ -59,11 +59,11 @@
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Why Dubai Businesses Choose Strategic Email Marketing</h2>
+                    <h2 class="text-white pb-3">We Deliver Targeted Email Marketing Solutions</h2>
                     <ul class="premium-perf-list">
-                        <li>Many businesses struggle with email marketing because campaigns are treated as isolated sends instead of connected systems. BrandStory builds structured email journeys that align with customer behavior, intent, and timing.</li>
-                        <li>We help Dubai brands move beyond generic newsletters and one-time promotions. Our strategies improve engagement quality, strengthen retention, and create consistent conversion opportunities. The result is email marketing that performs long after the first send.</li>
-                        <li class="pb-0 mb-0">By combining strategy, automation, and personalization, we turn email into a scalable growth channel. Businesses that partner with our email marketing agency in Dubai see higher customer lifetime value and lower acquisition costs through smarter retention.</li>
+                        <li>BrandStory is not a regular email marketing agency in Dubai. We work as your strategic growth partner with full-stack digital marketing services. With a 100+ team of dedicated experts with years of expertise in email marketing. Our biggest advantage is understanding about Dubai’s market and commitment to deliver the best results.</li>
+                        <li>Our team studies your business, audience, and objectives to create personalized email campaigns that build stronger connections. Our email marketing services include strategy development, campaign creation, automation, content writing, and performance analysis. From compelling messaging to optimized calls-to-action, we create campaigns designed to improve engagement and generate conversions.</li>
+                        <li class="pb-0 mb-0">We work specifically with Dubai and UAE-based businesses: Arabic-English bilingual campaigns, Ramadan and seasonal timing strategies, and compliance with UAE data regulations.</li>
                     </ul>
                 </div>
             </div>
@@ -691,188 +691,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-<!-- Process Flow Section -->
-<section class="premium-process-section sp-80">
-    <div class="container">
-        <h2 class="premium-process-title text-left text-white mb-5">Our Email Marketing Process Flow</h2>
-        
-        <!-- Timeline Steps Navigation -->
-        <div class="process-timeline-container">
-            <div class="process-timeline-line-bg"></div>
-            <div class="process-timeline-line-active"></div>
-            <div class="process-timeline-steps">
-                <div class="process-step-node active" data-step="1">
-                    <span class="step-number">1</span>
-                </div>
-                <div class="process-step-node" data-step="2">
-                    <span class="step-number">2</span>
-                </div>
-                <div class="process-step-node" data-step="3">
-                    <span class="step-number">3</span>
-                </div>
-                <div class="process-step-node" data-step="4">
-                    <span class="step-number">4</span>
-                </div>
-                <div class="process-step-node" data-step="5">
-                    <span class="step-number">5</span>
-                </div>
-                <div class="process-step-node" data-step="6">
-                    <span class="step-number">6</span>
-                </div>
-                <div class="process-step-node" data-step="7">
-                    <span class="step-number">7</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Content Container -->
-        <div class="process-content-container row align-items-center mt-5">
-            <!-- Left Side: Large Active Step Name -->
-            <div class="col-lg-5">
-                <h3 class="process-step-heading text-white" id="active-step-title">Strategy</h3>
-            </div>
-            <!-- Right Side: Dark Card Content -->
-            <div class="col-lg-7 mt-4 mt-lg-0">
-                <div class="process-details-card">
-                    <div id="process-step-content-area">
-                        <!-- Content will be swapped via JS -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const stepsData = {
-        1: {
-            title: "Strategy",
-            items: [
-                {
-                    title: "Strategy & Objective Planning",
-                    desc: "Every campaign begins with clarity on what needs to be achieved. We define business-aligned goals across awareness, engagement, conversion and retention. This ensures every email has a clear purpose and contributes directly to measurable growth instead of random communication."
-                }
-            ]
-        },
-        2: {
-            title: "Audit & Audience Segmentation",
-            items: [
-                {
-                    title: "Mailing List Building",
-                    desc: "We review your existing customer database to understand quality, activity levels and engagement patterns. This helps clean, structure and segment audiences based on real behavior such as clicks, purchases and interactions. The result is sharper targeting and higher relevance in every message."
-                }
-            ]
-        },
-        3: {
-            title: "Message & Content Structuring",
-            items: [
-                {
-                    title: "Responsive Template Design",
-                    desc: "We craft email content based on customer intent at different stages of their journey. The focus stays on clarity, timing and value. Every message is designed to guide attention naturally, build trust and encourage action without feeling forced or overly sales-driven."
-                }
-            ]
-        },
-        4: {
-            title: "Setup Campaigns",
-            items: [
-                {
-                    title: "Email & Template Creation",
-                    desc: "We design clean, conversion-focused email layouts that improve readability and flow. Each section is structured to highlight key messages and guide users toward action points. The design ensures impact without distraction, keeping attention exactly where it matters most."
-                }
-            ]
-        },
-        5: {
-            title: "Campaign Setup & Automation",
-            items: [
-                {
-                    title: "Campaign Management",
-                    desc: "We configure and launch campaigns with the right triggers, timing and audience mapping. This includes automated journeys such as onboarding, nurturing, re-engagement and recovery flows. These systems run continuously to ensure consistent communication and long term customer lifecycle value."
-                }
-            ]
-        },
-        6: {
-            title: "Performance Reporting",
-            items: [
-                {
-                    title: "Monitoring & Performance Optimization",
-                    desc: "Once campaigns go live, we track engagement behavior in real time. Open rates, click patterns and user responses are analyzed to identify what is working and what needs improvement. We continuously refine subject lines, messaging and delivery performance for stronger outcomes."
-                }
-            ]
-        },
-        7: {
-            title: "Analysis & Reporting",
-            items: [
-                {
-                    title: "Analysis & Growth Insights",
-                    desc: "We convert campaign data into clear performance insights that show what drives conversions and revenue. Every report helps refine strategy, improve targeting and strengthen future campaigns. This creates a cycle of constant improvement and scalable email performance."
-                }
-            ]
-        }
-    };
-
-    const stepNodes = document.querySelectorAll('.process-step-node');
-    const activeLine = document.querySelector('.process-timeline-line-active');
-    const titleElement = document.getElementById('active-step-title');
-    const contentArea = document.getElementById('process-step-content-area');
-
-    function updateStep(stepIndex) {
-        // Update nodes states
-        stepNodes.forEach(node => {
-            const nodeStep = parseInt(node.getAttribute('data-step'));
-            if (nodeStep <= stepIndex) {
-                node.classList.add('active');
-            } else {
-                node.classList.remove('active');
-            }
-        });
-
-        // Update active line progress
-        if (activeLine && stepNodes.length > 0) {
-            const firstNode = stepNodes[0];
-            const activeNode = stepNodes[stepIndex - 1];
-            if (firstNode && activeNode) {
-                const firstCenter = firstNode.offsetLeft + (firstNode.offsetWidth / 2);
-                const activeCenter = activeNode.offsetLeft + (activeNode.offsetWidth / 2);
-                activeLine.style.left = firstCenter + 'px';
-                activeLine.style.width = (activeCenter - firstCenter) + 'px';
-            }
-        }
-
-        // Update content
-        const stepData = stepsData[stepIndex];
-        if (stepData) {
-            if (titleElement) {
-                titleElement.textContent = stepData.title;
-            }
-            
-            let htmlContent = '';
-            stepData.items.forEach(item => {
-                htmlContent += `
-                    <div class="process-card-item mb-4">
-                        <h4 class="text-white font-weight-bold mb-2">${item.title}</h4>
-                        <p class="process-card-desc mb-0">${item.desc}</p>
-                    </div>
-                `;
-            });
-            if (contentArea) {
-                contentArea.innerHTML = htmlContent;
-            }
-        }
-    }
-
-    // Add click listeners
-    stepNodes.forEach(node => {
-        node.addEventListener('click', function() {
-            const stepIndex = parseInt(this.getAttribute('data-step'));
-            updateStep(stepIndex);
-        });
-    });
-
-    // Initialize first step
-    updateStep(1);
-});
-</script>
 
 <!-- Benefits of Email Marketing Companies section -->
 <section class="performance-results-section sp-50 pm-results-image-wrap">
@@ -881,18 +699,15 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Benefits of Email Marketing for Dubai Businesses</h2>
-                    <p>Email marketing helps businesses stay connected with customers through direct and personalized communication. It improves engagement, supports customer retention and creates stronger opportunities. With the right strategy, businesses can build long term relationships while maintaining consistent brand visibility.</p>
+                    <h2 class="text-white pb-3">Why Choose BrandStory for Email Marketing Services?</h2>
+                    <p>At BrandStory, we have the top-level expertise in email marketing in Dubai. Here are some reasons that make us among the best agencies for email marketing:</p>
                     <ul class="premium-perf-list">
-                        <li>Improves customer engagement and brand recall</li>
-                        <li>Supports lead generation and conversion growth</li>
-                        <li>Enables smarter audience targeting and segmentation</li>
-                        <li>Increases website visits and customer interaction</li>
-                        <li>Reduces customer acquisition and marketing costs</li>
-                        <li>Strengthens retention through automated campaigns</li>
-                        <li>Provides measurable campaign performance insights</li>
+                        <li><b>Focused Strategies:</b> Connect with the right audience through data-driven email campaigns designed around your business goals, customer interests, and buying behaviour.</li>
+                        <li><b>Smart Email Automation:</b> Streamline your communication with smart automation workflows that deliver timely, personalized messages and nurture customer relationships.</li>
+                        <li><b>High-Impact Content:</b> Create a stronger impact with professionally crafted email content, compelling designs, and clear messaging that encourages audience action.</li>
+                        <li><b>1.5M+ Verified Email Contacts:</b> Expand your reach with access to a 1.5 million+ verified email contact database, helping businesses run targeted email marketing campaigns.</li>
                     </ul>
-                    <p >As one of the top-performing email marketing agencies in Dubai, we are here to help you find answers and keep you on track, thus helping you in building brand credibility.</p>
+                    <p>While most agencies blast emails, we build revenue-generating email ecosystems for Dubai businesses.</p>
                 </div>
             </div>
             <!-- Right Side: Image -->
@@ -915,7 +730,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6">
                 <div class="why-invest-content">
                     <h2 class="why-invest-title text-white">Why Email Marketing Still Matters in 2026</h2>
-                    <p class="why-invest-subtitle">Email marketing remains one of the most reliable digital marketing channels for business growth. It allows brands to communicate with customers in a more focused and personalized way while improving engagement quality. With automation and performance tracking, businesses can build scalable communication systems that support long term growth.</p>
+                    <p class="why-invest-subtitle">Email marketing remains one of the most reliable digital marketing channels for business growth. It allows brands to communicate with customers in a more focused and personalized way while improving engagement quality.</p>
                     
                     <div class="why-invest-card">
                         <ul class="why-invest-list">
@@ -924,7 +739,6 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li>Improves customer retention and repeat purchases</li>
                             <li>Delivers strong ROI compared to other channels</li>
                             <li>Supports automated and consistent engagement</li>
-                            <li>Strengthens customer trust and brand credibility</li>
                         </ul>
                     </div>
                     
@@ -1039,42 +853,204 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>-->
 
-<!-- Why Choose BrandStory for Email Marketing in Dubai section -->
-<section class="brandstory-choose-us-section">
+<section class="premium-cs-section">
     <div class="container">
-        <h2 class="section-title">Why Choose BrandStory for Email Marketing in Dubai</h2>
-        <p class="section-subtitle">Email marketing delivers real impact only when strategy, execution and customer understanding work together as a unified system. In a competitive market like Dubai, businesses need more than basic campaigns- they need structured email frameworks that drive engagement, conversions and long term customer value. BrandStory builds performance-led email systems designed to turn communication into consistent growth.</p>
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
         
-        <div class="row g-4">
-            <!-- Box 1: Built Around Your Goals -->
-            <div class="col-lg-4 col-md-6">
-                <div class="choose-card">
-                    <div class="choose-card-img-wrap">
-                        <img src="<?= base_url('assets/images/email-06.webp') ?>" class="choose-card-img img-fluid" alt="Built Around Your Goals">
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                        </div>
                     </div>
-                    <h3 class="choose-card-title">Built Around Your Goals</h3>
-                    <p class="choose-card-desc">We start with clarity on business outcomes instead of predefined templates or fixed workflows. Every email strategy is built after understanding your customer journey, sales cycle and growth gaps. This ensures each campaign is aligned with measurable results and not just engagement activity.</p>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Box 2: Guaranteed Results -->
-            <div class="col-lg-4 col-md-6">
-                <div class="choose-card">
-                    <div class="choose-card-img-wrap">
-                        <img src="<?= base_url('assets/images/email-07.webp') ?>" class="choose-card-img img-fluid" alt="Guaranteed Results">
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
+                        </div>
                     </div>
-                    <h3 class="choose-card-title">Guaranteed Results</h3>
-                    <p class="choose-card-desc">We focus on transparent execution and measurable outcomes across every stage of email marketing. From campaign setup to performance tracking, everything is monitored and optimized for better results. This ensures email becomes a predictable revenue channel backed by data and continuous improvement.</p>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Box 3: Dubai Market Expertise -->
-            <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="choose-card">
-                    <div class="choose-card-img-wrap">
-                        <img src="<?= base_url('assets/images/email-08.webp') ?>" class="choose-card-img img-fluid" alt="Dubai Market Expertise">
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
+                        </div>
                     </div>
-                    <h3 class="choose-card-title">Dubai Market Expertise</h3>
-                    <p class="choose-card-desc">We design email strategies that reflect real audience behavior in the Dubai market. This includes understanding timing, engagement patterns and cultural relevance to improve response rates. The result is communication that feels local, relevant and more effective in driving action.</p>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged</div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations. BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
+
+<!-- Custom Stats Banner Section -->
+<section class="premium-stats-banner-section">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <!-- Left Side: Image of two people standing back-to-back -->
+            <div class="col-lg-5 col-md-12">
+                <div class="premium-stats-banner-img-wrap">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+                </div>
+            </div>
+            <!-- Right Side: Statistics Content -->
+            <div class="col-lg-7 col-md-12">
+                <div class="premium-stats-banner-content pb-5 pb-lg-0">
+                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
+                    <div class="premium-stats-banner-main">
+                        <div class="premium-stats-banner-num">1000+</div>
+                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
+                    </div>
+                    <div class="premium-stats-banner-action">
+                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
+                            <span>Contact Us</span>
+                            <span class="btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="premium-stats-section">
+    <div class="container">
+        <div class="premium-stats-row">
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">1000+</div>
+                <div class="premium-stat-label">Campaigns Executed</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">900+</div>
+                <div class="premium-stat-label">Satisfied Clients</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">12+</div>
+                <div class="premium-stat-label">Years of Expertise</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">100+</div>
+                <div class="premium-stat-label">Expert Professionals</div>
             </div>
         </div>
     </div>
@@ -1308,67 +1284,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<!-- Custom Stats Banner Section -->
-<section class="premium-stats-banner-section">
-    <div class="container">
-        <div class="row align-items-stretch">
-            <!-- Left Side: Image of two people standing back-to-back -->
-            <div class="col-lg-5 col-md-12">
-                <div class="premium-stats-banner-img-wrap">
-                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
-                </div>
-            </div>
-            <!-- Right Side: Statistics Content -->
-            <div class="col-lg-7 col-md-12">
-                <div class="premium-stats-banner-content pb-5 pb-lg-0">
-                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
-                    <div class="premium-stats-banner-main">
-                        <div class="premium-stats-banner-num">1000+</div>
-                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
-                    </div>
-                    <div class="premium-stats-banner-action">
-                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
-                            <span>Contact Us</span>
-                            <span class="btn-arrow-circle">
-                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="premium-stats-section">
-    <div class="container">
-        <div class="premium-stats-row">
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">1000+</div>
-                <div class="premium-stat-label">Campaigns Executed</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">900+</div>
-                <div class="premium-stat-label">Satisfied Clients</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">12+</div>
-                <div class="premium-stat-label">Years of Expertise</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">100+</div>
-                <div class="premium-stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="new-client-section">
-    <div class="container">
-        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
-    </div>
-</section>
+
 <section class="dm-faq-section spb-50">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
