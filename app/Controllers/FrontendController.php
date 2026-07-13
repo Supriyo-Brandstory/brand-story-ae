@@ -386,7 +386,7 @@ class FrontendController extends Controller
     public function tiktokMarketingDubai()
     {
         $meta = [
-            'classname' => 'em-dubai-page service-pages'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/tiktok-marketing-agency-in-dubai', ['meta' => $meta]);
     }

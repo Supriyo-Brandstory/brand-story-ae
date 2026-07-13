@@ -4093,3 +4093,160 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         margin-top: 25px;
     }
 }
+
+.premium-industries-section.t {
+    .premium-industry-card {
+        height: 330px;
+    }
+
+    .premium-industry-card .industry-card-title {
+        top: 40px;
+    }
+
+    .premium-industry-card:hover .industry-card-title {
+        top: 100px;
+    }
+
+}
+
+/* =============================================
+   TikTok Disadvantages Image Gallery Section
+   ============================================= */
+
+.tik-img-gallery-section {
+    padding: 60px 0;
+    background-color: #0f0f10;
+}
+
+.tik-img-gallery-title {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.tik-img-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 260px;
+    display: block;
+}
+
+.tik-img-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.tik-img-card:hover .tik-img-card-img {
+    transform: scale(1.05);
+}
+
+.tik-img-card-label {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(128.37% 128.37% at 50.11% -17.66%, #855BFF 0%, rgba(80, 55, 153, 0.5) 100%);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 22px;
+    border-radius: 5px;
+    white-space: nowrap;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    transition: background 0.3s ease;
+}
+
+.tik-img-card:hover .tik-img-card-label {
+    background: rgba(133, 91, 255, 1);
+}
+
+@media (max-width: 991px) {
+    .tik-img-gallery-section {
+        padding: 40px 0;
+    }
+
+
+    .tik-img-card {
+        height: 220px;
+    }
+}
+
+/* =============================================
+   TikTok Hashtag Growth / Features Section
+   ============================================= */
+
+.tik-hashtag-section {
+    padding-bottom: 50px;
+}
+
+.tik-sub-heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.tik-features-row {
+    margin-top: 44px;
+    padding-top: 32px;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.08); */
+}
+
+.tik-features-label {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.tik-features-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tik-feature-tag {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 100px;
+    border: 1px solid #FFFFFF33;
+    background: #FFFFFF1A;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    cursor: default;
+}
+
+.tik-feature-tag:hover {
+    background: rgba(133, 91, 255, 0.22);
+    border-color: rgba(133, 91, 255, 0.7);
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .tik-sub-heading {
+        font-size: 19px;
+    }
+
+    .tik-features-label {
+        font-size: 16px;
+    }
+
+    .tik-feature-tag {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    .premium-industries-section.t {
+        .premium-industry-card {
+            height: max-content;
+        }
+    }
+
+}
