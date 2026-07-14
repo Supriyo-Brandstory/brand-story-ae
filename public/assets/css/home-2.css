@@ -4250,3 +4250,2106 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     }
 
 }
+
+/* AI SEO Agency Mumbai Page Custom CSS */
+.mumbai-seo-hero {
+    background: radial-gradient(circle at 80% 20%, #15112e 0%, #07060f 65%);
+    padding: 120px 0;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.mumbai-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-title {
+    font-family: inherit;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
+
+.mumbai-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 20px;
+    font-family: inherit;
+}
+
+.mumbai-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.mumbai-btn-primary {
+    background: #855BFF;
+    color: #ffffff !important;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    border: none;
+}
+
+.mumbai-btn-primary:hover {
+    background: #7345f0;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(133, 91, 255, 0.3);
+}
+
+.mumbai-btn-outline {
+    background: transparent;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.mumbai-btn-outline:hover {
+    border-color: #855BFF;
+    background: rgba(133, 91, 255, 0.08);
+    transform: translateY(-2px);
+}
+
+.mumbai-badges-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 25px;
+    margin-top: 40px;
+}
+
+.mumbai-badge {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+.mumbai-checkmark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    color: #07060f;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    flex-shrink: 0;
+}
+
+.mumbai-checkmark svg {
+    stroke-width: 4px;
+}
+
+/* Card Styling */
+.mumbai-card-container {
+    padding-left: 20px;
+}
+
+.mumbai-card {
+    background: rgba(15, 13, 28, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+}
+
+.mumbai-card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.mumbai-card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 35px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mumbai-card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 18px 24px;
+    border-radius: 14px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.mumbai-card-item:hover {
+    background: rgba(133, 91, 255, 0.06);
+    border-color: rgba(133, 91, 255, 0.25);
+    transform: translateX(4px);
+}
+
+.mumbai-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #855BFF;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #855BFF, 0 0 20px #855BFF;
+    flex-shrink: 0;
+}
+
+.mumbai-card-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.08);
+    padding-top: 30px;
+}
+
+@media (max-width: 991px) {
+    .mumbai-seo-hero {
+        padding: 80px 0;
+    }
+    
+    .mumbai-card-container {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    
+    .mumbai-card {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .mumbai-btns {
+        flex-direction: column;
+    }
+    
+    .mumbai-btn-primary, .mumbai-btn-outline {
+        width: 100%;
+    }
+}
+
+/* Why Choose Brandstory Section */
+.mumbai-choose-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.mumbai-choose-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-choose-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-choose-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+.mumbai-glance-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mumbai-glance-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.mumbai-glance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mumbai-glance-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+    background: rgba(255, 255, 255, 0.01);
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mumbai-glance-item:nth-child(2n) {
+    border-right: none;
+}
+
+.mumbai-glance-item:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+
+.mumbai-glance-num {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-weight: 700;
+    background: rgba(133, 91, 255, 0.1);
+    border: 1px solid rgba(133, 91, 255, 0.2);
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.mumbai-glance-text strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Feature grid (6 items) */
+.mumbai-features-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.mumbai-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+}
+
+.mumbai-feature-item {
+    padding: 45px 35px;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
+}
+
+.mumbai-feature-item:nth-child(3n) {
+    border-right: none;
+}
+
+.mumbai-feature-item:nth-last-child(-n+3) {
+    border-bottom: none;
+}
+
+.mumbai-feature-item.highlight {
+    background: rgba(133, 91, 255, 0.1);
+}
+
+.mumbai-feature-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mumbai-feature-desc {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* View More Button */
+.mumbai-view-more-container {
+    margin-top: 40px;
+}
+
+.mumbai-btn-view-more {
+    background: transparent;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.mumbai-btn-view-more:hover {
+    border-color: #855BFF;
+    background: rgba(133, 91, 255, 0.08);
+}
+
+@media (max-width: 991px) {
+    .mumbai-choose-section {
+        padding: 70px 0;
+    }
+    .mumbai-glance-grid {
+        grid-template-columns: 1fr;
+    }
+    .mumbai-glance-item {
+        border-right: none !important;
+    }
+    .mumbai-glance-item:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .mumbai-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mumbai-feature-item:nth-child(2n) {
+        border-right: none;
+    }
+    .mumbai-feature-item:nth-child(3) {
+        border-right: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .mumbai-feature-item:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+    .mumbai-feature-item {
+        padding: 30px 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mumbai-features-grid {
+        grid-template-columns: 1fr;
+    }
+    .mumbai-feature-item {
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    .mumbai-feature-item:last-child {
+        border-bottom: none !important;
+    }
+}
+
+/* Proven Track Record Section */
+.mumbai-track-section {
+    background: #07060f;
+    padding: 100px 0 0 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-track-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-track-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-track-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-track-highlight {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.mumbai-track-highlight-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.mumbai-track-highlight-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Right-side Card */
+.mumbai-track-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.mumbai-track-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.mumbai-track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-track-item:last-child {
+    border-bottom: none;
+}
+
+.mumbai-track-label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 500;
+}
+
+.mumbai-track-val {
+    font-size: 24px;
+    font-weight: 700;
+    color: #855BFF;
+}
+
+/* Horizontal Stats Bar */
+.mumbai-stats-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 80px;
+    background: rgba(15, 13, 28, 0.2);
+}
+
+.mumbai-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+}
+
+.mumbai-stat-box {
+    padding: 40px 20px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-stat-box:last-child {
+    border-right: none;
+}
+
+.mumbai-stat-val {
+    font-size: 40px;
+    font-weight: 700;
+    color: #855BFF;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.mumbai-stat-lbl {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+    .mumbai-stat-val {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mumbai-track-section {
+        padding: 70px 0 0 0;
+    }
+    
+    .mumbai-track-card {
+        margin-top: 40px;
+    }
+    
+    .mumbai-stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .mumbai-stat-box:nth-child(3n) {
+        border-right: none;
+    }
+    
+    .mumbai-stat-box:nth-child(-n+3) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+}
+
+@media (max-width: 575px) {
+    .mumbai-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .mumbai-stat-box {
+        border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    
+    .mumbai-stat-box:nth-child(2n) {
+        border-right: none !important;
+    }
+    
+    .mumbai-stat-box:nth-child(-n+4) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+}
+
+/* Challenges We Solve Section */
+.mumbai-challenges-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-challenges-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-challenges-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-challenges-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-challenges-right {
+    padding-left: 30px;
+}
+
+.mumbai-challenges-card-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mumbai-challenges-table-list {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 30px;
+}
+
+.mumbai-challenges-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    gap: 20px;
+}
+
+.mumbai-challenges-row-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.mumbai-challenges-row-title::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 1px;
+    background-color: #855BFF;
+}
+
+.mumbai-challenges-row-desc {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: right;
+    max-width: 60%;
+}
+
+.mumbai-why-matters {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.mumbai-why-matters-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-why-matters-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+    .mumbai-challenges-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-challenges-right {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    
+    .mumbai-challenges-table-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .mumbai-challenges-row-desc {
+        text-align: left;
+        max-width: 100%;
+    }
+}
+
+/* Our Innovative Solutions & Framework Section */
+.mumbai-solution-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-solution-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-solution-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-solution-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-framework-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Framework Card */
+.mumbai-framework-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 50px 40px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.mumbai-framework-card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1.5px;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.mumbai-framework-steps-container {
+    position: relative;
+    width: 100%;
+}
+
+.mumbai-framework-line {
+    position: absolute;
+    top: 25px;
+    left: 8%;
+    right: 8%;
+    height: 1px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+    z-index: 1;
+}
+
+.mumbai-framework-steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.mumbai-framework-step {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.mumbai-step-num-box {
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid rgba(133, 91, 255, 0.5);
+    border-radius: 12px;
+    background: #0f0d1c;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.mumbai-framework-step:hover .mumbai-step-num-box {
+    border-color: #855BFF;
+    background: #855BFF;
+    box-shadow: 0 0 15px rgba(133, 91, 255, 0.4);
+}
+
+.mumbai-step-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.mumbai-step-subtitle {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* Phase details list */
+.mumbai-phase-details {
+    margin-top: 50px;
+}
+
+.mumbai-detail-phase {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-detail-phase:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-phase-number-col {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mumbai-phase-number {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #855BFF;
+    font-family: inherit;
+}
+
+.mumbai-phase-content-col {
+    flex: 0 0 75%;
+    padding-left: 40px;
+}
+
+.mumbai-detail-phase.reverse {
+    flex-direction: row-reverse;
+}
+
+.mumbai-detail-phase.reverse .mumbai-phase-content-col {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.mumbai-phase-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-phase-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 15px;
+}
+
+.mumbai-phase-footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+}
+
+@media (max-width: 1199px) {
+    .mumbai-framework-line {
+        display: none;
+    }
+    
+    .mumbai-framework-steps {
+        flex-wrap: wrap;
+        gap: 30px 10px;
+    }
+    
+    .mumbai-framework-step {
+        flex: 0 0 30%;
+    }
+}
+
+@media (max-width: 991px) {
+    .mumbai-solution-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-framework-card {
+        padding: 40px 20px;
+    }
+    
+    .mumbai-detail-phase, .mumbai-detail-phase.reverse {
+        flex-direction: column !important;
+        align-items: flex-start;
+        padding: 40px 0;
+    }
+    
+    .mumbai-phase-number-col {
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+    
+    .mumbai-phase-number {
+        font-size: 60px;
+    }
+    
+    .mumbai-phase-content-col {
+        flex: 0 0 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .mumbai-framework-step {
+        flex: 0 0 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mumbai-framework-step {
+        flex: 0 0 100%;
+    }
+}
+
+/* What Sets Us Apart & Battle Card Section */
+.mumbai-apart-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-apart-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-apart-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-apart-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+/* Battle Card */
+.mumbai-battle-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mumbai-battle-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.mumbai-battle-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-battle-hdr-left {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 600;
+    width: 50%;
+}
+
+.mumbai-battle-hdr-right {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    font-weight: 600;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.mumbai-battle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-battle-row:last-child {
+    border-bottom: none;
+}
+
+.mumbai-battle-col-left {
+    width: 50%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.mumbai-battle-col-right {
+    width: 50%;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.mumbai-battle-winner {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .mumbai-apart-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-battle-card {
+        padding: 25px 20px;
+    }
+    
+    .mumbai-battle-header {
+        display: none; /* Hide side-by-side header on mobile to stack */
+    }
+    
+    .mumbai-battle-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px 0;
+    }
+    
+    .mumbai-battle-col-left, .mumbai-battle-col-right {
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .mumbai-battle-col-left {
+        font-size: 14px;
+        text-decoration: line-through;
+        opacity: 0.6;
+    }
+}
+
+/* Our Comprehensive Services Section */
+.mumbai-services-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-services-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-services-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-services-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-services-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Service Card Grid */
+.mumbai-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.mumbai-service-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 40px 30px;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.mumbai-service-card:hover {
+    border-color: rgba(133, 91, 255, 0.35);
+    background: rgba(133, 91, 255, 0.04);
+    transform: translateY(-5px);
+}
+
+.mumbai-service-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-service-card-desc {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+    .mumbai-services-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mumbai-services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Why Choose Us Section */
+.mumbai-choose-us-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-choose-us-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-choose-us-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-choose-us-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-choose-us-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.mumbai-choose-us-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.mumbai-choose-us-row {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-choose-us-row:last-child {
+    border-bottom: none;
+}
+
+.mumbai-choose-us-num {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #855BFF;
+    flex: 0 0 15%;
+    font-family: inherit;
+}
+
+.mumbai-choose-us-content {
+    flex: 0 0 85%;
+    padding-left: 20px;
+}
+
+.mumbai-choose-us-item-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-choose-us-item-desc {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.65;
+}
+
+@media (max-width: 991px) {
+    .mumbai-choose-us-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-choose-us-row {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0;
+    }
+    
+    .mumbai-choose-us-num {
+        flex: 0 0 100%;
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .mumbai-choose-us-content {
+        flex: 0 0 100%;
+        padding-left: 0;
+    }
+}
+
+/* Our Process Timeline Section */
+.mumbai-process-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-process-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-process-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-process-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-process-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Timeline/Stepper Styles */
+.mumbai-timeline {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 60px;
+}
+
+.mumbai-timeline-line {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 20px;
+    width: 1px;
+    border-left: 1px dashed rgba(133, 91, 255, 0.3);
+}
+
+.mumbai-timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.mumbai-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.mumbai-timeline-circle {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid rgba(133, 91, 255, 0.5);
+    border-radius: 50%;
+    background: #07060f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.mumbai-timeline-item:hover .mumbai-timeline-circle {
+    border-color: #855BFF;
+    background: #855BFF;
+    box-shadow: 0 0 12px rgba(133, 91, 255, 0.5);
+}
+
+.mumbai-timeline-content {
+    padding-top: 6px;
+}
+
+.mumbai-timeline-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-timeline-desc {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.65;
+}
+
+@media (max-width: 991px) {
+    .mumbai-process-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-timeline {
+        padding-left: 50px;
+    }
+    
+    .mumbai-timeline-line {
+        left: 15px;
+    }
+    
+    .mumbai-timeline-circle {
+        left: -50px;
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+}
+
+/* Our Results & Success Stories Section */
+.mumbai-results-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-results-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-results-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-results-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+/* Before vs After Card */
+.mumbai-compare-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.mumbai-compare-grid {
+    display: flex;
+}
+
+.mumbai-compare-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mumbai-compare-col.left {
+    padding-right: 40px;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-compare-col.right {
+    padding-left: 40px;
+}
+
+.mumbai-compare-col-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.mumbai-compare-col.left .mumbai-compare-col-title {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.mumbai-compare-col.right .mumbai-compare-col-title {
+    color: #855BFF;
+}
+
+.mumbai-compare-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-compare-row:last-child {
+    border-bottom: none;
+}
+
+.mumbai-compare-label {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mumbai-compare-val {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.mumbai-compare-col.left .mumbai-compare-val {
+    color: #ffffff;
+}
+
+.mumbai-compare-col.right .mumbai-compare-val {
+    color: #855BFF;
+}
+
+/* Growth At A Glance */
+.mumbai-growth-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.mumbai-growth-card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1.5px;
+    display: block;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.mumbai-growth-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.mumbai-growth-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SVG Circular Progress styling */
+.mumbai-circle-wrap {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mumbai-circle-svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.mumbai-circle-bg {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.04);
+    stroke-width: 4px;
+}
+
+.mumbai-circle-stroke {
+    fill: none;
+    stroke: #855BFF;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.mumbai-circle-val {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.mumbai-growth-lbl {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.4;
+    max-width: 80%;
+}
+
+/* Testimonial Snapshot styling */
+.mumbai-snapshot-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.mumbai-testimonial-box {
+    background: rgba(133, 91, 255, 0.03);
+    border-left: 3px solid #855BFF;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.mumbai-testimonial-quote {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 15px;
+}
+
+.mumbai-testimonial-author {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 991px) {
+    .mumbai-results-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-compare-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .mumbai-compare-col {
+        width: 100%;
+        padding: 0 !important;
+    }
+    
+    .mumbai-compare-col.left {
+        border-right: none;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+        padding-bottom: 40px !important;
+    }
+    
+    .mumbai-growth-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+}
+
+/* Our Industries We Serve Section */
+.mumbai-industries-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-industries-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-industries-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-industries-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-industries-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Industry Card Grid (4 columns) */
+.mumbai-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.mumbai-industry-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 35px 25px;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.mumbai-industry-card:hover {
+    border-color: rgba(133, 91, 255, 0.25);
+    background: rgba(133, 91, 255, 0.03);
+    transform: translateY(-5px);
+}
+
+.mumbai-industry-card.highlight {
+    border-color: rgba(133, 91, 255, 0.6);
+    background: rgba(133, 91, 255, 0.05);
+}
+
+.mumbai-industry-card.highlight:hover {
+    border-color: #855BFF;
+    box-shadow: 0 0 15px rgba(133, 91, 255, 0.25);
+}
+
+.mumbai-industry-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-industry-card-desc {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+}
+
+@media (max-width: 1199px) {
+    .mumbai-industries-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .mumbai-industries-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .mumbai-industries-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Our Technology Stack Section */
+.mumbai-tech-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-tech-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-tech-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-tech-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-tech-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Orbit Diagram Card */
+.mumbai-orbit-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 60px 40px;
+    margin-bottom: 80px;
+}
+
+.mumbai-orbit-container {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.mumbai-orbit-track {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 380px;
+    height: 380px;
+    border: 1px dashed rgba(133, 91, 255, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mumbai-orbit-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #251b4f 0%, #0f0d1c 100%);
+    border: 1px solid rgba(133, 91, 255, 0.4);
+    box-shadow: 0 0 30px rgba(133, 91, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 3;
+}
+
+.mumbai-orbit-center span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.mumbai-orbit-node {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.mumbai-node-dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #0f0d1c;
+    border: 1px solid rgba(133, 91, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.mumbai-node-dot::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #855BFF;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #855BFF;
+}
+
+.mumbai-orbit-node:hover .mumbai-node-dot {
+    border-color: #855BFF;
+    background: #855BFF;
+    box-shadow: 0 0 15px rgba(133, 91, 255, 0.6);
+}
+
+.mumbai-node-label {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* Card positions along the circular orbit path */
+.mumbai-node-1 { top: 50px; left: 240px; } /* 12 o'clock */
+.mumbai-node-2 { top: 100px; left: 375px; } /* ~2 o'clock */
+.mumbai-node-3 { top: 240px; left: 430px; } /* 3 o'clock */
+.mumbai-node-4 { top: 380px; left: 375px; } /* ~4 o'clock */
+.mumbai-node-5 { top: 380px; left: 105px; } /* ~8 o'clock */
+.mumbai-node-6 { top: 240px; left: 50px; }  /* 9 o'clock */
+.mumbai-node-7 { top: 100px; left: 105px; }  /* ~10 o'clock */
+
+
+/* Tech Grid Styling */
+.mumbai-tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.mumbai-tech-card {
+    background: rgba(15, 13, 28, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 35px 25px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.mumbai-tech-card:hover {
+    border-color: rgba(133, 91, 255, 0.25);
+    background: rgba(133, 91, 255, 0.03);
+    transform: translateY(-5px);
+}
+
+.mumbai-tech-card-bullet {
+    width: 6px;
+    height: 6px;
+    background-color: #855BFF;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px #855BFF;
+}
+
+.mumbai-tech-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-tech-card-desc {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+}
+
+@media (max-width: 1199px) {
+    .mumbai-tech-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .mumbai-tech-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-orbit-card {
+        padding: 40px 10px;
+        overflow-x: auto;
+    }
+    
+    .mumbai-tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .mumbai-tech-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* The Benefits of Partnering with Us Section */
+.mumbai-benefits-section {
+    background: #07060f;
+    padding: 100px 0;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mumbai-benefits-subhead {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mumbai-benefits-title {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.mumbai-benefits-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+.mumbai-benefits-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #855BFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.mumbai-benefits-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.mumbai-benefits-row {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mumbai-benefits-row:last-child {
+    border-bottom: none;
+}
+
+.mumbai-benefits-num {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #855BFF;
+    flex: 0 0 15%;
+    font-family: inherit;
+}
+
+.mumbai-benefits-content {
+    flex: 0 0 85%;
+    padding-left: 20px;
+}
+
+.mumbai-benefits-item-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.mumbai-benefits-item-desc {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.65;
+}
+
+@media (max-width: 991px) {
+    .mumbai-benefits-section {
+        padding: 70px 0;
+    }
+    
+    .mumbai-benefits-row {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0;
+    }
+    
+    .mumbai-benefits-num {
+        flex: 0 0 100%;
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .mumbai-benefits-content {
+        flex: 0 0 100%;
+        padding-left: 0;
+    }
+}

@@ -240,8 +240,17 @@ class FrontendController extends Controller
     }
     public function seoServicesCompanyDubai()
     {
-        $meta = [];
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
         return $this->view('services/seo-services-company-in-dubai', ['meta' => $meta]);
+    }
+    public function aiSeoAgencyMumbai()
+    {
+        $meta = [
+                       'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/ai-seo-agency-mumbai', ['meta' => $meta]);
     }
     public function digitalMarketingStrategyDubai()
     {
