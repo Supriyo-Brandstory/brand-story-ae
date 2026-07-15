@@ -697,10 +697,10 @@
             <div class="col-12">
                 <div class="mumbai-why-matters" style="margin-top: 60px;">
                     <h3 class="mumbai-phase-title" style="font-size: 20px;">Our Approach Delivers More Than Rankings</h3>
-                    <p class="mumbai-phase-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-phase-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         At Brandstory, we believe in delivering holistic SEO solutions that not only boost your search engine rankings but also enhance your brand's overall digital presence.
                     </p>
-                    <p class="mumbai-phase-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-phase-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Our focus on innovation and adaptability ensures your business remains competitive, achieving sustained growth in an ever-evolving digital landscape.
                     </p>
                     
@@ -752,7 +752,7 @@
     <div class="container">
         <div class="row">
             <!-- Heading & Left Column Content -->
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <span class="mumbai-apart-subhead">— WHY WE'RE DIFFERENT</span>
                 <h2 class="mumbai-apart-title">What Sets Us Apart</h2>
                 <p class="mumbai-apart-desc">
@@ -874,7 +874,7 @@
             <div class="col-12">
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">Why Businesses Choose Us</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Businesses choose Brandstory for our innovative approach, commitment to excellence, and proven track record of delivering transformative results.
                     </p>
                     <span class="mumbai-battle-winner">Winner: Our Proven Approach</span>
@@ -983,7 +983,7 @@
                 
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">Comprehensive Care Under One Roof</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Brandstory provides a one-stop solution for all your SEO needs, offering a wide range of services that ensure holistic growth and success in the digital space.
                     </p>
                 </div>
@@ -1137,7 +1137,7 @@
             <div class="col-12">
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">Our Edge</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         At Brandstory, our edge lies in our innovative approach, commitment to excellence, and proven track record of delivering transformative results for our clients.
                     </p>
                     
@@ -1254,7 +1254,7 @@
             <div class="col-12">
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">The Outcome</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Our process ensures that your SEO strategy is continually optimized for success, delivering sustained growth and measurable results.
                     </p>
                     
@@ -1449,7 +1449,7 @@
             <div class="col-12">
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">More Than Measurable Results</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Our focus on delivering results that not only improve your search engine rankings but also enhance your brand's overall digital presence and drive long-term success.
                     </p>
                     
@@ -1611,7 +1611,7 @@
                 
                 <div class="mumbai-why-matters" style="margin-top: 40px; padding-top: 40px;">
                     <h4 class="mumbai-why-matters-title">Built Around Your Industry</h4>
-                    <p class="mumbai-why-matters-desc" style="font-size: 15px; color: rgba(255, 255, 255, 0.65);">
+                    <p class="mumbai-why-matters-desc" style="font-size: 17px; color: rgb(255 255 255 / 83%);">
                         Our industry-specific SEO solutions are designed to address the unique challenges and opportunities within your sector, ensuring that your business achieves its digital goals.
                     </p>
                 </div>

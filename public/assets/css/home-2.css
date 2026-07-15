@@ -4267,7 +4267,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
     color: #855BFF;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 20px;
     font-weight: 600;
@@ -4279,6 +4279,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     line-height: 1.15;
     margin-bottom: 25px;
     letter-spacing: -1px;
+    margin-top: 10px;
 }
 
 .mumbai-desc {
@@ -4352,8 +4353,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     display: flex;
     align-items: center;
 
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    color: rgba(255, 255, 255 / 81%);
     font-weight: 500;
 }
 
@@ -4392,8 +4393,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 .mumbai-card-title {
 
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.55);
+    font-size: 15px;
+    color: rgb(255 255 255 / 81%);
     letter-spacing: 1px;
     margin-bottom: 30px;
     font-weight: 600;
@@ -4956,15 +4957,15 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .mumbai-why-matters-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 15px;
 }
 
 .mumbai-why-matters-desc {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -5176,8 +5177,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 .mumbai-phase-footer {
 
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 13px;
+    color: rgba(255, 255, 255, 0.703);
+    font-size: 16px;
 }
 
 @media (max-width: 1199px) {
