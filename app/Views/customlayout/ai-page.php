@@ -1,3 +1,5 @@
+<?php // $classname = 'em-dubai-page'; 
+?>
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 
 <section class="mumbai-seo-hero">

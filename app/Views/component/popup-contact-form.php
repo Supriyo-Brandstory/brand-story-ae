@@ -116,7 +116,7 @@
         // Auto popup after 5 seconds if not on blog or case-study pages
         <?php 
         $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $excludedPaths = ['/blog', '/blogs', '/case-study'];
+        $excludedPaths = ['/blog', '/blogs', '/case-study', '/admin'];
         $shouldShowPopup = true;
         foreach ($excludedPaths as $path) {
             if (strpos($currentPath, $path) === 0) {
