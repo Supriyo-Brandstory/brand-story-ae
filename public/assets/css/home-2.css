@@ -6449,3 +6449,64 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         padding-left: 0;
     }
 }
+
+/* ==========================================================================
+   Redesigned PPC Spotlight Section (Clean & Light Paragraph Design)
+   ========================================================================== */
+.ppc-spotlight-clean-sec {
+    padding: 80px 0;
+    background-color: #0f0f10; /* Match dark theme */
+}
+
+.spotlight-title-clean {
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 35px;
+    line-height: 1.35;
+    letter-spacing: -0.5px;
+}
+
+.spotlight-paragraphs-clean {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.spotlight-paragraphs-clean p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.7); /* Muted clean white */
+    margin: 0;
+}
+
+.spotlight-link-clean {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.3s ease;
+}
+
+.spotlight-link-clean:hover {
+    color: #855BFF;
+}
+
+@media (max-width: 767px) {
+    .ppc-spotlight-clean-sec {
+        padding: 60px 0;
+    }
+    
+    .spotlight-title-clean {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    
+    .spotlight-paragraphs-clean {
+        gap: 20px;
+    }
+    
+    .spotlight-paragraphs-clean p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}

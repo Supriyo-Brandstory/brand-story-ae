@@ -40,6 +40,7 @@ Route::get('/email-marketing-company-in-dubai', 'FrontendController@emailMarketi
 // Route::get('/email-marketing-company-in-dubai-2', 'FrontendController@emailMarketingDubai2', 'emailmarketingdubai2');
 
 Route::get('/pay-per-click-ppc-services-in-dubai', 'FrontendController@payPerClickServicesDubai', 'payperclickservicesdubai');
+Route::get('/pay-per-click-ppc-services-in-dubai-2', 'FrontendController@payPerClickServicesDubai2', 'payperclickservicesdubai2');
 Route::get('/search-engine-marketing-agency-in-dubai', 'FrontendController@searchEngineMarketingAgencyDubai', 'searchenginemarketingagencydubai');
 Route::get('/ecommerce-seo-services-in-dubai', 'FrontendController@ecommerceSeoServicesDubai', 'ecommerceseoservicesdubai');
 Route::get('/local-seo-services-in-dubai', 'FrontendController@localSeoServicesDubai', 'localseoservicesdubai');
