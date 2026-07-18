@@ -325,18 +325,18 @@ class FrontendController extends Controller
     public function payPerClickServicesDubai()
     {
         $meta = [
-            'classname' => 'dm-page service-page ppc'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/pay-per-click-ppc-services-in-dubai', ['meta' => $meta]);
     }
 
-    public function payPerClickServicesDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/pay-per-click-ppc-services-in-dubai-2', ['meta' => $meta]);
-    }
+    // public function payPerClickServicesDubai2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/pay-per-click-ppc-services-in-dubai-2', ['meta' => $meta]);
+    // }
 
     public function searchEngineMarketingAgencyDubai()
     {
