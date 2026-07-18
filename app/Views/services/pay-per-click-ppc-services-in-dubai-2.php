@@ -615,8 +615,7 @@
 <section class="ppc-apart-section">
     <div class="container">
         <div class="ppc-apart-header">
-            <span class="ppc-apart-label">— WHY BRANDSTORY</span>
-            <h2 class="ppc-apart-title text-white">What Sets Us Apart as a <span class="ppc-apart-accent">Leading PPC Agency</span></h2>
+            <h2 class="ppc-apart-title text-white">What Sets Us Apart as a Leading PPC Agency</span></h2>
             <p class="ppc-apart-subtitle">We don't just run ads — we engineer outcomes. Here's how we deliver results that competitors can't match.</p>
         </div>
 
@@ -1896,11 +1895,10 @@ include __DIR__ . '/../component/client_reviews.php';
         margin-bottom: 14px;
     }
     .ppc-apart-title {
-        font-size: 38px;
-        font-weight: 700;
         color: #fff;
         margin-bottom: 16px;
         line-height: 1.25;
+        text-align:left;
     }
     .ppc-apart-accent {
         background: linear-gradient(135deg, #855BFF, #ff5b85);
@@ -1911,9 +1909,9 @@ include __DIR__ . '/../component/client_reviews.php';
     .ppc-apart-subtitle {
         font-size: 17px;
         color: rgba(255,255,255,0.65);
-        max-width: 680px;
         margin: 0 auto;
         line-height: 1.6;
+        text-align:left;
     }
     .ppc-apart-grid {
         display: grid;
@@ -2030,15 +2028,15 @@ include __DIR__ . '/../component/client_reviews.php';
         .ppc-apart-section {
             padding: 60px 0;
         }
-        .ppc-apart-title {
-            font-size: 28px;
-        }
+
         .ppc-apart-card-inner {
             padding: 22px 20px;
         }
         .ppc-apart-card-title {
             font-size: 18px;
         }
+        .ppc-apart-grid {
+    grid-template-columns: repeat(1, 1fr);
     }
 
     .brandstory-choose-us-section .choose-card-desc {
