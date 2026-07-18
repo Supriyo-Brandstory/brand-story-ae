@@ -2038,7 +2038,22 @@ include __DIR__ . '/../component/client_reviews.php';
         .ppc-apart-grid {
     grid-template-columns: repeat(1, 1fr);
     }
+    
+}
 
+@media (max-width: 767px) {
+    .premium-slide {
+        background-position: left;
+    }
+
+    .ppc-spotlight-clean-sec {
+        padding: 0px 0 60px;
+    }
+    .mumbai-services-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
     .brandstory-choose-us-section .choose-card-desc {
     font-size: 18px !important;
 }

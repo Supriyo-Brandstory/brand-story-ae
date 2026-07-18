@@ -23,7 +23,7 @@
                                 <li class="li-headeing"><a href="<?= route('home') ?>">Digital Marketing</a></li>
                                 <li class="d-flex gap-2 align-items-center">
                                     <img src="/assets/images/menu/performace-marketing.png" alt="Performance Marketing" width="30" height="30">
-                                    <a href="<?= route('performancemarketing') ?>">Perf. Marketing</a>
+                                    <a href="/performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
                                 </li>
 
                                 <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/email-marketing.png" alt="E-mail Marketing" width="30" height="30"> <a href="<?= route('emailmarketingdubai') ?>">E-mail Marketing</a></li>
