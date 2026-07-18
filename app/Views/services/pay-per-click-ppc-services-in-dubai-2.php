@@ -266,50 +266,163 @@
     </div>
 </section>
 <!-- Process Flow Section -->
-<section class="premium-process-section sp-80">
-  <div class="container">
-    <h2 class="premium-process-title text-left text-white mb-5">How Our PPC Process Works</h2>
-    <!-- Timeline Steps Navigation -->
-    <div class="process-timeline-container">
-      <div class="process-timeline-line-bg"></div>
-      <div class="process-timeline-line-active"></div>
-      <div class="process-timeline-steps">
-        <div class="process-step-node active" data-step="1">
-          <span class="step-number">1</span>
+<section class="mumbai-solution-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mumbai-solution-title">How Our PPC Process Works</h2>
+                <p class="mumbai-solution-desc">
+                    Brandstory offers a structured PPC framework designed to drive maximum return on investment. We focus on continuous optimization, precise targeting, and data-driven decisions to scale your campaigns.
+                </p>
+                <span class="mumbai-framework-label">Our Framework</span>
+            </div>
         </div>
-        <div class="process-step-node" data-step="2">
-          <span class="step-number">2</span>
+        
+        <!-- Connected Steps Framework Card -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-framework-card">
+                    <span class="mumbai-framework-card-title">Six Phases, One Connected Framework</span>
+                    <div class="mumbai-framework-steps-container">
+                        <div class="mumbai-framework-line"></div>
+                        <div class="mumbai-framework-steps">
+                            <!-- Step 1 Link -->
+                            <a href="#mumbai-phase-1" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">01</div>
+                                <h4 class="mumbai-step-title">Planning & Strategy</h4>
+                                <span class="mumbai-step-subtitle">Understanding your needs</span>
+                            </a>
+                            <!-- Step 2 Link -->
+                            <a href="#mumbai-phase-2" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">02</div>
+                                <h4 class="mumbai-step-title">Competitor Analysis</h4>
+                                <span class="mumbai-step-subtitle">Crafting a tailored plan</span>
+                            </a>
+                            <!-- Step 3 Link -->
+                            <a href="#mumbai-phase-3" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">03</div>
+                                <h4 class="mumbai-step-title">Keyword Research</h4>
+                                <span class="mumbai-step-subtitle">Implementing strategies</span>
+                            </a>
+                            <!-- Step 4 Link -->
+                            <a href="#mumbai-phase-4" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">04</div>
+                                <h4 class="mumbai-step-title">Setup & Tracking</h4>
+                                <span class="mumbai-step-subtitle">Leveraging technology</span>
+                            </a>
+                            <!-- Step 5 Link -->
+                            <a href="#mumbai-phase-5" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">05</div>
+                                <h4 class="mumbai-step-title">Ad & Landing Page</h4>
+                                <span class="mumbai-step-subtitle">Measuring success</span>
+                            </a>
+                            <!-- Step 6 Link -->
+                            <a href="#mumbai-phase-6" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">06</div>
+                                <h4 class="mumbai-step-title">Monitoring & Testing</h4>
+                                <span class="mumbai-step-subtitle">Adapting to change</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="process-step-node" data-step="3">
-          <span class="step-number">3</span>
+        
+        <!-- Phase Details (Alternating layout) -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-phase-details">
+                    
+                    <!-- Phase 1 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-1">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">01</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Planning & Strategy</h3>
+                            <p class="mumbai-phase-desc">
+                                Every successful campaign starts with clarity. We dive deep into your business objectives to define focused PPC goals- brand awareness, qualified traffic, or high-intent leads- and build a strategy.
+                            </p>
+                            <span class="mumbai-phase-footer">Clear goals for a high-performing campaign.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 2 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-2">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">02</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Competitor & Market Analysis</h3>
+                            <p class="mumbai-phase-desc">
+                                We don't guess the outcome, we analyze. Our team benchmarks your competitors, maps audience behavior, and identifies untapped opportunities. The result? Campaigns that stand out, not blend in.
+                            </p>
+                            <span class="mumbai-phase-footer">Market insights that give you a competitive edge.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 3 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-3">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">03</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Keyword Research & Optimization</h3>
+                            <p class="mumbai-phase-desc">
+                                The right keywords make or break a campaign. We build and continuously refine your keyword portfolio- adding high-intent, cost-efficient terms while cutting the waste ads spend.
+                            </p>
+                            <span class="mumbai-phase-footer">Targeting high-value keywords to drive sales.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 4 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-4">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">04</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Campaign Setup & Tracking</h3>
+                            <p class="mumbai-phase-desc">
+                                Precision matters. We architect campaigns with optimized budgets, smart bidding, strategic scheduling, and geo-targeting. With advanced tracking, every click is measurable and every decision is driven by data.
+                            </p>
+                            <span class="mumbai-phase-footer">Data-driven configurations for accurate metrics.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 5 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-5">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">05</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Ad Creation & Landing Pages</h3>
+                            <p class="mumbai-phase-desc">
+                                Clicks are only half the battle. Our team writes compelling, CTA-driven ad copy paired with high-converting landing pages. Message match and user experience are tuned to turn visitors into customers.
+                            </p>
+                            <span class="mumbai-phase-footer">High-converting ad copies and landing pages.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 6 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-6">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">06</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Ads Monitoring & Testing</h3>
+                            <p class="mumbai-phase-desc">
+                                We track what matters: purchases, leads, sign-ups. Through relentless A/B testing and performance analysis, we refine, reallocate, and scale what works- driving continuous improvement in ROI.
+                            </p>
+                            <span class="mumbai-phase-footer">Continuous scaling and ROI optimization.</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        <div class="process-step-node" data-step="4">
-          <span class="step-number">4</span>
-        </div>
-        <div class="process-step-node" data-step="5">
-          <span class="step-number">5</span>
-        </div>
-        <div class="process-step-node" data-step="6">
-          <span class="step-number">6</span>
-        </div>
-      </div>
+        
+      
     </div>
-    <!-- Content Container -->
-    <div class="process-content-container row align-items-center mt-5">
-      <!-- Left Side: Large Active Step Name -->
-      <div class="col-lg-5">
-        <h3 class="process-step-heading text-white" id="active-step-title">Planning & Strategy</h3>
-      </div>
-      <!-- Right Side: Dark Card Content -->
-      <div class="col-lg-7 mt-4 mt-lg-0">
-        <div class="process-details-card">
-          <div id="process-step-content-area">
-            <!-- Content will be swapped via JS -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section class="premium-why-choose-section">
@@ -499,44 +612,92 @@
         </div>
     </div>
 </section>
-<section class="sp-50 dm-blog-section">
+<section class="ppc-apart-section">
     <div class="container">
-        <h2 class="mb-md-4 text-md-start text-center text-white">What Sets Us Apart as a Leading PPC Agency </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service1.png">
-                            <h3>Increased ROI</h3>
-                            <p class="fs-20">Our pay-per-click services in Dubai will help you to plan and control your finances to stay within a budget, thereby improving your ROI. We focus on smart bidding strategies to improve your ad campaigns.</p>
+        <div class="ppc-apart-header">
+            <span class="ppc-apart-label">— WHY BRANDSTORY</span>
+            <h2 class="ppc-apart-title text-white">What Sets Us Apart as a <span class="ppc-apart-accent">Leading PPC Agency</span></h2>
+            <p class="ppc-apart-subtitle">We don't just run ads — we engineer outcomes. Here's how we deliver results that competitors can't match.</p>
+        </div>
+
+        <div class="ppc-apart-grid">
+
+            <!-- Card 1 -->
+            <div class="ppc-apart-card ppc-apart-card--active" data-index="0">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">01</span>
+                            <h3 class="ppc-apart-card-title">Increased ROI</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service2.png">
-                            <h3>Copyrighted Ads</h3>
-                            <p class="fs-20">With Ad copyright service, distinct customised ads can be designed for a greater scope of success and faster growth. Ad copies are designed strategically to connect with the targeted audience and inspire action.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service3.png">
-                            <h3>Regular campaign management reports</h3>
-                            <p class="fs-20">Effective PPC advertising goes beyond just setting up ads, it requires consistent monitoring, analysis, and fine-tuning. Our team ensures your ads are optimized for maximum clicks, conversions, CTR, and ROAS.</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/service/ppc/ppc-dubai-service4.png">
-                            <h3>Best Paid Traffic</h3>
-                            <p class="fs-20">We ensure that our ad campaign plans divert only the best of the paid traffic to your website. Each click made from PPC ads is backed by data-driven insights and brings you closer to your valuable audience.</p>
-                        </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service1.png" alt="Increased ROI">
+                        <p class="ppc-apart-desc">Our pay-per-click services in Dubai will help you to plan and control your finances to stay within a budget, thereby improving your ROI. We focus on smart bidding strategies to improve your ad campaigns.</p>
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
+
+            <!-- Card 2 -->
+            <div class="ppc-apart-card ppc-apart-card--active" data-index="1">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">02</span>
+                            <h3 class="ppc-apart-card-title">Copyrighted Ads</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service2.png" alt="Copyrighted Ads">
+                        <p class="ppc-apart-desc">With Ad copyright service, distinct customised ads can be designed for a greater scope of success and faster growth. Ad copies are designed strategically to connect with the targeted audience and inspire action.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="ppc-apart-card" data-index="2">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">03</span>
+                            <h3 class="ppc-apart-card-title">Regular Campaign Management Reports</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" alt="Campaign Management Reports">
+                        <p class="ppc-apart-desc">Effective PPC advertising goes beyond just setting up ads, it requires consistent monitoring, analysis, and fine-tuning. Our team ensures your ads are optimized for maximum clicks, conversions, CTR, and ROAS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="ppc-apart-card" data-index="3">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">04</span>
+                            <h3 class="ppc-apart-card-title">Best Paid Traffic</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" alt="Best Paid Traffic">
+                        <p class="ppc-apart-desc">We ensure that our ad campaign plans divert only the best of the paid traffic to your website. Each click made from PPC ads is backed by data-driven insights and brings you closer to your valuable audience.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -651,246 +812,288 @@
         </div>
     </div>
 </section>
-<section class="premium-industries-section">
-  <div class="container">
-    <h2 class="premium-industries-title">Why Invest in Pay-Per-Click Ads?</h2>
-    <p class="text-center mb-5" style="color: rgba(255, 255, 255, 0.7); max-width: 800px; margin: 0 auto 50px auto;">Investing in Pay-Per-Click ads ensures immediate visibility and results by targeting high-intent audiences. It offers full control over budget, reach, and campaign performance for maximum ROI.</p>
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">Leverage on the huge number of online “searchers”</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Did you know there are more than 2 billion people online searching for information online, 40,000 searches per second and number of searches has reached 3.5 billion a day. This means your business has millions of opportunities to be found on Google and other search engines and we help you leverage this with our ppc marketing Dubai.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">Immediate Visibility for your brand</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">PPC advertising in Dubai is an ideal to give your audience the first look of your brand. Since your PPC ads will appear above the search engine results, this is first thing that the viewers will lay their eyes upon. And the first option converts better than the next one.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">Our PPC campaigns pull in quality traffic</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">The best online traffic is the one on search engines because people are looking for a solution to a problem and they will not leave until they find it. Our google adwords company in Dubai can pull traffic to your website and business through Google PPC ads like search advertising, display advertising, video advertising, shopping ads or mobile app advertising instead of pushing a product to consumers like traditional advertising.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads are more likely to convert</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">It is a proven fact that search advertising traffic is the most likely to convert than other sources of inbound traffic. Our team of google adwords management Dubai will place the PPC ads are strategically positioned in search engine result pages to win maximum conversions.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 5 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">Our PPC ads increases sales and ROI</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Business owners love PPC ads because of its instant impact on revenue and turnover for any business. All the business must do it offer quality products or services and PPC ads will put it out for the world to see and convert into a sale.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 6 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ad campaigns that are measurable</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">With Brandstory PPC Agency Dubai, the spend and the ROI is easily measurable. PPC ads, keywords, placement of ads, can be tracked and measured. This metric helps in identifying which component is driving the maximum return and help experts take informed decisions about googe adwords campaign management.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 7 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads have more scope</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">PPC advertising formats from Brandstory have more scope and options to generate better results than regular ad listings. The variety of options allow advertisers to add maximum value to the PPC ads such as installing extensions like site links, call tracking, message, rich snippet and even customer reviews.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 8 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC advertising is independent of Algorithm changes</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">PPC advertising formats from Brandstory have more scope and options to generate better results than regular ad listings. The variety of options allow advertisers to add maximum value to the PPC ads such as installing extensions like site links, call tracking, message, rich snippet and even customer reviews.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 9 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads can build SEO</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Our ppc management services Dubai can help build <a href="/seo-services-company-in-dubai/" style="color:#ffffff; text-decoration:underline;">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 10 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC Ads Educate Customers</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Our ppc advertising company Dubai will build PPC ads campaigns that not only inform customers but also educate them. The results they find in their searches help them take informed decisions. PPC ad campaigns reached out to potential customers, educates them and gains their trust in your brand.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 11 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads that can drive Physical sales</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Our ppc management services Dubai believes that PPC ads can play key role not only in driving online but offline sales as well. If the customer likes what he sees, he will visit the physical location of the item at the store of the seller. Even if the transaction did not complete online, the purchase journey begins with the PPC ad.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 12 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">Compete smartly with PPC</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Although big businesses may be ready to sell out big amounts for pay per click ads, less popular businesses can still compete with them. You can use target niche keywords that are less popular being missed out by your competitors. Smarty strategy and critical thinking helps in ad design businesses to gain advantage over big competitors through google adwords management Dubai</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 13 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads give the real time picture</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">Advertisement in print or television media cannot be changed instantly if results are not seen. With PPC ads, results are seen in real-time and immediate adjustments can be made to the campaign if they are not satisfactory. This way losses can be cut-off right away and scope for conversions can be increased.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 14 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="premium-industry-card">
-          <h3 class="industry-card-title">PPC ads are extremely targeted</h3>
-          <div class="industry-card-hover-details">
-            <p class="industry-card-desc">As and advertiser, our PPC campaigns allow for very specific forms of targeting. Our ppc experts can target ads towards certain demographics, locations, or with only fixed keywords. Our ppc solution also target consumers based on their online interests and behaviours. PPC ads have the advantage of greater precision than the traditional marketing methods</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 15: Contact Us -->
-      <div class="col-lg-4 col-md-6 mx-auto">
-        <div class="premium-industry-card pm-services-contact-card">
-          <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
-            <span>Contact Us</span>
-            <span class="btn-arrow-circle">
-              <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="sp-50 dm-case-studies-section dm-bg">
+<section class="mumbai-services-section" id="services">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5">
-                <div class="sticky-case-study-left">
-                    <span class="text-uppercase text-white fs-18 mb-4 d-block" style="letter-spacing: 2px;">OUR WORKS <span style="color: #855BFF;">.</span></span>
-                    <h2 class="text-white mb-4">Real Brands. Real Results. Real Digital Marketing Success.</h2>
-                    <p class="text-white-50 fs-20 mb-3">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
-                    <a href="/case-study/" class="view-all-link">View all Case Studies</a>
+            <!-- Heading Column -->
+            <div class="col-12">
+                <span class="mumbai-services-subhead">— WHY INVEST</span>
+                <h2 class="mumbai-services-title">Why Invest in Pay-Per-Click Ads?</h2>
+                <p class="mumbai-services-desc">
+                    Investing in Pay-Per-Click ads ensures immediate visibility and results by targeting high-intent audiences. It offers full control over budget, reach, and campaign performance for maximum ROI.
+                </p>
+               
+                
+                <span class="mumbai-services-label">Key Benefits of PPC</span>
+            </div>
+        </div>
+
+        <!-- 3x2 Grid of Service Cards -->
+        <div class="mumbai-services-grid">
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Leverage Online Searchers</h3>
+                <p class="mumbai-service-card-desc">
+                    Did you know there are more than 2 billion people online searching for information online, 40,000 searches per second and number of searches has reached 3.5 billion a day. This means your business has millions of opportunities to be found on Google and other search engines and we help you leverage this with our ppc marketing Dubai.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Immediate Visibility</h3>
+                <p class="mumbai-service-card-desc">
+                    PPC advertising in Dubai is an ideal to give your audience the first look of your brand. Since your PPC ads will appear above the search engine results, this is first thing that the viewers will lay their eyes upon. And the first option converts better than the next one.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Pull Quality Traffic</h3>
+                <p class="mumbai-service-card-desc">
+                    The best online traffic is the one on search engines because people are looking for a solution to a problem and they will not leave until they find it. Our google adwords company in Dubai can pull traffic to your website and business through Google PPC ads like search advertising, display advertising, video advertising, shopping ads or mobile app advertising instead of pushing a product to consumers like traditional advertising.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Higher Conversion Rates</h3>
+                <p class="mumbai-service-card-desc">
+                    It is a proven fact that search advertising traffic is the most likely to convert than other sources of inbound traffic. Our team of google adwords management Dubai will place the PPC ads are strategically positioned in search engine result pages to win maximum conversions.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Increased Sales & ROI</h3>
+                <p class="mumbai-service-card-desc">
+                    Business owners love PPC ads because of its instant impact on revenue and turnover for any business. All the business must do it offer quality products or services and PPC ads will put it out for the world to see and convert into a sale.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Measurable Campaign Results</h3>
+                <p class="mumbai-service-card-desc">
+                    With Brandstory PPC Agency Dubai, the spend and the ROI is easily measurable. PPC ads, keywords, placement of ads, can be tracked and measured. This metric helps in identifying which component is driving the maximum return and help experts take informed decisions about googe adwords campaign management.
+                </p>
+            </div>
+            
+            <!-- Extra services (Shown when View More is clicked) -->
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">More Advertising Scope</h3>
+                <p class="mumbai-service-card-desc">
+                    PPC advertising formats from Brandstory have more scope and options to generate better results than regular ad listings. The variety of options allow advertisers to add maximum value to the PPC ads such as installing extensions like site links, call tracking, message, rich snippet and even customer reviews.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Algorithm Independence</h3>
+                <p class="mumbai-service-card-desc">
+                    Unlike organic search listings which are affected by Google algorithm updates, PPC advertising formats are stable and independent. This ensures your visibility remains constant without sudden drops in traffic.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Build SEO Strategy</h3>
+                <p class="mumbai-service-card-desc">
+                    Our ppc management services Dubai can help build <a href="/seo-services-company-in-dubai/" style="color:#ffffff; text-decoration:underline;">SEO</a> for company’s marketing efforts through PPC ads. This is performed by identifying the search keywords that are most relevant to your business. These keywords are decided by their ability to bring in most conversions for your business.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Educate Potential Customers</h3>
+                <p class="mumbai-service-card-desc">
+                    Our ppc advertising company Dubai will build PPC ads campaigns that not only inform customers but also educate them. The results they find in their searches help them take informed decisions. PPC ad campaigns reached out to potential customers, educates them and gains their trust in your brand.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Drive Offline & Store Sales</h3>
+                <p class="mumbai-service-card-desc">
+                    Our ppc management services Dubai believes that PPC ads can play key role not only in driving online but offline sales as well. If the customer likes what he sees, he will visit the physical location of the item at the store of the seller. Even if the transaction did not complete online, the purchase journey begins with the PPC ad.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Smart Competitive Advantage</h3>
+                <p class="mumbai-service-card-desc">
+                    Although big businesses may be ready to sell out big amounts for pay per click ads, less popular businesses can still compete with them. You can use target niche keywords that are less popular being missed out by your competitors. Smarty strategy and critical thinking helps in ad design businesses to gain advantage over big competitors through google adwords management Dubai
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Real-Time Performance Picture</h3>
+                <p class="mumbai-service-card-desc">
+                    Advertisement in print or television media cannot be changed instantly if results are not seen. With PPC ads, results are seen in real-time and immediate adjustments can be made to the campaign if they are not satisfactory. This way losses can be cut-off right away and scope for conversions can be increased.
+                </p>
+            </div>
+            <div class="mumbai-service-card mumbai-service-extra d-none">
+                <h3 class="mumbai-service-card-title">Demographic & Interest Targeting</h3>
+                <p class="mumbai-service-card-desc">
+                    As and advertiser, our PPC campaigns allow for very specific forms of targeting. Our ppc experts can target ads towards certain demographics, locations, or with only fixed keywords. Our ppc solution also target consumers based on their online interests and behaviours. PPC ads have the advantage of greater precision than the traditional marketing methods
+                </p>
+            </div>
+        </div>
+
+        <!-- View More & Subsection -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-view-more-container mt-2 mb-4">
+                    <a href="javascript:void(0);" class="mumbai-btn-view-more">
+                        <span>View More</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
                 </div>
             </div>
-            <div class="col-lg-7">
-                <div class="scrollable-case-study-right">
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+        </div>
+        
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
-                                <strong>Branding & Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
-                    <div class="case-study-scroll-item">
-                        <div class="neww-case-stuides-main">
-                            <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
-                                <strong>Digital Marketing</strong>
-                            </div>
-                            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-                            <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
-                            </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged</div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations. BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6: NanoPrecise Sci Corp -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" alt="NanoPrecise Sci Corp" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NanoPrecise Sci Corp</h3>
+                            <div class="premium-cs-row-stats">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</div>
+                            <p class="premium-cs-row-desc">NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
+                            <a href="<?= base_url('case-study/nanoprecise-sci-corp/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1597,6 +1800,45 @@ include __DIR__ . '/../component/client_reviews.php';
             }
         });
     });
+
+    // View More Button Toggle for Services
+    const servicesSection = document.querySelector('.mumbai-services-section');
+    if (servicesSection) {
+        const viewMoreBtn = servicesSection.querySelector('.mumbai-btn-view-more');
+        const extraItems = servicesSection.querySelectorAll('.mumbai-service-extra');
+        if (viewMoreBtn) {
+            viewMoreBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                viewMoreBtn.classList.toggle('active');
+                let isExpanded = false;
+                extraItems.forEach(item => {
+                    item.classList.toggle('d-none');
+                    if (!item.classList.contains('d-none')) {
+                        isExpanded = true;
+                    }
+                });
+                const btnText = viewMoreBtn.querySelector('span');
+                const svg = viewMoreBtn.querySelector('svg');
+                if (btnText) {
+                    if (isExpanded) {
+                        btnText.textContent = 'View Less';
+                        if (svg) svg.style.transform = 'rotate(180deg)';
+                    } else {
+                        btnText.textContent = 'View More';
+                        if (svg) svg.style.transform = 'rotate(0deg)';
+                    }
+                }
+            });
+        }
+    }
+
+    // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+    const apartCards = document.querySelectorAll('.ppc-apart-card');
+    apartCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            card.classList.toggle('ppc-apart-card--active');
+        });
+    });
 </script>
 
 
@@ -1613,5 +1855,193 @@ include __DIR__ . '/../component/client_reviews.php';
     .premium-industry-card:hover .industry-card-title{
         top:80px
     }
+    .mumbai-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    }
+.mumbai-services-section {
+    background: unset;
+    color: rgb(255, 255, 255);
+    border-top: none;
+    margin-top: 70px;
+}
 
+    /* === PPC Apart Section === */
+    .ppc-apart-section {
+        padding: 90px 0;
+        background: #0b071e;
+        position: relative;
+        overflow: hidden;
+    }
+    .ppc-apart-section::before {
+        content: '';
+        position: absolute;
+        top: -200px;
+        right: -200px;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle, rgba(133,91,255,0.08) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .ppc-apart-header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .ppc-apart-label {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #855BFF;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+    .ppc-apart-title {
+        font-size: 38px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 16px;
+        line-height: 1.25;
+    }
+    .ppc-apart-accent {
+        background: linear-gradient(135deg, #855BFF, #ff5b85);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .ppc-apart-subtitle {
+        font-size: 17px;
+        color: rgba(255,255,255,0.65);
+        max-width: 680px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+    .ppc-apart-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        border: 1px solid rgba(255,255,255,0.07);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .ppc-apart-card {
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+        border-right: 1px solid rgba(255,255,255,0.07);
+        background: rgba(255,255,255,0.01);
+        cursor: pointer;
+        transition: background 0.4s ease;
+        overflow: hidden;
+    }
+    .ppc-apart-card:nth-child(2n) {
+        border-right: none;
+    }
+    .ppc-apart-card:nth-child(3),
+    .ppc-apart-card:nth-child(4) {
+        border-bottom: none;
+    }
+    .ppc-apart-card-inner {
+        padding: 36px 32px;
+        text-align: left;
+    }
+    .ppc-apart-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 0;
+    }
+    .ppc-apart-card-heading {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex: 1;
+    }
+    .ppc-apart-num {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: rgba(133,91,255,0.5);
+        transition: color 0.4s ease;
+    }
+    .ppc-apart-arrow {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid rgba(255,255,255,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255,255,255,0.4);
+        transition: all 0.4s ease;
+        flex-shrink: 0;
+    }
+    .ppc-apart-card-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.75);
+        margin: 0;
+        line-height: 1.4;
+        transition: color 0.4s ease;
+        text-align: left;
+    }
+    .ppc-apart-card-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.55s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease, margin 0.4s ease;
+        opacity: 0;
+        margin-top: 0;
+    }
+    .ppc-apart-img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 14px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .ppc-apart-desc {
+        font-size: 16px;
+        color: rgba(255,255,255,0.7);
+        line-height: 1.7;
+        margin: 0;
+    }
+    /* Active state */
+    .ppc-apart-card--active {
+        background: rgba(133,91,255,0.06);
+    }
+    .ppc-apart-card--active .ppc-apart-num {
+        color: #855BFF;
+    }
+    .ppc-apart-card--active .ppc-apart-card-title {
+        color: #fff;
+    }
+    .ppc-apart-card--active .ppc-apart-arrow {
+        background: #855BFF;
+        border-color: #855BFF;
+        color: #fff;
+        transform: rotate(180deg);
+        box-shadow: 0 0 14px rgba(133,91,255,0.5);
+    }
+    .ppc-apart-card--active .ppc-apart-card-body {
+        max-height: 600px;
+        opacity: 1;
+        margin-top: 22px;
+    }
+    @media (max-width: 768px) {
+        .ppc-apart-section {
+            padding: 60px 0;
+        }
+        .ppc-apart-title {
+            font-size: 28px;
+        }
+        .ppc-apart-card-inner {
+            padding: 22px 20px;
+        }
+        .ppc-apart-card-title {
+            font-size: 18px;
+        }
+    }
+
+    .brandstory-choose-us-section .choose-card-desc {
+    font-size: 18px !important;
+}
     </style>

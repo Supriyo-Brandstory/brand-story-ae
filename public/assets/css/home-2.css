@@ -6455,7 +6455,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
    ========================================================================== */
 .ppc-spotlight-clean-sec {
     padding: 80px 0;
-    background-color: #0f0f10; /* Match dark theme */
+    background-color: #0f0f10;
+    /* Match dark theme */
 }
 
 .spotlight-title-clean {
@@ -6476,7 +6477,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 .spotlight-paragraphs-clean p {
     font-size: 16px;
     line-height: 1.8;
-    color: rgba(255, 255, 255, 0.7); /* Muted clean white */
+    color: rgba(255, 255, 255, 0.7);
+    /* Muted clean white */
     margin: 0;
 }
 
@@ -6495,16 +6497,16 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     .ppc-spotlight-clean-sec {
         padding: 60px 0;
     }
-    
+
     .spotlight-title-clean {
         font-size: 28px;
         margin-bottom: 25px;
     }
-    
+
     .spotlight-paragraphs-clean {
         gap: 20px;
     }
-    
+
     .spotlight-paragraphs-clean p {
         font-size: 15px;
         line-height: 1.7;
