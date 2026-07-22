@@ -296,6 +296,15 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/branding-agency-in-dubai', ['meta' => $meta]);
     }
+    public function brandAgencyDubai2()
+    {
+        $meta = [
+            'title' => 'Best Creative Branding Agency in Dubai, UAE | BrandStory',
+            'description' => 'BrandStory is the branding & marketing agency in Dubai that helps businesses start, grow, and thrive across the GCC and globally.',
+            'classname' => 'brand-agency-2-page'
+        ];
+        return $this->view('services/branding-agency-in-dubai-2', ['meta' => $meta]);
+    }
     public function websiteDesignDubai()
     {
         $meta = [];

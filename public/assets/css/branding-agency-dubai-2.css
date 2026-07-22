@@ -1,0 +1,736 @@
+/* ==========================================================================
+   Branding Agency Dubai 2 - Minimalist Modern CSS Design System
+   (Font sizes & weights deferred to global typography styles)
+   ========================================================================== */
+
+:root {
+    --ba2-bg-main: #0a0b0f;
+    --ba2-bg-alt: #0d0f16;
+    --ba2-card-bg: rgba(255, 255, 255, 0.03);
+    --ba2-card-hover-bg: rgba(133, 91, 255, 0.06);
+    --ba2-border: rgba(255, 255, 255, 0.08);
+    --ba2-border-hover: rgba(133, 91, 255, 0.4);
+    --ba2-accent: #855bff;
+    --ba2-accent-light: #b599ff;
+    --ba2-accent-glow: rgba(133, 91, 255, 0.3);
+    --ba2-text-main: #ffffff;
+    --ba2-text-muted: rgba(255, 255, 255, 0.7);
+    --ba2-text-dim: rgba(255, 255, 255, 0.45);
+    --ba2-radius: 20px;
+    --ba2-radius-sm: 12px;
+    --ba2-transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base resets & section wrapper */
+.ba2-page-wrapper {
+    background-color: var(--ba2-bg-main);
+    color: var(--ba2-text-main);
+    overflow-x: clip;
+    position: relative;
+}
+
+.ba2-page-wrapper * {
+    box-sizing: border-box;
+}
+
+/* Animated Ambient Glow Orbs */
+.ba2-ambient-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--ba2-accent-glow) 0%, rgba(7, 8, 12, 0) 70%);
+    pointer-events: none;
+    z-index: 0;
+    filter: blur(80px);
+    opacity: 0.6;
+    animation: ba2PulseGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes ba2PulseGlow {
+    0% {
+        transform: scale(0.9) translate(0, 0);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: scale(1.1) translate(30px, -20px);
+        opacity: 0.7;
+    }
+}
+
+/* Shared Section Spacing */
+.ba2-section {
+    padding: 90px 0;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .ba2-section {
+        padding: 50px 0;
+    }
+}
+
+/* Modern Pill Badges */
+.ba2-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 100px;
+    background: rgba(133, 91, 255, 0.1);
+    border: 1px solid rgba(133, 91, 255, 0.25);
+    color: var(--ba2-accent-light);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    backdrop-filter: blur(10px);
+}
+
+.ba2-badge-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--ba2-accent-light);
+    box-shadow: 0 0 10px var(--ba2-accent);
+    animation: ba2Blink 1.8s infinite;
+}
+
+@keyframes ba2Blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+/* Minimalist Headlines */
+.ba2-title-main {
+    line-height: 1.15;
+    letter-spacing: -1px;
+    color: var(--ba2-text-main);
+}
+
+.ba2-title-large {
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.ba2-title-gradient {
+    background: linear-gradient(135deg, #ffffff 30%, var(--ba2-accent-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ba2-text-muted {
+    color: var(--ba2-text-muted);
+    line-height: 1.6;
+}
+
+/* Minimalist Button Styling */
+.ba2-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 32px;
+    border-radius: 100px;
+    background: linear-gradient(135deg, var(--ba2-accent) 0%, #6838e6 100%);
+    color: #ffffff !important;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.35);
+    transition: var(--ba2-transition);
+    cursor: pointer;
+}
+
+.ba2-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(133, 91, 255, 0.5);
+    color: #ffffff !important;
+}
+
+.ba2-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 30px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.04);
+    color: #ffffff !important;
+    text-decoration: none;
+    border: 1px solid var(--ba2-border);
+    backdrop-filter: blur(10px);
+    transition: var(--ba2-transition);
+}
+
+.ba2-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--ba2-accent);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   1. HERO SECTION (Minimalist Image-Free Banner)
+   ========================================================================== */
+.ba2-hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 80px 0;
+    background: radial-gradient(circle at 50% 20%, rgba(133, 91, 255, 0.15) 0%, rgba(7, 8, 12, 1) 70%);
+    position: relative;
+    border-bottom: 1px solid var(--ba2-border);
+}
+
+.ba2-hero-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 75%);
+    pointer-events: none;
+}
+
+.ba2-hero-content {
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.ba2-hero-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 36px;
+    flex-wrap: wrap;
+}
+
+.ba2-hero-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ba2-hero-stat-item h4 {
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.ba2-hero-stat-item p {
+    color: var(--ba2-text-dim);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   2. MARQUEE SECTION
+   ========================================================================== */
+.ba2-marquee-sec {
+    background: rgba(13, 15, 22, 0.95);
+    border-bottom: 1px solid var(--ba2-border);
+    padding: 18px 0;
+    overflow: hidden;
+}
+
+.ba2-marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    white-space: nowrap;
+    animation: ba2Marquee 35s linear infinite;
+}
+
+@keyframes ba2Marquee {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.ba2-marquee-item {
+    color: var(--ba2-text-muted);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: var(--ba2-transition);
+}
+
+.ba2-marquee-item:hover {
+    color: var(--ba2-accent-light);
+}
+
+.ba2-marquee-sep {
+    color: var(--ba2-accent);
+    opacity: 0.5;
+}
+
+/* ==========================================================================
+   3. ABOUT SECTION (CSS Decorative Accent Card)
+   ========================================================================== */
+.ba2-about-card {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 48px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+}
+
+.ba2-about-accent-box {
+    background: linear-gradient(135deg, rgba(133, 91, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(133, 91, 255, 0.2);
+    border-radius: var(--ba2-radius);
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.ba2-about-accent-box::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--ba2-accent-glow) 0%, transparent 70%);
+}
+
+.ba2-number-callout {
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--ba2-accent-light);
+    margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   4. CONTEXTUAL STRATEGIES - STICKY LEFT / STICKY-OFF AT END
+   ========================================================================== */
+.ba2-strategy-sec {
+    position: relative;
+    padding: 100px 0;
+    overflow: visible;
+}
+
+.ba2-strategy-sec .row {
+    align-items: stretch;
+    position: relative;
+}
+
+.ba2-strategy-sticky-col {
+    position: relative;
+}
+
+.ba2-strategy-sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+
+.ba2-strategy-pillar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 28px 0;
+}
+
+.ba2-strategy-pillar-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--ba2-text-muted);
+    text-decoration: none !important;
+    transition: var(--ba2-transition);
+}
+
+.ba2-strategy-pillar-link:hover,
+.ba2-strategy-pillar-link.active {
+    background: rgba(133, 91, 255, 0.18);
+    border-color: rgba(133, 91, 255, 0.4);
+    color: var(--ba2-accent-light);
+    transform: translateX(4px);
+}
+
+.ba2-strategy-pillar-link span {
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.ba2-strategy-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.ba2-strategy-card {
+    background: linear-gradient(135deg, rgba(20, 23, 34, 0.85) 0%, rgba(13, 15, 22, 0.95) 100%);
+    border: 1px solid rgba(133, 91, 255, 0.18);
+    border-radius: 24px;
+    padding: 40px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: relative;
+    overflow: hidden;
+    transition: var(--ba2-transition);
+    scroll-margin-top: 100px;
+}
+
+.ba2-strategy-card:hover {
+    border-color: rgba(133, 91, 255, 0.45);
+    box-shadow: 0 20px 50px rgba(133, 91, 255, 0.15);
+    transform: translateY(-4px);
+}
+
+.ba2-strategy-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ba2-strategy-pillar-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    background: rgba(133, 91, 255, 0.12);
+    border: 1px solid rgba(133, 91, 255, 0.3);
+    color: var(--ba2-accent-light);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ba2-strategy-card-num {
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.3);
+    transition: var(--ba2-transition);
+}
+
+.ba2-strategy-card:hover .ba2-strategy-card-num {
+    -webkit-text-stroke: 1.5px var(--ba2-accent-light);
+}
+
+.ba2-subservice-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.ba2-subservice-item {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    padding: 22px;
+    transition: var(--ba2-transition);
+}
+
+.ba2-subservice-item:hover {
+    background: rgba(133, 91, 255, 0.06);
+    border-color: rgba(133, 91, 255, 0.3);
+    transform: translateX(4px);
+}
+
+.ba2-subservice-title {
+    color: var(--ba2-accent-light);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ba2-subservice-title::before {
+    content: '✦';
+    color: var(--ba2-accent);
+}
+
+.ba2-subservice-desc {
+    color: var(--ba2-text-muted);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   5. INDUSTRIES WE SERVE (PURE CSS MINIMALIST CARDS)
+   ========================================================================== */
+.ba2-industry-card {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--ba2-transition);
+    text-decoration: none !important;
+    position: relative;
+    backdrop-filter: blur(15px);
+}
+
+.ba2-industry-card:hover {
+    border-color: var(--ba2-accent);
+    background: rgba(133, 91, 255, 0.08);
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(133, 91, 255, 0.15);
+}
+
+.ba2-industry-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--ba2-accent-light);
+    margin-bottom: 16px;
+    width: fit-content;
+}
+
+.ba2-industry-card h3 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.ba2-industry-card p {
+    color: var(--ba2-text-muted);
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.ba2-industry-link-text {
+    color: var(--ba2-accent-light);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--ba2-transition);
+}
+
+.ba2-industry-card:hover .ba2-industry-link-text {
+    gap: 12px;
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   6. WHY CHOOSE BRANDSTORY (WCP SECTION) STICKY ADJUSTMENT
+   ========================================================================== */
+.ba2-wcp-left-box {
+    background: linear-gradient(180deg, rgba(133, 91, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 44px;
+    position: sticky;
+    top: 100px;
+}
+
+.ba2-wcp-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 32px 0;
+    padding: 20px 0;
+    border-top: 1px solid var(--ba2-border);
+    border-bottom: 1px solid var(--ba2-border);
+}
+
+.ba2-wcp-stat-box {
+    text-align: center;
+}
+
+.ba2-wcp-stat-box h4 {
+    color: var(--ba2-accent-light);
+    margin: 0;
+}
+
+.ba2-wcp-stat-box span {
+    color: var(--ba2-text-dim);
+    text-transform: uppercase;
+}
+
+.ba2-wcp-item {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius-sm);
+    padding: 28px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: var(--ba2-transition);
+}
+
+.ba2-wcp-item:hover {
+    border-color: var(--ba2-border-hover);
+    background: rgba(133, 91, 255, 0.05);
+    transform: translateX(6px);
+}
+
+.ba2-wcp-num {
+    color: var(--ba2-accent);
+    opacity: 0.8;
+    min-width: 32px;
+}
+
+.ba2-wcp-content h3 {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.ba2-wcp-content p {
+    color: var(--ba2-text-muted);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   7. COUNTER SECTION
+   ========================================================================== */
+.ba2-counter-card {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 36px 24px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    transition: var(--ba2-transition);
+}
+
+.ba2-counter-card:hover {
+    border-color: var(--ba2-accent);
+    transform: translateY(-4px);
+}
+
+.ba2-counter-num {
+    color: var(--ba2-accent-light);
+    display: block;
+    margin-bottom: 6px;
+}
+
+.ba2-counter-card p {
+    color: var(--ba2-text-muted);
+    margin: 0;
+}
+
+/* ==========================================================================
+   8. CASE STUDIES STICKY LEFT ALIGNMENT & MINIMALIST CARDS
+   ========================================================================== */
+.ba2-case-sticky-left {
+    position: sticky;
+    top: 100px;
+}
+
+.ba2-case-card {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 32px;
+    margin-bottom: 24px;
+    transition: var(--ba2-transition);
+    position: relative;
+}
+
+.ba2-case-card:hover {
+    border-color: var(--ba2-border-hover);
+    background: rgba(133, 91, 255, 0.05);
+    transform: translateY(-3px);
+}
+
+.ba2-case-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 100px;
+    background: rgba(133, 91, 255, 0.15);
+    color: var(--ba2-accent-light);
+    margin-bottom: 12px;
+}
+
+.ba2-case-card h3 {
+    margin-bottom: 10px;
+}
+
+.ba2-case-card h3 a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: var(--ba2-transition);
+}
+
+.ba2-case-card h3 a:hover {
+    color: var(--ba2-accent-light);
+}
+
+.ba2-case-stat-highlight {
+    color: var(--ba2-accent-light);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ba2-case-card p {
+    color: var(--ba2-text-muted);
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   9. FORM & CONTACT SECTION
+   ========================================================================== */
+.ba2-grow-box {
+    background: var(--ba2-card-bg);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 44px;
+    backdrop-filter: blur(20px);
+}
+
+.ba2-office-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--ba2-border);
+    border-radius: var(--ba2-radius);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ba2-office-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(133, 91, 255, 0.15);
+    border: 1px solid rgba(133, 91, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ba2-accent-light);
+    flex-shrink: 0;
+}
