@@ -654,23 +654,23 @@
     <div class="container">
       <div class="row g-4">
         <div class="col-md-6">
-          <div class="ba2-office-card">
+          <a href="tel:+971522831655" class="ba2-office-card text-decoration-none">
             <div class="ba2-office-icon">📞</div>
             <div>
-              <div class="text-white-50 text-uppercase">Phone Support</div>
-              <a href="tel:+971522831655" class="text-white text-decoration-none">+971 52 283 1655</a>
+              <div class="ba2-office-label">Phone Support</div>
+              <div class="ba2-office-val">+971 52 283 1655</div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="col-md-6">
-          <div class="ba2-office-card">
+          <a href="mailto:info@brandstory.ae" class="ba2-office-card text-decoration-none">
             <div class="ba2-office-icon">✉️</div>
             <div>
-              <div class="text-white-50 text-uppercase">Email Inquiry</div>
-              <a href="mailto:info@brandstory.ae" class="text-white text-decoration-none">info@brandstory.ae</a>
+              <div class="ba2-office-label">Email Inquiry</div>
+              <div class="ba2-office-val">info@brandstory.ae</div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="col-12">

@@ -636,6 +636,8 @@
     color: var(--ba2-accent-light);
     display: block;
     margin-bottom: 6px;
+    font-size: 34px;
+    font-weight: 600;
 }
 
 .ba2-counter-card p {
@@ -733,4 +735,36 @@
     justify-content: center;
     color: var(--ba2-accent-light);
     flex-shrink: 0;
+}
+
+a.ba2-office-card {
+    text-decoration: none;
+    transition: var(--ba2-transition);
+}
+
+a.ba2-office-card:hover {
+    border-color: var(--ba2-accent);
+    transform: translateY(-3px);
+}
+
+.ba2-office-label {
+    color: var(--ba2-text-muted);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.ba2-office-val {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+@media (max-width: 576px) {
+    .ba2-office-val {
+        font-size: 17px;
+    }
 }
