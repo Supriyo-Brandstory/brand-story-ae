@@ -334,7 +334,7 @@ class FrontendController extends Controller
     public function payPerClickServicesDubai()
     {
         $meta = [
-            'classname' => 'dm-agency-dubai'
+            'classname' => 'dm-agency-dubai ppcn'
         ];
         return $this->view('services/pay-per-click-ppc-services-in-dubai', ['meta' => $meta]);
     }
