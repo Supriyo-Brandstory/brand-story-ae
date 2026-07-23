@@ -440,10 +440,11 @@ class FrontendController extends Controller
     public function uiuxDesignCompanyInDubai()
     {
         $meta = [
-            'classname' => 'ui-ux-new-test'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/ui-ux-design-company-in-dubai', ['meta' => $meta]);
     }
+
     public function logoDesigningDubai()
     {
         $meta = [

@@ -6763,3 +6763,45 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         font-size: 18px !important;
     }
 }
+
+/* UI/UX 2 Page Styles */
+.ui-ux-hero-banner-slide {
+    background-image: url('../images/ui-ux-banner.webp');
+}
+
+.brandstory-link-underline {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.industry-card-icon img {
+    width: 44px;
+    height: 44px;
+}
+
+.trailblazer-desc {
+    max-width: 920px;
+    line-height: 1.6;
+}
+
+.trailblazer-outer-box {
+    background-image: url('../images/ui-ux-img.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    min-height: 520px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.trailblazer-card {
+    background: linear-gradient(135deg, #7C4DFF 0%, #651FFF 100%);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.trailblazer-card-text {
+    color: rgba(255, 255, 255, 0.85) !important;
+    line-height: 130%;
+}

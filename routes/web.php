@@ -58,6 +58,7 @@ Route::get('/seo-audit-services-in-dubai', 'FrontendController@seoAuditServicesI
 Route::get('/online-reputation-management-services-in-dubai', 'FrontendController@onlineReputationManagementServicesInDubai', 'onlinereputationmanagementservicesindubai');
 Route::get('/content-marketing-agency-dubai', 'FrontendController@contentMarketingAgencyDubai', 'contentmarketingagencydubai');
 Route::get('/ui-ux-design-company-in-dubai', 'FrontendController@uiuxDesignCompanyInDubai', 'uiuxdesigncompanyindubai');
+// Route::get('/ui-ux-design-company-in-dubai-2', 'FrontendController@uiuxDesignCompanyInDubai2', 'uiuxdesigncompanyindubai2');
 Route::get('/logo-designing-dubai', 'FrontendController@logoDesigningDubai', 'logodesigningdubai');
 Route::get('/creative-advertising-agency-in-dubai', 'FrontendController@creativeAdvertisingAgencyDubai', 'creativeadvertisingagencydubai');
 Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpressDevelopmentCompanyInDubai', 'wordpressdevelopmentcompanyindubai');
