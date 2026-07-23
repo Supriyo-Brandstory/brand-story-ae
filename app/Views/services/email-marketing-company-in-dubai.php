@@ -6,8 +6,8 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/email-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Email Marketing in Dubai </span> with 1.5 Million Verified Contacts</h1>
-                    <p class="premium-slide-subtitle">At BrandStory, our email marketing services in Dubai, UAE help businesses reach the right audience with access to a 1.5 million+ verified contacts. We leverage advanced segmentation, personalized content, and data-driven strategies to improve engagement. Our team of marketers, designers, and copywriters creates impactful email campaigns that build meaningful customer relationships with ethical email marketing best-practices.</p>
+                    <h1 class="premium-slide-title">Best <span class="premium-purple-highlight">Email Marketing Agency</span> in Dubai, UAE | BrandStory</h1>
+                    <p class="premium-slide-subtitle">Most inboxes are already full of emails nobody asked for. At BrandStory, we build email as a premium lifecycle system- the right message, to the right segment, at the right moment. With access to 1.5 million+ verified contacts, we are the best email marketing agency in Dubai using advanced segmentation and personalized content to make sure every campaign reaches people who actually want to hear from you.</p>
                     <div class="premium-slide-actions">
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                             <span>Talk to Experts</span>
@@ -24,24 +24,24 @@
     </div>
 </section>
 
-<!-- Performance marketing intro section -->
+<!-- 
 <section class="premium-perf-section">
     <div class="container">
         <div class="row">
-            <!-- Left Side: Image -->
+            
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
                     <img src="<?= base_url('assets/images/email-01.webp') ?>" alt="Best Email Marketing Agency in Dubai" class="img-fluid premium-perf-img">
                 </div>
             </div>
-            <!-- Right Side: Content -->
+            
             <div class="col-lg-6">
                 <div class="premium-perf-content">
                     <h2 class="premium-perf-title">Email Marketing Agency in Dubai, Turning Emails Into Revenue</h2>
                     <ul class="premium-perf-list">
-                        <li>Email marketing success relies on reaching out to the right audience and crafting messages that drive immediate action. At BrandStory, we are the top-performing email marketing agency in Dubai ensuring every campaign targets the right people with the right message at the right time.</li>
-                        <li>Our email marketing services in Dubai are designed to support your complete customer journey, from lead nurturing and brand awareness to customer retention and sales. We create customized email campaigns with engaging content, designs, and conversion strategies that are fully optimized for mobile and desktop.</li>
-                        <li>By continuously monitoring open rates, click-through rates, and campaign performance, we refine your strategy to deliver improvements and ROI. As a trusted Dubai email marketing company, BrandStory works as a strategic partner for businesses looking to maximize their digital communication impact. </li>
+                        <li>Email marketing in Dubai requires more than sending campaigns- it requires a precise methodology built on smart targeting, brand-safe messaging, and conversion-focused optimization. At BrandStory, we follow a structured delivery approach, so every campaign reaches the right audience with maximum impact.</li>
+                        <li>Our email marketing services in Dubai support your complete customer journey from lead nurturing and brand awareness to customer retention and sales. We build customized campaigns with engaging content, thoughtful design, and conversion strategies delivered through a consistent process.</li>
+                        <li>We continuously monitor open rates, click-through rates, and campaign performance, refining strategy at every stage to protect deliverability and drive measurable ROI. Every campaign follows ethical email marketing best-practices, so growth never comes at the cost of trust.</li>
                     </ul>
                     <div class="premium-perf-action">
                         <a href="/about/" class="premium-perf-btn">Know About Us</a>
@@ -49,6 +49,186 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>-->
+
+<!-- Process Flow Section -->
+<section class="mumbai-solution-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mumbai-solution-title">How Our Email Marketing Process Works</h2>
+                <p class="mumbai-solution-desc">
+                    Brandstory offers a structured email marketing framework designed to drive maximum engagement and revenue. We focus on continuous optimization, precise segmentation, and data-driven decisions to scale your campaigns.
+                </p>
+                <span class="mumbai-framework-label">Our Framework</span>
+            </div>
+        </div>
+        
+        <!-- Connected Steps Framework Card -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-framework-card">
+                    <span class="mumbai-framework-card-title">Seven Phases, One Connected Framework</span>
+                    <div class="mumbai-framework-steps-container">
+                        <div class="mumbai-framework-line"></div>
+                        <div class="mumbai-framework-steps">
+                            <!-- Step 1 Link -->
+                            <a href="#mumbai-phase-1" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">01</div>
+                                <h4 class="mumbai-step-title">Planning & Strategy</h4>
+                                <span class="mumbai-step-subtitle">Understanding your needs</span>
+                            </a>
+                            <!-- Step 2 Link -->
+                            <a href="#mumbai-phase-2" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">02</div>
+                                <h4 class="mumbai-step-title">List Segmentation</h4>
+                                <span class="mumbai-step-subtitle">Crafting a tailored plan</span>
+                            </a>
+                            <!-- Step 3 Link -->
+                            <a href="#mumbai-phase-3" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">03</div>
+                                <h4 class="mumbai-step-title">Content & Design</h4>
+                                <span class="mumbai-step-subtitle">Implementing strategies</span>
+                            </a>
+                            <!-- Step 4 Link -->
+                            <a href="#mumbai-phase-4" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">04</div>
+                                <h4 class="mumbai-step-title">Automation & Setup</h4>
+                                <span class="mumbai-step-subtitle">Leveraging technology</span>
+                            </a>
+                            <!-- Step 5 Link -->
+                            <a href="#mumbai-phase-5" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">05</div>
+                                <h4 class="mumbai-step-title">Deliverability Check</h4>
+                                <span class="mumbai-step-subtitle">Measuring success</span>
+                            </a>
+                            <!-- Step 6 Link -->
+                            <a href="#mumbai-phase-6" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">06</div>
+                                <h4 class="mumbai-step-title">Campaign Launch</h4>
+                                <span class="mumbai-step-subtitle">Adapting to change</span>
+                            </a>
+                            <!-- Step 7 Link -->
+                            <a href="#mumbai-phase-7" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">07</div>
+                                <h4 class="mumbai-step-title">Reporting</h4>
+                                <span class="mumbai-step-subtitle">Improving every cycle</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Phase Details (Alternating layout) -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-phase-details">
+                    
+                    <!-- Phase 1 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-1">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">01</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Planning & Strategy</h3>
+                            <p class="mumbai-phase-desc">
+                                Every successful campaign starts with clarity. We dive deep into your business objectives to define focused email goals- lead nurturing, brand awareness, or customer retention- and build a strategy around them.
+                            </p>
+                            <span class="mumbai-phase-footer">Clear goals for a high-performing campaign.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 2 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-2">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">02</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">List Segmentation</h3>
+                            <p class="mumbai-phase-desc">
+                                We don't send to everyone, we send to the right people. Our team builds verified contact lists and segments your audience by behavior, interest, and stage in the customer journey. The result? Messages that land with the people most likely to act.
+                            </p>
+                            <span class="mumbai-phase-footer">Segmented lists that reach the right audience.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 3 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-3">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">03</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Content & Design</h3>
+                            <p class="mumbai-phase-desc">
+                                The right message makes or breaks a campaign. We write engaging copy and design clean, mobile-friendly templates- balancing personalization with clarity while cutting anything that slows the reader down.
+                            </p>
+                            <span class="mumbai-phase-footer">Engaging content built to drive action.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 4 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-4">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">04</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Automation & Setup</h3>
+                            <p class="mumbai-phase-desc">
+                                Precision matters. We build automation flows with the right triggers, timing, and sequencing for welcome series, nurture journeys, and re-engagement campaigns. With clean setup, every send is deliberate and every decision is driven by data.
+                            </p>
+                            <span class="mumbai-phase-footer">Automated flows for consistent engagement.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 5 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-5">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">05</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Deliverability Check</h3>
+                            <p class="mumbai-phase-desc">
+                                Delivery is only half the battle. Our team verifies sender reputation, authentication protocols, and list hygiene before every send. Inbox placement and compliance are checked to make sure your message actually gets seen.
+                            </p>
+                            <span class="mumbai-phase-footer">Verified sends that reach the inbox, not spam.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 6 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-6">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">06</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Campaign Launch</h3>
+                            <p class="mumbai-phase-desc">
+                                We track what matters: opens, clicks, conversions. Through relentless A/B testing on subject lines, send times, and content, we refine before scaling- driving continuous improvement in engagement.
+                            </p>
+                            <span class="mumbai-phase-footer">Tested campaigns launched with confidence.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 7 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-7">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">07</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Reporting</h3>
+                            <p class="mumbai-phase-desc">
+                                We track what matters: purchases, leads, sign-ups. Through clear reporting on open rates, click-through rates, and ROI, we refine, reallocate, and scale what works- driving continuous improvement across every campaign.
+                            </p>
+                            <span class="mumbai-phase-footer">Continuous scaling and ROI optimization.</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+      
     </div>
 </section>
 
@@ -59,11 +239,11 @@
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">We Deliver Targeted Email Marketing Solutions</h2>
+                    <h2 class="text-white pb-3">Email Marketing Agency in Dubai, Turning Emails Into Revenue</h2>
                     <ul class="premium-perf-list">
-                        <li>BrandStory is not a regular email marketing agency in Dubai. We work as your strategic growth partner with full-stack digital marketing services. With a 100+ team of dedicated experts with years of expertise in email marketing. Our biggest advantage is understanding about Dubai’s market and commitment to deliver the best results.</li>
-                        <li>Our team studies your business, audience, and objectives to create personalized email campaigns that build stronger connections. Our email marketing services include strategy development, campaign creation, automation, content writing, and performance analysis. From compelling messaging to optimized calls-to-action, we create campaigns designed to improve engagement and generate conversions.</li>
-                        <li class="pb-0 mb-0">We work specifically with Dubai and UAE-based businesses: Arabic-English bilingual campaigns, Ramadan and seasonal timing strategies, and compliance with UAE data regulations.</li>
+                        <li>Email marketing in Dubai requires more than sending campaigns- it requires a precise methodology built on smart targeting, brand-safe messaging, and conversion-focused optimization. At BrandStory, we follow a structured delivery approach, so every campaign reaches the right audience with maximum impact.</li>
+                        <li>Our email marketing services in Dubai support your complete customer journey from lead nurturing and brand awareness to customer retention and sales. We build customized campaigns with engaging content, thoughtful design, and conversion strategies delivered through a consistent process.</li>
+                        <li>We continuously monitor open rates, click-through rates, and campaign performance, refining strategy at every stage to protect deliverability and drive measurable ROI. Every campaign follows ethical email marketing best-practices, so growth never comes at the cost of trust.</li>
                     </ul>
                 </div>
             </div>
@@ -691,42 +871,172 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-
-<!-- Benefits of Email Marketing Companies section -->
-<section class="performance-results-section sp-50 pm-results-image-wrap">
+<section class="premium-why-choose-section">
     <div class="container">
+        <h2 class="premium-why-choose-title">Why Choose BrandStory As<br> Your Email Marketing Partner</h2>
         <div class="row align-items-center">
-            <!-- Left Side: Content -->
-            <div class="col-lg-6">
-                <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Why Choose BrandStory for Email Marketing Services?</h2>
-                    <p>At BrandStory, we have the top-level expertise in email marketing in Dubai. Here are some reasons that make us among the best agencies for email marketing:</p>
-                    <ul class="premium-perf-list">
-                        <li><b>Focused Strategies:</b> Connect with the right audience through data-driven email campaigns designed around your business goals, customer interests, and buying behaviour.</li>
-                        <li><b>Smart Email Automation:</b> Streamline your communication with smart automation workflows that deliver timely, personalized messages and nurture customer relationships.</li>
-                        <li><b>High-Impact Content:</b> Create a stronger impact with professionally crafted email content, compelling designs, and clear messaging that encourages audience action.</li>
-                        <li><b>1.5M+ Verified Email Contacts:</b> Expand your reach with access to a 1.5 million+ verified email contact database, helping businesses run targeted email marketing campaigns.</li>
-                    </ul>
-                    <p>While most agencies blast emails, we build revenue-generating email ecosystems for Dubai businesses.</p>
+            <!-- Left Side: Image -->
+            <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+                <div class="premium-why-choose-img-wrap">
+                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
+                        width="1104" height="1296"
+                        alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
-            <!-- Right Side: Image -->
-           
+            <!-- Right Side: Accordion -->
+            <div class="col-lg-7 col-md-12">
+                <div class="accordion" id="whyChooseAccordion">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
+                                aria-controls="whyChooseCollapseOne">
+                                <span>Verified Contact Access</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">We give you access to over 1.5 million verified contacts across the UAE. Every list is checked for accuracy, so your emails reach real people who are likely to engage. No wasted sends, no guessing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
+                                aria-controls="whyChooseCollapseTwo">
+                                <span>Segmentation That Works</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">We do not send the same email to everyone. We group your audience by behavior, interest, and stage in the buying journey. This means each message lands with the right person at the right time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
+                                aria-controls="whyChooseCollapseThree">
+                                <span>Content Built for Dubai's Market</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">Our copywriters and designers understand what resonates with UAE audiences. We write clear, relevant emails and pair them with clean designs that work across mobile and desktop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
+                                aria-controls="whyChooseCollapseFour">
+                                <span>Automation Without the Guesswork</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">We set up welcome series, nurture flows, and re-engagement campaigns using proven triggers and timing. Your audience gets consistent, relevant emails without your team lifting a finger every time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
+                                aria-controls="whyChooseCollapseFive">
+                                <span>Deliverability You Can Rely</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">We follow strict list hygiene, authentication, and sending practices to protect your sender reputation. This keeps your emails out of spam folders and in front of the people who matter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="whyChooseHeadingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
+                                aria-controls="whyChooseCollapseSix">
+                                <span>Reporting You Can Validate</span>
+                                <span class="accordion-button-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </h4>
+                        <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">We track open rates, click-through rates, and conversions on every campaign, and share clear reports you can check yourself. Every decision we make is backed by real data, not assumptions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Why Invest in Email Marketing section -->
+
+
+<!--
 <section class="why-invest-email-section">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Left Side: Image -->
+            
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
                     <img src="<?= base_url('assets/images/email-04.webp') ?>" alt="Why Invest In Email Marketing?" class="img-fluid premium-perf-img">
                 </div>
             </div>
-            <!-- Right Side: Content -->
+            
             <div class="col-lg-6">
                 <div class="why-invest-content">
                     <h2 class="why-invest-title text-white">Why Email Marketing Still Matters in 2026</h2>
@@ -758,9 +1068,9 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<!-- 
+
 <section class="premium-services-section">
     <div class="container">
         <h2 class="premium-services-title">The Need for Email Marketing For Your Business</h2>
