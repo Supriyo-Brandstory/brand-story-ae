@@ -1,4 +1,7 @@
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/css/branding-agency-dubai-2.css') ?>">
+
+
 
 <div class="ba2-page-wrapper">
   <!-- Ambient background glow elements -->
@@ -54,47 +57,6 @@
     </div>
   </section>
 
-  <!-- ==========================================
-       2. SEO MARQUEE SECTION
-       ========================================== -->
-  <section class="ba2-marquee-sec">
-    <div class="ba2-marquee-track">
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Branding Strategy</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Visual Identity</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Verbal Brand Identity</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Messaging</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Guidelines</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Activation</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Digital Branding</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Rebranding Services</a>
-      <span class="ba2-marquee-sep">يلا</span>
-
-      <!-- Duplicate for endless loop -->
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Branding Strategy</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Visual Identity</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Verbal Brand Identity</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Messaging</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Guidelines</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Brand Activation</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Digital Branding</a>
-      <span class="ba2-marquee-sep">يلا</span>
-      <a href="/branding-agency-in-dubai" class="ba2-marquee-item">Rebranding Services</a>
-      <span class="ba2-marquee-sep">يلا</span>
-    </div>
-  </section>
 
   <!-- ==========================================
        3. ABOUT SECTION (CSS Decorative Accent Card)
@@ -140,199 +102,6 @@
     </div>
   </section>
 
-  <!-- ==========================================
-       5. CONTEXTUAL STRATEGIES - ELEVATED STICKY SHOWCASE
-       ========================================== -->
-  <section class="ba2-strategy-sec">
-    <div class="container">
-      <div class="row g-5">
-        
-        <!-- Left Column: Sticky Header & Quick Navigation -->
-        <div class="col-lg-4">
-          <div class="ba2-strategy-sticky-header">
-            <div class="ba2-badge mb-3">Strategy & Framework</div>
-            <h2 class="ba2-title-large text-white mb-3">
-              Contextual Strategies to Attract the <span class="ba2-title-gradient">Right Audience</span> to Your Brand
-            </h2>
-            <p class="ba2-text-muted mb-4">
-              Our 6 strategic pillars combine market intelligence, visual storytelling, and performance marketing to build durable brand equity.
-            </p>
-
-            <div class="ba2-strategy-pillar-list d-none d-lg-flex">
-              <a href="#pillar-1" class="ba2-strategy-pillar-link"><span>01</span> Brand Awareness</a>
-              <a href="#pillar-2" class="ba2-strategy-pillar-link"><span>02</span> Audience Growth</a>
-              <a href="#pillar-3" class="ba2-strategy-pillar-link"><span>03</span> Customer Acquisition</a>
-              <a href="#pillar-4" class="ba2-strategy-pillar-link"><span>04</span> Customer Retention</a>
-              <a href="#pillar-5" class="ba2-strategy-pillar-link"><span>05</span> Customer Loyalty</a>
-              <a href="#pillar-6" class="ba2-strategy-pillar-link"><span>06</span> Rebranding Services</a>
-            </div>
-
-            <a href="javascript:void(0);" class="ba2-btn-primary uniq-contact-lead-btn mt-2">
-              ➤ Discuss Your Strategy
-            </a>
-          </div>
-        </div>
-
-        <!-- Right Column: Strategy Cards List -->
-        <div class="col-lg-8">
-          <div class="ba2-strategy-card-list">
-            
-            <!-- Pillar 01 -->
-            <div class="ba2-strategy-card" id="pillar-1">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 01</span>
-                  <h2 class="text-white mb-0">Brand Awareness</h2>
-                </div>
-                <div class="ba2-strategy-card-num">01</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Brand Strategy</h3>
-                  <p class="ba2-subservice-desc">A successful branding strategy is one that encompasses your brand's mission, its promises to customers, and how these are communicated. We can help you develop all of this and more. A well-branded company is easily identifiable and preferred by consumers.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">SEO Services</h3>
-                  <p class="ba2-subservice-desc">BrandStory is a digital marketing agency that will help your business grow online. We’re the best SEO company in Dubai, and we can help you increase leads by improving your website’s visibility on Google. Our team of experts understands how to get results with SEO.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Creative Services</h3>
-                  <p class="ba2-subservice-desc">BrandStory is a full-service creative agency that provides creative solutions to your visual and content-related needs. We’re here to help with routine functions of marketing, including content, video production, graphic design, website and UI/UX design or consulting.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pillar 02 -->
-            <div class="ba2-strategy-card" id="pillar-2">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 02</span>
-                  <h2 class="text-white mb-0">Audience Growth</h2>
-                </div>
-                <div class="ba2-strategy-card-num">02</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Content Marketing</h3>
-                  <p class="ba2-subservice-desc">Content marketing is one of the most effective ways to reach your target audience. BrandStory can help you create and distribute content such as blogs, newsletters, white papers, social media posts, emails, videos etc. Our team can help you develop a content marketing strategy that fits your business and helps you achieve your goals.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">UI/UX Design</h3>
-                  <p class="ba2-subservice-desc">Great UI/UX design is key to keeping customers satisfied and coming back for more. We understand the importance of a great user experience and work tirelessly to create designs that are not only visually appealing but also functionally sound.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Website Design</h3>
-                  <p class="ba2-subservice-desc">Our team of experts will work with you every step of the way, from strategy to design and execution. We don’t just build websites—we help businesses thrive online by providing exceptional customer service, strategic insights, and results-driven campaigns that drive traffic to your site.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pillar 03 -->
-            <div class="ba2-strategy-card" id="pillar-3">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 03</span>
-                  <h2 class="text-white mb-0">Customer Acquisition</h2>
-                </div>
-                <div class="ba2-strategy-card-num">03</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">PPC Services</h3>
-                  <p class="ba2-subservice-desc">With our PPC ad campaigns, we increase the digital footprint for businesses. Our PPC experts lay out a well-etched plan for implementation at the beginning of the campaign. The PPC ads will be designed to direct traffic towards specific keywords, and bring valuable leads.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Email Marketing</h3>
-                  <p class="ba2-subservice-desc">Email Marketing is the most powerful digital marketing tool. It's personal and customer-focused approach puts it way ahead of other digital marketing channels. We use email marketing to target specific demographics for brands and businesses.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">B2B Marketing</h3>
-                  <p class="ba2-subservice-desc">We are B2B marketing experts and we know how to help companies find the right customers and create value for them. That’s why our team of experts are here to help your business grow by creating relevant differentiation that will generate interest in your offerings.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pillar 04 -->
-            <div class="ba2-strategy-card" id="pillar-4">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 04</span>
-                  <h2 class="text-white mb-0">Customer Retention</h2>
-                </div>
-                <div class="ba2-strategy-card-num">04</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Marketing Automation</h3>
-                  <p class="ba2-subservice-desc">BrandStory was created with the modern brands in mind. We know you are busy and that every second counts. That is why we have designed our service to make automating your marketing as easy as possible. You will be able to see real-time results and track your progress along the way.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Customer Experience</h3>
-                  <p class="ba2-subservice-desc">We help improve customer retention by creating meaningful customer experiences that build loyalty and long-term engagement. By combining personalization with real-time customer insights and feedback, we deliver experiences that strengthen relationships and drive sustainable growth.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Employer Branding</h3>
-                  <p class="ba2-subservice-desc">We are experts in employer branding and we know what it takes to make your company stand out from the rest. We have a suite of services that will help you create an amazing employment brand that your employees and future job seekers will love.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pillar 05 -->
-            <div class="ba2-strategy-card" id="pillar-5">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 05</span>
-                  <h2 class="text-white mb-0">Customer Loyalty</h2>
-                </div>
-                <div class="ba2-strategy-card-num">05</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Marketing Analytics</h3>
-                  <p class="ba2-subservice-desc">Turn customer data into lasting loyalty with powerful analytics and customer-centric marketing strategies. Gain deeper insights into customer behavior, enhance service experiences, identify opportunities for improvement, and make data-driven decisions that maximize engagement, retention, and ROI.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Customer Loyalty</h3>
-                  <p class="ba2-subservice-desc">With BrandStory, we provide all the strategies necessary for creating a strong customer loyalty program. With data, insights and recommendations to maximize your consumer loyalty. We optimize your strategy, and ensure your consumers benefit in the moments that matter.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Brand Lift Study</h3>
-                  <p class="ba2-subservice-desc">From initial impression to final conversion with the metrics that matter, like brand awareness, ad recall, and consideration with our Brand Lift Study you get actionable insights so you can adjust your campaigns based on what is working well with your customers.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pillar 06 -->
-            <div class="ba2-strategy-card" id="pillar-6">
-              <div class="ba2-strategy-card-header">
-                <div>
-                  <span class="ba2-strategy-pillar-badge mb-2">✦ Pillar 06</span>
-                  <h2 class="text-white mb-0">Rebranding Services</h2>
-                </div>
-                <div class="ba2-strategy-card-num">06</div>
-              </div>
-              <div class="ba2-subservice-grid">
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Brand Repositioning</h3>
-                  <p class="ba2-subservice-desc">As markets evolve, brands must adapt to remain relevant. We help redefine your brand positioning, messaging, and identity to better connect with modern audiences, strengthen differentiation, and ensure your brand continues to reflect your vision, values, and business objectives.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Identity Transformation</h3>
-                  <p class="ba2-subservice-desc">A strong visual identity shapes how customers perceive your business. We redesign logos, typography, color palettes, and brand assets to create a cohesive and memorable presence that enhances recognition, strengthens credibility, and delivers consistency across every customer touchpoint.</p>
-                </div>
-                <div class="ba2-subservice-item">
-                  <h3 class="ba2-subservice-title">Strategy & Communication</h3>
-                  <p class="ba2-subservice-desc">Successful brands communicate with clarity and purpose. We develop strategic branding frameworks, messaging pillars, and communication guidelines that align with your business goals, helping you build trust and maintain a consistent brand voice across channels.</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- ==========================================
        6. INDUSTRIES WE SERVE (PURE CSS MINIMALIST CARDS)
@@ -539,75 +308,177 @@
     </div>
   </section>
 
-  <!-- ==========================================
-       9. CASE STUDIES SECTION
-       ========================================== -->
-  <section class="ba2-section">
+<section class="premium-cs-section">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-4">
-          <div class="ba2-case-sticky-left">
-            <div class="ba2-badge mb-3">Our Works</div>
-            <h2 class="ba2-title-large text-white mb-3">Real Brands. Real Results.</h2>
-            <p class="ba2-text-muted mb-4">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
-            <a href="/case-study/" class="ba2-btn-outline">View all Case Studies</a>
-          </div>
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
+                    challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
         </div>
 
-        <div class="col-lg-8">
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Digital Marketing</span>
-            <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai - Ecommerce</a></h3>
-            <span class="ba2-case-stat-highlight">135% More Sales | 400% More Traffic | Just 3 Months</span>
-            <p>A thriving e-commerce brand in Downtown Dubai faced stagnant sales—BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
-            <a href="/case-study/e-commerce/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
-
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Branding & Digital Marketing</span>
-            <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
-            <span class="ba2-case-stat-highlight">210% More Enquiries | Stronger Visibility | Just 3 Months</span>
-            <p>TravelEX faced growing competition in UAE's financial services market—BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
-            <a href="/case-study/travel-agency/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
-
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Digital Marketing</span>
-            <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
-            <span class="ba2-case-stat-highlight">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</span>
-            <p>Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings—BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition.</p>
-            <a href="/case-study/hotel/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
-
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Digital Marketing</span>
-            <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
-            <span class="ba2-case-stat-highlight">Top 5 Rankings | 80% More Engagement | Enrollment Surged</span>
-            <p>In Dubai's competitive education landscape, NIMS School needed more than visibility—they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
-            <a href="/case-study/education-institution/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
-
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Digital Marketing</span>
-            <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
-            <span class="ba2-case-stat-highlight">Global Reach | Targeted PPC | More Brand Authority</span>
-            <p>Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations—BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
-            <a href="/case-study/wipro-infrastructure-engineering/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
-
-          <div class="ba2-case-card">
-            <span class="ba2-case-tag">Digital Marketing</span>
-            <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
-            <span class="ba2-case-stat-highlight">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</span>
-            <p>NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing—BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
-            <a href="/case-study/nanoprecise-sci-corp/" class="ba2-industry-link-text mt-3">Know more →</a>
-          </div>
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
+                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
+                                that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
     </div>
-  </section>
-
+</section>
   <!-- ==========================================
        10. GROW YOUR BUSINESS & CONTACT FORM
        ========================================== -->

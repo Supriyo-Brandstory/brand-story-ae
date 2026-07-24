@@ -714,6 +714,31 @@
     backdrop-filter: blur(20px);
 }
 
+.ba2-page-wrapper .grow-form-main form label {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.ba2-page-wrapper .grow-form-main form label:has(+ select[name="services[]"])::after,
+.ba2-page-wrapper .grow-form-main form label:has(+ select[id="services"])::after,
+.ba2-page-wrapper .grow-form-main form label:has(+ textarea[name="message"])::after,
+.ba2-page-wrapper .grow-form-main form label:has(+ textarea[id="message"])::after {
+    color: #ffffff !important;
+}
+
+.ba2-page-wrapper .grow-form-main form .form-control,
+.ba2-page-wrapper .grow-form-main form .form-select {
+    background-color: #ffffff !important;
+    color: #1b1b1d !important;
+    border: 1px solid #ced4da !important;
+}
+
+.ba2-page-wrapper .grow-form-main form .form-select option {
+    background-color: #ffffff !important;
+    color: #1b1b1d !important;
+}
+
+
 .ba2-office-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--ba2-border);
@@ -766,5 +791,174 @@ a.ba2-office-card:hover {
 @media (max-width: 576px) {
     .ba2-office-val {
         font-size: 17px;
+    }
+}
+
+/* ==========================================================================
+   10. MOBILE RESPONSIVE DESIGN (Max-width: 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* Every section mobile padding: top 60px, bottom 20px, left/right 20px */
+    .ba2-page-wrapper section,
+    .ba2-page-wrapper .ba2-hero,
+    .ba2-page-wrapper .ba2-section,
+    .ba2-page-wrapper .new-client-section,
+    .ba2-page-wrapper .premium-cs-section,
+    .ba2-page-wrapper .dm-casestudies-sec,
+    .ba2-page-wrapper .dm-faq-section {
+        padding-top: 60px !important;
+        padding-bottom: 20px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .ba2-page-wrapper section.pt-0,
+    .ba2-page-wrapper .ba2-section.pt-0 {
+        padding-top: 60px !important;
+    }
+
+    /* Container adjustments on mobile */
+    .ba2-page-wrapper .container,
+    .ba2-page-wrapper .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* 1. Hero Section Mobile Responsiveness */
+    .ba2-hero {
+        min-height: auto !important;
+    }
+
+    .ba2-title-main {
+        font-size: 28px !important;
+        line-height: 1.25 !important;
+    }
+
+    .ba2-title-large {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+    }
+
+    .ba2-hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ba2-hero-actions .ba2-btn-primary,
+    .ba2-hero-actions .ba2-btn-outline {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .ba2-hero-stats-row {
+        flex-direction: column;
+        gap: 20px !important;
+        margin-top: 35px !important;
+        padding-top: 25px !important;
+    }
+
+    /* 2. About Section Mobile Responsiveness */
+    .ba2-about-card {
+        padding: 24px 20px !important;
+        border-radius: 16px !important;
+    }
+
+    .ba2-about-accent-box {
+        padding: 24px 20px !important;
+        border-radius: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .ba2-number-callout {
+        font-size: 48px !important;
+    }
+
+    /* 3. Industry Cards Mobile Responsiveness */
+    .ba2-industry-card {
+        padding: 24px 20px !important;
+        border-radius: 16px !important;
+    }
+
+    /* 4. Why Choose BrandStory Section Mobile Responsiveness */
+    .ba2-wcp-left-box {
+        position: relative !important;
+        top: 0 !important;
+        padding: 24px 20px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .ba2-wcp-stat-grid {
+        margin: 20px 0 !important;
+        padding: 15px 0 !important;
+        gap: 10px !important;
+    }
+
+    .ba2-wcp-item {
+        padding: 20px 16px !important;
+        gap: 14px !important;
+        flex-direction: row;
+    }
+
+    /* 5. Counter Cards Mobile Responsiveness */
+    .ba2-counter-card {
+        padding: 20px 14px !important;
+        border-radius: 16px !important;
+    }
+
+    .ba2-counter-num {
+        font-size: 28px !important;
+    }
+
+    /* 6. Case Studies Mobile Responsiveness */
+    .premium-cs-row-card {
+        padding: 24px 20px !important;
+        margin-bottom: 20px !important;
+        border-radius: 16px !important;
+    }
+
+    .premium-cs-row-title {
+        font-size: 20px !important;
+    }
+
+    .premium-cs-row-stats {
+        font-size: 15px !important;
+    }
+
+    .premium-cs-btn {
+        width: 100% !important;
+        text-align: center;
+        display: block;
+    }
+
+    /* 7. Contact Form & Office Section Mobile Responsiveness */
+    .ba2-grow-box {
+        padding: 24px 20px !important;
+        border-radius: 16px !important;
+    }
+
+    .grow-form-main {
+        padding: 0 !important;
+    }
+
+    .grow-form-main form button[type="submit"],
+    .grow-form-main form button#api_btn {
+        width: 100% !important;
+    }
+
+    .ba2-office-card {
+        padding: 20px 16px !important;
+        gap: 16px !important;
+        border-radius: 16px !important;
+    }
+
+    /* 8. FAQ Section Mobile Responsiveness */
+    .dm-faq-main .nav-pills {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dm-faq-main .nav-link {
+        width: 100%;
+        text-align: center;
     }
 }
