@@ -12,15 +12,16 @@
         <div class="card-header bg-white py-3">
             <div class="row align-items-center">
                 <div class="col">
-                    <form action="<?= route('admin.pages.index') ?>" method="GET" class="d-flex gap-2">
-                        <div class="input-group" style="max-width: 300px;">
-                            <input type="text" name="search" class="form-control" placeholder="Search pages..." value="<?= htmlspecialchars($search ?? '') ?>">
-                            <button class="btn btn-outline-primary" type="submit">
-                                <i class="bi bi-search"></i>
+                    <form action="<?= route('admin.pages.index') ?>" method="GET" class="d-flex align-items-center gap-2">
+                        <div class="input-group" style="max-width: 360px;">
+                            <input type="text" name="search" class="form-control" placeholder="Search by title or slug..." value="<?= htmlspecialchars($search ?? '') ?>">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="bi bi-search"></i> Search
                             </button>
                         </div>
                         <?php if (!empty($search)): ?>
                             <a href="<?= route('admin.pages.index') ?>" class="btn btn-outline-secondary">Clear</a>
+                            <span class="text-muted ms-2 small">Found <?= (int)($total ?? 0) ?> result(s) for "<strong><?= htmlspecialchars($search) ?></strong>"</span>
                         <?php endif; ?>
                     </form>
                 </div>

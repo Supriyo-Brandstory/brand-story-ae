@@ -16,28 +16,20 @@ class AdminPageController extends AdminBaseController
     public function index()
     {
         $pageModel = new Page();
-        $search = $_GET['search'] ?? '';
+        $search = trim($_GET['search'] ?? '');
         
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         if ($page < 1) $page = 1;
         $perPage = 10;
         
-        $where = [];
-        if (!empty($search)) {
-            // BaseModel paginate supports basic WHERE col LIKE ? if it contains %
-            $where = ['title' => "%$search%"];
-            // Note: Current BaseModel::paginate only supports AND between multiple conditions.
-            // If we want OR (title OR slug), we'd need to extend paginate or use query().
-            // For now, searching by title is a good start.
-        }
-        
-        $paginatedData = $pageModel->paginate($perPage, $page, $where);
+        $paginatedData = $pageModel->searchPages($search, $perPage, $page);
 
         $this->adminView('pages/index', [
             'title' => 'Pages Management',
             'pages' => $paginatedData['data'],
             'currentPage' => $paginatedData['current_page'],
             'totalPages' => $paginatedData['last_page'],
+            'total' => $paginatedData['total'],
             'perPage' => $perPage,
             'search' => $search
         ]);
