@@ -1823,6 +1823,11 @@ include __DIR__ . '/component/client_reviews.php';
         </div>
     </div>
 </section>
+<?php 
+  $category = 'Digital Marketing';
+  $padding= 'sp-50';
+  include __DIR__ . '/component/blog_carousel.php'; 
+?>
 <section class="dm-faq-section sp-50 dm-bg">
     <div class="container">
         <h2 class="text-center text-white mb-lg-5 mb-4">Your Questions Answered</h2>
@@ -2359,6 +2364,7 @@ include __DIR__ . '/component/client_reviews.php';
         </div>
     </div>
 </section>
+<!-- Blog Carousel Section -->
 
 <section class="container">
     <div class="new-cta-footer">
