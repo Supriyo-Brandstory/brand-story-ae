@@ -201,6 +201,69 @@
     pointer-events: none;
 }
 
+/* Background Text Marquee (3 Rows) in Banner */
+.ba2-hero-bg-marquee {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+    opacity: 0.10;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.ba2-hero-bg-marquee-row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ba2-hero-bg-marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    white-space: nowrap;
+    width: max-content;
+    animation: ba2HeroBgMarquee 35s linear infinite;
+}
+
+.ba2-hero-bg-marquee-track.reverse {
+    animation-direction: reverse;
+}
+
+@keyframes ba2HeroBgMarquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+.ba2-hero-bg-marquee span {
+    font-size: 110px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--ba2-accent-light);
+    line-height: 1;
+}
+
+.ba2-hero-bg-marquee .ba2-hero-bg-marquee-sep {
+    font-size: 60px;
+    color: var(--ba2-accent);
+    -webkit-text-stroke: 0;
+    opacity: 0.8;
+}
+
+
+
 .ba2-hero-content {
     max-width: 920px;
     margin: 0 auto;
@@ -224,7 +287,7 @@
     gap: 40px;
     margin-top: 60px;
     padding-top: 40px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.06); */
 }
 
 .ba2-hero-stat-item h4 {
@@ -555,6 +618,158 @@
     top: 100px;
 }
 
+/* Radar Scanner Animation Graphic */
+.ba2-radar-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    height: 260px;
+    margin: 24px auto;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgba(133, 91, 255, 0.15) 0%, rgba(13, 15, 22, 0.9) 75%);
+    border: 1px solid rgba(133, 91, 255, 0.35);
+    box-shadow: 0 0 35px rgba(133, 91, 255, 0.22), inset 0 0 30px rgba(133, 91, 255, 0.15);
+    overflow: hidden;
+}
+
+.ba2-radar-screen {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+}
+
+.ba2-radar-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px dashed rgba(133, 91, 255, 0.28);
+}
+
+.ba2-radar-ring.ring-1 {
+    width: 33%;
+    height: 33%;
+}
+
+.ba2-radar-ring.ring-2 {
+    width: 66%;
+    height: 66%;
+}
+
+.ba2-radar-ring.ring-3 {
+    width: 92%;
+    height: 92%;
+}
+
+.ba2-radar-crosshair-v {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: rgba(133, 91, 255, 0.25);
+    transform: translateX(-50%);
+}
+
+.ba2-radar-crosshair-h {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: rgba(133, 91, 255, 0.25);
+    transform: translateY(-50%);
+}
+
+.ba2-radar-sweep {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg at 50% 50%, rgba(133, 91, 255, 0.5) 0deg, rgba(133, 91, 255, 0.15) 30deg, transparent 60deg, transparent 360deg);
+    animation: ba2RadarSweep 4s linear infinite;
+}
+
+@keyframes ba2RadarSweep {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ba2-radar-blip {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 3;
+}
+
+.ba2-radar-blip.blip-1 {
+    top: 22%;
+    left: 52%;
+}
+
+.ba2-radar-blip.blip-2 {
+    top: 66%;
+    left: 14%;
+}
+
+.ba2-radar-blip.blip-3 {
+    top: 38%;
+    left: 12%;
+}
+
+.ba2-radar-blip .blip-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--ba2-accent-light);
+    box-shadow: 0 0 12px var(--ba2-accent);
+    animation: ba2BlipPing 2s infinite ease-in-out;
+}
+
+.ba2-radar-blip.blip-2 .blip-dot {
+    animation-delay: 0.7s;
+}
+
+.ba2-radar-blip.blip-3 .blip-dot {
+    animation-delay: 1.4s;
+}
+
+@keyframes ba2BlipPing {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+        box-shadow: 0 0 8px var(--ba2-accent);
+    }
+
+    50% {
+        transform: scale(1.6);
+        opacity: 1;
+        box-shadow: 0 0 18px var(--ba2-accent-light);
+    }
+}
+
+.ba2-radar-blip .blip-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: rgba(13, 15, 22, 0.85);
+    border: 1px solid rgba(133, 91, 255, 0.35);
+    padding: 2px 7px;
+    border-radius: 50px;
+    backdrop-filter: blur(6px);
+    white-space: nowrap;
+}
+
+
 .ba2-wcp-stat-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -798,6 +1013,8 @@ a.ba2-office-card:hover {
    10. MOBILE RESPONSIVE DESIGN (Max-width: 768px)
    ========================================================================== */
 @media (max-width: 768px) {
+
+
     /* Every section mobile padding: top 60px, bottom 20px, left/right 20px */
     .ba2-page-wrapper section,
     .ba2-page-wrapper .ba2-hero,
@@ -808,8 +1025,22 @@ a.ba2-office-card:hover {
     .ba2-page-wrapper .dm-faq-section {
         padding-top: 60px !important;
         padding-bottom: 20px !important;
+
+    }
+
+    .ba2-hero,
+    .new-client-section {
         padding-left: 20px !important;
         padding-right: 20px !important;
+    }
+
+    .mumbai-choose-us-section,
+    .ba2-section,
+    .sp-50.dm-casestudies-sec.dm-bg,
+    .premium-cs-section,
+    .dm-faq-section.sp-50.dm-bg {
+        padding-left: 13px !important;
+        padding-right: 13px !important;
     }
 
     .ba2-page-wrapper section.pt-0,
@@ -828,6 +1059,18 @@ a.ba2-office-card:hover {
     .ba2-hero {
         min-height: auto !important;
     }
+
+    .ba2-hero-bg-marquee span {
+        font-size: 45px !important;
+        -webkit-text-stroke: 1.5px var(--ba2-accent-light) !important;
+        letter-spacing: 2px !important;
+    }
+
+    .ba2-hero-bg-marquee .ba2-hero-bg-marquee-sep {
+        font-size: 25px !important;
+    }
+
+
 
     .ba2-title-main {
         font-size: 28px !important;
@@ -851,10 +1094,11 @@ a.ba2-office-card:hover {
     }
 
     .ba2-hero-stats-row {
-        flex-direction: column;
+        /* flex-direction: column;
         gap: 20px !important;
         margin-top: 35px !important;
-        padding-top: 25px !important;
+        padding-top: 25px !important; */
+        display: none;
     }
 
     /* 2. About Section Mobile Responsiveness */
@@ -887,6 +1131,13 @@ a.ba2-office-card:hover {
         margin-bottom: 24px !important;
     }
 
+    .ba2-radar-wrapper {
+        max-width: 210px !important;
+        height: 210px !important;
+        margin: 20px auto !important;
+    }
+
+
     .ba2-wcp-stat-grid {
         margin: 20px 0 !important;
         padding: 15px 0 !important;
@@ -911,7 +1162,7 @@ a.ba2-office-card:hover {
 
     /* 6. Case Studies Mobile Responsiveness */
     .premium-cs-row-card {
-        padding: 24px 20px !important;
+        padding: 0px !important;
         margin-bottom: 20px !important;
         border-radius: 16px !important;
     }

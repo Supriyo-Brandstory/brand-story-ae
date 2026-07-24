@@ -432,7 +432,20 @@
             </div>
 
 
-          
+            <div class="ba2-wcp-stat-grid">
+              <div class="ba2-wcp-stat-box">
+                <h4>10+</h4>
+                <span>Years in Dubai</span>
+              </div>
+              <div class="ba2-wcp-stat-box">
+                <h4>1,000+</h4>
+                <span>Brands Built</span>
+              </div>
+              <div class="ba2-wcp-stat-box">
+                <h4>5★</h4>
+                <span>Client Rating</span>
+              </div>
+            </div>
 
             <a href="/contact/" class="ba2-btn-primary w-100 mt-2">➤ Get in Touch</a>
           </div>
