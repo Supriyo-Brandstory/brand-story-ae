@@ -401,6 +401,46 @@
     </div>
 </section>
 
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
+
+<!-- Custom Stats Banner Section -->
+<section class="premium-stats-banner-section">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <!-- Left Side: Image of two people standing back-to-back -->
+            <div class="col-lg-5 col-md-12">
+                <div class="premium-stats-banner-img-wrap">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+                </div>
+            </div>
+            <!-- Right Side: Statistics Content -->
+            <div class="col-lg-7 col-md-12">
+                <div class="premium-stats-banner-content pb-5 pb-lg-0">
+                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
+                    <div class="premium-stats-banner-main">
+                        <div class="premium-stats-banner-num">1000+</div>
+                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
+                    </div>
+                    <div class="premium-stats-banner-action">
+                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
+                            <span>Contact Us</span>
+                            <span class="btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="premium-stats-section">
     <div class="container">
         <div class="premium-stats-row">
