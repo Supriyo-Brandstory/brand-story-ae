@@ -1062,10 +1062,12 @@ class FrontendController extends Controller
     }
     public function performancemarketing()
     {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
+        header("Location: /performance-marketing-agency-in-dubai-uae/", true, 301);
+        exit;
+        //  $meta = [
+        //     'classname' => 'dm-agency-dubai'
+        // ];
+        // return $this->view('others-pages/performance-marketing', ['meta' => $meta]);
     }
 
      
