@@ -462,9 +462,7 @@
                     </div>
                     <h3 class="service-card-title">Social Media <br>Marketing (SMM)</h3>
                     <div class="service-card-hover-details">
-                        <p class="service-card-desc">Harness the power of social media engagement with social media
-                            marketing. We craft visual narratives that speak volumes and bring the audience on board.
-                            Partner with us for Facebook, Instagram, TikTok, LinkedIn, and Twitter ads.</p>
+                        <p class="service-card-desc">Partner with results-driven social media marketing agency in Dubai to spark engagement and connect with your audience across Facebook, Instagram, TikTok, and LinkedIn.</p>
                         <span class="service-card-link">Explore Details <span class="arrow">→</span></span>
                     </div>
                 </a>
@@ -653,7 +651,7 @@
             </div>
             <!-- Card 7: Performance Marketing -->
             <div class="col-lg-4 col-md-6">
-                <a href="/full-funnel-performance-marketing/" class="premium-service-card">
+                <a href="/performance-marketing-agency-in-dubai-uae/" class="premium-service-card">
                     <div class="service-card-icon">
                         <svg width="72" height="80" viewBox="0 0 72 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -664,9 +662,7 @@
                     </div>
                     <h3 class="service-card-title">Performance Marketing</h3>
                     <div class="service-card-hover-details">
-                        <p class="service-card-desc">Performance marketing is a tangible marketing strategy based on
-                            growth results. We are the real growth-driver digital marketing agency offering full-funnel
-                            performance marketing services.</p>
+                        <p class="service-card-desc">Accelerate growth with the premier performance marketing agency in Dubai, blending smart strategy, compelling campaigns, and data-driven insights to turn every marketing effort into measurable results.</p>
                         <span class="service-card-link">Explore Details <span class="arrow">→</span></span>
                     </div>
                 </a>
@@ -684,9 +680,7 @@
                     </div>
                     <h3 class="service-card-title">Branding Services</h3>
                     <div class="service-card-hover-details">
-                        <p class="service-card-desc">Branding helps businesses define their identity through strategy,
-                            design, and storytelling. As a leading creative branding agency in Dubai, we create strong
-                            brands that foster trust, recognition, and long-term loyalty.</p>
+                        <p class="service-card-desc">At BrandStory, we make your brand impossible to overlook, a creative branding agency in Dubai crafting distinctive brand identities that spark recognition, build trust, and create lasting connections.</p>
                         <span class="service-card-link">Explore Details <span class="arrow">→</span></span>
                     </div>
                 </a>
@@ -2392,15 +2386,37 @@ include __DIR__ . '/component/client_reviews.php';
                     digital platforms. We craft targeted digital marketing campaigns and strategies that engage users,
                     drive conversions, and keep your brand visible, relevant, and influential at every stage of their
                     online journey.
-                    <br><br>
-                    We don’t just rely on creativity, nor do we depend on numbers alone. By blending data-driven
+                    <h4 class="mt-4 text-white" style="font-size: 1.3rem;">SEO Services in Dubai</h4>
+                    <p class="new-cta-footer-text">We help businesses across UAE improve their online visibility with comprehensive 
+                        SEO services, including technical SEO, on-page optimization, content strategy, keyword research, link building, 
+                        local SEO, and performance tracking. Our data-driven approach is designed to improve search rankings, attract 
+                        qualified organic traffic, and build long-term search authority.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">PPC Services in Dubai</h4>
+                <p class="new-cta-footer-text">We create and manage targeted PPC campaigns across platforms such as Google Ads, Bing Ads, 
+                    and social advertising channels. From keyword research and ad creation to audience targeting, bid management, landing page
+                     optimization, and conversion tracking, we focus on generating qualified leads, increasing conversions, and maximizing your
+                      advertising ROI.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Performance Marketing Services in Dubai</h4>
+                <p class="new-cta-footer-text">We build full-funnel performance marketing campaigns that connect strategy, media, creative, and 
+                    data. From audience research and campaign planning to paid acquisition, conversion optimization, retargeting, and performance 
+                    analysis, we continuously optimize campaigns to drive measurable growth, stronger customer acquisition, and improved ROI.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Social Media Marketing Services in Dubai</h4>
+                <p class="new-cta-footer-text">We manage social media marketing from strategy and content planning to creative development, publishing,
+                     community engagement, paid social campaigns, and performance reporting. Across platforms such as Facebook, Instagram, LinkedIn, TikTok,
+                      and X, we help brands build awareness, engage their audience, and strengthen their digital presence.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Email Marketing Services in Dubai</h4>
+                <p class="new-cta-footer-text">We deliver end-to-end email marketing campaigns that help businesses connect with prospects and customers throughout
+                     their journey. From audience segmentation and campaign strategy to email design, personalized messaging, automation, list management, and 
+                     performance analysis, we create campaigns that nurture leads, drive engagement, and encourage repeat conversions.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Branding Services in Dubai</h4>
+                <p class="new-cta-footer-text">We develop complete brand identities that help businesses stand out in competitive markets. Our branding services 
+                    cover brand strategy, positioning, naming, visual identity, logo design, brand guidelines, creative direction, and storytelling, creating a 
+                    consistent brand experience that builds recognition, credibility, trust, and long-term loyalty.</p>
+
+                    <p class="new-cta-footer-text">We don’t just rely on creativity, nor do we depend on numbers alone. By blending data-driven
                     insights with results-focused strategies, we create campaigns that engage and convert. For us,
                     success is about conversions, brand credibility, and long-term customer loyalty. At BrandStory, we
                     don’t just market your business – we help build its digital legacy.
-                    <br><br>
-                    From SEO, PPC, and social media marketing to branding, content creation, paid advertising,
-                    performance marketing, and web design, BrandStory delivers a full spectrum of digital marketing
-                    services that elevate brands to stand out and endure.
                 </p>
             </div>
 
