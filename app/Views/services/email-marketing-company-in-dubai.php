@@ -1594,6 +1594,149 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 </section>
 
+<!-- Email Feature Overview Section -->
+<style>
+.email-feature-overview-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.email-feature-overview-section .max-1100 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.efo-main-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+}
+.efo-section-subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+}
+.efo-paragraph {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0;
+}
+.efo-table-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 8px;
+    padding-bottom: 16px;
+}
+.efo-table-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.efo-feature-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.efo-feature-desc {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+}
+.efo-image-card {
+    background: #e2e2e8;
+    border-radius: 24px;
+    overflow: hidden;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.efo-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+@media (max-width: 767px) {
+    .efo-main-title {
+        font-size: 24px;
+    }
+    .efo-section-subtitle {
+        font-size: 22px;
+    }
+    .efo-image-card {
+        min-height: 240px;
+    }
+}
+</style>
+
+<section class="email-feature-overview-section">
+    <div class="container max-1100">
+        <!-- Top Text Block -->
+        <div class="efo-top-block mb-5">
+            <h2 class="efo-main-title mb-4">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
+            <p class="efo-paragraph mb-3">Lorem ipsum volutpat et commodo ultricies auctor scelerisque nulla mi at egestas arcu ultricies sit in nunc suspendisse egestas ut sed sit proin donec magna diam eget vel fringilla bibendum rhoncus senectus pulvinar pretium sed luctus nam euismod quis massa ornare ultrices tellus nunc aliquam neque venenatis tincidunt massa convallis velit dis eu dolor fames nisi erat sed sed diam velit in sapien viverra amet.</p>
+            <p class="efo-paragraph">Figma ipsum device move link text flatten boolean comment font font bold fill scrolling vector outline shadow flows italic plugin arrange pen editor edit undo content object mask move blur figma align text reesizing underline vector bullet inspect vector library clip rectangle effect thumbnail shadow underline subtract export duplicate object pixel line select italic text invite pencil align clip move rectangle polygon link italic stroke community connection outline move clip style arrow asset content move scale blur polygon main project group arrow background bold pencil star underline arrow follower prototype slice line background scale rotate community content plugin distribute hand team union scale stroke outline comment select invite select draft list horizontal scrolling edit content team editor hand strikethrough rotate move share layout polygon list figma list reesizing blur share reesizing stroke follower subtract style draft link arrange polygon project ipsum outline horizontal duplicate asset select project rectangle main.</p>
+        </div>
+
+        <!-- Feature Highlights Table Block -->
+        <div class="efo-highlights-block mb-5">
+            <h3 class="efo-section-subtitle mb-4">Feature Highlights</h3>
+            <div class="efo-table-responsive">
+                <div class="efo-table">
+                    <div class="efo-table-header row align-items-center py-3">
+                        <div class="col-md-4 col-12 fw-bold text-white fs-5">Feature</div>
+                        <div class="col-md-8 col-12 fw-bold text-white fs-5 mt-2 mt-md-0">How It Benefits Your Business</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Welcome Email Series</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Create strong first impressions and improve subscriber engagement from day one.</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Lead Nurturing Campaigns</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Guide prospects through the buying journey and increase conversion rates.</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Customer Retention Emails</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Strengthen customer relationships and encourage repeat purchases.</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Automated Workflows</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Save time while maintaining consistent communication.</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Performance Analytics</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Measure results and continuously improve campaign effectiveness.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2-Column Text + Image Card Block -->
+        <div class="efo-split-block mb-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <h2 class="efo-main-title mb-3">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
+                    <p class="efo-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="efo-image-card">
+                        <img src="<?= base_url('assets/images/email-01.webp') ?>" alt="Email Marketing Feature" class="img-fluid efo-card-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Text Block -->
+        <div class="efo-bottom-block">
+            <h2 class="efo-main-title mb-4">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
+            <p class="efo-paragraph mb-3">Lorem ipsum volutpat et commodo ultricies auctor scelerisque nulla mi at egestas arcu ultricies sit in nunc suspendisse egestas ut sed sit proin donec magna diam eget vel fringilla bibendum rhoncus senectus pulvinar pretium sed luctus nam euismod quis massa ornare ultrices tellus nunc aliquam neque venenatis tincidunt massa convallis velit dis eu dolor fames nisi erat sed sed diam velit in sapien viverra amet.</p>
+            <p class="efo-paragraph">Figma ipsum device move link text flatten boolean comment font font bold fill scrolling vector outline shadow flows italic plugin arrange pen editor edit undo content object mask move blur figma align text reesizing underline vector bullet inspect vector library clip rectangle effect thumbnail shadow underline subtract export duplicate object pixel line select italic text invite pencil align clip move rectangle polygon link italic stroke community connection outline move clip style arrow asset content move scale blur polygon main project group arrow background bold pencil star underline arrow follower prototype slice line background scale rotate community content plugin distribute hand team union scale stroke outline comment select invite select draft list horizontal scrolling edit content team editor hand strikethrough rotate move share layout polygon list figma list reesizing blur share reesizing stroke follower subtract style draft link arrange polygon project ipsum outline horizontal duplicate asset select project rectangle main.</p>
+        </div>
+    </div>
+</section>
 
 <section class="dm-faq-section spb-50">
     <div class="container">
