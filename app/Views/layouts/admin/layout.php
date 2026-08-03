@@ -249,7 +249,7 @@
     <!-- jQuery (required for Summernote) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- TinyMCE Rich Text Editor -->
-    <script src="https://cdn.tiny.cloud/1/0vuxp75c11tr1fiy4q6d7l5ohed5n38klwlm020o48xi0v9z/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/ca67480280f864050c03cf3eba8510fb64aceacf31f5f012421eb68231fd54ee/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
