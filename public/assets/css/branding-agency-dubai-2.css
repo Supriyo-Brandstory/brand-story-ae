@@ -1061,7 +1061,7 @@ a.ba2-office-card:hover {
     }
 
     .ba2-hero-bg-marquee span {
-        font-size: 45px !important;
+        font-size: 90px !important;
         -webkit-text-stroke: 1.5px var(--ba2-accent-light) !important;
         letter-spacing: 2px !important;
     }
