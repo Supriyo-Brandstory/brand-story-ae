@@ -1594,13 +1594,180 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 </section>
 
-<!-- Email Feature Overview Section -->
+<!-- Turn Every Email Into a Revenue Opportunity Section -->
 <style>
-.email-feature-overview-section {
-    background-color: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap');
+
+.email-revenue-opp-section {
+    background-color: #06070a;
     color: #ffffff;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.email-revenue-opp-section .max-1100 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.ero-main-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+.ero-paragraph {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.ero-section-subtitle {
+    
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-top: 48px;
+    margin-bottom: 28px;
+}
+.ero-card {
+    background: #0d0f17;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 32px 28px;
+    height: 100%;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.ero-card:hover {
+    border-color: rgba(168, 85, 247, 0.4);
+    transform: translateY(-2px);
+}
+.ero-card-icon {
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.ero-card-title {
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+.ero-card-desc {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+@media (max-width: 767px) {
+    .ero-main-title {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .ero-section-subtitle {
+        font-size: 22px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    .ero-card {
+        padding: 24px 20px;
+    }
+    .ero-card-title {
+        font-size: 20px;
+    }
+    .ero-card-desc {
+        font-size: 16px;
+    }
+}
+</style>
+
+<section class="email-revenue-opp-section">
+    <div class="container">
+        <!-- Top Title & Description -->
+        <h2 class="ero-main-title">Turn Every Email Into a Revenue Opportunity</h2>
+        <p class="ero-paragraph">Email remains one of the highest-performing digital marketing channels, helping businesses build stronger customer relationships, nurture prospects, and drive consistent revenue growth. While social media algorithms and advertising costs continue to change, email marketing gives you direct access to your audience through personalised, targeted communication.</p>
+        <p class="ero-paragraph">Our email marketing services are designed to help businesses engage subscribers, convert prospects into customers, and maximise customer lifetime value through strategic campaigns and automated journeys.</p>
+
+        <!-- Subheading -->
+        <h3 class="ero-section-subtitle">What We Deliver</h3>
+
+        <!-- 2x2 Grid of Cards -->
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-12">
+                <div class="ero-card">
+                    <div class="ero-card-icon">
+                       <svg width="58" height="53" viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.7692 40.9183L25.3421 48.161C25.848 48.8185 25.7593 49.7492 25.1449 50.3065L23.2284 52.0458C22.8861 52.3564 22.4742 52.4945 22.0138 52.4529C21.5536 52.4113 21.1745 52.2005 20.892 51.8348L14.7135 43.8371L19.7692 40.9183ZM50.3398 22.3302H56.0156C56.9234 22.3302 57.6581 21.5888 57.6562 20.6821C57.6543 19.7742 56.914 19.0406 56.0074 19.0406H50.3316C49.4238 19.0406 48.6891 19.7821 48.691 20.6887C48.6927 21.5967 49.433 22.3302 50.3398 22.3302ZM43.6028 7.38623L46.4408 2.47092C46.8942 1.68565 46.6291 0.677833 45.8437 0.222208C45.0595 -0.232714 44.05 0.0327152 43.5961 0.818926L40.7582 5.73424C40.3048 6.51951 40.5699 7.52733 41.3553 7.98295C42.1395 8.43787 43.1488 8.17244 43.6028 7.38623ZM50.1695 13.274L54.8293 10.5837C55.6203 10.127 55.8912 9.1158 55.4345 8.32467C54.9779 7.53365 53.9667 7.26272 53.1755 7.7194L48.5159 10.4098C47.7249 10.8665 47.454 11.8777 47.9106 12.6688C48.3673 13.4597 49.3785 13.7306 50.1695 13.274ZM42.8409 20.6765L48.337 30.1961C49.3689 31.9833 48.7508 34.2899 46.9635 35.3219C45.2957 36.2848 43.1758 35.8108 42.0613 34.2907H42.0611C35.9774 33.3653 28.0527 34.3594 20.1727 37.4312L12.597 24.3099C19.1998 19.0272 24.038 12.6948 26.2785 6.96354L26.2786 6.9633C25.4916 5.23033 26.1381 3.13268 27.819 2.16225C29.6063 1.13029 31.9128 1.74846 32.9447 3.53568L38.4408 13.0553C38.5973 12.9344 38.7636 12.8224 38.9396 12.7208C41.0633 11.4947 43.779 12.2223 45.0051 14.3461C46.2312 16.4699 45.5036 19.1856 43.3798 20.4117C43.2039 20.5133 43.0238 20.6015 42.8409 20.6765ZM18.2678 38.8193L10.3297 25.0702L4.019 28.7137C0.18439 30.9276 -1.14147 35.8763 1.07232 39.7108L1.07244 39.7109C3.28634 43.5454 8.23494 44.8713 12.0695 42.6576L18.3802 39.0141L18.2678 38.8193Z" fill="#855BFF"/>
+</svg>
+
+                    </div>
+                    <h4 class="ero-card-title">Campaign Strategy &amp; Planning</h4>
+                    <p class="ero-card-desc">We create data-driven email marketing strategies tailored to your business goals, audience behaviour, and customer lifecycle. Every campaign is planned with a clear objective, whether it's lead generation, customer retention, product promotion, or revenue growth.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-12">
+                <div class="ero-card">
+                    <div class="ero-card-icon">
+                        <svg width="58" height="53" viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.7692 40.9183L25.3421 48.161C25.848 48.8185 25.7593 49.7492 25.1449 50.3065L23.2284 52.0458C22.8861 52.3564 22.4742 52.4945 22.0138 52.4529C21.5536 52.4113 21.1745 52.2005 20.892 51.8348L14.7135 43.8371L19.7692 40.9183ZM50.3398 22.3302H56.0156C56.9234 22.3302 57.6581 21.5888 57.6562 20.6821C57.6543 19.7742 56.914 19.0406 56.0074 19.0406H50.3316C49.4238 19.0406 48.6891 19.7821 48.691 20.6887C48.6927 21.5967 49.433 22.3302 50.3398 22.3302ZM43.6028 7.38623L46.4408 2.47092C46.8942 1.68565 46.6291 0.677833 45.8437 0.222208C45.0595 -0.232714 44.05 0.0327152 43.5961 0.818926L40.7582 5.73424C40.3048 6.51951 40.5699 7.52733 41.3553 7.98295C42.1395 8.43787 43.1488 8.17244 43.6028 7.38623ZM50.1695 13.274L54.8293 10.5837C55.6203 10.127 55.8912 9.1158 55.4345 8.32467C54.9779 7.53365 53.9667 7.26272 53.1755 7.7194L48.5159 10.4098C47.7249 10.8665 47.454 11.8777 47.9106 12.6688C48.3673 13.4597 49.3785 13.7306 50.1695 13.274ZM42.8409 20.6765L48.337 30.1961C49.3689 31.9833 48.7508 34.2899 46.9635 35.3219C45.2957 36.2848 43.1758 35.8108 42.0613 34.2907H42.0611C35.9774 33.3653 28.0527 34.3594 20.1727 37.4312L12.597 24.3099C19.1998 19.0272 24.038 12.6948 26.2785 6.96354L26.2786 6.9633C25.4916 5.23033 26.1381 3.13268 27.819 2.16225C29.6063 1.13029 31.9128 1.74846 32.9447 3.53568L38.4408 13.0553C38.5973 12.9344 38.7636 12.8224 38.9396 12.7208C41.0633 11.4947 43.779 12.2223 45.0051 14.3461C46.2312 16.4699 45.5036 19.1856 43.3798 20.4117C43.2039 20.5133 43.0238 20.6015 42.8409 20.6765ZM18.2678 38.8193L10.3297 25.0702L4.019 28.7137C0.18439 30.9276 -1.14147 35.8763 1.07232 39.7108L1.07244 39.7109C3.28634 43.5454 8.23494 44.8713 12.0695 42.6576L18.3802 39.0141L18.2678 38.8193Z" fill="#855BFF"/>
+</svg>
+
+                    </div>
+                    <h4 class="ero-card-title">Email Design &amp; Content Creation</h4>
+                    <p class="ero-card-desc">Our team develops visually engaging email templates and persuasive copy that capture attention and encourage action. Every email is optimised for readability, mobile responsiveness, and conversions.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-12">
+                <div class="ero-card">
+                    <div class="ero-card-icon">
+                       <svg width="58" height="53" viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.7692 40.9183L25.3421 48.161C25.848 48.8185 25.7593 49.7492 25.1449 50.3065L23.2284 52.0458C22.8861 52.3564 22.4742 52.4945 22.0138 52.4529C21.5536 52.4113 21.1745 52.2005 20.892 51.8348L14.7135 43.8371L19.7692 40.9183ZM50.3398 22.3302H56.0156C56.9234 22.3302 57.6581 21.5888 57.6562 20.6821C57.6543 19.7742 56.914 19.0406 56.0074 19.0406H50.3316C49.4238 19.0406 48.6891 19.7821 48.691 20.6887C48.6927 21.5967 49.433 22.3302 50.3398 22.3302ZM43.6028 7.38623L46.4408 2.47092C46.8942 1.68565 46.6291 0.677833 45.8437 0.222208C45.0595 -0.232714 44.05 0.0327152 43.5961 0.818926L40.7582 5.73424C40.3048 6.51951 40.5699 7.52733 41.3553 7.98295C42.1395 8.43787 43.1488 8.17244 43.6028 7.38623ZM50.1695 13.274L54.8293 10.5837C55.6203 10.127 55.8912 9.1158 55.4345 8.32467C54.9779 7.53365 53.9667 7.26272 53.1755 7.7194L48.5159 10.4098C47.7249 10.8665 47.454 11.8777 47.9106 12.6688C48.3673 13.4597 49.3785 13.7306 50.1695 13.274ZM42.8409 20.6765L48.337 30.1961C49.3689 31.9833 48.7508 34.2899 46.9635 35.3219C45.2957 36.2848 43.1758 35.8108 42.0613 34.2907H42.0611C35.9774 33.3653 28.0527 34.3594 20.1727 37.4312L12.597 24.3099C19.1998 19.0272 24.038 12.6948 26.2785 6.96354L26.2786 6.9633C25.4916 5.23033 26.1381 3.13268 27.819 2.16225C29.6063 1.13029 31.9128 1.74846 32.9447 3.53568L38.4408 13.0553C38.5973 12.9344 38.7636 12.8224 38.9396 12.7208C41.0633 11.4947 43.779 12.2223 45.0051 14.3461C46.2312 16.4699 45.5036 19.1856 43.3798 20.4117C43.2039 20.5133 43.0238 20.6015 42.8409 20.6765ZM18.2678 38.8193L10.3297 25.0702L4.019 28.7137C0.18439 30.9276 -1.14147 35.8763 1.07232 39.7108L1.07244 39.7109C3.28634 43.5454 8.23494 44.8713 12.0695 42.6576L18.3802 39.0141L18.2678 38.8193Z" fill="#855BFF"/>
+</svg>
+
+                    </div>
+                    <h4 class="ero-card-title">Marketing Automation</h4>
+                    <p class="ero-card-desc">Automate customer communication with intelligent workflows that deliver the right message at the right time. From welcome sequences to re-engagement campaigns, we create automated journeys that nurture leads and increase sales without manual effort.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 col-12">
+                <div class="ero-card">
+                    <div class="ero-card-icon">
+                       <svg width="58" height="53" viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.7692 40.9183L25.3421 48.161C25.848 48.8185 25.7593 49.7492 25.1449 50.3065L23.2284 52.0458C22.8861 52.3564 22.4742 52.4945 22.0138 52.4529C21.5536 52.4113 21.1745 52.2005 20.892 51.8348L14.7135 43.8371L19.7692 40.9183ZM50.3398 22.3302H56.0156C56.9234 22.3302 57.6581 21.5888 57.6562 20.6821C57.6543 19.7742 56.914 19.0406 56.0074 19.0406H50.3316C49.4238 19.0406 48.6891 19.7821 48.691 20.6887C48.6927 21.5967 49.433 22.3302 50.3398 22.3302ZM43.6028 7.38623L46.4408 2.47092C46.8942 1.68565 46.6291 0.677833 45.8437 0.222208C45.0595 -0.232714 44.05 0.0327152 43.5961 0.818926L40.7582 5.73424C40.3048 6.51951 40.5699 7.52733 41.3553 7.98295C42.1395 8.43787 43.1488 8.17244 43.6028 7.38623ZM50.1695 13.274L54.8293 10.5837C55.6203 10.127 55.8912 9.1158 55.4345 8.32467C54.9779 7.53365 53.9667 7.26272 53.1755 7.7194L48.5159 10.4098C47.7249 10.8665 47.454 11.8777 47.9106 12.6688C48.3673 13.4597 49.3785 13.7306 50.1695 13.274ZM42.8409 20.6765L48.337 30.1961C49.3689 31.9833 48.7508 34.2899 46.9635 35.3219C45.2957 36.2848 43.1758 35.8108 42.0613 34.2907H42.0611C35.9774 33.3653 28.0527 34.3594 20.1727 37.4312L12.597 24.3099C19.1998 19.0272 24.038 12.6948 26.2785 6.96354L26.2786 6.9633C25.4916 5.23033 26.1381 3.13268 27.819 2.16225C29.6063 1.13029 31.9128 1.74846 32.9447 3.53568L38.4408 13.0553C38.5973 12.9344 38.7636 12.8224 38.9396 12.7208C41.0633 11.4947 43.779 12.2223 45.0051 14.3461C46.2312 16.4699 45.5036 19.1856 43.3798 20.4117C43.2039 20.5133 43.0238 20.6015 42.8409 20.6765ZM18.2678 38.8193L10.3297 25.0702L4.019 28.7137C0.18439 30.9276 -1.14147 35.8763 1.07232 39.7108L1.07244 39.7109C3.28634 43.5454 8.23494 44.8713 12.0695 42.6576L18.3802 39.0141L18.2678 38.8193Z" fill="#855BFF"/>
+</svg>
+
+                    </div>
+                    <h4 class="ero-card-title">Audience Segmentation</h4>
+                    <p class="ero-card-desc">Reach the right people with highly relevant messaging. We segment your audience based on demographics, interests, behaviour, purchase history, and engagement levels to improve campaign performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Email Feature Overview Section -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap');
+
+.email-feature-overview-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .email-feature-overview-section .max-1100 {
     max-width: 1100px;
@@ -1613,15 +1780,16 @@ document.addEventListener('DOMContentLoaded', function () {
     line-height: 1.35;
 }
 .efo-section-subtitle {
-    font-size: 26px;
+    
+    font-size: 32px;
     font-weight: 700;
     color: #ffffff;
-    line-height: 1.35;
+    line-height: 1.3;
 }
 .efo-paragraph {
     font-size: 15px;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.75);
+    color: #fff;
     margin-bottom: 0;
 }
 .efo-table-header {
@@ -1629,20 +1797,37 @@ document.addEventListener('DOMContentLoaded', function () {
     margin-bottom: 8px;
     padding-bottom: 16px;
 }
+.efo-table-th {
+    
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    color: #ffffff;
+    letter-spacing: 0;
+}
 .efo-table-row {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 18px;
     padding-bottom: 18px;
 }
 .efo-feature-name {
-    font-size: 16px;
-    font-weight: 600;
+    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
     color: #ffffff;
+    letter-spacing: 0;
 }
 .efo-feature-desc {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.5;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #ffffff;
+    letter-spacing: 0;
+}
+.efo-split-block {
+    padding: 80px 0px 100px;
 }
 .efo-image-card {
     background: #e2e2e8;
@@ -1664,7 +1849,16 @@ document.addEventListener('DOMContentLoaded', function () {
         font-size: 24px;
     }
     .efo-section-subtitle {
-        font-size: 22px;
+        font-size: 24px;
+    }
+    .efo-table-th {
+        font-size: 20px;
+    }
+    .efo-feature-name {
+        font-size: 17px;
+    }
+    .efo-feature-desc {
+        font-size: 16px;
     }
     .efo-image-card {
         min-height: 240px;
@@ -1673,7 +1867,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </style>
 
 <section class="email-feature-overview-section">
-    <div class="container max-1100">
+    <div class="container">
         <!-- Top Text Block -->
         <div class="efo-top-block mb-5">
             <h2 class="efo-main-title mb-4">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
@@ -1687,27 +1881,27 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="efo-table-responsive">
                 <div class="efo-table">
                     <div class="efo-table-header row align-items-center py-3">
-                        <div class="col-md-4 col-12 fw-bold text-white fs-5">Feature</div>
-                        <div class="col-md-8 col-12 fw-bold text-white fs-5 mt-2 mt-md-0">How It Benefits Your Business</div>
+                        <div class="col-md-4 col-12 efo-table-th">Feature</div>
+                        <div class="col-md-8 col-12 efo-table-th mt-2 mt-md-0">How It Benefits Your Business</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Welcome Email Series</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Welcome Email Series</div>
                         <div class="col-md-8 col-12 efo-feature-desc">Create strong first impressions and improve subscriber engagement from day one.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Lead Nurturing Campaigns</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Lead Nurturing Campaigns</div>
                         <div class="col-md-8 col-12 efo-feature-desc">Guide prospects through the buying journey and increase conversion rates.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Customer Retention Emails</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Customer Retention Emails</div>
                         <div class="col-md-8 col-12 efo-feature-desc">Strengthen customer relationships and encourage repeat purchases.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Automated Workflows</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Automated Workflows</div>
                         <div class="col-md-8 col-12 efo-feature-desc">Save time while maintaining consistent communication.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name fw-bold text-white mb-1 mb-md-0">Performance Analytics</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Performance Analytics</div>
                         <div class="col-md-8 col-12 efo-feature-desc">Measure results and continuously improve campaign effectiveness.</div>
                     </div>
                 </div>
@@ -1715,7 +1909,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
 
         <!-- 2-Column Text + Image Card Block -->
-        <div class="efo-split-block mb-5">
+        <div class="efo-split-block">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                     <h2 class="efo-main-title mb-3">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
@@ -1741,7 +1935,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <section class="dm-faq-section spb-50">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
-        <div class="dm-faq-main max-1000">
+        <div class="dm-faq-main">
             <div class="accordion accordion-flush" id="accordionFlushExample1">
 
                 <!-- FAQ 1 -->
