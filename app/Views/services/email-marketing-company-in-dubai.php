@@ -1,6 +1,114 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/branding-agency-dubai-2.css') ?>">
+
+
+
+<div class="ba2-page-wrapper">
+  <!-- Ambient background glow elements -->
+  <div class="ba2-ambient-glow" style="top: 2%; left: -100px;"></div>
+  <div class="ba2-ambient-glow" style="top: 35%; right: -150px;"></div>
+  <div class="ba2-ambient-glow" style="top: 70%; left: -100px;"></div>
+
+  <!-- ==========================================
+       1. HERO SECTION (Minimalist CSS Banner)
+       ========================================== -->
+  <section class="ba2-hero">
+    <div class="ba2-hero-grid-bg"></div>
+    <div class="ba2-hero-bg-marquee">
+      <!-- Row 1 -->
+      <div class="ba2-hero-bg-marquee-row row-1">
+        <div class="ba2-hero-bg-marquee-track">
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="ba2-hero-bg-marquee-row row-2">
+        <div class="ba2-hero-bg-marquee-track reverse">
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+        </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="ba2-hero-bg-marquee-row row-3">
+        <div class="ba2-hero-bg-marquee-track">
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING AGENCY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+          <span>EMAIL MARKETING COMPANY IN DUBAI</span>
+          <span class="ba2-hero-bg-marquee-sep">•</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="ba2-hero-content">
+        <div class="ba2-badge">
+          <span class="ba2-badge-dot"></span>
+          Email Marketing Dubai
+        </div>
+        
+        <h1 class="ba2-title-main mb-4">
+          Best <span class="ba2-title-gradient">Email Marketing Agency</span> in Dubai
+        </h1>
+        
+        <p class="ba2-text-muted mb-4">
+          At BrandStory, we approach email marketing as full customer lifecycle strategy- delivering the right message to the right audience. As a leading email marketing agency in Dubai, we leverage advanced segmentation, automation, and personalized content to increase engagement, generate qualified leads, and deliver business growth.
+        </p>
+        
+        <div class="ba2-hero-actions">
+                                                    <div class="premium-slide-actions">
+                        <a href="#" class="premium-pill-btn">
+                            <span>Talk to Our Experts</span>
+                            <span class="btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+        </div>
+
+        <div class="ba2-hero-stats-row">
+          <div class="ba2-hero-stat-item">
+            <h4>10+ Years</h4>
+            <p>Marketing Expertise</p>
+          </div>
+          <div class="ba2-hero-stat-item">
+            <h4>1,000+</h4>
+            <p>Brands Transformed</p>
+          </div>
+          <div class="ba2-hero-stat-item">
+            <h4>900+</h4>
+            <p>Campaigns Executed</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 <!-- Hero Banner Section -->
+ <!--
 <section class="premium-hero-slider static-premium-banner">
     <div class="premium-slider-container">
         <div class="premium-slide active"
@@ -29,7 +137,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- 
 <section class="premium-perf-section">
@@ -58,6 +166,43 @@
         </div>
     </div>
 </section>-->
+
+  <!-- ==========================================
+       3. ABOUT SECTION (CSS Decorative Accent Card)
+       ========================================== -->
+  <section class="ba2-section">
+    <div class="container">
+      <div class="ba2-about-card">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5">
+            <div class="ba2-about-accent-box">
+
+              <h2 class="ba2-number-callout">Results Driven</h2>
+              <h3 class="text-white mb-2">Email Marketing Services in Dubai</h3>
+              <p class="text-white-50 mb-0">Tired of agencies promising "more newsletters"? Choose BrandStory, we engineer email marketing as a revenue channel with strategy, automation, consistency.</p>
+            </div>
+          </div>
+          <div class="col-lg-7 ps-lg-4">
+            <h2 class="ba2-title-large text-white mb-4">
+              Top Email Marketing Company
+            </h2>
+            <p class="ba2-text-muted mb-4">
+              If you are planning to make email marketing a priority for your business, you have come to the right place. BrandStory is the best email marketing agency in Dubai, providing round-the-clock email marketing services. We provide cost-effective email marketing services across Dubai and the UAE, backed by top-level experts.
+            </p>
+            <p class="ba2-text-muted mb-4">
+              Our email marketing strategy focuses on crafting personalized, high-converting campaigns that engage your audience and drive measurable results. From campaign creation, click-worthy template design, to automation and analytics, we ensure maximum ROI.
+            </p>
+            <div class="premium-perf-action">
+                        <a href="/about/" class="premium-perf-btn">Know About Us</a>
+                    </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 <!-- Process Flow Section -->
 <section class="mumbai-solution-section">
@@ -262,19 +407,18 @@
             <!-- Left Side: Content -->
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2 class="text-white pb-3">Email Marketing Agency in Dubai, Turning Emails Into Revenue</h2>
+                    <h2 class="text-white pb-3">Top-rated Email Marketing Company Dubai, UAE</h2>
                     <ul class="premium-perf-list">
                         <li>Email marketing in Dubai requires more than sending campaigns- it requires a precise
                             methodology built on smart targeting, brand-safe messaging, and conversion-focused
                             optimization. At BrandStory, we follow a structured delivery approach, so every campaign
                             reaches the right audience with maximum impact.</li>
-                        <li>Our email marketing services in Dubai support your complete customer journey from lead
-                            nurturing and brand awareness to customer retention and sales. We build customized campaigns
-                            with engaging content, thoughtful design, and conversion strategies delivered through a
-                            consistent process.</li>
-                        <li>We continuously monitor open rates, click-through rates, and campaign performance, refining
-                            strategy at every stage to protect deliverability and drive measurable ROI. Every campaign
-                            follows ethical email marketing best-practices, so growth never comes at the cost of trust.
+                        <li>As one of the best and renowned email marketing agency in Dubai, United Arab Emirates, we have
+                             a customer-centric and result-oriented approach to email marketing. We design newsletters, email
+                              campaigns, and help you connect with your contacts, and build a healthy relationship with your 
+                              customers.</li>
+                        <li>We are the integrated marketing agency known for providing groundbreaking email marketing solutions
+                             and services across the United Arab Emirates.
                         </li>
                     </ul>
                 </div>
@@ -1405,35 +1549,14 @@
             <div class="col-lg-6 col-md-6">
                 <div class="premium-service-card">
                     <div class="service-card-icon">
-                        <svg width="666" height="388" viewBox="0 0 666 388" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_579_12811)">
-                                <rect width="666" height="388" rx="20" fill="white" fill-opacity="0.2" />
-                                <path
-                                    d="M26.876 355V335.484H30.488V355H26.876ZM34.0635 355V341.196H37.5635V344.332L37.0035 344.388C37.2461 343.548 37.6008 342.876 38.0675 342.372C38.5341 341.868 39.0755 341.504 39.6915 341.28C40.3075 341.037 40.9421 340.916 41.5955 340.916C43.1635 340.916 44.3861 341.364 45.2635 342.26C46.1595 343.137 46.6075 344.379 46.6075 345.984V355H43.1075V347.272C43.1075 346.115 42.9021 345.275 42.4915 344.752C42.0808 344.211 41.4368 343.94 40.5595 343.94C39.8875 343.94 39.3275 344.099 38.8795 344.416C38.4501 344.715 38.1235 345.191 37.8995 345.844C37.6755 346.497 37.5635 347.347 37.5635 348.392V355H34.0635ZM49.2802 348.028V345.424H56.2242V348.028H49.2802ZM66.4483 355.28C65.7576 355.28 65.0856 355.149 64.4323 354.888C63.7976 354.608 63.2376 354.151 62.7523 353.516C62.267 352.863 61.903 351.995 61.6603 350.912L62.5003 351.304V355H59.0283V335.484H62.5003V344.92L61.7723 345.144C61.9403 344.192 62.2483 343.408 62.6963 342.792C63.163 342.157 63.723 341.691 64.3763 341.392C65.0296 341.075 65.7203 340.916 66.4483 340.916C67.531 340.916 68.5203 341.205 69.4163 341.784C70.3123 342.344 71.0216 343.156 71.5443 344.22C72.067 345.284 72.3283 346.572 72.3283 348.084C72.3283 349.447 72.095 350.679 71.6283 351.78C71.1616 352.863 70.4803 353.721 69.5843 354.356C68.707 354.972 67.6616 355.28 66.4483 355.28ZM65.4963 352.088C66.187 352.088 66.775 351.929 67.2603 351.612C67.7643 351.276 68.1563 350.809 68.4363 350.212C68.7163 349.615 68.8563 348.905 68.8563 348.084C68.8563 347.263 68.7163 346.563 68.4363 345.984C68.1563 345.387 67.7643 344.929 67.2603 344.612C66.775 344.276 66.187 344.108 65.4963 344.108C64.8243 344.108 64.2363 344.276 63.7323 344.612C63.247 344.929 62.8643 345.387 62.5843 345.984C62.323 346.581 62.1923 347.281 62.1923 348.084C62.1923 348.887 62.323 349.587 62.5843 350.184C62.8643 350.781 63.247 351.248 63.7323 351.584C64.2363 351.92 64.8243 352.088 65.4963 352.088ZM79.9784 355.28C78.8584 355.28 77.9158 355.056 77.1504 354.608C76.4038 354.16 75.8438 353.525 75.4704 352.704C75.1158 351.883 74.9384 350.921 74.9384 349.82V341.196H78.4104V348.952C78.4104 349.587 78.4851 350.156 78.6344 350.66C78.7838 351.145 79.0451 351.537 79.4184 351.836C79.8104 352.116 80.3424 352.256 81.0144 352.256C81.8358 352.256 82.4518 352.023 82.8624 351.556C83.2918 351.089 83.5811 350.445 83.7304 349.624C83.8984 348.784 83.9824 347.804 83.9824 346.684V341.196H87.4544V355H83.9824V352.004L84.4584 352.284C84.0478 353.348 83.4411 354.113 82.6384 354.58C81.8358 355.047 80.9491 355.28 79.9784 355.28ZM90.8831 355V341.196H94.3551V355H90.8831ZM90.7711 339.068V335.484H94.4951V339.068H90.7711ZM100.994 355.28C100.042 355.28 99.2584 354.991 98.6424 354.412C98.0264 353.833 97.7184 352.919 97.7184 351.668V335.484H101.162V350.996C101.162 351.388 101.256 351.668 101.442 351.836C101.629 351.985 101.872 352.06 102.17 352.06C102.32 352.06 102.478 352.051 102.646 352.032C102.814 351.995 102.992 351.948 103.178 351.892V354.86C102.786 355.009 102.394 355.112 102.002 355.168C101.629 355.243 101.293 355.28 100.994 355.28ZM110.722 355.28C109.975 355.28 109.285 355.14 108.65 354.86C108.015 354.58 107.502 354.123 107.11 353.488C106.737 352.853 106.55 352.004 106.55 350.94V337.976L110.078 336.1V349.988C110.078 350.791 110.181 351.397 110.386 351.808C110.61 352.219 111.039 352.424 111.674 352.424C111.861 352.424 112.066 352.405 112.29 352.368C112.533 352.331 112.794 352.275 113.074 352.2V354.86C112.682 355.009 112.29 355.112 111.898 355.168C111.506 355.243 111.114 355.28 110.722 355.28ZM104.03 343.912V341.196H113.074V343.912H104.03ZM121.529 355L129.369 335.484H132.085L139.925 355H135.977L130.769 340.832L125.477 355H121.529ZM126.681 351.192L127.801 347.944H133.681L134.857 351.192H126.681ZM141.88 355V341.196H145.38V344.332L144.82 344.388C145.063 343.548 145.417 342.876 145.884 342.372C146.351 341.868 146.892 341.504 147.508 341.28C148.124 341.037 148.759 340.916 149.412 340.916C150.98 340.916 152.203 341.364 153.08 342.26C153.976 343.137 154.424 344.379 154.424 345.984V355H150.924V347.272C150.924 346.115 150.719 345.275 150.308 344.752C149.897 344.211 149.253 343.94 148.376 343.94C147.704 343.94 147.144 344.099 146.696 344.416C146.267 344.715 145.94 345.191 145.716 345.844C145.492 346.497 145.38 347.347 145.38 348.392V355H141.88ZM166.533 355L166.253 352.928V346.292C166.253 345.471 165.991 344.864 165.469 344.472C164.965 344.061 164.274 343.856 163.397 343.856C162.669 343.856 161.922 344.005 161.157 344.304C160.41 344.584 159.747 344.985 159.169 345.508L157.405 343.128C158.375 342.344 159.365 341.784 160.373 341.448C161.399 341.093 162.501 340.916 163.677 340.916C165.581 340.916 167.065 341.392 168.129 342.344C169.193 343.296 169.725 344.612 169.725 346.292V355H166.533ZM162.361 355.28C161.353 355.28 160.447 355.093 159.645 354.72C158.861 354.347 158.235 353.815 157.769 353.124C157.321 352.433 157.097 351.64 157.097 350.744C157.097 349.941 157.255 349.26 157.573 348.7C157.909 348.121 158.347 347.683 158.889 347.384C159.355 347.104 159.869 346.908 160.429 346.796C161.007 346.684 161.623 346.628 162.277 346.628H166.561V349.204H162.781C162.482 349.204 162.183 349.232 161.885 349.288C161.605 349.325 161.362 349.428 161.157 349.596C160.97 349.727 160.83 349.895 160.737 350.1C160.643 350.287 160.597 350.501 160.597 350.744C160.597 351.267 160.802 351.687 161.213 352.004C161.623 352.321 162.174 352.48 162.865 352.48C163.481 352.48 164.041 352.349 164.545 352.088C165.067 351.808 165.478 351.435 165.777 350.968C166.094 350.483 166.253 349.932 166.253 349.316L167.177 351.164C166.934 352.135 166.561 352.928 166.057 353.544C165.571 354.141 165.011 354.58 164.377 354.86C163.742 355.14 163.07 355.28 162.361 355.28ZM176.19 355.28C175.238 355.28 174.454 354.991 173.838 354.412C173.222 353.833 172.914 352.919 172.914 351.668V335.484H176.358V350.996C176.358 351.388 176.451 351.668 176.638 351.836C176.824 351.985 177.067 352.06 177.366 352.06C177.515 352.06 177.674 352.051 177.842 352.032C178.01 351.995 178.187 351.948 178.374 351.892V354.86C177.982 355.009 177.59 355.112 177.198 355.168C176.824 355.243 176.488 355.28 176.19 355.28ZM181.883 360.712L184.683 353.936L179.475 341.196H183.283L186.531 350.464L189.835 341.196H193.587L185.663 360.712H181.883ZM201.011 355.28C200.264 355.28 199.574 355.14 198.939 354.86C198.304 354.58 197.791 354.123 197.399 353.488C197.026 352.853 196.839 352.004 196.839 350.94V337.976L200.367 336.1V349.988C200.367 350.791 200.47 351.397 200.675 351.808C200.899 352.219 201.328 352.424 201.963 352.424C202.15 352.424 202.355 352.405 202.579 352.368C202.822 352.331 203.083 352.275 203.363 352.2V354.86C202.971 355.009 202.579 355.112 202.187 355.168C201.795 355.243 201.403 355.28 201.011 355.28ZM194.319 343.912V341.196H203.363V343.912H194.319ZM206 355V341.196H209.472V355H206ZM205.888 339.068V335.484H209.612V339.068H205.888ZM218.968 355.28C217.848 355.28 216.868 355.084 216.028 354.692C215.206 354.281 214.506 353.74 213.928 353.068C213.368 352.396 212.948 351.631 212.668 350.772C212.388 349.913 212.248 349.017 212.248 348.084C212.248 347.169 212.388 346.283 212.668 345.424C212.948 344.565 213.368 343.8 213.928 343.128C214.506 342.456 215.206 341.924 216.028 341.532C216.868 341.121 217.848 340.916 218.968 340.916C220.368 340.916 221.581 341.252 222.608 341.924C223.634 342.596 224.4 343.613 224.904 344.976L221.88 346.18C221.656 345.527 221.31 344.995 220.844 344.584C220.396 344.155 219.77 343.94 218.968 343.94C218.221 343.94 217.605 344.145 217.12 344.556C216.634 344.948 216.28 345.461 216.056 346.096C215.832 346.731 215.72 347.393 215.72 348.084C215.72 348.775 215.832 349.447 216.056 350.1C216.28 350.735 216.634 351.257 217.12 351.668C217.605 352.06 218.221 352.256 218.968 352.256C219.77 352.256 220.396 352.051 220.844 351.64C221.31 351.211 221.656 350.66 221.88 349.988L224.904 351.192C224.4 352.573 223.634 353.6 222.608 354.272C221.581 354.944 220.368 355.28 218.968 355.28ZM232.309 355.28C231.282 355.28 230.386 355.131 229.621 354.832C228.855 354.533 228.202 354.16 227.66 353.712C227.138 353.264 226.718 352.835 226.401 352.424L228.781 350.352C229.098 350.875 229.546 351.36 230.125 351.808C230.722 352.237 231.459 352.452 232.337 352.452C233.027 352.452 233.559 352.321 233.933 352.06C234.325 351.78 234.521 351.435 234.521 351.024C234.521 350.688 234.399 350.417 234.157 350.212C233.914 349.988 233.587 349.811 233.177 349.68C232.766 349.531 232.309 349.391 231.805 349.26C231.282 349.111 230.741 348.943 230.181 348.756C229.621 348.569 229.107 348.327 228.641 348.028C228.174 347.711 227.791 347.309 227.493 346.824C227.213 346.339 227.073 345.732 227.073 345.004C227.073 343.791 227.549 342.811 228.501 342.064C229.453 341.299 230.713 340.916 232.281 340.916C233.382 340.916 234.381 341.14 235.277 341.588C236.173 342.017 236.882 342.643 237.405 343.464L235.249 345.172C234.913 344.631 234.465 344.229 233.905 343.968C233.363 343.688 232.785 343.548 232.169 343.548C231.627 343.548 231.179 343.651 230.825 343.856C230.489 344.061 230.321 344.341 230.321 344.696C230.321 344.939 230.395 345.144 230.545 345.312C230.713 345.48 230.974 345.629 231.329 345.76C231.702 345.872 232.187 346.003 232.785 346.152C233.345 346.283 233.923 346.441 234.521 346.628C235.118 346.815 235.678 347.067 236.201 347.384C236.723 347.701 237.143 348.121 237.461 348.644C237.778 349.167 237.937 349.829 237.937 350.632C237.937 351.547 237.703 352.359 237.237 353.068C236.77 353.759 236.117 354.3 235.277 354.692C234.437 355.084 233.447 355.28 232.309 355.28Z"
-                                    fill="white" />
-                                <path
-                                    d="M584.999 73.002H579C577.344 73.0037 576.002 74.3457 576 76.0015V88.9996C576 89.5518 576.448 89.9994 577 89.9994H586.998C587.551 89.9994 587.998 89.5518 587.998 88.9996V76.0015C587.996 74.3457 586.655 73.0038 584.999 73.002ZM585.999 87.9998H578V76.0015C578 75.4496 578.448 75.0024 578.999 75.0017H584.999C585.55 75.0024 585.998 75.4496 585.998 76.0015L585.999 87.9998Z"
-                                    fill="white" />
-                                <path
-                                    d="M600.997 59.0039H594.998C593.342 59.0057 592 60.3476 591.998 62.0035V88.9996C591.998 89.5518 592.446 89.9994 592.998 89.9994H602.996C603.549 89.9994 603.996 89.5518 603.996 88.9996V62.0035C603.994 60.3475 602.653 59.0057 600.997 59.0039ZM601.997 87.9996H593.998V62.0035C593.998 61.4516 594.446 61.0044 594.997 61.0037H600.997C601.549 61.0044 601.996 61.4516 601.996 62.0035L601.997 87.9996Z"
-                                    fill="white" />
-                                <path
-                                    d="M616.994 65.0034H610.995C609.339 65.0052 607.997 66.3471 607.995 68.003V89C607.995 89.5522 608.443 89.9998 608.995 89.9998H618.993C619.546 89.9998 619.993 89.5522 619.993 89V68.003C619.992 66.347 618.65 65.0052 616.994 65.0034ZM617.994 88H609.995V68.003C609.996 67.4511 610.443 67.0039 610.995 67.0032H616.994C617.546 67.0039 617.993 67.4511 617.994 68.003L617.994 88Z"
-                                    fill="white" />
-                                <path
-                                    d="M632.992 57.0044H626.993C625.337 57.0062 623.995 58.3481 623.993 60.004V88.9998C623.993 89.552 624.441 89.9996 624.993 89.9996H634.991C635.544 89.9996 635.991 89.552 635.991 88.9998V60.004C635.99 58.3481 634.648 57.0062 632.992 57.0044ZM633.992 87.9999H625.993V60.004C625.994 59.4521 626.441 59.0048 626.993 59.0041H632.992C633.544 59.0048 633.991 59.4521 633.992 60.004V87.9999H633.992Z"
-                                    fill="white" />
-                                <path
-                                    d="M625.514 41.9854C627.346 44.0471 630.348 44.5934 632.788 43.3089C635.229 42.0245 636.478 39.2408 635.816 36.5636C635.154 33.8863 632.75 32.0064 629.992 32.0081C627.99 32.0066 626.119 33.0046 625.006 34.6686C623.892 36.3325 623.683 38.4425 624.448 40.2927L618.473 44.0276C617.398 42.8089 615.873 42.081 614.249 42.0119C612.625 41.9427 611.044 42.5386 609.869 43.6615L603.325 38.7534C604.708 36.0773 603.892 32.7902 601.418 31.0718C598.944 29.3533 595.578 29.7367 593.554 31.9678C591.53 34.1988 591.474 37.5853 593.424 39.8815L585.042 49.8431C582.354 48.2615 578.902 49.0033 577.101 51.5496C575.301 54.0958 575.751 57.5972 578.138 59.6047C580.525 61.6122 584.051 61.4561 586.251 59.2457C588.451 57.0353 588.591 53.5077 586.572 51.1304L594.955 41.1688C597.256 42.538 600.189 42.2036 602.123 40.3513L608.667 45.2595C607.394 47.7265 607.98 50.7453 610.084 52.5565C612.188 54.3677 615.261 54.4978 617.511 52.871C619.76 51.2442 620.6 48.2859 619.539 45.72L625.514 41.9854ZM629.992 34.0078C632.201 34.0078 633.992 35.7984 633.992 38.0072C633.989 40.2149 632.2 42.0041 629.992 42.0066C627.784 42.0066 625.993 40.216 625.993 38.0072C625.993 35.7984 627.783 34.0078 629.992 34.0078ZM581.999 59.0043C579.79 59.0043 578 57.2137 578 55.0049C578 52.7961 579.79 51.0055 581.999 51.0055C584.208 51.0055 585.999 52.7961 585.999 55.0049C585.996 57.2126 584.207 59.0017 581.999 59.0043ZM597.997 40.007C595.788 40.007 593.998 38.2164 593.998 36.0076C593.998 33.7988 595.788 32.0082 597.997 32.0082C600.206 32.0082 601.996 33.7988 601.996 36.0076C601.994 38.2153 600.205 40.0045 597.997 40.007ZM613.995 52.0052C611.786 52.0052 609.995 50.2146 609.995 48.0059C609.995 45.7971 611.786 44.0065 613.995 44.0065C616.203 44.0065 617.994 45.7971 617.994 48.0059C617.991 50.2136 616.202 52.0028 613.995 52.0052Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_579_12811">
-                                    <rect width="666" height="388" rx="20" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.9987 43.002H2.99957C1.34371 43.0037 0.00175756 44.3457 0 46.0015V58.9996C0 59.5518 0.447592 59.9994 0.999817 59.9994H10.9983C11.5506 59.9994 11.9982 59.5518 11.9982 58.9996V46.0015C11.9964 44.3457 10.6546 43.0038 8.9987 43.002ZM9.99852 57.9998H1.99963V46.0015C2.00034 45.4496 2.44758 45.0024 2.99945 45.0017H8.99859C9.55046 45.0024 9.9977 45.4496 9.9984 46.0015L9.99852 57.9998Z" fill="white"/>
+<path d="M24.9967 29.0039H18.9976C17.3418 29.0057 15.9998 30.3476 15.998 32.0035V58.9996C15.998 59.5518 16.4456 59.9994 16.9979 59.9994H26.9964C27.5486 59.9994 27.9962 59.5518 27.9962 58.9996V32.0035C27.9944 30.3475 26.6526 29.0057 24.9967 29.0039ZM25.9966 57.9996H17.9977V32.0035C17.9984 31.4516 18.4456 31.0044 18.9975 31.0037H24.9966C25.5485 31.0044 25.9957 31.4516 25.9964 32.0035L25.9966 57.9996Z" fill="white"/>
+<path d="M40.9938 35.0034H34.9947C33.3388 35.0052 31.9969 36.3471 31.9951 38.003V59C31.9951 59.5522 32.4427 59.9998 32.9949 59.9998H42.9935C43.5457 59.9998 43.9933 59.5522 43.9933 59V38.003C43.9916 36.347 42.6497 35.0052 40.9938 35.0034ZM41.9938 58H33.9949V38.003C33.9956 37.4511 34.4428 37.0039 34.9947 37.0032H40.9938C41.5457 37.0039 41.9929 37.4511 41.9936 38.003L41.9938 58Z" fill="white"/>
+<path d="M56.9919 27.0044H50.9927C49.3369 27.0062 47.9949 28.3481 47.9932 30.004V58.9998C47.9932 59.552 48.4408 59.9996 48.993 59.9996H58.9915C59.5437 59.9996 59.9913 59.552 59.9913 58.9998V30.004C59.9896 28.3481 58.6477 27.0062 56.9919 27.0044ZM57.9917 57.9999H49.9928V30.004C49.9935 29.4521 50.4407 29.0048 50.9926 29.0041H56.9917C57.5436 29.0048 57.9909 29.4521 57.9916 30.004V57.9999H57.9917Z" fill="white"/>
+<path d="M49.514 11.9854C51.3457 14.0471 54.3477 14.5934 56.7883 13.3089C59.2288 12.0245 60.4783 9.24079 59.816 6.56356C59.1536 3.88632 56.7502 2.00644 53.9923 2.00808C51.9901 2.00656 50.1194 3.00462 49.0059 4.66856C47.8923 6.33249 47.6831 8.4425 48.4481 10.2927L42.4731 14.0276C41.398 12.8089 39.8726 12.081 38.249 12.0119C36.6253 11.9427 35.0436 12.5386 33.869 13.6615L27.3248 8.75336C28.7083 6.0773 27.8924 2.79019 25.4179 1.07177C22.9435 -0.646655 19.5784 -0.263273 17.554 1.96777C15.5297 4.19882 15.4741 7.58528 17.4242 9.88148L9.0416 19.8431C6.35371 18.2615 2.90221 19.0033 1.10142 21.5496C-0.699377 24.0958 -0.248973 27.5972 2.13779 29.6047C4.52456 31.6122 8.05128 31.4561 10.2514 29.2457C12.4515 27.0353 12.5909 23.5077 10.5722 21.1304L18.9548 11.1688C21.2564 12.538 24.1887 12.2036 26.123 10.3513L32.6672 15.2595C31.3935 17.7265 31.9796 20.7453 34.0839 22.5565C36.1882 24.3677 39.2606 24.4978 41.5105 22.871C43.7604 21.2442 44.5997 18.2859 43.5392 15.72L49.514 11.9854ZM53.9923 4.00783C56.2011 4.00783 57.9917 5.79843 57.9917 8.00721C57.9892 10.2149 56.2001 12.0041 53.9923 12.0066C51.7836 12.0066 49.993 10.216 49.993 8.00721C49.993 5.79843 51.7834 4.00783 53.9923 4.00783ZM5.99927 29.0043C3.79048 29.0043 1.99988 27.2137 1.99988 25.0049C1.99988 22.7961 3.79048 21.0055 5.99927 21.0055C8.20805 21.0055 9.99865 22.7961 9.99865 25.0049C9.99607 27.2126 8.207 29.0017 5.99927 29.0043ZM21.9969 10.007C19.7881 10.007 17.9975 8.21636 17.9975 6.00758C17.9975 3.7988 19.7881 2.0082 21.9969 2.0082C24.2057 2.0082 25.9963 3.7988 25.9963 6.00758C25.9938 8.21531 24.2046 10.0045 21.9969 10.007ZM37.9946 22.0052C35.7858 22.0052 33.9952 20.2146 33.9952 18.0059C33.9952 15.7971 35.7858 14.0065 37.9946 14.0065C40.2034 14.0065 41.994 15.7971 41.994 18.0059C41.9915 20.2136 40.2024 22.0028 37.9946 22.0052Z" fill="white"/>
+</svg>
+
                     </div>
                     <h3 class="service-card-title">In-built Analytics</h3>
                     <div class="service-card-hover-details">
@@ -1447,7 +1570,7 @@
             </div>
         </div>
     </div>
-</section>-->
+</section>
 
 <section class="premium-cs-section">
     <div class="container">
@@ -2039,17 +2162,12 @@
 <section class="email-revenue-opp-section">
     <div class="container">
         <!-- Top Title & Description -->
-        <h2 class="ero-main-title">Turn Every Email Into a Revenue Opportunity</h2>
-        <p class="ero-paragraph">Email remains one of the highest-performing digital marketing channels, helping
-            businesses build stronger customer relationships, nurture prospects, and drive consistent revenue growth.
-            While social media algorithms and advertising costs continue to change, email marketing gives you direct
-            access to your audience through personalised, targeted communication.</p>
-        <p class="ero-paragraph">Our email marketing services are designed to help businesses engage subscribers,
-            convert prospects into customers, and maximise customer lifetime value through strategic campaigns and
-            automated journeys.</p>
+        <h2 class="ero-main-title">Transforming Email Touchpoints Into Revenue Stream</h2>
+        <p class="ero-paragraph">In the fast-moving Dubai market, email marketing remains the most direct and profitable channel for businesses that know how to use it. While social platforms throttle organic reach and paid advertising costs spiral upward, a well-executed email strategy gives you owned access to your audience- no algorithms, no middlemen, no inflated CPCs. At BrandStory, we design email marketing services in Dubai that do not just fill inboxes; they fill pipelines. Our campaigns are engineered around subscriber intent, behavioural triggers, and conversion psychology that turns casual readers into qualified leads and one-time buyers into repeat customers.</p>
+        <p class="ero-paragraph">BrandStory's approach to email marketing in the UAE goes beyond broadcast blasts. We architect end-to-end email ecosystems that align with your sales funnel, nurture prospects across every lifecycle stage, and protect your sender reputation while maximising customer lifetime value. Whether you are an e-commerce brand chasing abandoned cart recovery, a B2B firm nurturing long sales cycles, or a service business driving repeat bookings, our email marketing agency in Dubai builds programmes that compound returns month after month. If your current email output feels like a cost centre rather than a growth engine, BrandStory is the partner that changes the equation.</p>
 
         <!-- Subheading -->
-        <h3 class="ero-section-subtitle">What We Deliver</h3>
+        <h3 class="ero-section-subtitle">What BrandStory Delivers</h3>
 
         <!-- 2x2 Grid of Cards -->
         <div class="row g-4">
@@ -2064,11 +2182,8 @@
                         </svg>
 
                     </div>
-                    <h4 class="ero-card-title">Campaign Strategy &amp; Planning</h4>
-                    <p class="ero-card-desc">We create data-driven email marketing strategies tailored to your business
-                        goals, audience behaviour, and customer lifecycle. Every campaign is planned with a clear
-                        objective, whether it's lead generation, customer retention, product promotion, or revenue
-                        growth.</p>
+                    <h4 class="ero-card-title">Strategic Email Campaign</h4>
+                    <p class="ero-card-desc">We develop data-backed email marketing strategies mapped to your revenue goals and UAE audience behaviour. Every campaign is built with clear intent- whether that is generating qualified leads, accelerating purchase decisions, driving repeat revenue, or reactivating dormant subscribers. We do not send emails for the sake of activity; we send them to move metrics.</p>
                 </div>
             </div>
 
@@ -2083,10 +2198,8 @@
                         </svg>
 
                     </div>
-                    <h4 class="ero-card-title">Email Design &amp; Content Creation</h4>
-                    <p class="ero-card-desc">Our team develops visually engaging email templates and persuasive copy
-                        that capture attention and encourage action. Every email is optimised for readability, mobile
-                        responsiveness, and conversions.</p>
+                    <h4 class="ero-card-title">Conversion-Focused Email Copy</h4>
+                    <p class="ero-card-desc">Our creative team crafts visually striking email templates and persuasive, brand-safe copy that captures attention and drives action. Every layout is optimised for mobile responsiveness, fast load times, and clear call-to-action hierarchy- because in the UAE market, design quality directly impacts trust and conversion rates.</p>
                 </div>
             </div>
 
@@ -2101,10 +2214,8 @@
                         </svg>
 
                     </div>
-                    <h4 class="ero-card-title">Marketing Automation</h4>
-                    <p class="ero-card-desc">Automate customer communication with intelligent workflows that deliver the
-                        right message at the right time. From welcome sequences to re-engagement campaigns, we create
-                        automated journeys that nurture leads and increase sales without manual effort.</p>
+                    <h4 class="ero-card-title">Intelligent Marketing Automation</h4>
+                    <p class="ero-card-desc">BrandStory builds smart automation workflows that deliver the right message at the exact moment your subscriber is most likely to act. From welcome sequences and browse abandonment to win-back campaigns and loyalty loops, our automated journeys nurture leads and generate sales around the clock- with zero manual intervention required from your team.</p>
                 </div>
             </div>
 
@@ -2119,10 +2230,8 @@
                         </svg>
 
                     </div>
-                    <h4 class="ero-card-title">Audience Segmentation</h4>
-                    <p class="ero-card-desc">Reach the right people with highly relevant messaging. We segment your
-                        audience based on demographics, interests, behaviour, purchase history, and engagement levels to
-                        improve campaign performance.</p>
+                    <h4 class="ero-card-title">Precision Audience Segmentation</h4>
+                    <p class="ero-card-desc">We slice your database into high-intent micro-segments using behavioural signals, purchase history, engagement patterns, and lifecycle stage. This means your Dubai audience receives hyper-relevant content that feels personally written for them- dramatically improving click-through rates, reducing unsubscribes, and increasing overall campaign profitability.</p>
                 </div>
             </div>
         </div>
@@ -2135,108 +2244,53 @@
     <div class="container">
         <!-- Top Text Block -->
         <div class="efo-top-block mb-5">
-            <h2 class="efo-main-title mb-4">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
-            <p class="efo-paragraph mb-3">Lorem ipsum volutpat et commodo ultricies auctor scelerisque nulla mi at
-                egestas arcu ultricies sit in nunc suspendisse egestas ut sed sit proin donec magna diam eget vel
-                fringilla bibendum rhoncus senectus pulvinar pretium sed luctus nam euismod quis massa ornare ultrices
-                tellus nunc aliquam neque venenatis tincidunt massa convallis velit dis eu dolor fames nisi erat sed sed
-                diam velit in sapien viverra amet.</p>
-            <p class="efo-paragraph">Figma ipsum device move link text flatten boolean comment font font bold fill
-                scrolling vector outline shadow flows italic plugin arrange pen editor edit undo content object mask
-                move blur figma align text reesizing underline vector bullet inspect vector library clip rectangle
-                effect thumbnail shadow underline subtract export duplicate object pixel line select italic text invite
-                pencil align clip move rectangle polygon link italic stroke community connection outline move clip style
-                arrow asset content move scale blur polygon main project group arrow background bold pencil star
-                underline arrow follower prototype slice line background scale rotate community content plugin
-                distribute hand team union scale stroke outline comment select invite select draft list horizontal
-                scrolling edit content team editor hand strikethrough rotate move share layout polygon list figma list
-                reesizing blur share reesizing stroke follower subtract style draft link arrange polygon project ipsum
-                outline horizontal duplicate asset select project rectangle main.</p>
+            <h2 class="efo-main-title mb-4">Email Marketing Services in Dubai That Drive Revenue</h2>
+            <p class="efo-paragraph mb-3">Dubai's digital landscape demands more than bulk blasts and generic templates. At BrandStory, we engineer high-performance email ecosystems for brands that refuse to settle for average. Whether you are targeting local UAE audiences or scaling across the GCC, our email marketing services are built around precision targeting, brand-safe messaging, and conversion architectures that turn subscribers into loyal customers. BrandStory understands that in this market, reputation is currency- which is why every campaign we deploy is calibrated for inbox placement, audience relevance, and measurable business growth.</p>
+            <p class="efo-paragraph">What separates high-performing email marketing in Dubai from forgettable outreach is methodology. BrandStory does not guess. We audit, architect, automate, and optimise using a structured delivery framework that aligns your email strategy with real commercial outcomes. From welcome sequences that build immediate trust to advanced behavioural segmentation that keeps your messaging relevant at every lifecycle stage, our approach treats email as a revenue engine — not a side channel. If your current agency is measuring success in open rates alone, it is time to work with a partner who measures what actually matters: conversions, customer lifetime value, and sustainable list growth.</p>
         </div>
 
         <!-- Feature Highlights Table Block -->
         <div class="efo-highlights-block mb-5">
-            <h3 class="efo-section-subtitle mb-4">Feature Highlights</h3>
+            <h3 class="efo-section-subtitle mb-4">What BrandStory's Email Marketing Agency in Dubai Delivers</h3>
             <div class="efo-table-responsive">
                 <div class="efo-table">
                     <div class="efo-table-header row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-table-th">Feature</div>
-                        <div class="col-md-8 col-12 efo-table-th mt-2 mt-md-0">How It Benefits Your Business</div>
+                        <div class="col-md-4 col-12 efo-table-th">Capability</div>
+                        <div class="col-md-8 col-12 efo-table-th mt-2 mt-md-0">Business Impact for Dubai Brands</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name">Welcome Email Series</div>
-                        <div class="col-md-8 col-12 efo-feature-desc">Create strong first impressions and improve
-                            subscriber engagement from day one.</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Dubai Market Audit & Strategy Mapping</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">BrandStory analyses your current email performance, audience data, and competitive positioning to build a strategy tailored to UAE buyer behaviour and regulatory standards.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name">Lead Nurturing Campaigns</div>
-                        <div class="col-md-8 col-12 efo-feature-desc">Guide prospects through the buying journey and
-                            increase conversion rates.</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Revenue-Focused Automation Flows</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">From abandoned cart recovery to post-purchase nurturing, BrandStory builds automated email sequences that generate income daily without constant manual intervention.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name">Customer Retention Emails</div>
-                        <div class="col-md-8 col-12 efo-feature-desc">Strengthen customer relationships and encourage
-                            repeat purchases.</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Advanced Behavioural Segmentation</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">We segment your audience by intent, engagement history, purchase behaviour, and lifetime value, so every recipient receives content that actually matters to them.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name">Automated Workflows</div>
-                        <div class="col-md-8 col-12 efo-feature-desc">Save time while maintaining consistent
-                            communication.</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Brand-Safe Campaign Development</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Your copy, design, and tone are crafted to reflect the professionalism Dubai buyers expect- confident, clear, and never pushy or desperate.</div>
                     </div>
                     <div class="efo-table-row row align-items-center py-3">
-                        <div class="col-md-4 col-12 efo-feature-name">Performance Analytics</div>
-                        <div class="col-md-8 col-12 efo-feature-desc">Measure results and continuously improve campaign
-                            effectiveness.</div>
+                        <div class="col-md-4 col-12 efo-feature-name">Deliverability & Inbox Placement</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Through list hygiene, sender reputation management, and technical setup optimisation, BrandStory ensures your emails land in inboxes, not spam folders.</div>
+                    </div>
+                    <div class="efo-table-row row align-items-center py-3">
+                        <div class="col-md-4 col-12 efo-feature-name">Leadership-Ready Performance Reporting</div>
+                        <div class="col-md-8 col-12 efo-feature-desc">Clear, concise dashboards and strategic summaries that tell executives what changed, what worked, and what BrandStory is adjusting next, no vanity metrics.</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 2-Column Text + Image Card Block -->
-        <div class="efo-split-block">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                    <h2 class="efo-main-title mb-3">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
-                    <p class="efo-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="efo-image-card">
-                        <img src="<?= base_url('assets/images/email-01.webp') ?>" alt="Email Marketing Feature"
-                            class="img-fluid efo-card-img">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Text Block -->
-        <div class="efo-bottom-block">
-            <h2 class="efo-main-title mb-4">Lorem Ipsum Dolor Sit Amet Consectetur.</h2>
-            <p class="efo-paragraph mb-3">Lorem ipsum volutpat et commodo ultricies auctor scelerisque nulla mi at
-                egestas arcu ultricies sit in nunc suspendisse egestas ut sed sit proin donec magna diam eget vel
-                fringilla bibendum rhoncus senectus pulvinar pretium sed luctus nam euismod quis massa ornare ultrices
-                tellus nunc aliquam neque venenatis tincidunt massa convallis velit dis eu dolor fames nisi erat sed sed
-                diam velit in sapien viverra amet.</p>
-            <p class="efo-paragraph">Figma ipsum device move link text flatten boolean comment font font bold fill
-                scrolling vector outline shadow flows italic plugin arrange pen editor edit undo content object mask
-                move blur figma align text reesizing underline vector bullet inspect vector library clip rectangle
-                effect thumbnail shadow underline subtract export duplicate object pixel line select italic text invite
-                pencil align clip move rectangle polygon link italic stroke community connection outline move clip style
-                arrow asset content move scale blur polygon main project group arrow background bold pencil star
-                underline arrow follower prototype slice line background scale rotate community content plugin
-                distribute hand team union scale stroke outline comment select invite select draft list horizontal
-                scrolling edit content team editor hand strikethrough rotate move share layout polygon list figma list
-                reesizing blur share reesizing stroke follower subtract style draft link arrange polygon project ipsum
-                outline horizontal duplicate asset select project rectangle main.</p>
-        </div>
+        
     </div>
 </section>
 
-<section class="dm-faq-section spb-50">
+<section class="dm-faq-section spb-50 bg-black">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
         <div class="dm-faq-main">

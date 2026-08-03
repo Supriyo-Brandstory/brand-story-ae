@@ -6,7 +6,7 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/pr-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title">Top-Rated <span class="premium-purple-highlight">PPC Agency Dubai</span> for Optimal ROI</h1>
+                    <h1 class="premium-slide-title">Top-Rated PPC Agency Dubai for Optimal ROI- BrandStory</h1>
                     <p class="premium-slide-subtitle">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising services.</p>
                     <div class="premium-slide-actions">
                         <a href="/contact/" class="premium-pill-btn">
@@ -27,13 +27,13 @@
 <!-- Redesigned Clean Spotlight Section -->
 <section class="ppc-spotlight-clean-sec">
     <div class="container">
-        <h2 class="spotlight-title-clean">Be in The Spotlight with No. 1 PPC Agency in Dubai</h2>
+        <h2 class="spotlight-title-clean">Be in The Spotlight with Our PPC Agency in Dubai</h2>
         <div class="spotlight-paragraphs-clean">
             <p>Take your business to new heights with BrandStory, the leading PPC agency in Dubai. We specialize in creating high-performing pay-per-click ad campaigns that drive qualified traffic, generate leads, and deliver measurable return on investment. Every campaign we design is tailored to your business objectives, ensuring your brand reaches the right audience at the right time and generates valuable leads.</p>
             <p>Our team leverages advanced audience targeting, strategic keyword research, and audience segmentation to ensure your investment generates the greatest impact, making every dirham count. Whether it’s search, display, shopping, <a href="/social-media-marketing-agency-in-dubai/" class="spotlight-link-clean">social media</a>, or remarketing campaigns, BrandStory ensures your ads are seen by users who are ready to engage and convert.</p>
             <p>As a premier <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank" rel="noopener" class="spotlight-link-clean partner-link-clean">Google Partner Agency</a>, we combine data-driven strategies with continuous optimization, reducing wasted spend while increasing conversions. Our approach focuses on delivering tangible business results—higher website traffic, more qualified leads, and stronger online visibility.</p>
             <a href="/contact/" class="premium-pill-btn" style="max-width:max-content">
-                            <span>Let's Discuss Your Project</span>
+                            <span>Talk to Our Experts</span>
                             <span class="btn-arrow-circle">
                                 <svg viewBox="0 0 24 24" class="btn-arrow-svg">
                                     <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -41,6 +41,13 @@
                             </span>
                         </a>
         </div>
+    </div>
+</section>
+
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
     </div>
 </section>
 
@@ -234,37 +241,7 @@
 </div>
 
 
-<section class="premium-measure-section">
-    <div class="container">
-        <h2 class="premium-measure-title">Here is How We Help You Measure PPC Ads Performance</h2>
-        <div class="premium-measure-row">
-            <!-- Card 1: Cost Per Click (CPC) -->
-            <div class="premium-measure-card active">
-                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-1.jpg') ?>" alt="Cost Per Click (CPC)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">Cost Per Click</h3>
-                    <p class="premium-measure-card-desc">CPC tells you how efficiently your budget is working. By tracking what you pay for each click, we identify high-performing keywords and ads that deliver value and eliminate the ones that drain spend without results. Lower CPCs with strong conversion rates mean your campaigns are optimized.</p>
-                </div>
-            </div>
-            <!-- Card 2: Click-Through Rate (CTR) -->
-            <div class="premium-measure-card">
-                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-2.jpg') ?>" alt="Click-Through Rate (CTR)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">Click-Through Rate</h3>
-                    <p class="premium-measure-card-desc">CTR measures how compelling your ads are to your target audience. A strong CTR signals that your messaging, keywords, and ad extensions are hitting the mark. We use this insight to refine ad copy, test creative angles, and ensure your ads capture attention in a crowded search landscape.</p>
-                </div>
-            </div>
-            <!-- Card 3: Return on Ad Spend (ROAS) -->
-            <div class="premium-measure-card">
-                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-3.jpg') ?>" alt="Return on Ad Spend (ROAS)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">Return on Ad Spend</h3>
-                    <p class="premium-measure-card-desc">ROAS is the ultimate measure of PPC success- revenue generated for every dirham spent. It connects your campaigns directly to business growth, showing which strategies deliver profitable returns. At BrandStory, we optimize every campaign toward maximizing ROAS.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- Process Flow Section -->
 <section class="mumbai-solution-section">
     <div class="container">
@@ -427,7 +404,7 @@
 
 <section class="premium-why-choose-section">
     <div class="container">
-        <h2 class="premium-why-choose-title">Redefining Search Engine <br>Marketing in Dubai</h2>
+        <h2 class="premium-why-choose-title">Redefining PPC Advertising<br> in Dubai, UAE</h2>
         <div class="row align-items-center">
             <!-- Left Side: Image -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
@@ -581,9 +558,9 @@
     <div class="premium-showcase-container container">
         <div class="row">
             <div class="col-md-8 col-lg-6">
-                <h2 class="premium-showcase-title">Marketing Agency In Dubai</h2>
-                <p class="premium-showcase-subtitle">At BrandStory UAE, we blend creativity, strategy, and innovation to
-                    help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.</p>
+                <h2 class="premium-showcase-title">Best PPC Agency In Dubai</h2>
+                <p class="premium-showcase-subtitle">At BrandStory, we create PPC campaigns that put your business in front of the right 
+                    audience at the right time. We combine strategic planning, compelling ad creatives, and precise audience targeting to deliver the best results.</p>
                 <div class="premium-showcase-action">
                     <a href="/contact/" class="premium-showcase-btn">
                         <span>Get In Touch</span>
@@ -723,7 +700,7 @@
             <img src="<?= base_url("assets/images/fb-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Will You Own Your Ad Account?">
           </div>
           <h3 class="choose-card-title">Integrated approach</h3>
-          <p class="choose-card-desc">We get the big picture. Our ppc advertising company in Dubai will understand that successful campaigns are backed by unparalleled user experience. Our PPC consultants in Dubai design digital strategy that works towards achieving this end.</p>
+          <p class="choose-card-desc">Our ppc advertising company in Dubai will understand that successful campaigns are backed by unparalleled user experience. Our PPC consultants in Dubai design digital strategy that works towards achieving this end.</p>
         </div>
       </div>
       <!-- Box 3: Robust and adaptable -->
@@ -742,7 +719,7 @@
 
 <section class="tools-section">
     <div class="sction-header">
-        <h2 class="section-title text-md-start">The Tools and Tech Powering Our Digital<br> Marketing Success</h2>
+        <h2 class="section-title text-md-start">The Tools and Tech Powering <br>Our PPC Success</h2>
         <p class="section-description text-md-start m-0 mb-5">
             We are a leading digital marketing agency, crafting tailored strategies powered by the latest tools and
             cutting-edge technologies. We translate your business goals into measurable growth.
@@ -811,6 +788,36 @@
         </div>
     </div>
 </section>
+
+<!--<section class="premium-measure-section">
+    <div class="container">
+        <h2 class="premium-measure-title">How We Measure PPC Ads Performance</h2>
+        <div class="premium-measure-row">
+            <div class="premium-measure-card active">
+                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-1.jpg') ?>" alt="Cost Per Click (CPC)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">Cost Per Click</h3>
+                    <p class="premium-measure-card-desc">CPC tells you how efficiently your budget is working. By tracking what you pay for each click, we identify high-performing keywords and ads that deliver value and eliminate the ones that drain spend without results. Lower CPCs with strong conversion rates mean your campaigns are optimized.</p>
+                </div>
+            </div>
+            <div class="premium-measure-card">
+                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-2.jpg') ?>" alt="Click-Through Rate (CTR)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">Click-Through Rate</h3>
+                    <p class="premium-measure-card-desc">CTR measures how compelling your ads are to your target audience. A strong CTR signals that your messaging, keywords, and ad extensions are hitting the mark. We use this insight to refine ad copy, test creative angles, and ensure your ads capture attention in a crowded search landscape.</p>
+                </div>
+            </div>
+            <div class="premium-measure-card">
+                <img src="<?= base_url('assets/images/service/pm/how-we-help-img-3.jpg') ?>" alt="Return on Ad Spend (ROAS)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">Return on Ad Spend</h3>
+                    <p class="premium-measure-card-desc">ROAS is the ultimate measure of PPC success- revenue generated for every dirham spent. It connects your campaigns directly to business growth, showing which strategies deliver profitable returns. At BrandStory, we optimize every campaign toward maximizing ROAS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
 <section class="mumbai-services-section" id="services">
     <div class="container">
         <div class="row">
@@ -1161,106 +1168,11 @@ include __DIR__ . '/../component/client_reviews.php';
         </div>
     </div>
 </section>
-<section class="sp-50 dm-blog-section">
-    <div class="container">
-        <h2 class=" mb-4 text-md-start text-center text-white">Know What's Happening <br>
-            In the Industry
-        </h2>
-        <div class="position-relative delivertechmain">
-            <div class="swiper dmblog-sld">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog3.webp">
-                            <h3><a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/" style="color: #000; text-decoration: none;">Effective Digital Marketing Guide for Eid al-Adha Campaigns 2025</a></h3>
-                            <p class="fs-20">Known as the "Festival of Sacrifice," Eid al-Adha is one of the most celebrated Islamic festivals, with millions of Muslims worldwide observing it.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/eid-al-adha-2025-smart-digital-marketing-tips/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog4.webp">
-                            <h3><a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/" style="color: #000; text-decoration: none;">Drive Smarter Growth with Digital Marketing Trends in 2025</a></h3>
-                            <p class="fs-20">Digital marketing is undergoing a massive makeover in 2025, driven by fast-paced technological changes and consumer tendencies.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/drive-smarter-growth-with-digital-marketing-trends-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog5.webp">
-                            <h3><a href="/blogs/5-digital-marketing-trends-and-innovations-for-2020/" style="color: #000; text-decoration: none;">5 Digital Marketing Trends And Innovations For 2025</a></h3>
-                            <p class="fs-20">2020 has emblazoned itself into the history books as unforgettable, but it's not over yet.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/5-digital-marketing-trends-and-innovations-for-2020/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-ppc/blog6.webp">
-                            <h3><a href="/blogs/the-role-of-ux-in-building-high-converting-websites/" style="color: #000; text-decoration: none;">The Role of UX in Building High-Converting Websites for Dubai Businesses</a></h3>
-                            <p class="fs-20">Dubai is a city that presents great innovations, luxuries, and world-class experiences — and the digital space in Dubai is no exception.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/the-role-of-ux-in-building-high-converting-websites/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/track-competitors/banner.jpg">
-                            <h3><a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/" style="color: #000; text-decoration: none;">Digital Marketing Competitor Analysis: How to Track Competitors</a></h3>
-                            <p class="fs-20">Ethically carrying out competitor analysis in digital marketing for winning strategies through respectful and legally grounded means.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/digital-marketing-competitor-analysis-how-to-ethically-track-your-competitors/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/high-impact-keywords/banner.jpg">
-                            <h3><a href="/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/" style="color: #000; text-decoration: none;">How to Identify High-Impact Keywords in Competitive Niches</a></h3>
-                            <p class="fs-20">Conducting keyword research in competitive niches is like playing a chess match against a grandmaster. Know More!</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/how-to-identify-high-impact-keywords-in-competitive-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/lower-cpc-banner.webp">
-                            <h3><a href="/blogs/how-to-lower-cpc-without-losing-ad-visibility/" style="color: #000; text-decoration: none;">How to Lower CPC Without Losing Ad Visibility</a></h3>
-                            <p class="fs-20">Google Ads is an auction system, so the cost per click depends on your bid, what competitors bid, your ad quality, and relevance level.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/how-to-lower-cpc-without-losing-ad-visibility/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ppc-strategies-banner.webp">
-                            <h3><a href="/blogs/ppc-strategies-that-maximize-roi-for-any-budget/" style="color: #000; text-decoration: none;">PPC Strategies That Maximize ROI for Any Budget</a></h3>
-                            <p class="fs-20">PPC marketing today remains among the most popular methods to attract targeted traffic and conversions in this competitive digital advertising arena.</p>
-                            <div class="casestydies-readmore">
-                                <a href="/blogs/ppc-strategies-that-maximize-roi-for-any-budget/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-            </div>
-            <div class="swiper-button-next dmblog-next"></div>
-            <div class="swiper-button-prev dmblog-prev"></div>
-        </div>
-    </div>
-</section>
+<?php 
+  $category = 'Pay Per Click';
+  $padding= 'sp-50';
+  include __DIR__ . '/component/blog_carousel.php'; 
+?>
 
 <section class="dm-faq-section spb-50">
     <div class="container">
@@ -1495,6 +1407,64 @@ include __DIR__ . '/../component/client_reviews.php';
         </div>
     </div>
 </section>
+<section class="container">
+    <div class="new-cta-footer">
+        <div class="new-cta-footer-container">
+            <h2 class="new-cta-footer-title">
+                PPC Advertising Agency for Businesses in Dubai
+            </h2>
+            <p class="new-cta-footer-text">
+                In a digital world overflowing with content, PPC advertising is your shortcut to visibility, but only when
+                 executed with precision. At <a href="https://www.brandstory.ae/" style="color: #ffffff; text-decoration: underline;">BrandStory</a>, we don’t just set up pay-per-click ads, we engineer campaigns that speak
+                  directly to the people who matter most for your business. Each campaign begins with understanding your audience, 
+                  their intent, and their journey, allowing us to craft strategies that cut through the noise and deliver exceptional 
+                  outcomes.
+            </p>
+            <p class="new-cta-footer-text">Our approach focuses on hyper-targeted ad placement, intelligent bid strategies, and continuous
+                 ad optimization. By leveraging real-time data, we refine campaigns to ensure every click has a purpose, reducing wasted
+                  spend and maximizing returns on investment. From search and display ads to retargeting and dynamic campaigns, we build 
+                  a network of touchpoints that guide potential customers seamlessly from awareness to conversion.
+            </p>
+
+            <!-- Hidden Content -->
+            <div class="content-read-more">
+                <h3 class="mt-3 text-white">Smart PPC Management Services for Maximum Engagement</h3>
+                <p class="new-cta-footer-text">
+                    But PPC isn’t just numbers, it’s storytelling in action. Every ad is crafted with compelling copy, engaging visuals,
+                     and clear calls to action that resonate with your audience while staying true to your brand voice. BrandStory combines 
+                     creativity with analytics, ensuring that your campaigns are not only effective but also leave a lasting impression on
+                      every potential customer.
+                </p>
+                <p class="new-cta-footer-text">
+                    We also focus on <a href="hhttps://www.brandstory.ae/performance-marketing-agency-in-dubai-uae/" style="color: #ffffff; text-decoration: underline;">full-funnel performance</a> optimization, tracking user behavior beyond the click. By analyzing conversion 
+                    paths, engagement metrics, and ROI, we adapt campaigns to maximize efficiency and profitability. Our goal is to turn ad
+                     spend into growth, ensuring that your PPC investment translates into tangible business outcomes and long-term success.
+                </p>
+            </div>
+
+            <!-- Read More Link -->
+            <div class="mb-3">
+                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
+                    <span>Read More</span>
+                </a>
+            </div>
+
+            <!-- Primary Get In Touch Button -->
+            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
+                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+                    <span>Get In Touch</span>
+                    <span class="btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const stepsData = {
