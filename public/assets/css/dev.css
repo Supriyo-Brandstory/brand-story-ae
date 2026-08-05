@@ -7414,7 +7414,7 @@ a.applybtn-link:hover {
 /* Bottom trust bar */
 .wcp-bottom-bar {
     margin-top: 32px;
-    background: linear-gradient(135deg, rgba(133,91,255,0.12), rgba(184,141,255,0.08));
+    background: linear-gradient(135deg, rgba(133, 91, 255, 0.12), rgba(184, 141, 255, 0.08));
     border: 1px solid rgba(133, 91, 255, 0.25);
     border-radius: 14px;
     padding: 18px 28px;
@@ -7494,4 +7494,4 @@ a.applybtn-link:hover {
     }
 }
 
-}
+}
