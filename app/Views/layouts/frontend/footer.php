@@ -207,7 +207,7 @@ $stickyServices = $stickyServices ?? [
     class="unique-sticky-btn unique-sticky-call mobile-only"
     href="tel:+971522831655"
     aria-label="Call us">
-    <img src="/assets/images/call-sticky.png" alt="" class="unique-sticky-icon" />
+    <img src="/assets/images/call-sticky.png" width="24" height="24" alt="" class="unique-sticky-icon" />
     <span class="unique-sticky-label">Call Us</span>
   </a>
 
@@ -216,7 +216,7 @@ $stickyServices = $stickyServices ?? [
   <a
     class="unique-sticky-btn unique-sticky-msg uniq-contact-lead-btn d-md-none "
     href="javascript:void(0);">
-    <img src="/assets/images/mail-sticky.png" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
+    <img src="/assets/images/mail-sticky.png" width="24" height="24" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
     <span class="unique-sticky-label">Enquire</span>
   </a>
 
