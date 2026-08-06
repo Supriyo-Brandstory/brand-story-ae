@@ -15,6 +15,23 @@
     --color-blue: #2E63D8
 }
 
+/* CLS Prevention for Header Logo */
+.header .header-logo img,
+.header-logo img {
+    max-width: 165px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 165 / 46;
+}
+
+@media (max-width: 767px) {
+    .header .header-logo img,
+    .header-logo img {
+        max-width: 135px;
+        aspect-ratio: 135 / 38;
+    }
+}
+
 @media (min-width:992px) {
     :root {
         --font-size-h1: 42px;

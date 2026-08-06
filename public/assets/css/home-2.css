@@ -256,19 +256,21 @@
 @media (max-width: 767px) {
     .premium-hero-slider {
         height: auto;
-        min-height: auto;
+        min-height: 480px;
         padding-top: 5%;
         padding-bottom: 70px;
     }
 
     .premium-slider-container {
         height: auto;
+        min-height: 400px;
     }
 
     .premium-slide {
         position: relative;
         display: none;
         height: auto;
+        min-height: 400px;
         padding: 50px 0;
     }
 
