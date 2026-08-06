@@ -64,9 +64,9 @@
   <!-- Main Footer Content Grid -->
   <div class="footer-main-content">
     <div class="container">
-      <div class="row gx-lg-5 gy-4">
+      <div class="row ftr-content-row gy-4">
         <!-- Col 1: Brand Info & Socials -->
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-auto col-md-12 ftr-col-1">
           <div class="ftr-brand-title">BRANDSTORY <sup>®</sup></div>
           <p class="ftr-brand-desc">
             BrandStory is a premier digital transformation agency in Dubai. We excel in digital marketing, web design, and branding expertise to help UAE-based businesses connect, expand, and succeed.
@@ -94,7 +94,7 @@
         </div>
 
         <!-- Col 2: Quick Links -->
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-auto col-md-4 ftr-col-2">
           <h5 class="ftr-col-heading">Quick links</h5>
           <ul class="ftr-nav-links">
             <li><a href="/">Home</a></li>
@@ -110,7 +110,7 @@
         </div>
 
         <!-- Col 3: Our Services -->
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-auto col-md-4 ftr-col-3">
           <h5 class="ftr-col-heading">Our Services</h5>
           <ul class="ftr-nav-links">
             <li><a href="/">Digital Marketing</a></li>
@@ -125,7 +125,7 @@
         </div>
 
         <!-- Col 4: Contact Us -->
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-auto col-md-4 ftr-col-4">
           <h5 class="ftr-col-heading">Contact Us</h5>
           <div class="ftr-contact-list">
             <div class="ftr-contact-item">

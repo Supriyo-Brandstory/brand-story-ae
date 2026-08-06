@@ -93,7 +93,7 @@ if ($seoData) {
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
     <!-- Critical CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">

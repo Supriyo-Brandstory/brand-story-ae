@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
 :root {
     --font-main: 'Poppins';
     --font-size-h1: 26px;
@@ -297,8 +299,8 @@ button:focus {
 }
 
 .partner-logo-img {
-    max-height: 46px;
-    max-width: 165px;
+    max-height: 60px;
+    max-width: 175px;
     width: auto;
     object-fit: contain;
     filter: brightness(0) invert(1) !important;
@@ -315,6 +317,37 @@ button:focus {
     position: relative;
     z-index: 1;
     padding: 60px 0 45px 0;
+}
+
+.ftr-content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+    .ftr-col-1 {
+        flex: 0 0 31.1%;
+        max-width: 31.1%;
+        width: 31.1%;
+    }
+
+    .ftr-col-2 {
+        flex: 0 0 16.6%;
+        max-width: 16.6%;
+        width: 16.6%;
+    }
+
+    .ftr-col-3 {
+        flex: 0 0 20.3%;
+        max-width: 20.3%;
+        width: 20.3%;
+    }
+
+    .ftr-col-4 {
+        flex: 0 0 26%;
+        max-width: 32%;
+        width: 32%;
+    }
 }
 
 .ftr-brand-title {
@@ -336,11 +369,14 @@ button:focus {
 }
 
 .ftr-brand-desc {
-    color: #9CA3AF;
-    font-size: 14px;
-    line-height: 1.65;
+    color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px !important;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0;
     margin-bottom: 24px;
-    font-weight: 300;
 }
 
 .ftr-social-block {
@@ -349,10 +385,11 @@ button:focus {
 
 .ftr-social-title {
     color: #FFFFFF;
-    font-size: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 14px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
 }
 
 .ftr-social-icons {
@@ -381,10 +418,11 @@ button:focus {
 
 .ftr-col-heading {
     color: #FFFFFF;
+    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 22px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
 }
 
 .ftr-nav-links {
@@ -398,9 +436,13 @@ button:focus {
 }
 
 .ftr-nav-links li a {
-    color: #9CA3AF;
-    font-size: 14px;
-    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
     text-decoration: none;
     transition: color 0.2s ease;
     display: inline-block;
@@ -421,13 +463,22 @@ button:focus {
     align-items: flex-start;
     gap: 12px;
     color: #9CA3AF;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.5;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0;
 }
 
 .ftr-contact-item a {
-    color: #9CA3AF;
+    color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 126%;
+    letter-spacing: 0;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -458,13 +509,23 @@ button:focus {
 }
 
 .copyright-text {
-    color: #9CA3AF;
-    font-size: 13px;
-    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
 }
 
 .copyright-text a {
-    color: #9CA3AF;
+    color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -548,6 +609,11 @@ button:focus {
 @media (min-width:768px) {
     .ftr-sub-title {
         margin-top: unset
+    }
+
+    .partner-logo-img {
+        max-height: 48px;
+        max-width: 170px;
     }
 }
 
