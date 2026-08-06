@@ -42,20 +42,20 @@
       <div class="partners-grid-row">
         <div class="partner-col">
           <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank" rel="noopener">
-            <img src="/assets/images/hover-google.svg" class="partner-logo-img" alt="Google Partner">
+            <img src="/assets/images/hover-google.svg" width="160" height="48" class="partner-logo-img" alt="Google Partner" loading="lazy">
           </a>
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-meta.svg" class="partner-logo-img" alt="Meta Business Partner">
+          <img src="/assets/images/hover-meta.svg" width="160" height="48" class="partner-logo-img" alt="Meta Business Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/Ahrefs-Agency-Parnter-SEO.png" class="partner-logo-img" alt="Ahrefs Agency Partner">
+          <img src="/assets/images/Ahrefs-Agency-Parnter-SEO.png" width="160" height="48" class="partner-logo-img" alt="Ahrefs Agency Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-shopify.svg" class="partner-logo-img" alt="Shopify Development Partner">
+          <img src="/assets/images/hover-shopify.svg" width="160" height="48" class="partner-logo-img" alt="Shopify Development Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-tiktok.svg" class="partner-logo-img" alt="TikTok Marketing Partner">
+          <img src="/assets/images/hover-tiktok.svg" width="160" height="48" class="partner-logo-img" alt="TikTok Marketing Partner" loading="lazy">
         </div>
       </div>
     </div>
