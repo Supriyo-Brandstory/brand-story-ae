@@ -42,20 +42,20 @@
       <div class="partners-grid-row">
         <div class="partner-col">
           <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank" rel="noopener">
-            <img src="/assets/images/hover-google.svg" class="partner-logo-img" alt="Google Partner">
+            <img src="/assets/images/hover-google.svg" width="160" height="48" class="partner-logo-img" alt="Google Partner" loading="lazy">
           </a>
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-meta.svg" class="partner-logo-img" alt="Meta Business Partner">
+          <img src="/assets/images/hover-meta.svg" width="160" height="48" class="partner-logo-img" alt="Meta Business Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/Ahrefs-Agency-Parnter-SEO.png" class="partner-logo-img" alt="Ahrefs Agency Partner">
+          <img src="/assets/images/Ahrefs-Agency-Parnter-SEO.png" width="160" height="48" class="partner-logo-img" alt="Ahrefs Agency Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-shopify.svg" class="partner-logo-img" alt="Shopify Development Partner">
+          <img src="/assets/images/hover-shopify.svg" width="160" height="48" class="partner-logo-img" alt="Shopify Development Partner" loading="lazy">
         </div>
         <div class="partner-col">
-          <img src="/assets/images/hover-tiktok.svg" class="partner-logo-img" alt="TikTok Marketing Partner">
+          <img src="/assets/images/hover-tiktok.svg" width="160" height="48" class="partner-logo-img" alt="TikTok Marketing Partner" loading="lazy">
         </div>
       </div>
     </div>
@@ -207,7 +207,7 @@ $stickyServices = $stickyServices ?? [
     class="unique-sticky-btn unique-sticky-call mobile-only"
     href="tel:+971522831655"
     aria-label="Call us">
-    <img src="/assets/images/call-sticky.png" alt="" class="unique-sticky-icon" />
+    <img src="/assets/images/call-sticky.png" width="24" height="24" alt="" class="unique-sticky-icon" />
     <span class="unique-sticky-label">Call Us</span>
   </a>
 
@@ -216,7 +216,7 @@ $stickyServices = $stickyServices ?? [
   <a
     class="unique-sticky-btn unique-sticky-msg uniq-contact-lead-btn d-md-none "
     href="javascript:void(0);">
-    <img src="/assets/images/mail-sticky.png" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
+    <img src="/assets/images/mail-sticky.png" width="24" height="24" alt="" class="unique-sticky-icon uniq-contact-lead-btn" />
     <span class="unique-sticky-label">Enquire</span>
   </a>
 

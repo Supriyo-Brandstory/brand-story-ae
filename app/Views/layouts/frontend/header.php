@@ -1,10 +1,10 @@
-  <header class="header sticky-top">
+<header class="header sticky-top">
       <div class="container">
           <div class="row align-items-center">
               <div class="col-5 col-md-3 col-lg-2 col-xl-3">
                   <div class="header-logo">
                       <a href="<?= route('home') ?>">
-                          <img src="<?= base_url('assets/images/logo.svg') ?>" class="img-fluid" alt="BrandStory"></a>
+                          <img src="<?= base_url('assets/images/logo.svg') ?>" width="165" height="46" class="img-fluid" alt="BrandStory">
                       </a>
                   </div>
               </div>

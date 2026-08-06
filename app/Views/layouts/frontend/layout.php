@@ -92,19 +92,17 @@ if ($seoData) {
     <meta name="audience" content="all">
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
-    <!-- Critical CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <!-- Critical & Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.css?v=1.9') ?>" rel="stylesheet">
-
-    <!-- Non-Critical CSS (Loaded Asynchronously) -->
+    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/dev.css?v=1.6') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/dev.css?v=1.6') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
         integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
