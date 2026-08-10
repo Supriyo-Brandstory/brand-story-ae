@@ -452,6 +452,15 @@ class FrontendController extends Controller
         ];
         return $this->view('services/logo-designing-company-in-dubai', ['meta' => $meta]);
     }
+
+    public function logoDesigningDubai2()
+    {
+        $meta = [
+            
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/logo-designing-company-in-dubai-2', ['meta' => $meta]);
+    }
     public function creativeAdvertisingAgencyDubai()
     {
         $meta = [

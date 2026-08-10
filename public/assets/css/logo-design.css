@@ -1,0 +1,1653 @@
+/* ==========================================================================
+   Logo Design 2 - Premium Modern CSS Design System
+   (Font sizes & weights deferred to global typography styles)
+   ========================================================================== */
+
+:root {
+    --ld2-bg-main: #07080c;
+    --ld2-bg-alt: #0b0d14;
+    --ld2-card-bg: rgba(255, 255, 255, 0.03);
+    --ld2-card-hover-bg: rgba(133, 91, 255, 0.06);
+    --ld2-border: rgba(255, 255, 255, 0.08);
+    --ld2-border-hover: rgba(133, 91, 255, 0.4);
+    --ld2-accent: #855bff;
+    --ld2-accent-light: #b599ff;
+    --ld2-accent-glow: rgba(133, 91, 255, 0.3);
+    --ld2-gradient-text: linear-gradient(135deg, #ffffff 30%, #b599ff 100%);
+    --ld2-text-main: #ffffff;
+    --ld2-text-muted: rgba(255, 255, 255, 0.7);
+    --ld2-text-dim: rgba(255, 255, 255, 0.45);
+    --ld2-radius: 20px;
+    --ld2-radius-sm: 12px;
+    --ld2-transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base resets & section wrapper */
+.ld2-page-wrapper {
+    background-color: var(--ld2-bg-main);
+    color: var(--ld2-text-main);
+    overflow-x: clip;
+    position: relative;
+
+}
+
+.ld2-page-wrapper * {
+    box-sizing: border-box;
+}
+
+/* Animated Ambient Glow Orbs */
+.ld2-ambient-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--ld2-accent-glow) 0%, rgba(7, 8, 12, 0) 70%);
+    pointer-events: none;
+    z-index: 0;
+    filter: blur(80px);
+    opacity: 0.6;
+    animation: ld2PulseGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes ld2PulseGlow {
+    0% {
+        transform: scale(1) translate(0, 0);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: scale(1.15) translate(30px, -20px);
+        opacity: 0.7;
+    }
+}
+
+/* Hero Banner Custom Positioning & SVG Glow */
+.logo-design-hero-banner {
+    position: relative;
+
+    overflow: hidden;
+    padding: 60px 0;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.ld2-glow-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.logo-hero-img-wrapper {
+    position: relative;
+}
+
+.logo-hero-banner-img {
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 40px rgba(133, 91, 255, 0.25));
+    position: relative;
+    z-index: 2;
+}
+
+/* ==========================================
+   OUR RECENT PROJECTS COLLAGE SECTION (DESKTOP ONLY)
+   ========================================== */
+.logo-recent-projects-sec {
+
+    position: relative;
+    z-index: 2;
+    padding-bottom: 60px;
+}
+
+.logo-projects-header {
+
+    padding: 50px 0 35px;
+}
+
+.logo-projects-title {
+    color: #ffffff;
+    margin: 0;
+
+}
+
+.logo-projects-collage {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-projects-collage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    position: relative;
+}
+
+.logo-collage-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-collage-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.logo-center-badge-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.logo-center-badge-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.logo-projects-bottom-full {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-bottom-full-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .logo-center-badge-wrap {
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* ==========================================
+   FITWARES PROJECT SHOWCASE SECTION (DESKTOP ONLY)
+   ========================================== */
+.logo-fitwares-projects-sec {
+
+    position: relative;
+    z-index: 2;
+    padding-bottom: 60px;
+}
+
+.logo-fitwares-collage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-fitwares-top-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-fitwares-full-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.logo-fitwares-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    width: 100%;
+}
+
+.logo-fitwares-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo-fitwares-item-full {
+    grid-column: 1 / -1;
+}
+
+.logo-fitwares-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Show Fitwares Section on mobile */
+
+/* ==========================================
+   VITALITY PROJECT SHOWCASE SECTION (DESKTOP ONLY)
+   ========================================== */
+.logo-vitality-projects-sec {
+
+    position: relative;
+    z-index: 2;
+    padding-bottom: 60px;
+}
+
+.logo-vitality-collage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-vitality-top-banner,
+.logo-vitality-bottom-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-vitality-full-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.logo-vitality-row {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-vitality-col {
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-vitality-col-wide {
+    flex: 0 0 58.2%;
+    max-width: 58.2%;
+}
+
+.logo-vitality-col-narrow {
+    flex: 0 0 41.8%;
+    max-width: 41.8%;
+}
+
+.logo-vitality-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Show Vitality Section on mobile */
+
+/* ==========================================
+   1. HERO SECTION
+   ========================================== */
+.ld2-hero {
+    position: relative;
+    padding: 120px 0 90px;
+    background: radial-gradient(circle at 50% 0%, #15102a 0%, var(--ld2-bg-main) 70%);
+    overflow: hidden;
+}
+
+.ld2-hero-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 20%, transparent 100%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Hero Background Marquee */
+.ld2-hero-bg-marquee {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-4deg);
+    width: 130vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.04;
+    user-select: none;
+}
+
+.ld2-hero-bg-marquee-track {
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+    animation: ld2MarqueeScroll 40s linear infinite;
+    font-size: 84px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.ld2-hero-bg-marquee-track.reverse {
+    animation-direction: reverse;
+}
+
+@keyframes ld2MarqueeScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.ld2-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.ld2-pill-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: rgba(133, 91, 255, 0.12);
+    border: 1px solid rgba(133, 91, 255, 0.3);
+    color: var(--ld2-accent-light);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    backdrop-filter: blur(10px);
+}
+
+.ld2-badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--ld2-accent);
+    box-shadow: 0 0 10px var(--ld2-accent);
+    animation: ld2Blink 2s infinite;
+}
+
+@keyframes ld2Blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+.ld2-hero-title {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 24px;
+    color: var(--ld2-text-main);
+    letter-spacing: -0.02em;
+}
+
+.ld2-hero-title span {
+    background: var(--ld2-gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ld2-hero-desc {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ld2-text-muted);
+    margin-bottom: 36px;
+    max-width: 600px;
+}
+
+.ld2-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.ld2-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 36px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #855bff 0%, #6838f3 100%);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(133, 91, 255, 0.4);
+    transition: var(--ld2-transition);
+}
+
+.ld2-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(133, 91, 255, 0.6);
+    color: #ffffff;
+}
+
+.ld2-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--ld2-border);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: var(--ld2-transition);
+}
+
+.ld2-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.ld2-hero-card {
+    background: rgba(15, 17, 26, 0.7);
+    border: 1px solid var(--ld2-border);
+    border-radius: var(--ld2-radius);
+    padding: 36px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+/* ==========================================
+   2. STATS BAR SECTION
+   ========================================== */
+.ld2-stats-section {
+    padding: 40px 0;
+    border-top: 1px solid var(--ld2-border);
+    border-bottom: 1px solid var(--ld2-border);
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.ld2-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.ld2-stat-card {
+    text-align: center;
+}
+
+.ld2-stat-num {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--ld2-accent-light);
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+}
+
+.ld2-stat-label {
+    font-size: 14px;
+    color: var(--ld2-text-muted);
+}
+
+/* ==========================================
+   3. LOGO TYPES / SERVICES GRID
+   ========================================== */
+.ld2-section {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.ld2-section-title {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px;
+}
+
+.ld2-section-title h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.ld2-section-title p {
+    font-size: 16px;
+    color: var(--ld2-text-muted);
+    line-height: 1.6;
+}
+
+.ld2-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.ld2-service-card {
+    background: var(--ld2-card-bg);
+    border: 1px solid var(--ld2-border);
+    border-radius: var(--ld2-radius);
+    padding: 36px 30px;
+    transition: var(--ld2-transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.ld2-service-card:hover {
+    background: var(--ld2-card-hover-bg);
+    border-color: var(--ld2-border-hover);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(133, 91, 255, 0.15);
+}
+
+.ld2-service-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--ld2-radius-sm);
+    background: rgba(133, 91, 255, 0.15);
+    color: var(--ld2-accent-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 24px;
+    transition: var(--ld2-transition);
+}
+
+.ld2-service-card:hover .ld2-service-icon {
+    background: var(--ld2-accent);
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.ld2-service-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.ld2-service-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ld2-text-muted);
+    margin: 0;
+}
+
+/* ==========================================
+   4. PROCESS SECTION
+   ========================================== */
+.ld2-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    position: relative;
+}
+
+.ld2-process-card {
+    background: var(--ld2-card-bg);
+    border: 1px solid var(--ld2-border);
+    border-radius: var(--ld2-radius);
+    padding: 32px 24px;
+    position: relative;
+    transition: var(--ld2-transition);
+}
+
+.ld2-process-card:hover {
+    background: var(--ld2-card-hover-bg);
+    border-color: var(--ld2-border-hover);
+    transform: translateY(-4px);
+}
+
+.ld2-process-num {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 16px;
+    line-height: 1;
+    transition: var(--ld2-transition);
+}
+
+.ld2-process-card:hover .ld2-process-num {
+    color: var(--ld2-accent-light);
+}
+
+.ld2-process-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.ld2-process-card p {
+    font-size: 14px;
+    color: var(--ld2-text-muted);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ==========================================
+   5. PORTFOLIO SHOWCASE GRID
+   ========================================== */
+.ld2-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.ld2-portfolio-card {
+    background: var(--ld2-card-bg);
+    border: 1px solid var(--ld2-border);
+    border-radius: var(--ld2-radius);
+    padding: 40px 30px;
+    text-align: center;
+    transition: var(--ld2-transition);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+}
+
+.ld2-portfolio-card:hover {
+    border-color: var(--ld2-border-hover);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.ld2-portfolio-logo-preview {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.ld2-portfolio-category {
+    font-size: 13px;
+    color: var(--ld2-accent-light);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* ==========================================
+   6. FAQ ACCORDION
+   ========================================== */
+.ld2-faq-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ld2-faq-item {
+    background: var(--ld2-card-bg);
+    border: 1px solid var(--ld2-border);
+    border-radius: var(--ld2-radius-sm);
+    overflow: hidden;
+    transition: var(--ld2-transition);
+}
+
+.ld2-faq-item:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.ld2-faq-button {
+    width: 100%;
+    padding: 22px 28px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ld2-faq-icon {
+    font-size: 20px;
+    color: var(--ld2-accent-light);
+    transition: transform 0.3s ease;
+}
+
+.ld2-faq-item.active .ld2-faq-icon {
+    transform: rotate(45deg);
+}
+
+.ld2-faq-content {
+    padding: 0 28px 22px;
+    color: var(--ld2-text-muted);
+    font-size: 15px;
+    line-height: 1.6;
+    display: none;
+}
+
+.ld2-faq-item.active .ld2-faq-content {
+    display: block;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 991px) {
+    .ld2-hero-title {
+        font-size: 40px;
+    }
+
+    .ld2-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ld2-process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ld2-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ld2-portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .ld2-hero {
+        padding: 80px 0 60px;
+    }
+
+    .ld2-hero-title {
+        font-size: 32px;
+    }
+
+    .ld2-services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ld2-process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ld2-stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ld2-portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ld2-btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ld2-btn-primary,
+    .ld2-btn-outline {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* ==========================================
+   TYPES OF LOGO DESIGN SERVICES SECTION
+   ========================================== */
+.logo-types-section {
+
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-types-main-title {
+    color: #ffffff;
+    margin-bottom: 40px;
+    letter-spacing: -0.01em;
+
+}
+
+/* Nav Tab List (Left Column) */
+.logo-types-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.logo-types-nav-item-wrap {
+    padding: 8px 0;
+    width: 100%;
+}
+
+.logo-types-nav-item-wrap:last-child {
+    border-bottom: none;
+}
+
+.logo-types-nav-item {
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    padding: 15px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    border-bottom: 0.5px solid #FFFFFF4D
+}
+
+.logo-types-nav-item:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 4px;
+    border-bottom: none;
+
+}
+
+.logo-types-nav-item.active {
+    background-color: #8258F2 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: none;
+    border-bottom: none;
+
+}
+
+/* Right Side: Showcase Card Box */
+.logo-types-card-box {
+    background-color: #1c1c1e;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Content Panels (Right Column) */
+.logo-types-content-wrapper {
+    position: relative;
+}
+
+.logo-types-panel {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.logo-types-panel.active {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.logo-types-img-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 280px;
+    max-height: 360px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.logo-types-img {
+    max-height: 260px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-types-info {
+    padding-top: 5px;
+}
+
+.logo-types-info-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.logo-types-info-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .logo-design-hero-banner {
+        min-height: auto;
+        padding: 0px 0 0px;
+    }
+
+    .logo-hero-banner-img {
+        max-width: 100%;
+    }
+
+    .logo-hero-img-wrapper {
+        margin-top: 40px;
+    }
+
+    .ld2-glow-top-right {
+        display: none;
+    }
+
+
+
+    .logo-types-section {
+        padding: 50px 0;
+    }
+
+    .logo-types-main-title {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+
+    .logo-types-nav-list {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        gap: 10px;
+    }
+
+    .logo-types-nav-item-wrap {
+        border-bottom: none;
+        width: auto;
+        padding: 0;
+    }
+
+    .logo-types-nav-item {
+        width: auto;
+        white-space: nowrap;
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+    .logo-types-card-box {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .logo-types-img-box {
+        min-height: 200px;
+        padding: 16px;
+    }
+
+    .logo-types-img {
+        max-height: 200px;
+    }
+
+    .logo-types-info-title {
+        font-size: 20px;
+    }
+
+    .logo-types-info-desc {
+        font-size: 14px;
+    }
+}
+
+/* ==========================================
+   OUR LOGO DESIGN PROCESS SECTION
+   ========================================== */
+.logo-process-section {
+
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-process-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-process-card-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.logo-process-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.logo-process-overlay-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #ffffff;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    z-index: 10;
+}
+
+.logo-process-floating-steps {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 10;
+}
+
+.logo-process-step-node {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo-process-step-node:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20px;
+    border-left: 2px dotted rgba(255, 255, 255, 0.8);
+}
+
+.logo-process-float-pill {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo-process-float-icon {
+    color: #8258F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-process-float-text {
+    color: #8258F2;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+/* Process List (Right Column) */
+.logo-process-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.logo-process-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-process-list-item:first-child {
+    padding-top: 0;
+}
+
+.logo-process-list-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.logo-process-num {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+
+    min-width: 60px;
+}
+
+.logo-process-details {
+    flex: 1;
+}
+
+.logo-process-step-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #8258F2;
+    margin-bottom: 12px;
+
+}
+
+.logo-process-step-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 1.55;
+    margin: 0;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .logo-process-section {
+        padding: 50px 0;
+    }
+
+    .logo-process-overlay-title {
+        font-size: 24px;
+        top: 24px;
+        left: 24px;
+    }
+
+    .logo-process-card-wrap {
+        min-height: 480px;
+    }
+
+    .logo-process-floating-steps {
+        bottom: 30px;
+        right: 20px;
+        scale: 0.85;
+        transform-origin: bottom right;
+    }
+
+    .logo-process-num {
+        font-size: 36px;
+        min-width: 45px;
+    }
+
+    .logo-process-step-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .logo-process-step-desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .logo-process-card-wrap {
+        min-height: 380px;
+    }
+}
+
+/* ==========================================
+   WHY CHOOSE OUR LOGO DESIGNERS SECTION
+   ========================================== */
+.logo-why-choose-section {
+
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-why-main-title {
+    color: #ffffff;
+    margin-bottom: 40px;
+
+}
+
+/* Card 1: Image Card */
+.logo-why-image-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 380px;
+    height: 100%;
+    background-image: url('../images/logo-29.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.logo-why-image-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.45) 100%);
+    z-index: 1;
+}
+
+.logo-why-image-overlay {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.logo-why-stat {
+    font-size: 38px;
+    font-weight: 700;
+    color: #111116;
+    line-height: 1.1;
+    margin-bottom: 6px;
+
+}
+
+.logo-why-text {
+    font-size: 14px;
+    color: #55555c;
+    line-height: 1.4;
+    margin: 0;
+
+}
+
+/* Card 2: Satisfaction Card */
+.logo-why-satisfaction-card {
+    background-color: #f3f3f6;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    min-height: 380px;
+}
+
+.logo-why-card-label {
+    font-size: 14px;
+    color: #111116;
+    font-weight: 500;
+    opacity: 0.85;
+
+}
+
+.logo-why-stat-large {
+    font-size: 54px;
+    font-weight: 700;
+    color: #111116;
+    line-height: 1.1;
+
+    margin-top: 5px;
+}
+
+.logo-why-avatars {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo-why-avatar-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2.5px solid #f3f3f6;
+    object-fit: cover;
+    margin-left: -12px;
+}
+
+.logo-why-avatar-img:first-child {
+    margin-left: 0;
+}
+
+.logo-why-card-desc-dark {
+    color: #44444a;
+    font-size: 14.5px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+/* Right Column Flex stack */
+.logo-why-right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.logo-why-purple-card {
+    background-color: #8258F2;
+    border-radius: 20px;
+    padding: 30px;
+    color: #ffffff;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    min-height: 240px;
+}
+
+.logo-why-card-label-white {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 0.9;
+
+}
+
+.logo-why-stat-white {
+    font-size: 54px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.1;
+
+}
+
+.logo-why-card-desc-white {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14.5px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+.logo-why-small-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 24px 30px;
+    color: #111116;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    min-height: 90px;
+}
+
+.logo-why-small-card-label {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.logo-why-small-card-stat {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+/* Bottom Row Wrap Container */
+.logo-why-bottom-row-wrap {
+    background-color: #F2F2F2;
+    border-radius: 24px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+/* Card 5: Wide Card with Image */
+.logo-why-wide-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0px 0px 4px 0px #0000000D;
+}
+
+.logo-why-icon-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #8258F2;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.logo-why-svg-icon {
+    display: block;
+}
+
+.logo-why-card-title-dark {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111116;
+    margin-bottom: 12px;
+
+}
+
+.logo-why-card-desc-dark-sm {
+    color: #55555c;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+.logo-why-wide-img {
+    border-radius: 12px;
+    width: auto;
+    object-fit: cover;
+}
+
+/* Card 6 & 7: Feature Card */
+.logo-why-feature-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0px 0px 4px 0px #0000000D;
+    min-height: 280px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .logo-why-choose-section {
+        padding: 50px 0;
+    }
+
+    .logo-why-main-title {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+
+    .logo-why-image-card {
+        min-height: 320px;
+    }
+
+    .logo-why-satisfaction-card {
+        min-height: 320px;
+        padding: 24px;
+    }
+
+    .logo-why-stat-large,
+    .logo-why-stat-white {
+        font-size: 42px;
+    }
+
+    .logo-why-purple-card {
+        padding: 24px;
+        min-height: 200px;
+    }
+
+    .logo-why-wide-card {
+        padding: 24px;
+    }
+
+    .logo-why-wide-img {
+        max-height: 300px;
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    .logo-why-bottom-row-wrap {
+        padding: 20px;
+    }
+
+    .logo-why-feature-card {
+        padding: 24px;
+        min-height: auto;
+    }
+}
+
+/* ==========================================
+   CALL TO ACTION SECTION STYLING
+   ========================================== */
+.logo-cta-section {
+    background-image: url('../images/logo-31.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-cta-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.logo-cta-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.logo-cta-content-box {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 50px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.logo-cta-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111116;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+
+}
+
+.logo-cta-desc {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #44444a;
+    margin-bottom: 20px;
+
+}
+
+.logo-cta-desc:last-of-type {
+    margin-bottom: 30px;
+}
+
+.logo-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 24px;
+    border: 1px solid #8258F2;
+    border-radius: 30px;
+    color: #111116;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo-cta-btn:hover {
+    background-color: #8258F2;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-cta-btn-arrow {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #8258F2;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.logo-cta-btn:hover .logo-cta-btn-arrow {
+    background-color: #ffffff;
+    color: #8258F2;
+}
+
+@media (max-width: 991px) {
+    .logo-cta-section {
+        padding: 60px 0;
+    }
+
+    .logo-cta-content-box {
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .logo-cta-title {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+
+    .logo-cta-desc {
+        font-size: 14.5px;
+        line-height: 1.55;
+    }
+}

@@ -60,6 +60,8 @@ Route::get('/content-marketing-agency-dubai', 'FrontendController@contentMarketi
 Route::get('/ui-ux-design-company-in-dubai', 'FrontendController@uiuxDesignCompanyInDubai', 'uiuxdesigncompanyindubai');
 // Route::get('/ui-ux-design-company-in-dubai-2', 'FrontendController@uiuxDesignCompanyInDubai2', 'uiuxdesigncompanyindubai2');
 Route::get('/logo-designing-dubai', 'FrontendController@logoDesigningDubai', 'logodesigningdubai');
+Route::get('/logo-designing-company-in-dubai-2', 'FrontendController@logoDesigningDubai2', 'logodesigningdubai2');
+Route::get('/logo-design-2', 'FrontendController@logoDesigningDubai2', 'logodesign2');
 Route::get('/creative-advertising-agency-in-dubai', 'FrontendController@creativeAdvertisingAgencyDubai', 'creativeadvertisingagencydubai');
 Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpressDevelopmentCompanyInDubai', 'wordpressdevelopmentcompanyindubai');
 // Route::get('/laravel-development-company-in-dubai', 'FrontendController@laravelDevelopmentCompanyInDubai', 'laraveldevelopmentcompanyindubai');

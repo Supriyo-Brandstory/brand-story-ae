@@ -1329,6 +1329,13 @@
     transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.premium-industry-card .industry-card-icon svg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
 .premium-industry-card:hover .industry-card-icon {
     right: calc(100% - 30px - 44px);
 }
@@ -2910,7 +2917,6 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     }
 
     .new-cta-footer .premium-pill-btn {
-        width: 100%;
         justify-content: space-between;
         font-size: 16px;
         padding: 8px 8px 8px 22px;
@@ -6806,4 +6812,11 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 .trailblazer-card-text {
     color: rgba(255, 255, 255, 0.85) !important;
     line-height: 130%;
+}
+
+@media screen and (max-width: 1000px) {
+    .dm-faq-main .accordion-button {
+        font-size: 17px !important;
+        font-weight: 600 !important;
+    }
 }
