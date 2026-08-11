@@ -15295,3 +15295,93 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         /* Clean layout hiding grid timeline on mobile, focusing entirely on responsive accordion */
     }
 }
+
+/* Newly Designed Industries Section */
+  .industry-card-link {
+    display: block;
+    outline: none;
+  }
+  .industry-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    border: 1px solid rgba(133, 91, 255, 0.15);
+    background-color: #121318;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .industry-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1;
+  }
+  .industry-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(10, 11, 15, 0.1) 0%, rgba(10, 11, 15, 0.75) 60%, #0A0B0F 100%);
+    transition: background 0.4s ease;
+    z-index: 2;
+  }
+  .industry-card-content {
+    position: relative;
+    z-index: 3;
+    transition: transform 0.4s ease;
+  }
+  .industry-card-content h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .industry-card-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .industry-card-btn {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    transition: all 0.3s ease;
+  }
+  .industry-card-btn svg {
+    transition: transform 0.3s ease;
+  }
+  .industry-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(133, 91, 255, 0.7);
+    box-shadow: 0 15px 30px rgba(133, 91, 255, 0.25);
+  }
+  .industry-card:hover .industry-card-bg {
+    transform: scale(1.08);
+  }
+  .industry-card:hover .industry-card-overlay {
+    background: linear-gradient(180deg, rgba(10, 11, 15, 0.1) 0%, rgba(133, 91, 255, 0.35) 50%, #0A0B0F 100%);
+  }
+  .industry-card:hover .industry-card-btn {
+    color: #855BFF;
+  }
+  .industry-card:hover .industry-card-btn svg {
+    transform: translateX(6px);
+  }

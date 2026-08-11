@@ -11,7 +11,7 @@
           <div class="col-lg-6 col-md-12 col-12">
             <div class="premium-slide-content">
               <h1 class="premium-slide-title">Best Creative <span class="premium-purple-highlight">Branding</span> Agency in Dubai, UAE</h1>
-              <p class="premium-slide-subtitle">BrandStory is the branding & marketing agency that helps businesses start, grow, and thrive across the GCC and around the world.</p>
+              <p class="premium-slide-subtitle">Integrated branding and marketing agency built to help businesses launch with impact, scale with strategy, and lead with distinction across Dubai, the UAE, and the GCC.</p>
               <div class="premium-slide-actions">
                 <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                   <span>Talk to Experts</span>
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <section class="logo-recent-projects-sec">
   <div class="logo-projects-header">
     <div class="container">
-      <h2 class="logo-projects-title">OUR RECENT<br>PROJECTS</h2>
+      <h2 class="logo-projects-title">We are The Creative <br>Branding Powerhouse in Dubai, UAE</h2>
     </div>
   </div>
 
@@ -226,10 +226,10 @@ document.addEventListener('DOMContentLoaded', function () {
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <div class="premium-perf-content">
-                    <h2 class="premium-perf-title">We are Creative Branding Agency in Dubai, UAE</h2>
+                    <h2 class="premium-perf-title">We are BrandStory, The <br>Top Branding Experts in Dubai</h2>
                     <ul class="premium-perf-list">
-                        <li>We're Dubai's leading branding agency, built by industry experts who know how to make brands matter. Our edge comes from blending deep local UAE insight with MENA-wide consumer understanding and global perspective- turning that into branding, websites, and digital campaigns that actually perform.</li>
-                        <li>We approach every project with a multidisciplinary team working on multiple angles. Logo to strategy, web to social- we implement bespoke solutions around your brand and audience. Our process is not limited to any template, no shortcuts, just work that lasts.</li>
+                        <li>A top-level branding agency in Dubai, BrandStory is where strategy meets storytelling. We believe every business has a narrative that can inspire, connect, and convert. Born and built in Dubai, we carry its drive and ambition in our DNA- and we've used it to help 900+ businesses start bold, grow smart, and thrive across the GCC and globally.</li>
+                        <li>Over the last 13+ years, we have partnered with 1000+ brands across various industries- from ambitious startups to enterprises, and established global names. Our focus has always been on close collaboration and delivering measurable results.</li>
                     </ul>
                     <div class="premium-perf-action">
                         <a href="/about/" class="premium-perf-btn">Know About Us</a>
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <section class="logo-types-section branding">
   <div class="container">
     <!-- Main Title above columns -->
-    <h2 class="logo-types-main-title">Contextual Strategies to Attract the Right Audience to Your Brand</h2>
+    <h2 class="logo-types-main-title">Our Expertise in Branding</h2>
 
     <div class="row align-items-stretch g-4 g-lg-5">
       <!-- Left Sidebar: Tab Navigation directly on section background -->
@@ -251,27 +251,27 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="logo-types-nav-list" role="tablist" aria-label="Branding Strategies">
           <div class="logo-types-nav-item-wrap">
             <button class="logo-types-nav-item active" id="tab-type-1" data-target="content-type-1" type="button" role="tab" aria-selected="true" aria-controls="content-type-1">
-              Brand Awareness
+              Brand Strategy
             </button>
           </div>
           <div class="logo-types-nav-item-wrap">
             <button class="logo-types-nav-item" id="tab-type-2" data-target="content-type-2" type="button" role="tab" aria-selected="false" aria-controls="content-type-2">
-              Audience Growth
+              Logo and Identity
             </button>
           </div>
           <div class="logo-types-nav-item-wrap">
             <button class="logo-types-nav-item" id="tab-type-3" data-target="content-type-3" type="button" role="tab" aria-selected="false" aria-controls="content-type-3">
-              Customer Acquisition
+              Brand Naming
             </button>
           </div>
           <div class="logo-types-nav-item-wrap">
             <button class="logo-types-nav-item" id="tab-type-4" data-target="content-type-4" type="button" role="tab" aria-selected="false" aria-controls="content-type-4">
-              Customer Retention
+              Brand Messaging
             </button>
           </div>
           <div class="logo-types-nav-item-wrap">
             <button class="logo-types-nav-item" id="tab-type-5" data-target="content-type-5" type="button" role="tab" aria-selected="false" aria-controls="content-type-5">
-              Customer Loyalty
+              Brand Guidelines
             </button>
           </div>
           <div class="logo-types-nav-item-wrap">
@@ -288,74 +288,55 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="logo-types-content-wrapper">
             <!-- Content 1: Brand Awareness -->
             <div class="logo-types-panel active branding-panel-content" id="content-type-1" role="tabpanel" aria-labelledby="tab-type-1">
-              <h3 class="branding-strategy-item-title">Brand Strategy</h3>
-              <p class="branding-strategy-item-desc">A successful branding strategy is one that encompasses your brand's mission, its promises to customers, and how these are communicated. We can help you develop all of this and more. A well-branded company is easily identifiable and preferred by consumers.</p>
+              <h3 class="branding-strategy-item-title">The Right Strategy</h3>
+              <p class="branding-strategy-item-desc">A brand is the mental shortcut that people remember instantly. When you think of streaming entertainment, what comes to mind first? Netflix. Affordable luxury in hospitality? Rove. The smoothest ride-hailing experience? Careem. That's BrandStory- building category-defining brands that occupy the first slot in your customer's mind when it matters most.</p>
               
-              <h3 class="branding-strategy-item-title">SEO Services</h3>
-              <p class="branding-strategy-item-desc">BrandStory is a digital marketing agency that will help your business grow online. We’re the best SEO company in Dubai, and we can help you increase leads by improving your website’s visibility on Google. Our team of experts understands how to get results with SEO.</p>
-              
-              <h3 class="branding-strategy-item-title">Creative Services</h3>
-              <p class="branding-strategy-item-desc">BrandStory is a full-service creative agency that provides creative solutions to your visual and content-related needs. We’re here to help with routine functions of marketing, including content, video production, graphic design, website and UI/UX design or consulting.</p>
+              <p class="branding-strategy-item-desc">This isn't achieved through surface-level aesthetics or clever advertising alone, though both play their part. It begins with understanding the real tension your customer faces- the unmet need, the unspoken expectation, the gap between what exists and what should exist. Our process is built on immersive research, collaborative strategy workshops, competitive white-space analysis, and a deep read of cultural shifts shaping behavior across the UAE, GCC, and global markets.</p>
+
             </div>
 
             <!-- Content 2: Audience Growth -->
             <div class="logo-types-panel branding-panel-content" id="content-type-2" role="tabpanel" aria-labelledby="tab-type-2">
-              <h3 class="branding-strategy-item-title">Content Marketing</h3>
-              <p class="branding-strategy-item-desc">Content marketing is one of the most effective ways to reach your target audience. BrandStory can help you create and distribute content such as blogs, newsletters, white papers, social media posts, emails, videos etc. Our team can help you develop a content marketing strategy that fits your business and helps you achieve your goals.</p>
+              <h3 class="branding-strategy-item-title">Logo & Visual Identity</h3>
+              <p class="branding-strategy-item-desc">A visual identity is a promise made visible. What symbols flash in your mind when you think of sportswear? The Nike Swoosh. Technology? Apple. Coffee? The Starbucks Siren. That's BrandStory- crafting distinctive visual identities that become instantly recognizable shorthand for everything your brand stands for.</p>
               
-              <h3 class="branding-strategy-item-title">UI/UX Design</h3>
-              <p class="branding-strategy-item-desc">Great UI/UX design is key to keeping customers satisfied and coming back for more. We understand the importance of a great user experience and work tirelessly to create designs that are not only visually appealing but also functionally sound.</p>
+              <p class="branding-strategy-item-desc">This isn't achieved through decoration or trendy aesthetics alone, though visual appeal matters. It's about distilling your brand's essence into a mark that communicates trust, quality, and purpose before a single word is read. Our process begins with deep brand discovery, competitive analysis, and audience psychology. We explore form, color theory, typography, and symbolism across cultures- followed by meticulous refinement to ensure your logo performs flawlessly whether etched on a business card or illuminated on a billboard.</p>
               
-              <h3 class="branding-strategy-item-title">Website Design</h3>
-              <p class="branding-strategy-item-desc">Our team of experts will work with you every step of the way, from strategy to design and execution. We don’t just build websites- we help businesses thrive online by providing exceptional customer service, strategic insights, and results-driven campaigns that drive traffic to your site.</p>
             </div>
 
             <!-- Content 3: Customer Acquisition -->
             <div class="logo-types-panel branding-panel-content" id="content-type-3" role="tabpanel" aria-labelledby="tab-type-3">
-              <h3 class="branding-strategy-item-title">PPC Services</h3>
-              <p class="branding-strategy-item-desc">With our PPC ad campaigns, we increase the digital footprint for businesses. Our PPC experts lay out a well-etched plan for implementation at the beginning of the campaign. The PPC ads will be designed to direct traffic towards specific keywords, and bring valuable leads.</p>
+              <h3 class="branding-strategy-item-title">Brand Naming</h3>
+              <p class="branding-strategy-item-desc">A name is the first story your brand tells. What comes to mind when you think of electric vehicles? Tesla. Premium audio? JBL. Search? Google. That's BrandStory- developing names that don't just identify your business, but position it, evoke emotion, and own space in your customer's mind.</p>
               
-              <h3 class="branding-strategy-item-title">Email Marketing</h3>
-              <p class="branding-strategy-item-desc">Email Marketing is the most powerful digital marketing tool. It's personal and customer-focused approach puts it way ahead of other digital marketing channels. We use email marketing to target specific demographics for brands and businesses.</p>
+              <p class="branding-strategy-item-desc">This isn't about clever wordplay or trendy portmanteaus, although creativity is essential. It's about understanding the cultural, phonetic, and competitive landscape your name must survive in. Our process involves linguistic screening, trademark analysis, audience testing, and semantic mapping across languages. We create names that are memorable, ownable, and built to travel- from Dubai to global markets.</p>
               
-              <h3 class="branding-strategy-item-title">B2B Marketing</h3>
-              <p class="branding-strategy-item-desc">We are B2B marketing experts and we know how to help companies find the right customers and create value for them. That’s why our team of experts are here to help your business grow by creating relevant differentiation that will generate interest in your offerings.</p>
             </div>
 
             <!-- Content 4: Customer Retention -->
             <div class="logo-types-panel branding-panel-content" id="content-type-4" role="tabpanel" aria-labelledby="tab-type-4">
-              <h3 class="branding-strategy-item-title">Marketing Automation</h3>
-              <p class="branding-strategy-item-desc">BrandStory was created with the modern brands in mind. We know you are busy and that every second counts. That is why we have designed our service to make automating your marketing as easy as possible. You will be able to see real-time results and track your progress along the way.</p>
+              <h3 class="branding-strategy-item-title">Brand Messaging</h3>
+              <p class="branding-strategy-item-desc">A message is a bridge between what you do and why people should care. Which brands come to mind when you think of motivation? Nike. Simplicity? Apple. Connection? Coca-Cola. At BrandStory, we architect brand messages that turn your purpose into a conversation your audience actually wants to engage.</p>
               
-              <h3 class="branding-strategy-item-title">Customer Experience</h3>
-              <p class="branding-strategy-item-desc">We help improve customer retention by creating meaningful customer experiences that build loyalty and long-term engagement. By combining personalization with real-time customer insights and feedback, we deliver experiences that strengthen relationships and drive sustainable growth.</p>
-              
-              <h3 class="branding-strategy-item-title">Employer Branding</h3>
-              <p class="branding-strategy-item-desc">We are experts in employer branding and we know what it takes to make your company stand out from the rest. We have a suite of services that will help you create an amazing employment brand that your employees and future job seekers will love.</p>
+              <p class="branding-strategy-item-desc">It's about understanding what your audience values, fears, and aspires to then crafting a message architecture that meets them in those moments. Our process involves stakeholder interviews, competitive messaging audits, voice and tone development, and narrative frameworks. We build communication systems that ensure every touchpoint- from your website to your sales deck speaks with one clear, compelling voice.</p>
             </div>
 
             <!-- Content 5: Customer Loyalty -->
             <div class="logo-types-panel branding-panel-content" id="content-type-5" role="tabpanel" aria-labelledby="tab-type-5">
-              <h3 class="branding-strategy-item-title">Marketing Analytics</h3>
-              <p class="branding-strategy-item-desc">Turn customer data into lasting loyalty with powerful analytics and customer-centric marketing strategies. Gain deeper insights into customer behavior, enhance service experiences, identify opportunities for improvement, and make data-driven decisions that maximize engagement, retention, and ROI.</p>
+              <h3 class="branding-strategy-item-title">Brand Guidelines</h3>
+              <p class="branding-strategy-item-desc">A brand system is the rulebook that keeps your identity consistent. Which brands look the same everywhere you encounter them? The ones with color codes you recognize, fonts you remember, layouts you trust. We build comprehensive brand guidelines that protect your visual and verbal investment across every application.</p>
               
-              <h3 class="branding-strategy-item-title">Customer Loyalty</h3>
-              <p class="branding-strategy-item-desc">With BrandStory, we provide all the strategies necessary for creating a strong customer loyalty program. With data, insights and recommendations to maximize your consumer loyalty. We optimize your strategy, and ensure your consumers benefit in the moments that matter.</p>
+              <p class="branding-strategy-item-desc">It's about building a living system that empowers your team and partners to represent your brand accurately without constant oversight. Our process involves codifying your visual identity- logo usage, color palettes, typography, imagery, and layout principles alongside your verbal identity, tone of voice, and messaging frameworks. We create branding guidelines that scale with your business.</p>
               
-              <h3 class="branding-strategy-item-title">Brand Lift Study</h3>
-              <p class="branding-strategy-item-desc">From initial impression to final conversion with the metrics that matter, like brand awareness, ad recall, and consideration with our Brand Lift Study you get actionable insights so you can adjust your campaigns based on what is working well with your customers.</p>
             </div>
 
             <!-- Content 6: Rebranding Services -->
             <div class="logo-types-panel branding-panel-content" id="content-type-6" role="tabpanel" aria-labelledby="tab-type-6">
-              <h3 class="branding-strategy-item-title">Brand Repositioning</h3>
-              <p class="branding-strategy-item-desc">As markets evolve, brands must adapt to remain relevant. We help redefine your brand positioning, messaging, and identity to better connect with modern audiences, strengthen differentiation, and ensure your brand continues to reflect your vision, values, and business objectives.</p>
+              <h3 class="branding-strategy-item-title">Rebranding & Brand Refresh</h3>
+              <p class="branding-strategy-item-desc">A rebrand is a strategic reinvention, not a cosmetic change. Which companies come to mind when you think of brands that evolved without losing their soul? Airbnb. Starbucks. Burberry. At BrandStory guides established businesses through transformation that modernizes their identity while preserving the equity they've built.</p>
               
-              <h3 class="branding-strategy-item-title">Identity Transformation</h3>
-              <p class="branding-strategy-item-desc">A strong visual identity shapes how customers perceive your business. We redesign logos, typography, color palettes, and brand assets to create a cohesive and memorable presence that enhances recognition, strengthens credibility, and delivers consistency across every customer touchpoint.</p>
+              <p class="branding-strategy-item-desc">It's about understanding why your brand no longer connects whether through market shifts, audience evolution, or competitive pressure and strategically repositioning for what's next. Our process involves brand audits, stakeholder alignment, equity analysis, and phased rollout planning. We ensure your rebrand feels like a natural next chapter, not a confusing departure.</p>
               
-              <h3 class="branding-strategy-item-title">Strategy & Communication</h3>
-              <p class="branding-strategy-item-desc">Successful brands communicate with clarity and purpose. We develop strategic branding frameworks, messaging pillars, and communication guidelines that align with your business goals, helping you build trust and maintain a consistent brand voice across channels.</p>
             </div>
           </div>
         </div>
@@ -406,24 +387,493 @@ document.addEventListener('DOMContentLoaded', function () {
 })();
 </script>
 
+<section class="sp-50 dm-bg">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center text-md-start">
+        <h2 class="text-white fs-38">Industries We Serve with Branding</h2>
+        <p class="text-white mb-0 fs-20">We deliver targeted branding services that resonate within specific sectors, driving recognition and value.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <!-- Real Estate -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/real-estate-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/real-estate.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Real Estate</h3>
+              <p>Elevating property developers and brokerage firms with premium visual identities that inspire trust and drive high-value sales.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
 
+      <!-- Education -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/education-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/education.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Education</h3>
+              <p>Positioning schools, nurseries, and universities as centers of excellence with strategic and inspiring brand guidelines.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
 
+      <!-- Healthcare -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/healthcare-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/medical.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Healthcare</h3>
+              <p>Designing empathetic, professional visual languages for clinics, hospitals, and wellness centers to build patient confidence.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
 
+      <!-- E-commerce -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/e-commerce-branding-agency-in-dubai-uae/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries_images/ecom.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>E-commerce</h3>
+              <p>Creating high-conversion, digital-first brand experiences that optimize client trust, packaging appeal, and digital recall.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
 
+      <!-- Law Firm -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/law-firm-branding-services-in-dubai/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries/law-firm-4.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Law Firm</h3>
+              <p>Establishing prestigious and authoritative brand narratives that reflect trust, professionalism, and legal expertise.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Automotive -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="/industries/automotive-branding-services-in-dubai/" class="industry-card-link text-decoration-none">
+          <div class="industry-card">
+            <div class="industry-card-bg" style="background-image: url('/assets/images/industries/automotive-1.webp');"></div>
+            <div class="industry-card-overlay"></div>
+            <div class="industry-card-content">
+              <h3>Automotive</h3>
+              <p>Driving brand impact for showrooms and automotive brands with high-energy visuals and premium design strategies.</p>
+              <span class="industry-card-btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wcp-section dm-bg sp-50">
+  <div class="container">
+
+    <!-- Top label -->
+    <div class="wcp-top-label">
+      <span class="wcp-top-tag">&#9670; Why BrandStory</span>
+    </div>
+
+    <div class="wcp-layout">
+
+      <!-- LEFT: Sticky Panel -->
+      <div class="wcp-left">
+        <div class="wcp-left-inner">
+          <h2 class="wcp-left-title">Why Choose BrandStory as Your Branding Partner?</h2>
+          <p class="wcp-left-sub">We build brands that are easy to recognize, hard to replace, and designed for long-term market relevance.</p>
+
+          <!-- Stats Row -->
+          <div class="wcp-stats">
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">10<span class="wcp-stat-plus">+</span></span>
+              <span class="wcp-stat-label">Years in Dubai</span>
+            </div>
+            <div class="wcp-stat-div"></div>
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">1,000<span class="wcp-stat-plus">+</span></span>
+              <span class="wcp-stat-label">Brands Built</span>
+            </div>
+            <div class="wcp-stat-div"></div>
+            <div class="wcp-stat">
+              <span class="wcp-stat-num">5<span class="wcp-stat-plus">★</span></span>
+              <span class="wcp-stat-label">Client Rating</span>
+            </div>
+          </div>
+
+          <a href="/contact/" class="wcp-left-btn">➤ Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Accordion rows -->
+      <div class="wcp-right">
+
+        <!-- Item 1 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">01</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Experience</span>
+              <h3 class="wcp-item-title">10+ Years of Proven Experience</h3>
+            </div>
+            <p class="wcp-item-text">Over a decade of crafting powerful, durable brand identities for startups, SMEs, and enterprises across Dubai and the UAE with measurable results every time.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">02</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Global + Local</span>
+              <h3 class="wcp-item-title">Local Insights + Global Branding Standards</h3>
+            </div>
+            <p class="wcp-item-text">We blend deep knowledge of the Dubai and GCC market with internationally recognized branding frameworks- building brands that resonate locally and scale globally.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">03</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Creative</span>
+              <h3 class="wcp-item-title">Award-Winning Creative Team</h3>
+            </div>
+            <p class="wcp-item-text">Our designers, brand strategists, and storytellers are recognized for delivering exceptional, category-defining brand experiences that stand apart in competitive markets.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">04</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Strategy</span>
+              <h3 class="wcp-item-title">Data-Driven Strategy + Imaginative Design</h3>
+            </div>
+            <p class="wcp-item-text">Every brand decision is anchored in real market data and consumer insights- paired with imaginative creative execution that makes your brand visually unforgettable.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="wcp-item">
+          <div class="wcp-item-num">05</div>
+          <div class="wcp-item-content">
+            <div class="wcp-item-top">
+              <span class="wcp-item-tag">Growth</span>
+              <h3 class="wcp-item-title">Strategic Brand Building for Long-term Value</h3>
+            </div>
+            <p class="wcp-item-text">We don't build brands for today. We build brand equity that compounds- creating loyalty, recognition, and sustained competitive advantage that grows your business for years ahead.</p>
+          </div>
+          <div class="wcp-item-arrow">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M5 11H17M17 11L12 6M17 11L12 16" stroke="#855BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Bottom highlight bar -->
+        <div class="wcp-bottom-bar">
+          <p>&#9733; Trusted by <strong>900+ leading brands</strong> across Dubai, UAE and the wider GCC region.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
+                    challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
+                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
+                                that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php
 $reviewSection = [
-    'title' =>  "Know What's Happening In the Industry",
+    'title' =>  "What Our Clients Say About Us",
     'bgClass' => 'bg-black', // optional custom class
 ];
 include __DIR__ . '/../component/client_reviews.php';
 ?>
+<section class="dm-grow-section">
+    <div class="dm-grow-overlay"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-items-center align-items-lg-stretch">
+            <!-- Left Side: Copy, Button, and Partner Logos -->
+            <div
+                class="col-lg-6 mb-5 mb-lg-0 text-lg-start text-center d-lg-flex flex-lg-column justify-content-lg-between">
+                <div>
+                    <h2 class="grow-section-title">Branding Agency in Dubai<br> Where Names Become Legacies</h2>
+
+                    <p class="grow-section-text">Transform your brand presence, command attention, and create lasting loyalty with professional branding specialists in Dubai. Claim your Free Consultation and Comprehensive Brand Audit to unlock your visual identity.</p>
+
+                    <div class="grow-section-btn-wrap mb-5">
+                        <a href="javascript:void(0);" class="grow-pill-btn uniq-contact-lead-btn">
+                            <span>Talk to Experts</span>
+                            <span class="grow-btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="grow-btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="grow-partners-wrap d-flex align-items-center gap-3 justify-content-lg-start justify-content-center">
+                    <div class="partner-badge">
+                        <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
+                            style="display: flex;">
+                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner"
+                                class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-badge">
+                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Meta Business Partner"
+                            class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: White Contact Form Card -->
+            <div class="col-lg-6">
+                <div class="grow-form-card">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dubai Office Contact Bar -->
+<section class="dm-dubai-office-bar">
+    <div class="container">
+        <div class="office-bar-row">
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon">
+                <a href="tel:+971522831655">+971 52 283 1655</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon">
+                <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon">
+                <a target="_blank"
+                    href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
+                    Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>
+            </div>
+        </div>
+    </div>
+</section>
 <?php 
-  $category = 'Digital Marketing';
+  $category = 'Branding';
   $padding= 'sp-50';
   include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
+
 <section class="dm-faq-section spb-50">
 
   <div class="container">
@@ -433,163 +883,81 @@ include __DIR__ . '/../component/client_reviews.php';
         <!-- FAQ 1 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em1">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How to choose the best UI/UX design agency in Dubai, UAE? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How to choose the best branding agency in Dubai, UAE? </button>
           </h4>
           <div id="flush-collapse-em1" class="accordion-collapse collapse" aria-labelledby="flush-heading-em1" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">When choosing a UI/UX design agency in Dubai, look at their portfolio, client testimonials, and design methods to see if they fit your needs. Make sure their approach focuses on user research and encourages collaboration to support your business goals.</p>
+              <p class="fs-16 mb-0">When choosing a branding agency in Dubai, evaluate their portfolio for strategic depth, originality, and consistency across industries. Look for evidence of custom brand systems rather than templates, review client case studies for measurable brand impact, and ensure their process includes discovery workshops, research, and collaboration to align the final identity with your business goals and market positioning.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 2 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How BrandStory UI/UX Studio optimises my website accessibility? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How does BrandStory ensure brand consistency across all touchpoints? </button>
           </h4>
           <div id="flush-collapse-em2" class="accordion-collapse collapse" aria-labelledby="flush-heading-em2" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At BrandStory, we emphasise WCAG accessibility in our designs to ensure everyone, including those with disabilities, can use your website. We incorporate key features like high colour contrast, descriptive alt text for images, and easy keyboard navigation for a smooth user experience.</p>
+              <p class="fs-16 mb-0">At BrandStory, we build comprehensive brand guidelines that govern every visual and verbal expression of your brand. From logo usage, color palettes, and typography standards to tone of voice, messaging frameworks, and imagery direction, we create a unified system that ensures your brand looks, sounds, and feels identical — whether encountered on a website, social media, packaging, or signage.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 3 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> How does a top UI/UX design agency Dubai optimise mobile responsiveness for websites and applications? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3">How does a branding agency develop a complete visual identity? </button>
           </h4>
           <div id="flush-collapse-em3" class="accordion-collapse collapse" aria-labelledby="flush-heading-em3" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">We implement responsive design techniques to ensure that your website and applications adapt seamlessly to various screen sizes. This approach enhances usability, ensuring that your content is visually appealing and functions effectively across smartphones, tablets, and desktops.</p>
+              <p class="fs-16 mb-0">We develop visual identity systems through a strategic, phased approach — beginning with brand discovery and competitive analysis, moving into concept exploration and design refinement, and culminating in a complete system that includes your logo, color palette, typography, graphic elements, and application rules. This ensures your identity is not just beautiful, but scalable, versatile, and built to perform across every medium.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 4 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em4">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> How Brandstory UI/UX Design Agency will improve my brand identity? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> How will BrandStory's branding services improve brand recognition? </button>
           </h4>
           <div id="flush-collapse-em4" class="accordion-collapse collapse" aria-labelledby="flush-heading-em4" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At BrandStory, we create designs that reflect your brand’s essence and ensure consistency across all platforms. By crafting engaging visual identities, we help your brand connect with your target audience, strengthening its presence and building customer loyalty.</p>
+              <p class="fs-16 mb-0">At BrandStory, we craft brand identities that resonate emotionally with your target audience and differentiate you from competitors. By aligning your visual identity, messaging, and customer experience with a clear strategic foundation, we strengthen recognition at every touchpoint, build credibility over time, and foster the trust that transforms first-time buyers into loyal brand advocates.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 5 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em5">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Why is UI/UX important for my business? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Why is professional branding important for my business? </button>
           </h4>
           <div id="flush-collapse-em5" class="accordion-collapse collapse" aria-labelledby="flush-heading-em5" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Investing in UI/UX isn’t just a smart choice; it’s a game changer! It elevates user satisfaction, enhances your conversion rates, and builds trust in your brand. This strategic investment fortifies your business, turning casual visitors into loyal customers and setting the stage for lasting success!</p>
+              <p class="fs-16 mb-0">Investing in professional branding is one of the highest-leverage decisions a business can make. It shapes first impressions, builds instant credibility, commands premium pricing, and creates the emotional connection that drives customer loyalty. A strong brand doesn't just help you compete — it positions you as the category leader customers think of first.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 6 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em6">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> How long does your designer take to complete the UI/UX design projects? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> How long does a branding project take to complete? </button>
           </h4>
           <div id="flush-collapse-em6" class="accordion-collapse collapse" aria-labelledby="flush-heading-em6" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">The duration varies based on the project's complexity. Generally, our process spans from 4 to 12 weeks, covering everything from planning to launch.</p>
+              <p class="fs-16 mb-0">The timeline depends on the scope and complexity of the engagement. Typically, our branding process spans 4 to 10 weeks, covering discovery, strategy development, creative exploration, design refinement, and final delivery of brand guidelines and assets. We maintain close collaboration with you throughout to ensure the result aligns perfectly with your vision.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 7 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em7">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> How does brandstory make sure the design is created according to my brand identity? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> How does BrandStory ensure brand strategy reflects my vision? </button>
           </h4>
           <div id="flush-collapse-em7" class="accordion-collapse collapse" aria-labelledby="flush-heading-em7" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At our UX agency in Dubai, we conduct in-depth research through workshops and studies to understand your brand’s values and key elements. This approach ensures our designs genuinely reflect your identity and meet your goals. We believe that aligning your brand with our design is essential for achieving great results.</p>
+              <p class="fs-16 mb-0">At BrandStory, we begin every branding engagement with immersive discovery workshops, stakeholder interviews, and market research to fully understand your vision, values, competitive landscape, and growth ambitions. This strategic foundation ensures every creative decision — from your logo and color palette to your messaging and brand voice — genuinely reflects who you are and where you intend to go.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
-<section class="container">
-    <div class="new-cta-footer">
-        <div class="new-cta-footer-container">
-            <h2 class="new-cta-footer-title">
-                Grow Traffic. Build Engagement. Amplify Results. With BrandStory
-            </h2>
-            <p class="new-cta-footer-text">
-                Digital marketing today is no longer just a support tool – it is the backbone of your business growth.
-                At BrandStory, we believe every business should have a digital transformation strategy that is bold,
-                unique, innovative, and performance-driven. As Dubai’s premier marketing partner for 100+ local and
-                global brands, we craft campaigns that go beyond visibility and drive real business value.
-            </p>
-
-            <!-- Hidden Content -->
-            <div class="content-read-more">
-                <h3 class="mt-3 text-white">“Great marketing isn’t about noise, it’s about impact”</h3>
-                <p class="new-cta-footer-text">
-                    Inspired by the unity of the Arab Emirates and the heights of the Burj Khalifa, we design digital
-                    transformation that elevates, inspires, and etches brands into the Skyline itself.
-                </p>
-                <h3 class="mt-4 text-white">We are a 360-Degree Digital Marketing Agency</h3>
-                <p class="new-cta-footer-text">
-                    Your audience is constantly evolving with time, shifting across social media, search engines, and
-                    digital platforms. We craft targeted digital marketing campaigns and strategies that engage users,
-                    drive conversions, and keep your brand visible, relevant, and influential at every stage of their
-                    online journey.
-                    <h4 class="mt-4 text-white" style="font-size: 1.3rem;">SEO Services in Dubai</h4>
-                    <p class="new-cta-footer-text">We help businesses across UAE improve their online visibility with comprehensive 
-                        SEO services, including technical SEO, on-page optimization, content strategy, keyword research, link building, 
-                        local SEO, and performance tracking. Our data-driven approach is designed to improve search rankings, attract 
-                        qualified organic traffic, and build long-term search authority.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">PPC Services in Dubai</h4>
-                <p class="new-cta-footer-text">We create and manage targeted PPC campaigns across platforms such as Google Ads, Bing Ads, 
-                    and social advertising channels. From keyword research and ad creation to audience targeting, bid management, landing page
-                     optimization, and conversion tracking, we focus on generating qualified leads, increasing conversions, and maximizing your
-                      advertising ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Performance Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We build full-funnel performance marketing campaigns that connect strategy, media, creative, and 
-                    data. From audience research and campaign planning to paid acquisition, conversion optimization, retargeting, and performance 
-                    analysis, we continuously optimize campaigns to drive measurable growth, stronger customer acquisition, and improved ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Social Media Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We manage social media marketing from strategy and content planning to creative development, publishing,
-                     community engagement, paid social campaigns, and performance reporting. Across platforms such as Facebook, Instagram, LinkedIn, TikTok,
-                      and X, we help brands build awareness, engage their audience, and strengthen their digital presence.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Email Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We deliver end-to-end email marketing campaigns that help businesses connect with prospects and customers throughout
-                     their journey. From audience segmentation and campaign strategy to email design, personalized messaging, automation, list management, and 
-                     performance analysis, we create campaigns that nurture leads, drive engagement, and encourage repeat conversions.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Branding Services in Dubai</h4>
-                <p class="new-cta-footer-text">We develop complete brand identities that help businesses stand out in competitive markets. Our branding services 
-                    cover brand strategy, positioning, naming, visual identity, logo design, brand guidelines, creative direction, and storytelling, creating a 
-                    consistent brand experience that builds recognition, credibility, trust, and long-term loyalty.</p>
-
-                    <p class="new-cta-footer-text">We don’t just rely on creativity, nor do we depend on numbers alone. By blending data-driven
-                    insights with results-focused strategies, we create campaigns that engage and convert. For us,
-                    success is about conversions, brand credibility, and long-term customer loyalty. At BrandStory, we
-                    don’t just market your business – we help build its digital legacy.
-                </p>
-            </div>
-
-            <!-- Read More Link -->
-            <div class="mb-3">
-                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
-                    <span>Read more</span>
-                </a>
-            </div>
-
-            <!-- Primary Get In Touch Button -->
-            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
-                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
-                    <span>Get In Touch</span>
-                    <span class="btn-arrow-circle">
-                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
 </section>

@@ -28,8 +28,8 @@
         <div class="row align-items-center gy-5">
           <div class="col-lg-6 col-md-12">
             <div class="premium-slide-content">
-              <h1 class="premium-slide-title"><span class="premium-purple-highlight">Logo</span> Designing in Dubai</h1>
-              <p class="premium-slide-subtitle">Designing a logo for a company can be difficult, but it is also an important step in marketing and branding.</p>
+              <h1 class="premium-slide-title">Custom <span class="premium-purple-highlight">Logo Designing</span> in Dubai for Your Brand</h1>
+              <p class="premium-slide-subtitle">Ready to give your brand a voice? Get a logo and identity design in Dubai that tells your story before you say a word.</p>
               <div class="premium-slide-actions">
                 <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                   <span>Talk to Experts</span>
@@ -57,7 +57,7 @@
 <section class="logo-recent-projects-sec">
   <div class="logo-projects-header">
     <div class="container">
-      <h2 class="logo-projects-title">OUR RECENT<br>PROJECTS</h2>
+      <h2 class="logo-projects-title">Trusted Logo Design<br> Partner for Top Businesses in Dubai</h2>
     </div>
   </div>
 
@@ -175,7 +175,7 @@
 <!-- Complementing Services section -->
 <section class="premium-industries-section">
     <div class="container">
-        <h2 class="premium-industries-title">Our Complementing Services</h2>
+        <h2 class="premium-industries-title">The Best Logo Design Agency in Dubai</h2>
         <div class="row g-4">
             <!-- Card 1: Market Analysis -->
             <div class="col-lg-4 col-md-6">
@@ -197,7 +197,7 @@
                     </div>
                     <h3 class="industry-card-title">Brand Foundation</h3>
                     <div class="industry-card-hover-details">
-                        <p class="industry-card-desc">We analyze your brand values and mission to create a logo that perfectly encapsulates your business's core identity and personality.</p>
+                        <p class="industry-card-desc">At BrandStory, we analyze your brand values and mission to create a logo that perfectly encapsulates your business's core identity and personality in a meaningful way.</p>
                     </div>
                 </div>
             </div>
@@ -444,7 +444,7 @@
           
           <!-- Overlay Title -->
           <div class="logo-process-overlay-title">
-            Our Logo Design<br>Process
+            The Logo Design Process
           </div>
         </div>
       </div>
@@ -457,7 +457,7 @@
             <div class="logo-process-num">01</div>
             <div class="logo-process-details">
               <h3 class="logo-process-step-title">Discover and Research</h3>
-              <p class="logo-process-step-desc">Logo design is all about creating an unforgettable visual identifier that helps your business stand out. The first step in the logo design process is to discover and research your target market. By understanding who you're serving and what they need, you can create a logo that perfectly represents your brand.</p>
+              <p class="logo-process-step-desc">Every iconic logo starts with deep understanding. We immerse ourselves in your industry, audience, and competitive landscape to uncover what makes your brand truly unique. We research your visual identity that resonates with the people who matter most.</p>
             </div>
           </div>
 
@@ -466,7 +466,7 @@
             <div class="logo-process-num">02</div>
             <div class="logo-process-details">
               <h3 class="logo-process-step-title">Brainstorm</h3>
-              <p class="logo-process-step-desc">Logo design is all about making a statement. With our unique Brainstorm process, you'll get to brainstorm with experts on how your logo can make a powerful statement and drive results. Our team will help you find the right design for your business, and explore the potential impact on customers, employees, partners, and other stakeholders. So start thinking BIGger today - let Brainstorm help you get there!</p>
+              <p class="logo-process-step-desc">Our team collaborates with you to explore bold concepts, strategic directions, and creative possibilities. We focus on what your brand stands for and how to communicate it with clarity and impact- ensuring every idea serves a bigger purpose.</p>
             </div>
           </div>
 
@@ -475,7 +475,7 @@
             <div class="logo-process-num">03</div>
             <div class="logo-process-details">
               <h3 class="logo-process-step-title">Sketch and Design</h3>
-              <p class="logo-process-step-desc">Third step of logo design process is to sketch and design the logo. Sketching is a great way to get your creative juices flowing and come up with ideas for the design. Once you have some initial sketches, it's time to start designing. Start by creating a rough outline of the logo, and then fill in details. Be sure to pay attention to proportions, color schemes, and how the overall design will look when rendered on different types of materials.</p>
+              <p class="logo-process-step-desc">With strategy as our blueprint, we move to paper and screen. Our designers sketch and refine visual directions, paying close attention to proportion, color psychology, typography, and scalability. Every detail is built to perform across every touchpoint.</p>
             </div>
           </div>
 
@@ -484,7 +484,7 @@
             <div class="logo-process-num">04</div>
             <div class="logo-process-details">
               <h3 class="logo-process-step-title">Present and Deliver</h3>
-              <p class="logo-process-step-desc">Present and Deliver is the final stage of logo design. It's where our team brings your concept to life with a stunning, on-brand logo. We use cutting-edge design techniques and strategies to create a powerful brand identity that will stand out in the crowd.</p>
+              <p class="logo-process-step-desc">We bring the vision into reality. We present your finalised logo with a complete brand identity system, ready for immediate use. From digital assets to print-ready files, you walk away with everything you need to launch with confidence.</p>
             </div>
           </div>
         </div>
@@ -496,7 +496,7 @@
 <!-- Why Choose Our Logo Designers In Dubai Section -->
 <section class="logo-why-choose-section">
   <div class="container">
-    <h2 class="logo-why-main-title">Why Choose Our Logo Designers In Dubai</h2>
+    <h2 class="logo-why-main-title">Why Choose BrandStory <br>As Your Logo Designer In Dubai</h2>
 
     <!-- Top Row (Bento Grid) -->
     <div class="row g-4 mb-4 align-items-stretch">
@@ -504,7 +504,7 @@
       <div class="col-lg-4 col-md-6 col-12">
         <div class="logo-why-image-card">
           <div class="logo-why-image-overlay">
-            <div class="logo-why-stat">250+</div>
+            <div class="logo-why-stat">900+</div>
             <p class="logo-why-text">Successful projects delivered across UAE and globally.</p>
           </div>
         </div>
@@ -535,14 +535,14 @@
           <!-- Card 3: Purple Card -->
           <div class="logo-why-purple-card">
             <div class="logo-why-card-label-white">Branding Reach</div>
-            <div class="logo-why-stat-white">520k+</div>
+            <div class="logo-why-stat-white">520K+</div>
             <p class="logo-why-card-desc-white">Impression-driven designs that connect with your audience.</p>
           </div>
 
           <!-- Card 4: Small Card -->
           <div class="logo-why-small-card">
             <span class="logo-why-small-card-label">Years of Design Expertise</span>
-            <span class="logo-why-small-card-stat">20+</span>
+            <span class="logo-why-small-card-stat">13+</span>
           </div>
         </div>
       </div>
@@ -610,13 +610,13 @@
       <div class="col-md-8 col-12">
         <div class="logo-cta-content-box">
           <h2 class="logo-cta-title">Partner with Dubai's Elite Logo Designers</h2>
-          <p class="logo-cta-desc">At Brandstory, we understand that a logo is more than just an image—it's the visual foundation of your brand. We combine research, strategy, and creative execution to craft icons that tell your brand's unique story and resonate with your audience. Whether you're a startup launching in the UAE or an established enterprise looking to refresh your visual identity, our dedicated team is here to bring your vision to life.</p>
-          <p class="logo-cta-desc">Our collaborative design process ensures that every detail is aligned with your business goals and market positioning. From initial sketches to final digital assets, we focus on versatility, scalability, and premium aesthetic quality to make your brand stand out.</p>
-          <p class="logo-cta-desc">Ready to elevate your brand presence? Partner with our expert designers and create a logo that drives customer trust and business growth.</p>
+          <p class="logo-cta-desc">At Brandstory, we understand that a logo is more than just an image- it's the face of your brand. We combine research, strategy, and creative execution to craft icons that tell your brand's unique story and resonate with your audience. Whether you're a startup launching in Dubai or an established enterprise looking to refresh your visual identity, our dedicated team is here to take your business forward.</p>
+          <p class="logo-cta-desc">Our expert designers ensures that every detail is aligned with your business goals and market positioning. From initial sketches to final digital assets, we focus on versatility, scalability, and premium aesthetic quality to make your brand stand out.</p>
+          <p class="logo-cta-desc">Ready to elevate your brand presence? Partner with our expert designers and create a logo that drives customer trust and growth.</p>
           
           <div class="logo-cta-actions">
-            <a href="javascript:void(0);" class="logo-cta-btn uniq-contact-lead-btn">
-              <span>Contact Us</span>
+            <a href="/branding-agency-in-dubai" class="logo-cta-btn uniq-contact-lead-btn">
+              <span>Explore Branding</span>
               <span class="logo-cta-btn-arrow">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -633,13 +633,87 @@
 
 <?php
 $reviewSection = [
-    'title' =>  "Know What's Happening In the Industry",
+    'title' =>  "What Our Clients Say About Us",
     'bgClass' => 'bg-black', // optional custom class
 ];
 include __DIR__ . '/../component/client_reviews.php';
 ?>
+<section class="dm-grow-section">
+    <div class="dm-grow-overlay"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-items-center align-items-lg-stretch">
+            <!-- Left Side: Copy, Button, and Partner Logos -->
+            <div
+                class="col-lg-6 mb-5 mb-lg-0 text-lg-start text-center d-lg-flex flex-lg-column justify-content-lg-between">
+                <div>
+                    <h2 class="grow-section-title">Logo Design in Dubai<br> Where Brands Become Icons</h2>
+
+                    <p class="grow-section-text">Transform your brand presence, command attention, and create lasting loyalty with professional logo design specialists in Dubai. Claim your Free Consultation and Comprehensive Brand Audit to unlock your visual identity.</p>
+
+                    <div class="grow-section-btn-wrap mb-5">
+                        <a href="javascript:void(0);" class="grow-pill-btn uniq-contact-lead-btn">
+                            <span>Talk to Experts</span>
+                            <span class="grow-btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="grow-btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="grow-partners-wrap d-flex align-items-center gap-3 justify-content-lg-start justify-content-center">
+                    <div class="partner-badge">
+                        <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
+                            style="display: flex;">
+                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner"
+                                class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-badge">
+                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Meta Business Partner"
+                            class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: White Contact Form Card -->
+            <div class="col-lg-6">
+                <div class="grow-form-card">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dubai Office Contact Bar -->
+<section class="dm-dubai-office-bar">
+    <div class="container">
+        <div class="office-bar-row">
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon">
+                <a href="tel:+971522831655">+971 52 283 1655</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon">
+                <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon">
+                <a target="_blank"
+                    href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
+                    Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>
+            </div>
+        </div>
+    </div>
+</section>
 <?php 
-  $category = 'Digital Marketing';
+  $category = 'Branding';
   $padding= 'sp-50';
   include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
@@ -652,77 +726,77 @@ include __DIR__ . '/../component/client_reviews.php';
         <!-- FAQ 1 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em1">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How to choose the best UI/UX design agency in Dubai, UAE? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How to Choose the Best Logo Design Agency in Dubai, UAE? </button>
           </h4>
           <div id="flush-collapse-em1" class="accordion-collapse collapse" aria-labelledby="flush-heading-em1" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">When choosing a UI/UX design agency in Dubai, look at their portfolio, client testimonials, and design methods to see if they fit your needs. Make sure their approach focuses on user research and encourages collaboration to support your business goals.</p>
+              <p class="fs-16 mb-0">When choosing a logo design agency in Dubai, review their portfolio for originality, versatility, and strategic thinking. Look for evidence of custom work rather than templates, check client testimonials for brand impact, and ensure their process includes discovery, research, and collaboration to align the final design with your business vision.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 2 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How BrandStory UI/UX Studio optimises my website accessibility? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How Does BrandStory Ensure My Logo Works Across All Applications? </button>
           </h4>
           <div id="flush-collapse-em2" class="accordion-collapse collapse" aria-labelledby="flush-heading-em2" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At BrandStory, we emphasise WCAG accessibility in our designs to ensure everyone, including those with disabilities, can use your website. We incorporate key features like high colour contrast, descriptive alt text for images, and easy keyboard navigation for a smooth user experience.</p>
+              <p class="fs-16 mb-0">At BrandStory, we design logos with adaptability at their core. We deliver your logo in multiple formats and color variations- full color, monochrome, reversed, and responsive sizes- ensuring it remains crisp and impactful whether displayed on a business card, website favicon, mobile app, billboard, or embroidered merchandise.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 3 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> How does a top UI/UX design agency Dubai optimise mobile responsiveness for websites and applications? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> How Do You Ensure My Logo is Versatile and Scalable? </button>
           </h4>
           <div id="flush-collapse-em3" class="accordion-collapse collapse" aria-labelledby="flush-heading-em3" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">We implement responsive design techniques to ensure that your website and applications adapt seamlessly to various screen sizes. This approach enhances usability, ensuring that your content is visually appealing and functions effectively across smartphones, tablets, and desktops.</p>
+              <p class="fs-16 mb-0">We create logos using vector-based design principles, ensuring perfect scalability from a tiny social media icon to large-scale signage without any loss of quality. We also develop responsive logo variations- simplified versions for small spaces and full versions for larger applications, so your brand identity stays consistent and recognizable everywhere.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 4 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em4">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> How Brandstory UI/UX Design Agency will improve my brand identity? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> How BrandStory's Logo Design Services Improve My Brand Identity? </button>
           </h4>
           <div id="flush-collapse-em4" class="accordion-collapse collapse" aria-labelledby="flush-heading-em4" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At BrandStory, we create designs that reflect your brand’s essence and ensure consistency across all platforms. By crafting engaging visual identities, we help your brand connect with your target audience, strengthening its presence and building customer loyalty.</p>
+              <p class="fs-16 mb-0">At BrandStory, we craft logos that serve as the visual anchor of your brand identity. By aligning typography, color psychology, symbolism, and composition with your brand values, we create a mark that resonates emotionally with your audience, strengthens recognition across all touchpoints, and builds long-term credibility and trust.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 5 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em5">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Why is UI/UX important for my business? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Why is Professional Logo Design Important for My Business? </button>
           </h4>
           <div id="flush-collapse-em5" class="accordion-collapse collapse" aria-labelledby="flush-heading-em5" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Investing in UI/UX isn’t just a smart choice; it’s a game changer! It elevates user satisfaction, enhances your conversion rates, and builds trust in your brand. This strategic investment fortifies your business, turning casual visitors into loyal customers and setting the stage for lasting success!</p>
+              <p class="fs-16 mb-0">Your logo is often the first impression customers have of your business. A professionally designed logo builds instant credibility, communicates your values at a glance, and differentiates you from competitors. It fosters trust, improves memorability, and lays the foundation for brand loyalty- turning first-time viewers into lasting customers.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 6 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em6">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> How long does your designer take to complete the UI/UX design projects? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> How Long Does It Take to Complete Logo Design Project? </button>
           </h4>
           <div id="flush-collapse-em6" class="accordion-collapse collapse" aria-labelledby="flush-heading-em6" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">The duration varies based on the project's complexity. Generally, our process spans from 4 to 12 weeks, covering everything from planning to launch.</p>
+              <p class="fs-16 mb-0">The timeline depends on the project's scope and complexity. Typically, our logo design process spans 2 to 6 weeks, covering discovery, concept development, design refinement, and final delivery with full brand guidelines. We keep you involved at every stage to ensure the result exceeds your expectations.</p>
             </div>
           </div>
         </div>
         <!-- FAQ 7 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em7">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> How does brandstory make sure the design is created according to my brand identity? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> How Does BrandStory Ensure the Logo Reflects My Brand Identity? </button>
           </h4>
           <div id="flush-collapse-em7" class="accordion-collapse collapse" aria-labelledby="flush-heading-em7" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">At our UX agency in Dubai, we conduct in-depth research through workshops and studies to understand your brand’s values and key elements. This approach ensures our designs genuinely reflect your identity and meet your goals. We believe that aligning your brand with our design is essential for achieving great results.</p>
+              <p class="fs-16 mb-0">At BrandStory, we begin every logo project with in-depth brand discovery workshops, competitor analysis, and audience research to fully understand your values, market position, and vision. This strategic foundation ensures every design decision from shape and color to typography and spacing genuinely reflects who you are and where your brand is headed.</p>
             </div>
           </div>
         </div>
@@ -730,85 +804,4 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
   </div>
 </section>
-<section class="container">
-    <div class="new-cta-footer">
-        <div class="new-cta-footer-container">
-            <h2 class="new-cta-footer-title">
-                Grow Traffic. Build Engagement. Amplify Results. With BrandStory
-            </h2>
-            <p class="new-cta-footer-text">
-                Digital marketing today is no longer just a support tool – it is the backbone of your business growth.
-                At BrandStory, we believe every business should have a digital transformation strategy that is bold,
-                unique, innovative, and performance-driven. As Dubai’s premier marketing partner for 100+ local and
-                global brands, we craft campaigns that go beyond visibility and drive real business value.
-            </p>
 
-            <!-- Hidden Content -->
-            <div class="content-read-more">
-                <h3 class="mt-3 text-white">“Great marketing isn’t about noise, it’s about impact”</h3>
-                <p class="new-cta-footer-text">
-                    Inspired by the unity of the Arab Emirates and the heights of the Burj Khalifa, we design digital
-                    transformation that elevates, inspires, and etches brands into the Skyline itself.
-                </p>
-                <h3 class="mt-4 text-white">We are a 360-Degree Digital Marketing Agency</h3>
-                <p class="new-cta-footer-text">
-                    Your audience is constantly evolving with time, shifting across social media, search engines, and
-                    digital platforms. We craft targeted digital marketing campaigns and strategies that engage users,
-                    drive conversions, and keep your brand visible, relevant, and influential at every stage of their
-                    online journey.
-                    <h4 class="mt-4 text-white" style="font-size: 1.3rem;">SEO Services in Dubai</h4>
-                    <p class="new-cta-footer-text">We help businesses across UAE improve their online visibility with comprehensive 
-                        SEO services, including technical SEO, on-page optimization, content strategy, keyword research, link building, 
-                        local SEO, and performance tracking. Our data-driven approach is designed to improve search rankings, attract 
-                        qualified organic traffic, and build long-term search authority.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">PPC Services in Dubai</h4>
-                <p class="new-cta-footer-text">We create and manage targeted PPC campaigns across platforms such as Google Ads, Bing Ads, 
-                    and social advertising channels. From keyword research and ad creation to audience targeting, bid management, landing page
-                     optimization, and conversion tracking, we focus on generating qualified leads, increasing conversions, and maximizing your
-                      advertising ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Performance Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We build full-funnel performance marketing campaigns that connect strategy, media, creative, and 
-                    data. From audience research and campaign planning to paid acquisition, conversion optimization, retargeting, and performance 
-                    analysis, we continuously optimize campaigns to drive measurable growth, stronger customer acquisition, and improved ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Social Media Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We manage social media marketing from strategy and content planning to creative development, publishing,
-                     community engagement, paid social campaigns, and performance reporting. Across platforms such as Facebook, Instagram, LinkedIn, TikTok,
-                      and X, we help brands build awareness, engage their audience, and strengthen their digital presence.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Email Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We deliver end-to-end email marketing campaigns that help businesses connect with prospects and customers throughout
-                     their journey. From audience segmentation and campaign strategy to email design, personalized messaging, automation, list management, and 
-                     performance analysis, we create campaigns that nurture leads, drive engagement, and encourage repeat conversions.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Branding Services in Dubai</h4>
-                <p class="new-cta-footer-text">We develop complete brand identities that help businesses stand out in competitive markets. Our branding services 
-                    cover brand strategy, positioning, naming, visual identity, logo design, brand guidelines, creative direction, and storytelling, creating a 
-                    consistent brand experience that builds recognition, credibility, trust, and long-term loyalty.</p>
-
-                    <p class="new-cta-footer-text">We don’t just rely on creativity, nor do we depend on numbers alone. By blending data-driven
-                    insights with results-focused strategies, we create campaigns that engage and convert. For us,
-                    success is about conversions, brand credibility, and long-term customer loyalty. At BrandStory, we
-                    don’t just market your business – we help build its digital legacy.
-                </p>
-            </div>
-
-            <!-- Read More Link -->
-            <div class="mb-3">
-                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
-                    <span>Read more</span>
-                </a>
-            </div>
-
-            <!-- Primary Get In Touch Button -->
-            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
-                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
-                    <span>Get In Touch</span>
-                    <span class="btn-arrow-circle">
-                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
