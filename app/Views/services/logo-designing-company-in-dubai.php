@@ -1,460 +1,807 @@
-<section class="service-banner website-design-banner sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row align-items-center"><!--Row Start-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-txt">
-					<h2>Logo Designing in Dubai</h2>
-					<p>Designing a logo for a company can be difficult, but it is also an important step in marketing and branding. A good logo can help set the tone for the company and give it a unique look. There are many different ways to design a logo, and each company will have different needs. If you are looking to design a logo for your business in Dubai, Contact our logo design company in dubai now.</p>
-				</div>
-			</div><!--col end-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="service-banner-form">
-					<?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/logo-design.css') ?>">
 
-				</div>
-			</div><!--col end-->
-		</div><!--Row End-->
-	</div><!--Container End-->
-</section>
-<section id="knowMore" class="web-design-process sp-50" style="background: transparent;">
-	<div class="container">
-		<div class="row">
-			<h2 class="mb-3">
-				Professional Logo Design Company in Dubai, UAE
-			</h2>
+<!-- Hero Banner Section -->
+<section class="premium-hero-slider static-premium-banner logo-design-hero-banner">
+  <!-- Top Right SVG Glow Light Asset -->
+  <div class="ld2-glow-top-right" aria-hidden="true">
+    <svg width="609" height="503" viewBox="0 0 609 503" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_f_1726_10811)">
+        <path d="M59.8505 235.675L413.05 -159.016L563.483 -44.4187L45.0035 411.898L259.83 137.463L59.8505 235.675Z" fill="#855BFF"/>
+        <path d="M108.617 202.627L415.936 -138.323L539.724 -43.7905L95.6162 356.943L283.736 116.625L108.617 202.627Z" fill="#A55BFF"/>
+        <path d="M146.475 170.109L422.077 -121.492L523.832 -43.8964L149.661 299.708L309.648 95.3288L146.475 170.109Z" fill="#DE5BFF"/>
+        <path d="M184.685 140.488L421.744 -101.547L507 -42.1678L226.872 221.684L332.43 74.7939L184.685 140.488Z" fill="white"/>
+      </g>
+      <defs>
+        <filter id="filter0_f_1726_10811" x="0" y="-204.016" width="608.484" height="660.914" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="22.5" result="effect1_foregroundBlur_1726_10811"/>
+        </filter>
+      </defs>
+    </svg>
+  </div>
 
-			<p>Your logo is the silent ambassador of your brand. In the fast-paced and highly competitive market of Dubai, having a unique and professionally designed logo is not just an option—it's a necessity. It is the very first thing your potential customers see, and it sets the tone for your entire business relationship. A great logo builds trust, establishes credibility, and creates a memorable brand identity that stands the test of time.</p>
-			<p>Brandstory, as the leading logo design company in Dubai, is dedicated to crafting visual identities that truly represent the essence of your business. We don't just design symbols; we create the visual foundation for your brand's success. From startups to established corporations, our creative experts work closely with you to develop a logo that captures your vision, engages your audience, and helps your business grow in the UAE market and beyond.</p>
-
-		</div>
-
-	</div>
-</section>
-<section class="perks sp-30 spb-50">
-	<div class="container">
-		<div class="row gy-4 gy-md-5 gx-md-5">
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Market Analysis</h4>
-					<p>As the top logo design agency in Dubai, we dive deep into your industry and competitor landscape to ensure your brand stands out with a unique visual edge.</p>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Brand Foundation</h4>
-					<p>We analyze your brand values and mission to create a logo that perfectly encapsulates your business's core identity and personality.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Creative Strategy</h4>
-					<p>Our experienced design team develops robust visual strategies that cater specifically to your business goals, ensuring every element has a purpose.</p>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Quality Control</h4>
-					<p>We meticulously monitor every detail of the design process, ensuring your logo is versatile, scalable, and looks perfect across all digital and print platforms.</p>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Identity System</h4>
-					<p>Beyond just a logo, we focus on creating a cohesive brand identity system that attracts your target audience and builds lasting brand loyalty.</p>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex align-items-stretch">
-				<div class="perks-box">
-					<h4 class="mt-3">Expert Consulting</h4>
-					<p>As the #1 branding agency, we provide constant guidance and research to adapt your visual identity to the latest global design trends and local market nuances.</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
+  <div class="premium-slider-container">
+    <div class="premium-slide active logo-design-hero-slide">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 col-md-12">
+            <div class="premium-slide-content">
+              <h1 class="premium-slide-title">Custom <span class="premium-purple-highlight">Logo Designing</span> in Dubai for Your Brand</h1>
+              <p class="premium-slide-subtitle">Ready to give your brand a voice? Get a logo and identity design in Dubai that tells your story before you say a word.</p>
+              <div class="premium-slide-actions">
+                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+                  <span>Talk to Experts</span>
+                  <span class="btn-arrow-circle">
+                    <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                      <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 text-center text-lg-end">
+            <div class="logo-hero-img-wrapper">
+              <img src="<?= base_url('assets/images/logo-banner.webp') ?>" alt="Logo Designing in Dubai" class="img-fluid logo-hero-banner-img" width="600" height="500">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="knowMore" class="web-design-process sp-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2 class="text-white pb-5">Our Custom Logo Design Process</h2>
-				<img src="/assets/images/service/website-design/web-design-process.png" class="img-fluid" alt="web design dubai">
-			</div>
-		</div>
-	</div>
+<!-- Our Recent Projects Section (Desktop Only) -->
+<section class="logo-recent-projects-sec">
+  <div class="logo-projects-header">
+    <div class="container">
+      <h2 class="logo-projects-title">Trusted Logo Design<br> Partner for Top Businesses in Dubai</h2>
+    </div>
+  </div>
+
+  <div class="logo-projects-collage">
+    <!-- 2x2 Grid with Overlapping Center Badge -->
+    <div class="logo-projects-collage-grid">
+      <!-- 1st Image: Top Left -->
+      <div class="logo-collage-item">
+        <img src="<?= base_url('assets/images/logo-01.webp') ?>" alt="Solana Logo Design" class="img-fluid logo-collage-img">
+      </div>
+      <!-- 2nd Image: Top Right -->
+      <div class="logo-collage-item">
+        <img src="<?= base_url('assets/images/logo-02.webp') ?>" alt="Solana Lifestyle" class="img-fluid logo-collage-img">
+      </div>
+      <!-- 3rd Image: Bottom Left -->
+      <div class="logo-collage-item">
+        <img src="<?= base_url('assets/images/logo-03.webp') ?>" alt="Solana Yoga Pose" class="img-fluid logo-collage-img">
+      </div>
+      <!-- 4th Image: Bottom Right -->
+      <div class="logo-collage-item">
+        <img src="<?= base_url('assets/images/logo-04.webp') ?>" alt="Solana Meditation" class="img-fluid logo-collage-img">
+      </div>
+
+      <!-- Center Logo Badge (logo-05.webp) -->
+      <div class="logo-center-badge-wrap">
+        <img src="<?= base_url('assets/images/logo-05.webp') ?>" alt="Solana Badge Logo" class="logo-center-badge-img">
+      </div>
+    </div>
+
+    <!-- Last Image: Full Width Bottom (logo-06.webp) -->
+    <div class="logo-projects-bottom-full">
+      <img src="<?= base_url('assets/images/logo-06.webp') ?>" alt="Solana Yoga Breath Balance" class="img-fluid logo-bottom-full-img">
+    </div>
+  </div>
 </section>
 
-<section class="web-design-abt sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row align-items-center"><!--Row Start-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="best-txt"><!--txt start-->
-					<h1>Logo Design Company in Dubai</h1>
+<!-- Fitwares Project Showcase Section (Desktop Only) -->
+<section class="logo-fitwares-projects-sec">
+  <div class="logo-fitwares-collage">
+    <!-- Top Full Width Banner (logo-07.webp) -->
+    <div class="logo-fitwares-top-banner">
+      <img src="<?= base_url('assets/images/logo-07.webp') ?>" alt="Fitwares Brand Banner" class="img-fluid logo-fitwares-full-img">
+    </div>
 
-					<p>Dubai is one of the wealthiest cities in the world and has become a mecca for luxury brands and products. With much wealth and resources at its disposal, Dubai is home to some of the best logo designers in the world. Our logo <a href="/website-design-company-in-dubai/">designers in dubai</a> have talented professionals work tirelessly to create logos that reflect the city's luxurious lifestyle and distinctive character. Whether you're looking for a unique design or want to create a brand that stands out from the crowd, our logo designers are the perfect choice for your project.</p>
-					<p>Looking to get a professional logo designed for your business or organization in Dubai? Look no further than Logo Design Experts! Our team of experienced professionals is dedicated to crafting the perfect logo for you - tailor made to represent your unique brand and message. With years of experience, we know just what it takes to produce a top-quality logo that will impress clients and help you stand out from the competition. We understand the importance of branding, which is why we take care in every step of the process from ideation to execution.</p>
-				</div><!--txt end-->
-			</div><!--col end-->
-			<div class="col-md-6"> <!--col start-->
-				<div class="best-img">
-					<img src="/assets/images/service/website-design/web-design-abt.jpg" class="img-fluid" alt="web design company in dubai">
-				</div>
-			</div><!--col end-->
-		</div><!--Row End-->
-	</div><!--Container End-->
+    <!-- 2-Column Grid for subsequent images -->
+    <div class="logo-fitwares-grid">
+      <!-- 2nd Image: Shopping Bag (logo-08.webp) -->
+      <div class="logo-fitwares-item">
+        <img src="<?= base_url('assets/images/logo-08.webp') ?>" alt="Fitwares Packaging Bag" class="img-fluid logo-fitwares-img">
+      </div>
+      <!-- 3rd Image: Woman Red Sportswear (logo-09.webp) -->
+      <div class="logo-fitwares-item">
+        <img src="<?= base_url('assets/images/logo-09.webp') ?>" alt="Fitwares Red Sportswear" class="img-fluid logo-fitwares-img">
+      </div>
+
+      <!-- 4th Image: Orange Background Model (logo-10.webp) -->
+      <div class="logo-fitwares-item">
+        <img src="<?= base_url('assets/images/logo-10.webp') ?>" alt="Fitwares Athlete" class="img-fluid logo-fitwares-img">
+      </div>
+      <!-- 5th Image: T-shirt Tag Detail (logo-11.webp) -->
+      <div class="logo-fitwares-item">
+        <img src="<?= base_url('assets/images/logo-11.webp') ?>" alt="Fitwares Apparel Tag" class="img-fluid logo-fitwares-img">
+      </div>
+
+      <!-- 6th Image: FW Emblem / Activewear (logo-12.webp) -->
+      <div class="logo-fitwares-item logo-fitwares-item-full">
+        <img src="<?= base_url('assets/images/logo-12.webp') ?>" alt="Fitwares Emblem & Activewear" class="img-fluid logo-fitwares-img">
+      </div>
+    </div>
+  </div>
 </section>
 
-<style>
-	/* Logo Design Services Redesign */
-	.logo-service-card {
-		background: #fff;
-		border: 1px solid #ede8ff;
-		border-radius: 12px;
-		padding: 30px;
-		transition: all 0.3s ease;
-		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-	}
+<!-- Vitality Project Showcase Section (Desktop Only) -->
+<section class="logo-vitality-projects-sec">
+  <div class="logo-vitality-collage">
+    <!-- 1st Image: Top Full Width Banner (logo-13.webp) -->
+    <div class="logo-vitality-top-banner">
+      <img src="<?= base_url('assets/images/logo-13.webp') ?>" alt="Vitality Brand Banner" class="img-fluid logo-vitality-full-img">
+    </div>
 
-	.logo-service-card:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 10px 25px rgba(133, 91, 255, 0.1);
-		border-color: #855BFF;
-	}
+    <!-- Asymmetrical 2-Row Layout for Middle Images -->
+    <div class="logo-vitality-row logo-vitality-row-1">
+      <!-- 2nd Image: Woman in Sunlight (logo-14.webp) - Wide (58.2%) -->
+      <div class="logo-vitality-col logo-vitality-col-wide">
+        <img src="<?= base_url('assets/images/logo-14.webp') ?>" alt="Vitality Wellness Model" class="img-fluid logo-vitality-img">
+      </div>
+      <!-- 3rd Image: Supplement Packaging (logo-15.webp) - Narrow (41.8%) -->
+      <div class="logo-vitality-col logo-vitality-col-narrow">
+        <img src="<?= base_url('assets/images/logo-15.webp') ?>" alt="Vitality Skincare Packaging" class="img-fluid logo-vitality-img">
+      </div>
+    </div>
 
-	.logo-service-card h4 {
-		font-size: 1.25rem;
-		font-weight: 700;
-		color: #1a1a2e;
-		margin-bottom: 15px;
-	}
+    <div class="logo-vitality-row logo-vitality-row-2">
+      <!-- 4th Image: Business Cards (logo-16.webp) - Narrow (41.8%) -->
+      <div class="logo-vitality-col logo-vitality-col-narrow">
+        <img src="<?= base_url('assets/images/logo-16.webp') ?>" alt="Vitality Business Cards" class="img-fluid logo-vitality-img">
+      </div>
+      <!-- 5th Image: Spa Candles & Tray (logo-17.webp) - Wide (58.2%) -->
+      <div class="logo-vitality-col logo-vitality-col-wide">
+        <img src="<?= base_url('assets/images/logo-17.webp') ?>" alt="Vitality Spa Experience" class="img-fluid logo-vitality-img">
+      </div>
+    </div>
 
-	.logo-service-card p {
-		font-size: 0.95rem;
-		color: #555;
-		margin: 0;
-	}
+    <!-- 6th Image: Bottom Full Width Banner (logo-18.webp) -->
+    <div class="logo-vitality-bottom-banner">
+      <img src="<?= base_url('assets/images/logo-18.webp') ?>" alt="Vitality Outdoor Yoga Stretch" class="img-fluid logo-vitality-full-img">
+    </div>
+  </div>
+</section>
+ <section class="new-client-section">
+  <div class="container">
+    <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2> <?php include __DIR__ . "/../component/client_section.php"; ?>
+  </div>
+</section>
+<!-- Complementing Services section -->
+<section class="premium-industries-section">
+    <div class="container">
+        <h2 class="premium-industries-title">The Best Logo Design Agency in Dubai</h2>
+        <div class="row g-4">
+            <!-- Card 1: Market Analysis -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-1.svg') ?>" alt="Market Analysis">
+                    </div>
+                    <h3 class="industry-card-title">Market Analysis</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">As the top logo design agency in Dubai, we dive deep into your industry and competitor landscape to ensure your brand stands out with a unique visual edge.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: Brand Foundation -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-2.svg') ?>" alt="Brand Foundation">
+                    </div>
+                    <h3 class="industry-card-title">Brand Foundation</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">At BrandStory, we analyze your brand values and mission to create a logo that perfectly encapsulates your business's core identity and personality in a meaningful way.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Creative Strategy -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-5.svg') ?>" alt="Creative Strategy">
+                    </div>
+                    <h3 class="industry-card-title">Creative Strategy</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">Our experienced design team develops robust visual strategies that cater specifically to your business goals, ensuring every element has a purpose.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: Quality Control -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-6.svg') ?>" alt="Quality Control">
+                    </div>
+                    <h3 class="industry-card-title">Quality Control</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">We meticulously monitor every detail of the design process, ensuring your logo is versatile, scalable, and looks perfect across all digital and print platforms.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Identity System -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-8.svg') ?>" alt="Identity System">
+                    </div>
+                    <h3 class="industry-card-title">Identity System</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">Beyond just a logo, we focus on creating a cohesive brand identity system that attracts your target audience and builds lasting brand loyalty.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6: Expert Consulting -->
+            <div class="col-lg-4 col-md-6">
+                <div class="premium-industry-card">
+                    <div class="industry-card-icon">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-9.svg') ?>" alt="Expert Consulting">
+                    </div>
+                    <h3 class="industry-card-title">Expert Consulting</h3>
+                    <div class="industry-card-hover-details">
+                        <p class="industry-card-desc">As the #1 branding agency, we provide constant guidance and research to adapt your visual identity to the latest global design trends and local market nuances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Types Of Logo Design Services Section -->
+<section class="logo-types-section">
+  <div class="container">
+    <!-- Main Title above columns -->
+    <h2 class="logo-types-main-title">Types Of Logo Design Services In Dubai</h2>
 
-	.logo-process-box {
-		text-align: center;
-		padding: 30px 20px;
-	}
+    <div class="row align-items-stretch g-4 g-lg-5">
+      <!-- Left Sidebar: Tab Navigation directly on section background -->
+      <div class="col-lg-5 col-12">
+        <div class="logo-types-nav-list" role="tablist" aria-label="Logo Design Types">
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item active" id="tab-type-1" data-target="content-type-1" type="button" role="tab" aria-selected="true" aria-controls="content-type-1">
+              Lettermarks or Monogram Logos
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-2" data-target="content-type-2" type="button" role="tab" aria-selected="false" aria-controls="content-type-2">
+              Logotypes or Wordmarks
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-3" data-target="content-type-3" type="button" role="tab" aria-selected="false" aria-controls="content-type-3">
+              Pictorial Marks/ Logo Symbols
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-4" data-target="content-type-4" type="button" role="tab" aria-selected="false" aria-controls="content-type-4">
+              Abstract Designs
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-5" data-target="content-type-5" type="button" role="tab" aria-selected="false" aria-controls="content-type-5">
+              Mascots
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-6" data-target="content-type-6" type="button" role="tab" aria-selected="false" aria-controls="content-type-6">
+              Combination Mark
+            </button>
+          </div>
+          <div class="logo-types-nav-item-wrap">
+            <button class="logo-types-nav-item" id="tab-type-7" data-target="content-type-7" type="button" role="tab" aria-selected="false" aria-controls="content-type-7">
+              The Emblem
+            </button>
+          </div>
+        </div>
+      </div>
 
-	.logo-process-step {
-		width: 60px;
-		height: 60px;
-		background: linear-gradient(135deg, #855BFF, #6a3fd4);
-		color: #fff;
-		font-size: 24px;
-		font-weight: 700;
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: 0 auto 20px;
-	}
+      <!-- Right Side: Content Panels inside the dark card box -->
+      <div class="col-lg-7 col-12">
+        <div class="logo-types-card-box">
+          <div class="logo-types-content-wrapper">
+            <!-- Content 1 -->
+            <div class="logo-types-panel active" id="content-type-1" role="tabpanel" aria-labelledby="tab-type-1">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-20.webp') ?>" alt="Lettermarks or Monogram Logos" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Lettermarks or Monogram Logos</h3>
+                <p class="logo-types-info-desc">Want the brand initial as the logo? Our genius Logo Designers in Bangalore are capable to create initials that are suitable for a lengthy business name.</p>
+              </div>
+            </div>
 
-	.logo-process-box h4 {
-		font-weight: 700;
-		margin-bottom: 15px;
-		color: #1a1a2e;
-	}
+            <!-- Content 2 -->
+            <div class="logo-types-panel" id="content-type-2" role="tabpanel" aria-labelledby="tab-type-2">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-21.webp') ?>" alt="Logotypes or Wordmarks" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Logotypes or Wordmarks</h3>
+                <p class="logo-types-info-desc">Looking to build brand identity around your brand name? Our creative logo design team crafts custom wordmarks that are highly memorable and distinct.</p>
+              </div>
+            </div>
 
-	.logo-process-box p {
-		font-size: 0.95rem;
-		color: #555;
-	}
+            <!-- Content 3 -->
+            <div class="logo-types-panel" id="content-type-3" role="tabpanel" aria-labelledby="tab-type-3">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-23.webp') ?>" alt="Pictorial Marks/ Logo Symbols" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Pictorial Marks/ Logo Symbols</h3>
+                <p class="logo-types-info-desc">Need a graphic or symbol to represent your brand? We design clean, iconic pictorial marks that define your corporate identity at a single glance.</p>
+              </div>
+            </div>
 
-	.benefits-box {
-		background: #fafafa;
-		border-radius: 16px;
-		padding: 40px;
-		border: 1px solid #ede8ff;
-	}
+            <!-- Content 4 -->
+            <div class="logo-types-panel" id="content-type-4" role="tabpanel" aria-labelledby="tab-type-4">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-24.webp') ?>" alt="Abstract Designs" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Abstract Designs</h3>
+                <p class="logo-types-info-desc">Want a non-literal geometric representation? Our abstract design experts craft unique geometric visual structures that carry deep brand meaning.</p>
+              </div>
+            </div>
 
-	.benefits-list {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
+            <!-- Content 5 -->
+            <div class="logo-types-panel" id="content-type-5" role="tabpanel" aria-labelledby="tab-type-5">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-25.webp') ?>" alt="Mascots" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Mascots</h3>
+                <p class="logo-types-info-desc">Looking for a friendly face for your brand? We design custom mascot characters that act as engaging, fun, and colorful spokespeople for your audience.</p>
+              </div>
+            </div>
 
-	.benefits-list li {
-		position: relative;
-		padding-left: 30px;
-		margin-bottom: 15px;
-		font-size: 0.95rem;
-		color: #444;
-	}
+            <!-- Content 6 -->
+            <div class="logo-types-panel" id="content-type-6" role="tabpanel" aria-labelledby="tab-type-6">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-26.webp') ?>" alt="Combination Mark" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">Combination Mark</h3>
+                <p class="logo-types-info-desc">Want both text and a symbol together? We design combination marks that seamlessly integrate wordmarks with iconic symbols for maximum brand impact.</p>
+              </div>
+            </div>
 
-	.benefits-list li::before {
-		content: "✓";
-		position: absolute;
-		left: 0;
-		top: 2px;
-		color: #855BFF;
-		font-weight: bold;
-		font-size: 1.1rem;
-	}
+            <!-- Content 7 -->
+            <div class="logo-types-panel" id="content-type-7" role="tabpanel" aria-labelledby="tab-type-7">
+              <div class="logo-types-img-box">
+                <img src="<?= base_url('assets/images/logo-27.webp') ?>" alt="The Emblem" class="img-fluid logo-types-img" loading="lazy">
+              </div>
+              <div class="logo-types-info">
+                <h3 class="logo-types-info-title">The Emblem</h3>
+                <p class="logo-types-info-desc">Need a traditional, classic seal or badge? We build beautiful emblem logos that embed typography inside classic symbols for a striking appearance.</p>
+              </div>
+            </div>
 
-	/* What We Do Redesign */
-	.wwd-card {
-		background: #fdfbff;
-		border: 1px solid #ede8ff;
-		border-radius: 15px;
-		padding: 30px 20px;
-		text-align: center;
-		height: 100%;
-		transition: all 0.3s ease;
-	}
-
-	.wwd-card:hover {
-		background: #fff;
-		box-shadow: 0 10px 30px rgba(133, 91, 255, 0.12);
-		border-color: #855BFF;
-	}
-
-	.wwd-icon {
-		font-size: 40px;
-		margin-bottom: 20px;
-		display: inline-block;
-	}
-
-	.wwd-card h4 {
-		font-weight: 700;
-		font-size: 1.15rem;
-		margin-bottom: 15px;
-		color: #1a1a2e;
-	}
-
-	.wwd-card p {
-		font-size: 0.9rem;
-		color: #666;
-		line-height: 1.6;
-	}
-</style>
-
-<section class="sp-50 bg-white">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center mb-5">
-				<h2 class="fw-bold">Types of Logo Design Services in Dubai</h2>
-			</div>
-		</div>
-		<div class="row gy-4">
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Lettermark Logos</h4>
-					<p>Logos have always been a way to make your brand identifiable and memorable. But with so many logos being generic and uninspired, what's a business to do? Lettermark Logos is the answer. We specialize in designing custom logos that are uniquely yours, with personality and style that will set you apart from the rest. Plus, our logo designs are totally customizable – so you can change them up as needed without having to start from scratch.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Graphic Logos</h4>
-					<p>Graphic Logos is the perfect way to brand your business. With our logo design services, you'll get a high-quality logo that will help your business stand out from the crowd. Plus, our team of experts will help you choose the right logo for your business and provide helpful tips and advice throughout the process.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Wordmark Logos</h4>
-					<p>Wordmark Logos is the perfect way to show your brand’s identity online. Our customizable logo templates make it easy to create a consistent and recognizable look for your website, social media profiles, and more. Plus, our templates are completely editable so you can make adjustments as needed.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Mascot Logos</h4>
-					<p>Mascot Logos is the perfect way to get your team's logo marketing campaign off to a strong start. Our custom mascot logos provide an eye-catching and creative way to show support for your sports teams, schools, businesses, and more. With Mascot Logos you'll have a powerful tool for <a href="/creative-advertising-agency-in-dubai/" style="color:#855BFF;text-decoration:none;">advertising</a> and promoting your brand, while also creating a memorable connection with customers and followers.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Abstract Logos</h4>
-					<p>Abstract logos are a unique way to show off your branding. They give you the ability to create an abstract design that is still recognizable as your company. They are also a great way to stand out from the competition.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Combination Logos</h4>
-					<p>Combination Logos is a simple, yet powerful way to increase brand awareness and build customer loyalty. With a combination of your company's logos, it becomes much more difficult for customers to differentiate between your products or services. Not only will this help you stand out from the competition, but it will also create an emotional connection with your customers.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="logo-service-card h-100">
-					<h4>Custom Logos</h4>
-					<p>Logos are essential to the branding of any business. With Custom Logos, you can create a logo that perfectly reflects your company or individual personality. We offer a wide variety of fonts and colors, so you can create a logo that is perfect for your brand. Plus, our custom logos are available immediately, so you can start using them right away!</p>
-				</div>
-			</div>
-		</div>
-	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="sp-50" style="background: #fafafa;">
-	<div class="container">
-		<div class="row pb-4">
-			<div class="col-md-10 mx-auto text-center">
-				<h2 class="fw-bold mb-4">Our Logo Design Process</h2>
-				<p class="fs-6 text-muted">Logo design is the process of designing a symbol, logo, or other visual representation that identifies a company or product. A logo can be created for any type of business, from small businesses to multinational companies. The most common types of logos are company names and product logos. A company name may have one or more logos associated with it, each representing a different aspect of the business. A product logo is typically the most recognizable and visible part of a company's branding and can be used to market the company's products to customers. Logo design can encompass a wide range of disciplines, such as graphic design, advertising, and industrial design.</p>
-			</div>
-		</div>
-		<div class="row pt-4">
-			<div class="col-lg-3 col-md-6">
-				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
-					<div class="logo-process-step">1</div>
-					<h4>Discover and Research</h4>
-					<p>Logo design is all about creating an unforgettable visual identifier that helps your business stand out. The first step in the logo design process is to discover and research your target market. By understanding who you're serving and what they need, you can create a logo that perfectly represents your brand.</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
-					<div class="logo-process-step">2</div>
-					<h4>Brainstorm</h4>
-					<p>Logo design is all about making a statement. With our unique Brainstorm process, you'll get to brainstorm with experts on how your logo can make a powerful statement and drive results. Our team will help youfind the right design for your business, and explore the potential impact on customers, employees, partners, and other stakeholders. So start thinking BIGger today - let Brainstorm help you get there!</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
-					<div class="logo-process-step">3</div>
-					<h4>Sketch and Design</h4>
-					<p>Third step of logo design process is to sketch and design the logo. Sketching is a great way to get your creative juices flowing and come up with ideas for the design. Once you have some initial sketches, it's time to start designing. Start by creating a rough outline of the logo, and then fill in details. Be sure to pay attention to proportions, color schemes, and how the overall design will look when rendered on different types of materials.</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="logo-process-box border bg-white rounded h-100 shadow-sm">
-					<div class="logo-process-step">4</div>
-					<h4>Present and Deliver</h4>
-					<p>Present and Deliver is the final stage of logo design. It's where our team brings your concept to life with a stunning, on-brand logo. We use cutting-edge design techniques and strategies to create a powerful brand identity that will stand out in the crowd.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<script>
+(function() {
+  function switchTab(btn) {
+    if (!btn) return;
+    var targetId = btn.getAttribute('data-target');
+    if (!targetId) return;
+
+    var container = btn.closest('.logo-types-card-box') || document;
+    var navItems = container.querySelectorAll('.logo-types-nav-item');
+    var panels = container.querySelectorAll('.logo-types-panel');
+
+    navItems.forEach(function(nav) {
+      nav.classList.remove('active');
+      nav.setAttribute('aria-selected', 'false');
+    });
+
+    panels.forEach(function(panel) {
+      panel.classList.remove('active');
+    });
+
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+
+    var activePanel = document.getElementById(targetId);
+    if (activePanel) {
+      activePanel.classList.add('active');
+    }
+  }
+
+  // Global click listener for tab switching
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.logo-types-nav-item');
+    if (btn) {
+      switchTab(btn);
+    }
+  });
+
+  // Expose function globally if needed
+  window.switchLogoTypeTab = switchTab;
+})();
+</script>
+
+
+
+
+<!-- Our Logo Design Process Section -->
+<section class="logo-process-section">
+  <div class="container">
+    <div class="row align-items-stretch g-4 g-lg-5">
+      <!-- Left Column: Process Photo Card with Overlays -->
+      <div class="col-lg-5 col-12 logo-process-col">
+        <div class="logo-process-card-wrap">
+          <img src="<?= base_url('assets/images/logo-28.webp') ?>" alt="Our Logo Design Process" class="img-fluid logo-process-bg-img">
+          
+          <!-- Overlay Title -->
+          <div class="logo-process-overlay-title">
+            The Logo Design Process
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Process List -->
+      <div class="col-lg-7 col-12">
+        <div class="logo-process-list">
+          <!-- Step 1 -->
+          <div class="logo-process-list-item">
+            <div class="logo-process-num">01</div>
+            <div class="logo-process-details">
+              <h3 class="logo-process-step-title">Discover and Research</h3>
+              <p class="logo-process-step-desc">Every iconic logo starts with deep understanding. We immerse ourselves in your industry, audience, and competitive landscape to uncover what makes your brand truly unique. We research your visual identity that resonates with the people who matter most.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="logo-process-list-item">
+            <div class="logo-process-num">02</div>
+            <div class="logo-process-details">
+              <h3 class="logo-process-step-title">Brainstorm</h3>
+              <p class="logo-process-step-desc">Our team collaborates with you to explore bold concepts, strategic directions, and creative possibilities. We focus on what your brand stands for and how to communicate it with clarity and impact- ensuring every idea serves a bigger purpose.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="logo-process-list-item">
+            <div class="logo-process-num">03</div>
+            <div class="logo-process-details">
+              <h3 class="logo-process-step-title">Sketch and Design</h3>
+              <p class="logo-process-step-desc">With strategy as our blueprint, we move to paper and screen. Our designers sketch and refine visual directions, paying close attention to proportion, color psychology, typography, and scalability. Every detail is built to perform across every touchpoint.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="logo-process-list-item">
+            <div class="logo-process-num">04</div>
+            <div class="logo-process-details">
+              <h3 class="logo-process-step-title">Present and Deliver</h3>
+              <p class="logo-process-step-desc">We bring the vision into reality. We present your finalised logo with a complete brand identity system, ready for immediate use. From digital assets to print-ready files, you walk away with everything you need to launch with confidence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="sp-50 bg-white">
-	<div class="container">
-		<div class="row align-items-center gy-5">
-			<div class="col-lg-6 pe-lg-5">
-				<h2 class="fw-bold mb-4">Why Choose Our Logo Designers in Dubai</h2>
-				<p class="fs-6 text-muted mb-4">Dubai is a city with endless opportunities and a skyline that never stops inspiring. So when you need an elegant and professional logo for your business, turn to our team of creative <a href="/branding-agency-in-dubai/" style="color:#855BFF;text-decoration:none;">branding experts in Dubai</a>. We know what it takes to create a strong brand identity that will be memorable and effective. With 5+ years of experience crafting stunning logos, we'll help you create the perfect branding for your business.</p>
-				<p class="fs-6 text-muted">Designing a logo can be a daunting task, but not with our talented designers in Dubai. From start to finish, we'll work with you to create the perfect logo that represents your business and sets you apart from the rest. Plus, our prices are unbeatable.</p>
-			</div>
-			<div class="col-lg-6">
-				<div class="benefits-box">
-					<h3 class="fw-bold mb-4">Benefits Of Logo Design</h3>
-					<ul class="benefits-list">
-						<li><b>Brand recognition</b> - A well designed logo can help your business stand out from the competition, fostering increased customer loyalty.</li>
-						<li><b>Improved customer conversion rates</b> - A well executed logo design can help increase traffic and sales to your website.</li>
-						<li><b>Enhanced brand image</b> - Enhancing the appearance of your company's branding can lead to an increase in brand awareness and credibility.</li>
-						<li><b>Increased brand awareness</b> - A well designed logo can help promote your business to a wider audience, increasing potential sales and leads.</li>
-						<li>It help your business stand out</li>
-						<li>It help your business grow</li>
-						<li>It help your business be successful</li>
-						<li>It help your business be more visible</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Why Choose Our Logo Designers In Dubai Section -->
+<section class="logo-why-choose-section">
+  <div class="container">
+    <h2 class="logo-why-main-title">Why Choose BrandStory <br>As Your Logo Designer In Dubai</h2>
+
+    <!-- Top Row (Bento Grid) -->
+    <div class="row g-4 mb-4 align-items-stretch">
+      <!-- Card 1: Team Photo Card -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="logo-why-image-card">
+          <div class="logo-why-image-overlay">
+            <div class="logo-why-stat">900+</div>
+            <p class="logo-why-text">Successful projects delivered across UAE and globally.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Satisfaction Card -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="logo-why-satisfaction-card">
+          <div class="logo-why-card-top">
+            <div class="logo-why-card-label">Customer Satisfaction</div>
+            <div class="logo-why-stat-large">100%</div>
+          </div>
+          
+          <div class="logo-why-avatars">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-1.jpg') ?>" alt="Client Avatar 1" class="logo-why-avatar-img">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-2.jpg') ?>" alt="Client Avatar 2" class="logo-why-avatar-img">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-3.jpg') ?>" alt="Client Avatar 3" class="logo-why-avatar-img">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-4.jpg') ?>" alt="Client Avatar 4" class="logo-why-avatar-img">
+          </div>
+
+          <p class="logo-why-card-desc-dark">Our priority is to deliver exceptional branding assets that exceed your business goals and expectations.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 & 4 column -->
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="logo-why-right-col">
+          <!-- Card 3: Purple Card -->
+          <div class="logo-why-purple-card">
+            <div class="logo-why-card-label-white">Branding Reach</div>
+            <div class="logo-why-stat-white">520K+</div>
+            <p class="logo-why-card-desc-white">Impression-driven designs that connect with your audience.</p>
+          </div>
+
+          <!-- Card 4: Small Card -->
+          <div class="logo-why-small-card">
+            <span class="logo-why-small-card-label">Years of Design Expertise</span>
+            <span class="logo-why-small-card-stat">13+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Row (Wrapped in container with #F2F2F2 bg) -->
+    <div class="logo-why-bottom-row-wrap">
+      <div class="row g-4 align-items-stretch">
+        <!-- Card 5: Wide Card with Image -->
+        <div class="col-lg-6 col-12">
+          <div class="logo-why-wide-card">
+            <div class="row align-items-center h-100 g-4">
+              <div class="col-sm-7 col-12">
+                <div class="logo-why-icon-box">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" class="logo-why-svg-icon">
+                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                  </svg>
+                </div>
+                <h3 class="logo-why-card-title-dark">Brand Authority</h3>
+                <p class="logo-why-card-desc-dark-sm">Establish strong market presence with a custom logo that captures your business values and attracts target clients.</p>
+              </div>
+              <div class="col-sm-5 col-12 text-center text-sm-end">
+                <img src="<?= base_url('assets/images/logo-30.webp') ?>" alt="Workspace Lounge" class="img-fluid logo-why-wide-img">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Heart Card -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="logo-why-feature-card">
+            <div class="logo-why-icon-box">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" class="logo-why-svg-icon">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <h3 class="logo-why-card-title-dark mt-4">Customer Loyalty</h3>
+            <p class="logo-why-card-desc-dark-sm">Meticulously crafted icons build trust, credibility, and brand recognition over time.</p>
+          </div>
+        </div>
+
+        <!-- Card 7: Lightning Card -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="logo-why-feature-card">
+            <div class="logo-why-icon-box">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" class="logo-why-svg-icon">
+                <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+              </svg>
+            </div>
+            <h3 class="logo-why-card-title-dark mt-4">Dynamic Versatility</h3>
+            <p class="logo-why-card-desc-dark-sm">Perfect performance of your brand identity assets across all web, app, print, and physical mediums.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
-<section class="sp-50" style="background: #fff;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center mb-5">
-				<h2 class="fw-bold">What we Do</h2>
-			</div>
-		</div>
-		<div class="row gy-4">
-			<div class="col-md-6 col-lg-3">
-				<div class="wwd-card">
-					<div class="wwd-icon">🎯</div>
-					<h4>Custom Logo Solution</h4>
-					<p>Our custom logo solutions are guaranteed to be perfect- every time! With our design team's years of experience, we can help create a brand that will set you apart from the rest.</p>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="wwd-card">
-					<div class="wwd-icon">💰</div>
-					<h4>Cost Effective Logo Solution</h4>
-					<p>Get the best logo design solution possible, guaranteed. We guarantees effective and affordable logo solutions that match your unique brand aspirations.</p>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="wwd-card">
-					<div class="wwd-icon">📞</div>
-					<h4>24/7 Support</h4>
-					<p>If you encounter any problems with your product, we will immediately provide support and help solve the issue at any time of the day.</p>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="wwd-card">
-					<div class="wwd-icon">⭐</div>
-					<h4>Customer Satisfaction</h4>
-					<p>Phenomenal customer satisfaction is our guarantee for your logo design. We ensure all our designs meet the highest quality standards for your brand.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+
+<!-- Get Started Call to Action Section -->
+<section class="logo-cta-section">
+  <div class="container">
+    <div class="row justify-content-end">
+      <!-- Right aligned Content Box -->
+      <div class="col-md-8 col-12">
+        <div class="logo-cta-content-box">
+          <h2 class="logo-cta-title">Partner with Dubai's Elite Logo Designers</h2>
+          <p class="logo-cta-desc">At Brandstory, we understand that a logo is more than just an image- it's the face of your brand. We combine research, strategy, and creative execution to craft icons that tell your brand's unique story and resonate with your audience. Whether you're a startup launching in Dubai or an established enterprise looking to refresh your visual identity, our dedicated team is here to take your business forward.</p>
+          <p class="logo-cta-desc">Our expert designers ensures that every detail is aligned with your business goals and market positioning. From initial sketches to final digital assets, we focus on versatility, scalability, and premium aesthetic quality to make your brand stand out.</p>
+          <p class="logo-cta-desc">Ready to elevate your brand presence? Partner with our expert designers and create a logo that drives customer trust and growth.</p>
+          
+          <div class="logo-cta-actions">
+            <a href="/branding-agency-in-dubai" class="logo-cta-btn uniq-contact-lead-btn">
+              <span>Explore Branding</span>
+              <span class="logo-cta-btn-arrow">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="sp-50 bg-yellow">
-	<div class="container">
-		<?php include __DIR__ . '/../component/services/stats.php' ?>
-	</div>
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+<section class="dm-grow-section">
+    <div class="dm-grow-overlay"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-items-center align-items-lg-stretch">
+            <!-- Left Side: Copy, Button, and Partner Logos -->
+            <div
+                class="col-lg-6 mb-5 mb-lg-0 text-lg-start text-center d-lg-flex flex-lg-column justify-content-lg-between">
+                <div>
+                    <h2 class="grow-section-title">Logo Design in Dubai<br> Where Brands Become Icons</h2>
+
+                    <p class="grow-section-text">Transform your brand presence, command attention, and create lasting loyalty with professional logo design specialists in Dubai. Claim your Free Consultation and Comprehensive Brand Audit to unlock your visual identity.</p>
+
+                    <div class="grow-section-btn-wrap mb-5">
+                        <a href="javascript:void(0);" class="grow-pill-btn uniq-contact-lead-btn">
+                            <span>Talk to Experts</span>
+                            <span class="grow-btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="grow-btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="grow-partners-wrap d-flex align-items-center gap-3 justify-content-lg-start justify-content-center">
+                    <div class="partner-badge">
+                        <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
+                            style="display: flex;">
+                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner"
+                                class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-badge">
+                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Meta Business Partner"
+                            class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: White Contact Form Card -->
+            <div class="col-lg-6">
+                <div class="grow-form-card">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dubai Office Contact Bar -->
+<section class="dm-dubai-office-bar">
+    <div class="container">
+        <div class="office-bar-row">
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon">
+                <a href="tel:+971522831655">+971 52 283 1655</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon">
+                <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon">
+                <a target="_blank"
+                    href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
+                    Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>
+            </div>
+        </div>
+    </div>
+</section>
+<?php 
+  $category = 'Branding';
+  $padding= 'sp-50';
+  include __DIR__ . '/../component/blog_carousel.php'; 
+?>
+<section class="dm-faq-section spb-50">
+
+  <div class="container">
+    <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
+    <div class="dm-faq-main max-1000">
+      <div class="accordion accordion-flush" id="accordionFlushExample1">
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How to Choose the Best Logo Design Agency in Dubai, UAE? </button>
+          </h4>
+          <div id="flush-collapse-em1" class="accordion-collapse collapse" aria-labelledby="flush-heading-em1" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">When choosing a logo design agency in Dubai, review their portfolio for originality, versatility, and strategic thinking. Look for evidence of custom work rather than templates, check client testimonials for brand impact, and ensure their process includes discovery, research, and collaboration to align the final design with your business vision.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How Does BrandStory Ensure My Logo Works Across All Applications? </button>
+          </h4>
+          <div id="flush-collapse-em2" class="accordion-collapse collapse" aria-labelledby="flush-heading-em2" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">At BrandStory, we design logos with adaptability at their core. We deliver your logo in multiple formats and color variations- full color, monochrome, reversed, and responsive sizes- ensuring it remains crisp and impactful whether displayed on a business card, website favicon, mobile app, billboard, or embroidered merchandise.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> How Do You Ensure My Logo is Versatile and Scalable? </button>
+          </h4>
+          <div id="flush-collapse-em3" class="accordion-collapse collapse" aria-labelledby="flush-heading-em3" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">We create logos using vector-based design principles, ensuring perfect scalability from a tiny social media icon to large-scale signage without any loss of quality. We also develop responsive logo variations- simplified versions for small spaces and full versions for larger applications, so your brand identity stays consistent and recognizable everywhere.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> How BrandStory's Logo Design Services Improve My Brand Identity? </button>
+          </h4>
+          <div id="flush-collapse-em4" class="accordion-collapse collapse" aria-labelledby="flush-heading-em4" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">At BrandStory, we craft logos that serve as the visual anchor of your brand identity. By aligning typography, color psychology, symbolism, and composition with your brand values, we create a mark that resonates emotionally with your audience, strengthens recognition across all touchpoints, and builds long-term credibility and trust.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Why is Professional Logo Design Important for My Business? </button>
+          </h4>
+          <div id="flush-collapse-em5" class="accordion-collapse collapse" aria-labelledby="flush-heading-em5" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">Your logo is often the first impression customers have of your business. A professionally designed logo builds instant credibility, communicates your values at a glance, and differentiates you from competitors. It fosters trust, improves memorability, and lays the foundation for brand loyalty- turning first-time viewers into lasting customers.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> How Long Does It Take to Complete Logo Design Project? </button>
+          </h4>
+          <div id="flush-collapse-em6" class="accordion-collapse collapse" aria-labelledby="flush-heading-em6" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">The timeline depends on the project's scope and complexity. Typically, our logo design process spans 2 to 6 weeks, covering discovery, concept development, design refinement, and final delivery with full brand guidelines. We keep you involved at every stage to ensure the result exceeds your expectations.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FAQ 7 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> How Does BrandStory Ensure the Logo Reflects My Brand Identity? </button>
+          </h4>
+          <div id="flush-collapse-em7" class="accordion-collapse collapse" aria-labelledby="flush-heading-em7" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">At BrandStory, we begin every logo project with in-depth brand discovery workshops, competitor analysis, and audience research to fully understand your values, market position, and vision. This strategic foundation ensures every design decision from shape and color to typography and spacing genuinely reflects who you are and where your brand is headed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="our-web-design sp-50">
-	<div class="container"><!--Container Start-->
-		<div class="row"><!--Row Start-->
-			<div class="col-md-12"> <!--col start-->
-				<h2 class="text-center">Our Clients <span class="db">Testimonials</span></h2>
-			</div><!--col end-->
-		</div><!--Row End-->
-		<div class="service--slider site--slider spt-50"><!--Slider Start-->
-			<div class="swiper service-slider">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-1.jpg" class="img-fluid" alt="best website design company in dubai">
-							</div>
-							<h4>Girish</h4>
-							<p>I'm so happy that I found the brandstory logo design company in dubai! They have the best logo design services in Dubai. The team is very professional and they always take their time to understand what I want. I highly recommend Brandstory to anyone looking for a great logo design!</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-2.jpg" class="img-fluid" alt="best web design dubai">
-							</div>
-							<h4>Malik</h4>
-							<p>I absolutely love brandstory logo maker dubai! The service is amazing and the quality of the products is top notch. I've used them for both personal and business logos and have never been disappointed. I would highly recommend them to anyone looking for a high quality logo done right!</p>
-
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-3.jpg" class="img-fluid" alt="best ecommerce development company in dubai">
-							</div>
-							<h4>Imran</h4>
-							<p>I'm very happy with the logo design I received from company logo maker dubai. They were very responsive and helpful throughout the process. The final product was exactly what I wanted and it looks great on my website. I would definitely recommend them to anyone looking for a logo!</p>
-						</div><!--box end-->
-					</div><!--slide end-->
-
-					<div class="swiper-slide"><!--slide start-->
-						<div class="ss-box"><!--box start-->
-							<div class="ss-box-img">
-								<img src="/assets/images/service/website-design/our-web-img-4.jpg" class="img-fluid" alt="wordpress website development in dubai">
-							</div>
-							<h4>Saadhallah</h4>
-							<p>I am so happy with my custom logo design in Dubai from brandstory! The team was so helpful and accommodating, and the finished product is perfect. I would highly recommend them to anyone looking for a high-quality logo design.</p>
-						</div><!--slide end-->
-
-					</div><!--wrapper end-->
-				</div>
-				<div class="swiper-pagination ss-pagi"></div>
-				<div class="swiper-button-next ss-next"></div>
-				<div class="swiper-button-prev ss-prev"></div>
-			</div><!--Slider End-->
-</section>

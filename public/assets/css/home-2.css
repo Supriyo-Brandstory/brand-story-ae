@@ -6827,7 +6827,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 .home-dummy-showcase-sec {
     width: 100%;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #0f0f10;
 }
 
 .home-dummy-showcase-grid {
@@ -6906,12 +6906,14 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     .home-dummy-showcase-grid {
         grid-template-columns: 1fr;
     }
+
     .dummy-card-badge {
         top: 16px;
         right: 16px;
         font-size: 12px;
         padding: 6px 14px;
     }
+
     .dummy-hover-text {
         font-size: 24px !important;
     }

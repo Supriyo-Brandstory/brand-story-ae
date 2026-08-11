@@ -33,7 +33,7 @@ Route::get('/keyword-research-dubai', 'FrontendController@keywordResearchDubai',
 Route::get('/sitemap.xml', 'SitemapController@index', 'sitemap');
 Route::get('/robots.txt', 'RobotsController@index', 'robots');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
-Route::get('/branding-agency-in-dubai-2', 'FrontendController@brandAgencyDubai2', 'brandagencydubai2');
+// Route::get('/branding-agency-in-dubai-2', 'FrontendController@brandAgencyDubai2', 'brandagencydubai2');
 Route::get('/website-design-company-in-dubai', 'FrontendController@websiteDesignDubai', 'websitedesigndubai');
 Route::get('/website-development-company-in-dubai', 'FrontendController@websiteDevelopmentDubai', 'websitedevelopmentdubai');
 Route::get('/full-funnel-performance-marketing', 'FrontendController@fullFunnelPerformanceMarketing', 'fullFunnelPerformanceMarketing');
@@ -60,8 +60,7 @@ Route::get('/content-marketing-agency-dubai', 'FrontendController@contentMarketi
 Route::get('/ui-ux-design-company-in-dubai', 'FrontendController@uiuxDesignCompanyInDubai', 'uiuxdesigncompanyindubai');
 // Route::get('/ui-ux-design-company-in-dubai-2', 'FrontendController@uiuxDesignCompanyInDubai2', 'uiuxdesigncompanyindubai2');
 Route::get('/logo-designing-dubai', 'FrontendController@logoDesigningDubai', 'logodesigningdubai');
-Route::get('/logo-designing-company-in-dubai-2', 'FrontendController@logoDesigningDubai2', 'logodesigningdubai2');
-Route::get('/logo-design-2', 'FrontendController@logoDesigningDubai2', 'logodesign2');
+// Route::get('/logo-designing-company-in-dubai-2', 'FrontendController@logoDesigningDubai2', 'logodesigningdubai2');
 Route::get('/creative-advertising-agency-in-dubai', 'FrontendController@creativeAdvertisingAgencyDubai', 'creativeadvertisingagencydubai');
 Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpressDevelopmentCompanyInDubai', 'wordpressdevelopmentcompanyindubai');
 // Route::get('/laravel-development-company-in-dubai', 'FrontendController@laravelDevelopmentCompanyInDubai', 'laraveldevelopmentcompanyindubai');

@@ -293,17 +293,20 @@ class FrontendController extends Controller
     }
     public function brandAgencyDubai()
     {
-        $meta = [];
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+
+        ];
         return $this->view('services/branding-agency-in-dubai', ['meta' => $meta]);
     }
-    public function brandAgencyDubai2()
-    {
-        $meta = [
+    // public function brandAgencyDubai2()
+    // {
+    //     $meta = [
             
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/branding-agency-in-dubai-2', ['meta' => $meta]);
-    }
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/branding-agency-in-dubai-2', ['meta' => $meta]);
+    // }
     public function websiteDesignDubai()
     {
         $meta = [];
@@ -447,19 +450,19 @@ class FrontendController extends Controller
     public function logoDesigningDubai()
     {
         $meta = [
-            'classname' => 'dm-page service-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/logo-designing-company-in-dubai', ['meta' => $meta]);
     }
 
-    public function logoDesigningDubai2()
-    {
-        $meta = [
+    // public function logoDesigningDubai2()
+    // {
+    //     $meta = [
             
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/logo-designing-company-in-dubai-2', ['meta' => $meta]);
-    }
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/logo-designing-company-in-dubai-2', ['meta' => $meta]);
+    // }
     public function creativeAdvertisingAgencyDubai()
     {
         $meta = [
