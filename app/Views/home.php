@@ -2360,6 +2360,8 @@ include __DIR__ . '/component/client_reviews.php';
 </section>
 <!-- Blog Carousel Section -->
 
+
+
 <section class="container">
     <div class="new-cta-footer">
         <div class="new-cta-footer-container">
@@ -2442,7 +2444,49 @@ include __DIR__ . '/component/client_reviews.php';
         </div>
     </div>
 </section>
+<!-- Branding & Logo Showcase Section -->
+<section class="home-dummy-showcase-sec">
+    <div class="container">
+      <h2 class="text-start text-white mb-lg-5 mb-4">Figma ipsum component variant main layer.</h2>
+    </div>
+  <div class="home-dummy-showcase-grid">
+    <!-- Card 1: Solana -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Logo Design</div>
+      <a href="/logo-designing-company-in-dubai" class="dummy-card-hover">
+        <span class="dummy-hover-text">View More &rarr;</span>
+      </a>
+    </div>
 
+    <!-- Card 2: Wissh Skincare -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Creative Branding</div>
+      <a href="/branding-agency-in-dubai-2" class="dummy-card-hover">
+        <span class="dummy-hover-text">View More &rarr;</span>
+      </a>
+    </div>
+
+    <!-- Card 3: Maxx Apparel -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Creative Branding</div>
+      <a href="/branding-agency-in-dubai-2" class="dummy-card-hover">
+        <span class="dummy-hover-text">View More &rarr;</span>
+      </a>
+    </div>
+
+    <!-- Card 4: Fitwares -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Logo Design</div>
+      <a href="/logo-designing-company-in-dubai" class="dummy-card-hover">
+        <span class="dummy-hover-text">View More &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
 
 
 <script>

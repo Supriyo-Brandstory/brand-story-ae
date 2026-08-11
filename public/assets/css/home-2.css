@@ -6820,3 +6820,99 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         font-weight: 600 !important;
     }
 }
+
+/* ==========================================
+   HOME PAGE DUMMY SHOWCASE GRID
+   ========================================== */
+.home-dummy-showcase-sec {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.home-dummy-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    width: 100%;
+}
+
+.home-dummy-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+
+.home-dummy-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.dummy-card-badge {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 50px;
+    z-index: 3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dummy-card-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    opacity: 0;
+    text-decoration: none !important;
+    transition: opacity 0.35s ease;
+}
+
+.home-dummy-card:hover .dummy-card-hover {
+    opacity: 1;
+}
+
+.dummy-hover-text {
+    color: #ffffff !important;
+    font-family: 'Hanken Grotesk', sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 32px !important;
+    line-height: 130% !important;
+    letter-spacing: 0% !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    .home-dummy-showcase-grid {
+        grid-template-columns: 1fr;
+    }
+    .dummy-card-badge {
+        top: 16px;
+        right: 16px;
+        font-size: 12px;
+        padding: 6px 14px;
+    }
+    .dummy-hover-text {
+        font-size: 24px !important;
+    }
+}
