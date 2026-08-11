@@ -973,7 +973,7 @@
     <div class="home-dummy-card">
       <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img">
       <div class="dummy-card-badge">Logo Design</div>
-      <a href="/logo-designing-company-in-dubai" class="dummy-card-hover">
+      <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
       </a>
     </div>
@@ -982,7 +982,7 @@
     <div class="home-dummy-card">
       <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img">
       <div class="dummy-card-badge">Creative Branding</div>
-      <a href="/branding-agency-in-dubai-2" class="dummy-card-hover">
+      <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
       </a>
     </div>
@@ -991,7 +991,7 @@
     <div class="home-dummy-card">
       <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img">
       <div class="dummy-card-badge">Creative Branding</div>
-      <a href="/branding-agency-in-dubai-2" class="dummy-card-hover">
+      <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
       </a>
     </div>
@@ -1000,7 +1000,7 @@
     <div class="home-dummy-card">
       <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img">
       <div class="dummy-card-badge">Logo Design</div>
-      <a href="/logo-designing-company-in-dubai" class="dummy-card-hover">
+      <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
       </a>
     </div>
