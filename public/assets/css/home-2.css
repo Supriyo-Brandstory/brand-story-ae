@@ -6892,11 +6892,14 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     border-bottom: none;
 }
 
-/* Responsive design - Keep 3 columns on mobile devices */
+/* Responsive design - Keep 2 columns on mobile devices and fix borders */
 @media (max-width: 767px) {
     .premium-badge-cell {
         height: 120px;
         padding: 10px;
+        /* Reset and apply standard border */
+        border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     }
 
     .premium-why-choose-section {
@@ -6905,5 +6908,15 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
     .premium-badges-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* For 2 columns, remove right border on every 2nd child (even) */
+    .premium-badges-grid .premium-badge-cell:nth-child(2n) {
+        border-right: none !important;
+    }
+
+    /* For 6 items in 2 columns (3 rows), remove bottom border on row 3 (items 5 and 6) */
+    .premium-badges-grid .premium-badge-cell:nth-child(n+5) {
+        border-bottom: none !important;
     }
 }
