@@ -6871,8 +6871,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .premium-badge-cell img {
-    max-width: 40%;
-    max-height: 110px;
+    max-width: 33%;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -6918,5 +6917,9 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     /* For 6 items in 2 columns (3 rows), remove bottom border on row 3 (items 5 and 6) */
     .premium-badges-grid .premium-badge-cell:nth-child(n+5) {
         border-bottom: none !important;
+    }
+
+    .premium-badge-cell img {
+        max-width: 50%;
     }
 }
