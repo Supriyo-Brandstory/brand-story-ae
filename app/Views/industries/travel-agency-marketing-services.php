@@ -7,7 +7,7 @@
                     <p class="fs-18 text-white">
                         BrandStory is Dubai's leading Tourism & Travel Digital Marketing Agency- connecting UAE travel brands with high-intent travelers through data-driven digital marketing that drives bookings, not just traffic. Every strategy we deliver is grounded in one principle: visibility is only valuable when it attracts the right travelers at the right moment.
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                     <p class="fs-20 text-white mt-3">
                       At BrandStory, we deliver end-to-end digital growth solutions tailored for the travel industry, including SEO, performance marketing, social media management, and conversion-focused website development. Our strategies are built on deep market insights, user behavior analysis, and continuous optimization to ensure maximum visibility and lead generation. From building strong brand presence to driving qualified bookings, our integrated approach helps travel businesses scale sustainably.
                     </p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/about/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -813,7 +813,7 @@
         </div>
 
         <div class="select-option-btn-wrapper mt-4 b">
-            <a href="/contact" class="select-option-btn" style="background: #fff !important;color: #000 !important;">
+            <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">
                 Select Option <img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
             </a>
         </div>
@@ -886,7 +886,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">
+            <a href="/contact/" class="evolution-btn-premium">
                 Explore More <i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>
@@ -1024,7 +1024,7 @@
                     </div>
                 </div>
 
-                <a href="/contact" class="learn-more-black-btn">
+                <a href="/contact/" class="learn-more-black-btn">
                     Let's Get Started <i class="fas fa-arrow-right"></i>
                 </a>
             </div>

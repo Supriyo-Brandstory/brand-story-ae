@@ -3,7 +3,7 @@
         <div class="content">
             <h1>Digital Marketing Agency in Abu Dhabi</h1>
             <p>Looking for a digital marketing agency in Abu Dhabi? With 12+ years of expertise, BrandStory delivers culturally intelligent, data-driven strategies that connect your brand with high-intent UAE audiences.</p>
-            <a href="/contact" class="Performance-Driven-btn mb-5 ">➤ Get in Touch</a>
+            <a href="/contact/" class="Performance-Driven-btn mb-5 ">➤ Get in Touch</a>
         </div>
         <div class="container-fluid">
             <h3 class="text-center mb-5 text-white">Trusted by Top Brands Across Industries</h3>
@@ -32,7 +32,7 @@
                         <li class="text-white fs-20">Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding, and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li>
                     </ul><br>
 
-                    <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/about/" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
                 </div>
             </div>
         </div>

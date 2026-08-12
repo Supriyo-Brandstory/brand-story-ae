@@ -18,7 +18,7 @@
         <p class="fs-20">
             Your customers don't follow a straight line to engage and purchase. They discover on TikTok, research on YouTube, compare on Amazon, ask ChatGPT, and search on Google- all before making a decision. If your brand is missing from even one of those moments, a competitor fills that gap. We build and manage your visibility across every platform that matters, so no matter where your audience searches.
         </p>
-        <a href="/contact" class="animated-hero-search-everywhere-btn">Get a Free Proposal</a>
+        <a href="/contact/" class="animated-hero-search-everywhere-btn">Get a Free Proposal</a>
     </div>
 
     <!-- Wavy Bottom Divider -->
@@ -37,7 +37,7 @@
     <div class="container mt-3 text-center">
         <h2 class="fw-bold mb-4">Search Is Everywhere: Is Your Brand <br>Visible Where It Matters?</h2>
         <p class="fs-20 max-width-800 mx-auto">
-            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most. Know more about our <a href="/seo-services-company-in-dubai" class="text-decoration-underline text-white"><b>SEO Services in Dubai</b></a>.
+            The future of SEO is no longer limited to search engines- it's happening across platforms. Traditional SEO alone doesn’t cover the full journey anymore. A large share of product discovery now begins on marketplaces and social platforms, with younger audiences actively using short-form video apps to find information. If your brand isn’t optimized for these touchpoints, you risk losing visibility where it matters most. Know more about our <a href="/seo-services-company-in-dubai/" class="text-decoration-underline text-white"><b>SEO Services in Dubai</b></a>.
         </p>
     </div>
 </section>
@@ -116,7 +116,7 @@
                     <i class="ion-social-instagram platform-icon" style="color: #855BFF;"></i>
                     <h3 style="color: #ffffff;">Instagram SEO</h3>
                     <p style="color: #ffffff;">More than just hashtags. We refine your profile and content for improved keyword-based visibility.</p>
-                    <a href="/blogs/instagram-seo-the-complete-guide-to-getting-discovered" class="platform-link">Learn Instagram SEO ></a>
+                    <a href="/blogs/instagram-seo-the-complete-guide-to-getting-discovered/" class="platform-link">Learn Instagram SEO ></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -222,7 +222,7 @@ include __DIR__ . '/../component/client_reviews.php';
     <div class="container text-center">
         <h2 class="fw-bold mb-4">Ready to dominate every search platform?</h2>
         <p class="fs-24 mb-5 text-muted">Get a customized "Search Everywhere" strategy for your brand.</p>
-        <a href="/contact" class="animated-hero-search-everywhere-btn">Get Free Proposal</a>
+        <a href="/contact/" class="animated-hero-search-everywhere-btn">Get Free Proposal</a>
     </div>
 </section>
 

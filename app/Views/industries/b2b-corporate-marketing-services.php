@@ -8,7 +8,7 @@
                         BrandStory is a leading B2B digital marketing company driving growth for corporate businesses. With over 12 years of expertise, we help B2B and corporate clients in Dubai and across the UAE generate qualified leads, expand brand presence, and achieve measurable business outcomes.
 
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                     <h2 class="text-white mb-4 text-md-start text-center ">Digital Marketing Services for <br>B2B Businesses in Dubai</h2>
                     <p class="fs-20 text-white">The corporate landscape in Dubai is dynamic and highly competitive. To stay ahead, businesses need strategic marketing that targets the right audience and drives tangible results. Whether you are a B2B service provider, a consulting firm, or a multinational enterprise, the right digital marketing agency partner can help you reach decision-makers, increase leads, and strengthen your corporate brand.</p>
                     <p class="fs-20 text-white mt-3">At BrandStory, we specialize in both local and international marketing strategies for B2B businesses, crafted to meet the unique needs of corporate businesses. With years of experience and a proven record in corporate marketing, we help you scale operations, generate high-quality leads, and maximize conversions for sustainable growth.</p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/about/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -815,7 +815,7 @@
         </div>
 
         <div class="select-option-btn-wrapper mt-4 b">
-            <a href="/contact" class="select-option-btn" style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
+            <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
             </a>
         </div>
     </div>
@@ -887,7 +887,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
+            <a href="/contact/" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>
     </div>
@@ -1000,7 +1000,7 @@
                     </div>
                 </div>
 
-                <a href="/contact" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
+                <a href="/contact/" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
                 </a>
             </div>
 

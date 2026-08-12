@@ -7,7 +7,7 @@
                     <p class="fs-18 text-white">
                        Transform your institute’s digital visibility and impact with BrandStory, we are a full-fledged digital marketing agency for schools, universities, and other education institutions. We bring the most innovative approach to promote your business, enhance engagement and boost enrollment with targeted data-driven strategies. 
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                    <p class="fs-18 text-white my-3">
                        Working since 2012, we’ve learned a simple truth: in high-stakes industries, decisions are made long before the first enquiry- based on trust, perception, and visibility. We apply that same discipline to schools and universities- crafting digital presence that answer real questions, content that proves your academic rigor, and campaigns that turn a Google search into a campus visit and enrollment. 
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -513,7 +513,7 @@
             <p class="mb-3">
                Unlike generic marketing approaches, education requires precision, empathy, and long-term thinking. Every strategy we build is tailored to the institution's ethos, the student journey, and the competitive landscape- ensuring that education brands grow sustainably while improving family engagement and enrolment conversions.
             </p>
-            <a href="/about" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
+            <a href="/about/" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
         </div>
         <div class="new_about_us-image">
 
@@ -756,7 +756,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
+            <a href="/contact/" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>
     </div>

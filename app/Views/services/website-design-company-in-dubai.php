@@ -28,32 +28,32 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Web Design</a>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">WordPress Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Web Design</a>
+            <a href="/magento-website-development-dubai/" class="seo-marquee-item">Magento Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Web Design</a>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Web Design</a>
+            <a href="/ecommerce-development-company-dubai/" class="seo-marquee-item">E-commerce Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
             <!-- same 6 items repeated for loop -->
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Web Design</a>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">WordPress Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Web Design</a>
+            <a href="/magento-website-development-dubai/" class="seo-marquee-item">Magento Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Web Design</a>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Web Design</a>
+            <a href="/ecommerce-development-company-dubai/" class="seo-marquee-item">E-commerce Web Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ui-ux-design-company-in-dubai" class="seo-marquee-item">UI/UX Design</a>
+            <a href="/ui-ux-design-company-in-dubai/" class="seo-marquee-item">UI/UX Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
@@ -132,7 +132,7 @@
                     <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
                         <div class="irresistible-main2">
                             <div class="irresistible-btn">
-                                <a class="fs-20" href="/contact">Start Your Project</a>
+                                <a class="fs-20" href="/contact/">Start Your Project</a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
 <section class="dm-bg text-white py-5 web-development-services">
     <div class="container">
         <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Web Design & Development Platforms</h2>
-        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and <a class="text-decoration-underline text-white" href="/website-development-company-in-dubai">web development agency in Dubai</a>, helping brands build a strong and impactful
+        <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and <a class="text-decoration-underline text-white" href="/website-development-company-in-dubai/">web development agency in Dubai</a>, helping brands build a strong and impactful
             digital presence. Our expert web designers craft visually engaging, user-focused website designs that enhance brand visibility, engage visitors, and support meaningful business
             growth.</p>
 
@@ -191,14 +191,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/website-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/website-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/website-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Custom Web Development</a></h5>
+                        <h5><a href="/website-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Custom Web Development</a></h5>
                         <p class="small">Custom websites are popular choice among small and large-scale enterprises, and service providers in Dubai. We design custom websites from a single landing page to complex websites based on business-specific requirements. We build tech-enabled custom websites with modern tech stack that load fast and have no errors. </p>
                     </div>
                 </div>
@@ -206,14 +206,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/nextjs-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/nextjs.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/nextjs-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/nextjs.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="/nextjs-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Next JS Development" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/nextjs-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Next JS Development" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/nextjs-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Next JS Development</a></h5>
+                        <h5><a href="/nextjs-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Next JS Development</a></h5>
                         <p class="small">Build your lightning-fast, SEO-friendly websites/ web applications with our expert Next.js development services. We build tech-savvy enterprise-grade website platforms, ensuring a smooth user experience and seamless backend system integration. </p>
                     </div>
                 </div>
@@ -289,14 +289,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/angular-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/angular.svg" alt="Web Development" class="Angular Development" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/angular-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/angular.svg" alt="Web Development" class="Angular Development" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="/angular-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/angular-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/angular-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Angular Development</a></h5>
+                        <h5><a href="/angular-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Angular Development</a></h5>
                         <p class="small">Looking for dynamic and high-performance web applications? Our Angular developers engineer seamless front-end experiences that are fast, responsive, and load quickly. Whether it is a single-page website, media-rich design, or a complex dashboard, we work on clean code architecture with seamless integration. </p>
                     </div>
                 </div>
@@ -304,14 +304,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/shopify-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/shopify.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/shopify-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/shopify.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="/shopify-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Shopify" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/shopify-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Shopify" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/shopify-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Shopify</a></h5>
+                        <h5><a href="/shopify-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Shopify</a></h5>
                         <p class="small">Shopify is an e-commerce platform and a preferred choice for its scalability, ease of use, and robust features. As a Shopify development company, we create visually stunning and high-converting online stores for businesses. It enables better product management, secure payments, multi-channel selling, and built-in SEO features.</p>
                     </div>
                 </div>
@@ -319,14 +319,14 @@
                     <div class="service-card border-0 h-100 ">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/webflow-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/webflow.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/webflow-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/webflow.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a href="/webflow-development-company-in-dubai" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Webflow" class="img-fluid" style="width: 35px;"></a>
+                                <a href="/webflow-development-company-in-dubai/" style="text-decoration: none;"><img src="/assets/images/icons/web-development-arrow.svg" alt="Webflow" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/webflow-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Webflow</a></h5>
+                        <h5><a href="/webflow-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Webflow</a></h5>
                         <p class="small">We specialize in creating pixel-perfect webflow sites that load fast, are SEO-friendly, and visually striking. From animations, UI, to CMS integration, we provide tailored solutions for businesses looking for website development in Dubai. </p>
                     </div>
                 </div>

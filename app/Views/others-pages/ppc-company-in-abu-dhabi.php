@@ -25,34 +25,34 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Google Ads</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Google Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Bing Ads</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Bing Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Display Advertising</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Display Advertising</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Shopping Ads</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Shopping Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Video Ads</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Video Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Remarketing Campaigns</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Remarketing Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">App Install Ads</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">App Install Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Performance Marketing</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Performance Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">Conversion Tracking</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">Conversion Tracking</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ppc-company-in-abu-dhabi" class="seo-marquee-item">PPC Audit & Strategy</a>
+            <a href="/ppc-company-in-abu-dhabi/" class="seo-marquee-item">PPC Audit & Strategy</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>

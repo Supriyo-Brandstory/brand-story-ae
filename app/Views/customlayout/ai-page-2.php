@@ -76,7 +76,7 @@
           <a href="javascript:void(0);" class="ba2-btn-primary uniq-contact-lead-btn">
             ➤ Get in Touch
           </a>
-          <a href="/services" class="ba2-btn-outline">
+          <a href="/services/" class="ba2-btn-outline">
             ➤ Explore Our Services
           </a>
         </div>

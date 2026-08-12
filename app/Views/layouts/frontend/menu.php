@@ -42,12 +42,12 @@
                             </ul>
                             <ul class="w-100">
                                 <li class="li-headeing"><a href="<?= route('seoservicescompanydubai') ?>">SEO Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai">SEO Audit Services</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Technical SEO" width="30" height="30"> <a href="/technical-seo-dubai">Technical SEO</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai">On-Page SEO</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Off-Page SEO" width="30" height="30"> <a href="/off-page-seo-dubai">Off-Page SEO</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Keyword Research" width="30" height="30"> <a href="/keyword-research-dubai">Keyword Research</a></li>
-                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/local-seo-services-in-dubai">Local SEO Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/seo-audit.png" alt="SEO Audit Services" width="30" height="30"><a href="/seo-audit-services-in-dubai/">SEO Audit Services</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Technical SEO" width="30" height="30"> <a href="/technical-seo-dubai/">Technical SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="On-Page SEO" width="30" height="30"> <a href="/on-page-seo-dubai/">On-Page SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Off-Page SEO" width="30" height="30"> <a href="/off-page-seo-dubai/">Off-Page SEO</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/orm-services.png" alt="Keyword Research" width="30" height="30"> <a href="/keyword-research-dubai/">Keyword Research</a></li>
+                                <li class="d-flex gap-2 align-items-center"><img src="/assets/images/menu/content-marketing.png" alt="Content Marketing" width="30" height="30"> <a href="/local-seo-services-in-dubai/">Local SEO Services</a></li>
 
 
 
@@ -83,15 +83,15 @@
                     <span class="d-block d-md-none drop-iconss">+</span>
                 </div>
                 <ul class="register-submenu">
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Real Estate" width="30" height="30"> <a href="/industries/real-estate-marketing-services">Real Estate</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="E-commerce" width="30" height="30"> <a href="/industries/e-commerce-marketing-service">E-commerce</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Healthcare" width="30" height="30"> <a href="/industries/healthcare-marketing-services">Healthcare</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Education" width="30" height="30"> <a href="/industries/education-marketing-services">Education</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="B2B Corporate" width="30" height="30"> <a href="/industries/b2b-corporate-marketing-services">B2B Corporate</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Travel Agency" width="30" height="30"> <a href="/industries/travel-agency-marketing-services">Travel Agency</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Dentists" width="30" height="30"> <a href="/industries/digital-marketing-for-dentists">Dentists</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Automotive" width="30" height="30"> <a href="/industries/digital-marketing-for-automotive">Automotive</a></li>
-                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Law Firms" width="30" height="30"> <a href="/industries/digital-marketing-for-law-firms">Law Firms</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Real Estate" width="30" height="30"> <a href="/industries/real-estate-marketing-services/">Real Estate</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="E-commerce" width="30" height="30"> <a href="/industries/e-commerce-marketing-service/">E-commerce</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Healthcare" width="30" height="30"> <a href="/industries/healthcare-marketing-services/">Healthcare</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Education" width="30" height="30"> <a href="/industries/education-marketing-services/">Education</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="B2B Corporate" width="30" height="30"> <a href="/industries/b2b-corporate-marketing-services/">B2B Corporate</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Travel Agency" width="30" height="30"> <a href="/industries/travel-agency-marketing-services/">Travel Agency</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Dentists" width="30" height="30"> <a href="/industries/digital-marketing-for-dentists/">Dentists</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Automotive" width="30" height="30"> <a href="/industries/digital-marketing-for-automotive/">Automotive</a></li>
+                    <li class="d-flex align-items-center gap-2"><img src="/assets/images/menu/s8.svg" alt="Law Firms" width="30" height="30"> <a href="/industries/digital-marketing-for-law-firms/">Law Firms</a></li>
                 </ul>
             </li>
 

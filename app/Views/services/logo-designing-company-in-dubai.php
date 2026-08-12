@@ -615,7 +615,7 @@
           <p class="logo-cta-desc">Ready to elevate your brand presence? Partner with our expert designers and create a logo that drives customer trust and growth.</p>
           
           <div class="logo-cta-actions">
-            <a href="/branding-agency-in-dubai" class="logo-cta-btn uniq-contact-lead-btn">
+            <a href="/branding-agency-in-dubai/" class="logo-cta-btn uniq-contact-lead-btn">
               <span>Explore Branding</span>
               <span class="logo-cta-btn-arrow">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

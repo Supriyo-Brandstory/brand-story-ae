@@ -22,23 +22,23 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Strategy</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Video Strategy</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Concept Development</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Concept Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Script Writing</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Script Writing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Production</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Video Production</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Motion Graphics</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Motion Graphics</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Corporate Videos</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Corporate Videos</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Product Videos</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Product Videos</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Ad Films</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Ad Films</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/video-marketing-agency-dubai" class="seo-marquee-item">Video Distribution</a>
+            <a href="/video-marketing-agency-dubai/" class="seo-marquee-item">Video Distribution</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>

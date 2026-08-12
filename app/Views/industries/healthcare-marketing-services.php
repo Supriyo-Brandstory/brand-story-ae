@@ -7,7 +7,7 @@
                     <p class="fs-18 text-white">
                        BrandStory is a performance-focused Healthcare Marketing Agency location in Dubai, UAE. We are a helping hand for hospitals, clinics, and healthcare firms in the GCC through strategy-led healthcare digital marketing services. We combine 13+ years of hands-on expertise with local market knowledge and content strategies to run top-performing marketing campaigns. 
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <p class="fs-18 text-white">Dubai's healthcare sector is booming, but standing out isn't about being the biggest- it's about being the most trusted. Patients are searching, comparing, and deciding before they contact. If your digital presence doesn't answer their questions, build their confidence, and guide them to book, you're losing your clients.</p><br>
                     <p class="fs-18 text-white">The digital shift in the healthcare market in Dubai is rewarding businesses who comply with the best digital marketing practices. While the right healthcare digital marketing company can help you with the same- build visibility, trust, and patient engagement.</p>
                    
-                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask from Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -514,7 +514,7 @@
             <p class="mb-3">
                 Unlike generic marketing approaches, healthcare requires precision, sensitivity, and regulatory awareness. Every strategy we build is tailored to the medical specialty, patient journey, and compliance requirements- ensuring that healthcare brands grow ethically while improving patient engagement and appointment conversions.
             </p>
-            <a href="/about" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
+            <a href="/about/" class="Performance-Driven-btn mb-5">➤ Explore More About Us</a>
         </div>
         <div class="new_about_us-image">
 
@@ -755,7 +755,7 @@
             </ul>
 
             <div class="evolution-cta-wrap">
-                <a href="/contact" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
+                <a href="/contact/" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
                 </a>
             </div>
         </div>

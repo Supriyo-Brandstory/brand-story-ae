@@ -5,7 +5,7 @@
 				<div class="service-banner-txt">
 					<h1>Seize your Digital Growth with Full-Funnel Marketing Approach</h1>
 					<p>A full-funnel marketing strategy is important as it allows you to tailor your marketing efforts to fit your specific needs and goals, charting a plan through the marketing funnel. So what exactly is full-funnel marketing, and how can you use it to boost your business?</p>
-					<div class="sb-btn"><a href="/performance-marketing" class="kmbtn btn btn-blue">Explore Performance Marketing</a></div>
+					<div class="sb-btn"><a href="/performance-marketing/" class="kmbtn btn btn-blue">Explore Performance Marketing</a></div>
 				</div>
 			</div><!--col end-->
 		</div><!--Row End-->

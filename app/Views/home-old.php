@@ -1048,8 +1048,8 @@
                         </div>
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/e-commerce-marketing-service" class="work-item-name">E-commerce</a>
-                        <a href="/industries/e-commerce-marketing-service" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/e-commerce-marketing-service/" class="work-item-name">E-commerce</a>
+                        <a href="/industries/e-commerce-marketing-service/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>
@@ -1068,8 +1068,8 @@
                         <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img4.png?v=1') ?>" alt="Real Estate Marketing Services Dubai">
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/real-estate-marketing-services" class="work-item-name">Real Estate</a>
-                        <a href="/industries/real-estate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/real-estate-marketing-services/" class="work-item-name">Real Estate</a>
+                        <a href="/industries/real-estate-marketing-services/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>
@@ -1088,8 +1088,8 @@
                         <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img1.png?v=1') ?>" alt="Education Marketing Services Dubai">
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/education-marketing-services" class="work-item-name">Education</a>
-                        <a href="/industries/education-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/education-marketing-services/" class="work-item-name">Education</a>
+                        <a href="/industries/education-marketing-services/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>
@@ -1116,8 +1116,8 @@
                         </div>
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/healthcare-marketing-services" class="work-item-name">Healthcare</a>
-                        <a href="/industries/healthcare-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/healthcare-marketing-services/" class="work-item-name">Healthcare</a>
+                        <a href="/industries/healthcare-marketing-services/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>
@@ -1136,8 +1136,8 @@
                         <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img5.png?v=1') ?>" alt="Tourism & Travel Marketing Services Dubai">
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/travel-agency-marketing-services" class="work-item-name">Tourism</a>
-                        <a href="/industries/travel-agency-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/travel-agency-marketing-services/" class="work-item-name">Tourism</a>
+                        <a href="/industries/travel-agency-marketing-services/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>
@@ -1156,8 +1156,8 @@
                         <img src="<?= base_url('assets/images/dm-agency-dubai/industries-img6.png?v=1') ?>" alt="B2B Corporate Marketing Services Dubai">
                     </div>
                     <div class="work-meta-row">
-                        <a href="/industries/b2b-corporate-marketing-services" class="work-item-name">Corporate</a>
-                        <a href="/industries/b2b-corporate-marketing-services" class="work-action-link">View case study <span>&gt;&gt;</span></a>
+                        <a href="/industries/b2b-corporate-marketing-services/" class="work-item-name">Corporate</a>
+                        <a href="/industries/b2b-corporate-marketing-services/" class="work-action-link">View case study <span>&gt;&gt;</span></a>
                     </div>
                     <div class="work-services">
                         <span class="service-tag">SEO Services</span>

@@ -44,35 +44,35 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Marketing</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Facebook Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/instagram-advertising-agency-in-dubai" class="seo-marquee-item">Instagram Marketing</a>
+            <a href="/instagram-advertising-agency-in-dubai/" class="seo-marquee-item">Instagram Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/twitter-advertising-dubai" class="seo-marquee-item">Twitter Marketing</a>
+            <a href="/twitter-advertising-dubai/" class="seo-marquee-item">Twitter Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pinterest-advertising-services-in-dubai" class="seo-marquee-item">Pinterest Marketing</a>
+            <a href="/pinterest-advertising-services-in-dubai/" class="seo-marquee-item">Pinterest Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/tiktok-marketing-agency-in-dubai" class="seo-marquee-item">TikTok Marketing</a>
+            <a href="/tiktok-marketing-agency-in-dubai/" class="seo-marquee-item">TikTok Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
             <!-- same 6 items repeated for loop -->
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Marketing</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Facebook Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/instagram-advertising-agency-in-dubai" class="seo-marquee-item">Instagram Marketing</a>
+            <a href="/instagram-advertising-agency-in-dubai/" class="seo-marquee-item">Instagram Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/twitter-advertising-dubai" class="seo-marquee-item">Twitter Marketing</a>
+            <a href="/twitter-advertising-dubai/" class="seo-marquee-item">Twitter Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/pinterest-advertising-services-in-dubai" class="seo-marquee-item">Pinterest Marketing</a>
+            <a href="/pinterest-advertising-services-in-dubai/" class="seo-marquee-item">Pinterest Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/tiktok-marketing-agency-in-dubai" class="seo-marquee-item">TikTok Marketing</a>
+            <a href="/tiktok-marketing-agency-in-dubai/" class="seo-marquee-item">TikTok Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>

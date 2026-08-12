@@ -23,25 +23,25 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Ads Management</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Facebook Ads Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Lead Generation Ads</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Lead Generation Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Retargeting & Remarket</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Retargeting & Remarket</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Audience Targeting</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Audience Targeting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Page Management</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Page Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Video & Carousel Ads</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Video & Carousel Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Pixel Setup</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Facebook Pixel Setup</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">A/B Testing</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">A/B Testing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Meta Business Setup</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Meta Business Setup</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/facebook-marketing-agency-in-dubai" class="seo-marquee-item">Facebook Shop Ads</a>
+            <a href="/facebook-marketing-agency-in-dubai/" class="seo-marquee-item">Facebook Shop Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>

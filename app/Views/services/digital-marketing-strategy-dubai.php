@@ -6,7 +6,7 @@
                   <p class="fs-18 text-white">
                       We don’t just run ads; we architect ecosystems. BrandStory provides data-led digital marketing strategies designed to secure market share and drive scalable revenue for ambitious brands in the UAE.
                   </p>
-                  <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Consult Our Strategy Experts</a>
+                  <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Consult Our Strategy Experts</a>
               </div>
           </div>
       </div>
@@ -93,7 +93,7 @@
                   <p class="fs-20 text-white">
                       In the fast-paced Dubai market, a generic approach is a recipe for stagnation. Our strategic consultants work as an extension of your team, identifying untapped opportunities and neutralizing competitor threats through precision-engineered growth roadmaps.
                   </p>
-                  <a href="/services" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Explore Our Methodology</a>
+                  <a href="/services/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Explore Our Methodology</a>
 
               </div>
               <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">

@@ -37,7 +37,7 @@
 
             <div class="col-lg-6 align-self-center">
                 <p class="text-white mb-3 fs-20">Conversion Rate Optimization helps businesses turn website visitors into qualified leads and revenue by improving every stage of the customer journey. In Dubai’s fast-moving digital economy, CRO plays a critical role in achieving online business success in the UAE. By analysing visitor engagement, user behaviour, and UAE market trends, CRO focuses on website performance improvement, stronger lead generation in Dubai, and measurable ROI enhancement. <br><br>BrandStory empowers Dubai businesses to transform traffic into measurable growth, delivering long-term online success and a true competitive edge in the fast-evolving Emirates digital economy.</p>
-                <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
+                <a href="/about/" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ Know About Us</a>
 
             </div>
         </div>
@@ -254,7 +254,7 @@
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@
                             <h3>Crystal Plaza</h3>
                             <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai", “business stay Dubai".</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/hotel/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

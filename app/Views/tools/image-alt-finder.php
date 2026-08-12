@@ -371,7 +371,7 @@
             <h2 class="text-white fw-900 mb-4" style="font-size: 42px;">Scale Your Organic Traffic</h2>
             <p class="text-white-50 mb-5 fs-18 max-w-700 mx-auto">Technical excellence is the foundation of growth. Let BrandStory audit your entire digital ecosystem.</p>
             <div class="d-flex justify-content-center gap-3">
-                <a href="/contact" class="btn btn-danger btn-lg px-5 py-3 fs-16 rounded-pill fw-700">Get Expert Audit</a>
+                <a href="/contact/" class="btn btn-danger btn-lg px-5 py-3 fs-16 rounded-pill fw-700">Get Expert Audit</a>
             </div>
         </div>
     </section>

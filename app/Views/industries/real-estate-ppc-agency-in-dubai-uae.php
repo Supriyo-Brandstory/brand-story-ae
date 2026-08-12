@@ -27,25 +27,25 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Real Estate PPC Campaigns</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Real Estate PPC Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Property Lead Generation</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Property Lead Generation</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Buyer & Seller Retargeting</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Buyer & Seller Retargeting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Investor Targeting</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Investor Targeting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Campaign Management</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Campaign Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Property Listing Ads</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Property Listing Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Conversion Tracking Setup</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Conversion Tracking Setup</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">A/B Testing</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">A/B Testing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Google Ads Setup</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Google Ads Setup</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/industries/real-estate-ppc-agency-in-dubai-uae" class="seo-marquee-item">Real Estate Display Ads</a>
+            <a href="/industries/real-estate-ppc-agency-in-dubai-uae/" class="seo-marquee-item">Real Estate Display Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>
@@ -394,7 +394,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="mt-3">As a trusted <a href="/industries/real-estate-marketing-services" class="txt-blue"><b>real estate marketing agency in Dubai</b></a>, BrandStory is designed for a single purpose - to convert your real estate PPC investment into qualified leads and measurable sales growth effectively.</p>
+                <p class="mt-3">As a trusted <a href="/industries/real-estate-marketing-services/" class="txt-blue"><b>real estate marketing agency in Dubai</b></a>, BrandStory is designed for a single purpose - to convert your real estate PPC investment into qualified leads and measurable sales growth effectively.</p>
             </div>
         </div>
     </div>

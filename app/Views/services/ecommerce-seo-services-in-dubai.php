@@ -17,7 +17,7 @@
                     <p class="mb-md-5 mb-4 fs-20 text-white opacity-70">BrandStory is a leading eCommerce SEO company in Dubai delivering performance-driven strategies designed to increase organic visibility, qualified traffic, and revenue. Our eCommerce SEO services go beyond rankings- we optimise product pages, category structures, technical architecture, and conversion pathways to ensure sustainable growth.</p>
                     <div class="banner-btns d-flex flex-wrap gap-3">
                         <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
-                        <a href="/case-study" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
+                        <a href="/case-study/" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                 <p class="text-white fs-20 mb-3">BrandStory is a performance-focused online marketing agency in Dubai specialising in strategic eCommerce SEO that drives measurable revenue growth. Our objective goes beyond increasing traffic- we focus on attracting high-intent shoppers who are ready to purchase.</p>
                 <p class="text-white fs-20 mb-4">Our eCommerce SEO approach combines technical optimisation, advanced keyword intelligence, structured site architecture, product and category page enhancement, and authoritative link building. We ensure your online store is optimised for search engines while delivering a seamless user experience that improves engagement and conversions.</p>
                 <p class="text-white fs-20 mb-4">With a structured and scalable eCommerce SEO framework, BrandStory helps online businesses strengthen organic presence, outperform competitors, and turn search visibility into consistent sales growth.</p>
-                <a href="/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Talk to Experts</a>
             </div>
         </div>
     </div>
@@ -265,7 +265,7 @@
             </div>
             <div class="seo-pf-body">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                    <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Alice Blue</a></h4>
                     <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
                 </div>
 
@@ -295,7 +295,7 @@
             </div>
             <div class="seo-pf-body">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
+                    <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">FourNxt</a></h4>
                     <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
                 </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
@@ -324,7 +324,7 @@
             </div>
             <div class="seo-pf-body">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
+                    <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Take Leap</a></h4>
                     <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
                 </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
@@ -353,7 +353,7 @@
             </div>
             <div class="seo-pf-body">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                    <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">UNO Capital</a></h4>
                     <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
                 </div>
                 <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
@@ -411,7 +411,7 @@
             </div>
             <div class="seo-pf-body">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                    <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Brand Signages</a></h4>
                     <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
                 </div>
                 <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>

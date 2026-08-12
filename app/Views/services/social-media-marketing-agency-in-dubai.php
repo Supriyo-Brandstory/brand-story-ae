@@ -43,12 +43,12 @@
                  <div class="desktop-only">
                      <p class="description">Scroll-stopping, conversion-driven content, powered by Dubai’s leading Social Media Marketing agency.</p>
                  </div>
-                 <a href="/contact" class="cta cta-desktop">➤ &nbsp;Start Your Project</a>
+                 <a href="/contact/" class="cta cta-desktop">➤ &nbsp;Start Your Project</a>
              </div>
              <!-- Mobile only content below image -->
              <div class="mobile-only-content">
                  <p class="description">Scroll-stopping, conversion-driven content, powered by Dubai’s leading Social Media Marketing agency.</p>
-                 <a href="/contact" class="cta">➤ &nbsp;Start Your Project</a>
+                 <a href="/contact/" class="cta">➤ &nbsp;Start Your Project</a>
              </div>
          </div>
      </div>

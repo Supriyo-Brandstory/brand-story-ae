@@ -28,29 +28,29 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">WordPress Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
+            <a href="/magento-website-development-dubai/" class="seo-marquee-item">Magento Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
+            <a href="/ecommerce-development-company-dubai/" class="seo-marquee-item">E-commerce Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
             <!-- same 6 items repeated for loop -->
-            <a href="/wordpress-development-company-in-dubai" class="seo-marquee-item">WordPress Development</a>
+            <a href="/wordpress-development-company-in-dubai/" class="seo-marquee-item">WordPress Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/magento-website-development-dubai" class="seo-marquee-item">Magento Development</a>
+            <a href="/magento-website-development-dubai/" class="seo-marquee-item">Magento Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/drupal-website-development-company-in-dubai" class="seo-marquee-item">Drupal Development</a>
+            <a href="/drupal-website-development-company-in-dubai/" class="seo-marquee-item">Drupal Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/ecommerce-development-company-dubai" class="seo-marquee-item">E-commerce Development</a>
+            <a href="/ecommerce-development-company-dubai/" class="seo-marquee-item">E-commerce Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
@@ -89,7 +89,7 @@
     <div class="container">
         <h2 class="text-white mb-md-4 mb-3 text-md-start text-center">Our Web Development Services</h2>
         <p class="text-white mb-md-5 mb-3 fs-20 text-md-start text-center">BrandStory is a leading web design and development agency, helping brands build a strong and impactful
-            digital presence. Our expert web designers craft visually engaging, <a class="text-decoration-underline text-white" href="/blogs/how-custom-web-design-sets-your-website-apart">user-focused website designs</a> that enhance brand visibility, engage visitors, and support meaningful business
+            digital presence. Our expert web designers craft visually engaging, <a class="text-decoration-underline text-white" href="/blogs/how-custom-web-design-sets-your-website-apart/">user-focused website designs</a> that enhance brand visibility, engage visitors, and support meaningful business
             growth.</p>
 
         <div class="row g-0">
@@ -100,14 +100,14 @@
                     <div class="service-card">
                         <div class="row mb-3">
                             <div class="col-6 text-start">
-                                <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
+                                <a href="/website-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/custom-web-development.svg" alt="Web Development" class="img-fluid" style="width: 100px; height: 100px; object-fit: contain;"></a>
                             </div>
                             <div class="col-6 text-end">
-                               <a href="/website-development-company-in-dubai" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
+                               <a href="/website-development-company-in-dubai/" style="text-decoration: none;"> <img src="/assets/images/icons/web-development-arrow.svg" alt="Website Design" class="img-fluid" style="width: 35px;"></a>
                             </div>
 
                         </div>
-                        <h5><a href="/website-development-company-in-dubai" style="text-decoration: none; color: #FFF;">Custom Web Development</a></h5>
+                        <h5><a href="/website-development-company-in-dubai/" style="text-decoration: none; color: #FFF;">Custom Web Development</a></h5>
                         <p class="small">Custom websites are popular choice among small and large-scale enterprises, and service providers in Dubai. We design custom websites from a single landing page to complex websites based on business-specific requirements. We build tech-enabled custom websites with modern tech stack that load fast and have no errors. </p>
                     </div>
                 </div>

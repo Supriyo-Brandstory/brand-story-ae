@@ -216,7 +216,7 @@
                         <li>Long-tail keyword strategy for high conversion rates</li>
                         <li>Keyword optimization (e.g., SEO for luxury brands in Dubai)</li>
                     </ul>
-                    <a href="/keyword-research-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/keyword-research-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -229,7 +229,7 @@
                         <li>SEO-friendly content enhancements</li>
                         <li>Internal linking &amp; URL structuring</li>
                     </ul>
-                    <a href="/on-page-seo-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/on-page-seo-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -242,7 +242,7 @@
                         <li>Schema markup for better search visibility</li>
                         <li>Mobile responsiveness &amp; secure HTTPS implementation</li>
                     </ul>
-                    <a href="/technical-seo-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/technical-seo-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -255,7 +255,7 @@
                         <li>Local citations &amp; NAP (Name, Address, Phone) consistency</li>
                         <li>Customer review management &amp; local backlink strategies</li>
                     </ul>
-                    <a href="/local-seo-services-in-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/local-seo-services-in-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -268,7 +268,7 @@
                         <li>SEO-optimized landing pages &amp; service pages</li>
                         <li>Content tailored for real estate SEO in Dubai, healthcare, e-commerce, and more</li>
                     </ul>
-                    <a href="/content-marketing-agency-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/content-marketing-agency-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -281,7 +281,7 @@
                         <li>Niche-specific backlinks for Dubai industries</li>
                         <li>Brand mentions &amp; PR-driven link acquisition</li>
                     </ul>
-                    <a href="/off-page-seo-dubai" class="pow-box-btn btn">Learn More</a>
+                    <a href="/off-page-seo-dubai/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <div class="col-md-6 d-flex align-items-stretch"> <!--col start-->
@@ -294,7 +294,7 @@
                         <li>Monthly SEO performance reports with actionable insights</li>
                         <li>Ongoing strategy refinement based on data-driven decisions</li>
                     </ul>
-                    <a href="/seo-analytics-reporting-agency-in-dubai-uae" class="pow-box-btn btn">Learn More</a>
+                    <a href="/seo-analytics-reporting-agency-in-dubai-uae/" class="pow-box-btn btn">Learn More</a>
                 </div>
             </div><!--col end-->
             <!-- <div class="col-md-6 d-flex align-items-stretch"> col start
@@ -323,7 +323,7 @@
             <h2 class="ce-title" style="color:#212529">Our Success Stories <br>Page 1 Rankings on Google.</h2>
             <div class="ce-tabs">
                 <span class="ce-tab active">SEO Results</span>
-                <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+                <a href="/case-study/" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
             </div>
         </div>
 
@@ -637,7 +637,7 @@
             </div><!--col end-->
             <div class="col-md-8 col-lg-6"> <!--col start-->
                 <div class="sp-impact-txt bg-white">
-                    <p>SEO is the right mix of proven techniques that help websites rank higher across search engines. Over time, these methods have evolved, enabling businesses in the UAE to boost visibility, attract the right audience, and <a href="/blogs/seo-vs-ppc-in-dubai-which-channel-delivers-better-roi-for-businesses" style="color: black; text-decoration: underline;"><b>generate sustainable ROI</b></a>.</p>
+                    <p>SEO is the right mix of proven techniques that help websites rank higher across search engines. Over time, these methods have evolved, enabling businesses in the UAE to boost visibility, attract the right audience, and <a href="/blogs/seo-vs-ppc-in-dubai-which-channel-delivers-better-roi-for-businesses/" style="color: black; text-decoration: underline;"><b>generate sustainable ROI</b></a>.</p>
                     <ul class="seo-pages-list bg-white">
                         <li><b>But How Does SEO Deliver ROI?</b></li>
                     </ul>
@@ -844,7 +844,7 @@ include __DIR__ . '/../component/client_reviews.php';
 <section class="sp-50 bg-white">
     <div class="container map-section">
         <h2 class="text-center mb-4">Our Key Service Areas in Dubai</h2>
-        <p class="text-center mb-3">As a leading <a href="/seo-services-company-in-dubai" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
+        <p class="text-center mb-3">As a leading <a href="/seo-services-company-in-dubai/" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
 
         <div class="map-img text-center">
             <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" alt="slider-map">
@@ -993,7 +993,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <div class="dubai-seo-article-intro">
                     <p class="fs-20">Dubai is one of the world's most competitive digital markets. With over <b>3.5 million active internet users</b> in the UAE and Google commanding more than 95% of all search traffic, the race for Page 1 visibility is more intense than ever. Yet most businesses in Dubai are invisibly bleeding revenue not because their product is weak, but because their website simply cannot be found by people who are actively searching for it.</p><br>
                     <p class="fs-20">If your website is not ranking on the first page of Google for your core keywords, you are effectively invisible to your target audience. Studies consistently show that the first five organic results on Google's Page 1 account for approximately 67% of all clicks. The second page? Less than 1% of searchers ever get there. In a city where consumers, investors, and corporate buyers research online before they buy, this invisibility has a direct and measurable cost.</p><br>
-                    <p class="fs-20">This is not a content problem or a website design problem in isolation. It is an SEO problem and it requires a specialist solution built specifically for how this city searches. As a specialist <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a>, BrandStory exists to solve exactly this: turning invisible Dubai websites into consistent, compounding sources of qualified traffic, leads, and revenue.</p>
+                    <p class="fs-20">This is not a content problem or a website design problem in isolation. It is an SEO problem and it requires a specialist solution built specifically for how this city searches. As a specialist <a href="/seo-services-company-in-dubai/" style="color:inherit;text-decoration:underline;font-weight:600;">SEO company in Dubai</a>, BrandStory exists to solve exactly this: turning invisible Dubai websites into consistent, compounding sources of qualified traffic, leads, and revenue.</p>
                 </div>
             </div>
             <div class="col-lg-5 text-center">
@@ -1035,7 +1035,7 @@ include __DIR__ . '/../component/client_reviews.php';
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
                             <div>
                                 <strong>Rapidly Shifting Consumer Search Behaviour</strong>
-                                <p>Dubai consumers are mobile-first and research-intensive. Voice search, Google AI Overviews, and zero-click results are reshaping how queries are answered. As a forward-thinking <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO Dubai</a> agency, BrandStory ensures your content is structured to appear in AI-assisted search results with mobile-first technical audits.</p>
+                                <p>Dubai consumers are mobile-first and research-intensive. Voice search, Google AI Overviews, and zero-click results are reshaping how queries are answered. As a forward-thinking <a href="/seo-services-company-in-dubai/" style="color:inherit;text-decoration:underline;font-weight:600;">SEO Dubai</a> agency, BrandStory ensures your content is structured to appear in AI-assisted search results with mobile-first technical audits.</p>
                             </div>
                         </li>
                     </ul>
@@ -1044,7 +1044,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <!-- Chapter 2 -->
                 <div class="dubai-seo-chapter">
                     <h2 class="dubai-seo-chapter-title">What Full-Service SEO in Dubai Actually Looks Like</h2>
-                    <p>Real, results-driven <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO services in Dubai</a> work across every dimension of your digital presence simultaneously technical, on-page, off-page, local, and content not as isolated tasks but as a single unified system.</p>
+                    <p>Real, results-driven <a href="/seo-services-company-in-dubai/" style="color:inherit;text-decoration:underline;font-weight:600;">SEO services in Dubai</a> work across every dimension of your digital presence simultaneously technical, on-page, off-page, local, and content not as isolated tasks but as a single unified system.</p>
                     <ul class="dubai-seo-list">
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
@@ -1173,7 +1173,7 @@ include __DIR__ . '/../component/client_reviews.php';
                 <!-- Chapter 5 -->
                 <div class="dubai-seo-chapter">
                     <h2 class="dubai-seo-chapter-title">What BrandStory Does Differently as a Dubai SEO Agency</h2>
-                    <p>BrandStory is a results-driven <a href="/seo-services-company-in-dubai" style="color:inherit;text-decoration:underline;font-weight:600;">SEO agency in Dubai</a> with a 14-year track record of delivering measurable organic growth for businesses across the UAE and wider MENA region. Our approach is built around a simple principle: SEO only matters if it generates real business outcomes.</p>
+                    <p>BrandStory is a results-driven <a href="/seo-services-company-in-dubai/" style="color:inherit;text-decoration:underline;font-weight:600;">SEO agency in Dubai</a> with a 14-year track record of delivering measurable organic growth for businesses across the UAE and wider MENA region. Our approach is built around a simple principle: SEO only matters if it generates real business outcomes.</p>
                     <ul class="dubai-seo-list">
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
@@ -1227,43 +1227,43 @@ include __DIR__ . '/../component/client_reviews.php';
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/technical-seo-dubai" style="color:inherit;text-decoration:underline;">Technical SEO Dubai</a></strong>
+                            <div><strong><a href="/technical-seo-dubai/" style="color:inherit;text-decoration:underline;">Technical SEO Dubai</a></strong>
                                 <p>Fix the technical issues that prevent Google from properly crawling and ranking your pages.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/on-page-seo-dubai" style="color:inherit;text-decoration:underline;">On-Page SEO Dubai</a></strong>
+                            <div><strong><a href="/on-page-seo-dubai/" style="color:inherit;text-decoration:underline;">On-Page SEO Dubai</a></strong>
                                 <p>Optimise every page on your website to rank higher and convert better.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/off-page-seo-dubai" style="color:inherit;text-decoration:underline;">Off-Page SEO Dubai</a></strong>
+                            <div><strong><a href="/off-page-seo-dubai/" style="color:inherit;text-decoration:underline;">Off-Page SEO Dubai</a></strong>
                                 <p>Build the high-authority backlink profile your website needs to dominate search results.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/keyword-research-dubai" style="color:inherit;text-decoration:underline;">Keyword Research Dubai</a></strong>
+                            <div><strong><a href="/keyword-research-dubai/" style="color:inherit;text-decoration:underline;">Keyword Research Dubai</a></strong>
                                 <p>Identify the exact search terms your target customers are using to find businesses like yours.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/local-seo-services-in-dubai" style="color:inherit;text-decoration:underline;">Local SEO Services in Dubai</a></strong>
+                            <div><strong><a href="/local-seo-services-in-dubai/" style="color:inherit;text-decoration:underline;">Local SEO Services in Dubai</a></strong>
                                 <p>Dominate local search results and attract customers from your target Dubai neighbourhoods.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/ai-seo-agency-in-dubai-uae" style="color:inherit;text-decoration:underline;">AI SEO Agency in Dubai</a></strong>
+                            <div><strong><a href="/ai-seo-agency-in-dubai-uae/" style="color:inherit;text-decoration:underline;">AI SEO Agency in Dubai</a></strong>
                                 <p>Future-proof your SEO strategy for Google's AI-driven search landscape.</p>
                             </div>
                         </li>
                         <li>
                             <span class="dubai-seo-criteria-icon">&#10003;</span>
-                            <div><strong><a href="/seo-analytics-reporting-agency-in-dubai-uae" style="color:inherit;text-decoration:underline;">SEO Analytics &amp; Reporting</a></strong>
+                            <div><strong><a href="/seo-analytics-reporting-agency-in-dubai-uae/" style="color:inherit;text-decoration:underline;">SEO Analytics &amp; Reporting</a></strong>
                                 <p>Get clear, revenue-connected reporting on every aspect of your SEO performance.</p>
                             </div>
                         </li>

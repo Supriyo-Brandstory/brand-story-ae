@@ -39,7 +39,7 @@
                     <p class="fs-20 text-white">
                     We understand that modern property buyers and investors begin their journey online. Our experts combine SEO, paid advertising, social media marketing, and content strategies to connect your brand with the right audience and drive consistent enquiries.                    
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask Our Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Ask Our Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -787,7 +787,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">
+            <a href="/contact/" class="evolution-btn-premium">
                 Know from Experts<i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>

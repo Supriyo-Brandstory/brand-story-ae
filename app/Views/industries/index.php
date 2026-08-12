@@ -7,7 +7,7 @@
                     <p class="fs-18 text-white">
                         From Real Estate and Healthcare to E-commerce and B2B Corporate sectors, we engineer high-impact acquisition campaigns tailored to the unique demands of your industry, delivering qualified leads and measurable growth.
                     </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Speak to Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Speak to Experts</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">Real Estate</h2>
                                     <p class="text-white-50 fs-20 mb-4 ">"In the competitive Dubai property market, visibility is everything. We engineer high-impact lead acquisition campaigns that bring agents and developers qualified investors."</p>
-                                    <a href="/industries/real-estate-marketing-services" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/real-estate-marketing-services/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">Healthcare & Dentists</h2>
                                     <p class="text-white-50 fs-20 mb-4">Trust is the foundation of healthcare. Our digital strategies for clinics and practices focus on building reputation and increasing patient bookings through authoritative content.</p>
-                                    <a href="/industries/healthcare-marketing-services" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/healthcare-marketing-services/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">E-Commerce</h2>
                                     <p class="text-white-50 fs-20 mb-4">We scale online stores by optimizing every step of the customer journey, reducing abandonment and maximizing ROAS through data-driven performance marketing.</p>
-                                    <a href="/industries/e-commerce-marketing-service" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/e-commerce-marketing-service/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">Education</h2>
                                     <p class="text-white-50 fs-20 mb-4">Driving enrollment for modern educational institutions requires a blend of brand storytelling and precision targeting. We help schools reach the right students.</p>
-                                    <a href="/industries/education-marketing-services" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/education-marketing-services/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">B2B Corporate</h2>
                                     <p class="text-white-50 fs-20 mb-4">Complex sales cycles demand sophisticated marketing. Our ABM and lead gen strategies connect corporate entities with high-value decision-makers.</p>
-                                    <a href="/industries/b2b-corporate-marketing-services" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/b2b-corporate-marketing-services/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                 <div class="col-lg-6 ps-lg-5">
                                     <h2 class="text-white mb-3 fw-bold">Travel & Tourism</h2>
                                     <p class="text-white-50 fs-20 mb-4">In a world of wandering souls, we make sure your destination stands out. We drive direct bookings for travel agencies through visual storytelling.</p>
-                                    <a href="/industries/travel-agency-marketing-services" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
+                                    <a href="/industries/travel-agency-marketing-services/" class="industry-explore-btn">Explore Industry <span class="ms-2">→</span></a>
                                 </div>
                             </div>
                         </div>

@@ -56,6 +56,12 @@ if (!function_exists('route')) {
         $base = rtrim($cfg['base_url'], '/');
         $uri = Route::getNamed($name, $params);
         $uri = ltrim($uri, '/');
+        if ($uri !== '') {
+            $last_segment = basename($uri);
+            if (!str_contains($last_segment, '.')) {
+                $uri = rtrim($uri, '/') . '/';
+            }
+        }
         return $base . ($uri !== '' ? '/' . $uri : '/');
     }
 }

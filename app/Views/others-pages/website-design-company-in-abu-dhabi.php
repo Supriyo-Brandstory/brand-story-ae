@@ -21,34 +21,34 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Custom Website Design</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Custom Website Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Responsive Design</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Responsive Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">E-commerce Development</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">E-commerce Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">UI/UX Design</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">UI/UX Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Landing Page Design</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Landing Page Design</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Website Redesign</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Website Redesign</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">CMS Development</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">CMS Development</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Landing Page Optimization</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Landing Page Optimization</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Website Maintenance</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Website Maintenance</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/website-design-company-in-abu-dhabi" class="seo-marquee-item">Performance Optimization</a>
+            <a href="/website-design-company-in-abu-dhabi/" class="seo-marquee-item">Performance Optimization</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>

@@ -41,41 +41,41 @@
   <div class="seo-marquee-wrapper">
     <div class="seo-marquee-track">
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Title Tag Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Title Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Page Speed Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Page Speed Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Header Tag Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Header Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Image Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Image Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Internal Linking</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Internal Linking</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Schema Implementation</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Schema Implementation</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
       <!-- same 6 items repeated for loop -->
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Title Tag Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Title Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Page Speed Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Page Speed Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Header Tag Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Header Tag Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Image Optimization</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Image Optimization</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Internal Linking</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Internal Linking</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-      <a href="/on-page-seo-dubai" class="seo-marquee-item">Schema Implementation</a>
+      <a href="/on-page-seo-dubai/" class="seo-marquee-item">Schema Implementation</a>
       <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
     </div>
@@ -106,10 +106,10 @@
           <li class="text-white mb-3 fs-20">By leveraging techniques like title tag optimization, content structuring, image optimization, schema markup, and internal linking, BrandStory
             ensures your website performs at its best. Each improvement is aimed at enhancing both search engine understanding and user experience. We focus on making your website
             more discoverable, relevant, and engaging for your audience.</li>
-          <li class="text-white mb-4 fs-20">Partner with us, we are the leading <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO agency in Dubai</a> to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers,
+          <li class="text-white mb-4 fs-20">Partner with us, we are the leading <a href="/seo-services-company-in-dubai/" style="color:white;text-decoration:underline">SEO agency in Dubai</a> to make your website a high-performing asset that not only ranks well but also converts visitors into loyal customers,
             giving your brand a competitive edge in Dubai’s digital landscape.</li>
         </ul>
-        <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
+        <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us Now</a>
 
 
       </div>
@@ -141,7 +141,7 @@
           At BrandStory, we optimize websites at the page level to improve clarity, accessibility, and performance. Our team refines
           page elements such as titles, headings, content flow, images, internal pathways, and structured data to ensure every page
           contributes to stronger visibility.
-          <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
+          <a href="/seo-services-company-in-dubai/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
 
       </div>
       <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -275,7 +275,7 @@
               <h3>Sand Dollar - Ecommerce</h3>
               <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
               <div class="casestydies-readmore">
-                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
               </div>
             </div>
           </div>
@@ -297,7 +297,7 @@
               <h3>Crystal Plaza</h3>
               <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai", “business stay Dubai".</p>
               <div class="casestydies-readmore">
-                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                <a href="/case-study/hotel/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
               </div>
             </div>
           </div>

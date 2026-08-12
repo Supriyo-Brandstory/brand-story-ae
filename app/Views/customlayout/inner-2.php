@@ -854,7 +854,7 @@
                 </div>
                 <div class="seo-pf-body">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Alice Blue</a></h4>
+                        <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Alice Blue</a></h4>
                         <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
                     </div>
 
@@ -884,7 +884,7 @@
                 </div>
                 <div class="seo-pf-body">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">FourNxt</a></h4>
+                        <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">FourNxt</a></h4>
                         <span class="seo-pf-badge d-block d-md-none position-static">Tech.</span>
                     </div>
                     <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>3,500+</b> monthly organic visitors · <b>200+</b> monthly enquiries</p>
@@ -913,7 +913,7 @@
                 </div>
                 <div class="seo-pf-body">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Take Leap</a></h4>
+                        <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Take Leap</a></h4>
                         <span class="seo-pf-badge d-block d-md-none position-static">E-Com.</span>
                     </div>
                     <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>4,200+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
@@ -942,7 +942,7 @@
                 </div>
                 <div class="seo-pf-body">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">UNO Capital</a></h4>
+                        <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">UNO Capital</a></h4>
                         <span class="seo-pf-badge d-block d-md-none position-static">Finance</span>
                     </div>
                     <p class="seo-pf-desc"><b>60+</b> first-page keywords · <b>4,800+</b> monthly organic visitors · <b>300+</b> monthly enquiries</p>
@@ -1000,7 +1000,7 @@
                 </div>
                 <div class="seo-pf-body">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h4 class="seo-pf-title mb-0"><a href="/contact" class="text-white">Brand Signages</a></h4>
+                        <h4 class="seo-pf-title mb-0"><a href="/contact/" class="text-white">Brand Signages</a></h4>
                         <span class="seo-pf-badge d-block d-md-none position-static">Services</span>
                     </div>
                     <p class="seo-pf-desc"><b>40+</b> first-page keywords · <b>2,500+</b> monthly organic visitors · <b>400+</b> monthly enquiries</p>
@@ -1032,7 +1032,7 @@
             <h2 class="ce-title">We Deliver Higher Rankings, <br>More Traffic, Better Results.</h2>
             <div class="ce-tabs">
                 <span class="ce-tab active">SEO Results</span>
-                <a href="/case-study" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
+                <a href="/case-study/" class="ce-tab" style="text-decoration: none;">All Portfolio</a>
             </div>
         </div>
 

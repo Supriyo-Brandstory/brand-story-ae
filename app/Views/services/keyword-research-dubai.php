@@ -41,40 +41,40 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Long-Tail Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Long-Tail Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">High-Intent Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">High-Intent Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Competitor Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Competitor Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Search Volume Analysis</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Search Volume Analysis</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Mapping</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Keyword Mapping</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Local Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Local Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Long-Tail Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Long-Tail Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">High-Intent Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">High-Intent Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Competitor Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Competitor Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Search Volume Analysis</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Search Volume Analysis</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Keyword Mapping</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Keyword Mapping</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
-            <a href="/keyword-research-dubai" class="seo-marquee-item">Local Keywords</a>
+            <a href="/keyword-research-dubai/" class="seo-marquee-item">Local Keywords</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="Keyword Research by BrandStory" /></span>
 
         </div>
@@ -104,10 +104,10 @@
                     <li class="text-white mb-3 fs-20">Our approach goes beyond basic keyword lists. We study market trends, industry-specific demand, and local search patterns unique to Dubai and the UAE. By mapping keywords to 
                         different stages of the buyer journey, BrandStory helps businesses attract users who are ready to engage, enquire, and convert, whether you’re targeting local customers or a broader regional audience.</li>
                     <li class="text-white mb-4 fs-20">We ensure your content, landing pages, and campaigns are built around search opportunities that drive visibility, qualified traffic, and measurable results. With our
-                         <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO agency in Dubai</a>, keyword research becomes a strategic asset that strengthens
+                         <a href="/seo-services-company-in-dubai/" style="color:white;text-decoration:underline">SEO agency in Dubai</a>, keyword research becomes a strategic asset that strengthens
                          your entire digital presence.</li>
                 </ul>
-                <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us Now</a>
             </div>
         </div>
     </div>
@@ -126,7 +126,7 @@
             <div class="col-12 col-lg-7">
                 <h2 class="text-white mb-4 text-md-start text-center ">Why Does Keyword Research Matter?</h2>
                 <p class="fs-20 text-white">
-                    Keyword research is the strategic foundation of effective <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a>, guiding how and where your business appears in search results. Many businesses target 
+                    Keyword research is the strategic foundation of effective <a href="/seo-services-company-in-dubai/" style="color:white;text-decoration:underline">SEO services in Dubai</a>, guiding how and where your business appears in search results. Many businesses target 
                     keywords based on assumptions rather than real search intent, which leads to visibility without results. By understanding how your audience actually 
                     searches, keyword research helps your website connect with users who are actively looking for your products or services.
                 </p>
@@ -135,7 +135,7 @@
                     search terms that align with customer needs and business goals. This ensures your content attracts qualified traffic, improves engagement, and 
                     supports consistent lead generation in competitive markets like Dubai.
                 </p>
-                <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3">➤ Explore More</a>
+                <a href="/seo-services-company-in-dubai/" class="Performance-Driven-btn mt-3">➤ Explore More</a>
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -260,7 +260,7 @@
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

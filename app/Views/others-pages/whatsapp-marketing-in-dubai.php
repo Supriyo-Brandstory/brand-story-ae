@@ -21,23 +21,23 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Bulk Messaging</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Bulk Messaging</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Broadcast Campaigns</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Broadcast Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Automated Responses</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Automated Responses</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Customer Segmentation</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Customer Segmentation</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Lead Nurturing</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Lead Nurturing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Click-to-WhatsApp Ads</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Click-to-WhatsApp Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Personalized Messaging</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Personalized Messaging</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">CRM Integration</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">CRM Integration</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/whatsapp-marketing-in-dubai" class="seo-marquee-item">Performance Tracking</a>
+            <a href="/whatsapp-marketing-in-dubai/" class="seo-marquee-item">Performance Tracking</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>

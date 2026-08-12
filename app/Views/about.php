@@ -85,7 +85,7 @@
                 partnerships by delivering experiences, real solutions, and result-driven outcomes. BrandStory is different
                 with its core values deeply rooted in the company culture, ethics, and work.
             </p>
-            <a href="/case-study" class="Performance-Driven-btn mb-5">➤ Explore Case Studies</a>
+            <a href="/case-study/" class="Performance-Driven-btn mb-5">➤ Explore Case Studies</a>
         </div>
         <div class="new_about_us-image">
 

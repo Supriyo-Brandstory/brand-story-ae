@@ -1045,7 +1045,7 @@
 
                     </div>
                     <!-- Diagonal Arrow at Top-Right in hover state -->
-                    <a href="/industries/education-marketing-services" class="industry-card-arrow"
+                    <a href="/industries/education-marketing-services/" class="industry-card-arrow"
                         aria-label="Learn more about Education Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1085,7 +1085,7 @@
                         </svg>
 
                     </div>
-                    <a href="/industries/e-commerce-marketing-service" class="industry-card-arrow"
+                    <a href="/industries/e-commerce-marketing-service/" class="industry-card-arrow"
                         aria-label="Learn more about E-commerce Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1124,7 +1124,7 @@
                         </svg>
 
                     </div>
-                    <a href="/industries/healthcare-marketing-services" class="industry-card-arrow"
+                    <a href="/industries/healthcare-marketing-services/" class="industry-card-arrow"
                         aria-label="Learn more about Healthcare Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1164,7 +1164,7 @@
                         </svg>
 
                     </div>
-                    <a href="/industries/real-estate-marketing-services" class="industry-card-arrow"
+                    <a href="/industries/real-estate-marketing-services/" class="industry-card-arrow"
                         aria-label="Learn more about Real Estate Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1212,7 +1212,7 @@
                         </svg>
 
                     </div>
-                    <a href="/industries/travel-agency-marketing-services" class="industry-card-arrow"
+                    <a href="/industries/travel-agency-marketing-services/" class="industry-card-arrow"
                         aria-label="Learn more about Travel Agency Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1248,7 +1248,7 @@
                                 fill="white" />
                         </svg>
                     </div>
-                    <a href="/industries/b2b-corporate-marketing-services" class="industry-card-arrow"
+                    <a href="/industries/b2b-corporate-marketing-services/" class="industry-card-arrow"
                         aria-label="Learn more about B2B Corporate Marketing Services">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
@@ -1265,7 +1265,7 @@
                         <div class="industry-card-links">
                             <a href="/industries/b2b-seo-agency-in-dubai-uae/">SEO Services</a> |
                             <a href="/industries/b2b-ppc-agency-in-dubai-uae/">PPC</a> |
-                            <a href="/email-marketing-company-in-dubai">Email Marketing</a> |
+                            <a href="/email-marketing-company-in-dubai/">Email Marketing</a> |
                             <a href="/industries/b2b-email-marketing-agency-in-dubai-uae/">Branding</a> |
                             <a href="/industries/b2b-social-media-agency-in-dubai-uae/">Social Media</a> |
                             <a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Web Design</a> |

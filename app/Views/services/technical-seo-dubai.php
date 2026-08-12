@@ -41,40 +41,40 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Site Speed Optimization</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Site Speed Optimization</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Mobile Optimization</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Mobile Optimization</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">XML Sitemaps</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">XML Sitemaps</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Structured Data</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Structured Data</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Crawlability & Indexing</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Crawlability & Indexing</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">HTTPS & Security</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">HTTPS & Security</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Site Speed Optimization</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Site Speed Optimization</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Mobile Optimization</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Mobile Optimization</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">XML Sitemaps</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">XML Sitemaps</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Structured Data</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Structured Data</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">Crawlability & Indexing</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">Crawlability & Indexing</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/technical-seo-dubai" class="seo-marquee-item">HTTPS & Security</a>
+            <a href="/technical-seo-dubai/" class="seo-marquee-item">HTTPS & Security</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
         </div>
@@ -105,9 +105,9 @@
                     <li class="text-white mb-3 fs-20">Technical SEO is the foundation of a high-performing website. With BrandStory, your site benefits from faster load times, mobile responsiveness, secure connections, and structured
                          data. These “hooks” capture search engine attention, enhance user experience, and keep visitors engaged, turning traffic into meaningful actions and conversions.</li>
                     <li class="text-white mb-4 fs-20">Many websites lose potential traffic due to overlooked technical problems. Broken links, duplicate content, slow-loading pages, and poor indexing quietly harm performance. BrandStory
-                         identifies and fixes these problems, <a href="/technical-seo-dubai" style="color:white;text-decoration:underline">optimize on page</a>, making your site fully optimized, trustworthy, and competitive in Dubai’s digital market.</li>
+                         identifies and fixes these problems, <a href="/technical-seo-dubai/" style="color:white;text-decoration:underline">optimize on page</a>, making your site fully optimized, trustworthy, and competitive in Dubai’s digital market.</li>
                 </ul>
-                <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us Now</a>
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
                     technical SEO with a trusted Technical SEO Services Company in Dubai like BrandStory, your website can attract, retain, and convert visitors effectively, 
                     turning your online presence into a powerful business asset.
                 </p>
-                <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3">➤ Explore More</a>
+                <a href="/seo-services-company-in-dubai/" class="Performance-Driven-btn mt-3">➤ Explore More</a>
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -145,7 +145,7 @@
         <div class="row mt-4 mt-lg-5 border-top ">
             <!-- Left Column -->
             <div class="col-md-7 mt-5">
-                <p class="fs-20 text-white mb-3">Our Technical <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> lay a strong foundation for your website’s performance and search engine visibility. 
+                <p class="fs-20 text-white mb-3">Our Technical <a href="/seo-services-company-in-dubai/" style="color:white;text-decoration:underline">SEO services in Dubai</a> lay a strong foundation for your website’s performance and search engine visibility. 
                     We focus on optimizing the backend and infrastructure so your site runs smoothly, loads fast, and is fully crawlable by search engines.</p>
 
                 <p class="fs-20 text-white">
@@ -180,7 +180,7 @@
                     <h2 class="text-white mb-4 text-md-start text-center ">Strengthen Your Website’s Performance with Technical SEO </h2>
                     <ul class="mb-0">
                     <li class="text-white mb-3 fs-20">Stronger Website Foundation: BrandStory strengthens your website from the ground up with technical SEO that 
-                        ensures search engines can crawl, index, and understand your site efficiently. Through a <a href="/seo-audit-services-in-dubai" style="color:white;text-decoration:underline">detailed SEO Audit</a>, we identify structural gaps, 
+                        ensures search engines can crawl, index, and understand your site efficiently. Through a <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">detailed SEO Audit</a>, we identify structural gaps, 
                         performance issues, and backend limitations that may be restricting your growth.
                     </li>
                     <li class="text-white mb-3 fs-20">Enhanced Performance and Stability: Our technical SEO approach focuses on speed optimization, mobile 
@@ -261,7 +261,7 @@
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

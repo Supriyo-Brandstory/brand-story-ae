@@ -121,7 +121,7 @@
                             <p class="mb-3 fs-20">Performance marketing is a growth-focused strategy centered on measurable business outcomes. We are a leading performance-driven digital marketing agency in Sharjah, delivering
                                  comprehensive full-funnel performance marketing services designed to drive sustainable and scalable business growth.</p>
                             <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/full-funnel-performance-marketing/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
                             </div>
                         </div>
                     </div>

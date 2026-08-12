@@ -17,7 +17,7 @@
                     <p class="mb-md-5 mb-4 fs-20">BrandStory is a performance-focused SEM agency in Dubai, offering precision marketing campaigns built around measurable business outcomes. Our Dubai-focused SEM strategies maximise Return on Ads Spending (ROAS) while optimising Cost Per Click (CPC), ensuring every ad spend translates into measurable growth.</p>
                     <div class="banner-btns d-flex flex-wrap gap-3">
                         <a href="javascript:void(0);" class="Performance-Driven-btn uniq-contact-lead-btn">➤ Get Started Now</a>
-                        <a href="/case-study" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
+                        <a href="/case-study/" class="Performance-Driven-btn outline-btn">➤ View Case Studies</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
             <div class="col-lg-6 align-self-center">
                 <p class="text-white fs-20 mb-3">Search engine marketing is not just about appearing at the top of Google- it’s about appearing at the exact moment a potential customer is ready to act. At BrandStory, we approach SEM as a structured revenue system, where search intent is mapped to business value. Campaigns are segmented by buyer stage, aligned with conversion-focused landing experiences, and engineered to turn traffic into qualified opportunities.</p>
                 <p class="text-white fs-20 mb-4">In competitive markets like Dubai, successful search engine marketing requires structured execution and strategic oversight. As a trusted search engine marketing agency in Dubai businesses trust, we create targeted SEM campaigns across search, display, and remarketing to maximise visibility, control ad spend, and improve return on investment. Our SEM framework focuses on precision targeting, strong ad relevance, and continuous performance refinement.</p>
-                <a href="/contact" class="Performance-Driven-btn">➤ Talk to Experts</a>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Talk to Experts</a>
             </div>
         </div>
     </div>
@@ -243,7 +243,7 @@
                         <div class="organic-icon"><i class="ion-settings"></i></div>
                         <h3 class="organic-title">Organic Search (SEO)</h3>
                     </div>
-                    <p class="text-white opacity-70 mb-4 fs-18">Organic <a href="/seo-services-company-in-dubai" style="color: #ffffff; text-decoration: underline;">SEO services in Dubai</a> focuses on improving rankings through strategic content creation, technical optimisation, and authority building. Search engines prioritise user experience, rewarding websites that provide valuable, relevant, and high-quality information.</p>
+                    <p class="text-white opacity-70 mb-4 fs-18">Organic <a href="/seo-services-company-in-dubai/" style="color: #ffffff; text-decoration: underline;">SEO services in Dubai</a> focuses on improving rankings through strategic content creation, technical optimisation, and authority building. Search engines prioritise user experience, rewarding websites that provide valuable, relevant, and high-quality information.</p>
                     <ul class="comp-list">
                         <li><i class="ion-checkmark-circled organic-title"></i> Long-term sustainable growth</li>
                         <li><i class="ion-checkmark-circled organic-title"></i> Builds brand authority and trust</li>
@@ -259,7 +259,7 @@
                         <div class="paid-icon"><i class="ion-plane"></i></div>
                         <h3 class="paid-title">Paid Search (PPC)</h3>
                     </div>
-                    <p class="text-white opacity-70 mb-4 fs-18">Paid search campaigns such as Google Ads allow businesses to appear instantly for high-intent keywords. Through <a href="/pay-per-click-ppc-services-in-dubai" style="color: #ffffff; text-decoration: underline;">pay-per-click (PPC) advertising</a>, brands can target specific demographics, locations, and search behaviours.</p>
+                    <p class="text-white opacity-70 mb-4 fs-18">Paid search campaigns such as Google Ads allow businesses to appear instantly for high-intent keywords. Through <a href="/pay-per-click-ppc-services-in-dubai/" style="color: #ffffff; text-decoration: underline;">pay-per-click (PPC) advertising</a>, brands can target specific demographics, locations, and search behaviours.</p>
                     <ul class="comp-list">
                         <li><i class="ion-checkmark-circled paid-title"></i> Immediate visibility on page 1</li>
                         <li><i class="ion-checkmark-circled paid-title"></i> Targeting specific demographics & intent</li>

@@ -7,7 +7,7 @@
                     <p class="fs-18 text-white">
                     BrandStory is a leading dental digital marketing agency helping clinics across Dubai and the UAE attract qualified patients and increase appointment bookings. We combine healthcare expertise with data-driven strategies, local SEO, and high-converting campaigns to boost visibility and engagement. 
                 </p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                     <p class="fs-20 text-white">
                         Modern patient journeys begin online, where visibility, credibility, and consistency directly influence clinic selection. We develop structured digital marketing strategies that position your practice in front of high-intent patients while reinforcing trust at every touchpoint. Through a combination of advanced local SEO, precision-targeted performance campaigns, and strategically managed social media, we create a seamless acquisition funnel that converts interest into confirmed appointments. Every initiative is guided by data, aligned with business goals, and focused on delivering predictable, measurable growth for your dental practice.
                     </p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/about/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
                     <img src="/assets/images/industries/Digital-Marketing-for-Dentists-banner-img2.webp" alt="Dental Marketing Agency" class="img-fluid" style="border-radius: 20px; background-color: #222;">
@@ -814,7 +814,7 @@
         </div>
 
         <div class="select-option-btn-wrapper mt-4 b">
-            <a href="/contact" class="select-option-btn" style="background: #fff !important;color: #000 !important;">
+            <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">
                 Select Option <img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
             </a>
         </div>
@@ -887,7 +887,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">
+            <a href="/contact/" class="evolution-btn-premium">
                 Explore More <i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>
@@ -929,7 +929,7 @@
                     </div>
                 </div>
 
-                <a href="/contact" class="learn-more-black-btn">
+                <a href="/contact/" class="learn-more-black-btn">
                     Let's Get Started <i class="fas fa-arrow-right"></i>
                 </a>
             </div>

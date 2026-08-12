@@ -41,40 +41,40 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Link Building</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Link Building</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Guest Posting</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Guest Posting</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Brand Mentions</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Brand Mentions</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Social Media SEO</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Social Media SEO</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Content Promotion</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Content Promotion</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Local Citations</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Local Citations</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Link Building</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Link Building</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Guest Posting</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Guest Posting</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Brand Mentions</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Brand Mentions</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Social Media SEO</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Social Media SEO</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Content Promotion</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Content Promotion</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
-            <a href="/off-page-seo-dubai" class="seo-marquee-item">Local Citations</a>
+            <a href="/off-page-seo-dubai/" class="seo-marquee-item">Local Citations</a>
             <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
 
         </div>
@@ -105,10 +105,10 @@
                     <li class="text-white mb-3 fs-20">Through high-quality link acquisition, brand mentions, digital PR, and authority-building outreach, we help your business earn recognition
                         from relevant and reputable sources. Each off-page action is carefully planned to support long-term rankings, referral traffic, and brand credibility rather than
                         short-term gains.</li>
-                    <li class="text-white mb-4 fs-20">BrandStory’s off-page <a href="/seo-services-company-in-dubai" style="color:white;text-decoration:underline">SEO services in Dubai</a> ensures your business stands out in competitive search landscapes. By expanding your digital footprint
+                    <li class="text-white mb-4 fs-20">BrandStory’s off-page <a href="/seo-services-company-in-dubai/" style="color:white;text-decoration:underline">SEO services in Dubai</a> ensures your business stands out in competitive search landscapes. By expanding your digital footprint
                         and reinforcing trust signals, we help your website achieve stronger rankings, wider reach, and sustained growth across Dubai and beyond.</li>
                 </ul>
-                <a href="/contact" class="Performance-Driven-btn">➤ Contact Us Now</a>
+                <a href="/contact/" class="Performance-Driven-btn">➤ Contact Us Now</a>
 
 
             </div>
@@ -141,7 +141,7 @@
                     links, securing brand mentions, and increasing referral visibility, we help search engines recognize your business as a trusted
                     and reliable entity. These efforts not only support higher rankings but also bring in audiences that are genuinely interested
                     in what you offer.
-                    <a href="/seo-services-company-in-dubai" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
+                    <a href="/seo-services-company-in-dubai/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Expolore More</a>
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -275,7 +275,7 @@
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
                             <h3>Crystal Plaza</h3>
                             <p class="fs-20">A well-known hotel chain with multiple properties across Dubai and Dubai Marina approached us to improve online presence and direct bookings. We achieved ROAS of 5.2x on paid ad campaigns by optimizing audience targeting, first-page rankings for 40+ commercial keywords like “luxury hotel in Dubai", “business stay Dubai".</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/ ">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/hotel/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

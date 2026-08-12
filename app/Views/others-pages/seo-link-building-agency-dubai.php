@@ -90,7 +90,7 @@
                 <p class="text-white mb-3 fs-20">We redefine SEO services in Dubai by turning online searches into real business opportunities. We go beyond ranking a website, we craft strategies that enhance visibility, build authority, and drive the best organic growth results. From in-depth <a href="/seo-audit-services-in-dubai/" style="color:white;text-decoration:underline">SEO audit services</a> to <a href="/blogs/technical-seo-tips-to-improve-crawlability-and-user-experience/" style="color:white;text-decoration:underline">technical SEO</a>, <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color:white;text-decoration:underline">on-page optimization</a>, <a href="/blogs/arabic-seo-in-dubai/" style="color:white;text-decoration:underline">Arabic SEO</a>, <a href="/content-marketing-agency-dubai/" style="color:white;text-decoration:underline">content marketing</a>, and <a href="/blogs/the-ultimate-guide-to-effective-link-building-for-seo-success/" style="color:white;text-decoration:underline">backlink building</a>, our top-level professionals work with pinpoint precision and excellence.</p>
                 <p class="text-white mb-4 fs-20">At BrandStory, we put your business first, creating <b>smart SEO strategies</b> that make your brand shine above the competition. We don’t just optimize websites, we help businesses achieve higher visibility with top search engine rankings.</p>
 
-                <a href="/about" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ About Us</a>
+                <a href="/about/" class="Performance-Driven-btn mb-5 " bis_skin_checked="1">➤ About Us</a>
 
             </div>
         </div>

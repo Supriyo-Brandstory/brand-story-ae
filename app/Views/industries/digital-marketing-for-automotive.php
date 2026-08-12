@@ -5,7 +5,7 @@
                 <div class="col-lg-7">
                     <h1 class="mb-4 text-white">Top Automotive Digital Marketing Agency in Dubai</h1>
                     <p class="fs-18 text-white">We specialize in high-performance digital marketing for automotive businesses in Dubai, delivering targeted campaigns designed to drive showroom visits, test drives, qualified leads, and measurable sales results.</p>
-                    <a href="/contact" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Speak to Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-5" bis_skin_checked="1">➤ Speak to Experts</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="col-12 col-lg-7">
                     <h2 class="text-white mb-4 text-md-start text-center ">Drive Quality Leads with Automotive Marketing</h2>
                     <p class="fs-20 text-white">The automotive industry in Dubai is fiercely competitive, and success belongs to brands that dominate online. Today's car buyers research online first—and the dealerships and automotive brands that win are the ones that show up, stand out, and convert. At BrandStory, we partner with automotive dealers, distributors, and service providers across Dubai and the UAE, combining proven lead generation systems with data-driven digital marketing to deliver high-intent buyers ready to purchase.</p>
-                    <a href="/about" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
+                    <a href="/about/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -759,7 +759,7 @@
             </div>
 
             <div class="select-option-btn-wrapper mt-4 b">
-                <a href="/contact" class="select-option-btn " style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
+                <a href="/contact/" class="select-option-btn " style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
                 </a>
             </div>
         </div>
@@ -832,7 +832,7 @@
             </ul>
 
             <div class="evolution-cta-wrap">
-                <a href="/contact" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
+                <a href="/contact/" class="evolution-btn-premium">Explore More<i class="fas fa-arrow-right ms-2"></i>
                 </a>
             </div>
         </div>
@@ -955,7 +955,7 @@
                         </div>
                     </div>
 
-                    <a href="/contact" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
+                    <a href="/contact/" class="learn-more-black-btn">Let's Get Started<i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
 

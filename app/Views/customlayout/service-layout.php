@@ -1164,10 +1164,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-2.webp">
-                                    <h3><a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers" style="color: #000; text-decoration: none;">Local SEO Dubai: The Strategy Behind Winning Local Customers</a></h3>
+                                    <h3><a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers/" style="color: #000; text-decoration: none;">Local SEO Dubai: The Strategy Behind Winning Local Customers</a></h3>
                                     <p class="fs-20">Dubai is one of the most competitive business environments in the world. From restaurants in Jumeirah to law firms in DIFC and clinics in Dubai Marina...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/local-seo-dubai-the-strategy-behind-winning-local-customers/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1175,10 +1175,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-1.webp">
-                                    <h3><a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide" style="color: #000; text-decoration: none;">Search Engine Optimization (SEO) Services in Dubai: A Complete Guide</a></h3>
+                                    <h3><a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide/" style="color: #000; text-decoration: none;">Search Engine Optimization (SEO) Services in Dubai: A Complete Guide</a></h3>
                                     <p class="fs-20">In today's competitive digital landscape, simply having a website is no longer enough. Businesses in Dubai and across the UAE must compete for visible...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/search-engine-optimization-seo-services-in-dubai-a-complete-guide/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1186,10 +1186,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-3.webp">
-                                    <h3><a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai" style="color: #000; text-decoration: none;">GEO Checklist: 8 Steps to Optimize for AI Assistants in Dubai</a></h3>
+                                    <h3><a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai/" style="color: #000; text-decoration: none;">GEO Checklist: 8 Steps to Optimize for AI Assistants in Dubai</a></h3>
                                     <p class="fs-20">In today's digital era, artificial intelligence (AI) assistants like Google Assistant, Siri, Alexa, and ChatGPT are rapidly transforming how people search...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/geo-checklist-8-steps-to-optimize-for-ai-assistants-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1197,10 +1197,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-4.webp">
-                                    <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Winning in Google's AI Overview</a></h3>
+                                    <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Winning in Google's AI Overview</a></h3>
                                     <p class="fs-20">As the digital landscape continues to evolve, Google's AI Overviews are quickly becoming a defining factor in how users consume content online...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-google-s-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1208,10 +1208,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-5.webp">
-                                    <h3><a href="/blogs/site-architecture-seo-organize-your-website-the-right-way" style="color: #000; text-decoration: none;">Site Architecture & SEO: Organize Your Website the Right Way</a></h3>
+                                    <h3><a href="/blogs/site-architecture-seo-organize-your-website-the-right-way/" style="color: #000; text-decoration: none;">Site Architecture & SEO: Organize Your Website the Right Way</a></h3>
                                     <p class="fs-20">In today's digital-first era, a website is no longer just a virtual store it is the entire online presence of a brand...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/site-architecture-seo-organize-your-website-the-right-way">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/site-architecture-seo-organize-your-website-the-right-way/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1219,10 +1219,10 @@
                             <div class="swiper-slide">
                                 <div class="latest-blog-main">
                                     <img class="w-100 dm-blog-img" src="/assets/images/blog/blog-img-6.webp">
-                                    <h3><a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank" style="color: #000; text-decoration: none;">SEO Meta Tags: How to Craft Titles and Descriptions That Rank</a></h3>
+                                    <h3><a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank/" style="color: #000; text-decoration: none;">SEO Meta Tags: How to Craft Titles and Descriptions That Rank</a></h3>
                                     <p class="fs-20">Visibility is power in digital marketing. Ranking high on the SERP drives traffic, trust, and conversions...</p>
                                     <div class="casestydies-readmore">
-                                        <a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                        <a href="/blogs/seo-meta-tags-how-to-craft-titles-and-descriptions-that-rank/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                     </div>
                                 </div>
                             </div>

@@ -18,34 +18,34 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Newsletter Campaigns</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Newsletter Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Promotional Emails</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Promotional Emails</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Drip Campaigns</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Drip Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Transactional Emails</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Transactional Emails</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Lead Nurturing</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Lead Nurturing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Automated Campaigns</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Automated Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Segmentation & Personalization</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Segmentation & Personalization</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">A/B Testing</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">A/B Testing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Analytics & Reporting</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Analytics & Reporting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/email-marketing-company-in-abu-dhabi" class="seo-marquee-item">Campaign Strategy</a>
+            <a href="/email-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Campaign Strategy</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>

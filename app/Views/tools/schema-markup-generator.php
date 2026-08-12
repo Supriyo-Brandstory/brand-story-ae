@@ -188,8 +188,8 @@
         <h2 class="text-white fw-900 mb-4" style="font-size: 42px;">Ready to Dominate Search Rankings?</h2>
         <p class="text-white-50 mb-5 fs-18 max-w-700 mx-auto">Technical SEO is just the beginning. Partner with BrandStory to build a comprehensive digital strategy that drives real growth for your business.</p>
         <div class="d-flex justify-content-center gap-3">
-            <a href="/contact" class="code-action-btn code-action-btn--primary px-5 py-3 fs-16" style="border-radius: 50px;">Talk to an Expert</a>
-            <a href="/tools" class="code-action-btn px-5 py-3 fs-16" style="border-radius: 50px;">Explore More Tools</a>
+            <a href="/contact/" class="code-action-btn code-action-btn--primary px-5 py-3 fs-16" style="border-radius: 50px;">Talk to an Expert</a>
+            <a href="/tools/" class="code-action-btn px-5 py-3 fs-16" style="border-radius: 50px;">Explore More Tools</a>
         </div>
     </div>
 </section>

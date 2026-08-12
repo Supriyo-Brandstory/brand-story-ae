@@ -21,25 +21,25 @@
 <section class="seo-marquee">
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Instagram Ads Management</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Instagram Ads Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Reels Production</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Reels Production</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Influencer Marketing</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Influencer Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Profile Management</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Profile Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Content Creation</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Content Creation</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Instagram Shopping</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Instagram Shopping</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Story Ads</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Story Ads</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Lead Generation Campaigns</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Lead Generation Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Retargeting Campaigns</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Retargeting Campaigns</a>
             <span class="seo-marquee-sep text-white">يلا</span>
-            <a href="/instagram-marketing-agency-in-dubai" class="seo-marquee-item">Analytics & Reporting</a>
+            <a href="/instagram-marketing-agency-in-dubai/" class="seo-marquee-item">Analytics & Reporting</a>
             <span class="seo-marquee-sep text-white">يلا</span>
         </div>
     </div>

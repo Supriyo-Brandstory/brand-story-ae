@@ -34,7 +34,7 @@
                     <h2 class="text-white mb-4 text-md-start text-center ">Scaling Profitable E-Commerce <br>Growth for Businesses</h2>
                     <p class="fs-20 text-white">The UAE's e-commerce sector is on track to surpass $9.2 billion by 2026, positioning Dubai as a leading online retail hub across the Middle East. In this rapidly expanding landscape, the brands that thrive are those powered by a strategic digital marketing engine- not just presence. BrandStory has steered over AED 4 million in ad spend across 50+ clients, gaining sharp insight into the platforms, consumer rhythms, and seasonal dynamics of Dubai and the GCC.</p><br>
                     <p class="fs-20 text-white">As a certified Google and Meta Business Partner with roots in Dubai, we blend marketing capability with authentic local understanding. Our 100+ specialists craft digital ecosystems that don't just attract traffic- they build scalable, repeatable growth for e-commerce brands.</p>
-                    <a href="/contact" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Talk to Our Experts</a>
+                    <a href="/contact/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Talk to Our Experts</a>
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
@@ -761,7 +761,7 @@
         </ul>
 
         <div class="evolution-cta-wrap">
-            <a href="/contact" class="evolution-btn-premium">
+            <a href="/contact/" class="evolution-btn-premium">
                 Explore More <i class="fas fa-arrow-right ms-2"></i>
             </a>
         </div>

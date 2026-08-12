@@ -21,34 +21,34 @@
     <div class="seo-marquee-wrapper">
         <div class="seo-marquee-track">
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Strategy</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Social Media Strategy</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Content Creation</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Content Creation</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Community Management</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Community Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Paid Social Advertising</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Paid Social Advertising</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Influencer Marketing</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Influencer Marketing</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Social Media Analytics</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Social Media Analytics</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Campaign Management</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Campaign Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Reputation Management</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Reputation Management</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Brand Monitoring</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Brand Monitoring</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
-            <a href="/social-media-marketing-company-in-abu-dhabi" class="seo-marquee-item">Engagement Optimization</a>
+            <a href="/social-media-marketing-company-in-abu-dhabi/" class="seo-marquee-item">Engagement Optimization</a>
             <span class="seo-marquee-sep text-white">يلا</span>
 
         </div>
