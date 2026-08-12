@@ -554,7 +554,7 @@
 
 @media (max-width: 991px) {
     .premium-cs-row-card {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
 
     .premium-cs-row-title {
@@ -572,7 +572,7 @@
     }
 
     .premium-cs-section {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
 }
 
@@ -721,7 +721,7 @@
 /* Responsive styles for Services Section */
 @media (max-width: 991px) {
     .premium-services-section {
-        padding: 60px 0;
+        padding: 0px 0;
     }
 }
 
@@ -6840,8 +6840,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 /* Premium Badges Section */
 .premium-badges-section {
-    background-color: #050506;
-    padding: 60px 0;
+    padding: 0px 0 50px;
     color: #ffffff;
 }
 
@@ -6893,40 +6892,14 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     border-bottom: none;
 }
 
-/* Responsive design */
-@media (max-width: 991px) {
-    .premium-badges-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    /* Reset borders for 2-column layout */
+/* Responsive design - Keep 3 columns on mobile devices */
+@media (max-width: 767px) {
     .premium-badge-cell {
-        border-right: 1px solid rgba(255, 255, 255, 0.08);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        height: 120px;
+        padding: 10px;
     }
 
-    .premium-badges-grid .premium-badge-cell:nth-child(2n) {
-        border-right: none;
-    }
-
-    .premium-badges-grid .premium-badge-cell:nth-child(n+5) {
-        border-bottom: none;
-    }
-}
-
-@media (max-width: 575px) {
-    .premium-badges-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Reset borders for 1-column layout */
-    .premium-badge-cell {
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        height: 160px;
-    }
-
-    .premium-badges-grid .premium-badge-cell:last-child {
-        border-bottom: none;
+    .premium-why-choose-section {
+        padding: 60px 0;
     }
 }
