@@ -6837,3 +6837,96 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         font-size: 24px !important;
     }
 }
+
+/* Premium Badges Section */
+.premium-badges-section {
+    background-color: #050506;
+    padding: 60px 0;
+    color: #ffffff;
+}
+
+.premium-badges-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #080809;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.premium-badge-cell {
+    position: relative;
+    height: 220px;
+    background-color: transparent;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: background-color 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.premium-badge-cell:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.premium-badge-cell img {
+    max-width: 40%;
+    max-height: 110px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.premium-badge-cell:hover img {
+    transform: scale(1.04);
+}
+
+/* Remove borders on outer grid edges */
+.premium-badges-grid .premium-badge-cell:nth-child(3n) {
+    border-right: none;
+}
+
+.premium-badges-grid .premium-badge-cell:nth-child(n+4) {
+    border-bottom: none;
+}
+
+/* Responsive design */
+@media (max-width: 991px) {
+    .premium-badges-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Reset borders for 2-column layout */
+    .premium-badge-cell {
+        border-right: 1px solid rgba(255, 255, 255, 0.08);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .premium-badges-grid .premium-badge-cell:nth-child(2n) {
+        border-right: none;
+    }
+
+    .premium-badges-grid .premium-badge-cell:nth-child(n+5) {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .premium-badges-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reset borders for 1-column layout */
+    .premium-badge-cell {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        height: 160px;
+    }
+
+    .premium-badges-grid .premium-badge-cell:last-child {
+        border-bottom: none;
+    }
+}

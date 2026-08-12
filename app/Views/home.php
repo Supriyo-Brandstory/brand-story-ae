@@ -1401,6 +1401,31 @@
     </div>
 </section>
 
+<section class="premium-badges-section">
+    <div class="container">
+        <div class="premium-badges-grid">
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge">
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="premium-showcase-section">
     <div class="premium-showcase-container container">
         <div class="row">
@@ -1532,7 +1557,7 @@
 
                 <div class="vertical-name-main">X</div>
                 <div class="vertical-logo-card">
-                    <svg viewBox="0 0 24 24" class="vertical-logo" style="height: 36px; fill: #000000;">
+                    <svg viewBox="0 0 24 24" class="vertical-logo" style="height: 60px; fill: #000000;">
                         <path
                             d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                     </svg>
