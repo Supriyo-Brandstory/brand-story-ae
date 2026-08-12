@@ -6902,4 +6902,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     .premium-why-choose-section {
         padding: 60px 0;
     }
+
+    .premium-badges-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
