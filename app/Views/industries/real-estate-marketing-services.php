@@ -75,6 +75,50 @@
             </div>
         </div>
     </section>
+    <!-- Branding & Logo Showcase Section -->
+<section class="home-dummy-showcase-sec bg-black">
+    <div class="container">
+      <h2 class="text-start text-white mb-lg-5 mb-4">BrandStory Builds Legacy <br>Branding and Marketing Solutions</h2>
+    </div>
+  <div class="home-dummy-showcase-grid">
+    <!-- Card 1 -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/realestate-p-11.webp') ?>" alt="Branding & Marketing Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Branding & Marketing</div>
+      <a href="/contact/" class="dummy-card-hover">
+        <span class="dummy-hover-text">Know More &rarr;</span>
+      </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/realestate-p-22.webp') ?>" alt="Branding & Marketing Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Branding & Marketing</div>
+      <a href="/contact/" class="dummy-card-hover">
+        <span class="dummy-hover-text">Know More &rarr;</span>
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/realestate-p-33.webp') ?>" alt="Branding & Marketing Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Branding & Marketing</div>
+      <a href="/contact/" class="dummy-card-hover">
+        <span class="dummy-hover-text">Know More &rarr;</span>
+      </a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="home-dummy-card">
+      <img src="<?= base_url('assets/images/realestate-p-44.webp') ?>" alt="Branding & Marketing Design" class="home-dummy-bg-img">
+      <div class="dummy-card-badge">Branding & Marketing</div>
+      <a href="/contact/" class="dummy-card-hover">
+        <span class="dummy-hover-text">Know More &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
     <section class="digital-marketing-agency-in-abu-dhabi">
 
         <div class="marketing-services sp-50 dm-bg">
