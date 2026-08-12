@@ -1516,151 +1516,70 @@
     text-align: left;
 }
 
-.premium-why-choose-img-wrap {
-    width: 100% !important;
-    border-radius: 24px !important;
-    overflow: hidden !important;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5) !important;
-    background-color: #161618 !important;
-    height: 100% !important;
+.premium-why-choose-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
 }
 
-.premium-why-choose-img {
-    width: 100% !important;
-    height: 100% !important;
-    display: block !important;
-    object-fit: cover !important;
-    object-position: center !important;
-}
-
-@media (min-width: 992px) {
-    .premium-why-choose-section .row {
-        align-items: stretch !important;
-        min-height: 0 !important;
-    }
-
-    .premium-why-choose-section .col-lg-5,
-    .premium-why-choose-section .col-lg-7 {
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    .premium-why-choose-img-wrap {
-        flex: 1 1 auto !important;
-        min-height: 0 !important;
-        display: flex !important;
-        flex-direction: column !important;
-        border-radius: 24px !important;
-        overflow: hidden !important;
-        height: 100% !important;
-    }
-
-    .premium-why-choose-img {
-        flex: 1 1 auto !important;
-        min-height: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover !important;
-        object-position: center !important;
-        display: block !important;
-    }
-
-    .premium-why-choose-section .col-lg-5 {
-        align-self: stretch !important;
-    }
-
-    .premium-why-choose-section .accordion {
-        flex: 1 1 auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-    }
-}
-
-/* Accordion Custom Styles */
-.premium-why-choose-section .accordion {
-    border: none;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.premium-why-choose-section .accordion-item {
-    border: none;
-    background-color: #1c1c1e;
-    border-radius: 16px;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-/* Active/Expanded item has a purple gradient */
-.premium-why-choose-section .accordion-item:has(.accordion-button:not(.collapsed)) {
-    background: linear-gradient(135deg, #855BFF 0%, #5633D6 100%);
-    box-shadow: 0 10px 25px rgba(133, 91, 255, 0.2);
-}
-
-.premium-why-choose-section .accordion-button {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 24px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.premium-why-card {
     position: relative;
-    width: 100%;
-    text-align: left;
+    background-color: #17181e;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 35px 35px 35px 35px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* Remove default Bootstrap chevron */
-.premium-why-choose-section .accordion-button::after {
-    display: none;
+/* Hover effects - Highlights card with purple gradient, border, and glow */
+.premium-why-card:hover {
+    transform: translateY(-5px);
+    background: radial-gradient(83.86% 728.25% at 50% 50%, #855BFF 0%, rgba(80, 55, 153, 0) 100%), #17181e;
+    border-color: #855BFF;
+    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.15);
 }
 
-/* Custom Arrow Circle */
-.premium-why-choose-section .accordion-button-arrow {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.15);
+.why-card-title {
+    font-size: 20px;
+    font-weight: 600;
     color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 15px;
 }
 
-/* Active style for Arrow Circle */
-.premium-why-choose-section .accordion-button:not(.collapsed) .accordion-button-arrow {
-    transform: rotate(180deg);
-    background-color: #ffffff;
-    color: #855BFF;
-}
-
-.premium-why-choose-section .accordion-button-arrow svg {
-    width: 14px;
-    height: 14px;
-    fill: none;
-}
-
-.premium-why-choose-section .accordion-body {
-    padding: 0 30px 24px 30px;
-    background: transparent;
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 16px;
+.why-card-desc {
+    font-size: 15px;
     line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
 }
 
-@media (max-width: 991px) {
-    .premium-why-choose-section {
-        padding: 60px 0;
-    }
+/* Bottom banner styles */
+.premium-why-bottom-banner {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.4s ease;
+}
 
-    .premium-why-choose-img-wrap {
-        margin-bottom: 40px;
+.premium-why-bottom-banner:hover {
+    transform: scale(1.01);
+}
+
+.premium-why-bottom-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Responsive adjustment */
+@media (max-width: 991px) {
+    .premium-why-choose-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
 }
 
@@ -2005,7 +1924,7 @@
 }
 
 .vertical-logo {
-    max-height: 48px;
+    max-height: 90px;
     max-width: 100%;
     width: auto;
     height: auto;

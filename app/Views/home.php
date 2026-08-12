@@ -1352,168 +1352,51 @@
 
 </section>
 
-<section class="premium-why-choose-section">
+  <section class="premium-why-choose-section">
     <div class="container">
         <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
-        <div class="row align-items-center">
-            <!-- Left Side: Image -->
-            <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
-                <div class="premium-why-choose-img-wrap">
-                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
-                        width="1104" height="1296"
-                        alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                </div>
+        
+        <div class="premium-why-choose-grid">
+            <!-- Card 1 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expertise in Dubai’s Digital Scene</h3>
+                <p class="why-card-desc">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft ROI-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
             </div>
-            <!-- Right Side: Accordion -->
-            <div class="col-lg-7 col-md-12">
-                <div class="accordion" id="whyChooseAccordion">
-                    <!-- Item 1 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
-                                aria-controls="whyChooseCollapseOne">
-                                <span>Expertise in Dubai’s Digital Scene</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We don't just work in Dubai- we live it. From understanding the city's
-                                    competitive landscape to knowing its consumers inside out, we craft result-driven
-                                    digital marketing strategies built specifically for Dubai's local businesses, online
-                                    retailers, and industries like hospitality, real estate, healthcare, and more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
-                                aria-controls="whyChooseCollapseTwo">
-                                <span>Expert Team with Zen Precision</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Our top-of-the-line experts ensure relevance, precision, and ROI-driven
-                                    performance at every stage. Business-specific digital marketing strategies based on
-                                    the target audience, business objectives, and long-term brand growth.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
-                                aria-controls="whyChooseCollapseThree">
-                                <span>Performance Backed by Proven Results</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing,
-                                    Performance Marketing) campaigns across various industries. From boosting lead
-                                    generation to doubling ROI, each strategy is focused on driving client success.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFour">
-                                <span>Data-Driven Decision Making</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Actionable decisions based on real performance data and results, not
-                                    assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with
-                                    evolving market trends and real business needs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFive">
-                                <span>End-to-End Support</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">From strategy mankind to campaign planning and execution, we keep you
-                                    informed at every stage. Dedicated support and feedback ensure your digital
-                                    marketing campaigns run smoothly and deliver optimal results.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Item 6 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
-                                aria-controls="whyChooseCollapseSix">
-                                <span>In-depth and Transparent Reporting</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">In-depth and transparent reports to give you full visibility into
-                                    campaign effectiveness and ROI. Data-driven recommendations turn those insights into
-                                    strategic and precise actions that drive consistent growth.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
+            <!-- Card 2 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expert Team with Zen Precision</h3>
+                <p class="why-card-desc">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
             </div>
+            
+            <!-- Card 3 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Performance Backed by Proven Results</h3>
+                <p class="why-card-desc">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Data-Driven Decision Making</h3>
+                <p class="why-card-desc">Actionable decisions based on real performance data and results, not assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with evolving market trends and real business needs.</p>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">End-to-End Support</h3>
+                <p class="why-card-desc">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">In-depth and Transparent Reporting</h3>
+                <p class="why-card-desc">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
+            </div>
+        </div>
+        
+        <!-- Large Office Image Banner -->
+        <div class="premium-why-bottom-banner">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace">
         </div>
     </div>
 </section>
@@ -1579,12 +1462,7 @@
 
 <section class="premium-verticals-section">
     <div class="container">
-        <!-- Top Image Banner -->
-        <div class="premium-verticals-banner">
-            <img src="<?= base_url('assets/images/bg-4r.webp') ?>"
-                alt="We Specialize in All Digital Marketing Verticals" class="img-fluid w-100">
-        </div>
-
+       
         <!-- Section Header -->
         <h2 class="premium-verticals-title">We Specialize in All Digital Marketing Verticals</h2>
 
@@ -1729,7 +1607,7 @@
             <div class="col-lg-4">
                 <div class="premium-social-brand-wrap">
                     <h2 class="premium-social-brand-title">BRANDSTORY<span>®</span></h2>
-                    <p class="premium-social-join-text">Join Our Community</p>
+                    <p class="premium-social-join-text">Social Media Agency in Dubai</p>
                     <div class="premium-social-icons-row">
                         <!-- Instagram -->
                         <a href="https://www.instagram.com/brandstorydubai/" target="_blank"
