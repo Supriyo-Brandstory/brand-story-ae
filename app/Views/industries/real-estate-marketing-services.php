@@ -43,7 +43,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Real-Estate-Marketing-Agency-banner-img2.webp" alt="HubSpot Diamond Agency" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/industries/real-estate-marketings.webp" alt="Real Estate Marketing Agency" class="img-fluid" style="border-radius: 20px;">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top">
