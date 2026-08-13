@@ -46,6 +46,7 @@ Route::get('/search-engine-marketing-agency-in-dubai', 'FrontendController@searc
 Route::get('/ecommerce-seo-services-in-dubai', 'FrontendController@ecommerceSeoServicesDubai', 'ecommerceseoservicesdubai');
 Route::get('/local-seo-services-in-dubai', 'FrontendController@localSeoServicesDubai', 'localseoservicesdubai');
 Route::get('/video-marketing-agency-dubai', 'FrontendController@videoMarketingDubai', 'videomarketingdubai');
+Route::get('/video-marketing-agency-dubai-2', 'FrontendController@videoMarketingDubai2', 'videomarketingdubai2');
 Route::get('/facebook-marketing-agency-in-dubai', 'FrontendController@facebookMarketingDubai', 'facebookmarketingdubai');
 // Route::get('/facebook-marketing-agency-in-dubai-2', 'FrontendController@facebookMarketingDubai2', 'facebookmarketingdubai2');
 
