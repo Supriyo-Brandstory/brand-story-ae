@@ -233,7 +233,7 @@
 
 @media (max-width: 767px) {
     .compelling-videos-section {
-        padding: 60px 0;
+        padding-top: 60px;
     }
 
     .compelling-card {
@@ -1303,5 +1303,90 @@
 
     .video-service-card:hover .video-service-title {
         transform: translateY(-202px);
+    }
+}
+
+@media (max-width: 991px) {
+    .workflow-panel {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .video-services-title {
+        font-size: 28px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .video-service-card {
+        height: auto !important;
+        padding: 30px 24px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .video-service-icon {
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        margin-bottom: 20px !important;
+        width: 60px !important;
+        height: 60px !important;
+        align-self: flex-start !important;
+    }
+
+    .video-service-icon svg {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .video-service-title {
+        position: relative !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        font-size: 22px !important;
+        margin-bottom: 15px !important;
+        transform: none !important;
+    }
+
+    .video-service-details {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+
+    .video-service-card:hover {
+        transform: none !important;
+        box-shadow: none !important;
+        background: #1c1c1e !important;
+    }
+
+    .video-service-card:hover .video-service-icon {
+        right: auto !important;
+        left: 0 !important;
+    }
+
+    .premium-hero-slider {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .why-invest-email-section,
+    .video-services-section {
+        padding: 0 0;
+    }
+
+    .recent-projects-section,
+    .premium-podcasts-section,
+    .compelling-videos-section,
+    .impact-section,
+    .workflow-section {
+        padding-bottom: 0px;
     }
 }
