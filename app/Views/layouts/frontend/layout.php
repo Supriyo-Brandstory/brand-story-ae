@@ -20,7 +20,7 @@ if ($seoData) {
     <title><?= htmlspecialchars($meta['title'] ?? 'BrandStoryAE') ?></title>
     <meta name="description" content="<?= htmlspecialchars($meta['description'] ?? '') ?>">
     <link rel="canonical" href="<?php echo $canonical ?? ''; ?>">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.png') ?>">
+    <link rel="icon" type="image/png" href="https://www.brandstory.ae/assets/images/favicon.png">
 
     <!-- Preload LCP Image - Moved to Top to eliminate Resource Load Delay -->
     <?php
