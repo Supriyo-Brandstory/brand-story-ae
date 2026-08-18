@@ -6923,3 +6923,217 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
         max-width: 50%;
     }
 }
+
+/* ==========================================================================
+   PPC Services Page - Redefining PPC Advertising (Why Choose Accordion)
+   ========================================================================== */
+.ppc-why-choose-section {
+    background-color: #0c0c0d;
+    padding: 100px 0;
+    color: #ffffff;
+    font-family: inherit;
+    position: relative;
+}
+
+.ppc-why-choose-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif, inherit;
+}
+
+.ppc-why-choose-img-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ppc-why-choose-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+.ppc-accordion-card {
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.ppc-accordion {
+    background: transparent;
+    border: none;
+}
+
+.ppc-accordion-item {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #eef2f6 !important;
+    border-radius: 0 !important;
+}
+
+.ppc-accordion-item:last-child {
+    border-bottom: none !important;
+}
+
+.ppc-accordion-header {
+    margin: 0;
+    padding: 0;
+}
+
+.ppc-accordion-btn.accordion-button {
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 22px 28px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    font-family: 'Poppins', sans-serif, inherit !important;
+    text-align: left;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease !important;
+}
+
+/* Hide default Bootstrap accordion arrow */
+.ppc-accordion-btn.accordion-button::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Collapsed state */
+.ppc-accordion-btn.accordion-button.collapsed {
+    background-color: #ffffff !important;
+    color: #1f2937 !important;
+}
+
+.ppc-accordion-btn.accordion-button.collapsed:hover {
+    background-color: #f8fafc !important;
+}
+
+/* Expanded / Active state */
+.ppc-accordion-btn.accordion-button:not(.collapsed) {
+    background-color: #ebf3fe !important;
+    color: #1a6ff8 !important;
+    border-bottom: 1px solid #dbeafe !important;
+}
+
+.ppc-accordion-arrow {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 16px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
+    color: #374151;
+}
+
+.ppc-accordion-arrow svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2.2;
+}
+
+/* Rotated arrow for active/open item */
+.ppc-accordion-btn.accordion-button:not(.collapsed) .ppc-accordion-arrow {
+    transform: rotate(180deg);
+    color: #1a6ff8 !important;
+}
+
+.ppc-accordion-btn.accordion-button.collapsed .ppc-accordion-arrow {
+    transform: rotate(0deg);
+    color: #4b5563;
+}
+
+.ppc-accordion-body {
+    background-color: #ffffff !important;
+    padding: 24px 28px !important;
+    color: #4b5563 !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+}
+
+.ppc-accordion-body p {
+    color: #4b5563 !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    margin: 0 !important;
+    font-weight: 400 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .ppc-why-choose-section {
+        padding: 70px 0;
+    }
+
+    .ppc-why-choose-title {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .ppc-why-choose-img-card {
+        min-height: 360px;
+        max-height: 440px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ppc-why-choose-section {
+        padding: 50px 0;
+    }
+
+    .ppc-why-choose-title {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .ppc-why-choose-img-card {
+        min-height: 280px;
+        border-radius: 16px;
+    }
+
+    .ppc-why-choose-img {
+        border-radius: 16px;
+    }
+
+    .ppc-accordion-card {
+        border-radius: 16px;
+    }
+
+    .ppc-accordion-btn.accordion-button {
+        font-size: 16px !important;
+        padding: 16px 20px !important;
+    }
+
+    .ppc-accordion-body {
+        padding: 18px 20px !important;
+        font-size: 15px !important;
+    }
+
+    .ppc-accordion-body p {
+        font-size: 15px !important;
+    }
+}

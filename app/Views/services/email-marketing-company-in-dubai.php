@@ -1249,162 +1249,164 @@
     });
 </script>
 
-<section class="premium-why-choose-section">
+<section class="ppc-why-choose-section">
     <div class="container">
-        <h2 class="premium-why-choose-title">Why Choose BrandStory As<br> Your Email Marketing Partner</h2>
+        <h2 class="ppc-why-choose-title">Why Choose BrandStory As<br> Your Email Marketing Partner</h2>
         <div class="row align-items-center">
             <!-- Left Side: Image -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
-                <div class="premium-why-choose-img-wrap">
-                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
+                <div class="ppc-why-choose-img-card">
+                    <img class="img-fluid ppc-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
                         width="1104" height="1296"
                         alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
             <!-- Right Side: Accordion -->
             <div class="col-lg-7 col-md-12">
-                <div class="accordion" id="whyChooseAccordion">
-                    <!-- Item 1 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
-                                aria-controls="whyChooseCollapseOne">
-                                <span>Verified Contact Access</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We give you access to over 1.5 million verified contacts across the UAE.
-                                    Every list is checked for accuracy, so your emails reach real people who are likely
-                                    to engage. No wasted sends, no guessing.</p>
+                <div class="ppc-accordion-card">
+                    <div class="accordion ppc-accordion" id="whyChooseAccordion">
+                        <!-- Item 1 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingOne">
+                                <button class="accordion-button ppc-accordion-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
+                                    aria-controls="whyChooseCollapseOne">
+                                    <span>Verified Contact Access</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We give you access to over 1.5 million verified contacts across the UAE.
+                                        Every list is checked for accuracy, so your emails reach real people who are likely
+                                        to engage. No wasted sends, no guessing.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
-                                aria-controls="whyChooseCollapseTwo">
-                                <span>Segmentation That Works</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We do not send the same email to everyone. We group your audience by
-                                    behavior, interest, and stage in the buying journey. This means each message lands
-                                    with the right person at the right time.</p>
+                        <!-- Item 2 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingTwo">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseTwo">
+                                    <span>Segmentation That Works</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We do not send the same email to everyone. We group your audience by
+                                        behavior, interest, and stage in the buying journey. This means each message lands
+                                        with the right person at the right time.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
-                                aria-controls="whyChooseCollapseThree">
-                                <span>Content Built for Dubai's Market</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Our copywriters and designers understand what resonates with UAE
-                                    audiences. We write clear, relevant emails and pair them with clean designs that
-                                    work across mobile and desktop.</p>
+                        <!-- Item 3 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingThree">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseThree">
+                                    <span>Content Built for Dubai's Market</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">Our copywriters and designers understand what resonates with UAE
+                                        audiences. We write clear, relevant emails and pair them with clean designs that
+                                        work across mobile and desktop.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFour">
-                                <span>Automation Without the Guesswork</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We set up welcome series, nurture flows, and re-engagement campaigns
-                                    using proven triggers and timing. Your audience gets consistent, relevant emails
-                                    without your team lifting a finger every time.</p>
+                        <!-- Item 4 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFour">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseFour">
+                                    <span>Automation Without the Guesswork</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We set up welcome series, nurture flows, and re-engagement campaigns
+                                        using proven triggers and timing. Your audience gets consistent, relevant emails
+                                        without your team lifting a finger every time.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFive">
-                                <span>Deliverability You Can Rely</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We follow strict list hygiene, authentication, and sending practices to
-                                    protect your sender reputation. This keeps your emails out of spam folders and in
-                                    front of the people who matter.</p>
+                        <!-- Item 5 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFive">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseFive">
+                                    <span>Deliverability You Can Rely</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We follow strict list hygiene, authentication, and sending practices to
+                                        protect your sender reputation. This keeps your emails out of spam folders and in
+                                        front of the people who matter.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 6 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
-                                aria-controls="whyChooseCollapseSix">
-                                <span>Reporting You Can Validate</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We track open rates, click-through rates, and conversions on every
-                                    campaign, and share clear reports you can check yourself. Every decision we make is
-                                    backed by real data, not assumptions.</p>
+                        <!-- Item 6 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingSix">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseSix">
+                                    <span>Reporting You Can Validate</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We track open rates, click-through rates, and conversions on every
+                                        campaign, and share clear reports you can check yourself. Every decision we make is
+                                        backed by real data, not assumptions.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

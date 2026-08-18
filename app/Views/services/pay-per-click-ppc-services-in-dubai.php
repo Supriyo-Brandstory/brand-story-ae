@@ -402,150 +402,152 @@
     </div>
 </section>
 
-<section class="premium-why-choose-section">
+<section class="ppc-why-choose-section">
     <div class="container">
-        <h2 class="premium-why-choose-title">Redefining PPC Advertising<br> in Dubai, UAE</h2>
+        <h2 class="ppc-why-choose-title">Redefining PPC Advertising<br> in Dubai, UAE</h2>
         <div class="row align-items-center">
             <!-- Left Side: Image -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
-                <div class="premium-why-choose-img-wrap">
-                    <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
+                <div class="ppc-why-choose-img-card">
+                    <img class="img-fluid ppc-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
                         width="1104" height="1296"
                         alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
             <!-- Right Side: Accordion -->
             <div class="col-lg-7 col-md-12">
-                <div class="accordion" id="whyChooseAccordion">
-                    <!-- Item 1 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
-                                aria-controls="whyChooseCollapseOne">
-                                <span>Platform Strategy and Audit Insights</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">We begin by identifying the most effective paid advertisement platforms for your business. From Google and Facebook to Amazon and TikTok, numerous PPC advertising channels are popular in Dubai. At BrandStory, our team carefully analyzes your business needs to select the most relevant platforms. We perform a detailed audit of your existing campaigns and find out the underperforming metrics to unlock potential.</p>
+                <div class="ppc-accordion-card">
+                    <div class="accordion ppc-accordion" id="whyChooseAccordion">
+                        <!-- Item 1 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingOne">
+                                <button class="accordion-button ppc-accordion-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseOne" aria-expanded="true"
+                                    aria-controls="whyChooseCollapseOne">
+                                    <span>Platform Strategy and Audit Insights</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="whyChooseHeadingOne" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">We begin by identifying the most effective paid advertisement platforms for your business. From Google and Facebook to Amazon and TikTok, numerous PPC advertising channels are popular in Dubai. At BrandStory, our team carefully analyzes your business needs to select the most relevant platforms. We perform a detailed audit of your existing campaigns and find out the underperforming metrics to unlock potential.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
-                                aria-controls="whyChooseCollapseTwo">
-                                <span>Setting Up Campaigns</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">The next phase is building a results-driven PPC campaign tailored to your PPC marketing in Dubai. Our PPC experts collaborate with you to understand your needs for brand visibility, driving website traffic, and conversion goals. This helps us set the benchmarks that we have to achieve in the next phase.</p>
+                        <!-- Item 2 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingTwo">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseTwo" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseTwo">
+                                    <span>Setting Up Campaigns</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingTwo" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">The next phase is building a results-driven PPC campaign tailored to your PPC marketing in Dubai. Our PPC experts collaborate with you to understand your needs for brand visibility, driving website traffic, and conversion goals. This helps us set the benchmarks that we have to achieve in the next phase.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
-                                aria-controls="whyChooseCollapseThree">
-                                <span>Advanced Tracking Implementation</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">As a reliable PPC agency in Dubai, we use advanced tracking tools to closely monitor campaign performance. We gather real-time data and analyze key metrics to understand how your audience is interacting with your ads. This allows us to fine-tune your campaigns and redefine strategies for future marketing efforts.</p>
+                        <!-- Item 3 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingThree">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseThree" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseThree">
+                                    <span>Advanced Tracking Implementation</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingThree" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">As a reliable PPC agency in Dubai, we use advanced tracking tools to closely monitor campaign performance. We gather real-time data and analyze key metrics to understand how your audience is interacting with your ads. This allows us to fine-tune your campaigns and redefine strategies for future marketing efforts.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFour">
-                                <span>Crafting Click-Worthy Ad Copies</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Our creative experts in Dubai design compelling ad copies along with attention-grabbing headlines to spark urgency and curiosity among potential customers. We create visually appealing creatives to align with your brand identity, describe your offerings, and resonate deeply with your audience.</p>
+                        <!-- Item 4 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFour">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseFour" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseFour">
+                                    <span>Crafting Click-Worthy Ad Copies</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingFour" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">Our creative experts in Dubai design compelling ad copies along with attention-grabbing headlines to spark urgency and curiosity among potential customers. We create visually appealing creatives to align with your brand identity, describe your offerings, and resonate deeply with your audience.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
-                                aria-controls="whyChooseCollapseFive">
-                                <span>Ad Launch & A/B Testing</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Once your ad creatives are live, we initiate continuous A/B testing to uncover what truly drives results. As a prominent PPC agency in Dubai, we test with multiple ad variants to compare performance and drive better campaign efficiency. Whether it's the headline, image, or call-to-action, we identify what fits best with your audience.</p>
+                        <!-- Item 5 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFive">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseFive" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseFive">
+                                    <span>Ad Launch & A/B Testing</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingFive" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">Once your ad creatives are live, we initiate continuous A/B testing to uncover what truly drives results. As a prominent PPC agency in Dubai, we test with multiple ad variants to compare performance and drive better campaign efficiency. Whether it's the headline, image, or call-to-action, we identify what fits best with your audience.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Item 6 -->
-                    <div class="accordion-item">
-                        <h4 class="accordion-header" id="whyChooseHeadingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
-                                aria-controls="whyChooseCollapseSix">
-                                <span>Monitoring & Performance Analysis</span>
-                                <span class="accordion-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </span>
-                            </button>
-                        </h4>
-                        <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
-                            <div class="accordion-body">
-                                <p class="mb-0">Our paid media experts closely track all essential metrics like impressions, click-through rates, average CPC, conversions, quality score, and ad positioning to understand campaign effectiveness. We align our analysis with your business objectives, using robust tools and performance assessment methods.</p>
+                        <!-- Item 6 -->
+                        <div class="accordion-item ppc-accordion-item">
+                            <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingSix">
+                                <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#whyChooseCollapseSix" aria-expanded="false"
+                                    aria-controls="whyChooseCollapseSix">
+                                    <span>Monitoring & Performance Analysis</span>
+                                    <span class="ppc-accordion-arrow">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </h4>
+                            <div id="whyChooseCollapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="whyChooseHeadingSix" data-bs-parent="#whyChooseAccordion">
+                                <div class="accordion-body ppc-accordion-body">
+                                    <p class="mb-0">Our paid media experts closely track all essential metrics like impressions, click-through rates, average CPC, conversions, quality score, and ad positioning to understand campaign effectiveness. We align our analysis with your business objectives, using robust tools and performance assessment methods.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
