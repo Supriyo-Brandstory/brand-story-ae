@@ -481,47 +481,8 @@
     </div>
 </section>
 
-<section class="web-templates-section">
-    <div class="web-templates-header">
-        <h2>Our Wensite Design Samples</h2>
-        <p>Industry-specific designs optimized for performance and conversions.</p>
-    </div>
 
-    <div class="web-templates-track-wrapper">
-        <div class="web-templates-track">
-            <?php 
-            $templates = [
-                'automotive.webp',
-                'healthcare.webp',
-                'law-firm.webp',
-                'real-estate.webp',
-                'technology.webp'
-            ];
 
-            foreach ($templates as $template):
-                $displayName = str_replace('.webp', '', $template);
-                $displayName = ucwords(str_replace('-', ' ', $displayName));
-            ?>
-            <div class="web-template-item">
-                <div class="web-template-img-wrap">
-                    <img
-                        src="/assets/images/web-templates/<?php echo $template; ?>"
-                        alt="<?php echo $displayName; ?>"
-                        loading="lazy"
-                    >
-                </div>
-                <div class="web-template-meta">
-                    <span class="web-template-name"><?php echo $displayName; ?></span>
-                    <!-- <a href="#" class="web-template-link">Preview →</a> -->
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
-
-<style>
-</style>
 
 
 <section class="new-client-section">
