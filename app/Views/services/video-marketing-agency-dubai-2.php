@@ -9,9 +9,9 @@
       <div class="container">
         <div class="premium-slide-content">
           <h1 class="premium-slide-title">
-            <span class="premium-purple-highlight">Video Marketing</span> Agency in <br>Dubai, UAE
+            <span class="premium-purple-highlight"> Video Production & Marketing</span> <br>Agency in Dubai, UAE
           </h1>
-          <p class="premium-slide-subtitle">Video marketing helps your brand communicate with clarity and impact. At BrandStory, we develop strategic video campaigns that capture attention, simplify your message, and create stronger audience connections across various digital platforms.</p>
+          <p class="premium-slide-subtitle">At BrandStory, we script, shoot, animate, edit and distribute video- every frame engineered to drive views, leads and revenue across YouTube, Meta, TikTok and LinkedIn, leading video production and marketing agency in Dubai, UAE.</p>
           <div class="premium-slide-actions">
             <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
               <span>Talk to Experts</span>
@@ -46,12 +46,12 @@
       <!-- Right Side: Content -->
       <div class="col-lg-6">
         <div class="why-invest-content">
-          <h2 class="why-invest-title text-white">Driving Growth Through Strategic Video Marketing</h2>
+          <h2 class="why-invest-title text-white">Full-Service Video Production in Dubai, Engineered for ROI</h2>
           <div class="" style="margin-bottom: 35px; margin-top: 30px;">
             <ul class="why-invest-list">
-              <li>BrandStory brings over a decade of experience in digital marketing and video production in Dubai, helping businesses adapt to evolving content trends. With the evolution of social media video has become one of the most powerful ways to communicate, and we focus on creating content that not only captures attention but also delivers clear, impactful messaging.</li>
-              <li>From concept development to production and distribution, our team handles every stage of video marketing with a strategic approach. Whether it’s brand videos, ad films, or product storytelling, each piece is designed to align with your business goals and connect with the right audience across platforms.</li>
-              <li>For brands aiming to stand out in a crowded digital space, BrandStory offers more than just video creation- we provide a structured approach to using video as a growth tool. The focus is on driving engagement, improving visibility, and ensuring your content contributes to long-term business performance.</li>
+              <li>Most agencies fall into one of two traps: beautiful videos nobody watches, or paid media pushing creative that doesn't convert. BrandStory closes that gap, our in-house team writes, shoots, animates and distributes under one roof- the people behind your brand film are the same people engineering its reach on YouTube, Meta, TikTok and LinkedIn.</li>
+              <li>Video ad spend in the UAE is growing every year and short-form is growing fastest of all. That means more brands fighting for the same three seconds of your customer's attention. BrandStory exists for this fight: one integrated team that writes, shoots, edits and distributes video engineered to win it.</li>
+              <li>BrandStory handles every stage of video production in-house- scripting, shooting, editing, 2D/3D animation, VFX and sound- with bilingual English-Arabic scripting, voiceover and captions tuned for GCC audiences. But production is only half the job: our media team places your videos across YouTube, Meta, TikTok and LinkedIn, backed by AED 1000M+ of managed ad spend, while video SEO is built into the pipeline from day one.</li>
             </ul>
           </div>
           <div class="why-invest-action">
@@ -68,7 +68,7 @@
 <!-- section-4: Recent Projects -->
 <section class="recent-projects-section">
   <div class="container">
-    <h2 class="projects-title text-white text-left">Our Recent Projects</h2>
+    <h2 class="projects-title text-white text-left">Our Video production Services</h2>
     <div class="row">
       <!-- Project 1 -->
       <div class="col-md-7 col-12">
@@ -76,9 +76,9 @@
           <img src="<?= base_url("assets/images/video-marketing-03.webp") ?>" alt="BrandStory Video Project 1" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Podcast Production</h4>
+              <p class="project-overlay-desc">Multi-cam studio recording, pro audio and editing- plus short clips that turn every episode into weeks of social content.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -89,9 +89,9 @@
           <img src="<?= base_url("assets/images/video-marketing-04.webp") ?>" alt="BrandStory Video Project 2" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Commercials & Creatives</h4>
+              <p class="project-overlay-desc">Scroll-stopping video content engineered for paid campaigns on YouTube, Meta, TikTok and LinkedIn.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -102,9 +102,9 @@
           <img src="<?= base_url("assets/images/video-marketing-05.webp") ?>" alt="BrandStory Video Project 3" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Product & Explainer Videos</h4>
+              <p class="project-overlay-desc">Product demos and 2D/3D animated explainer videos that show how your product works and why it matters.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -115,9 +115,9 @@
           <img src="<?= base_url("assets/images/video-marketing-06.webp") ?>" alt="BrandStory Video Project 4" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Brand Films</h4>
+              <p class="project-overlay-desc">Cinematic storytelling videos that turns your mission and people into a narrative your audience remembers.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -128,9 +128,9 @@
           <img src="<?= base_url("assets/images/video-marketing-07.webp") ?>" alt="BrandStory Video Project 5" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Corporate Videos</h4>
+              <p class="project-overlay-desc">Company profiles, leadership messages and internal comms that build trust with clients, investors and employees.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -141,9 +141,9 @@
           <img src="<?= base_url("assets/images/video-marketing-08.webp") ?>" alt="BrandStory Video Project 6" class="img-fluid">
           <div class="project-overlay">
             <div class="project-overlay-content">
-              <h4 class="project-overlay-title">Figma ipsum auto</h4>
-              <p class="project-overlay-desc">Figma ipsum component variant main layer. Layout fill thumbnail effect hand.</p>
-              <a href="/contact/" class="project-overlay-btn">Read More</a>
+              <h4 class="project-overlay-title">Short-Form Content</h4>
+              <p class="project-overlay-desc">Platform-native Reels, Shorts and TikToks produced in batches to keep your channels active and growing.</p>
+              <a href="/contact/" class="project-overlay-btn">Know More</a>
             </div>
           </div>
         </div>
@@ -186,9 +186,9 @@
     <div class="row">
       <div class="col-md-9 col-12">
         <div class="compelling-card">
-          <h2 class="compelling-title">Creating Compelling Videos That Serve Your Organization's Purpose Creatively</h2>
-          <p class="compelling-text">Videos are not just content but an experience for the new digital world. Whether it's telling your brand story, educating your audience, or driving engagement, they have the power to attract, engage and rightly communicate like no other medium.</p>
-          <p class="compelling-text">As a top video production company in Dubai, BrandStory offers a strategic partnership to its clients that goes beyond just creating videos. We act as an extension of your brand, suggesting what works for the objectives you have, producing videos based on the plans and ensuring your message reaches the right audience in the most impactful way.</p>
+          <h2 class="compelling-title">Video Marketing, Built Around Your Organization's Goals</h2>
+          <p class="compelling-text">Video is more than regular content- it's the most powerful way to tell your story, educate your audience and drive real engagement in today's digital world.</p>
+          <p class="compelling-text">As a leading video marketing company in Dubai, BrandStory offers a partnership that goes beyond the shoot. We work as an extension of your brand- recommending what will achieve your objectives, producing against that plan, and ensuring your message reaches the right audience with maximum impact.</p>
         </div>
       </div>
     </div>
@@ -261,9 +261,9 @@
             <!-- Left Side Content -->
             <div class="col-lg-6 col-md-12 growth-left-col">
                 <h2 class="growth-heading">Driving Growth Through Strategic Video Marketing</h2>
-                <p class="growth-text">BrandStory is an Avant-Garde creative agency as well as a video production company that specializes in creating high-quality videos for businesses and organizations. Based in Dubai, we offer video production services for a range of requirements, including</p>
+                <p class="growth-text">BrandStory is a Dubai-based video production and marketing agency built for the performance era. We produce high-quality video content for businesses and organizations across the UAE and GCC, covering every requirement from concept to conversion: brand films and corporate videos, TV and digital commercials, product and explainer videos, podcast production, event coverage, 2D/3D animation and VFX.</p>
                 <a href="/contact/" class="growth-meeting-btn">
-                    <span>Book A Meeting</span>
+                    <span>Talk to Experts</span>
                     <span class="arrow-circle">
                         <svg viewBox="0 0 24 24" width="16" height="16">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
@@ -600,8 +600,8 @@
 <!-- Video Production Workflow Section -->
 <section class="workflow-section">
     <div class="container">
-        <h2 class="workflow-heading">What Does BrandStory Offer for Your Video Production Requirements?</h2>
-        <p class="workflow-subtext">BrandStory, the leading video production company in Dubai, creates high-quality, engaging videos aligned with your brand identity and marketing goals. Incorporating the brand's voice, values, and aesthetics, we make sure that the outputs resonate well with the intended audience. We handle the entire process of video production from discovery to the final, ready-to-launch stage with our industry expertise, well-planned execution strategy, skilled team and cutting-edge tools and technologies.</p>
+        <h2 class="workflow-heading">Our Video Production Process Flow</h2>
+        <p class="workflow-subtext">BrandStory follows a streamlined video production process, from concept and planning to filming, editing, and final delivery. Our expert team ensures every video is creative, on-brand, high-quality, and aligned with your marketing goals.</p>
         
         <div class="row">
             <!-- Left Side Accordion -->
@@ -736,6 +736,14 @@
         </div>
     </div>
 </section>
+
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
 <!-- Importance of Video Marketing in Dubai section -->
 <section class="video-services-section nd2">
     <div class="container">
@@ -813,6 +821,8 @@
         </div>
     </div>
 </section>
+
+
 <section class="dm-faq-section spb-50">
   <div class="container">
     <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
@@ -938,88 +948,6 @@
 
 </section> 
 
-<section class="container">
-    <div class="new-cta-footer">
-        <div class="new-cta-footer-container">
-            <h2 class="new-cta-footer-title">
-                Grow Traffic. Build Engagement. Amplify Results. With BrandStory
-            </h2>
-            <p class="new-cta-footer-text">
-                Digital marketing today is no longer just a support tool – it is the backbone of your business growth.
-                At BrandStory, we believe every business should have a digital transformation strategy that is bold,
-                unique, innovative, and performance-driven. As Dubai’s premier marketing partner for 100+ local and
-                global brands, we craft campaigns that go beyond visibility and drive real business value.
-            </p>
-
-            <!-- Hidden Content -->
-            <div class="content-read-more">
-                <h3 class="mt-3 text-white">“Great marketing isn’t about noise, it’s about impact”</h3>
-                <p class="new-cta-footer-text">
-                    Inspired by the unity of the Arab Emirates and the heights of the Burj Khalifa, we design digital
-                    transformation that elevates, inspires, and etches brands into the Skyline itself.
-                </p>
-                <h3 class="mt-4 text-white">We are a 360-Degree Digital Marketing Agency</h3>
-                <p class="new-cta-footer-text">
-                    Your audience is constantly evolving with time, shifting across social media, search engines, and
-                    digital platforms. We craft targeted digital marketing campaigns and strategies that engage users,
-                    drive conversions, and keep your brand visible, relevant, and influential at every stage of their
-                    online journey.
-                    <h4 class="mt-4 text-white" style="font-size: 1.3rem;">SEO Services in Dubai</h4>
-                    <p class="new-cta-footer-text">We help businesses across UAE improve their online visibility with comprehensive 
-                        SEO services, including technical SEO, on-page optimization, content strategy, keyword research, link building, 
-                        local SEO, and performance tracking. Our data-driven approach is designed to improve search rankings, attract 
-                        qualified organic traffic, and build long-term search authority.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">PPC Services in Dubai</h4>
-                <p class="new-cta-footer-text">We create and manage targeted PPC campaigns across platforms such as Google Ads, Bing Ads, 
-                    and social advertising channels. From keyword research and ad creation to audience targeting, bid management, landing page
-                     optimization, and conversion tracking, we focus on generating qualified leads, increasing conversions, and maximizing your
-                      advertising ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Performance Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We build full-funnel performance marketing campaigns that connect strategy, media, creative, and 
-                    data. From audience research and campaign planning to paid acquisition, conversion optimization, retargeting, and performance 
-                    analysis, we continuously optimize campaigns to drive measurable growth, stronger customer acquisition, and improved ROI.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Social Media Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We manage social media marketing from strategy and content planning to creative development, publishing,
-                     community engagement, paid social campaigns, and performance reporting. Across platforms such as Facebook, Instagram, LinkedIn, TikTok,
-                      and X, we help brands build awareness, engage their audience, and strengthen their digital presence.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Email Marketing Services in Dubai</h4>
-                <p class="new-cta-footer-text">We deliver end-to-end email marketing campaigns that help businesses connect with prospects and customers throughout
-                     their journey. From audience segmentation and campaign strategy to email design, personalized messaging, automation, list management, and 
-                     performance analysis, we create campaigns that nurture leads, drive engagement, and encourage repeat conversions.</p>
-                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Branding Services in Dubai</h4>
-                <p class="new-cta-footer-text">We develop complete brand identities that help businesses stand out in competitive markets. Our branding services 
-                    cover brand strategy, positioning, naming, visual identity, logo design, brand guidelines, creative direction, and storytelling, creating a 
-                    consistent brand experience that builds recognition, credibility, trust, and long-term loyalty.</p>
-
-                    <p class="new-cta-footer-text">We don’t just rely on creativity, nor do we depend on numbers alone. By blending data-driven
-                    insights with results-focused strategies, we create campaigns that engage and convert. For us,
-                    success is about conversions, brand credibility, and long-term customer loyalty. At BrandStory, we
-                    don’t just market your business – we help build its digital legacy.
-                </p>
-            </div>
-
-            <!-- Read More Link -->
-            <div class="mb-3">
-                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
-                    <span>Read more</span>
-                </a>
-            </div>
-
-            <!-- Primary Get In Touch Button -->
-            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
-                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
-                    <span>Get In Touch</span>
-                    <span class="btn-arrow-circle">
-                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const accItems = document.querySelectorAll('.workflow-acc-item');
