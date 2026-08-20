@@ -485,6 +485,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/wordpress-development-company-in-dubai', ['meta' => $meta]);
     }
+    public function wordpressDevelopmentCompanyInDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/wordpress-development-company-in-dubai-2', ['meta' => $meta]);
+    }
     public function megentoWebsiteDevelopmentDubai()
     {
         $meta = [

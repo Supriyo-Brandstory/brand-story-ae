@@ -1,0 +1,336 @@
+/* ==========================================================================
+   WordPress Development Dubai 2 - Custom Styles
+   ========================================================================== */
+
+/* Full-width Background Banner Feature Section */
+.wp-banner-feature-section {
+  position: relative;
+  background-color: #07080c;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+/* Gradient overlay for contrast and text clarity */
+.wp-banner-feature-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.94) 40%, rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.wp-banner-feature-content {
+  position: relative;
+  z-index: 2;
+  max-width: 580px;
+}
+
+.wp-banner-feature-title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.wp-banner-feature-desc {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+.wp-banner-feature-desc a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.wp-banner-feature-desc a:hover {
+  color: #855bff;
+}
+
+@media (max-width: 991px) {
+  .wp-banner-feature-section {
+    padding: 60px 0;
+    min-height: 400px;
+    background-position: 70% center;
+  }
+
+  .wp-banner-feature-section::before {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.95) 55%, rgba(0, 0, 0, 0.85) 100%);
+  }
+
+  .wp-banner-feature-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wp-banner-feature-section {
+    padding: 45px 0;
+    min-height: auto;
+  }
+
+  .wp-banner-feature-title {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .wp-banner-feature-desc {
+    font-size: 14.5px;
+    line-height: 1.65;
+  }
+}
+
+/* ==========================================================================
+   WordPress Development Process Flow Section
+   ========================================================================== */
+.wp-process-flow-section {
+  background-color: #08090d;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.wp-process-flow-title {
+  color: #fff;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.wp-process-flow-wrapper {
+  display: grid;
+  grid-template-columns: 27% 1fr;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.wp-process-flow-steps-panel {
+  background-color: #121319;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: fit-content;
+}
+
+.wp-process-flow-steps-hdr {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+
+.wp-process-flow-tab {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background-color: #16171d;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wp-process-flow-tab svg {
+  width: 16px;
+  height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease;
+}
+
+.wp-process-flow-tab:hover {
+  background-color: #1d1e26;
+  border-color: rgba(133, 91, 255, 0.3);
+  color: #fff;
+}
+
+.wp-process-flow-tab.active {
+  background-color: #855BFF;
+  border-color: #855BFF;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(133, 91, 255, 0.35);
+}
+
+.wp-process-flow-tab.active svg {
+  color: #fff;
+}
+
+.wp-process-flow-content-panel {
+  position: relative;
+  min-height: 380px;
+}
+
+.wp-process-flow-pane {
+  display: none;
+  background-color: #121319;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 32px;
+  height: 100%;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.wp-process-flow-pane.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wp-process-pane-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 16px;
+}
+
+.wp-process-pane-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.wp-process-pane-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(133, 91, 255, 0.12);
+  border: 1px solid rgba(133, 91, 255, 0.25);
+  color: #855BFF;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.wp-process-pane-badge svg {
+  width: 12px;
+  height: 12px;
+  stroke-width: 3px;
+}
+
+.wp-process-pane-body {
+  display: grid;
+  grid-template-columns: 39% 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.wp-process-pane-img {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wp-process-pane-img img {
+  width: 100%;
+  display: block;
+}
+
+.wp-process-pane-text {
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .wp-process-flow-wrapper {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+  }
+
+  .wp-process-flow-content-panel {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .wp-process-flow-pane {
+    padding: 20px;
+  }
+
+  .wp-process-pane-hdr {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .wp-process-pane-body {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .wp-process-pane-img img {
+    height: 200px;
+  }
+}
+
+.performance-intro-section,
+.performance-results-section {
+  padding-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .premium-hero-slider {
+    padding-top: 0%;
+    padding-bottom: 0px;
+  }
+
+  .performance-intro-section,
+  .performance-results-section {
+    padding-bottom: 0px;
+  }
+
+  .wp-process-pane-title {
+    font-size: 22px;
+  }
+
+  .wp-process-pane-text {
+    font-size: 16px;
+  }
+
+  .wp-process-flow-section {
+    background-color: #08090d;
+    padding: 50px 0 0;
+  }
+}
