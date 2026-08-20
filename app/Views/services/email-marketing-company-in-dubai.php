@@ -1810,6 +1810,14 @@
     </div>
 </section>
 
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
 <!-- Complementing Services section -->
 <section class="premium-industries-section">
     <div class="container">
