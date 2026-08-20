@@ -7,9 +7,9 @@
       <div class="container">
         <div class="premium-slide-content">
           <h1 class="premium-slide-title">
-            <span class="premium-purple-highlight">WordPress</span> Development Company <br>in Dubai
+            Best <span class="premium-purple-highlight">WordPress Development </span><br>Company in Dubai, UAE
           </h1>
-          <p class="premium-slide-subtitle">BrandStory is one of the premier WordPress website development agencies in Dubai, UAE. We provide high-performance, secure, and scalable web solutions for enterprises, SMEs, and startups looking to dominate their niche in the GCC market.</p>
+          <p class="premium-slide-subtitle">BrandStory is among Dubai's leading WordPress website development agencies. We offer high-performance, secure, and scalable website solutions for enterprises, SMEs, and startups looking to build a distinctive online presence.</p>
           <div class="premium-slide-actions">
             <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
               <span>Talk to Experts</span>
@@ -45,14 +45,14 @@
       <!-- Right Side: Content -->
       <div class="col-lg-6">
         <div class="premium-perf-content">
-          <h2 class="premium-perf-title">Expert WordPress Web Development in Dubai</h2>
+          <h2 class="premium-perf-title">Expert WordPress Web Development Services in Dubai</h2>
           <ul class="premium-perf-list">
             <li>A website is the digital storefront of your business and plays a crucial role in creating impression. At BrandStory, we specialize in building professional, reliable, and user-first WordPress websites that go beyond aesthetics- delivering seamless functionality, better performance, and converting visitors into loyal customers.</li>
             <li>With years of experience in the UAE market, our team of expert developers and designers understand the technical intricacies of the WordPress ecosystem. We focus on creating cleanly coded, mobile-responsive, and SEO-friendly websites that provide an excellent foundation for your brand's digital growth.</li>
             <li>Whether you need a custom-built solution from scratch, template-based website design or a high-performance revamp of your existing site, we deliver results that are aligned with your business strategy and budget.</li>
           </ul>
           <div class="premium-perf-action">
-            <a href="/about/" class="premium-perf-btn">Know About Us</a>
+            <a href="/website-design-company-in-dubai/" class="premium-perf-btn">Know About Us</a>
           </div>
         </div>
       </div>
@@ -66,8 +66,8 @@
     <div class="row">
       <div class="col-lg-6 col-md-8">
         <div class="wp-banner-feature-content">
-          <h2 class="wp-banner-feature-title">Expert WordPress Web Development<br>in Dubai</h2>
-          <p class="wp-banner-feature-desc">WordPress is among the widely used platform on the web due to its flexibility. At BrandStory, we go beyond basic templates to deliver custom WordPress solutions optimized for performance, security, and search visibility. Whether it’s a business website or a complex <a href="https://www.brandstory.ae/ecommerce-development-company-dubai/">WooCommerce store</a>, we handle everything end-to-end so you can focus on growing your business.</p>
+          <h2 class="wp-banner-feature-title">Custom WordPress Development Services in Dubai</h2>
+          <p class="wp-banner-feature-desc">WordPress is a powerful and flexible platform for building high-performing websites. At BrandStory, we create custom WordPress websites designed for speed, security, seamless user experience, and better search visibility. From professional business websites to advanced WooCommerce stores, our end-to-end WordPress development solutions are tailored to your goals, helping your business build a strong digital presence.</p>
         </div>
       </div>
     </div>
@@ -129,7 +129,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Custom Themes</div>
+            <div class="emcd--box-txt">Custom Designs</div>
           </div>
         </div>
         <!-- Box 2 -->
@@ -556,7 +556,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Analytics & Tracking</div>
+            <div class="emcd--box-txt">CRM Integrations</div>
           </div>
         </div>
       </div>
@@ -767,10 +767,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Left Side: Content -->
       <div class="col-lg-6">
         <div class="pm-results-content">
-          <h2 class="text-white pb-3">Leading Agency for Facebook Advertising</h2>
+          <h2 class="text-white pb-3">Why Choose BrandStory for WordPress Development</h2>
           <ul class="premium-perf-list">
-            <li>Meta's advertising platform is one of the most powerful and most complex digital marketing tool for businesses today. Done right, Facebook Ads can fill your sales pipeline with qualified leads, drive consistent e-commerce sales, and build a brand that UAE consumers recognize and trust. Done wrong, it burns through budget with little to show for it.</li>
-            <li class="pb-0 mb-0">BrandStory's Facebook advertising team combines deep knowledge of Meta Ads Manager, proven campaign structures, UAE-specific audience insights, and in-house creative production to build campaigns that genuinely perform. We manage everything- so your team can stay focused on running your business.</li>
+            <li><b>Custom WordPress Solutions:</b> We build tailored WordPress websites that align with your brand identity, business goals, and unique functional requirements, rather than relying on generic templates.</li>
+            <li><b>Performance, Security & SEO:</b> Our websites are developed with clean code, responsive design, strong security, fast loading speeds, and SEO-friendly architecture to deliver a better user experience and search visibility.</li>
+            <li class="pb-0 mb-0"><b>Complete Development & Support:</b> From initial planning and development to WooCommerce, API integrations, migration, maintenance, and ongoing improvements, our team provides end-to-end WordPress support.</li>
           </ul>
         </div>
       </div>
@@ -783,6 +784,179 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   
   </div>
+</section>
+
+
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
+                    challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
+                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
+                                that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Custom Stats Banner Section -->
@@ -843,55 +1017,106 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </section>
 
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
 <section class="dm-faq-section spb-50">
+
   <div class="container">
     <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
     <div class="dm-faq-main max-1000">
       <div class="accordion accordion-flush" id="accordionFlushExample1">
+
         <!-- FAQ 1 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em1">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> How do I choose the best WordPress agency in Dubai? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em1" aria-expanded="false" aria-controls="flush-collapse-em1"> What WordPress development services does BrandStory offer? </button>
           </h4>
           <div id="flush-collapse-em1" class="accordion-collapse collapse" aria-labelledby="flush-heading-em1" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Choosing the right WordPress agency in Dubai involves evaluating their experience, technical expertise, and understanding of your business goals. Look for an agency with a strong portfolio, proven results, and the ability to deliver customized solutions rather than relying on generic templates. At BrandStory, we focus on building WordPress websites that are not only visually appealing but also optimized for speed, functionality, and long-term growth, ensuring your investment delivers real business value.</p>
+              <p class="fs-16 mb-0">BrandStory offers custom WordPress development, website design, WooCommerce development, plugin customization, API integration, migration, maintenance, security, and performance optimization. We create scalable WordPress solutions tailored to your business requirements and goals.</p>
             </div>
           </div>
         </div>
+
         <!-- FAQ 2 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> Are WordPress websites SEO-friendly for the UAE market? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em2" aria-expanded="false" aria-controls="flush-collapse-em2"> How much does WordPress website development cost in Dubai? </button>
           </h4>
           <div id="flush-collapse-em2" class="accordion-collapse collapse" aria-labelledby="flush-heading-em2" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Yes, WordPress is highly SEO-friendly and well-suited for the UAE market when implemented correctly. It offers flexibility in optimizing site structure, meta data, content, and performance, which are critical for search engine rankings. At BrandStory, we develop WordPress websites with clean code, fast loading speeds, mobile responsiveness, and proper SEO configurations. We also ensure your website aligns with local search behavior, helping you improve visibility, attract targeted traffic, and compete effectively in the UAE digital landscape.</p>
+              <p class="fs-16 mb-0">The cost of WordPress development in Dubai depends on your website's design, features, integrations, and functionality requirements ranging between AED 10,000 and AED 50,000. BrandStory provides customized solutions based on your business objectives, helping you invest in the features that deliver real value.</p>
             </div>
           </div>
         </div>
+
         <!-- FAQ 3 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> Can you revamp my existing WordPress website? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em3" aria-expanded="false" aria-controls="flush-collapse-em3"> Can BrandStory create a custom WordPress website from scratch? </button>
           </h4>
           <div id="flush-collapse-em3" class="accordion-collapse collapse" aria-labelledby="flush-heading-em3" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Absolutely. BrandStory specializes in revamping and upgrading existing WordPress websites to improve design, performance, and functionality. Whether your website needs a modern redesign, better user experience, faster loading speed, or enhanced features, we analyze the current structure and implement strategic improvements. Our goal is to transform your existing website into a high-performing platform that aligns with your brand and delivers better engagement and conversions.</p>
+              <p class="fs-16 mb-0">Yes, BrandStory develops custom WordPress websites from the ground up based on your brand identity, business objectives, and functionality requirements. Our websites are built for responsive performance, scalability, SEO, and a seamless user experience.</p>
             </div>
           </div>
         </div>
+
         <!-- FAQ 4 -->
         <div class="accordion-item">
           <h4 class="accordion-header" id="flush-heading-em4">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> Is my WordPress website secure with BrandStory? </button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em4" aria-expanded="false" aria-controls="flush-collapse-em4"> Can you redesign or migrate my existing WordPress website? </button>
           </h4>
           <div id="flush-collapse-em4" class="accordion-collapse collapse" aria-labelledby="flush-heading-em4" data-bs-parent="#accordionFlushExample1">
             <div class="accordion-body text-white">
-              <p class="fs-16 mb-0">Keeping your website secure and running smoothly is our top priority. We implement industry-standard practices such as secure coding, regular updates, SSL integration, and advanced security configurations to protect your website from vulnerabilities. Our approach includes monitoring, backups, and protection against common threats to ensure your website remains safe and reliable. With our proactive security measures, you can confidently operate your WordPress website without worrying about data breaches or performance issues.</p>
+              <p class="fs-16 mb-0">Yes, we can redesign, upgrade, or migrate your existing WordPress website while preserving important content and functionality. Our team focuses on improving design, performance, security, user experience, and overall website structure.</p>
             </div>
           </div>
         </div>
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em5" aria-expanded="false" aria-controls="flush-collapse-em5"> Does BrandStory develop WooCommerce websites? </button>
+          </h4>
+          <div id="flush-collapse-em5" class="accordion-collapse collapse" aria-labelledby="flush-heading-em5" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">Yes, BrandStory develops customized WooCommerce websites with product management, payment gateway integration, shipping features, and essential e-commerce functionality. We build secure and user-friendly online stores designed to support business growth.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em6" aria-expanded="false" aria-controls="flush-collapse-em6"> Are BrandStory's WordPress websites SEO-friendly? </button>
+          </h4>
+          <div id="flush-collapse-em6" class="accordion-collapse collapse" aria-labelledby="flush-heading-em6" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">Yes, we develop WordPress websites with SEO-friendly structures, responsive designs, clean implementation, and optimized performance. This provides a strong technical foundation for improving search visibility and attracting relevant organic traffic.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="flush-heading-em7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-em7" aria-expanded="false" aria-controls="flush-collapse-em7"> Does BrandStory provide WordPress maintenance and support? </button>
+          </h4>
+          <div id="flush-collapse-em7" class="accordion-collapse collapse" aria-labelledby="flush-heading-em7" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body text-white">
+              <p class="fs-16 mb-0">Yes, we provide ongoing WordPress maintenance and support to keep your website secure, updated, and performing efficiently. Services can include updates, backups, security monitoring, bug fixes, performance optimization, and technical assistance.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
+</section>

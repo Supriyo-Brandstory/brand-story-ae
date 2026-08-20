@@ -526,6 +526,7 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
 </section>
 
+
 <section class="site-faq sp-50">
     <div class="container"><!--Container Start-->
         <h2 class="text-center">Frequently Asked Questions</h2>
