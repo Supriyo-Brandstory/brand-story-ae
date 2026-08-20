@@ -405,7 +405,7 @@
 <section class="ppc-why-choose-section">
     <div class="container">
         <h2 class="ppc-why-choose-title">Redefining PPC Advertising<br> in Dubai, UAE</h2>
-        <div class="row align-items-center">
+        <div class="row align-items-stretch">
             <!-- Left Side: Image -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="ppc-why-choose-img-card">

@@ -6969,11 +6969,9 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .ppc-accordion-card {
-    background: #ffffff;
-    border-radius: 20px;
-    border: 1px solid #e5e7eb;
-    overflow: hidden;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
 
 .ppc-accordion {
@@ -6982,14 +6980,16 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .ppc-accordion-item {
-    background: transparent !important;
-    border: none !important;
-    border-bottom: 1px solid #eef2f6 !important;
-    border-radius: 0 !important;
+    background: #16171d !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    margin-bottom: 16px !important;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .ppc-accordion-item:last-child {
-    border-bottom: none !important;
+    margin-bottom: 0 !important;
 }
 
 .ppc-accordion-header {
@@ -7002,8 +7002,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-    padding: 22px 28px !important;
-    font-size: 18px !important;
+    padding: 24px 28px !important;
+    font-size: 24px !important;
     font-weight: 600 !important;
     line-height: 1.4 !important;
     font-family: 'Poppins', sans-serif, inherit !important;
@@ -7012,6 +7012,9 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     outline: none !important;
     box-shadow: none !important;
     cursor: pointer;
+    background-color: #16171d !important;
+    color: #ffffff !important;
+    border-radius: 16px !important;
     transition: background-color 0.25s ease, color 0.25s ease !important;
 }
 
@@ -7023,64 +7026,83 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 /* Collapsed state */
 .ppc-accordion-btn.accordion-button.collapsed {
-    background-color: #ffffff !important;
-    color: #1f2937 !important;
+    background-color: #16171d !important;
+    color: #ffffff !important;
 }
 
 .ppc-accordion-btn.accordion-button.collapsed:hover {
-    background-color: #f8fafc !important;
+    background-color: #1f2029 !important;
 }
 
 /* Expanded / Active state */
 .ppc-accordion-btn.accordion-button:not(.collapsed) {
-    background-color: #ebf3fe !important;
-    color: #1a6ff8 !important;
-    border-bottom: 1px solid #dbeafe !important;
+    background-color: #855BFF !important;
+    color: #ffffff !important;
+}
+
+.ppc-accordion-btn.accordion-button:not(.collapsed):hover {
+    background-color: #855BFF !important;
 }
 
 .ppc-accordion-arrow {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
     flex-shrink: 0;
     margin-left: 16px;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
-    color: #374151;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease, color 0.3s ease !important;
 }
 
 .ppc-accordion-arrow svg {
-    width: 20px;
-    height: 20px;
-    stroke-width: 2.2;
+    width: 18px !important;
+    height: 18px !important;
+    stroke: currentColor;
+    stroke-width: 2.5;
 }
 
 /* Rotated arrow for active/open item */
 .ppc-accordion-btn.accordion-button:not(.collapsed) .ppc-accordion-arrow {
     transform: rotate(180deg);
-    color: #1a6ff8 !important;
+    background-color: #ffffff !important;
+    color: #855BFF !important;
 }
 
 .ppc-accordion-btn.accordion-button.collapsed .ppc-accordion-arrow {
     transform: rotate(0deg);
-    color: #4b5563;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+}
+
+/* Active parent card styling */
+.ppc-accordion-item:has(.accordion-button:not(.collapsed)) {
+    background-color: #855BFF !important;
+    border-color: #855BFF !important;
+    box-shadow: 0 10px 30px rgba(133, 91, 255, 0.25) !important;
 }
 
 .ppc-accordion-body {
-    background-color: #ffffff !important;
-    padding: 24px 28px !important;
-    color: #4b5563 !important;
-    font-size: 16px !important;
-    line-height: 1.7 !important;
+    background-color: transparent !important;
+    padding: 0 28px 24px 28px !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px !important;
+    line-height: 1.6 !important;
 }
 
 .ppc-accordion-body p {
-    color: #4b5563 !important;
-    font-size: 16px !important;
-    line-height: 1.7 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px !important;
+    line-height: 1.6 !important;
     margin: 0 !important;
     font-weight: 400 !important;
+}
+
+.ppc-accordion-item:has(.accordion-button:not(.collapsed)) .ppc-accordion-body p {
+    color: #ffffff !important;
 }
 
 /* Responsive adjustments */
@@ -7124,16 +7146,27 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     }
 
     .ppc-accordion-btn.accordion-button {
-        font-size: 16px !important;
+        font-size: 18px !important;
         padding: 16px 20px !important;
     }
 
     .ppc-accordion-body {
-        padding: 18px 20px !important;
+        padding: 0 20px 16px 20px !important;
         font-size: 15px !important;
     }
 
     .ppc-accordion-body p {
         font-size: 15px !important;
+    }
+
+    .ppc-accordion-arrow {
+        width: 32px !important;
+        height: 32px !important;
+        margin-left: 12px !important;
+    }
+
+    .ppc-accordion-arrow svg {
+        width: 16px !important;
+        height: 16px !important;
     }
 }
