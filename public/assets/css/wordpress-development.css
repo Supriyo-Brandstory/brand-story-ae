@@ -296,7 +296,7 @@
   }
 
   .wp-process-pane-body {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 16px;
   }
 
