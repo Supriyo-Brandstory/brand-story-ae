@@ -142,7 +142,7 @@ class FrontendController extends Controller
 
     public function blogRedirect($path)
     {
-        header("Location: /blogs/" . trim($path, '/'), true, 301);
+        header("Location: /blogs/" . trim($path, '/') . '/', true, 301);
         exit;
     }
 

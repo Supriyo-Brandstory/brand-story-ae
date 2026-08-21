@@ -684,7 +684,7 @@ if (!function_exists('base_url')) {
                                 <div class="blog-card-content">
                                     <div class="blog-card-date"><?= date('F d, Y', strtotime($blog_post['created_at'])) ?></div>
                                     <h4 class="blog-card-title">
-                                        <?php $postUrl = base_url('blogs/' . $blog_post['slug']); ?>
+                                        <?php $postUrl = base_url('blogs/' . $blog_post['slug'] . '/'); ?>
                                         <a href="<?= $postUrl ?>"><?= htmlspecialchars($blog_post['title']) ?></a>
                                     </h4>
                                     <p class="blog-card-desc"><?= htmlspecialchars(substr(strip_tags($blog_post['description']), 0, 110)) ?>...</p>

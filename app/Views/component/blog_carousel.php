@@ -170,13 +170,13 @@ if (empty($blogs)) {
               </div>
               <div class="blog-carousel-card-body">
                 <h3 class="blog-carousel-card-title">
-                  <a href="<?= base_url('blogs/' . $b_slug) ?>"><?= htmlspecialchars($b_title) ?></a>
+                  <a href="<?= base_url('blogs/' . $b_slug . '/') ?>"><?= htmlspecialchars($b_title) ?></a>
                 </h3>
                 <p class="blog-carousel-card-excerpt">
                   <?= htmlspecialchars(substr(strip_tags($b_desc), 0, 120)) ?>...
                 </p>
                 <div class="blog-carousel-card-footer mt-auto pt-3">
-                  <a href="<?= base_url('blogs/' . $b_slug) ?>" class="blog-carousel-read-more">
+                  <a href="<?= base_url('blogs/' . $b_slug . '/') ?>" class="blog-carousel-read-more">
                     <span>Read Article</span>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                       <line x1="5" y1="12" x2="19" y2="12"></line>

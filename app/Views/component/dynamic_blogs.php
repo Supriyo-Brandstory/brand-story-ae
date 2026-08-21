@@ -42,10 +42,10 @@ $blogs = $blogModel->query($sql, $params);
                                 <div class="swiper-slide">
                                     <div class="latest-blog-main">
                                         <img class="w-100 dm-blog-img" src="<?= $blog['image'] ? base_url($blog['image']) : base_url('assets/images/blog/blog-img-1.webp') ?>" alt="<?= htmlspecialchars($blog['title']) ?>">
-                                        <h3><a href="/blogs/<?= $blog['slug'] ?>" style="color: #000; text-decoration: none;"><?= htmlspecialchars($blog['title']) ?></a></h3>
+                                        <h3><a href="/blogs/<?= $blog['slug'] ?>/" style="color: #000; text-decoration: none;"><?= htmlspecialchars($blog['title']) ?></a></h3>
                                         <p class="fs-20"><?= substr(strip_tags($blog['description']), 0, 150) ?>...</p>
                                         <div class="casestydies-readmore">
-                                            <a href="/blogs/<?= $blog['slug'] ?>">Know more <img src="<?= base_url('assets/images/dm-agency-dubai/readmore-arrow.svg?v=1') ?>"></a>
+                                            <a href="/blogs/<?= $blog['slug'] ?>/">Know more <img src="<?= base_url('assets/images/dm-agency-dubai/readmore-arrow.svg?v=1') ?>"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -212,10 +212,10 @@ $blogs = $blogModel->query($sql, $params);
                 <div class="swiper-slide">
                     <div class="latest-blog-main">
                         <img class="w-100 dm-blog-img" src="${imgPath}" alt="${blog.title}">
-                        <h3><a href="/blogs/${blog.slug}" style="color: #000; text-decoration: none;">${blog.title}</a></h3>
+                        <h3><a href="/blogs/${blog.slug}/" style="color: #000; text-decoration: none;">${blog.title}</a></h3>
                         <p class="fs-20">${description}</p>
                         <div class="casestydies-readmore">
-                            <a href="/blogs/${blog.slug}">Know more <img src="${arrowImg}"></a>
+                            <a href="/blogs/${blog.slug}/">Know more <img src="${arrowImg}"></a>
                         </div>
                     </div>
                 </div>

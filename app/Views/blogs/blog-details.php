@@ -171,33 +171,227 @@
         margin-bottom: 25px;
     }
 
-    /* Inline CTA Banner */
-    .inline-cta-banner {
-        background: linear-gradient(135deg, var(--premium-purple) 0%, #855BFF 100%);
-        color: #fff;
-        border-radius: 12px;
-        padding: 30px;
+    /* Unique Slim Inline CTA Banner - Masterpiece Design */
+    .blog-slim-cta {
+        position: relative;
+        background: linear-gradient(135deg, #120a2e 0%, #1e1147 45%, #2a1463 100%);
+        border-radius: 20px;
+        padding: 24px 28px;
         margin: 40px 0;
+        border: 1px solid rgba(177, 128, 255, 0.35);
+        box-shadow: 0 16px 36px -10px rgba(30, 17, 71, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .blog-slim-cta-bg-glow {
+        position: absolute;
+        top: -60px;
+        right: -60px;
+        width: 180px;
+        height: 180px;
+        background: radial-gradient(circle, rgba(133, 91, 255, 0.35) 0%, rgba(232, 59, 38, 0.15) 60%, transparent 80%);
+        pointer-events: none;
+        filter: blur(20px);
+        transition: transform 0.5s ease;
+    }
+
+    .blog-slim-cta:hover .blog-slim-cta-bg-glow {
+        transform: scale(1.3);
+    }
+
+    .blog-slim-cta:hover {
+        transform: translateY(-3px);
+        border-color: rgba(177, 128, 255, 0.65);
+        box-shadow: 0 22px 48px -10px rgba(30, 17, 71, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    }
+
+    .blog-slim-cta-inner {
+        position: relative;
+        z-index: 2;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 24px;
     }
 
-    .inline-cta-banner h4 {
-        margin: 0;
+    .blog-slim-cta-left {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .blog-slim-cta-icon-wrapper {
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .blog-slim-cta-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(133, 91, 255, 0.25) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.35s ease;
+    }
+
+    .blog-slim-cta:hover .blog-slim-cta-icon {
+        transform: scale(1.08) rotate(4deg);
+    }
+
+    .blog-slim-cta-content {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        min-width: 0;
+    }
+
+    .blog-slim-cta-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.75rem;
         font-weight: 700;
-        font-style: italic;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: #ffda79;
+        background: rgba(255, 218, 121, 0.12);
+        border: 1px solid rgba(255, 218, 121, 0.25);
+        padding: 3px 10px;
+        border-radius: 50px;
+        width: fit-content;
+        margin-bottom: 2px;
     }
 
-    .inline-cta-banner .cta-btn {
-        background-color: #e83b26;
-        color: #fff;
-        padding: 12px 25px;
-        border-radius: 50px;
+    .blog-slim-cta-tag .pulse-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #ffda79;
+        box-shadow: 0 0 8px #ffda79;
+        animation: pulseTag 2s infinite ease-in-out;
+    }
+
+    @keyframes pulseTag {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.7); }
+    }
+
+    .blog-slim-cta-title {
+        font-size: 1.2rem;
         font-weight: 800;
-        text-decoration: none;
-        text-transform: uppercase;
+        color: #ffffff;
+        margin: 0;
+        line-height: 1.35;
+        letter-spacing: -0.3px;
+    }
+
+    .blog-slim-cta-desc {
         font-size: 0.9rem;
+        color: #d1c8eb;
+        margin: 0;
+        line-height: 1.45;
+    }
+
+    .blog-slim-cta-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        flex-shrink: 0;
+    }
+
+    .blog-slim-cta-btn {
+        background: #ffffff;
+        color: #1a0b38 !important;
+        font-weight: 800;
+        font-size: 0.92rem;
+        padding: 12px 24px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        border: 1px solid #ffffff;
+    }
+
+    .blog-slim-cta-btn i {
+        font-size: 1.1rem;
+        transition: transform 0.25s ease;
+    }
+
+    .blog-slim-cta-btn:hover {
+        background: #f4eeff;
+        color: #1a0b38 !important;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .blog-slim-cta-btn:hover i {
+        transform: translateX(4px);
+    }
+
+    .blog-slim-cta-subtext {
+        font-size: 0.75rem;
+        color: #b5a9db;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .blog-slim-cta-subtext i {
+        color: #38ef7d;
+        font-size: 0.8rem;
+    }
+
+    @media (max-width: 767px) {
+        .blog-slim-cta {
+            padding: 20px 18px;
+            border-radius: 16px;
+        }
+
+        .blog-slim-cta-inner {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 18px;
+        }
+
+        .blog-slim-cta-left {
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .blog-slim-cta-title {
+            font-size: 1.05rem;
+        }
+
+        .blog-slim-cta-desc {
+            font-size: 0.85rem;
+        }
+
+        .blog-slim-cta-right {
+            width: 100%;
+            align-items: stretch;
+        }
+
+        .blog-slim-cta-btn {
+            width: 100%;
+            justify-content: center;
+            padding: 13px 20px;
+        }
+
+        .blog-slim-cta-subtext {
+            justify-content: center;
+        }
     }
 
     /* Right Sidebar */
@@ -771,16 +965,47 @@
                         <a href="https://chatgpt.com/?q=<?= urlencode("Please summarize this article for me: " . current_url()) ?>" target="_blank" class="summary-btn">Summarize with AI</a>
                     </div>
 
+
                     <div id="tabel-00" class="blog-description">
                         <?= $blog['description'] ?>
 
-                        <!-- Inline CTA Example -->
-                        <div class="inline-cta-banner">
-                            <div class="cta-text">
-                                <h5>How does your website score?</h5>
-                                <p class="mb-0">Get a free instant audit of your SEO issues.</p>
+                        <!-- End of Article Slim CTA Banner -->
+                        <div class="blog-slim-cta">
+                            <div class="blog-slim-cta-bg-glow"></div>
+                            <div class="blog-slim-cta-inner">
+                                <div class="blog-slim-cta-left">
+                                    <div class="blog-slim-cta-icon-wrapper">
+                                        <div class="blog-slim-cta-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="url(#starGrad1)" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <defs>
+                                                    <linearGradient id="starGrad1" x1="2" y1="2" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#FFD700"/>
+                                                        <stop offset="1" stop-color="#FF5E62"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="blog-slim-cta-content">
+                                        <div class="blog-slim-cta-tag">
+                                            <span class="pulse-dot"></span>
+                                            <span>Performance Driven</span>
+                                        </div>
+                                        <h4 class="blog-slim-cta-title">Looking for Measurable Business Growth?</h4>
+                                        <p class="blog-slim-cta-desc">Partner with BrandStory for end-to-end digital & creative excellence.</p>
+                                    </div>
+                                </div>
+                                <div class="blog-slim-cta-right">
+                                    <a href="<?= route('contact') ?>" class="blog-slim-cta-btn">
+                                        <span>Talk to Our Experts</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                    <div class="blog-slim-cta-subtext">
+                                        <i class="bi bi-check-circle-fill"></i> Data-driven ROI solutions
+                                    </div>
+                                </div>
                             </div>
-                            <a href="<?= route('contact') ?>" class="cta-btn">Get Graded Today</a>
                         </div>
                     </div>
 
@@ -1112,7 +1337,7 @@
                                     <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
                                     <h6>
                                         <?php
-                                        $relUrl = base_url('blogs/' . $related_blog['slug']);
+                                        $relUrl = base_url('blogs/' . $related_blog['slug'] . '/');
                                         ?>
                                         <a href="<?= $relUrl ?>" style="text-decoration:none;color:#000">
                                             <?= htmlspecialchars($related_blog['title']) ?>
