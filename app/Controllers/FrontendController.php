@@ -507,6 +507,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/magento-website-development-dubai', ['meta' => $meta]);
     }
+    public function megentoWebsiteDevelopmentDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/magento-website-development-dubai-2', ['meta' => $meta]);
+    }
     public function durpalWebsiteDevelopmentCompanyInDubai()
     {
         $meta = [
@@ -520,6 +527,13 @@ class FrontendController extends Controller
             'classname' => 'dm-page service-page'
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
+    }
+    public function ecommerceDevelopmentCompanyInDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/ecommerce-development-company-dubai-2', ['meta' => $meta]);
     }
     public function laravelDevelopmentCompanyInDubai()
     {

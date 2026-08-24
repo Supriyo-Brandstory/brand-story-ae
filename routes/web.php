@@ -73,8 +73,10 @@ Route::get('/shopify-development-company-in-dubai', 'FrontendController@shopifyD
 Route::get('/wix-development-company-in-dubai', 'FrontendController@wixDevelopmentCompanyInDubai', 'wixdevelopmentcompanyindubai');
 Route::get('/webflow-development-company-in-dubai', 'FrontendController@webflowDevelopmentCompanyInDubai', 'webflowdevelopmentcompanyindubai');
 Route::get('/magento-website-development-dubai', 'FrontendController@megentoWebsiteDevelopmentDubai', 'megentowebsitedevelopmentdubai');
+Route::get('/magento-website-development-dubai-2', 'FrontendController@megentoWebsiteDevelopmentDubai2', 'megentowebsitedevelopmentdubai2');
 Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai', 'durpalwebsitedevelopmentcompanyindubai');
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
+Route::get('/ecommerce-development-company-dubai-2', 'FrontendController@ecommerceDevelopmentCompanyInDubai2', 'ecommercedevelopmentcompanyindubai2');
 Route::get('/conversion-rate-optimization-agency-dubai', 'FrontendController@conversionRateOptimizationAgencyDubai', 'conversionrateoptimizationagencydubai');
 Route::get('/clear-cache', 'FrontendController@clearCache', 'clear.cache');
 Route::get('/seo-calculator', 'FrontendController@seoCalculator', 'seo.calculator');
