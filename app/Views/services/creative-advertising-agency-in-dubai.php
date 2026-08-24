@@ -1420,7 +1420,7 @@ include __DIR__ . '/../component/client_reviews.php';
 ?>
 
 
-<section class="dm-faq-section spb-50">
+<section class="dm-faq-section sp-50">
   <div class="container">
     <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
     <div class="dm-faq-main max-1000">
