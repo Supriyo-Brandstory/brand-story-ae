@@ -376,17 +376,17 @@ class FrontendController extends Controller
     public function videoMarketingDubai()
     {
         $meta = [
-            'classname' => 'dm-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/video-marketing-agency-dubai', ['meta' => $meta]);
     }
-    public function videoMarketingDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/video-marketing-agency-dubai-2', ['meta' => $meta]);
-    }
+    // public function videoMarketingDubai2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/video-marketing-agency-dubai-2', ['meta' => $meta]);
+    // }
     public function facebookMarketingDubai()
     {
         $meta = [
@@ -473,33 +473,33 @@ class FrontendController extends Controller
     public function creativeAdvertisingAgencyDubai()
     {
         $meta = [
-            'classname' => 'dm-page service-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/creative-advertising-agency-in-dubai', ['meta' => $meta]);
     }
 
-    public function creativeAdvertisingAgencyDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/creative-advertising-agency-in-dubai-2', ['meta' => $meta]);
-    }
+    // public function creativeAdvertisingAgencyDubai2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/creative-advertising-agency-in-dubai-2', ['meta' => $meta]);
+    // }
 
     public function wordpressDevelopmentCompanyInDubai()
     {
         $meta = [
-            'classname' => 'dm-page service-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/wordpress-development-company-in-dubai', ['meta' => $meta]);
     }
-    public function wordpressDevelopmentCompanyInDubai2()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/wordpress-development-company-in-dubai-2', ['meta' => $meta]);
-    }
+    // public function wordpressDevelopmentCompanyInDubai2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/wordpress-development-company-in-dubai-2', ['meta' => $meta]);
+    // }
     public function megentoWebsiteDevelopmentDubai()
     {
         $meta = [

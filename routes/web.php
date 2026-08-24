@@ -46,7 +46,7 @@ Route::get('/search-engine-marketing-agency-in-dubai', 'FrontendController@searc
 Route::get('/ecommerce-seo-services-in-dubai', 'FrontendController@ecommerceSeoServicesDubai', 'ecommerceseoservicesdubai');
 Route::get('/local-seo-services-in-dubai', 'FrontendController@localSeoServicesDubai', 'localseoservicesdubai');
 Route::get('/video-marketing-agency-dubai', 'FrontendController@videoMarketingDubai', 'videomarketingdubai');
-Route::get('/video-marketing-agency-dubai-2', 'FrontendController@videoMarketingDubai2', 'videomarketingdubai2');
+// Route::get('/video-marketing-agency-dubai-2', 'FrontendController@videoMarketingDubai2', 'videomarketingdubai2');
 Route::get('/facebook-marketing-agency-in-dubai', 'FrontendController@facebookMarketingDubai', 'facebookmarketingdubai');
 // Route::get('/facebook-marketing-agency-in-dubai-2', 'FrontendController@facebookMarketingDubai2', 'facebookmarketingdubai2');
 
@@ -63,9 +63,9 @@ Route::get('/ui-ux-design-company-in-dubai', 'FrontendController@uiuxDesignCompa
 Route::get('/logo-designing-dubai', 'FrontendController@logoDesigningDubai', 'logodesigningdubai');
 // Route::get('/logo-designing-company-in-dubai-2', 'FrontendController@logoDesigningDubai2', 'logodesigningdubai2');
 Route::get('/creative-advertising-agency-in-dubai', 'FrontendController@creativeAdvertisingAgencyDubai', 'creativeadvertisingagencydubai');
-Route::get('/creative-advertising-agency-in-dubai-2', 'FrontendController@creativeAdvertisingAgencyDubai2', 'creativeadvertisingagencydubai2');
+// Route::get('/creative-advertising-agency-in-dubai-2', 'FrontendController@creativeAdvertisingAgencyDubai2', 'creativeadvertisingagencydubai2');
 Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpressDevelopmentCompanyInDubai', 'wordpressdevelopmentcompanyindubai');
-Route::get('/wordpress-development-company-in-dubai-2', 'FrontendController@wordpressDevelopmentCompanyInDubai2', 'wordpressdevelopmentcompanyindubai2');
+// Route::get('/wordpress-development-company-in-dubai-2', 'FrontendController@wordpressDevelopmentCompanyInDubai2', 'wordpressdevelopmentcompanyindubai2');
 Route::get('/laravel-development-company-in-dubai', 'FrontendController@laravelDevelopmentCompanyInDubai', 'laraveldevelopmentcompanyindubai');
 Route::get('/angular-development-company-in-dubai', 'FrontendController@angularDevelopmentCompanyInDubai', 'angulardevelopmentcompanyindubai');
 Route::get('/nextjs-development-company-in-dubai', 'FrontendController@nextjsDevelopmentCompanyInDubai', 'nextjsdevelopmentcompanyindubai');
