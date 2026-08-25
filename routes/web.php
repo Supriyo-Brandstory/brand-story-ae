@@ -75,6 +75,7 @@ Route::get('/webflow-development-company-in-dubai', 'FrontendController@webflowD
 Route::get('/magento-website-development-dubai', 'FrontendController@megentoWebsiteDevelopmentDubai', 'megentowebsitedevelopmentdubai');
 Route::get('/magento-website-development-dubai-2', 'FrontendController@megentoWebsiteDevelopmentDubai2', 'megentowebsitedevelopmentdubai2');
 Route::get('/drupal-website-development-company-in-dubai', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai', 'durpalwebsitedevelopmentcompanyindubai');
+Route::get('/drupal-website-development-company-in-dubai-2', 'FrontendController@durpalWebsiteDevelopmentCompanyInDubai2', 'durpalwebsitedevelopmentcompanyindubai2');
 Route::get('/ecommerce-development-company-dubai', 'FrontendController@ecommerceDevelopmentCompanyInDubai', 'ecommercedevelopmentcompanyindubai');
 Route::get('/ecommerce-development-company-dubai-2', 'FrontendController@ecommerceDevelopmentCompanyInDubai2', 'ecommercedevelopmentcompanyindubai2');
 Route::get('/conversion-rate-optimization-agency-dubai', 'FrontendController@conversionRateOptimizationAgencyDubai', 'conversionrateoptimizationagencydubai');

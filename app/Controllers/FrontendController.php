@@ -521,6 +521,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/drupal-website-development-company-in-dubai', ['meta' => $meta]);
     }
+    public function durpalWebsiteDevelopmentCompanyInDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/drupal-website-development-company-in-dubai-2', ['meta' => $meta]);
+    }
     public function ecommerceDevelopmentCompanyInDubai()
     {
         $meta = [
