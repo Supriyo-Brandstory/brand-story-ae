@@ -1429,10 +1429,9 @@
 <section class="premium-showcase-section">
     <div class="premium-showcase-container container">
         <div class="row">
-            <div class="col-md-8 col-lg-6">
-                <h2 class="premium-showcase-title">Marketing Agency In Dubai</h2>
-                <p class="premium-showcase-subtitle">At BrandStory UAE, we blend creativity, strategy, and innovation to
-                    help brands stay relevant, visible, and ahead in an ever-changing digital ecosystem.</p>
+            <div class="col-md-8">
+                <h2 class="premium-showcase-title">Top Branding Agency in Dubai</h2>
+                <p class="premium-showcase-subtitle">At BrandStory, we transform businesses into unforgettable brands. Through strategy-led creativity, powerful storytelling, and iconic visual identities, we build brands that lead, convert, and thrive in Dubai's competitive digital ecosystem.</p>
                 <div class="premium-showcase-action">
                     <a href="/contact/" class="premium-showcase-btn">
                         <span>Get In Touch</span>
