@@ -152,6 +152,79 @@
         color: #fff;
     }
 
+    /* Normal CTA Box (After Summary) */
+    .blog-normal-cta-box {
+        background: linear-gradient(135deg, #0e0d1a 0%, #1a1733 100%);
+        border: 1px solid rgba(132, 94, 247, 0.25);
+        border-radius: 16px;
+        padding: 24px 28px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .blog-normal-cta-content h5 {
+        color: #ffffff;
+        margin: 0;
+        font-weight: 700;
+        font-size: 1.15rem;
+    }
+
+    .blog-normal-cta-content p {
+        color: #b0b0cb;
+        margin: 6px 0 0;
+        font-size: 0.92rem;
+    }
+
+    .blog-normal-cta-btn {
+        background: #845EF7;
+        color: #ffffff !important;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        text-decoration: none !important;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+        box-shadow: 0 6px 20px rgba(132, 94, 247, 0.4);
+    }
+
+    .blog-normal-cta-btn:hover {
+        background: #7048e8;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(132, 94, 247, 0.6);
+        color: #ffffff !important;
+    }
+
+    .blog-normal-cta-btn i {
+        transition: transform 0.3s ease;
+    }
+
+    .blog-normal-cta-btn:hover i {
+        transform: translateX(4px);
+    }
+
+    @media (max-width: 768px) {
+        .blog-normal-cta-box {
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .blog-normal-cta-btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
     /* Article Body */
     .blog-description {
         font-size: 1.15rem;
@@ -964,6 +1037,9 @@
                         </div>
                         <a href="https://chatgpt.com/?q=<?= urlencode("Please summarize this article for me: " . current_url()) ?>" target="_blank" class="summary-btn">Summarize with AI</a>
                     </div>
+
+                  
+
 
 
                     <div id="tabel-00" class="blog-description">
