@@ -309,9 +309,19 @@ class FrontendController extends Controller
     // }
     public function websiteDesignDubai()
     {
-        $meta = [];
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+
+        ];
         return $this->view('services/website-design-company-in-dubai', ['meta' => $meta]);
     }
+    // public function websiteDesignDubai2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/website-design-company-in-dubai-2', ['meta' => $meta]);
+    // }
     public function websiteDevelopmentDubai()
     {
         $meta = [];

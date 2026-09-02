@@ -35,6 +35,7 @@ Route::get('/robots.txt', 'RobotsController@index', 'robots');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
 // Route::get('/branding-agency-in-dubai-2', 'FrontendController@brandAgencyDubai2', 'brandagencydubai2');
 Route::get('/website-design-company-in-dubai', 'FrontendController@websiteDesignDubai', 'websitedesigndubai');
+Route::get('/website-design-company-in-dubai-2', 'FrontendController@websiteDesignDubai2', 'websitedesigndubai2');
 Route::get('/website-development-company-in-dubai', 'FrontendController@websiteDevelopmentDubai', 'websitedevelopmentdubai');
 Route::get('/full-funnel-performance-marketing', 'FrontendController@fullFunnelPerformanceMarketing', 'fullFunnelPerformanceMarketing');
 Route::get('/email-marketing-company-in-dubai', 'FrontendController@emailMarketingDubai', 'emailmarketingdubai');
