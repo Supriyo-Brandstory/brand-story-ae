@@ -55,20 +55,15 @@
   <div class="digital-exp-slider-wrap">
     <div class="digital-exp-slider-track">
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/case-01.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-15.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/case-02.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-16.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/case-03.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-17.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img">
       </div>
-      <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/case-04.webp") ?>" alt="BrandStory Web Design Case Study 4" class="portfolio-card-img">
-      </div>
-      <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/case-05.webp") ?>" alt="BrandStory Web Design Case Study 5" class="portfolio-card-img">
-      </div>
+      
     </div>
   </div>
 
@@ -253,11 +248,11 @@
       </h2>
     </div>
 
-    <div class="row align-items-center g-4 g-lg-5">
+    <div class="row align-items-stretch g-4 g-lg-5">
       <!-- Left: Mobile Image Mockup -->
       <div class="col-lg-5">
         <div class="mobile-mockup-wrap">
-          <img src="<?= base_url("assets/images/mobile.webp") ?>" alt="What's Standing Between You and Digital Growth" class="img-fluid mobile-mockup-img">
+          <img src="<?= base_url("assets/images/web-design-18.webp") ?>" alt="What's Standing Between You and Digital Growth" class="img-fluid mobile-mockup-img">
         </div>
       </div>
 
@@ -306,7 +301,7 @@
 </section>
 
 <!-- Our Process Section -->
- <?/*
+
 <section class="our-process-section">
   <div class="container">
     <h2 class="process-section-title">Our Process</h2>
@@ -340,13 +335,13 @@
       <!-- Right Column: Process Illustration Card -->
       <div class="col-lg-7">
         <div class="process-img-card">
-          <img src="<?= base_url("assets/images/wdp-flow1.webp") ?>" alt="User Research Process Illustration" class="process-img" id="processStepImg">
+          <img src="<?= base_url("assets/images/web-design-19.webp") ?>" alt="User Research Process Illustration" class="process-img" id="processStepImg">
         </div>
       </div>
     </div>
   </div>
 </section>
-*/?>
+
 
 <!-- We Are The No. 1 Web Development Agency In Dubai Section -->
 <section class="no1-agency-section">
@@ -1176,6 +1171,15 @@
             <p class="industry-card-overlay-text">
               We build e-commerce websites that combine intuitive navigation, fast load times, and secure payment integration to drive conversions. From product pages to checkout, every element is designed to reduce friction and keep customers moving toward purchase.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/e-commerce-seo-agency-in-dubai-uae/">SEO Services</a> |
+              <a href="/industries/e-commerce-ppc-agency-in-dubai-uae/">PPC</a> |
+              <a href="/industries/e-commerce-email-marketing-agency-in-dubai-uae/">Email Marketing</a> |
+              <a href="/industries/e-commerce-branding-agency-in-dubai-uae/">Branding</a> |
+              <a href="/industries/e-commerce-social-media-agency-in-dubai-uae/">Social Media</a> |
+              <a href="/industries/e-commerce-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+              <a href="/industries/e-commerce-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1193,6 +1197,15 @@
             <p class="industry-card-overlay-text">
               Our healthcare websites balance clarity, credibility, and compassion, helping patients quickly find the care they need. We focus on clean navigation, secure patient data handling, and features like appointment booking that make the patient journey smoother.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/healthcare-seo-agency-in-dubai-uae/">SEO Services</a> |
+              <a href="/industries/healthcare-ppc-agency-in-dubai-uae/">PPC</a> |
+              <a href="/industries/healthcare-content-marketing-agency-in-dubai-uae/">Content Marketing</a> |
+              <a href="/industries/healthcare-branding-agency-in-dubai-uae/">Branding</a> |
+              <a href="/industries/healthcare-social-media-agency-in-dubai-uae/">Social Media</a> |
+              <a href="/industries/healthcare-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+              <a href="/industries/healthcare-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1210,6 +1223,15 @@
             <p class="industry-card-overlay-text">
               We create real estate websites with high-quality property showcases, intuitive search filters, and immersive galleries that make browsing effortless. Fast-loading pages and streamlined inquiry forms help convert visitors into serious leads.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/real-estate-seo-agency-in-dubai-uae/">SEO Services</a> |
+              <a href="/industries/real-estate-ppc-agency-in-dubai-uae/">PPC</a> |
+              <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/">Email Marketing</a> |
+              <a href="/industries/real-estate-branding-agency-in-dubai-uae/">Branding</a> |
+              <a href="/industries/real-estate-social-media-agency-in-dubai-uae/">Social Media</a> |
+              <a href="/industries/real-estate-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+              <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1227,6 +1249,15 @@
             <p class="industry-card-overlay-text">
               Our travel websites blend rich visuals with seamless booking flows that turn inspiration into action. We build mobile-optimized interfaces and simple reservation systems that make planning a trip frustration-free.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/tourism-seo-agency-dubai-uae/">SEO Services</a> |
+              <a href="/industries/tourism-ppc-google-ads-dubai-uae/">PPC</a> |
+              <a href="/industries/tourism-email-marketing-dubai-uae/">Email Marketing</a> |
+              <a href="/industries/tourism-branding-agency-dubai-uae/">Branding</a> |
+              <a href="/industries/tourism-social-media-marketing-dubai-uae/">Social Media</a> |
+              <a href="/industries/tourism-web-design-development-dubai-uae/">Web Design</a> |
+              <a href="/industries/tourism-performance-marketing-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1244,6 +1275,15 @@
             <p class="industry-card-overlay-text">
               We design technology websites with clean, modern layouts that simplify complex ideas for your audience. Built on scalable, future-ready tech stacks, these sites support growing user bases and integrations like APIs and dashboards. Every page is structured to move visitors from curiosity to conversion.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/b2b-seo-agency-in-dubai-uae/">SEO Services</a> |
+              <a href="/industries/b2b-ppc-agency-in-dubai-uae/">PPC</a> |
+              <a href="/email-marketing-company-in-dubai/">Email Marketing</a> |
+              <a href="/industries/b2b-email-marketing-agency-in-dubai-uae/">Branding</a> |
+              <a href="/industries/b2b-social-media-agency-in-dubai-uae/">Social Media</a> |
+              <a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+              <a href="/industries/b2b-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1261,6 +1301,15 @@
             <p class="industry-card-overlay-text">
               We build secure, high-performance fintech websites designed with robust encryption, seamless payment gateways, and intuitive financial dashboards to build user trust and streamline online transactions.
             </p>
+            <div class="industry-card-links">
+              <a href="/industries/b2b-seo-agency-in-dubai-uae/">SEO Services</a> |
+              <a href="/industries/b2b-ppc-agency-in-dubai-uae/">PPC</a> |
+              <a href="/email-marketing-company-in-dubai/">Email Marketing</a> |
+              <a href="/industries/b2b-email-marketing-agency-in-dubai-uae/">Branding</a> |
+              <a href="/industries/b2b-social-media-agency-in-dubai-uae/">Social Media</a> |
+              <a href="/industries/b2b-web-design-development-agency-in-dubai-uae/">Web Design</a> |
+              <a href="/industries/b2b-performance-marketing-agency-in-dubai-uae/">Perf. Marketing</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1723,27 +1772,27 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       title: "Step 1 : User Research",
       desc: "User acquisition and retention are key resonance on what users think of the product. A detailed research and best understanding of user behavior help us lay basic foundation for a great experience and interface.",
-      img: "<?= base_url("assets/images/wdp-flow1.webp") ?>"
+      img: "<?= base_url("assets/images/web-design-19.webp") ?>"
     },
     {
       title: "Step 2 : Information Architecture & Wireframing",
       desc: "We structure the content hierarchy, sitemap, and interactive wireframes to ensure visitors find what they need intuitively with minimal clicks.",
-      img: "<?= base_url("assets/images/wdp-flow3.webp") ?>"
+      img: "<?= base_url("assets/images/web-design-20.webp") ?>"
     },
     {
       title: "Step 3 : Visual UI & Interactive Prototyping",
       desc: "Crafting modern pixel-perfect visual designs, design systems, color palettes, and clickable prototypes tailored to your brand identity.",
-      img: "<?= base_url("assets/images/wdp-flow4.webp") ?>"
+      img: "<?= base_url("assets/images/web-design-21.webp") ?>"
     },
     {
       title: "Step 4 : Development & Integration",
       desc: "Transforming approved designs into clean, responsive, fast-loading, and search engine optimized web applications built on modern frameworks.",
-      img: "<?= base_url("assets/images/di-02.webp") ?>"
+      img: "<?= base_url("assets/images/web-design-22.webp") ?>"
     },
     {
       title: "Step 5 : Testing & Seamless Launch",
       desc: "Rigorous cross-device and cross-browser testing, security checks, and speed audit before deploying your platform with zero downtime.",
-      img: "<?= base_url("assets/images/di-05.webp") ?>"
+      img: "<?= base_url("assets/images/web-design-23.webp") ?>"
     }
   ];
 
