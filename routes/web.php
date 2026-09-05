@@ -86,10 +86,13 @@ Route::post('/seo-calculator/submit', 'FrontendController@submitSeoCalculator', 
 Route::get('/digital-cost-calculator', 'FrontendController@digitalCostCalculator', 'digital.cost.calculator');
 Route::post('/digital-cost-calculator/submit', 'FrontendController@submitDigitalCostCalculator', 'digital.cost.calculator.submit');
 
+Route::get('/real-estate-marketing-services-2', 'FrontendController@realEstateMerketingServices2', 'realestatemerketingservices2_root');
+
 // industries
 Route::group(['prefix' => '/industries'], function () {
     Route::get('/', 'FrontendController@industries', 'industries');
     Route::get('/real-estate-marketing-services', 'FrontendController@realEstateMerketingServices', 'realestatemerketingservices');
+    Route::get('/real-estate-marketing-services-2', 'FrontendController@realEstateMerketingServices2', 'realestatemerketingservices2');
     Route::get('/real-estate-ppc-agency-in-dubai-uae', 'FrontendController@realEstatePpcServices', 'realestateppcservices');
     Route::get('/real-estate-seo-agency-in-dubai-uae', 'FrontendController@realEstateSeoServices', 'realestateseoservices');
     Route::get('/e-commerce-marketing-service', 'FrontendController@ecommerceMarketingServices', 'ecommercemarketingservices');

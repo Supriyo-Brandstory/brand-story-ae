@@ -618,10 +618,17 @@ class FrontendController extends Controller
     public function realEstateMerketingServices()
     {
         $meta = [
-            'classname' => 'industry-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('industries/real-estate-marketing-services', ['meta' => $meta]);
     }
+    // public function realEstateMerketingServices2()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('industries/real-estate-marketing-services-2', ['meta' => $meta]);
+    // }
     public function realEstatePpcServices()
     {
         $meta = [
