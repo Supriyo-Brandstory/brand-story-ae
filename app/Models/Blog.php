@@ -6,7 +6,7 @@ use App\Core\BaseModel;
 class Blog extends BaseModel
 {
     protected string $table = 'blogs';
-    protected $fillable = ['blog_category_id', 'blog_sub_category_id', 'title', 'slug', 'description', 'image', 'created_at'];
+    protected $fillable = ['blog_category_id', 'blog_sub_category_id', 'title', 'slug', 'description', 'image', 'is_arabic', 'created_at'];
 
     public function category()
     {

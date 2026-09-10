@@ -988,18 +988,151 @@
     }
 </style>
 
+<?php
+$isArabic = !empty($blog['is_arabic']);
+
+$t = [
+    'hero_tag' => $isArabic ? 'مدونة' : 'Blog',
+    'by' => $isArabic ? 'بواسطة' : 'by',
+    'author_name' => $isArabic ? 'مادهافان أ' : 'Madhavan A',
+    'published' => $isArabic ? 'نُشر في:' : 'Published:',
+    'toc_title' => $isArabic ? 'محتويات المقال' : 'Contents',
+    'summary_title' => $isArabic ? 'هل تريد ملخصاً سريعاً؟' : 'Want a Quick Summary?',
+    'summary_desc' => $isArabic ? 'لخّص هذا المقال فوراً باستخدام ChatGPT.' : 'Summarize this article instantly with ChatGPT.',
+    'summary_btn' => $isArabic ? 'تلخيص بالذكاء الاصطناعي' : 'Summarize with AI',
+    'summary_prompt' => $isArabic ? 'يرجى تلخيص هذا المقال باللغة العربية: ' : 'Please summarize this article for me: ',
+    'slim_tag' => $isArabic ? 'مدفوع بالنتائج' : 'Performance Driven',
+    'slim_title' => $isArabic ? 'هل تبحث عن نمو تجاري ملموس؟' : 'Looking for Measurable Business Growth?',
+    'slim_desc' => $isArabic ? 'شارك براند ستوري للتميز الرقمي والإبداعي المتكامل في دبي والإمارات.' : 'Partner with BrandStory for end-to-end digital & creative excellence.',
+    'slim_btn' => $isArabic ? 'تحدث مع خبرائنا' : 'Talk to Our Experts',
+    'slim_sub' => $isArabic ? 'حلول قائمة على البيانات لعائد استثمار حقيقي' : 'Data-driven ROI solutions',
+    'author_bio' => $isArabic ? 'مادهافان أ هو خبير في التسويق الرقمي ومتخصص في تحسين محركات البحث (SEO)، يتمتع بخبرة تزيد عن 8 سنوات في تحقيق النمو الطبيعي والظهور في محركات البحث. يركز على بناء استراتيجيات قائمة على البيانات وتحسين أداء المحتوى وتحقيق نتائج ملموسة عبر مختلف المجالات الرقمية.' : 'Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.',
+    'view_profile' => $isArabic ? 'عرض الملف الشخصي' : 'View Profile',
+    'sidebar_growth_title' => $isArabic ? 'هل تبحث عن النمو الرقمي؟' : 'Are You Looking for Growth?',
+    'sidebar_growth_desc' => $isArabic ? 'تدقيق تسويقي رقمي فوري ومجاني لتحسين الأداء والمبيعات.' : 'Free instant digital marketing audit and improve performance.',
+    'sidebar_growth_btn' => $isArabic ? 'احصل على التقييم اليوم' : 'Get Graded Today',
+    'sidebar_seo_title' => $isArabic ? 'خدمات السيو الاحترافية' : 'Expert SEO Services',
+    'sidebar_seo_btn' => $isArabic ? 'اعرف المزيد' : 'Know More',
+    'share_title' => $isArabic ? 'شارك هذا المقال' : 'Share this article',
+    'cta_sec_title' => $isArabic ? 'حوّل نموك الرقمي مع براند ستوري' : 'Transform Your Digital Growth with BrandStory',
+    'cta_sec_desc' => $isArabic ? 'من خدمات السيو، والإعلانات الممولة، والتسويق عبر وسائل التواصل، وصناعة المحتوى، إلى تطوير المواقع، والهوية التجارية، وجلب العملاء المحتملين، تقدم براند ستوري خدمات تسويق رقمي قائمة على النتائج في دبي وجميع أنحاء الإمارات.' : 'From SEO, PPC, social media marketing, and content marketing to website development, branding, and lead generation, BrandStory delivers result-driven digital marketing services in Dubai and across the UAE, helping businesses attract, engage, and convert more customers.',
+    'call_us' => $isArabic ? 'اتصل بنا الآن' : 'Call Us Now',
+    'contact_us' => $isArabic ? 'تواصل معنا' : 'Contact Us',
+    'logos_title' => $isArabic ? 'موثوق به من قبل أكثر من 1000 علامة تجارية رائدة في دبي وعالمياً بما في ذلك:' : 'Trusted by 1000+ leading brands in Dubai and globally including:',
+    'related_blogs' => $isArabic ? 'مقالات ذات صلة' : 'Related Blogs',
+    'read_more' => $isArabic ? 'اقرأ المزيد' : 'Read more',
+];
+
+if (!function_exists('formatDisplayDate')) {
+    function formatDisplayDate($dateStr, $isArabic = false) {
+        if (!$isArabic) {
+            return date('F d, Y', strtotime($dateStr));
+        }
+        $timestamp = strtotime($dateStr);
+        $months = [
+            1 => 'يناير', 2 => 'فبراير', 3 => 'مارس', 4 => 'أبريل',
+            5 => 'مايو', 6 => 'يونيو', 7 => 'يوليو', 8 => 'أغسطس',
+            9 => 'سبتمبر', 10 => 'أكتوبر', 11 => 'نوفمبر', 12 => 'ديسمبر'
+        ];
+        $day = date('j', $timestamp);
+        $month = $months[(int)date('n', $timestamp)] ?? '';
+        $year = date('Y', $timestamp);
+        return "{$day} {$month} {$year}";
+    }
+}
+?>
+
+<?php if ($isArabic): ?>
+<!-- Load Google Arabic Font Cairo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+    .new-blog-details-page.arabic-rtl {
+        direction: rtl;
+        text-align: right;
+        font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    .new-blog-details-page.arabic-rtl h1,
+    .new-blog-details-page.arabic-rtl h2,
+    .new-blog-details-page.arabic-rtl h3,
+    .new-blog-details-page.arabic-rtl h4,
+    .new-blog-details-page.arabic-rtl h5,
+    .new-blog-details-page.arabic-rtl h6,
+    .new-blog-details-page.arabic-rtl p,
+    .new-blog-details-page.arabic-rtl a,
+    .new-blog-details-page.arabic-rtl span,
+    .new-blog-details-page.arabic-rtl div,
+    .new-blog-details-page.arabic-rtl button,
+    .new-blog-details-page.arabic-rtl input {
+        font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    .new-blog-details-page.arabic-rtl .premium-hero .text-start {
+        text-align: right !important;
+    }
+    .new-blog-details-page.arabic-rtl #toc-list {
+        border-left: none;
+        border-right: 2px solid #eee;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .new-blog-details-page.arabic-rtl #toc-list a:hover,
+    .new-blog-details-page.arabic-rtl #toc-list a.active {
+        transform: translateX(-5px);
+    }
+    .new-blog-details-page.arabic-rtl .summary-box {
+        flex-direction: row-reverse;
+    }
+    .new-blog-details-page.arabic-rtl .blog-slim-cta-inner {
+        flex-direction: row-reverse;
+    }
+    .new-blog-details-page.arabic-rtl .blog-slim-cta-left {
+        flex-direction: row;
+    }
+    .new-blog-details-page.arabic-rtl .blog-slim-cta-btn i,
+    .new-blog-details-page.arabic-rtl .blog-box-link i {
+        transform: scaleX(-1);
+    }
+    .new-blog-details-page.arabic-rtl .author-desc-col .d-flex {
+        flex-direction: row-reverse;
+    }
+    .new-blog-details-page.arabic-rtl .author-desc-col a i {
+        transform: scaleX(-1);
+    }
+    .new-blog-details-page.arabic-rtl .share-buttons {
+        justify-content: flex-start;
+    }
+    .new-blog-details-page.arabic-rtl .blog-description {
+        text-align: right;
+    }
+    .new-blog-details-page.arabic-rtl .blog-description ul,
+    .new-blog-details-page.arabic-rtl .blog-description ol {
+        padding-right: 25px;
+        padding-left: 0;
+    }
+    @media (max-width: 991px) {
+        .new-blog-details-page.arabic-rtl .premium-hero .text-start {
+            text-align: center !important;
+        }
+        .new-blog-details-page.arabic-rtl .summary-box {
+            flex-direction: column;
+        }
+    }
+</style>
+<?php endif; ?>
+
 <!-- Load Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-<div class="new-blog-details-page">
+<div class="new-blog-details-page <?= $isArabic ? 'arabic-rtl' : '' ?>" <?= $isArabic ? 'dir="rtl"' : '' ?>>
     <section class="premium-hero">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 text-start">
-                    <h4 class="text-uppercase mb-3" style="letter-spacing: 2px; font-weight: 600; opacity: 0.8;">Blog</h4>
+                    <h4 class="text-uppercase mb-3" style="letter-spacing: 2px; font-weight: 600; opacity: 0.8;"><?= $t['hero_tag'] ?></h4>
                     <h1><?= htmlspecialchars($blog['title']) ?></h1>
                     <div class="blog-meta">
-                        by <strong><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:underline; font-weight:700;">Madhavan A</a></strong> &bull; Published: <?= date('F d, Y', strtotime($blog['created_at'])) ?>
+                        <?= $t['by'] ?> <strong><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:underline; font-weight:700;"><?= $t['author_name'] ?></a></strong> &bull; <?= $t['published'] ?> <?= formatDisplayDate($blog['created_at'], $isArabic) ?>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -1021,7 +1154,7 @@
                 <!-- Left Sidebar: TOC -->
                 <div class="col-lg-2">
                     <div class="toc-sidebar d-lg-block d-none">
-                        <div class="toc-title">Contents</div>
+                        <div class="toc-title"><?= $t['toc_title'] ?></div>
                         <ul class="list-unstyled" id="toc-list">
                             <!-- JS will populate this -->
                         </ul>
@@ -1032,15 +1165,11 @@
                 <div class="col-lg-7">
                     <div class="summary-box">
                         <div class="summary-text">
-                            <h5>Want a Quick Summary?</h5>
-                            <p>Summarize this article instantly with ChatGPT.</p>
+                            <h5><?= $t['summary_title'] ?></h5>
+                            <p><?= $t['summary_desc'] ?></p>
                         </div>
-                        <a href="https://chatgpt.com/?q=<?= urlencode("Please summarize this article for me: " . current_url()) ?>" target="_blank" class="summary-btn">Summarize with AI</a>
+                        <a href="https://chatgpt.com/?q=<?= urlencode($t['summary_prompt'] . current_url()) ?>" target="_blank" class="summary-btn"><?= $t['summary_btn'] ?></a>
                     </div>
-
-                  
-
-
 
                     <div id="tabel-00" class="blog-description">
                         <?= $blog['description'] ?>
@@ -1066,42 +1195,39 @@
                                     <div class="blog-slim-cta-content">
                                         <div class="blog-slim-cta-tag">
                                             <span class="pulse-dot"></span>
-                                            <span>Performance Driven</span>
+                                            <span><?= $t['slim_tag'] ?></span>
                                         </div>
-                                        <h4 class="blog-slim-cta-title">Looking for Measurable Business Growth?</h4>
-                                        <p class="blog-slim-cta-desc">Partner with BrandStory for end-to-end digital & creative excellence.</p>
+                                        <h4 class="blog-slim-cta-title"><?= $t['slim_title'] ?></h4>
+                                        <p class="blog-slim-cta-desc"><?= $t['slim_desc'] ?></p>
                                     </div>
                                 </div>
                                 <div class="blog-slim-cta-right">
                                     <a href="<?= route('contact') ?>" class="blog-slim-cta-btn">
-                                        <span>Talk to Our Experts</span>
+                                        <span><?= $t['slim_btn'] ?></span>
                                         <i class="bi bi-arrow-right"></i>
                                     </a>
                                     <div class="blog-slim-cta-subtext">
-                                        <i class="bi bi-check-circle-fill"></i> Data-driven ROI solutions
+                                        <i class="bi bi-check-circle-fill"></i> <?= $t['slim_sub'] ?>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                 
-
                     <!-- Author Profile -->
                     <div class="author-card-bottom mt-5">
                         <div class="author-info-wrap">
                             <div class="author-avatar-col">
-                                <a href="<?= base_url('author/madhavan-a') ?>"><img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="Madhavan A" class="author-img" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+                                <a href="<?= base_url('author/madhavan-a') ?>"><img src="<?= base_url('assets/images/dynamic/madhavan-a.jpeg') ?>" alt="<?= htmlspecialchars($t['author_name']) ?>" class="author-img" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
                             </div>
                             <div class="author-desc-col">
-                                <h4><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--premium-purple)'" onmouseout="this.style.color='inherit'">Madhavan A</a></h4>
-                                <p>Madhavan A is a digital marketing expert with a strong SEO specialisation, bringing 8+ years of hands-on experience in driving organic growth and search visibility. He focuses on building data-driven strategies, optimising content performance, and delivering measurable results across competitive digital landscapes.</p>
+                                <h4><a href="<?= base_url('author/madhavan-a') ?>" style="color:inherit; text-decoration:none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--premium-purple)'" onmouseout="this.style.color='inherit'"><?= $t['author_name'] ?></a></h4>
+                                <p><?= $t['author_bio'] ?></p>
                                 <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3">
                                     <div class="social-icons">
-                                        <!-- <a href="https://websitedevelopmentagency.ae/author/madhavan-a#" target="_blank"><i class="bi bi-twitter"></i></a> -->
                                         <a href="https://in.linkedin.com/in/madhavan-a-850207155" target="_blank"><i class="bi bi-linkedin"></i></a>
                                     </div>
-                                    <a href="<?= base_url('author/madhavan-a') ?>" style="color:var(--premium-purple); font-weight:700; text-decoration:none; font-size:0.85rem; text-transform:uppercase; display:flex; align-items:center; gap:5px; transition: gap 0.2s ease;" onmouseover="this.style.gap='8px'" onmouseout="this.style.gap='5px'">View Profile <i class="bi bi-arrow-right"></i></a>
+                                    <a href="<?= base_url('author/madhavan-a') ?>" style="color:var(--premium-purple); font-weight:700; text-decoration:none; font-size:0.85rem; text-transform:uppercase; display:flex; align-items:center; gap:5px; transition: gap 0.2s ease;" onmouseover="this.style.gap='8px'" onmouseout="this.style.gap='5px'"><?= $t['view_profile'] ?> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1115,25 +1241,24 @@
                         <div class="sidebar-sticky-part" id="sidebar-sticky-bottom">
                             <div class="sidebar-card ranking-cta-card">
                                 <img src="<?= base_url('assets/images/dynamic/WebsiteGrader.gif') ?>" alt="Ranking Gauge">
-                                <h4>Are You Looking for Growth?</h4>
-                                <p class="mb-4">Free instant digital marketing audit and improve performance.</p>
-                                <a href="<?= route('contact') ?>" class="ranking-cta-btn">Get Graded Today</a>
+                                <h4><?= $t['sidebar_growth_title'] ?></h4>
+                                <p class="mb-4"><?= $t['sidebar_growth_desc'] ?></p>
+                                <a href="<?= route('contact') ?>" class="ranking-cta-btn"><?= $t['sidebar_growth_btn'] ?></a>
                             </div>
                             <div class="sidebar-card academy-card">
                                 <img src="<?= base_url('assets/images/seo-video-thumbnail.jpg') ?>" alt="Academy">
                                 <div class="academy-content">
-                                    <div class="academy-title">Expert SEO Services</div>
-                                    <a href="/seo-services-in-dubai/" class="join-btn">Know More</a>
+                                    <div class="academy-title"><?= $t['sidebar_seo_title'] ?></div>
+                                    <a href="/seo-services-in-dubai/" class="join-btn"><?= $t['sidebar_seo_btn'] ?></a>
                                 </div>
                             </div>
 
                             <div class="share-sidebar-box">
-                                <div class="share-title">Share this article</div>
+                                <div class="share-title"><?= $t['share_title'] ?></div>
                                 <div class="share-buttons">
                                     <a href="https://twitter.com/intent/tweet?url=<?= urlencode(current_url()) ?>&text=<?= urlencode($blog['title']) ?>" target="_blank" class="share-btn share-tw"><i class="bi bi-twitter"></i></a>
                                     <a href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode(current_url()) ?>" target="_blank" class="share-btn share-fb"><i class="bi bi-facebook"></i></a>
                                     <a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= urlencode(current_url()) ?>" target="_blank" class="share-btn share-li"><i class="bi bi-linkedin"></i></a>
-
                                 </div>
                             </div>
                         </div>
@@ -1190,7 +1315,7 @@
                 display: inline-block;
                 font-size: 20px;
                 font-weight: 700;
-                color: #38bdf8; /* Vibrant light blue/cyan gradient color */
+                color: #38bdf8;
                 background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -1291,12 +1416,7 @@
                 align-items: center;
                 flex-wrap: wrap;
                 gap: 45px;
-                /* opacity: 0.65; */
                 transition: opacity 0.3s ease;
-            }
-
-            .premium-blog-cta-sec .logos-row:hover {
-                /* opacity: 0.85; */
             }
 
             .premium-blog-cta-sec .logo-item {
@@ -1351,23 +1471,22 @@
         </style>
 
         <div class="container">
-            <!-- <span class="cta-badge">Search Everywhere Optimization™</span> -->
-            <h2 class="cta-main-title">Transform Your Digital Growth with BrandStory</h2>
+            <h2 class="cta-main-title"><?= $t['cta_sec_title'] ?></h2>
             <p class="cta-description">
-                From SEO, PPC, social media marketing, and content marketing to website development, branding, and lead generation, BrandStory delivers result-driven digital marketing services in Dubai and across the UAE, helping businesses attract, engage, and convert more customers.
+                <?= $t['cta_sec_desc'] ?>
             </p>
 
             <div class="cta-btn-wrap">
                 <a href="tel:+971522831655" class="btn-cta-primary">
-                    <i class="bi bi-telephone-fill"></i> Call Us Now
+                    <i class="bi bi-telephone-fill"></i> <?= $t['call_us'] ?>
                 </a>
                 <a href="<?= route('contact') ?>" class="btn-cta-secondary">
-                    <i class="bi bi-chat-left-text-fill"></i> Contact Us
+                    <i class="bi bi-chat-left-text-fill"></i> <?= $t['contact_us'] ?>
                 </a>
             </div>
 
             <div class="logos-block">
-                <p class="logos-title">Trusted by 1000+ leading brands in Dubai and globally including:</p>
+                <p class="logos-title"><?= $t['logos_title'] ?></p>
                 <div class="logos-row">
                     <!-- Client Logo 4 -->
                     <div class="logo-item" title="Client Logo 4">
@@ -1396,7 +1515,7 @@
     <!-- Related Blogs Section -->
     <section class="latest--blogs">
         <div class="container">
-            <h2 class="text-center text-md-start">Related Blogs</h2>
+            <h2 class="text-center <?= $isArabic ? 'text-md-end' : 'text-md-start' ?>"><?= $t['related_blogs'] ?></h2>
             <div class="row gy-4 gx-lg-5">
                 <?php if (!empty($related_blogs)): ?>
                     <?php foreach ($related_blogs as $related_blog): ?>
@@ -1410,7 +1529,7 @@
                                     <?php endif; ?>
                                 </div>
                                 <div class="blog-box-txt">
-                                    <div class="blog-date"><?= date('F d, Y', strtotime($related_blog['created_at'])) ?></div>
+                                    <div class="blog-date"><?= formatDisplayDate($related_blog['created_at'], $isArabic) ?></div>
                                     <h6>
                                         <?php
                                         $relUrl = base_url('blogs/' . $related_blog['slug'] . '/');
@@ -1421,7 +1540,7 @@
                                     </h6>
                                     <p><?= htmlspecialchars(substr(strip_tags($related_blog['description']), 0, 120)) ?>...</p>
                                     <div class="blog-box-link">
-                                        <a href="<?= $relUrl ?>">Read more <i class="bi bi-arrow-right"></i></a>
+                                        <a href="<?= $relUrl ?>"><?= $t['read_more'] ?> <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

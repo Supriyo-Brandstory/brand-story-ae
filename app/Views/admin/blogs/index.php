@@ -78,7 +78,12 @@
                                             <span class="text-muted">No Image</span>
                                         <?php endif; ?>
                                     </td>
-                                    <td><?= htmlspecialchars($blog['title']) ?></td>
+                                    <td>
+                                        <?= htmlspecialchars($blog['title']) ?>
+                                        <?php if (!empty($blog['is_arabic'])): ?>
+                                            <span class="badge bg-success ms-1"><i class="bi bi-translate me-1"></i>Arabic</span>
+                                        <?php endif; ?>
+                                    </td>
                                     <td>
                                         <?= htmlspecialchars($blog['category_name'] ?? 'N/A') ?>
                                         <?php if (!empty($blog['sub_category_name']) && $blog['sub_category_name'] !== 'N/A'): ?>

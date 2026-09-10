@@ -44,6 +44,18 @@
                                 value="<?= isset($blog['created_at']) ? date('Y-m-d\TH:i', strtotime($blog['created_at'])) : date('Y-m-d\TH:i') ?>">
                         </div>
 
+                        <div class="mb-4 p-3 bg-light rounded border">
+                            <div class="form-check form-switch mb-1">
+                                <input class="form-check-input" type="checkbox" id="is_arabic" name="is_arabic" value="1" <?= (!empty($blog['is_arabic'])) ? 'checked' : '' ?>>
+                                <label class="form-check-label fw-bold text-dark fs-6" for="is_arabic">
+                                    <i class="bi bi-translate text-primary me-1"></i> Arabic Blog Post (اللغة العربية)
+                                </label>
+                            </div>
+                            <div class="form-text text-muted ms-4">
+                                Enable this for Arabic blog posts. It will automatically apply RTL (Right-to-Left) direction and translate all system labels (date, author, sidebar, CTAs, TOC, and related posts) into Arabic.
+                            </div>
+                        </div>
+
                         <!-- Slug (Disabled) -->
                         <div class="mb-4">
                             <label for="slug" class="form-label fw-semibold">Slug</label>

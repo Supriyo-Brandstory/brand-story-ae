@@ -30,6 +30,18 @@
                             <input type="datetime-local" class="form-control form-control-lg" id="created_at" name="created_at" value="<?= date('Y-m-d\TH:i') ?>">
                         </div>
 
+                        <div class="mb-4 p-3 bg-light rounded border">
+                            <div class="form-check form-switch mb-1">
+                                <input class="form-check-input" type="checkbox" id="is_arabic" name="is_arabic" value="1">
+                                <label class="form-check-label fw-bold text-dark fs-6" for="is_arabic">
+                                    <i class="bi bi-translate text-primary me-1"></i> Arabic Blog Post (اللغة العربية)
+                                </label>
+                            </div>
+                            <div class="form-text text-muted ms-4">
+                                Enable this for Arabic blog posts. It will automatically apply RTL (Right-to-Left) direction and translate all system labels (date, author, sidebar, CTAs, TOC, and related posts) into Arabic.
+                            </div>
+                        </div>
+
                         <div class="row mb-4">
                             <div class="col-md-6">
                                 <label for="blog_category_id" class="form-label fw-semibold">Category</label>

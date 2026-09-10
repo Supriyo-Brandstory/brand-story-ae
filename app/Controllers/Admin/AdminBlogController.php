@@ -91,12 +91,15 @@ class AdminBlogController extends AdminBaseController
 
         $created_at = !empty($_POST['created_at']) ? date('Y-m-d H:i:s', strtotime($_POST['created_at'])) : date('Y-m-d H:i:s');
 
+        $is_arabic = isset($_POST['is_arabic']) && $_POST['is_arabic'] == '1' ? 1 : 0;
+
         $data = [
             'title' => $title,
             'slug' => $slug,
             'description' => $description,
             'blog_category_id' => $blog_category_id,
             'blog_sub_category_id' => $blog_sub_category_id,
+            'is_arabic' => $is_arabic,
             'created_at' => $created_at,
             'image' => $imagePath
         ];
@@ -178,6 +181,7 @@ class AdminBlogController extends AdminBaseController
         }
 
         $created_at = !empty($_POST['created_at']) ? date('Y-m-d H:i:s', strtotime($_POST['created_at'])) : $blog['created_at'];
+        $is_arabic = isset($_POST['is_arabic']) && $_POST['is_arabic'] == '1' ? 1 : 0;
 
         $data = [
             'id' => $id,
@@ -186,6 +190,7 @@ class AdminBlogController extends AdminBaseController
             'description' => $description,
             'blog_category_id' => $blog_category_id,
             'blog_sub_category_id' => $blog_sub_category_id,
+            'is_arabic' => $is_arabic,
             'created_at' => $created_at,
             'image' => $imagePath
         ];
