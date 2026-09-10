@@ -57,4 +57,17 @@ class Page extends BaseModel
             'last_page' => $total > 0 ? (int)ceil($total / $perPage) : 1
         ];
     }
+
+    /**
+     * Delete all records from pages table.
+     */
+    public function deleteAll(): bool
+    {
+        $stmt = $this->db->prepare("DELETE FROM {$this->table}");
+        $result = $stmt->execute();
+        if ($result) {
+            $this->trackDatabaseChange();
+        }
+        return $result;
+    }
 }

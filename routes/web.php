@@ -387,10 +387,14 @@ Route::group(['prefix' => '/admin'], function () {
 
         // Pages Management
         Route::get('/pages', 'Admin\AdminPageController@index', 'admin.pages.index');
+        Route::get('/pages/bulk-upload', 'Admin\AdminPageController@bulkUpload', 'admin.pages.bulk_upload');
+        Route::post('/pages/bulk-upload', 'Admin\AdminPageController@processBulkUpload', 'admin.pages.process_bulk_upload');
         Route::get('/pages/create', 'Admin\AdminPageController@create', 'admin.pages.create');
         Route::post('/pages', 'Admin\AdminPageController@store', 'admin.pages.store');
         Route::get('/pages/preview', 'Admin\AdminPageController@preview', 'admin.pages.preview');
         Route::post('/pages/preview', 'Admin\AdminPageController@preview', 'admin.pages.preview');
+        Route::post('/pages/bulk-delete', 'Admin\AdminPageController@bulkDestroy', 'admin.pages.bulk_destroy');
+        Route::post('/pages/delete-all', 'Admin\AdminPageController@deleteAll', 'admin.pages.delete_all');
         Route::get('/pages/{id}/edit', 'Admin\AdminPageController@edit', 'admin.pages.edit');
         Route::post('/pages/{id}', 'Admin\AdminPageController@update', 'admin.pages.update');
         Route::post('/pages/{id}/delete', 'Admin\AdminPageController@destroy', 'admin.pages.destroy');

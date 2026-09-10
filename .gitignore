@@ -1,6 +1,7 @@
 # Composer dependencies
 /vendor/
 composer.phar
+/dummyzip/
 
 # Environment files
 .env

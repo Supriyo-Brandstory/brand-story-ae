@@ -164,9 +164,80 @@ class AdminPageController extends AdminBaseController
     public function destroy($id)
     {
         $pageModel = new Page();
-        $pageModel->delete($id);
+        $page = $pageModel->find($id);
+        if ($page) {
+            $pageModel->delete($id);
+            try {
+                $seoModel = new \App\Models\Seo();
+                $pageUrl = '/' . ltrim($page['slug'], '/');
+                $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
+            } catch (\Throwable $e) {}
+        }
         $_SESSION['success'] = "Page deleted.";
         header('Location: ' . route('admin.pages.index'));
+    }
+
+    public function bulkDestroy()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            header('Location: ' . route('admin.pages.index'));
+            exit;
+        }
+
+        $ids = $_POST['page_ids'] ?? [];
+        if (!empty($ids) && is_array($ids)) {
+            $pageModel = new Page();
+            $seoModel = new \App\Models\Seo();
+            $deletedCount = 0;
+            foreach ($ids as $id) {
+                $page = $pageModel->find((int)$id);
+                if ($page && $pageModel->delete((int)$id)) {
+                    try {
+                        $pageUrl = '/' . ltrim($page['slug'], '/');
+                        $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
+                    } catch (\Throwable $e) {}
+                    $deletedCount++;
+                }
+            }
+            if ($deletedCount > 0) {
+                $_SESSION['success'] = "{$deletedCount} page(s) deleted successfully.";
+            } else {
+                $_SESSION['error'] = "Failed to delete selected pages.";
+            }
+        } else {
+            $_SESSION['error'] = "No pages selected for deletion.";
+        }
+        
+        header('Location: ' . route('admin.pages.index'));
+        exit;
+    }
+
+    public function deleteAll()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            header('Location: ' . route('admin.pages.index'));
+            exit;
+        }
+
+        $pageModel = new Page();
+        $seoModel = new \App\Models\Seo();
+        $pages = $pageModel->findAll();
+        foreach ($pages as $p) {
+            if (!empty($p['slug'])) {
+                try {
+                    $pageUrl = '/' . ltrim($p['slug'], '/');
+                    $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
+                } catch (\Throwable $e) {}
+            }
+        }
+        if ($pageModel->deleteAll()) {
+            $_SESSION['success'] = "All pages deleted successfully.";
+        } else {
+            $_SESSION['error'] = "Failed to delete all pages.";
+        }
+
+        header('Location: ' . route('admin.pages.index'));
+        exit;
     }
 
     public function preview()
@@ -252,6 +323,223 @@ class AdminPageController extends AdminBaseController
             $slug = $originalSlug . '-' . $counter;
             $counter++;
         }
+    }
+
+    public function bulkUpload()
+    {
+        $this->adminView('pages/bulk_upload', [
+            'title' => 'Bulk Upload ZIP'
+        ]);
+    }
+
+    public function processBulkUpload()
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            header('Location: ' . route('admin.pages.index'));
+            exit;
+        }
+
+        if (!isset($_FILES['zip_file']) || $_FILES['zip_file']['error'] !== UPLOAD_ERR_OK) {
+            $_SESSION['error'] = 'Please upload a valid ZIP file.';
+            header('Location: ' . route('admin.pages.bulk_upload'));
+            exit;
+        }
+
+        $zipFile = $_FILES['zip_file']['tmp_name'];
+        $zip = new \ZipArchive();
+        
+        if ($zip->open($zipFile) !== true) {
+            $_SESSION['error'] = 'Could not open the uploaded ZIP file.';
+            header('Location: ' . route('admin.pages.bulk_upload'));
+            exit;
+        }
+
+        $extractPath = '/tmp/brandstory_bulk_upload_' . time();
+        if (!is_dir($extractPath)) {
+            mkdir($extractPath, 0755, true);
+        }
+
+        $zip->extractTo($extractPath);
+        $zip->close();
+
+        // 1. Prepare public/uploads directory
+        $publicDir = realpath(__DIR__ . '/../../../public');
+        $uploadsDir = $publicDir . '/uploads';
+        if (!is_dir($uploadsDir)) {
+            mkdir($uploadsDir, 0755, true);
+        }
+
+        // 2. Discover and copy all asset folders and image files to public/uploads
+        $copiedFolders = [];
+        $imageExtensions = ['png', 'jpg', 'jpeg', 'webp', 'gif', 'svg', 'ico', 'bmp', 'tiff', 'ttf', 'otf', 'woff', 'woff2', 'eot'];
+
+        $dirIterator = new \RecursiveIteratorIterator(
+            new \RecursiveDirectoryIterator($extractPath, \RecursiveDirectoryIterator::SKIP_DOTS),
+            \RecursiveIteratorIterator::SELF_FIRST
+        );
+
+        foreach ($dirIterator as $item) {
+            if ($item->isDir()) {
+                $dirName = $item->getBasename();
+                if ($dirName !== '.' && $dirName !== '..') {
+                    $targetDir = $uploadsDir . '/' . $dirName;
+                    if (!is_dir($targetDir)) {
+                        mkdir($targetDir, 0755, true);
+                    }
+                    exec("cp -r " . escapeshellarg($item->getPathname()) . "/* " . escapeshellarg($targetDir) . " 2>/dev/null");
+                    $copiedFolders[$dirName] = true;
+                }
+            } elseif ($item->isFile()) {
+                $ext = strtolower($item->getExtension());
+                if (in_array($ext, $imageExtensions)) {
+                    $fileName = $item->getBasename();
+                    copy($item->getPathname(), $uploadsDir . '/' . $fileName);
+                }
+            }
+        }
+
+        $pageModel = new Page();
+        $processedCount = 0;
+        
+        // Scan the extracted directory for HTML files
+        $iterator = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($extractPath));
+        foreach ($iterator as $file) {
+            if ($file->isDir()) {
+                continue;
+            }
+
+            if ($file->getExtension() === 'html') {
+                $content = file_get_contents($file->getPathname());
+                
+                // 1. Extract Meta Title from <title>
+                $metaTitle = '';
+                if (preg_match('/<title[^>]*>(.*?)<\/title>/is', $content, $titleMatches)) {
+                    $metaTitle = trim(html_entity_decode(strip_tags($titleMatches[1]), ENT_QUOTES, 'UTF-8'));
+                }
+
+                // 2. Extract Meta Description from <meta name="description">
+                $metaDescription = '';
+                if (preg_match('/<meta\s+[^>]*name=["\']description["\'][^>]*content=["\']([^"\']*)["\']/is', $content, $descMatches)) {
+                    $metaDescription = trim(html_entity_decode($descMatches[1], ENT_QUOTES, 'UTF-8'));
+                } elseif (preg_match('/<meta\s+[^>]*content=["\']([^"\']*)["\'][^>]*name=["\']description["\']/is', $content, $descMatches)) {
+                    $metaDescription = trim(html_entity_decode($descMatches[1], ENT_QUOTES, 'UTF-8'));
+                }
+
+                // 3. Extract other custom head tags/scripts (JSON-LD, canonical, keywords, OG, twitter tags)
+                $otherHeadTags = '';
+                if (preg_match('/<head[^>]*>(.*?)<\/head>/is', $content, $headMatches)) {
+                    $headHtml = $headMatches[1];
+                    
+                    // JSON-LD scripts
+                    if (preg_match_all('/<script\b[^>]*type=["\']application\/ld\+json["\'][^>]*>.*?<\/script>/is', $headHtml, $schemaMatches)) {
+                        foreach ($schemaMatches[0] as $sTag) {
+                            $otherHeadTags .= $sTag . "\n";
+                        }
+                    }
+                    // Meta keywords, OG, Twitter
+                    if (preg_match_all('/<meta\s+[^>]*(property|name)=["\'](og:|twitter:|keywords)[^"\']*["\'][^>]*>/is', $headHtml, $metaTagsMatches)) {
+                        foreach ($metaTagsMatches[0] as $mTag) {
+                            $otherHeadTags .= $mTag . "\n";
+                        }
+                    }
+                    // Canonical link
+                    if (preg_match_all('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $headHtml, $canonicalMatches)) {
+                        foreach ($canonicalMatches[0] as $cTag) {
+                            $otherHeadTags .= $cTag . "\n";
+                        }
+                    }
+                }
+
+                // Extract body content
+                $bodyContent = '';
+                if (preg_match('/<body[^>]*>(.*?)<\/body>/is', $content, $matches)) {
+                    $bodyContent = $matches[1];
+                } else {
+                    $bodyContent = $content;
+                }
+                
+                // Extract CSS
+                $styleContent = '';
+                if (preg_match_all('/<style[^>]*>(.*?)<\/style>/is', $content, $styleMatches)) {
+                    foreach ($styleMatches[0] as $styleTag) {
+                        $styleContent .= $styleTag . "\n";
+                    }
+                }
+                
+                $finalContent = $styleContent . $bodyContent;
+
+                // 4. Rewrite image/asset paths to point to /uploads/
+                foreach (array_keys($copiedFolders) as $folder) {
+                    // HTML attributes
+                    $finalContent = preg_replace(
+                        '/(src|href|poster|data-src|srcset)=([\'"])' . preg_quote($folder, '/') . '\//i',
+                        '$1=$2/uploads/' . $folder . '/',
+                        $finalContent
+                    );
+                    // CSS url(...)
+                    $finalContent = preg_replace(
+                        '/url\(\s*([\'"]?)' . preg_quote($folder, '/') . '\//i',
+                        'url($1/uploads/' . $folder . '/',
+                        $finalContent
+                    );
+                }
+
+                // Also rewrite standalone image references
+                $imgExtRegex = implode('|', $imageExtensions);
+                $finalContent = preg_replace(
+                    '/(src|href|poster|data-src)=([\'"])(?!https?:\/\/|\/|data:)([^\'"]+\.(' . $imgExtRegex . '))([\'"])/i',
+                    '$1=$2/uploads/$3$5',
+                    $finalContent
+                );
+                $finalContent = preg_replace(
+                    '/url\(\s*([\'"]?)(?!https?:\/\/|\/|data:)([^\'")]+\.(' . $imgExtRegex . '))([\'"]?)\s*\)/i',
+                    'url($1/uploads/$2$4)',
+                    $finalContent
+                );
+                
+                $filename = $file->getBasename('.html');
+                $title = !empty($metaTitle) ? $metaTitle : ucwords(str_replace('-', ' ', $filename));
+                $slug = $this->generateUniqueSlug($filename);
+                
+                $data = [
+                    'title' => $title,
+                    'slug' => $slug,
+                    'template' => 'blank.php', // Use blank so we only rely on the system header/footer
+                    'content' => $finalContent,
+                    'custom_class' => ''
+                ];
+                
+                if ($pageModel->save($data)) {
+                    $processedCount++;
+
+                    // Automatically save SEO metadata in seo table
+                    try {
+                        $seoModel = new \App\Models\Seo();
+                        $pageUrl = '/' . ltrim($slug, '/');
+                        $existingSeo = $seoModel->query("SELECT id FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
+                        $seoData = [
+                            'page_url' => $pageUrl,
+                            'meta_title' => !empty($metaTitle) ? $metaTitle : $title,
+                            'meta_description' => $metaDescription,
+                            'other_script_or_tag' => trim($otherHeadTags)
+                        ];
+                        if (!empty($existingSeo)) {
+                            $seoData['id'] = $existingSeo[0]['id'];
+                        }
+                        $seoModel->save($seoData);
+                    } catch (\Throwable $e) {
+                        // Silently continue if SEO save encounters non-fatal issue
+                    }
+                }
+            }
+        }
+        
+        // Cleanup
+        exec("rm -rf " . escapeshellarg($extractPath));
+
+        $_SESSION['success'] = "Successfully processed and created {$processedCount} pages from ZIP.";
+        header('Location: ' . route('admin.pages.index'));
+        exit;
     }
 
     public function getTemplateContent()

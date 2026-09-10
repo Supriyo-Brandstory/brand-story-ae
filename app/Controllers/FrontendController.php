@@ -2699,7 +2699,8 @@ class FrontendController extends Controller
         }
 
         $meta = [
-            'classname' => $classname
+            'classname' => $classname,
+            'title' => $page['title'] ?? 'BrandStoryAE'
         ];
 
         // Pass the raw content to the 'blank' view, which will handle PHP evaluation

@@ -1,7 +1,21 @@
 <div class="container-fluid py-4">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Pages Management</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-toolbar mb-2 mb-md-0 gap-2">
+            <button type="button" class="btn btn-sm btn-danger" id="bulkDeleteBtn" style="display: none;" onclick="if(confirm('Are you sure you want to delete the selected pages?')) document.getElementById('bulkDeleteForm').submit();">
+                <i class="bi bi-trash"></i> Delete Selected
+            </button>
+            <?php if (!empty($pages) || (isset($total) && $total > 0)): ?>
+                <form action="<?= route('admin.pages.delete_all') ?>" method="POST" class="d-inline" onsubmit="return confirm('⚠️ WARNING: Are you sure you want to delete ALL pages? This action cannot be undone and will delete every page in the database.');">
+                    <?= csrf_token() ?>
+                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                        <i class="bi bi-trash3"></i> Delete All Pages
+                    </button>
+                </form>
+            <?php endif; ?>
+            <a href="<?= route('admin.pages.bulk_upload') ?>" class="btn btn-sm btn-outline-primary">
+                <i class="bi bi-upload"></i> Bulk Upload ZIP
+            </a>
             <a href="<?= route('admin.pages.create') ?>" class="btn btn-sm btn-primary">
                 <i class="bi bi-plus-lg"></i> Create New Page
             </a>
@@ -28,10 +42,17 @@
             </div>
         </div>
         <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-hover align-middle">
+            <form action="<?= route('admin.pages.bulk_destroy') ?>" method="POST" id="bulkDeleteForm">
+                <?= csrf_token() ?>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
+                            <th style="width: 40px;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="selectAllPages">
+                                </div>
+                            </th>
                             <th style="width: 50px;">S.N.</th>
                             <th>Title</th>
                             <th>Slug</th>
@@ -43,7 +64,7 @@
                     <tbody>
                         <?php if (empty($pages)): ?>
                             <tr>
-                                <td colspan="6" class="text-center py-4 text-muted">No pages found.</td>
+                                <td colspan="7" class="text-center py-4 text-muted">No pages found.</td>
                             </tr>
                         <?php else: ?>
                             <?php 
@@ -52,6 +73,11 @@
                             foreach ($pages as $page): 
                             ?>
                                 <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input class="form-check-input page-checkbox" type="checkbox" name="page_ids[]" value="<?= $page['id'] ?>">
+                                        </div>
+                                    </td>
                                     <td><?= $count++ ?></td>
                                     <td><strong><?= htmlspecialchars($page['title']) ?></strong></td>
                                     <td><code>/<?= htmlspecialchars($page['slug']) ?></code></td>
@@ -79,6 +105,7 @@
                     </tbody>
                 </table>
             </div>
+            </form>
         </div>
         
         <?php if (isset($totalPages) && $totalPages > 1): ?>
@@ -133,3 +160,37 @@
         <?php endif; ?>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const selectAll = document.getElementById('selectAllPages');
+    const checkboxes = document.querySelectorAll('.page-checkbox');
+    const bulkDeleteBtn = document.getElementById('bulkDeleteBtn');
+
+    function updateBulkDeleteButton() {
+        const anyChecked = Array.from(checkboxes).some(cb => cb.checked);
+        if(bulkDeleteBtn) {
+            bulkDeleteBtn.style.display = anyChecked ? 'inline-block' : 'none';
+        }
+        
+        const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+        if (selectAll && checkboxes.length > 0) {
+            selectAll.checked = allChecked;
+            selectAll.indeterminate = anyChecked && !allChecked;
+        }
+    }
+
+    if (selectAll) {
+        selectAll.addEventListener('change', function() {
+            checkboxes.forEach(cb => {
+                cb.checked = selectAll.checked;
+            });
+            updateBulkDeleteButton();
+        });
+    }
+
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', updateBulkDeleteButton);
+    });
+});
+</script>
