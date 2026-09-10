@@ -23,6 +23,9 @@ class AdminSitemapController extends AdminBaseController
         $sitemap = $sitemaps[0] ?? null;
 
         $content = $sitemap['content'] ?? '';
+        if (!empty($content)) {
+            $content = \App\Services\SitemapService::formatXml($content);
+        }
 
         return $this->adminView('sitemap/index', [
             'content' => $content
@@ -35,6 +38,9 @@ class AdminSitemapController extends AdminBaseController
         csrf_verify();
 
         $content = $_POST['content'] ?? '';
+        if (!empty($content)) {
+            $content = \App\Services\SitemapService::formatXml($content);
+        }
 
         // Check if record exists
         $sitemaps = $this->sitemapModel->findAll();

@@ -3,11 +3,76 @@
 namespace App\Services;
 
 use App\Models\Sitemap;
+use DOMDocument;
+use DOMXPath;
 
 class SitemapService
 {
     /**
-     * Add or update page URLs in the sitemap XML.
+     * Format URL to ensure valid protocol and trailing slash.
+     */
+    public static function formatUrl(string $slugOrUrl): string
+    {
+        $slugOrUrl = trim($slugOrUrl);
+        if (empty($slugOrUrl)) {
+            $base = function_exists('base_url') ? base_url('') : '/';
+            return rtrim($base, '/') . '/';
+        }
+
+        if (str_starts_with($slugOrUrl, 'http://') || str_starts_with($slugOrUrl, 'https://')) {
+            $url = $slugOrUrl;
+        } else {
+            $cleanSlug = trim($slugOrUrl, '/');
+            $url = function_exists('base_url') ? base_url($cleanSlug) : '/' . $cleanSlug;
+        }
+
+        $path = parse_url($url, PHP_URL_PATH);
+        // Only append trailing slash if it is not a file extension like .xml, .pdf, .jpg
+        if (empty($path) || !preg_match('/\.[a-zA-Z0-9]{2,5}$/', $path)) {
+            $url = rtrim($url, '/') . '/';
+        }
+
+        return $url;
+    }
+
+    /**
+     * Pretty print / structure XML with proper indentation and normalize loc trailing slashes.
+     */
+    public static function formatXml(string $xmlContent): string
+    {
+        if (empty(trim($xmlContent))) {
+            return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>\n";
+        }
+
+        $dom = new DOMDocument('1.0', 'UTF-8');
+        $dom->preserveWhiteSpace = false;
+        $dom->formatOutput = true;
+
+        libxml_use_internal_errors(true);
+        if (!@$dom->loadXML(trim($xmlContent))) {
+            libxml_clear_errors();
+            return $xmlContent;
+        }
+        libxml_clear_errors();
+
+        // Normalize trailing slashes on all <loc> nodes
+        $xpath = new DOMXPath($dom);
+        $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+        $locNodes = $xpath->query('//s:loc | //loc');
+        if ($locNodes) {
+            foreach ($locNodes as $loc) {
+                $val = trim($loc->nodeValue);
+                if (!empty($val)) {
+                    $loc->nodeValue = self::formatUrl($val);
+                }
+            }
+        }
+
+        return $dom->saveXML();
+    }
+
+    /**
+     * Add or update page URLs in the sitemap XML with trailing slashes and formatted structure.
      *
      * @param array $slugs Array of page slugs or full URLs
      * @return bool
@@ -28,21 +93,19 @@ class SitemapService
                 $xmlContent = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>";
             }
 
-            $dom = new \DOMDocument('1.0', 'UTF-8');
+            $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false;
             $dom->formatOutput = true;
 
-            // Suppress warnings for custom XML tags if any
             libxml_use_internal_errors(true);
-            $loaded = $dom->loadXML($xmlContent);
+            $loaded = @$dom->loadXML($xmlContent);
             libxml_clear_errors();
 
             if (!$loaded) {
-                // If malformed, reset to standard template
                 $dom->loadXML("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>");
             }
 
-            $xpath = new \DOMXPath($dom);
+            $xpath = new DOMXPath($dom);
             $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
 
             $root = $dom->getElementsByTagName('urlset')->item(0);
@@ -56,21 +119,23 @@ class SitemapService
             foreach ($slugs as $slug) {
                 if (empty(trim($slug))) continue;
 
-                // Format URL
-                if (str_starts_with($slug, 'http://') || str_starts_with($slug, 'https://')) {
-                    $url = $slug;
-                } else {
-                    $cleanSlug = ltrim($slug, '/');
-                    $url = function_exists('base_url') ? base_url($cleanSlug) : '/' . $cleanSlug;
-                }
+                $urlWithSlash = self::formatUrl($slug);
+                $urlWithoutSlash = rtrim($urlWithSlash, '/');
 
-                // Check if URL node already exists (with or without namespace)
-                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($url) . "] | //url[loc=" . self::xpathEscape($url) . "]";
+                // Check if URL node already exists (with or without trailing slash)
+                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($urlWithSlash) . " or s:loc=" . self::xpathEscape($urlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($urlWithSlash) . " or loc=" . self::xpathEscape($urlWithoutSlash) . "]";
                 $existingNodes = $xpath->query($urlQuery);
 
                 if ($existingNodes && $existingNodes->length > 0) {
-                    // Update lastmod
                     $urlNode = $existingNodes->item(0);
+                    
+                    // Ensure loc has trailing slash
+                    $locNodes = $xpath->query('s:loc | loc', $urlNode);
+                    if ($locNodes && $locNodes->length > 0) {
+                        $locNodes->item(0)->nodeValue = $urlWithSlash;
+                    }
+
+                    // Update lastmod
                     $lastmodNodes = $xpath->query('s:lastmod | lastmod', $urlNode);
                     if ($lastmodNodes && $lastmodNodes->length > 0) {
                         $lastmodNodes->item(0)->nodeValue = $today;
@@ -82,7 +147,7 @@ class SitemapService
                     // Create new <url> entry
                     $urlNode = $dom->createElement('url');
                     
-                    $locElem = $dom->createElement('loc', htmlspecialchars($url, ENT_XML1, 'UTF-8'));
+                    $locElem = $dom->createElement('loc', htmlspecialchars($urlWithSlash, ENT_XML1, 'UTF-8'));
                     $urlNode->appendChild($locElem);
 
                     $lastmodElem = $dom->createElement('lastmod', $today);
@@ -98,7 +163,8 @@ class SitemapService
                 }
             }
 
-            $newXml = $dom->saveXML();
+            // Normalize all other loc nodes and format XML cleanly
+            $newXml = self::formatXml($dom->saveXML());
 
             if ($sitemapRecord && !empty($sitemapRecord['id'])) {
                 $sitemapModel->save([
@@ -139,32 +205,28 @@ class SitemapService
             }
 
             $xmlContent = trim($sitemapRecord['content']);
-            $dom = new \DOMDocument('1.0', 'UTF-8');
+            $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false;
             $dom->formatOutput = true;
 
             libxml_use_internal_errors(true);
-            $loaded = $dom->loadXML($xmlContent);
+            $loaded = @$dom->loadXML($xmlContent);
             libxml_clear_errors();
 
             if (!$loaded) {
                 return false;
             }
 
-            $xpath = new \DOMXPath($dom);
+            $xpath = new DOMXPath($dom);
             $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
 
             foreach ($slugs as $slug) {
                 if (empty(trim($slug))) continue;
 
-                if (str_starts_with($slug, 'http://') || str_starts_with($slug, 'https://')) {
-                    $url = $slug;
-                } else {
-                    $cleanSlug = ltrim($slug, '/');
-                    $url = function_exists('base_url') ? base_url($cleanSlug) : '/' . $cleanSlug;
-                }
+                $urlWithSlash = self::formatUrl($slug);
+                $urlWithoutSlash = rtrim($urlWithSlash, '/');
 
-                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($url) . "] | //url[loc=" . self::xpathEscape($url) . "]";
+                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($urlWithSlash) . " or s:loc=" . self::xpathEscape($urlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($urlWithSlash) . " or loc=" . self::xpathEscape($urlWithoutSlash) . "]";
                 $nodes = $xpath->query($urlQuery);
 
                 if ($nodes) {
@@ -174,7 +236,7 @@ class SitemapService
                 }
             }
 
-            $newXml = $dom->saveXML();
+            $newXml = self::formatXml($dom->saveXML());
 
             $sitemapModel->save([
                 'id' => $sitemapRecord['id'],
@@ -189,7 +251,7 @@ class SitemapService
     }
 
     /**
-     * Sync all pages and blogs into the sitemap XML.
+     * Sync all pages and blogs into the sitemap XML with trailing slashes and formatted indentation.
      *
      * @return int Number of URLs synced
      */
