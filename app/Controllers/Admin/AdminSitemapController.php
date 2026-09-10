@@ -56,4 +56,16 @@ class AdminSitemapController extends AdminBaseController
         header('Location: ' . route('admin.sitemap.index'));
         exit;
     }
+
+    public function sync()
+    {
+        $this->requireAdminAuth();
+        csrf_verify();
+
+        $count = \App\Services\SitemapService::syncAllPages();
+
+        $_SESSION['success'] = "Successfully synced {$count} URLs to the Sitemap.";
+        header('Location: ' . route('admin.sitemap.index'));
+        exit;
+    }
 }

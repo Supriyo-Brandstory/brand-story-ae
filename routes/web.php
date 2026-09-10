@@ -368,6 +368,7 @@ Route::group(['prefix' => '/admin'], function () {
         // Sitemap Management
         Route::get('/sitemap', 'Admin\AdminSitemapController@index', 'admin.sitemap.index');
         Route::post('/sitemap', 'Admin\AdminSitemapController@update', 'admin.sitemap.update');
+        Route::post('/sitemap/sync', 'Admin\AdminSitemapController@sync', 'admin.sitemap.sync');
 
         // Robots.txt Management
         Route::get('/robots', 'Admin\AdminRobotsController@index', 'admin.robots.index');

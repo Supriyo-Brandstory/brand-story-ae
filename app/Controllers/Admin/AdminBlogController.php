@@ -4,6 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Models\Blog;
 use App\Models\BlogCategory;
+use App\Services\SitemapService;
 
 class AdminBlogController extends AdminBaseController 
 {
@@ -106,6 +107,8 @@ class AdminBlogController extends AdminBaseController
 
         $this->blogModel->save($data);
 
+        SitemapService::addPages(['blog/' . ltrim($slug, '/')]);
+
         $_SESSION['success'] = 'Blog post created successfully.';
         header('Location: ' . route('admin.blogs_admin.index'));
         exit;
@@ -197,6 +200,11 @@ class AdminBlogController extends AdminBaseController
 
         $this->blogModel->save($data);
 
+        if (!empty($blog['slug']) && $blog['slug'] !== $slug) {
+            SitemapService::removePages(['blog/' . ltrim($blog['slug'], '/')]);
+        }
+        SitemapService::addPages(['blog/' . ltrim($slug, '/')]);
+
         $_SESSION['success'] = 'Blog post updated successfully.';
         header('Location: ' . route('admin.blogs_admin.index'));
         exit;
@@ -222,6 +230,10 @@ class AdminBlogController extends AdminBaseController
         }
 
         $this->blogModel->delete($id);
+
+        if (!empty($blog['slug'])) {
+            SitemapService::removePages(['blog/' . ltrim($blog['slug'], '/')]);
+        }
 
         $_SESSION['success'] = 'Blog post deleted successfully.';
         header('Location: ' . route('admin.blogs_admin.index'));

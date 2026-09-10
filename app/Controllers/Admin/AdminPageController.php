@@ -4,6 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\Admin\AdminBaseController;
 use App\Models\Page;
+use App\Services\SitemapService;
 
 class AdminPageController extends AdminBaseController
 {
@@ -74,6 +75,7 @@ class AdminPageController extends AdminBaseController
         try {
             if ($pageModel->save($data)) {
                 $insertedId = \App\Core\Database::connect()->lastInsertId();
+                SitemapService::addPages([$data['slug']]);
                 $_SESSION['success'] = "Page created successfully.";
                 
                 if (isset($_POST['redirect_edit']) && $insertedId) {
@@ -139,11 +141,17 @@ class AdminPageController extends AdminBaseController
         }
 
         $pageModel = new Page();
+        $oldPage = $pageModel->find($id);
+
         // Ensure slug is unique (excluding currently edited page)
         $data['slug'] = $this->generateUniqueSlug($data['slug'], $id);
 
         try {
             if ($pageModel->save($data)) {
+                if ($oldPage && !empty($oldPage['slug']) && $oldPage['slug'] !== $data['slug']) {
+                    SitemapService::removePages([$oldPage['slug']]);
+                }
+                SitemapService::addPages([$data['slug']]);
                 $_SESSION['success'] = "Page updated successfully.";
                 
                 if (isset($_POST['redirect_edit'])) {
@@ -172,6 +180,9 @@ class AdminPageController extends AdminBaseController
                 $pageUrl = '/' . ltrim($page['slug'], '/');
                 $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
             } catch (\Throwable $e) {}
+            if (!empty($page['slug'])) {
+                SitemapService::removePages([$page['slug']]);
+            }
         }
         $_SESSION['success'] = "Page deleted.";
         header('Location: ' . route('admin.pages.index'));
@@ -189,6 +200,7 @@ class AdminPageController extends AdminBaseController
             $pageModel = new Page();
             $seoModel = new \App\Models\Seo();
             $deletedCount = 0;
+            $deletedSlugs = [];
             foreach ($ids as $id) {
                 $page = $pageModel->find((int)$id);
                 if ($page && $pageModel->delete((int)$id)) {
@@ -196,8 +208,14 @@ class AdminPageController extends AdminBaseController
                         $pageUrl = '/' . ltrim($page['slug'], '/');
                         $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
                     } catch (\Throwable $e) {}
+                    if (!empty($page['slug'])) {
+                        $deletedSlugs[] = $page['slug'];
+                    }
                     $deletedCount++;
                 }
+            }
+            if (!empty($deletedSlugs)) {
+                SitemapService::removePages($deletedSlugs);
             }
             if ($deletedCount > 0) {
                 $_SESSION['success'] = "{$deletedCount} page(s) deleted successfully.";
@@ -222,8 +240,10 @@ class AdminPageController extends AdminBaseController
         $pageModel = new Page();
         $seoModel = new \App\Models\Seo();
         $pages = $pageModel->findAll();
+        $deletedSlugs = [];
         foreach ($pages as $p) {
             if (!empty($p['slug'])) {
+                $deletedSlugs[] = $p['slug'];
                 try {
                     $pageUrl = '/' . ltrim($p['slug'], '/');
                     $seoModel->query("DELETE FROM seo WHERE page_url = ?", [$pageUrl]);
@@ -231,6 +251,9 @@ class AdminPageController extends AdminBaseController
             }
         }
         if ($pageModel->deleteAll()) {
+            if (!empty($deletedSlugs)) {
+                SitemapService::removePages($deletedSlugs);
+            }
             $_SESSION['success'] = "All pages deleted successfully.";
         } else {
             $_SESSION['error'] = "Failed to delete all pages.";
@@ -379,27 +402,35 @@ class AdminPageController extends AdminBaseController
         );
 
         foreach ($dirIterator as $item) {
+            $pathname = $item->getPathname();
+            $basename = $item->getBasename();
+
+            // Skip macOS metadata files and hidden files
+            if (str_contains($pathname, '__MACOSX') || str_starts_with($basename, '.')) {
+                continue;
+            }
+
             if ($item->isDir()) {
-                $dirName = $item->getBasename();
+                $dirName = $basename;
                 if ($dirName !== '.' && $dirName !== '..') {
                     $targetDir = $uploadsDir . '/' . $dirName;
                     if (!is_dir($targetDir)) {
                         mkdir($targetDir, 0755, true);
                     }
-                    exec("cp -r " . escapeshellarg($item->getPathname()) . "/* " . escapeshellarg($targetDir) . " 2>/dev/null");
+                    exec("cp -r " . escapeshellarg($pathname) . "/* " . escapeshellarg($targetDir) . " 2>/dev/null");
                     $copiedFolders[$dirName] = true;
                 }
             } elseif ($item->isFile()) {
                 $ext = strtolower($item->getExtension());
                 if (in_array($ext, $imageExtensions)) {
-                    $fileName = $item->getBasename();
-                    copy($item->getPathname(), $uploadsDir . '/' . $fileName);
+                    copy($pathname, $uploadsDir . '/' . $basename);
                 }
             }
         }
 
         $pageModel = new Page();
         $processedCount = 0;
+        $createdSlugs = [];
         
         // Scan the extracted directory for HTML files
         $iterator = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($extractPath));
@@ -408,8 +439,27 @@ class AdminPageController extends AdminBaseController
                 continue;
             }
 
-            if ($file->getExtension() === 'html') {
-                $content = file_get_contents($file->getPathname());
+            $filePath = $file->getPathname();
+            $fileBasename = $file->getBasename();
+
+            // Skip macOS metadata files (like __MACOSX/._page.html) and hidden files
+            if (str_contains($filePath, '__MACOSX') || str_starts_with($fileBasename, '.')) {
+                continue;
+            }
+
+            $ext = strtolower($file->getExtension());
+            if ($ext === 'html' || $ext === 'htm') {
+                $content = file_get_contents($filePath);
+                if ($content === false || strlen(trim($content)) === 0) {
+                    continue;
+                }
+
+                // Clean & normalize UTF-8 encoding
+                if (!mb_check_encoding($content, 'UTF-8')) {
+                    $content = mb_convert_encoding($content, 'UTF-8', 'auto');
+                }
+                $content = iconv('UTF-8', 'UTF-8//IGNORE', $content);
+                $content = str_replace("\0", '', $content);
                 
                 // 1. Extract Meta Title from <title>
                 $metaTitle = '';
@@ -498,8 +548,16 @@ class AdminPageController extends AdminBaseController
                 );
                 
                 $filename = $file->getBasename('.html');
+                if (empty($filename) || $filename === '.html') {
+                    $filename = $file->getBasename('.htm');
+                }
                 $title = !empty($metaTitle) ? $metaTitle : ucwords(str_replace('-', ' ', $filename));
                 $slug = $this->generateUniqueSlug($filename);
+
+                // Final safety cleaning for DB insertion
+                $title = iconv('UTF-8', 'UTF-8//IGNORE', $title);
+                $finalContent = iconv('UTF-8', 'UTF-8//IGNORE', $finalContent);
+                $finalContent = str_replace("\0", '', $finalContent);
                 
                 $data = [
                     'title' => $title,
@@ -509,35 +567,45 @@ class AdminPageController extends AdminBaseController
                     'custom_class' => ''
                 ];
                 
-                if ($pageModel->save($data)) {
-                    $processedCount++;
+                try {
+                    if ($pageModel->save($data)) {
+                        $processedCount++;
+                        $createdSlugs[] = $slug;
 
-                    // Automatically save SEO metadata in seo table
-                    try {
-                        $seoModel = new \App\Models\Seo();
-                        $pageUrl = '/' . ltrim($slug, '/');
-                        $existingSeo = $seoModel->query("SELECT id FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
-                        $seoData = [
-                            'page_url' => $pageUrl,
-                            'meta_title' => !empty($metaTitle) ? $metaTitle : $title,
-                            'meta_description' => $metaDescription,
-                            'other_script_or_tag' => trim($otherHeadTags)
-                        ];
-                        if (!empty($existingSeo)) {
-                            $seoData['id'] = $existingSeo[0]['id'];
+                        // Automatically save SEO metadata in seo table
+                        try {
+                            $seoModel = new \App\Models\Seo();
+                            $pageUrl = '/' . ltrim($slug, '/');
+                            $existingSeo = $seoModel->query("SELECT id FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
+                            $seoData = [
+                                'page_url' => $pageUrl,
+                                'meta_title' => !empty($metaTitle) ? $metaTitle : $title,
+                                'meta_description' => $metaDescription,
+                                'other_script_or_tag' => trim($otherHeadTags)
+                            ];
+                            if (!empty($existingSeo)) {
+                                $seoData['id'] = $existingSeo[0]['id'];
+                            }
+                            $seoModel->save($seoData);
+                        } catch (\Throwable $e) {
+                            // Silently continue if SEO save encounters non-fatal issue
                         }
-                        $seoModel->save($seoData);
-                    } catch (\Throwable $e) {
-                        // Silently continue if SEO save encounters non-fatal issue
                     }
+                } catch (\Throwable $e) {
+                    error_log("Bulk upload error saving page {$filename}: " . $e->getMessage());
                 }
             }
         }
         
+        // Auto update sitemap with newly created page URLs
+        if (!empty($createdSlugs)) {
+            SitemapService::addPages($createdSlugs);
+        }
+
         // Cleanup
         exec("rm -rf " . escapeshellarg($extractPath));
 
-        $_SESSION['success'] = "Successfully processed and created {$processedCount} pages from ZIP.";
+        $_SESSION['success'] = "Successfully processed and created {$processedCount} pages from ZIP, and updated Sitemap.";
         header('Location: ' . route('admin.pages.index'));
         exit;
     }

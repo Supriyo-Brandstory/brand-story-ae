@@ -13,9 +13,17 @@
         <h1 class="h3 mb-0">
             <i class="bi bi-diagram-3 text-primary me-2"></i> Sitemap Management
         </h1>
-        <a href="<?= base_url('/sitemap.xml') ?>" target="_blank" class="btn btn-outline-primary">
-            <i class="bi bi-box-arrow-up-right me-1"></i> View Live Sitemap
-        </a>
+        <div class="d-flex gap-2">
+            <form action="<?= route('admin.sitemap.sync') ?>" method="POST" onsubmit="return confirm('Are you sure you want to sync all existing pages and blogs to the Sitemap?');" class="d-inline">
+                <?= csrf_token() ?>
+                <button type="submit" class="btn btn-outline-success">
+                    <i class="bi bi-arrow-repeat me-1"></i> Sync All Pages to Sitemap
+                </button>
+            </form>
+            <a href="<?= base_url('/sitemap.xml') ?>" target="_blank" class="btn btn-outline-primary">
+                <i class="bi bi-box-arrow-up-right me-1"></i> View Live Sitemap
+            </a>
+        </div>
     </div>
 
     <div class="card shadow-sm border-0">
