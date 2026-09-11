@@ -45,7 +45,7 @@
                     <path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"/>
                   </svg>
                 </div>
-                <span class="re-brand-title">Real Estate Performance</span>
+                <span class="re-brand-title">Marketing Performance</span>
               </div>
               <div class="re-dashboard-filter">
                 <span>Last 7 Days</span>
@@ -75,33 +75,33 @@
 
               <div class="re-stat-card">
                 <div class="re-stat-label">Clicks</div>
-                <div class="re-stat-value">200k</div>
+                <div class="re-stat-value">200K</div>
                 <div class="re-stat-trend">
                   <span class="re-trend-arrow">↑</span> 50.5%
                 </div>
               </div>
 
               <div class="re-stat-card">
-                <div class="re-stat-label">Performance</div>
-                <div class="re-stat-value">2.68M</div>
+                <div class="re-stat-label">ROAS</div>
+                <div class="re-stat-value">268%</div>
                 <div class="re-stat-trend">
                   <span class="re-trend-arrow">↑</span> 80.5%
                 </div>
               </div>
 
               <div class="re-stat-card">
-                <div class="re-stat-label">Impressions</div>
-                <div class="re-stat-value">1.82M</div>
+                <div class="re-stat-label">Organic Clicks</div>
+                <div class="re-stat-value">80K</div>
                 <div class="re-stat-trend">
-                  <span class="re-trend-arrow">↑</span> 24.5%
+                  <span class="re-trend-arrow">↑</span> 32.5%
                 </div>
               </div>
 
               <div class="re-stat-card">
                 <div class="re-stat-label">Ad Spent</div>
-                <div class="re-stat-value">AED 2400</div>
+                <div class="re-stat-value">AED 240K</div>
                 <div class="re-stat-trend">
-                  <span class="re-trend-arrow">↑</span> 24.5%
+                  <span class="re-trend-arrow">↑</span> 10.5%
                 </div>
               </div>
             </div>
