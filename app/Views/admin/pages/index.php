@@ -91,12 +91,9 @@
                                             <a href="<?= route('admin.pages.edit', ['id' => $page['id']]) ?>" class="btn btn-sm btn-outline-warning" title="Edit" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
                                                 <i class="bi bi-pencil"></i>
                                             </a>
-                                            <form action="<?= route('admin.pages.destroy', ['id' => $page['id']]) ?>" method="POST" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this page?')">
-                                                <?= csrf_token() ?>
-                                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
-                                                    <i class="bi bi-trash"></i>
-                                                </button>
-                                            </form>
+                                            <button type="button" class="btn btn-sm btn-outline-danger" title="Delete" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" onclick="deleteSinglePage('<?= route('admin.pages.destroy', ['id' => $page['id']]) ?>')">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
                                         </div>
                                     </td>
                                 </tr>
@@ -105,6 +102,10 @@
                     </tbody>
                 </table>
             </div>
+            </form>
+
+            <form action="" method="POST" id="singleDeleteForm" style="display: none;">
+                <?= csrf_token() ?>
             </form>
         </div>
         
@@ -193,4 +194,12 @@ document.addEventListener('DOMContentLoaded', function() {
         cb.addEventListener('change', updateBulkDeleteButton);
     });
 });
+
+function deleteSinglePage(actionUrl) {
+    if (confirm('Are you sure you want to delete this page?')) {
+        const form = document.getElementById('singleDeleteForm');
+        form.action = actionUrl;
+        form.submit();
+    }
+}
 </script>

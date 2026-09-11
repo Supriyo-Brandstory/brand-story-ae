@@ -124,7 +124,7 @@
                                                 <i class="bi bi-pencil"></i>
                                             </a>
 
-                                            <button type="button" class="btn btn-sm btn-outline-danger ms-1" title="Delete" onclick="deleteSingleBlog(<?= $blog['id'] ?>)">
+                                            <button type="button" class="btn btn-sm btn-outline-danger ms-1" title="Delete" onclick="deleteSingleBlog('<?= route('admin.blogs_admin.destroy', ['id' => $blog['id']]) ?>')">
                                                 <i class="bi bi-trash"></i>
                                             </button>
                                         </td>
@@ -233,10 +233,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function deleteSingleBlog(id) {
+function deleteSingleBlog(actionUrl) {
     if (confirm('Are you sure you want to delete this blog post?')) {
         const form = document.getElementById('singleDeleteForm');
-        form.action = '<?= route('admin.blogs_admin.destroy', ['id' => '']) ?>' + id;
+        form.action = actionUrl;
         form.submit();
     }
 }
