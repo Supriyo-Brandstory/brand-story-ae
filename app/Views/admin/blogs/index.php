@@ -33,9 +33,9 @@
             <button type="button" class="btn btn-sm btn-danger" id="bulkDeleteBtn" style="display: none;" onclick="if(confirm('Are you sure you want to delete the selected blog posts?')) document.getElementById('bulkDeleteForm').submit();">
                 <i class="bi bi-trash me-1"></i> Delete Selected
             </button>
-            <a href="<?= route('admin.blogs_admin.bulk_upload') ?>" class="btn btn-outline-primary">
+            <!-- <a href="<?= route('admin.blogs_admin.bulk_upload') ?>" class="btn btn-outline-primary">
                 <i class="bi bi-cloud-arrow-up me-1"></i> Bulk Upload
-            </a>
+            </a> -->
             <a href="<?= route('admin.blogs_admin.create') ?>" class="btn btn-primary">
                 <i class="bi bi-plus-lg me-1"></i> Add New Blog Post
             </a>
