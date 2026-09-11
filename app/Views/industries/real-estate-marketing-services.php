@@ -746,12 +746,12 @@ $reviewSection = [
     'title' =>  "What Our Clients Say About Us",
     'bgClass' => 'bg-black', // optional custom class
 ];
-include __DIR__ . '/component/client_reviews.php';
+include __DIR__ . '/../component/client_reviews.php';
 ?>
 <?php 
-  $category = 'Digital Marketing';
+  $category = 'Real Estate Marketing';
   $padding= 'sp-50';
-  include __DIR__ . '/component/blog_carousel.php'; 
+  include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
