@@ -338,6 +338,10 @@ Route::group(['prefix' => '/admin'], function () {
 
         // Blog Posts Management
         Route::get('/blogs', 'Admin\AdminBlogController@index', 'admin.blogs_admin.index');
+        Route::get('/blogs/bulk-upload', 'Admin\AdminBlogController@bulkUpload', 'admin.blogs_admin.bulk_upload');
+        Route::post('/blogs/bulk-upload', 'Admin\AdminBlogController@processBulkUpload', 'admin.blogs_admin.process_bulk_upload');
+        Route::get('/blogs/demo/{type}', 'Admin\AdminBlogController@downloadDemo', 'admin.blogs_admin.demo');
+        Route::post('/blogs/bulk-delete', 'Admin\AdminBlogController@bulkDestroy', 'admin.blogs_admin.bulk_destroy');
         Route::get('/blogs/create', 'Admin\AdminBlogController@create', 'admin.blogs_admin.create');
         Route::post('/blogs', 'Admin\AdminBlogController@store', 'admin.blogs_admin.store');
         Route::get('/blogs/{id}/edit', 'Admin\AdminBlogController@edit', 'admin.blogs_admin.edit');

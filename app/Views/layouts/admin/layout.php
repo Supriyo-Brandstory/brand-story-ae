@@ -249,7 +249,10 @@
     <!-- jQuery (required for Summernote) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- TinyMCE Rich Text Editor -->
-    <script src="https://cdn.tiny.cloud/1/py5kqmpgoqx9jjeogpofx2yup7s81sq39ekf28qjvwoqexf4/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <?php
+    $tinymceApiKey = getenv('TINYMCE_API_KEY') ?: ($_ENV['TINYMCE_API_KEY'] ?? '0vuxp75c11tr1fiy4q6d7l5ohed5n38klwlm020o48xi0v9z');
+    ?>
+    <script src="https://cdn.tiny.cloud/1/<?= htmlspecialchars($tinymceApiKey) ?>/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
