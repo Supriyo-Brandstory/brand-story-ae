@@ -1411,7 +1411,7 @@
                 <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge"  style="max-width: 45%;">
             </div>
             <div class="premium-badge-cell">
                 <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">

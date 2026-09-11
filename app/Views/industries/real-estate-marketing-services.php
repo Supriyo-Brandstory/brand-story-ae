@@ -8,17 +8,18 @@
   <div class="re-banner-grid-overlay"></div>
   <div class="re-banner-glow"></div>
   <div class="container position-relative">
-    <div class="row align-items-center">
+    <div class="row align-items-stretch re-hero-row">
       <!-- Left Column: Title & CTA -->
-      <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+      <div class="col-lg-6 col-md-12 mb-5 mb-lg-0 d-flex flex-column justify-content-center">
         <div class="re-hero-content">
           <h1 class="re-hero-title">
-            <span class="re-hero-outline-text premium-purple-highlight">Real Estate Marketing</span> <span class="re-hero-solid-text">Services</span>
-            <span class="re-hero-block-title">Services in Dubai UAE</span>
+            <span class="re-hero-outline-text premium-purple-highlight">Real Estate Marketing Agency</span>
+            <span class="re-hero-block-title">Company in Dubai, UAE</span>
           </h1>
+          <p class="premium-slide-subtitle">Digital marketing services for ambitious real estate agents and brands in Dubai and United Arab Emirates. From lead generation to performance marketing, SEO and creative advertising, BrandStory helps real-estate businesses grow and scale</p>
           <div class="re-hero-actions">
             <a href="javascript:void(0);" class="re-pill-btn uniq-contact-lead-btn">
-              <span>Increase your business and sales with us</span>
+              <span>Talk to Experts</span>
               <span class="re-btn-arrow-circle">
                 <svg viewBox="0 0 24 24" class="re-btn-arrow-svg">
                   <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -30,8 +31,8 @@
       </div>
 
       <!-- Right Column: Analytics Card Preview -->
-      <div class="col-lg-6 col-md-12">
-        <div class="re-dashboard-card-wrap">
+      <div class="col-lg-6 col-md-12 d-flex">
+        <div class="re-dashboard-card-wrap w-100">
           <div class="re-dashboard-card">
             <!-- Header -->
             <div class="re-dashboard-header">
@@ -534,6 +535,35 @@
     </div>
   </div>
 </section>
+
+ <section class="premium-badges-section">
+  
+    <div class="container">
+        <div class="premium-why-bottom-banner mb-5">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace">
+        </div>
+        <div class="premium-badges-grid">
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" style="max-width: 45%;">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge">
+            </div>
+        </div>
+    </div>
+</section>
 <section class="premium-cs-section">
     <div class="container">
         <!-- Header row -->
@@ -711,6 +741,18 @@
         <?php include __DIR__ . '/../component/client_section.php' ?>
     </div>
 </section>
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/component/client_reviews.php';
+?>
+<?php 
+  $category = 'Digital Marketing';
+  $padding= 'sp-50';
+  include __DIR__ . '/component/blog_carousel.php'; 
+?>
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
             <h2 class="text-center text-white mb-lg-5 mb-4">Frequently Asked Questions</h2>
