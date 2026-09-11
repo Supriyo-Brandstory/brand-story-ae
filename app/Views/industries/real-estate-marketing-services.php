@@ -4,24 +4,106 @@
 <link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
 
 <!-- Hero Banner Section -->
-<section class="premium-hero-slider static-premium-banner">
-  <div class="premium-slider-container">
-    <div class="premium-slide active" style="background-image: url('<?= base_url("assets/images/realestate-banner.webp") ?>');">
-      <div class="container">
-        <div class="premium-slide-content">
-          <h1 class="premium-slide-title">
-            <span class="premium-purple-highlight">Real Estate Marketing Agency</span><br>Company in Dubai, UAE
+<section class="re-hero-banner">
+  <div class="re-banner-grid-overlay"></div>
+  <div class="re-banner-glow"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <!-- Left Column: Title & CTA -->
+      <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+        <div class="re-hero-content">
+          <h1 class="re-hero-title">
+            <span class="re-hero-outline-text premium-purple-highlight">Real Estate Marketing</span> <span class="re-hero-solid-text">Services</span>
+            <span class="re-hero-block-title">Services in Dubai UAE</span>
           </h1>
-          <p class="premium-slide-subtitle">Digital marketing services for ambitious real estate agents and brands in Dubai and United Arab Emirates. From lead generation to performance marketing, SEO and creative advertising, BrandStory helps real-estate businesses grow and scale</p>
-          <div class="premium-slide-actions">
-            <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
-              <span>Talk to Experts</span>
-              <span class="btn-arrow-circle">
-                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+          <div class="re-hero-actions">
+            <a href="javascript:void(0);" class="re-pill-btn uniq-contact-lead-btn">
+              <span>Increase your business and sales with us</span>
+              <span class="re-btn-arrow-circle">
+                <svg viewBox="0 0 24 24" class="re-btn-arrow-svg">
                   <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
               </span>
             </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Analytics Card Preview -->
+      <div class="col-lg-6 col-md-12">
+        <div class="re-dashboard-card-wrap">
+          <div class="re-dashboard-card">
+            <!-- Header -->
+            <div class="re-dashboard-header">
+              <div class="re-dashboard-brand">
+                <div class="re-brand-icon">
+                  <svg width="22" height="22" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                    <path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"/>
+                    <path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"/>
+                    <path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"/>
+                    <path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"/>
+                  </svg>
+                </div>
+                <span class="re-brand-title">Real Estate Ads Overview</span>
+              </div>
+              <div class="re-dashboard-filter">
+                <span>Last 7 Days</span>
+                <svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- 6 Stat Cards Grid (3x2) -->
+            <div class="re-stats-grid">
+              <div class="re-stat-card">
+                <div class="re-stat-label">Impressions</div>
+                <div class="re-stat-value">1.82M</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 24.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Engagements</div>
+                <div class="re-stat-value">61K</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 28.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Clicks</div>
+                <div class="re-stat-value">200k</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 50.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Performance</div>
+                <div class="re-stat-value">2.68M</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 80.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Impressions</div>
+                <div class="re-stat-value">1.82M</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 24.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Ad Spent</div>
+                <div class="re-stat-value">AED 2400</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 24.5%
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,6 +230,16 @@
           <p class="realestate-service-desc">
             Bring your real estate projects to life with immersive 3D visuals and engaging digital experiences. At BrandStory, we create high-quality 3D renders, architectural visualizations, and animations that help audiences understand and connect with properties before they are built. We complement these visuals with intuitive UI/UX design for websites and digital platforms, ensuring your property is presented through an engaging, user-friendly experience that captures attention and encourages enquiries.
           </p>
+          <div class="premium-roi-action" >
+               <a href="/contact/" class="premium-roi-btn" >
+                    <span>Contact Us</span>
+                    <span class="roi-btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
+                          <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+               </a>
+            </div>
         </div>
       </div>
     </div>
@@ -161,6 +253,17 @@
           <p class="realestate-service-desc">
             Bring your real estate brand to life with engaging video content designed to build audience interest. At BrandStory, we create property walkthroughs, construction progress videos, brand films, digital video commercials, launch and event coverage, VR and 360° property tours, social media reels, testimonials, and corporate videos. From showcasing properties and lifestyle experiences to highlighting key project milestones, We strengthen your brand presence, engage potential buyers, and drive meaningful enquiries.
           </p>
+          <div class="premium-roi-action" >
+               <a href="/contact/" class="premium-roi-btn" >
+                    <span>Contact Us</span>
+                    <span class="roi-btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
+                          <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+               </a>
+            </div>
+
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
@@ -184,6 +287,16 @@
           <p class="realestate-service-desc">
             Our real estate digital marketing strategies combine SEO, social media marketing, paid advertising, content marketing, and performance-driven campaigns to reach high-value prospects across relevant digital channels. At BrandStory, we use data-led strategies to strengthen project visibility, generate qualified leads, and support conversion goals. With transparent reporting and ongoing optimization, we help developers and real estate brands make informed marketing decisions and achieve sustainable growth.
           </p>
+          <div class="premium-roi-action" >
+               <a href="/contact/" class="premium-roi-btn" >
+                    <span>Contact Us</span>
+                    <span class="roi-btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
+                          <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+               </a>
+            </div>
         </div>
       </div>
     </div>
@@ -197,6 +310,16 @@
           <p class="realestate-service-desc">
             We create memorable brand experiences with experiential marketing to bring real estate projects to their audience. We are experts in building creative concepts, brand activations, launch experiments, and on-ground campaigns that encourage meaningful interactions. From BTL initiatives and project launches to immersive brand experiences, we help real estate brands capture attention, strengthen connections, and create experiences that connect and stay with their audiences.
           </p>
+          <div class="premium-roi-action" >
+               <a href="/contact/" class="premium-roi-btn" >
+                    <span>Contact Us</span>
+                    <span class="roi-btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
+                          <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+               </a>
+            </div>
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
@@ -220,6 +343,16 @@
           <p class="realestate-service-desc">
             Strong real estate branding creates a clear identity that people recognize, remember, and trust. At BrandStory, we develop distinctive brand identities that align with your project's positioning, audience, and market goals- from logo design and visual identity to colour palettes, typography, brand messaging, and comprehensive brand guidelines. Our real estate branding services help developers and property businesses establish a consistent presence, build credibility, and create a memorable identity that stands out.
           </p>
+          <div class="premium-roi-action" >
+               <a href="/contact/" class="premium-roi-btn" >
+                    <span>Contact Us</span>
+                    <span class="roi-btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
+                          <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+               </a>
+            </div>
         </div>
       </div>
     </div>
@@ -268,7 +401,10 @@
               <line x1="4" y1="42" x2="44" y2="42" />
             </svg>
           </div>
-          <h3 class="why-choose-re-card-title">Real Estate-Focused<br>Expertise</h3>
+          <div class="why-choose-re-card-content">
+            <h3 class="why-choose-re-card-title">Real Estate-Focused<br>Expertise</h3>
+            <p class="why-choose-re-card-desc">Deep industry knowledge and specialized marketing strategies tailored for developers, brokers, and real estate brands across Dubai and UAE.</p>
+          </div>
         </div>
       </div>
 
@@ -286,7 +422,10 @@
               <path d="M37 19l4-4" />
             </svg>
           </div>
-          <h3 class="why-choose-re-card-title">Strategy Meets Creativity</h3>
+          <div class="why-choose-re-card-content">
+            <h3 class="why-choose-re-card-title">Strategy Meets<br>Creativity</h3>
+            <p class="why-choose-re-card-desc">Combining data-driven market insights with high-impact visual storytelling, architectural renders, and creative campaigns that drive high ROI.</p>
+          </div>
         </div>
       </div>
 
@@ -307,7 +446,10 @@
               <line x1="4" y1="42" x2="44" y2="42" />
             </svg>
           </div>
-          <h3 class="why-choose-re-card-title">End-to-End Marketing<br>Capabilities</h3>
+          <div class="why-choose-re-card-content">
+            <h3 class="why-choose-re-card-title">End-to-End Marketing<br>Capabilities</h3>
+            <p class="why-choose-re-card-desc">From branding and 3D architectural renders to SEO, lead generation, and performance marketing—everything managed under one expert roof.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -392,7 +534,183 @@
     </div>
   </div>
 </section>
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
+                    challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
 
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
+                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
+                                that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
             <h2 class="text-center text-white mb-lg-5 mb-4">Frequently Asked Questions</h2>
