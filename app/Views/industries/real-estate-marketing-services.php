@@ -14,9 +14,9 @@
         <div class="re-hero-content">
           <h1 class="re-hero-title">
             <span class="re-hero-outline-text premium-purple-highlight">Real Estate Marketing Agency</span>
-            <span class="re-hero-block-title">Company in Dubai, UAE</span>
+            <span class="re-hero-block-title">in Dubai, UAE- BrandStory</span>
           </h1>
-          <p class="premium-slide-subtitle">Digital marketing services for ambitious real estate agents and brands in Dubai and United Arab Emirates. From lead generation to performance marketing, SEO and creative advertising, BrandStory helps real-estate businesses grow and scale</p>
+          <p class="premium-slide-subtitle">Digital marketing services for ambitious real estate agents and brands in Dubai and United Arab Emirates. From lead generation to performance marketing, SEO and creative advertising, BrandStory helps real-estate businesses grow and scale.</p>
           <div class="re-hero-actions">
             <a href="javascript:void(0);" class="re-pill-btn uniq-contact-lead-btn">
               <span>Talk to Experts</span>
@@ -45,7 +45,7 @@
                     <path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"/>
                   </svg>
                 </div>
-                <span class="re-brand-title">Real Estate Ads Overview</span>
+                <span class="re-brand-title">Real Estate Performance</span>
               </div>
               <div class="re-dashboard-filter">
                 <span>Last 7 Days</span>
@@ -209,8 +209,8 @@
     <!-- Header -->
     <div class="text-center mb-5 pb-lg-3">
       <h2 class="realestate-services-heading">
-        Real Estate Digital Marketing
-        <span class="p-higlight">Services By BrandStory</span>
+        Real Estate Digital Marketing Services in Dubai
+        <span class="p-higlight">Where BrandStory Excel</span>
       </h2>
       <p class="realestate-services-subheading">
         We are Dubai’s integrated marketing agency with SEO, Social Media, Email Marketing, Performance Marketing, Branding, and Web Design expertise. We create the most effective strategies that connect your properties with the audiences that matter most.
@@ -232,8 +232,8 @@
             Bring your real estate projects to life with immersive 3D visuals and engaging digital experiences. At BrandStory, we create high-quality 3D renders, architectural visualizations, and animations that help audiences understand and connect with properties before they are built. We complement these visuals with intuitive UI/UX design for websites and digital platforms, ensuring your property is presented through an engaging, user-friendly experience that captures attention and encourages enquiries.
           </p>
           <div class="premium-roi-action" >
-               <a href="/contact/" class="premium-roi-btn" >
-                    <span>Contact Us</span>
+               <a href="/ui-ux-design-company-in-dubai/" class="premium-roi-btn" >
+                    <span>Explore More</span>
                     <span class="roi-btn-arrow-circle">
                         <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
                           <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -255,8 +255,8 @@
             Bring your real estate brand to life with engaging video content designed to build audience interest. At BrandStory, we create property walkthroughs, construction progress videos, brand films, digital video commercials, launch and event coverage, VR and 360° property tours, social media reels, testimonials, and corporate videos. From showcasing properties and lifestyle experiences to highlighting key project milestones, We strengthen your brand presence, engage potential buyers, and drive meaningful enquiries.
           </p>
           <div class="premium-roi-action" >
-               <a href="/contact/" class="premium-roi-btn" >
-                    <span>Contact Us</span>
+               <a href="/video-marketing-agency-dubai/" class="premium-roi-btn" >
+                    <span>Explore More</span>
                     <span class="roi-btn-arrow-circle">
                         <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
                           <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -289,8 +289,8 @@
             Our real estate digital marketing strategies combine SEO, social media marketing, paid advertising, content marketing, and performance-driven campaigns to reach high-value prospects across relevant digital channels. At BrandStory, we use data-led strategies to strengthen project visibility, generate qualified leads, and support conversion goals. With transparent reporting and ongoing optimization, we help developers and real estate brands make informed marketing decisions and achieve sustainable growth.
           </p>
           <div class="premium-roi-action" >
-               <a href="/contact/" class="premium-roi-btn" >
-                    <span>Contact Us</span>
+               <a href="/" class="premium-roi-btn" >
+                    <span>Explore More</span>
                     <span class="roi-btn-arrow-circle">
                         <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
                           <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -312,8 +312,8 @@
             We create memorable brand experiences with experiential marketing to bring real estate projects to their audience. We are experts in building creative concepts, brand activations, launch experiments, and on-ground campaigns that encourage meaningful interactions. From BTL initiatives and project launches to immersive brand experiences, we help real estate brands capture attention, strengthen connections, and create experiences that connect and stay with their audiences.
           </p>
           <div class="premium-roi-action" >
-               <a href="/contact/" class="premium-roi-btn" >
-                    <span>Contact Us</span>
+               <a href="/creative-advertising-agency-in-dubai/" class="premium-roi-btn" >
+                    <span>Explore More</span>
                     <span class="roi-btn-arrow-circle">
                         <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
                           <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -345,8 +345,8 @@
             Strong real estate branding creates a clear identity that people recognize, remember, and trust. At BrandStory, we develop distinctive brand identities that align with your project's positioning, audience, and market goals- from logo design and visual identity to colour palettes, typography, brand messaging, and comprehensive brand guidelines. Our real estate branding services help developers and property businesses establish a consistent presence, build credibility, and create a memorable identity that stands out.
           </p>
           <div class="premium-roi-action" >
-               <a href="/contact/" class="premium-roi-btn" >
-                    <span>Contact Us</span>
+               <a href="/branding-agency-in-dubai/" class="premium-roi-btn" >
+                    <span>Explore More</span>
                     <span class="roi-btn-arrow-circle">
                         <svg viewBox="0 0 24 24" class="roi-btn-arrow-svg">
                           <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -366,7 +366,7 @@
   <div class="container">
     <div class="why-choose-re-header">
       <h2 class="why-choose-re-main-title">WHY CHOOSE <span class="brand-purple">BRANDSTORY</span></h2>
-      <p class="why-choose-re-subtitle">For Real Estate Marketing?</p>
+      <p class="why-choose-re-subtitle">For Real Estate Marketing in Dubai, UAE?</p>
     </div>
     <div class="row g-4">
       <!-- Card 1 -->
@@ -449,7 +449,7 @@
           </div>
           <div class="why-choose-re-card-content">
             <h3 class="why-choose-re-card-title">End-to-End Marketing<br>Capabilities</h3>
-            <p class="why-choose-re-card-desc">From branding and 3D architectural renders to SEO, lead generation, and performance marketing—everything managed under one expert roof.</p>
+            <p class="why-choose-re-card-desc">From branding and 3D architectural renders to SEO, lead generation, and performance marketing- everything managed under one expert roof.</p>
           </div>
         </div>
       </div>
