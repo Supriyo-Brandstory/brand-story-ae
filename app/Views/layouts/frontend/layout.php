@@ -57,6 +57,15 @@ if ($seoData) {
         <!-- End Dynamic SEO Scripts/Tags -->
     <?php endif; ?>
 
+    <?php 
+    // Automatic Canonical URL if not already rendered in other_script_or_tag
+    $hasCanonical = !empty($seoData['other_script_or_tag']) && preg_match('/<link\s+[^>]*rel=["\']canonical["\']/i', $seoData['other_script_or_tag']);
+    if (!$hasCanonical) {
+        $canonicalUrl = \App\Services\SitemapService::formatUrl($_SERVER['REQUEST_URI'] ?? '/');
+        echo '<link rel="canonical" href="' . htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') . '" />' . "\n";
+    }
+    ?>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">

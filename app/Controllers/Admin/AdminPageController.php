@@ -75,7 +75,36 @@ class AdminPageController extends AdminBaseController
         try {
             if ($pageModel->save($data)) {
                 $insertedId = \App\Core\Database::connect()->lastInsertId();
+
+                // 1. Auto sync to Sitemap with structured format & trailing slash
                 SitemapService::addPages([$data['slug']]);
+
+                // 2. Auto generate canonical URL and register in SEO table
+                try {
+                    $seoModel = new \App\Models\Seo();
+                    $pageUrl = '/' . ltrim($data['slug'], '/');
+                    $existingSeo = $seoModel->query("SELECT id, other_script_or_tag FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
+                    if (!empty($existingSeo)) {
+                        $tags = SitemapService::syncCanonicalInTags($existingSeo[0]['other_script_or_tag'] ?? '', $data['slug']);
+                        $seoModel->save([
+                            'id' => $existingSeo[0]['id'],
+                            'page_url' => $pageUrl,
+                            'meta_title' => $data['title'],
+                            'other_script_or_tag' => $tags
+                        ]);
+                    } else {
+                        $tags = SitemapService::syncCanonicalInTags('', $data['slug']);
+                        $seoModel->save([
+                            'page_url' => $pageUrl,
+                            'meta_title' => $data['title'],
+                            'meta_description' => '',
+                            'other_script_or_tag' => $tags
+                        ]);
+                    }
+                } catch (\Throwable $e) {
+                    error_log("SEO save error on create: " . $e->getMessage());
+                }
+
                 $_SESSION['success'] = "Page created successfully.";
                 
                 if (isset($_POST['redirect_edit']) && $insertedId) {
@@ -148,10 +177,63 @@ class AdminPageController extends AdminBaseController
 
         try {
             if ($pageModel->save($data)) {
+                // 1. Update Sitemap entry in-place if slug changed
                 if ($oldPage && !empty($oldPage['slug']) && $oldPage['slug'] !== $data['slug']) {
-                    SitemapService::removePages([$oldPage['slug']]);
+                    SitemapService::updatePageSlug($oldPage['slug'], $data['slug']);
+
+                    // Update SEO table record URL and canonical link
+                    try {
+                        $seoModel = new \App\Models\Seo();
+                        $oldPageUrl = '/' . ltrim($oldPage['slug'], '/');
+                        $newPageUrl = '/' . ltrim($data['slug'], '/');
+                        $existingSeo = $seoModel->query("SELECT id, other_script_or_tag FROM seo WHERE page_url = ? LIMIT 1", [$oldPageUrl]);
+                        if (!empty($existingSeo)) {
+                            $tags = SitemapService::syncCanonicalInTags($existingSeo[0]['other_script_or_tag'] ?? '', $data['slug']);
+                            $seoModel->save([
+                                'id' => $existingSeo[0]['id'],
+                                'page_url' => $newPageUrl,
+                                'meta_title' => $data['title'],
+                                'other_script_or_tag' => $tags
+                            ]);
+                        } else {
+                            $tags = SitemapService::syncCanonicalInTags('', $data['slug']);
+                            $seoModel->save([
+                                'page_url' => $newPageUrl,
+                                'meta_title' => $data['title'],
+                                'meta_description' => '',
+                                'other_script_or_tag' => $tags
+                            ]);
+                        }
+                    } catch (\Throwable $e) {
+                        error_log("SEO update error on slug change: " . $e->getMessage());
+                    }
+                } else {
+                    SitemapService::addPages([$data['slug']]);
+
+                    // Ensure canonical link is up to date in SEO table
+                    try {
+                        $seoModel = new \App\Models\Seo();
+                        $pageUrl = '/' . ltrim($data['slug'], '/');
+                        $existingSeo = $seoModel->query("SELECT id, other_script_or_tag FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
+                        if (!empty($existingSeo)) {
+                            $tags = SitemapService::syncCanonicalInTags($existingSeo[0]['other_script_or_tag'] ?? '', $data['slug']);
+                            $seoModel->save([
+                                'id' => $existingSeo[0]['id'],
+                                'meta_title' => $data['title'],
+                                'other_script_or_tag' => $tags
+                            ]);
+                        } else {
+                            $tags = SitemapService::syncCanonicalInTags('', $data['slug']);
+                            $seoModel->save([
+                                'page_url' => $pageUrl,
+                                'meta_title' => $data['title'],
+                                'meta_description' => '',
+                                'other_script_or_tag' => $tags
+                            ]);
+                        }
+                    } catch (\Throwable $e) {}
                 }
-                SitemapService::addPages([$data['slug']]);
+
                 $_SESSION['success'] = "Page updated successfully.";
                 
                 if (isset($_POST['redirect_edit'])) {
@@ -572,16 +654,17 @@ class AdminPageController extends AdminBaseController
                         $processedCount++;
                         $createdSlugs[] = $slug;
 
-                        // Automatically save SEO metadata in seo table
+                        // Automatically save SEO metadata & Canonical in seo table
                         try {
                             $seoModel = new \App\Models\Seo();
                             $pageUrl = '/' . ltrim($slug, '/');
+                            $finalOtherHeadTags = SitemapService::syncCanonicalInTags($otherHeadTags, $slug);
                             $existingSeo = $seoModel->query("SELECT id FROM seo WHERE page_url = ? LIMIT 1", [$pageUrl]);
                             $seoData = [
                                 'page_url' => $pageUrl,
                                 'meta_title' => !empty($metaTitle) ? $metaTitle : $title,
                                 'meta_description' => $metaDescription,
-                                'other_script_or_tag' => trim($otherHeadTags)
+                                'other_script_or_tag' => trim($finalOtherHeadTags)
                             ];
                             if (!empty($existingSeo)) {
                                 $seoData['id'] = $existingSeo[0]['id'];

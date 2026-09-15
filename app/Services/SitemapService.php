@@ -288,6 +288,129 @@ class SitemapService
     }
 
     /**
+     * Generate canonical link HTML tag for a given slug or URL.
+     */
+    public static function generateCanonicalTag(string $slugOrUrl): string
+    {
+        $url = self::formatUrl($slugOrUrl);
+        return '<link rel="canonical" href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" />';
+    }
+
+    /**
+     * Ensure canonical link HTML tag exists and is up to date in custom head tags/scripts.
+     */
+    public static function syncCanonicalInTags(?string $existingTags, string $slugOrUrl): string
+    {
+        $canonicalTag = self::generateCanonicalTag($slugOrUrl);
+        $tags = trim($existingTags ?? '');
+
+        if (preg_match('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $tags)) {
+            // Replace existing canonical tag
+            $tags = preg_replace('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $canonicalTag, $tags);
+        } else {
+            // Prepend canonical tag
+            $tags = $canonicalTag . ($tags !== '' ? "\n" . $tags : '');
+        }
+
+        return $tags;
+    }
+
+    /**
+     * Update an existing page slug in the sitemap in-place without creating a duplicate sitemap or entry.
+     *
+     * @param string $oldSlug The previous slug
+     * @param string $newSlug The new updated slug
+     * @return bool
+     */
+    public static function updatePageSlug(string $oldSlug, string $newSlug): bool
+    {
+        if (empty(trim($oldSlug)) || empty(trim($newSlug))) {
+            return false;
+        }
+
+        if (trim($oldSlug) === trim($newSlug)) {
+            return self::addPages([$newSlug]);
+        }
+
+        try {
+            $sitemapModel = new Sitemap();
+            $sitemaps = $sitemapModel->findAll();
+            $sitemapRecord = $sitemaps[0] ?? null;
+            if (!$sitemapRecord || empty($sitemapRecord['content'])) {
+                return self::addPages([$newSlug]);
+            }
+
+            $xmlContent = trim($sitemapRecord['content']);
+            $dom = new DOMDocument('1.0', 'UTF-8');
+            $dom->preserveWhiteSpace = false;
+            $dom->formatOutput = true;
+
+            libxml_use_internal_errors(true);
+            $loaded = @$dom->loadXML($xmlContent);
+            libxml_clear_errors();
+
+            if (!$loaded) {
+                return self::addPages([$newSlug]);
+            }
+
+            $xpath = new DOMXPath($dom);
+            $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+
+            $oldUrlWithSlash = self::formatUrl($oldSlug);
+            $oldUrlWithoutSlash = rtrim($oldUrlWithSlash, '/');
+            $newUrlWithSlash = self::formatUrl($newSlug);
+            $today = date('Y-m-d');
+
+            // Find existing node with old slug
+            $oldQuery = "//s:url[s:loc=" . self::xpathEscape($oldUrlWithSlash) . " or s:loc=" . self::xpathEscape($oldUrlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($oldUrlWithSlash) . " or loc=" . self::xpathEscape($oldUrlWithoutSlash) . "]";
+            $oldNodes = $xpath->query($oldQuery);
+
+            if ($oldNodes && $oldNodes->length > 0) {
+                $urlNode = $oldNodes->item(0);
+
+                // Update <loc>
+                $locNodes = $xpath->query('s:loc | loc', $urlNode);
+                if ($locNodes && $locNodes->length > 0) {
+                    $locNodes->item(0)->nodeValue = $newUrlWithSlash;
+                } else {
+                    $locElem = $dom->createElement('loc', htmlspecialchars($newUrlWithSlash, ENT_XML1, 'UTF-8'));
+                    $urlNode->appendChild($locElem);
+                }
+
+                // Update <lastmod>
+                $lastmodNodes = $xpath->query('s:lastmod | lastmod', $urlNode);
+                if ($lastmodNodes && $lastmodNodes->length > 0) {
+                    $lastmodNodes->item(0)->nodeValue = $today;
+                } else {
+                    $lastmodElem = $dom->createElement('lastmod', $today);
+                    $urlNode->appendChild($lastmodElem);
+                }
+
+                // Remove any duplicate old nodes if they existed
+                for ($i = 1; $i < $oldNodes->length; $i++) {
+                    $extraNode = $oldNodes->item($i);
+                    $extraNode->parentNode->removeChild($extraNode);
+                }
+            } else {
+                // If old node not found, add the new page URL
+                return self::addPages([$newSlug]);
+            }
+
+            $newXml = self::formatXml($dom->saveXML());
+
+            $sitemapModel->save([
+                'id' => $sitemapRecord['id'],
+                'content' => $newXml
+            ]);
+
+            return true;
+        } catch (\Throwable $e) {
+            error_log('SitemapService::updatePageSlug error: ' . $e->getMessage());
+            return false;
+        }
+    }
+
+    /**
      * Helper to escape strings in XPath queries.
      */
     private static function xpathEscape(string $value): string
