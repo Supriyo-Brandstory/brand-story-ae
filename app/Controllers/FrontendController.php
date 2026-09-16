@@ -559,6 +559,13 @@ class FrontendController extends Controller
         ];
         return $this->view('services/laravel-development-company-in-dubai', ['meta' => $meta]);
     }
+    public function laravelDevelopmentCompanyInDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/laravel-development-company-in-dubai-2', ['meta' => $meta]);
+    }
 
     public function angularDevelopmentCompanyInDubai()
     {

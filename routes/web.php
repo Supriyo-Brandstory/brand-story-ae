@@ -68,6 +68,7 @@ Route::get('/creative-advertising-agency-in-dubai', 'FrontendController@creative
 Route::get('/wordpress-development-company-in-dubai', 'FrontendController@wordpressDevelopmentCompanyInDubai', 'wordpressdevelopmentcompanyindubai');
 // Route::get('/wordpress-development-company-in-dubai-2', 'FrontendController@wordpressDevelopmentCompanyInDubai2', 'wordpressdevelopmentcompanyindubai2');
 Route::get('/laravel-development-company-in-dubai', 'FrontendController@laravelDevelopmentCompanyInDubai', 'laraveldevelopmentcompanyindubai');
+Route::get('/laravel-development-company-in-dubai-2', 'FrontendController@laravelDevelopmentCompanyInDubai2', 'laraveldevelopmentcompanyindubai2');
 Route::get('/angular-development-company-in-dubai', 'FrontendController@angularDevelopmentCompanyInDubai', 'angulardevelopmentcompanyindubai');
 Route::get('/nextjs-development-company-in-dubai', 'FrontendController@nextjsDevelopmentCompanyInDubai', 'nextjsdevelopmentcompanyindubai');
 Route::get('/shopify-development-company-in-dubai', 'FrontendController@shopifyDevelopmentCompanyInDubai', 'shopifydevelopmentcompanyindubai');

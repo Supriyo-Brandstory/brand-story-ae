@@ -333,3 +333,105 @@
     padding: 50px 0 0;
   }
 }
+
+/* Performance Section Stats */
+.premium-perf-stats {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 28px 0 32px 0;
+}
+
+.perf-stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.perf-stat-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+  line-height: 1.1;
+}
+
+.perf-stat-label {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.perf-stat-divider {
+  width: 1px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
+@media (max-width: 575px) {
+  .premium-perf-stats {
+    gap: 18px;
+  }
+
+  .perf-stat-number {
+    font-size: 24px;
+  }
+
+  .perf-stat-label {
+    font-size: 13px;
+  }
+}
+
+/* Laravel Services Grid Section */
+.laravel-services-grid-section {
+  background-color: #07080c;
+  padding: 60px 0 80px;
+}
+
+.laravel-service-item-card {
+  background: #0f1016;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 28px 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.laravel-service-item-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(133, 91, 255, 0.45);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.laravel-service-item-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.laravel-service-item-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laravel-service-item-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.laravel-service-item-desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14.5px;
+  line-height: 1.65;
+  margin: 0;
+}
