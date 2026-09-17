@@ -625,7 +625,7 @@ class FrontendController extends Controller
     public function realEstateMerketingServices()
     {
         $meta = [
-            'classname' => 'dm-agency-dubai'
+            'classname' => 'dm-agency-dubai ppcn'
         ];
         return $this->view('industries/real-estate-marketing-services', ['meta' => $meta]);
     }

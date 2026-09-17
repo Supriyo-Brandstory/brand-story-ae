@@ -931,11 +931,13 @@ include __DIR__ . '/../component/client_reviews.php';
     </section>
 
 <script>
-    // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+ 
+      // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
     const apartCards = document.querySelectorAll('.ppc-apart-card');
     apartCards.forEach(function(card) {
         card.addEventListener('click', function() {
             card.classList.toggle('ppc-apart-card--active');
         });
     });
+
 </script>
