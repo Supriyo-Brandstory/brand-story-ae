@@ -3,6 +3,8 @@
 <link rel="stylesheet" href="<?= base_url("assets/css/web-design.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
 
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+
 <!-- Hero Banner Section -->
 <section class="re-hero-banner">
   <div class="re-banner-grid-overlay"></div>
@@ -201,6 +203,97 @@
       </div>
     </div>
   </div>
+</section>
+
+    <section class="ppc-apart-section">
+    <div class="container">
+        <div class="ppc-apart-header">
+            <h2 class="ppc-apart-title text-white">Best Real Estate Digital Marketing Agency in Dubai</span></h2>
+            <p class="ppc-apart-subtitle">Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes.</p>
+            <p class="ppc-apart-subtitle">Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure. Done well, it blends search visibility, paid advertising, social content, and lead nurturing into one system that works while your sales team sleeps.</p>
+            <p class="ppc-apart-subtitle">Now the question is how to choose a reliable marketing partner. Most agencies will promise you "leads." Very few will tell you what a qualified lead costs in your segment, or why their last Dubai real estate campaign worked. Here's how to separate the two:</p>
+        </div>
+
+        <div class="ppc-apart-grid">
+
+            <!-- Card 1 -->
+            <div class="ppc-apart-card ppc-apart-card--active" data-index="0">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">01</span>
+                            <h3 class="ppc-apart-card-title">Start with Your Bottleneck</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service1.png" alt="Increased ROI">
+                        <p class="ppc-apart-desc">Are you invisible on Google? Getting traffic but no enquiries? Closing deals but spending too much per lead? The right agency depends on the actual problem and a good one will diagnose it before pitching you a package.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="ppc-apart-card ppc-apart-card--active" data-index="1">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">02</span>
+                            <h3 class="ppc-apart-card-title">Ask for Real Estate Numbers</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service2.png" alt="Copyrighted Ads">
+                        <p class="ppc-apart-desc">"500% ROAS for an e-commerce brand" tells you nothing about selling AED 2M townhouses. Ask specifically: what cost-per-qualified-lead did they achieve for Dubai property campaigns, in which communities, and over what timeline?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="ppc-apart-card" data-index="2">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">03</span>
+                            <h3 class="ppc-apart-card-title">Regular Campaign Management Reports</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" alt="Campaign Management Reports">
+                        <p class="ppc-apart-desc">Effective PPC advertising goes beyond just setting up ads, it requires consistent monitoring, analysis, and fine-tuning. Our team ensures your ads are optimized for maximum clicks, conversions, CTR, and ROAS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="ppc-apart-card" data-index="3">
+                <div class="ppc-apart-card-inner">
+                    <div class="ppc-apart-card-top">
+                        <div class="ppc-apart-card-heading">
+                            <span class="ppc-apart-num">04</span>
+                            <h3 class="ppc-apart-card-title">Best Paid Traffic</h3>
+                        </div>
+                        <div class="ppc-apart-arrow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ppc-apart-card-body">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" alt="Best Paid Traffic">
+                        <p class="ppc-apart-desc">We ensure that our ad campaign plans divert only the best of the paid traffic to your website. Each click made from PPC ads is backed by data-driven insights and brings you closer to your valuable audience.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 <!-- Real Estate Digital Marketing Services Section -->
@@ -836,3 +929,13 @@ include __DIR__ . '/../component/client_reviews.php';
 
         </div>
     </section>
+
+<script>
+    // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+    const apartCards = document.querySelectorAll('.ppc-apart-card');
+    apartCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            card.classList.toggle('ppc-apart-card--active');
+        });
+    });
+</script>
