@@ -209,8 +209,8 @@
     <div class="container">
         <div class="ppc-apart-header">
             <h2 class="ppc-apart-title text-white">Best Real Estate Digital Marketing Agency in Dubai</span></h2>
-            <p class="ppc-apart-subtitle">Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes.</p>
-            <p class="ppc-apart-subtitle">Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure. Done well, it blends search visibility, paid advertising, social content, and lead nurturing into one system that works while your sales team sleeps.</p>
+            <p class="ppc-apart-subtitle">Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes.</p><br>
+            <p class="ppc-apart-subtitle">Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure. Done well, it blends search visibility, paid advertising, social content, and lead nurturing into one system that works while your sales team sleeps.</p><br>
             <p class="ppc-apart-subtitle">Now the question is how to choose a reliable marketing partner. Most agencies will promise you "leads." Very few will tell you what a qualified lead costs in your segment, or why their last Dubai real estate campaign worked. Here's how to separate the two:</p>
         </div>
 
@@ -260,7 +260,7 @@
                     <div class="ppc-apart-card-top">
                         <div class="ppc-apart-card-heading">
                             <span class="ppc-apart-num">03</span>
-                            <h3 class="ppc-apart-card-title">Regular Campaign Management Reports</h3>
+                            <h3 class="ppc-apart-card-title">Local Market Knowledge</h3>
                         </div>
                         <div class="ppc-apart-arrow">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="ppc-apart-card-body">
                         <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" alt="Campaign Management Reports">
-                        <p class="ppc-apart-desc">Effective PPC advertising goes beyond just setting up ads, it requires consistent monitoring, analysis, and fine-tuning. Our team ensures your ads are optimized for maximum clicks, conversions, CTR, and ROAS.</p>
+                        <p class="ppc-apart-desc">Anyone can run ads. Ask them about buyer behaviour in JVC vs. Downtown, or how off-plan launches differ from secondary market campaigns. If they can't discuss Dubai's market specifics fluently, they'll learn on your budget.</p>
                     </div>
                 </div>
             </div>
@@ -279,7 +279,7 @@
                     <div class="ppc-apart-card-top">
                         <div class="ppc-apart-card-heading">
                             <span class="ppc-apart-num">04</span>
-                            <h3 class="ppc-apart-card-title">Best Paid Traffic</h3>
+                            <h3 class="ppc-apart-card-title">Know About Reporting</h3>
                         </div>
                         <div class="ppc-apart-arrow">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
@@ -287,11 +287,109 @@
                     </div>
                     <div class="ppc-apart-card-body">
                         <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" alt="Best Paid Traffic">
-                        <p class="ppc-apart-desc">We ensure that our ad campaign plans divert only the best of the paid traffic to your website. Each click made from PPC ads is backed by data-driven insights and brings you closer to your valuable audience.</p>
+                        <p class="ppc-apart-desc">Monthly PDFs with impressions and clicks are decoration. You want cost per lead, lead source, conversion to viewing, and conversion to sale- connected to your CRM if possible. If an agency resists transparency, walk away.</p>
                     </div>
                 </div>
             </div>
 
+        </div>
+    </div>
+</section>
+
+<section class="mumbai-services-section" id="services">
+    <div class="container">
+        <div class="row">
+            <!-- Heading Column -->
+            <div class="col-12">
+                <span class="mumbai-services-subhead">— STAY AHEAD</span>
+                <h2 class="mumbai-services-title">Real Estate Marketing Trends in Dubai</h2>
+                <p class="mumbai-services-desc">
+                    Dubai's property market is evolving fast. From AI-driven campaigns to immersive virtual tours, these are the real estate marketing trends shaping how buyers discover, evaluate, and purchase properties in 2026.
+                </p>
+               
+                
+                <span class="mumbai-services-label">Key Trends to Watch</span>
+            </div>
+        </div>
+
+        <!-- 3x2 Grid of Service Cards -->
+        <div class="mumbai-services-grid">
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">AI-Powered Campaigns</h3>
+                <p class="mumbai-service-card-desc">
+                    Artificial intelligence is transforming real estate digital marketing in Dubai- from automated ad bidding and predictive lead scoring to chatbots that qualify buyers instantly. Agencies using AI tools are cutting cost-per-lead significantly.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Virtual & 3D Tours</h3>
+                <p class="mumbai-service-card-desc">
+                    Buyers now expect to walk through a property before visiting it. Virtual tours, 3D walkthroughs, and drone footage have become standard in Dubai property marketing, especially for off-plan and international buyers.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Short-Form Video Marketing</h3>
+                <p class="mumbai-service-card-desc">
+                    Reels, TikToks, and YouTube Shorts are dominating property discovery. Real estate brands in Dubai are winning attention with 30-second community tours, market updates, and agent-led content.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Hyper-Local Targeting</h3>
+                <p class="mumbai-service-card-desc">
+                    Generic city-wide campaigns are out. Successful agencies now target buyers by community: comparing JVC vs. Downtown, waterfront vs. golf-side with messaging tailored to each area's unique buyer profile.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">WhatsApp-First Lead Nurturing</h3>
+                <p class="mumbai-service-card-desc">
+                    In Dubai, WhatsApp is where deals move. Automated WhatsApp flows, instant brochure delivery, and CRM integration ensure no enquiry even one arriving at midnight goes unanswered.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Data-Driven Decisions</h3>
+                <p class="mumbai-service-card-desc">
+                    Top real estate marketers track cost per qualified lead, viewing-to-sale conversion, and channel attribution. Decisions are based on data, not impressions and clicks.
+                </p>
+            </div>
+            
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Influencer Partnerships</h3>
+                <p class="mumbai-service-card-desc">
+                    Dubai real estate creators and property influencers now drive serious buyer traffic. Developers and brokerages are partnering with trusted voices to showcase launches authentically.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Off-Plan Launch Hype</h3>
+                <p class="mumbai-service-card-desc">
+                    Teaser campaigns, waitlists, and countdown-driven launches have become the norm for off-plan projects in Dubai, creating urgency before a single unit is released.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">SEO for Property Searches</h3>
+                <p class="mumbai-service-card-desc">
+                    Ranking for searches like "apartments for sale in Dubai Marina" remains one of the highest-ROI channels. Community-level SEO pages are the backbone of organic lead generation.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Programmatic Advertising</h3>
+                <p class="mumbai-service-card-desc">
+                    Automated ad buying lets real estate brands reach investors and buyers across thousands of sites and apps in real time, adjusting bids based on performance.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Personalised Email Journeys</h3>
+                <p class="mumbai-service-card-desc">
+                    Segmented email flows — new launch alerts, price drop notifications, community guides- keep leads warm long after their first enquiry.
+                </p>
+            </div>
+            <div class="mumbai-service-card">
+                <h3 class="mumbai-service-card-title">Sustainability Messaging</h3>
+                <p class="mumbai-service-card-desc">
+                    Green building credentials, energy efficiency, and ESG features are increasingly highlighted in campaigns as eco-conscious buyers grow in the UAE market.
+                </p>
+            </div>  
+        </div>
+
+            </div>
         </div>
     </div>
 </section>
@@ -548,6 +646,167 @@
       </div>
     </div>
   </div>
+</section>
+
+
+<!-- Process Flow Section -->
+<section class="mumbai-solution-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mumbai-solution-title">How Do We Collaborate For Your Real Estate Business Success?</h2>
+                <p class="mumbai-solution-desc">
+                    We follow a proven collaboration framework designed to turn your property business goals into measurable results. From the first discovery call to ongoing scaling, every phase is built around transparency, local Dubai market expertise, and decisions backed by real data, not guesswork.
+                </p>
+                <span class="mumbai-framework-label">Our Approach</span>
+            </div>
+        </div>
+        
+        <!-- Connected Steps Framework Card -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-framework-card">
+                    <span class="mumbai-framework-card-title">How Do We Collaborate For Your Real Estate Business Success?</span>
+                    <div class="mumbai-framework-steps-container">
+                        <div class="mumbai-framework-line"></div>
+                        <div class="mumbai-framework-steps">
+                            <!-- Step 1 Link -->
+                            <a href="#mumbai-phase-1" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">01</div>
+                                <h4 class="mumbai-step-title">Discovery Call</h4>
+                                <span class="mumbai-step-subtitle">Understanding your needs</span>
+                            </a>
+                            <!-- Step 2 Link -->
+                            <a href="#mumbai-phase-2" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">02</div>
+                                <h4 class="mumbai-step-title">Market Research</h4>
+                                <span class="mumbai-step-subtitle">Analyzing your market</span>
+                            </a>
+                            <!-- Step 3 Link -->
+                            <a href="#mumbai-phase-3" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">03</div>
+                                <h4 class="mumbai-step-title">Strategy Blueprint</h4>
+                                <span class="mumbai-step-subtitle">Crafting your roadmap</span>
+                            </a>
+                            <!-- Step 4 Link -->
+                            <a href="#mumbai-phase-4" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">04</div>
+                                <h4 class="mumbai-step-title">Campaign Launch</h4>
+                                <span class="mumbai-step-subtitle">Executing the plan</span>
+                            </a>
+                            <!-- Step 5 Link -->
+                            <a href="#mumbai-phase-5" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">05</div>
+                                <h4 class="mumbai-step-title">Lead Management</h4>
+                                <span class="mumbai-step-subtitle">Nurturing enquiries</span>
+                            </a>
+                            <!-- Step 6 Link -->
+                            <a href="#mumbai-phase-6" class="mumbai-framework-step text-decoration-none">
+                                <div class="mumbai-step-num-box">06</div>
+                                <h4 class="mumbai-step-title">Review & Scale</h4>
+                                <span class="mumbai-step-subtitle">Growing what works</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Phase Details (Alternating layout) -->
+        <div class="row">
+            <div class="col-12">
+                <div class="mumbai-phase-details">
+                    
+                    <!-- Phase 1 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-1">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">01</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Discovery Call</h3>
+                            <p class="mumbai-phase-desc">
+                                We start by understanding your business inside and out. Your property portfolio, your target buyers, your sales targets, and what has worked or failed in the past. This session allows us to align our efforts with your real business objectives and sets the foundation for everything that follows.
+                            </p>
+                            <span class="mumbai-phase-footer">Clear goals for a focused partnership.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 2 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-2">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">02</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Market Research</h3>
+                            <p class="mumbai-phase-desc">
+                                We analyze your competitors, map buyer behaviour across Dubai's communities, and identify exactly where your ideal buyers spend time online. From Google searches to Instagram scrolls, we pinpoint the channels worth your investment so your budget goes where the actual results are, not where the noise is.
+                            </p>
+                            <span class="mumbai-phase-footer">Dubai market insights that give you an edge.</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Phase 3 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-3">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">03</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Strategy Blueprint</h3>
+                            <p class="mumbai-phase-desc">
+                                Based on our research, we build a tailored roadmap covering channels, budgets, targeting, creatives, and timelines. Every element is aligned with your sales cycle, whether you are launching an off-plan project, selling ready properties, or building long-term brand awareness for your brokerage.
+                            </p>
+                            <span class="mumbai-phase-footer">A customised plan built for your goals.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 4 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-4">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">04</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Campaign Launch</h3>
+                            <p class="mumbai-phase-desc">
+                                We set up and launch your campaigns across Google, Meta, and other relevant channels with conversion tracking, WhatsApp integration, and lead capture configured from day one. This gives you complete visibility into every dirham spent and every enquiry generated right from the start.
+                            </p>
+                            <span class="mumbai-phase-footer">Live campaigns with complete tracking.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 5 -->
+                    <div class="mumbai-detail-phase" id="mumbai-phase-5">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">05</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Lead Management</h3>
+                            <p class="mumbai-phase-desc">
+                                Enquiries are routed instantly to your sales team through CRM and WhatsApp workflows, with automated follow-ups and nurturing sequences in place. This ensures no lead, hot or cold, slips through the cracks and every potential buyer receives a response while their interest is still fresh.
+                            </p>
+                            <span class="mumbai-phase-footer">Every enquiry answered, every lead tracked.</span>
+                        </div>
+                    </div>
+
+                    <!-- Phase 6 (Reverse) -->
+                    <div class="mumbai-detail-phase reverse" id="mumbai-phase-6">
+                        <div class="mumbai-phase-number-col">
+                            <span class="mumbai-phase-number">06</span>
+                        </div>
+                        <div class="mumbai-phase-content-col">
+                            <h3 class="mumbai-phase-title">Review & Scale</h3>
+                            <p class="mumbai-phase-desc">
+                                Through regular reporting and honest performance reviews, we identify what is converting and scale it with confidence. Budget is continuously reallocated towards the campaigns delivering the best cost per qualified lead and closed sale, so your marketing spend keeps working harder every month.
+                            </p>
+                            <span class="mumbai-phase-footer">Continuous growth driven by real results.</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+      
+    </div>
 </section>
 
 <!-- Cross-Industry Expertise Section -->
