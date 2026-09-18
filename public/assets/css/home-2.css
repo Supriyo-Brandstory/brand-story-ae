@@ -3355,8 +3355,8 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
 /* Content Area styling */
 .process-step-heading {
-    font-size: 52px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.1;
 }
@@ -7167,5 +7167,188 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
     .ppc-accordion-arrow svg {
         width: 16px !important;
         height: 16px !important;
+    }
+}
+
+.pinterest-growth-section {
+    min-height: 680px;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.pinterest-growth-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(11, 11, 12, 0.95) 0%, rgba(11, 11, 12, 0.85) 48%, rgba(11, 11, 12, 0.15) 85%);
+    pointer-events: none;
+}
+
+.pinterest-growth-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.pinterest-growth-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.pinterest-growth-item {
+    margin-bottom: 24px;
+}
+
+.pinterest-growth-item-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.pinterest-growth-item-title .purple-dot {
+    color: #855BFF;
+    font-size: 24px;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.pinterest-growth-item-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .pinterest-growth-section {
+        min-height: auto;
+        padding: 50px 0;
+        background-position: center;
+    }
+
+    .pinterest-growth-section::before {
+        background: rgba(11, 11, 12, 0.9);
+    }
+
+    .pinterest-growth-title {
+        font-size: 30px;
+    }
+}
+
+.pinterest-why-section {
+    padding: 80px 0;
+    background-color: #0b0b0c;
+    color: #ffffff;
+}
+
+.pinterest-why-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.pinterest-why-btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000 !important;
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pinterest-why-btn:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15);
+}
+
+.pinterest-why-bullets {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.pinterest-why-bullets li {
+    font-size: 20px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 991px) {
+    .pinterest-why-title {
+        font-size: 32px;
+    }
+}
+
+/* Twitter Why Choose Section */
+.twitter-growth-section {
+    min-height: 600px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 180px 0 50px 0;
+}
+
+.twitter-growth-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(11, 11, 12, 0.1) 0%, rgba(11, 11, 12, 0.7) 40%, rgba(11, 11, 12, 0.98) 75%);
+    pointer-events: none;
+}
+
+.twitter-growth-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.twitter-growth-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.twitter-growth-desc {
+    font-size: 14px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 14px;
+}
+
+.twitter-growth-desc:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .twitter-growth-section {
+        min-height: auto;
+        padding: 80px 0 40px 0;
+        background-position: center top;
+    }
+
+    .twitter-growth-section::before {
+        background: rgba(11, 11, 12, 0.88);
+    }
+
+    .twitter-growth-title {
+        font-size: 24px;
     }
 }

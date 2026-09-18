@@ -421,12 +421,26 @@ class FrontendController extends Controller
         ];
         return $this->view('services/twitter-advertising-dubai', ['meta' => $meta]);
     }
+    public function twitterMarketingDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/twitter-advertising-dubai-2', ['meta' => $meta]);
+    }
     public function pinterestMarketingDubai()
     {
         $meta = [
             'classname' => 'em-dubai-page service-pages'
         ];
         return $this->view('services/pinterest-advertising-services-in-dubai', ['meta' => $meta]);
+    }
+    public function pinterestMarketingDubai2()
+    {
+        $meta = [
+            'classname' => 'dm-agency-dubai'
+        ];
+        return $this->view('services/pinterest-advertising-services-in-dubai-2', ['meta' => $meta]);
     }
     public function tiktokMarketingDubai()
     {

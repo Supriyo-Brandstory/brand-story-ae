@@ -15410,4 +15410,8 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         max-width: 100% !important;
         margin: 0 auto !important;
     }
+
+    .container {
+        width: 100%;
+    }
 }
