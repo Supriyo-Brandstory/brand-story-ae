@@ -15401,13 +15401,13 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 
 @media (max-width: 767px) {
     .option .frame {
-        width: 100%;
-        max-width: 100%;
-        margin: auto;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: auto !important;
     }
 
     .option [class*="frame-"]:not(.frame-48):not(.frame-49):not(.frame-52) {
-        max-width: 100%;
-        margin: 0 auto;
+        max-width: 100% !important;
+        margin: 0 auto !important;
     }
 }
