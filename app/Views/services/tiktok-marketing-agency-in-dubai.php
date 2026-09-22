@@ -6,7 +6,7 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/tik-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">Tik Tok Marketing</span> Agency in Dubai</h1>
+                    <h1 class="premium-slide-title"><span class="premium-purple-highlight">TikTok Marketing</span> Agency in Dubai</h1>
                     <p class="premium-slide-subtitle">BrandStory is a results-driven TikTok marketing agency based in Dubai. We help brands across the UAE get seen by the right viewers and turn that attention into real sales. Every video and ad we run is planned around clear business targets, so your budget goes toward growth and not empty likes.</p>
                     <div class="premium-slide-actions">
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
@@ -90,7 +90,7 @@
             <!-- Card 1: TikTok Ad Account Setup -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Ad Account Setup">
+                    <a href="<?= base_url('/tiktok-ad-account-setup-uae/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Ad Account Setup">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -104,7 +104,7 @@
             <!-- Card 2: TikTok In-Feed Ads -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok In-Feed Ads">
+                    <a href="<?= base_url('/tiktok-in-feed-ads-agency-uae/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok In-Feed Ads">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -118,7 +118,7 @@
             <!-- Card 3: TikTok TopView Ads -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok TopView Ads">
+                    <a href="<?= base_url('/tiktok-topview-ads-uae/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok TopView Ads">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -132,7 +132,7 @@
             <!-- Card 4: TikTok Brand Takeover Ads -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Brand Takeover Ads">
+                    <a href="<?= base_url('/tiktok-brand-takeover-ads-uae/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Brand Takeover Ads">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -146,7 +146,7 @@
             <!-- Card 5: TikTok Lead Generation Ads -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Lead Generation Ads">
+                    <a href="<?= base_url('/tiktok-lead-generation-ads-uae/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Lead Generation Ads">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -160,7 +160,7 @@
             <!-- Card 6: TikTok Retargeting Ads -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Retargeting Ads">
+                    <a href="<?= base_url('/tiktok-retargeting-ads-agency-dubai/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Retargeting Ads">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -174,7 +174,7 @@
             <!-- Card 7: TikTok Pixel and Events API Setup -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Pixel and Events API Setup">
+                    <a href="<?= base_url('/tiktok-pixel-and-events-api-setup-dubai/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Pixel and Events API Setup">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -188,7 +188,7 @@
             <!-- Card 8: TikTok Ad Creative -->
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
-                    <a href="<?= base_url('contact/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Ad Creative">
+                    <a href="<?= base_url('/tiktok-ad-creative-agency-dubai/') ?>" class="industry-card-arrow" aria-label="Learn more about TikTok Ad Creative">
                         <svg viewBox="0 0 24 24" class="arrow-svg">
                             <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -202,8 +202,8 @@
             <!-- Card 9: Contact Us -->
             <div class="col-lg-4 col-md-6 mx-auto">
                 <div class="premium-industry-card pm-services-contact-card">
-                    <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
-                        <span>Contact Us</span>
+                    <a href="<?= base_url('/tiktok-ads-agency-dubai/') ?>" class="premium-pill-btn">
+                        <span>Explore TikTok Ads</span>
                         <span class="btn-arrow-circle">
                             <svg viewBox="0 0 24 24" class="btn-arrow-svg">
                                 <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
