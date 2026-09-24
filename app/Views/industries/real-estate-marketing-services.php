@@ -122,7 +122,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/realestate-01.webp") ?>" alt="We Shape, Market & Scale Real Estate Success" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/industries/real-estate-growth-for-23-marina.webp") ?>" alt="We Scale Real Estate Marketing Success for 23 Marina" class="img-fluid premium-perf-img">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -205,7 +205,7 @@
   </div>
 </section>
 
-    <section class="ppc-apart-section">
+    <section class="ppc-apart-section sp-50">
     <div class="container">
         <div class="ppc-apart-header">
             <h2 class="ppc-apart-title text-white">Best Real Estate Digital Marketing Agency in Dubai</span></h2>
@@ -398,7 +398,7 @@
 <section class="realestate-services-section dm-bg">
   <div class="container">
     <!-- Header -->
-    <div class="text-center mb-5 pb-lg-3">
+    <div class="text-center pb-lg-3">
       <h2 class="realestate-services-heading">
         Real Estate Digital Marketing Services in Dubai
         <span class="p-higlight">Where BrandStory Excel</span>
@@ -412,7 +412,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/realestate-02.webp') ?>" alt="3D Visualization & UI/UX Design" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-1.webp') ?>" alt="3D Visualization & UI/UX Design" class="img-fluid realestate-service-img">
         </div>
       </div>
       <div class="col-lg-6">
@@ -460,7 +460,7 @@
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/realestate-03.webp') ?>" alt="Video Production & Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-2.webp') ?>" alt="Video Production & Marketing" class="img-fluid realestate-service-img">
         </div>
       </div>
     </div>
@@ -469,7 +469,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/realestate-04.webp') ?>" alt="Digital Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-3.webp') ?>" alt="Digital Marketing" class="img-fluid realestate-service-img">
         </div>
       </div>
       <div class="col-lg-6">
@@ -516,7 +516,7 @@
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/realestate-05.webp') ?>" alt="Experiential Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-4.webp') ?>" alt="Experiential Marketing" class="img-fluid realestate-service-img">
         </div>
       </div>
     </div>
@@ -525,7 +525,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/realestate-06.webp') ?>" alt="Digital Branding" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-5.webp') ?>" alt="Digital Branding" class="img-fluid realestate-service-img">
         </div>
       </div>
       <div class="col-lg-6">

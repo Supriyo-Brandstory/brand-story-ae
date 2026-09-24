@@ -539,7 +539,7 @@
             </div>
             <!-- Card 5: ORM -->
             <div class="col-lg-4 col-md-6">
-                <a href="/online-reputation-management-services-in-dubai/" class="premium-service-card">
+                <a href="/influencer-marketing-agency-in-dubai/" class="premium-service-card">
                     <div class="service-card-icon">
                         <svg width="59" height="70" viewBox="0 0 59 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -548,18 +548,17 @@
                         </svg>
 
                     </div>
-                    <h3 class="service-card-title">Online Reputation <br>Management (ORM)</h3>
+                    <h3 class="service-card-title">Influencer Marketing</h3>
                     <div class="service-card-hover-details">
-                        <p class="service-card-desc">With online reputation management, your business can keep track of
-                            your professional or personal standings with others on the internet. BrandStory is one of
-                            the premier online reputation management agencies in Dubai.</p>
+                        <p class="service-card-desc">With influencer marketing, your brand can reach real buyers through creators they already
+                             trust. BrandStory is one of the premier influencer marketing agencies in Dubai.</p>
                         <span class="service-card-link">Explore Details <span class="arrow">→</span></span>
                     </div>
                 </a>
             </div>
             <!-- Card 6: Content Marketing -->
             <div class="col-lg-4 col-md-6">
-                <a href="/content-marketing-agency-dubai/" class="premium-service-card">
+                <a href="/influencer-marketing-agency-in-dubai/" class="premium-service-card">
                     <div class="service-card-icon">
                         <svg width="77" height="70" viewBox="0 0 77 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
