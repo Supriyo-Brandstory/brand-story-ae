@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="
 	<?= base_url("assets/css/template.css") ?>">
+    
 <section class="digital-marketing-agency-in-abu-dhabi">
     <div class="banner">
         <div class="content">
@@ -1555,3 +1556,55 @@
         });
     });
 </script>
+   <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>

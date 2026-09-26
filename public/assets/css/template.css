@@ -276,7 +276,7 @@ textarea {
 }
 
 .bs-clients-title {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -437,6 +437,11 @@ textarea {
     background: linear-gradient(180deg, #855BFF 0%, #d8ccff 100%);
 }
 
+.dm-faq-main p.mb-0.fs-20 {
+
+    color: #fff !important;
+}
+
 p.mb-0.fs-20 {
     color: black !important;
 }
@@ -551,7 +556,7 @@ p.mb-0.fs-20 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -780,7 +785,7 @@ p.mb-0.fs-20 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -897,7 +902,7 @@ p.mb-0.fs-20 {
 }
 
 .bs-step-card-desc {
-    font-size: 13.8px;
+    font-size: 16px !important;
     line-height: 1.75;
     color: var(--lp-text-secondary);
     font-weight: 400;
@@ -1949,7 +1954,7 @@ p.mb-0.fs-20 {
     background-color: var(--lp-purple);
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     padding: 6px 18px;
     border-radius: 50px;
@@ -2045,7 +2050,7 @@ p.mb-0.fs-20 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -2138,7 +2143,7 @@ p.mb-0.fs-20 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     font-family: var(--font-heading);
     flex-shrink: 0;
@@ -2395,7 +2400,7 @@ p.mb-0.fs-20 {
     }
 
     .premium-cs-row-stats {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .premium-cs-row-content {
@@ -2452,7 +2457,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-breadcrumb {
-        font-size: 13px;
+        font-size: 16px;
         margin-bottom: 16px;
         gap: 6px;
     }
@@ -2471,7 +2476,7 @@ p.mb-0.fs-20 {
 
     .bs-hero-btn {
         padding: 12px 32px;
-        font-size: 15px;
+        font-size: 16px;
         width: 100%;
         max-width: 260px;
     }
@@ -2554,7 +2559,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-process-subtitle {
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 1.5px;
     }
 
@@ -2579,7 +2584,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-process-card-desc {
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2615,7 +2620,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-steps-subtitle {
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 1.5px;
     }
 
@@ -2639,7 +2644,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-step-card-desc {
-        font-size: 13.5px;
+        font-size: 16px !important;
         line-height: 1.65;
     }
 
@@ -2672,7 +2677,7 @@ p.mb-0.fs-20 {
     .bs-cta-strip-btn {
         width: 100%;
         max-width: 250px;
-        font-size: 15px;
+        font-size: 16px;
         padding: 12px 24px;
     }
 
@@ -2705,7 +2710,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-types-card-desc {
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2737,8 +2742,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-trend-content {
-        padding: 0 16px 16px 42px;
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2778,7 +2782,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-tech-name {
-        font-size: 13.5px;
+        font-size: 16px;
     }
 
     /* Section 10: Future */
@@ -2806,7 +2810,7 @@ p.mb-0.fs-20 {
 
     .bs-future-content {
         padding: 0 16px 0 16px;
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2847,7 +2851,7 @@ p.mb-0.fs-20 {
     .bs-collab-badge {
         width: 30px;
         height: 30px;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .bs-collab-title-text {
@@ -2863,7 +2867,7 @@ p.mb-0.fs-20 {
 
     .bs-collab-content {
         padding: 0 16px 0 16px;
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2903,7 +2907,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-whychoose-card-desc {
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
@@ -2925,11 +2929,11 @@ p.mb-0.fs-20 {
     }
 
     .premium-cs-row-desc {
-        font-size: 13.5px;
+        font-size: 16px;
     }
 
     .premium-cs-row-link {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .premium-cs-btn {
@@ -2993,7 +2997,7 @@ p.mb-0.fs-20 {
     }
 
     .bs-faq-answer-text {
-        font-size: 13.5px;
+        font-size: 16px;
         line-height: 1.65;
     }
 

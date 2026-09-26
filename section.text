@@ -1,0 +1,763 @@
+ <div class="marketing-services sp-50 dm-bg">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">Results-Driven Digital Marketing Services<br>in Abu Dhabi, UAE</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                        </div>
+                        <h3>Search Engine Optimization</h3>
+                        <p>Search Engine Optimization (SEO) is crucial for enhancing your website's visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
+                        <a href="<?= base_url('/seo-agency-in-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                        </div>
+                        <h3>Social Media Marketing (SMM)</h3>
+                        <p>Boost your brand's presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
+                        <a href="<?= base_url('/social-media-marketing-company-in-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                        </div>
+                        <h3>Pay Per Click (PPC)</h3>
+                        <p>We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>
+                        <a href="<?= base_url('/ppc-company-in-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                        </div>
+                        <h3>Email Marketing</h3>
+                        <p>We offer email marketing services in Abu Dhabi to engage your audience, nurture prospects, and boost conversions. Our team designs tailored email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
+                        <a href="<?= base_url('/email-marketing-company-in-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                        </div>
+                        <h3>Performance Marketing</h3>
+                        <p>Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing agency in Abu Dhabi, offering comprehensive full-funnel performance marketing services.</p>
+                        <a href="<?= base_url('/performance-marketing-agency-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                        </div>
+                        <h3>Website Design & Development</h3>
+                        <p>A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites using the latest technologies, ensuring they are visually appealing, mobile-friendly, and easy to navigate.</p>
+                        <a href="<?= base_url('/website-design-company-in-abu-dhabi') ?>" class="know-more">Know more <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <div class="bs-steps-section">
+        <div class="bs-steps-glow"></div>
+
+        <div class="container">
+            <div class="bs-steps-header">
+                <span class="bs-steps-subtitle">EVALUATION & SELECTION</span>
+                <h2 class="bs-steps-title">
+                    What Are the Steps to Choose the <span class="lp-purple-highlight">Top Website Development
+                        Company</span> in Dubai?
+                </h2>
+            </div>
+
+            <!-- 4x2 Grid (4 Columns on Desktop) -->
+            <div class="bs-steps-grid">
+                <!-- Card 1 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <polyline points="7 10 9 8 7 6"></polyline>
+                            <polyline points="17 10 15 8 17 6"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Research and Identify Your Needs</h3>
+                    <p class="bs-step-card-desc">
+                        Start by identifying your business goals and website requirements. Understand what kind of
+                        website you need (e.g., e-commerce, portfolio, blog, corporate site) and the features you want
+                        (e.g., payment gateway, CMS, SEO, etc.). This helps narrow down companies that specialize in
+                        your desired type of website.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                            </path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Review Their Portfolio</h3>
+                    <p class="bs-step-card-desc">
+                        Check the website development portfolio to evaluate the quality of their work. A strong
+                        portfolio with diverse projects demonstrates their expertise and experience in delivering
+                        websites that meet different business needs. Look for a development company that has experience
+                        with businesses similar to yours.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Assess Technical Skills</h3>
+                    <p class="bs-step-card-desc">
+                        Ensure the company has expertise in the latest web technologies and platforms. They should be
+                        proficient in HTML5, CSS3, JavaScript, PHP, as well as popular frameworks like React, Angular,
+                        or Laravel, depending on your project's needs. This ensures your website will be built using
+                        modern, scalable, and secure technologies by a skilled website developers.
+                    </p>
+                </div>
+
+                <!-- Card 4 (Highlighted) -->
+                <div class="bs-step-card is-accent">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            <line x1="8" y1="16" x2="8.01" y2="16"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            <line x1="16" y1="16" x2="16.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Check Client Reviews and Testimonials</h3>
+                    <p class="bs-step-card-desc">
+                        Look for customer reviews and testimonials to gauge the company's reputation. Positive reviews
+                        and case studies from previous clients can give you confidence in their ability to meet
+                        deadlines, deliver quality work, and maintain customer satisfaction.
+                    </p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            <line x1="8" y1="9" x2="16" y2="9"></line>
+                            <line x1="8" y1="13" x2="14" y2="13"></line>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Evaluate Their Communication and Support</h3>
+                    <p class="bs-step-card-desc">
+                        Choose a development agency that communicates clearly and promptly. Good communication is
+                        essential for a smooth project, so ensure that they are responsive to your queries and that they
+                        provide transparent updates throughout the development process.
+                    </p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Understand Their Development Process</h3>
+                    <p class="bs-step-card-desc">
+                        A reputable company will have a well-defined development process that includes steps like
+                        research, design, development, testing, and launch. Make sure they follow industry best
+                        practices and include phases for testing, optimization, and quality assurance to ensure your
+                        website is functional and user-friendly.
+                    </p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            <circle cx="12" cy="9" r="2.5"></circle>
+                            <path d="m14 11 2 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Consider Their Experience with SEO and Mobile Optimization</h3>
+                    <p class="bs-step-card-desc">
+                        Ensure the company understands the importance of search engine optimization (SEO) and mobile
+                        responsiveness. A website that is SEO-friendly and works seamlessly on mobile devices will
+                        improve visibility and user engagement, which is crucial in today's digital landscape.
+                    </p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Discuss Pricing and Maintenance</h3>
+                    <p class="bs-step-card-desc">
+                        Before finalizing a company, discuss the cost of services and the website maintenance plans they
+                        offer. The best website development companies in Dubai offer competitive pricing with no hidden
+                        fees, and they also provide ongoing maintenance services to keep your website updated and secure
+                        after launch.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <div class="bs-trends-section">
+        <div class="bs-trends-glow"></div>
+
+        <div class="container">
+            <div class="bs-trends-header">
+                <h2 class="bs-trends-title">
+                    Web Design and Development <span class="lp-purple-highlight">Latest Trends</span>
+                </h2>
+            </div>
+
+            <!-- 2-Column Trends Accordion Grid -->
+            <div class="bs-trends-grid">
+                <!-- Left Column (Trends 1 - 7) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 1 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Minimalist and Clean Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Streamlined layouts with ample white space, focused typography, and uncluttered visual
+                            hierarchies that enhance user focus, speed up page load times, and boost conversion rates.
+                        </div>
+                    </div>
+
+                    <!-- Trend 2 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Responsive and Mobile-First Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Adaptive layouts engineered from the mobile viewport up, ensuring seamless performance,
+                            flexible grids, and fluid interactions across smartphones, tablets, and ultra-wide desktop
+                            monitors.
+                        </div>
+                    </div>
+
+                    <!-- Trend 3 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">AI and Chatbots for User Engagement</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Intelligent conversational agents, automated customer routing, and predictive AI search
+                            algorithms that provide 24/7 personalized customer assistance and instant problem
+                            resolution.
+                        </div>
+                    </div>
+
+                    <!-- Trend 4 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Dark Mode</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Sleek dark themes with reduced eye strain, battery efficiency for OLED displays, and
+                            high-contrast color palettes that give websites an ultra-modern, sophisticated look.
+                        </div>
+                    </div>
+
+                    <!-- Trend 5 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Interactive and Immersive Experiences</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Engaging 3D elements, micro-interactions, cursor animations, and scroll-triggered
+                            storytelling that captivate users and significantly increase time spent on page.
+                        </div>
+                    </div>
+
+                    <!-- Trend 6 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Voice Search Optimization</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Conversational keyword structuring, structured schema data, and NLP-optimized content
+                            designed to rank at the top of voice queries on Google Assistant, Siri, and Alexa.
+                        </div>
+                    </div>
+
+                    <!-- Trend 7 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Progressive Web Apps (PWAs)</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            App-like web experiences with offline caching, push notifications, lightning-fast background
+                            loading, and home screen installation without needing app store downloads.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Trends 8 - 14) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 8 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Custom Illustrations and Graphics</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Bespoke vector artwork, brand-specific icons, and tailor-made infographics that distinguish
+                            your digital identity from generic stock imagery.
+                        </div>
+                    </div>
+
+                    <!-- Trend 9 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Video Content Integration</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            High-definition background loops, dynamic hero video showcases, and interactive product demo
+                            clips that convey complex value propositions in seconds.
+                        </div>
+                    </div>
+
+                    <!-- Trend 10 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Advanced Security Features</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            End-to-end SSL encryption, web application firewalls (WAF), automated vulnerability
+                            scanning, and robust data protection compliant with global security standards.
+                        </div>
+                    </div>
+
+                    <!-- Trend 11 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Personalized User Experience</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Dynamic content delivery based on user geolocation, browsing history, and behavioral
+                            patterns to provide tailored recommendations that maximize ROI.
+                        </div>
+                    </div>
+
+                    <!-- Trend 12 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Augmented Reality (AR) Integration</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Interactive 3D product previews and virtual try-ons directly in the browser, bridging the
+                            gap between digital discovery and real-world purchasing decisions.
+                        </div>
+                    </div>
+
+                    <!-- Trend 13 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Sustainability and Eco-Friendly Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Green web hosting, optimized asset compression, lightweight code architectures, and reduced
+                            server requests that drastically minimize digital carbon footprints.
+                        </div>
+                    </div>
+
+                    <!-- Trend 14 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Web Accessibility (WCAG Compliance)</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Inclusive digital design adhering to WCAG 2.1 guidelines, including screen reader
+                            compatibility, keyboard navigation, and contrast ratios accessible to all users.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <div class="bs-future-section">
+        <div class="bs-future-glow"></div>
+
+        <div class="container">
+            <div class="bs-future-header">
+                <h2 class="bs-future-title">
+                    Future Enhancement of <span class="lp-purple-highlight">Web Development</span>
+                </h2>
+            </div>
+
+            <!-- 2-Column Boxed Accordion Grid -->
+            <div class="bs-future-grid">
+                <!-- Left Box (7 Items) -->
+                <div class="bs-future-box">
+                    <!-- Item 1 (Open by Default) -->
+                    <div class="bs-future-item is-open">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="true">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">−</span>
+                                <span class="bs-future-item-title">Artificial Intelligence (AI) and Machine Learning
+                                    Integration</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            AI and machine learning are increasingly being used in web development to offer personalized
+                            user experiences, automate tasks, and optimize web performance. Dubai's tech ecosystem will
+                            see an increase in AI-powered websites with smarter chatbots, predictive analytics, and
+                            personalized content recommendations, which can significantly improve user engagement and
+                            conversions.
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Voice Search and Natural Language Processing
+                                    (NLP)</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            With the rise of virtual assistants like Siri, Alexa, and Google Assistant, voice search
+                            optimization has become essential. Integrating voice search and natural language processing
+                            allows websites to understand and respond to conversational search queries, enhancing
+                            accessibility and user experience.
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Interactive and Dynamic Websites</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Modern web development focuses on high interactivity through micro-animations, 3D graphics,
+                            parallax scrolling, and dynamic elements that captivate visitors, increase dwell time, and
+                            create memorable brand experiences.
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Web Accessibility (WCAG 2.2) Compliance</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Building universally accessible websites ensures compliance with international WCAG
+                            standards, making digital platforms accessible to users with diverse abilities and expanding
+                            market reach while avoiding legal complications.
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Blockchain Integration</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Blockchain technology is revolutionizing web development by offering decentralized data
+                            storage, secure smart contracts, transparent transaction tracking, and heightened
+                            cybersecurity against data breaches.
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Cloud-Based Web Development</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Leveraging cloud platforms like AWS, Google Cloud, and Azure ensures infinite scalability,
+                            continuous deployment, automated backups, and global server distribution for near-zero
+                            latency and high uptime.
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Sustainability and Green Web Development</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Green web development focuses on energy-efficient code architectures, optimized digital
+                            assets, and eco-friendly hosting solutions that drastically minimize carbon footprints
+                            without compromising performance.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Box (7 Items) -->
+                <div class="bs-future-box">
+                    <!-- Item 8 (Open by Default) -->
+                    <div class="bs-future-item is-open">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="true">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">−</span>
+                                <span class="bs-future-item-title">Personalized User Experiences through Big Data</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            The future of web development will see websites becoming increasingly personalized through
+                            the use of big data. By analyzing user behavior, businesses in Dubai will be able to create
+                            highly targeted content, product recommendations, and services that cater to individual
+                            users, improving engagement and conversion rates.
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">5G and Faster Websites</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            The rollout of 5G networks enables ultra-fast loading speeds, seamless high-definition video
+                            streaming, real-time data synchronization, and frictionless delivery of rich multimedia
+                            content.
+                        </div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Serverless Architecture</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Serverless computing allows developers to build and execute applications without managing
+                            physical server infrastructure, reducing operational overhead, cutting costs, and scaling
+                            automatically with user traffic.
+                        </div>
+                    </div>
+
+                    <!-- Item 11 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Enhanced Web Security</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            As cyber threats evolve, web development incorporates multi-factor authentication, AI-driven
+                            threat detection, zero-trust security architectures, and advanced encryption to safeguard
+                            sensitive corporate and customer data.
+                        </div>
+                    </div>
+
+                    <!-- Item 12 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Augmented Reality (AR) and Virtual Reality
+                                    (VR)</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Web-based AR and VR technologies enable immersive 3D product previews, virtual showrooms,
+                            and interactive demonstrations directly in web browsers without requiring external
+                            applications.
+                        </div>
+                    </div>
+
+                    <!-- Item 13 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Progressive Web Apps (PWAs)</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            PWAs combine the reach of the web with the performance and functionality of native mobile
+                            applications, providing offline functionality, background push alerts, and ultra-fast page
+                            caching.
+                        </div>
+                    </div>
+
+                    <!-- Item 14 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">AI and Automation in Web Design</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            AI-driven layout generation, automated image optimization, dynamic code generation, and
+                            automated testing tools significantly accelerate development lifecycles and ensure
+                            pixel-perfect user interfaces.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="
+	<?= base_url("assets/css/template.css") ?>">
+       <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>
