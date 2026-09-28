@@ -70,10 +70,11 @@
     .popup-header h3 {
         font-weight: 700;
         margin-bottom: 10px;
+        color: #000 !important;
     }
 
     .popup-header p {
-        color: #666;
+        color: #666 !important;
     }
 </style>
 
