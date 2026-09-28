@@ -2,16 +2,42 @@
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/web-design.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
 
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 
+<section class="premium-hero-slider static-premium-banner">
+  <div class="premium-slider-container">
+    <div class="premium-slide active" style="background-image: url('<?= base_url("assets/images/dark-banner-burj-khalifa.webp") ?>');">
+      <div class="container">
+        <div class="premium-slide-content">
+          <h1 class="premium-slide-title">
+            Best <span class="premium-purple-highlight">Real Estate Marketing Company</span> in Dubai, UAE
+          </h1>
+          <p class="premium-slide-subtitle">Dubai has evolved into a global real estate powerhouse, attracting investors, developers, and high-net-worth buyers from across the world. Its skyline is shaped by luxury waterfront residences, branded properties, commercial districts, and ambitious master-planned communities, creating opportunities across emerging areas.</p>
+          <div class="premium-slide-actions">
+            <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+              <span>Talk to Experts</span>
+              <span class="btn-arrow-circle">
+                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                  <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Hero Banner Section -->
-<section class="re-hero-banner">
+<!--<section class="re-hero-banner">
   <div class="re-banner-grid-overlay"></div>
   <div class="re-banner-glow"></div>
   <div class="container position-relative">
     <div class="row align-items-stretch re-hero-row">
-      <!-- Left Column: Title & CTA -->
+      
       <div class="col-lg-6 col-md-12 mb-5 mb-lg-0 d-flex flex-column justify-content-center">
         <div class="re-hero-content">
           <h1 class="re-hero-title">
@@ -32,11 +58,11 @@
         </div>
       </div>
 
-      <!-- Right Column: Analytics Card Preview -->
+      
       <div class="col-lg-6 col-md-12 d-flex">
         <div class="re-dashboard-card-wrap w-100">
           <div class="re-dashboard-card">
-            <!-- Header -->
+            <!-- 
             <div class="re-dashboard-header">
               <div class="re-dashboard-brand">
                 <div class="re-brand-icon">
@@ -57,7 +83,7 @@
               </div>
             </div>
 
-            <!-- 6 Stat Cards Grid (3x2) -->
+           
             <div class="re-stats-grid">
               <div class="re-stat-card">
                 <div class="re-stat-label">Impressions</div>
@@ -112,7 +138,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 
 <!-- Performance marketing intro section -->
@@ -128,8 +154,8 @@
       <!-- Right Side: Content -->
       <div class="col-lg-6">
         <div class="premium-perf-content">
-          <h2 class="premium-perf-title">We Shape, Market & Scale<br><span class="p-higlight">Real Estate Success</span></h2>
-          <p>In Dubai's competitive real estate market, visibility can make all the difference. Buyers and investors are constantly evaluating properties, while developers and agents need effective strategies to reach the right audiences at the right time. The right marketing approach can help your brand attract the right prospects, engage them and turn opportunities into measurable results.</p>
+          <h2 class="premium-perf-title">Shape & Scale Your <span class="p-higlight">Real Estate Brands with Digital Marketing</span></h2>
+          <p>Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes. Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure.</p>
           <p>BrandStory is Dubai's leading real estate marketing agency helping developers build strong brands, generate leads, and increase property sales. From off-plan launches and luxury development projects to large-scale masterplans- we combine strategic branding, digital marketing, performance campaigns, and creative advertising to create real estate brands that stand out.</p>
           <div class="premium-perf-action">
             <a href="javascript:void(0);" class="portfolio-btn uniq-contact-lead-btn">
@@ -139,7 +165,7 @@
                   <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
               </span>
-              <span>Contact Us</span>
+              <span>Book Free Consultation</span>
             </a>
           </div>
         </div>
@@ -147,6 +173,781 @@
     </div>
   </div>
 </section>
+
+<section class="container">
+    <div class="new-cta-footer">
+        <div class="new-cta-footer-container">
+            <h2 class="new-cta-footer-title">
+                Real Estate Marketing Company in Dubai
+            </h2>
+            <p class="new-cta-footer-text">
+                Selling villas, apartments, commercial spaces, off-plan projects, or resale properties in Dubai? A specialized real estate marketing partner can be your decisive edge in this fiercely competitive market. Thousands of listings compete for attention every day. Buyers compare options in seconds. the right real estate marketing agency in Dubai brings market expertise, sharp branding, and data-driven campaigns that reach qualified buyers and turn interest into sales.
+            </p>
+
+            <!-- Hidden Content -->
+            <div class="content-read-more">
+                <h3 class="mt-3 text-white">What a Real Estate Marketing Company Really Does</h3>
+                <p class="new-cta-footer-text">
+                    A common misconception among business owners is that a marketing company's job begins and ends with
+                    placing ads on Google or Facebook. Paid advertising matters, of course, but a genuine real estate
+                    marketing company builds far more than campaigns. It constructs a complete ecosystem whose sole
+                    purpose is to attract the right audience, educate them, earn their trust, and convert them into
+                    paying clients.
+                </p>
+                <p class="new-cta-footer-text">
+                    A professional real estate marketing company starts by studying your business goals, your ideal
+                    buyer profile, your property inventory, and your budget. From there, it builds a tailored plan
+                    covering persuasive ad campaigns, landing pages engineered for conversions, professional photo and
+                    video production, active social media management, SEO, CRM setup, and ongoing performance analysis
+                    that keeps improving results month after month.
+                </p>
+                <p class="new-cta-footer-text">
+                    Just as importantly, real estate marketing demands a deep grasp of how property buyers actually
+                    think and behave. Buying property is among the biggest financial commitments a person will ever
+                    make. No one signs on the dotted line without confidence, trust, and clarity. That means marketing
+                    must go beyond listing features and square footage. It has to paint a picture of investment upside,
+                    lifestyle appeal, location strengths, flexible payment structures, and future appreciation
+                    potential.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory treats every project as a strategic mission. Each marketing activity we execute is
+                    designed to produce qualified leads and stronger sales figures, not just to make your brand more
+                    visible online.
+                </p>
+
+                <h3 class="mt-4 text-white">Why Real Estate Marketing Requires True Specialization</h3>
+                <p class="new-cta-footer-text">
+                    One of the costliest errors a property company can make is engaging a generalist agency with little
+                    or no real estate background. These agencies may know how to run digital ads, but they frequently
+                    miss the nuances of property investment. Real estate marketing demands sector knowledge that goes
+                    well beyond eye-catching creatives.
+                </p>
+                <p class="new-cta-footer-text">
+                    Consider this: no two property types sell the same way. A branded luxury villa on Palm Jumeirah
+                    speaks to a completely different buyer than an affordable studio in JVC. An off-plan project needs
+                    heavy educational content to explain payment plans and handover timelines, while a ready property
+                    sells on immediacy. Commercial investors crunch yield numbers, while residential buyers picture
+                    their future home. A specialized real estate marketing company recognizes these distinctions and
+                    calibrates every campaign accordingly.
+                </p>
+                <p class="new-cta-footer-text">
+                    International reach is another area where specialization proves decisive. Dubai draws investors
+                    from the UK, Europe, the GCC, India, China, Russia, Africa, and beyond. Each region brings its own
+                    motivations, budget ranges, languages, and decision-making styles. Campaigns that resonate with a
+                    British buy-to-let investor will fall flat with a Gulf family seeking a holiday home. Winning
+                    strategies adjust the messaging, creative style, currency framing, and targeting for each specific
+                    audience.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory has refined marketing frameworks purpose-built for Dubai's multicultural real estate
+                    arena. Our campaigns are engineered to reach high-intent audiences through sharp targeting,
+                    multilingual ad copy, localized creative assets, and constant refinement driven by real
+                    performance data.
+                </p>
+
+                <h3 class="mt-4 text-white">Essential Services to Expect from a Real Estate Marketing Company</h3>
+                <p class="new-cta-footer-text">
+                    Selecting a marketing partner should go far beyond comparing ad management fees. The strongest real
+                    estate marketing firms deliver a connected suite of services where every element reinforces the
+                    others to fuel sustainable growth.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Performance Marketing</strong></a> sits at the heart of modern lead generation. <strong>Google Ads</strong>
+                    puts your projects in front of people actively hunting for investment opportunities right now, while
+                    <strong>Meta Ads</strong> place your developments in the feeds of precisely defined audiences matched by
+                    demographics, interests, and online behavior. Run together, these channels produce a powerful mix of
+                    instant inquiries and enduring brand recognition.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-seo-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Search Engine Optimization (SEO)</strong></a> carries equal weight because it puts your company in front of
+                    buyers at the exact moment they type queries like "apartments for sale in Dubai," "villas with
+                    payment plans," or "best off-plan projects 2026." The beauty of SEO is that unlike paid ads, it
+                    keeps working long after the initial effort, delivering free organic traffic and making it one of
+                    the smartest long-term investments a property company can make.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-social-media-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Social Media Marketing</strong></a> keeps your developments in front of buyers where they spend
+                    their time every day. Across Instagram, Facebook, LinkedIn, TikTok, and X, we plan content, design
+                    creatives, manage communities, and run paid social campaigns that turn casual scrollers into
+                    genuine inquiries. Property is a visual, emotional purchase, and social platforms let you showcase
+                    lifestyle, location, and investment value while building a brand buyers recognize and trust.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Email Marketing</strong></a> is where interest turns into decisions. Property buyers rarely commit
+                    after a single visit, so we nurture every lead with segmented campaigns, personalized messaging, and
+                    automated sequences that share new launches, payment plan updates, market insights, and exclusive
+                    offers. Done well, email keeps your projects top of mind through the long buying journey and
+                    brings past inquiries back to the table.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-influencer-marketing-agency-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Influencer Marketing</strong></a> puts your developments in front of audiences that already
+                    trust the voices they follow. We partner with property and lifestyle creators, investment
+                    commentators, and Dubai-based personalities to produce authentic walkthroughs, project reviews, and
+                    lifestyle content that reaches new buyers in the UAE and abroad. When the right influencer
+                    presents your project, it carries a credibility that traditional advertising struggles to match.
+                </p>
+                <p class="new-cta-footer-text">
+                    Then there is <a href="/industries/real-estate-content-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Content Marketing</strong></a>. Today's investors expect polished photography, cinematic video tours, aerial
+                    drone footage, immersive 3D walkthroughs, insightful market commentary, and social media content
+                    that actually informs. Exceptional content does double duty: it builds credibility with buyers
+                    while simultaneously boosting the performance of your ads across all platforms.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory unifies all of these services into one coherent strategy, so your branding, paid
+                    campaigns, SEO, social media, email marketing, influencer marketing, content, CRM, and conversion
+                    optimization all pull in the same direction toward one goal: your business growth.
+                </p>
+
+                <h3 class="mt-4 text-white">The Role of Transparency in Choosing a Marketing Partner</h3>
+                <p class="new-cta-footer-text">
+                    Here is a hard truth many companies learn the painful way: too often, they do not actually own
+                    their own ad accounts, conversion data, or campaign history. Certain agencies build everything
+                    under their own accounts, which means the moment a client wants to move on, years of valuable data
+                    and optimized audiences stay locked behind the agency's door.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory holds a firm belief: every client deserves full ownership of their marketing assets. We
+                    manage campaigns directly inside your Google Ads, Meta Ads, Google Analytics, Tag Manager, and CRM
+                    accounts. Nothing is hidden, nothing is held hostage, and your investment is protected for the long
+                    run.
+                </p>
+                <p class="new-cta-footer-text">
+                    Clear, detailed reporting completes the picture. Rather than drowning you in jargon-filled
+                    spreadsheets, we focus on the numbers that actually matter to a business owner: how many qualified
+                    leads came in, what percentage converted, what each lead cost, how campaigns contributed to your
+                    sales pipeline, and what return your advertising budget generated.
+                </p>
+                <p class="new-cta-footer-text">
+                    This open approach builds genuine trust. It empowers you to steer your business with confidence,
+                    backed by real data instead of guesswork or agency spin.
+                </p>
+            </div>
+
+            <!-- Read More Link -->
+            <div class="mb-3">
+                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
+                    <span>Read more</span>
+                </a>
+            </div>
+
+            <!-- Primary Get In Touch Button -->
+            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
+                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+                    <span>Get In Touch</span>
+                    <span class="btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--<div class="bs-overview-section">
+        <div class="bs-overview-glow"></div>
+
+        <div class="container">
+            <div class="bs-overview-card">
+                <h2 class="bs-overview-title">
+                    Real Estate Digital Marketing Agency in Dubai
+                </h2>
+
+                <p class="bs-overview-para">
+                    Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes. Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure.
+                </p>
+
+                <p class="bs-overview-para">
+                    At BrandStory, we skip standard agency metrics. We build an investor acquisition system engineered exclusively for the Dubai property market. We replace generic lead forms with high-intent digital pipelines- blending market intelligence, premium visual storytelling, and multi-channel performance campaigns to capture global wealth. From positioning high-ticket off-plan launches to luxury secondary listings, our strategies bypass casual browsers to put your inventory directly in front of active buyers. We orchestrate data-driven digital experiences that convert global curiosity into signed booking forms and accelerated sales volume.
+                </p>
+                <p class="bs-overview-para">
+                    Now the question is how to choose a reliable marketing partner. Most agencies will promise you "leads." Very few will tell you what a qualified lead costs in your segment, or why their last Dubai real estate campaign worked. Here's how to separate the two:
+            </div>
+        </div>
+    </div>-->
+       <div class="bs-steps-section">
+        <div class="bs-steps-glow"></div>
+
+        <div class="container">
+            <div class="bs-steps-header">
+                <h2 class="bs-steps-title">
+                    Steps to Choose <span class="lp-purple-highlight">Real Estate Marketing
+                        Company</span> in Dubai
+                </h2>
+            </div>
+
+            <!-- 4x2 Grid (4 Columns on Desktop) -->
+            <div class="bs-steps-grid">
+                <!-- Card 1 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <polyline points="7 10 9 8 7 6"></polyline>
+                            <polyline points="17 10 15 8 17 6"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Define Campaign Goals</h3>
+                    <p class="bs-step-card-desc">
+                        Begin by mapping out your specific sales targets. Define whether you need to sell out an off-plan launch or secure secondary market listings. This filters out generic agencies.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                            </path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Verify Case Studies</h3>
+                    <p class="bs-step-card-desc">
+                        Review the agency's portfolio for past campaigns within your exact real estate bracket. Demand to see verified metrics like Cost-Per-Qualified-Lead rather than empty impressions.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Evaluate Lead Scoring</h3>
+                    <p class="bs-step-card-desc">
+                        Ensure the agency utilizes robust data infrastructure to filter out casual browsers. They must feature advanced scoring mechanisms that align directly with your sales team's requirements.
+                    </p>
+                </div>
+
+                <!-- Card 4 (Highlighted) -->
+                <div class="bs-step-card is-accent">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            <line x1="8" y1="16" x2="8.01" y2="16"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            <line x1="16" y1="16" x2="16.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Audit Market Intelligence</h3>
+                    <p class="bs-step-card-desc">
+                        Validate the agency's deep understanding of Dubai’s fluid geographic landscape. A qualified partner must demonstrate intricate knowledge of shifting community dynamics and local real estate regulations.
+                    </p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            <line x1="8" y1="9" x2="16" y2="9"></line>
+                            <line x1="8" y1="13" x2="14" y2="13"></line>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Check Developer References</h3>
+                    <p class="bs-step-card-desc">
+                        Examine testimonials and ask for direct references from active brokerages in the UAE. Consistent retention rates indicate a reliable, long-term marketing partner that delivers stable results.
+                    </p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Inspect Tech Stack</h3>
+                    <p class="bs-step-card-desc">
+                        Confirm they command an integrated digital ecosystem. They must have deep expertise across Google PPC, Meta ads, WhatsApp automation, and seamless CRM integrations for immediate lead routing.
+                    </p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            <circle cx="12" cy="9" r="2.5"></circle>
+                            <path d="m14 11 2 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Spending Transparency</h3>
+                    <p class="bs-step-card-desc">
+                        Avoid agencies that bundle ad spend and management fees into ambiguous flat rates. The right partner provides absolute transparency with dedicated ad accounts and clear attribution models.
+                    </p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="bs-step-card">
+                    <div class="bs-step-icon-wrap">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="bs-step-card-title">Review Nurturing Systems</h3>
+                    <p class="bs-step-card-desc">
+                        Look for an agency that builds end-to-end funnels, not just traffic generation. They must design automated follow-up sequences that keep international investors engaged until the final booking.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <div class="bs-trends-section">
+        <div class="bs-trends-glow"></div>
+
+        <div class="container">
+            <div class="bs-trends-header">
+                <h2 class="bs-trends-title">
+                    Real Estate Digital Marketing: <span class="lp-purple-highlight">Where You Should Invest</span>
+                </h2>
+            </div>
+
+            <!-- 2-Column Trends Accordion Grid -->
+            <div class="bs-trends-grid">
+                <!-- Left Column (Trends 1 - 7) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 1 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Local SEO and Google Business Profile</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Optimized location pages, verified Google Business listings, and neighborhood-focused
+                            keywords that help buyers find your properties before they find your competitors.
+                        </div>
+                    </div>
+
+                    <!-- Trend 2 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Virtual Tours and 3D Walkthroughs</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Immersive 360-degree property tours and interactive floor plans that let buyers explore
+                            listings remotely, cutting down unnecessary site visits and speeding up decisions.
+                        </div>
+                    </div>
+
+                    <!-- Trend 3 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">PPC and Google Ads for Listings</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Targeted pay-per-click campaigns built around high-intent keywords and buyer demographics
+                            that put your listings in front of ready-to-move buyers at the right moment.
+                        </div>
+                    </div>
+
+                    <!-- Trend 4 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Social Media Marketing and Video</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Property reels, walkthrough videos, and agent branding across Instagram, YouTube, and
+                            Facebook that build trust and keep your listings visible in a crowded feed.
+                        </div>
+                    </div>
+
+                    <!-- Trend 5 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">CRM and Lead Nurturing Automation</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Automated follow-up sequences, lead scoring, and pipeline tracking that keep prospective
+                            buyers engaged from first inquiry all the way through to closing.
+                        </div>
+                    </div>
+
+                    <!-- Trend 6 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Chatbots and AI Lead Qualification</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Round-the-clock AI chat assistants that answer property questions instantly, qualify
+                            leads by budget and intent, and book viewings without agent intervention.
+                        </div>
+                    </div>
+
+                    <!-- Trend 7 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Email Marketing and Drip Campaigns</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Segmented newsletters, new-listing alerts, and automated drip sequences that keep past
+                            clients and warm leads coming back when they're ready to buy or sell.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Trends 8 - 14) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 8 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Content Marketing and Blogging</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Neighborhood guides, market reports, and buyer-seller advice articles that build organic
+                            traffic and position your brand as the trusted local expert.
+                        </div>
+                    </div>
+
+                    <!-- Trend 9 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Reputation Management and Reviews</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Proactive review generation, testimonial showcases, and reputation monitoring that turn
+                            happy clients into the social proof new buyers rely on before reaching out.
+                        </div>
+                    </div>
+
+                    <!-- Trend 10 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Retargeting and Programmatic Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Display and social retargeting that re-engages visitors who viewed a listing but didn't
+                            convert, keeping your properties top of mind across the buyer's browsing journey.
+                        </div>
+                    </div>
+
+                    <!-- Trend 11 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Drone Photography and Aerial Content</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            High-resolution aerial shots and cinematic drone footage that showcase property scale,
+                            surroundings, and lifestyle appeal in a way ground-level photos simply can't match.
+                        </div>
+                    </div>
+
+                    <!-- Trend 12 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Voice Search Optimization</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Conversational, question-based content optimized for "homes near me" style voice queries
+                            on Google Assistant, Siri, and Alexa.
+                        </div>
+                    </div>
+
+                    <!-- Trend 13 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Marketing Analytics and ROI Tracking</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Real-time dashboards tracking cost per lead, source attribution, and conversion rates
+                            so every marketing dollar can be traced back to closed deals.
+                        </div>
+                    </div>
+
+                    <!-- Trend 14 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Mobile-First Property Search</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Fast-loading, map-based property search built mobile-first, since most buyers now browse
+                            and shortlist listings from their phones before ever calling an agent.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="bs-future-section">
+        <div class="bs-future-glow"></div>
+
+        <div class="container">
+            <div class="bs-future-header">
+                <h2 class="bs-future-title">
+                    We Master <span class="lp-purple-highlight">Tomorrow's Real Estate</span> Tech & Marketing
+                </h2>
+            </div>
+
+            <!-- 2-Column Boxed Accordion Grid -->
+            <div class="bs-future-grid">
+                <!-- Left Box (7 Items) -->
+                <div class="bs-future-box">
+                    <!-- Item 1 (Open by Default) -->
+                    <div class="bs-future-item is-open">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="true">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">−</span>
+                                <span class="bs-future-item-title">AI-Powered Lead Scoring</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            AI is changing how real estate leads get sorted, so agents focus only on buyers ready to move. Our team builds chat assistants that qualify leads by budget and timeline, sets up real-time lead scoring, connects tools directly with your CRM, and configures instant replies so no inquiry goes cold.
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">AR and VR Property Tours</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            VR and AR let buyers walk through a property from anywhere, cutting down on wasted site visits. Our experts produce 360-degree tours for your listings, build browser-based AR previews with no app download needed, embed interactive floor plans, and pair tours with lead capture forms to turn views into inquiries.
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Hyperlocal SEO Visibility</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Buyers search by neighborhood, not just city, so ranking for hyperlocal terms matters more than ever. Our team builds dedicated location pages, optimizes your Google Business Profile for local map results, researches the keywords buyers actually type, builds local citations, and tracks which areas bring the most qualified inquiries.
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Pricing and Demand Analytics</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Predictive tools analyze market data to forecast pricing and demand before trends show up in headlines. Our experts set up dashboards tracking pricing across your target areas, flag demand shifts early, time campaign launches around predicted buyer activity, and report monthly on which price ranges convert best.
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Blockchain-Backed Transaction</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Blockchain is bringing verifiable transparency to property listings and transaction records, and cautious buyers notice it. Our team positions your brand around verified listings, creates plain-language content explaining blockchain-backed transactions, highlights verification badges in your marketing, and builds trust pages explaining your process to buyers.
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Cloud-Based Property Management</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Cloud platforms let listing data, media, and inquiries update instantly across every channel. Our experts sync listings across your website, portals, and social channels, automate updates so sold properties come down immediately, manage secure backups, and connect cloud data to your CRM for one reliable source of truth.
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Sustainability in Property Marketing</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Eco-conscious buyers actively look for energy-efficient homes and green certifications. Our team writes content highlighting energy ratings, builds dedicated pages for LEED-certified properties, creates campaigns targeting sustainability-focused buyers, keeps your site lightweight through optimized code, and tracks how this messaging affects inquiry rates over time.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Box (7 Items) -->
+                <div class="bs-future-box">
+                    <!-- Item 8 (Open by Default) -->
+                    <div class="bs-future-item is-open">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="true">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">−</span>
+                                <span class="bs-future-item-title">Personalized Property Recommendations</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Big data lets real estate sites recommend properties based on a buyer's browsing behavior and budget. Our experts set up recommendation engines matching buyers to relevant listings, personalize email content around what buyers have viewed, build retargeting campaigns around specific interests, and report on which tactics drive inquiries.
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">5G-Enabled Rich Media Listings</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Faster mobile networks mean buyers expect instant loading of high-resolution photos and video, even on the go. Our team compresses and optimizes media for instant mobile loading, builds mobile-first listing pages, adds HD video walkthroughs without slowing your site, and tests performance regularly to catch slowdowns early.
+                        </div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Serverless Listing Websites</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Serverless architecture lets real estate sites handle sudden traffic spikes, like a project launch, without crashing. Our experts build listing sites on infrastructure that scales automatically, plan ahead for launch-day traffic, reduce hosting costs by using resources only when needed, and monitor uptime continuously to catch issues early.
+                        </div>
+                    </div>
+
+                    <!-- Item 11 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Enhanced Data Security</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Real estate sites collect sensitive buyer data, so security has become as much a trust signal as a technical requirement. Our team implements SSL encryption and secure forms across your sites, aligns data handling with regional compliance standards, runs regular vulnerability scans, and secures every CRM integration you rely on.
+                        </div>
+                    </div>
+
+                    <!-- Item 12 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Drone & Aerial Content Marketing</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            Drone footage shows a property's scale, surroundings, and lifestyle appeal in ways ground photos can't. Our experts source and edit drone footage for featured listings, integrate aerial content into video ads and social campaigns, optimize videos for fast loading, and pair footage with virtual tours for a complete story.
+                        </div>
+                    </div>
+
+                    <!-- Item 13 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">Progressive Web Apps</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            PWAs give buyers an app-like search experience, with offline access and instant loading, no app store download required. Our team builds PWA-based property search tools, enables offline access to saved listings, sets up push notifications for new matches, and tracks engagement to keep improving the search experience.
+                        </div>
+                    </div>
+
+                    <!-- Item 14 -->
+                    <div class="bs-future-item">
+                        <button class="bs-future-item-btn" type="button" aria-expanded="false">
+                            <div class="bs-future-left">
+                                <span class="bs-future-icon">+</span>
+                                <span class="bs-future-item-title">AI Content & Ad Generation</span>
+                            </div>
+                        </button>
+                        <div class="bs-future-content">
+                            AI tools can now draft listing descriptions and generate ad variations automatically, freeing time for strategy over repetitive work. Our experts use AI to draft first-pass descriptions your team refines, generate multiple ad variations for testing, automate image optimization, and keep a human review step on every piece before launch.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- Our Approach To Real Estate Marketing Section -->
 <section class="real-estate-approach-section dm-bg">
@@ -196,7 +997,7 @@
             <div class="approach-step-badge-wrap">
               <span class="approach-step-badge">04</span>
             </div>
-            <h3 class="approach-step-title">Performance Optimization<br>& Growth</h3>
+            <h3 class="approach-step-title">Performance Optimization</h3>
             <p class="approach-step-desc">Real estate marketing requires continuous refinement. We monitor campaign performance, audience behaviour, lead quality, and conversion trends to identify what is working and where improvements can be made. Insights from every campaign help us optimize results and strengthen ROI.</p>
           </div>
         </div>
@@ -205,194 +1006,6 @@
   </div>
 </section>
 
-    <section class="ppc-apart-section sp-50">
-    <div class="container">
-        <div class="ppc-apart-header">
-            <h2 class="ppc-apart-title text-white">Best Real Estate Digital Marketing Agency in Dubai</span></h2>
-            <p class="ppc-apart-subtitle">Dubai's property market moves fast. Off-plan launches sell out in days, new communities appear on the map every quarter, and thousands of agents compete for the same buyers. In that environment, simply "being online" isn't a strategy- it's table stakes.</p><br>
-            <p class="ppc-apart-subtitle">Real estate digital marketing in Dubai is the discipline of turning online attention into property enquiries: people who actually pick up the phone, book a viewing, or request a brochure. Done well, it blends search visibility, paid advertising, social content, and lead nurturing into one system that works while your sales team sleeps.</p><br>
-            <p class="ppc-apart-subtitle">Now the question is how to choose a reliable marketing partner. Most agencies will promise you "leads." Very few will tell you what a qualified lead costs in your segment, or why their last Dubai real estate campaign worked. Here's how to separate the two:</p>
-        </div>
-
-        <div class="ppc-apart-grid">
-
-            <!-- Card 1 -->
-            <div class="ppc-apart-card ppc-apart-card--active" data-index="0">
-                <div class="ppc-apart-card-inner">
-                    <div class="ppc-apart-card-top">
-                        <div class="ppc-apart-card-heading">
-                            <span class="ppc-apart-num">01</span>
-                            <h3 class="ppc-apart-card-title">Start with Your Bottleneck</h3>
-                        </div>
-                        <div class="ppc-apart-arrow">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </div>
-                    <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service1.png" alt="Increased ROI">
-                        <p class="ppc-apart-desc">Are you invisible on Google? Getting traffic but no enquiries? Closing deals but spending too much per lead? The right agency depends on the actual problem and a good one will diagnose it before pitching you a package.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="ppc-apart-card ppc-apart-card--active" data-index="1">
-                <div class="ppc-apart-card-inner">
-                    <div class="ppc-apart-card-top">
-                        <div class="ppc-apart-card-heading">
-                            <span class="ppc-apart-num">02</span>
-                            <h3 class="ppc-apart-card-title">Ask for Real Estate Numbers</h3>
-                        </div>
-                        <div class="ppc-apart-arrow">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </div>
-                    <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service2.png" alt="Copyrighted Ads">
-                        <p class="ppc-apart-desc">"500% ROAS for an e-commerce brand" tells you nothing about selling AED 2M townhouses. Ask specifically: what cost-per-qualified-lead did they achieve for Dubai property campaigns, in which communities, and over what timeline?</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="ppc-apart-card" data-index="2">
-                <div class="ppc-apart-card-inner">
-                    <div class="ppc-apart-card-top">
-                        <div class="ppc-apart-card-heading">
-                            <span class="ppc-apart-num">03</span>
-                            <h3 class="ppc-apart-card-title">Local Market Knowledge</h3>
-                        </div>
-                        <div class="ppc-apart-arrow">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </div>
-                    <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" alt="Campaign Management Reports">
-                        <p class="ppc-apart-desc">Anyone can run ads. Ask them about buyer behaviour in JVC vs. Downtown, or how off-plan launches differ from secondary market campaigns. If they can't discuss Dubai's market specifics fluently, they'll learn on your budget.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="ppc-apart-card" data-index="3">
-                <div class="ppc-apart-card-inner">
-                    <div class="ppc-apart-card-top">
-                        <div class="ppc-apart-card-heading">
-                            <span class="ppc-apart-num">04</span>
-                            <h3 class="ppc-apart-card-title">Know About Reporting</h3>
-                        </div>
-                        <div class="ppc-apart-arrow">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </div>
-                    <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" alt="Best Paid Traffic">
-                        <p class="ppc-apart-desc">Monthly PDFs with impressions and clicks are decoration. You want cost per lead, lead source, conversion to viewing, and conversion to sale- connected to your CRM if possible. If an agency resists transparency, walk away.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section class="mumbai-services-section" id="services">
-    <div class="container">
-        <div class="row">
-            <!-- Heading Column -->
-            <div class="col-12">
-                <span class="mumbai-services-subhead">— STAY AHEAD</span>
-                <h2 class="mumbai-services-title">Real Estate Marketing Trends in Dubai</h2>
-                <p class="mumbai-services-desc">
-                    Dubai's property market is evolving fast. From AI-driven campaigns to immersive virtual tours, these are the real estate marketing trends shaping how buyers discover, evaluate, and purchase properties in 2026.
-                </p>
-               
-                
-                <span class="mumbai-services-label">Key Trends to Watch</span>
-            </div>
-        </div>
-
-        <!-- 3x2 Grid of Service Cards -->
-        <div class="mumbai-services-grid">
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">AI-Powered Campaigns</h3>
-                <p class="mumbai-service-card-desc">
-                    Artificial intelligence is transforming real estate digital marketing in Dubai- from automated ad bidding and predictive lead scoring to chatbots that qualify buyers instantly. Agencies using AI tools are cutting cost-per-lead significantly.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Virtual & 3D Tours</h3>
-                <p class="mumbai-service-card-desc">
-                    Buyers now expect to walk through a property before visiting it. Virtual tours, 3D walkthroughs, and drone footage have become standard in Dubai property marketing, especially for off-plan and international buyers.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Short-Form Video Marketing</h3>
-                <p class="mumbai-service-card-desc">
-                    Reels, TikToks, and YouTube Shorts are dominating property discovery. Real estate brands in Dubai are winning attention with 30-second community tours, market updates, and agent-led content.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Hyper-Local Targeting</h3>
-                <p class="mumbai-service-card-desc">
-                    Generic city-wide campaigns are out. Successful agencies now target buyers by community: comparing JVC vs. Downtown, waterfront vs. golf-side with messaging tailored to each area's unique buyer profile.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">WhatsApp-First Lead Nurturing</h3>
-                <p class="mumbai-service-card-desc">
-                    In Dubai, WhatsApp is where deals move. Automated WhatsApp flows, instant brochure delivery, and CRM integration ensure no enquiry even one arriving at midnight goes unanswered.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Data-Driven Decisions</h3>
-                <p class="mumbai-service-card-desc">
-                    Top real estate marketers track cost per qualified lead, viewing-to-sale conversion, and channel attribution. Decisions are based on data, not impressions and clicks.
-                </p>
-            </div>
-            
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Influencer Partnerships</h3>
-                <p class="mumbai-service-card-desc">
-                    Dubai real estate creators and property influencers now drive serious buyer traffic. Developers and brokerages are partnering with trusted voices to showcase launches authentically.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Off-Plan Launch Hype</h3>
-                <p class="mumbai-service-card-desc">
-                    Teaser campaigns, waitlists, and countdown-driven launches have become the norm for off-plan projects in Dubai, creating urgency before a single unit is released.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">SEO for Property Searches</h3>
-                <p class="mumbai-service-card-desc">
-                    Ranking for searches like "apartments for sale in Dubai Marina" remains one of the highest-ROI channels. Community-level SEO pages are the backbone of organic lead generation.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Programmatic Advertising</h3>
-                <p class="mumbai-service-card-desc">
-                    Automated ad buying lets real estate brands reach investors and buyers across thousands of sites and apps in real time, adjusting bids based on performance.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Personalised Email Journeys</h3>
-                <p class="mumbai-service-card-desc">
-                    Segmented email flows — new launch alerts, price drop notifications, community guides- keep leads warm long after their first enquiry.
-                </p>
-            </div>
-            <div class="mumbai-service-card">
-                <h3 class="mumbai-service-card-title">Sustainability Messaging</h3>
-                <p class="mumbai-service-card-desc">
-                    Green building credentials, energy efficiency, and ESG features are increasingly highlighted in campaigns as eco-conscious buyers grow in the UAE market.
-                </p>
-            </div>  
-        </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Real Estate Digital Marketing Services Section -->
 <section class="realestate-services-section dm-bg">
@@ -557,7 +1170,7 @@
   <div class="container">
     <div class="why-choose-re-header">
       <h2 class="why-choose-re-main-title">WHY CHOOSE <span class="brand-purple">BRANDSTORY</span></h2>
-      <p class="why-choose-re-subtitle">For Real Estate Marketing in Dubai, UAE?</p>
+      <h2 class="realestate-services-heading">For Real Estate Marketing in Dubai, UAE?</h2>
     </div>
     <div class="row g-4">
       <!-- Card 1 -->
@@ -654,7 +1267,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="mumbai-solution-title">How Do We Collaborate For Your Real Estate Business Success?</h2>
+                <h2 class="realestate-services-heading">How Do We Collaborate For Your Real Estate Success?</h2>
                 <p class="mumbai-solution-desc">
                     We follow a proven collaboration framework designed to turn your property business goals into measurable results. From the first discovery call to ongoing scaling, every phase is built around transparency, local Dubai market expertise, and decisions backed by real data, not guesswork.
                 </p>
@@ -662,56 +1275,7 @@
             </div>
         </div>
         
-        <!-- Connected Steps Framework Card -->
-        <div class="row">
-            <div class="col-12">
-                <div class="mumbai-framework-card">
-                    <span class="mumbai-framework-card-title">How Do We Collaborate For Your Real Estate Business Success?</span>
-                    <div class="mumbai-framework-steps-container">
-                        <div class="mumbai-framework-line"></div>
-                        <div class="mumbai-framework-steps">
-                            <!-- Step 1 Link -->
-                            <a href="#mumbai-phase-1" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">01</div>
-                                <h4 class="mumbai-step-title">Discovery Call</h4>
-                                <span class="mumbai-step-subtitle">Understanding your needs</span>
-                            </a>
-                            <!-- Step 2 Link -->
-                            <a href="#mumbai-phase-2" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">02</div>
-                                <h4 class="mumbai-step-title">Market Research</h4>
-                                <span class="mumbai-step-subtitle">Analyzing your market</span>
-                            </a>
-                            <!-- Step 3 Link -->
-                            <a href="#mumbai-phase-3" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">03</div>
-                                <h4 class="mumbai-step-title">Strategy Blueprint</h4>
-                                <span class="mumbai-step-subtitle">Crafting your roadmap</span>
-                            </a>
-                            <!-- Step 4 Link -->
-                            <a href="#mumbai-phase-4" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">04</div>
-                                <h4 class="mumbai-step-title">Campaign Launch</h4>
-                                <span class="mumbai-step-subtitle">Executing the plan</span>
-                            </a>
-                            <!-- Step 5 Link -->
-                            <a href="#mumbai-phase-5" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">05</div>
-                                <h4 class="mumbai-step-title">Lead Management</h4>
-                                <span class="mumbai-step-subtitle">Nurturing enquiries</span>
-                            </a>
-                            <!-- Step 6 Link -->
-                            <a href="#mumbai-phase-6" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">06</div>
-                                <h4 class="mumbai-step-title">Review & Scale</h4>
-                                <span class="mumbai-step-subtitle">Growing what works</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+       
         <!-- Phase Details (Alternating layout) -->
         <div class="row">
             <div class="col-12">
@@ -813,8 +1377,8 @@
 <section class="cross-industry-section">
   <div class="container">
     <div class="cross-industry-header">
-      <h2 class="cross-industry-title">
-        Real Estate Marketing Backed By<br>
+      <h2 class="realestate-services-heading">
+        Real Estate Marketing Backed By
         <span class="p-higlight">Cross-Industry Expertise</span>
       </h2>
       <p class="cross-industry-desc">
@@ -916,6 +1480,14 @@
         </div>
     </div>
 </section>
+
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
+
 <section class="premium-cs-section">
     <div class="container">
         <!-- Header row -->
@@ -1087,12 +1659,7 @@
         </div>
     </div>
 </section>
-<section class="new-client-section">
-    <div class="container">
-        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
-    </div>
-</section>
+
 <?php
 $reviewSection = [
     'title' =>  "What Our Clients Say About Us",
@@ -1200,3 +1767,56 @@ include __DIR__ . '/../component/client_reviews.php';
     });
 
 </script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>

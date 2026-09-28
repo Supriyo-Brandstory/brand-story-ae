@@ -81,6 +81,12 @@ h2 {
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
 p,
 ul,
 ol,
@@ -708,8 +714,7 @@ p.mb-0.fs-20 {
 
 .bs-overview-card {
     border-radius: var(--lp-radius-card);
-    padding: 56px 60px;
-    max-width: 1080px;
+    padding: 56px 0px;
     margin: 0 auto;
     position: relative;
     z-index: 2;
@@ -727,7 +732,7 @@ p.mb-0.fs-20 {
 }
 
 .bs-overview-para {
-    font-size: 16px;
+    font-size: 18px !important;
     color: var(--lp-text-secondary);
     line-height: 1.85;
     margin-bottom: 22px;

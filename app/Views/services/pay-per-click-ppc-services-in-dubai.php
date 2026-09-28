@@ -254,56 +254,7 @@
                 <span class="mumbai-framework-label">Our Framework</span>
             </div>
         </div>
-        
-        <!-- Connected Steps Framework Card -->
-        <div class="row">
-            <div class="col-12">
-                <div class="mumbai-framework-card">
-                    <span class="mumbai-framework-card-title">Six Phases, One Connected Framework</span>
-                    <div class="mumbai-framework-steps-container">
-                        <div class="mumbai-framework-line"></div>
-                        <div class="mumbai-framework-steps">
-                            <!-- Step 1 Link -->
-                            <a href="#mumbai-phase-1" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">01</div>
-                                <h4 class="mumbai-step-title">Planning & Strategy</h4>
-                                <span class="mumbai-step-subtitle">Understanding your needs</span>
-                            </a>
-                            <!-- Step 2 Link -->
-                            <a href="#mumbai-phase-2" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">02</div>
-                                <h4 class="mumbai-step-title">Competitor Analysis</h4>
-                                <span class="mumbai-step-subtitle">Crafting a tailored plan</span>
-                            </a>
-                            <!-- Step 3 Link -->
-                            <a href="#mumbai-phase-3" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">03</div>
-                                <h4 class="mumbai-step-title">Keyword Research</h4>
-                                <span class="mumbai-step-subtitle">Implementing strategies</span>
-                            </a>
-                            <!-- Step 4 Link -->
-                            <a href="#mumbai-phase-4" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">04</div>
-                                <h4 class="mumbai-step-title">Setup & Tracking</h4>
-                                <span class="mumbai-step-subtitle">Leveraging technology</span>
-                            </a>
-                            <!-- Step 5 Link -->
-                            <a href="#mumbai-phase-5" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">05</div>
-                                <h4 class="mumbai-step-title">Ad & Landing Page</h4>
-                                <span class="mumbai-step-subtitle">Measuring success</span>
-                            </a>
-                            <!-- Step 6 Link -->
-                            <a href="#mumbai-phase-6" class="mumbai-framework-step text-decoration-none">
-                                <div class="mumbai-step-num-box">06</div>
-                                <h4 class="mumbai-step-title">Monitoring & Testing</h4>
-                                <span class="mumbai-step-subtitle">Adapting to change</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         
         <!-- Phase Details (Alternating layout) -->
         <div class="row">

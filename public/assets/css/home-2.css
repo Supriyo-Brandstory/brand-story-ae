@@ -2470,7 +2470,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 }
 
 .new-cta-footer .content-read-more.active {
-    max-height: 2000px;
+    max-height: max-content;
     opacity: 1;
 }
 
