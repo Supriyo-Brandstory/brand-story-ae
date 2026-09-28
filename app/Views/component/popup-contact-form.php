@@ -76,6 +76,9 @@
     .popup-header p {
         color: #666 !important;
     }
+    .iti {
+      color: #000 !important;
+}
 </style>
 
 <script>
