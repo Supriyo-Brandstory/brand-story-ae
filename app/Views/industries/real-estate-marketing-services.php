@@ -62,7 +62,7 @@
       <div class="col-lg-6 col-md-12 d-flex">
         <div class="re-dashboard-card-wrap w-100">
           <div class="re-dashboard-card">
-            <!-- 
+            
             <div class="re-dashboard-header">
               <div class="re-dashboard-brand">
                 <div class="re-brand-icon">
@@ -174,7 +174,7 @@
   </div>
 </section>
 
-<section class="container">
+<!--<section class="container">
     <div class="new-cta-footer">
         <div class="new-cta-footer-container">
             <h2 class="new-cta-footer-title">
@@ -184,7 +184,7 @@
                 Selling villas, apartments, commercial spaces, off-plan projects, or resale properties in Dubai? A specialized real estate marketing partner can be your decisive edge in this fiercely competitive market. Thousands of listings compete for attention every day. Buyers compare options in seconds. the right real estate marketing agency in Dubai brings market expertise, sharp branding, and data-driven campaigns that reach qualified buyers and turn interest into sales.
             </p>
 
-            <!-- Hidden Content -->
+          
             <div class="content-read-more">
                 <h3 class="mt-3 text-white">What a Real Estate Marketing Company Really Does</h3>
                 <p class="new-cta-footer-text">
@@ -323,14 +323,13 @@
                 </p>
             </div>
 
-            <!-- Read More Link -->
+            
             <div class="mb-3">
                 <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
                     <span>Read more</span>
                 </a>
             </div>
 
-            <!-- Primary Get In Touch Button -->
             <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
                 <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                     <span>Get In Touch</span>
@@ -344,9 +343,9 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
- <!--<div class="bs-overview-section">
+<div class="bs-overview-section">
         <div class="bs-overview-glow"></div>
 
         <div class="container">
@@ -366,7 +365,7 @@
                     Now the question is how to choose a reliable marketing partner. Most agencies will promise you "leads." Very few will tell you what a qualified lead costs in your segment, or why their last Dubai real estate campaign worked. Here's how to separate the two:
             </div>
         </div>
-    </div>-->
+    </div>
        <div class="bs-steps-section">
         <div class="bs-steps-glow"></div>
 
