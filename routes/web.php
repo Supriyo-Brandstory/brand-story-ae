@@ -131,6 +131,10 @@ Route::group(['prefix' => '/case-study'], function () {
 
     Route::get('/travel-agency', 'FrontendController@travelagency', 'travelagency');
     Route::get('/wipro-infrastructure-engineering', 'FrontendController@wiproinfrastructureengineering', 'wiproinfrastructureengineering');
+    Route::get('/real-estate-case-study-1', 'FrontendController@realEstateCaseStudy1', 'realestatecasestudy1');
+    Route::get('/real-estate-case-study-2', 'FrontendController@realEstateCaseStudy2', 'realestatecasestudy2');
+    Route::get('/real-estate-case-study-3', 'FrontendController@realEstateCaseStudy3', 'realestatecasestudy3');
+    Route::get('/real-estate-case-study-4', 'FrontendController@realEstateCaseStudy4', 'realestatecasestudy4');
 });
 
 

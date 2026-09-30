@@ -1335,24 +1335,22 @@
 
         <!-- Redesigned Case Study list -->
         <div class="premium-cs-list">
-            <!-- Card 1: Sand Dollar -->
+            <!-- Card 1: Purvanka -->
             <div class="premium-cs-row-card">
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                            <span class="premium-cs-row-badge">Real Estate Marketing</span>
+                            <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
+                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
-                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
-                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
-                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
-                                transformed their digital performance completely.</p>
-                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                            <h3 class="premium-cs-row-title">Purvanka Real Estate</h3>
+                            <div class="premium-cs-row-stats">300% More Traffic | 170% Qualified Leads | 3 Months</div>
+                            <p class="premium-cs-row-desc">In a crowded real estate market, Purvanka needed more than visibility—they needed trust. BrandStory built a data-driven PPC, SEO, and social media strategy to raise awareness and turn interest into site visits and bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-1/') ?>" class="premium-cs-row-link">
                                 <span>View Case Study</span>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1364,25 +1362,22 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 2: TravelEX -->
+            <!-- Card 2: 42 Estate -->
             <div class="premium-cs-row-card">
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                            <span class="premium-cs-row-badge">Brand & Web Design</span>
+                            <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">TravelEX</h3>
-                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
-                            </div>
-                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
-                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
-                                that significantly boosted visibility and drove customer enquiries.</p>
-                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                            <h3 class="premium-cs-row-title">42 Estate</h3>
+                            <div class="premium-cs-row-stats">200% More Traffic | 120% Qualified Enquiries | 150% Follower Growth</div>
+                            <p class="premium-cs-row-desc">42 Estate entered a market full of established developers. BrandStory shaped a distinct brand identity, high-performance website, and cohesive social media presence that keeps the brand in front of the right buyers.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-2/') ?>" class="premium-cs-row-link">
                                 <span>View Case Study</span>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1394,25 +1389,22 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 3: Crystal Plaza -->
+            <!-- Card 3: G Square -->
             <div class="premium-cs-row-card">
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                            <span class="premium-cs-row-badge">Dubai Market Entry & PPC</span>
+                            <img src="<?= base_url('assets/images/case-study/g-square-case-study.webp') ?>" alt="G Square"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
-                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
-                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
-                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
-                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
-                                hotel in Dubai", "business stay Dubai")</p>
-                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                            <h3 class="premium-cs-row-title">G Square</h3>
+                            <div class="premium-cs-row-stats">250% UAE Traffic | 160% NRI Enquiries | 30+ Ranked Keywords</div>
+                            <p class="premium-cs-row-desc">G Square wanted to reach Indians living in the UAE looking to buy land back home. BrandStory launched targeted NRI paid campaigns and landing pages to turn UAE interest into confirmed bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-3/') ?>" class="premium-cs-row-link">
                                 <span>View Case Study</span>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1424,56 +1416,22 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 4: NIMS School -->
+            <!-- Card 4: Object 1 -->
             <div class="premium-cs-row-card">
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                            <span class="premium-cs-row-badge">PPC & SEO Lead Gen</span>
+                            <img src="<?= base_url('assets/images/case-study/cject-1-case-study.webp') ?>" alt="Object 1"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">NIMS School</h3>
-                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
-                            </div>
-                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
-                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
-                                and social media strategy to improve awareness & turn interest into enrollments.</p>
-                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5: Wipro Infrastructure Engineering -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
-                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
-                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
-                                Infrastructure Engineering needed a digital strategy as powerful as their global
-                                operations. BrandStory created high-impact social media and PPC campaigns that improved
-                                online presence and drove qualified leads.</p>
-                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
-                                class="premium-cs-row-link">
+                            <h3 class="premium-cs-row-title">Object 1</h3>
+                            <div class="premium-cs-row-stats">220% Traffic Growth | 140% Qualified Leads | 45% Lower CPL</div>
+                            <p class="premium-cs-row-desc">Downtown Dubai is one of the most competitive property markets. BrandStory ran high-performance PPC and technical SEO to capture serious buyers and investors while reducing cost per lead by 45%.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-4/') ?>" class="premium-cs-row-link">
                                 <span>View Case Study</span>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1821,3 +1779,8 @@ include __DIR__ . '/../component/client_reviews.php';
          
         });
     </script>
+    <style>
+        .premium-cs-row-img {
+            aspect-ratio: 16 / 8;
+        }
+        </style>

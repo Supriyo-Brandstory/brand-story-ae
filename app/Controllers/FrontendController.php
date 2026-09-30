@@ -805,6 +805,34 @@ class FrontendController extends Controller
         ];
         return $this->view('case-study/wipro-infrastructure-engineering', ['meta' => $meta]);
     }
+    public function realEstateCaseStudy1()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/real-estate-case-study-1', ['meta' => $meta]);
+    }
+    public function realEstateCaseStudy2()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/real-estate-case-study-2', ['meta' => $meta]);
+    }
+    public function realEstateCaseStudy3()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/real-estate-case-study-3', ['meta' => $meta]);
+    }
+    public function realEstateCaseStudy4()
+    {
+        $meta = [
+            'classname' => 'main-cs-pg'
+        ];
+        return $this->view('case-study/real-estate-case-study-4', ['meta' => $meta]);
+    }
     // others pages
 
     public function searchEngineOptimization()

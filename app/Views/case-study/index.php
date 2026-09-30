@@ -29,6 +29,9 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-cat5-tab" data-bs-toggle="pill" data-bs-target="#pills-cat5" type="button" role="tab" aria-controls="pills-cat5" aria-selected="false">Digital Marketing<span>5</span></button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-cat6-tab" data-bs-toggle="pill" data-bs-target="#pills-cat6" type="button" role="tab" aria-controls="pills-cat6" aria-selected="false">Real Estate<span>4</span></button>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <!-- All Start -->
@@ -141,6 +144,50 @@
                                 <h3 class="mb-2 text-white">Education Institute- NIMS School</h3>
                                 <div class="casestydies-readmore">
                                     <a href="/case-study/education-institution/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/purvanka-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Real Estate - Purvanka</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-1/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/42-estate-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Real Estate - 42 Estate</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-2/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/g-square-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Real Estate - G Square</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-3/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/cject-1-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Real Estate - Object 1</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-4/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                                 </div>
                             </div>
                         </div>
@@ -388,6 +435,57 @@
                 </div>
             </div>
             <!-- Digital Marketing End -->
+
+            <!-- Real Estate Start -->
+            <div class="tab-pane fade" id="pills-cat6" role="tabpanel" aria-labelledby="pills-cat6-tab">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/purvanka-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Purvanka</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-1/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/42-estate-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">42 Estate</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-2/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/g-square-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">G Square</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-3/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-main position-relative">
+                            <img class="w-100" src="/assets/images/case-study/cject-1-case-study.webp">
+                            <div class="cs-cnt-main">
+                                <h3 class="mb-2 text-white">Object 1</h3>
+                                <div class="casestydies-readmore">
+                                    <a href="/case-study/real-estate-case-study-4/">View Case Study <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Real Estate End -->
         </div>
     </div>
 </section>

@@ -2161,6 +2161,44 @@
     margin-right: 62px;
 }
 
+.cs-categories-sec .cs-main {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cs-categories-sec .cs-main>img {
+    width: 100%;
+    aspect-ratio: 628 / 430;
+    display: block;
+    border-radius: 20px;
+}
+
+.cs-categories-sec .cs-main .casestydies-readmore img {
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+    aspect-ratio: auto !important;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.cs-categories-sec .cs-main::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 75%, rgba(0, 0, 0, 0.85) 100%);
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.cs-categories-sec .cs-cnt-main {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    z-index: 2;
+}
+
 .new-blog-heading-section h4 {
     background: #E6B33D;
     padding: 9px 16px;
