@@ -174,176 +174,6 @@
   </div>
 </section>
 
-<!--<section class="container">
-    <div class="new-cta-footer">
-        <div class="new-cta-footer-container">
-            <h2 class="new-cta-footer-title">
-                Real Estate Marketing Company in Dubai
-            </h2>
-            <p class="new-cta-footer-text">
-                Selling villas, apartments, commercial spaces, off-plan projects, or resale properties in Dubai? A specialized real estate marketing partner can be your decisive edge in this fiercely competitive market. Thousands of listings compete for attention every day. Buyers compare options in seconds. the right real estate marketing agency in Dubai brings market expertise, sharp branding, and data-driven campaigns that reach qualified buyers and turn interest into sales.
-            </p>
-
-          
-            <div class="content-read-more">
-                <h3 class="mt-3 text-white">What a Real Estate Marketing Company Really Does</h3>
-                <p class="new-cta-footer-text">
-                    A common misconception among business owners is that a marketing company's job begins and ends with
-                    placing ads on Google or Facebook. Paid advertising matters, of course, but a genuine real estate
-                    marketing company builds far more than campaigns. It constructs a complete ecosystem whose sole
-                    purpose is to attract the right audience, educate them, earn their trust, and convert them into
-                    paying clients.
-                </p>
-                <p class="new-cta-footer-text">
-                    A professional real estate marketing company starts by studying your business goals, your ideal
-                    buyer profile, your property inventory, and your budget. From there, it builds a tailored plan
-                    covering persuasive ad campaigns, landing pages engineered for conversions, professional photo and
-                    video production, active social media management, SEO, CRM setup, and ongoing performance analysis
-                    that keeps improving results month after month.
-                </p>
-                <p class="new-cta-footer-text">
-                    Just as importantly, real estate marketing demands a deep grasp of how property buyers actually
-                    think and behave. Buying property is among the biggest financial commitments a person will ever
-                    make. No one signs on the dotted line without confidence, trust, and clarity. That means marketing
-                    must go beyond listing features and square footage. It has to paint a picture of investment upside,
-                    lifestyle appeal, location strengths, flexible payment structures, and future appreciation
-                    potential.
-                </p>
-                <p class="new-cta-footer-text">
-                    BrandStory treats every project as a strategic mission. Each marketing activity we execute is
-                    designed to produce qualified leads and stronger sales figures, not just to make your brand more
-                    visible online.
-                </p>
-
-                <h3 class="mt-4 text-white">Why Real Estate Marketing Requires True Specialization</h3>
-                <p class="new-cta-footer-text">
-                    One of the costliest errors a property company can make is engaging a generalist agency with little
-                    or no real estate background. These agencies may know how to run digital ads, but they frequently
-                    miss the nuances of property investment. Real estate marketing demands sector knowledge that goes
-                    well beyond eye-catching creatives.
-                </p>
-                <p class="new-cta-footer-text">
-                    Consider this: no two property types sell the same way. A branded luxury villa on Palm Jumeirah
-                    speaks to a completely different buyer than an affordable studio in JVC. An off-plan project needs
-                    heavy educational content to explain payment plans and handover timelines, while a ready property
-                    sells on immediacy. Commercial investors crunch yield numbers, while residential buyers picture
-                    their future home. A specialized real estate marketing company recognizes these distinctions and
-                    calibrates every campaign accordingly.
-                </p>
-                <p class="new-cta-footer-text">
-                    International reach is another area where specialization proves decisive. Dubai draws investors
-                    from the UK, Europe, the GCC, India, China, Russia, Africa, and beyond. Each region brings its own
-                    motivations, budget ranges, languages, and decision-making styles. Campaigns that resonate with a
-                    British buy-to-let investor will fall flat with a Gulf family seeking a holiday home. Winning
-                    strategies adjust the messaging, creative style, currency framing, and targeting for each specific
-                    audience.
-                </p>
-                <p class="new-cta-footer-text">
-                    BrandStory has refined marketing frameworks purpose-built for Dubai's multicultural real estate
-                    arena. Our campaigns are engineered to reach high-intent audiences through sharp targeting,
-                    multilingual ad copy, localized creative assets, and constant refinement driven by real
-                    performance data.
-                </p>
-
-                <h3 class="mt-4 text-white">Essential Services to Expect from a Real Estate Marketing Company</h3>
-                <p class="new-cta-footer-text">
-                    Selecting a marketing partner should go far beyond comparing ad management fees. The strongest real
-                    estate marketing firms deliver a connected suite of services where every element reinforces the
-                    others to fuel sustainable growth.
-                </p>
-                <p class="new-cta-footer-text">
-                    <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Performance Marketing</strong></a> sits at the heart of modern lead generation. <strong>Google Ads</strong>
-                    puts your projects in front of people actively hunting for investment opportunities right now, while
-                    <strong>Meta Ads</strong> place your developments in the feeds of precisely defined audiences matched by
-                    demographics, interests, and online behavior. Run together, these channels produce a powerful mix of
-                    instant inquiries and enduring brand recognition.
-                </p>
-                <p class="new-cta-footer-text">
-                    <a href="/industries/real-estate-seo-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Search Engine Optimization (SEO)</strong></a> carries equal weight because it puts your company in front of
-                    buyers at the exact moment they type queries like "apartments for sale in Dubai," "villas with
-                    payment plans," or "best off-plan projects 2026." The beauty of SEO is that unlike paid ads, it
-                    keeps working long after the initial effort, delivering free organic traffic and making it one of
-                    the smartest long-term investments a property company can make.
-                </p>
-                <p class="new-cta-footer-text">
-                    <a href="/industries/real-estate-social-media-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Social Media Marketing</strong></a> keeps your developments in front of buyers where they spend
-                    their time every day. Across Instagram, Facebook, LinkedIn, TikTok, and X, we plan content, design
-                    creatives, manage communities, and run paid social campaigns that turn casual scrollers into
-                    genuine inquiries. Property is a visual, emotional purchase, and social platforms let you showcase
-                    lifestyle, location, and investment value while building a brand buyers recognize and trust.
-                </p>
-                <p class="new-cta-footer-text">
-                    <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Email Marketing</strong></a> is where interest turns into decisions. Property buyers rarely commit
-                    after a single visit, so we nurture every lead with segmented campaigns, personalized messaging, and
-                    automated sequences that share new launches, payment plan updates, market insights, and exclusive
-                    offers. Done well, email keeps your projects top of mind through the long buying journey and
-                    brings past inquiries back to the table.
-                </p>
-                <p class="new-cta-footer-text">
-                    <a href="/industries/real-estate-influencer-marketing-agency-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Influencer Marketing</strong></a> puts your developments in front of audiences that already
-                    trust the voices they follow. We partner with property and lifestyle creators, investment
-                    commentators, and Dubai-based personalities to produce authentic walkthroughs, project reviews, and
-                    lifestyle content that reaches new buyers in the UAE and abroad. When the right influencer
-                    presents your project, it carries a credibility that traditional advertising struggles to match.
-                </p>
-                <p class="new-cta-footer-text">
-                    Then there is <a href="/industries/real-estate-content-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Content Marketing</strong></a>. Today's investors expect polished photography, cinematic video tours, aerial
-                    drone footage, immersive 3D walkthroughs, insightful market commentary, and social media content
-                    that actually informs. Exceptional content does double duty: it builds credibility with buyers
-                    while simultaneously boosting the performance of your ads across all platforms.
-                </p>
-                <p class="new-cta-footer-text">
-                    BrandStory unifies all of these services into one coherent strategy, so your branding, paid
-                    campaigns, SEO, social media, email marketing, influencer marketing, content, CRM, and conversion
-                    optimization all pull in the same direction toward one goal: your business growth.
-                </p>
-
-                <h3 class="mt-4 text-white">The Role of Transparency in Choosing a Marketing Partner</h3>
-                <p class="new-cta-footer-text">
-                    Here is a hard truth many companies learn the painful way: too often, they do not actually own
-                    their own ad accounts, conversion data, or campaign history. Certain agencies build everything
-                    under their own accounts, which means the moment a client wants to move on, years of valuable data
-                    and optimized audiences stay locked behind the agency's door.
-                </p>
-                <p class="new-cta-footer-text">
-                    BrandStory holds a firm belief: every client deserves full ownership of their marketing assets. We
-                    manage campaigns directly inside your Google Ads, Meta Ads, Google Analytics, Tag Manager, and CRM
-                    accounts. Nothing is hidden, nothing is held hostage, and your investment is protected for the long
-                    run.
-                </p>
-                <p class="new-cta-footer-text">
-                    Clear, detailed reporting completes the picture. Rather than drowning you in jargon-filled
-                    spreadsheets, we focus on the numbers that actually matter to a business owner: how many qualified
-                    leads came in, what percentage converted, what each lead cost, how campaigns contributed to your
-                    sales pipeline, and what return your advertising budget generated.
-                </p>
-                <p class="new-cta-footer-text">
-                    This open approach builds genuine trust. It empowers you to steer your business with confidence,
-                    backed by real data instead of guesswork or agency spin.
-                </p>
-            </div>
-
-            
-            <div class="mb-3">
-                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
-                    <span>Read more</span>
-                </a>
-            </div>
-
-            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
-                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
-                    <span>Get In Touch</span>
-                    <span class="btn-arrow-circle">
-                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>-->
 
 <div class="bs-overview-section">
         <div class="bs-overview-glow"></div>
@@ -1754,6 +1584,178 @@ include __DIR__ . '/../component/client_reviews.php';
 
         </div>
     </section>
+
+    
+<section class="container">
+    <div class="new-cta-footer">
+        <div class="new-cta-footer-container">
+            <h2 class="new-cta-footer-title">
+                Real Estate Marketing Company in Dubai
+            </h2>
+            <p class="new-cta-footer-text">
+                Selling villas, apartments, commercial spaces, off-plan projects, or resale properties in Dubai? A specialized real estate marketing partner can be your decisive edge in this fiercely competitive market. Thousands of listings compete for attention every day. Buyers compare options in seconds. the right real estate marketing agency in Dubai brings market expertise, sharp branding, and data-driven campaigns that reach qualified buyers and turn interest into sales.
+            </p>
+
+          
+            <div class="content-read-more">
+                <h3 class="mt-3 text-white">What a Real Estate Marketing Company Really Does</h3>
+                <p class="new-cta-footer-text">
+                    A common misconception among business owners is that a marketing company's job begins and ends with
+                    placing ads on Google or Facebook. Paid advertising matters, of course, but a genuine real estate
+                    marketing company builds far more than campaigns. It constructs a complete ecosystem whose sole
+                    purpose is to attract the right audience, educate them, earn their trust, and convert them into
+                    paying clients.
+                </p>
+                <p class="new-cta-footer-text">
+                    A professional real estate marketing company starts by studying your business goals, your ideal
+                    buyer profile, your property inventory, and your budget. From there, it builds a tailored plan
+                    covering persuasive ad campaigns, landing pages engineered for conversions, professional photo and
+                    video production, active social media management, SEO, CRM setup, and ongoing performance analysis
+                    that keeps improving results month after month.
+                </p>
+                <p class="new-cta-footer-text">
+                    Just as importantly, real estate marketing demands a deep grasp of how property buyers actually
+                    think and behave. Buying property is among the biggest financial commitments a person will ever
+                    make. No one signs on the dotted line without confidence, trust, and clarity. That means marketing
+                    must go beyond listing features and square footage. It has to paint a picture of investment upside,
+                    lifestyle appeal, location strengths, flexible payment structures, and future appreciation
+                    potential.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory treats every project as a strategic mission. Each marketing activity we execute is
+                    designed to produce qualified leads and stronger sales figures, not just to make your brand more
+                    visible online.
+                </p>
+
+                <h3 class="mt-4 text-white">Why Real Estate Marketing Requires True Specialization</h3>
+                <p class="new-cta-footer-text">
+                    One of the costliest errors a property company can make is engaging a generalist agency with little
+                    or no real estate background. These agencies may know how to run digital ads, but they frequently
+                    miss the nuances of property investment. Real estate marketing demands sector knowledge that goes
+                    well beyond eye-catching creatives.
+                </p>
+                <p class="new-cta-footer-text">
+                    Consider this: no two property types sell the same way. A branded luxury villa on Palm Jumeirah
+                    speaks to a completely different buyer than an affordable studio in JVC. An off-plan project needs
+                    heavy educational content to explain payment plans and handover timelines, while a ready property
+                    sells on immediacy. Commercial investors crunch yield numbers, while residential buyers picture
+                    their future home. A specialized real estate marketing company recognizes these distinctions and
+                    calibrates every campaign accordingly.
+                </p>
+                <p class="new-cta-footer-text">
+                    International reach is another area where specialization proves decisive. Dubai draws investors
+                    from the UK, Europe, the GCC, India, China, Russia, Africa, and beyond. Each region brings its own
+                    motivations, budget ranges, languages, and decision-making styles. Campaigns that resonate with a
+                    British buy-to-let investor will fall flat with a Gulf family seeking a holiday home. Winning
+                    strategies adjust the messaging, creative style, currency framing, and targeting for each specific
+                    audience.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory has refined marketing frameworks purpose-built for Dubai's multicultural real estate
+                    arena. Our campaigns are engineered to reach high-intent audiences through sharp targeting,
+                    multilingual ad copy, localized creative assets, and constant refinement driven by real
+                    performance data.
+                </p>
+
+                <h3 class="mt-4 text-white">Essential Services to Expect from a Real Estate Marketing Company</h3>
+                <p class="new-cta-footer-text">
+                    Selecting a marketing partner should go far beyond comparing ad management fees. The strongest real
+                    estate marketing firms deliver a connected suite of services where every element reinforces the
+                    others to fuel sustainable growth.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-performance-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Performance Marketing</strong></a> sits at the heart of modern lead generation. <strong>Google Ads</strong>
+                    puts your projects in front of people actively hunting for investment opportunities right now, while
+                    <strong>Meta Ads</strong> place your developments in the feeds of precisely defined audiences matched by
+                    demographics, interests, and online behavior. Run together, these channels produce a powerful mix of
+                    instant inquiries and enduring brand recognition.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-seo-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Search Engine Optimization (SEO)</strong></a> carries equal weight because it puts your company in front of
+                    buyers at the exact moment they type queries like "apartments for sale in Dubai," "villas with
+                    payment plans," or "best off-plan projects 2026." The beauty of SEO is that unlike paid ads, it
+                    keeps working long after the initial effort, delivering free organic traffic and making it one of
+                    the smartest long-term investments a property company can make.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-social-media-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Social Media Marketing</strong></a> keeps your developments in front of buyers where they spend
+                    their time every day. Across Instagram, Facebook, LinkedIn, TikTok, and X, we plan content, design
+                    creatives, manage communities, and run paid social campaigns that turn casual scrollers into
+                    genuine inquiries. Property is a visual, emotional purchase, and social platforms let you showcase
+                    lifestyle, location, and investment value while building a brand buyers recognize and trust.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-email-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Email Marketing</strong></a> is where interest turns into decisions. Property buyers rarely commit
+                    after a single visit, so we nurture every lead with segmented campaigns, personalized messaging, and
+                    automated sequences that share new launches, payment plan updates, market insights, and exclusive
+                    offers. Done well, email keeps your projects top of mind through the long buying journey and
+                    brings past inquiries back to the table.
+                </p>
+                <p class="new-cta-footer-text">
+                    <a href="/industries/real-estate-influencer-marketing-agency-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Influencer Marketing</strong></a> puts your developments in front of audiences that already
+                    trust the voices they follow. We partner with property and lifestyle creators, investment
+                    commentators, and Dubai-based personalities to produce authentic walkthroughs, project reviews, and
+                    lifestyle content that reaches new buyers in the UAE and abroad. When the right influencer
+                    presents your project, it carries a credibility that traditional advertising struggles to match.
+                </p>
+                <p class="new-cta-footer-text">
+                    Then there is <a href="/industries/real-estate-content-marketing-agency-in-dubai-uae/" style="text-decoration: underline; color: #ffffff;"><strong>Content Marketing</strong></a>. Today's investors expect polished photography, cinematic video tours, aerial
+                    drone footage, immersive 3D walkthroughs, insightful market commentary, and social media content
+                    that actually informs. Exceptional content does double duty: it builds credibility with buyers
+                    while simultaneously boosting the performance of your ads across all platforms.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory unifies all of these services into one coherent strategy, so your branding, paid
+                    campaigns, SEO, social media, email marketing, influencer marketing, content, CRM, and conversion
+                    optimization all pull in the same direction toward one goal: your business growth.
+                </p>
+
+                <h3 class="mt-4 text-white">The Role of Transparency in Choosing a Marketing Partner</h3>
+                <p class="new-cta-footer-text">
+                    Here is a hard truth many companies learn the painful way: too often, they do not actually own
+                    their own ad accounts, conversion data, or campaign history. Certain agencies build everything
+                    under their own accounts, which means the moment a client wants to move on, years of valuable data
+                    and optimized audiences stay locked behind the agency's door.
+                </p>
+                <p class="new-cta-footer-text">
+                    BrandStory holds a firm belief: every client deserves full ownership of their marketing assets. We
+                    manage campaigns directly inside your Google Ads, Meta Ads, Google Analytics, Tag Manager, and CRM
+                    accounts. Nothing is hidden, nothing is held hostage, and your investment is protected for the long
+                    run.
+                </p>
+                <p class="new-cta-footer-text">
+                    Clear, detailed reporting completes the picture. Rather than drowning you in jargon-filled
+                    spreadsheets, we focus on the numbers that actually matter to a business owner: how many qualified
+                    leads came in, what percentage converted, what each lead cost, how campaigns contributed to your
+                    sales pipeline, and what return your advertising budget generated.
+                </p>
+                <p class="new-cta-footer-text">
+                    This open approach builds genuine trust. It empowers you to steer your business with confidence,
+                    backed by real data instead of guesswork or agency spin.
+                </p>
+            </div>
+
+            
+            <div class="mb-3">
+                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
+                    <span>Read more</span>
+                </a>
+            </div>
+
+            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
+                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+                    <span>Get In Touch</span>
+                    <span class="btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script>
  
