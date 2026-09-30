@@ -58,7 +58,7 @@ class AdminSitemapController extends AdminBaseController
         $content = $_POST['content'] ?? '';
         SitemapService::saveSitemapContent($type, $content);
 
-        $label = ($type === 'blogs') ? 'Blog Sitemap' : 'Pages Sitemap';
+        $label = ($type === 'blogs') ? 'Post Sitemap' : 'Pages Sitemap';
         $_SESSION['success'] = "{$label} updated successfully.";
         header('Location: ' . route('admin.sitemap.index') . '?tab=' . $type);
         exit;
@@ -71,7 +71,7 @@ class AdminSitemapController extends AdminBaseController
 
         $count = SitemapService::syncAllPages();
 
-        $_SESSION['success'] = "Successfully synced {$count} URLs across Pages and Blogs Sitemaps.";
+        $_SESSION['success'] = "Successfully synced {$count} URLs across Pages and Post Sitemaps.";
         header('Location: ' . route('admin.sitemap.index'));
         exit;
     }
@@ -95,7 +95,7 @@ class AdminSitemapController extends AdminBaseController
 
         $count = SitemapService::syncBlogsSitemap();
 
-        $_SESSION['success'] = "Successfully synced {$count} Blog URLs to the Blog Sitemap.";
+        $_SESSION['success'] = "Successfully synced {$count} Post URLs to the Post Sitemap.";
         header('Location: ' . route('admin.sitemap.index') . '?tab=blogs');
         exit;
     }

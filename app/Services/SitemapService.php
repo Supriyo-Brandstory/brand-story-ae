@@ -215,13 +215,11 @@ class SitemapService
 
     /**
      * Add or update page URLs into a specific sitemap type.
+     *
+     * @return int Total number of unique URLs in this sitemap XML
      */
-    private static function addPagesToType(array $slugs, string $type): bool
+    private static function addPagesToType(array $slugs, string $type): int
     {
-        if (empty($slugs)) {
-            return true;
-        }
-
         try {
             $xmlContent = self::getSitemapContent($type);
 
@@ -308,10 +306,11 @@ class SitemapService
                 }
             }
 
-            return self::saveSitemapContent($type, $dom->saveXML());
+            self::saveSitemapContent($type, $dom->saveXML());
+            return count($existingMap);
         } catch (\Throwable $e) {
             error_log("SitemapService::addPagesToType ({$type}) error: " . $e->getMessage());
-            return false;
+            return 0;
         }
     }
 
@@ -400,7 +399,7 @@ class SitemapService
         }
 
         if (trim($oldSlug) === trim($newSlug)) {
-            return self::addPages([$newSlug], $type);
+            return (bool)self::addPages([$newSlug], $type);
         }
 
         try {
@@ -414,7 +413,7 @@ class SitemapService
             libxml_clear_errors();
 
             if (!$loaded) {
-                return self::addPages([$newSlug], $type);
+                return (bool)self::addPages([$newSlug], $type);
             }
 
             $xpath = new DOMXPath($dom);
@@ -459,7 +458,7 @@ class SitemapService
                 return self::saveSitemapContent($type, $dom->saveXML());
             } else {
                 // If old node not found, add the new page URL
-                return self::addPages([$newSlug], $type);
+                return (bool)self::addPages([$newSlug], $type);
             }
         } catch (\Throwable $e) {
             error_log("SitemapService::updatePageSlug error: " . $e->getMessage());
@@ -475,7 +474,7 @@ class SitemapService
     public static function syncPagesSitemap(): int
     {
         try {
-            $slugs = ['']; // Home page
+            $slugs = ['/']; // Home page
 
             // 1. Gather all SEO URLs for pages
             try {
@@ -484,7 +483,7 @@ class SitemapService
                 foreach ($seoUrls as $row) {
                     $u = trim($row['page_url'] ?? '');
                     if (!empty($u) && !preg_match('#^/?blogs?(/|$)#i', $u)) {
-                        $slugs[] = $u;
+                        $slugs[] = self::formatUrl($u);
                     }
                 }
             } catch (\Throwable $e) {}
@@ -495,7 +494,7 @@ class SitemapService
                 $pages = $pageModel->findAll();
                 foreach ($pages as $p) {
                     if (!empty($p['slug'])) {
-                        $slugs[] = $p['slug'];
+                        $slugs[] = self::formatUrl($p['slug']);
                     }
                 }
             } catch (\Throwable $e) {}
@@ -512,7 +511,7 @@ class SitemapService
                     foreach ($nodes as $node) {
                         $val = trim($node->nodeValue ?? '');
                         if (!empty($val) && !preg_match('#/(blogs?)(/|$)#i', $val)) {
-                            $slugs[] = $val;
+                            $slugs[] = self::formatUrl($val);
                         }
                     }
                 }
@@ -520,8 +519,7 @@ class SitemapService
             } catch (\Throwable $e) {}
 
             $slugs = array_values(array_unique($slugs));
-            self::addPages($slugs, 'pages');
-            return count($slugs);
+            return self::addPagesToType($slugs, 'pages');
         } catch (\Throwable $e) {
             error_log('SitemapService::syncPagesSitemap error: ' . $e->getMessage());
             return 0;
@@ -536,7 +534,7 @@ class SitemapService
     public static function syncBlogsSitemap(): int
     {
         try {
-            $slugs = ['blogs/']; // Canonical blog index page
+            $slugs = [self::formatUrl('blogs/')]; // Canonical blog index page
 
             // 1. All blogs from database
             try {
@@ -544,7 +542,7 @@ class SitemapService
                 $blogs = $blogModel->findAll();
                 foreach ($blogs as $b) {
                     if (!empty($b['slug'])) {
-                        $slugs[] = 'blogs/' . ltrim($b['slug'], '/');
+                        $slugs[] = self::formatUrl('blogs/' . ltrim($b['slug'], '/'));
                     }
                 }
             } catch (\Throwable $e) {}
@@ -557,7 +555,7 @@ class SitemapService
                     $u = trim($row['page_url'] ?? '');
                     $clean = trim($u, '/');
                     if (preg_match('#^blogs?/(.+)$#i', $clean, $m)) {
-                        $slugs[] = 'blogs/' . $m[1];
+                        $slugs[] = self::formatUrl('blogs/' . $m[1]);
                     }
                 }
             } catch (\Throwable $e) {}
@@ -582,8 +580,7 @@ class SitemapService
             } catch (\Throwable $e) {}
 
             $slugs = array_values(array_unique($slugs));
-            self::addPages($slugs, 'blogs');
-            return count($slugs);
+            return self::addPagesToType($slugs, 'blogs');
         } catch (\Throwable $e) {
             error_log('SitemapService::syncBlogsSitemap error: ' . $e->getMessage());
             return 0;
