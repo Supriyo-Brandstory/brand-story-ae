@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+use App\Models\Blog;
+use App\Models\Page;
 use App\Models\Sitemap;
 use DOMDocument;
 use DOMXPath;
@@ -55,7 +57,7 @@ class SitemapService
         }
         libxml_clear_errors();
 
-        // Normalize trailing slashes on all <loc> nodes
+        // Normalize trailing slashes on all <loc> nodes (except sitemap index sub-sitemaps like .xml)
         $xpath = new DOMXPath($dom);
         $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
         $locNodes = $xpath->query('//s:loc | //loc');
@@ -72,26 +74,152 @@ class SitemapService
     }
 
     /**
-     * Add or update page URLs in the sitemap XML with trailing slashes and formatted structure.
+     * Get sitemap XML content for a specific type ('pages' or 'blogs').
+     */
+    public static function getSitemapContent(string $type = 'pages'): string
+    {
+        try {
+            $sitemapModel = new Sitemap();
+            $record = $sitemapModel->getByType($type);
+            $content = $record['content'] ?? '';
+
+            if (empty(trim($content))) {
+                // If not found in type-specific record, check first record for backward compatibility
+                if ($type === 'pages') {
+                    $all = $sitemapModel->findAll();
+                    if (!empty($all[0]['content']) && empty($all[0]['type'])) {
+                        $content = $all[0]['content'];
+                    }
+                }
+            }
+
+            if (empty(trim($content))) {
+                return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>\n";
+            }
+
+            return self::formatXml($content);
+        } catch (\Throwable $e) {
+            error_log('SitemapService::getSitemapContent error: ' . $e->getMessage());
+            return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>\n";
+        }
+    }
+
+    /**
+     * Save sitemap XML content for a specific type ('pages' or 'blogs').
+     */
+    public static function saveSitemapContent(string $type, string $xmlContent): bool
+    {
+        try {
+            $formattedXml = self::formatXml($xmlContent);
+            $sitemapModel = new Sitemap();
+            return $sitemapModel->saveByType($type, $formattedXml);
+        } catch (\Throwable $e) {
+            error_log('SitemapService::saveSitemapContent error: ' . $e->getMessage());
+            return false;
+        }
+    }
+
+    /**
+     * Generate Main Sitemap Index XML connecting page-sitemap.xml and blog-sitemap.xml.
+     */
+    public static function generateIndexXml(): string
+    {
+        try {
+            $sitemapModel = new Sitemap();
+            $pagesRecord = $sitemapModel->getByType('pages');
+            $blogsRecord = $sitemapModel->getByType('blogs');
+
+            $today = date('Y-m-d');
+            $pagesLastMod = !empty($pagesRecord['updated_at']) ? date('Y-m-d', strtotime($pagesRecord['updated_at'])) : $today;
+            $blogsLastMod = !empty($blogsRecord['updated_at']) ? date('Y-m-d', strtotime($blogsRecord['updated_at'])) : $today;
+
+            $pagesUrl = function_exists('base_url') ? base_url('page-sitemap.xml') : '/page-sitemap.xml';
+            $blogsUrl = function_exists('base_url') ? base_url('blog-sitemap.xml') : '/blog-sitemap.xml';
+
+            $dom = new DOMDocument('1.0', 'UTF-8');
+            $dom->preserveWhiteSpace = false;
+            $dom->formatOutput = true;
+
+            $root = $dom->createElementNS('http://www.sitemaps.org/schemas/sitemap/0.9', 'sitemapindex');
+            $dom->appendChild($root);
+
+            // 1. Page Sitemap Entry
+            $sitemapPage = $dom->createElement('sitemap');
+            $locPage = $dom->createElement('loc', htmlspecialchars($pagesUrl, ENT_XML1, 'UTF-8'));
+            $lastmodPage = $dom->createElement('lastmod', $pagesLastMod);
+            $sitemapPage->appendChild($locPage);
+            $sitemapPage->appendChild($lastmodPage);
+            $root->appendChild($sitemapPage);
+
+            // 2. Blog Sitemap Entry
+            $sitemapBlog = $dom->createElement('sitemap');
+            $locBlog = $dom->createElement('loc', htmlspecialchars($blogsUrl, ENT_XML1, 'UTF-8'));
+            $lastmodBlog = $dom->createElement('lastmod', $blogsLastMod);
+            $sitemapBlog->appendChild($locBlog);
+            $sitemapBlog->appendChild($lastmodBlog);
+            $root->appendChild($sitemapBlog);
+
+            return $dom->saveXML();
+        } catch (\Throwable $e) {
+            error_log('SitemapService::generateIndexXml error: ' . $e->getMessage());
+            $pagesUrl = function_exists('base_url') ? base_url('page-sitemap.xml') : '/page-sitemap.xml';
+            $blogsUrl = function_exists('base_url') ? base_url('blog-sitemap.xml') : '/blog-sitemap.xml';
+            $today = date('Y-m-d');
+            return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>{$pagesUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>{$blogsUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n</sitemapindex>\n";
+        }
+    }
+
+    /**
+     * Add or update page URLs in the sitemap XML.
+     * Automatically separates blog slugs and page slugs if type is not specified.
      *
-     * @param array $slugs Array of page slugs or full URLs
+     * @param array $slugs Array of page/blog slugs or full URLs
+     * @param string|null $type 'pages', 'blogs', or null for auto-detect
      * @return bool
      */
-    public static function addPages(array $slugs): bool
+    public static function addPages(array $slugs, ?string $type = null): bool
+    {
+        if (empty($slugs)) {
+            return true;
+        }
+
+        if ($type === null) {
+            $blogSlugs = [];
+            $pageSlugs = [];
+
+            foreach ($slugs as $slug) {
+                $trimmed = trim($slug);
+                if (preg_match('#^(/?blogs?)(/|$)#i', $trimmed) || preg_match('#^https?://[^/]+/(blogs?)(/|$)#i', $trimmed)) {
+                    $blogSlugs[] = $slug;
+                } else {
+                    $pageSlugs[] = $slug;
+                }
+            }
+
+            $success = true;
+            if (!empty($pageSlugs)) {
+                $success = self::addPagesToType($pageSlugs, 'pages') && $success;
+            }
+            if (!empty($blogSlugs)) {
+                $success = self::addPagesToType($blogSlugs, 'blogs') && $success;
+            }
+            return $success;
+        }
+
+        return self::addPagesToType($slugs, $type);
+    }
+
+    /**
+     * Add or update page URLs into a specific sitemap type.
+     */
+    private static function addPagesToType(array $slugs, string $type): bool
     {
         if (empty($slugs)) {
             return true;
         }
 
         try {
-            $sitemapModel = new Sitemap();
-            $sitemaps = $sitemapModel->findAll();
-            $sitemapRecord = $sitemaps[0] ?? null;
-            $xmlContent = trim($sitemapRecord['content'] ?? '');
-
-            if (empty($xmlContent)) {
-                $xmlContent = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>";
-            }
+            $xmlContent = self::getSitemapContent($type);
 
             $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false;
@@ -115,6 +243,8 @@ class SitemapService
             }
 
             $today = date('Y-m-d');
+            $priority = ($type === 'blogs') ? '0.8' : '0.8';
+            $changefreq = ($type === 'blogs') ? 'weekly' : 'weekly';
 
             foreach ($slugs as $slug) {
                 if (empty(trim($slug))) continue;
@@ -153,33 +283,19 @@ class SitemapService
                     $lastmodElem = $dom->createElement('lastmod', $today);
                     $urlNode->appendChild($lastmodElem);
 
-                    $changefreqElem = $dom->createElement('changefreq', 'weekly');
+                    $changefreqElem = $dom->createElement('changefreq', $changefreq);
                     $urlNode->appendChild($changefreqElem);
 
-                    $priorityElem = $dom->createElement('priority', '0.8');
+                    $priorityElem = $dom->createElement('priority', $priority);
                     $urlNode->appendChild($priorityElem);
 
                     $root->appendChild($urlNode);
                 }
             }
 
-            // Normalize all other loc nodes and format XML cleanly
-            $newXml = self::formatXml($dom->saveXML());
-
-            if ($sitemapRecord && !empty($sitemapRecord['id'])) {
-                $sitemapModel->save([
-                    'id' => $sitemapRecord['id'],
-                    'content' => $newXml
-                ]);
-            } else {
-                $sitemapModel->save([
-                    'content' => $newXml
-                ]);
-            }
-
-            return true;
+            return self::saveSitemapContent($type, $dom->saveXML());
         } catch (\Throwable $e) {
-            error_log('SitemapService::addPages error: ' . $e->getMessage());
+            error_log("SitemapService::addPagesToType ({$type}) error: " . $e->getMessage());
             return false;
         }
     }
@@ -187,160 +303,93 @@ class SitemapService
     /**
      * Remove page URLs from the sitemap XML.
      *
-     * @param array $slugs Array of page slugs or full URLs
+     * @param array $slugs Array of page/blog slugs or full URLs
+     * @param string|null $type 'pages', 'blogs', or null to remove from matching/both
      * @return bool
      */
-    public static function removePages(array $slugs): bool
+    public static function removePages(array $slugs, ?string $type = null): bool
     {
         if (empty($slugs)) {
             return true;
         }
 
-        try {
-            $sitemapModel = new Sitemap();
-            $sitemaps = $sitemapModel->findAll();
-            $sitemapRecord = $sitemaps[0] ?? null;
-            if (!$sitemapRecord || empty($sitemapRecord['content'])) {
-                return true;
-            }
+        $types = $type !== null ? [$type] : ['pages', 'blogs'];
+        $success = true;
 
-            $xmlContent = trim($sitemapRecord['content']);
-            $dom = new DOMDocument('1.0', 'UTF-8');
-            $dom->preserveWhiteSpace = false;
-            $dom->formatOutput = true;
-
-            libxml_use_internal_errors(true);
-            $loaded = @$dom->loadXML($xmlContent);
-            libxml_clear_errors();
-
-            if (!$loaded) {
-                return false;
-            }
-
-            $xpath = new DOMXPath($dom);
-            $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
-
-            foreach ($slugs as $slug) {
-                if (empty(trim($slug))) continue;
-
-                $urlWithSlash = self::formatUrl($slug);
-                $urlWithoutSlash = rtrim($urlWithSlash, '/');
-
-                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($urlWithSlash) . " or s:loc=" . self::xpathEscape($urlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($urlWithSlash) . " or loc=" . self::xpathEscape($urlWithoutSlash) . "]";
-                $nodes = $xpath->query($urlQuery);
-
-                if ($nodes) {
-                    foreach ($nodes as $node) {
-                        $node->parentNode->removeChild($node);
-                    }
-                }
-            }
-
-            $newXml = self::formatXml($dom->saveXML());
-
-            $sitemapModel->save([
-                'id' => $sitemapRecord['id'],
-                'content' => $newXml
-            ]);
-
-            return true;
-        } catch (\Throwable $e) {
-            error_log('SitemapService::removePages error: ' . $e->getMessage());
-            return false;
-        }
-    }
-
-    /**
-     * Sync all pages and blogs into the sitemap XML with trailing slashes and formatted indentation.
-     *
-     * @return int Number of URLs synced
-     */
-    public static function syncAllPages(): int
-    {
-        try {
-            $pageModel = new \App\Models\Page();
-            $pages = $pageModel->findAll();
-            $slugs = [];
-
-            foreach ($pages as $p) {
-                if (!empty($p['slug'])) {
-                    $slugs[] = $p['slug'];
-                }
-            }
-
-            // Also include blogs if table exists
+        foreach ($types as $t) {
             try {
-                $blogModel = new \App\Models\Blog();
-                $blogs = $blogModel->findAll();
-                foreach ($blogs as $b) {
-                    if (!empty($b['slug'])) {
-                        $slugs[] = 'blog/' . ltrim($b['slug'], '/');
+                $xmlContent = self::getSitemapContent($t);
+                $dom = new DOMDocument('1.0', 'UTF-8');
+                $dom->preserveWhiteSpace = false;
+                $dom->formatOutput = true;
+
+                libxml_use_internal_errors(true);
+                $loaded = @$dom->loadXML($xmlContent);
+                libxml_clear_errors();
+
+                if (!$loaded) {
+                    continue;
+                }
+
+                $xpath = new DOMXPath($dom);
+                $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+
+                $modified = false;
+                foreach ($slugs as $slug) {
+                    if (empty(trim($slug))) continue;
+
+                    $urlWithSlash = self::formatUrl($slug);
+                    $urlWithoutSlash = rtrim($urlWithSlash, '/');
+
+                    $urlQuery = "//s:url[s:loc=" . self::xpathEscape($urlWithSlash) . " or s:loc=" . self::xpathEscape($urlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($urlWithSlash) . " or loc=" . self::xpathEscape($urlWithoutSlash) . "]";
+                    $nodes = $xpath->query($urlQuery);
+
+                    if ($nodes && $nodes->length > 0) {
+                        foreach ($nodes as $node) {
+                            $node->parentNode->removeChild($node);
+                            $modified = true;
+                        }
                     }
                 }
-            } catch (\Throwable $e) {}
 
-            self::addPages($slugs);
-            return count($slugs);
-        } catch (\Throwable $e) {
-            error_log('SitemapService::syncAllPages error: ' . $e->getMessage());
-            return 0;
-        }
-    }
-
-    /**
-     * Generate canonical link HTML tag for a given slug or URL.
-     */
-    public static function generateCanonicalTag(string $slugOrUrl): string
-    {
-        $url = self::formatUrl($slugOrUrl);
-        return '<link rel="canonical" href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" />';
-    }
-
-    /**
-     * Ensure canonical link HTML tag exists and is up to date in custom head tags/scripts.
-     */
-    public static function syncCanonicalInTags(?string $existingTags, string $slugOrUrl): string
-    {
-        $canonicalTag = self::generateCanonicalTag($slugOrUrl);
-        $tags = trim($existingTags ?? '');
-
-        if (preg_match('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $tags)) {
-            // Replace existing canonical tag
-            $tags = preg_replace('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $canonicalTag, $tags);
-        } else {
-            // Prepend canonical tag
-            $tags = $canonicalTag . ($tags !== '' ? "\n" . $tags : '');
+                if ($modified) {
+                    self::saveSitemapContent($t, $dom->saveXML());
+                }
+            } catch (\Throwable $e) {
+                error_log("SitemapService::removePages ({$t}) error: " . $e->getMessage());
+                $success = false;
+            }
         }
 
-        return $tags;
+        return $success;
     }
 
     /**
-     * Update an existing page slug in the sitemap in-place without creating a duplicate sitemap or entry.
+     * Update an existing page slug in the sitemap in-place without creating duplicates.
      *
      * @param string $oldSlug The previous slug
      * @param string $newSlug The new updated slug
+     * @param string|null $type 'pages', 'blogs', or null for auto-detect
      * @return bool
      */
-    public static function updatePageSlug(string $oldSlug, string $newSlug): bool
+    public static function updatePageSlug(string $oldSlug, string $newSlug, ?string $type = null): bool
     {
         if (empty(trim($oldSlug)) || empty(trim($newSlug))) {
             return false;
         }
 
+        if ($type === null) {
+            $isOldBlog = preg_match('#^(/?blogs?)(/|$)#i', trim($oldSlug));
+            $isNewBlog = preg_match('#^(/?blogs?)(/|$)#i', trim($newSlug));
+            $type = ($isOldBlog || $isNewBlog) ? 'blogs' : 'pages';
+        }
+
         if (trim($oldSlug) === trim($newSlug)) {
-            return self::addPages([$newSlug]);
+            return self::addPages([$newSlug], $type);
         }
 
         try {
-            $sitemapModel = new Sitemap();
-            $sitemaps = $sitemapModel->findAll();
-            $sitemapRecord = $sitemaps[0] ?? null;
-            if (!$sitemapRecord || empty($sitemapRecord['content'])) {
-                return self::addPages([$newSlug]);
-            }
-
-            $xmlContent = trim($sitemapRecord['content']);
+            $xmlContent = self::getSitemapContent($type);
             $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false;
             $dom->formatOutput = true;
@@ -350,7 +399,7 @@ class SitemapService
             libxml_clear_errors();
 
             if (!$loaded) {
-                return self::addPages([$newSlug]);
+                return self::addPages([$newSlug], $type);
             }
 
             $xpath = new DOMXPath($dom);
@@ -391,23 +440,109 @@ class SitemapService
                     $extraNode = $oldNodes->item($i);
                     $extraNode->parentNode->removeChild($extraNode);
                 }
+
+                return self::saveSitemapContent($type, $dom->saveXML());
             } else {
                 // If old node not found, add the new page URL
-                return self::addPages([$newSlug]);
+                return self::addPages([$newSlug], $type);
             }
-
-            $newXml = self::formatXml($dom->saveXML());
-
-            $sitemapModel->save([
-                'id' => $sitemapRecord['id'],
-                'content' => $newXml
-            ]);
-
-            return true;
         } catch (\Throwable $e) {
-            error_log('SitemapService::updatePageSlug error: ' . $e->getMessage());
+            error_log("SitemapService::updatePageSlug error: " . $e->getMessage());
             return false;
         }
+    }
+
+    /**
+     * Sync all dynamic & static pages into the pages sitemap XML.
+     *
+     * @return int Number of page URLs synced
+     */
+    public static function syncPagesSitemap(): int
+    {
+        try {
+            $slugs = ['']; // Home page
+
+            // Dynamic pages from DB
+            $pageModel = new Page();
+            $pages = $pageModel->findAll();
+            foreach ($pages as $p) {
+                if (!empty($p['slug'])) {
+                    $slugs[] = $p['slug'];
+                }
+            }
+
+            self::addPages($slugs, 'pages');
+            return count($slugs);
+        } catch (\Throwable $e) {
+            error_log('SitemapService::syncPagesSitemap error: ' . $e->getMessage());
+            return 0;
+        }
+    }
+
+    /**
+     * Sync all blog posts into the blogs sitemap XML.
+     *
+     * @return int Number of blog URLs synced
+     */
+    public static function syncBlogsSitemap(): int
+    {
+        try {
+            $blogModel = new Blog();
+            $blogs = $blogModel->findAll();
+            $slugs = ['blog/']; // Blog index page
+
+            foreach ($blogs as $b) {
+                if (!empty($b['slug'])) {
+                    $slugs[] = 'blog/' . ltrim($b['slug'], '/');
+                }
+            }
+
+            self::addPages($slugs, 'blogs');
+            return count($slugs);
+        } catch (\Throwable $e) {
+            error_log('SitemapService::syncBlogsSitemap error: ' . $e->getMessage());
+            return 0;
+        }
+    }
+
+    /**
+     * Sync both pages and blogs sitemaps.
+     *
+     * @return int Total number of URLs synced
+     */
+    public static function syncAllPages(): int
+    {
+        $pagesCount = self::syncPagesSitemap();
+        $blogsCount = self::syncBlogsSitemap();
+        return $pagesCount + $blogsCount;
+    }
+
+    /**
+     * Generate canonical link HTML tag for a given slug or URL.
+     */
+    public static function generateCanonicalTag(string $slugOrUrl): string
+    {
+        $url = self::formatUrl($slugOrUrl);
+        return '<link rel="canonical" href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" />';
+    }
+
+    /**
+     * Ensure canonical link HTML tag exists and is up to date in custom head tags/scripts.
+     */
+    public static function syncCanonicalInTags(?string $existingTags, string $slugOrUrl): string
+    {
+        $canonicalTag = self::generateCanonicalTag($slugOrUrl);
+        $tags = trim($existingTags ?? '');
+
+        if (preg_match('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $tags)) {
+            // Replace existing canonical tag
+            $tags = preg_replace('/<link\s+[^>]*rel=["\']canonical["\'][^>]*>/is', $canonicalTag, $tags);
+        } else {
+            // Prepend canonical tag
+            $tags = $canonicalTag . ($tags !== '' ? "\n" . $tags : '');
+        }
+
+        return $tags;
     }
 
     /**
@@ -424,3 +559,4 @@ class SitemapService
         return "concat('" . str_replace("'", "', \"'\", '", $value) . "')";
     }
 }
+

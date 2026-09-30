@@ -2,24 +2,45 @@
 
 namespace App\Controllers;
 
-use App\Models\Sitemap;
+use App\Services\SitemapService;
 
 class SitemapController
 {
+    /**
+     * Main Sitemap Index (/sitemap.xml) connecting page and blog sitemaps.
+     */
     public function index()
     {
-        $sitemapModel = new Sitemap();
-        $sitemaps = $sitemapModel->findAll();
-        $sitemap = $sitemaps[0] ?? null;
-        $content = $sitemap['content'] ?? '';
+        $content = SitemapService::generateIndexXml();
 
-        if (empty($content)) {
-            // Fallback default if empty
-            $content = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>';
-        }
+        header('Content-Type: application/xml; charset=utf-8');
+        header('X-Robots-Tag: noindex, follow');
+        echo $content;
+        exit;
+    }
+
+    /**
+     * Pages Sitemap (/page-sitemap.xml) containing all regular website pages.
+     */
+    public function pages()
+    {
+        $content = SitemapService::getSitemapContent('pages');
+
+        header('Content-Type: application/xml; charset=utf-8');
+        echo $content;
+        exit;
+    }
+
+    /**
+     * Blogs Sitemap (/blog-sitemap.xml) containing all blog post pages.
+     */
+    public function blogs()
+    {
+        $content = SitemapService::getSitemapContent('blogs');
 
         header('Content-Type: application/xml; charset=utf-8');
         echo $content;
         exit;
     }
 }
+

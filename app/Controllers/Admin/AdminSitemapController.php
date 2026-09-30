@@ -3,6 +3,7 @@
 namespace App\Controllers\Admin;
 
 use App\Models\Sitemap;
+use App\Services\SitemapService;
 
 class AdminSitemapController extends AdminBaseController
 {
@@ -18,17 +19,29 @@ class AdminSitemapController extends AdminBaseController
     {
         $this->requireAdminAuth();
 
-        // Fetch existing sitemap (take the first one found)
-        $sitemaps = $this->sitemapModel->findAll();
-        $sitemap = $sitemaps[0] ?? null;
-
-        $content = $sitemap['content'] ?? '';
-        if (!empty($content)) {
-            $content = \App\Services\SitemapService::formatXml($content);
+        $activeTab = $_GET['tab'] ?? 'pages';
+        if (!in_array($activeTab, ['pages', 'blogs', 'index'])) {
+            $activeTab = 'pages';
         }
 
+        $pagesContent = SitemapService::getSitemapContent('pages');
+        $blogsContent = SitemapService::getSitemapContent('blogs');
+        $indexContent = SitemapService::generateIndexXml();
+
+        // Get count of URLs
+        preg_match_all('/<loc>(.*?)<\/loc>/i', $pagesContent, $pagesMatches);
+        $pagesCount = count($pagesMatches[1] ?? []);
+
+        preg_match_all('/<loc>(.*?)<\/loc>/i', $blogsContent, $blogsMatches);
+        $blogsCount = count($blogsMatches[1] ?? []);
+
         return $this->adminView('sitemap/index', [
-            'content' => $content
+            'activeTab' => $activeTab,
+            'pagesContent' => $pagesContent,
+            'blogsContent' => $blogsContent,
+            'indexContent' => $indexContent,
+            'pagesCount' => $pagesCount,
+            'blogsCount' => $blogsCount
         ]);
     }
 
@@ -37,29 +50,17 @@ class AdminSitemapController extends AdminBaseController
         $this->requireAdminAuth();
         csrf_verify();
 
+        $type = $_POST['type'] ?? 'pages';
+        if (!in_array($type, ['pages', 'blogs'])) {
+            $type = 'pages';
+        }
+
         $content = $_POST['content'] ?? '';
-        if (!empty($content)) {
-            $content = \App\Services\SitemapService::formatXml($content);
-        }
+        SitemapService::saveSitemapContent($type, $content);
 
-        // Check if record exists
-        $sitemaps = $this->sitemapModel->findAll();
-        $sitemap = $sitemaps[0] ?? null;
-
-        if ($sitemap) {
-            $this->sitemapModel->save([
-                'id' => $sitemap['id'],
-                'content' => $content
-            ]);
-        } else {
-            // Insert new (without ID, let DB assign it)
-            $this->sitemapModel->save([
-                'content' => $content
-            ]);
-        }
-
-        $_SESSION['success'] = 'Sitemap updated successfully.';
-        header('Location: ' . route('admin.sitemap.index'));
+        $label = ($type === 'blogs') ? 'Blog Sitemap' : 'Pages Sitemap';
+        $_SESSION['success'] = "{$label} updated successfully.";
+        header('Location: ' . route('admin.sitemap.index') . '?tab=' . $type);
         exit;
     }
 
@@ -68,10 +69,35 @@ class AdminSitemapController extends AdminBaseController
         $this->requireAdminAuth();
         csrf_verify();
 
-        $count = \App\Services\SitemapService::syncAllPages();
+        $count = SitemapService::syncAllPages();
 
-        $_SESSION['success'] = "Successfully synced {$count} URLs to the Sitemap.";
+        $_SESSION['success'] = "Successfully synced {$count} URLs across Pages and Blogs Sitemaps.";
         header('Location: ' . route('admin.sitemap.index'));
         exit;
     }
+
+    public function syncPages()
+    {
+        $this->requireAdminAuth();
+        csrf_verify();
+
+        $count = SitemapService::syncPagesSitemap();
+
+        $_SESSION['success'] = "Successfully synced {$count} Page URLs to the Pages Sitemap.";
+        header('Location: ' . route('admin.sitemap.index') . '?tab=pages');
+        exit;
+    }
+
+    public function syncBlogs()
+    {
+        $this->requireAdminAuth();
+        csrf_verify();
+
+        $count = SitemapService::syncBlogsSitemap();
+
+        $_SESSION['success'] = "Successfully synced {$count} Blog URLs to the Blog Sitemap.";
+        header('Location: ' . route('admin.sitemap.index') . '?tab=blogs');
+        exit;
+    }
 }
+

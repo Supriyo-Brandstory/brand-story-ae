@@ -31,6 +31,12 @@ Route::get('/technical-seo-dubai', 'FrontendController@technicalSeoDubai', 'tech
 Route::get('/off-page-seo-dubai', 'FrontendController@offPageSeoDubai', 'offpageseodubai');
 Route::get('/keyword-research-dubai', 'FrontendController@keywordResearchDubai', 'keywordresearchdubai');
 Route::get('/sitemap.xml', 'SitemapController@index', 'sitemap');
+Route::get('/sitemap_index.xml', 'SitemapController@index', 'sitemap.index');
+Route::get('/sitemap-index.xml', 'SitemapController@index', 'sitemap.index_hyphen');
+Route::get('/page-sitemap.xml', 'SitemapController@pages', 'sitemap.pages');
+Route::get('/pages-sitemap.xml', 'SitemapController@pages', 'sitemap.pages_plural');
+Route::get('/blog-sitemap.xml', 'SitemapController@blogs', 'sitemap.blogs');
+Route::get('/blogs-sitemap.xml', 'SitemapController@blogs', 'sitemap.blogs_plural');
 Route::get('/robots.txt', 'RobotsController@index', 'robots');
 Route::get('/branding-agency-in-dubai', 'FrontendController@brandAgencyDubai', 'brandagencydubai');
 // Route::get('/branding-agency-in-dubai-2', 'FrontendController@brandAgencyDubai2', 'brandagencydubai2');
@@ -376,6 +382,8 @@ Route::group(['prefix' => '/admin'], function () {
         Route::get('/sitemap', 'Admin\AdminSitemapController@index', 'admin.sitemap.index');
         Route::post('/sitemap', 'Admin\AdminSitemapController@update', 'admin.sitemap.update');
         Route::post('/sitemap/sync', 'Admin\AdminSitemapController@sync', 'admin.sitemap.sync');
+        Route::post('/sitemap/sync-pages', 'Admin\AdminSitemapController@syncPages', 'admin.sitemap.sync_pages');
+        Route::post('/sitemap/sync-blogs', 'Admin\AdminSitemapController@syncBlogs', 'admin.sitemap.sync_blogs');
 
         // Robots.txt Management
         Route::get('/robots', 'Admin\AdminRobotsController@index', 'admin.robots.index');
