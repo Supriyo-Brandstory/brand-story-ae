@@ -173,7 +173,142 @@
     </div>
   </div>
 </section>
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our real estate marketing in Dubai has turned business
+                    challenges into measurable growth for top-tier real estate brands.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
 
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Purvanka -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Real Estate Marketing</span>
+                            <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
+                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Purvanka Real Estate</h3>
+                            <div class="premium-cs-row-stats">300% More Traffic | 170% Qualified Leads | 3 Months</div>
+                            <p class="premium-cs-row-desc">In a crowded real estate market, Purvanka needed more than visibility- they needed trust. BrandStory built a data-driven PPC, SEO, and social media strategy to raise awareness and turn interest into site visits and bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-1/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: 42 Estate -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Brand & Web Design</span>
+                            <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">42 Estate</h3>
+                            <div class="premium-cs-row-stats">200% More Traffic | 120% Qualified Enquiries | 150% Follower Growth</div>
+                            <p class="premium-cs-row-desc">42 Estate entered a market full of established developers. BrandStory shaped a distinct brand identity, high-performance website, and cohesive social media presence that keeps the brand in front of the right buyers.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-2/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: G Square -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Dubai Market Entry & PPC</span>
+                            <img src="<?= base_url('assets/images/case-study/g-square-case-study.webp') ?>" alt="G Square"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">G Square</h3>
+                            <div class="premium-cs-row-stats">250% UAE Traffic | 160% NRI Enquiries | 30+ Ranked Keywords</div>
+                            <p class="premium-cs-row-desc">G Square wanted to reach Indians living in the UAE looking to buy land back home. BrandStory launched targeted NRI paid campaigns and landing pages to turn UAE interest into confirmed bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-3/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: Object 1 -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">PPC & SEO Lead Gen</span>
+                            <img src="<?= base_url('assets/images/case-study/cject-1-case-study.webp') ?>" alt="Object 1"
+                                class="premium-cs-row-img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Luxury Real Estate</h3>
+                            <div class="premium-cs-row-stats">220% Traffic Growth | 140% Qualified Leads | 45% Lower CPL</div>
+                            <p class="premium-cs-row-desc">Downtown Dubai is one of the most competitive property markets. BrandStory ran high-performance PPC and technical SEO to capture serious buyers and investors while reducing cost per lead by 45%.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-4/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
+    </div>
+</section>
 
 <div class="bs-overview-section">
         <div class="bs-overview-glow"></div>
@@ -1310,142 +1445,7 @@
     </div>
 </section>
 
-<section class="new-client-section">
-    <div class="container">
-        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
-    </div>
-</section>
 
-<section class="premium-cs-section">
-    <div class="container">
-        <!-- Header row -->
-        <div class="row align-items-center mb-5">
-            <div class="col-md-7">
-                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
-            </div>
-            <div class="col-md-5">
-                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
-                    challenges into measurable growth for brands in Dubai, UAE.</p>
-                <div class="mt-4">
-                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Redesigned Case Study list -->
-        <div class="premium-cs-list">
-            <!-- Card 1: Purvanka -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Real Estate Marketing</span>
-                            <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
-                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Purvanka Real Estate</h3>
-                            <div class="premium-cs-row-stats">300% More Traffic | 170% Qualified Leads | 3 Months</div>
-                            <p class="premium-cs-row-desc">In a crowded real estate market, Purvanka needed more than visibility—they needed trust. BrandStory built a data-driven PPC, SEO, and social media strategy to raise awareness and turn interest into site visits and bookings.</p>
-                            <a href="<?= base_url('case-study/real-estate-case-study-1/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2: 42 Estate -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Brand & Web Design</span>
-                            <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
-                                class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">42 Estate</h3>
-                            <div class="premium-cs-row-stats">200% More Traffic | 120% Qualified Enquiries | 150% Follower Growth</div>
-                            <p class="premium-cs-row-desc">42 Estate entered a market full of established developers. BrandStory shaped a distinct brand identity, high-performance website, and cohesive social media presence that keeps the brand in front of the right buyers.</p>
-                            <a href="<?= base_url('case-study/real-estate-case-study-2/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3: G Square -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Dubai Market Entry & PPC</span>
-                            <img src="<?= base_url('assets/images/case-study/g-square-case-study.webp') ?>" alt="G Square"
-                                class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">G Square</h3>
-                            <div class="premium-cs-row-stats">250% UAE Traffic | 160% NRI Enquiries | 30+ Ranked Keywords</div>
-                            <p class="premium-cs-row-desc">G Square wanted to reach Indians living in the UAE looking to buy land back home. BrandStory launched targeted NRI paid campaigns and landing pages to turn UAE interest into confirmed bookings.</p>
-                            <a href="<?= base_url('case-study/real-estate-case-study-3/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4: Object 1 -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">PPC & SEO Lead Gen</span>
-                            <img src="<?= base_url('assets/images/case-study/cject-1-case-study.webp') ?>" alt="Object 1"
-                                class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Object 1</h3>
-                            <div class="premium-cs-row-stats">220% Traffic Growth | 140% Qualified Leads | 45% Lower CPL</div>
-                            <p class="premium-cs-row-desc">Downtown Dubai is one of the most competitive property markets. BrandStory ran high-performance PPC and technical SEO to capture serious buyers and investors while reducing cost per lead by 45%.</p>
-                            <a href="<?= base_url('case-study/real-estate-case-study-4/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php
 $reviewSection = [
@@ -1454,6 +1454,8 @@ $reviewSection = [
 ];
 include __DIR__ . '/../component/client_reviews.php';
 ?>
+
+
 <?php 
   $category = 'Real Estate Marketing';
   $padding= 'sp-50';
