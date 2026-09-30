@@ -11,7 +11,7 @@ use DOMXPath;
 class SitemapService
 {
     /**
-     * Format URL to ensure valid protocol and trailing slash.
+     * Format URL to ensure valid protocol, consistent domain, and trailing slash.
      */
     public static function formatUrl(string $slugOrUrl): string
     {
@@ -21,16 +21,12 @@ class SitemapService
             return rtrim($base, '/') . '/';
         }
 
-        if (str_starts_with($slugOrUrl, 'http://') || str_starts_with($slugOrUrl, 'https://')) {
-            $url = $slugOrUrl;
-        } else {
-            $cleanSlug = trim($slugOrUrl, '/');
-            $url = function_exists('base_url') ? base_url($cleanSlug) : '/' . $cleanSlug;
-        }
+        $path = parse_url($slugOrUrl, PHP_URL_PATH) ?? '';
+        $cleanPath = trim($path, '/');
+        $url = function_exists('base_url') ? base_url($cleanPath) : '/' . $cleanPath;
 
-        $path = parse_url($url, PHP_URL_PATH);
         // Only append trailing slash if it is not a file extension like .xml, .pdf, .jpg
-        if (empty($path) || !preg_match('/\.[a-zA-Z0-9]{2,5}$/', $path)) {
+        if (empty($cleanPath) || !preg_match('/\.[a-zA-Z0-9]{2,5}$/', $cleanPath)) {
             $url = rtrim($url, '/') . '/';
         }
 
@@ -246,24 +242,34 @@ class SitemapService
             $priority = ($type === 'blogs') ? '0.8' : '0.8';
             $changefreq = ($type === 'blogs') ? 'weekly' : 'weekly';
 
+            // Index and normalize existing nodes to avoid duplicates
+            $existingMap = [];
+            $nodes = $xpath->query('//s:url | //url');
+            if ($nodes) {
+                foreach ($nodes as $node) {
+                    $locNodes = $xpath->query('s:loc | loc', $node);
+                    if ($locNodes && $locNodes->length > 0) {
+                        $rawLoc = trim($locNodes->item(0)->nodeValue ?? '');
+                        if (!empty($rawLoc)) {
+                            $normLoc = self::formatUrl($rawLoc);
+                            $locNodes->item(0)->nodeValue = $normLoc;
+                            if (isset($existingMap[$normLoc])) {
+                                $node->parentNode->removeChild($node);
+                            } else {
+                                $existingMap[$normLoc] = $node;
+                            }
+                        }
+                    }
+                }
+            }
+
             foreach ($slugs as $slug) {
                 if (empty(trim($slug))) continue;
 
                 $urlWithSlash = self::formatUrl($slug);
-                $urlWithoutSlash = rtrim($urlWithSlash, '/');
 
-                // Check if URL node already exists (with or without trailing slash)
-                $urlQuery = "//s:url[s:loc=" . self::xpathEscape($urlWithSlash) . " or s:loc=" . self::xpathEscape($urlWithoutSlash) . "] | //url[loc=" . self::xpathEscape($urlWithSlash) . " or loc=" . self::xpathEscape($urlWithoutSlash) . "]";
-                $existingNodes = $xpath->query($urlQuery);
-
-                if ($existingNodes && $existingNodes->length > 0) {
-                    $urlNode = $existingNodes->item(0);
-                    
-                    // Ensure loc has trailing slash
-                    $locNodes = $xpath->query('s:loc | loc', $urlNode);
-                    if ($locNodes && $locNodes->length > 0) {
-                        $locNodes->item(0)->nodeValue = $urlWithSlash;
-                    }
+                if (isset($existingMap[$urlWithSlash])) {
+                    $urlNode = $existingMap[$urlWithSlash];
 
                     // Update lastmod
                     $lastmodNodes = $xpath->query('s:lastmod | lastmod', $urlNode);
@@ -276,7 +282,7 @@ class SitemapService
                 } else {
                     // Create new <url> entry
                     $urlNode = $dom->createElement('url');
-                    
+
                     $locElem = $dom->createElement('loc', htmlspecialchars($urlWithSlash, ENT_XML1, 'UTF-8'));
                     $urlNode->appendChild($locElem);
 
@@ -290,6 +296,7 @@ class SitemapService
                     $urlNode->appendChild($priorityElem);
 
                     $root->appendChild($urlNode);
+                    $existingMap[$urlWithSlash] = $urlNode;
                 }
             }
 
@@ -462,15 +469,49 @@ class SitemapService
         try {
             $slugs = ['']; // Home page
 
-            // Dynamic pages from DB
-            $pageModel = new Page();
-            $pages = $pageModel->findAll();
-            foreach ($pages as $p) {
-                if (!empty($p['slug'])) {
-                    $slugs[] = $p['slug'];
+            // 1. Gather all SEO URLs for pages
+            try {
+                $seoModel = new \App\Models\Seo();
+                $seoUrls = $seoModel->query("SELECT page_url FROM seo");
+                foreach ($seoUrls as $row) {
+                    $u = trim($row['page_url'] ?? '');
+                    if (!empty($u) && !preg_match('#^/?blogs?(/|$)#i', $u)) {
+                        $slugs[] = $u;
+                    }
                 }
-            }
+            } catch (\Throwable $e) {}
 
+            // 2. Dynamic pages from DB
+            try {
+                $pageModel = new Page();
+                $pages = $pageModel->findAll();
+                foreach ($pages as $p) {
+                    if (!empty($p['slug'])) {
+                        $slugs[] = $p['slug'];
+                    }
+                }
+            } catch (\Throwable $e) {}
+
+            // 3. Existing URLs in the current pages sitemap
+            try {
+                $currentXml = self::getSitemapContent('pages');
+                $dom = new DOMDocument();
+                libxml_use_internal_errors(true);
+                if ($dom->loadXML($currentXml)) {
+                    $xpath = new DOMXPath($dom);
+                    $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+                    $nodes = $xpath->query('//s:loc | //loc');
+                    foreach ($nodes as $node) {
+                        $val = trim($node->nodeValue ?? '');
+                        if (!empty($val) && !preg_match('#/(blogs?)(/|$)#i', $val)) {
+                            $slugs[] = $val;
+                        }
+                    }
+                }
+                libxml_clear_errors();
+            } catch (\Throwable $e) {}
+
+            $slugs = array_values(array_unique($slugs));
             self::addPages($slugs, 'pages');
             return count($slugs);
         } catch (\Throwable $e) {
@@ -487,16 +528,52 @@ class SitemapService
     public static function syncBlogsSitemap(): int
     {
         try {
-            $blogModel = new Blog();
-            $blogs = $blogModel->findAll();
             $slugs = ['blog/']; // Blog index page
 
-            foreach ($blogs as $b) {
-                if (!empty($b['slug'])) {
-                    $slugs[] = 'blog/' . ltrim($b['slug'], '/');
+            // 1. All blogs from database
+            try {
+                $blogModel = new Blog();
+                $blogs = $blogModel->findAll();
+                foreach ($blogs as $b) {
+                    if (!empty($b['slug'])) {
+                        $slugs[] = 'blog/' . ltrim($b['slug'], '/');
+                    }
                 }
-            }
+            } catch (\Throwable $e) {}
 
+            // 2. All blog SEO records
+            try {
+                $seoModel = new \App\Models\Seo();
+                $seoUrls = $seoModel->query("SELECT page_url FROM seo WHERE page_url LIKE '/blog%' OR page_url LIKE '/blogs%'");
+                foreach ($seoUrls as $row) {
+                    $u = trim($row['page_url'] ?? '');
+                    $clean = trim($u, '/');
+                    if (preg_match('#^blogs?/(.+)$#i', $clean, $m)) {
+                        $slugs[] = 'blog/' . $m[1];
+                    }
+                }
+            } catch (\Throwable $e) {}
+
+            // 3. Existing URLs in the current blogs sitemap
+            try {
+                $currentXml = self::getSitemapContent('blogs');
+                $dom = new DOMDocument();
+                libxml_use_internal_errors(true);
+                if ($dom->loadXML($currentXml)) {
+                    $xpath = new DOMXPath($dom);
+                    $xpath->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+                    $nodes = $xpath->query('//s:loc | //loc');
+                    foreach ($nodes as $node) {
+                        $val = trim($node->nodeValue ?? '');
+                        if (!empty($val)) {
+                            $slugs[] = $val;
+                        }
+                    }
+                }
+                libxml_clear_errors();
+            } catch (\Throwable $e) {}
+
+            $slugs = array_values(array_unique($slugs));
             self::addPages($slugs, 'blogs');
             return count($slugs);
         } catch (\Throwable $e) {
