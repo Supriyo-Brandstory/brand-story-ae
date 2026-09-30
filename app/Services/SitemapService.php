@@ -11,7 +11,7 @@ use DOMXPath;
 class SitemapService
 {
     /**
-     * Format URL to ensure valid protocol, consistent domain, and trailing slash.
+     * Format URL to ensure valid protocol, consistent domain, canonical /blogs/ prefix, and trailing slash.
      */
     public static function formatUrl(string $slugOrUrl): string
     {
@@ -23,6 +23,14 @@ class SitemapService
 
         $path = parse_url($slugOrUrl, PHP_URL_PATH) ?? '';
         $cleanPath = trim($path, '/');
+
+        // Standardize any singular blog/ to blogs/
+        if (preg_match('#^blog/(.+)$#i', $cleanPath, $m)) {
+            $cleanPath = 'blogs/' . $m[1];
+        } elseif (strtolower($cleanPath) === 'blog') {
+            $cleanPath = 'blogs';
+        }
+
         $url = function_exists('base_url') ? base_url($cleanPath) : '/' . $cleanPath;
 
         // Only append trailing slash if it is not a file extension like .xml, .pdf, .jpg
@@ -116,7 +124,7 @@ class SitemapService
     }
 
     /**
-     * Generate Main Sitemap Index XML connecting page-sitemap.xml and blog-sitemap.xml.
+     * Generate Main Sitemap Index XML connecting page-sitemap.xml and post-sitemap.xml.
      */
     public static function generateIndexXml(): string
     {
@@ -130,7 +138,7 @@ class SitemapService
             $blogsLastMod = !empty($blogsRecord['updated_at']) ? date('Y-m-d', strtotime($blogsRecord['updated_at'])) : $today;
 
             $pagesUrl = function_exists('base_url') ? base_url('page-sitemap.xml') : '/page-sitemap.xml';
-            $blogsUrl = function_exists('base_url') ? base_url('blog-sitemap.xml') : '/blog-sitemap.xml';
+            $postsUrl = function_exists('base_url') ? base_url('post-sitemap.xml') : '/post-sitemap.xml';
 
             $dom = new DOMDocument('1.0', 'UTF-8');
             $dom->preserveWhiteSpace = false;
@@ -147,21 +155,21 @@ class SitemapService
             $sitemapPage->appendChild($lastmodPage);
             $root->appendChild($sitemapPage);
 
-            // 2. Blog Sitemap Entry
-            $sitemapBlog = $dom->createElement('sitemap');
-            $locBlog = $dom->createElement('loc', htmlspecialchars($blogsUrl, ENT_XML1, 'UTF-8'));
-            $lastmodBlog = $dom->createElement('lastmod', $blogsLastMod);
-            $sitemapBlog->appendChild($locBlog);
-            $sitemapBlog->appendChild($lastmodBlog);
-            $root->appendChild($sitemapBlog);
+            // 2. Post Sitemap Entry (blogs)
+            $sitemapPost = $dom->createElement('sitemap');
+            $locPost = $dom->createElement('loc', htmlspecialchars($postsUrl, ENT_XML1, 'UTF-8'));
+            $lastmodPost = $dom->createElement('lastmod', $blogsLastMod);
+            $sitemapPost->appendChild($locPost);
+            $sitemapPost->appendChild($lastmodPost);
+            $root->appendChild($sitemapPost);
 
             return $dom->saveXML();
         } catch (\Throwable $e) {
             error_log('SitemapService::generateIndexXml error: ' . $e->getMessage());
             $pagesUrl = function_exists('base_url') ? base_url('page-sitemap.xml') : '/page-sitemap.xml';
-            $blogsUrl = function_exists('base_url') ? base_url('blog-sitemap.xml') : '/blog-sitemap.xml';
+            $postsUrl = function_exists('base_url') ? base_url('post-sitemap.xml') : '/post-sitemap.xml';
             $today = date('Y-m-d');
-            return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>{$pagesUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>{$blogsUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n</sitemapindex>\n";
+            return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>{$pagesUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>{$postsUrl}</loc>\n    <lastmod>{$today}</lastmod>\n  </sitemap>\n</sitemapindex>\n";
         }
     }
 
@@ -521,14 +529,14 @@ class SitemapService
     }
 
     /**
-     * Sync all blog posts into the blogs sitemap XML.
+     * Sync all blog posts into the post sitemap XML using canonical /blogs/ URLs.
      *
      * @return int Number of blog URLs synced
      */
     public static function syncBlogsSitemap(): int
     {
         try {
-            $slugs = ['blog/']; // Blog index page
+            $slugs = ['blogs/']; // Canonical blog index page
 
             // 1. All blogs from database
             try {
@@ -536,7 +544,7 @@ class SitemapService
                 $blogs = $blogModel->findAll();
                 foreach ($blogs as $b) {
                     if (!empty($b['slug'])) {
-                        $slugs[] = 'blog/' . ltrim($b['slug'], '/');
+                        $slugs[] = 'blogs/' . ltrim($b['slug'], '/');
                     }
                 }
             } catch (\Throwable $e) {}
@@ -549,12 +557,12 @@ class SitemapService
                     $u = trim($row['page_url'] ?? '');
                     $clean = trim($u, '/');
                     if (preg_match('#^blogs?/(.+)$#i', $clean, $m)) {
-                        $slugs[] = 'blog/' . $m[1];
+                        $slugs[] = 'blogs/' . $m[1];
                     }
                 }
             } catch (\Throwable $e) {}
 
-            // 3. Existing URLs in the current blogs sitemap
+            // 3. Existing URLs in the current blogs sitemap (converted to canonical /blogs/)
             try {
                 $currentXml = self::getSitemapContent('blogs');
                 $dom = new DOMDocument();
@@ -566,7 +574,7 @@ class SitemapService
                     foreach ($nodes as $node) {
                         $val = trim($node->nodeValue ?? '');
                         if (!empty($val)) {
-                            $slugs[] = $val;
+                            $slugs[] = self::formatUrl($val);
                         }
                     }
                 }

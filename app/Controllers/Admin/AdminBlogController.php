@@ -111,7 +111,7 @@ class AdminBlogController extends AdminBaseController
 
         // Auto Sync SEO & Sitemap
         $this->syncBlogSeo($slug, $title, $description);
-        SitemapService::addPages(['blog/' . ltrim($slug, '/')]);
+        SitemapService::addPages(['blogs/' . ltrim($slug, '/')]);
 
         $_SESSION['success'] = 'Blog post created successfully.';
         header('Location: ' . route('admin.blogs_admin.index'));
@@ -205,9 +205,9 @@ class AdminBlogController extends AdminBaseController
         $this->blogModel->save($data);
 
         if (!empty($blog['slug']) && $blog['slug'] !== $slug) {
-            SitemapService::removePages(['blog/' . ltrim($blog['slug'], '/')]);
+            SitemapService::removePages(['blogs/' . ltrim($blog['slug'], '/'), 'blog/' . ltrim($blog['slug'], '/')]);
         }
-        SitemapService::addPages(['blog/' . ltrim($slug, '/')]);
+        SitemapService::addPages(['blogs/' . ltrim($slug, '/')]);
 
         // Auto sync SEO
         $this->syncBlogSeo($slug, $title, $description);
@@ -239,7 +239,7 @@ class AdminBlogController extends AdminBaseController
         $this->blogModel->delete($id);
 
         if (!empty($blog['slug'])) {
-            SitemapService::removePages(['blog/' . ltrim($blog['slug'], '/')]);
+            SitemapService::removePages(['blogs/' . ltrim($blog['slug'], '/'), 'blog/' . ltrim($blog['slug'], '/')]);
             // Remove SEO record if exists
             $this->seoModel->query("DELETE FROM seo WHERE page_url = ? OR page_url = ?", ['/blogs/' . $blog['slug'], '/blog/' . $blog['slug']]);
         }
@@ -553,7 +553,7 @@ class AdminBlogController extends AdminBaseController
 
             // Sitemap collection
             if ($syncSitemap) {
-                $sitemapSlugs[] = 'blog/' . ltrim($finalSlug, '/');
+                $sitemapSlugs[] = 'blogs/' . ltrim($finalSlug, '/');
             }
         }
 
@@ -869,7 +869,7 @@ class AdminBlogController extends AdminBaseController
 
                 // Sitemap
                 if ($syncSitemap) {
-                    $sitemapSlugs[] = 'blog/' . ltrim($finalSlug, '/');
+                    $sitemapSlugs[] = 'blogs/' . ltrim($finalSlug, '/');
                 }
             }
 

@@ -24,12 +24,12 @@
                 <i class="bi bi-diagram-3-fill text-primary me-2"></i> XML Sitemap Management
             </h1>
             <p class="text-muted small mb-0">
-                Split architecture: <strong>Pages Sitemap</strong> &amp; <strong>Blog Sitemap</strong> unified under one <strong>Main Sitemap Index</strong>.
+                Split architecture: <strong>Pages Sitemap</strong> &amp; <strong>Post Sitemap</strong> unified under one <strong>Main Sitemap Index</strong>.
             </p>
         </div>
         <div class="d-flex flex-wrap gap-2">
             <div class="btn-group">
-                <form action="<?= route('admin.sitemap.sync') ?>" method="POST" onsubmit="return confirm('Sync both Pages and Blogs sitemaps from the database?');" class="d-inline">
+                <form action="<?= route('admin.sitemap.sync') ?>" method="POST" onsubmit="return confirm('Sync both Pages and Posts sitemaps from the database?');" class="d-inline">
                     <?= csrf_token() ?>
                     <button type="submit" class="btn btn-outline-success">
                         <i class="bi bi-arrow-repeat me-1"></i> Sync All Sitemaps
@@ -85,10 +85,10 @@
                 <div class="card-body p-3">
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <span class="text-muted small fw-semibold text-uppercase">Blog Sitemap</span>
+                            <span class="text-muted small fw-semibold text-uppercase">Post Sitemap</span>
                             <h5 class="mb-0 text-dark mt-1"><?= number_format($blogsCount) ?> URLs</h5>
-                            <a href="<?= base_url('/blog-sitemap.xml') ?>" target="_blank" class="small text-info text-decoration-none">
-                                <code>/blog-sitemap.xml</code> <i class="bi bi-arrow-up-right-square"></i>
+                            <a href="<?= base_url('/post-sitemap.xml') ?>" target="_blank" class="small text-info text-decoration-none">
+                                <code>/post-sitemap.xml</code> <i class="bi bi-arrow-up-right-square"></i>
                             </a>
                         </div>
                         <div class="badge bg-info bg-opacity-10 text-info p-3 rounded-circle fs-4">
@@ -110,7 +110,7 @@
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link py-3 fw-semibold <?= $activeTab === 'blogs' ? 'active' : '' ?>" id="blogs-tab" data-bs-toggle="tab" data-bs-target="#blogs-content" type="button" role="tab" aria-controls="blogs-content" aria-selected="<?= $activeTab === 'blogs' ? 'true' : 'false' ?>">
-                <i class="bi bi-journal-code text-info me-2"></i> Blog Sitemap 
+                <i class="bi bi-journal-code text-info me-2"></i> Post Sitemap 
                 <span class="badge bg-info bg-opacity-10 text-info ms-2"><?= $blogsCount ?> URLs</span>
             </button>
         </li>
@@ -171,27 +171,27 @@
             </div>
         </div>
 
-        <!-- TAB 2: Blog Sitemap -->
+        <!-- TAB 2: Post Sitemap -->
         <div class="tab-pane fade <?= $activeTab === 'blogs' ? 'show active' : '' ?>" id="blogs-content" role="tabpanel" aria-labelledby="blogs-tab">
             <div class="card shadow-sm border-0">
                 <div class="card-header bg-white py-3 d-flex flex-wrap justify-content-between align-items-center gap-2">
                     <div>
                         <h5 class="mb-0 text-dark">
-                            <i class="bi bi-journal-text text-info me-1"></i> Blog Sitemap Content
+                            <i class="bi bi-journal-text text-info me-1"></i> Post Sitemap Content
                         </h5>
-                        <small class="text-muted">Served live at <a href="<?= base_url('/blog-sitemap.xml') ?>" target="_blank" class="text-primary fw-medium"><code>/blog-sitemap.xml</code></a></small>
+                        <small class="text-muted">Served live at <a href="<?= base_url('/post-sitemap.xml') ?>" target="_blank" class="text-primary fw-medium"><code>/post-sitemap.xml</code></a></small>
                     </div>
                     <div class="d-flex gap-2">
-                        <form action="<?= route('admin.sitemap.sync_blogs') ?>" method="POST" onsubmit="return confirm('Sync all database blog posts into the Blog Sitemap?');" class="d-inline">
+                        <form action="<?= route('admin.sitemap.sync_blogs') ?>" method="POST" onsubmit="return confirm('Sync all database blog posts into the Post Sitemap?');" class="d-inline">
                             <?= csrf_token() ?>
                             <button type="submit" class="btn btn-sm btn-outline-info">
-                                <i class="bi bi-arrow-repeat me-1"></i> Sync Blogs
+                                <i class="bi bi-arrow-repeat me-1"></i> Sync Posts
                             </button>
                         </form>
                         <button type="button" class="btn btn-sm btn-outline-secondary btnFormatXml" data-target="blogsTextarea">
                             <i class="bi bi-code-square me-1"></i> Format XML
                         </button>
-                        <a href="<?= base_url('/blog-sitemap.xml') ?>" target="_blank" class="btn btn-sm btn-outline-primary">
+                        <a href="<?= base_url('/post-sitemap.xml') ?>" target="_blank" class="btn btn-sm btn-outline-primary">
                             <i class="bi bi-box-arrow-up-right me-1"></i> View Live
                         </a>
                     </div>
@@ -207,10 +207,10 @@
 
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="text-muted small">
-                                <i class="bi bi-info-circle me-1"></i> All blog post URLs are formatted as <code>https://brandstory.ae/blog/{slug}/</code>.
+                                <i class="bi bi-info-circle me-1"></i> All blog post URLs are formatted with canonical <code>https://brandstory.ae/blogs/{slug}/</code>.
                             </span>
                             <button type="submit" class="btn btn-info text-white px-4">
-                                <i class="bi bi-save me-1"></i> Save Blog Sitemap
+                                <i class="bi bi-save me-1"></i> Save Post Sitemap
                             </button>
                         </div>
                     </form>
