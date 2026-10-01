@@ -23,24 +23,25 @@ if ($seoData) {
 
     <!-- Preload LCP Image - Moved to Top to eliminate Resource Load Delay -->
     <?php
-    $current_url = $_SERVER['REQUEST_URI'];
+    $current_url = $_SERVER['REQUEST_URI'] ?? '/';
+    $clean_path = trim(parse_url($current_url, PHP_URL_PATH) ?? '', '/');
     $lcp_image = '';
     $lcp_mobile = '';
 
-    // if ($current_url == '/' || $current_url == '/index.php') {
-    //     $lcp_image = '/assets/images/banners/nn-banner-2.webp';
-    //     $lcp_mobile = '/assets/images/banners/mm-nn-banner-2.webp';
-    // } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
-    //     $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
-    // } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
-    //     $lcp_image = '/assets/images/social-media/social-media-1.gif';
-    // } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
-    //     $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
-    //     $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
-    // } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
-    //     $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
-    //     $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
-    // }
+    if ($clean_path === '' || $clean_path === 'index.php') {
+        $lcp_image = base_url('assets/images/email/banner02.webp');
+        $lcp_mobile = base_url('assets/images/email/banner02.webp');
+    } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
+    } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/social-media/social-media-1.gif';
+    } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
+        $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
+    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
+        $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
+    }
 
     if ($lcp_image): ?>
         <link rel="preload" as="image" href="<?= $lcp_image ?>" fetchpriority="high" media="(min-width: 768px)">
@@ -48,7 +49,6 @@ if ($seoData) {
     if ($lcp_mobile): ?>
         <link rel="preload" as="image" href="<?= $lcp_mobile ?>" fetchpriority="high" media="(max-width: 767px)">
     <?php endif; ?>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
     <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
 
     <?php if (!empty($seoData['other_script_or_tag'])): ?>
@@ -101,26 +101,39 @@ if ($seoData) {
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
     <!-- Critical & Core CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.css?v=1.9') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/dev.css?v=1.6') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet">
+    <!-- Non-critical CSS loaded asynchronously -->
+    <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css"
         integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
 
-    <!-- Deferred Scripts for better INP -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6Ld7FY4fAAAAAJIzIpBe4GUTv7OaTldVzpFc9qJY" defer></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-932195052"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165140111-1"></script>
-
+    <!-- Deferred Scripts for fast initial mobile rendering & better INP -->
     <script>
+        var recapLoaded = false;
+        function loadRecaptcha() {
+            if (recapLoaded) return;
+            recapLoaded = true;
+            var script = document.createElement('script');
+            script.src = 'https://www.google.com/recaptcha/api.js?render=6Ld7FY4fAAAAAJIzIpBe4GUTv7OaTldVzpFc9qJY';
+            script.async = true;
+            script.onload = function() {
+                recap();
+                setInterval(recap, 2 * 60 * 1000);
+            };
+            document.head.appendChild(script);
+        }
+
         function recap() {
             if (typeof grecaptcha !== 'undefined') {
                 grecaptcha.ready(function() {
@@ -133,37 +146,39 @@ if ($seoData) {
                 });
             }
         }
-        // Initialize recaptcha after page load to improve INP
-        window.addEventListener('load', function() {
-            recap();
-            setInterval(function() {
-                recap();
-            }, 2 * 60 * 1000);
+
+        // Trigger reCAPTCHA on first user interaction or when hovering/focusing forms
+        ['touchstart', 'scroll', 'mousemove', 'keydown', 'click'].forEach(function(evt) {
+            window.addEventListener(evt, loadRecaptcha, { once: true, passive: true });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var formTriggers = document.querySelectorAll('input, textarea, select, .uniq-contact-lead-btn, .cnt-btn');
+            formTriggers.forEach(function(el) {
+                el.addEventListener('focus', loadRecaptcha, { once: true });
+                el.addEventListener('mouseenter', loadRecaptcha, { once: true });
+            });
+            // Fallback: load after 4.5 seconds if no interaction
+            setTimeout(loadRecaptcha, 4500);
         });
     </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 932195052 -->
+
+    <!-- Global site tag (gtag.js) & GTM with deferred execution -->
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'AW-932195052', {
-            'anonymize_ip': true
-        });
-        gtag('config', 'UA-165140111-1');
+        gtag('config', 'AW-932195052', { 'anonymize_ip': true });
         gtag('config', 'G-4PYR3E31JS');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>
-        window.addEventListener('load', function() {
+
+        function loadAnalytics() {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-932195052';
+            document.head.appendChild(s);
+
             (function(w, d, s, l, i) {
                 w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
                 var f = d.getElementsByTagName(s)[0],
                     j = d.createElement(s),
                     dl = l != 'dataLayer' ? '&l=' + l : '';
@@ -171,7 +186,13 @@ if ($seoData) {
                 j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
                 f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', 'GTM-PRDD8D7');
-        });
+        }
+
+        if (window.requestIdleCallback) {
+            requestIdleCallback(function() { setTimeout(loadAnalytics, 1200); });
+        } else {
+            window.addEventListener('load', function() { setTimeout(loadAnalytics, 1500); });
+        }
     </script>
 
 </head>
