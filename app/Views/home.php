@@ -199,7 +199,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                                width="600" height="338" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -227,7 +227,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" width="600" height="338" alt="TravelEX"
                                 class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
@@ -257,7 +257,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" width="600" height="338" alt="Crystal Plaza"
                                 class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" width="600" height="338" alt="NIMS School"
                                 class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                                width="600" height="338" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
