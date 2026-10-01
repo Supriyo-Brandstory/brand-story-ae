@@ -7,27 +7,27 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/team/our-team-1.webp" alt="our digital marketing team">
+                            <img class="w-100" src="/assets/images/team/our-team-1.webp" alt="our digital marketing team" width="900" height="600" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/team/our-team-2.webp" alt="our digital marketing team">
+                            <img class="w-100" src="/assets/images/team/our-team-2.webp" alt="our digital marketing team" width="900" height="600" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/team/our-team-3.webp" alt="our digital marketing team">
+                            <img class="w-100" src="/assets/images/team/our-team-3.webp" alt="our digital marketing team" width="900" height="600" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/team/our-team-4.webp" alt="our digital marketing team">
+                            <img class="w-100" src="/assets/images/team/our-team-4.webp" alt="our digital marketing team" width="900" height="600" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="cs-main position-relative">
-                            <img class="w-100" src="/assets/images/team/our-team-5.webp" alt="our digital marketing team">
+                            <img class="w-100" src="/assets/images/team/our-team-5.webp" alt="our digital marketing team" width="900" height="600" loading="lazy" decoding="async">
                         </div>
                     </div>
 

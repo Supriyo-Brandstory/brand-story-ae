@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -61,7 +61,7 @@
             
             <!-- Banner Image Wrapper -->
             <div class="premium-strategy-banner-wrap">
-                <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" width="4096" height="2730" alt="PPC Services in Dubai" class="premium-strategy-banner">
+                <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" width="4096" height="2730" loading="lazy" decoding="async" alt="PPC Services in Dubai" class="premium-strategy-banner">
                 <div class="premium-strategy-banner-overlay"></div>
             </div>
             
@@ -361,7 +361,7 @@
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="ppc-why-choose-img-card">
                     <img class="img-fluid ppc-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
-                        width="1104" height="1296"
+                        width="1104" height="1296" loading="lazy" decoding="async"
                         alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
@@ -564,7 +564,7 @@
                         </div>
                     </div>
                     <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service1.png" alt="Increased ROI">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service1.png" width="80" height="80" loading="lazy" decoding="async" alt="Increased ROI">
                         <p class="ppc-apart-desc">Our pay-per-click services in Dubai will help you to plan and control your finances to stay within a budget, thereby improving your ROI. We focus on smart bidding strategies to improve your ad campaigns.</p>
                     </div>
                 </div>
@@ -583,7 +583,7 @@
                         </div>
                     </div>
                     <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service2.png" alt="Copyrighted Ads">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service2.png" width="80" height="80" loading="lazy" decoding="async" alt="Copyrighted Ads">
                         <p class="ppc-apart-desc">With Ad copyright service, distinct customised ads can be designed for a greater scope of success and faster growth. Ad copies are designed strategically to connect with the targeted audience and inspire action.</p>
                     </div>
                 </div>
@@ -602,7 +602,7 @@
                         </div>
                     </div>
                     <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" alt="Campaign Management Reports">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service3.png" width="80" height="80" loading="lazy" decoding="async" alt="Campaign Management Reports">
                         <p class="ppc-apart-desc">Effective PPC advertising goes beyond just setting up ads, it requires consistent monitoring, analysis, and fine-tuning. Our team ensures your ads are optimized for maximum clicks, conversions, CTR, and ROAS.</p>
                     </div>
                 </div>
@@ -621,7 +621,7 @@
                         </div>
                     </div>
                     <div class="ppc-apart-card-body">
-                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" alt="Best Paid Traffic">
+                        <img class="ppc-apart-img" src="/assets/images/service/ppc/ppc-dubai-service4.png" width="80" height="80" loading="lazy" decoding="async" alt="Best Paid Traffic">
                         <p class="ppc-apart-desc">We ensure that our ad campaign plans divert only the best of the paid traffic to your website. Each click made from PPC ads is backed by data-driven insights and brings you closer to your valuable audience.</p>
                     </div>
                 </div>
@@ -640,7 +640,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-05.webp") ?>" class="choose-card-img img-fluid" alt="Do They Have UAE - Specific Experience?">
+            <img src="<?= base_url("assets/images/fb-image-05.webp") ?>" width="400" height="250" loading="lazy" decoding="async" class="choose-card-img img-fluid" alt="Do They Have UAE - Specific Experience?">
           </div>
           <h3 class="choose-card-title">Experience</h3>
           <p class="choose-card-desc">Our PPC agency in Dubai MENA has several years of experience in the online marketing space. We have records of successful google ad campaign launches that had increased sales for companies.</p>
@@ -650,7 +650,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Will You Own Your Ad Account?">
+            <img src="<?= base_url("assets/images/fb-image-06.webp") ?>" width="400" height="250" loading="lazy" decoding="async" class="choose-card-img img-fluid" alt="Will You Own Your Ad Account?">
           </div>
           <h3 class="choose-card-title">Integrated approach</h3>
           <p class="choose-card-desc">Our ppc advertising company in Dubai will understand that successful campaigns are backed by unparalleled user experience. Our PPC consultants in Dubai design digital strategy that works towards achieving this end.</p>
@@ -660,7 +660,7 @@
       <div class="col-lg-4 col-md-6 mx-auto">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-07.webp") ?>" class="choose-card-img img-fluid" alt="Is Creative Produced In - House?">
+            <img src="<?= base_url("assets/images/fb-image-07.webp") ?>" width="400" height="250" loading="lazy" decoding="async" class="choose-card-img img-fluid" alt="Is Creative Produced In - House?">
           </div>
           <h3 class="choose-card-title">Robust and adaptable</h3>
           <p class="choose-card-desc">Keeping in mind the ever-changing customer expectations, our campaigns from PPC agencies in Dubai united arab emirated are designed to be robust enough to understand and gauge the complex customer journey.</p>
@@ -682,50 +682,50 @@
         <div class="tools-list-wrapper">
             <div class="tools-list">
                 <div class="tool-card" data-tool="gds">
-                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GDS" />
                     <span>Google Data Studio</span>
                 </div>
                 <div class="tool-card" data-tool="ga">
-                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GA" />
                     <span>Google Analytics</span>
                 </div>
                 <div class="tool-card" data-tool="hubspot">
-                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hubspot" />
                     <span>HubSpot</span>
                 </div>
                 <div class="tool-card" data-tool="semrush">
-                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Semrush" />
                     <span>SemRush</span>
                 </div>
                 <div class="tool-card" data-tool="surfer">
-                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="surfer" />
                     <span>Surfer SEO</span>
                 </div>
                 <div class="tool-card" data-tool="mailchimp">
-                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="mailchimp " />
                     <span>Mailchimp</span>
                 </div>
                 <div class="tool-card" data-tool="adroll">
-                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="adroll" />
                     <span>AdRoll</span>
                 </div>
                 <div class="tool-card" data-tool="google-ads">
-                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-ads" />
                     <span>Google Ads</span>
                 </div>
 
                 <div class="tool-card" data-tool="meta-ads-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>"
+                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async"
                         alt="Meta Ads Manager" />
                     <span>Meta Ads Manager</span>
                 </div>
                 <div class="tool-card" data-tool="google-tag-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>"
+                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async"
                         alt="google-tag-manager" />
                     <span>Google Tag Manager</span>
                 </div>
                 <div class="tool-card" data-tool="hootsuite">
-                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hootsuite" />
                     <span>Hootsuite</span>
                 </div>
 
@@ -917,7 +917,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -941,7 +941,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="TravelEX" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -965,7 +965,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -989,7 +989,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="NIMS School" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1013,7 +1013,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1037,7 +1037,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" alt="NanoPrecise Sci Corp" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" width="600" height="400" loading="lazy" decoding="async" alt="NanoPrecise Sci Corp" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1098,12 +1098,12 @@ include __DIR__ . '/../component/client_reviews.php';
                     <div class="partner-badge">
                         <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
                             style="display: flex;">
-                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner"
+                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" width="150" height="45" loading="lazy" decoding="async" alt="Google Partner"
                                 class="partner-logo">
                         </a>
                     </div>
                     <div class="partner-badge">
-                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Meta Business Partner"
+                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" width="150" height="45" loading="lazy" decoding="async" alt="Meta Business Partner"
                             class="partner-logo">
                     </div>
                 </div>

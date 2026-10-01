@@ -1,7 +1,5 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
-
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
-<link rel="stylesheet" href="<?= base_url('assets/css/branding-agency-dubai-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/branding-agency-dubai-2.css?v=1.1') ?>">
 
 
 
@@ -427,7 +425,7 @@
             <div class="col-lg-6 mt-4 mt-lg-0 text-center">
                 <div class="pm-results-image-wrap">
                     <img src="<?= base_url('assets/images/email-02.webp') ?>" class="img-fluid"
-                        alt="Top-rated Email Marketing Company Dubai">
+                        alt="Top-rated Email Marketing Company Dubai" width="550" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1123,7 +1121,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-1.webp') ?>"
-                                    class="email-card-img" alt="Corporate Newsletter Design">
+                                    class="email-card-img" alt="Corporate Newsletter Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1138,7 +1136,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-2.webp') ?>"
-                                    class="email-card-img" alt="Fashion Promotion Design">
+                                    class="email-card-img" alt="Fashion Promotion Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1153,7 +1151,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-3.webp') ?>"
-                                    class="email-card-img" alt="Charity Outreach Design">
+                                    class="email-card-img" alt="Charity Outreach Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1168,7 +1166,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-4.webp') ?>"
-                                    class="email-card-img" alt="Harvest Kitchen Design">
+                                    class="email-card-img" alt="Harvest Kitchen Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1183,7 +1181,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-5.webp') ?>"
-                                    class="email-card-img" alt="Business Event Feedback Design">
+                                    class="email-card-img" alt="Business Event Feedback Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1198,7 +1196,7 @@
                             </div>
                             <div class="email-card-img-wrapper">
                                 <img src="<?= base_url('assets/images/emiltemplate/email-template-6.webp') ?>"
-                                    class="email-card-img" alt="Noonlab Event Invitation Design">
+                                    class="email-card-img" alt="Noonlab Event Invitation Design" width="400" height="500" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -1257,7 +1255,7 @@
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="ppc-why-choose-img-card">
                     <img class="img-fluid ppc-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
-                        width="1104" height="1296"
+                        width="1104" height="1296" loading="lazy" decoding="async"
                         alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
@@ -1599,7 +1597,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="600" height="400" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1628,7 +1626,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="400" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1658,7 +1656,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="400" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1688,7 +1686,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="400" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1718,7 +1716,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="600" height="400" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1760,7 +1758,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="premium-stats-banner-img-wrap">
                     <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid"
-                        alt="BrandStory Success Stats">
+                        alt="BrandStory Success Stats" width="500" height="450" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: Statistics Content -->

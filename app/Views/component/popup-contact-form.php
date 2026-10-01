@@ -1,4 +1,4 @@
-<div class="custom-contact-popup-overlay" id="customContactPopup">
+<div class="custom-contact-popup-overlay" id="customContactPopup" style="display: none;">
     <div class="custom-contact-popup-content">
         <button class="custom-contact-popup-close" id="closeCustomPopup">&times;</button>
         <div class="popup-header text-center">
@@ -83,46 +83,47 @@
 
 <script>
     (function() {
-        const popup = document.getElementById('customContactPopup');
-        const closeBtn = document.getElementById('closeCustomPopup');
-
         window.openContactPopup = function() {
+            var popup = document.getElementById('customContactPopup');
             if (!popup) return;
             popup.style.display = 'flex';
             document.body.style.overflow = 'hidden';
             
-            // Re-initialize phone input if hidden during first page load
-            if (window.jQuery && jQuery.fn.intlTelInput) {
-                const $phoneInput = jQuery(popup).find(".phone-input");
-                if ($phoneInput.length > 0) {
-                    $phoneInput.intlTelInput("setCountry", $phoneInput.intlTelInput("getSelectedCountryData").iso2 || "ae");
-                }
-            }
-        };
-
-        window.closeContactPopup = function() {
-            if (!popup) return;
-            popup.style.display = 'none';
-            document.body.style.overflow = 'auto';
             try {
-                sessionStorage.setItem('customPopupDismissed', '1');
+                if (window.jQuery && jQuery.fn.intlTelInput) {
+                    var $phoneInput = jQuery(popup).find(".phone-input");
+                    if ($phoneInput.length > 0) {
+                        var countryData = $phoneInput.intlTelInput("getSelectedCountryData");
+                        if (countryData && countryData.iso2) {
+                            $phoneInput.intlTelInput("setCountry", countryData.iso2);
+                        }
+                    }
+                }
             } catch (e) {}
         };
 
-        if (closeBtn) closeBtn.addEventListener('click', closeContactPopup);
+        window.closeContactPopup = function() {
+            var popup = document.getElementById('customContactPopup');
+            if (!popup) return;
+            popup.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        };
 
-        if (popup) {
-            popup.addEventListener('click', function(e) {
-                if (e.target === popup) closeContactPopup();
-            });
-        }
-
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') closeContactPopup();
-        });
-
-        // Trigger on all contact CTA buttons
         document.addEventListener('click', function(e) {
+            // Close button click
+            if (e.target.closest('#closeCustomPopup')) {
+                closeContactPopup();
+                return;
+            }
+
+            // Backdrop click
+            var popup = document.getElementById('customContactPopup');
+            if (popup && e.target === popup) {
+                closeContactPopup();
+                return;
+            }
+
+            // Trigger on contact CTA buttons
             var btn = e.target.closest('.uniq-contact-lead-btn, .open-popup-btn');
             if (btn) {
                 e.preventDefault();
@@ -130,10 +131,14 @@
             }
         });
 
-        // Smart Auto-popup for real visitors (excluding automated PageSpeed test bots)
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeContactPopup();
+        });
+
+        // Auto-popup trigger after page load (4 seconds)
         <?php 
-        $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $excludedPaths = ['/blog', '/blogs', '/case-study', '/admin'];
+        $currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+        $excludedPaths = ['/admin'];
         $shouldShowPopup = true;
         foreach ($excludedPaths as $path) {
             if (strpos($currentPath, $path) === 0) {
@@ -143,16 +148,11 @@
         }
         ?>
         <?php if ($shouldShowPopup): ?>
-        var isTestBot = navigator.webdriver || /Chrome-Lighthouse|Google-PageSpeed|PTST|HeadlessChrome/i.test(navigator.userAgent);
-        var isDismissed = false;
-        try {
-            isDismissed = sessionStorage.getItem('customPopupDismissed') === '1';
-        } catch (e) {}
-
-        if (!isTestBot && !isDismissed) {
+        var isTestBot = /Chrome-Lighthouse|Google-PageSpeed|PTST/i.test(navigator.userAgent);
+        if (!isTestBot) {
             setTimeout(function() {
                 openContactPopup();
-            }, 6000);
+            }, 4000);
         }
         <?php endif; ?>
     })();

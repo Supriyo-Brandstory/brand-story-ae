@@ -42,15 +42,15 @@
             <!-- Card 1 -->
             <div class="col-12 col-md-6">
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" width="145" height="145" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" width="193" height="193" loading="lazy" decoding="async">
 
                     <h3>Win Together</h3>
                     <p>We believe success is a shared journey, we grow when our client business grows. We work with collaboration, trust, and a winning mindset. Our growth engineering masterminds deliver their best to maximize ROI from campaigns.</p>
                 </div>
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" width="145" height="145" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" width="193" height="193" loading="lazy" decoding="async">
 
                     <h3>Win with Purpose</h3>
                     <p>Each client has a different purpose and set of goals when they reach us for services. We employ experts to understand their brand vision, align our strategies, and deliver future-proof solutions that drive measurable success.</p>
@@ -62,8 +62,8 @@
 
                     <h3>Win Every Time</h3>
                     <p>We have the best growth engineering experts in the industry who are too big to fail. Whether it is website design, branding, search engine optimization, PPC, or social media marketing campaigns, we deliver results that exceed expectations.</p>
-                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3" width="300" height="200" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4" width="300" height="200" loading="lazy" decoding="async">
 
                 </div>
             </div>
@@ -119,22 +119,11 @@ include __DIR__ . '/component/client_reviews.php';
         <div class="new_about_us-endorsed">
             <h2>Endorsed by Trusted Platforms</h2>
             <div class="platform-logos">
-                <img src="<?= base_url('assets/images/about/clutch-3.png')?>" alt="Clutch" />
-                <img src="<?= base_url('assets/images/about/google.webp')?>" alt="Google" />
-                <img src="<?= base_url('assets/images/about/ambitionbox.png')?>" alt="AmbitionBox" />
-                <img src="<?= base_url('assets/images/about/justdial.png')?>" alt="Justdial" />
+                <img src="<?= base_url('assets/images/about/clutch-3.png')?>" alt="Clutch" width="100" height="30" loading="lazy" decoding="async" />
+                <img src="<?= base_url('assets/images/about/google.webp')?>" alt="Google" width="100" height="30" loading="lazy" decoding="async" />
+                <img src="<?= base_url('assets/images/about/ambitionbox.png')?>" alt="AmbitionBox" width="120" height="30" loading="lazy" decoding="async" />
+                <img src="<?= base_url('assets/images/about/justdial.png')?>" alt="Justdial" width="100" height="30" loading="lazy" decoding="async" />
             </div>
         </div>
     </div>
 </section>
-<style>
-    .new_about_us-banner-wrapper {
-        position: relative;
-        width: 100%;
-        min-height: 500px;
-        display: flex;
-        align-items: center;
-        background-color: #0b0b0f;
-        overflow: hidden;
-    }
-</style>

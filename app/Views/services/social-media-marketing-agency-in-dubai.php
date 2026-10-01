@@ -36,7 +36,7 @@
                  <h1 class="title w-lg-50 d-flex gap-3 align-item-center justify-content-center text-md-end">YOUR <span class="d-block d-md-none"> RESULTS</span></h1>
              </div>
              <div class="item center-flex">
-                 <img src="/assets/images/social-media/social-media-1.gif" alt="Social Media Marketing" class="banner-img">
+                 <img src="/assets/images/social-media/social-media-1.webp" alt="Social Media Marketing" class="banner-img" width="500" height="400" fetchpriority="high">
              </div>
              <div class="item right-item d-none d-md-flex text-left">
                  <h1 class="title">RESULTS</h1>
@@ -96,25 +96,25 @@
          <div class="brand_service_wrapper pt-lg-5 pt-3">
              <a href="/corporate-video-production-services-in-dubai/">
                  <div class="each_brands vd_prod">
-                     <img src="/assets/images/social-media-marketing-uae/ser-icon1.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon1.svg" class="img-fluid" alt="service-icon" width="40" height="40" loading="lazy" decoding="async">
                      <p class="ps-3">Video Production</p>
                  </div>
              </a>
              <a href="/">
                  <div class="each_brands branding">
-                     <img src="/assets/images/social-media-marketing-uae/ser-icon2.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon2.svg" class="img-fluid" alt="service-icon" width="40" height="40" loading="lazy" decoding="async">
                      <p class="ps-3">Branding</p>
                  </div>
              </a>
              <a href="/">
                  <div class="each_brands perf_mktng">
-                     <img src="/assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon3.svg" class="img-fluid" alt="service-icon" width="40" height="40" loading="lazy" decoding="async">
                      <p class="ps-3">Digital Marketing</p>
                  </div>
              </a>
              <a href="/content-marketing-agency-dubai/">
                  <div class="each_brands content_mktng">
-                     <img src="/assets/images/social-media-marketing-uae/ser-icon4.svg" class="img-fluid" alt="service-icon">
+                     <img src="/assets/images/social-media-marketing-uae/ser-icon4.svg" class="img-fluid" alt="service-icon" width="40" height="40" loading="lazy" decoding="async">
                      <p class="ps-3">Content Marketing</p>
                  </div>
              </a>
@@ -125,13 +125,13 @@
 
 
                  <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                     <img class="w-100 radius-20" src="<?= base_url('assets/images/social-media/unleashed_sec_img.png') ?>" alt="Soial media marketing services Dubai">
+                     <img class="w-100 radius-20" src="<?= base_url('assets/images/social-media/unleashed_sec_img.png') ?>" alt="Soial media marketing services Dubai" width="550" height="400" loading="lazy" decoding="async">
 
 
                  </div>
 
                  <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                     <img class="img-fluid radius-20" src="/assets/images/social-media-marketing-uae/unleashed_sec_img.png" alt="Soial media marketing services Dubai">
+                     <img class="img-fluid radius-20" src="/assets/images/social-media-marketing-uae/unleashed_sec_img.png" alt="Soial media marketing services Dubai" width="550" height="400" loading="lazy" decoding="async">
 
 
                  </div>
@@ -177,7 +177,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/Facebook-Marketing.webp" alt="Facebook marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/Facebook-Marketing.webp" alt="Facebook marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">Facebook Marketing</a>
@@ -196,7 +196,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/Instagram-Marketing.webp" alt="Instagram marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/Instagram-Marketing.webp" alt="Instagram marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">Instagram Marketing</a>
@@ -216,7 +216,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/WhatsApp-Marketing.webp" alt="WhatsApp marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/WhatsApp-Marketing.webp" alt="WhatsApp marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">WhatsApp Marketing </a>
@@ -235,7 +235,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/Quora-Marketing.webp" alt="Quora marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/Quora-Marketing.webp" alt="Quora marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">Quora Marketing</a>
@@ -254,7 +254,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/TikTok-Marketing.webp" alt="TikTok marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/TikTok-Marketing.webp" alt="TikTok marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">TikTok Marketing</a>
@@ -274,7 +274,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/Pinterest-Marketing.webp" alt="Pinterest marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/Pinterest-Marketing.webp" alt="Pinterest marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">Pinterest Marketing </a>
@@ -294,7 +294,7 @@
              <div class="dm-container">
                  <div class="dm-card">
                      <div class="dm-image">
-                         <img src="https://www.brandstory.ae/assets/images/about/X-Marketing.webp" alt="X (Twitter marketing services in Dubai - BrandStory" />
+                         <img src="/assets/images/about/X-Marketing.webp" alt="X (Twitter marketing services in Dubai - BrandStory" width="500" height="350" loading="lazy" decoding="async" />
                      </div>
                      <div class="dm-content">
                          <a href="/" class="heding">X (Twitter) Marketing </a>
@@ -571,7 +571,7 @@
 
              </div>
              <div class="col-lg-5 col-12 order-md-2 order-1">
-                 <img src="/assets/images/Benefits-of-Hiring-a-Social-Media.webp" class="img-fluid" alt="Social media marketing services in Dubai ">
+                 <img src="/assets/images/Benefits-of-Hiring-a-Social-Media.webp" class="img-fluid" alt="Social media marketing services in Dubai " width="500" height="400" loading="lazy" decoding="async">
              </div>
 
          </div>
@@ -595,24 +595,24 @@
          <!-- Row 1 (left to right) -->
          <div class="scroll-wrapper">
              <div class="scroll-row left-to-right">
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
 
                  <!-- duplicate for infinite loop -->
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
-                 <div class="neww-protfollio-box"><img loading="lazy" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-1.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-2.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-3.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-4.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-5.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/prtfolio-6.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/portfolio-14.webp" alt="Social Media Creative Design for Our Client"></div>
+                 <div class="neww-protfollio-box"><img loading="lazy" decoding="async" width="300" height="300" src="/assets/images/new-social/portfolio-15.webp" alt="Social Media Creative Design for Our Client"></div>
 
              </div>
          </div>
@@ -638,35 +638,35 @@
          <div class="row g-lg-4 g-3 pt-lg-5 pt-3">
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="/assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Tailored Social Media Strategies">
+                     <img src="/assets/images/new-social/y_choose_icon1.webp" class="img-fluid pb-2" alt="Tailored Social Media Strategies" width="60" height="60" loading="lazy" decoding="async">
                      <h4 class="fs-24 fw-700">Tailored Social Media Strategies</h4>
                      <p class="fs-20">We don't create any one-size-fits-all campaign. Our team plans customized social media strategies to target the right audience. </p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="/assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Expert Team">
+                     <img src="/assets/images/new-social/y_choose_icon2.webp" class="img-fluid pb-2" alt="Expert Team" width="60" height="60" loading="lazy" decoding="async">
                      <h4 class="fs-24 fw-700">Expert Team</h4>
                      <p class="fs-20">We are a team of strategists, designers, ad specialists, and managers who bring years of experience to the table, ensuring your brand shines bright. </p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="/assets/images/new-social/y_choose_icon3.webp" class="img-fluid pb-2" alt="Multi-Platform Mastery">
+                     <img src="/assets/images/new-social/y_choose_icon3.webp" class="img-fluid pb-2" alt="Multi-Platform Mastery" width="60" height="60" loading="lazy" decoding="async">
                      <h4 class="fs-24 fw-700">Multi-Platform Mastery</h4>
                      <p class="fs-20">Whether it’s Instagram, Facebook, LinkedIn, TikTok, or Twitter, we are familiar with each platform to maximize your reach and engagement.</p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="/assets/images/new-social/y_choose_icon4.webp" class="img-fluid pb-2" alt="Creative Content">
+                     <img src="/assets/images/new-social/y_choose_icon4.webp" class="img-fluid pb-2" alt="Creative Content" width="60" height="60" loading="lazy" decoding="async">
                      <h4 class="fs-24 fw-700">Creative Content</h4>
                      <p class="fs-20">We craft visual narratives that dont fill feeds, it describes your story in a better way to inspire and motivate action.</p>
                  </div>
              </div>
              <div class="col-lg-4 col-md-6 col-12">
                  <div class="each_why_choose_container">
-                     <img src="/assets/images/new-social/y_choose_icon5.webp" class="img-fluid pb-2" alt="Data-backed Strategy">
+                     <img src="/assets/images/new-social/y_choose_icon5.webp" class="img-fluid pb-2" alt="Data-backed Strategy" width="60" height="60" loading="lazy" decoding="async">
                      <h4 class="fs-24 fw-700">Data-backed Strategy</h4>
                      <p class="fs-20">We track, analyze, and optimize each campaign backed by data-driven insights. Our experts ensure that your investment drives real business results and growth.</p>
                  </div>

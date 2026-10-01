@@ -34,13 +34,20 @@ if ($seoData) {
     } elseif (strpos($current_url, 'seo-services-company-in-dubai') !== false) {
         $lcp_image = '/assets/images/seo-lp/dubai/our-capabilities.png';
     } elseif (strpos($current_url, 'social-media-marketing-agency-in-dubai') !== false) {
-        $lcp_image = '/assets/images/social-media/social-media-1.gif';
+        $lcp_image = '/assets/images/social-media/social-media-1.webp';
+        $lcp_mobile = '/assets/images/social-media/social-media-1.webp';
     } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
         $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
         $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
     } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
         $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
         $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
+    } elseif (strpos($current_url, 'about') !== false) {
+        $lcp_image = '/assets/images/banners/new-about-us-banner.webp';
+        $lcp_mobile = '/assets/images/banners/new-about-us-banner.webp';
+    } elseif (strpos($current_url, 'pay-per-click-ppc-services-in-dubai') !== false) {
+        $lcp_image = '/assets/images/pr-banner.webp';
+        $lcp_mobile = '/assets/images/pr-banner.webp';
     }
 
     if ($lcp_image): ?>
