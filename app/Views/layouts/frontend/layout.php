@@ -107,9 +107,9 @@ if ($seoData) {
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/style.css?v=1.9') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/skin.css?v=1.1') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/dev.css?v=1.6') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/style.min.css?v=2.0') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet">
     <!-- Non-critical CSS loaded asynchronously -->
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">

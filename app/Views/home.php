@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <section class="premium-hero-slider">
     <div class="premium-slider-container">
@@ -149,7 +149,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
                     <img src="<?= base_url('assets/images/digital-01.webp') ?>" width="1332" height="1302"
-                        alt="Digital Marketing Agency Dubai" class="img-fluid premium-perf-img">
+                        alt="Digital Marketing Agency Dubai" class="img-fluid premium-perf-img" loading="lazy" decoding="async" >
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -201,7 +201,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -230,7 +230,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -260,7 +260,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -290,7 +290,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -320,7 +320,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -719,7 +719,7 @@
             <!-- Banner Image Wrapper -->
             <div class="premium-strategy-banner-wrap">
                 <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" width="4096" height="2730"
-                    alt="Digital Marketing Strategy and Process" class="premium-strategy-banner">
+                    alt="Digital Marketing Strategy and Process" class="premium-strategy-banner" loading="lazy" decoding="async" >
                 <div class="premium-strategy-banner-overlay"></div>
             </div>
 
@@ -918,7 +918,7 @@
 
                 <div class="premium-roi-img-wrap">
                     <img src="<?= base_url('assets/images/digital-022.webp') ?>" width="1332" height="1088"
-                        alt="The True ROI of Digital Marketing" class="img-fluid premium-roi-img">
+                        alt="The True ROI of Digital Marketing" class="img-fluid premium-roi-img" loading="lazy" decoding="async" >
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -970,7 +970,7 @@
   <div class="home-dummy-showcase-grid">
    
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img" loading="lazy" decoding="async" >
       <div class="dummy-card-badge">Logo Design</div>
       <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -979,7 +979,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img" loading="lazy" decoding="async" >
       <div class="dummy-card-badge">Creative Branding</div>
       <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -988,7 +988,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img" loading="lazy" decoding="async" >
       <div class="dummy-card-badge">Creative Branding</div>
       <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -997,7 +997,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img" loading="lazy" decoding="async" >
       <div class="dummy-card-badge">Logo Design</div>
       <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -1290,50 +1290,50 @@
         <div class="tools-list-wrapper">
             <div class="tools-list">
                 <div class="tool-card" data-tool="gds">
-                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS"  loading="lazy" decoding="async" />
                     <span>Google Data Studio</span>
                 </div>
                 <div class="tool-card" data-tool="ga">
-                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA"  loading="lazy" decoding="async" />
                     <span>Google Analytics</span>
                 </div>
                 <div class="tool-card" data-tool="hubspot">
-                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot"  loading="lazy" decoding="async" />
                     <span>HubSpot</span>
                 </div>
                 <div class="tool-card" data-tool="semrush">
-                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush"  loading="lazy" decoding="async" />
                     <span>SemRush</span>
                 </div>
                 <div class="tool-card" data-tool="surfer">
-                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer"  loading="lazy" decoding="async" />
                     <span>Surfer SEO</span>
                 </div>
                 <div class="tool-card" data-tool="mailchimp">
-                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp "  loading="lazy" decoding="async" />
                     <span>Mailchimp</span>
                 </div>
                 <div class="tool-card" data-tool="adroll">
-                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll"  loading="lazy" decoding="async" />
                     <span>AdRoll</span>
                 </div>
                 <div class="tool-card" data-tool="google-ads">
-                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads"  loading="lazy" decoding="async" />
                     <span>Google Ads</span>
                 </div>
 
                 <div class="tool-card" data-tool="meta-ads-manager">
                     <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>"
-                        alt="Meta Ads Manager" />
+                        alt="Meta Ads Manager"  loading="lazy" decoding="async" />
                     <span>Meta Ads Manager</span>
                 </div>
                 <div class="tool-card" data-tool="google-tag-manager">
                     <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>"
-                        alt="google-tag-manager" />
+                        alt="google-tag-manager"  loading="lazy" decoding="async" />
                     <span>Google Tag Manager</span>
                 </div>
                 <div class="tool-card" data-tool="hootsuite">
-                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite"  loading="lazy" decoding="async" />
                     <span>Hootsuite</span>
                 </div>
 
@@ -1395,7 +1395,7 @@
         
         <!-- Large Office Image Banner -->
         <div class="premium-why-bottom-banner">
-            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async" >
         </div>
     </div>
 </section>
@@ -1404,22 +1404,22 @@
     <div class="container">
         <div class="premium-badges-grid">
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge"  style="max-width: 45%;">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge"  style="max-width: 45%;" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
             </div>
         </div>
     </div>
@@ -1497,7 +1497,7 @@
                 <div class="vertical-name-main">Google</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/google.svg') ?>" alt="Google Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1506,7 +1506,7 @@
 
                 <div class="vertical-name-main">Bing</div>
                 <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/being.svg') ?>" alt="Bing Logo" class="vertical-logo">
+                    <img src="<?= base_url('assets/images/icons/being.svg') ?>" alt="Bing Logo" class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1516,7 +1516,7 @@
                 <div class="vertical-name-main">Play Store</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/playstore.svg') ?>" alt="Play Store Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1526,7 +1526,7 @@
                 <div class="vertical-name-main">Facebook</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/facebook.svg') ?>" alt="Facebook Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1536,7 +1536,7 @@
                 <div class="vertical-name-main">Instagram</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/instagram.svg') ?>" alt="Instagram Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1546,7 +1546,7 @@
                 <div class="vertical-name-main">YouTube</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/youtube.svg') ?>" alt="YouTube Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
 
@@ -1568,7 +1568,7 @@
                 <div class="vertical-name-main">LinkedIn</div>
                 <div class="vertical-logo-card">
                     <img src="<?= base_url('assets/images/icons/linkdin.svg') ?>" alt="LinkedIn Logo"
-                        class="vertical-logo">
+                        class="vertical-logo" loading="lazy" decoding="async" >
                 </div>
             </div>
         </div>
@@ -1584,43 +1584,43 @@
                     <!-- Column 1: Upwards (di-01 to di-04) -->
                     <div class="scroll-column column-up">
                         <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1">
-                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2">
-                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3">
-                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4">
+                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
                             <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1">
-                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2">
-                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3">
-                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4">
+                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <!-- Column 2: Downwards (di-05 to di-08) -->
                     <div class="scroll-column column-down">
                         <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5">
-                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6">
-                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7">
-                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8">
+                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
                             <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5">
-                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6">
-                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7">
-                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8">
+                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
                         </div>
                     </div>
                     <!-- Column 3: Upwards (di-09 to di-12) -->
                     <div class="scroll-column column-up">
                         <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9">
-                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10">
-                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11">
-                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12">
+                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
                             <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9">
-                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10">
-                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11">
-                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12">
+                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
                         </div>
                     </div>
                 </div>
@@ -1718,12 +1718,12 @@ include __DIR__ . '/component/client_reviews.php';
                         <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
                             style="display: flex;">
                             <img src="<?= base_url('assets/images/home/partner1.svg') ?>" alt="Google Partner"
-                                class="partner-logo">
+                                class="partner-logo" loading="lazy" decoding="async" >
                         </a>
                     </div>
                     <div class="partner-badge">
                         <img src="<?= base_url('assets/images/home/partner2.svg') ?>" alt="Meta Business Partner"
-                            class="partner-logo">
+                            class="partner-logo" loading="lazy" decoding="async" >
                     </div>
                 </div>
             </div>
@@ -1746,15 +1746,15 @@ include __DIR__ . '/component/client_reviews.php';
     <div class="container">
         <div class="office-bar-row">
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon" loading="lazy" decoding="async" >
                 <a href="tel:+971522831655">+971 52 283 1655</a>
             </div>
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon" loading="lazy" decoding="async" >
                 <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
             </div>
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon" loading="lazy" decoding="async" >
                 <a target="_blank"
                     href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
                     Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>

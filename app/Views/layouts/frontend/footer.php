@@ -268,57 +268,91 @@ $stickyServices = $stickyServices ?? [
 <script src="<?= base_url('assets/js/site.js?v=1.3') ?>" defer></script>
 <script src="<?= base_url('assets/js/slider.js?v=1.3') ?>" defer></script>
 <script src="<?= base_url('assets/js/anim.js?v=1.1') ?>" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.js"
-  integrity="sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 <script type="text/javascript">
-  window.addEventListener('load', function() {
-    jQuery(document).ready(function($) {
-      $("input").keypress(function() {
-        $(this).removeClass('error');
-      });
+  (function() {
+    var itiScriptLoaded = false;
+    function loadAndInitIti() {
+      if (itiScriptLoaded) return;
+      itiScriptLoaded = true;
 
-      $(".phone-input").each(function() {
-        var $this = $(this);
-        $this.intlTelInput({
-          allowDropdown: true,
-          separateDialCode: true,
-          localizedCountries: null,
-          preferredCountries: ["ae", "in", "us", "gb", "sg"],
-        });
+      var script = document.createElement('script');
+      script.src = "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.js";
+      script.integrity = "sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA==";
+      script.crossOrigin = "anonymous";
+      script.referrerPolicy = "no-referrer";
+      script.onload = function() {
+        if (typeof jQuery !== 'undefined') {
+          jQuery(".phone-input").each(function() {
+            var $this = jQuery(this);
+            if ($this.data('iti-active')) return;
+            $this.data('iti-active', true);
 
-        // Accessibility fix for intl-tel-input
-        var $flag = $this.parent().find(".iti__selected-flag");
-        if ($flag.length) {
-          $flag.attr("aria-expanded", "false");
-          $flag.attr("aria-haspopup", "listbox");
-          $flag.attr("aria-label", "Select Country Code");
-          $flag.attr("role", "combobox");
+            $this.intlTelInput({
+              allowDropdown: true,
+              separateDialCode: true,
+              localizedCountries: null,
+              preferredCountries: ["ae", "in", "us", "gb", "sg"],
+            });
+
+            // Accessibility fix for intl-tel-input
+            var $flag = $this.parent().find(".iti__selected-flag");
+            if ($flag.length) {
+              $flag.attr("aria-expanded", "false");
+              $flag.attr("aria-haspopup", "listbox");
+              $flag.attr("aria-label", "Select Country Code");
+              $flag.attr("role", "combobox");
+            }
+
+            $this.parent().on("click", ".iti__selected-flag", function() {
+              var isExpanded = $(this).attr("aria-expanded") === "true";
+              $(this).attr("aria-expanded", !isExpanded);
+            });
+
+            $(document).on("click", function(e) {
+              if (!$(e.target).closest(".iti").length) {
+                $flag.attr("aria-expanded", "false");
+              }
+            });
+
+            var updateCountryData = function() {
+              var countryData = $this.intlTelInput("getSelectedCountryData");
+              var $form = $this.closest('form');
+              $form.find("input[name='country']").val(countryData.iso2);
+              $form.find("input[name='country_code']").val(countryData.dialCode);
+            };
+
+            $this.on("countrychange", updateCountryData);
+            updateCountryData();
+          });
         }
+      };
+      document.body.appendChild(script);
+    }
 
-        $this.parent().on("click", ".iti__selected-flag", function() {
-          var isExpanded = $(this).attr("aria-expanded") === "true";
-          $(this).attr("aria-expanded", !isExpanded);
-        });
-
-        $(document).on("click", function(e) {
-          if (!$(e.target).closest(".iti").length) {
-            $flag.attr("aria-expanded", "false");
-          }
-        });
-
-        var updateCountryData = function() {
-          var countryData = $this.intlTelInput("getSelectedCountryData");
-          var $form = $this.closest('form');
-          $form.find("input[name='country']").val(countryData.iso2);
-          $form.find("input[name='country_code']").val(countryData.dialCode);
-        };
-
-        $this.on("countrychange", updateCountryData);
-        updateCountryData(); // Initial load
-      });
+    // Lazy load ITI on user interaction or input focus
+    ['touchstart', 'scroll', 'mousemove', 'keydown', 'click'].forEach(function(evt) {
+      window.addEventListener(evt, loadAndInitIti, { once: true, passive: true });
     });
-  });
+    document.addEventListener('DOMContentLoaded', function() {
+      var inputs = document.querySelectorAll('.phone-input, .uniq-contact-lead-btn');
+      inputs.forEach(function(input) {
+        input.addEventListener('focus', loadAndInitIti, { once: true });
+        input.addEventListener('mouseenter', loadAndInitIti, { once: true });
+      });
+      // Fallback
+      setTimeout(loadAndInitIti, 4000);
+    });
+
+    window.addEventListener('load', function() {
+      if (typeof jQuery !== 'undefined') {
+        jQuery(document).ready(function($) {
+          $("input").keypress(function() {
+            $(this).removeClass('error');
+          });
+        });
+      }
+    });
+  })();
 </script>
 <script>
   const readMoreBtn = document.getElementById("readMoreBtn");
