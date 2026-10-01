@@ -135,7 +135,7 @@
             if (e.key === 'Escape') closeContactPopup();
         });
 
-        // Auto-popup trigger after page load (4 seconds)
+        // Scroll-triggered popup (appears after user scrolls down the page)
         <?php 
         $currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
         $excludedPaths = ['/admin'];
@@ -148,12 +148,18 @@
         }
         ?>
         <?php if ($shouldShowPopup): ?>
-        var isTestBot = /Chrome-Lighthouse|Google-PageSpeed|PTST/i.test(navigator.userAgent);
-        if (!isTestBot) {
-            setTimeout(function() {
+        var scrollTriggered = false;
+        function handleScrollPopup() {
+            if (scrollTriggered) return;
+            var scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+            // Trigger after scrolling down 400px
+            if (scrollY >= 400) {
+                scrollTriggered = true;
+                window.removeEventListener('scroll', handleScrollPopup);
                 openContactPopup();
-            }, 4000);
+            }
         }
+        window.addEventListener('scroll', handleScrollPopup, { passive: true });
         <?php endif; ?>
     })();
 </script>
