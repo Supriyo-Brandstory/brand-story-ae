@@ -1,8 +1,8 @@
 <section class="cs-banner">
     <img src="/assets/images/new-case-study/cse-study-background.webp" alt="Hero Background">
     <div class="container">
-        <h1 class="text-white mb-4 text-start text-md-center">Object 1 Case Study</h1>
-        <p class="text-white text-start text-md-center">Downtown Dubai is one of the most searched property markets in the world. Object 1 needed to stand out in it. BrandStory ran sharp PPC campaigns and built a strong SEO base to reach serious buyers and investors and turn their interest into real enquiries.</p>
+        <h1 class="text-white mb-4 text-start text-md-center">Real Estate Case Study</h1>
+        <p class="text-white text-start text-md-center">Downtown Dubai is one of the most searched property markets in the world. Object One needed to stand out in it. BrandStory ran sharp PPC campaigns and built a strong SEO base to reach serious buyers and investors and turn their interest into real enquiries.</p>
         <ul class="d-flex p-0 list-unstyled mb-0">
             <li class="fs-18 me-2 text-white">PPC Campaigns</li>
             <li class="fs-18 me-2 text-white">SEO & Lead Generation</li>
@@ -18,7 +18,7 @@
             <h2>Initial Challenges</h2>
             <div class="cs-intro-text">
                 <p>
-                    Object 1 is a real estate developer with projects in Downtown Dubai. Its website brought in few enquiries. Ads were getting clicks that did not become leads, and the site did not appear for the searches buyers were making.
+                    A reputable real estate developer with projects in Downtown Dubai. Its website brought in few enquiries. Ads were getting clicks that did not become leads, and the site did not appear for the searches buyers were making.
                 </p>
                 <p>
                     The goal was to reach buyers and investors who were ready to act and make it easy for them to enquire. The real challenge was to compete with large developers for the same keywords while keeping the cost per lead under control.
@@ -47,7 +47,7 @@
                 <div class="cs-card">
                     <span>03</span>
                     <h3>Poor Search Rankings</h3>
-                    <p>Key pages were not indexed. Important keywords were missing from titles and metadata. Object 1 did not appear for searches like "apartments for sale in Downtown Dubai" or "off-plan properties in Downtown Dubai."</p>
+                    <p>Key pages were not indexed. Important keywords were missing from titles and metadata. They did not appear for searches like "apartments for sale in Downtown Dubai" or "off-plan properties in Downtown Dubai."</p>
                 </div>
 
                 <div class="cs-card">
@@ -80,7 +80,7 @@
                     <img class="me-2 d-md-block d-none" src="/assets/images/cs-ecommerce/line.svg" alt="Line">
                     <p class="text-bold fs-20 mb-0 text-md-start text-center">Case Study</p>
                 </div>
-                <h2 class="mb-lg-5 mb-5 text-md-start text-center">Object 1</h2>
+                <h2 class="mb-lg-5 mb-5 text-md-start text-center">Real Estate</h2>
                 <img class="pt-lg-3 w-100 mb-md-0 mb-3" src="/assets/images/case-study/cject-1-real-estate.webp" alt="Object 1 Website">
             </div>
             <div class="col-lg-8 col-md-7">
@@ -125,7 +125,7 @@
                         </div>
                         <div class="cs-testimonial-info">
                             <strong>Sales & Marketing Director</strong>
-                            <span>Object 1</span>
+                            <span>Object One</span>
                         </div>
                     </div>
                 </div>
