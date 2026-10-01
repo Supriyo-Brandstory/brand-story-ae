@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
-
 <section class="premium-hero-slider">
     <div class="premium-slider-container">
         <!-- Slide 1 -->

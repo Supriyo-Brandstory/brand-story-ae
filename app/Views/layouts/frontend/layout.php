@@ -100,20 +100,18 @@ if ($seoData) {
     <meta name="google-site-verification" content="tfc8yiIbjwFNQYRcPeVYpyeNyThCNDZcJ3fwq1jkuAM">
 
     <!-- Critical & Core CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.min.css?v=2.0') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet">
+    <?php if ($clean_path === '' || $clean_path === 'index.php'): ?>
+        <link href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>" rel="stylesheet">
+    <?php endif; ?>
     <!-- Non-critical CSS loaded asynchronously -->
-    <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript>
-        <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet">
-        <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet">
-    </noscript>
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
