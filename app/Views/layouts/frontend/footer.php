@@ -163,16 +163,6 @@
 
 <a href="javascript:" id="return-to-top" aria-label="Return to top"><span class="upIcon"></span></a>
 </div><!-- Page Content End-->
-<div class="uniq-contact-lead-popup-overlay" style="display: none;">
-  <div class="uniq-contact-lead-popup">
-    <button class="uniq-contact-lead-close">&times;</button>
-    <h3 class="text-center mb-0">Get in Touch </h3>
-    <!-- Add your contact form or content here -->
-    <?php
-    $textrow = 2;
-    include __DIR__ . '/../../component/forms/contact-form.php' ?>
-  </div>
-</div>
 <?php
 // Default Services List - can be overwritten by passing $stickyServices to the view
 $stickyServices = $stickyServices ?? [
@@ -263,11 +253,22 @@ $stickyServices = $stickyServices ?? [
 <script src="<?= base_url('assets/js/menu.js?v=2.2') ?>" defer></script>
 <script src="<?= base_url('assets/js/swiper.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/slick.min.js') ?>" defer></script>
-<script src="<?= base_url('assets/js/ScrollTrigger.min.js') ?>" defer></script>
-<script src="<?= base_url('assets/js/gsap.min.js') ?>" defer></script>
-<script src="<?= base_url('assets/js/site.js?v=1.3') ?>" defer></script>
-<script src="<?= base_url('assets/js/slider.js?v=1.3') ?>" defer></script>
-<script src="<?= base_url('assets/js/anim.js?v=1.1') ?>" defer></script>
+<script src="<?= base_url('assets/js/site.js?v=1.4') ?>" defer></script>
+<script src="<?= base_url('assets/js/slider.js?v=1.4') ?>" defer></script>
+<script>
+  if (window.innerWidth >= 1200) {
+    [
+      '<?= base_url("assets/js/ScrollTrigger.min.js") ?>',
+      '<?= base_url("assets/js/gsap.min.js") ?>',
+      '<?= base_url("assets/js/anim.js?v=1.1") ?>'
+    ].forEach(function(src) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.defer = true;
+      document.body.appendChild(s);
+    });
+  }
+</script>
 <script type="text/javascript">
   (function() {
     var itiScriptLoaded = false;

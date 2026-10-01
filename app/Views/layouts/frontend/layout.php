@@ -49,7 +49,6 @@ if ($seoData) {
     if ($lcp_mobile): ?>
         <link rel="preload" as="image" href="<?= $lcp_mobile ?>" fetchpriority="high" media="(max-width: 767px)">
     <?php endif; ?>
-    <link rel="preload" href="<?= base_url('assets/fonts/ionicons.ttf?v=2.0.1') ?>" as="font" type="font/ttf" crossorigin>
 
     <?php if (!empty($seoData['other_script_or_tag'])): ?>
         <!-- Dynamic SEO Scripts/Tags -->
@@ -108,9 +107,13 @@ if ($seoData) {
     <link href="<?= base_url('assets/css/menu.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.min.css?v=2.0') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet">
     <!-- Non-critical CSS loaded asynchronously -->
+    <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet">
+        <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet">
+    </noscript>
     <link href="<?= base_url('assets/css/swiper.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/slick.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="<?= base_url('assets/css/ionicons.min.css') ?>" rel="stylesheet" media="print" onload="this.media='all'">
@@ -157,8 +160,8 @@ if ($seoData) {
                 el.addEventListener('focus', loadRecaptcha, { once: true });
                 el.addEventListener('mouseenter', loadRecaptcha, { once: true });
             });
-            // Fallback: load after 4.5 seconds if no interaction
-            setTimeout(loadRecaptcha, 4500);
+            // Fallback: load after 7 seconds if no interaction
+            setTimeout(loadRecaptcha, 7000);
         });
     </script>
 
@@ -170,7 +173,11 @@ if ($seoData) {
         gtag('config', 'AW-932195052', { 'anonymize_ip': true });
         gtag('config', 'G-4PYR3E31JS');
 
+        var analyticsLoaded = false;
         function loadAnalytics() {
+            if (analyticsLoaded) return;
+            analyticsLoaded = true;
+
             var s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-932195052';
@@ -188,10 +195,14 @@ if ($seoData) {
             })(window, document, 'script', 'dataLayer', 'GTM-PRDD8D7');
         }
 
+        // Load analytics on user interaction or idle fallback
+        ['touchstart', 'scroll', 'mousemove', 'keydown', 'click'].forEach(function(evt) {
+            window.addEventListener(evt, loadAnalytics, { once: true, passive: true });
+        });
         if (window.requestIdleCallback) {
-            requestIdleCallback(function() { setTimeout(loadAnalytics, 1200); });
+            requestIdleCallback(function() { setTimeout(loadAnalytics, 4000); });
         } else {
-            window.addEventListener('load', function() { setTimeout(loadAnalytics, 1500); });
+            window.addEventListener('load', function() { setTimeout(loadAnalytics, 5000); });
         }
     </script>
 

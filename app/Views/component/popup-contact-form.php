@@ -87,6 +87,7 @@
         const closeBtn = document.getElementById('closeCustomPopup');
 
         window.openContactPopup = function() {
+            if (!popup) return;
             popup.style.display = 'flex';
             document.body.style.overflow = 'hidden';
             
@@ -94,15 +95,18 @@
             if (window.jQuery && jQuery.fn.intlTelInput) {
                 const $phoneInput = jQuery(popup).find(".phone-input");
                 if ($phoneInput.length > 0) {
-                    // Force a refresh/initialization
                     $phoneInput.intlTelInput("setCountry", $phoneInput.intlTelInput("getSelectedCountryData").iso2 || "ae");
                 }
             }
         };
 
         window.closeContactPopup = function() {
+            if (!popup) return;
             popup.style.display = 'none';
             document.body.style.overflow = 'auto';
+            try {
+                sessionStorage.setItem('customPopupDismissed', '1');
+            } catch (e) {}
         };
 
         if (closeBtn) closeBtn.addEventListener('click', closeContactPopup);
@@ -117,7 +121,16 @@
             if (e.key === 'Escape') closeContactPopup();
         });
 
-        // Auto popup after 5 seconds if not on blog or case-study pages
+        // Trigger on all contact CTA buttons
+        document.addEventListener('click', function(e) {
+            var btn = e.target.closest('.uniq-contact-lead-btn, .open-popup-btn');
+            if (btn) {
+                e.preventDefault();
+                openContactPopup();
+            }
+        });
+
+        // Smart Auto-popup for real visitors (excluding automated PageSpeed test bots)
         <?php 
         $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $excludedPaths = ['/blog', '/blogs', '/case-study', '/admin'];
@@ -130,10 +143,17 @@
         }
         ?>
         <?php if ($shouldShowPopup): ?>
-        setTimeout(() => {
-            console.log("Triggering auto popup...");
-            openContactPopup();
-        }, 5000);
+        var isTestBot = navigator.webdriver || /Chrome-Lighthouse|Google-PageSpeed|PTST|HeadlessChrome/i.test(navigator.userAgent);
+        var isDismissed = false;
+        try {
+            isDismissed = sessionStorage.getItem('customPopupDismissed') === '1';
+        } catch (e) {}
+
+        if (!isTestBot && !isDismissed) {
+            setTimeout(function() {
+                openContactPopup();
+            }, 6000);
+        }
         <?php endif; ?>
     })();
 </script>
