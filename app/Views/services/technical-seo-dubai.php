@@ -23,7 +23,7 @@
         <div class="scroll-slide slide-2 next-slide" id="banner-slide-2">
             <div class="slide-2-content">
                 <span class="small-caps-header">At BrandStory</span>
-                <img class="brandstory-logo-text" src="<?= base_url('assets/images/logo.svg') ?>" alt="Technical SEO Services in Dubai">
+                <img class="brandstory-logo-text" width="200" height="40" src="<?= base_url('assets/images/logo.svg') ?>" alt="Technical SEO Services in Dubai">
             </div>
         </div>
 
@@ -42,40 +42,40 @@
         <div class="seo-marquee-track">
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Site Speed Optimization</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Mobile Optimization</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">XML Sitemaps</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Structured Data</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Crawlability & Indexing</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">HTTPS & Security</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Site Speed Optimization</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Mobile Optimization</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">XML Sitemaps</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Structured Data</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">Crawlability & Indexing</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
             <a href="/technical-seo-dubai/" class="seo-marquee-item">HTTPS & Security</a>
-            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" alt="SEO Services by BrandStory" /></span>
+            <span class="seo-marquee-sep"><img src="/assets/images/new-seo/asterisk-icon.svg" width="16" height="16" loading="lazy" decoding="async" alt="SEO Services by BrandStory" /></span>
 
         </div>
     </div>
@@ -89,11 +89,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="<?= base_url('/assets/images/new-seo/technical-seo-1.webp') ?>" alt="Technical SEO Agency in Dubai">
+                    <img class="w-100 radius-20" width="600" height="400" fetchpriority="high" src="<?= base_url('/assets/images/new-seo/technical-seo-1.webp') ?>" alt="Technical SEO Agency in Dubai">
                 </div>
 
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="<?= base_url('/assets/images/new-seo/technical-seo-mob.webp') ?>" alt="Technical SEO Agency in Dubai">
+                    <img class="img-fluid radius-20" width="400" height="300" fetchpriority="high" src="<?= base_url('/assets/images/new-seo/technical-seo-mob.webp') ?>" alt="Technical SEO Agency in Dubai">
                 </div>
 
             </div>
@@ -139,7 +139,7 @@
 
             </div>
             <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                <img src="/assets/images/new-seo/technical-seo-2.webp" alt="Technical SEO Dubai" class="img-fluid" style="border-radius: 20px;">
+                <img src="/assets/images/new-seo/technical-seo-2.webp" alt="Technical SEO Dubai" width="500" height="350" loading="lazy" decoding="async" class="img-fluid" style="border-radius: 20px;">
             </div>
         </div>
         <div class="row mt-4 mt-lg-5 border-top ">
@@ -194,7 +194,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/new-seo/technical-seo-3.webp" alt="Technical SEO Dubai" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/new-seo/technical-seo-3.webp" alt="Technical SEO Dubai" width="500" height="350" loading="lazy" decoding="async" style="border-radius: 20px;" class="img-fluid">
                 </div>
             </div>
 
@@ -256,12 +256,12 @@
                     ?>
                     <div class="swiper-slide">
                         <div class="neww-case-stuides-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/case-study/c-1.webp">
+                            <img class="w-100 dm-blog-img" width="400" height="250" loading="lazy" decoding="async" src="/assets/images/case-study/c-1.webp">
                             <strong>Digital Marketing, SEO</strong>
                             <h3>Sand Dollar - Ecommerce</h3>
                             <p class="fs-20">A leading E-commerce business in Downtown Dubai aimed to improve its online presence and sales through its e-commerce website. BrandStory helped them boost online sales by 135% through targeted PPC and social media campaigns, 400% increase in organic website traffic in 3 months.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/case-study/e-commerce/ /">Know more <img class="m-0" width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
@@ -287,13 +287,13 @@ include __DIR__ . '/../component/client_reviews.php';
         <div class="row">
             <div class="col-md-6">
                 <ul class="list-unstyled p-0 mb-0">
-                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
-                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
+                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" width="20" height="20" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/dubai-phone.svg?v=1">+971 52 283 1655</a></li>
+                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" width="20" height="20" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/dubai-mail.svg?v=1">info@brandstory.ae</a></li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <div class="d-flex align-items-start">
-                    <img class="me-3" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
+                    <img class="me-3" width="24" height="24" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/dubai-location.svg?v=1">
                     <div class="dubai-address">
                         <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
                         <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
@@ -314,93 +314,93 @@ include __DIR__ . '/../component/client_reviews.php';
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/advanced-keyword-tactics-banner-2.webp">
                             <h3><a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/" style="color: #000; text-decoration: none;">Advanced SEO Keyword Tactics for High-Competition Niches</a></h3>
                             <p class="fs-20">In this fast-paced digital-first world, having a good ranking on search engines has become an absolute.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/advanced-seo-keyword-tactics-for-high-competition-niches/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/mobile-seo-2025-banner-2.webp">
                             <h3><a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/" style="color: #000; text-decoration: none;">Mobile SEO Best Practices for 2025: Google’s AI Overview</a></h3>
                             <p class="fs-20">As the digital landscape continues to evolve, Google’s AI Overviews are quickly becoming a defining factor.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/mobile-seo-best-practices-for-2025-winning-in-googles-ai-overview/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/ai-overviews-google-search-2025-banner-2.webp">
                             <h3><a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/" style="color: #000; text-decoration: none;">AI Overviews & the Future of Google Search: Must-Know Facts</a></h3>
                             <p class="fs-20">At Google I/O 2025, Google declared that AI is not just a feature, it’s the foundation of its search engine.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/ai-overviews-and-the-future-of-google-search-in-2025/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/using-google-analytics.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/using-google-analytics.webp">
                             <h3><a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/" style="color: #000; text-decoration: none;">Master SEO Monitoring & Reporting with Google Analytics</a></h3>
                             <p class="fs-20">Digital marketing is constantly changing; SEO is the heart of organic growth. Optimizing content for search engines.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/master-seo-monitoring-reporting-with-google-analytics/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/seo-camp-results/seo-camp-img1.png">
                             <h3><a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaign/" style="color: #000; text-decoration: none;">How Long Does It Take to See Results from SEO Campaigns?</a></h3>
                             <p class="fs-20">Search Engine Optimization (SEO) is considered one of the most powerful digital marketing strategies today.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaign/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/how-long-does-it-take-to-see-results-from-seo-campaign/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/new-home/blog7.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/new-home/blog7.webp">
                             <h3><a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/" style="color: #000; text-decoration: none;">Search Engine Optimization Best Practices for 2025</a></h3>
                             <p class="fs-20">Search Engine Optimization (SEO) is the backbone of online visibility. Optimize your website and content to rank higher.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/know-the-search-engine-optimization-best-practices-for-2025/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/arabic-seo-in-dubai/img1.jpg">
                             <h3><a href="/blogs/arabic-seo-in-dubai/" style="color: #000; text-decoration: none;">Arabic SEO in Dubai: The Ultimate Guide to a Winning Strategy</a></h3>
                             <p class="fs-20">The digital space in Dubai is buzzing and highly competitive between top brands and small businesses.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/arabic-seo-in-dubai/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/arabic-seo-in-dubai/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/what-are-core-web-vitals.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/what-are-core-web-vitals.webp">
                             <h3><a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
                             <p class="fs-20">With the ever-growing SEO universe, Core Web Vitals are important UX signals that can influence search visibility massively.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/digital-marketing-strategy-2025-banner-2.webp">
                             <h3><a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/" style="color: #000; text-decoration: none;">How to Create a Digital Marketing Strategy That Works in 2025</a></h3>
                             <p class="fs-20">In a rapidly developed online ecosystem, a digital marketing presence is not enough-you require a well-defined strategy.</p>
                             <div class="casestydies-readmore">
-                                <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
+                                <a href="/blogs/how-to-create-a-digital-marketing-strategy-that-works-in-2025/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/dm-agency-dubai/readmore-arrow.svg?v=1"></a>
                             </div>
                         </div>
                     </div>

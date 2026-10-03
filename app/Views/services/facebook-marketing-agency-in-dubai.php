@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="
-	<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
@@ -32,7 +31,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/fb-image-01.webp") ?>" alt="Best Facebook Marketing Services in Dubai" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/fb-image-01.webp") ?>" alt="Best Facebook Marketing Services in Dubai" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -69,7 +68,7 @@
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/fb-image-02.webp") ?>" class="img-fluid" alt="Leading Agency for Facebook Advertising">
+          <img src="<?= base_url("assets/images/fb-image-02.webp") ?>" class="img-fluid" alt="Leading Agency for Facebook Advertising" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -774,7 +773,7 @@
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/fb-image-03.webp") ?>" class="img-fluid rounded-4" alt="What Your Business Gains with BrandStory's Facebook Marketing">
+          <img src="<?= base_url("assets/images/fb-image-03.webp") ?>" class="img-fluid rounded-4" alt="What Your Business Gains with BrandStory's Facebook Marketing" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -796,7 +795,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/fb-image-04.webp") ?>" alt="Why Facebook Advertising is Non-Negotiable for Dubai Businesses" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/fb-image-04.webp") ?>" alt="Why Facebook Advertising is Non-Negotiable for Dubai Businesses" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -873,7 +872,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-05.webp") ?>" class="choose-card-img img-fluid" alt="Do They Have UAE - Specific Experience?">
+            <img src="<?= base_url("assets/images/fb-image-05.webp") ?>" class="choose-card-img img-fluid" alt="Do They Have UAE - Specific Experience?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Do They Have UAE - Specific Experience?</h3>
           <p class="choose-card-desc">Running Facebook Ads in Dubai is fundamentally different from running them in Europe or the US. Audience behavior, cultural sensitivities, language preferences, peak usage times, and competitive CPMs all differ. An agency that has only worked in Western markets will apply strategies that simply do not fit. Ask for UAE-based campaign results - not generic global case studies.</p>
@@ -883,7 +882,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Will You Own Your Ad Account?">
+            <img src="<?= base_url("assets/images/fb-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Will You Own Your Ad Account?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Will You Own Your Ad Account?</h3>
           <p class="choose-card-desc">Some agencies run your ads from their own agency account - meaning if you ever leave, you lose all your campaign history, audience data, and Pixel data. Always insist that campaigns run from an ad account owned by your business. BrandStory operates exclusively this way: your account, your data, your asset - we are the operator, not the owner.</p>
@@ -893,7 +892,7 @@
       <div class="col-lg-4 col-md-6 mx-auto">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/fb-image-07.webp") ?>" class="choose-card-img img-fluid" alt="Is Creative Produced In - House?">
+            <img src="<?= base_url("assets/images/fb-image-07.webp") ?>" class="choose-card-img img-fluid" alt="Is Creative Produced In - House?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Is Creative Produced In - House?</h3>
           <p class="choose-card-desc">Facebook's algorithm rewards high-quality, high-engagement creatives with lower CPMs and better delivery. Agencies that outsource creative work to freelancers or use generic stock-photo ads will consistently underperform. The creative and the strategy need to be built together by the same team - which is exactly how BrandStory operates.</p>
@@ -1016,7 +1015,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1040,7 +1039,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1064,7 +1063,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1088,7 +1087,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1112,7 +1111,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1374,7 +1373,7 @@
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="550" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

@@ -157,7 +157,7 @@
             </div><!--col end-->
             <div class="col-md-5 mt-md-0 mt-4"> <!--col start-->
                 <div class="best-img">
-                    <img src="/assets/images/seo-lp/redes-image-1.jpg" class="img-fluid"
+                    <img src="/assets/images/seo-lp/redes-image-1.jpg" class="img-fluid" width="500" height="400" loading="lazy" decoding="async"
                         alt="Best Email Marketing Company in Abu Dhabi">
                 </div>
             </div><!--col end-->
@@ -312,7 +312,7 @@
             <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
                 <div class="pow-box">
                     <div class="mb-3"><img src="/assets/images/seo-lp/respro-icon-1.svg"
-                            class="img-fluid" alt="img"></div>
+                            class="img-fluid" width="60" height="60" loading="lazy" decoding="async" alt="img"></div>
                     <p class="mb-1"><strong>Detailed Website Audit Report</strong></p>
                     <p>Our Dubai website audit services provide an in-depth analysis of your website's performance. We
                         take each element, on-page or technical, and provide actionable insights to develop a more
@@ -322,7 +322,7 @@
             <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
                 <div class="pow-box">
                     <div class="mb-3"><img src="/assets/images/seo-lp/respro-icon-2.svg"
-                            class="img-fluid" alt="img"></div>
+                            class="img-fluid" width="60" height="60" loading="lazy" decoding="async" alt="img"></div>
                     <p class="mb-1"><strong>In-depth Competitor Check-up</strong></p>
                     <p>We conduct in-depth competitor analysis to understand the strategy of your competitors and how
                         they are performing within SEO. By identifying strengths and weaknesses, we put your business on
@@ -333,7 +333,7 @@
             <div class="col-md-4 d-flex align-items-stretch"> <!--col start-->
                 <div class="pow-box">
                     <div class="mb-3"><img src="/assets/images/seo-lp/respro-icon-3.svg"
-                            class="img-fluid" alt="img"></div>
+                            class="img-fluid" width="60" height="60" loading="lazy" decoding="async" alt="img"></div>
                     <p class="mb-1"><strong>Timely Delivery</strong></p>
                     <p>We appreciate the significance of insights being on time in a moving digital realm. Our audits
                         are thus timely and can be delivered quickly to allow you to stay ahead of implementation in
@@ -354,7 +354,7 @@
                     <div class="wcb-no">01</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/seo-lp/res-icon-1.svg"
-                                class="img-fluid" alt="email marketing dubai"></div>
+                                class="img-fluid" width="48" height="48" loading="lazy" decoding="async" alt="email marketing dubai"></div>
                         <h6 class="text-capitalize">Practical Assessment of Your Business</h6>
                     </div>
                     <p>Our Dubai website audit services provide an in-depth analysis of your website's performance. We
@@ -367,7 +367,7 @@
                     <div class="wcb-no">02</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/seo-lp/res-icon-2.svg"
-                                class="img-fluid" alt="email marketing companies in dubai"></div>
+                                class="img-fluid" width="48" height="48" loading="lazy" decoding="async" alt="email marketing companies in dubai"></div>
                         <h6 class="text-capitalize">Periodic Analysis and Upgrades</h6>
                     </div>
                     <p>Our commitment is not after one single audit; we provide periodic analysis and constant upgrades
@@ -380,7 +380,7 @@
                     <div class="wcb-no">03</div>
                     <div class="wcb-box-titl">
                         <div class="wcb-img"><img src="/assets/images/seo-lp/res-icon-3.svg"
-                                class="img-fluid" alt="email marketing company in dubai"></div>
+                                class="img-fluid" width="48" height="48" loading="lazy" decoding="async" alt="email marketing company in dubai"></div>
                         <h6 class="text-capitalize">Instant Overview Before a Consultation</h6>
                     </div>
                     <p>Before any consultation, we offer an instant snapshot of your current SEO situation. This enables

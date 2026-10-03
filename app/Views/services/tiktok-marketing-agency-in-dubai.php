@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -31,7 +31,7 @@
             <!-- Left Side: Image -->
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
-                    <img src="<?= base_url('assets/images/tik-02.webp') ?>" alt="Best Email Marketing Agency in Dubai" class="img-fluid premium-perf-img">
+                    <img src="<?= base_url('assets/images/tik-02.webp') ?>" alt="Best Email Marketing Agency in Dubai" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -76,7 +76,7 @@
             <!-- Right Side: Image -->
             <div class="col-lg-6 mt-4 mt-lg-0 text-center">
                 <div class="pm-results-image-wrap">
-                    <img src="<?= base_url('assets/images/tik-03.webp') ?>" class="img-fluid" alt="Top-rated Email Marketing Company Dubai">
+                    <img src="<?= base_url('assets/images/tik-03.webp') ?>" class="img-fluid" alt="Top-rated Email Marketing Company Dubai" width="600" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -344,7 +344,7 @@
             <!-- Right Side: Image -->
             <div class="col-lg-6">
                 <div class="premium-perf-img-wrap">
-                    <img src="<?= base_url('assets/images/tik-07.webp') ?>" alt="TikTok Hashtag Growth and Engagement" class="img-fluid premium-perf-img">
+                    <img src="<?= base_url('assets/images/tik-07.webp') ?>" alt="TikTok Hashtag Growth and Engagement" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -409,7 +409,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -438,7 +438,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -468,7 +468,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -498,7 +498,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -528,7 +528,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -698,7 +698,7 @@
             <!-- Left Side: Image of two people standing back-to-back -->
             <div class="col-lg-5 col-md-12">
                 <div class="premium-stats-banner-img-wrap">
-                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="550" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: Statistics Content -->

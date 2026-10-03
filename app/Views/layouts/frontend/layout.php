@@ -48,6 +48,42 @@ if ($seoData) {
     } elseif (strpos($current_url, 'pay-per-click-ppc-services-in-dubai') !== false) {
         $lcp_image = '/assets/images/pr-banner.webp';
         $lcp_mobile = '/assets/images/pr-banner.webp';
+    } elseif (strpos($current_url, 'video-marketing-agency-dubai') !== false) {
+        $lcp_image = '/assets/images/video-marketing-01.webp';
+        $lcp_mobile = '/assets/images/video-marketing-01.webp';
+    } elseif (strpos($current_url, 'instagram-advertising-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/in-banner.webp';
+        $lcp_mobile = '/assets/images/in-banner.webp';
+    } elseif (strpos($current_url, 'twitter-advertising-dubai') !== false) {
+        $lcp_image = '/assets/images/twiter-background.webp';
+        $lcp_mobile = '/assets/images/twiter-background.webp';
+    } elseif (strpos($current_url, 'pinterest-advertising-services-in-dubai') !== false) {
+        $lcp_image = '/assets/images/pinterest-banner.webp';
+        $lcp_mobile = '/assets/images/pinterest-banner.webp';
+    } elseif (strpos($current_url, 'tiktok-marketing-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/tik-banner.webp';
+        $lcp_mobile = '/assets/images/tik-banner.webp';
+    } elseif (strpos($current_url, 'facebook-marketing-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/fb-banner.webp';
+        $lcp_mobile = '/assets/images/fb-banner.webp';
+    } elseif (strpos($current_url, 'seo-audit-services-in-dubai') !== false) {
+        $lcp_image = '/assets/images/seo-lp/redes-1-banner.jpg';
+        $lcp_mobile = '/assets/images/seo-lp/redes-1-banner.jpg';
+    } elseif (strpos($current_url, 'technical-seo-dubai') !== false) {
+        $lcp_image = '/assets/images/new-seo/technical-seo-1.webp';
+        $lcp_mobile = '/assets/images/new-seo/technical-seo-mob.webp';
+    } elseif (strpos($current_url, 'on-page-seo-dubai') !== false) {
+        $lcp_image = '/assets/images/new-seo/on-page-1.webp';
+        $lcp_mobile = '/assets/images/new-seo/on-page-mob.webp';
+    } elseif (strpos($current_url, 'off-page-seo-dubai') !== false) {
+        $lcp_image = '/assets/images/new-seo/off-page-1.webp';
+        $lcp_mobile = '/assets/images/new-seo/off-page-mob.webp';
+    } elseif (strpos($current_url, 'keyword-research-dubai') !== false) {
+        $lcp_image = '/assets/images/new-seo/keyword-res-1.webp';
+        $lcp_mobile = '/assets/images/new-seo/keyword-res-mob.webp';
+    } elseif (strpos($current_url, 'local-seo-services-in-dubai') !== false) {
+        $lcp_image = '/assets/images/local-seo-banner.webp';
+        $lcp_mobile = '/assets/images/local-seo-banner.webp';
     }
 
     if ($lcp_image): ?>

@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
 
 
 <section class="sem-new-banner-section">
@@ -12,7 +13,7 @@
                     <!-- Mobile Image Version (Shown after Heading on Mobile) -->
                     <div class="sem-banner-right position-relative d-lg-none mb-5">
                         <div class="laptop-mockup">
-                            <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                            <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" width="580" height="380" fetchpriority="high" loading="eager">
                         </div>
 
                     </div>
@@ -27,7 +28,7 @@
             <div class="col-lg-6 d-none d-lg-block">
                 <div class="sem-banner-right position-relative">
                     <div class="laptop-mockup">
-                        <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" fetchpriority="high" loading="eager">
+                        <img src="/assets/images/local-seo-banner.webp" alt="Local SEO Dubai" class="img-fluid" width="580" height="380" fetchpriority="high" loading="eager">
                     </div>
 
                 </div>
@@ -65,11 +66,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                    <img class="w-100 radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Experts Dubai">
+                    <img class="w-100 radius-20" width="550" height="380" loading="lazy" decoding="async" src="/assets/images/local-seo-2.webp" alt="Local SEO Experts Dubai">
 
                 </div>
                 <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                    <img class="img-fluid radius-20" src="/assets/images/local-seo-2.webp" alt="Local SEO Services Dubai">
+                    <img class="img-fluid radius-20" width="400" height="280" loading="lazy" decoding="async" src="/assets/images/local-seo-2.webp" alt="Local SEO Services Dubai">
 
                 </div>
             </div>
@@ -95,40 +96,40 @@
         <div class="d-flex overflow-hidden mb-5">
             <div class="new-client-slider">
                 <!-- duplicate logos for seamless scroll -->
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client- MySyara" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
                 <!-- repeat -->
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" alt="Our beloved client- MySyara" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-1.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - HashedIn" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-2.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Amazon Flex" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-3.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client- Unicare Services" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-4.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - ALP Conslting" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-5.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - International Centre for Culinary Arts Dubai" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-6.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client- MySyara" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-7.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - TAKELEAP" class="new-client-logo"></div>
             </div>
         </div>
 
         <!-- Row 2 -->
         <div class="d-flex overflow-hidden">
             <div class="new-client-slider reverse">
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - FourNext" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - CoverB" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
                 <!-- repeat -->
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" alt="Our beloved client - FourNext" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" alt="Our beloved client - CoverB" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
-                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-8.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Sherpa Communications" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-9.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - FourNext" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-10.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Spectrum Accounts" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-11.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - CoverB" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-12.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - The Electronics Group" class="new-client-logo"></div>
+                <div class="new-client-logo-wrap"><img src="/assets/images/clients/logo-13.png" width="120" height="40" loading="lazy" decoding="async" alt="Our beloved client - Uno Capital" class="new-client-logo"></div>
             </div>
         </div>
 
@@ -188,12 +189,12 @@
                 </div>-->
             <div class="col-lg-6 col-md-6 col-6">
                 <div class="feature-image-box">
-                    <img src="/assets/images/loc-1.webp" alt="Optimised for “Near Me” Searches" loading="lazy">
+                    <img src="/assets/images/loc-1.webp" width="550" height="300" loading="lazy" decoding="async" alt="Optimised for “Near Me” Searches">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-6">
                 <div class="feature-image-box">
-                    <img src="/assets/images/loc-3.webp" alt="Local Directory & Map Visibility" loading="lazy">
+                    <img src="/assets/images/loc-3.webp" width="550" height="300" loading="lazy" decoding="async" alt="Local Directory & Map Visibility">
                 </div>
             </div>
         </div>
@@ -373,7 +374,7 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/squareone.webp" alt="Square One Logo">
+                            <img src="/assets/images/squareone.webp" width="150" height="45" loading="lazy" decoding="async" alt="Square One Logo">
                         </div>
                         <span class="ce-domain">squareonemea.com</span>
                     </div>
@@ -411,7 +412,7 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/spectrum.webp" alt="Spectrum Logo">
+                            <img src="/assets/images/spectrum.webp" width="150" height="45" loading="lazy" decoding="async" alt="Spectrum Logo">
                         </div>
                         <span class="ce-domain">spectrumaccounts.com</span>
                     </div>
@@ -449,7 +450,7 @@
                 <div class="ce-card">
                     <div class="ce-card-head">
                         <div class="ce-logo-placeholder">
-                            <img src="/assets/images/takeleap.webp" alt="Take Leap Logo">
+                            <img src="/assets/images/takeleap.webp" width="150" height="45" loading="lazy" decoding="async" alt="Take Leap Logo">
                         </div>
                         <span class="ce-domain">takeleap.com</span>
                     </div>
@@ -489,32 +490,32 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/ranking-rep-1.webp" alt="SEO Ranking Proof 1">
+                        <img src="/assets/images/ranking-rep-1.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 1">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-2.webp" alt="SEO Ranking Proof 2">
+                        <img src="/assets/images/Ranking-rep-2.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 2">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-3.webp" alt="SEO Ranking Proof 3">
+                        <img src="/assets/images/Ranking-rep-3.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 3">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-4.webp" alt="SEO Ranking Proof 4">
+                        <img src="/assets/images/Ranking-rep-4.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 4">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-5.webp" alt="SEO Ranking Proof 5">
+                        <img src="/assets/images/Ranking-rep-5.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 5">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="ce-ss-box">
-                        <img src="/assets/images/Ranking-rep-6.webp" alt="SEO Ranking Proof 6">
+                        <img src="/assets/images/Ranking-rep-6.webp" width="350" height="250" loading="lazy" decoding="async" alt="SEO Ranking Proof 6">
                     </div>
                 </div>
             </div>
@@ -590,13 +591,13 @@
         <div class="row">
             <div class="col-md-6">
                 <ul class="list-unstyled p-0 mb-0">
-                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" src="/assets/images/home/dubai-phone.svg">+971 52 283 1655</a></li>
-                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" src="/assets/images/home/dubai-mail.svg">info@brandstory.ae</a></li>
+                    <li class="mb-3"><a class="text-white fs-20" href="tel:+971 52 283 1655"><img class="me-2" width="20" height="20" loading="lazy" decoding="async" src="/assets/images/home/dubai-phone.svg">+971 52 283 1655</a></li>
+                    <li class="mb-md-0 mb-3"><a class="text-white fs-20" href="mailto:info@brandstory.ae"><img class="me-2" width="20" height="20" loading="lazy" decoding="async" src="/assets/images/home/dubai-mail.svg">info@brandstory.ae</a></li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <div class="d-flex align-items-start">
-                    <img class="me-3" src="/assets/images/home/dubai-location.svg">
+                    <img class="me-3" width="24" height="24" loading="lazy" decoding="async" src="/assets/images/home/dubai-location.svg">
                     <div class="dubai-address">
                         <h3 class="mb-2 text-white">Visit Our Dubai Office</h3>
                         <p class="fs-20 mb-0"><a class="text-white text-decoration-underline" target="_blank" href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&amp;kgmid=/g/11jn2396qs&amp;q=Brandstory&amp;shndl=30&amp;shem=lcuae,lste,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=0f7c634ee2c79aaf">G5, Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a></p>
@@ -626,7 +627,7 @@
                 <div class="swiper-wrapper" id="swiper-wrapper-8838a31990a569ae" aria-live="polite" style="transform: translate3d(-1281px, 0px, 0px); transition-duration: 0ms;">
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                             <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                             <p class="mb-0 text-start text-white">Take Leap</p>
@@ -634,7 +635,7 @@
                     </div>
                     <div class="swiper-slide d-flex swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                             <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                             <p class="mb-0 text-start text-white">Uno Capital</p>
@@ -642,7 +643,7 @@
                     </div>
                     <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
                             <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                             <p class="mb-0 text-start text-white">CoverB</p>
@@ -650,7 +651,7 @@
                     </div>
                     <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                             <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                             <p class="mb-0 text-start text-white">FourNxt</p>
@@ -658,7 +659,7 @@
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                            <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
                             <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                             <p class="mb-0 text-start text-white">Sherpa Communications</p>
@@ -666,7 +667,7 @@
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                             <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                             <p class="mb-0 text-start text-white">Take Leap</p>
@@ -674,7 +675,7 @@
                     </div>
                     <div class="swiper-slide d-flex swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                            <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                             <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                             <p class="mb-0 text-start text-white">Uno Capital</p>
@@ -682,7 +683,7 @@
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                            <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns &amp; strategies. Helping us build trust and reach more clients in the UAE.</p>
                             <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                             <p class="mb-0 text-start text-white">CoverB</p>
@@ -690,7 +691,7 @@
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 600.5px; margin-right: 40px;">
                         <div class="dm-review-main">
-                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                            <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="40" loading="lazy" decoding="async">
                             <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                             <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                             <p class="mb-0 text-start text-white">FourNxt</p>
@@ -827,41 +828,41 @@
 
                     <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/local-seo.webp">
                             <h3><a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/" style="color: #000; text-decoration: none;">Local SEO: Why It’s Crucial for Your Business Success</a></h3>
                             <p class="fs-20">A local search refers to searches made with local intent. For example, if you search for “caterers near me” or include...</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                <a href="https://www.brandstory.ae/blogs/what-is-local-seo-and-why-it-is-important-for-your-business/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/home/readmore-arrow.svg"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-seo-packages.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/local-seo-packages.webp">
                             <h3><a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/" style="color: #000; text-decoration: none;">Local SEO Packages Dubai: Everything You Need to Know</a></h3>
                             <p class="fs-20">Local SEO packages in Dubai are designed to boost your local search rankings, attract more customers, and increase visibility.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                <a href="https://www.brandstory.ae/blogs/local-seo-packages-dubai-everything-you-need-to-know/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/home/readmore-arrow.svg"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/local-whatsapp-seo.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/local-whatsapp-seo.webp">
                             <h3><a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/" style="color: #000; text-decoration: none;">How WhatsApp, Reviews, and Local SEO Work Together to Grow a Dental Practice</a></h3>
                             <p class="fs-20">Most dental clinics in Dubai treat WhatsApp, Google reviews, and local SEO as three separate things managed by three different people...</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                <a href="https://www.brandstory.ae/blogs/how-whatsapp-reviews-and-local-seo-work-together-to-grow-a-dental-practice/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/home/readmore-arrow.svg"></a>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9" style="width: 600.5px; margin-right: 40px;">
                         <div class="latest-blog-main">
-                            <img class="w-100 dm-blog-img" src="/assets/images/blog/core-web-vital-seo.webp">
+                            <img class="w-100 dm-blog-img" width="380" height="220" loading="lazy" decoding="async" src="/assets/images/blog/core-web-vital-seo.webp">
                             <h3><a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/" style="color: #000; text-decoration: none;">Core Web Vitals SEO: Boost Rankings with Optimization</a></h3>
                             <p class="fs-20">With the ever-growing SEO universe, Core Web-Vitals of Google have emerged almost magically as major ranking factors determining website position on the SERP.</p>
                             <div class="casestydies-readmore">
-                                <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img src="/assets/images/home/readmore-arrow.svg"></a>
+                                <a href="https://www.brandstory.ae/blogs/core-web-vitals-seo-boost-rankings-with-optimization/">Know more <img width="16" height="16" loading="lazy" decoding="async" src="/assets/images/home/readmore-arrow.svg"></a>
                             </div>
                         </div>
                     </div>
@@ -881,7 +882,7 @@
         <p class="text-center mb-3">As a leading <a href="/seo-services-company-in-dubai/" class="text-purple" style="color: black; text-decoration: underline;"><b>SEO company in Dubai</b></a>, we understand the unique digital landscape of the city’s diverse business hubs. Whether you’re a luxury retailer in Downtown Dubai, a tech startup in Business Bay, or a restaurant in Dubai Marina, our Dubai-focused SEO strategies ensure you stand out in local search results.</p>
 
         <div class="map-img text-center py-2">
-            <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" style="border-radius: 10px;" alt="slider-map">
+            <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/slider-map-png.png" class="w-auto" width="800" height="450" loading="lazy" decoding="async" style="border-radius: 10px;" alt="slider-map">
             <div class="location-container">
                 <div class="location-marker dubai-marina" data-slide="0">
                     <h5>Dubai Marina</h5>
@@ -906,7 +907,7 @@
                     <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-1.png" alt="Client-Testimonial">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-1.png" width="180" height="120" loading="lazy" decoding="async" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
                                 <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-dubai-marina" style="color: #fff; text-decoration:underline">Dubai Marina</a>
@@ -918,7 +919,7 @@
                     <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-2.png" alt="Client-Testimonial">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-2.png" width="180" height="120" loading="lazy" decoding="async" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
                                 <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-downtown-dubai" style="color: #fff; text-decoration:underline">Downtown Dubai</a>
@@ -930,7 +931,7 @@
                     <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-3.png" alt="Client-Testimonial">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-3.png" width="180" height="120" loading="lazy" decoding="async" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
                                 <h5 class="text-start"><a href="https://www.brandstory.ae/seo-services-in-business-bay" style="color: #fff; text-decoration:underline">Business Bay</a>
@@ -942,7 +943,7 @@
                     <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-4.png" alt="Client-Testimonial">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-4.png" width="180" height="120" loading="lazy" decoding="async" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
                                 <h5 class="text-start"><a href="https://www.brandstory.ae/seo-company-in-jlt" style="color: #fff; text-decoration:underline">Jumeirah &amp; JBR</a>
@@ -954,7 +955,7 @@
                     <div class="swiper-slide bg-black">
                         <div class="row">
                             <div class="col-4 img-col">
-                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-5.png" alt="Client-Testimonial">
+                                <img src="https://www.brandstory.ae/assets/images/seo-lp/dubai/location-5.png" width="180" height="120" loading="lazy" decoding="async" alt="Client-Testimonial">
                             </div>
                             <div class="col-8 py-4 content-slider-col">
                                 <h5 class="text-start"><a href="https://www.brandstory.ae/seo-agency-in-dubai-silicon-oasis" style="color:#fff;text-decoration:underline">Dubai Silicon Oasis</a>

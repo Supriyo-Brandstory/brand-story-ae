@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="
-	<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
@@ -32,7 +31,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/in-banner-02.webp") ?>" alt="Instagram Marketing Services in Dubai That Drive Real Growth" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/in-banner-02.webp") ?>" alt="Instagram Marketing Services in Dubai That Drive Real Growth" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -72,7 +71,7 @@
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/in-image-02.webp") ?>" class="img-fluid" alt="Top Instagram Marketing Company in Dubai">
+          <img src="<?= base_url("assets/images/in-image-02.webp") ?>" class="img-fluid" alt="Top Instagram Marketing Company in Dubai" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -594,7 +593,7 @@
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/in-image-03.webp") ?>" class="img-fluid rounded-4" alt="Benefits of Instagram Marketing for Dubai Businesses">
+          <img src="<?= base_url("assets/images/in-image-03.webp") ?>" class="img-fluid rounded-4" alt="Benefits of Instagram Marketing for Dubai Businesses" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -616,7 +615,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/in-image-03.jpg") ?>" alt="Why Instagram is the Most Valuable Marketing Channel for UAE Brands" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/in-image-03.jpg") ?>" alt="Why Instagram is the Most Valuable Marketing Channel for UAE Brands" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -697,7 +696,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/in-image-05.webp") ?>" class="choose-card-img img-fluid" alt="Is Creative Produced In-House?">
+            <img src="<?= base_url("assets/images/in-image-05.webp") ?>" class="choose-card-img img-fluid" alt="Is Creative Produced In-House?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Is Creative Produced In-House?</h3>
           <p class="choose-card-desc">On Instagram, creative quality is the single biggest performance variable for both organic reach and paid ad efficiency. Agencies that outsource to freelancers, use stock imagery, or rely on template tools cannot build a brand that stands out in Dubai's saturated feed. Your agency needs in-house designers, videographers, and copywriters producing original content built specifically for your brand.</p>
@@ -707,7 +706,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/in-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Do They Integrate Organic and Paid?">
+            <img src="<?= base_url("assets/images/in-image-06.webp") ?>" class="choose-card-img img-fluid" alt="Do They Integrate Organic and Paid?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Do They Integrate Organic and Paid?</h3>
           <p class="choose-card-desc">Agencies that treat organic management and Instagram Ads as separate services create a fragmented Instagram presence where content strategy and paid strategy pull in different directions. The strongest Instagram marketing in Dubai runs both as a single system organic builds the audience and trust, paid accelerates reach and conversions, and data from both informs the other continuously.</p>
@@ -717,7 +716,7 @@
       <div class="col-lg-4 col-md-6 mx-auto">
         <div class="choose-card">
           <div class="choose-card-img-wrap">
-            <img src="<?= base_url("assets/images/in-image-07.webp") ?>" class="choose-card-img img-fluid" alt="Do They Understand the UAE Market?">
+            <img src="<?= base_url("assets/images/in-image-07.webp") ?>" class="choose-card-img img-fluid" alt="Do They Understand the UAE Market?" width="350" height="200" loading="lazy" decoding="async">
           </div>
           <h3 class="choose-card-title">Do They Understand the UAE Market?</h3>
           <p class="choose-card-desc">Content that performs in Western markets frequently underperforms in the UAE. Cultural context, Arabic language, local events, religious calendar awareness, and the specific visual aesthetics that resonate with UAE consumers all require genuine local knowledge. Ask any agency for UAE-specific Instagram case studies not global benchmarks and press them on how their content approach differs specifically for the Dubai market.</p>
@@ -840,7 +839,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -864,7 +863,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -888,7 +887,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -912,7 +911,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -936,7 +935,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="600" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1199,7 +1198,7 @@
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="550" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

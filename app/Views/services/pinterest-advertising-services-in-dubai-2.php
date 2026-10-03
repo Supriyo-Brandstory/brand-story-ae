@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
-  <link rel="stylesheet" href="
-	<?= base_url("assets/css/video-marketing.css") ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/video-marketing.css') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -33,7 +32,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/pinterest-01.webp") ?>" alt="Unlock Growth with Pinterest Marketing in Dubai" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/pinterest-01.webp") ?>" alt="Unlock Growth with Pinterest Marketing in Dubai" class="img-fluid premium-perf-img" width="600" height="450" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -588,7 +587,7 @@
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="550" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

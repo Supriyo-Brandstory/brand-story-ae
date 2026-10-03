@@ -27,7 +27,18 @@
                 $content = str_replace($code, $replacement, $content);
             }
 
-            // 4. Evaluate PHP Content
+            // 4. Performance Optimizations (CSS minification & lazy loading)
+            $content = str_replace(['assets/css/home-2.css', 'home-2.css'], 'assets/css/home-2.min.css?v=2.0', $content);
+            $content = preg_replace_callback('/<img\s+([^>]+)>/i', function($matches) {
+                $imgTag = $matches[0];
+                $attributes = $matches[1];
+                if (stripos($attributes, 'loading=') === false) {
+                    $imgTag = str_replace('<img ', '<img loading="lazy" decoding="async" ', $imgTag);
+                }
+                return $imgTag;
+            }, $content);
+
+            // 5. Evaluate PHP Content
             eval('?>' . $content);
         } catch (\Throwable $e) {
             echo "Error processing page content: " . $e->getMessage();
