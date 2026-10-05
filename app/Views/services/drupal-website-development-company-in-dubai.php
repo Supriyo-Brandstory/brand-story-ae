@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -39,7 +39,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/drupal-01.webp") ?>" alt="Drupal Web Development Services in Dubai Built for Enterprise Scale" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/drupal-01.webp") ?>" alt="Drupal Web Development Services in Dubai Built for Enterprise Scale" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -639,7 +639,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/drupal-03.webp") ?>" alt="In-Depth Discovery Drupal Phase">
+              <img src="<?= base_url("assets/images/drupal-03.webp") ?>" alt="In-Depth Discovery Drupal Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Every complex Drupal project begins with deep discovery. We work closely with your stakeholders to map out content workflows, user roles, integration requirements, compliance needs, and traffic expectations. This phase defines the scope, identifies technical dependencies, and establishes the architectural direction ensuring nothing is built on assumptions and everything is tied directly to your organisation's operational objectives.
@@ -660,7 +660,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/drupal-04.webp") ?>" alt="Architecture & Design Drupal Phase">
+              <img src="<?= base_url("assets/images/drupal-04.webp") ?>" alt="Architecture & Design Drupal Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Before a single line of code is written, we engineer your Drupal content model. This means designing content types, taxonomies, views, and field structures that reflect how your organisation actually creates and manages information. Alongside this, our UI team designs interfaces that simplify content workflows for editors while delivering a polished, on-brand experience for end users eliminating the friction that often comes with complex CMS platforms.
@@ -681,7 +681,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/drupal-05.webp") ?>" alt="Agile Drupal Development Phase">
+              <img src="<?= base_url("assets/images/drupal-05.webp") ?>" alt="Agile Drupal Development Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our Drupal developers in Dubai build with precision, following Drupal coding standards and best practices at every step. We develop custom modules where off-the-shelf solutions fall short, integrate third-party APIs including CRM, ERP, and payment systems, and configure caching layers for peak performance. Whether we are building a decoupled frontend on React or Vue, or a fully server-rendered Drupal site, our development is iterative, documented, and built to last.
@@ -702,7 +702,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/drupal-06.webp") ?>" alt="Quality Assurance Drupal Phase">
+              <img src="<?= base_url("assets/images/drupal-06.webp") ?>" alt="Quality Assurance Drupal Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Drupal's reputation for security is earned and we make sure your implementation upholds it. Our QA process includes automated and manual functional testing, cross-browser and device compatibility checks, load testing for high-traffic scenarios, and a dedicated security audit covering access controls, input validation, and known vulnerability patching. We do not consider a platform ready for production until it passes every checkpoint in our security and performance review.
@@ -723,7 +723,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/drupal-07.webp") ?>" alt="Controlled Go-Live Deployment Phase">
+              <img src="<?= base_url("assets/images/drupal-07.webp") ?>" alt="Controlled Go-Live Deployment Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We manage your Drupal deployment through a staged rollout staging environment validation, DNS cutover coordination, CDN configuration, and real-time monitoring during go-live. After launch, our team remains engaged through a structured support retainer covering Drupal core and module updates, security patches, performance reviews, and feature enhancements. Your platform evolves with your business, not against it.
@@ -783,7 +783,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/drupal-08.webp") ?>" class="img-fluid" alt="Why Dubai Businesses Choose BrandStory as Their Drupal Agency">
+          <img src="<?= base_url("assets/images/drupal-08.webp") ?>" class="img-fluid" alt="Why Dubai Businesses Choose BrandStory as Their Drupal Agency" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -817,7 +817,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -846,7 +846,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -876,7 +876,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -906,7 +906,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -936,7 +936,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -971,7 +971,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

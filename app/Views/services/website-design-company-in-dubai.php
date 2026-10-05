@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/web-design.css") ?>">
 
@@ -55,13 +55,13 @@
   <div class="digital-exp-slider-wrap">
     <div class="digital-exp-slider-track">
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-15.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-15.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-16.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-16.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-17.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-17.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       
     </div>
@@ -100,7 +100,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="craft-card">
           <div class="craft-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-01.webp") ?>" alt="Expert-led Designs" class="craft-card-img">
+            <img src="<?= base_url("assets/images/web-design-01.webp") ?>" alt="Expert-led Designs" class="craft-card-img" width="400" height="280" loading="lazy" decoding="async">
             <div class="craft-card-icon">
               <svg width="39" height="24" viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M23.2274 21.7048V22.3686H15.81V21.7048H0V21.9778C0 22.4076 0.155994 22.8366 0.468742 23.1493C0.78073 23.4613 1.21047 23.618 1.64022 23.618H37.3596C37.7894 23.618 38.2184 23.462 38.5311 23.1493C38.8431 22.8373 38.9998 22.4076 38.9998 21.9778V21.7048H23.2274ZM5.23127 22.7976H3.59174V22.6026H5.23127V22.7976Z" fill="white"/>
@@ -122,7 +122,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="craft-card">
           <div class="craft-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-02.webp") ?>" alt="Built to Grow Business" class="craft-card-img">
+            <img src="<?= base_url("assets/images/web-design-02.webp") ?>" alt="Built to Grow Business" class="craft-card-img" width="400" height="280" loading="lazy" decoding="async">
             <div class="craft-card-icon">
               <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.10078 20.6488L8.60078 27.1488C8.75068 27.304 8.92999 27.4278 9.12825 27.513C9.3265 27.5982 9.53973 27.643 9.7555 27.6449C9.97127 27.6467 10.1852 27.6056 10.385 27.5239C10.5847 27.4422 10.7661 27.3215 10.9187 27.169C11.0712 27.0164 11.1919 26.835 11.2736 26.6352C11.3553 26.4355 11.3964 26.2216 11.3946 26.0058C11.3927 25.79 11.3479 25.5768 11.2627 25.3785C11.1775 25.1803 11.0537 25.001 10.8985 24.8511L5.5474 19.4999L10.8985 14.1488C11.0537 13.9989 11.1775 13.8196 11.2627 13.6214C11.3479 13.4231 11.3927 13.2099 11.3946 12.9941C11.3964 12.7783 11.3553 12.5644 11.2736 12.3646C11.1919 12.1649 11.0712 11.9835 10.9187 11.8309C10.7661 11.6784 10.5847 11.5577 10.385 11.476C10.1852 11.3943 9.97127 11.3532 9.7555 11.355C9.53973 11.3569 9.3265 11.4017 9.12825 11.4869C8.92999 11.5721 8.75068 11.6959 8.60078 11.8511L2.10078 18.3511C1.79614 18.6558 1.625 19.0691 1.625 19.4999C1.625 19.9308 1.79614 20.3441 2.10078 20.6488Z" fill="white"/>
@@ -146,7 +146,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="craft-card">
           <div class="craft-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-03.webp") ?>" alt="Data-Driven Strategy" class="craft-card-img">
+            <img src="<?= base_url("assets/images/web-design-03.webp") ?>" alt="Data-Driven Strategy" class="craft-card-img" width="400" height="280" loading="lazy" decoding="async">
             <div class="craft-card-icon">
               <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <mask id="mask0_280_24861" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="39" height="39">
@@ -173,7 +173,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="craft-card">
           <div class="craft-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-04.webp") ?>" alt="Conversion-Focused Builds" class="craft-card-img">
+            <img src="<?= base_url("assets/images/web-design-04.webp") ?>" alt="Conversion-Focused Builds" class="craft-card-img" width="400" height="280" loading="lazy" decoding="async">
             <div class="craft-card-icon">
              <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_280_24876)">
@@ -202,7 +202,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="craft-card">
           <div class="craft-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-05.webp") ?>" alt="Long-Term Partnership" class="craft-card-img">
+            <img src="<?= base_url("assets/images/web-design-05.webp") ?>" alt="Long-Term Partnership" class="craft-card-img" width="400" height="280" loading="lazy" decoding="async">
             <div class="craft-card-icon">
               <svg width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M37.5554 31.694H36.1327V9.54688C36.1327 7.63831 34.489 6.08562 32.4683 6.08562H23.4236C22.4892 2.95344 21.0657 0 19.1839 0C17.3022 0 15.8787 2.95344 14.9443 6.08562H5.89956C3.87887 6.08562 2.23519 7.63831 2.23519 9.54688V31.694H0.8125C0.364 31.694 0 32.058 0 32.5065V34.2485C0 36.1587 1.55431 37.713 3.4645 37.713H34.9042C36.8144 37.713 38.3687 36.1587 38.3687 34.2485V32.5065C38.3679 32.058 38.0047 31.694 37.5554 31.694ZM24.7065 13.5216C25.6059 14.6128 26.6606 16.3954 26.6297 18.7533L23.5081 16.5011C24.1759 15.6699 24.6082 14.6437 24.7065 13.5216ZM20.9154 18.3016C20.9552 18.4015 21.0137 18.4958 21.0949 18.5762C21.1104 18.5916 22.4388 19.9591 21.9164 22.2503C21.4077 22.0781 20.7594 21.9895 20.1151 22.2633C19.7511 22.4177 19.4407 22.6655 19.1839 23.0035C18.928 22.6655 18.6168 22.4185 18.2528 22.2633C17.6077 21.9903 16.9601 22.0781 16.4515 22.2503C15.9364 19.9948 17.2161 18.6355 17.2729 18.5762C17.3534 18.4949 17.4127 18.4015 17.4525 18.3016C17.9977 18.4811 18.5786 18.5819 19.1839 18.5819C19.7892 18.5819 20.3694 18.4811 20.9154 18.3016ZM13.6606 13.5086C13.7564 14.6356 14.1895 15.6666 14.8598 16.5011L11.7357 18.7541C11.6992 16.3743 12.7571 14.5941 13.6606 13.5086ZM13.8369 11.0573C13.1349 11.609 9.27793 14.9199 10.27 20.3816C10.3204 20.6562 10.5072 20.8861 10.7656 20.9901C10.8639 21.0291 10.9671 21.0486 11.0695 21.0486C11.2377 21.0486 11.4042 20.9966 11.5448 20.8951L15.7861 17.8352C15.1702 18.6753 14.0335 20.7675 15.2108 23.7031C15.3042 23.9354 15.5009 24.1101 15.7406 24.1792C15.9802 24.2491 16.2419 24.2028 16.4442 24.0565C16.6725 23.8924 17.2591 23.6047 17.6199 23.7591C17.9766 23.9135 18.2528 24.5489 18.3771 25.5028C18.4299 25.9074 18.7752 26.2096 19.1831 26.2096C19.591 26.2096 19.9355 25.9066 19.9891 25.5028C20.1134 24.5489 20.3897 23.9135 20.7464 23.7591C21.1063 23.6056 21.6946 23.8924 21.918 24.0532C22.1211 24.2036 22.3803 24.2499 22.6232 24.1824C22.8654 24.1142 23.0628 23.9363 23.1562 23.7031C24.3327 20.7683 23.1969 18.6753 22.581 17.8352L26.8222 20.8951C26.9628 20.9966 27.1294 21.0486 27.2976 21.0486C27.3999 21.0486 27.5031 21.0291 27.6014 20.9901C27.8598 20.8861 28.0467 20.6562 28.0971 20.3816C29.0891 14.9199 25.2322 11.609 24.5302 11.0573C24.5017 10.8704 24.4701 10.6746 24.4359 10.4731H31.5656V29.0388H6.80144V10.4731H13.9311C13.897 10.6746 13.8653 10.8712 13.8369 11.0573ZM19.1839 1.625C20.7431 1.625 23.1059 9.72563 23.1059 13.0341C23.1059 15.197 21.346 16.9561 19.1839 16.9561C17.0219 16.9561 15.262 15.197 15.262 13.0341C15.262 9.72644 17.6247 1.625 19.1839 1.625ZM3.86019 9.54688C3.86019 8.5345 4.77506 7.71062 5.89956 7.71062H14.5039C14.4089 8.09656 14.3219 8.47681 14.2431 8.84812H5.98894C5.54044 8.84812 5.17644 9.21212 5.17644 9.66062V29.8513C5.17644 30.2998 5.54044 30.6638 5.98894 30.6638H32.3789C32.8274 30.6638 33.1914 30.2998 33.1914 29.8513V9.66062C33.1914 9.21212 32.8274 8.84812 32.3789 8.84812H24.1247C24.0451 8.47681 23.9582 8.09656 23.8639 7.71062H32.4683C33.5928 7.71062 34.5077 8.5345 34.5077 9.54688V31.694H34.1843C34.1819 31.694 34.1794 31.6956 34.1762 31.6956H24.1402C23.6917 31.6956 23.3277 32.0596 23.3277 32.5081V32.5089V32.656C23.3277 33.0127 22.9003 33.3141 22.3933 33.3141H15.9746C15.4676 33.3141 15.0402 33.0127 15.0402 32.656V32.5098V32.5081C15.0402 32.0596 14.6762 31.6956 14.2277 31.6956H4.19169C4.18925 31.6956 4.18681 31.694 4.18356 31.694H3.86019V9.54688ZM36.7429 34.2485C36.7429 35.2625 35.9174 36.088 34.9034 36.088H3.46369C2.44969 36.088 1.62419 35.2625 1.62419 34.2485V33.319H3.03956C3.042 33.319 3.04444 33.3206 3.04769 33.3206H13.5387C13.8596 34.2542 14.8241 34.9391 15.9746 34.9391H22.3933C23.5438 34.9391 24.5074 34.2542 24.8292 33.3206H35.3202C35.3226 33.3206 35.3251 33.319 35.3283 33.319H36.7437L36.7429 34.2485Z" fill="white"/>
@@ -252,7 +252,7 @@
       <!-- Left: Mobile Image Mockup -->
       <div class="col-lg-5">
         <div class="mobile-mockup-wrap">
-          <img src="<?= base_url("assets/images/web-design-18.webp") ?>" alt="What's Standing Between You and Digital Growth" class="img-fluid mobile-mockup-img">
+          <img src="<?= base_url("assets/images/web-design-18.webp") ?>" alt="What's Standing Between You and Digital Growth" class="img-fluid mobile-mockup-img" width="500" height="400" loading="lazy" decoding="async">
         </div>
       </div>
 
@@ -335,7 +335,7 @@
       <!-- Right Column: Process Illustration Card -->
       <div class="col-lg-7">
         <div class="process-img-card">
-          <img src="<?= base_url("assets/images/web-design-19.webp") ?>" alt="User Research Process Illustration" class="process-img" id="processStepImg">
+          <img src="<?= base_url("assets/images/web-design-19.webp") ?>" alt="User Research Process Illustration" class="process-img" id="processStepImg" width="500" height="350" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -1162,7 +1162,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-08.webp") ?>" alt="E-commerce Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-08.webp") ?>" alt="E-commerce Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">E-commerce Website</h3>
 
@@ -1188,7 +1188,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-09.webp") ?>" alt="Healthcare Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-09.webp") ?>" alt="Healthcare Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Healthcare Website</h3>
 
@@ -1214,7 +1214,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-10.webp") ?>" alt="Real Estate Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-10.webp") ?>" alt="Real Estate Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Real Estate Website</h3>
 
@@ -1240,7 +1240,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-11.webp") ?>" alt="Travel and Tourism Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-11.webp") ?>" alt="Travel and Tourism Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Travel and Tourism Website</h3>
 
@@ -1266,7 +1266,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-12.webp") ?>" alt="Technology Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-12.webp") ?>" alt="Technology Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Technology Website</h3>
 
@@ -1292,7 +1292,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-13.webp") ?>" alt="Fintech Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-13.webp") ?>" alt="Fintech Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Fintech Website</h3>
 
@@ -1326,7 +1326,7 @@
       <!-- Left Column: Image -->
       <div class="col-lg-6">
         <div class="why-choose-img-wrap">
-          <img src="<?= base_url("assets/images/web-design-14.webp") ?>" alt="Why Choose BrandStory as Your Website Development Agency" class="img-fluid why-choose-img">
+          <img src="<?= base_url("assets/images/web-design-14.webp") ?>" alt="Why Choose BrandStory as Your Website Development Agency" class="img-fluid why-choose-img" width="500" height="400" loading="lazy" decoding="async">
         </div>
       </div>
 
@@ -1378,7 +1378,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1407,7 +1407,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1437,7 +1437,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1467,7 +1467,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1497,7 +1497,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1539,7 +1539,7 @@ include __DIR__ . '/../component/client_reviews.php';
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

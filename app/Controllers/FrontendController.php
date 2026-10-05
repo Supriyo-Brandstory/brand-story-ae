@@ -238,13 +238,13 @@ class FrontendController extends Controller
         $meta = [];
         return $this->view('services/social-media-marketing-agency-in-dubai', ['meta' => $meta]);
     }
-    public function seoServicesCompanyDubai()
-    {
-        $meta = [
-            'classname' => 'dm-agency-dubai'
-        ];
-        return $this->view('services/seo-services-company-in-dubai', ['meta' => $meta]);
-    }
+    // public function seoServicesCompanyDubai()
+    // {
+    //     $meta = [
+    //         'classname' => 'dm-agency-dubai'
+    //     ];
+    //     return $this->view('services/seo-services-company-in-dubai', ['meta' => $meta]);
+    // }
     public function aiSeoAgencyMumbai()
     {
         $meta = [
@@ -555,7 +555,7 @@ class FrontendController extends Controller
     public function ecommerceDevelopmentCompanyInDubai()
     {
         $meta = [
-            'classname' => 'dm-page service-page'
+            'classname' => 'dm-agency-dubai'
         ];
         return $this->view('services/ecommerce-development-company-dubai', ['meta' => $meta]);
     }

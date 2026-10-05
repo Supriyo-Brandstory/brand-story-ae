@@ -25,7 +25,7 @@
                     <a href="/about/" class="Performance-Driven-btn mt-3" bis_skin_checked="1">➤ Know About Us</a>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Digital-Marketing-for-Dentists-banner-img2.webp" alt="Dental Marketing Agency" class="img-fluid" style="border-radius: 20px; background-color: #222;">
+                    <img src="/assets/images/industries/Digital-Marketing-for-Dentists-banner-img2.webp" alt="Dental Marketing Agency" class="img-fluid" style="border-radius: 20px; background-color: #222;" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
            <div class="row mt-4 mt-lg-5 border-top ">
@@ -69,7 +69,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Search Engine Optimization</h3>
                         <p>When patients search for treatments like “teeth whitening near me” or “best dentist in Dubai,” your clinic needs to be visible and credible. Our dental SEO strategies are built to improve local rankings, strengthen trust, and drive consistent patient inquiries from high-intent searches.</p>
@@ -80,7 +80,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Social Media Marketing</h3>
                         <p>Patients often evaluate clinics through social platforms before making a decision. We create professional, trust-focused social media strategies that highlight your expertise, patient experience, and treatments—helping your clinic build credibility and stay top-of-mind.</p>
@@ -91,7 +91,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Pay Per Click (PPC)</h3>
                         <p>Patients searching for immediate treatments require fast and relevant results. Our PPC campaigns place your clinic at the top of search results, targeting high-intent keywords and locations to drive immediate appointment bookings with optimized cost efficiency.</p>
@@ -102,7 +102,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Branding</h3>
                         <p>Building a strong dental brand is essential for long-term growth. We create cohesive brand positioning, clear messaging, and consistent patient experiences that reinforce trust, improve recall, and encourage ongoing engagement and repeat visits.</p>
@@ -113,7 +113,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Performance Marketing</h3>
                         <p>We focus on measurable outcomes that matter to your practice—patient acquisition cost, conversion rates, and return on investment. Our performance marketing strategies are designed to deliver predictable growth and maximize the efficiency of your marketing spend.</p>
@@ -124,7 +124,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Web Design & Development</h3>
                         <p>Your website is often the first interaction a patient has with your clinic. We design clean, professional, and conversion-focused dental websites that build trust, simplify navigation, and guide visitors toward booking an appointment.</p>
@@ -146,7 +146,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Content Marketing">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Content Marketing" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">1</div>
                     </div>
                     <div class="ppc-card-body">
@@ -164,7 +164,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Lead Generation">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Lead Generation" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">2</div>
                     </div>
                     <div class="ppc-card-body">
@@ -182,7 +182,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Creative Advertising">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Creative Advertising" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">3</div>
                     </div>
                     <div class="ppc-card-body">
@@ -200,7 +200,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Video Production">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Video Production" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">4</div>
                     </div>
                     <div class="ppc-card-body">
@@ -218,7 +218,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="UI/UX Design">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="UI/UX Design" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">5</div>
                     </div>
                     <div class="ppc-card-body">
@@ -236,7 +236,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Local SEO">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Local SEO" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">6</div>
                     </div>
                     <div class="ppc-card-body">
@@ -254,7 +254,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Conversion Rate Optimisation">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Conversion Rate Optimisation" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">7</div>
                     </div>
                     <div class="ppc-card-body">
@@ -272,7 +272,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="WhatsApp Marketing">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="WhatsApp Marketing" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">8</div>
                     </div>
                     <div class="ppc-card-body">
@@ -290,7 +290,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-reputation-management-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Reputation Management">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Reputation Management" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">9</div>
                     </div>
                     <div class="ppc-card-body">
@@ -308,7 +308,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-crm-implementation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="CRM Implementation">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="CRM Implementation" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">10</div>
                     </div>
                     <div class="ppc-card-body">
@@ -326,7 +326,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-marketing-automation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Marketing Automation">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Marketing Automation" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">11</div>
                     </div>
                     <div class="ppc-card-body">
@@ -344,7 +344,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-seo-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="SEO Audit">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="SEO Audit" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">12</div>
                     </div>
                     <div class="ppc-card-body">
@@ -362,7 +362,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Digital Marketing Audit">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Digital Marketing Audit" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">13</div>
                     </div>
                     <div class="ppc-card-body">
@@ -380,7 +380,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/dentist-appointment-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Appointment Funnel Optimization">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Appointment Funnel Optimization" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">14</div>
                     </div>
                     <div class="ppc-card-body">
@@ -409,7 +409,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/Digital-Marketing-for-Dentists-banner-img3.webp" alt="Dental Practice Growth" style="border-radius: 20px; background-color: #222;" class="img-fluid">
+                    <img src="/assets/images/industries/Digital-Marketing-for-Dentists-banner-img3.webp" alt="Dental Practice Growth" style="border-radius: 20px; background-color: #222;" class="img-fluid" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -432,78 +432,78 @@
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Branding & Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
@@ -538,7 +538,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns & strategies. Helping us build trust and reach more clients in the UAE.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">CoverB</p>
@@ -546,7 +546,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">FourNxt</p>
@@ -554,7 +554,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Sherpa Communications</p>
@@ -562,7 +562,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">Take Leap</p>
@@ -570,7 +570,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">Uno Capital</p>
@@ -621,7 +621,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                                 <span class="badge-promise">Advantage you get</span>
                                 <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                     <span>Expert Consultant</span>
                                 </div>
                             </div>
@@ -815,7 +815,7 @@
 
         <div class="select-option-btn-wrapper mt-4 b">
             <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">
-                Select Option <img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
+                Select Option <img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow" width="16" height="16" loading="lazy" decoding="async">
             </a>
         </div>
     </div>
@@ -869,19 +869,19 @@
 
         <ul class="evolution-benefits text-white">
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Reach high-intent patients exactly when they are searching for treatments.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Build trust through strong online presence and patient-focused content.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Optimize campaigns for better appointment conversions and ROI.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Leverage data-driven insights to continuously improve performance.</span>
             </li>
         </ul>
@@ -936,7 +936,7 @@
 
             <div class="col-lg-5">
                 <div class="launch-illustration-wrap">
-                    <img src="/assets/images/analities-2.png" alt="Dental Digital Marketing Dubai" id="launch-illustration">
+                    <img src="/assets/images/analities-2.png" alt="Dental Digital Marketing Dubai" id="launch-illustration" width="500" height="450" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

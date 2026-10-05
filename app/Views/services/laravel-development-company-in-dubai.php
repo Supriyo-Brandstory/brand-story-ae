@@ -138,7 +138,7 @@ $laravel_faqs = [
             </div>
             <div class="col-md-6">
                 <div class="best-img">
-                    <img src="/assets/images/service/website-design/web-design-wordpress.webp" class="img-fluid rounded" alt="Laravel Development Dubai">
+                    <img src="/assets/images/service/website-design/web-design-wordpress.webp" class="img-fluid rounded" alt="Laravel Development Dubai" width="550" height="380" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -161,10 +161,10 @@ $laravel_faqs = [
                         <div class="service-card h-100" style="border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 15px; padding: 30px;">
                             <div class="row mb-4">
                                 <div class="col-6 text-start">
-                                    <img src="<?= $service['icon'] ?>" alt="<?= $service['name'] ?>" class="img-fluid" style="width: 80px; height: 80px; object-fit: contain;">
+                                    <img src="<?= $service['icon'] ?>" alt="<?= $service['name'] ?>" class="img-fluid" width="80" height="80" loading="lazy" decoding="async" style="width: 80px; height: 80px; object-fit: contain;">
                                 </div>
                                 <div class="col-6 text-end">
-                                    <img src="/assets/images/icons/web-development-arrow.svg" alt="Arrow" class="img-fluid" style="width: 30px;">
+                                    <img src="/assets/images/icons/web-development-arrow.svg" alt="Arrow" class="img-fluid" width="30" height="30" loading="lazy" decoding="async" style="width: 30px;">
                                 </div>
                             </div>
                             <h3 class="h5 text-white mb-3" style="opacity: 1 !important;"><?= $service['name'] ?></h3>
@@ -189,42 +189,42 @@ $laravel_faqs = [
         <div class="row g-4">
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/search-engine.svg" alt="SEO Friendly" width="70" class="mb-3">
+                    <img src="/assets/images/icons/search-engine.svg" alt="SEO Friendly" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">SEO Friendly</h3>
                     <p class="text-white-50">We build applications with search engines in mind, ensuring high visibility and performance from day one.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/growth.svg" alt="Scalable" width="70" class="mb-3">
+                    <img src="/assets/images/icons/growth.svg" alt="Scalable" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">Highly Scalable</h3>
                     <p class="text-white-50">Our Laravel solutions are designed to grow with your business, handling increasing traffic and data effortlessly.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/cms.svg" alt="Manage" width="70" class="mb-3">
+                    <img src="/assets/images/icons/cms.svg" alt="Manage" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">Easy to Manage</h3>
                     <p class="text-white-50">With an intuitive backend architecture, managing your content and business data becomes a seamless experience.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/backend.svg" alt="Secure" width="70" class="mb-3">
+                    <img src="/assets/images/icons/backend.svg" alt="Secure" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">Advanced Security</h3>
                     <p class="text-white-50">Leveraging Laravel's built-in security features and our custom hardening to keep your enterprise data safe.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/laravel.svg" alt="Expert Team" width="70" class="mb-3">
+                    <img src="/assets/images/icons/laravel.svg" alt="Expert Team" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">Expert Laravel Team</h3>
                     <p class="text-white-50">Our certified developers follow industry best practices, clean code, and agile methodologies for every project.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex">
                 <div class="wd-partner-main text-center p-4 w-100" style="background: rgba(255,255,255,0.05); border-radius: 20px; transition: 0.3s;">
-                    <img src="/assets/images/icons/web-development-arrow.svg" alt="Timely Delivery" width="70" class="mb-3">
+                    <img src="/assets/images/icons/web-development-arrow.svg" alt="Timely Delivery" width="70" height="70" loading="lazy" decoding="async" class="mb-3">
                     <h3 class="text-white h4 mb-3">Timely Delivery</h3>
                     <p class="text-white-50">We prioritize your business deadlines, ensuring rapid development without compromising on quality or security.</p>
                 </div>
@@ -251,7 +251,7 @@ $laravel_faqs = [
                         <div class="case-study-scroll-item mb-5">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= $project['image'] ?>" alt="<?= $project['name'] ?>" style="border-radius: 15px;">
+                                    <img class="w-100 dm-blog-img" src="<?= $project['image'] ?>" alt="<?= $project['name'] ?>" width="400" height="250" loading="lazy" decoding="async" style="border-radius: 15px;">
                                     <strong><?= $project['category'] ?></strong>
                                 </div>
                                 <h3 class="mt-3"><a href="<?= $project['link'] ?>" class="text-white text-decoration-none"><?= $project['name'] ?></a></h3>
@@ -363,7 +363,7 @@ include __DIR__ . '/../component/client_reviews.php';
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png" alt="Education">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img1.png" alt="Education" width="350" height="250" loading="lazy" decoding="async">
                         <h3 class="text-white text-center">Education</h3>
                     </div>
                     <div class="industries-cnts">
@@ -375,7 +375,7 @@ include __DIR__ . '/../component/client_reviews.php';
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png" alt="eCommerce">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img2.png" alt="eCommerce" width="350" height="250" loading="lazy" decoding="async">
                         <h3 class="text-white text-center">eCommerce</h3>
                     </div>
                     <div class="industries-cnts">
@@ -387,7 +387,7 @@ include __DIR__ . '/../component/client_reviews.php';
             <div class="col-lg-4 col-md-6">
                 <div class="industries-main position-relative">
                     <div class="industires-image position-relative">
-                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png" alt="Real Estate">
+                        <img class="w-100" src="/assets/images/dm-agency-dubai/industries-img4.png" alt="Real Estate" width="350" height="250" loading="lazy" decoding="async">
                         <h3 class="text-white text-center">Real Estate</h3>
                     </div>
                     <div class="industries-cnts">
@@ -415,7 +415,7 @@ include __DIR__ . '/../component/client_reviews.php';
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="google-review-box p-4" style="background: rgba(255,255,255,0.05); border-radius: 15px;">
-                    <img src="/assets/images/icons/google.svg" width="50" class="mb-3">
+                    <img src="/assets/images/icons/google.svg" width="50" height="50" loading="lazy" decoding="async" class="mb-3" alt="Google Review">
                     <div class="h4 text-warning mb-2">★★★★★</div>
                     <p class="text-white fs-18">"BrandStory's Laravel team delivered our project ahead of schedule with exceptional quality. Highly recommended!"</p>
                     <small class="text-white-50">- Satisfied Client from Dubai</small>

@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -38,7 +38,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/ecommerce-marketing-services.webp" alt="eCommerce Marketing Services" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/industries/ecommerce-marketing-services.webp" alt="eCommerce Marketing Services" class="img-fluid" style="border-radius: 20px;" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top ">
@@ -76,7 +76,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Search Engine Optimization</h3>
                             <p>When potential customers search for products online in Dubai, visibility becomes everything- if your store isn’t showing up, you’re losing sales. At BrandStory, we create powerful eCommerce SEO strategies that position your store at the top of search results, attract high-intent shoppers, and turn organic traffic into consistent revenue growth.</p>
@@ -87,7 +87,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Social Media Marketing</h3>
                             <p>In today’s digital-first world, social media is a key driver of eCommerce growth. It’s where customers discover products, engage with brands, and make buying decisions. At BrandStory, we craft performance-focused social media strategies tailored for eCommerce, combining data, creativity, and targeted campaigns to boost engagement and drive online sales.</p>
@@ -97,7 +97,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Pay Per Click (PPC)</h3>
                             <p>In eCommerce, reaching the right customer at the right moment makes all the difference. Paid advertising allows your products to appear when shoppers are actively searching and we ensure those opportunities convert. Our PPC experts create data-driven campaigns that target high-intent audiences, optimize every click, and maximize your return on ad spend.</p>
@@ -107,7 +107,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Email Marketing</h3>
                             <p>In eCommerce, growth doesn’t stop at the first purchase- it’s driven by consistent engagement. Our email marketing strategies are built to nurture relationships, re-engage audiences, and turn subscribers into repeat buyers. We create data-driven campaigns that go beyond basic promotions, focusing on personalization, automation, and lifecycle marketing.</p>
@@ -117,7 +117,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Performance Marketing</h3>
                             <p>At BrandStory, we focus on what truly matters in eCommerce marketing results. Our performance marketing approach is built around key business metrics like cost per acquisition, conversion rates, customer lifetime value, and return on ad spend. By combining data-driven strategies with continuous optimization, we create campaigns that deliver sustainable growth.</p>
@@ -127,7 +127,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Web Design &amp; Development</h3>
                             <p>We create high-performing eCommerce websites designed to convert at every touchpoint. We combine impactful design, seamless user experience, and strategic structure to build online stores that not only look impressive but also drive results- turning visitors into customers and customers into loyal brand advocates.</p>
@@ -149,7 +149,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">1</div>
                         </div>
                         <div class="ppc-card-body">
@@ -168,7 +168,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-branding-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">2</div>
                         </div>
                         <div class="ppc-card-body">
@@ -186,7 +186,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">3</div>
                         </div>
                         <div class="ppc-card-body">
@@ -204,7 +204,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">4</div>
                         </div>
                         <div class="ppc-card-body">
@@ -222,7 +222,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">5</div>
                         </div>
                         <div class="ppc-card-body">
@@ -240,7 +240,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/e-commerce-logo-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">6</div>
                         </div>
                         <div class="ppc-card-body">
@@ -258,7 +258,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-market-research-agency-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">7</div>
                         </div>
                         <div class="ppc-card-body">
@@ -276,7 +276,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-product-page-optimization-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">8</div>
                         </div>
                         <div class="ppc-card-body">
@@ -294,7 +294,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-lead-generation-campaigns-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">9</div>
                         </div>
                         <div class="ppc-card-body">
@@ -312,7 +312,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-whatsapp-chatbot-marketing-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">10</div>
                         </div>
                         <div class="ppc-card-body">
@@ -330,7 +330,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-reputation-management-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">11</div>
                         </div>
                         <div class="ppc-card-body">
@@ -348,7 +348,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/ecommerce-influencer-marketing-agency-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">12</div>
                         </div>
                         <div class="ppc-card-body">
@@ -379,7 +379,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/E-commerce-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/industries/E-commerce-Marketing-Agency-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
 
@@ -411,7 +411,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -440,7 +440,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -470,7 +470,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -500,7 +500,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -530,7 +530,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -581,7 +581,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory transformed our online store with targeted campaigns that drove real sales. Their eCommerce strategies helped us scale fast in Dubai's competitive market.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">ShopZone</p>
@@ -589,7 +589,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Our revenue doubled in 90 days thanks to their eCommerce marketing expertise. Product page conversions and cart recovery campaigns exceeded every expectation. Highly recommend!</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">LuxeCart</p>
@@ -597,7 +597,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory's team boosted our online sales by 6X in just five months. Their eCommerce strategies truly dominate the Dubai market!</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Urban Essentials Dubai</p>
@@ -605,7 +605,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They increased our product enquiries and order volume within weeks. BrandStory has been our trusted eCommerce marketing partner for eight months.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">GiftNest</p>
@@ -613,7 +613,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Partnering with BrandStory elevated our eCommerce game completely. Their creative team delivered campaigns that are both innovative and results-driven for our brand.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">StyleHub UAE</p>
@@ -664,7 +664,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                                 <span class="badge-promise">Why Choose Us</span>
                                 <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2">
+                                    <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                     <span>Proven Strategies</span>
                                 </div>
                             </div>
@@ -743,19 +743,19 @@
 
         <ul class="evolution-benefits text-white">
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Deploy autonomous AI tools that segment audiences, predict purchase intent, and convert high-intent shoppers into loyal repeat customers.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Adopt next-gen shopping experiences like spatial commerce and live streams that engage UAE consumers and drive instant purchase decisions.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Expand your customer base with precision campaigns targeting shoppers across the GCC, Europe, and Asia who are eager to buy from Dubai-based stores.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Build trust instantly with dynamic synthetic UGC, verified reviews, and influencer content that turn satisfied customers into your most powerful marketing channel.</span>
             </li>
         </ul>

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/web-design.css") ?>">
 
@@ -41,7 +41,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
                     <img src="<?= base_url('assets/images/laravel-01.webp') ?>" width="1332" height="1302"
-                        alt="Expert Laravel Web Development in Dubai" class="img-fluid premium-perf-img">
+                        alt="Expert Laravel Web Development in Dubai" class="img-fluid premium-perf-img" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: Content -->
@@ -548,13 +548,13 @@
   <div class="digital-exp-slider-wrap">
     <div class="digital-exp-slider-track">
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-15.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-15.webp") ?>" alt="BrandStory Web Design Case Study 1" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-16.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-16.webp") ?>" alt="BrandStory Web Design Case Study 2" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       <div class="portfolio-scroll-card">
-        <img src="<?= base_url("assets/images/web-design-17.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img">
+        <img src="<?= base_url("assets/images/web-design-17.webp") ?>" alt="BrandStory Web Design Case Study 3" class="portfolio-card-img" width="380" height="240" loading="lazy" decoding="async">
       </div>
       
     </div>
@@ -647,7 +647,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/laravel-03.webp") ?>" alt="Discovery Phase">
+              <img src="<?= base_url("assets/images/laravel-03.webp") ?>" alt="Discovery Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We start by thoroughly analyzing your business goals, target audience, and functional requirements to craft a tailored eCommerce strategy. Our team establishes an architectural roadmap ensuring seamless user journeys, high performance, and long-term scalability.
@@ -668,7 +668,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Design Phase">
+              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Design Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our design team translates user journeys into intuitive, modern interfaces and responsive prototypes. Concurrently, our solution architects map out the database schema, API contracts, and MVC structure for optimal scalability and user experience.
@@ -689,7 +689,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Development Phase">
+              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Development Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our certified developers write clean, maintainable, and modular code using Laravel's latest standards. We build robust business logic, custom backend panels, RESTful APIs, third-party integrations, and automated background jobs tailored to your requirements.
@@ -710,7 +710,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Testing Phase">
+              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Testing Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We conduct extensive quality assurance testing, including unit tests, automated integration testing, performance benchmarking, cross-browser compatibility, and rigorous security vulnerability scans to guarantee a bug-free, high-performance application.
@@ -731,7 +731,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Launch Phase">
+              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Launch Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We configure zero-downtime CI/CD deployment pipelines, server environments, caching layers, and database migrations. Post-launch, we provide continuous monitoring, regular security patches, and performance tuning to keep your Laravel application running at its best.
@@ -754,7 +754,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-08.webp") ?>" alt="E-commerce Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-08.webp") ?>" alt="E-commerce Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">E-commerce Website</h3>
 
@@ -780,7 +780,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-09.webp") ?>" alt="Healthcare Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-09.webp") ?>" alt="Healthcare Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Healthcare Website</h3>
 
@@ -806,7 +806,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-10.webp") ?>" alt="Real Estate Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-10.webp") ?>" alt="Real Estate Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Real Estate Website</h3>
 
@@ -832,7 +832,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-11.webp") ?>" alt="Travel and Tourism Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-11.webp") ?>" alt="Travel and Tourism Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Travel and Tourism Website</h3>
 
@@ -858,7 +858,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-12.webp") ?>" alt="Technology Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-12.webp") ?>" alt="Technology Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Technology Website</h3>
 
@@ -884,7 +884,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="industry-card">
           <div class="industry-card-img-wrap">
-            <img src="<?= base_url("assets/images/web-design-13.webp") ?>" alt="Fintech Website" class="industry-card-img img-fluid">
+            <img src="<?= base_url("assets/images/web-design-13.webp") ?>" alt="Fintech Website" class="industry-card-img img-fluid" width="380" height="260" loading="lazy" decoding="async">
           </div>
           <h3 class="industry-card-title">Fintech Website</h3>
 
@@ -934,7 +934,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -963,7 +963,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -993,7 +993,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1023,7 +1023,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1053,7 +1053,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1094,7 +1094,7 @@ include __DIR__ . '/../component/client_reviews.php';
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

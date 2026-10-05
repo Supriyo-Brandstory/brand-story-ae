@@ -28,7 +28,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/automotive-2.webp" alt="Automotive Marketing Agency" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/industries/automotive-2.webp" alt="Automotive Marketing Agency" class="img-fluid" style="border-radius: 20px;" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top ">
@@ -68,7 +68,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Search Engine Optimization</h3>
                             <p>When a potential buyer searches "car dealerships in Dubai" or "best SUVs in UAE," the question isn't whether they'll find a vehicle—it's whether they'll find yours. At BrandStory, our automotive SEO strategies are built to put your dealership at the top of search results and keep it there.</p>
@@ -79,7 +79,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Social Media Marketing</h3>
                             <p>In today's market, social media isn't optional—it's where your next customer is waiting. At BrandStory, we build data-driven social media strategies designed specifically for automotive dealers, distributors, and service providers. We understand what campaigns drive genuine enquiries and showroom visits.</p>
@@ -89,7 +89,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Pay Per Click (PPC)</h3>
                             <p>In automotive sales, timing is everything. Pay-per-click advertising puts your brand in front of the right buyers at the exact moment they're searching for a vehicle, and BrandStory makes sure every click counts. Our automotive PPC specialists build high-performance paid advertising campaigns.</p>
@@ -99,7 +99,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Content Marketing</h3>
                             <p>In automotive marketing, the fortune is in the follow-up, and BrandStory's content marketing service ensures you never miss an opportunity to connect, nurture, and convert your leads into loyal customers. We design and manage robust, data-driven content marketing campaigns that go far beyond generic promotion.</p>
@@ -109,7 +109,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Performance Marketing</h3>
                             <p>At BrandStory, we believe automotive marketing should be held to one standard above all else performance. Our performance marketing service is built around the outcomes that matter most to your automotive business—cost per lead, lead quality, test drive bookings, and return on ad spend.</p>
@@ -119,7 +119,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Web Design & Development</h3>
                             <p>BrandStory designs automotive websites that make every interaction count. We build visually stunning, strategically structured websites that are engineered to perform combining sleek design, intuitive user experience, and conversion optimization to turn your website traffic into qualified leads.</p>
@@ -142,7 +142,7 @@
                   
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-uiux-design-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Remarketing">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Remarketing" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">1</div>
                         </div>
                         <div class="ppc-card-body">
@@ -160,7 +160,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-branding-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Geo-Targeting">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Geo-Targeting" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">2</div>
                         </div>
                         <div class="ppc-card-body">
@@ -178,7 +178,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-lead-generation-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Seasonal">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Seasonal" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">3</div>
                         </div>
                         <div class="ppc-card-body">
@@ -196,7 +196,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-client-funnel-optimization-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Ad Extensions">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Ad Extensions" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">4</div>
                         </div>
                         <div class="ppc-card-body">
@@ -214,7 +214,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-local-seo-services-in-dubai-uae/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Video Ads">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Video Ads" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">5</div>
                         </div>
                         <div class="ppc-card-body">
@@ -232,7 +232,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-reputation-management-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Shopping Ads">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Shopping Ads" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">6</div>
                         </div>
                         <div class="ppc-card-body">
@@ -250,7 +250,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-whatsapp-marketing-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="App Promotion">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="App Promotion" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">7</div>
                         </div>
                         <div class="ppc-card-body">
@@ -268,7 +268,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-marketing-automation-services-in-dubai/'" style="cursor:pointer;">
                         <div class="ppc-stack-icon-wrap">
-                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Voice Search">
+                            <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Voice Search" width="48" height="48" loading="lazy" decoding="async">
                             <div class="card-num-badge">8</div>
                         </div>
                         <div class="ppc-card-body">
@@ -285,7 +285,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-cro-services-in-dubai/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="360° Showrooms">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="360° Showrooms" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">9</div>
                     </div>
                     <div class="ppc-card-body">
@@ -302,7 +302,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-seo-audit-services-in-dubai/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="WhatsApp Chatbot">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="WhatsApp Chatbot" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">10</div>
                     </div>
                     <div class="ppc-card-body">
@@ -319,7 +319,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-marketing-audit-services-in-dubai/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Reputation Management">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Reputation Management" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">11</div>
                     </div>
                     <div class="ppc-card-body">
@@ -336,7 +336,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/automotive-creative-advertising-services-in-dubai/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Influencer Marketing">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" alt="Influencer Marketing" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">12</div>
                     </div>
                     <div class="ppc-card-body">
@@ -365,7 +365,7 @@
                         <b>Complete End-to-End Service:</b> From brand building and lead generation to campaign analytics and continuous optimization, BrandStory delivers a fully integrated digital marketing solution that covers every aspect of your automotive marketing needs under one roof.</p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/automotive-3.webp" alt="Automotive marketing agency in Dubai" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/industries/automotive-3.webp" alt="Automotive marketing agency in Dubai" style="border-radius: 20px;" class="img-fluid" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
 
@@ -388,78 +388,78 @@
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales—BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/e-commerce/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/e-commerce/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Branding &amp; Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br>TravelEX faced growing competition in UAE's financial services market—BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/travel-agency/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/travel-agency/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br>Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings—BrandStory delivered a paid marketing and local SEO strategy that put them ahead of the competition and increased revenue through targeted search visibility.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/hotel/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/hotel/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br>In Dubai's competitive education landscape, NIMS School needed more than visibility—they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness and turn interest into enrollments.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/education-institution/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/education-institution/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br>Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations—BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO &amp; PPC | Enhanced Global ROI</b> <br><br>NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing—BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/nanoprecise-sci-corp/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/nanoprecise-sci-corp/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory accelerated our showroom traffic and online enquiries with targeted campaigns. Their automotive expertise helped us connect with Dubai buyers.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">AutoHub</p>
@@ -493,7 +493,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Our dealership saw a 40% increase in test drive bookings within two months. Their social media strategy brought our brand to life across Dubai's automotive market.</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">MotorPro</p>
@@ -501,7 +501,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory's team delivered exceptional results, tripling our service bookings in just three months. They truly understand Dubai's auto market.</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Elite Motors Dubai</p>
@@ -509,7 +509,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They boosted our parts sales and service appointments significantly. BrandStory has been our trusted digital partner for eight months now.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">DriveZone</p>
@@ -517,7 +517,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Partnering with BrandStory transformed our online visibility. Their creative team delivers outstanding results that drive real showroom visits and sales conversions.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">Apex Autos</p>
@@ -568,7 +568,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                                 <span class="badge-promise">Why Choose Us</span>
                                 <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2">
+                                    <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                     <span>Proven Expertise</span>
                                 </div>
                             </div>
@@ -610,9 +610,9 @@
                         <div class="comp-body">
                             <div class="comp-item active">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
+                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>Generic Auto Campaigns</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Generic campaigns fail to capture Dubai's diverse automotive buyers, from luxury seekers to fleet managers, missing the nuances of this competitive market.</span>
@@ -620,9 +620,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
+                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>No Dubai Market Insight</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Without understanding Dubai's buyer preferences, seasonal trends, and competitive landscape, campaigns waste budget targeting the wrong audience segments entirely.</span>
@@ -630,9 +630,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;">
+                                    <img src="/assets/images/cross1.png" class="comp-icon" alt="No" style="width: 20px; height: 20px;" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>Low-Quality Leads</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Broad targeting brings tire-kickers and window shoppers instead of serious buyers, inflating your cost-per-lead while your sales team chases unqualified prospects daily.</span>
@@ -648,9 +648,9 @@
                         <div class="comp-body">
                             <div class="comp-item active">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
+                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>Dubai Automotive-Focused Strategy</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>We build custom digital strategies for Dubai's automotive sector, connecting dealerships, service centers, and parts suppliers with qualified buyers and fleet decision-makers.</span>
@@ -658,9 +658,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
+                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>Multi-Channel Automotive Campaigns</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Reach Dubai's car buyers across Google Search, YouTube, Instagram, Facebook, and LinkedIn with integrated campaigns that drive showroom visits and online enquiries.</span>
@@ -668,9 +668,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
+                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>High-Intent Buyer Generation</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Our lead qualification system filters prospects by vehicle preference, budget range, and purchase timeline, delivering sales-ready leads straight to your dealership team.</span>
@@ -678,9 +678,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
+                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>Vehicle Showcase Ad Creatives</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>High-impact ad creatives featuring vehicle walkarounds, test drive footage, and lifestyle imagery that showcase your inventory and generate qualified enquiries fast.</span>
@@ -688,9 +688,9 @@
                             </div>
                             <div class="comp-item">
                                 <div class="comp-item-header" onclick="this.parentElement.classList.toggle('active')">
-                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes">
+                                    <img src="/assets/images/check-circle.svg" class="comp-icon" alt="Yes" width="20" height="20" loading="lazy" decoding="async">
                                     <h6>ROI-Driven Budget Allocation</h6>
-                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle">
+                                    <img src="/assets/images/dm-agency-dubai/dm-faq-icon.svg" class="comp-arrow" alt="Toggle" width="16" height="16" loading="lazy" decoding="async">
                                 </div>
                                 <div class="comp-item-body">
                                     <span>Every dirham is optimized across channels and audiences to deliver the lowest cost per qualified lead, maximizing your return on ad spend and driving measurable sales growth.</span>
@@ -759,7 +759,7 @@
             </div>
 
             <div class="select-option-btn-wrapper mt-4 b">
-                <a href="/contact/" class="select-option-btn " style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
+                <a href="/contact/" class="select-option-btn " style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow" width="16" height="16" loading="lazy" decoding="async">
                 </a>
             </div>
         </div>
@@ -814,19 +814,19 @@
 
             <ul class="evolution-benefits text-white">
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Use AI-powered targeting to identify and engage high-intent car buyers and fleet managers across Dubai faster than your competitors.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Showcase your inventory with immersive 360° vehicle tours and video walkarounds that engage buyers before they visit your showroom.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Expand your reach with geo-targeted campaigns connecting you to expat buyers, tourists seeking rentals, and corporate fleet decision-makers.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Convert browsers into buyers with real-time testimonials, customer reviews, and social proof that build trust and accelerate purchase decisions.</span>
                 </li>
             </ul>
@@ -961,7 +961,7 @@
 
                 <div class="col-lg-5">
                     <div class="launch-illustration-wrap">
-                        <img src="/assets/images/analities-2.png" alt="Automotive Digital Marketing Dubai" id="launch-illustration">
+                        <img src="/assets/images/analities-2.png" alt="Automotive Digital Marketing Dubai" id="launch-illustration" width="500" height="450" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>

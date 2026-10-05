@@ -1,6 +1,6 @@
 
 
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -38,7 +38,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/healthcare-marketings.webp" alt="HubSpot Diamond Agency" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/industries/healthcare-marketings.webp" alt="HubSpot Diamond Agency" class="img-fluid" style="border-radius: 20px;" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
 <div class="row mt-4 mt-lg-5 border-top ">
@@ -76,7 +76,7 @@
   <div class="home-dummy-showcase-grid">
     <!-- Card 1 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/mediverse-marketing.webp') ?>" alt="Branding & Marketing Services for Mediverse" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/mediverse-marketing.webp') ?>" alt="Branding & Marketing Services for Mediverse" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -85,7 +85,7 @@
 
     <!-- Card 2 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/wellnova-marketing.webp') ?>" alt="Branding & Marketing for Wellnova" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/wellnova-marketing.webp') ?>" alt="Branding & Marketing for Wellnova" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -94,7 +94,7 @@
 
     <!-- Card 3 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/careonix-marketing.webp') ?>" alt="Branding & Marketing for Careonix" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/careonix-marketing.webp') ?>" alt="Branding & Marketing for Careonix" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -103,7 +103,7 @@
 
     <!-- Card 4 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/vitalcare-marketing.webp') ?>" alt="Branding & Marketing for VitalCare" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/vitalcare-marketing.webp') ?>" alt="Branding & Marketing for VitalCare" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -122,7 +122,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Search Engine Optimization</h3>
                         <p>When patients search for healthcare services in Dubai, visibility is critical. If your clinic or hospital isn’t appearing in search results, you’re missing valuable patient inquiries. At BrandStory, we implement healthcare-focused SEO strategies that improve rankings, build trust, and connect you with patients actively seeking your services.</p>
@@ -134,7 +134,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Social Media Marketing</h3>
                         <p>Social media plays a vital role in building trust and engaging with patients. It allows healthcare providers to share valuable information, create awareness, and strengthen their brand presence. We craft healthcare-specific social media strategies that enhance engagement, educate audiences, and build lasting patient relationships.</p>
@@ -145,7 +145,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Pay Per Click (PPC)</h3>
                         <p>Reaching patients at the right moment is essential in healthcare marketing. Our PPC campaigns are designed to target high-intent search queries, ensuring your services appear when patients need them most. We focus on optimizing every campaign to drive qualified leads, appointment bookings, and measurable ROI.</p>
@@ -156,7 +156,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Branding</h3>
                         <p>Strong branding is essential for building trust in the healthcare industry. Our healthcare branding strategies focus on creating a consistent identity, clear messaging, and a strong emotional connection with your audience. We position your brand as reliable and patient-centric through strategic communication that enhances credibility.</p>
@@ -167,7 +167,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Performance Marketing</h3>
                         <p>We focus on measurable outcomes that matter for healthcare providers- patient inquiries, appointment bookings, and engagement. Our performance marketing strategies are driven by data, ensuring every performance marketing campaign is optimized to deliver consistent growth and maximum efficiency.</p>
@@ -178,7 +178,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Web Design &amp; Development</h3>
                         <p>We design healthcare websites that are user-friendly, informative, and built to convert visitors into patients. By combining intuitive design, seamless navigation, and trust-building elements, we create websites that enhance patient experience and support your overall digital growth.</p>
@@ -201,7 +201,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">1</div>
                 </div>
                 <div class="ppc-card-body">
@@ -219,7 +219,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">2</div>
                 </div>
                 <div class="ppc-card-body">
@@ -237,7 +237,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">3</div>
                 </div>
                 <div class="ppc-card-body">
@@ -255,7 +255,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-appointment-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">4</div>
                 </div>
                 <div class="ppc-card-body">
@@ -273,7 +273,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">5</div>
                 </div>
                 <div class="ppc-card-body">
@@ -291,7 +291,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-reputation-management-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">6</div>
                 </div>
                 <div class="ppc-card-body">
@@ -309,7 +309,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-crm-implementation-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">7</div>
                 </div>
                 <div class="ppc-card-body">
@@ -327,7 +327,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">8</div>
                 </div>
                 <div class="ppc-card-body">
@@ -345,7 +345,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-marketing-automation-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">9</div>
                 </div>
                 <div class="ppc-card-body">
@@ -363,7 +363,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">10</div>
                 </div>
                 <div class="ppc-card-body">
@@ -381,7 +381,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-seo-audit-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">11</div>
                 </div>
                 <div class="ppc-card-body">
@@ -399,7 +399,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">12</div>
                 </div>
                 <div class="ppc-card-body">
@@ -417,7 +417,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">13</div>
                 </div>
                 <div class="ppc-card-body">
@@ -435,7 +435,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="ppc-service-card" onclick="window.location.href='/industries/healthcare-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
                 <div class="ppc-stack-icon-wrap">
-                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                    <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                     <div class="card-num-badge">14</div>
                 </div>
                 <div class="ppc-card-body">
@@ -491,7 +491,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                                 <span class="badge-promise">Advantage You Get</span>
                                 <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                     <span>Expert Consultant</span>
                                 </div>
                             </div>
@@ -530,15 +530,15 @@
             <!-- Card 1 -->
             <div class="col-12 col-md-6">
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" loading="lazy" decoding="async">
 
                     <h3>Campaigns That Convert</h3>
                     <p>We build full-funnel campaigns for hospitals, clinics, and specialists across the UAE. From awareness to appointment booking, we map how patients actually search, evaluate, and decide- then place your business at every critical touchpoint.</p>
                 </div>
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" loading="lazy" decoding="async">
 
                     <h3>Trust That Resonates</h3>
                     <p>Healthcare isn't sold. It's chosen. We position your business as the clear, credible choice through medical SEO that answers real patient questions, social proof that validates your expertise, and content that demonstrates authority without sounding promotional.</p>
@@ -550,8 +550,8 @@
 
                     <h3>Compliance That Protects</h3>
                     <p>In healthcare marketing, one misstep costs more than a lead- it costs your license. Our campaigns are built from the ground up around DHA and MOH guidelines, with every claim, ad, and landing page reviewed for regulatory alignment. You grow your patient base without growing risk.</p>
-                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4" loading="lazy" decoding="async">
 
                 </div>
             </div>
@@ -586,7 +586,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -615,7 +615,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -645,7 +645,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -675,7 +675,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -705,7 +705,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -756,7 +756,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory transformed our online store with targeted campaigns that drove real sales. Their eCommerce strategies helped us scale fast in Dubai's competitive market.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">ShopZone</p>
@@ -764,7 +764,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Our revenue doubled in 90 days thanks to their eCommerce marketing expertise. Product page conversions and cart recovery campaigns exceeded every expectation. Highly recommend!</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">LuxeCart</p>
@@ -772,7 +772,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory's team boosted our online sales by 6X in just five months. Their eCommerce strategies truly dominate the Dubai market!</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Urban Essentials Dubai</p>
@@ -780,7 +780,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They increased our product enquiries and order volume within weeks. BrandStory has been our trusted eCommerce marketing partner for eight months.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">GiftNest</p>
@@ -788,7 +788,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Partnering with BrandStory elevated our eCommerce game completely. Their creative team delivered campaigns that are both innovative and results-driven for our brand.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">StyleHub UAE</p>
@@ -850,19 +850,19 @@
 
             <ul class="evolution-benefits text-white">
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Leverage AI to personalize patient journeys, improve engagement, and increase appointment bookings.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Adopt digital tools like WhatsApp, chatbots, and teleconsultation to enhance patient communication.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Expand reach with targeted campaigns that connect with patients searching for specific treatments.</span>
                 </li>
                 <li>
-                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                    <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                     <span class="text-white">Build trust through reviews, testimonials, and educational content that positions your brand as reliable.</span>
                 </li>
             </ul>

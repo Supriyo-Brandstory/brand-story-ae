@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
     
 <section class="digital-marketing-agency-in-abu-dhabi">
     <div class="banner">
@@ -20,11 +20,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="position-relative mb-lg-0 mb-3 d-lg-block d-none w-100 radius-20">
-                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/about-abu-dhabi-1.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
+                        <img class="w-100 radius-20" src="<?= base_url('/assets/images/about-abu-dhabi-1.webp') ?>" width="540" height="400" loading="lazy" decoding="async" alt="Digital Marketing Agency in Abu Dhabi">
                     </div>
 
                     <div class="position-relative img-fluid radius-20 mb-lg-0 mb-3 d-lg-none d-block">
-                        <img class="img-fluid radius-20" src="<?= base_url('/assets/images/about-abu-dhabi.webp') ?>" alt="Digital Marketing Agency in Abu Dhabi">
+                        <img class="img-fluid radius-20" src="<?= base_url('/assets/images/about-abu-dhabi.webp') ?>" width="540" height="400" loading="lazy" decoding="async" alt="Digital Marketing Agency in Abu Dhabi">
                     </div>
 
                 </div>
@@ -671,7 +671,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="SEO Icon">
                         </div>
                         <h3>Search Engine Optimization</h3>
                         <p>Search Engine Optimization (SEO) is crucial for enhancing your website's visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>
@@ -681,7 +681,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="SMM Icon">
                         </div>
                         <h3>Social Media Marketing (SMM)</h3>
                         <p>Boost your brand's presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>
@@ -691,7 +691,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="PPC Icon">
                         </div>
                         <h3>Pay Per Click (PPC)</h3>
                         <p>We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>
@@ -701,7 +701,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Email Marketing Icon">
                         </div>
                         <h3>Email Marketing</h3>
                         <p>We offer email marketing services in Abu Dhabi to engage your audience, nurture prospects, and boost conversions. Our team designs tailored email campaigns and templates to establish direct communication with customers and maintain consistent engagement.</p>
@@ -711,7 +711,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Performance Marketing Icon">
                         </div>
                         <h3>Performance Marketing</h3>
                         <p>Performance marketing is a results-driven strategy focused on measurable business growth. We are the leading real growth-driver digital marketing agency in Abu Dhabi, offering comprehensive full-funnel performance marketing services.</p>
@@ -721,7 +721,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Web Design Icon">
                         </div>
                         <h3>Website Design & Development</h3>
                         <p>A website designed for exceptional user experience is crucial for converting visitors into leads. In Abu Dhabi, we build custom websites using the latest technologies, ensuring they are visually appealing, mobile-friendly, and easy to navigate.</p>
@@ -819,8 +819,8 @@
             </h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
-                    <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                    <img class="w-100 radius-20 d-lg-block d-none" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" width="540" height="400" loading="lazy" decoding="async" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
+                    <img class="w-100 radius-20 d-lg-none d-block mb-3" src="<?= base_url('assets/images/sets-us-abudhabi.webp') ?>" width="540" height="400" loading="lazy" decoding="async" alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
                 <div class="col-lg-7">
                     <div class="whychoose-faq">
@@ -892,48 +892,48 @@
             <div class="tools-list-wrapper">
                 <div class="tools-list">
                     <div class="tool-card" data-tool="gds">
-                        <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                        <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GDS" />
                         <span>Google Data Studio</span>
                     </div>
                     <div class="tool-card" data-tool="ga">
-                        <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                        <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GA" />
                         <span>Google Analytics</span>
                     </div>
                     <div class="tool-card" data-tool="hubspot">
-                        <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                        <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hubspot" />
                         <span>HubSpot</span>
                     </div>
                     <div class="tool-card" data-tool="semrush">
-                        <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                        <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Semrush" />
                         <span>SemRush</span>
                     </div>
                     <div class="tool-card" data-tool="surfer">
-                        <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                        <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="surfer" />
                         <span>Surfer SEO</span>
                     </div>
                     <div class="tool-card" data-tool="mailchimp">
-                        <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                        <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="mailchimp " />
                         <span>Mailchimp</span>
                     </div>
                     <div class="tool-card" data-tool="adroll">
-                        <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                        <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="adroll" />
                         <span>AdRoll</span>
                     </div>
                     <div class="tool-card" data-tool="google-ads">
-                        <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                        <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-ads" />
                         <span>Google Ads</span>
                     </div>
 
                     <div class="tool-card" data-tool="meta-ads-manager">
-                        <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
+                        <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Meta Ads Manager" />
                         <span>Meta Ads Manager</span>
                     </div>
                     <div class="tool-card" data-tool="google-tag-manager">
-                        <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
+                        <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-tag-manager" />
                         <span>Google Tag Manager</span>
                     </div>
                     <div class="tool-card" data-tool="hootsuite">
-                        <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                        <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hootsuite" />
                         <span>Hootsuite</span>
                     </div>
 
@@ -1032,26 +1032,26 @@
   
     <div class="container">
         <div class="premium-why-bottom-banner mb-5">
-            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" width="1140" height="400" loading="lazy" decoding="async" alt="Our Office Workspace">
         </div>
         <div class="premium-badges-grid">
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="Clutch Rating Badge">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="Trustpilot Rating Badge">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" style="max-width: 45%;">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="Sortlist Rating Badge" style="max-width: 45%;">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="GoodFirms Rating Badge">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="Digital Marketing Agencies Rating Badge">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" width="160" height="60" loading="lazy" decoding="async" alt="Marketing Agencies Rating Badge">
             </div>
         </div>
     </div>
@@ -1081,6 +1081,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                width="540" height="350" loading="lazy" decoding="async"
                                 alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
@@ -1110,6 +1111,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
+                                width="540" height="350" loading="lazy" decoding="async"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
@@ -1140,6 +1142,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
+                                width="540" height="350" loading="lazy" decoding="async"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
@@ -1170,6 +1173,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
+                                width="540" height="350" loading="lazy" decoding="async"
                                 class="premium-cs-row-img img-fluid">
                         </div>
                     </div>
@@ -1200,6 +1204,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                width="540" height="350" loading="lazy" decoding="async"
                                 alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
                         </div>
                     </div>

@@ -36,7 +36,7 @@
                 <p>We are not only the renowned digital marketing agencies in Ras Al Khaimah, but also known for providing the best digital marketing solutions in Abu Dhabi, Sharjah, Ajman, Al Ain, Fujairah, and Umm Al Quwain.</p>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
-                <img src="/assets/images/seo/dm/alkhaimah1.png" class="img-fluid mb-3" alt="Best Digital Marketing Company in Ras Al Khaimah">
+                <img src="/assets/images/seo/dm/alkhaimah1.png" width="540" height="360" loading="lazy" decoding="async" class="img-fluid mb-3" alt="Best Digital Marketing Company in Ras Al Khaimah">
             </div><!--col end-->
         </div><!--Row End-->
 
@@ -61,7 +61,7 @@
             <div class="col-md-4 col-lg-6 ps-0"> <!--col start-->
                 <div class="sp-impact-image">
                     <div class="sp-impact-pic">
-                        <img src="/assets/images/seo/dm/alkhaimah2.png" class="img-fluid mb-3" alt="Best Digital Marketing Agency in Ras Al Khaimah">
+                        <img src="/assets/images/seo/dm/alkhaimah2.png" width="540" height="360" loading="lazy" decoding="async" class="img-fluid mb-3" alt="Best Digital Marketing Agency in Ras Al Khaimah">
                     </div>
                 </div>
             </div><!--col end-->
@@ -89,7 +89,7 @@
                 <div class="wcb-box">
                     <div class="wcb-no">01</div>
                     <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak1.svg" class="img-fluid" alt="Digital Marketing Company in Ras Al Khaimah"></div>
+                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak1.svg" width="60" height="60" loading="lazy" decoding="async" class="img-fluid" alt="Digital Marketing Company in Ras Al Khaimah"></div>
                         <h6>We love Challenges</h6>
                     </div>
                     <p>To be successful, there is a need to accept the two sides of the coin. Therefore, we are always ready to face the challenges that come in our way of success. Every project differs from the other, so we are always ready to stand in our feet to research and if needed change, the perspective towards the things to achieve the target that our clients try to reach.</p>
@@ -100,7 +100,7 @@
                 <div class="wcb-box">
                     <div class="wcb-no">02</div>
                     <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak2.svg" class="img-fluid" alt="Digital Marketing Company Ras Al Khaimah"></div>
+                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak2.svg" width="60" height="60" loading="lazy" decoding="async" class="img-fluid" alt="Digital Marketing Company Ras Al Khaimah"></div>
                         <h6>Innovation</h6>
                     </div>
                     <p>There are always fresh things to learn, always new art to master. So, we find innovative solutions and invent novel ideas to generate lead and convert them into customers. We always welcome fresh and innovative ideas, combine those ideas with our strategies, and make it a successful strategy to enhance the website's traffic.</p>
@@ -111,7 +111,7 @@
                 <div class="wcb-box">
                     <div class="wcb-no">03</div>
                     <div class="wcb-box-titl">
-                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak3.svg" class="img-fluid" alt="Digital Marketing agency in Ras Al Khaimah"></div>
+                        <div class="wcb-img"><img src="/assets/images/seo/dm/dmak3.svg" width="60" height="60" loading="lazy" decoding="async" class="img-fluid" alt="Digital Marketing agency in Ras Al Khaimah"></div>
                         <h6>Flexibility and Adaptability</h6>
                     </div>
                     <p>With the changing Google algorithm, digital marketers need to be prepared for updating their skill sets, knowledge and thus plan their strategies accordingly. This flexibility and adaptability make us different from other digital marketing service provider.</p>

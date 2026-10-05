@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/creative-advertising.css") ?>?v=1.0">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 
@@ -38,7 +38,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/advertising-01.webp") ?>" alt="Creative Advertising Agency in Dubai" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/advertising-01.webp") ?>" alt="Creative Advertising Agency in Dubai" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -1051,7 +1051,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-02.webp") ?>" alt="Creative Brief Phase">
+              <img src="<?= base_url("assets/images/wordpress-02.webp") ?>" alt="Creative Brief Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We start our creative advertising process by understanding your brand idea and brand positioning. We will develop a strategic box within which your ad must play. Our advertising brief will have one tightly defined objective market with deep consumer insights to create an ad that acts as a response to what your customers see, feel, think, or do. This will ensure that your customers respond positively to your ads.
@@ -1072,7 +1072,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Creative Feedback Phase">
+              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Creative Feedback Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We will hold a creative meeting with our clients and team to get feedback on the ad. Here, we will bring solutions to the issues raised by our clients and add a brand new touch to the ad if our client asks for it.
@@ -1093,7 +1093,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Advertising Testing Phase">
+              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Advertising Testing Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Ad testing will ensure that we are able to communicate the primary benefit, express your brand positioning, and motivate your customers to purchase. We use both qualitative focus group feedback and quantitative testing to understand how our ad will do in the market.
@@ -1114,7 +1114,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Creative Production Phase">
+              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Creative Production Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               If we feel that your audience is able to connect to our ads and your brand will witness a rise in purchases, then we will work on the production process. We will deliver an ad that is extremely close to the original script accepted by our clients and manage the tone to confirm that it fits your brand.
@@ -1135,7 +1135,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Post-production Review Phase">
+              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Post-production Review Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our work doesn't stop with production. We constantly work with our clients to ensure that our ads are doing well in the market and bring changes as and when demanded by our clients.
@@ -1165,7 +1165,7 @@
             <!-- Left Side: Image -->
             <div class="col-lg-6 mb-4 mb-lg-0 d-flex">
                 <div class="whb-img-wrap">
-                    <img src="<?= base_url('assets/images/advertising-07.webp') ?>" alt="Why Hire Brandstory as Your Creative Advertising Agency" class="img-fluid whb-img">
+                    <img src="<?= base_url('assets/images/advertising-07.webp') ?>" alt="Why Hire Brandstory as Your Creative Advertising Agency" class="img-fluid whb-img" width="550" height="420" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: 4 Points -->
@@ -1276,7 +1276,7 @@
             <!-- Right Side: Image -->
             <div class="col-lg-6 d-flex">
                 <div class="hwd-img-wrap">
-                    <img src="<?= base_url("assets/images/advertising-08.webp") ?>" alt="How are We Different from Other Branding Agencies in Dubai" class="img-fluid hwd-img">
+                    <img src="<?= base_url("assets/images/advertising-08.webp") ?>" alt="How are We Different from Other Branding Agencies in Dubai" class="img-fluid hwd-img" width="550" height="420" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1369,7 +1369,7 @@
   <div class="home-dummy-showcase-grid">
    
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-01.webp') ?>" alt="Solana Yoga Design" class="home-dummy-bg-img" width="300" height="200" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Logo Design</div>
       <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -1378,7 +1378,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-02.webp') ?>" alt="Wissh Skincare Creative Branding" class="home-dummy-bg-img" width="300" height="200" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Creative Branding</div>
       <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -1387,7 +1387,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-03.webp') ?>" alt="Maxx Apparel Creative Branding" class="home-dummy-bg-img" width="300" height="200" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Creative Branding</div>
       <a href="/branding-agency-in-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>
@@ -1396,7 +1396,7 @@
 
     
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/dummy-04.webp') ?>" alt="Fitwares Logo Design" class="home-dummy-bg-img" width="300" height="200" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Logo Design</div>
       <a href="/logo-designing-dubai/" class="dummy-card-hover">
         <span class="dummy-hover-text">View More &rarr;</span>

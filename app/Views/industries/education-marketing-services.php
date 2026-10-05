@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -38,7 +38,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/education-marketing.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/industries/education-marketing.webp" alt="Education Marketing Agency in Dubai" style="border-radius: 20px;" class="img-fluid" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
             <div class="row mt-4 mt-lg-5 border-top ">
@@ -75,7 +75,7 @@
   <div class="home-dummy-showcase-grid">
     <!-- Card 1 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/ignitia-education-marketing.webp') ?>" alt="Branding & Marketing Services for Ignitia" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/ignitia-education-marketing.webp') ?>" alt="Branding & Marketing Services for Ignitia" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -84,7 +84,7 @@
 
     <!-- Card 2 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/veridian-marketing.webp') ?>" alt="Branding & Marketing for Veridian" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/veridian-marketing.webp') ?>" alt="Branding & Marketing for Veridian" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -93,7 +93,7 @@
 
     <!-- Card 3 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/eduvota-marketing.webp') ?>" alt="Branding & Marketing for Eduvota" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/eduvota-marketing.webp') ?>" alt="Branding & Marketing for Eduvota" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -102,7 +102,7 @@
 
     <!-- Card 4 -->
     <div class="home-dummy-card">
-      <img src="<?= base_url('assets/images/industries/praesta-marketing.webp') ?>" alt="Branding & Marketing for Praesta" class="home-dummy-bg-img">
+      <img src="<?= base_url('assets/images/industries/praesta-marketing.webp') ?>" alt="Branding & Marketing for Praesta" class="home-dummy-bg-img" width="400" height="300" loading="lazy" decoding="async">
       <div class="dummy-card-badge">Branding & Marketing</div>
       <a href="/contact/" class="dummy-card-hover">
         <span class="dummy-hover-text">Know More &rarr;</span>
@@ -121,7 +121,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                                <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Search Engine Optimization</h3>
                             <p>When parents and students search for schools, universities, or courses in Dubai, your institution needs to be visible. If you're not ranking for the right keywords, you're losing prospective students to competitors. BrandStory implements education-focused SEO strategies that improve search rankings, build credibility, and connect you with students actively researching their options.</p>
@@ -132,7 +132,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                                <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Social Media Marketing</h3>
                             <p>Students and parents research institutions on social media before making enrollment decisions. A strong presence builds trust, showcases campus life, and keeps your institution top of mind throughout the admission cycle. We craft education-specific social media strategies that drive engagement, highlight your institution's strengths, and nurture prospective students from discovery to enrollment.</p>
@@ -143,7 +143,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                                <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Pay Per Click (PPC)</h3>
                             <p>Admissions windows are short- reaching prospective students at the right moment is everything. Our education PPC campaigns target high-intent search queries from students and parents actively comparing institutions. Every campaign is optimized to drive qualified inquiries, open day registrations, and application submissions while keeping your cost-per-lead in check.</p>
@@ -154,7 +154,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Branding Icon">
+                                <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Branding Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Branding</h3>
                             <p>In a crowded education market, institutions that stand for something win. BrandStory builds education brands that communicate your values, academic strengths, and student experience with clarity and consistency. From visual identity to messaging frameworks, we position your institution as a trusted, aspirational choice for students and parents making one of the most important decisions of their lives.</p>
@@ -165,7 +165,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                                <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Performance Marketing</h3>
                             <p>Every marketing dirham should move your enrollment numbers. Our performance marketing strategies for educational institutions are built around outcomes that matter — student inquiries, application completions, and enrollment conversions. We track, test, and optimize continuously so your admissions campaigns deliver consistent, measurable results every intake season.</p>
@@ -176,7 +176,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                             <div class="icon-box">
-                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                                <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                             </div>
                             <h3>Web Design & Development</h3>
                             <p>Your website is often the first impression a prospective student or parent has of your institution — it needs to do more than look good. We design education websites that are fast, mobile-friendly, and built to convert visitors into inquiries. From intuitive course finders to seamless application forms, every element is designed to reduce friction and guide users toward enrollment.</p>
@@ -199,7 +199,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">1</div>
                     </div>
                     <div class="ppc-card-body">
@@ -217,7 +217,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">2</div>
                     </div>
                     <div class="ppc-card-body">
@@ -235,7 +235,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">3</div>
                     </div>
                     <div class="ppc-card-body">
@@ -253,7 +253,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-admission-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">4</div>
                     </div>
                     <div class="ppc-card-body">
@@ -271,7 +271,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">5</div>
                     </div>
                     <div class="ppc-card-body">
@@ -289,7 +289,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-crm-implementation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">6</div>
                     </div>
                     <div class="ppc-card-body">
@@ -307,7 +307,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">7</div>
                     </div>
                     <div class="ppc-card-body">
@@ -325,7 +325,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-marketing-automation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">8</div>
                     </div>
                     <div class="ppc-card-body">
@@ -343,7 +343,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">9</div>
                     </div>
                     <div class="ppc-card-body">
@@ -361,7 +361,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-seo-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">10</div>
                     </div>
                     <div class="ppc-card-body">
@@ -379,7 +379,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">11</div>
                     </div>
                     <div class="ppc-card-body">
@@ -397,7 +397,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">12</div>
                     </div>
                     <div class="ppc-card-body">
@@ -415,7 +415,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">13</div>
                     </div>
                     <div class="ppc-card-body">
@@ -433,7 +433,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/education-influencer-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">14</div>
                     </div>
                     <div class="ppc-card-body">
@@ -488,7 +488,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                                 <span class="badge-promise">Advantage You Get</span>
                                 <div class="expert-badge d-flex align-items-center">
-                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2">
+                                    <img src="/assets/images/expert-avatar.png" alt="Expert" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                     <span>Expert Consultant</span>
                                 </div>
                             </div>
@@ -527,15 +527,15 @@
             <!-- Card 1 -->
             <div class="col-12 col-md-6">
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" width="30" height="30" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" width="30" height="30" loading="lazy" decoding="async">
 
                     <h3>Enquiries That Convert</h3>
                     <p>We are full-funnel education marketing agency for schools, universities, and training centres across the UAE. From a parent's first Google search to a enrollment application, we map how families actually compare, and decide- then place your institution at every digital touchpoints.</p>
                 </div>
                 <div class="new_about_us-who-we-are-card white-card">
-                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2">
+                    <img src="<?= base_url('assets/images/about/core-value-icon.png')?>" alt="Win Together Icon" class="img-vector-1" width="30" height="30" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-2.png')?>" alt="Win Together Icon" class="img-vector-2" width="30" height="30" loading="lazy" decoding="async">
 
                     <h3>Trust That Resonates</h3>
                     <p>Education isn't bought, it's entrusted. We position your institution as the clear, credible choice through SEO that answers real parent questions, social proof that validates your outcomes, and content that demonstrates academic excellence without sounding like a sales pitch.</p>
@@ -547,8 +547,8 @@
 
                     <h3>Growth That Sustains</h3>
                     <p>In education marketing, quick wins fade fast. We build long-term strategies that fill your seats intake after intake- through remarketing that nurtures undecided families, alumni engagement that drives referrals, and brand building that keeps you top-of-mind when the next enrollment season begins.</p>
-                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3">
-                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-3.png')?>" alt="Win Together Icon" class="img-vector-3" width="30" height="30" loading="lazy" decoding="async">
+                    <img src="<?= base_url('assets/images/about/core-value-icon-4.png')?>" alt="Win Together Icon" class="img-vector-4" width="30" height="30" loading="lazy" decoding="async">
 
                 </div>
             </div>
@@ -582,7 +582,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -611,7 +611,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -641,7 +641,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -671,7 +671,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -701,7 +701,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -753,7 +753,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns & strategies. Helping us build trust and reach more clients in the UAE.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">CoverB</p>
@@ -761,7 +761,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">FourNxt</p>
@@ -769,7 +769,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Sherpa Communications</p>
@@ -777,7 +777,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">Take Leap</p>
@@ -785,7 +785,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">Uno Capital</p>
@@ -848,19 +848,19 @@
 
         <ul class="evolution-benefits text-white">
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Leverage AI to personalise student journeys, improve engagement, and increase application completions.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Adopt digital tools like WhatsApp, chatbots, and virtual open days to keep prospective students engaged through the admission cycle.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Expand reach with targeted campaigns that connect with students and parents actively searching for the right institution.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Build institutional trust through alumni stories, faculty content, and reviews that influence enrollment decisions.</span>
             </li>
         </ul>

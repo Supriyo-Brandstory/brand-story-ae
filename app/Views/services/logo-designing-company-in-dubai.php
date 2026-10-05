@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/css/logo-design.css') ?>">
 
 <!-- Hero Banner Section -->
@@ -44,7 +44,7 @@
           </div>
           <div class="col-lg-6 col-md-12 text-center text-lg-end">
             <div class="logo-hero-img-wrapper">
-              <img src="<?= base_url('assets/images/logo-banner.webp') ?>" alt="Logo Designing in Dubai" class="img-fluid logo-hero-banner-img" width="600" height="500">
+              <img src="<?= base_url('assets/images/logo-banner.webp') ?>" alt="Logo Designing in Dubai" class="img-fluid logo-hero-banner-img" width="600" height="500" fetchpriority="high">
             </div>
           </div>
         </div>
@@ -66,30 +66,30 @@
     <div class="logo-projects-collage-grid">
       <!-- 1st Image: Top Left -->
       <div class="logo-collage-item">
-        <img src="<?= base_url('assets/images/logo-01.webp') ?>" alt="Solana Logo Design" class="img-fluid logo-collage-img">
+        <img src="<?= base_url('assets/images/logo-01.webp') ?>" alt="Solana Logo Design" class="img-fluid logo-collage-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
       <!-- 2nd Image: Top Right -->
       <div class="logo-collage-item">
-        <img src="<?= base_url('assets/images/logo-02.webp') ?>" alt="Solana Lifestyle" class="img-fluid logo-collage-img">
+        <img src="<?= base_url('assets/images/logo-02.webp') ?>" alt="Solana Lifestyle" class="img-fluid logo-collage-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
       <!-- 3rd Image: Bottom Left -->
       <div class="logo-collage-item">
-        <img src="<?= base_url('assets/images/logo-03.webp') ?>" alt="Solana Yoga Pose" class="img-fluid logo-collage-img">
+        <img src="<?= base_url('assets/images/logo-03.webp') ?>" alt="Solana Yoga Pose" class="img-fluid logo-collage-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
       <!-- 4th Image: Bottom Right -->
       <div class="logo-collage-item">
-        <img src="<?= base_url('assets/images/logo-04.webp') ?>" alt="Solana Meditation" class="img-fluid logo-collage-img">
+        <img src="<?= base_url('assets/images/logo-04.webp') ?>" alt="Solana Meditation" class="img-fluid logo-collage-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
 
       <!-- Center Logo Badge (logo-05.webp) -->
       <div class="logo-center-badge-wrap">
-        <img src="<?= base_url('assets/images/logo-05.webp') ?>" alt="Solana Badge Logo" class="logo-center-badge-img">
+        <img src="<?= base_url('assets/images/logo-05.webp') ?>" alt="Solana Badge Logo" class="logo-center-badge-img" width="160" height="160" loading="lazy" decoding="async">
       </div>
     </div>
 
     <!-- Last Image: Full Width Bottom (logo-06.webp) -->
     <div class="logo-projects-bottom-full">
-      <img src="<?= base_url('assets/images/logo-06.webp') ?>" alt="Solana Yoga Breath Balance" class="img-fluid logo-bottom-full-img">
+      <img src="<?= base_url('assets/images/logo-06.webp') ?>" alt="Solana Yoga Breath Balance" class="img-fluid logo-bottom-full-img" width="1140" height="500" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
@@ -99,32 +99,32 @@
   <div class="logo-fitwares-collage">
     <!-- Top Full Width Banner (logo-07.webp) -->
     <div class="logo-fitwares-top-banner">
-      <img src="<?= base_url('assets/images/logo-07.webp') ?>" alt="Fitwares Brand Banner" class="img-fluid logo-fitwares-full-img">
+      <img src="<?= base_url('assets/images/logo-07.webp') ?>" alt="Fitwares Brand Banner" class="img-fluid logo-fitwares-full-img" width="1140" height="500" loading="lazy" decoding="async">
     </div>
 
     <!-- 2-Column Grid for subsequent images -->
     <div class="logo-fitwares-grid">
       <!-- 2nd Image: Shopping Bag (logo-08.webp) -->
       <div class="logo-fitwares-item">
-        <img src="<?= base_url('assets/images/logo-08.webp') ?>" alt="Fitwares Packaging Bag" class="img-fluid logo-fitwares-img">
+        <img src="<?= base_url('assets/images/logo-08.webp') ?>" alt="Fitwares Packaging Bag" class="img-fluid logo-fitwares-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
       <!-- 3rd Image: Woman Red Sportswear (logo-09.webp) -->
       <div class="logo-fitwares-item">
-        <img src="<?= base_url('assets/images/logo-09.webp') ?>" alt="Fitwares Red Sportswear" class="img-fluid logo-fitwares-img">
+        <img src="<?= base_url('assets/images/logo-09.webp') ?>" alt="Fitwares Red Sportswear" class="img-fluid logo-fitwares-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
 
       <!-- 4th Image: Orange Background Model (logo-10.webp) -->
       <div class="logo-fitwares-item">
-        <img src="<?= base_url('assets/images/logo-10.webp') ?>" alt="Fitwares Athlete" class="img-fluid logo-fitwares-img">
+        <img src="<?= base_url('assets/images/logo-10.webp') ?>" alt="Fitwares Athlete" class="img-fluid logo-fitwares-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
       <!-- 5th Image: T-shirt Tag Detail (logo-11.webp) -->
       <div class="logo-fitwares-item">
-        <img src="<?= base_url('assets/images/logo-11.webp') ?>" alt="Fitwares Apparel Tag" class="img-fluid logo-fitwares-img">
+        <img src="<?= base_url('assets/images/logo-11.webp') ?>" alt="Fitwares Apparel Tag" class="img-fluid logo-fitwares-img" width="550" height="400" loading="lazy" decoding="async">
       </div>
 
       <!-- 6th Image: FW Emblem / Activewear (logo-12.webp) -->
       <div class="logo-fitwares-item logo-fitwares-item-full">
-        <img src="<?= base_url('assets/images/logo-12.webp') ?>" alt="Fitwares Emblem & Activewear" class="img-fluid logo-fitwares-img">
+        <img src="<?= base_url('assets/images/logo-12.webp') ?>" alt="Fitwares Emblem & Activewear" class="img-fluid logo-fitwares-img" width="1140" height="500" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -135,35 +135,35 @@
   <div class="logo-vitality-collage">
     <!-- 1st Image: Top Full Width Banner (logo-13.webp) -->
     <div class="logo-vitality-top-banner">
-      <img src="<?= base_url('assets/images/logo-13.webp') ?>" alt="Vitality Brand Banner" class="img-fluid logo-vitality-full-img">
+      <img src="<?= base_url('assets/images/logo-13.webp') ?>" alt="Vitality Brand Banner" class="img-fluid logo-vitality-full-img" width="1140" height="500" loading="lazy" decoding="async">
     </div>
 
     <!-- Asymmetrical 2-Row Layout for Middle Images -->
     <div class="logo-vitality-row logo-vitality-row-1">
       <!-- 2nd Image: Woman in Sunlight (logo-14.webp) - Wide (58.2%) -->
       <div class="logo-vitality-col logo-vitality-col-wide">
-        <img src="<?= base_url('assets/images/logo-14.webp') ?>" alt="Vitality Wellness Model" class="img-fluid logo-vitality-img">
+        <img src="<?= base_url('assets/images/logo-14.webp') ?>" alt="Vitality Wellness Model" class="img-fluid logo-vitality-img" width="650" height="420" loading="lazy" decoding="async">
       </div>
       <!-- 3rd Image: Supplement Packaging (logo-15.webp) - Narrow (41.8%) -->
       <div class="logo-vitality-col logo-vitality-col-narrow">
-        <img src="<?= base_url('assets/images/logo-15.webp') ?>" alt="Vitality Skincare Packaging" class="img-fluid logo-vitality-img">
+        <img src="<?= base_url('assets/images/logo-15.webp') ?>" alt="Vitality Skincare Packaging" class="img-fluid logo-vitality-img" width="450" height="420" loading="lazy" decoding="async">
       </div>
     </div>
 
     <div class="logo-vitality-row logo-vitality-row-2">
       <!-- 4th Image: Business Cards (logo-16.webp) - Narrow (41.8%) -->
       <div class="logo-vitality-col logo-vitality-col-narrow">
-        <img src="<?= base_url('assets/images/logo-16.webp') ?>" alt="Vitality Business Cards" class="img-fluid logo-vitality-img">
+        <img src="<?= base_url('assets/images/logo-16.webp') ?>" alt="Vitality Business Cards" class="img-fluid logo-vitality-img" width="450" height="420" loading="lazy" decoding="async">
       </div>
       <!-- 5th Image: Spa Candles & Tray (logo-17.webp) - Wide (58.2%) -->
       <div class="logo-vitality-col logo-vitality-col-wide">
-        <img src="<?= base_url('assets/images/logo-17.webp') ?>" alt="Vitality Spa Experience" class="img-fluid logo-vitality-img">
+        <img src="<?= base_url('assets/images/logo-17.webp') ?>" alt="Vitality Spa Experience" class="img-fluid logo-vitality-img" width="650" height="420" loading="lazy" decoding="async">
       </div>
     </div>
 
     <!-- 6th Image: Bottom Full Width Banner (logo-18.webp) -->
     <div class="logo-vitality-bottom-banner">
-      <img src="<?= base_url('assets/images/logo-18.webp') ?>" alt="Vitality Outdoor Yoga Stretch" class="img-fluid logo-vitality-full-img">
+      <img src="<?= base_url('assets/images/logo-18.webp') ?>" alt="Vitality Outdoor Yoga Stretch" class="img-fluid logo-vitality-full-img" width="1140" height="500" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
@@ -181,7 +181,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-1.svg') ?>" alt="Market Analysis">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-1.svg') ?>" alt="Market Analysis" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Market Analysis</h3>
                     <div class="industry-card-hover-details">
@@ -193,7 +193,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-2.svg') ?>" alt="Brand Foundation">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-2.svg') ?>" alt="Brand Foundation" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Brand Foundation</h3>
                     <div class="industry-card-hover-details">
@@ -205,7 +205,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-5.svg') ?>" alt="Creative Strategy">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-5.svg') ?>" alt="Creative Strategy" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Creative Strategy</h3>
                     <div class="industry-card-hover-details">
@@ -217,7 +217,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-6.svg') ?>" alt="Quality Control">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-6.svg') ?>" alt="Quality Control" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Quality Control</h3>
                     <div class="industry-card-hover-details">
@@ -229,7 +229,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-8.svg') ?>" alt="Identity System">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-8.svg') ?>" alt="Identity System" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Identity System</h3>
                     <div class="industry-card-hover-details">
@@ -241,7 +241,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-9.svg') ?>" alt="Expert Consulting">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-9.svg') ?>" alt="Expert Consulting" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Expert Consulting</h3>
                     <div class="industry-card-hover-details">
@@ -307,7 +307,7 @@
             <!-- Content 1 -->
             <div class="logo-types-panel active" id="content-type-1" role="tabpanel" aria-labelledby="tab-type-1">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-20.webp') ?>" alt="Lettermarks or Monogram Logos" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-20.webp') ?>" alt="Lettermarks or Monogram Logos" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Lettermarks or Monogram Logos</h3>
@@ -318,7 +318,7 @@
             <!-- Content 2 -->
             <div class="logo-types-panel" id="content-type-2" role="tabpanel" aria-labelledby="tab-type-2">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-21.webp') ?>" alt="Logotypes or Wordmarks" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-21.webp') ?>" alt="Logotypes or Wordmarks" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Logotypes or Wordmarks</h3>
@@ -329,7 +329,7 @@
             <!-- Content 3 -->
             <div class="logo-types-panel" id="content-type-3" role="tabpanel" aria-labelledby="tab-type-3">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-23.webp') ?>" alt="Pictorial Marks/ Logo Symbols" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-23.webp') ?>" alt="Pictorial Marks/ Logo Symbols" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Pictorial Marks/ Logo Symbols</h3>
@@ -340,7 +340,7 @@
             <!-- Content 4 -->
             <div class="logo-types-panel" id="content-type-4" role="tabpanel" aria-labelledby="tab-type-4">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-24.webp') ?>" alt="Abstract Designs" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-24.webp') ?>" alt="Abstract Designs" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Abstract Designs</h3>
@@ -351,7 +351,7 @@
             <!-- Content 5 -->
             <div class="logo-types-panel" id="content-type-5" role="tabpanel" aria-labelledby="tab-type-5">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-25.webp') ?>" alt="Mascots" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-25.webp') ?>" alt="Mascots" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Mascots</h3>
@@ -362,7 +362,7 @@
             <!-- Content 6 -->
             <div class="logo-types-panel" id="content-type-6" role="tabpanel" aria-labelledby="tab-type-6">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-26.webp') ?>" alt="Combination Mark" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-26.webp') ?>" alt="Combination Mark" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">Combination Mark</h3>
@@ -373,7 +373,7 @@
             <!-- Content 7 -->
             <div class="logo-types-panel" id="content-type-7" role="tabpanel" aria-labelledby="tab-type-7">
               <div class="logo-types-img-box">
-                <img src="<?= base_url('assets/images/logo-27.webp') ?>" alt="The Emblem" class="img-fluid logo-types-img" loading="lazy">
+                <img src="<?= base_url('assets/images/logo-27.webp') ?>" alt="The Emblem" class="img-fluid logo-types-img" width="550" height="350" loading="lazy" decoding="async">
               </div>
               <div class="logo-types-info">
                 <h3 class="logo-types-info-title">The Emblem</h3>
@@ -519,10 +519,10 @@
           </div>
           
           <div class="logo-why-avatars">
-            <img src="<?= base_url('assets/images/service/website-design/our-web-img-1.jpg') ?>" alt="Client Avatar 1" class="logo-why-avatar-img">
-            <img src="<?= base_url('assets/images/service/website-design/our-web-img-2.jpg') ?>" alt="Client Avatar 2" class="logo-why-avatar-img">
-            <img src="<?= base_url('assets/images/service/website-design/our-web-img-3.jpg') ?>" alt="Client Avatar 3" class="logo-why-avatar-img">
-            <img src="<?= base_url('assets/images/service/website-design/our-web-img-4.jpg') ?>" alt="Client Avatar 4" class="logo-why-avatar-img">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-1.jpg') ?>" alt="Client Avatar 1" class="logo-why-avatar-img" width="48" height="48" loading="lazy" decoding="async">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-2.jpg') ?>" alt="Client Avatar 2" class="logo-why-avatar-img" width="48" height="48" loading="lazy" decoding="async">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-3.jpg') ?>" alt="Client Avatar 3" class="logo-why-avatar-img" width="48" height="48" loading="lazy" decoding="async">
+            <img src="<?= base_url('assets/images/service/website-design/our-web-img-4.jpg') ?>" alt="Client Avatar 4" class="logo-why-avatar-img" width="48" height="48" loading="lazy" decoding="async">
           </div>
 
           <p class="logo-why-card-desc-dark">Our priority is to deliver exceptional branding assets that exceed your business goals and expectations.</p>
@@ -565,7 +565,7 @@
                 <p class="logo-why-card-desc-dark-sm">Establish strong market presence with a custom logo that captures your business values and attracts target clients.</p>
               </div>
               <div class="col-sm-5 col-12 text-center text-sm-end">
-                <img src="<?= base_url('assets/images/logo-30.webp') ?>" alt="Workspace Lounge" class="img-fluid logo-why-wide-img">
+                <img src="<?= base_url('assets/images/logo-30.webp') ?>" alt="Workspace Lounge" class="img-fluid logo-why-wide-img" width="300" height="220" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -696,15 +696,15 @@ include __DIR__ . '/../component/client_reviews.php';
     <div class="container">
         <div class="office-bar-row">
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon" width="20" height="20" loading="lazy" decoding="async">
                 <a href="tel:+971522831655">+971 52 283 1655</a>
             </div>
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon" width="20" height="20" loading="lazy" decoding="async">
                 <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
             </div>
             <div class="office-bar-item">
-                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon" width="20" height="20" loading="lazy" decoding="async">
                 <a target="_blank"
                     href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
                     Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>

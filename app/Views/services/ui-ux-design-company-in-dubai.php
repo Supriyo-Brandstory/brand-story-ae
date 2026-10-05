@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="
-	<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
@@ -29,7 +28,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/ui-ux-02.webp") ?>" alt="Best Facebook Marketing Services in Dubai" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/ui-ux-02.webp") ?>" alt="Best Facebook Marketing Services in Dubai" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -170,7 +169,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="premium-why-choose-img-wrap">
                     <img class="img-fluid premium-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
-                        width="1104" height="1296"
+                        width="1104" height="1296" loading="lazy" decoding="async"
                         alt="Discover How BrandStory's Unique Approach Elevates Your Brand's Success Through UI/UX">
                 </div>
             </div>
@@ -335,7 +334,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-1.svg') ?>" alt="Dream Mapping">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-1.svg') ?>" alt="Dream Mapping" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Dream Mapping</h3>
                     <div class="industry-card-hover-details">
@@ -347,7 +346,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-2.svg') ?>" alt="Insightful Exploration">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-2.svg') ?>" alt="Insightful Exploration" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Insightful Exploration</h3>
                     <div class="industry-card-hover-details">
@@ -359,7 +358,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-3.svg') ?>" alt="Structural Blueprinting">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-3.svg') ?>" alt="Structural Blueprinting" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Structural Blueprinting</h3>
                     <div class="industry-card-hover-details">
@@ -371,7 +370,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-4.svg') ?>" alt="Immersive Prototyping">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-4.svg') ?>" alt="Immersive Prototyping" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Immersive Prototyping</h3>
                     <div class="industry-card-hover-details">
@@ -383,7 +382,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-5.svg') ?>" alt="Visual Storytelling">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-5.svg') ?>" alt="Visual Storytelling" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Visual Storytelling</h3>
                     <div class="industry-card-hover-details">
@@ -395,7 +394,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-6.svg') ?>" alt="User-Centric Testing">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-6.svg') ?>" alt="User-Centric Testing" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">User-Centric Testing</h3>
                     <div class="industry-card-hover-details">
@@ -407,7 +406,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-7.svg') ?>" alt="Flawless Unveiling">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-7.svg') ?>" alt="Flawless Unveiling" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Flawless Unveiling</h3>
                     <div class="industry-card-hover-details">
@@ -419,7 +418,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-8.svg') ?>" alt="Adaptive Growth">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-8.svg') ?>" alt="Adaptive Growth" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Adaptive Growth</h3>
                     <div class="industry-card-hover-details">
@@ -431,7 +430,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-industry-card">
                     <div class="industry-card-icon">
-                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-9.svg') ?>" alt="Continuous Care">
+                        <img src="<?= base_url('assets/images/service/ui-ux/process-icon-9.svg') ?>" alt="Continuous Care" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                     <h3 class="industry-card-title">Continuous Care</h3>
                     <div class="industry-card-hover-details">
@@ -497,7 +496,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -526,7 +525,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -556,7 +555,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -586,7 +585,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -616,7 +615,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -651,7 +650,7 @@
             <!-- Left Side: Image of two people standing back-to-back -->
             <div class="col-lg-5 col-md-12">
                 <div class="premium-stats-banner-img-wrap">
-                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
                 </div>
             </div>
             <!-- Right Side: Statistics Content -->

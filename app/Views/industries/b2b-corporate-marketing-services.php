@@ -26,7 +26,7 @@
 
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/b2b-corporate-marketing-services-banner-img2.webp" alt="HubSpot Diamond Agency" class="img-fluid" style="border-radius: 20px;">
+                    <img src="/assets/images/industries/b2b-corporate-marketing-services-banner-img2.webp" alt="B2B Digital Marketing Agency in Dubai" class="img-fluid" style="border-radius: 20px;" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
             
@@ -68,7 +68,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon">
+                            <img src="<?= base_url('/assets/images/icons/search-engine.svg') ?>" alt="SEO Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Search Engine Optimization</h3>
                         <p>When business decision-makers search for solutions in Dubai, being visible at the right moment is everything. If your brand isn't ranking for high-intent B2B keywords, you're losing valuable leads to competitors. At BrandStory, we implement B2B-focused SEO strategies that improve rankings, establish authority, and connect you with buyers actively researching your services.</p>
@@ -79,7 +79,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon">
+                            <img src="<?= base_url('/assets/images/icons/social-media.svg') ?>" alt="SMM Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Social Media Marketing</h3>
                         <p>Social media is a powerful tool for B2B brands to build credibility, nurture prospects, and engage with industry stakeholders. From LinkedIn to targeted campaigns across platforms, we craft B2B-specific social media strategies that position your brand as an industry leader, generate qualified leads, and foster long-term business relationships.</p>
@@ -90,7 +90,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon">
+                            <img src="<?= base_url('/assets/images/icons/pay-per-click.svg') ?>" alt="PPC Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Pay Per Click (PPC)</h3>
                         <p>Reaching the right decision-makers at the right time is the foundation of effective B2B paid advertising. Our PPC campaigns are built to target high-intent business queries, ensuring your brand appears when prospects are actively evaluating solutions. We optimize every campaign to generate qualified leads, shorten sales cycles, and deliver measurable ROI.</p>
@@ -101,7 +101,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/email-marketing.svg') ?>" alt="Email Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Branding</h3>
                         <p>In the B2B space, a strong brand is your most powerful sales asset. Our B2B branding strategies focus on building a distinct identity, crafting compelling value propositions, and creating consistent messaging that resonates with your target businesses. We position your brand as a trusted industry authority that buyers feel confident partnering with.</p>
@@ -112,7 +112,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon">
+                            <img src="<?= base_url('/assets/images/icons/performance-merketing.svg') ?>" alt="Performance Marketing Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Performance Marketing</h3>
                         <p>We focus on outcomes that directly impact your bottom line — qualified leads, pipeline growth, and revenue generation. Our B2B performance marketing strategies are entirely data-driven, ensuring every campaign is continuously optimized to improve cost-per-lead, accelerate conversions, and deliver consistent, scalable business growth.</p>
@@ -123,7 +123,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon-box">
-                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon">
+                            <img src="<?= base_url('/assets/images/icons/website-design-development.svg') ?>" alt="Web Design Icon" width="60" height="60" loading="lazy" decoding="async">
                         </div>
                         <h3>Web Design & Development</h3>
                         <p>We design B2B websites that are professional, conversion-focused, and built to turn visitors into qualified leads. By combining clean design, intuitive navigation, and trust-building elements like case studies and testimonials, we create websites that strengthen your brand credibility and support the full B2B buyer journey.</p>
@@ -146,7 +146,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-ui-ux-design-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">1</div>
                     </div>
                     <div class="ppc-card-body">
@@ -164,7 +164,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-content-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">2</div>
                     </div>
                     <div class="ppc-card-body">
@@ -182,7 +182,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-lead-generation-agency-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">3</div>
                     </div>
                     <div class="ppc-card-body">
@@ -200,7 +200,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-sales-funnel-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">4</div>
                     </div>
                     <div class="ppc-card-body">
@@ -218,7 +218,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-local-seo-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">5</div>
                     </div>
                     <div class="ppc-card-body">
@@ -236,7 +236,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-linkedin-marketing-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">6</div>
                     </div>
                     <div class="ppc-card-body">
@@ -254,7 +254,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-crm-implementation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">7</div>
                     </div>
                     <div class="ppc-card-body">
@@ -272,7 +272,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-whatsapp-marketing-services-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">8</div>
                     </div>
                     <div class="ppc-card-body">
@@ -290,7 +290,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-marketing-automation-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">9</div>
                     </div>
                     <div class="ppc-card-body">
@@ -308,7 +308,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-conversion-rate-optimization-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">10</div>
                     </div>
                     <div class="ppc-card-body">
@@ -326,7 +326,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-seo-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">11</div>
                     </div>
                     <div class="ppc-card-body">
@@ -344,7 +344,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-digital-marketing-audit-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">12</div>
                     </div>
                     <div class="ppc-card-body">
@@ -362,7 +362,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-creative-advertising-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">13</div>
                     </div>
                     <div class="ppc-card-body">
@@ -380,7 +380,7 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="ppc-service-card" onclick="window.location.href='/industries/b2b-video-production-agency-in-dubai-uae/'" style="cursor:pointer;">
                     <div class="ppc-stack-icon-wrap">
-                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon">
+                        <img src="/assets/images/additional-icon-1.svg" class="ppc-main-icon" width="48" height="48" loading="lazy" decoding="async">
                         <div class="card-num-badge">14</div>
                     </div>
                     <div class="ppc-card-body">
@@ -410,7 +410,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
-                    <img src="/assets/images/industries/b2b-corporate-marketing-services-banner-img3.webp" alt="HubSpot Diamond Agency" style="border-radius: 20px;" class="img-fluid">
+                    <img src="/assets/images/industries/b2b-corporate-marketing-services-banner-img3.webp" alt="Why Choose BrandStory for B2B Digital Marketing" style="border-radius: 20px;" class="img-fluid" width="540" height="400" loading="lazy" decoding="async">
                 </div>
             </div>
 
@@ -433,78 +433,78 @@
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving eCommerce brand in Downtown Dubai faced stagnant sales, we crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance and drove significant revenue growth.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/e-commerce/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/e-commerce/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>" alt="TravelEX" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Branding &amp; Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br>TravelEX faced growing competition in UAE's financial services market. We designed a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove qualified customer enquiries across digital channels.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/travel-agency/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/travel-agency/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>" alt="Crystal Plaza" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br>Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings, BrandStory delivered a paid marketing and local SEO strategy that put them ahead of the competition and increased occupancy rates. (Ex. "luxury hotel in Dubai", "business stay Dubai")</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/hotel/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/hotel/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>" alt="NIMS School" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br>In Dubai's competitive education landscape, NIMS School needed more than visibility, they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness and turn interest into enrollments, filling classrooms with qualified families.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/education-institution/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/education-institution/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>" alt="Wipro Infrastructure Engineering" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br>Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations—BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified B2B leads across multiple markets.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/wipro-infrastructure-engineering/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="case-study-scroll-item">
                             <div class="neww-case-stuides-main">
                                 <div class="case-study-img-wrapper">
-                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                    <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" alt="NanoPrecise Sci Corp" width="540" height="350" loading="lazy" decoding="async">
                                     <strong>Digital Marketing</strong>
                                 </div>
                                 <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
                                 <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO &amp; PPC | Enhanced Global ROI</b> <br><br>NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing—BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth in competitive industrial sectors.</p>
                                 <div class="casestydies-readmore">
-                                    <a href="/case-study/nanoprecise-sci-corp/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                    <a href="/case-study/nanoprecise-sci-corp/">Know more<img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" alt="Arrow" width="16" height="16" loading="lazy" decoding="async"></a>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +539,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140">
+                                <img class="mb-3" src="/assets/images/clients/logo-11.png" alt="CoverB" width="140" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">BrandStory transformed our digital presence with creative campaigns & strategies. Helping us build trust and reach more clients in the UAE.</p>
                                 <h4 class="text-white mb-1 text-start fs-20">Pradeep Koshy</h4>
                                 <p class="mb-0 text-start text-white">CoverB</p>
@@ -547,7 +547,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-9.png" alt="FourNxt" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Seen a massive growth in enquiries within the first 3 months. Improved number of branded searches and social media engagement has also spiked. Thank you!</p>
                                 <h3 class="text-white mb-1 text-start fs-20">Adil Rashid</h3>
                                 <p class="mb-0 text-start text-white">FourNxt</p>
@@ -555,7 +555,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80">
+                                <img class="mb-3" src="/assets/images/clients/logo-8.png" alt="Sherpa Communications" width="80" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">The Brandstory team is truly genius, they helped us gain 5X bookings in just 4 months. They helped us dominate the market!</p>
                                 <h3 class="text-white mb-1 text-start">Balint Simon</h3>
                                 <p class="mb-0 text-start text-white">Sherpa Communications</p>
@@ -563,7 +563,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130">
+                                <img class="mb-3" src="/assets/images/clients/logo-7.png" alt="Take Leap" width="130" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">They helped us boost admission queries within a short period. Brandstory has been our digital marketing partner for the last 6 months.</p>
                                 <h3 class="text-white mb-1 text-start">Salman Yusuf</h3>
                                 <p class="mb-0 text-start text-white">Take Leap</p>
@@ -571,7 +571,7 @@
                         </div>
                         <div class="swiper-slide d-flex">
                             <div class="dm-review-main">
-                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170">
+                                <img class="mb-3" src="/assets/images/clients/logo-13.png" alt="Uno Capital" width="170" height="50" loading="lazy" decoding="async">
                                 <p class="text-white text-start mb-3">Working with BrandStory has been a great experience for Uno Capital. Their team is truly amazing, creative and effective in delivering marketing services.</p>
                                 <h3 class="text-white mb-1 text-start">Muhammed S</h3>
                                 <p class="mb-0 text-start text-white">Uno Capital</p>
@@ -622,7 +622,7 @@
                         <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                             <span class="badge-promise">Why Choose Us</span>
                             <div class="expert-badge d-flex align-items-center">
-                                <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2">
+                                <img src="/assets/images/expert-avatar.png" alt="Proven" class="me-2" width="40" height="40" loading="lazy" decoding="async">
                                 <span>Proven B2B Strategies</span>
                             </div>
                         </div>
@@ -815,7 +815,7 @@
         </div>
 
         <div class="select-option-btn-wrapper mt-4 b">
-            <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow">
+            <a href="/contact/" class="select-option-btn" style="background: #fff !important;color: #000 !important;">Select Option<img src="/assets/images/btn-arr.svg" style="filter: invert(1);" alt="Arrow" width="16" height="16" loading="lazy" decoding="async">
             </a>
         </div>
     </div>
@@ -869,19 +869,19 @@
 
         <ul class="evolution-benefits text-white">
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Leverage AI to personalize buyer journeys, improve engagement, and accelerate pipeline conversion.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Adopt ABM strategies and intent-based tools to target high-value accounts with precision.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Expand reach with multi-channel campaigns connecting with decision-makers across LinkedIn, Google, and email.</span>
             </li>
             <li>
-                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);">
+                <img src="/assets/images/check-circle.svg" class="benefit-icon" alt="Check" style="filter: brightness(0) invert(1);" width="24" height="24" loading="lazy" decoding="async">
                 <span class="text-white">Build authority through thought leadership, case studies, and industry content that positions your brand as a trusted partner.</span>
             </li>
         </ul>
@@ -1006,7 +1006,7 @@
 
             <div class="col-lg-5">
                 <div class="launch-illustration-wrap">
-                    <img src="/assets/images/analities-2.png" alt="B2B Digital Marketing Dubai" id="launch-illustration">
+                    <img src="/assets/images/analities-2.png" alt="B2B Digital Marketing Dubai" id="launch-illustration" width="500" height="450" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

@@ -39,9 +39,36 @@ if ($seoData) {
     } elseif (strpos($current_url, 'branding-agency-in-dubai') !== false) {
         $lcp_image = '/assets/images/branding-agency-in-dubai-new-banner-3.webp';
         $lcp_mobile = '/assets/images/branding-agency-in-dubai-new-banner-mobile-1.webp';
-    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false || strpos($current_url, 'website-design-company-in-dubai') !== false) {
+    } elseif (strpos($current_url, 'website-development-company-in-dubai') !== false) {
         $lcp_image = '/assets/images/new-website-design-company-in-dubai/website-dubai.webp';
         $lcp_mobile = '/assets/images/new-website-design-company-in-dubai/bnr-sld-mbl1.jpg';
+    } elseif (strpos($current_url, 'website-design-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/web-design-banner.webp';
+        $lcp_mobile = '/assets/images/web-design-banner.webp';
+    } elseif (strpos($current_url, 'ui-ux-design-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/ui-ux-banner.webp';
+        $lcp_mobile = '/assets/images/ui-ux-banner.webp';
+    } elseif (strpos($current_url, 'logo-designing-dubai') !== false || strpos($current_url, 'logo-designing-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/logo-banner.webp';
+        $lcp_mobile = '/assets/images/logo-banner.webp';
+    } elseif (strpos($current_url, 'creative-advertising-agency-in-dubai') !== false) {
+        $lcp_image = '/assets/images/advertising-banner.webp';
+        $lcp_mobile = '/assets/images/advertising-banner.webp';
+    } elseif (strpos($current_url, 'wordpress-development-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/wordpress-bg.webp';
+        $lcp_mobile = '/assets/images/wordpress-bg.webp';
+    } elseif (strpos($current_url, 'magento-website-development-dubai') !== false) {
+        $lcp_image = '/assets/images/magento-bg.webp';
+        $lcp_mobile = '/assets/images/magento-bg.webp';
+    } elseif (strpos($current_url, 'drupal-website-development-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/drupal-bg.webp';
+        $lcp_mobile = '/assets/images/drupal-bg.webp';
+    } elseif (strpos($current_url, 'laravel-development-company-in-dubai') !== false) {
+        $lcp_image = '/assets/images/laravel-banner.webp';
+        $lcp_mobile = '/assets/images/laravel-banner.webp';
+    } elseif (strpos($current_url, 'ecommerce-development-company-dubai') !== false) {
+        $lcp_image = '/assets/images/ecommerce-bg.webp';
+        $lcp_mobile = '/assets/images/ecommerce-bg.webp';
     } elseif (strpos($current_url, 'about') !== false) {
         $lcp_image = '/assets/images/banners/new-about-us-banner.webp';
         $lcp_mobile = '/assets/images/banners/new-about-us-banner.webp';
@@ -84,6 +111,42 @@ if ($seoData) {
     } elseif (strpos($current_url, 'local-seo-services-in-dubai') !== false) {
         $lcp_image = '/assets/images/local-seo-banner.webp';
         $lcp_mobile = '/assets/images/local-seo-banner.webp';
+    } elseif (strpos($current_url, 'e-commerce-marketing-service') !== false) {
+        $lcp_image = '/assets/images/industries/E-commerce-Marketing-Agency-banner.webp';
+        $lcp_mobile = '/assets/images/industries/E-commerce-Marketing-Agency-banner.webp';
+    } elseif (strpos($current_url, 'healthcare-marketing-services') !== false) {
+        $lcp_image = '/assets/images/industries/Best-Healthcare-Marketing-Agency-banner.webp';
+        $lcp_mobile = '/assets/images/industries/Best-Healthcare-Marketing-Agency-banner.webp';
+    } elseif (strpos($current_url, 'education-marketing-services') !== false) {
+        $lcp_image = '/assets/images/industries/Best-Healthcare-Marketing-Agency-banner.webp';
+        $lcp_mobile = '/assets/images/industries/Best-Healthcare-Marketing-Agency-banner.webp';
+    } elseif (strpos($current_url, 'b2b-corporate-marketing-services') !== false) {
+        $lcp_image = '/assets/images/industries/b2b-corporate-marketing-services-banner.webp';
+        $lcp_mobile = '/assets/images/industries/b2b-corporate-marketing-services-banner.webp';
+    } elseif (strpos($current_url, 'travel-agency-marketing-services') !== false) {
+        $lcp_image = '/assets/images/industries/travel-agency-marketing-services-banner.webp';
+        $lcp_mobile = '/assets/images/industries/travel-agency-marketing-services-banner.webp';
+    } elseif (strpos($current_url, 'digital-marketing-for-dentists') !== false) {
+        $lcp_image = '/assets/images/industries/Digital-Marketing-for-Dentists-banner.webp';
+        $lcp_mobile = '/assets/images/industries/Digital-Marketing-for-Dentists-banner.webp';
+    } elseif (strpos($current_url, 'digital-marketing-for-automotive') !== false) {
+        $lcp_image = '/assets/images/industries/automotive-1.webp';
+        $lcp_mobile = '/assets/images/industries/automotive-1.webp';
+    } elseif (strpos($current_url, 'digital-marketing-agency-in-abu-dhabi') !== false) {
+        $lcp_image = '/assets/images/banner-abudhabi.webp';
+        $lcp_mobile = '/assets/images/banner-abudhabi.webp';
+    } elseif (strpos($current_url, 'digital-marketing-agency-in-sharjah') !== false) {
+        $lcp_image = '/assets/images/seo/dm/dm-banner-sharjah.jpg';
+        $lcp_mobile = '/assets/images/seo/dm/dm-banner-sharjah.jpg';
+    } elseif (strpos($current_url, 'digital-marketing-agency-in-ajman') !== false) {
+        $lcp_image = '/assets/images/seo/dm/dm-banner-ajman.jpg';
+        $lcp_mobile = '/assets/images/seo/dm/dm-banner-ajman.jpg';
+    } elseif (strpos($current_url, 'digital-marketing-agency-in-fujairah') !== false) {
+        $lcp_image = '/assets/images/seo/dm/dm-banner-fujairah.jpg';
+        $lcp_mobile = '/assets/images/seo/dm/dm-banner-fujairah.jpg';
+    } elseif (strpos($current_url, 'digital-marketing-agency-in-ras-al-khaimah') !== false) {
+        $lcp_image = '/assets/images/seo/dm/dm-banner-alkhaimah.jpg';
+        $lcp_mobile = '/assets/images/seo/dm/dm-banner-alkhaimah.jpg';
     }
 
     if ($lcp_image): ?>

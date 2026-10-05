@@ -1,10 +1,8 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/web-design.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
-
-<link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 
 <!--<section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
@@ -148,7 +146,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/industries/real-estate-growth-for-23-marina.webp") ?>" alt="We Scale Real Estate Marketing Success for 23 Marina" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/industries/real-estate-growth-for-23-marina.webp") ?>" alt="We Scale Real Estate Marketing Success for 23 Marina" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -198,7 +196,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Real Estate Marketing</span>
                             <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
-                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid">
+                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -225,7 +223,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Brand & Web Design</span>
                             <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -252,7 +250,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Dubai Market Entry & PPC</span>
                             <img src="<?= base_url('assets/images/case-study/g-square-case-study.webp') ?>" alt="G Square"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -279,7 +277,7 @@
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">PPC & SEO Lead Gen</span>
                             <img src="<?= base_url('assets/images/case-study/cject-1-case-study.webp') ?>" alt="Object 1"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -988,7 +986,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/industries/real-estate-market-1.webp') ?>" alt="3D Visualization & UI/UX Design" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-1.webp') ?>" alt="3D Visualization & UI/UX Design" class="img-fluid realestate-service-img" width="540" height="350" loading="lazy" decoding="async">
         </div>
       </div>
       <div class="col-lg-6">
@@ -1036,7 +1034,7 @@
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/industries/real-estate-market-2.webp') ?>" alt="Video Production & Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-2.webp') ?>" alt="Video Production & Marketing" class="img-fluid realestate-service-img" width="540" height="350" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -1045,7 +1043,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/industries/real-estate-market-3.webp') ?>" alt="Digital Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-3.webp') ?>" alt="Digital Marketing" class="img-fluid realestate-service-img" width="540" height="350" loading="lazy" decoding="async">
         </div>
       </div>
       <div class="col-lg-6">
@@ -1092,7 +1090,7 @@
       </div>
       <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/industries/real-estate-market-4.webp') ?>" alt="Experiential Marketing" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-4.webp') ?>" alt="Experiential Marketing" class="img-fluid realestate-service-img" width="540" height="350" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -1101,7 +1099,7 @@
     <div class="row align-items-center realestate-service-row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="realestate-service-img-wrap">
-          <img src="<?= base_url('assets/images/industries/real-estate-market-5.webp') ?>" alt="Digital Branding" class="img-fluid realestate-service-img">
+          <img src="<?= base_url('assets/images/industries/real-estate-market-5.webp') ?>" alt="Digital Branding" class="img-fluid realestate-service-img" width="540" height="350" loading="lazy" decoding="async">
         </div>
       </div>
       <div class="col-lg-6">
@@ -1419,26 +1417,26 @@
   
     <div class="container">
         <div class="premium-why-bottom-banner mb-5">
-            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" width="1200" height="300" loading="lazy" decoding="async">
         </div>
         <div class="premium-badges-grid">
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" style="max-width: 45%;">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" style="max-width: 45%;" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async">
             </div>
         </div>
     </div>

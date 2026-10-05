@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -39,7 +39,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/wordpress-01.webp") ?>" alt="Expert WordPress Web Development in Dubai" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/wordpress-01.webp") ?>" alt="Expert WordPress Web Development in Dubai" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -640,7 +640,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Project Blueprinting Planning Phase">
+              <img src="<?= base_url("assets/images/wordpress-03.webp") ?>" alt="Project Blueprinting Planning Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We start by understanding your business goals, target audience, and website requirements. This phase includes defining features, choosing the right WordPress setup and tools, and creating a clear development roadmap. Proper planning ensures a smooth process and supports your long-term growth.
@@ -661,7 +661,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Customer Journey Mapping Design Phase">
+              <img src="<?= base_url("assets/images/wordpress-04.webp") ?>" alt="Customer Journey Mapping Design Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our team focuses on creating an intuitive, user-first website experience. We design clean layouts, clear navigation, and structured page flows that make it easy for users to explore your content and take action. The goal is to improve usability, reduce friction, and guide visitors toward conversions.
@@ -682,7 +682,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Website Development Programming Phase">
+              <img src="<?= base_url("assets/images/wordpress-05.webp") ?>" alt="Website Development Programming Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               In this stage, we transform designs into a fully functional WordPress website. We develop custom, scalable, and high-performance sites with clean code, proper CMS setup, plugin integrations, and optimized backend functionality. Clean coding practices ensure reliability, speed, and long-term performance.
@@ -703,7 +703,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Quality Assurance QA Phase">
+              <img src="<?= base_url("assets/images/wordpress-06.webp") ?>" alt="Quality Assurance QA Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Before launch, we conduct thorough QA testing to ensure your WordPress website functions flawlessly. This includes testing performance, mobile responsiveness, browser compatibility, and security. We identify and resolve any issues to deliver a smooth, robust, and user-friendly experience.
@@ -724,7 +724,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/wordpress-07.webp") ?>" alt="Website Deployment Launch Phase">
+              <img src="<?= base_url("assets/images/wordpress-07.webp") ?>" alt="Website Deployment Launch Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Once everything is optimized and approved, we deploy your WordPress website live. We ensure a smooth transition with server setup, redirection, and performance checks. Post-launch, we stay ready to support and optimize your site for continued growth.
@@ -778,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/fb-image-02.webp") ?>" class="img-fluid" alt="Leading Agency for Facebook Advertising">
+          <img src="<?= base_url("assets/images/fb-image-02.webp") ?>" class="img-fluid" alt="Leading Agency for Facebook Advertising" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -812,7 +812,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -841,7 +841,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -871,7 +871,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -901,7 +901,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -931,7 +931,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -966,7 +966,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

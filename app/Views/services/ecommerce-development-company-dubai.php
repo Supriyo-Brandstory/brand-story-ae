@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -39,7 +39,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/ecommerce-01.webp") ?>" alt="Grow with Dubai’s Leading eCommerce Experts" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/ecommerce-01.webp") ?>" alt="Grow with Dubai’s Leading eCommerce Experts" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -640,7 +640,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/ecommerce-03.webp") ?>" alt="Project Blueprinting Planning Phase">
+              <img src="<?= base_url("assets/images/ecommerce-03.webp") ?>" alt="Project Blueprinting Planning Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We start by understanding your business goals, target audience, and website specifications. This phase includes defining features, choosing the right platform, and creating a clear roadmap for your eCommerce store. Proper planning ensures a smooth design, development process and aligns your growth objectives.
@@ -661,7 +661,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/ecommerce-04.webp") ?>" alt="Customer Journey Mapping Design Phase">
+              <img src="<?= base_url("assets/images/ecommerce-04.webp") ?>" alt="Customer Journey Mapping Design Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our team focuses on creating an intuitive and user-first storefront experience. We design layouts, navigation flows, and product pages that make browsing and purchasing simple for customers. The goal is to improve usability, reduce friction, and guide users smoothly from product discovery to checkout.
@@ -682,7 +682,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/ecommerce-05.webp") ?>" alt="Custom eCommerce Dev. Programming Phase">
+              <img src="<?= base_url("assets/images/ecommerce-05.webp") ?>" alt="Custom eCommerce Dev. Programming Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               In this stage, we turn designs into a fully functional eCommerce website. We build a secure, scalable, and high-performance platform with essential features like product management, payment integration, and backend systems. Clean coding practices ensure reliability and performance.
@@ -703,7 +703,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/ecommerce-06.webp") ?>" alt="Quality Assurance QA Phase">
+              <img src="<?= base_url("assets/images/ecommerce-06.webp") ?>" alt="Quality Assurance QA Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Before launch, we conduct thorough QA testing to ensure everything works perfectly. This includes checking website speed, mobile responsiveness, functionality, and security. We identify and fix any issues to guarantee a seamless shopping experience for end users.
@@ -724,7 +724,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/ecommerce-07.webp") ?>" alt="Website Deployment Launch Phase">
+              <img src="<?= base_url("assets/images/ecommerce-07.webp") ?>" alt="Website Deployment Launch Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Once everything is optimized and approved, we deploy your eCommerce website live. We ensure a smooth transition with server setup, monitoring, and performance checks. Post-launch, we stay ready to support and optimize your store for continued growth.
@@ -927,7 +927,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/ecommerce-08.webp") ?>" class="img-fluid" alt="Your Trusted eCommerce Development Partner in Dubai">
+          <img src="<?= base_url("assets/images/ecommerce-08.webp") ?>" class="img-fluid" alt="Your Trusted eCommerce Development Partner in Dubai" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -961,7 +961,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -990,7 +990,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1020,7 +1020,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1050,7 +1050,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1080,7 +1080,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -1115,7 +1115,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->

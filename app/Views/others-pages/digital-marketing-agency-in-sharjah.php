@@ -44,7 +44,7 @@
                 <p>The BrandStory is one of the best and pre-eminent digital marketing company in Sharjah, helps you to build a web presence of your business and to build customers trust on your services. By combining creative storytelling, search-driven visibility, and data-backed campaigns, BrandStory helps brands stay relevant, discoverable, and ahead in the fast-moving digital landscape.</p>
             </div><!--col end-->
             <div class="col-md-6"> <!--col start-->
-                <img src="/assets/images/seo/dm/agency-sharjah.png" class="img-fluid mb-3" alt="Best Digital Marketing Agency in Sharjah">
+                <img src="/assets/images/seo/dm/agency-sharjah.png" width="540" height="360" loading="lazy" decoding="async" class="img-fluid mb-3" alt="Best Digital Marketing Agency in Sharjah">
             </div><!--col end-->
         </div><!--Row End-->
 
@@ -71,68 +71,68 @@
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance1.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Search Engine Optimization Icon">
                             <h3 class="mb-3">Search Engine <span class="db">Optimization (SEO)</span></h3>
                             <p class="mb-3 fs-20">Search Engine Optimization (SEO) plays a vital role in improving your website’s visibility and attracting high-quality
                                  organic traffic. Our SEO experts in Sharjah implement proven, data-driven strategies to enhance rankings, drive qualified visitors, 
                                  and help your business secure positions in SERPs.</p>
                             <div class="casestydies-readmore">
-                                <a href="/seo-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/seo-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance2.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Social Media Marketing Icon">
                             <h3 class="mb-3">Social Media Marketing <span class="db">(SMM)</span></h3>
                             <p class="mb-3 fs-20">Boost your brand’s presence with targeted social media marketing in Sharjah. We create compelling campaigns that
                                  capture attention, build meaningful connections, and engage audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter, helping your brand grow consistently in Sharjah.</p>
                             <div class="casestydies-readmore">
-                                <a href="/digital-marketing-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/digital-marketing-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance3.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Pay Per Click Icon">
                             <h3 class="mb-3">Pay Per Click (PPC)</h3>
                             <p class="mb-3 fs-20">We deliver performance-focused PPC campaign management tailored for businesses in Sharjah. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click
                                  campaigns to maximize reach, attract high-quality leads, and deliver the best possible return on investment.</p>
                             <div class="casestydies-readmore">
-                                <a href="/digital-marketing-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/digital-marketing-agency-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance4.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Email Marketing Icon">
                             <h3 class="mb-3">Email Marketing</h3>
                             <p class="mb-3 fs-20">We offer professional email marketing services in Sharjah to engage your audience, nurture prospects, and increase conversions. Our team creates tailored email campaigns and
                                  templates that enable direct communication with customers while ensuring consistent, meaningful engagement.</p>
                             <div class="casestydies-readmore">
-                                <a href="/email-marketing-company-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/email-marketing-company-in-sharjah/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance5.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Performance Marketing Icon">
                             <h3 class="mb-3">Performance Marketing</span></h3>
                             <p class="mb-3 fs-20">Performance marketing is a growth-focused strategy centered on measurable business outcomes. We are a leading performance-driven digital marketing agency in Sharjah, delivering
                                  comprehensive full-funnel performance marketing services designed to drive sustainable and scalable business growth.</p>
                             <div class="casestydies-readmore">
-                                <a href="/full-funnel-performance-marketing/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/full-funnel-performance-marketing/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="perks-main">
-                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg') ?>">
+                            <img class="mb-4" src="<?= base_url('/assets/images/home/nimportance7.svg') ?>" width="60" height="60" loading="lazy" decoding="async" alt="Website Design Icon">
                             <h3 class="mb-3">Website Design</span></h3>
                             <p class="mb-3 fs-20">A website designed for an exceptional user experience is crucial for converting visitors into leads. In Sharjah, we create custom websites using the latest technologies, ensuring
                                  they are visually appealing, fully mobile-responsive, and easy to navigate for higher engagement and conversions.</p>
                             <div class="casestydies-readmore">
-                                <a href="/website-design-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>"></a>
+                                <a href="/website-design-company-in-dubai/"><b>استكشف الخدمة</b> <img src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" class="img-fluid" alt="google adwords marketing dubai">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-1.png" width="80" height="80" loading="lazy" decoding="async" class="img-fluid" alt="google adwords marketing dubai">
                     <h4 class="mt-3">Local Insight That Matters</h4>
                     <p>Sharjah’s digital ecosystem is shaped by cultural depth, a strong SME presence, and a rapidly growing online audience. Our team 
                         brings hands-on experience in understanding local buyer intent, language preferences, and platform behavior allowing brands to 
@@ -161,7 +161,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" class="img-fluid" alt="google adwords marketing company in dubai">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-2.png" width="80" height="80" loading="lazy" decoding="async" class="img-fluid" alt="google adwords marketing company in dubai">
                     <h4 class="mt-3">Built for Sharjah Businesses</h4>
                     <p>Rather than using generic digital formulas, we create marketing strategies tailored to Sharjah’s business environment. By aligning 
                         brand goals with regional demand patterns and digital trends, we help businesses achieve consistent visibility, meaningful engagement, 
@@ -170,7 +170,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="create-positive-box text-md-start text-center">
-                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" class="img-fluid" alt="google adwords marketing agency dubai">
+                    <img src="/assets/images/service/ppc/right-ppc-icon-3.png" width="80" height="80" loading="lazy" decoding="async" class="img-fluid" alt="google adwords marketing agency dubai">
                     <h4 class="mt-3">Solving Real Market Barriers</h4>
                     <p>Sharjah businesses face unique hurdles from reaching multilingual audiences to standing out in crowded digital spaces. We address these 
                         challenges with insight-led planning, precise targeting, and continuous optimization, ensuring your campaigns remain compliant, 
@@ -191,48 +191,48 @@
         <div class="tools-list-wrapper">
             <div class="tools-list">
                 <div class="tool-card" data-tool="gds">
-                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" alt="GDS" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GDS" />
                     <span>Google Data Studio</span>
                 </div>
                 <div class="tool-card" data-tool="ga">
-                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" alt="GA" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GA" />
                     <span>Google Analytics</span>
                 </div>
                 <div class="tool-card" data-tool="hubspot">
-                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" alt="hubspot" />
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hubspot" />
                     <span>HubSpot</span>
                 </div>
                 <div class="tool-card" data-tool="semrush">
-                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" alt="Semrush" />
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Semrush" />
                     <span>SemRush</span>
                 </div>
                 <div class="tool-card" data-tool="surfer">
-                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" alt="surfer" />
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="surfer" />
                     <span>Surfer SEO</span>
                 </div>
                 <div class="tool-card" data-tool="mailchimp">
-                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" alt="mailchimp " />
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="mailchimp " />
                     <span>Mailchimp</span>
                 </div>
                 <div class="tool-card" data-tool="adroll">
-                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" alt="adroll" />
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="adroll" />
                     <span>AdRoll</span>
                 </div>
                 <div class="tool-card" data-tool="google-ads">
-                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" alt="google-ads" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-ads" />
                     <span>Google Ads</span>
                 </div>
 
                 <div class="tool-card" data-tool="meta-ads-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" alt="Meta Ads Manager" />
+                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Meta Ads Manager" />
                     <span>Meta Ads Manager</span>
                 </div>
                 <div class="tool-card" data-tool="google-tag-manager">
-                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" alt="google-tag-manager" />
+                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-tag-manager" />
                     <span>Google Tag Manager</span>
                 </div>
                 <div class="tool-card" data-tool="hootsuite">
-                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" alt="hootsuite" />
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hootsuite" />
                     <span>Hootsuite</span>
                 </div>
 
@@ -305,78 +305,78 @@
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/sand-sollar.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="Sand Dollar Dubai- Ecommerce">
                                 <strong>Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/e-commerce/">Sand Dollar Dubai- Ecommerce</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">135% More Sales | 400% More Traffic | Just 3 Months</b> <br><br>A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/e-commerce/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/travelex.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="TravelEX">
                                 <strong>Branding & Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/travel-agency/">TravelEX</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">210% More Enquiries | Stronger Visibility | Just 3 Months</b> <br><br> TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/travel-agency/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/crystal-plaza.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="Crystal Plaza">
                                 <strong>Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/hotel/">Crystal Plaza</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</b> <br><br> Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. “luxury hotel in Dubai”, “business stay Dubai”)</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/hotel/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nims.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="NIMS School">
                                 <strong>Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/education-institution/">NIMS School</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">Top 5 Rankings | 80% More Engagement | Enrollment Surged</b> <br><br> In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/education-institution/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/wipro.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="Wipro Infrastructure Engineering">
                                 <strong>Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/wipro-infrastructure-engineering/">Wipro Infrastructure Engineering</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">Global Reach | Targeted PPC | More Brand Authority</b> <br><br> Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations- BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/wipro-infrastructure-engineering/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
                     <div class="case-study-scroll-item">
                         <div class="neww-case-stuides-main">
                             <div class="case-study-img-wrapper">
-                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>">
+                                <img class="w-100 dm-blog-img" src="<?= base_url('assets/images/case-study/nanoprecise.webp') ?>" width="400" height="250" loading="lazy" decoding="async" alt="NanoPrecise Sci Corp">
                                 <strong>Digital Marketing</strong>
                             </div>
                             <h3><a href="/case-study/nanoprecise-sci-corp/">NanoPrecise Sci Corp</a></h3>
                             <p class="fs-20"><b style="color:#a15bff;">AI-Powered Branding | SEO & PPC | Enhanced Global ROI</b> <br><br> NanoPrecise's cutting-edge predictive maintenance solutions deserved equally powerful digital marketing- BrandStory crafted a data-driven SEO and PPC strategy that strengthened their global presence and drove significant, measurable business growth.</p>
                             <div class="casestydies-readmore">
-                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1"></a>
+                                <a href="/case-study/nanoprecise-sci-corp/">Know more <img class="m-0" src="<?= base_url('/assets/images/home/readmore-arrow.svg') ?>?v=1" width="16" height="16" loading="lazy" decoding="async" alt="arrow"></a>
                             </div>
                         </div>
                     </div>
@@ -507,26 +507,30 @@
 
 <?php include __DIR__ . '/../component/services/digital-links.php' ?>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $(document).ready(function() {
-        $(".strategy-title").on("click", function() {
-            // Remove 'active' from all and add it to the clicked one
-            $(".strategy-title").removeClass("active");
-            $(this).addClass("active");
+    document.addEventListener("DOMContentLoaded", function() {
+        var titles = document.querySelectorAll(".strategy-title");
+        var mains = document.querySelectorAll(".strategy-process-main");
 
-            // Get the unique class name (e.g., 'strategy1', 'strategy2'...)
-            var classList = $(this).attr("class").split(/\s+/);
-            var targetClass = classList.find(c => c.startsWith("strategy") && c !== "strategy-title");
+        mains.forEach(function(el) { el.style.display = "none"; });
+        var initial = document.querySelector(".strategy-process-main.strategy1");
+        if (initial) initial.style.display = "block";
 
-            // Hide all and show the matched one
-            $(".strategy-process-main").hide();
-            $(".strategy-process-main." + targetClass).show();
+        titles.forEach(function(title) {
+            title.addEventListener("click", function() {
+                titles.forEach(function(t) { t.classList.remove("active"); });
+                this.classList.add("active");
+
+                var classList = Array.from(this.classList);
+                var targetClass = classList.find(function(c) { return c.startsWith("strategy") && c !== "strategy-title"; });
+
+                mains.forEach(function(el) { el.style.display = "none"; });
+                if (targetClass) {
+                    var target = document.querySelector(".strategy-process-main." + targetClass);
+                    if (target) target.style.display = "block";
+                }
+            });
         });
-
-        // Initial state: show only the first
-        $(".strategy-process-main").hide();
-        $(".strategy-process-main.strategy1").show();
     });
 </script>
 

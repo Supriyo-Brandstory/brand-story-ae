@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= base_url("assets/css/home-2.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -39,7 +39,7 @@
       <!-- Left Side: Image -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="premium-perf-img-wrap">
-          <img src="<?= base_url("assets/images/magento-01.webp") ?>" alt="Magento eCommerce Development in Dubai That Drives Real Revenue" class="img-fluid premium-perf-img">
+          <img src="<?= base_url("assets/images/magento-01.webp") ?>" alt="Magento eCommerce Development in Dubai That Drives Real Revenue" class="img-fluid premium-perf-img" width="540" height="400" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Content -->
@@ -637,7 +637,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/magento-03.webp") ?>" alt="eCommerce Strategy Discovery Phase">
+              <img src="<?= base_url("assets/images/magento-03.webp") ?>" alt="eCommerce Strategy Discovery Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We start by understanding your products, pricing model, target customers, and competitors in the UAE market. From your catalogue structure, shipping and tax rules, payment preferences, and the integrations your business depends on from accounting software to warehouse management systems, a detailed store blueprint is produced before development begins, so every decision is grounded in commercial reality rather than technical assumption.
@@ -658,7 +658,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/magento-04.webp") ?>" alt="Architecture & UX Design Phase">
+              <img src="<?= base_url("assets/images/magento-04.webp") ?>" alt="Architecture & UX Design Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Conversion starts with design. Our Magento web designers in Dubai create storefront experiences built around how B2B buyers and B2C shoppers actually browse and buy: with clear product discovery paths, fast access to key information, and a checkout flow engineered to reduce abandonment. We design for mobile-first, map out every user journey from landing page to order confirmation, and provide interactive prototypes so you review and test the buying experience before a single component is coded.
@@ -679,7 +679,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/magento-05.webp") ?>" alt="Development & Integration Phase">
+              <img src="<?= base_url("assets/images/magento-05.webp") ?>" alt="Development & Integration Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Our Magento developers in Dubai build to the platform’s best-practice standards: clean, modular code that is maintainable, extensible, and built for speed. We configure product catalogues, pricing rules, promotions, and multi-store management. Tech stack in this phase includes payment gateways (including Telr, HyperPay, and Network International), ERP and POS connections, shipping providers, and marketing automation tools. Every build is version-controlled and staged for client review throughout.
@@ -700,7 +700,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/magento-06.webp") ?>" alt="Testing & Security Review QA Phase">
+              <img src="<?= base_url("assets/images/magento-06.webp") ?>" alt="Testing & Security Review QA Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               Before your store goes live, we subject it to rigorous testing across devices, browsers, and traffic-load scenarios. Checkout flows, payment processing, catalogue filtering, and promotions are cross-checked across simulated user journeys. A full security review covering PCI DSS compliance considerations, server hardening, extension vulnerability checks, and HTTPS enforcement ensures a comprehensive defence from vulnerabilities particularly in the competitive UAE retail market.
@@ -721,7 +721,7 @@
           </div>
           <div class="wp-process-pane-body">
             <div class="wp-process-pane-img">
-              <img src="<?= base_url("assets/images/magento-07.webp") ?>" alt="Launch & Growth Support Deployment Phase">
+              <img src="<?= base_url("assets/images/magento-07.webp") ?>" alt="Launch & Growth Support Deployment Phase" width="450" height="300" loading="lazy" decoding="async">
             </div>
             <div class="wp-process-pane-text">
               We manage your Magento store launch with zero-downtime deployment, server configuration, CDN setup, and post-launch monitoring to catch any issues the moment they arise. Once live, we stay close: tracking store performance, reviewing Magento security patches, refining catalogue and campaign configurations, resolving critical issues ahead of peak trading periods like Ramadan, White Friday, and holiday sales with continuous support.
@@ -781,7 +781,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Right Side: Image -->
       <div class="col-lg-6 mt-4 mt-lg-0 text-center">
         <div class="pm-results-image-wrap">
-          <img src="<?= base_url("assets/images/magento-08.webp") ?>" class="img-fluid" alt="Why Dubai Businesses Choose BrandStory as Their Magento Agency">
+          <img src="<?= base_url("assets/images/magento-08.webp") ?>" class="img-fluid" alt="Why Dubai Businesses Choose BrandStory as Their Magento Agency" width="600" height="400" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -844,7 +844,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -874,7 +874,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -904,7 +904,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid">
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -934,7 +934,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="premium-cs-row-img-wrap">
                             <span class="premium-cs-row-badge">Digital Marketing</span>
                             <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
+                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -969,7 +969,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Left Side: Image of two people standing back-to-back -->
       <div class="col-lg-5 col-md-12">
         <div class="premium-stats-banner-img-wrap">
-          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+          <img src="<?= base_url("assets/images/email-09.webp") ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats" width="480" height="380" loading="lazy" decoding="async">
         </div>
       </div>
       <!-- Right Side: Statistics Content -->
