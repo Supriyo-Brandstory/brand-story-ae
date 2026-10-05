@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 
-<section class="premium-hero-slider static-premium-banner">
+<!--<section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
     <div class="premium-slide active" style="background-image: url('<?= base_url("assets/images/dark-banner-burj-khalifa.webp") ?>');">
       <div class="container">
@@ -29,10 +29,10 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- Hero Banner Section -->
-<!--<section class="re-hero-banner">
+<section class="re-hero-banner">
   <div class="re-banner-grid-overlay"></div>
   <div class="re-banner-glow"></div>
   <div class="container position-relative">
@@ -138,7 +138,7 @@
       </div>
     </div>
   </div>
-</section>-->
+</section>
 
 
 <!-- Performance marketing intro section -->
@@ -310,7 +310,7 @@
     </div>
 </section>
 
-<div class="bs-overview-section">
+<!--<div class="bs-overview-section">
         <div class="bs-overview-glow"></div>
 
         <div class="container">
@@ -342,9 +342,9 @@
                 </h2>
             </div>
 
-            <!-- 4x2 Grid (4 Columns on Desktop) -->
+            
             <div class="bs-steps-grid">
-                <!-- Card 1 -->
+             
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -362,7 +362,7 @@
                     </p>
                 </div>
 
-                <!-- Card 2 -->
+                
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -379,7 +379,7 @@
                     </p>
                 </div>
 
-                <!-- Card 3 -->
+                
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -395,7 +395,7 @@
                     </p>
                 </div>
 
-                <!-- Card 4 (Highlighted) -->
+               
                 <div class="bs-step-card is-accent">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -412,7 +412,7 @@
                     </p>
                 </div>
 
-                <!-- Card 5 -->
+              
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -428,7 +428,7 @@
                     </p>
                 </div>
 
-                <!-- Card 6 -->
+                
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -443,7 +443,7 @@
                     </p>
                 </div>
 
-                <!-- Card 7 -->
+                
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -460,7 +460,7 @@
                     </p>
                 </div>
 
-                <!-- Card 8 -->
+              
                 <div class="bs-step-card">
                     <div class="bs-step-icon-wrap">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
@@ -476,7 +476,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
        <div class="bs-trends-section">
         <div class="bs-trends-glow"></div>
@@ -710,7 +710,7 @@
     </div>
 
 
-<div class="bs-future-section">
+<!--<div class="bs-future-section">
         <div class="bs-future-glow"></div>
 
         <div class="container">
@@ -720,11 +720,10 @@
                 </h2>
             </div>
 
-            <!-- 2-Column Boxed Accordion Grid -->
+            <!-- 
             <div class="bs-future-grid">
-                <!-- Left Box (7 Items) -->
                 <div class="bs-future-box">
-                    <!-- Item 1 (Open by Default) -->
+                   
                     <div class="bs-future-item is-open">
                         <button class="bs-future-item-btn" type="button" aria-expanded="true">
                             <div class="bs-future-left">
@@ -737,7 +736,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 2 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -750,7 +749,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -763,7 +762,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 4 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -776,7 +775,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 5 -->
+                    <
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -789,7 +788,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 6 -->
+                   
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -802,7 +801,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 7 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -816,9 +815,9 @@
                     </div>
                 </div>
 
-                <!-- Right Box (7 Items) -->
+                
                 <div class="bs-future-box">
-                    <!-- Item 8 (Open by Default) -->
+                   
                     <div class="bs-future-item is-open">
                         <button class="bs-future-item-btn" type="button" aria-expanded="true">
                             <div class="bs-future-left">
@@ -831,7 +830,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 9 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -844,7 +843,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 10 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -857,7 +856,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 11 -->
+                  
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -870,7 +869,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 12 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -883,7 +882,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 13 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -896,7 +895,7 @@
                         </div>
                     </div>
 
-                    <!-- Item 14 -->
+                    
                     <div class="bs-future-item">
                         <button class="bs-future-item-btn" type="button" aria-expanded="false">
                             <div class="bs-future-left">
@@ -911,7 +910,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 <!-- Our Approach To Real Estate Marketing Section -->
 <section class="real-estate-approach-section dm-bg">
@@ -925,7 +924,7 @@
     <div class="approach-steps-wrapper">
       <div class="approach-timeline-line"></div>
       <div class="row">
-        <!-- Step 1 -->
+        
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="approach-step-card">
             <div class="approach-step-badge-wrap">
@@ -935,7 +934,7 @@
             <p class="approach-step-desc">We begin by understanding your real estate project, target audience, competitors, market positioning, and business objectives. This foundation helps us identify the right positioning, messaging, channels, and opportunities to build a marketing strategy tailored to your property and market.</p>
           </div>
         </div>
-        <!-- Step 2 -->
+        
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="approach-step-card">
             <div class="approach-step-badge-wrap">
@@ -945,7 +944,7 @@
             <p class="approach-step-desc">We transform your project's unique value into a compelling brand story. From campaign concepts and visual communication to property content and marketing creatives, our team develops assets designed to communicate value, and create a strong connection with buyers and investors.</p>
           </div>
         </div>
-        <!-- Step 3 -->
+        
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="approach-step-card">
             <div class="approach-step-badge-wrap">
@@ -955,7 +954,7 @@
             <p class="approach-step-desc">Once the strategy and creative direction are established, we activate campaigns across the digital channels most relevant to your audience. Our performance marketing approach focuses on generating quality enquiries, and creating consistent opportunities for your sales team.</p>
           </div>
         </div>
-        <!-- Step 4 -->
+       
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="approach-step-card">
             <div class="approach-step-badge-wrap">
