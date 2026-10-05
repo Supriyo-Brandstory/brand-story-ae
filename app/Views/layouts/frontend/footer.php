@@ -69,7 +69,7 @@
         <div class="col-lg-auto col-md-12 ftr-col-1">
           <div class="ftr-brand-title">BRANDSTORY <sup>®</sup></div>
           <p class="ftr-brand-desc">
-            BrandStory is a premier digital transformation agency in Dubai. We excel in digital marketing, web design, and branding expertise to help UAE-based businesses connect, expand, and succeed.
+            BrandStory is a premier digital marketing agency in Dubai. We excel in SEO, PPC, Social Media, web design, and branding to help UAE-based businesses connect, expand, and succeed.
           </p>
           <div class="ftr-social-block">
             <h6 class="ftr-social-title">Follow Us</h6>
