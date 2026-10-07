@@ -15537,6 +15537,12 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     box-shadow: 0 10px 28px rgba(133, 91, 255, 0.38);
 }
 
+.platform-tab-item.active .platform-tab-icon,
+.platform-tab-item.active .platform-tab-icons img,
+.platform-tab-item.active .platform-tab-icons svg {
+    filter: brightness(0) invert(1);
+}
+
 .platform-tab-left {
     display: flex;
     align-items: center;
