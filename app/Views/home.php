@@ -1481,93 +1481,377 @@
     </div>
 </section>
 
-<section class="premium-verticals-section">
+<section class="platform-partnerships-section">
     <div class="container">
-       
         <!-- Section Header -->
-        <h2 class="premium-verticals-title">We Specialize in All Digital Marketing Verticals</h2>
+        <div class="platform-partnerships-header">
+            <h2 class="platform-partnerships-title">We Turn Every Platform Into Your Sales Channel: Google, Meta, TikTok &amp; More</h2>
+            <p class="platform-partnerships-desc">Marketing has evolved, and your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. As a full-service marketing agency, BrandStory brings you access to the world's most powerful digital channels under one roof.</p>
+        </div>
 
-        <!-- 4x2 Grid -->
-        <div class="premium-verticals-grid">
-            <!-- Google -->
-            <div class="premium-vertical-cell">
+        <!-- Two Column Interactive Tabs -->
+        <div class="platform-partnerships-row">
+            <!-- Left: Platform Tabs List -->
+            <div class="platform-tabs-col">
+                <div class="platform-tabs-list" role="tablist">
+                    <!-- Tab 01: Google Marketing -->
+                    <div class="platform-tab-item active" data-tab="platform-tab-1" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">01</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Google Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/google.svg') ?>" alt="Google" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
 
-                <div class="vertical-name-main">Google</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/google.svg') ?>" alt="Google Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
+                    <!-- Tab 02: Facebook Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-2" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">02</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Facebook Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/facebook.svg') ?>" alt="Facebook" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Tab 03: Instagram Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-3" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">03</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Instagram Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/instagram.svg') ?>" alt="Instagram" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Tab 04: LinkedIn Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-4" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">04</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">LinkedIn Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/linkdin.svg') ?>" alt="LinkedIn" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Tab 05: TikTok Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-5" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">05</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">TikTok Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg class="platform-tab-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.88 2.89 2.89 0 0 1-2.88-2.88 2.89 2.89 0 0 1 2.88-2.88c.45 0 .87.1 1.25.28V9.32a6.34 6.34 0 0 0-1.25-.13A6.33 6.33 0 0 0 3 15.52 6.33 6.33 0 0 0 9.33 21.85a6.33 6.33 0 0 0 6.33-6.33V8.87a8.28 8.28 0 0 0 4.93 1.62V7.05a4.85 4.85 0 0 1-1-.36z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Tab 06: Amazon and Noon Ads -->
+                    <div class="platform-tab-item" data-tab="platform-tab-6" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">06</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Amazon and Noon Ads</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg class="platform-tab-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Bing -->
-            <div class="premium-vertical-cell">
+            <!-- Right: Platform Details View Pane -->
+            <div class="platform-content-col">
+                <div class="platform-details-container">
+                    <!-- Detail Pane 01: Google Marketing -->
+                    <div class="platform-detail-pane active" id="platform-tab-1">
+                        <h3 class="platform-detail-heading">Google Marketing</h3>
+                        <p class="platform-detail-text">BranStory is a Google Partner agency running campaigns across Google Search Ads, Display, YouTube, Shopping and Performance Max. We study your brand and your target audience, then optimize every campaign to get more leads, sales, and maximum ROI.</p>
+                    </div>
 
-                <div class="vertical-name-main">Bing</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/being.svg') ?>" alt="Bing Logo" class="vertical-logo" loading="lazy" decoding="async" >
+                    <!-- Detail Pane 02: Facebook Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-2">
+                        <h3 class="platform-detail-heading">Facebook Marketing</h3>
+                        <p class="platform-detail-text">We are a Meta Business Partner agency creating high-performance ad campaigns across Facebook. We build creative ad campaigns that stop the scroll, win the click and drive real sales. We are the creative digital advertising agency in Dubai working for your brand visibility.</p>
+                    </div>
+
+                    <!-- Detail Pane 03: Instagram Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-3">
+                        <h3 class="platform-detail-heading">Instagram Marketing</h3>
+                        <p class="platform-detail-text">We create high-performance Instagram ad campaigns designed to stop the scroll, capture attention and drive real sales. From engaging Reels to high-converting Carousel and Story ads, we maximize your brand visibility and ROI across Dubai and the UAE.</p>
+                    </div>
+
+                    <!-- Detail Pane 04: LinkedIn Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-4">
+                        <h3 class="platform-detail-heading">LinkedIn Marketing</h3>
+                        <p class="platform-detail-text">LinkedIn is where business decisions get made, and BrandStory gets your brand in front of the people making them. We build targeted campaigns using Sponsored Content, Message Ads and Lead Gen Forms, then keep optimising them to bring in B2B leads that are worth your sales team's time.</p>
+                    </div>
+
+                    <!-- Detail Pane 05: TikTok Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-5">
+                        <h3 class="platform-detail-heading">TikTok Marketing</h3>
+                        <p class="platform-detail-text">TikTok is where Dubai's young, fast-moving audience spends hours every day, and BrandStory puts your brand right in that feed. We create short, creative video ads that feel native to the platform, stop the scroll and push people to act. We then optimize every campaign to bring more views, leads and sales.</p>
+                    </div>
+
+                    <!-- Detail Pane 06: Amazon and Noon Ads -->
+                    <div class="platform-detail-pane" id="platform-tab-6">
+                        <h3 class="platform-detail-heading">Amazon and Noon Ads</h3>
+                        <p class="platform-detail-text">Online shoppers in the UAE start their search on Amazon and Noon, and BrandStory makes sure your products show up first- optimise bids, keywords and product pages. We run Sponsored Products, Sponsored Brands and Display campaigns that put your listings in front of buyers who are ready to purchase.</p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Play Store -->
-            <div class="premium-vertical-cell">
+        <!-- Initiate Partnership Button (Matching Screenshot) -->
+        <div class="platform-cta-wrap">
+            <a href="javascript:void(0);" class="platform-cta-btn uniq-contact-lead-btn">
+                <span>Initiate Partnership!</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
 
-                <div class="vertical-name-main">Play Store</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/playstore.svg') ?>" alt="Play Store Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
-                </div>
-            </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabItems = document.querySelectorAll('.platform-tab-item');
+    const detailPanes = document.querySelectorAll('.platform-detail-pane');
 
-            <!-- Facebook -->
-            <div class="premium-vertical-cell">
+    tabItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            if (!tabId) return;
 
-                <div class="vertical-name-main">Facebook</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/facebook.svg') ?>" alt="Facebook Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
-                </div>
-            </div>
+            tabItems.forEach(t => t.classList.remove('active'));
+            detailPanes.forEach(p => p.classList.remove('active'));
 
-            <!-- Instagram -->
-            <div class="premium-vertical-cell">
+            this.classList.add('active');
+            const targetPane = document.getElementById(tabId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+});
+</script>
 
-                <div class="vertical-name-main">Instagram</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/instagram.svg') ?>" alt="Instagram Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
-                </div>
-            </div>
+<section class="agency-comparison-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="agency-comparison-header">
+            <h2 class="agency-comparison-title">BrandStory vs Other Agencies: The Real Difference</h2>
+        </div>
 
-            <!-- YouTube -->
-            <div class="premium-vertical-cell">
+        <!-- Comparison Table Card -->
+        <div class="agency-comparison-card">
+            <div class="agency-comparison-table-wrap">
+                <table class="agency-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature / Service</th>
+                            <th>BrandStory</th>
+                            <th>Agency 1</th>
+                            <th>Agency 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr>
+                            <td class="feature-name">Dubai &amp; UAE Market Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
 
-                <div class="vertical-name-main">YouTube</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/youtube.svg') ?>" alt="YouTube Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
-                </div>
-            </div>
+                        <!-- Row 2 -->
+                        <tr>
+                            <td class="feature-name">Full-Service Marketing Experience</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
 
-            <!-- X -->
-            <div class="premium-vertical-cell">
+                        <!-- Row 3 -->
+                        <tr>
+                            <td class="feature-name">In-house Marketing and Production Team</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
 
-                <div class="vertical-name-main">X</div>
-                <div class="vertical-logo-card">
-                    <svg viewBox="0 0 24 24" class="vertical-logo" style="height: 60px; fill: #000000;">
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                    </svg>
-                </div>
-            </div>
+                        <!-- Row 4 -->
+                        <tr>
+                            <td class="feature-name">AI-Led Marketing Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
 
-            <!-- LinkedIn -->
-            <div class="premium-vertical-cell">
+                        <!-- Row 5 -->
+                        <tr>
+                            <td class="feature-name">Cutting-Edge Tech Adoption</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
 
-                <div class="vertical-name-main">LinkedIn</div>
-                <div class="vertical-logo-card">
-                    <img src="<?= base_url('assets/images/icons/linkdin.svg') ?>" alt="LinkedIn Logo"
-                        class="vertical-logo" loading="lazy" decoding="async" >
-                </div>
+                        <!-- Row 6 -->
+                        <tr>
+                            <td class="feature-name">Niche Expertise in Every Industry</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 7 -->
+                        <tr>
+                            <td class="feature-name">Cost Efficiency and ROI Delivery</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 8 -->
+                        <tr>
+                            <td class="feature-name">Accurate Conversion Tracking</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 9 -->
+                        <tr>
+                            <td class="feature-name">Known &amp; Recommended Across Dubai</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

@@ -15453,3 +15453,416 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         width: 100%;
     }
 }
+
+/* ==========================================================================
+   Platform Partnerships Section (Interactive Channel Vertical Tabs)
+   ========================================================================== */
+.platform-partnerships-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 90px 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.platform-partnerships-header {
+    margin-bottom: 50px;
+}
+
+.platform-partnerships-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 22px;
+    letter-spacing: -0.5px;
+    max-width: 980px;
+}
+
+.platform-partnerships-desc {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #cbd5e1;
+    max-width: 880px;
+    margin-bottom: 0;
+}
+
+.platform-partnerships-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -20px;
+}
+
+.platform-tabs-col {
+    flex: 0 0 52%;
+    max-width: 52%;
+    padding: 0 20px;
+}
+
+.platform-content-col {
+    flex: 0 0 48%;
+    max-width: 48%;
+    padding: 0 20px 0 50px;
+}
+
+.platform-tabs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.platform-tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #081324;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 18px 24px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+}
+
+.platform-tab-item:hover:not(.active) {
+    background: #0d1e38;
+    border-color: rgba(255, 255, 255, 0.16);
+    transform: translateX(4px);
+}
+
+.platform-tab-item.active {
+    background: linear-gradient(90deg, #0056e0 0%, #0070f3 100%);
+    border-color: #0070f3;
+    box-shadow: 0 10px 28px rgba(0, 112, 243, 0.35);
+}
+
+.platform-tab-left {
+    display: flex;
+    align-items: center;
+}
+
+.platform-tab-num {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.platform-tab-line {
+    width: 38px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.35);
+    margin: 0 16px;
+    flex-shrink: 0;
+}
+
+.platform-tab-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.platform-tab-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.platform-tab-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: inline-block;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.platform-tab-icon-svg {
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.platform-details-container {
+    position: relative;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.platform-detail-pane {
+    display: none;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.platform-detail-pane.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.platform-detail-heading {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+}
+
+.platform-detail-text {
+    font-size: 17px;
+    line-height: 1.75;
+    color: #d1d5db;
+    margin-bottom: 0;
+}
+
+.platform-cta-wrap {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.platform-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    padding: 13px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.platform-cta-btn:hover {
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+
+.platform-cta-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.platform-cta-btn:hover svg {
+    transform: translateX(4px);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .platform-partnerships-section {
+        padding: 70px 0 80px;
+    }
+
+    .platform-partnerships-title {
+        font-size: 32px;
+    }
+
+    .platform-tabs-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .platform-content-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 20px;
+    }
+
+    .platform-details-container {
+        min-height: auto;
+    }
+
+    .platform-detail-heading {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .platform-partnerships-section {
+        padding: 55px 0 65px;
+    }
+
+    .platform-partnerships-title {
+        font-size: 26px;
+    }
+
+    .platform-tab-item {
+        padding: 14px 18px;
+    }
+
+    .platform-tab-line {
+        width: 22px;
+        margin: 0 10px;
+    }
+
+    .platform-tab-title {
+        font-size: 15px;
+    }
+
+    .platform-detail-heading {
+        font-size: 24px;
+    }
+
+    .platform-detail-text {
+        font-size: 15px;
+    }
+}
+
+/* ==========================================================================
+   Agency Comparison Table Section (BrandStory vs Other Agencies)
+   ========================================================================== */
+.agency-comparison-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 90px 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.agency-comparison-header {
+    margin-bottom: 45px;
+}
+
+.agency-comparison-title {
+    line-height: 1.25;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+    max-width: 900px;
+}
+
+.agency-comparison-card {
+    background: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.agency-comparison-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.agency-comparison-table {
+    width: 100%;
+    min-width: 780px;
+    border-collapse: collapse;
+    margin: 0;
+    background: #ffffff;
+}
+
+.agency-comparison-table thead tr th {
+    background: #0070f3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 22px 28px;
+    border-right: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: none;
+    letter-spacing: -0.2px;
+}
+
+.agency-comparison-table thead tr th:first-child {
+    text-align: left;
+    width: 44%;
+}
+
+.agency-comparison-table thead tr th:not(:first-child) {
+    text-align: center;
+    width: 18.66%;
+}
+
+.agency-comparison-table thead tr th:last-child {
+    border-right: none;
+}
+
+.agency-comparison-table tbody tr {
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.agency-comparison-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.agency-comparison-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.agency-comparison-table tbody td {
+    padding: 20px 28px;
+    vertical-align: middle;
+    border-right: 1px solid #e5e7eb;
+}
+
+.agency-comparison-table tbody td:last-child {
+    border-right: none;
+}
+
+.agency-comparison-table .feature-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0056e0;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.agency-comparison-table .status-col {
+    text-align: center;
+}
+
+.comparison-icon-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #16a34a;
+}
+
+.comparison-icon-cross {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ef4444;
+}
+
+@media (max-width: 991px) {
+    .agency-comparison-section {
+        padding: 70px 0 80px;
+    }
+
+
+
+    .agency-comparison-card {
+        border-radius: 18px;
+    }
+
+    .agency-comparison-table thead tr th {
+        padding: 18px 20px;
+    }
+
+    .agency-comparison-table tbody td {
+        padding: 16px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .agency-comparison-section {
+        padding: 55px 0 65px;
+    }
+
+
+}

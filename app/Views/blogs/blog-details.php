@@ -1249,7 +1249,7 @@ if (!function_exists('formatDisplayDate')) {
                                 <img src="<?= base_url('assets/images/seo-video-thumbnail.jpg') ?>" alt="Academy">
                                 <div class="academy-content">
                                     <div class="academy-title"><?= $t['sidebar_seo_title'] ?></div>
-                                    <a href="/seo-services-in-dubai/" class="join-btn"><?= $t['sidebar_seo_btn'] ?></a>
+                                    <a href="/seo-services-company-in-dubai" class="join-btn"><?= $t['sidebar_seo_btn'] ?></a>
                                 </div>
                             </div>
 
