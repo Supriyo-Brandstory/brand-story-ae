@@ -1408,7 +1408,7 @@
                 <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
             </div>
             <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge"  style="max-width: 45%;" loading="lazy" decoding="async" >
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
             </div>
             <div class="premium-badge-cell">
                 <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >

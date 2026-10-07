@@ -15532,9 +15532,9 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 }
 
 .platform-tab-item.active {
-    background: linear-gradient(90deg, #0056e0 0%, #0070f3 100%);
-    border-color: #0070f3;
-    box-shadow: 0 10px 28px rgba(0, 112, 243, 0.35);
+    background: linear-gradient(90deg, #5c24e5 0%, #855bff 100%);
+    border-color: #855bff;
+    box-shadow: 0 10px 28px rgba(133, 91, 255, 0.38);
 }
 
 .platform-tab-left {
@@ -15687,7 +15687,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     .platform-tab-mobile-pane {
         display: none !important;
         background: #081324;
-        border: 1px solid rgba(0, 112, 243, 0.4);
+        border: 1px solid rgba(133, 91, 255, 0.4);
         border-radius: 14px;
         padding: 22px 20px;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
@@ -15805,7 +15805,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 }
 
 .agency-comparison-table thead tr th {
-    background: #0070f3;
+    background: #855BFF;
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
@@ -15855,7 +15855,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
 .agency-comparison-table .feature-name {
     font-size: 16px;
     font-weight: 600;
-    color: #0056e0;
+    color: #855BFF;
     line-height: 1.4;
     text-align: left;
 }
@@ -15902,6 +15902,15 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     .agency-comparison-section {
         padding: 55px 0 65px;
     }
+}
 
+/* Sortlist Rating Badge - 45% Desktop, 70% Mobile */
+.sortlist-badge-img {
+    max-width: 45% !important;
+}
 
+@media (max-width: 768px) {
+    .sortlist-badge-img {
+        max-width: 70% !important;
+    }
 }

@@ -179,9 +179,10 @@ class SitemapService
      *
      * @param array $slugs Array of page/blog slugs or full URLs
      * @param string|null $type 'pages', 'blogs', or null for auto-detect
+     * @param bool $updateExistingLastmod Whether to update lastmod for existing URLs (default true for individual additions)
      * @return bool
      */
-    public static function addPages(array $slugs, ?string $type = null): bool
+    public static function addPages(array $slugs, ?string $type = null, bool $updateExistingLastmod = true): bool
     {
         if (empty($slugs)) {
             return true;
@@ -202,23 +203,27 @@ class SitemapService
 
             $success = true;
             if (!empty($pageSlugs)) {
-                $success = self::addPagesToType($pageSlugs, 'pages') && $success;
+                $success = (bool)self::addPagesToType($pageSlugs, 'pages', $updateExistingLastmod) && $success;
             }
             if (!empty($blogSlugs)) {
-                $success = self::addPagesToType($blogSlugs, 'blogs') && $success;
+                $success = (bool)self::addPagesToType($blogSlugs, 'blogs', $updateExistingLastmod) && $success;
             }
             return $success;
         }
 
-        return self::addPagesToType($slugs, $type);
+        return (bool)self::addPagesToType($slugs, $type, $updateExistingLastmod);
     }
 
     /**
      * Add or update page URLs into a specific sitemap type.
      *
+     * @param array $slugs Slugs or URLs to add or sync
+     * @param string $type 'pages' or 'blogs'
+     * @param bool $updateExistingLastmod If true, update lastmod on existing URLs to today/mapDate. If false, preserve existing lastmod.
+     * @param array $urlDateMap Optional map of normalized URL => 'Y-m-d' date from DB
      * @return int Total number of unique URLs in this sitemap XML
      */
-    private static function addPagesToType(array $slugs, string $type): int
+    private static function addPagesToType(array $slugs, string $type, bool $updateExistingLastmod = true, array $urlDateMap = []): int
     {
         try {
             $xmlContent = self::getSitemapContent($type);
@@ -276,14 +281,35 @@ class SitemapService
 
                 if (isset($existingMap[$urlWithSlash])) {
                     $urlNode = $existingMap[$urlWithSlash];
-
-                    // Update lastmod
                     $lastmodNodes = $xpath->query('s:lastmod | lastmod', $urlNode);
-                    if ($lastmodNodes && $lastmodNodes->length > 0) {
-                        $lastmodNodes->item(0)->nodeValue = $today;
+                    $hasExistingLastmod = ($lastmodNodes && $lastmodNodes->length > 0 && !empty(trim($lastmodNodes->item(0)->nodeValue)));
+
+                    if ($updateExistingLastmod) {
+                        // Explicit update (e.g. single page/post edited or created)
+                        $dateToSet = $urlDateMap[$urlWithSlash] ?? $today;
+                        if ($hasExistingLastmod) {
+                            $lastmodNodes->item(0)->nodeValue = $dateToSet;
+                        } else {
+                            $lastmodElem = $dom->createElement('lastmod', $dateToSet);
+                            $urlNode->appendChild($lastmodElem);
+                        }
                     } else {
-                        $lastmodElem = $dom->createElement('lastmod', $today);
-                        $urlNode->appendChild($lastmodElem);
+                        // General sync: DO NOT overwrite existing lastmod with today's date!
+                        // If DB provides a real timestamp, apply the DB timestamp.
+                        // If no DB timestamp, keep the existing lastmod.
+                        // Only initialize lastmod if the node completely lacks one.
+                        if (isset($urlDateMap[$urlWithSlash])) {
+                            $dbDate = $urlDateMap[$urlWithSlash];
+                            if ($hasExistingLastmod) {
+                                $lastmodNodes->item(0)->nodeValue = $dbDate;
+                            } else {
+                                $lastmodElem = $dom->createElement('lastmod', $dbDate);
+                                $urlNode->appendChild($lastmodElem);
+                            }
+                        } elseif (!$hasExistingLastmod) {
+                            $lastmodElem = $dom->createElement('lastmod', $today);
+                            $urlNode->appendChild($lastmodElem);
+                        }
                     }
                 } else {
                     // Create new <url> entry
@@ -292,7 +318,8 @@ class SitemapService
                     $locElem = $dom->createElement('loc', htmlspecialchars($urlWithSlash, ENT_XML1, 'UTF-8'));
                     $urlNode->appendChild($locElem);
 
-                    $lastmodElem = $dom->createElement('lastmod', $today);
+                    $dateToSet = $urlDateMap[$urlWithSlash] ?? $today;
+                    $lastmodElem = $dom->createElement('lastmod', $dateToSet);
                     $urlNode->appendChild($lastmodElem);
 
                     $changefreqElem = $dom->createElement('changefreq', $changefreq);
@@ -475,26 +502,39 @@ class SitemapService
     {
         try {
             $slugs = ['/']; // Home page
+            $urlDateMap = [];
 
-            // 1. Gather all SEO URLs for pages
-            try {
-                $seoModel = new \App\Models\Seo();
-                $seoUrls = $seoModel->query("SELECT page_url FROM seo");
-                foreach ($seoUrls as $row) {
-                    $u = trim($row['page_url'] ?? '');
-                    if (!empty($u) && !preg_match('#^/?blogs?(/|$)#i', $u)) {
-                        $slugs[] = self::formatUrl($u);
-                    }
-                }
-            } catch (\Throwable $e) {}
-
-            // 2. Dynamic pages from DB
+            // 1. Dynamic pages from DB
             try {
                 $pageModel = new Page();
                 $pages = $pageModel->findAll();
                 foreach ($pages as $p) {
                     if (!empty($p['slug'])) {
-                        $slugs[] = self::formatUrl($p['slug']);
+                        $norm = self::formatUrl($p['slug']);
+                        $slugs[] = $norm;
+                        $date = !empty($p['updated_at']) ? date('Y-m-d', strtotime($p['updated_at'])) : (!empty($p['created_at']) ? date('Y-m-d', strtotime($p['created_at'])) : null);
+                        if ($date) {
+                            $urlDateMap[$norm] = $date;
+                        }
+                    }
+                }
+            } catch (\Throwable $e) {}
+
+            // 2. Gather all SEO URLs for pages
+            try {
+                $seoModel = new \App\Models\Seo();
+                $seoUrls = $seoModel->query("SELECT page_url, created_at, updated_at FROM seo");
+                foreach ($seoUrls as $row) {
+                    $u = trim($row['page_url'] ?? '');
+                    if (!empty($u) && !preg_match('#^/?blogs?(/|$)#i', $u)) {
+                        $norm = self::formatUrl($u);
+                        $slugs[] = $norm;
+                        $date = !empty($row['updated_at']) ? date('Y-m-d', strtotime($row['updated_at'])) : (!empty($row['created_at']) ? date('Y-m-d', strtotime($row['created_at'])) : null);
+                        if ($date) {
+                            if (!isset($urlDateMap[$norm]) || $date > $urlDateMap[$norm]) {
+                                $urlDateMap[$norm] = $date;
+                            }
+                        }
                     }
                 }
             } catch (\Throwable $e) {}
@@ -519,7 +559,8 @@ class SitemapService
             } catch (\Throwable $e) {}
 
             $slugs = array_values(array_unique($slugs));
-            return self::addPagesToType($slugs, 'pages');
+            // Preserve existing lastmod; do NOT overwrite existing URLs with today's date!
+            return self::addPagesToType($slugs, 'pages', false, $urlDateMap);
         } catch (\Throwable $e) {
             error_log('SitemapService::syncPagesSitemap error: ' . $e->getMessage());
             return 0;
@@ -535,6 +576,7 @@ class SitemapService
     {
         try {
             $slugs = [self::formatUrl('blogs/')]; // Canonical blog index page
+            $urlDateMap = [];
 
             // 1. All blogs from database
             try {
@@ -542,7 +584,12 @@ class SitemapService
                 $blogs = $blogModel->findAll();
                 foreach ($blogs as $b) {
                     if (!empty($b['slug'])) {
-                        $slugs[] = self::formatUrl('blogs/' . ltrim($b['slug'], '/'));
+                        $norm = self::formatUrl('blogs/' . ltrim($b['slug'], '/'));
+                        $slugs[] = $norm;
+                        $date = !empty($b['updated_at']) ? date('Y-m-d', strtotime($b['updated_at'])) : (!empty($b['created_at']) ? date('Y-m-d', strtotime($b['created_at'])) : null);
+                        if ($date) {
+                            $urlDateMap[$norm] = $date;
+                        }
                     }
                 }
             } catch (\Throwable $e) {}
@@ -550,12 +597,19 @@ class SitemapService
             // 2. All blog SEO records
             try {
                 $seoModel = new \App\Models\Seo();
-                $seoUrls = $seoModel->query("SELECT page_url FROM seo WHERE page_url LIKE '/blog%' OR page_url LIKE '/blogs%'");
+                $seoUrls = $seoModel->query("SELECT page_url, created_at, updated_at FROM seo WHERE page_url LIKE '/blog%' OR page_url LIKE '/blogs%'");
                 foreach ($seoUrls as $row) {
                     $u = trim($row['page_url'] ?? '');
                     $clean = trim($u, '/');
                     if (preg_match('#^blogs?/(.+)$#i', $clean, $m)) {
-                        $slugs[] = self::formatUrl('blogs/' . $m[1]);
+                        $norm = self::formatUrl('blogs/' . $m[1]);
+                        $slugs[] = $norm;
+                        $date = !empty($row['updated_at']) ? date('Y-m-d', strtotime($row['updated_at'])) : (!empty($row['created_at']) ? date('Y-m-d', strtotime($row['created_at'])) : null);
+                        if ($date) {
+                            if (!isset($urlDateMap[$norm]) || $date > $urlDateMap[$norm]) {
+                                $urlDateMap[$norm] = $date;
+                            }
+                        }
                     }
                 }
             } catch (\Throwable $e) {}
@@ -580,7 +634,8 @@ class SitemapService
             } catch (\Throwable $e) {}
 
             $slugs = array_values(array_unique($slugs));
-            return self::addPagesToType($slugs, 'blogs');
+            // Preserve existing lastmod; do NOT overwrite existing URLs with today's date!
+            return self::addPagesToType($slugs, 'blogs', false, $urlDateMap);
         } catch (\Throwable $e) {
             error_log('SitemapService::syncBlogsSitemap error: ' . $e->getMessage());
             return 0;
