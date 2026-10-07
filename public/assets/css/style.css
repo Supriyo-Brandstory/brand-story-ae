@@ -15659,6 +15659,11 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     transform: translateX(4px);
 }
 
+/* Mobile Accordion Pane - Hidden by default on Desktop */
+.platform-tab-mobile-pane {
+    display: none !important;
+}
+
 /* Responsive */
 @media (max-width: 991px) {
     .platform-partnerships-section {
@@ -15672,21 +15677,51 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
     .platform-tabs-col {
         flex: 0 0 100%;
         max-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
 
     .platform-content-col {
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-left: 20px;
+        display: none !important;
     }
 
-    .platform-details-container {
-        min-height: auto;
+    .platform-tab-mobile-pane {
+        display: none !important;
+        background: #081324;
+        border: 1px solid rgba(0, 112, 243, 0.4);
+        border-radius: 14px;
+        padding: 22px 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+        animation: platformFadeIn 0.25s ease forwards;
     }
 
-    .platform-detail-heading {
-        font-size: 28px;
+    .platform-tab-item.active + .platform-tab-mobile-pane {
+        display: block !important;
+    }
+
+    .platform-tab-mobile-pane .platform-detail-heading {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+
+    .platform-tab-mobile-pane .platform-detail-text {
+        font-size: 15px;
+        line-height: 1.7;
+        color: #cbd5e1;
+        margin-bottom: 0;
+    }
+
+    @keyframes platformFadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 }
 
@@ -15712,12 +15747,16 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         font-size: 15px;
     }
 
-    .platform-detail-heading {
-        font-size: 24px;
+    .platform-tab-mobile-pane {
+        padding: 18px 16px;
     }
 
-    .platform-detail-text {
-        font-size: 15px;
+    .platform-tab-mobile-pane .platform-detail-heading {
+        font-size: 18px;
+    }
+
+    .platform-tab-mobile-pane .platform-detail-text {
+        font-size: 14px;
     }
 }
 

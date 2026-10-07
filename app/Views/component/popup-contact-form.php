@@ -1,3 +1,16 @@
+<?php
+$currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$cleanPath = '/' . ltrim($currentPath, '/');
+
+// Do not include popup on blog pages or admin
+if (
+    strpos($cleanPath, '/blogs') === 0 || 
+    strpos($cleanPath, '/blog') === 0 || 
+    strpos($cleanPath, '/admin') === 0
+) {
+    return;
+}
+?>
 <div class="custom-contact-popup-overlay" id="customContactPopup" style="display: none;">
     <div class="custom-contact-popup-content">
         <button class="custom-contact-popup-close" id="closeCustomPopup">&times;</button>
@@ -137,11 +150,10 @@
 
         // Scroll-triggered popup (appears after user scrolls down the page)
         <?php 
-        $currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
-        $excludedPaths = ['/admin'];
+        $excludedPaths = ['/admin', '/blogs', '/blog', '/contact', '/thankyou'];
         $shouldShowPopup = true;
         foreach ($excludedPaths as $path) {
-            if (strpos($currentPath, $path) === 0) {
+            if (strpos($cleanPath, $path) === 0) {
                 $shouldShowPopup = false;
                 break;
             }
