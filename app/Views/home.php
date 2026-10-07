@@ -1348,139 +1348,6 @@
     </div>
 
 </section>
-
-  <section class="premium-why-choose-section">
-    <div class="container">
-        <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
-        
-        <div class="premium-why-choose-grid">
-            <!-- Card 1 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Expertise in Dubai’s Digital Scene</h3>
-                <p class="why-card-desc">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft ROI-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
-            </div>
-            
-            <!-- Card 2 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Expert Team with Zen Precision</h3>
-                <p class="why-card-desc">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
-            </div>
-            
-            <!-- Card 3 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Performance Backed by Proven Results</h3>
-                <p class="why-card-desc">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
-            </div>
-            
-            <!-- Card 4 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Data-Driven Decision Making</h3>
-                <p class="why-card-desc">Actionable decisions based on real performance data and results, not assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with evolving market trends and real business needs.</p>
-            </div>
-            
-            <!-- Card 5 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">End-to-End Support</h3>
-                <p class="why-card-desc">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
-            </div>
-            
-            <!-- Card 6 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">In-depth and Transparent Reporting</h3>
-                <p class="why-card-desc">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
-            </div>
-        </div>
-        
-        <!-- Large Office Image Banner -->
-        <div class="premium-why-bottom-banner">
-            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async" >
-        </div>
-    </div>
-</section>
-
-<section class="premium-badges-section">
-    <div class="container">
-        <div class="premium-badges-grid">
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="premium-showcase-section">
-    <div class="premium-showcase-container container">
-        <div class="row">
-            <div class="col-md-8">
-                <h2 class="premium-showcase-title">Top Branding Agency in Dubai</h2>
-                <p class="premium-showcase-subtitle">At BrandStory, we transform businesses into unforgettable brands. Through strategy-led creativity, powerful storytelling, and iconic visual identities, we build brands that lead, convert, and thrive in Dubai's competitive digital ecosystem.</p>
-                <div class="premium-showcase-action">
-                    <a href="/contact/" class="premium-showcase-btn">
-                        <span>Get In Touch</span>
-                        <span class="showcase-btn-arrow-circle">
-                            <svg viewBox="0 0 24 24" class="showcase-btn-arrow-svg">
-                                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="premium-marquee-wrap">
-        <div class="premium-marquee-inner">
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-        </div>
-    </div>
-</section>
-
-<section class="premium-stats-section">
-    <div class="container">
-        <div class="premium-stats-row">
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">1000+</div>
-                <div class="premium-stat-label">Campaigns Executed</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">900+</div>
-                <div class="premium-stat-label">Satisfied Clients</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">12+</div>
-                <div class="premium-stat-label">Years of Expertise</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">100+</div>
-                <div class="premium-stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="platform-partnerships-section">
     <div class="container">
         <!-- Section Header -->
@@ -1661,6 +1528,140 @@
     </div>
 </section>
 
+  <section class="premium-why-choose-section">
+    <div class="container">
+        <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
+        
+        <div class="premium-why-choose-grid">
+            <!-- Card 1 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expertise in Dubai’s Digital Scene</h3>
+                <p class="why-card-desc">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft ROI-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expert Team with Zen Precision</h3>
+                <p class="why-card-desc">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Performance Backed by Proven Results</h3>
+                <p class="why-card-desc">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Data-Driven Decision Making</h3>
+                <p class="why-card-desc">Actionable decisions based on real performance data and results, not assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with evolving market trends and real business needs.</p>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">End-to-End Support</h3>
+                <p class="why-card-desc">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">In-depth and Transparent Reporting</h3>
+                <p class="why-card-desc">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
+            </div>
+        </div>
+        
+        <!-- Large Office Image Banner -->
+        <div class="premium-why-bottom-banner">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async" >
+        </div>
+    </div>
+</section>
+
+<section class="premium-badges-section">
+    <div class="container">
+        <div class="premium-badges-grid">
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="premium-showcase-section">
+    <div class="premium-showcase-container container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="premium-showcase-title">Top Branding Agency in Dubai</h2>
+                <p class="premium-showcase-subtitle">At BrandStory, we transform businesses into unforgettable brands. Through strategy-led creativity, powerful storytelling, and iconic visual identities, we build brands that lead, convert, and thrive in Dubai's competitive digital ecosystem.</p>
+                <div class="premium-showcase-action">
+                    <a href="/contact/" class="premium-showcase-btn">
+                        <span>Get In Touch</span>
+                        <span class="showcase-btn-arrow-circle">
+                            <svg viewBox="0 0 24 24" class="showcase-btn-arrow-svg">
+                                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="premium-marquee-wrap">
+        <div class="premium-marquee-inner">
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
+        </div>
+    </div>
+</section>
+
+<section class="premium-stats-section">
+    <div class="container">
+        <div class="premium-stats-row">
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">1000+</div>
+                <div class="premium-stat-label">Campaigns Executed</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">900+</div>
+                <div class="premium-stat-label">Satisfied Clients</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">12+</div>
+                <div class="premium-stat-label">Years of Expertise</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">100+</div>
+                <div class="premium-stat-label">Expert Professionals</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const tabItems = document.querySelectorAll('.platform-tab-item');
@@ -1694,6 +1695,111 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+
+
+<section class="premium-social-feed-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Side: 3x3 Grid of Images -->
+            <div class="col-lg-8">
+                <div class="premium-social-grid">
+                    <!-- Column 1: Upwards (di-01 to di-04) -->
+                    <div class="scroll-column column-up">
+                        <div class="scroll-track">
+                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
+                            <!-- Loop repeats for seamless transition -->
+                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <!-- Column 2: Downwards (di-05 to di-08) -->
+                    <div class="scroll-column column-down">
+                        <div class="scroll-track">
+                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
+                            <!-- Loop repeats for seamless transition -->
+                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <!-- Column 3: Upwards (di-09 to di-12) -->
+                    <div class="scroll-column column-up">
+                        <div class="scroll-track">
+                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
+                            <!-- Loop repeats for seamless transition -->
+                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
+                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Brand Story Join Community -->
+            <div class="col-lg-4">
+                <div class="premium-social-brand-wrap">
+                    <h2 class="premium-social-brand-title">BRANDSTORY<span>®</span></h2>
+                    <p class="premium-social-join-text">Social Media Agency in Dubai</p>
+                    <div class="premium-social-icons-row">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/brandstorydubai/" target="_blank"
+                            class="premium-social-icon-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                            </svg>
+                        </a>
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/brandstoryuae/" target="_blank"
+                            class="premium-social-icon-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                            </svg>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/company/brandstoryae/" target="_blank"
+                            class="premium-social-icon-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <!-- YouTube -->
+                        <a href="https://www.youtube.com/@brandstoryuae7649" target="_blank"
+                            class="premium-social-icon-link" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.53 3.5 12 3.5 12 3.5s-7.53 0-9.388.555A3.002 3.002 0 0 0 .502 6.163C0 8.07 0 12 0 12s0 3.93.502 5.837a3.002 3.002 0 0 0 2.11 2.108C4.47 20.5 12 20.5 12 20.5s7.53 0 9.388-.555a3.002 3.002 0 0 0 2.11-2.108C24 15.93 24 12 24 12s0-3.93-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                        <!-- X -->
+                        <a href="https://x.com/BrandStory_UAE" target="_blank" class="premium-social-icon-link"
+                            aria-label="X">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="agency-comparison-section">
     <div class="container">
         <!-- Section Header -->
@@ -1899,110 +2005,6 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </section>
-
-<section class="premium-social-feed-section">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Left Side: 3x3 Grid of Images -->
-            <div class="col-lg-8">
-                <div class="premium-social-grid">
-                    <!-- Column 1: Upwards (di-01 to di-04) -->
-                    <div class="scroll-column column-up">
-                        <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
-                            <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-01.webp') ?>" alt="Showcase 1" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-02.webp') ?>" alt="Showcase 2" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-03.webp') ?>" alt="Showcase 3" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-04.webp') ?>" alt="Showcase 4" loading="lazy" decoding="async" >
-                        </div>
-                    </div>
-                    <!-- Column 2: Downwards (di-05 to di-08) -->
-                    <div class="scroll-column column-down">
-                        <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
-                            <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-05.webp') ?>" alt="Showcase 5" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-06.webp') ?>" alt="Showcase 6" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-07.webp') ?>" alt="Showcase 7" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-08.webp') ?>" alt="Showcase 8" loading="lazy" decoding="async" >
-                        </div>
-                    </div>
-                    <!-- Column 3: Upwards (di-09 to di-12) -->
-                    <div class="scroll-column column-up">
-                        <div class="scroll-track">
-                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
-                            <!-- Loop repeats for seamless transition -->
-                            <img src="<?= base_url('assets/images/di-09.webp') ?>" alt="Showcase 9" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-10.webp') ?>" alt="Showcase 10" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-11.webp') ?>" alt="Showcase 11" loading="lazy" decoding="async" >
-                            <img src="<?= base_url('assets/images/di-12.webp') ?>" alt="Showcase 12" loading="lazy" decoding="async" >
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Side: Brand Story Join Community -->
-            <div class="col-lg-4">
-                <div class="premium-social-brand-wrap">
-                    <h2 class="premium-social-brand-title">BRANDSTORY<span>®</span></h2>
-                    <p class="premium-social-join-text">Social Media Agency in Dubai</p>
-                    <div class="premium-social-icons-row">
-                        <!-- Instagram -->
-                        <a href="https://www.instagram.com/brandstorydubai/" target="_blank"
-                            class="premium-social-icon-link" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
-                            </svg>
-                        </a>
-                        <!-- Facebook -->
-                        <a href="https://www.facebook.com/brandstoryuae/" target="_blank"
-                            class="premium-social-icon-link" aria-label="Facebook">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
-                            </svg>
-                        </a>
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/company/brandstoryae/" target="_blank"
-                            class="premium-social-icon-link" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                            </svg>
-                        </a>
-                        <!-- YouTube -->
-                        <a href="https://www.youtube.com/@brandstoryuae7649" target="_blank"
-                            class="premium-social-icon-link" aria-label="YouTube">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.53 3.5 12 3.5 12 3.5s-7.53 0-9.388.555A3.002 3.002 0 0 0 .502 6.163C0 8.07 0 12 0 12s0 3.93.502 5.837a3.002 3.002 0 0 0 2.11 2.108C4.47 20.5 12 20.5 12 20.5s7.53 0 9.388-.555a3.002 3.002 0 0 0 2.11-2.108C24 15.93 24 12 24 12s0-3.93-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                            </svg>
-                        </a>
-                        <!-- X -->
-                        <a href="https://x.com/BrandStory_UAE" target="_blank" class="premium-social-icon-link"
-                            aria-label="X">
-                            <svg viewBox="0 0 24 24">
-                                <path
-                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <?php
 $reviewSection = [
     'title' =>  "What Our Clients Say About Us",
@@ -2010,6 +2012,7 @@ $reviewSection = [
 ];
 include __DIR__ . '/component/client_reviews.php';
 ?>
+
 <section class="dm-grow-section">
     <div class="dm-grow-overlay"></div>
     <div class="container" style="position: relative; z-index: 2;">
