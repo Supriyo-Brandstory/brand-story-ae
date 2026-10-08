@@ -248,7 +248,8 @@ $stickyServices = $stickyServices ?? [
     }
   }
 </style>
-<script src="<?= base_url('assets/js/jquery.min.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/js/intlTelInput-jquery.min.js"></script>
 <script src="<?= base_url('assets/js/bootstrap.min.js') ?>" defer></script>
 <script src="<?= base_url('assets/js/menu.js?v=2.2') ?>" defer></script>
 <script src="<?= base_url('assets/js/swiper.js') ?>" defer></script>
@@ -271,87 +272,67 @@ $stickyServices = $stickyServices ?? [
 </script>
 <script type="text/javascript">
   (function() {
-    var itiScriptLoaded = false;
-    function loadAndInitIti() {
-      if (itiScriptLoaded) return;
-      itiScriptLoaded = true;
+    window.initPhoneInputs = function(context) {
+      if (typeof jQuery === 'undefined' || typeof jQuery.fn.intlTelInput === 'undefined') return;
 
-      var script = document.createElement('script');
-      script.src = "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.js";
-      script.integrity = "sha512-xwqnc1RvEZzvtrcgbWmJsfo7X8+fm1xZy7ThOG1Xx+2iKB+vrBuktU0sSyVguTWbfCXrqAXhMezFG13I9c4ouA==";
-      script.crossOrigin = "anonymous";
-      script.referrerPolicy = "no-referrer";
-      script.onload = function() {
-        if (typeof jQuery !== 'undefined') {
-          jQuery(".phone-input").each(function() {
-            var $this = jQuery(this);
-            if ($this.data('iti-active')) return;
-            $this.data('iti-active', true);
+      var $container = context ? jQuery(context) : jQuery(document);
+      $container.find(".phone-input").each(function() {
+        var $this = jQuery(this);
 
-            $this.intlTelInput({
-              allowDropdown: true,
-              separateDialCode: true,
-              localizedCountries: null,
-              preferredCountries: ["ae", "in", "us", "gb", "sg"],
-            });
-
-            // Accessibility fix for intl-tel-input
-            var $flag = $this.parent().find(".iti__selected-flag");
-            if ($flag.length) {
-              $flag.attr("aria-expanded", "false");
-              $flag.attr("aria-haspopup", "listbox");
-              $flag.attr("aria-label", "Select Country Code");
-              $flag.attr("role", "combobox");
-            }
-
-            $this.parent().on("click", ".iti__selected-flag", function() {
-              var isExpanded = $(this).attr("aria-expanded") === "true";
-              $(this).attr("aria-expanded", !isExpanded);
-            });
-
-            $(document).on("click", function(e) {
-              if (!$(e.target).closest(".iti").length) {
-                $flag.attr("aria-expanded", "false");
-              }
-            });
-
-            var updateCountryData = function() {
-              var countryData = $this.intlTelInput("getSelectedCountryData");
-              var $form = $this.closest('form');
-              $form.find("input[name='country']").val(countryData.iso2);
-              $form.find("input[name='country_code']").val(countryData.dialCode);
-            };
-
-            $this.on("countrychange", updateCountryData);
-            updateCountryData();
-          });
+        // If it was already wrapped in iti, destroy to recalculate visible dimensions
+        if ($this.parent().hasClass('iti')) {
+          try {
+            $this.intlTelInput("destroy");
+          } catch(e) {}
         }
-      };
-      document.body.appendChild(script);
-    }
 
-    // Lazy load ITI on user interaction or input focus
-    ['touchstart', 'scroll', 'mousemove', 'keydown', 'click'].forEach(function(evt) {
-      window.addEventListener(evt, loadAndInitIti, { once: true, passive: true });
-    });
-    document.addEventListener('DOMContentLoaded', function() {
-      var inputs = document.querySelectorAll('.phone-input, .uniq-contact-lead-btn');
-      inputs.forEach(function(input) {
-        input.addEventListener('focus', loadAndInitIti, { once: true });
-        input.addEventListener('mouseenter', loadAndInitIti, { once: true });
-      });
-      // Fallback
-      setTimeout(loadAndInitIti, 4000);
-    });
-
-    window.addEventListener('load', function() {
-      if (typeof jQuery !== 'undefined') {
-        jQuery(document).ready(function($) {
-          $("input").keypress(function() {
-            $(this).removeClass('error');
-          });
+        $this.intlTelInput({
+          allowDropdown: true,
+          separateDialCode: true,
+          initialCountry: "ae",
+          preferredCountries: ["ae", "in", "us", "gb", "sg"],
         });
-      }
+
+        // Accessibility fix for intl-tel-input
+        var $flag = $this.parent().find(".iti__selected-flag");
+        if ($flag.length) {
+          $flag.attr("aria-expanded", "false");
+          $flag.attr("aria-haspopup", "listbox");
+          $flag.attr("aria-label", "Select Country Code");
+          $flag.attr("role", "combobox");
+        }
+
+        $this.parent().off("click.iti").on("click.iti", ".iti__selected-flag", function() {
+          var isExpanded = $(this).attr("aria-expanded") === "true";
+          $(this).attr("aria-expanded", !isExpanded);
+        });
+
+        var updateCountryData = function() {
+          var countryData = $this.intlTelInput("getSelectedCountryData");
+          var $form = $this.closest('form');
+          if (countryData && countryData.iso2) {
+            $form.find("input[name='country']").val(countryData.iso2);
+            $form.find("input[name='country_code']").val(countryData.dialCode);
+          }
+        };
+
+        $this.off("countrychange.iti").on("countrychange.iti", updateCountryData);
+        updateCountryData();
+      });
+    };
+
+    jQuery(document).ready(function($) {
+      window.initPhoneInputs();
+
+      $("input").keypress(function() {
+        $(this).removeClass('error');
+      });
+
+      $(document).on("click", function(e) {
+        if (!$(e.target).closest(".iti").length) {
+          $(".iti__selected-flag").attr("aria-expanded", "false");
+        }
+      });
     });
   })();
 </script>

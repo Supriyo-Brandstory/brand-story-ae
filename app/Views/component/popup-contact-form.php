@@ -102,17 +102,10 @@ if (
             popup.style.display = 'flex';
             document.body.style.overflow = 'hidden';
             
-            try {
-                if (window.jQuery && jQuery.fn.intlTelInput) {
-                    var $phoneInput = jQuery(popup).find(".phone-input");
-                    if ($phoneInput.length > 0) {
-                        var countryData = $phoneInput.intlTelInput("getSelectedCountryData");
-                        if (countryData && countryData.iso2) {
-                            $phoneInput.intlTelInput("setCountry", countryData.iso2);
-                        }
-                    }
-                }
-            } catch (e) {}
+            // Initialize phone input once popup is visible
+            if (typeof window.initPhoneInputs === 'function') {
+                window.initPhoneInputs(popup);
+            }
         };
 
         window.closeContactPopup = function() {
