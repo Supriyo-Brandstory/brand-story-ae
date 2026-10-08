@@ -6635,7 +6635,7 @@ p:not(.tool-description p):not(.ftr-desc):not(.footer-top, .footer-top a, .foote
 
     .ppc-apart-img {
         width: 100%;
-        max-height: 280px;
+        height: 280px;
         object-fit: cover;
         border-radius: 14px;
         margin-bottom: 20px;

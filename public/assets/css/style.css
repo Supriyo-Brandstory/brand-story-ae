@@ -519,7 +519,7 @@
 }
 
 .grow-form-main .form-control:focus {
-    color: #fff;
+    color: #000;
     background-color: transparent;
     border-color: #fff;
     outline: 0;
@@ -15700,7 +15700,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
         animation: platformFadeIn 0.25s ease forwards;
     }
 
-    .platform-tab-item.active + .platform-tab-mobile-pane {
+    .platform-tab-item.active+.platform-tab-mobile-pane {
         display: block !important;
     }
 
@@ -15724,6 +15724,7 @@ seo-services-in-dubai/ .dubai-seo-criteria-icon {
             opacity: 0;
             transform: translateY(-6px);
         }
+
         to {
             opacity: 1;
             transform: translateY(0);

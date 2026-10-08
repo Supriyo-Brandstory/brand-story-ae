@@ -16,16 +16,16 @@
             </div>
             <div class="col-12 col-md-6">
                 <label for="phone">Phone number*</label>
-                <input type="tel" name="phone" id="phone" class="form-control phone-input" maxlength="12" minlength="8"
-                    pattern="^((\\+91-?)|0)?[0-9]{10,11}$" required>
+                <input type="tel" name="phone" id="phone" class="form-control phone-input" maxlength="15" minlength="7"
+                    pattern="[0-9]{7,15}" required>
             </div>
             <div class="col-12 col-md-6">
                 <label for="company">Company*</label>
                 <input type="text" name="company" id="company" class="form-control" required>
             </div>
             <div class="col-12 col-md-6">
-                <label for="designation">Designation*</label>
-                <input type="text" name="designation" id="designation" class="form-control" required>
+                <label for="designation">Designation</label>
+                <input type="text" name="designation" id="designation" class="form-control">
             </div>
 
 
@@ -113,9 +113,14 @@
 
     .iti--separate-dial-code .iti__selected-flag {
         background-color: rgb(242 242 242) !important;
+        cursor: pointer;
     }
 
-    #phone {
+    .iti__country-list {
+        z-index: 99999 !important;
+    }
+
+    .phone-input {
         padding-left: 95px !important;
     }
 </style>
@@ -125,6 +130,13 @@
         document.querySelectorAll('form').forEach(form => {
             if (form.id !== 'contact' || form.dataset.initialized) return;
             form.dataset.initialized = 'true';
+
+            // Disable required attribute on any visually hidden inputs in this form to prevent blocking submission
+            form.querySelectorAll('[required]').forEach(el => {
+                if (window.getComputedStyle(el).display === 'none' || el.closest('[style*="display: none"], [style*="display:none"]') || window.getComputedStyle(el.parentElement).display === 'none') {
+                    el.removeAttribute('required');
+                }
+            });
 
             // Input restrictions
             const inputRegex = {
@@ -147,7 +159,7 @@
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 const submitBtn = form.querySelector('button[type="submit"]');
-                const messageEl = document.querySelector('.form-messege'); // Keep global if it's outside form
+                const messageEl = form.querySelector('.form-messege') || document.querySelector('.form-messege');
 
                 if (!submitBtn) return;
                 submitBtn.disabled = true;
