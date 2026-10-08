@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="<?= base_url("assets/css/home-2.min.css?v=2.0") ?>">
 <link rel="stylesheet" href="<?= base_url("assets/css/wordpress-development.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
   <div class="premium-slider-container">
@@ -7,9 +8,9 @@
       <div class="container">
         <div class="premium-slide-content">
           <h1 class="premium-slide-title">
-            <span class="premium-purple-highlight">eCommerce</span> Development Company in Dubai, UAE
+            <span class="premium-purple-highlight">Website Development</span> Company<br> in Dubai, UAE- BrandStory
           </h1>
-          <p class="premium-slide-subtitle">We offer full-service custom eCommerce development services in Dubai, designed to help your business grow, scale, and succeed in a competitive market. From intuitive user journeys to secure payment integrations and seamless performance, we build tailored eCommerce solutions for UAE-based businesses.</p>
+          <p class="premium-slide-subtitle">BrandStory is a trusted website development agency in Dubai creating fast, mobile-first, user-friendly websites with clean design, intuitive navigation, and backend features. Our E-commerce development services help 500+ e-retailer businesses across the United Arab Emirates build a stronger digital presence.</p>
           <div class="premium-slide-actions">
             <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
               <span>Talk to Experts</span>
@@ -26,12 +27,6 @@
   </div>
 </section>
 
-
-<section class="new-client-section dm-bg">
-  <div class="container">
-    <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2> <?php include __DIR__ . "/../component/client_section.php"; ?>
-  </div>
-</section>
 <!-- Performance marketing intro section -->
 <section class="premium-perf-section dm-bg">
   <div class="container">
@@ -45,11 +40,10 @@
       <!-- Right Side: Content -->
       <div class="col-lg-6">
         <div class="premium-perf-content">
-          <h2 class="premium-perf-title">Grow with Dubai’s Leading eCommerce Experts</h2>
+          <h2 class="premium-perf-title">Dubai’s Top E-commerce Website Development Experts</h2>
           <ul class="premium-perf-list">
-            <li>Success in today’s online retail landscape depends on having a powerful and scalable eCommerce platform. BrandStory, a leading eCommerce website development company in Dubai, helps businesses build high-performing online stores that drive growth and conversions.</li>
-            <li>We develop user-friendly eCommerce websites that deliver seamless shopping experiences with intuitive navigation and engaging interfaces. Our solutions include secure payment gateway integration, efficient inventory management, and fully customized features aligned with your business goals.</li>
-            <li>With BrandStory, eCommerce opens doors to wider reach, increased sales, and 24/7 accessibility. We combine strategic design, robust development, and advanced content management systems to create online stores that not only perform but also elevate your brand presence in the UAE market.</li>
+            <li>Build a website that works as hard as your business with BrandStory. We design and develop fast, responsive, and user-friendly websites for businesses across Dubai and the UAE. From corporate websites and e-commerce platforms to custom web solutions, our team combines thoughtful design with reliable development to create intuitive digital experiences.</li>
+            <li>We begin by understanding your business, audience, and objectives before shaping the website around them. Our team manages everything from planning and UI interface design to development, testing, and launch, giving you a clear and structured path from the first idea to a finished website.</li>
           </ul>
           <div class="premium-perf-action">
             <a href="/website-design-company-in-dubai/" class="premium-perf-btn">Know About Us</a>
@@ -59,6 +53,237 @@
     </div>
   </div>
 </section>
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">We Build Digital Experiences Around Your Business</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our website development expertise has helped businesses in Dubai and across the UAE turn digital challenges into high-performing websites.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Website Design</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                width="600" height="338" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted website design, data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Web Design & Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" width="600" height="338" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX needed a stronger digital presence to compete in the UAE's financial services market. BrandStory redesigned its website and strengthened its online marketing with PPC, SEO, and social media, helping the brand improve visibility.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" width="600" height="338" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" width="600" height="338" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 1: Purvanka -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Real Estate Website</span>
+                            <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
+                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Purvanka Real Estate</h3>
+                            <div class="premium-cs-row-stats">300% More Traffic | 170% Qualified Leads | 3 Months</div>
+                            <p class="premium-cs-row-desc">In a crowded real estate market, Purvanka needed more than visibility- they needed trust. BrandStory built website, a data-driven PPC, SEO, and social media strategy to raise awareness and turn interest into site visits and bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-1/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: 42 Estate -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Brand & Web Design</span>
+                            <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">42 Estate</h3>
+                            <div class="premium-cs-row-stats">200% More Traffic | 120% Enquiries | 150% Follower Growth</div>
+                            <p class="premium-cs-row-desc">42 Estate entered a market full of established developers. BrandStory shaped a distinct brand identity, high-performance website, and cohesive social media presence that keeps the brand in front of the right buyers.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-2/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Web Design & Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                width="600" height="338" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact website, social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Redesigned Case Study list -->
+        
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-client-section dm-bg">
+  <div class="container">
+    <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2> <?php include __DIR__ . "/../component/client_section.php"; ?>
+  </div>
+</section>
 <!-- Top-rated Email Marketing Company Dubai section -->
  <!-- bg image content section -->
 <section class="wp-banner-feature-section" style="background-image: url('<?= base_url("assets/images/ecommerce-02.webp") ?>');">
@@ -66,8 +291,8 @@
     <div class="row">
       <div class="col-lg-6 col-md-8">
         <div class="wp-banner-feature-content">
-          <h2 class="wp-banner-feature-title">Why We are Known as Dubai's No.1 eCommerce Experts?</h2>
-          <p class="wp-banner-feature-desc">As a premier <a href="/website-development-company-in-dubai/">web development agency in Dubai</a>, we provide end-to-end eCommerce development solutions focused on performance, scalability, and seamless user experience to help your online store grow and succeed in a competitive market.</p>
+          <h2 class="wp-banner-feature-title">Why We are Dubai's No.1 Web Development Experts?</h2>
+          <p class="wp-banner-feature-desc">Our approach goes beyond simply building websites. We bring together experienced developers, designers, and strategists to create websites around each brand's goals, audience, and business model. From planning and architecture to development, testing, and launch, every stage is handled with attention to detail, usability, and long-term performance.</p>
         </div>
       </div>
     </div>
@@ -168,7 +393,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Mobile-Optimized Stores</div>
+            <div class="emcd--box-txt">Mobile-First Designs</div>
           </div>
         </div>
         <!-- Box 4 -->
@@ -307,7 +532,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Product & Inventory<br>Management</div>
+            <div class="emcd--box-txt">Product & Inventory<br>Backend</div>
           </div>
         </div>
         <!-- Box 6 -->
@@ -435,7 +660,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Third-Party Integrations</div>
+            <div class="emcd--box-txt">Third-Party API Integrations</div>
           </div>
         </div>
         <!-- Box 10 -->
@@ -467,7 +692,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="emcd--box-txt">Advanced Analytics &<br>Reporting</div>
+            <div class="emcd--box-txt">CMS Development <br>Expertise</div>
           </div>
         </div>
         <!-- Box 11 -->
@@ -568,7 +793,7 @@
 <!-- eCommerce Development Process Flow Section -->
 <section class="wp-process-flow-section">
   <div class="container">
-    <h2 class="wp-process-flow-title">eCommerce Development Process Flow</h2>
+    <h2 class="wp-process-flow-title">Our Website Development Process Flow</h2>
     
     <div class="wp-process-flow-wrapper">
       <!-- Left Panel: STEPS -->
@@ -905,6 +1130,524 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </section>
+
+<div class="bs-trends-section">
+        <div class="bs-trends-glow"></div>
+
+        <div class="container">
+            <div class="bs-trends-header">
+                <h2 class="bs-trends-title">
+                    Website Development in Dubai: <span class="lp-purple-highlight">Where You Should Invest</span>
+                </h2>
+            </div>
+
+            <!-- 2-Column Trends Accordion Grid -->
+            <div class="bs-trends-grid">
+                <!-- Left Column (Trends 1 - 7) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 1 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Mobile-First Responsive Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Layouts built for the small screen first, with clean menus and thumb-friendly
+                            buttons, since most visitors in the UAE browse on their phones.
+                        </div>
+                    </div>
+
+                    <!-- Trend 2 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Core Web Vitals and Page Speed</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Fast load times, stable layouts, and quick responses to taps and clicks that keep
+                            visitors on your site and help your pages rank higher on Google.
+                        </div>
+                    </div>
+
+                    <!-- Trend 3 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">SEO-Ready Site Architecture</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Clean URLs, proper headings, schema markup, and sitemaps built in from day one, so
+                            search engines can crawl and understand every page.
+                        </div>
+                    </div>
+
+                    <!-- Trend 4 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Bilingual English and Arabic Websites</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Full right-to-left Arabic layouts with matching English pages, so you can reach
+                            every audience across Dubai and the wider UAE.
+                        </div>
+                    </div>
+
+                    <!-- Trend 5 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Conversion-Focused UX Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Clear layouts, simple navigation, and well-placed calls to action that guide visitors
+                            from first click to enquiry or purchase.
+                        </div>
+                    </div>
+
+                    <!-- Trend 6 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">E-commerce and Local Payment Integration</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Smooth online stores with secure checkout, local payment gateways, and Apple Pay or
+                            Google Pay options that make buying quick and easy.
+                        </div>
+                    </div>
+
+                    <!-- Trend 7 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Headless and Flexible CMS</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            A modern setup that separates content from design, so your team can update pages
+                            fast and publish across web and apps without developer help.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Trends 8 - 14) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 8 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">AI Chatbots and Smart Search</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            On-site assistants that answer questions, guide visitors to the right page, and
+                            collect leads around the clock.
+                        </div>
+                    </div>
+
+                    <!-- Trend 9 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Website Security and SSL</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            HTTPS, firewalls, regular backups, and safe login practices that protect your data
+                            and keep customers confident in your brand.
+                        </div>
+                    </div>
+
+                    <!-- Trend 10 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Accessibility and Inclusive Design</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Readable text, strong colour contrast, keyboard-friendly pages, and alt text that make
+                            your site usable for everyone.
+                        </div>
+                    </div>
+
+                    <!-- Trend 11 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Progressive Web Apps</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Websites that load fast, work with weak signal, and feel like an app on a phone,
+                            without needing a download from an app store.
+                        </div>
+                    </div>
+
+                    <!-- Trend 12 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">CRM and Marketing Tool Integration</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Forms, WhatsApp buttons, and tracking tags wired to your CRM and ad accounts, so
+                            every lead lands in the right place.
+                        </div>
+                    </div>
+
+                    <!-- Trend 13 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Analytics and Conversion Tracking</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Clear dashboards showing traffic, leads, and sales by source, so you know which
+                            pages and channels bring in real results.
+                        </div>
+                    </div>
+
+                    <!-- Trend 14 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Privacy, Consent and UAE Compliance</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Cookie consent, clear privacy policies, and data handling that follow UAE rules and
+                            build trust with every visitor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+ 
+      // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+    const apartCards = document.querySelectorAll('.ppc-apart-card');
+    apartCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            card.classList.toggle('ppc-apart-card--active');
+        });
+    });
+
+</script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>
+
+<section class="platform-partnerships-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="platform-partnerships-header">
+            <h2 class="platform-partnerships-title">Build Fast, Scalable Websites on Laravel, Next.js & React</h2>
+            <p class="platform-partnerships-desc">A great website starts with the right technology. The right stack makes your site faster, safer and easier to grow. As a custom website development company in Dubai, BrandStory builds your website on the framework that fits your goals best.</p>
+        </div>
+
+        <!-- Two Column Interactive Tabs -->
+        <div class="platform-partnerships-row">
+            <!-- Left: Platform Tabs List -->
+            <div class="platform-tabs-col">
+                <div class="platform-tabs-list" role="tablist">
+                    <!-- Tab 01: Laravel Development -->
+                    <div class="platform-tab-item active" data-tab="platform-tab-1" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">01</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Laravel Development</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L20.5 7V17L12 22L3.5 17V7L12 2Z" stroke="#FF2D20" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M3.5 7L12 12L20.5 7M12 12V22" stroke="#FF2D20" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Laravel Development</h3>
+                        <p class="platform-detail-text">Laravel is a strong choice for custom business websites, portals and web apps. BrandStory builds secure back-ends, user logins, admin panels and APIs on Laravel. Your site stays clean, easy to maintain and ready to grow with your business in Dubai and the UAE.</p>
+                    </div>
+
+                    <!-- Tab 02: Next.js Development -->
+                    <div class="platform-tab-item" data-tab="platform-tab-2" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">02</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Next.js Development</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="11" fill="#000000"/>
+                                <path d="M8.5 8V16M8.5 8L16 17M15.5 8V13" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Next.js Development</h3>
+                        <p class="platform-detail-text">Next.js is built for speed and search visibility. BrandStory uses server-side rendering and static generation to make pages load fast and be easy for Google to read. It is a great fit for marketing sites, e-commerce stores and content-heavy platforms.</p>
+                    </div>
+
+                    <!-- Tab 03: React.js Development -->
+                    <div class="platform-tab-item" data-tab="platform-tab-3" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">03</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">React.js Development</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="-11.5 -10.23 23 20.46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle r="2.05" fill="#61DAFB"/>
+                                <g stroke="#61DAFB" stroke-width="1" fill="none">
+                                    <ellipse rx="11" ry="4.2"/>
+                                    <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                                    <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">React.js Development</h3>
+                        <p class="platform-detail-text">React helps us build smooth, interactive interfaces that feel like an app. BrandStory creates reusable components, dashboards and single-page experiences that respond instantly to every click. Your users get a clear, quick journey from start to finish.</p>
+                    </div>
+
+                    <!-- Tab 04: Node.js Development -->
+                    <div class="platform-tab-item" data-tab="platform-tab-4" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">04</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Node.js Development</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L20.7 7V17L12 22L3.3 17V7L12 2Z" fill="#339933"/>
+                                <path d="M9 16V8L15 16V8" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Node.js Development</h3>
+                        <p class="platform-detail-text">Node.js is ideal for real-time features and fast APIs. BrandStory builds live chat, booking systems, notifications and high-traffic back-ends on Node.js. Your platform handles many users at once and connects easily with other tools.</p>
+                    </div>
+
+                    <!-- Tab 05: Vue.js Development -->
+                    <div class="platform-tab-item" data-tab="platform-tab-5" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">05</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Vue.js Development</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3H6.5L12 12.5L17.5 3H22L12 20.5L2 3Z" fill="#41B883"/>
+                                <path d="M6.5 3H10L12 6.5L14 3H17.5L12 12.5L6.5 3Z" fill="#35495E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Vue.js Development</h3>
+                        <p class="platform-detail-text">Vue.js is light, flexible and easy to scale. BrandStory uses it to build clean front-ends, product configurators and admin dashboards. It works well on its own or inside an existing website, so you can upgrade without starting over.</p>
+                    </div>
+
+                    <!-- Tab 06: Python & Django Development -->
+                    <div class="platform-tab-item" data-tab="platform-tab-6" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">06</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Python & Django</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="22" height="22" rx="5" fill="#092E20"/>
+                                <path d="M8 6V16.5C8 18 7 18.5 5.5 18.5M8 10.5H5.5M14 6.5V7.5M14 10.5V16.5C14 18 13 18.5 11.5 18.5M14 12C14.5 10.5 16 10.5 17 10.5C18.5 10.5 19 11.5 19 13V16.5" stroke="#44B78B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Python & Django</h3>
+                        <p class="platform-detail-text">Django is a secure, well-structured framework for data-driven websites. BrandStory builds custom platforms, internal tools and reporting systems with Python. It is a smart pick when your site needs heavy data work, automation or AI features.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Platform Details View Pane -->
+            <div class="platform-content-col">
+                <div class="platform-details-container">
+                    <!-- Detail Pane 01: Laravel Development -->
+                    <div class="platform-detail-pane active" id="platform-tab-1">
+                        <h3 class="platform-detail-heading">Laravel Development</h3>
+                        <p class="platform-detail-text">Laravel is a strong choice for custom business websites, portals and web apps. BrandStory builds secure back-ends, user logins, admin panels and APIs on Laravel. Your site stays clean, easy to maintain and ready to grow with your business in Dubai and the UAE.</p>
+                    </div>
+
+                    <!-- Detail Pane 02: Next.js Development -->
+                    <div class="platform-detail-pane" id="platform-tab-2">
+                        <h3 class="platform-detail-heading">Next.js Development</h3>
+                        <p class="platform-detail-text">Next.js is built for speed and search visibility. BrandStory uses server-side rendering and static generation to make pages load fast and be easy for Google to read. It is a great fit for marketing sites, e-commerce stores and content-heavy platforms.</p>
+                    </div>
+
+                    <!-- Detail Pane 03: React.js Development -->
+                    <div class="platform-detail-pane" id="platform-tab-3">
+                        <h3 class="platform-detail-heading">React.js Development</h3>
+                        <p class="platform-detail-text">React helps us build smooth, interactive interfaces that feel like an app. BrandStory creates reusable components, dashboards and single-page experiences that respond instantly to every click. Your users get a clear, quick journey from start to finish.</p>
+                    </div>
+
+                    <!-- Detail Pane 04: Node.js Development -->
+                    <div class="platform-detail-pane" id="platform-tab-4">
+                        <h3 class="platform-detail-heading">Node.js Development</h3>
+                        <p class="platform-detail-text">Node.js is ideal for real-time features and fast APIs. BrandStory builds live chat, booking systems, notifications and high-traffic back-ends on Node.js. Your platform handles many users at once and connects easily with other tools.</p>
+                    </div>
+
+                    <!-- Detail Pane 05: Vue.js Development -->
+                    <div class="platform-detail-pane" id="platform-tab-5">
+                        <h3 class="platform-detail-heading">Vue.js Development</h3>
+                        <p class="platform-detail-text">Vue.js is light, flexible and easy to scale. BrandStory uses it to build clean front-ends, product configurators and admin dashboards. It works well on its own or inside an existing website, so you can upgrade without starting over.</p>
+                    </div>
+
+                    <!-- Detail Pane 06: Python & Django Development -->
+                    <div class="platform-detail-pane" id="platform-tab-6">
+                        <h3 class="platform-detail-heading">Python & Django</h3>
+                        <p class="platform-detail-text">Django is a secure, well-structured framework for data-driven websites. BrandStory builds custom platforms, internal tools and reporting systems with Python. It is a smart pick when your site needs heavy data work, automation or AI features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Initiate Partnership Button (Matching Screenshot) -->
+        <div class="platform-cta-wrap">
+            <a href="javascript:void(0);" class="platform-cta-btn uniq-contact-lead-btn">
+                <span>Initiate Partnership!</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabItems = document.querySelectorAll('.platform-tab-item');
+    const detailPanes = document.querySelectorAll('.platform-detail-pane');
+
+    tabItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            if (!tabId) return;
+
+            const isAlreadyActive = this.classList.contains('active');
+
+            // On mobile (max-width: 991px), if user clicks the already active item, allow toggling it closed
+            if (window.innerWidth <= 991 && isAlreadyActive) {
+                this.classList.remove('active');
+                const targetPane = document.getElementById(tabId);
+                if (targetPane) targetPane.classList.remove('active');
+                return;
+            }
+
+            tabItems.forEach(t => t.classList.remove('active'));
+            detailPanes.forEach(p => p.classList.remove('active'));
+
+            this.classList.add('active');
+            const targetPane = document.getElementById(tabId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+});
+</script>
+
+
 <!-- Your Trusted eCommerce Development Partner in Dubai -->
 <section class="performance-results-section py-md-5">
   <div class="container">
@@ -935,178 +1678,6 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </section>
 
-
-<section class="premium-cs-section">
-    <div class="container">
-        <!-- Header row -->
-        <div class="row align-items-center mb-5">
-            <div class="col-md-7">
-                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
-            </div>
-            <div class="col-md-5">
-                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
-                    challenges into measurable growth for brands in Dubai, UAE.</p>
-                <div class="mt-4">
-                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Redesigned Case Study list -->
-        <div class="premium-cs-list">
-            <!-- Card 1: Sand Dollar -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
-                                alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
-                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
-                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
-                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
-                                transformed their digital performance completely.</p>
-                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2: TravelEX -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX"
-                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">TravelEX</h3>
-                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
-                            </div>
-                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
-                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
-                                that significantly boosted visibility and drove customer enquiries.</p>
-                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3: Crystal Plaza -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza"
-                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
-                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
-                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
-                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
-                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
-                                hotel in Dubai", "business stay Dubai")</p>
-                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4: NIMS School -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School"
-                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">NIMS School</h3>
-                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
-                            </div>
-                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
-                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
-                                and social media strategy to improve awareness & turn interest into enrollments.</p>
-                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5: Wipro Infrastructure Engineering -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
-                                alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
-                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
-                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
-                                Infrastructure Engineering needed a digital strategy as powerful as their global
-                                operations. BrandStory created high-impact social media and PPC campaigns that improved
-                                online presence and drove qualified leads.</p>
-                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
-                                class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Custom Stats Banner Section -->
 <section class="premium-stats-banner-section">
@@ -1166,12 +1737,298 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </section>
 
+<section class="agency-comparison-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="agency-comparison-header">
+            <h2 class="agency-comparison-title">BrandStory vs Other Website Development Agencies</h2>
+        </div>
+
+        <!-- Comparison Table Card -->
+        <div class="agency-comparison-card">
+            <div class="agency-comparison-table-wrap">
+                <table class="agency-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature / Service</th>
+                            <th>BrandStory</th>
+                            <th>Agency 1</th>
+                            <th>Agency 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr>
+                            <td class="feature-name">Dubai &amp; UAE Website Development Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <td class="feature-name">Full-Service Website Development Experience</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr>
+                            <td class="feature-name">In-house UI/UX Design &amp; Development Team</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 4 -->
+                        <tr>
+                            <td class="feature-name">Custom Development on Laravel, Next.js &amp; React</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 5 -->
+                        <tr>
+                            <td class="feature-name">SEO-Ready &amp; Core Web Vitals Optimized Builds</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 6 -->
+                        <tr>
+                            <td class="feature-name">Bilingual English &amp; Arabic Website Support</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 7 -->
+                        <tr>
+                            <td class="feature-name">Transparent Pricing and On-Time Delivery</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 8 -->
+                        <tr>
+                            <td class="feature-name">Ongoing Support, Security &amp; Maintenance</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 9 -->
+                        <tr>
+                            <td class="feature-name">Known &amp; Recommended Across Dubai Businesses</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php
 $reviewSection = [
     'title' =>  "What Our Clients Say About Us",
     'bgClass' => 'bg-black', // optional custom class
 ];
 include __DIR__ . '/../component/client_reviews.php';
+?>
+<section class="dm-grow-section">
+    <div class="dm-grow-overlay"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-items-center align-items-lg-stretch">
+            <!-- Left Side: Copy, Button, and Partner Logos -->
+            <div
+                class="col-lg-6 mb-5 mb-lg-0 text-lg-start text-center d-lg-flex flex-lg-column justify-content-lg-between">
+                <div>
+                    <h2 class="grow-section-title">Step Into Digital Success with<br>Dubai’s Top Website Development Agency</h2>
+
+                    <p class="grow-section-text">
+                        Get in touch with our website development experts to create a website that reflects your brand and supports your business goals. From custom websites to eCommerce platforms, we build websites designed for performance, usability, and growth.</p>
+
+                    <div class="grow-section-btn-wrap mb-5">
+                        <a href="javascript:void(0);" class="grow-pill-btn uniq-contact-lead-btn">
+                            <span>Talk to Experts</span>
+                            <span class="grow-btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="grow-btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="grow-partners-wrap d-flex align-items-center gap-3 justify-content-lg-start justify-content-center">
+                    <div class="partner-badge">
+                        <a href="https://www.google.com/partners/agency?id=1975289574" target="_blank"
+                            style="display: flex;">
+                            <img src="<?= base_url('assets/images/home/partner1.svg') ?>" width="150" height="45" loading="lazy" decoding="async" alt="Google Partner"
+                                class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-badge">
+                        <img src="<?= base_url('assets/images/home/partner2.svg') ?>" width="150" height="45" loading="lazy" decoding="async" alt="Meta Business Partner"
+                            class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: White Contact Form Card -->
+            <div class="col-lg-6">
+                <div class="grow-form-card">
+                    <div class="grow-form-main">
+                        <?php $textrow = 6 ?>
+                        <?php include __DIR__ . '/../component/forms/contact-form.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dubai Office Contact Bar -->
+<section class="dm-dubai-office-bar">
+    <div class="container">
+        <div class="office-bar-row">
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-phone.svg') ?>" alt="Phone" class="bar-icon" loading="lazy" decoding="async" >
+                <a href="tel:+971522831655">+971 52 283 1655</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-mail.svg') ?>" alt="Email" class="bar-icon" loading="lazy" decoding="async" >
+                <a href="mailto:info@brandstory.ae">info@brandstory.ae</a>
+            </div>
+            <div class="office-bar-item">
+                <img src="<?= base_url('assets/images/home/dubai-location.svg') ?>" alt="Location" class="bar-icon" loading="lazy" decoding="async" >
+                <a target="_blank"
+                    href="https://www.google.com/search?sca_esv=5aa11a5588fe31d3&kgmid=/g/11jn2396qs&q=Brandstory&shndl=30&shem=lcuae,lste,uaasie&source=sh/x/loc/uni/m1/1&kgs=0f7c634ee2c79aaf">G5,
+                    Al Meheri Plaza, opp DBC Building, Al Khabaisi Area, Deira Dubai- 81577, United Arab Emirates</a>
+            </div>
+        </div>
+    </div>
+</section>
+<?php 
+  $category = 'Website Design';
+  $padding= 'sp-50';
+  include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
 
 <section class="dm-faq-section sp-50">

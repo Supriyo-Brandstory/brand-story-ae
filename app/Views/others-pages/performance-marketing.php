@@ -1,7 +1,9 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/real-estate-marketing-services.css") ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
 
 <!-- Hero Banner Section -->
-<section class="premium-hero-slider static-premium-banner">
+<!--<section class="premium-hero-slider static-premium-banner">
     <div class="premium-slider-container">
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/pr-banner.webp') ?>');">
             <div class="container">
@@ -22,19 +24,128 @@
             </div>
         </div>
     </div>
+</section>-->
+
+<section class="re-hero-banner">
+  <div class="re-banner-grid-overlay"></div>
+  <div class="re-banner-glow"></div>
+  <div class="container position-relative">
+    <div class="row align-items-stretch re-hero-row">
+      
+      <div class="col-lg-6 col-md-12 mb-5 mb-lg-0 d-flex flex-column justify-content-center">
+        <div class="re-hero-content">
+          <h1 class="re-hero-title">
+            <span class="re-hero-outline-text premium-purple-highlight">Performance Marketing Agency</span>
+            <span class="re-hero-block-title">in Dubai, UAE- BrandStory</span>
+          </h1>
+          <p class="premium-slide-subtitle">BrandStory delivers high-performance marketing services for ambitious businesses in Dubai and across the United Arab Emirates. We combine paid advertising, audience targeting, conversion tracking, and campaign analytics to turn marketing budgets into qualified leads, sales, and the best performance ROI.</p>
+          <div class="re-hero-actions">
+            <a href="javascript:void(0);" class="re-pill-btn uniq-contact-lead-btn">
+              <span>Talk to Experts</span>
+              <span class="re-btn-arrow-circle">
+                <svg viewBox="0 0 24 24" class="re-btn-arrow-svg">
+                  <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-6 col-md-12 d-flex">
+        <div class="re-dashboard-card-wrap w-100">
+          <div class="re-dashboard-card">
+            
+            <div class="re-dashboard-header">
+              <div class="re-dashboard-brand">
+                <div class="re-brand-icon">
+                  <svg width="22" height="22" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                    <path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"/>
+                    <path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"/>
+                    <path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"/>
+                    <path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"/>
+                  </svg>
+                </div>
+                <span class="re-brand-title">Performance Marketing</span>
+              </div>
+              <div class="re-dashboard-filter">
+                <span>Last 7 Days</span>
+                <svg viewBox="0 0 20 20" width="14" height="14" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </div>
+
+           
+            <div class="re-stats-grid">
+              <div class="re-stat-card">
+                <div class="re-stat-label">Impressions</div>
+                <div class="re-stat-value">1.82 M</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 24.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Clicks</div>
+                <div class="re-stat-value">121 K</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 28.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Leads</div>
+                <div class="re-stat-value">8.2 K</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 50.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">ROAS</div>
+                <div class="re-stat-value">268%</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 80.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Conversion Rate</div>
+                <div class="re-stat-value">6.8%</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 32.5%
+                </div>
+              </div>
+
+              <div class="re-stat-card">
+                <div class="re-stat-label">Ad Spent</div>
+                <div class="re-stat-value">AED 600K</div>
+                <div class="re-stat-trend">
+                  <span class="re-trend-arrow">↑</span> 10.5%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+
 <!-- Performance marketing intro section -->
-<section class="premium-perf-section">
+<!--<section class="premium-perf-section">
     <div class="container">
         <div class="row">
-            <!-- Left Side: Image -->
+          
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="premium-perf-img-wrap">
                     <img src="<?= base_url('assets/images/pm-marketing.webp') ?>" alt="Performance Marketing Empowers Businesses" class="img-fluid premium-perf-img">
                 </div>
             </div>
-            <!-- Right Side: Content -->
+            
             <div class="col-lg-6">
                 <div class="premium-perf-content">
                     <h2 class="premium-perf-title">Performance Marketing Empowers Businesses</h2>
@@ -51,7 +162,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Results Over Reach section -->
 <section class="performance-results-section sp-50">
@@ -59,9 +170,9 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="pm-results-content">
-                    <h2>Results Over Reach: The Performance Marketing Edge in Dubai</h2>
+                    <h2>Performance Marketing Edge in Dubai- BrandStory</h2>
                     <p>At BrandStory, we are a results-focused performance marketing agency in Dubai helping businesses turn marketing investments into measurable revenue. Our approach is built on data, strategic insights, and advanced AI capabilities to create campaigns that don’t just generate traffic- but deliver real business outcomes</p>
-                    <p>With 12+ years of deep experience across competitive industries, we partner with brands to solve core growth challenges- whether it’s reaching the right audience, improving lead quality, or increasing conversion rates. Every strategy we implement is tailored, performance-driven, and aligned with your business objectives to ensure consistent and scalable growth.</p>
+                    <p>With 12+ years of deep experience across competitive industries, we partner with brands to solve core growth challenges- whether it’s reaching the right audience, improving lead quality, or increasing conversion rates. Every strategy we implement is tailored, performance-driven, and aligned with your business objectives.</p>
                     <div>
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
                             <span>Get Free Proposal</span>
@@ -80,6 +191,241 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="premium-cs-section">
+    <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+            </div>
+            <div class="col-md-5">
+                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business
+                    challenges into measurable growth for brands in Dubai, UAE.</p>
+                <div class="mt-4">
+                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Redesigned Case Study list -->
+        <div class="premium-cs-list">
+            <!-- Card 1: Sand Dollar -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>"
+                                width="600" height="338" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
+                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
+                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant
+                                sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that
+                                transformed their digital performance completely.</p>
+                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: TravelEX -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" width="600" height="338" alt="TravelEX"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">TravelEX</h3>
+                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months
+                            </div>
+                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial
+                                services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy
+                                that significantly boosted visibility and drove customer enquiries.</p>
+                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Crystal Plaza -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" width="600" height="338" alt="Crystal Plaza"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
+                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
+                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains,
+                                needed to cut through the noise and drive direct bookings- BrandStory delivered paid
+                                marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury
+                                hotel in Dubai", "business stay Dubai")</p>
+                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: NIMS School -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" width="600" height="338" alt="NIMS School"
+                                class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">NIMS School</h3>
+                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged
+                            </div>
+                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School
+                                needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO
+                                and social media strategy to improve awareness & turn interest into enrollments.</p>
+                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 1: Purvanka -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Real Estate Marketing</span>
+                            <img src="<?= base_url('assets/images/case-study/purvanka-case-study.webp') ?>"
+                                alt="Purvanka Real Estate" class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Purvanka Real Estate</h3>
+                            <div class="premium-cs-row-stats">300% More Traffic | 170% Qualified Leads | 3 Months</div>
+                            <p class="premium-cs-row-desc">In a crowded real estate market, Purvanka needed more than visibility- they needed trust. BrandStory built a data-driven PPC, SEO, and social media strategy to raise awareness and turn interest into site visits and bookings.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-1/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: 42 Estate -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Brand & Web Design</span>
+                            <img src="<?= base_url('assets/images/case-study/42-estate-case-study.webp') ?>" alt="42 Estate"
+                                class="premium-cs-row-img img-fluid" width="540" height="350" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">42 Estate</h3>
+                            <div class="premium-cs-row-stats">200% More Traffic | 120% Qualified Enquiries | 150% Follower Growth</div>
+                            <p class="premium-cs-row-desc">42 Estate entered a market full of established developers. BrandStory shaped a distinct brand identity, high-performance website, and cohesive social media presence that keeps the brand in front of the right buyers.</p>
+                            <a href="<?= base_url('case-study/real-estate-case-study-2/') ?>" class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: Wipro Infrastructure Engineering -->
+            <div class="premium-cs-row-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-img-wrap">
+                            <span class="premium-cs-row-badge">Digital Marketing</span>
+                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>"
+                                width="600" height="338" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid" loading="lazy" decoding="async" >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="premium-cs-row-content">
+                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
+                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
+                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro
+                                Infrastructure Engineering needed a digital strategy as powerful as their global
+                                operations. BrandStory created high-impact social media and PPC campaigns that improved
+                                online presence and drove qualified leads.</p>
+                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>"
+                                class="premium-cs-row-link">
+                                <span>View Case Study</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Redesigned Case Study list -->
+        
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="new-client-section">
+    <div class="container">
+        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <?php include __DIR__ . '/../component/client_section.php' ?>
     </div>
 </section>
 
@@ -228,243 +574,496 @@
         </div>
     </div>
 </section>
-<section class="premium-measure-section">
-    <div class="container">
-        <h2 class="premium-measure-title">Here is How We Help You Measure Performance Marketing?</h2>
-        <div class="premium-measure-row">
-            <!-- Card 1: Cost Per Click (CPC) -->
-            <div class="premium-measure-card active">
-                <img src="<?= base_url('assets/images/pr-help01.webp') ?>" alt="Cost Per Click (CPC)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">Cost Per Click (CPC)</h3>
-                    <p class="premium-measure-card-desc">CPCs can be a great way to measure the profitability of your promotional campaigns and determine where you should allocate your advertising dollars. By understanding how much each click costs, you can better assess whether or not a campaign is worth investing.</p>
+<section class="tools-section">
+    <div class="sction-header">
+        <h2 class="section-title text-md-start">The Tools and Tech Powering <br>Our Performance Marketing Success</h2>
+        <p class="section-description text-md-start m-0 mb-5">
+            We are a leading digital marketing agency, crafting tailored strategies powered by the latest tools and
+            cutting-edge technologies. We translate your business goals into measurable growth.
+        </p>
+    </div>
+    <div class="tools-container">
+        <div class="tools-list-wrapper">
+            <div class="tools-list">
+                <div class="tool-card" data-tool="gds">
+                    <img src="<?= base_url('assets/images/tools-tech/google-data.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GDS" />
+                    <span>Google Data Studio</span>
                 </div>
-            </div>
-            <!-- Card 2: LifeTime Value(LTV) -->
-            <div class="premium-measure-card">
-                <img src="<?= base_url('assets/images/pr-help02.webp') ?>" alt="LifeTime Value(LTV)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">LifeTime Value(LTV)</h3>
-                    <p class="premium-measure-card-desc">Performance marketers increasingly rely on lifetime value (LTV) to make data-driven decisions. In other words, it estimates the revenue a single customer can bring throughout their relationship with a company.</p>
+                <div class="tool-card" data-tool="ga">
+                    <img src="<?= base_url('assets/images/tools-tech/google-analytics.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="GA" />
+                    <span>Google Analytics</span>
                 </div>
-            </div>
-            <!-- Card 3: Click-Through Rate(CTR) -->
-            <div class="premium-measure-card">
-                <img src="<?= base_url('assets/images/pr-help03.webp') ?>" alt="Click-Through Rate(CTR)" class="premium-measure-card-img">
-                <div class="premium-measure-card-overlay">
-                    <h3 class="premium-measure-card-title">Click-Through Rate(CTR)</h3>
-                    <p class="premium-measure-card-desc">Clickthrough rates are a vital metric for any online ad campaign. They help you understand how efficient your ads are in generating clicks and can guide you in setting your budget.</p>
+                <div class="tool-card" data-tool="hubspot">
+                    <img src="<?= base_url('assets/images/tools-tech/hubspot.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hubspot" />
+                    <span>HubSpot</span>
                 </div>
+                <div class="tool-card" data-tool="semrush">
+                    <img src="<?= base_url('assets/images/tools-tech/semrush.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="Semrush" />
+                    <span>SemRush</span>
+                </div>
+                <div class="tool-card" data-tool="surfer">
+                    <img src="<?= base_url('assets/images/tools-tech/surfer.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="surfer" />
+                    <span>Surfer SEO</span>
+                </div>
+                <div class="tool-card" data-tool="mailchimp">
+                    <img src="<?= base_url('assets/images/tools-tech/mailchimp.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="mailchimp " />
+                    <span>Mailchimp</span>
+                </div>
+                <div class="tool-card" data-tool="adroll">
+                    <img src="<?= base_url('assets/images/tools-tech/adroll.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="adroll" />
+                    <span>AdRoll</span>
+                </div>
+                <div class="tool-card" data-tool="google-ads">
+                    <img src="<?= base_url('assets/images/tools-tech/google-ads.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="google-ads" />
+                    <span>Google Ads</span>
+                </div>
+
+                <div class="tool-card" data-tool="meta-ads-manager">
+                    <img src="<?= base_url('assets/images/tools-tech/meta-ads-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async"
+                        alt="Meta Ads Manager" />
+                    <span>Meta Ads Manager</span>
+                </div>
+                <div class="tool-card" data-tool="google-tag-manager">
+                    <img src="<?= base_url('assets/images/tools-tech/google-tag-manager.svg') ?>" width="48" height="48" loading="lazy" decoding="async"
+                        alt="google-tag-manager" />
+                    <span>Google Tag Manager</span>
+                </div>
+                <div class="tool-card" data-tool="hootsuite">
+                    <img src="<?= base_url('assets/images/tools-tech/hootsuite.svg') ?>" width="48" height="48" loading="lazy" decoding="async" alt="hootsuite" />
+                    <span>Hootsuite</span>
+                </div>
+
             </div>
+        </div>
+
+        <div class="tool-description" id="tool-description">
+            <h3>Google Search Console</h3>
+            <p>
+                We use Google Search Console to uncover your website’s performance, track keyword rankings, identify
+                technical issues, and optimize your site for better visibility in search results.
+            </p>
         </div>
     </div>
 </section>
 
-<section class="premium-cs-section">
-    <div class="container">
-        <!-- Header row -->
-        <div class="row align-items-center mb-5">
-            <div class="col-md-7">
-                <h2 class="premium-cs-title">Real Brands. Real Results. <br>Real Digital Marketing Success.</h2>
+<div class="bs-trends-section">
+        <div class="bs-trends-glow"></div>
+
+        <div class="container">
+            <div class="bs-trends-header">
+                <h2 class="bs-trends-title">
+                    Performance Marketing: <span class="lp-purple-highlight">Where You Should Invest</span>
+                </h2>
             </div>
-            <div class="col-md-5">
-                <p class="premium-cs-subtitle">Discover how our strategic digital marketing approach has turned business challenges into measurable growth for brands in Dubai, UAE.</p>
-                <div class="mt-4">
-                    <a href="/case-study/" class="premium-cs-btn">View All Portfolio</a>
+
+            <!-- 2-Column Trends Accordion Grid -->
+            <div class="bs-trends-grid">
+                <!-- Left Column (Trends 1 - 7) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 1 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">AI-Powered Bidding and Automation</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Smart bid strategies that use real-time signals like device, location, and time of day
+                            to spend more on likely buyers and cut waste on clicks that won't convert.
+                        </div>
+                    </div>
+
+                    <!-- Trend 2 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Google Ads and Performance Max</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            High-intent Search campaigns and Performance Max setups that reach customers across
+                            Search, YouTube, Display, and Maps with one goal-driven strategy.
+                        </div>
+                    </div>
+
+                    <!-- Trend 3 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Meta Ads on Facebook and Instagram</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Lead and sales campaigns with sharp targeting and fresh creatives that turn scrolling
+                            into enquiries across Facebook and Instagram.
+                        </div>
+                    </div>
+
+                    <!-- Trend 4 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Short Video Ads on TikTok and Reels</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Quick, native-style videos that grab attention in the first seconds and push viewers
+                            to click, enquire, or buy.
+                        </div>
+                    </div>
+
+                    <!-- Trend 5 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Retargeting and Remarketing</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Ads that win back visitors who viewed a page, added to cart, or left a form half
+                            done, keeping your brand in front of people who already showed interest.
+                        </div>
+                    </div>
+
+                    <!-- Trend 6 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Conversion Rate Optimization</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Fast landing pages, short forms, and clear calls to action, backed by testing, that
+                            turn more of your paid clicks into leads and sales.
+                        </div>
+                    </div>
+
+                    <!-- Trend 7 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">First-Party Data and Custom Audiences</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Custom and lookalike audiences built from your own customer data, so your ads reach
+                            people who look like the buyers you already win.
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Redesigned Case Study list -->
-        <div class="premium-cs-list">
-            <!-- Card 1: Sand Dollar -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-01.webp') ?>" alt="Sand Dollar Dubai- Ecommerce" class="premium-cs-row-img img-fluid">
+
+                <!-- Right Column (Trends 8 - 14) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 8 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Creative Testing at Scale</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Constant A/B tests of headlines, images, videos, and offers, so winning ads get more
+                            budget and weak ones are replaced fast.
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Sand Dollar Dubai- Ecommerce</h3>
-                            <div class="premium-cs-row-stats">135% More Sales | 400% More Traffic | Just 3 Months</div>
-                            <p class="premium-cs-row-desc">A thriving e-commerce brand in Downtown Dubai faced stagnant sales- BrandStory crafted a data-driven SEO, PPC, and social media strategy that transformed their digital performance completely.</p>
-                            <a href="<?= base_url('case-study/e-commerce/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+
+                    <!-- Trend 9 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">LinkedIn Ads for B2B Leads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Targeted Sponsored Content and Lead Gen Forms that reach decision makers by job
+                            title, industry, and company size.
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Card 2: TravelEX -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Branding & Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-02.webp') ?>" alt="TravelEX" class="premium-cs-row-img img-fluid">
+
+                    <!-- Trend 10 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Lead Quality and CRM Feedback Loops</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Sending real sales results back to ad platforms so campaigns learn to chase qualified
+                            leads, not just cheap form fills.
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">TravelEX</h3>
-                            <div class="premium-cs-row-stats">210% More Enquiries | Stronger Visibility | Just 3 Months</div>
-                            <p class="premium-cs-row-desc">TravelEX faced growing competition in UAE's financial services market- BrandStory crafted a data-driven PPC, SEO, and social media strategy that significantly boosted visibility and drove customer enquiries.</p>
-                            <a href="<?= base_url('case-study/travel-agency/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+
+                    <!-- Trend 11 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Full-Funnel Campaign Planning</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            A mix of awareness, consideration, and conversion campaigns that guide people from
+                            first view to final sale instead of chasing last clicks only.
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Card 3: Crystal Plaza -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-03.webp') ?>" alt="Crystal Plaza" class="premium-cs-row-img img-fluid">
+
+                    <!-- Trend 12 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Marketing Analytics and ROAS Tracking</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Real-time dashboards tracking cost per lead, return on ad spend, and conversion
+                            rates, so every dirham can be traced back to results.
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Crystal Plaza</h3>
-                            <div class="premium-cs-row-stats">5.2x ROAS | 40+ 1st Page Rankings | Bookings Soared</div>
-                            <p class="premium-cs-row-desc">Crystal Plaza, one of Sharjah's well-known hotel chains, needed to cut through the noise and drive direct bookings- BrandStory delivered paid marketing and local SEO strategy that put them ahead of the competition. (Ex. "luxury hotel in Dubai", "business stay Dubai")</p>
-                            <a href="<?= base_url('case-study/hotel/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+
+                    <!-- Trend 13 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Privacy-Safe and Server-Side Tracking</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Consent-based tagging and server-side setups that protect user privacy while still
+                            giving you reliable data to optimize every campaign.
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Card 4: NIMS School -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-04.webp') ?>" alt="NIMS School" class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">NIMS School</h3>
-                            <div class="premium-cs-row-stats">Top 5 Rankings | 80% More Engagement | Enrollment Surged</div>
-                            <p class="premium-cs-row-desc">In Dubai's competitive education landscape, NIMS School needed more than visibility- they needed trust. BrandStory delivered a data-driven SEO and social media strategy to improve awareness & turn interest into enrollments.</p>
-                            <a href="<?= base_url('case-study/education-institution/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5: Wipro Infrastructure Engineering -->
-            <div class="premium-cs-row-card">
-                <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-img-wrap">
-                            <span class="premium-cs-row-badge">Digital Marketing</span>
-                            <img src="<?= base_url('assets/images/home-case-05.webp') ?>" alt="Wipro Infrastructure Engineering" class="premium-cs-row-img img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="premium-cs-row-content">
-                            <h3 class="premium-cs-row-title">Wipro Infrastructure Engineering</h3>
-                            <div class="premium-cs-row-stats">Global Reach | Targeted PPC | More Brand Authority</div>
-                            <p class="premium-cs-row-desc">Operating across India, Europe, and the UAE, Wipro Infrastructure Engineering needed a digital strategy as powerful as their global operations. BrandStory created high-impact social media and PPC campaigns that improved online presence and drove qualified leads.</p>
-                            <a href="<?= base_url('case-study/wipro-infrastructure-engineering/') ?>" class="premium-cs-row-link">
-                                <span>View Case Study</span>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+
+                    <!-- Trend 14 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Mobile-First Ads and Landing Pages</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Ads and pages built for the small screen, with fast load times and thumb-friendly
+                            buttons, since most paid clicks now come from phones.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="new-client-section">
-    <div class="container">
-        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
-        <?php include __DIR__ . '/../component/client_section.php' ?>
-    </div>
-</section>
-
-<!-- Custom Stats Banner Section -->
-<section class="premium-stats-banner-section">
-    <div class="container">
-        <div class="row align-items-stretch">
-            <!-- Left Side: Image of two people standing back-to-back -->
-            <div class="col-lg-5 col-md-12">
-                <div class="premium-stats-banner-img-wrap">
-                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+<div class="strategy-scroll-outer" id="strategyScrollOuter">
+    <div class="strategy-scroll-sticky">
+        <section class="premium-strategy-section">
+            <!-- Header Container for Title alignment -->
+            <div class="premium-strategy-header-container">
+                <h2 class="premium-strategy-title">Our PPC Services in Dubai, UAE</h2>
+            </div>
+            
+            <!-- Banner Image Wrapper -->
+            <div class="premium-strategy-banner-wrap">
+                <img src="<?= base_url('assets/images/digitalmarketing-4.webp') ?>" width="4096" height="2730" loading="lazy" decoding="async" alt="PPC Services in Dubai" class="premium-strategy-banner">
+                <div class="premium-strategy-banner-overlay"></div>
+            </div>
+            
+            <!-- Cards Row -->
+            <div class="premium-strategy-cards-row">
+                <!-- Card 1 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <circle cx="11" cy="11" r="8" style="fill: none !important; stroke: currentColor;"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" style="fill: none !important; stroke: currentColor;"></line>
+                            <line x1="8" y1="11" x2="14" y2="11" style="fill: none !important; stroke: currentColor;"></line>
+                            <line x1="11" y1="8" x2="11" y2="14" style="fill: none !important; stroke: currentColor;"></line>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Search Engine Marketing</h3>
+                    <p class="strategy-card-desc">Search Engine Marketing (SEM) is one of the fastest, most effective ways to get your business seen on Search Engine Results Pages (SERPs). Whether you're looking to promote products or scale in a crowded digital marketplace, SEM puts your brand in front of the right audience at the right time.</p>
+                    <ul class="strategy-card-list">
+                        <li>Promotes products/services on SERPs</li>
+                        <li>Targets audiences at the right time</li>
+                        <li>Proven strategy for measurable growth</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <polygon points="23 7 16 12 23 17 23 7" style="fill: none !important; stroke: currentColor;"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2" style="fill: none !important; stroke: currentColor;"></rect>
+                            <circle cx="8" cy="12" r="2" style="fill: none !important; stroke: currentColor;"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Video Ads</h3>
+                    <p class="strategy-card-desc">It's the fastest, most engaging way to educate your audience, showcase your brand, and drive real emotional connections. Video ads don't just inform- they make your brand feel personal and relatable, turning viewers into loyal customers. Storytelling that sells and outperforms other formats.</p>
+                    <ul class="strategy-card-list">
+                        <li>Drives real emotional connections</li>
+                        <li>High engagement storytelling format</li>
+                        <li>Educates and converts target audiences</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" style="fill: none !important; stroke: currentColor;"></path>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Meta Ads</h3>
+                    <p class="strategy-card-desc">More than 90% of internet users are active on social media in Dubai and across UAE. We design social media ad campaigns with specific goals and objectives to target your audience based on their location, demographic, and profile information. Connect with the right people with Facebook and Instagram ads.</p>
+                    <ul class="strategy-card-list">
+                        <li>Facebook and Instagram advertising</li>
+                        <li>Precise demographic & location targeting</li>
+                        <li>Connects business with right customers</li>
+                    </ul>
+                </div>
+                <!-- Card 4 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z" style="fill: none !important; stroke: currentColor;"></path>
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" style="fill: none !important; stroke: currentColor;"></path>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Twitter Ads</h3>
+                    <p class="strategy-card-desc">Twitter (now X) remains one of the most influential social media platforms for businesses looking to engage with targeted audiences. One of the key advantages of Twitter Ads is the ability to promote individual tweets, enabling businesses to tailor each campaign to a specific audience segment.</p>
+                    <ul class="strategy-card-list">
+                        <li>Engage with professional audiences</li>
+                        <li>Promote tweets to target segments</li>
+                        <li>Interest & location-based targeting</li>
+                    </ul>
+                </div>
+                <!-- Card 5 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" style="fill: none !important; stroke: currentColor;"></path>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">TikTok Ads</h3>
+                    <p class="strategy-card-desc">TikTok has redefined how brands connect with audiences through short-form video that feels creative and impossible to scroll past. With ad formats like In-Feed Ads, TopView placements, and Branded Challenges, TikTok pulls customers into the conversation and rewards engagement.</p>
+                    <ul class="strategy-card-list">
+                        <li>Creative short-form video ads</li>
+                        <li>In-feed & TopView placements</li>
+                        <li>Deep engagement algorithm rewards</li>
+                    </ul>
+                </div>
+                <!-- Card 6 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" style="fill: none !important; stroke: currentColor;"></path>
+                            <rect x="2" y="9" width="4" height="12" style="fill: none !important; stroke: currentColor;"></rect>
+                            <circle cx="4" cy="4" r="2" style="fill: none !important; stroke: currentColor;"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">LinkedIn Ads</h3>
+                    <p class="strategy-card-desc">LinkedIn is the world's premier B2B marketing platform, built specifically for professional outreach. With LinkedIn Ads, your business connects directly with industry leaders, senior professionals, and decision-makers who actively influence purchasing power through precise targeting.</p>
+                    <ul class="strategy-card-list">
+                        <li>Premier B2B marketing platform</li>
+                        <li>Target industry leaders & decision-makers</li>
+                        <li>Filter by title, industry & company size</li>
+                    </ul>
+                </div>
+                <!-- Card 7 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <circle cx="11" cy="11" r="8" style="fill: none !important; stroke: currentColor;"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" style="fill: none !important; stroke: currentColor;"></line>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Search Ads</h3>
+                    <p class="strategy-card-desc">Search Ads put your business in front of high-intent audiences actively searching for what you offer. Unlike passive advertising, Search Ads capture demand at the exact moment a potential customer is looking to buy, book, or learn more, maximizing your relevance.</p>
+                    <ul class="strategy-card-list">
+                        <li>Captures high-intent search queries</li>
+                        <li>Matches user search intent precisely</li>
+                        <li>Maximizes return on investment (ROI)</li>
+                    </ul>
+                </div>
+                <!-- Card 8 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" style="fill: none !important; stroke: currentColor;"></rect>
+                            <line x1="21" y1="12" x2="3" y2="12" style="fill: none !important; stroke: currentColor;"></line>
+                            <line x1="12" y1="3" x2="12" y2="21" style="fill: none !important; stroke: currentColor;"></line>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Display Ads</h3>
+                    <p class="strategy-card-desc">Display Ads are visually engaging banner advertisements (text, image, or video). They put your brand in front of audiences across millions of websites, Gmail, YouTube, Facebook, and mobile apps, proactively building awareness and keeping your brand top-of-mind.</p>
+                    <ul class="strategy-card-list">
+                        <li>Visually engaging banner placements</li>
+                        <li>Reaches millions of websites & apps</li>
+                        <li>Proactively builds brand awareness</li>
+                    </ul>
+                </div>
+                <!-- Card 9 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <circle cx="9" cy="21" r="1" style="fill: none !important; stroke: currentColor;"></circle>
+                            <circle cx="20" cy="21" r="1" style="fill: none !important; stroke: currentColor;"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" style="fill: none !important; stroke: currentColor;"></path>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Shopping Ads</h3>
+                    <p class="strategy-card-desc">Want to turn browsers into buyers? Shopping Ads put your products front and center with images, prices, and ratings right where high-intent shoppers search. Because users see exactly what you offer before clicking, you attract more qualified traffic and boost e-commerce sales.</p>
+                    <ul class="strategy-card-list">
+                        <li>Showcase product image, price & rating</li>
+                        <li>Attracts highly qualified buyers</li>
+                        <li>Ideal for e-commerce growth</li>
+                    </ul>
+                </div>
+                <!-- Card 10 -->
+                <div class="premium-strategy-card">
+                    <div class="strategy-card-icon">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;">
+                            <path d="M21.5 2v6h-6" style="fill: none !important; stroke: currentColor;"></path>
+                            <path d="M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" style="fill: none !important; stroke: currentColor;"></path>
+                        </svg>
+                    </div>
+                    <h3 class="strategy-card-title">Remarketing Ads</h3>
+                    <p class="strategy-card-desc">Most website visitors don't convert on their first visit. Remarketing Ads reconnect with users who have already explored your website, used your app, or engaged with your brand elsewhere, yielding higher conversion rates and lower cost per acquisition.</p>
+                    <ul class="strategy-card-list">
+                        <li>Reconnect with past website visitors</li>
+                        <li>Targeted display and search ads</li>
+                        <li>Lowers cost per acquisition (CPA)</li>
+                    </ul>
                 </div>
             </div>
-            <!-- Right Side: Statistics Content -->
-            <div class="col-lg-7 col-md-12">
-                <div class="premium-stats-banner-content pb-5 pb-lg-0">
-                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
-                    <div class="premium-stats-banner-main">
-                        <div class="premium-stats-banner-num">1000+</div>
-                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
-                    </div>
-                    <div class="premium-stats-banner-action">
-                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
-                            <span>Contact Us</span>
-                            <span class="btn-arrow-circle">
-                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
-                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
+            <!-- Progress Bar at bottom of section -->
+            <div class="strategy-progress-bar-wrap">
+                <div class="strategy-progress-bar" id="strategyProgressBar"></div>
             </div>
-        </div>
+        </section>
     </div>
-</section>
-<section class="premium-stats-section">
-    <div class="container">
-        <div class="premium-stats-row">
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">1000+</div>
-                <div class="premium-stat-label">Campaigns Executed</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">900+</div>
-                <div class="premium-stat-label">Satisfied Clients</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">12+</div>
-                <div class="premium-stat-label">Years of Expertise</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">100+</div>
-                <div class="premium-stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+</div>
 
 <section class="premium-services-section">
     <div class="container">
@@ -539,7 +1138,316 @@
         </div>
     </div>
 </section>
-<section class="dm-faq-section spb-50">
+<section class="premium-measure-section">
+    <div class="container">
+        <h2 class="premium-measure-title">Here is How We Help You Measure Performance Marketing?</h2>
+        <div class="premium-measure-row">
+            <!-- Card 1: Cost Per Click (CPC) -->
+            <div class="premium-measure-card active">
+                <img src="<?= base_url('assets/images/pr-help01.webp') ?>" alt="Cost Per Click (CPC)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">Cost Per Click (CPC)</h3>
+                    <p class="premium-measure-card-desc">CPCs can be a great way to measure the profitability of your promotional campaigns and determine where you should allocate your advertising dollars. By understanding how much each click costs, you can better assess whether or not a campaign is worth investing.</p>
+                </div>
+            </div>
+            <!-- Card 2: LifeTime Value(LTV) -->
+            <div class="premium-measure-card">
+                <img src="<?= base_url('assets/images/pr-help02.webp') ?>" alt="LifeTime Value(LTV)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">LifeTime Value(LTV)</h3>
+                    <p class="premium-measure-card-desc">Performance marketers increasingly rely on lifetime value (LTV) to make data-driven decisions. In other words, it estimates the revenue a single customer can bring throughout their relationship with a company.</p>
+                </div>
+            </div>
+            <!-- Card 3: Click-Through Rate(CTR) -->
+            <div class="premium-measure-card">
+                <img src="<?= base_url('assets/images/pr-help03.webp') ?>" alt="Click-Through Rate(CTR)" class="premium-measure-card-img">
+                <div class="premium-measure-card-overlay">
+                    <h3 class="premium-measure-card-title">Click-Through Rate(CTR)</h3>
+                    <p class="premium-measure-card-desc">Clickthrough rates are a vital metric for any online ad campaign. They help you understand how efficient your ads are in generating clicks and can guide you in setting your budget.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Custom Stats Banner Section -->
+<section class="premium-stats-banner-section">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <!-- Left Side: Image of two people standing back-to-back -->
+            <div class="col-lg-5 col-md-12">
+                <div class="premium-stats-banner-img-wrap">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid" alt="BrandStory Success Stats">
+                </div>
+            </div>
+            <!-- Right Side: Statistics Content -->
+            <div class="col-lg-7 col-md-12">
+                <div class="premium-stats-banner-content pb-5 pb-lg-0">
+                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
+                    <div class="premium-stats-banner-main">
+                        <div class="premium-stats-banner-num">1000+</div>
+                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
+                    </div>
+                    <div class="premium-stats-banner-action">
+                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
+                            <span>Contact Us</span>
+                            <span class="btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="premium-stats-section">
+    <div class="container">
+        <div class="premium-stats-row">
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">1000+</div>
+                <div class="premium-stat-label">Campaigns Executed</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">900+</div>
+                <div class="premium-stat-label">Satisfied Clients</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">12+</div>
+                <div class="premium-stat-label">Years of Expertise</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">100+</div>
+                <div class="premium-stat-label">Expert Professionals</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="agency-comparison-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="agency-comparison-header">
+            <h2 class="agency-comparison-title">BrandStory vs Other Performance Marketing Agencies: The Real Difference</h2>
+        </div>
+
+        <!-- Comparison Table Card -->
+        <div class="agency-comparison-card">
+            <div class="agency-comparison-table-wrap">
+                <table class="agency-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature / Service</th>
+                            <th>BrandStory</th>
+                            <th>Agency 1</th>
+                            <th>Agency 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr>
+                            <td class="feature-name">Dubai &amp; UAE Performance Marketing Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <td class="feature-name">Full-Funnel Performance Marketing Experience</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr>
+                            <td class="feature-name">In-house Ad Creative &amp; Production Team</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 4 -->
+                        <tr>
+                            <td class="feature-name">AI-Led Bidding &amp; Campaign Optimization</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 5 -->
+                        <tr>
+                            <td class="feature-name">Landing Page &amp; Conversion Rate Optimization</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 6 -->
+                        <tr>
+                            <td class="feature-name">Multi-Channel Expertise: Search, Social &amp; Video Ads</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 7 -->
+                        <tr>
+                            <td class="feature-name">Low Cost Per Lead and ROAS Delivery</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 8 -->
+                        <tr>
+                            <td class="feature-name">Accurate Lead and Conversion Tracking</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 9 -->
+                        <tr>
+                            <td class="feature-name">Known &amp; Recommended Across Dubai Businesses</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php
+$reviewSection = [
+    'title' =>  "What Our Clients Say About Us",
+    'bgClass' => 'bg-black', // optional custom class
+];
+include __DIR__ . '/../component/client_reviews.php';
+?>
+
+<?php 
+  $category = 'Performance Marketing';
+  $padding= 'sp-50';
+  include __DIR__ . '/../component/blog_carousel.php'; 
+?>
+
+<section class="dm-faq-section sp-50">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answered</h2>
         <div class="dm-faq-main max-1000">
@@ -729,3 +1637,315 @@
         </div>
     </div>
 </section>
+
+<script>
+    const descriptions = {
+
+        gds: {
+            title: "Google Data Studio",
+            text: "At BrandStory, we use Google Data Studio to showcase campaign results in a visually compelling format, helping clients understand ROI and growth metrics."
+        },
+        ga: {
+            title: "Google Analytics",
+            text: "We are experts in Google Analytics 4, enabling smarter decisions through advanced data tracking. We turn data into actionable strategies that drive growth."
+        },
+        hubspot: {
+            title: "HubSpot",
+            text: "From email automation to lead scoring, we use HubSpot Marketing to power smarter marketing strategies. This helps us personalize customer journeys and boost conversions."
+        },
+        semrush: {
+            title: "SemRush",
+            text: "Semrush is our go-to tool for building competitive, results-oriented digital marketing strategies. This helps uncover growth opportunities, optimize content, and stay ahead in search rankings."
+        },
+        surfer: {
+            title: "Surfer SEO",
+            text: "With Surfer SEO expertise, we create content that’s optimized to perform. Our team ensures every piece aligns with search engine best practices."
+        },
+        mailchimp: {
+            title: "Mailchimp",
+            text: "We harness Mailchimp to design and automate engaging email campaigns. From audience segmentation to analytics, we are well-versed in all the best practices for email marketing."
+        },
+        adroll: {
+            title: "AdRoll",
+            text: "We use AdRoll to run powerful retargeting and display ad campaigns. From cart abandoners to casual browsers, we bring them back to convert."
+        },
+        'google-ads': {
+            title: "Google Ads",
+            text: "We use Google Ads for high-ROI search, display, and video campaigns that target the right audience with precision. "
+        },
+        'meta-ads-manager': {
+            title: "Meta Ads Manager",
+            text: "Meta Ads Manager helps us run data-driven campaigns across Facebook and Instagram to maximize reach, engagement, and conversions."
+        },
+        "google-tag-manager": {
+            title: "Google Tag Manager",
+            text: "Google Tag Manager helps us to efficiently deploy tags on your website, enabling seamless tracking of campaign performance and user behavior."
+        },
+        hootsuite: {
+            title: "Hootsuite",
+            text: "Hootsuite helps us effectively schedule, manage, and monitor multi-platform social media campaigns with ease and streamlines the workflow."
+        }
+    };
+
+    const cards = document.querySelectorAll('.tool-card');
+    const descBox = document.getElementById('tool-description');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            const key = card.getAttribute('data-tool');
+            descBox.innerHTML = `<h3>${descriptions[key].title}</h3><p>${descriptions[key].text}</p>`;
+        });
+    });
+
+    // Set default active
+    const defaultCard = document.querySelector('.tool-card[data-tool="gsc"]') || document.querySelector('.tool-card');
+    if (defaultCard) {
+        defaultCard.classList.add('active');
+    }
+
+    // Niches Accordion JS
+    const nicheItems = document.querySelectorAll('.niche-item');
+    const nicheImagesBox = document.getElementById('niches-images');
+    const serviceTitleLink = document.querySelector('.services-title a');
+
+    nicheItems.forEach(item => {
+        item.addEventListener('click', function () {
+            if (this.classList.contains('active')) return;
+
+            // Update active state
+            nicheItems.forEach(i => {
+                i.classList.remove('active');
+                i.querySelector('.niche-toggle').textContent = '+';
+            });
+            this.classList.add('active');
+            this.querySelector('.niche-toggle').textContent = '−';
+
+            // Change images with fade effect
+            const images = JSON.parse(this.getAttribute('data-images'));
+            const imgElems = nicheImagesBox.querySelectorAll('.niche-image-box img');
+
+            imgElems.forEach((img, index) => {
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    img.src = '<?= base_url() ?>/' + images[index];
+                    img.style.opacity = '1';
+                    img.style.transform = 'scale(1)';
+                }, 300);
+            });
+
+            // Update Dynamic Link in Heading
+            const serviceLink = this.getAttribute('data-service-link');
+            const serviceText = this.getAttribute('data-service-text');
+            if (serviceTitleLink) {
+                serviceTitleLink.href = serviceLink;
+                serviceTitleLink.textContent = serviceText;
+            }
+            // Improved Scroll Logic: Only scroll on mobile if item is not fully visible
+            const isMobile = window.innerWidth <= 991;
+            if (isMobile) {
+                setTimeout(() => {
+                    const headerHeight = document.querySelector('header.header')?.offsetHeight || 80;
+                    const rect = this.getBoundingClientRect();
+                    const elementTop = rect.top + window.pageYOffset;
+
+                    // Only scroll if the top of the item is not nicely positioned
+                    window.scrollTo({
+                        top: elementTop - headerHeight - 20,
+                        behavior: 'smooth'
+                    });
+                }, 450); // Wait for transition to be nearly complete
+            }
+        });
+    });
+
+    // View More Button Toggle for Services
+    const servicesSection = document.querySelector('.mumbai-services-section');
+    if (servicesSection) {
+        const viewMoreBtn = servicesSection.querySelector('.mumbai-btn-view-more');
+        const extraItems = servicesSection.querySelectorAll('.mumbai-service-extra');
+        if (viewMoreBtn) {
+            viewMoreBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                viewMoreBtn.classList.toggle('active');
+                let isExpanded = false;
+                extraItems.forEach(item => {
+                    item.classList.toggle('d-none');
+                    if (!item.classList.contains('d-none')) {
+                        isExpanded = true;
+                    }
+                });
+                const btnText = viewMoreBtn.querySelector('span');
+                const svg = viewMoreBtn.querySelector('svg');
+                if (btnText) {
+                    if (isExpanded) {
+                        btnText.textContent = 'View Less';
+                        if (svg) svg.style.transform = 'rotate(180deg)';
+                    } else {
+                        btnText.textContent = 'View More';
+                        if (svg) svg.style.transform = 'rotate(0deg)';
+                    }
+                }
+            });
+        }
+    }
+
+    // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+    const apartCards = document.querySelectorAll('.ppc-apart-card');
+    apartCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            card.classList.toggle('ppc-apart-card--active');
+        });
+    });
+</script>
+<script>
+ 
+      // PPC Apart Accordion Toggle — individual toggle (multiple can be open)
+    const apartCards = document.querySelectorAll('.ppc-apart-card');
+    apartCards.forEach(function(card) {
+        card.addEventListener('click', function() {
+            card.classList.toggle('ppc-apart-card--active');
+        });
+    });
+
+</script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>
+    <style>
+        .premium-cs-row-img {
+            aspect-ratio: 16 / 8;
+        }
+        </style>
+
+        
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const outer = document.getElementById('strategyScrollOuter');
+        const sticky = document.querySelector('.strategy-scroll-sticky');
+        const cardsRow = document.querySelector('.premium-strategy-cards-row');
+        const progressBar = document.getElementById('strategyProgressBar');
+
+        if (!outer || !cardsRow) return;
+
+        function updateScrollHeight() {
+            if (window.innerWidth > 991) {
+                // Calculate horizontal scroll distance
+                const scrollWidth = cardsRow.scrollWidth;
+                const viewportWidth = window.innerWidth;
+                const scrollDistance = Math.max(0, scrollWidth - viewportWidth);
+
+                // Adjust factor for scroll speed (1.3x of scrollDistance creates a natural vertical scroll speed)
+                const extraScrollHeight = scrollDistance * 1.3;
+                outer.style.height = (window.innerHeight + extraScrollHeight) + 'px';
+            } else {
+                outer.style.height = 'auto';
+            }
+        }
+
+        function handleScroll() {
+            if (window.innerWidth <= 991) {
+                cardsRow.style.transform = 'none';
+                if (progressBar) progressBar.style.width = '0%';
+                return;
+            }
+
+            const rect = outer.getBoundingClientRect();
+            const totalHeight = outer.offsetHeight;
+            const viewportHeight = window.innerHeight;
+            const viewportWidth = window.innerWidth;
+            const scrollDistance = cardsRow.scrollWidth - viewportWidth;
+
+            if (rect.top <= 0 && rect.bottom >= viewportHeight) {
+                const progress = -rect.top / (totalHeight - viewportHeight);
+                const translateX = -progress * scrollDistance;
+
+                cardsRow.style.transform = `translateX(${translateX}px)`;
+
+                if (progressBar) {
+                    progressBar.style.width = (progress * 100) + '%';
+                }
+            } else if (rect.top > 0) {
+                cardsRow.style.transform = 'translateX(0px)';
+                if (progressBar) progressBar.style.width = '0%';
+            } else if (rect.bottom < viewportHeight) {
+                cardsRow.style.transform = `translateX(${-scrollDistance}px)`;
+                if (progressBar) progressBar.style.width = '100%';
+            }
+        }
+
+        // Initialize scroll height calculation & handler
+        updateScrollHeight();
+        handleScroll();
+
+        // Recalculate on events
+        window.addEventListener('resize', () => {
+            updateScrollHeight();
+            handleScroll();
+        });
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', () => {
+            updateScrollHeight();
+            handleScroll();
+        });
+
+        // Safety timeout to ensure accurate measurements after layouts render
+        setTimeout(() => {
+            updateScrollHeight();
+            handleScroll();
+        }, 300);
+    });
+
+</script>

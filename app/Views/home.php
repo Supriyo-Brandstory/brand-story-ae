@@ -1352,8 +1352,8 @@
     <div class="container">
         <!-- Section Header -->
         <div class="platform-partnerships-header">
-            <h2 class="platform-partnerships-title">We Turn Every Platform Into Your Sales Channel: Google, Meta, TikTok &amp; More</h2>
-            <p class="platform-partnerships-desc">Marketing has evolved, and your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. As a full-service marketing agency, BrandStory brings you access to the world's most powerful digital channels under one roof.</p>
+            <h2 class="platform-partnerships-title">Turn Google, Meta & TikTok Into Lead Machines with BrandStory</h2>
+            <p class="platform-partnerships-desc">Marketing has evolved, and your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. As a full-service marketing agency in Dubai, BrandStory brings you access to the world's most powerful digital channels.</p>
         </div>
 
         <!-- Two Column Interactive Tabs -->
@@ -1374,7 +1374,7 @@
                     </div>
                     <div class="platform-tab-mobile-pane">
                         <h3 class="platform-detail-heading">Google Marketing</h3>
-                        <p class="platform-detail-text">BranStory is a Google Partner agency running campaigns across Google Search Ads, Display, YouTube, Shopping and Performance Max. We study your brand and your target audience, then optimize every campaign to get more leads, sales, and maximum ROI.</p>
+                        <p class="platform-detail-text">BranStory is a Google Partner agency running campaigns across Organic SEO, Google Search Ads, Display, YouTube, Shopping and Performance Max. We study your brand and your target audience, then optimize every campaign to get more leads, sales, and maximum ROI.</p>
                     </div>
 
                     <!-- Tab 02: Facebook Marketing -->
@@ -1390,7 +1390,7 @@
                     </div>
                     <div class="platform-tab-mobile-pane">
                         <h3 class="platform-detail-heading">Facebook Marketing</h3>
-                        <p class="platform-detail-text">We are a Meta Business Partner agency creating high-performance ad campaigns across Facebook. We build creative ad campaigns that stop the scroll, win the click and drive real sales. We are the creative digital advertising agency in Dubai working for your brand visibility.</p>
+                        <p class="platform-detail-text">We are a Meta Business Partner agency creating high-performance ad campaigns across Facebook & Instagram. We build creative ad campaigns that stop the scroll, win the click and drive real sales. We are the creative digital advertising agency in Dubai working for your brand visibility.</p>
                     </div>
 
                     <!-- Tab 03: Instagram Marketing -->
@@ -1528,6 +1528,41 @@
     </div>
 </section>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabItems = document.querySelectorAll('.platform-tab-item');
+    const detailPanes = document.querySelectorAll('.platform-detail-pane');
+
+    tabItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            if (!tabId) return;
+
+            const isAlreadyActive = this.classList.contains('active');
+
+            // On mobile (max-width: 991px), if user clicks the already active item, allow toggling it closed
+            if (window.innerWidth <= 991 && isAlreadyActive) {
+                this.classList.remove('active');
+                const targetPane = document.getElementById(tabId);
+                if (targetPane) targetPane.classList.remove('active');
+                return;
+            }
+
+            tabItems.forEach(t => t.classList.remove('active'));
+            detailPanes.forEach(p => p.classList.remove('active'));
+
+            this.classList.add('active');
+            const targetPane = document.getElementById(tabId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+});
+</script>
+
+
+
   <section class="premium-why-choose-section">
     <div class="container">
         <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
@@ -1661,39 +1696,6 @@
 </section>
 
 
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const tabItems = document.querySelectorAll('.platform-tab-item');
-    const detailPanes = document.querySelectorAll('.platform-detail-pane');
-
-    tabItems.forEach(item => {
-        item.addEventListener('click', function() {
-            const tabId = this.getAttribute('data-tab');
-            if (!tabId) return;
-
-            const isAlreadyActive = this.classList.contains('active');
-
-            // On mobile (max-width: 991px), if user clicks the already active item, allow toggling it closed
-            if (window.innerWidth <= 991 && isAlreadyActive) {
-                this.classList.remove('active');
-                const targetPane = document.getElementById(tabId);
-                if (targetPane) targetPane.classList.remove('active');
-                return;
-            }
-
-            tabItems.forEach(t => t.classList.remove('active'));
-            detailPanes.forEach(p => p.classList.remove('active'));
-
-            this.classList.add('active');
-            const targetPane = document.getElementById(tabId);
-            if (targetPane) {
-                targetPane.classList.add('active');
-            }
-        });
-    });
-});
-</script>
 
 
 

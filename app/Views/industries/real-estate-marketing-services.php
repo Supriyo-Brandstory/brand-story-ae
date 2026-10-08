@@ -718,7 +718,7 @@
                 </h2>
             </div>
 
-            <!-- 
+            
             <div class="bs-future-grid">
                 <div class="bs-future-box">
                    
@@ -1222,6 +1222,219 @@
   </div>
 </section>
 
+<section class="platform-partnerships-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="platform-partnerships-header">
+            <h2 class="platform-partnerships-title">Turn Google, Meta & TikTok Into Property Lead Channels with BrandStory</h2>
+            <p class="platform-partnerships-desc">Real estate buyers have changed how they search. They compare projects on Google, browse listings on Meta, and research investments on LinkedIn. As a full-service real estate marketing agency in Dubai, BrandStory brings you access to the world's most powerful digital channels.</p>
+        </div>
+
+        <!-- Two Column Interactive Tabs -->
+        <div class="platform-partnerships-row">
+            <!-- Left: Platform Tabs List -->
+            <div class="platform-tabs-col">
+                <div class="platform-tabs-list" role="tablist">
+                    <!-- Tab 01: Google Marketing -->
+                    <div class="platform-tab-item active" data-tab="platform-tab-1" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">01</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Google Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/google.svg') ?>" alt="Google" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Google Marketing</h3>
+                        <p class="platform-detail-text">BrandStory is a Google Partner agency running campaigns across Organic SEO, Google Search Ads, Display, YouTube and Performance Max. We study your projects and your target buyers, then optimize every campaign to bring more property enquiries, site visits, and maximum ROI.</p>
+                    </div>
+
+                    <!-- Tab 02: Facebook Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-2" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">02</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Facebook Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/facebook.svg') ?>" alt="Facebook" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Facebook Marketing</h3>
+                        <p class="platform-detail-text">We are a Meta Business Partner agency creating high-performance ad campaigns across Facebook & Instagram. We build property ad campaigns that stop the scroll, win the click and bring in qualified buyer and investor leads. We are the creative real estate advertising agency in Dubai working for your project visibility.</p>
+                    </div>
+
+                    <!-- Tab 03: Instagram Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-3" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">03</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Instagram Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/instagram.svg') ?>" alt="Instagram" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Instagram Marketing</h3>
+                        <p class="platform-detail-text">We create high-performance Instagram ad campaigns designed to show off your properties and drive real enquiries. From engaging property tour Reels to high-converting Carousel and Story ads, we maximize your project visibility and ROI across Dubai and the UAE.</p>
+                    </div>
+
+                    <!-- Tab 04: LinkedIn Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-4" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">04</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">LinkedIn Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <img src="<?= base_url('assets/images/icons/linkdin.svg') ?>" alt="LinkedIn" class="platform-tab-icon" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">LinkedIn Marketing</h3>
+                        <p class="platform-detail-text">LinkedIn is where investors, business owners and senior professionals make big property decisions, and BrandStory puts your projects in front of them. We build targeted campaigns using Sponsored Content, Message Ads and Lead Gen Forms, then keep optimising them to bring in investor leads that are worth your sales team's time.</p>
+                    </div>
+
+                    <!-- Tab 05: TikTok Marketing -->
+                    <div class="platform-tab-item" data-tab="platform-tab-5" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">05</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">TikTok Marketing</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                           <svg width="28" height="28" viewBox="0 0 200 227" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_779_27425)">
+                            <path d="M148.22 81.7358C162.812 92.1817 180.688 98.3279 199.995 98.3279V61.1234C196.341 61.1248 192.697 60.7428 189.122 59.9837V89.269C169.816 89.269 151.942 83.1236 137.347 72.6785V148.603C137.347 186.585 106.6 217.372 68.675 217.372C54.5242 217.372 41.3711 213.088 30.4453 205.74C42.9156 218.51 60.3062 226.43 79.5453 226.43C117.473 226.43 148.221 195.643 148.221 157.659V81.7358H148.22ZM161.634 44.2009C154.176 36.0422 149.279 25.4985 148.22 13.8416V9.05664H137.916C140.509 23.8719 149.357 36.5291 161.634 44.2009ZM54.4328 176.595C50.2659 171.125 48.0136 164.432 48.0242 157.551C48.0242 140.18 62.0875 126.095 79.4383 126.095C82.6713 126.093 85.8853 126.59 88.9672 127.569V89.5321C85.3656 89.0381 81.7312 88.8276 78.0984 88.9051V118.511C75.015 117.532 71.7994 117.035 68.5648 117.037C51.2148 117.037 37.1523 131.121 37.1523 148.494C37.1523 160.779 44.1812 171.414 54.4328 176.595Z" fill="#FF004F"/>
+                            <path d="M137.348 72.6777C151.945 83.1228 169.817 89.2683 189.123 89.2683V59.9829C178.347 57.684 168.807 52.045 161.634 44.2009C149.357 36.5283 140.511 23.8711 137.917 9.05664H110.852V157.658C110.791 174.982 96.7516 189.009 79.4383 189.009C69.2367 189.009 60.1727 184.139 54.4328 176.594C44.1828 171.414 37.1531 160.778 37.1531 148.495C37.1531 131.123 51.2156 117.038 68.5656 117.038C71.8898 117.038 75.0938 117.556 78.0992 118.511V88.9058C40.8398 89.6769 10.875 120.164 10.875 157.659C10.875 176.376 18.3367 193.344 30.4477 205.742C41.3734 213.088 54.5258 217.374 68.6773 217.374C106.603 217.374 137.349 186.584 137.349 148.603L137.348 72.6777Z" fill="black"/>
+                            <path d="M189.121 59.9828V52.066C179.403 52.0801 169.877 49.3548 161.632 44.2016C168.93 52.203 178.541 57.7209 189.121 59.9844M137.914 9.05652C137.667 7.64095 137.477 6.21595 137.345 4.785V0H99.975V148.603C99.9156 165.925 85.8766 179.952 68.5625 179.952C63.6541 179.96 58.8128 178.81 54.4297 176.597C60.1695 184.14 69.2336 189.009 79.4352 189.009C96.7477 189.009 110.788 174.983 110.849 157.659V9.0573L137.914 9.05652ZM78.0984 88.9057V80.4762C74.9757 80.049 71.8275 79.8351 68.6758 79.8359C30.7461 79.8359 0 110.625 0 148.603C0 172.414 12.0836 193.398 30.4461 205.741C18.3352 193.344 10.8734 176.375 10.8734 157.659C10.8734 120.164 40.8375 89.6767 78.0984 88.9057Z" fill="#00F2EA"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_779_27425">
+                            <rect width="200" height="227" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">TikTok Marketing</h3>
+                        <p class="platform-detail-text">TikTok is where Dubai's young, fast-moving audience spends hours every day, and many of them are first-time buyers and renters. BrandStory puts your properties right in that feed. We create short walkthrough and lifestyle videos that feel native to the platform, stop the scroll and push people to enquire. We then optimize every campaign to bring more views, leads and site visits.</p>
+                    </div>
+
+                    <!-- Tab 06: Dubizzle Ads -->
+                    <div class="platform-tab-item" data-tab="platform-tab-6" role="tab" tabindex="0">
+                        <div class="platform-tab-left">
+                            <span class="platform-tab-num">06</span>
+                            <span class="platform-tab-line"></span>
+                            <span class="platform-tab-title">Dubizzle Ads</span>
+                        </div>
+                        <div class="platform-tab-icons">
+                            <svg width="28" height="28" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M175.003 49.9994H58.7526L49.5026 22.3327C48.9436 20.6775 47.8785 19.2399 46.4578 18.2231C45.0372 17.2062 43.333 16.6615 41.5859 16.666H16.5859V33.3327H35.5859L65.0859 121.916C66.1898 125.242 68.3139 128.135 71.1564 130.185C73.9988 132.234 77.415 133.336 80.9193 133.333H144.169C147.56 133.327 150.869 132.287 153.654 130.351C156.438 128.415 158.566 125.676 159.753 122.499L182.753 61.2494C183.669 58.666 183.336 55.8327 181.836 53.5827C181.07 52.4788 180.049 51.5765 178.859 50.9525C177.669 50.3286 176.346 50.0016 175.003 49.9994ZM144.253 116.666H81.0026L64.3359 66.666H163.003L144.253 116.666ZM83.3359 149.999C78.9157 149.999 74.6764 151.755 71.5508 154.881C68.4252 158.007 66.6693 162.246 66.6693 166.666C66.6693 171.086 68.4252 175.326 71.5508 178.451C74.6764 181.577 78.9157 183.333 83.3359 183.333C87.7562 183.333 91.9954 181.577 95.1211 178.451C98.2467 175.326 100.003 171.086 100.003 166.666C100.003 162.246 98.2467 158.007 95.1211 154.881C91.9954 151.755 87.7562 149.999 83.3359 149.999ZM141.669 149.999C137.249 149.999 133.01 151.755 129.884 154.881C126.759 158.007 125.003 162.246 125.003 166.666C125.003 171.086 126.759 175.326 129.884 178.451C133.01 181.577 137.249 183.333 141.669 183.333C146.09 183.333 150.329 181.577 153.454 178.451C156.58 175.326 158.336 171.086 158.336 166.666C158.336 162.246 156.58 158.007 153.454 154.881C150.329 151.755 146.09 149.999 141.669 149.999Z" fill="#D69A5F"/>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="platform-tab-mobile-pane">
+                        <h3 class="platform-detail-heading">Dubizzle Ads</h3>
+                        <p class="platform-detail-text">Property seekers in the UAE start their search on Dubizzle, and BrandStory makes sure your listings show up first. We optimise your listings, photos and descriptions, and run featured and promoted ads that put your properties in front of buyers and renters who are ready to enquire.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Platform Details View Pane -->
+            <div class="platform-content-col">
+                <div class="platform-details-container">
+                    <!-- Detail Pane 01: Google Marketing -->
+                    <div class="platform-detail-pane active" id="platform-tab-1">
+                        <h3 class="platform-detail-heading">Google Marketing</h3>
+                        <p class="platform-detail-text">BrandStory is a Google Partner agency running campaigns across Google Search Ads, Display, YouTube and Performance Max. We study your projects and your target buyers, then optimize every campaign to bring more property enquiries, site visits, and maximum ROI.</p>
+                    </div>
+
+                    <!-- Detail Pane 02: Facebook Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-2">
+                        <h3 class="platform-detail-heading">Facebook Marketing</h3>
+                        <p class="platform-detail-text">We are a Meta Business Partner agency creating high-performance ad campaigns across Facebook. We build property ad campaigns that stop the scroll, win the click and bring in qualified buyer and investor leads. We are the creative real estate advertising agency in Dubai working for your project visibility.</p>
+                    </div>
+
+                    <!-- Detail Pane 03: Instagram Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-3">
+                        <h3 class="platform-detail-heading">Instagram Marketing</h3>
+                        <p class="platform-detail-text">We create high-performance Instagram ad campaigns designed to show off your properties and drive real enquiries. From engaging property tour Reels to high-converting Carousel and Story ads, we maximize your project visibility and ROI across Dubai and the UAE.</p>
+                    </div>
+
+                    <!-- Detail Pane 04: LinkedIn Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-4">
+                        <h3 class="platform-detail-heading">LinkedIn Marketing</h3>
+                        <p class="platform-detail-text">LinkedIn is where investors, business owners and senior professionals make big property decisions, and BrandStory puts your projects in front of them. We build targeted campaigns using Sponsored Content, Message Ads and Lead Gen Forms, then keep optimising them to bring in investor leads that are worth your sales team's time.</p>
+                    </div>
+
+                    <!-- Detail Pane 05: TikTok Marketing -->
+                    <div class="platform-detail-pane" id="platform-tab-5">
+                        <h3 class="platform-detail-heading">TikTok Marketing</h3>
+                        <p class="platform-detail-text">TikTok is where Dubai's young, fast-moving audience spends hours every day, and many of them are first-time buyers and renters. BrandStory puts your properties right in that feed. We create short walkthrough and lifestyle videos that feel native to the platform, stop the scroll and push people to enquire. We then optimize every campaign to bring more views, leads and site visits.</p>
+                    </div>
+
+                    <!-- Detail Pane 06: Dubizzle Ads -->
+                    <div class="platform-detail-pane" id="platform-tab-6">
+                        <h3 class="platform-detail-heading">Dubizzle Ads</h3>
+                        <p class="platform-detail-text">Property seekers in the UAE start their search on Dubizzle, and BrandStory makes sure your listings show up first. We optimise your listings, photos and descriptions, and run featured and promoted ads that put your properties in front of buyers and renters who are ready to enquire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Initiate Partnership Button (Matching Screenshot) -->
+        <div class="platform-cta-wrap">
+            <a href="javascript:void(0);" class="platform-cta-btn uniq-contact-lead-btn">
+                <span>Initiate Partnership!</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabItems = document.querySelectorAll('.platform-tab-item');
+    const detailPanes = document.querySelectorAll('.platform-detail-pane');
+
+    tabItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            if (!tabId) return;
+
+            const isAlreadyActive = this.classList.contains('active');
+
+            // On mobile (max-width: 991px), if user clicks the already active item, allow toggling it closed
+            if (window.innerWidth <= 991 && isAlreadyActive) {
+                this.classList.remove('active');
+                const targetPane = document.getElementById(tabId);
+                if (targetPane) targetPane.classList.remove('active');
+                return;
+            }
+
+            tabItems.forEach(t => t.classList.remove('active'));
+            detailPanes.forEach(p => p.classList.remove('active'));
+
+            this.classList.add('active');
+            const targetPane = document.getElementById(tabId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+});
+</script>
+
+
 
 <!-- Process Flow Section -->
 <section class="mumbai-solution-section">
@@ -1442,22 +1655,226 @@
     </div>
 </section>
 
+<section class="agency-comparison-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="agency-comparison-header">
+            <h2 class="agency-comparison-title">BrandStory vs Other Real Estate Marketing Agencies: The Real Difference</h2>
+        </div>
 
+        <!-- Comparison Table Card -->
+        <div class="agency-comparison-card">
+            <div class="agency-comparison-table-wrap">
+                <table class="agency-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature / Service</th>
+                            <th>BrandStory</th>
+                            <th>Agency 1</th>
+                            <th>Agency 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr>
+                            <td class="feature-name">Dubai &amp; UAE Property Market Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <td class="feature-name">Full-Service Real Estate Marketing Experience</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr>
+                            <td class="feature-name">In-house Property Marketing & Production Team</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 4 -->
+                        <tr>
+                            <td class="feature-name">AI-Led Property Lead Generation</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 5 -->
+                        <tr>
+                            <td class="feature-name">3D and Virtual Walkthrough Integration</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 6 -->
+                        <tr>
+                            <td class="feature-name">Expertise in Off-Plan, Luxury & Rental Markets</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 7 -->
+                        <tr>
+                            <td class="feature-name">Low Cost Per Lead and ROI Delivery</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 8 -->
+                        <tr>
+                            <td class="feature-name">Accurate Lead and Site Visit Tracking</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 9 -->
+                        <tr>
+                            <td class="feature-name">Known &amp; Recommended Across Dubai Real Estate</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 $reviewSection = [
-    'title' =>  "What Our Clients Say About Us",
+    'title' =>  "What Our Beloved Clients Say About Us",
     'bgClass' => 'bg-black', // optional custom class
 ];
 include __DIR__ . '/../component/client_reviews.php';
 ?>
-
-
 <?php 
   $category = 'Real Estate Marketing';
   $padding= 'sp-50';
   include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
+
+
     <section class="dm-faq-section bg-black sp-50">
         <div class="container">
             <h2 class="text-center text-white mb-lg-5 mb-4">Frequently Asked Questions</h2>
@@ -1783,3 +2200,4 @@ include __DIR__ . '/../component/client_reviews.php';
             aspect-ratio: 16 / 8;
         }
         </style>
+

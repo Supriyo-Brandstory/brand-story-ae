@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>">
+<link rel="stylesheet" href="<?= base_url("assets/css/template.css") ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider static-premium-banner">
@@ -240,7 +241,236 @@
     </div>
 </div>
 
+<div class="bs-trends-section">
+        <div class="bs-trends-glow"></div>
 
+        <div class="container">
+            <div class="bs-trends-header">
+                <h2 class="bs-trends-title">
+                    Pay Per Click Advertising: <span class="lp-purple-highlight">Where You Should Invest</span>
+                </h2>
+            </div>
+
+            <!-- 2-Column Trends Accordion Grid -->
+            <div class="bs-trends-grid">
+                <!-- Left Column (Trends 1 - 7) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 1 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Smart Bidding and AI Automation</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Automated bid strategies that use real-time signals like device, location, and time of
+                            day to bid higher for likely buyers and save budget on clicks that won't convert.
+                        </div>
+                    </div>
+
+                    <!-- Trend 2 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Performance Max Campaigns</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            One campaign that runs across Search, YouTube, Display, Maps, and Gmail, using your
+                            goals and creative to find customers on every Google channel at once.
+                        </div>
+                    </div>
+
+                    <!-- Trend 3 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">High-Intent Search Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Campaigns built around the exact keywords people type when they are ready to buy,
+                            with sharp ad copy and negative keywords that keep wasted clicks out.
+                        </div>
+                    </div>
+
+                    <!-- Trend 4 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Social Media Ads and Short Video</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Paid Reels, Stories, and short videos across Instagram, Facebook, TikTok, and Snapchat
+                            that grab attention fast and turn scrolling into enquiries.
+                        </div>
+                    </div>
+
+                    <!-- Trend 5 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Retargeting and Remarketing</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Ads that bring back visitors who viewed a page, added to cart, or left a form
+                            unfinished, keeping your brand in front of people who already showed interest.
+                        </div>
+                    </div>
+
+                    <!-- Trend 6 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Conversion-Focused Landing Pages</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Fast, focused pages with a clear offer, short forms, and strong calls to action that
+                            turn paid clicks into leads and sales.
+                        </div>
+                    </div>
+
+                    <!-- Trend 7 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Audience Targeting & First-Party Data</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Custom audiences and lookalike lists built from your own customer data, so your ads
+                            reach people who look like the buyers you already win.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Trends 8 - 14) -->
+                <div class="bs-trend-col">
+                    <!-- Trend 8 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">YouTube and Video Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Skippable and short-form video ads that tell your story, build trust, and reach
+                            viewers at the moment they are researching what to buy.
+                        </div>
+                    </div>
+
+                    <!-- Trend 9 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Shopping and Product Feed Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Clean product feeds and shopping campaigns that show your items with price and
+                            photo right on the results page, ready to be clicked.
+                        </div>
+                    </div>
+
+                    <!-- Trend 10 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Local and Mobile Search Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Location-based ads with call buttons, maps, and "near me" targeting that catch people
+                            on their phones when they are ready to visit or call.
+                        </div>
+                    </div>
+
+                    <!-- Trend 11 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Ad Creative Testing</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Ongoing A/B tests of headlines, images, videos, and offers, so the best ads get more
+                            budget and the weak ones get replaced.
+                        </div>
+                    </div>
+
+                    <!-- Trend 12 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Conversational and AI Search Ads</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Ad copy and keyword plans shaped for longer, question-style searches and the new
+                            AI-powered results where people ask full questions.
+                        </div>
+                    </div>
+
+                    <!-- Trend 13 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Conversion Tracking and ROAS Reporting</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Accurate tracking of calls, forms, and sales, with clear dashboards that show cost
+                            per lead and return on ad spend for every dirham.
+                        </div>
+                    </div>
+
+                    <!-- Trend 14 -->
+                    <div class="bs-trend-item">
+                        <button class="bs-trend-header-btn" type="button" aria-expanded="false">
+                            <div class="bs-trend-left">
+                                <span class="bs-trend-badge">»</span>
+                                <span class="bs-trend-title-text">Tracking & Server-Side Tagging</span>
+                            </div>
+                            <span class="bs-trend-toggle-icon">+</span>
+                        </button>
+                        <div class="bs-trend-content">
+                            Consent-based tracking and server-side setups that protect user privacy while still
+                            giving you reliable data to optimize your campaigns.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- Process Flow Section -->
 <section class="mumbai-solution-section">
@@ -804,7 +1034,7 @@
             <div class="mumbai-service-card">
                 <h3 class="mumbai-service-card-title">Pull Quality Traffic</h3>
                 <p class="mumbai-service-card-desc">
-                    The best online traffic is the one on search engines because people are looking for a solution to a problem and they will not leave until they find it. Our google adwords company in Dubai can pull traffic to your website and business through Google PPC ads like search advertising, display advertising, video advertising, shopping ads or mobile app advertising instead of pushing a product to consumers like traditional advertising.
+                     Google Ads brings traffic to your website and business through Google PPC ads like search advertising, display advertising, video advertising, shopping ads or mobile app advertising instead of pushing a product to consumers like traditional advertising.
                 </p>
             </div>
             <div class="mumbai-service-card">
@@ -1058,7 +1288,270 @@
         </div>
     </div>
 </section>
-<?php include __DIR__ . '/../component/expert_team.php' ?>
+
+<!-- Custom Stats Banner Section -->
+<section class="premium-stats-banner-section">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <!-- Left Side: Image of two people standing back-to-back -->
+            <div class="col-lg-5 col-md-12">
+                <div class="premium-stats-banner-img-wrap">
+                    <img src="<?= base_url('assets/images/email-09.webp') ?>" class="premium-stats-banner-img img-fluid"
+                        alt="BrandStory Success Stats" width="500" height="450" loading="lazy" decoding="async">
+                </div>
+            </div>
+            <!-- Right Side: Statistics Content -->
+            <div class="col-lg-7 col-md-12">
+                <div class="premium-stats-banner-content pb-5 pb-lg-0">
+                    <h4 class="premium-stats-banner-sub">Successfully completed</h4>
+                    <div class="premium-stats-banner-main">
+                        <div class="premium-stats-banner-num">1000+</div>
+                        <div class="premium-stats-banner-text">Projects Across Various Industries</div>
+                    </div>
+                    <div class="premium-stats-banner-action">
+                        <a href="<?= base_url('contact/') ?>" class="premium-pill-btn">
+                            <span>Contact Us</span>
+                            <span class="btn-arrow-circle">
+                                <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="premium-stats-section">
+    <div class="container">
+        <div class="premium-stats-row">
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">1000+</div>
+                <div class="premium-stat-label">Campaigns Executed</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">900+</div>
+                <div class="premium-stat-label">Satisfied Clients</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">12+</div>
+                <div class="premium-stat-label">Years of Expertise</div>
+            </div>
+            <div class="premium-stat-card">
+                <div class="premium-stat-num">100+</div>
+                <div class="premium-stat-label">Expert Professionals</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="agency-comparison-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="agency-comparison-header">
+            <h2 class="agency-comparison-title">BrandStory vs Other PPC Agencies: The Real Difference</h2>
+        </div>
+
+        <!-- Comparison Table Card -->
+        <div class="agency-comparison-card">
+            <div class="agency-comparison-table-wrap">
+                <table class="agency-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature / Service</th>
+                            <th>BrandStory</th>
+                            <th>Agency 1</th>
+                            <th>Agency 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 1 -->
+                        <tr>
+                            <td class="feature-name">Dubai &amp; UAE PPC Expertise</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <td class="feature-name">Full-Service PPC Management Experience</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr>
+                            <td class="feature-name">In-house Ad Creative &amp; Copywriting Team</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 4 -->
+                        <tr>
+                            <td class="feature-name">AI-Led Bidding &amp; Campaign Optimization</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 5 -->
+                        <tr>
+                            <td class="feature-name">Landing Page &amp; Conversion Optimization</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 6 -->
+                        <tr>
+                            <td class="feature-name">Google, Meta, LinkedIn, & TikTok Ads</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 7 -->
+                        <tr>
+                            <td class="feature-name">Low Cost Per Lead and ROI Delivery</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 8 -->
+                        <tr>
+                            <td class="feature-name">Accurate Click, Lead & Conversion Tracking</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Row 9 -->
+                        <tr>
+                            <td class="feature-name">Known &amp; Recommended Across Dubai</td>
+                            <td class="status-col">
+                                <span class="comparison-icon-check">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                            <td class="status-col">
+                                <span class="comparison-icon-cross">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 $reviewSection = [
@@ -1067,6 +1560,7 @@ $reviewSection = [
 ];
 include __DIR__ . '/../component/client_reviews.php';
 ?>
+
 <section class="dm-grow-section">
     <div class="dm-grow-overlay"></div>
     <div class="container" style="position: relative; z-index: 2;">
@@ -1121,13 +1615,14 @@ include __DIR__ . '/../component/client_reviews.php';
         </div>
     </div>
 </section>
+
 <?php 
   $category = 'Pay Per Click';
   $padding= 'sp-50';
-  include __DIR__ . '/component/blog_carousel.php'; 
+  include __DIR__ . '/../component/blog_carousel.php'; 
 ?>
 
-<section class="dm-faq-section spb-50">
+<section class="dm-faq-section sp-50">
     <div class="container">
         <h2 class="text-center mb-lg-5 mb-4 text-white">Your Questions Answred</h2>
         <div class="dm-faq-main max-1000">
@@ -1418,110 +1913,7 @@ include __DIR__ . '/../component/client_reviews.php';
     </div>
 </section>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const stepsData = {
-      1: {
-        title: "Planning & Strategy",
-        items: [{
-          title: "Planning & Strategy",
-          desc: "Every successful campaign starts with clarity. We dive deep into your business objectives to define focused PPC goals- brand awareness, qualified traffic, or high-intent leads- and build a strategy."
-        }]
-      },
-      2: {
-        title: "Competitor & Market Analysis",
-        items: [{
-          title: "Competitor & Market Analysis",
-          desc: "We don't guess the outcome, we analyze. Our team benchmarks your competitors, maps audience behavior, and identifies untapped opportunities. The result? Campaigns that stand out, not blend in."
-        }]
-      },
-      3: {
-        title: "Keyword Research & Optimization",
-        items: [{
-          title: "Keyword Research & Optimization",
-          desc: "The right keywords make or break a campaign. We build and continuously refine your keyword portfolio- adding high-intent, cost-efficient terms while cutting the waste ads spend."
-        }]
-      },
-      4: {
-        title: "Campaign Setup & Tracking",
-        items: [{
-          title: "Campaign Setup & Tracking",
-          desc: "Precision matters. We architect campaigns with optimized budgets, smart bidding, strategic scheduling, and geo-targeting. With advanced tracking, every click is measurable and every decision is driven by data."
-        }]
-      },
-      5: {
-        title: "Ad Creation & Landing Pages",
-        items: [{
-          title: "Ad Creation & Landing Pages",
-          desc: "Clicks are only half the battle. Our team writes compelling, CTA-driven ad copy paired with high-converting landing pages. Message match and user experience are tuned to turn visitors into customers."
-        }]
-      },
-      6: {
-        title: "Ads Monitoring & Testing",
-        items: [{
-          title: "Ads Monitoring & Testing",
-          desc: "We track what matters: purchases, leads, sign-ups. Through relentless A/B testing and performance analysis, we refine, reallocate, and scale what works- driving continuous improvement in ROI."
-        }]
-      }
-    };
-    const stepNodes = document.querySelectorAll('.process-step-node');
-    const activeLine = document.querySelector('.process-timeline-line-active');
-    const titleElement = document.getElementById('active-step-title');
-    const contentArea = document.getElementById('process-step-content-area');
 
-    function updateStep(stepIndex) {
-      // Update nodes states
-      stepNodes.forEach(node => {
-        const nodeStep = parseInt(node.getAttribute('data-step'));
-        if (nodeStep <= stepIndex) {
-          node.classList.add('active');
-        } else {
-          node.classList.remove('active');
-        }
-      });
-      // Update active line progress
-      if (activeLine && stepNodes.length > 0) {
-        const firstNode = stepNodes[0];
-        const activeNode = stepNodes[stepIndex - 1];
-        if (firstNode && activeNode) {
-          const firstCenter = firstNode.offsetLeft + (firstNode.offsetWidth / 2);
-          const activeCenter = activeNode.offsetLeft + (activeNode.offsetWidth / 2);
-          activeLine.style.left = firstCenter + 'px';
-          activeLine.style.width = (activeCenter - firstCenter) + 'px';
-        }
-      }
-      // Update content
-      const stepData = stepsData[stepIndex];
-      if (stepData) {
-        if (titleElement) {
-          titleElement.textContent = stepData.title;
-        }
-        let htmlContent = '';
-        stepData.items.forEach(item => {
-          htmlContent += `
-                    
-				<div class="process-card-item mb-4">
-					<h4 class="text-white font-weight-bold mb-2">${item.title}</h4>
-					<p class="process-card-desc mb-0">${item.desc}</p>
-				</div>
-                `;
-        });
-        if (contentArea) {
-          contentArea.innerHTML = htmlContent;
-        }
-      }
-    }
-    // Add click listeners
-    stepNodes.forEach(node => {
-      node.addEventListener('click', function() {
-        const stepIndex = parseInt(this.getAttribute('data-step'));
-        updateStep(stepIndex);
-      });
-    });
-    // Initialize first step
-    updateStep(1);
-  });
-</script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const outer = document.getElementById('strategyScrollOuter');
@@ -1762,5 +2154,60 @@ include __DIR__ . '/../component/client_reviews.php';
         });
     });
 </script>
+
+
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+            // Trend Accordion (Single Open / Auto-collapse others)
+            const trendButtons = document.querySelectorAll('.bs-trend-header-btn');
+            trendButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-trend-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-trend-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-trend-header-btn');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                    }
+                });
+            });
+
+            // Future Enhancement Accordion (Single Open / Auto-collapse others)
+            const futureButtons = document.querySelectorAll('.bs-future-item-btn');
+            futureButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const currentItem = this.closest('.bs-future-item');
+                    const isOpen = currentItem.classList.contains('is-open');
+
+                    document.querySelectorAll('.bs-future-item').forEach(item => {
+                        item.classList.remove('is-open');
+                        const button = item.querySelector('.bs-future-item-btn');
+                        const icon = item.querySelector('.bs-future-icon');
+                        if (button) button.setAttribute('aria-expanded', 'false');
+                        if (icon) icon.textContent = '+';
+                    });
+
+                    if (!isOpen) {
+                        currentItem.classList.add('is-open');
+                        this.setAttribute('aria-expanded', 'true');
+                        const icon = this.querySelector('.bs-future-icon');
+                        if (icon) {
+                            icon.textContent = '−';
+                        }
+                    }
+                });
+            });
+
+         
+        });
+    </script>
 
 
