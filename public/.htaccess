@@ -62,6 +62,7 @@ RewriteCond %{HTTPS}s ^on(s)|
 RewriteRule ^(.*)$ http%1://www.%{HTTP_HOST}/$1 [R=301,L]
 
 # 301 Redirects
+RewriteRule ^digital-marketing-agency-in-dubai-uae/?$ / [R=301,L]
 RewriteRule ^seo-services-in-dubai/?$ /seo-services-company-in-dubai/ [R=301,L]
 RewriteRule ^blogs?/website-design-agency-in-dubai/?$ /website-design-company-in-dubai/ [R=301,L]
 
