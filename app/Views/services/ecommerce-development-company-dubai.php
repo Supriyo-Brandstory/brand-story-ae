@@ -8,7 +8,7 @@
       <div class="container">
         <div class="premium-slide-content">
           <h1 class="premium-slide-title">
-            <span class="premium-purple-highlight">Website Development</span> Company<br> in Dubai, UAE- BrandStory
+            <span class="premium-purple-highlight">Ecommerce Development</span> Company in Dubai, UAE
           </h1>
           <p class="premium-slide-subtitle">BrandStory is a trusted website development agency in Dubai creating fast, mobile-first, user-friendly websites with clean design, intuitive navigation, and backend features. Our E-commerce development services help 500+ e-retailer businesses across the United Arab Emirates build a stronger digital presence.</p>
           <div class="premium-slide-actions">
@@ -2113,4 +2113,87 @@ include __DIR__ . '/../component/client_reviews.php';
       </div>
     </div>
   </div>
+</section>
+
+<section class="container">
+    <div class="new-cta-footer">
+        <div class="new-cta-footer-container">
+            <h2 class="new-cta-footer-title">
+                Launch Faster. Sell Smarter. Scale Further. With BrandStory
+            </h2>
+            <p class="new-cta-footer-text">
+                Your online store is more than a website – it is your busiest sales channel, open every hour of every day.
+                At BrandStory, we build ecommerce websites that are fast, secure, and easy to shop. As Dubai's trusted
+                digital partner for 100+ local and global brands, we create online stores that turn browsers into buyers
+                and buyers into repeat customers.
+            </p>
+
+            <!-- Hidden Content -->
+            <div class="content-read-more">
+                <h3 class="mt-3 text-white">“A great store doesn't just display products, it makes buying effortless”</h3>
+                <p class="new-cta-footer-text">
+                    The UAE is one of the most connected and fast-moving ecommerce markets in the region. Shoppers here
+                    expect speed, simple checkout, and a smooth experience on mobile. We design and build stores that
+                    meet those expectations from day one.
+                </p>
+                <h3 class="mt-4 text-white">We Build Ecommerce Websites That Drive Revenue</h3>
+                <p class="new-cta-footer-text">
+                    Every business sells differently. Some need a simple catalogue. Others need thousands of products,
+                    multiple currencies, and complex integrations. We study your products, your customers, and your goals
+                    first. Then we build a store that fits your business and grows with it.
+                </p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Custom Ecommerce Development in Dubai</h4>
+                <p class="new-cta-footer-text">We build custom online stores shaped around your brand and your buyers. This includes store
+                    planning, UX and UI design, product page layouts, search and filtering, cart and checkout flows, and
+                    admin tools your team can manage with ease. The result is a store that looks unique, loads quickly,
+                    and is ready to scale.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Shopify and WooCommerce Development in Dubai</h4>
+                <p class="new-cta-footer-text">Need to launch fast on a proven platform? We develop and customize stores on Shopify and
+                    WooCommerce. We handle theme design, product setup, app and plugin integration, and speed
+                    optimization. You get a reliable store that is simple to update and quick to take live.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Magento and Enterprise Ecommerce Solutions in Dubai</h4>
+                <p class="new-cta-footer-text">For large catalogues and complex needs, we build on robust enterprise platforms such as Magento
+                    (Adobe Commerce). We support multi-store setups, B2B and wholesale features, custom pricing rules, and
+                    migration from older platforms. Your store stays stable even during peak sales seasons.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Payment Gateway and Third-Party Integrations</h4>
+                <p class="new-cta-footer-text">A smooth checkout wins sales. We connect your store to trusted UAE payment gateways, buy now pay
+                    later options, and cash on delivery. We also integrate shipping partners, inventory systems, ERP, CRM,
+                    and accounting tools, so your orders, stock, and customer data stay in sync.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Bilingual and Mobile-First Store Design</h4>
+                <p class="new-cta-footer-text">We design stores for how people really shop in the UAE. That means English and Arabic versions
+                    with proper right-to-left layouts, AED pricing, and a mobile-first experience. Every page is built to
+                    load fast, read clearly, and make checkout quick on any screen.</p>
+                <h4 class="mt-4 text-white" style="font-size: 1.3rem;">Ecommerce SEO, Security and Ongoing Support</h4>
+                <p class="new-cta-footer-text">Launch is only the start. We build SEO into your store with clean URLs, product schema, and
+                    optimized category pages, so shoppers can find you on Google. We also provide SSL, secure hosting,
+                    regular backups, updates, and performance monitoring to keep your store safe and running smoothly.</p>
+
+                <p class="new-cta-footer-text">We don't just build websites – we build stores that perform. By combining smart design with
+                    solid technology and clear data, we create ecommerce experiences that convert. For us, success is
+                    more orders, happier customers, and steady long-term growth. At BrandStory, we don't just launch your
+                    online store – we help build its path to profit.
+                </p>
+            </div>
+
+            <!-- Read More Link -->
+            <div class="mb-3">
+                <a href="javascript:void(0)" class="grow-read-more-link" id="readMoreBtn">
+                    <span>Read more</span>
+                </a>
+            </div>
+
+            <!-- Primary Get In Touch Button -->
+            <div class="d-flex pb-2 align-items-center w-100 justify-content-start">
+                <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
+                    <span>Get In Touch</span>
+                    <span class="btn-arrow-circle">
+                        <svg viewBox="0 0 24 24" class="btn-arrow-svg">
+                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
