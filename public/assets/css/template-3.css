@@ -2207,7 +2207,6 @@ sup {
 
 .checklist-sec-desc {
   color: var(--muted);
-  max-width: 760px;
   font-size: 16px;
   line-height: 1.8;
 }
