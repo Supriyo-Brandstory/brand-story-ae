@@ -2109,3 +2109,7 @@ body {
     font-size: 12px
   }
 }
+
+sup {
+  color: unset;
+}
