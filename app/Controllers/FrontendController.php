@@ -148,6 +148,7 @@ class FrontendController extends Controller
 
     /**
      * Check if a custom page created in Admin Pages matches the blog path.
+     * Strictly requires the page to have been created with 'blogs/' in its slug.
      */
     protected function findCustomPageForBlogRoute($path)
     {
@@ -158,21 +159,15 @@ class FrontendController extends Controller
 
         $pageModel = new \App\Models\Page();
 
-        $candidates = [
-            'blogs/' . $cleanPath,
-            $cleanPath,
-            '/' . $cleanPath,
-            '/blogs/' . $cleanPath,
-            'blogs/' . $cleanPath . '/',
-            $cleanPath . '/'
-        ];
+        // Only match pages explicitly created with a blogs/ prefix in slug
+        $blogSlug = (strpos($cleanPath, 'blogs/') === 0) ? $cleanPath : 'blogs/' . $cleanPath;
 
-        if (strpos($cleanPath, 'blogs/') === 0) {
-            $stripped = substr($cleanPath, 6);
-            $candidates[] = $stripped;
-            $candidates[] = '/' . $stripped;
-            $candidates[] = $stripped . '/';
-        }
+        $candidates = [
+            $blogSlug,
+            '/' . $blogSlug,
+            $blogSlug . '/',
+            '/' . $blogSlug . '/'
+        ];
 
         $candidates = array_values(array_unique($candidates));
         $placeholders = implode(',', array_fill(0, count($candidates), '?'));
@@ -2797,17 +2792,9 @@ class FrontendController extends Controller
             $slug,
             $cleanSlug,
             '/' . $cleanSlug,
-            'blogs/' . $cleanSlug,
-            '/blogs/' . $cleanSlug,
-            'blogs/' . $cleanSlug . '/',
-            $cleanSlug . '/'
+            $cleanSlug . '/',
+            '/' . $cleanSlug . '/'
         ];
-        if (strpos($cleanSlug, 'blogs/') === 0) {
-            $stripped = substr($cleanSlug, 6);
-            $candidates[] = $stripped;
-            $candidates[] = '/' . $stripped;
-            $candidates[] = $stripped . '/';
-        }
         $candidates = array_values(array_unique($candidates));
         $placeholders = implode(',', array_fill(0, count($candidates), '?'));
 
