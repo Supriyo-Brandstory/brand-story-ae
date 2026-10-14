@@ -73,20 +73,34 @@ if (!function_exists('generateUniqueSlug')) {
         $originalSlug = $slug;
         $counter = 1;
 
-        $sql = "SELECT COUNT(*) FROM {$modelInstance->getTableName()} WHERE slug = ?";
-        $params = [$slug];
+        $tableName = $modelInstance->getTableName();
+        $isBlog = ($tableName === 'blogs');
 
-        if ($excludeId) {
-            $sql .= " AND id != ?";
-            $params[] = $excludeId;
-        }
+        while (true) {
+            $sql = "SELECT COUNT(*) FROM {$tableName} WHERE slug = ?";
+            $params = [$slug];
 
-        while ($modelInstance->query($sql, $params)[0]['COUNT(*)'] > 0) {
+            if ($excludeId) {
+                $sql .= " AND id != ?";
+                $params[] = $excludeId;
+            }
+
+            $inModel = $modelInstance->query($sql, $params)[0]['COUNT(*)'] > 0;
+            $inPages = false;
+
+            if ($isBlog) {
+                // If creating a blog, also verify it doesn't conflict with custom pages
+                $pageModel = new \App\Models\Page();
+                $pageCheck = $pageModel->query("SELECT id FROM pages WHERE slug = ? OR slug = ? LIMIT 1", [$slug, 'blogs/' . $slug]);
+                $inPages = !empty($pageCheck);
+            }
+
+            if (!$inModel && !$inPages) {
+                return $slug;
+            }
+
             $slug = $originalSlug . '-' . $counter++;
-            $params[0] = $slug; // Update param for next check, keep excludeId
         }
-
-        return $slug;
     }
 }
 

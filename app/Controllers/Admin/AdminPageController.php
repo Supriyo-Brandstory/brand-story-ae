@@ -408,25 +408,55 @@ class AdminPageController extends AdminBaseController
     private function generateUniqueSlug($slug, $excludeId = null)
     {
         $pageModel = new Page();
-        $originalSlug = $slug;
-        $counter = 1;
+        $blogModel = new \App\Models\Blog();
+
+        // Clean leading and trailing slashes
+        $slug = trim(trim($slug), '/');
+        if (empty($slug)) {
+            $slug = 'page';
+        }
+
+        // Standardize singular 'blog/' to 'blogs/'
+        if (preg_match('#^blog/(.+)$#i', $slug, $m)) {
+            $slug = 'blogs/' . $m[1];
+        }
+
+        $hasBlogsPrefix = (strpos(strtolower($slug), 'blogs/') === 0);
+        $prefix = $hasBlogsPrefix ? 'blogs/' : '';
+        $baseName = $hasBlogsPrefix ? substr($slug, 6) : $slug;
+        $baseName = trim($baseName, '/');
+
+        $rootName = $baseName;
+        $counter = 0; // 0 tests the initial name without adding a suffix
 
         while (true) {
-            $sql = "SELECT id FROM pages WHERE slug = ? ";
-            $params = [$slug];
+            $testBase = ($counter === 0) ? $rootName : $rootName . '-' . $counter;
+            $testSlug = $prefix . $testBase;
+
+            // 1. Check in pages table (excluding current page if editing)
+            $pageSql = "SELECT id FROM pages WHERE (slug = ? OR slug = ?) ";
+            $pageParams = [$testSlug, $testBase];
             if ($excludeId) {
-                $sql .= " AND id != ?";
-                $params[] = $excludeId;
+                $pageSql .= " AND id != ?";
+                $pageParams[] = $excludeId;
+            }
+            $pageExists = $pageModel->query($pageSql, $pageParams);
+
+            // 2. Check in blogs table
+            $blogSql = "SELECT id FROM blogs WHERE slug = ? OR slug = ? LIMIT 1";
+            $blogParams = [$testBase, 'blogs/' . $testBase];
+            $blogExists = $blogModel->query($blogSql, $blogParams);
+
+            if (empty($pageExists) && empty($blogExists)) {
+                return $testSlug;
             }
 
-            $exists = $pageModel->query($sql, $params);
-
-            if (empty($exists)) {
-                return $slug;
+            // If it exists in blogs or pages, increment counter to try -1, -2, etc.
+            if ($counter === 0) {
+                $counter = 1;
+            } else {
+                $counter++;
             }
-
-            $slug = $originalSlug . '-' . $counter;
-            $counter++;
         }
     }
 

@@ -12,6 +12,7 @@ Route::get('/author/madhavan-a', 'FrontendController@authorMadhavan', 'author.ma
 Route::get('/contact', 'FrontendController@contat', 'contact');
 Route::post('/contact/submit', 'FrontendController@sendContactInformation', 'contact.submit');
 Route::get('/blog', 'FrontendController@blogs', 'blogs');
+Route::get('/blogs', 'FrontendController@blogs', 'blogs.plural');
 Route::get('/blog/{path*}', 'FrontendController@blogRedirect', 'blog.redirect');
 Route::get('/blogs/{path*}', 'FrontendController@blogRouter', 'blog.router.plural');
 Route::get('/api/blogs/search', 'FrontendController@searchBlogs', 'api.blogs.search');

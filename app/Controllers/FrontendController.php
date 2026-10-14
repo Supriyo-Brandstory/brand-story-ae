@@ -146,22 +146,71 @@ class FrontendController extends Controller
         exit;
     }
 
+    /**
+     * Check if a custom page created in Admin Pages matches the blog path.
+     */
+    protected function findCustomPageForBlogRoute($path)
+    {
+        $cleanPath = trim($path, '/');
+        if (empty($cleanPath)) {
+            return null;
+        }
+
+        $pageModel = new \App\Models\Page();
+
+        $candidates = [
+            'blogs/' . $cleanPath,
+            $cleanPath,
+            '/' . $cleanPath,
+            '/blogs/' . $cleanPath,
+            'blogs/' . $cleanPath . '/',
+            $cleanPath . '/'
+        ];
+
+        if (strpos($cleanPath, 'blogs/') === 0) {
+            $stripped = substr($cleanPath, 6);
+            $candidates[] = $stripped;
+            $candidates[] = '/' . $stripped;
+            $candidates[] = $stripped . '/';
+        }
+
+        $candidates = array_values(array_unique($candidates));
+        $placeholders = implode(',', array_fill(0, count($candidates), '?'));
+
+        $result = $pageModel->query("SELECT * FROM pages WHERE slug IN ($placeholders) LIMIT 1", $candidates);
+
+        return !empty($result) ? $result[0] : null;
+    }
+
     public function blogRouter($path)
     {
-        $segments = explode('/', trim($path, '/'));
+        $cleanPath = trim($path, '/');
+        $segments = explode('/', $cleanPath);
         $count = count($segments);
 
         $blogModel = new \App\Models\Blog();
         $categoryModel = new \App\Models\BlogCategory();
 
         if ($count === 1) {
-            // Check if it's a category
+            // 1. Check if it's a category
             $cat = $categoryModel->query("SELECT id FROM blog_categories WHERE slug = ? AND parent_id IS NULL LIMIT 1", [$segments[0]]);
             if (!empty($cat)) {
                 return $this->blogs($segments[0]);
             }
-            // Otherwise check if it's a blog post
-            return $this->blogDetail($segments[0]);
+
+            // 2. Check if it's a blog post in blogs table
+            $blog = $blogModel->query("SELECT id FROM blogs WHERE slug = ? LIMIT 1", [$segments[0]]);
+            if (!empty($blog)) {
+                return $this->blogDetail($segments[0]);
+            }
+
+            // 3. Check if it's a custom page created in Admin Pages (e.g. slug = blogs/xyz or xyz)
+            $customPage = $this->findCustomPageForBlogRoute($cleanPath);
+            if (!empty($customPage)) {
+                return $this->dynamicPage($customPage['slug']);
+            }
+
+            return $this->notfound();
         }
 
         if ($count === 2) {
@@ -179,6 +228,12 @@ class FrontendController extends Controller
                     return $this->blogDetail($segments[1]);
                 }
             }
+
+            // Check if it's a custom page (e.g. slug = blogs/cat/post or cat/post)
+            $customPage = $this->findCustomPageForBlogRoute($cleanPath);
+            if (!empty($customPage)) {
+                return $this->dynamicPage($customPage['slug']);
+            }
         }
 
         if ($count === 3) {
@@ -193,6 +248,18 @@ class FrontendController extends Controller
                     }
                 }
             }
+
+            // Check if it's a custom page
+            $customPage = $this->findCustomPageForBlogRoute($cleanPath);
+            if (!empty($customPage)) {
+                return $this->dynamicPage($customPage['slug']);
+            }
+        }
+
+        // Final fallback: check custom pages for any path
+        $customPage = $this->findCustomPageForBlogRoute($cleanPath);
+        if (!empty($customPage)) {
+            return $this->dynamicPage($customPage['slug']);
         }
 
         return $this->notfound();
@@ -209,6 +276,11 @@ class FrontendController extends Controller
                                      WHERE b.slug = ? LIMIT 1", [$slug]);
 
         if (empty($result)) {
+            // Check if it's a custom page created under pages table
+            $customPage = $this->findCustomPageForBlogRoute($slug);
+            if (!empty($customPage)) {
+                return $this->dynamicPage($customPage['slug']);
+            }
             return $this->notfound();
         }
 
@@ -2720,7 +2792,26 @@ class FrontendController extends Controller
         }
 
         $pageModel = new \App\Models\Page();
-        $result = $pageModel->query("SELECT * FROM pages WHERE slug = ? LIMIT 1", [$slug]);
+        $cleanSlug = trim($slug, '/');
+        $candidates = [
+            $slug,
+            $cleanSlug,
+            '/' . $cleanSlug,
+            'blogs/' . $cleanSlug,
+            '/blogs/' . $cleanSlug,
+            'blogs/' . $cleanSlug . '/',
+            $cleanSlug . '/'
+        ];
+        if (strpos($cleanSlug, 'blogs/') === 0) {
+            $stripped = substr($cleanSlug, 6);
+            $candidates[] = $stripped;
+            $candidates[] = '/' . $stripped;
+            $candidates[] = $stripped . '/';
+        }
+        $candidates = array_values(array_unique($candidates));
+        $placeholders = implode(',', array_fill(0, count($candidates), '?'));
+
+        $result = $pageModel->query("SELECT * FROM pages WHERE slug IN ($placeholders) LIMIT 1", $candidates);
 
         if (empty($result)) {
             return $this->notfound();
