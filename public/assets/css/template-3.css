@@ -1842,8 +1842,8 @@ body {
 
 /* Factors Grid */
 .factors-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
   gap: 14px;
   margin-top: 20px;
 }
@@ -2112,4 +2112,194 @@ body {
 
 sup {
   color: unset;
+}
+
+/* ── TEMPLATE-3 UTILITY & COMPONENT CLASSES (Converted from inline styles) ── */
+.hstat-sup {
+  font-size: 16px;
+}
+
+.delay-12 {
+  transition-delay: .12s !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.table-sec-desc {
+  color: var(--muted);
+  max-width: 760px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.badge-our-pick {
+  font-size: 11px;
+  background: var(--cta);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.criteria-sec-desc {
+  color: var(--muted);
+  max-width: 800px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.criteria-icon {
+  font-size: 20px;
+}
+
+.text-link-cta {
+  color: var(--cta);
+  font-weight: 600;
+}
+
+.agency-pricing-desc {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.pricing-sec-desc {
+  color: var(--muted);
+  max-width: 780px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.pricing-tier-period {
+  font-size: 16px;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.pricing-common-badge {
+  font-size: 11px;
+  background: var(--cta);
+  color: #fff;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.pricing-notice-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: var(--ink2);
+  margin-bottom: 28px;
+}
+
+.checklist-sec-desc {
+  color: var(--muted);
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.redflag-sec-desc {
+  color: var(--muted);
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.redflag-card-img {
+  padding: 0 !important;
+}
+
+.protip-icon {
+  font-size: 20px;
+}
+
+.protip-link {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+.faq-sec-desc {
+  color: var(--muted);
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.final-thoughts-h3 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 14px;
+}
+
+.final-thoughts-desc {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 860px;
+  margin-bottom: 18px;
+}
+
+.final-thoughts-list {
+  margin-left: 20px;
+  font-size: 16px;
+  color: var(--ink2);
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.methodology-note {
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 16px;
+  font-style: italic;
+}
+
+/* ── MOBILE OVERFLOW & VIEWPORT FIX ── */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.hero,
+.sec,
+.sec-inner,
+.ticker,
+.cta-band {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media(max-width:768px) {
+  .hero {
+    padding: 40px 16px;
+  }
+
+  .hero-eyebrow {
+    font-size: 16px;
+    letter-spacing: 1px;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .badge-pill {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
 }
