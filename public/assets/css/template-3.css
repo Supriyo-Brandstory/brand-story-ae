@@ -1004,7 +1004,6 @@ body {
 
 .cta-band h2 {
   font-family: 'Hanken Grotesk', 'Poppins', sans-serif;
-  font-size: 40px;
   font-weight: 800;
   color: #fff;
   line-height: 1.2;
@@ -1034,7 +1033,7 @@ body {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 13px;
   padding: 16px 36px;
   border-radius: 50px;
   text-decoration: none;
@@ -2286,9 +2285,23 @@ body {
   box-sizing: border-box;
 }
 
+.hero-img-mobile {
+  display: none;
+}
+
 @media(max-width:768px) {
   .hero {
     padding: 40px 16px;
+  }
+
+  .hero-img-mobile {
+    display: block !important;
+    margin: 18px 0 24px;
+    width: 100%;
+  }
+
+  .hero-right {
+    display: none !important;
   }
 
   .hero-eyebrow {
@@ -2301,5 +2314,41 @@ body {
   .badge-pill {
     font-size: 16px;
     padding: 5px 10px;
+  }
+
+  /* Disclosure Box on Mobile: Icon and Heading side-by-side, Paragraph full-width from left */
+  .disclosure-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px 14px;
+    align-items: center;
+    padding: 20px 18px;
+  }
+
+  .disclosure-icon {
+    grid-column: 1;
+    grid-row: 1;
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  .disclosure-content {
+    display: contents;
+  }
+
+  .disclosure-content h5 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .disclosure-content p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: 4px;
+    font-size: 14.5px;
+    line-height: 1.65;
   }
 }
