@@ -620,7 +620,7 @@ body {
   border: 1px solid rgba(255, 255, 255, .4);
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 1.8px;
   text-transform: uppercase;
@@ -828,7 +828,7 @@ body {
 }
 
 .svc-card p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.6;
   display: -webkit-box;
@@ -880,7 +880,7 @@ body {
 }
 
 .spec-box p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.7
 }
@@ -966,7 +966,7 @@ body {
 }
 
 .co-content p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.75
 }
@@ -1034,7 +1034,7 @@ body {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   padding: 16px 36px;
   border-radius: 50px;
   text-decoration: none;
@@ -1323,7 +1323,7 @@ body {
 .agency-name-cell {
   font-weight: 700;
   color: var(--ink);
-  font-size: 15px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1588,7 +1588,7 @@ body {
 .agency-price-badge {
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--ink);
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -1597,7 +1597,7 @@ body {
 }
 
 .agency-intro-text {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--ink2);
   line-height: 1.8;
   margin-bottom: 22px
@@ -1616,7 +1616,7 @@ body {
 
 .section-label-sm {
   font-family: 'Hanken Grotesk', 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--ink);
   text-transform: uppercase;
@@ -1678,7 +1678,7 @@ body {
 
 .pc-box h5 {
   font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 12px;
   display: flex;
@@ -1857,7 +1857,7 @@ body {
 
 .factor-card h5 {
   font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--ink);
   margin-bottom: 6px;
