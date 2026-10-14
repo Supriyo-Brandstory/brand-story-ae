@@ -135,7 +135,7 @@ body {
 }
 
 .hero-eyebrow {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   gap: 10px;
   font-family: 'Poppins', sans-serif;
