@@ -606,7 +606,7 @@
 
     .m-menu>ul>li>ul.register-submenu {
         max-width: 200px;
-        right: 100;
+        right: 100px;
         left: unset
     }
 
