@@ -2,13 +2,48 @@
 $currentPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 $cleanPath = '/' . ltrim($currentPath, '/');
 
-// Do not include popup on blog pages or admin
-if (
-    strpos($cleanPath, '/blogs') === 0 || 
-    strpos($cleanPath, '/blog') === 0 || 
-    strpos($cleanPath, '/admin') === 0
-) {
+// Check if current page is a Page uploaded/created via Admin Pages (pages table)
+$isPageFromPagesTable = !empty($page) && is_array($page);
+
+if (!$isPageFromPagesTable) {
+    // Also check if current route or slug matches a record in the pages table
+    try {
+        $slugToCheck = trim($cleanPath, '/');
+        if (!empty($slugToCheck)) {
+            $candidates = [
+                $slugToCheck,
+                '/' . $slugToCheck,
+                $slugToCheck . '/',
+                '/' . $slugToCheck . '/'
+            ];
+            if (strpos($slugToCheck, 'blogs/') === 0) {
+                $candidates[] = substr($slugToCheck, 6);
+            } else {
+                $candidates[] = 'blogs/' . $slugToCheck;
+            }
+            $candidates = array_values(array_unique($candidates));
+            $placeholders = implode(',', array_fill(0, count($candidates), '?'));
+            $pageModel = new \App\Models\Page();
+            $matchedPage = $pageModel->query("SELECT id FROM pages WHERE slug IN ($placeholders) LIMIT 1", $candidates);
+            if (!empty($matchedPage)) {
+                $isPageFromPagesTable = true;
+            }
+        }
+    } catch (\Throwable $e) {
+        // Continue safely if DB check fails
+    }
+}
+
+// Do not include popup on admin
+if (strpos($cleanPath, '/admin') === 0) {
     return;
+}
+
+// If it is NOT a page uploaded/created from Admin Pages, exclude standard blog pages
+if (!$isPageFromPagesTable) {
+    if (strpos($cleanPath, '/blogs') === 0 || strpos($cleanPath, '/blog') === 0) {
+        return;
+    }
 }
 ?>
 <div class="custom-contact-popup-overlay" id="customContactPopup" style="display: none;">
@@ -129,8 +164,8 @@ if (
                 return;
             }
 
-            // Trigger on contact CTA buttons
-            var btn = e.target.closest('.uniq-contact-lead-btn, .open-popup-btn');
+            // Trigger on contact CTA buttons (including float CTAs and template buttons)
+            var btn = e.target.closest('.uniq-contact-lead-btn, .open-popup-btn, .float-cta, .t5-float-cta, .btn-audit-sm, .t5-btn-primary, .t5-btn-secondary, .btn-primary-lg');
             if (btn) {
                 e.preventDefault();
                 openContactPopup();
@@ -143,7 +178,11 @@ if (
 
         // Scroll-triggered popup (appears after user scrolls down the page)
         <?php 
-        $excludedPaths = ['/admin', '/blogs', '/blog', '/contact', '/thankyou'];
+        $excludedPaths = ['/admin', '/contact', '/thankyou'];
+        if (!$isPageFromPagesTable) {
+            $excludedPaths[] = '/blogs';
+            $excludedPaths[] = '/blog';
+        }
         $shouldShowPopup = true;
         foreach ($excludedPaths as $path) {
             if (strpos($cleanPath, $path) === 0) {
