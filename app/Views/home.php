@@ -1353,7 +1353,7 @@
         <!-- Section Header -->
         <div class="platform-partnerships-header">
             <h2 class="platform-partnerships-title">Turn Google, Meta & TikTok Into Lead Machines with BrandStory</h2>
-            <p class="platform-partnerships-desc">Marketing has evolved, and your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. As a full-service marketing agency in Dubai, BrandStory brings you access to the world's most powerful digital channels.</p>
+            <p class="platform-partnerships-desc">Digital marketing has evolved. Your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. As an integrated marketing agency in Dubai, BrandStory brings you access to the world's most powerful digital channels.</p>
         </div>
 
         <!-- Two Column Interactive Tabs -->
