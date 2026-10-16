@@ -1227,9 +1227,9 @@
         <div class="platform-partnerships-row">
             <!-- Left: Platform Tabs List -->
             <div class="platform-tabs-col">
-                <div class="platform-tabs-list" role="tablist">
+                <div class="platform-tabs-list">
                     <!-- Tab 01: Mailchimp Marketing -->
-                    <div class="platform-tab-item active" data-tab="platform-tab-1" role="tab" tabindex="0">
+                    <div class="platform-tab-item active" data-tab="platform-tab-1">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">01</span>
                             <span class="platform-tab-line"></span>
@@ -1245,7 +1245,7 @@
                     </div>
 
                     <!-- Tab 02: HubSpot Email Marketing -->
-                    <div class="platform-tab-item" data-tab="platform-tab-2" role="tab" tabindex="0">
+                    <div class="platform-tab-item" data-tab="platform-tab-2">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">02</span>
                             <span class="platform-tab-line"></span>
@@ -1261,7 +1261,7 @@
                     </div>
 
                     <!-- Tab 03: Klaviyo Marketing -->
-                    <div class="platform-tab-item" data-tab="platform-tab-3" role="tab" tabindex="0">
+                    <div class="platform-tab-item" data-tab="platform-tab-3">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">03</span>
                             <span class="platform-tab-line"></span>
@@ -1277,7 +1277,7 @@
                     </div>
 
                     <!-- Tab 04: Zoho Campaigns -->
-                    <div class="platform-tab-item" data-tab="platform-tab-4" role="tab" tabindex="0">
+                    <div class="platform-tab-item" data-tab="platform-tab-4">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">04</span>
                             <span class="platform-tab-line"></span>
@@ -1293,7 +1293,7 @@
                     </div>
 
                     <!-- Tab 05: Brevo Marketing -->
-                    <div class="platform-tab-item" data-tab="platform-tab-5" role="tab" tabindex="0">
+                    <div class="platform-tab-item" data-tab="platform-tab-5">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">05</span>
                             <span class="platform-tab-line"></span>
@@ -1309,7 +1309,7 @@
                     </div>
 
                     <!-- Tab 06: ActiveCampaign -->
-                    <div class="platform-tab-item" data-tab="platform-tab-6" role="tab" tabindex="0">
+                    <div class="platform-tab-item" data-tab="platform-tab-6">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">06</span>
                             <span class="platform-tab-line"></span>

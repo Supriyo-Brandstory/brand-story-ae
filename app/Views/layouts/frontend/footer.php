@@ -296,15 +296,34 @@ $stickyServices = $stickyServices ?? [
         // Accessibility fix for intl-tel-input
         var $flag = $this.parent().find(".iti__selected-flag");
         if ($flag.length) {
+          $flag.removeAttr("aria-activedescendant");
+          $flag.removeAttr("aria-owns");
           $flag.attr("aria-expanded", "false");
           $flag.attr("aria-haspopup", "listbox");
           $flag.attr("aria-label", "Select Country Code");
           $flag.attr("role", "combobox");
+
+          // Keep aria-activedescendant removed while dropdown is closed (prevents invalid IDREF when list is hidden/detached)
+          if (window.MutationObserver) {
+            var observer = new MutationObserver(function(mutations) {
+              mutations.forEach(function(mutation) {
+                if (mutation.attributeName === 'aria-activedescendant' || mutation.attributeName === 'aria-expanded') {
+                  if ($flag.attr('aria-expanded') !== 'true') {
+                    $flag.removeAttr('aria-activedescendant');
+                  }
+                }
+              });
+            });
+            observer.observe($flag[0], { attributes: true });
+          }
         }
 
         $this.parent().off("click.iti").on("click.iti", ".iti__selected-flag", function() {
           var isExpanded = $(this).attr("aria-expanded") === "true";
           $(this).attr("aria-expanded", !isExpanded);
+          if (isExpanded) {
+            $(this).removeAttr("aria-activedescendant");
+          }
         });
 
         var updateCountryData = function() {
@@ -313,6 +332,9 @@ $stickyServices = $stickyServices ?? [
           if (countryData && countryData.iso2) {
             $form.find("input[name='country']").val(countryData.iso2);
             $form.find("input[name='country_code']").val(countryData.dialCode);
+          }
+          if ($flag.attr("aria-expanded") !== "true") {
+            $flag.removeAttr("aria-activedescendant");
           }
         };
 
@@ -330,7 +352,7 @@ $stickyServices = $stickyServices ?? [
 
       $(document).on("click", function(e) {
         if (!$(e.target).closest(".iti").length) {
-          $(".iti__selected-flag").attr("aria-expanded", "false");
+          $(".iti__selected-flag").attr("aria-expanded", "false").removeAttr("aria-activedescendant");
         }
       });
     });
