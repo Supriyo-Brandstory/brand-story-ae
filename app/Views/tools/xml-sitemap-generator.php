@@ -89,7 +89,7 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 600;
         padding: 5px 12px;
         border-radius: 100px;
@@ -123,7 +123,7 @@
 
     /* Left Box Form Elements */
     .sitemap-label {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         color: rgba(255, 255, 255, 0.85);
         text-transform: uppercase;
@@ -155,7 +155,7 @@
         color: #ffffff;
         padding: 14px 18px 14px 44px;
         border-radius: 12px;
-        font-size: 15px;
+        font-size: 16px;
         transition: all 0.25s ease;
         outline: none;
     }
@@ -173,7 +173,7 @@
         color: #ffffff;
         padding: 13px 16px;
         border-radius: 12px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         transition: all 0.2s ease;
         outline: none;
@@ -196,7 +196,7 @@
         align-items: center;
         gap: 10px;
         color: rgba(255, 255, 255, 0.7);
-        font-size: 13px;
+        font-size: 16px;
         cursor: pointer;
         user-select: none;
     }
@@ -212,7 +212,7 @@
         background: var(--sm-primary);
         color: #ffffff;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 16px;
         border: none;
         padding: 15px 24px;
         border-radius: 12px;
@@ -251,7 +251,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 6px;
         white-space: nowrap;
         overflow: hidden;
@@ -264,7 +264,7 @@
 
     .crawler-meta-label {
         color: rgba(255, 255, 255, 0.6);
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 500;
         flex-shrink: 0;
     }
@@ -279,7 +279,7 @@
     .crawler-meta-path {
         color: #38bdf8;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 13px;
+        font-size: 16px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -378,7 +378,7 @@
 
     .sm-time-remaining {
         text-align: center;
-        font-size: 13px;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.65);
         margin-bottom: 18px;
     }
@@ -391,7 +391,7 @@
         background: rgba(255, 255, 255, 0.08);
         color: rgba(255, 255, 255, 0.85);
         border: 1px solid rgba(255, 255, 255, 0.15);
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         padding: 9px 24px;
         border-radius: 10px;
@@ -415,7 +415,7 @@
         border-radius: 12px;
         padding: 12px 14px;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 12px;
+        font-size: 16px;
         max-height: 95px;
         overflow-y: hidden;
     }
@@ -477,7 +477,7 @@
 
     .sm-idle-desc {
         color: rgba(255, 255, 255, 0.55);
-        font-size: 14px;
+        font-size: 16px;
         max-width: 380px;
         line-height: 1.5;
         margin: 0 auto;
@@ -501,7 +501,7 @@
     }
 
     .sm-success-ribbon span {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         color: #4ade80;
         display: flex;
@@ -517,7 +517,7 @@
         max-height: 220px;
         overflow-y: auto;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.6;
         color: #94a3b8;
         white-space: pre;
@@ -541,7 +541,7 @@
     .sm-action-btn {
         padding: 13px 18px;
         border-radius: 12px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         display: inline-flex;
         align-items: center;
@@ -631,7 +631,7 @@
         color: var(--sm-primary);
         border: 1px solid rgba(232, 58, 38, 0.2);
         border-radius: 100px;
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.6px;
@@ -663,7 +663,7 @@
         display: inline-block;
         padding: 4px 12px;
         border-radius: 8px;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.5px;
@@ -698,7 +698,7 @@
         display: flex;
         align-items: flex-start;
         gap: 12px;
-        font-size: 14px;
+        font-size: 16px;
         color: #475569;
         line-height: 1.5;
         padding-bottom: 12px;
@@ -735,7 +735,7 @@
     .sm-tag-code {
         display: inline-block;
         font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 700;
         color: var(--sm-primary);
         background: rgba(232, 58, 38, 0.08);
@@ -816,7 +816,7 @@
         border-radius: 50%;
         background: #0f172a;
         color: #ffffff;
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 700;
         display: flex;
         align-items: center;
@@ -883,7 +883,7 @@
     }
 
     .sm-trust-stat-label {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         color: #64748b;
         text-transform: uppercase;
@@ -916,7 +916,7 @@
     }
 
     .sm-review-quote {
-        font-size: 15px;
+        font-size: 16px;
         color: #334155;
         line-height: 1.7;
         margin-bottom: 24px;
@@ -936,11 +936,11 @@
         font-weight: 700;
         color: #0f172a;
         margin-bottom: 2px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .sm-author-info p {
-        font-size: 13px;
+        font-size: 16px;
         color: #64748b;
         margin-bottom: 0;
     }
@@ -1021,7 +1021,7 @@
     .sm-faq-body {
         padding: 0 24px 20px;
         color: #64748b;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.7;
     }
 
@@ -1053,7 +1053,7 @@
         background: #0f172a;
         color: #ffffff;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
         padding: 16px 22px;
         text-transform: uppercase;
         letter-spacing: 0.5px;
@@ -1063,7 +1063,7 @@
     .sm-table td {
         padding: 16px 22px;
         border-bottom: 1px solid #f1f5f9;
-        font-size: 15px;
+        font-size: 16px;
         color: #334155;
         vertical-align: middle;
     }
@@ -1116,7 +1116,7 @@
         align-items: flex-start;
         gap: 8px;
         color: #334155;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 1.45;
         text-decoration: none;
@@ -1129,7 +1129,7 @@
 
     .sm-learning-list li a i {
         color: var(--sm-primary);
-        font-size: 15px;
+        font-size: 16px;
         flex-shrink: 0;
         margin-top: 2px;
     }
@@ -1139,7 +1139,7 @@
         display: flex;
         align-items: flex-start;
         gap: 12px;
-        font-size: 15px;
+        font-size: 16px;
         color: #334155;
         line-height: 1.5;
         margin-bottom: 14px;
@@ -1175,7 +1175,7 @@
         color: var(--sm-primary);
         border: 1px solid rgba(232, 58, 38, 0.2);
         border-radius: 50px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 1.4;
         white-space: normal;
@@ -1222,7 +1222,7 @@
             margin-bottom: 12px;
         }
         .sitemap-hero-desc {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.55;
             margin-bottom: 24px;
         }
@@ -1235,19 +1235,19 @@
             margin-bottom: 18px;
         }
         .sm-panel-title {
-            font-size: 15px;
+            font-size: 16px;
         }
         .sitemap-input {
             padding: 12px 14px 12px 40px;
-            font-size: 14px;
+            font-size: 16px;
         }
         .sitemap-select {
             padding: 11px 14px;
-            font-size: 13px;
+            font-size: 16px;
         }
         .sitemap-btn-submit {
             padding: 13px 18px;
-            font-size: 14px;
+            font-size: 16px;
         }
         .sm-meter-wrapper {
             width: 170px;
@@ -1273,12 +1273,12 @@
             margin-bottom: 10px;
         }
         .sm-section-subtitle {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.55;
             margin-bottom: 24px;
         }
         .sm-section-badge {
-            font-size: 12px;
+            font-size: 16px;
             padding: 5px 12px;
             margin-bottom: 10px;
             white-space: normal;
@@ -1297,7 +1297,7 @@
         .sm-step-number {
             width: 38px;
             height: 38px;
-            font-size: 14px;
+            font-size: 16px;
             margin-bottom: 14px;
         }
         .sm-feature-icon {
@@ -1307,16 +1307,16 @@
             margin-bottom: 14px;
         }
         .sm-review-quote {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.6;
             margin-bottom: 18px;
         }
         .sm-faq-button {
-            font-size: 15px;
+            font-size: 16px;
             padding: 14px 18px;
         }
         .sm-faq-body {
-            font-size: 14px;
+            font-size: 16px;
             padding: 0 18px 16px;
         }
         .sm-cta-banner {
@@ -1327,16 +1327,16 @@
             width: 100%;
             justify-content: center;
             padding: 13px 20px;
-            font-size: 15px;
+            font-size: 16px;
         }
         .sm-pill-badge {
-            font-size: 13px;
+            font-size: 16px;
             padding: 8px 14px;
         }
         .sm-table th,
         .sm-table td {
             padding: 12px 14px;
-            font-size: 13px;
+            font-size: 16px;
         }
         .sm-code-preview {
             max-height: 180px;
@@ -1360,14 +1360,14 @@
         }
         .sitemap-input {
             padding-left: 36px;
-            font-size: 14px;
+            font-size: 16px;
         }
         .sm-action-btn-group {
             grid-template-columns: 1fr;
         }
         .sm-action-btn {
             padding: 12px 16px;
-            font-size: 13px;
+            font-size: 16px;
         }
     }
 </style>
@@ -1656,7 +1656,7 @@
             </div>
             <div class="col-lg-5 text-center">
                 <div class="p-3 bg-light rounded-4 border shadow-sm">
-                    <img src="http://brandstoryae.test/assets/images/xml-sitemap.webp" alt="XML Sitemap Generator" class="img-fluid rounded-3" style="max-height: 420px; object-fit: contain;">
+                    <img src="https://brandstory.ae/assets/images/xml-sitemap.webp" alt="XML Sitemap Generator" class="img-fluid rounded-3" style="max-height: 420px; object-fit: contain;">
                 </div>
             </div>
         </div>
@@ -1902,7 +1902,7 @@
         <div class="row g-4 align-items-center mb-4">
             <div class="col-lg-6">
                 <div class="bg-dark p-3 p-md-4 rounded-4 shadow-sm" style="overflow-x: auto; max-width: 100%;">
-                    <pre class="text-light mb-0" style="font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.6; white-space: pre; overflow-x: auto; max-width: 100%;"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                    <pre class="text-light mb-0" style="font-family: 'JetBrains Mono', monospace; font-size: 16px; line-height: 1.6; white-space: pre; overflow-x: auto; max-width: 100%;"><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
   &lt;url&gt;
     &lt;loc&gt;https://www.yourdomain.com/services/&lt;/loc&gt;
