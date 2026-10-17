@@ -2854,114 +2854,181 @@ class FrontendController extends Controller
     public function generateSitemapAction()
     {
         try {
-            header('Content-Type: application/json');
-            set_time_limit(600); // 10 minutes
-            ini_set('memory_limit', '512M'); // Increase memory
+            while (ob_get_level()) {
+                ob_end_clean();
+            }
 
-            $url = $_POST['url'] ?? '';
+            header('Content-Type: application/json; charset=utf-8');
+            set_time_limit(60);
+            ini_set('memory_limit', '512M');
+
+            $url = trim($_POST['url'] ?? '');
             if (empty($url) || !filter_var($url, FILTER_VALIDATE_URL)) {
-                throw new \Exception('Please enter a valid website URL.');
+                throw new \Exception('Please enter a valid website URL (including https://).');
             }
 
             $changefreq = $_POST['changefreq'] ?? 'weekly';
             $priority = $_POST['priority'] ?? '0.5';
 
-            $visited = [];
-            $queue = [$url];
-            $sitemap = [];
             $parsedStartUrl = parse_url($url);
-            $domain = $parsedStartUrl['host'];
+            $rawHost = $parsedStartUrl['host'] ?? '';
+            $domain = preg_replace('/^www\./i', '', strtolower($rawHost));
+            $scheme = $parsedStartUrl['scheme'] ?? 'https';
+            $baseUrl = $scheme . '://' . $rawHost;
 
-            // Limit to avoid infinite loops in case of dynamic routes
-            $maxSafetyLimit = 2000;
-
-            $startTime = time();
-            $timeoutLimit = 600; // 10 minutes in seconds
-
-            while (!empty($queue) && count($visited) < $maxSafetyLimit) {
-                // Check for explicit timeout
-                if ((time() - $startTime) > $timeoutLimit) {
-                    throw new \Exception('Crawl timed out (10 min limit reached). Please try a smaller site or optimize your server settings.');
-                }
-
-                $currentUrl = array_shift($queue);
-                if (in_array($currentUrl, $visited)) continue;
-
-                $visited[] = $currentUrl;
-
-                // Fetch content using cURL
-                $ch = curl_init();
-                curl_setopt($ch, CURLOPT_URL, $currentUrl);
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-                curl_setopt($ch, CURLOPT_USERAGENT, 'BrandStory-SitemapGenerator/1.0');
-                curl_setopt($ch, CURLOPT_TIMEOUT, 15);
-                $html = curl_exec($ch);
-                $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
-                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                curl_close($ch);
-
-                if ($html === false || $httpCode !== 200 || strpos($contentType, 'text/html') === false) continue;
-
-                $sitemap[] = [
-                    'loc' => $currentUrl,
-                    'lastmod' => date('Y-m-d'),
-                    'changefreq' => $changefreq,
-                    'priority' => $priority
-                ];
-
-                // Extract links
-                preg_match_all('/<a\s+(?:[^>]*?\s+)?href=["\']([^"\']*)["\']/i', $html, $matches);
-                foreach ($matches[1] as $link) {
-                    // Comprehensive filtering
-                    if (
-                        empty($link) || $link[0] == '#' ||
-                        preg_match('/^(javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)
-                    ) {
-                        continue;
-                    }
-
-                    // Extension filtering - skip media/docs
-                    if (preg_match('/\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|rar|exe|mp4|doc|docx|xls|xlsx|ppt|pptx)$/i', $link)) {
-                        continue;
-                    }
-
-                    if (strpos($link, 'http') !== 0) {
-                        if (strpos($link, '/') === 0) {
-                            $link = $parsedStartUrl['scheme'] . '://' . $domain . $link;
-                        } else {
-                            $baseUrl = $currentUrl;
-                            if (substr($baseUrl, -1) !== '/') {
-                                $baseUrl = dirname($baseUrl) . '/';
-                            }
-                            $link = $baseUrl . $link;
-                        }
-                    }
-
-                    $link = strtok($link, '#'); // Remove anchors
-                    $link = strtok($link, '?'); // Remove query params
-
-                    $parsedLink = parse_url($link);
-                    if (isset($parsedLink['host']) && $parsedLink['host'] === $domain) {
-                        if (!filter_var($link, FILTER_VALIDATE_URL)) continue;
-
-                        if (!in_array($link, $visited) && !in_array($link, $queue)) {
-                            $queue[] = $link;
-                        }
-                    }
-                }
+            if (empty($domain)) {
+                throw new \Exception('Invalid domain address provided.');
             }
 
-            // Generate XML
+            $cleanStartUrl = rtrim(strtok($url, '?#'), '/');
+            if (empty($cleanStartUrl)) {
+                $cleanStartUrl = $url;
+            }
+
+            $visited = [];
+            $queue = [$cleanStartUrl];
+            $validPages = [];
+            $skippedUrls = [];
+            $allUniqueDiscovered = [$cleanStartUrl => true];
+
+            $startTime = time();
+            $maxTimeBudget = 18; // Safe under 60s Nginx timeout
+            $batchSize = 8;
+            $maxPagesToCrawl = 150;
+
+            // Crawler Loop
+            while (!empty($queue) && count($visited) < $maxPagesToCrawl && (time() - $startTime) < $maxTimeBudget) {
+                $batch = array_splice($queue, 0, $batchSize);
+                $mh = curl_multi_init();
+                $handles = [];
+
+                foreach ($batch as $currentUrl) {
+                    if (isset($visited[$currentUrl])) continue;
+                    $visited[$currentUrl] = true;
+
+                    $ch = curl_init($currentUrl);
+                    curl_setopt_array($ch, [
+                        CURLOPT_RETURNTRANSFER => true,
+                        CURLOPT_FOLLOWLOCATION => true,
+                        CURLOPT_MAXREDIRS => 3,
+                        CURLOPT_SSL_VERIFYPEER => false,
+                        CURLOPT_SSL_VERIFYHOST => false,
+                        CURLOPT_CONNECTTIMEOUT => 3,
+                        CURLOPT_TIMEOUT => 6,
+                        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                        CURLOPT_HTTPHEADER => [
+                            'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                            'Accept-Language: en-US,en;q=0.5'
+                        ]
+                    ]);
+                    curl_multi_add_handle($mh, $ch);
+                    $handles[$currentUrl] = $ch;
+                }
+
+                if (empty($handles)) {
+                    curl_multi_close($mh);
+                    continue;
+                }
+
+                $running = null;
+                do {
+                    curl_multi_exec($mh, $running);
+                    curl_multi_select($mh, 0.05);
+                } while ($running > 0 && (time() - $startTime) < $maxTimeBudget);
+
+                foreach ($handles as $cUrl => $ch) {
+                    $html = curl_multi_getcontent($ch);
+                    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                    $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+                    $effectiveUrl = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+                    curl_multi_remove_handle($mh, $ch);
+                    curl_close($ch);
+
+                    $cleanEffective = rtrim(strtok($effectiveUrl ?: $cUrl, '?#'), '/');
+
+                    if ($httpCode === 200 && !empty($html) && strpos($contentType, 'text/html') !== false) {
+                        $validPages[$cleanEffective] = true;
+
+                        // ONLY extract links from <a> anchor tags! Never <link>, <script>, or <img>
+                        preg_match_all('/<a\s+(?:[^>]*?\s+)?href=["\']([^"\']+)["\']/i', $html, $matches);
+                        if (!empty($matches[1])) {
+                            foreach ($matches[1] as $link) {
+                                $link = trim($link);
+                                if (empty($link) || $link[0] === '#' || preg_match('/^(data:|javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)) {
+                                    continue;
+                                }
+
+                                // Remove query strings & fragments BEFORE checking extension
+                                $rawUrl = strtok($link, '?#');
+
+                                // Filter out media, documents, stylesheets, scripts, fonts
+                                if (preg_match('/\.(jpg|jpeg|png|gif|svg|webp|ico|pdf|zip|rar|exe|mp4|webm|doc|docx|xls|xlsx|ppt|pptx|css|js|xml|json|txt|woff|woff2|ttf|eot)$/i', $rawUrl)) {
+                                    $skippedUrls[$rawUrl] = true;
+                                    continue;
+                                }
+
+                                // Convert relative path to absolute URL
+                                if (strpos($rawUrl, 'http') !== 0) {
+                                    if (strpos($rawUrl, '/') === 0) {
+                                        $rawUrl = $baseUrl . $rawUrl;
+                                    } else {
+                                        $rawUrl = rtrim($cUrl, '/') . '/' . $rawUrl;
+                                    }
+                                }
+
+                                $cleanLink = rtrim($rawUrl, '/');
+                                $parsed = parse_url($cleanLink);
+                                $linkHost = preg_replace('/^www\./i', '', strtolower($parsed['host'] ?? ''));
+
+                                if ($linkHost === $domain) {
+                                    if (!filter_var($cleanLink, FILTER_VALIDATE_URL)) continue;
+
+                                    $allUniqueDiscovered[$cleanLink] = true;
+                                    if (!isset($visited[$cleanLink]) && !in_array($cleanLink, $queue)) {
+                                        $queue[] = $cleanLink;
+                                    }
+                                } else {
+                                    $skippedUrls[$cleanLink] = true;
+                                }
+                            }
+                        }
+                    } else {
+                        $skippedUrls[$cleanEffective] = true;
+                    }
+                }
+                curl_multi_close($mh);
+            }
+
+            // Fallback: If no pages verified, ensure start URL is present
+            if (empty($validPages)) {
+                $validPages[$cleanStartUrl] = true;
+            }
+
+            // Cap at 2,000 URLs max for the XML
+            $finalList = array_slice(array_keys($validPages), 0, 2000);
+            $totalDiscovered = count($allUniqueDiscovered);
+            $totalAdded = count($finalList);
+            $totalSkipped = count($skippedUrls);
+
+            // If discovered < added, synchronize
+            if ($totalDiscovered < $totalAdded) {
+                $totalDiscovered = $totalAdded;
+            }
+
+            // Build valid XML
             $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
             $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-            foreach ($sitemap as $item) {
+            $today = date('Y-m-d');
+
+            foreach ($finalList as $loc) {
+                $isHome = ($loc === $baseUrl || $loc === $cleanStartUrl || $loc === $scheme . '://' . $domain || $loc === $scheme . '://www.' . $domain);
+                $itemPriority = $isHome ? '1.0' : $priority;
+
                 $xml .= "  <url>\n";
-                $xml .= "    <loc>" . htmlspecialchars($item['loc']) . "</loc>\n";
-                $xml .= "    <lastmod>" . $item['lastmod'] . "</lastmod>\n";
-                $xml .= "    <changefreq>" . $item['changefreq'] . "</changefreq>\n";
-                $xml .= "    <priority>" . $item['priority'] . "</priority>\n";
+                $xml .= "    <loc>" . htmlspecialchars($loc, ENT_XML1, 'UTF-8') . "</loc>\n";
+                $xml .= "    <lastmod>" . $today . "</lastmod>\n";
+                $xml .= "    <changefreq>" . htmlspecialchars($changefreq) . "</changefreq>\n";
+                $xml .= "    <priority>" . htmlspecialchars($itemPriority) . "</priority>\n";
                 $xml .= "  </url>\n";
             }
             $xml .= '</urlset>';
@@ -2969,11 +3036,261 @@ class FrontendController extends Controller
             echo json_encode([
                 'status' => 'success',
                 'xml' => $xml,
-                'pages_found' => count($sitemap)
+                'pages_found' => $totalAdded,
+                'total_discovered' => $totalDiscovered,
+                'total_added' => $totalAdded,
+                'total_skipped' => $totalSkipped,
+                'crawled_urls' => array_slice(array_keys($validPages), 0, 30)
             ]);
         } catch (\Exception $e) {
             echo json_encode([
                 'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
+        }
+        exit;
+    }
+
+    public function streamSitemapAction()
+    {
+        while (ob_get_level()) {
+            ob_end_clean();
+        }
+
+        header('Content-Type: text/event-stream; charset=utf-8');
+        header('Cache-Control: no-cache, no-store, must-revalidate');
+        header('Connection: keep-alive');
+        header('X-Accel-Buffering: no');
+        header('Access-Control-Allow-Origin: *');
+
+        if (function_exists('apache_setenv')) {
+            @apache_setenv('no-gzip', '1');
+        }
+        @ini_set('zlib.output_compression', '0');
+        @ini_set('implicit_flush', '1');
+        ob_implicit_flush(true);
+
+        $sendEvent = function($data) {
+            echo "data: " . json_encode($data) . "\n\n";
+            if (ob_get_level()) {
+                @ob_flush();
+            }
+            @flush();
+        };
+
+        try {
+            set_time_limit(60);
+            ini_set('memory_limit', '512M');
+
+            $url = trim($_GET['url'] ?? '');
+            if (empty($url) || !filter_var($url, FILTER_VALIDATE_URL)) {
+                throw new \Exception('Please enter a valid website URL (including https://).');
+            }
+
+            $changefreq = $_GET['changefreq'] ?? 'weekly';
+            $priority = $_GET['priority'] ?? '0.5';
+
+            $parsedStartUrl = parse_url($url);
+            $rawHost = $parsedStartUrl['host'] ?? '';
+            $domain = preg_replace('/^www\./i', '', strtolower($rawHost));
+            $scheme = $parsedStartUrl['scheme'] ?? 'https';
+            $baseUrl = $scheme . '://' . $rawHost;
+
+            if (empty($domain)) {
+                throw new \Exception('Invalid domain address provided.');
+            }
+
+            $cleanStartUrl = rtrim(strtok($url, '?#'), '/');
+            if (empty($cleanStartUrl)) {
+                $cleanStartUrl = $url;
+            }
+
+            $visited = [];
+            $queue = [$cleanStartUrl];
+            $validPages = [];
+            $skippedUrls = [];
+            $allUniqueDiscovered = [$cleanStartUrl => true];
+
+            $sendEvent([
+                'type' => 'init',
+                'domain' => $domain,
+                'discovered' => 1,
+                'added' => 0,
+                'skipped' => 0,
+                'url' => $cleanStartUrl
+            ]);
+
+            $startTime = time();
+            $maxTimeBudget = 25;
+            $batchSize = 6;
+            $maxPagesToCrawl = 150;
+
+            while (!empty($queue) && count($visited) < $maxPagesToCrawl && (time() - $startTime) < $maxTimeBudget) {
+                $batch = array_splice($queue, 0, $batchSize);
+                $mh = curl_multi_init();
+                $handles = [];
+
+                foreach ($batch as $currentUrl) {
+                    if (isset($visited[$currentUrl])) continue;
+                    $visited[$currentUrl] = true;
+
+                    $sendEvent([
+                        'type' => 'fetching',
+                        'url' => $currentUrl,
+                        'discovered' => max(count($allUniqueDiscovered), count($validPages)),
+                        'added' => count($validPages),
+                        'skipped' => count($skippedUrls)
+                    ]);
+
+                    $ch = curl_init($currentUrl);
+                    curl_setopt_array($ch, [
+                        CURLOPT_RETURNTRANSFER => true,
+                        CURLOPT_FOLLOWLOCATION => true,
+                        CURLOPT_MAXREDIRS => 3,
+                        CURLOPT_SSL_VERIFYPEER => false,
+                        CURLOPT_SSL_VERIFYHOST => false,
+                        CURLOPT_CONNECTTIMEOUT => 3,
+                        CURLOPT_TIMEOUT => 5,
+                        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                        CURLOPT_HTTPHEADER => [
+                            'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                            'Accept-Language: en-US,en;q=0.5'
+                        ]
+                    ]);
+                    curl_multi_add_handle($mh, $ch);
+                    $handles[$currentUrl] = $ch;
+                }
+
+                if (empty($handles)) {
+                    curl_multi_close($mh);
+                    continue;
+                }
+
+                $running = null;
+                do {
+                    curl_multi_exec($mh, $running);
+                    curl_multi_select($mh, 0.05);
+                } while ($running > 0 && (time() - $startTime) < $maxTimeBudget);
+
+                foreach ($handles as $cUrl => $ch) {
+                    $html = curl_multi_getcontent($ch);
+                    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                    $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+                    $effectiveUrl = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+                    curl_multi_remove_handle($mh, $ch);
+                    curl_close($ch);
+
+                    $cleanEffective = rtrim(strtok($effectiveUrl ?: $cUrl, '?#'), '/');
+
+                    if ($httpCode === 200 && !empty($html) && strpos($contentType, 'text/html') !== false) {
+                        $validPages[$cleanEffective] = true;
+
+                        $newLinksFound = 0;
+                        preg_match_all('/<a\s+(?:[^>]*?\s+)?href=["\']([^"\']+)["\']/i', $html, $matches);
+                        if (!empty($matches[1])) {
+                            foreach ($matches[1] as $link) {
+                                $link = trim($link);
+                                if (empty($link) || $link[0] === '#' || preg_match('/^(data:|javascript:|mailto:|tel:|viber:|whatsapp:|skype:|callto:)/i', $link)) {
+                                    continue;
+                                }
+
+                                $rawUrl = strtok($link, '?#');
+                                if (preg_match('/\.(jpg|jpeg|png|gif|svg|webp|ico|pdf|zip|rar|exe|mp4|webm|doc|docx|xls|xlsx|ppt|pptx|css|js|xml|json|txt|woff|woff2|ttf|eot)$/i', $rawUrl)) {
+                                    $skippedUrls[$rawUrl] = true;
+                                    continue;
+                                }
+
+                                if (strpos($rawUrl, 'http') !== 0) {
+                                    if (strpos($rawUrl, '/') === 0) {
+                                        $rawUrl = $baseUrl . $rawUrl;
+                                    } else {
+                                        $rawUrl = rtrim($cUrl, '/') . '/' . $rawUrl;
+                                    }
+                                }
+
+                                $cleanLink = rtrim($rawUrl, '/');
+                                $parsed = parse_url($cleanLink);
+                                $linkHost = preg_replace('/^www\./i', '', strtolower($parsed['host'] ?? ''));
+
+                                if ($linkHost === $domain) {
+                                    if (!filter_var($cleanLink, FILTER_VALIDATE_URL)) continue;
+
+                                    if (!isset($allUniqueDiscovered[$cleanLink])) {
+                                        $allUniqueDiscovered[$cleanLink] = true;
+                                        $newLinksFound++;
+                                    }
+                                    if (!isset($visited[$cleanLink]) && !in_array($cleanLink, $queue)) {
+                                        $queue[] = $cleanLink;
+                                    }
+                                } else {
+                                    $skippedUrls[$cleanLink] = true;
+                                }
+                            }
+                        }
+
+                        $sendEvent([
+                            'type' => 'verified',
+                            'url' => $cleanEffective,
+                            'status' => 200,
+                            'new_links' => $newLinksFound,
+                            'discovered' => max(count($allUniqueDiscovered), count($validPages)),
+                            'added' => count($validPages),
+                            'skipped' => count($skippedUrls)
+                        ]);
+                    } else {
+                        $skippedUrls[$cleanEffective] = true;
+                        $sendEvent([
+                            'type' => 'skipped',
+                            'url' => $cleanEffective,
+                            'status' => $httpCode,
+                            'discovered' => max(count($allUniqueDiscovered), count($validPages)),
+                            'added' => count($validPages),
+                            'skipped' => count($skippedUrls)
+                        ]);
+                    }
+                }
+                curl_multi_close($mh);
+            }
+
+            if (empty($validPages)) {
+                $validPages[$cleanStartUrl] = true;
+            }
+
+            $finalList = array_slice(array_keys($validPages), 0, 2000);
+            $totalDiscovered = max(count($allUniqueDiscovered), count($finalList));
+            $totalAdded = count($finalList);
+            $totalSkipped = count($skippedUrls);
+
+            // Build valid XML
+            $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+            $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+            $today = date('Y-m-d');
+
+            foreach ($finalList as $loc) {
+                $isHome = ($loc === $baseUrl || $loc === $cleanStartUrl || $loc === $scheme . '://' . $domain || $loc === $scheme . '://www.' . $domain);
+                $itemPriority = $isHome ? '1.0' : $priority;
+
+                $xml .= "  <url>\n";
+                $xml .= "    <loc>" . htmlspecialchars($loc, ENT_XML1, 'UTF-8') . "</loc>\n";
+                $xml .= "    <lastmod>" . $today . "</lastmod>\n";
+                $xml .= "    <changefreq>" . htmlspecialchars($changefreq) . "</changefreq>\n";
+                $xml .= "    <priority>" . htmlspecialchars($itemPriority) . "</priority>\n";
+                $xml .= "  </url>\n";
+            }
+            $xml .= '</urlset>';
+
+            $sendEvent([
+                'type' => 'complete',
+                'xml' => $xml,
+                'pages_found' => $totalAdded,
+                'total_discovered' => $totalDiscovered,
+                'total_added' => $totalAdded,
+                'total_skipped' => $totalSkipped,
+                'crawled_urls' => array_slice(array_keys($validPages), 0, 50)
+            ]);
+        } catch (\Exception $e) {
+            $sendEvent([
+                'type' => 'error',
                 'message' => $e->getMessage()
             ]);
         }
