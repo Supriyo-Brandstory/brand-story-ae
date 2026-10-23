@@ -7,7 +7,7 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/pr-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title">Top-Rated PPC Agency Dubai BrandStory</h1>
+                    <h1 class="premium-slide-title">Top-Rated PPC Agency in Dubai- BrandStory</h1>
                     <p class="premium-slide-subtitle">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising services.</p>
                     <div class="premium-slide-actions">
                         <a href="/contact/" class="premium-pill-btn">
@@ -566,11 +566,11 @@
     </div>
 </section>
 
-<section class="ppc-why-choose-section">
+<!--<section class="ppc-why-choose-section">
     <div class="container">
         <h2 class="ppc-why-choose-title">Redefining PPC Advertising<br> in Dubai, UAE</h2>
         <div class="row align-items-stretch">
-            <!-- Left Side: Image -->
+            
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
                 <div class="ppc-why-choose-img-card">
                     <img class="img-fluid ppc-why-choose-img" src="<?= base_url('assets/images/digital-02.webp') ?>"
@@ -578,11 +578,11 @@
                         alt="Why Choose Brandstory As your Digital marketing Agency in Dubai">
                 </div>
             </div>
-            <!-- Right Side: Accordion -->
+            
             <div class="col-lg-7 col-md-12">
                 <div class="ppc-accordion-card">
                     <div class="accordion ppc-accordion" id="whyChooseAccordion">
-                        <!-- Item 1 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingOne">
                                 <button class="accordion-button ppc-accordion-btn" type="button" data-bs-toggle="collapse"
@@ -604,7 +604,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 2 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingTwo">
                                 <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
@@ -626,7 +626,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 3 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingThree">
                                 <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
@@ -648,7 +648,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 4 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFour">
                                 <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
@@ -670,7 +670,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 5 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingFive">
                                 <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
@@ -692,7 +692,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 6 -->
+                        
                         <div class="accordion-item ppc-accordion-item">
                             <h4 class="accordion-header ppc-accordion-header" id="whyChooseHeadingSix">
                                 <button class="accordion-button ppc-accordion-btn collapsed" type="button" data-bs-toggle="collapse"
@@ -719,43 +719,9 @@
             </div>
         </div>
     </div>
-</section>
-<section class="premium-showcase-section">
-    <div class="premium-showcase-container container">
-        <div class="row">
-            <div class="col-md-8 col-lg-6">
-                <h2 class="premium-showcase-title">Best PPC Agency In Dubai</h2>
-                <p class="premium-showcase-subtitle">At BrandStory, we create PPC campaigns that put your business in front of the right 
-                    audience at the right time. We combine strategic planning, compelling ad creatives, and precise audience targeting to deliver the best results.</p>
-                <div class="premium-showcase-action">
-                    <a href="/contact/" class="premium-showcase-btn">
-                        <span>Get In Touch</span>
-                        <span class="showcase-btn-arrow-circle">
-                            <svg viewBox="0 0 24 24" class="showcase-btn-arrow-svg">
-                                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+</section>-->
 
-    <div class="premium-marquee-wrap">
-        <div class="premium-marquee-inner">
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-        </div>
-    </div>
-</section>
-<section class="ppc-apart-section">
+<!--<section class="ppc-apart-section">
     <div class="container">
         <div class="ppc-apart-header">
             <h2 class="ppc-apart-title text-white">What Sets Us Apart as a Leading PPC Agency</span></h2>
@@ -764,7 +730,7 @@
 
         <div class="ppc-apart-grid">
 
-            <!-- Card 1 -->
+            
             <div class="ppc-apart-card ppc-apart-card--active" data-index="0">
                 <div class="ppc-apart-card-inner">
                     <div class="ppc-apart-card-top">
@@ -783,7 +749,7 @@
                 </div>
             </div>
 
-            <!-- Card 2 -->
+            
             <div class="ppc-apart-card ppc-apart-card--active" data-index="1">
                 <div class="ppc-apart-card-inner">
                     <div class="ppc-apart-card-top">
@@ -802,7 +768,7 @@
                 </div>
             </div>
 
-            <!-- Card 3 -->
+            
             <div class="ppc-apart-card" data-index="2">
                 <div class="ppc-apart-card-inner">
                     <div class="ppc-apart-card-top">
@@ -821,7 +787,7 @@
                 </div>
             </div>
 
-            <!-- Card 4 -->
+            
             <div class="ppc-apart-card" data-index="3">
                 <div class="ppc-apart-card-inner">
                     <div class="ppc-apart-card-top">
@@ -842,7 +808,7 @@
 
         </div>
     </div>
-</section>
+</section>-->
 <!-- Best PPC Agency section -->
 <section class="brandstory-choose-us-section">
   <div class="container">
@@ -1267,6 +1233,79 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="premium-why-choose-section">
+    <div class="container">
+        <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>PPC Company in Dubai</h2>
+        
+        <div class="premium-why-choose-grid">
+            <!-- Card 1 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Deep Knowledge of the Dubai Market</h3>
+                <p class="why-card-desc">We don't just work in Dubai. We live here. We know how local shoppers search and what makes them click. We build PPC campaigns for Dubai businesses in real estate, hospitality, healthcare, retail and more.</p>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Skilled PPC Team</h3>
+                <p class="why-card-desc">Our PPC experts handle every stage of your campaign with care. We plan each one around your audience, your goals and your budget. Every ad is built to bring you the right clicks.</p>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Results You Can Count On</h3>
+                <p class="why-card-desc">We have run 200+ campaigns across Google Ads, Meta Ads, LinkedIn Ads and TikTok Ads. We have helped brands get more leads, lower their cost per click and grow their return on ad spend.</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Data-Driven Decisions</h3>
+                <p class="why-card-desc">We rely on real numbers, not guesses. We track clicks, costs and conversions every day. Then we test new ads, keywords and audiences to keep your results improving.</p>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Full Support at Every Step</h3>
+                <p class="why-card-desc">We handle keyword research, ad creation, landing page advice and daily campaign management. You stay informed at every stage. Our team is always ready to answer your questions.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Clear and Honest Reporting</h3>
+                <p class="why-card-desc">You see exactly where your ad budget goes. Our reports show spend, leads and ROI in plain language. We also share clear next steps to help your campaigns grow.</p>
+            </div>
+        </div>
+        
+        <!-- Large Office Image Banner -->
+        <div class="premium-why-bottom-banner">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async">
+        </div>
+    </div>
+</section>
+<section class="premium-badges-section">
+    <div class="container">
+        <div class="premium-badges-grid">
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
             </div>
         </div>
     </div>
