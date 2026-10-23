@@ -7,7 +7,7 @@
         <div class="premium-slide active" style="background-image: url('<?= base_url('assets/images/pr-banner.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title">Top-Rated PPC Agency Dubai for Optimal ROI- BrandStory</h1>
+                    <h1 class="premium-slide-title">Top-Rated PPC Agency Dubai BrandStory</h1>
                     <p class="premium-slide-subtitle">Brandstory is one of the best PPC agencies in Dubai, UAE. We provide a cost-effective PPC campaign management solution for enterprises, SMEs, and Startups in the GCC/UAE markets with rewarding Return On Ad Spend (ROAS). Boost your website traffic and sales with Dubai’s leading PPC advertising services.</p>
                     <div class="premium-slide-actions">
                         <a href="/contact/" class="premium-pill-btn">
@@ -241,7 +241,7 @@
     </div>
 </div>
 
-<div class="bs-trends-section">
+<!-- <div class="bs-trends-section">
         <div class="bs-trends-glow"></div>
 
         <div class="container">
@@ -251,11 +251,8 @@
                 </h2>
             </div>
 
-            <!-- 2-Column Trends Accordion Grid -->
             <div class="bs-trends-grid">
-                <!-- Left Column (Trends 1 - 7) -->
                 <div class="bs-trend-col">
-                    <!-- Trend 1 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -270,7 +267,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 2 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -285,7 +281,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 3 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -300,7 +295,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 4 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -315,7 +309,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 5 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -330,7 +323,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 6 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -345,7 +337,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 7 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -361,9 +352,7 @@
                     </div>
                 </div>
 
-                <!-- Right Column (Trends 8 - 14) -->
                 <div class="bs-trend-col">
-                    <!-- Trend 8 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -378,7 +367,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 9 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -393,7 +381,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 10 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -408,7 +395,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 11 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -423,7 +409,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 12 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -438,7 +423,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 13 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -453,7 +437,6 @@
                         </div>
                     </div>
 
-                    <!-- Trend 14 -->
                     <div class="bs-trend-item">
                         <button class="bs-trend-header-btn" type="button" aria-expanded="false">
                             <div class="bs-trend-left">
@@ -470,7 +453,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 <!-- Process Flow Section -->
 <section class="mumbai-solution-section">

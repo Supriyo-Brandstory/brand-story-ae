@@ -9,29 +9,108 @@
  *   ?>
  */
 
-$padding= $padding ?? "spb-50";
-$category_name = $category_name ?? $category ?? '';
-if (!empty($category_name)) {
-    $section_title = $section_title ?? "Latest Blogs on <span class='ba2-title-gradient'>" . htmlspecialchars($category_name) . "</span>";
-} else {
-    $section_title = $section_title ?? "Latest <span class='ba2-title-gradient'>Blogs</span>";
-}
-$section_subtitle = $section_subtitle ?? "Explore our latest articles, insights, and industry updates.";
+$padding = $padding ?? "spb-50";
+$category_name = isset($category) ? $category : ($category_name ?? '');
+$sub_category_name = isset($subcategory) ? $subcategory : (isset($sub_category) ? $sub_category : (isset($subcategory_name) ? $subcategory_name : ($sub_category_name ?? '')));
 $max_items = $max_items ?? 6;
 
-
 $blogs = [];
+$matchedCategory = null;
+$matchedSubCategory = null;
 
 // Dynamic database query for category-filtered blogs
 try {
     if (class_exists('\App\Models\Blog')) {
         $blogModel = new \App\Models\Blog();
-        $sql = "SELECT b.*, c.name as category_name, c.slug as category_slug 
-                FROM blogs b 
-                LEFT JOIN blog_categories c ON b.blog_category_id = c.id 
-                WHERE (c.name LIKE ? OR b.title LIKE ?)
-                ORDER BY b.created_at DESC LIMIT " . (int)$max_items;
-        $dbBlogs = $blogModel->query($sql, ["%" . $category_name . "%", "%" . $category_name . "%"]);
+        $catModel = new \App\Models\BlogCategory();
+
+        // Common category aliases / mappings
+        $aliases = [
+            'ui/ux design' => 'UX/UI Design',
+            'ui ux design' => 'UX/UI Design',
+            'ui/ux' => 'UX/UI Design',
+            'seo' => 'Search Engine Optimization',
+            'ppc' => 'Pay Per Click',
+            'ai' => 'artificial intelligence',
+        ];
+
+        // 1. Check if subcategory was explicitly provided
+        if (!empty($sub_category_name)) {
+            $cleanSub = trim($sub_category_name);
+            $normSub = strtolower($cleanSub);
+            if (isset($aliases[$normSub])) $cleanSub = $aliases[$normSub];
+
+            $res = $catModel->query("SELECT * FROM blog_categories WHERE LOWER(TRIM(name)) = LOWER(TRIM(?)) OR LOWER(TRIM(slug)) = LOWER(TRIM(?)) LIMIT 1", [$cleanSub, $cleanSub]);
+            if (empty($res)) {
+                $res = $catModel->query("SELECT * FROM blog_categories WHERE name LIKE ? OR slug LIKE ? LIMIT 1", ["%" . $cleanSub . "%", "%" . $cleanSub . "%"]);
+            }
+            if (!empty($res)) {
+                $matchedSubCategory = $res[0];
+            }
+        }
+
+        // 2. Resolve category_name
+        if (!empty($category_name)) {
+            $cleanCat = trim($category_name);
+            $normCat = strtolower($cleanCat);
+            if (isset($aliases[$normCat])) $cleanCat = $aliases[$normCat];
+
+            // Match by name or slug
+            $res = $catModel->query("SELECT * FROM blog_categories WHERE LOWER(TRIM(name)) = LOWER(TRIM(?)) OR LOWER(TRIM(slug)) = LOWER(TRIM(?)) LIMIT 1", [$cleanCat, $cleanCat]);
+            if (empty($res)) {
+                $res = $catModel->query("SELECT * FROM blog_categories WHERE name LIKE ? OR slug LIKE ? LIMIT 1", ["%" . $cleanCat . "%", "%" . $cleanCat . "%"]);
+            }
+
+            if (!empty($res)) {
+                $catRecord = $res[0];
+                // Check if this category itself is a subcategory (parent_id is set and > 0)
+                if (!empty($catRecord['parent_id'])) {
+                    // It is a subcategory, so treat as subcategory!
+                    if (empty($matchedSubCategory)) {
+                        $matchedSubCategory = $catRecord;
+                    }
+                } else {
+                    // It is a main category
+                    $matchedCategory = $catRecord;
+                }
+            }
+        }
+
+        // 3. Query blogs based on resolved category / subcategory
+        if ($matchedSubCategory) {
+            // ONLY subcategory blogs, NOT main category general blogs
+            $sql = "SELECT b.*, 
+                           c.name as category_name, c.slug as category_slug, 
+                           sc.name as sub_category_name, sc.slug as sub_category_slug 
+                    FROM blogs b 
+                    LEFT JOIN blog_categories c ON b.blog_category_id = c.id 
+                    LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id 
+                    WHERE b.blog_sub_category_id = ? 
+                    ORDER BY b.created_at DESC LIMIT " . (int)$max_items;
+            $dbBlogs = $blogModel->query($sql, [$matchedSubCategory['id']]);
+        } elseif ($matchedCategory) {
+            // ONLY main category blogs, NO subcategory blogs
+            $sql = "SELECT b.*, 
+                           c.name as category_name, c.slug as category_slug, 
+                           sc.name as sub_category_name, sc.slug as sub_category_slug 
+                    FROM blogs b 
+                    LEFT JOIN blog_categories c ON b.blog_category_id = c.id 
+                    LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id 
+                    WHERE b.blog_category_id = ? AND (b.blog_sub_category_id IS NULL OR b.blog_sub_category_id = 0) 
+                    ORDER BY b.created_at DESC LIMIT " . (int)$max_items;
+            $dbBlogs = $blogModel->query($sql, [$matchedCategory['id']]);
+        } else {
+            // No category specified, fetch latest blogs
+            $sql = "SELECT b.*, 
+                           c.name as category_name, c.slug as category_slug, 
+                           sc.name as sub_category_name, sc.slug as sub_category_slug 
+                    FROM blogs b 
+                    LEFT JOIN blog_categories c ON b.blog_category_id = c.id 
+                    LEFT JOIN blog_categories sc ON b.blog_sub_category_id = sc.id 
+                    ORDER BY b.created_at DESC LIMIT " . (int)$max_items;
+            $dbBlogs = $blogModel->query($sql);
+        }
+
         if (!empty($dbBlogs)) {
             $blogs = $dbBlogs;
         }
@@ -39,6 +118,14 @@ try {
 } catch (\Throwable $e) {
     $blogs = [];
 }
+
+$display_category_name = $matchedSubCategory['name'] ?? $matchedCategory['name'] ?? $category_name;
+if (!empty($display_category_name)) {
+    $section_title = $section_title ?? "Latest Blogs on <span class='ba2-title-gradient'>" . htmlspecialchars($display_category_name) . "</span>";
+} else {
+    $section_title = $section_title ?? "Latest <span class='ba2-title-gradient'>Blogs</span>";
+}
+$section_subtitle = $section_subtitle ?? "Explore our latest articles, insights, and industry updates.";
 
 // Fallback category articles if DB results are empty
 if (empty($blogs)) {
@@ -159,7 +246,9 @@ if (empty($blogs)) {
             $b_slug = is_array($b) ? ($b['slug'] ?? '') : ($b->slug ?? '');
             $b_desc = is_array($b) ? ($b['description'] ?? '') : ($b->description ?? '');
             $b_img = is_array($b) ? ($b['image'] ?? '') : ($b->image ?? '');
-            $b_cat = is_array($b) ? ($b['category'] ?? $b['category_name'] ?? $category_name) : ($b->category_name ?? $category_name);
+            $b_cat = is_array($b) 
+                ? ($b['sub_category_name'] ?? $b['category_name'] ?? $b['category'] ?? $display_category_name) 
+                : ($b->sub_category_name ?? $b->category_name ?? $display_category_name);
             $img_url = $b_img ? (strpos($b_img, 'http') === 0 ? $b_img : base_url($b_img)) : base_url('assets/images/blog/The-Most-Important-Elements-of-A-Website-Design.png');
           ?>
           <div class="swiper-slide">
