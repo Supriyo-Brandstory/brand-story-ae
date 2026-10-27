@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/home-2.css') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/css/logo-design.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/video-marketing.css') ?>">
 
 <!-- Hero Banner Section -->
 <section class="premium-hero-slider branding-hero-slider">
@@ -786,6 +787,72 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 </section>
 
+<!-- Growth Marketing Section -->
+<section class="growth-marketing-section" style="background-image: url('<?= base_url('assets/images/video-marketing-12.webp') ?>');">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Side Content -->
+            <div class="col-lg-6 col-md-12 growth-left-col">
+                <h2 class="growth-heading">Building Brands That People Remember, Trust and Choose</h2>
+                <p class="growth-text">BrandStory is a Dubai-based branding agency that helps businesses and organizations across the UAE and GCC define who they are and show up with confidence. We shape brands from the inside out, covering brand strategy, naming, logo and visual identity, brand messaging, packaging, guidelines and rebranding, so every touchpoint feels consistent, distinctive and built to last.</p>
+                <a href="/contact/" class="growth-meeting-btn">
+                    <span>Build Your Brand</span>
+                    <span class="arrow-circle">
+                        <svg viewBox="0 0 24 24" width="16" height="16">
+                            <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            
+            <!-- Right Side Services List -->
+            <div class="col-lg-6 col-md-12 mt-5 mt-lg-0 growth-right-col">
+                <!-- Service 1 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Brand Strategy & Positioning</div>
+                </div>
+                <!-- Service 2 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Logo & Visual Identity</div>
+                </div>
+                <!-- Service 3 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Brand Naming & Messaging</div>
+                </div>
+                <!-- Service 4 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Rebranding & Brand Refresh</div>
+                </div>
+                <!-- Service 5 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Packaging & Collateral Design</div>
+                </div>
+                <!-- Service 6 -->
+                <div class="growth-service-item">
+                    <div class="growth-service-line">
+                        <span class="growth-service-arrow-head"></span>
+                    </div>
+                    <div class="growth-service-box">Brand Guidelines & Rollout</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 $reviewSection = [
