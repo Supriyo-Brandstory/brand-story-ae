@@ -922,7 +922,7 @@
             <!-- Right Side: Content -->
             <div class="col-lg-6">
                 <div class="premium-roi-content">
-                    <p class="premium-roi-text">Investment in digital marketing is not a cost- it's a multiplier.</p>
+                    <!-- <p class="premium-roi-text">Investment in digital marketing is not a cost- it's a multiplier.</p>-->
                     <p class="premium-roi-desc">Smart digital marketing doesn't just drive traffic, it helps your
                         business climb the growth ladder. Whether you're exploring <a
                             href="/pay-per-click-ppc-services-in-dubai/">PPC advertising</a>, <a
@@ -1353,7 +1353,7 @@
         <!-- Section Header -->
         <div class="platform-partnerships-header">
             <h2 class="platform-partnerships-title">Turn Every Platform Into a Lead Machine with BrandStory</h2>
-            <p class="platform-partnerships-desc">Digital marketing has evolved. Your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. We bring you access to the world's most powerful digital channels.</p>
+            <p class="platform-partnerships-desc">Digital marketing has evolved. Your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. From search to social to emails, we make your brand impossible to miss and turn attention into enquiries.</p>
         </div>
 
         <!-- Two Column Interactive Tabs -->
@@ -1453,7 +1453,7 @@
                         <p class="platform-detail-text">TikTok is where Dubai's young, fast-moving audience spends hours every day, and BrandStory puts your brand right in that feed. We create short, creative video ads that feel native to the platform, stop the scroll and push people to act. We then optimise every campaign to bring more views, leads and sales.</p>
                     </div>
 
-                    <!-- Tab 06: Amazon and Noon Ads -->
+                    <!-- Tab 06: Amazon and Noon Ads 
                     <div class="platform-tab-item" data-tab="platform-tab-6">
                         <div class="platform-tab-left">
                             <span class="platform-tab-num">06</span>
@@ -1470,7 +1470,7 @@
                     <div class="platform-tab-mobile-pane">
                         <h3 class="platform-detail-heading">Amazon and Noon Ads</h3>
                         <p class="platform-detail-text">Online shoppers in the UAE start their search on Amazon and Noon, and BrandStory makes sure your products show up first. We optimise bids, keywords and product pages. We run Sponsored Products, Sponsored Brands and Display campaigns that put your listings in front of buyers who are ready to purchase.</p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
 
@@ -1507,11 +1507,11 @@
                         <p class="platform-detail-text">TikTok is where Dubai's young, fast-moving audience spends hours every day, and BrandStory puts your brand right in that feed. We create short, creative video ads that feel native to the platform, stop the scroll and push people to act. We then optimise every campaign to bring more views, leads and sales.</p>
                     </div>
 
-                    <!-- Detail Pane 06: Amazon and Noon Ads -->
+                    <!-- Detail Pane 06: Amazon and Noon Ads
                     <div class="platform-detail-pane" id="platform-tab-6">
                         <h3 class="platform-detail-heading">Amazon and Noon Ads</h3>
                         <p class="platform-detail-text">Online shoppers in the UAE start their search on Amazon and Noon, and BrandStory makes sure your products show up first. We optimise bids, keywords and product pages. We run Sponsored Products, Sponsored Brands and Display campaigns that put your listings in front of buyers who are ready to purchase.</p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -1519,7 +1519,7 @@
         <!-- Initiate Partnership Button -->
         <div class="platform-cta-wrap">
             <a href="javascript:void(0);" class="platform-cta-btn uniq-contact-lead-btn">
-                <span>Initiate Partnership!</span>
+                <span>Explore Partnership!</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
@@ -1641,8 +1641,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="premium-showcase-container container">
         <div class="row">
             <div class="col-md-8">
-                <h2 class="premium-showcase-title">Top Branding Agency in Dubai</h2>
-                <p class="premium-showcase-subtitle">At BrandStory, we transform businesses into unforgettable brands. Through strategy-led creativity, powerful storytelling, and iconic visual identities, we build brands that lead, convert, and thrive in Dubai's competitive digital ecosystem.</p>
+                <h2 class="premium-showcase-title">Digital Growth Partner for Businesses in Dubai, Abu Dhabi & Sharjah</h2>
+                <p class="premium-showcase-subtitle">BrandStory is a ROI-focused local <a href="/" style="color:#ffffff; text-decoration:underline;">digital transformation agency in Dubai</a> serving businesses in Dubai Marina, Business Bay, Downtown Dubai, JLT, Abu Dhabi, Sharjah, and across the UAE. Our campaigns follow how UAE customers search and buy, so your business can grow online in Dubai with confidence.</p>
                 <div class="premium-showcase-action">
                     <a href="/contact/" class="premium-showcase-btn">
                         <span>Get In Touch</span>
@@ -1680,8 +1680,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="premium-stat-label">Campaigns Executed</div>
             </div>
             <div class="premium-stat-card">
-                <div class="premium-stat-num">900+</div>
-                <div class="premium-stat-label">Satisfied Clients</div>
+                <div class="premium-stat-num">4.8X</div>
+                <div class="premium-stat-label">Client ROI Increase</div>
             </div>
             <div class="premium-stat-card">
                 <div class="premium-stat-num">12+</div>
