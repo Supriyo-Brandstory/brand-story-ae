@@ -95,6 +95,7 @@
                 <input type="hidden" id="country_code" name="country_code" value="" />
                 <input type="hidden" name="valid_email" id="valid_email" value="0">
                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                <input type="hidden" name="page_url" class="page-url-field" value="">
                 <input type="text" name="honeypot" id="honeypot" style="display:none;">
                 <button id="api_btn" class="btn btn-blue" type="submit">Submit</button>
             </div>
@@ -166,7 +167,30 @@
                 const originalText = submitBtn.textContent;
                 submitBtn.textContent = 'Submitting...';
 
+                // Capture current page URL
+                const currentUrl = window.location.href;
+                const pageUrlField = form.querySelector('input[name="page_url"]');
+                if (pageUrlField) {
+                    pageUrlField.value = currentUrl;
+                }
+
                 const formData = new FormData(this);
+                if (!formData.get('page_url')) {
+                    formData.append('page_url', currentUrl);
+                }
+
+                if (form.closest('#customContactPopup')) {
+                    formData.set('is_popup', '1');
+                }
+
+                // Append the current page URL to the end of the message
+                let userMessage = (formData.get('message') || '').trim();
+                const urlLine = 'Page URL: ' + currentUrl;
+                if (!userMessage.includes(currentUrl)) {
+                    userMessage = userMessage ? (userMessage + '\n\n' + urlLine) : urlLine;
+                    formData.set('message', userMessage);
+                }
+
                 fetch(this.action, {
                         method: 'POST',
                         body: formData,

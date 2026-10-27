@@ -66,7 +66,11 @@
                         <div class="mt-4">
                             <h6>Message:</h6>
                             <div class="p-3 bg-light radius-10 border text-dark">
-                                <?= nl2br(htmlspecialchars($enquiry['message'])) ?>
+                                <?php
+                                $msgHtml = htmlspecialchars($enquiry['message']);
+                                $msgHtml = preg_replace('/(https?:\/\/[^\s<]+)/i', '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary text-decoration-underline fw-bold">$1</a>', $msgHtml);
+                                echo nl2br($msgHtml);
+                                ?>
                             </div>
                         </div>
                     <?php endif; ?>

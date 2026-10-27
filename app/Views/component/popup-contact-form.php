@@ -141,6 +141,12 @@ if (!$isPageFromPagesTable) {
             if (typeof window.initPhoneInputs === 'function') {
                 window.initPhoneInputs(popup);
             }
+
+            // Ensure current page URL is updated in the popup form
+            var pageUrlField = popup.querySelector('input[name="page_url"]');
+            if (pageUrlField) {
+                pageUrlField.value = window.location.href;
+            }
         };
 
         window.closeContactPopup = function() {

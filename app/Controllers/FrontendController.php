@@ -2180,8 +2180,19 @@ class FrontendController extends Controller
         $budget = htmlspecialchars(trim($_POST['budget'] ?? ''), ENT_QUOTES, 'UTF-8');
         $message = htmlspecialchars(trim($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
 
-        $httpReferer = htmlspecialchars($_SERVER['HTTP_REFERER'] ?? '', ENT_QUOTES, 'UTF-8');
-        $actualLink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+        $pageUrl = filter_var(trim($_POST['page_url'] ?? ''), FILTER_SANITIZE_URL);
+        if (empty($pageUrl) && !empty($_SERVER['HTTP_REFERER'])) {
+            $pageUrl = htmlspecialchars(trim($_SERVER['HTTP_REFERER']), ENT_QUOTES, 'UTF-8');
+        }
+
+        // Append page URL to the end of message if not already present
+        if (!empty($pageUrl) && strpos($message, $pageUrl) === false) {
+            $urlLine = "Page URL: " . $pageUrl;
+            $message = !empty($message) ? ($message . "\n\n" . $urlLine) : $urlLine;
+        }
+
+        $httpReferer = !empty($pageUrl) ? $pageUrl : htmlspecialchars($_SERVER['HTTP_REFERER'] ?? '', ENT_QUOTES, 'UTF-8');
+        $actualLink = !empty($pageUrl) ? $pageUrl : ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}");
 
         // Compose email
         $subject = "brandstory.ae | Contact Lead | $company | $name";
@@ -2195,7 +2206,7 @@ class FrontendController extends Controller
         Designation: $designation<br>
         Services: $services<br>
         Budget: $budget<br>
-        Message: $message<br><br>
+        Message: " . nl2br($message) . "<br><br>
         IP Address: {$_SERVER['REMOTE_ADDR']}<br>
         Sent From Url: $httpReferer";
 
