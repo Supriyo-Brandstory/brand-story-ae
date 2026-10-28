@@ -1637,65 +1637,102 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<section class="premium-showcase-section">
-    <div class="premium-showcase-container container">
-        <div class="row">
-            <div class="col-md-8">
-                <h2 class="premium-showcase-title">Digital Growth Partner for Businesses in Dubai, Abu Dhabi & Sharjah</h2>
-                <p class="premium-showcase-subtitle">BrandStory is a ROI-focused local <a href="/" style="color:#ffffff; text-decoration:underline;">digital transformation agency in Dubai</a> serving businesses in Dubai Marina, Business Bay, Downtown Dubai, JLT, Abu Dhabi, Sharjah, and across the UAE. Our campaigns follow how UAE customers search and buy, so your business can grow online in Dubai with confidence.</p>
-                <div class="premium-showcase-action">
-                    <a href="/contact/" class="premium-showcase-btn">
-                        <span>Get In Touch</span>
-                        <span class="showcase-btn-arrow-circle">
-                            <svg viewBox="0 0 24 24" class="showcase-btn-arrow-svg">
-                                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </span>
+<!-- <section class="premium-partner-banner-section">
+    <div class="container">
+        <div class="partner-banner-card">
+            <div class="partner-banner-content">
+                <h2 class="partner-banner-title">Your Local Digital Marketing Partner in Dubai, Abu Dhabi &amp; Sharjah</h2>
+                <p class="partner-banner-desc">BrandStory is a Dubai-focused digital marketing agency serving businesses across Dubai Marina, Business Bay, Downtown Dubai, JLT, Abu Dhabi, Sharjah, and the wider UAE. Our local market understanding enables campaigns aligned with regional search behavior and buying intent, supporting seamless <a href="/" class="partner-banner-link">digital transformation in Dubai</a>.</p>
+            </div>
+            <div class="partner-stats-grid">
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">13+</div>
+                    <div class="partner-stat-label">Years of Experience</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">500+</div>
+                    <div class="partner-stat-label">Marketing &amp; Tech Experts</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">AED150M+</div>
+                    <div class="partner-stat-label">Ad Spend Managed</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">4.5x</div>
+                    <div class="partner-stat-label">Average Client ROI</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">92%</div>
+                    <div class="partner-stat-label">Client Retention Rate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="premium-organic-cta-section">
+    <div class="container">
+        <div class="organic-cta-card">
+            <div class="organic-cta-content">
+                <h2 class="organic-cta-title">Every Day Your Business Remains <br class="d-none d-md-inline">Invisible in Search, You Lose Customers</h2>
+                <p class="organic-cta-desc">If your brand isn’t ranking, you’re losing high-intent customers to competitors every day. Partner with our organic-first digital marketing agency in Dubai to build search authority, generate qualified leads, and create long-term growth.</p>
+                <div class="organic-cta-action">
+                    <a href="javascript:void(0);" class="organic-cta-btn uniq-contact-lead-btn">
+                        <span>Start Driving Organic Revenue Now</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="organic-cta-arrow" aria-hidden="true">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="organic-cta-wave-wrap" aria-hidden="true">
+                <svg class="organic-cta-wave" viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="orgWaveGrad1" x1="100%" y1="100%" x2="0%" y2="0%">
+                            <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.85" />
+                            <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.5" />
+                            <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="orgWaveGrad2" x1="100%" y1="100%" x2="0%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75" />
+                            <stop offset="60%" stop-color="#c084fc" stop-opacity="0.45" />
+                            <stop offset="100%" stop-color="#e879f9" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M500 240C420 220 370 180 380 140C390 100 450 120 480 160C495 180 500 200 500 240Z" fill="url(#orgWaveGrad1)" opacity="0.35" />
+                    <path d="M500 280C410 270 340 230 350 170C365 110 440 130 460 170C480 210 495 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="2.5" opacity="0.75" />
+                    <path d="M500 280C380 280 310 210 330 150C350 90 430 110 450 160C470 210 490 250 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1.8" opacity="0.8" />
+                    <path d="M500 280C360 280 290 200 310 140C330 80 410 100 430 150C450 200 480 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="1.2" opacity="0.6" />
+                    <path d="M500 280C340 280 270 190 290 130C310 70 390 90 410 140C430 190 470 240 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1" opacity="0.5" />
+                    <path d="M500 280C320 280 250 180 270 120C290 60 370 80 390 130C410 180 460 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="0.8" opacity="0.4" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="premium-adspend-banner-section">
+    <div class="container">
+        <div class="adspend-banner-card">
+            <div class="adspend-banner-overlay"></div>
+            <div class="adspend-banner-content">
+                <h2 class="adspend-banner-title">
+                    <span class="adspend-title-light">Online ad spending in the UAE is projected to cross</span>
+                    <span class="adspend-title-main"><strong>AED 1.5 billion by 2026!-</strong> Are You Ready to Win Your Shares?</span>
+                </h2>
+                <p class="adspend-banner-desc">Partner with our performance-first digital marketing Dubai agency and claim your share of the market!</p>
+                <div class="adspend-banner-action">
+                    <a href="javascript:void(0);" class="adspend-banner-btn uniq-contact-lead-btn">
+                        <span>Schedule a Free Call!</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="adspend-btn-arrow" aria-hidden="true">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="premium-marquee-wrap">
-        <div class="premium-marquee-inner">
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-            <span>BRANDSTORY <span class="purple-text">UAE</span> <span class="bullet-dot">•</span></span>
-        </div>
-    </div>
-</section>
-
-<section class="premium-stats-section">
-    <div class="container">
-        <div class="premium-stats-row">
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">1000+</div>
-                <div class="premium-stat-label">Campaigns Executed</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">4.8X</div>
-                <div class="premium-stat-label">Client ROI Increase</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">12+</div>
-                <div class="premium-stat-label">Years of Expertise</div>
-            </div>
-            <div class="premium-stat-card">
-                <div class="premium-stat-num">100+</div>
-                <div class="premium-stat-label">Expert Professionals</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+</section> -->
 
 
 

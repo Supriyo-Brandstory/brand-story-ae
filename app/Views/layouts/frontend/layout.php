@@ -215,7 +215,7 @@ if ($seoData) {
     <link href="<?= base_url('assets/css/global.css?v=1.1') ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.min.css?v=2.9') ?>" rel="stylesheet">
     <?php if ($clean_path === '' || $clean_path === 'index.php'): ?>
-        <link href="<?= base_url('assets/css/home-2.min.css?v=2.0') ?>" rel="stylesheet">
+        <link href="<?= base_url('assets/css/home-2.min.css?v=2.5') ?>" rel="stylesheet">
         <link href="<?= base_url('assets/css/skin.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
         <link href="<?= base_url('assets/css/dev.min.css?v=2.0') ?>" rel="stylesheet" media="print" onload="this.media='all'">
     <?php else: ?>
