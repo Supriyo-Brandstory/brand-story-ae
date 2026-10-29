@@ -2253,7 +2253,7 @@ class FrontendController extends Controller
             ]);
 
             // Push to Monday.com CRM
-            $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+            $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjcxNjk4ODUyMCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNi0xMC0yM1QwNjozMjoxMS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.mocTgX7fDQj4B7h_6_HzYj2jS5pvXE3KvWQjhabiS9c';
             $boardId = 5026739620;
             $groupId = 'group_mm10rw6q';
             $itemName = $company;
@@ -2644,7 +2644,7 @@ class FrontendController extends Controller
             ]);
 
             // Monday.com Integration
-            $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+            $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjcxNjk4ODUyMCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNi0xMC0yM1QwNjozMjoxMS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.mocTgX7fDQj4B7h_6_HzYj2jS5pvXE3KvWQjhabiS9c';
             $boardId = '5026739620';
             $groupId = 'group_mm10rw6q';
             $itemName = "SEO Cost Calc | " . $name . " | " . $website;
