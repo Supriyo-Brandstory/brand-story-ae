@@ -601,12 +601,12 @@
     .m-menu>ul>li>ul.hire-submenu {
         width: 1086px;
         left: unset;
-        right: -141px;
+        right: 0px;
     }
 
     .m-menu>ul>li>ul.register-submenu {
         max-width: 200px;
-        right: 100px;
+        right: auto;
         left: unset
     }
 
