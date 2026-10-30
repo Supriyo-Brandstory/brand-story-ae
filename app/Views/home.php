@@ -174,6 +174,40 @@
         </div>
     </div>
 </section>
+
+ <section class="premium-partner-banner-section">
+    <div class="container">
+        <div class="partner-banner-card">
+            <div class="partner-banner-content">
+                <h2 class="partner-banner-title">Partner with Dubai’s Leading Digital Marketing Agency</h2>
+                <p class="partner-banner-desc">BrandStory is a next-generation digital transformation agency serving businesses across Dubai, Abu Dhabi, Sharjah, and across the UAE. Our deep understanding of the local market enables us to craft data-driven campaigns aligned with regional search behavior and buying intent, driving seamless market dominance in Dubai.</p>
+            </div>
+            <div class="partner-stats-grid">
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">13+</div>
+                    <div class="partner-stat-label">Years of Experience</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">100+</div>
+                    <div class="partner-stat-label">Marketing Experts</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">4.5X</div>
+                    <div class="partner-stat-label">Ads ROI Generated</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">10,000+</div>
+                    <div class="partner-stat-label">Page-1 Rankings</div>
+                </div>
+                <div class="partner-stat-item">
+                    <div class="partner-stat-number">1,000+</div>
+                    <div class="partner-stat-label">Projects Delivered</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="premium-cs-section">
     <div class="container">
         <!-- Header row -->
@@ -347,7 +381,7 @@
 </section>
 <section class="new-client-section">
     <div class="container">
-        <h2 class="text-left mb-5 text-white">Trusted by Visionary Brands</h2>
+        <h2 class="text-left mb-5 text-white">Trusted by 1000+ Visionary Businesses</h2>
         <?php include __DIR__ . '/component/client_section.php' ?>
     </div>
 </section>
@@ -1275,6 +1309,47 @@
     </div>
 </section>
 
+<section class="premium-organic-cta-section">
+    <div class="container">
+        <div class="organic-cta-card">
+            <div class="organic-cta-content">
+                <h2 class="organic-cta-title">If Buyers Can’t Find You Online, <br class="d-none d-md-inline">They Choose Your Competitor</h2>
+                <p class="organic-cta-desc">Every non-ranked keyword is a missed revenue opportunity flowing directly to your rivals. Our data-driven SEO strategies ensure your brand appears exactly when and where buying intent is highest, turning regional searches into measurable commercial growth.</p>
+                <div class="organic-cta-action">
+                    <a href="javascript:void(0);" class="organic-cta-btn uniq-contact-lead-btn">
+                        <span>Accelerate Your SEO Growth</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="organic-cta-arrow" aria-hidden="true">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="organic-cta-wave-wrap" aria-hidden="true">
+                <svg class="organic-cta-wave" viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="orgWaveGrad1" x1="100%" y1="100%" x2="0%" y2="0%">
+                            <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.85" />
+                            <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.5" />
+                            <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="orgWaveGrad2" x1="100%" y1="100%" x2="0%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75" />
+                            <stop offset="60%" stop-color="#c084fc" stop-opacity="0.45" />
+                            <stop offset="100%" stop-color="#e879f9" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M500 240C420 220 370 180 380 140C390 100 450 120 480 160C495 180 500 200 500 240Z" fill="url(#orgWaveGrad1)" opacity="0.35" />
+                    <path d="M500 280C410 270 340 230 350 170C365 110 440 130 460 170C480 210 495 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="2.5" opacity="0.75" />
+                    <path d="M500 280C380 280 310 210 330 150C350 90 430 110 450 160C470 210 490 250 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1.8" opacity="0.8" />
+                    <path d="M500 280C360 280 290 200 310 140C330 80 410 100 430 150C450 200 480 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="1.2" opacity="0.6" />
+                    <path d="M500 280C340 280 270 190 290 130C310 70 390 90 410 140C430 190 470 240 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1" opacity="0.5" />
+                    <path d="M500 280C320 280 250 180 270 120C290 60 370 80 390 130C410 180 460 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="0.8" opacity="0.4" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="tools-section">
     <div class="sction-header">
@@ -1348,12 +1423,90 @@
     </div>
 
 </section>
+
+
+
+
+  <section class="premium-why-choose-section">
+    <div class="container">
+        <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
+        
+        <div class="premium-why-choose-grid">
+            <!-- Card 1 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expertise in Dubai’s Digital Scene</h3>
+                <p class="why-card-desc">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft ROI-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Expert Team with Zen Precision</h3>
+                <p class="why-card-desc">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Performance Backed by Proven Results</h3>
+                <p class="why-card-desc">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">Data-Driven Decision Making</h3>
+                <p class="why-card-desc">Actionable decisions based on real performance data and results, not assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with evolving market trends and real business needs.</p>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">End-to-End Support</h3>
+                <p class="why-card-desc">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="premium-why-card">
+                <h3 class="why-card-title">In-depth and Transparent Reporting</h3>
+                <p class="why-card-desc">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
+            </div>
+        </div>
+        
+        <!-- Large Office Image Banner -->
+        <div class="premium-why-bottom-banner">
+            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async" >
+        </div>
+    </div>
+</section>
+
+<section class="premium-badges-section">
+    <div class="container">
+        <div class="premium-badges-grid">
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
+            </div>
+            <div class="premium-badge-cell">
+                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="platform-partnerships-section">
     <div class="container">
         <!-- Section Header -->
         <div class="platform-partnerships-header">
-            <h2 class="platform-partnerships-title">Turn Every Platform Into a Lead Machine with BrandStory</h2>
-            <p class="platform-partnerships-desc">Digital marketing has evolved. Your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. From search to social to emails, we make your brand impossible to miss and turn attention into enquiries.</p>
+            <h2 class="platform-partnerships-title">Dominate Every Digital Touchpoint with BrandStory</h2>
+            <p class="platform-partnerships-desc">Modern audience engagement requires a unified strategy. Your customers are already searching on Google, scrolling through Meta, and making business decisions on LinkedIn. From search to social to emails, we make your brand impossible to miss and turn attention into enquiries.</p>
         </div>
 
         <!-- Two Column Interactive Tabs -->
@@ -1561,166 +1714,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-
-
-  <section class="premium-why-choose-section">
-    <div class="container">
-        <h2 class="premium-why-choose-title">What Sets Us Apart as a Leading <br>Digital Marketing Company in Dubai</h2>
-        
-        <div class="premium-why-choose-grid">
-            <!-- Card 1 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Expertise in Dubai’s Digital Scene</h3>
-                <p class="why-card-desc">We don't just work in Dubai- we live it. From understanding the city's competitive landscape to knowing its consumers inside out, we craft ROI-driven digital marketing strategies built specifically for Dubai's local businesses, online retailers, and industries like hospitality, real estate, healthcare, and more.</p>
-            </div>
-            
-            <!-- Card 2 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Expert Team with Zen Precision</h3>
-                <p class="why-card-desc">Our top-of-the-line experts ensure relevance, precision, and ROI-driven performance at every stage. Business-specific digital marketing strategies based on the target audience, business objectives, and long-term brand growth.</p>
-            </div>
-            
-            <!-- Card 3 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Performance Backed by Proven Results</h3>
-                <p class="why-card-desc">Successfully executed 200+ digital marketing (SEO, PPC, Email Marketing, Performance Marketing) campaigns across various industries. From boosting lead generation to doubling ROI, each strategy is focused on driving client success.</p>
-            </div>
-            
-            <!-- Card 4 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">Data-Driven Decision Making</h3>
-                <p class="why-card-desc">Actionable decisions based on real performance data and results, not assumptions. Every insight fuels improvement, ensuring campaigns stay aligned with evolving market trends and real business needs.</p>
-            </div>
-            
-            <!-- Card 5 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">End-to-End Support</h3>
-                <p class="why-card-desc">From strategy mankind to campaign planning and execution, we keep you informed at every stage. Dedicated support and feedback ensure your digital marketing campaigns run smoothly and deliver optimal results.</p>
-            </div>
-            
-            <!-- Card 6 -->
-            <div class="premium-why-card">
-                <h3 class="why-card-title">In-depth and Transparent Reporting</h3>
-                <p class="why-card-desc">In-depth and transparent reports to give you full visibility into campaign effectiveness and ROI. Data-driven recommendations turn those insights into strategic and precise actions that drive consistent growth.</p>
-            </div>
-        </div>
-        
-        <!-- Large Office Image Banner -->
-        <div class="premium-why-bottom-banner">
-            <img class="img-fluid" src="<?= base_url('assets/images/bg-4r.webp') ?>" alt="Our Office Workspace" loading="lazy" decoding="async" >
-        </div>
-    </div>
-</section>
-
-<section class="premium-badges-section">
-    <div class="container">
-        <div class="premium-badges-grid">
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/clutch-01.webp') ?>" alt="Clutch Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/truestpilot-01.webp') ?>" alt="Trustpilot Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/sortlist-01.webp') ?>" alt="Sortlist Rating Badge" class="sortlist-badge-img" loading="lazy" decoding="async">
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/goodfirms-01.webp') ?>" alt="GoodFirms Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/digitalmarketing-01.webp') ?>" alt="Digital Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
-            </div>
-            <div class="premium-badge-cell">
-                <img src="<?= base_url('assets/images/marketing-agencies-01.webp.webp') ?>" alt="Marketing Agencies Rating Badge" loading="lazy" decoding="async" >
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- <section class="premium-partner-banner-section">
-    <div class="container">
-        <div class="partner-banner-card">
-            <div class="partner-banner-content">
-                <h2 class="partner-banner-title">Your Local Digital Marketing Partner in Dubai, Abu Dhabi &amp; Sharjah</h2>
-                <p class="partner-banner-desc">BrandStory is a Dubai-focused digital marketing agency serving businesses across Dubai Marina, Business Bay, Downtown Dubai, JLT, Abu Dhabi, Sharjah, and the wider UAE. Our local market understanding enables campaigns aligned with regional search behavior and buying intent, supporting seamless <a href="/" class="partner-banner-link">digital transformation in Dubai</a>.</p>
-            </div>
-            <div class="partner-stats-grid">
-                <div class="partner-stat-item">
-                    <div class="partner-stat-number">13+</div>
-                    <div class="partner-stat-label">Years of Experience</div>
-                </div>
-                <div class="partner-stat-item">
-                    <div class="partner-stat-number">500+</div>
-                    <div class="partner-stat-label">Marketing &amp; Tech Experts</div>
-                </div>
-                <div class="partner-stat-item">
-                    <div class="partner-stat-number">AED150M+</div>
-                    <div class="partner-stat-label">Ad Spend Managed</div>
-                </div>
-                <div class="partner-stat-item">
-                    <div class="partner-stat-number">4.5x</div>
-                    <div class="partner-stat-label">Average Client ROI</div>
-                </div>
-                <div class="partner-stat-item">
-                    <div class="partner-stat-number">92%</div>
-                    <div class="partner-stat-label">Client Retention Rate</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="premium-organic-cta-section">
-    <div class="container">
-        <div class="organic-cta-card">
-            <div class="organic-cta-content">
-                <h2 class="organic-cta-title">Every Day Your Business Remains <br class="d-none d-md-inline">Invisible in Search, You Lose Customers</h2>
-                <p class="organic-cta-desc">If your brand isn’t ranking, you’re losing high-intent customers to competitors every day. Partner with our organic-first digital marketing agency in Dubai to build search authority, generate qualified leads, and create long-term growth.</p>
-                <div class="organic-cta-action">
-                    <a href="javascript:void(0);" class="organic-cta-btn uniq-contact-lead-btn">
-                        <span>Start Driving Organic Revenue Now</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="organic-cta-arrow" aria-hidden="true">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="organic-cta-wave-wrap" aria-hidden="true">
-                <svg class="organic-cta-wave" viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="orgWaveGrad1" x1="100%" y1="100%" x2="0%" y2="0%">
-                            <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.85" />
-                            <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.5" />
-                            <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
-                        </linearGradient>
-                        <linearGradient id="orgWaveGrad2" x1="100%" y1="100%" x2="0%" y2="0%">
-                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75" />
-                            <stop offset="60%" stop-color="#c084fc" stop-opacity="0.45" />
-                            <stop offset="100%" stop-color="#e879f9" stop-opacity="0" />
-                        </linearGradient>
-                    </defs>
-                    <path d="M500 240C420 220 370 180 380 140C390 100 450 120 480 160C495 180 500 200 500 240Z" fill="url(#orgWaveGrad1)" opacity="0.35" />
-                    <path d="M500 280C410 270 340 230 350 170C365 110 440 130 460 170C480 210 495 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="2.5" opacity="0.75" />
-                    <path d="M500 280C380 280 310 210 330 150C350 90 430 110 450 160C470 210 490 250 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1.8" opacity="0.8" />
-                    <path d="M500 280C360 280 290 200 310 140C330 80 410 100 430 150C450 200 480 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="1.2" opacity="0.6" />
-                    <path d="M500 280C340 280 270 190 290 130C310 70 390 90 410 140C430 190 470 240 500 280Z" stroke="url(#orgWaveGrad2)" stroke-width="1" opacity="0.5" />
-                    <path d="M500 280C320 280 250 180 270 120C290 60 370 80 390 130C410 180 460 240 500 280Z" stroke="url(#orgWaveGrad1)" stroke-width="0.8" opacity="0.4" />
-                </svg>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="premium-adspend-banner-section">
     <div class="container">
         <div class="adspend-banner-card">
             <div class="adspend-banner-overlay"></div>
             <div class="adspend-banner-content">
                 <h2 class="adspend-banner-title">
-                    <span class="adspend-title-light">Online ad spending in the UAE is projected to cross</span>
-                    <span class="adspend-title-main"><strong>AED 1.5 billion by 2026!-</strong> Are You Ready to Win Your Shares?</span>
+                    <span class="adspend-title-light">UAE Online Consumer Spending is Projected to Cross</span>
+                    <span class="adspend-title-main">AED 42 Billion by 2027!- Are You Ready to Claim Your Revenue?</span>
                 </h2>
-                <p class="adspend-banner-desc">Partner with our performance-first digital marketing Dubai agency and claim your share of the market!</p>
+                <p class="adspend-banner-desc">Partner with Dubai’s leading digital growth agency to dominate online visibility, capture high-intent buyers, and turn that demand into revenue.</p>
                 <div class="adspend-banner-action">
                     <a href="javascript:void(0);" class="adspend-banner-btn uniq-contact-lead-btn">
                         <span>Schedule a Free Call!</span>
@@ -1732,8 +1735,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </div>
-</section> -->
-
+</section>
 
 
 <section class="premium-social-feed-section">
@@ -2045,7 +2047,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>-->
 <?php
 $reviewSection = [
-    'title' =>  "What Our Clients Say About Us",
+    'title' =>  "What Our Clients Say About BrandStory",
     'bgClass' => 'bg-black', // optional custom class
 ];
 include __DIR__ . '/component/client_reviews.php';
@@ -2680,7 +2682,7 @@ include __DIR__ . '/component/client_reviews.php';
                 Grow Traffic. Build Engagement. Amplify Results. With BrandStory
             </h2>
             <p class="new-cta-footer-text">
-                Digital marketing today is no longer just a support tool – it is the backbone of your business growth.
+                Digital marketing today is no longer just a support tool- it is the backbone of your business growth.
                 At BrandStory, we believe every business should have a digital transformation strategy that is bold,
                 unique, innovative, and performance-driven. As Dubai’s premier marketing partner for 100+ local and
                 global brands, we craft campaigns that go beyond visibility and drive real business value.
