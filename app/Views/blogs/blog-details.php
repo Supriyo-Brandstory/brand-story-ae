@@ -52,8 +52,11 @@
         position: relative;
         z-index: 2;
     }
-
-    .hero-image-wrap img {
+    .main-content-section img {
+        width: 100% !important;
+        height: auto !important;
+    }
+        .hero-image-wrap img {
         border-radius: 20px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         height: 330px;
