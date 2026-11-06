@@ -123,7 +123,7 @@ $auditResults = $auditResults ?? [];
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         padding: 5px 12px;
         border-radius: 100px;
@@ -157,7 +157,7 @@ $auditResults = $auditResults ?? [];
 
     /* Left Box Form Elements */
     .sitemap-label {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: rgba(255, 255, 255, 0.85);
         text-transform: uppercase;
@@ -207,7 +207,7 @@ $auditResults = $auditResults ?? [];
         color: #ffffff;
         padding: 13px 16px;
         border-radius: 12px;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 500;
         transition: all 0.2s ease;
         outline: none;
@@ -230,7 +230,7 @@ $auditResults = $auditResults ?? [];
         align-items: center;
         gap: 10px;
         color: rgba(255, 255, 255, 0.7);
-        font-size: 14px;
+        font-size: 16px;
         cursor: pointer;
         user-select: none;
     }
@@ -286,7 +286,7 @@ $auditResults = $auditResults ?? [];
         display: flex;
         align-items: center;
         gap: 8px;
-        font-size: 13px;
+        font-size: 16px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -294,7 +294,7 @@ $auditResults = $auditResults ?? [];
 
     .crawler-meta-label {
         color: rgba(255, 255, 255, 0.6);
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 500;
         flex-shrink: 0;
     }
@@ -309,7 +309,7 @@ $auditResults = $auditResults ?? [];
     .crawler-meta-path {
         color: #38bdf8;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 13px;
+        font-size: 16px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -406,7 +406,7 @@ $auditResults = $auditResults ?? [];
     }
 
     .sm-breakdown-val {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 800;
         line-height: 1.1;
     }
@@ -419,7 +419,7 @@ $auditResults = $auditResults ?? [];
 
     .sm-time-remaining {
         text-align: center;
-        font-size: 13px;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.65);
         margin-bottom: 15px;
     }
@@ -432,7 +432,7 @@ $auditResults = $auditResults ?? [];
         background: rgba(255, 255, 255, 0.08);
         color: rgba(255, 255, 255, 0.85);
         border: 1px solid rgba(255, 255, 255, 0.15);
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         padding: 8px 22px;
         border-radius: 10px;
@@ -457,7 +457,7 @@ $auditResults = $auditResults ?? [];
         border-radius: 12px;
         padding: 10px 14px;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 13px;
+        font-size: 16px;
         max-height: 150px;
         overflow-y: auto;
     }
@@ -529,7 +529,7 @@ $auditResults = $auditResults ?? [];
 
     .sm-idle-desc {
         color: rgba(255, 255, 255, 0.55);
-        font-size: 14px;
+        font-size: 16px;
         max-width: 380px;
         line-height: 1.5;
         margin: 0 auto;
@@ -550,7 +550,7 @@ $auditResults = $auditResults ?? [];
     }
 
     .sm-success-ribbon span {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         color: #4ade80;
         display: flex;
@@ -566,7 +566,7 @@ $auditResults = $auditResults ?? [];
         max-height: 180px;
         overflow-y: auto;
         font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .sm-audit-results-box::-webkit-scrollbar {
@@ -586,7 +586,7 @@ $auditResults = $auditResults ?? [];
     .sm-action-btn {
         padding: 12px 16px;
         border-radius: 12px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         display: inline-flex;
         align-items: center;
@@ -648,7 +648,7 @@ $auditResults = $auditResults ?? [];
         color: var(--sm-primary);
         border: 1px solid rgba(232, 58, 38, 0.2);
         border-radius: 100px;
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.6px;
@@ -687,7 +687,7 @@ $auditResults = $auditResults ?? [];
         display: flex;
         align-items: center;
         gap: 10px;
-        font-size: 15px;
+        font-size: 16px;
         color: #334155;
     }
 
@@ -734,7 +734,7 @@ $auditResults = $auditResults ?? [];
         border: 1px solid #e2e8f0;
         padding: 8px 20px;
         border-radius: 100px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: #475569;
     }
@@ -804,7 +804,7 @@ $auditResults = $auditResults ?? [];
         display: flex;
         align-items: flex-start;
         gap: 12px;
-        font-size: 14px;
+        font-size: 16px;
         color: #475569;
         line-height: 1.5;
         padding-bottom: 12px;
@@ -841,14 +841,14 @@ $auditResults = $auditResults ?? [];
         background: #0f172a;
         color: #ffffff;
         padding: 16px 22px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         border: none;
     }
 
     .sm-table td {
         padding: 16px 22px;
-        font-size: 14px;
+        font-size: 16px;
         color: #334155;
         border-bottom: 1px solid #f1f5f9;
         vertical-align: middle;
@@ -912,7 +912,7 @@ $auditResults = $auditResults ?? [];
     }
 
     .sm-trust-stat-label {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         color: #64748b;
         text-transform: uppercase;
@@ -944,7 +944,7 @@ $auditResults = $auditResults ?? [];
     }
 
     .sm-review-quote {
-        font-size: 14px;
+        font-size: 16px;
         color: #334155;
         line-height: 1.7;
         margin-bottom: 24px;
@@ -970,11 +970,11 @@ $auditResults = $auditResults ?? [];
         font-weight: 700;
         color: #0f172a;
         margin-bottom: 2px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .sm-author-info p {
-        font-size: 13px;
+        font-size: 16px;
         color: #64748b;
         margin-bottom: 0;
     }
@@ -2178,9 +2178,9 @@ $auditResults = $auditResults ?? [];
                     </p>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a href="tel:+971522858895" class="sm-cta-btn">
+                    <a href="tel:++971522831655" class="sm-cta-btn">
                         <i class="ion-ios-telephone"></i>
-                        <span>Call +971 52 285 8895</span>
+                        <span>Call +971 52 283 1655</span>
                     </a>
                 </div>
             </div>
