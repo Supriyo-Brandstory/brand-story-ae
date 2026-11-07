@@ -440,11 +440,6 @@ Route::group(['prefix' => '/tools'], function () {
     Route::post('/http-status-checker/bulk', 'FrontendController@httpStatusCheckBulk', 'http-status-checker.bulk');
     Route::post('/http-status-checker/fetch-sitemap', 'FrontendController@fetchSitemapUrls', 'http-status-checker.fetch-sitemap');
 
-    // Video Downloader
-    Route::get('/video-downloader', 'FrontendController@videoDownloader', 'video-downloader');
-    Route::post('/video-downloader/fetch', 'FrontendController@videoDownloaderFetch', 'video-downloader.fetch');
-    Route::get('/video-downloader/proxy', 'FrontendController@videoDownloaderProxy', 'video-downloader.proxy');
-
     // Image Alt Text Finder
     Route::get('/image-alt-text-finder', 'FrontendController@imageAltTextFinder', 'image-alt-text-finder');
     Route::post('/image-alt-text-finder/fetch', 'FrontendController@imageAltTextFinderFetch', 'image-alt-text-finder.fetch');

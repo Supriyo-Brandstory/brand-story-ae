@@ -98,28 +98,6 @@
                     </a>
                 </div>
 
-                <!-- Video Downloader -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <a href="<?= route('video-downloader') ?>" class="cyber-tool-card video-card">
-                        <div class="card-inner">
-                            <div class="card-glow" style="background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(232, 58, 38, 0.15), transparent 40%);"></div>
-                            <div class="card-content p-4">
-                                <div class="tool-meta mb-3">
-                                    <div class="icon-hex-sm" style="background: linear-gradient(135deg, #e83a26 0%, #c0271a 100%);">
-                                        <i class="ion-social-youtube"></i>
-                                    </div>
-                                    <span class="tech-tag">MEDIA PROXY</span>
-                                </div>
-                                <h4 class="tool-title-sm">Video Downloader</h4>
-                                <p class="tool-desc-sm">High-speed media extraction for YouTube, Instagram, and Facebook with zero redirects.</p>
-                                <div class="tool-action-sm">
-                                    <span class="action-btn-sm">GET VIDEO <i class="ion-android-arrow-forward"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
                 <!-- Image Alt Text Finder -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <a href="<?= route('image-alt-text-finder') ?>" class="cyber-tool-card alt-card">

@@ -74,8 +74,6 @@ $commands = [
     'admin:seed' => 'SeedAdminCommand',
     'cache:clean' => 'CacheCleanCommand',
     'backup:run' => 'BackupCommand',
-    'videodownloader:install' => 'VideoDownloaderInstall',
-    'videodownloader:update' => 'VideoDownloaderInstall',
     // Add other commands here
 ];
 
