@@ -2758,6 +2758,77 @@ include __DIR__ . '/component/client_reviews.php';
     </div>
 </section>
 
+<?php
+
+// $title      = "Our Exclusive Creators";
+// $titleColor = "white"; // ব্ল্যাক পেজে টাইটেল পরিষ্কার দেখতে 'white' দিন
+// $variant    = "black"; // হোয়াইট কার্ড হবে
+
+// $influencers = [
+//     [
+//         'name'           => 'Sarah & Omar',
+//         'tagline'        => 'Lifestyle & Food Bloggers',
+//         'location'       => 'Dubai, UAE',
+//         'avatar'         => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
+//         'verified'       => true,
+//         'followers'      => '1.2M',
+//         'avg_views'      => '3.5M',
+//         'engagement_rate'=> '2.45%',
+//         'collabs'        => [
+//             ['name' => 'Nike', 'label' => 'Nike', 'bg' => '#111', 'color' => '#fff'],
+//             ['name' => 'Dior', 'label' => 'CD', 'bg' => '#000', 'color' => '#fff']
+//         ]
+//     ],
+//     [
+//         'name'=>'Lia',
+//         'tagline'=>'Travel & Lifestyle Blogger',
+//         'location'=>'Dubai, UAE',
+//         'avatar'=>'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
+//         'verified'=>true,
+//         'followers'=>'1.2M',
+//         'avg_views'=>'3.5M',
+//         'engagement_rate'=>'2.45%',
+//         'collabs'=>[
+//             ['name'=>'Nike','label'=>'Nike','bg'=>'#111','color'=>'#fff'],
+//             ['name'=>'Dior','label'=>'CD','bg'=>'#000','color'=>'#fff']
+//         ]
+//     ]
+// ];
+
+// include __DIR__ . '/component/influencer_card.php';
+?>
+<!-- [influencer-list title="Our Exclusive Creators" variant="black" titleColor="white"]
+[
+    {
+        "name": "Sarah & Omar",
+        "tagline": "Lifestyle & Food Bloggers",
+        "location": "Dubai, UAE",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+        "verified": true,
+        "followers": "1.2M",
+        "avg_views": "3.5M",
+        "engagement_rate": "2.45%",
+        "collabs": [
+            {"name": "Nike", "label": "Nike", "bg": "#111", "color": "#fff"},
+            {"name": "Dior", "label": "CD", "bg": "#000", "color": "#fff"}
+        ]
+    },
+    {
+        "name": "Lia",
+        "tagline": "Travel & Lifestyle Blogger",
+        "location": "Dubai, UAE",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+        "verified": true,
+        "followers": "1.2M",
+        "avg_views": "3.5M",
+        "engagement_rate": "2.45%",
+        "collabs": [
+            {"name": "Nike", "label": "Nike", "bg": "#111", "color": "#fff"},
+            {"name": "Dior", "label": "CD", "bg": "#000", "color": "#fff"}
+        ]
+    }
+]
+[/influencer-list] -->
 
 
 <script>

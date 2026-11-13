@@ -3987,4 +3987,14 @@ class FrontendController extends Controller
         echo json_encode($blogs);
         exit;
     }
+
+    public function influencerList()
+    {
+        $meta = [
+            'classname' => 'em-dubai-page service-pages',
+            'title' => 'Influencer List & Creator Discovery | BrandStory UAE',
+            'description' => 'Browse verified top influencers in Dubai, UAE and India across luxury travel, lifestyle, tech, and automotive.'
+        ];
+        return $this->view('tools/influencer-showcase', ['meta' => $meta]);
+    }
 }
