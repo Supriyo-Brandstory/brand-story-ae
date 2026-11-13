@@ -320,6 +320,16 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     display: block;
 }
+.influencer_card_avatar_link {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.influencer_card_avatar_link:hover {
+    opacity: 0.92;
+    transform: scale(1.03);
+}
 .influencer_card_verified_badge {
     position: absolute;
     bottom: -1px;
@@ -348,6 +358,20 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.influencer_card_name_link {
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+.influencer_card_name_link:hover {
+    text-decoration: underline !important;
+}
+.influencer_card_white .influencer_card_name_link:hover {
+    color: #2563eb !important;
+}
+.influencer_card_black .influencer_card_name_link:hover {
+    color: #38bdf8 !important;
 }
 .influencer_card_tagline {
     font-size: 13.5px;
@@ -503,12 +527,25 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
                     <div class="influencer_card_card <?= htmlspecialchars($cardThemeClass) ?>" id="<?= htmlspecialchars($inf['id'] ?? uniqid('inf-')) ?>">
                         
                         <!-- Top Profile Info -->
+                        <?php 
+                        $profileUrl = !empty($inf['url']) ? $inf['url'] : (!empty($inf['link']) ? $inf['link'] : (!empty($inf['profile_url']) ? $inf['profile_url'] : null)); 
+                        $linkTarget = !empty($inf['target']) ? $inf['target'] : (isset($inf['new_tab']) && $inf['new_tab'] ? '_blank' : '_self');
+                        ?>
                         <div class="influencer_card_profile_top">
                             <div class="influencer_card_avatar_wrapper">
-                                <img src="<?= htmlspecialchars($inf['avatar'] ?? '') ?>" 
-                                     alt="<?= htmlspecialchars($inf['name'] ?? 'Influencer') ?>" 
-                                     class="influencer_card_avatar" 
-                                     loading="lazy">
+                                <?php if ($profileUrl): ?>
+                                    <a href="<?= htmlspecialchars($profileUrl) ?>" class="influencer_card_avatar_link" target="<?= htmlspecialchars($linkTarget) ?>">
+                                        <img src="<?= htmlspecialchars($inf['avatar'] ?? '') ?>" 
+                                             alt="<?= htmlspecialchars($inf['name'] ?? 'Influencer') ?>" 
+                                             class="influencer_card_avatar" 
+                                             loading="lazy">
+                                    </a>
+                                <?php else: ?>
+                                    <img src="<?= htmlspecialchars($inf['avatar'] ?? '') ?>" 
+                                         alt="<?= htmlspecialchars($inf['name'] ?? 'Influencer') ?>" 
+                                         class="influencer_card_avatar" 
+                                         loading="lazy">
+                                <?php endif; ?>
                                 <?php if (!empty($inf['verified'])): ?>
                                     <span class="influencer_card_verified_badge" title="Verified Creator">
                                         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -516,7 +553,15 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
                                 <?php endif; ?>
                             </div>
                             <div class="influencer_card_name_group">
-                                <h3 class="influencer_card_name"><?= htmlspecialchars($inf['name'] ?? '') ?></h3>
+                                <h3 class="influencer_card_name">
+                                    <?php if ($profileUrl): ?>
+                                        <a href="<?= htmlspecialchars($profileUrl) ?>" class="influencer_card_name_link" target="<?= htmlspecialchars($linkTarget) ?>">
+                                            <?= htmlspecialchars($inf['name'] ?? '') ?>
+                                        </a>
+                                    <?php else: ?>
+                                        <?= htmlspecialchars($inf['name'] ?? '') ?>
+                                    <?php endif; ?>
+                                </h3>
                                 <?php if (!empty($inf['tagline'])): ?>
                                     <p class="influencer_card_tagline"><?= htmlspecialchars($inf['tagline']) ?></p>
                                 <?php endif; ?>
