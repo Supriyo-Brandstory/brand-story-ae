@@ -454,6 +454,11 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
   .influencer_card_container {
           padding: 40px 24px ;
 }
+.influencer_card_title {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
 
 }
 
