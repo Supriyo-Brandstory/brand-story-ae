@@ -452,8 +452,7 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
 }
 @media (max-width: 767px) {
   .influencer_card_container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+          padding: 40px 24px ;
 }
 
 }
