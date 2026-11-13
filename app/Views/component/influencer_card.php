@@ -126,7 +126,6 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
  * No external Bootstrap classes used!
  * ============================================================== */
 .influencer_card_wrapper {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     position: relative;
     width: 100%;
     box-sizing: border-box;
@@ -138,8 +137,8 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     box-sizing: border-box;
 }
 
@@ -182,8 +181,8 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
     box-sizing: border-box;
 }
 .influencer_card_title {
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 48px;
+    font-weight: 500;
     letter-spacing: -0.6px;
     margin: 0;
 }
@@ -451,6 +450,13 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
 .influencer_card_btn_contact:hover {
     transform: translateY(-1px);
 }
+@media (max-width: 767px) {
+  .influencer_card_container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+}
 
 @media (max-width: 575px) {
     .influencer_card_card {
@@ -470,6 +476,7 @@ $cardThemeClass    = $isBlackCard ? 'influencer_card_black' : 'influencer_card_w
         justify-content: center;
         width: 100%;
     }
+    
 }
 </style>
 
