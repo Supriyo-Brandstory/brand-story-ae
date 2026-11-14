@@ -329,6 +329,7 @@ Route::get('/testimonials', 'FrontendController@testimonials', 'testimonials');
 Route::get('/search-everywhere-service', 'FrontendController@searchEverywhereService', 'searcheverywhereservice');
 
 
+Route::get('/influencer-list', 'FrontendController@influencerlist', 'influencer-list');
 
 
 
@@ -444,6 +445,5 @@ Route::group(['prefix' => '/tools'], function () {
     Route::get('/image-alt-text-finder', 'FrontendController@imageAltTextFinder', 'image-alt-text-finder');
     Route::post('/image-alt-text-finder/fetch', 'FrontendController@imageAltTextFinderFetch', 'image-alt-text-finder.fetch');
 });
-
 // Dynamic Page Routing - Catch-all for slug at root (supports sub-paths with *)
 Route::get('/{slug*}', 'FrontendController@dynamicPage', 'page.dynamic');
