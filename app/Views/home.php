@@ -5,11 +5,10 @@
             style="background-image: url('<?= base_url('assets/images/email/banner02.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title">Top-rated <span class="premium-purple-highlight">Digital
-                            Marketing</span> Consulting Agency in Dubai</h1>
-                    <p class="premium-slide-subtitle">We are a trusted digital marketing partner in Dubai for
-                        <strong>950+ businesses</strong>, helping SMEs and enterprises drive consistent digital growth
-                        with precision.
+                    <h1 class="premium-slide-title">The Best <span class="premium-purple-highlight">Digital
+                            Marketing <br>Agency</span> in Dubai, UAE</h1>
+                    <p class="premium-slide-subtitle">We are a trusted digital marketing partner for
+                        <strong>950+ Businesses</strong> in Dubai, helping brands drive scalable Digital Growth with Marketing, Creativity, and Advanced Tech.
                     </p>
                     <div class="premium-slide-actions">
                         <a href="javascript:void(0);" class="premium-pill-btn uniq-contact-lead-btn">
@@ -29,11 +28,9 @@
         <div class="premium-slide" style="background-image: url('<?= base_url('assets/images/banner03.webp') ?>');">
             <div class="container">
                 <div class="premium-slide-content">
-                    <h1 class="premium-slide-title">Empowering Businesses to Dominate with <span
-                            class="premium-purple-highlight">Digital Marketing</span></h1>
-                    <p class="premium-slide-subtitle">Established in 2012, BrandStory delivers industry-leading digital
-                        marketing services in Dubai, UAE, backed by <strong>100+ experts</strong> driving real digital
-                        growth.</p>
+                    <h1 class="premium-slide-title">ROI-Focused <span
+                            class="premium-purple-highlight">Growth Marketing </span><br>for Dubai’s Premier Brands</h1>
+                    <p class="premium-slide-subtitle">Established in 2012, BrandStory provides full-funnel Digital Marketing Services in Dubai, UAE, backed by <strong>100+ Experts</strong> and deep Local Marketing Expertise.</p>
                     <div class="premium-slide-actions">
                         <a href="/case-study/" class="premium-pill-btn">
                             <span>Explore Portfolio</span>
